@@ -1,6 +1,6 @@
 {
- "total": 981,
- "shown": 981,
+ "total": 985,
+ "shown": 985,
  "limit": 1000,
  "bands": [
   {
@@ -38260,8 +38260,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 8,
-   "shown": 8,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "Foundry Group",
@@ -38304,16 +38304,40 @@
      "rank": 979
     },
     {
+     "name": "Qualtera",
+     "slug": "qualtera",
+     "description": "Qualtera was a French software company, founded in 2010 and backed by Serena, that built high-volume big data analytics platforms for semiconductor test and manufacturing — giving IDMs, foundries and OSATs real-time observability, traceability and production control over test and assembly data across worldwide operations, processing the data of tens of millions of wafers and billions of parts a year. Its products included SiliconDash, an automated decision-support system for test, quality and yield analysis. Synopsys acquired Qualtera on June 10, 2020 and folded its analytics into Yield Explorer and TestMAX, which now ship as part of the Synopsys Silicon Lifecycle Management family. The Qualtera brand and any surface it once had are gone: qualtera.com now resolves to Synopsys nameservers and 301-redirects every path to the Synopsys Silicon Lifecycle Management marketing page, and the host refuses a TLS handshake on port 443 entirely. Qualtera never published a public developer portal, API reference, OpenAPI definition, SDK or package on any registry, and no machine-readable contract survives under its own name. This profile is retained as a historical record; the live analytics API surface, where one exists, belongs to Synopsys and is profiled there rather than credited here.",
+     "rank": 980
+    },
+    {
+     "name": "RSI Video Technologies",
+     "slug": "rsi-video-technologies",
+     "description": "RSI Video Technologies was a St. Paul, Minnesota maker of wireless, battery-powered intrusion detection devices with built-in cameras, sold worldwide under the Videofied brand, together with the Frontel receiver software that delivered alarm events and short video clips to professional central monitoring stations. Honeywell acquired the company for approximately USD 123 million in March 2016, and the Videofied product line moved to Resideo Technologies when Honeywell spun out its Homes business in 2018. RSI Video Technologies no longer operates as an independent company: its own domains either do not resolve or redirect into Resideo and Honeywell Home marketing pages, and it publishes no developer program, documentation or machine-readable API contract of its own. Any current developer surface for Videofied hardware belongs to Resideo and is profiled separately in the API Evangelist network as resideo-technologies.",
+     "rank": 981
+    },
+    {
+     "name": "Sequans",
+     "slug": "sequans",
+     "description": "Sequans Communications S.A. (NYSE: SQNS) is a fabless semiconductor company founded in 2003 and headquartered in Paris, France, designing and supplying 5G and 4G cellular IoT chips and modules. Its massive-IoT portfolio is built on the Monarch LTE-M/NB-IoT and Calliope Cat 1bis platforms, and its broadband-IoT portfolio on the Cassiopeia Cat 4/Cat 6 and Taurus 5G platforms, alongside the Iris software-defined RF transceiver and licensable silicon and software IP. Sequans sells chips, modules and IP to device makers rather than a developer-facing web API: its technical documentation, firmware, SDKs and AT-command references are distributed through the my.sequans.com support zone and the download.sequans.com customer portal, both of which require an account. The only anonymously reachable machine-readable surfaces on sequans.com are the WordPress REST API behind the corporate site and a WordPress MCP Adapter server advertised through RFC 8414 / RFC 9728 OAuth discovery documents.",
+     "rank": 982
+    },
+    {
+     "name": "Shadow",
+     "slug": "shadow",
+     "description": "Shadow is a French cloud computing company founded in 2015, launched commercially in 2016, and chaired by OVHcloud founder Octave Klaba. It streams complete high-end Windows desktops (Shadow PC, Shadow PC Pro), sells Nextcloud-based storage as Shadow Drive, and sells sovereign GPU compute as Shadow GPU — an OpenStack 2024.1 platform running across seven regions in France, Germany, the United States and Canada. Shadow GPU is programmable only through the standard OpenStack API: a Keystone v3.14 identity endpoint answers anonymously at https://auth.<region>.os.shadow.tech/v3, fronting Nova (compute), Neutron and Octavia (networking / load balancing), Designate (DNS), Cinder and Glance (storage and images), Placement, Barbican (secrets), CloudKitty (rating) and the Skyline / Horizon dashboards, driven with the upstream openstack CLI, Terraform, Ansible, Pulumi or Cluster API. Shadow publishes no OpenAPI, AsyncAPI, first-party SDK, MCP server or A2A agent card of its own.",
+     "rank": 983
+    },
+    {
      "name": "Spark Capital",
      "slug": "spark-capital",
      "description": "Spark Capital is a multi-stage venture capital firm founded in 2005 by Paul Conway, Santo Politi, Todd Dagres, and Bijan Sabet, with offices in San Francisco, New York, and Boston. Spark is a generalist firm that partners with founders from seed through growth across consumer internet, enterprise software, artificial intelligence, gaming, crypto, fintech, infrastructure, hardware and semiconductors, life sciences, aerospace, and the future of work. The firm invests from a family of early-stage funds (most recently a $700M fund in 2024) and dedicated growth funds (most recently a $1.4B fund in 2024), and press reports have placed its assets under management in the range of $12-15 billion. Spark first became widely known for leading Twitter's Series B in 2008 and has since backed a run of defining companies including Slack, Discord, Snap, Coinbase, Affirm, Plaid, Cruise, Oculus, Scale AI, Ramp, Deel, and Anthropic, whose Series C investment the firm turned into one of venture's largest recent markups. Spark rebranded in 2020 with design studio Pentagram around its distinctive dog-themed identity, and publishes a curated set of portfolio companies rather than a full list.",
-     "rank": 980
+     "rank": 984
     },
     {
      "name": "True Ventures",
      "slug": "true-ventures",
      "description": "True Ventures is an early-stage venture capital firm founded in 2006 by Jon Callaghan and Phil Black and headquartered in Palo Alto / San Francisco, California. Operating under a \"first to believe\" thesis, True writes the initial institutional check and stays invested through every subsequent stage of a company's journey, concentrating on pre-seed, seed, and Series A rounds with check sizes reported in the roughly $500K-$15M range. The firm invests broadly across technology and founder-led categories including software and developer infrastructure, consumer products and internet, healthcare and life sciences, hardware and robotics, climate and energy, security, and AI. With more than $3.8B in committed capital, True has backed 1,050+ founders across 500+ companies since inception, with notable early checks into Fitbit, Peloton, Ring, Automattic/WordPress, HashiCorp, Duo Security, Sweetgreen, Bluesky, and Splice. True is known for its founder-first platform, the True University founder camps, and long-term conviction-led early ownership.",
-     "rank": 981
+     "rank": 985
     }
    ]
   }

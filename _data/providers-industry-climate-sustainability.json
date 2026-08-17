@@ -1,5 +1,5 @@
 {
- "total": 1016,
+ "total": 1018,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -30101,9 +30101,9 @@
      "rank": 726
     },
     {
-     "name": "Riverse",
+     "name": "Rainbow",
      "slug": "riverse",
-     "description": "Riverse (linked property rainbowstandard.io / Rainbow Standard) is a carbon credit certification platform and registry that issues high-integrity carbon credits from carbon removal and greenhouse-gas reduction projects. Its methodologies span biogas, biomass, battery recycling, and other engineered decarbonization pathways, with credits approved under ICVCM Core Carbon Principles and endorsed by ICROA. The public surface is a policy, methodology, and procedure documentation site for project developers; no public developer API, OpenAPI specification, SDK, or webhook surface was found during enrichment.",
+     "description": "Rainbow — formerly Riverse, whose riverse.io domain now 301s to rainbowstandard.io — is a carbon crediting programme and registry that certifies and issues Rainbow Carbon Credits (RCCs) from engineered carbon removal and greenhouse-gas reduction projects across biochar, BiCRS/BioCCS, enhanced rock weathering, ex-situ mineralization, biogas from anaerobic digestion, biobased construction materials, battery second life and electronics refurbishment. The programme is ICVCM Core-Carbon-Principles approved, ICROA endorsed, approved as a Frontier credit issuer, and runs EU CRCF-compliant plus CORSIA and Paris Agreement Article 6 crediting tracks. It operates two platforms: Arc (arc.rainbowstandard.io), the project-developer certification and MRV platform launched October 2025, and the public Rainbow Registry (registry.rainbowstandard.io) where every project, credit block, serial number and retirement is published. Its public surface is a 163-page GitBook documentation hub of standard rules, procedures, methodologies, fees and governance policies, served with a real llms.txt and a Content-Signal AI-usage declaration. No OpenAPI, AsyncAPI, GraphQL SDL, SDK, MCP server or A2A agent card is served on any Rainbow host; the only public acknowledgement that an API exists at all is a single line in the published fee schedule confirming that API connections carry no additional cost.",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -40834,7 +40834,7 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 29,
+   "count": 31,
    "shown": 13,
    "providers": [
     {
@@ -40912,13 +40912,13 @@
     {
      "name": "Goodvest",
      "slug": "goodvest",
-     "description": "Goodvest is a company surfaced as a portfolio company of serena and added to the API Evangelist network as a stub for enrichment. Sector: climate-tech. This profile is a lead awaiting the enrichment pipeline.",
+     "description": "Goodvest is a French mission-driven fintech (entreprise à mission) based in Paris that sells climate-aligned retail savings and investment products: an ISR assurance-vie (Goodvie, insured by Generali), a euro-fund assurance-vie (Goodlife, insured by Spirica), a Plan Épargne Retraite, a minors' contract, a green Livret d'Épargne backed by CFCAL-Banque, and a Goodvest First private-management tier covering private equity, sustainable real estate, green infrastructure and structured products. Portfolios are screened against a published seven-filter methodology aligned with the Paris Agreement — fossil-fuel exclusion, carbon-footprint and biodiversity analysis — and every unit-linked support carries EU SFDR Article 8 or Article 9 sustainability disclosures. Goodvest SAS is registered with ORIAS (20007544) as an insurance broker and non-exclusive banking intermediary, is a member of ANACOFI-CIF, and is supervised by the ACPR and the AMF. It publishes a complete public fee schedule (0% entry, exit, arbitrage and performance fees) but no public API, SDK, webhook surface or developer portal of any kind.",
      "rank": 999
     },
     {
-     "name": "Helios",
+     "name": "helios",
      "slug": "helios",
-     "description": "Helios is a company surfaced as a portfolio company of serena and added to the API Evangelist network as a stub for enrichment. Sector: climate-tech. This profile is a lead awaiting the enrichment pipeline.",
+     "description": "helios is a French sustainable-banking company (HELIOS SAS, Paris) offering current, Premium, joint, youth, Liberté and independent/professional accounts, a green savings passbook, sustainable life insurance and wooden or recycled-plastic Visa cards through iOS, Android and web. It is a société à mission and a certified B Corp whose promise is that no customer euro finances fossil fuels or polluting industry, and it publishes the list of transition projects it funds. helios is registered in REGAFI under 731225 as a payment services agent of OKALI, the ACPR-approved electronic money institution that services the accounts. It publishes no public API, SDK, webhook or developer portal; the one machine-readable document it serves is an llms.txt AI-usage policy.",
      "rank": 1000
     }
    ]

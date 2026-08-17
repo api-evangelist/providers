@@ -21,7 +21,13 @@
   "slug": "united-states",
   "name": "United States",
   "flag": "🇺🇸",
-  "count": 310
+  "count": 311
+ },
+ {
+  "slug": "germany",
+  "name": "Germany",
+  "flag": "🇩🇪",
+  "count": 200
  },
  {
   "slug": "australia",
@@ -30,16 +36,16 @@
   "count": 200
  },
  {
-  "slug": "germany",
-  "name": "Germany",
-  "flag": "🇩🇪",
-  "count": 199
- },
- {
   "slug": "canada",
   "name": "Canada",
   "flag": "🇨🇦",
   "count": 165
+ },
+ {
+  "slug": "france",
+  "name": "France",
+  "flag": "🇫🇷",
+  "count": 132
  },
  {
   "slug": "brazil",
@@ -52,12 +58,6 @@
   "name": "Mexico",
   "flag": "🇲🇽",
   "count": 112
- },
- {
-  "slug": "france",
-  "name": "France",
-  "flag": "🇫🇷",
-  "count": 104
  },
  {
   "slug": "japan",
@@ -117,7 +117,7 @@
   "slug": "switzerland",
   "name": "Switzerland",
   "flag": "🇨🇭",
-  "count": 24
+  "count": 25
  },
  {
   "slug": "ireland",

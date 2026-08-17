@@ -118,6 +118,20 @@ INDUSTRY_ICONS = {
 # paper-promo band above the listing on that industry's page (see
 # _includes/paper-promo.html). Emitted by the generator so the promo survives a
 # rebuild instead of being hand-added to a generated page and then wiped.
+# The Spectral report has no listing page of its own: its cohort is 1,005 real
+# public CI pipelines, not providers, so there is no roster to rank. It is
+# promoted as a SECOND paper on the two markets it actually speaks to —
+# governance tooling sits between API management and API testing.
+SPECTRAL_PAPER = {
+    "slug": "the-state-of-spectral-in-api-pipelines",
+    "title": "The State of Spectral in API Pipelines",
+    "blurb": "What 1,005 real public pipelines reveal about how teams actually "
+             "govern their APIs — and the blueprint almost none of them have reached.",
+    "price": "500",
+    "kind": "API Evangelist Trend Report",
+}
+
+
 INDUSTRY_PAPERS = {
     "artificial-intelligence": {
         "slug": "state-of-artificial-intelligence-apis",
@@ -215,6 +229,94 @@ INDUSTRY_PAPERS = {
                  "a retried request dispatches a second truck. No company here reaches 70.",
         "price": "500",
         "kind": "API Evangelist Market Report",
+    },
+    "biotechnology": {
+        "slug": "state-of-biotechnology-apis",
+        "title": "The State of Biotechnology APIs",
+        "blurb": "An industry that built three workflow languages and published zero "
+                 "workflow contracts. Biotechnology solved sequencing, orchestration and "
+                 "reproducibility for compute pipelines over twenty years, and never once "
+                 "pointed that machinery at its own interfaces.",
+        "price": "500",
+    },
+    "climate-sustainability": {
+        "slug": "state-of-climate-sustainability-apis",
+        "title": "The State of Climate, Energy and Sustainability APIs",
+        "blurb": "98% of the upper band publishes a contract — the highest rate measured "
+                 "anywhere — and it is mostly weather APIs. The software that climate "
+                 "regulation created is seventeen companies.",
+        "price": "500",
+    },
+    "creator-economy": {
+        "slug": "state-of-creator-economy-apis",
+        "title": "The State of Creator Economy APIs",
+        "blurb": "The market everyone describes as dependent on platforms turns out to be "
+                 "the one best equipped to survive them.",
+        "price": "500",
+    },
+    "gaming": {
+        "slug": "state-of-gaming-apis",
+        "title": "The State of Gaming APIs",
+        "blurb": "The product is deliberately closed and the supply chain is wide open. "
+                 "Heroic Labs scores 78.8; Take-Two scores 7.1.",
+        "price": "500",
+    },
+    "government": {
+        "slug": "state-of-government-apis",
+        "title": "The State of Government APIs",
+        "blurb": "The most consistently contract-publishing market measured anywhere in this "
+                 "research is also one of the least operable. Government did the part the "
+                 "policy named and stopped precisely there.",
+        "price": "500",
+    },
+    "human-capital-management": {
+        "slug": "state-of-human-capital-management-apis",
+        "title": "The State of HR and Workforce APIs",
+        "blurb": "This market proved it will adopt an API standard when one exists at the "
+                 "right layer. It has done that exactly once, for the narrowest problem in "
+                 "the stack.",
+        "price": "500",
+    },
+    "iot": {
+        "slug": "state-of-iot-apis",
+        "title": "The State of IoT APIs",
+        "blurb": "This market solved interoperability where devices meet networks and left "
+                 "it unsolved where customers and agents meet platforms. The best contracts "
+                 "in the research series; the lowest MCP adoption.",
+        "price": "500",
+    },
+    "mobility": {
+        "slug": "state-of-mobility-apis",
+        "title": "The State of Mobility APIs",
+        "blurb": "The best-documented market in this research is the least agent-ready one. "
+                 "Mobility built excellent interfaces for a world of scheduled integrations "
+                 "and webhooks, and that is precisely the investment that does not carry "
+                 "forward.",
+        "price": "500",
+    },
+    "space": {
+        "slug": "state-of-space-apis",
+        "title": "The State of Space and Aerospace APIs",
+        "blurb": "Forty years of machine-to-machine standards produced spacecraft that talk "
+                 "to each other across agencies and almost nothing a customer's agent can "
+                 "operate.",
+        "price": "500",
+    },
+    "telecommunications": {
+        "slug": "state-of-telecom-apis",
+        "title": "The State of Telecom APIs",
+        "blurb": "What eighty-three telecom organizations worldwide actually publish, scored "
+                 "— the industry that built a real open standard and then published 351 "
+                 "specifications with no hosts in them.",
+        "price": "500",
+    },
+    "weather-geospatial": {
+        "slug": "state-of-weather-geospatial-apis",
+        "title": "The State of Weather and Geospatial APIs",
+        "blurb": "The best-governed market in this research scores badly on an instrument "
+                 "built for agents that write. That is a finding about the instrument as "
+                 "much as the market.",
+        "price": "500",
     },
 }
 
@@ -1427,7 +1529,20 @@ def build_vcs(data_dir, delisted):
             'summary: "%d venture capital firms ranked by portfolio strength — how many of the companies they backed publish APIs that score well on the Kin Score."' % len(entries),
             "nav: Providers",
             'data_key: "providers-vcs"',
+            # Promoted here rather than by build-section-tools.py: that pass only
+            # handles listings whose data is band-grouped, and this page is a
+            # portfolio roll-up with no Kin Score of its own. It gets the promo
+            # band, and deliberately no buyer/provider tools — there is no cohort
+            # under it for them to read.
+            "papers:",
+            "  - slug: agentic-readiness-of-venture",
+            '    title: "The Agentic Readiness of Venture"',
+            '    blurb: "The twenty-five most important venture funds, ranked on one axis '
+            '— whether their portfolios are ready for agents that act."',
+            '    price: "1,500"',
+            '    kind: "API Evangelist Trend Report"',
             "---",
+            "{% include paper-promo.html %}",
             "{% include vc-listing.html %}",
             "",
         ]),
@@ -1777,13 +1892,28 @@ def main():
     BANK_SECTIONS = [
         ("uk-banks", "uk-banks-roster.json", "UK Banking",
          "UK banks and building societies ranked by their Kin Score, from the CMA9 Open Banking mandate to challengers, building societies, and private banks.",
-         None, {"tier_labels": UK_TIER_LABELS}),
+         {"slug": "state-of-uk-banking-apis", "title": "The State of UK Banking APIs",
+          "blurb":
+          "What sixty UK banks and building societies actually publish, scored — "
+          "from the CMA9 Open Banking mandate to the challengers, building "
+          "societies, and private banks around it.", "price": "500"},
+         {"tier_labels": UK_TIER_LABELS}),
         ("us-banks", "us-banks-roster.json", "US Banking",
          "US banks, credit unions, neobanks, and banking-as-a-service providers ranked by their Kin Score — from the money-center banks and the BaaS layer to the aggregators wiring the CFPB 1033 / FDX open-finance era.",
-         None, {"tier_labels": US_TIER_LABELS}),
+         {"slug": "state-of-us-banking-apis", "title": "The State of US Banking APIs",
+          "blurb":
+          "What 113 US banks, credit unions, neobanks, and banking-rails providers "
+          "actually publish, scored — the one open-finance market with no mandate, "
+          "and the widest split in banking.", "price": "500"},
+         {"tier_labels": US_TIER_LABELS}),
         ("canadian-banks", "canadian-banks-roster.json", "Canadian Banking",
          "Canadian banks, credit unions and caisses, and fintechs ranked by their Kin Score — the Big Six, the digital arms, and the challengers, ahead of Canada's Consumer-Driven Banking framework.",
-         None, {"tier_labels": CA_TIER_LABELS}),
+         {"slug": "state-of-canadian-banking-apis", "title": "The State of Canadian Banking APIs",
+          "blurb":
+          "What 42 Canadian banks, credit unions, caisses, and fintechs actually "
+          "publish, scored — the emptiest banking market measured, where the rails "
+          "outrank the banks.", "price": "500"},
+         {"tier_labels": CA_TIER_LABELS}),
     ]
     bank_counts = {}
     build_roster_sections(BANK_SECTIONS, {}, bank_counts)
@@ -2248,7 +2378,9 @@ def main():
         ("management", "management-roster.json", "API Management",
          "The API management market ranked by Kin Score — the 21 full-stack platforms that sell the whole lifecycle as one product (Apigee, Boomi, Kong, MuleSoft, IBM API Connect, Axway, Azure API Management, WSO2, Tyk, Gravitee, Zuplo, Red Hat 3scale, SAP, TIBCO, Software AG, Broadcom, APIwiz, APIIDA, APIPark, Apiman, Apidog) and the 15 gateways, ingress controllers and data planes you put in front of an API (Amazon API Gateway, Google Cloud API Gateway, NGINX, Traefik, Envoy, Envoy Gateway, Apache APISIX, KrakenD, Higress, Solo.io, Emissary-Ingress, Spring Cloud Gateway, Netflix Zuul, Apinizer, Bifrost). API management is a fuzzy category, so this cohort is named by hand rather than matched — developer portals, documentation, metering, analytics, API security and service mesh are real adjacent markets and are covered in their own areas.",
          {"slug": "state-of-management-apis", "title": "The State of API Management",
-          "blurb": "36 API management vendors scored — the market that sells other people their API practice, measured on its own rubric. The cohort averages 53.9 against a whole-catalog average of 22.6, and 33.1 on agent readiness. Solo.io leads at 80.8 on the composite and 59.5 on agents; Apigee scores 74.0 and 30.6. Not one vendor of 36 signals idempotency, in the market that sells you the gateway where you would implement it.", "price": "500"}),
+          "blurb": "36 API management vendors scored — the market that sells other people their API practice, measured on its own rubric. The cohort averages 53.9 against a whole-catalog average of 22.6, and 33.1 on agent readiness. Solo.io leads at 80.8 on the composite and 59.5 on agents; Apigee scores 74.0 and 30.6. Not one vendor of 36 signals idempotency, in the market that sells you the gateway where you would implement it.", "price": "500"},
+         {"papers": [{"slug": "state-of-management-apis", "title": "The State of API Management",
+          "blurb": "36 API management vendors scored — the market that sells other people their API practice, measured on its own rubric. The cohort averages 53.9 against a whole-catalog average of 22.6, and 33.1 on agent readiness. Solo.io leads at 80.8 on the composite and 59.5 on agents; Apigee scores 74.0 and 30.6. Not one vendor of 36 signals idempotency, in the market that sells you the gateway where you would implement it.", "price": "500"}, SPECTRAL_PAPER]}),
     ]
     management_counts = {}
     build_roster_sections(MANAGEMENT_SECTIONS, MANAGEMENT_TIER_LABELS, management_counts)
@@ -2327,7 +2459,9 @@ def main():
         ("testing", "testing-roster.json", "API Testing",
          "The API testing market ranked by Kin Score — the commercial testing and quality platforms (Tricentis, SmartBear, APIToolkit, Checkly, Assertible, Speedscale), the mocking and service-virtualization layer (WireMock, Beeceptor, Microcks, Mockoon, MockAPI, MockServer, Mock Service Worker, Hoverfly, Prism), load and performance testing (Apache JMeter, k6, Vegeta, Artillery, GoReplay, Gatling, Locust), contract testing and test frameworks (REST Assured, Pact, SuperTest, Schemathesis, Step CI, Optic, Dredd, Portman, Karate, Newman), the security scanners (Nuclei, OWASP ZAP) and the browser and end-to-end frameworks (Cypress.io, Selenium, Playwright). Testing is the fuzziest category in the series, so this cohort is named by hand rather than matched — API clients, chaos engineering, observability and APM are real adjacent markets covered in their own areas.",
          {"slug": "state-of-testing-apis", "title": "The State of API Testing",
-          "blurb": "37 API testing tools and platforms scored — and the first market in this series that is actually building for agents. Four vendors ship a real MCP server after three consecutive cohorts shipped none, and Tricentis posts a 1.1-point gap between its composite and its agent readiness where every previous market leader posted thirty or more. It is also the weakest-scoring cohort measured: no Exemplar, and governance at 20.9 with 24 of 37 at zero.", "price": "500"}),
+          "blurb": "37 API testing tools and platforms scored — and the first market in this series that is actually building for agents. Four vendors ship a real MCP server after three consecutive cohorts shipped none, and Tricentis posts a 1.1-point gap between its composite and its agent readiness where every previous market leader posted thirty or more. It is also the weakest-scoring cohort measured: no Exemplar, and governance at 20.9 with 24 of 37 at zero.", "price": "500"},
+         {"papers": [{"slug": "state-of-testing-apis", "title": "The State of API Testing",
+          "blurb": "37 API testing tools and platforms scored — and the first market in this series that is actually building for agents. Four vendors ship a real MCP server after three consecutive cohorts shipped none, and Tricentis posts a 1.1-point gap between its composite and its agent readiness where every previous market leader posted thirty or more. It is also the weakest-scoring cohort measured: no Exemplar, and governance at 20.9 with 24 of 37 at zero.", "price": "500"}, SPECTRAL_PAPER]}),
     ]
     testing_counts = {}
     build_roster_sections(TESTING_SECTIONS, TESTING_TIER_LABELS, testing_counts)

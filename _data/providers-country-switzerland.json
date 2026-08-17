@@ -1,6 +1,6 @@
 {
- "total": 24,
- "shown": 24,
+ "total": 25,
+ "shown": 25,
  "limit": 1000,
  "bands": [
   {
@@ -1059,6 +1059,22 @@
       "dry_run_mode": false
      },
      "rank": 24
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Selectron",
+     "slug": "selectron",
+     "description": "Selectron Systems AG is a Swiss rail-vehicle automation and safety supplier founded in 1956 in Lyss, Switzerland, and part of the Knorr-Bremse Group since 2015. Its core business is the Train Control and Management System (TCMS): freely programmable safety controllers and vehicle control units, centralised and decentralised remote I/O (Smartio RIOM), driver-cab displays and HMIs, wheel-slide protection, Ethernet switches, routers, converters and train-bus gateways, plus a rail cybersecurity line (Security Gateway, Threat Detection Solution with Irdeto, PKI and Cyber Resilience Act services). Engineering tooling ships as the Symphony Suite (Maestro Designer, CAP1131, SIM1131, POUtest1131, TOP1131, WDLD1131, SAND) distributed through the login-gated Cockpit portal. Products are certified to ISO/TS 22163 (IRIS), EN 61508 SIL 3, EN 50129 SIL 2, EN 50128 SIL 2 and IEC 62443 SL 2. Selectron publishes no public web API, developer portal or machine-readable contract.",
+     "rank": 25
     }
    ]
   }

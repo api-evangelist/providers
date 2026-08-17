@@ -1,6 +1,6 @@
 {
- "total": 104,
- "shown": 104,
+ "total": 132,
+ "shown": 132,
  "limit": 1000,
  "bands": [
   {
@@ -1342,7 +1342,7 @@
     {
      "name": "Evaneos",
      "slug": "evaneos",
-     "description": "Evaneos is a French online marketplace for tailor-made travel, founded in 2009 and headquartered in Paris. It connects travelers directly with a curated, continuously-evaluated network of 600+ expert local travel agencies across 160+ destinations, who design fully customized itineraries. A certified B Corp since 2022, Evaneos champions an ethical model in which at least 85% of each trip's cost benefits local economies, and it has served more than 800,000 travelers at a 97% satisfaction rate. Backed by Partech, the company runs a coordinated vulnerability disclosure program but publishes no public product API; its GitHub organization hosts internal DevOps, security, and AI tooling.",
+     "description": "Evaneos is a French online marketplace for tailor-made travel, founded in 2009 and headquartered in Paris. It connects travelers directly with a curated, continuously-evaluated network of 600+ expert local travel agencies across 160+ destinations, who design fully customized itineraries. A certified B Corp since 2022, Evaneos champions an ethical model in which at least 85% of each trip's cost benefits local economies, and it has served more than 800,000 travelers at a 97% satisfaction rate. Backed by Partech, the company runs a coordinated vulnerability disclosure program but publishes no public product API — the only API it markets is a partner/affiliate product-feed API offered on request through partner.evaneos.net — while publishing a real llms.txt for AI agents; its GitHub organization hosts internal DevOps, security, and AI tooling.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/evaneos/refs/heads/main/screenshots/evaneos-2026-07-25T213708.png",
      "score": 15.2,
      "band": "emerging",
@@ -1932,7 +1932,7 @@
     {
      "name": "Poppins",
      "slug": "poppins",
-     "description": "Poppins is a French digital health company that develops a clinically validated digital therapeutic (DTx) for children aged 7-11 with dyslexia. Classified as a Class I medical device under EU Regulation 2017/745, the mobile application delivers home-based, game-based training sessions of about 20 minutes per day, 3-5 times per week, targeting phonological awareness, reading speed, and visual attention span. Poppins complements in-person speech therapy, supports speech-language pathologists through professional accounts, and partners with insurers. The company was surfaced as a Techstars portfolio company and added to the API Evangelist network. As of this enrichment pass, Poppins publishes a consumer and healthcare-professional web/mobile product but no public developer API, developer portal, or machine-readable API surface.",
+     "description": "Poppins is a French digital health company that develops a clinically validated digital therapeutic (DTx) for children aged 7-11 with dyslexia. Classified as a Class I medical device under EU Regulation 2017/745, the mobile application delivers home-based, game-based training sessions of about 20 minutes per day, 3-5 times per week, targeting phonological awareness, reading speed, and visual attention span. Poppins complements in-person speech therapy, supports speech-language pathologists through professional accounts, and partners with insurers. The company was surfaced as a Techstars portfolio company and added to the API Evangelist network. As of this enrichment pass, Poppins publishes a consumer and healthcare-professional web/mobile product but no public developer API, developer portal, or machine-readable API surface. It does publish an agent-facing brief at https://www.poppins.io/llm.txt and a robots.txt that explicitly allow-lists AI crawlers, so the company is deliberately addressing agents on the content side while shipping no callable contract on the API side.",
      "score": 13.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3723,8 +3723,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 14,
-   "shown": 14,
+   "count": 42,
+   "shown": 42,
    "providers": [
     {
      "name": "Accenta",
@@ -3757,58 +3757,226 @@
      "rank": 95
     },
     {
+     "name": "Boxy (ex-Storelift)",
+     "slug": "getboxy",
+     "description": "Boxy, operated by the French company SAS Storelift (founded 2018 in Ivry-sur-Seine by David Gabai and Tom Hayat), built unstaffed 24/7 convenience stores inside 15-20 square metre shipping containers, using computer vision, weight-sensing shelves and an on-site compute node so a shopper could unlock the door with a QR code from the Boxy mobile app, take products off the shelf and walk out to be invoiced automatically. The company raised roughly 5M EUR in 2020 and a 25M EUR Series A in February 2022 led by Serena with CapHorn and LocalGlobe, targeting 1,000 stores. It shut its entire store estate by the end of April 2024, and SAS Storelift entered liquidation judiciaire on 6 November 2024 after sauvegarde and redressement procedures earlier that year; the store containers were auctioned in early 2025. The getboxy.co domain is now parked and returns HTTP 410 Gone on every path, and no developer program, API documentation or machine-readable contract was ever published. This profile records that absence.",
+     "rank": 96
+    },
+    {
      "name": "Cheerz",
      "slug": "cheerz",
      "description": "Cheerz is a French direct-to-consumer photo-printing brand. Customers pick photos from their phone camera roll or a connected cloud gallery in the Cheerz iOS/Android app or on cheerz.com, and Cheerz prints and ships the result as photo prints, fridge magnets, photo books and albums, wall canvases, framed prints and posters, calendars including advent calendars, puzzles, greeting and invitation cards, and the branded Cheerz Box and Memory Box gift formats. Founded in Paris in 2012 under the legal entity Printklub, backed by Serena Capital and Iron Capital, and acquired by the German photo-finishing group CEWE Stiftung & Co. KGaA in February 2018 for roughly EUR 45 million; it continues to operate as CEWE's Paris site. Cheerz publishes no public API, developer portal, SDK or machine-readable contract of any kind — it is an end-user retail product, and partnership, bulk-order and affiliate enquiries are handled by a human contact channel rather than a developer programme.",
-     "rank": 96
+     "rank": 97
+    },
+    {
+     "name": "CoachClub",
+     "slug": "coachclub",
+     "description": "CoachClub — branded \"CoachClub by Move Your Fit\" — is a French direct-to-consumer online sport and wellness coaching service founded in 2010 in France by Leslie Vartabedian and backed by Serena. Subscribers answer a questionnaire covering goals, physical ability, health and availability, and receive a tailored training and nutrition programme drawn from a library of more than 1,100 on-demand coaching videos spanning over 30 disciplines — fitness, musculation, yoga, danse, cardio boxe, pilates, stretching, bien-être and prénatal/postnatal — graded across three difficulty levels and paired with twelve weeks of healthy recipes, accessible 24/7 from computer, tablet, smartphone or television. The public marketing site runs on WordPress and the member application is a hosted Kajabi tenant at mon.coachclub.com. CoachClub sells an end-user subscription only: it publishes no public API, SDK, webhook catalog, developer portal or machine-readable specification.",
+     "rank": 98
     },
     {
      "name": "DESKi",
      "slug": "deski",
      "description": "DESKi is a French medical-device software company founded in 2016 in Bordeaux by brothers Bertrand and Olivier Moal, trading publicly under its HeartFocus brand. Its flagship product, HeartFocus, is an FDA-cleared AI cardiac imaging app that runs on iPhone and iPad with Butterfly Network iQ+ and iQ3 handheld ultrasound probes, giving any healthcare professional real-time probe guidance, automatic diagnostic-quality clip recording and live view validation across the 10 standard transthoracic echocardiographic views (PLAX, PSAX-AV, PSAX-MV, PSAX-PM, A4C, A5C, A2C, A3C, SC-4C, SC-IVC). A second product, HeartFocus Link, adds the same AI guidance to existing cart-based ultrasound systems from GE HealthCare, Philips, Siemens Healthineers, Mindray, FUJIFILM Sonosite, Samsung and Canon over a plain HDMI capture path, for education and training only. DESKi holds two FDA 510(k) clearances (K242807, 2025-04-04; K260780, 2026-06-03, product code QJU) and publishes a Coordinated Vulnerability Disclosure process, a HIPAA & HBNR applicability statement, per-probe list pricing and dated electronic instructions for use. Its only machine-facing integration surface is DICOM: exams are transferred from the mobile app to a customer-configured PACS server (server and client AE titles, host, port, optional TLS), and the DICOM conformance statement and CycloneDX SBOM are available only by emailing support. DESKi publishes no public REST or GraphQL API, no OpenAPI or AsyncAPI specification, no SDK, no CLI, no MCP server and no developer portal; portal.heartfocus.ai is a customer licence-management application, not a developer surface.",
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "Educ-up",
      "slug": "educ-up",
      "description": "Educ-up is a French social-impact education group founded in 2016 by Mohamed El Mazzouji, headquartered in Saint-Denis, La Réunion with establishments in metropolitan France including Montreuil (Seine-Saint-Denis). It operates two consumer- and professional-facing brands rather than a software product: Domissori, launched in 2019, which places Montessori-trained educators in family homes for childcare, educational workshops and academic tutoring across Vannes, Chambéry, Lyon, Grenoble, Perpignan, Montpellier, Marseille and Saint-Denis; and Edacademy, a Qualiopi-certified training and apprenticeship centre for early-childhood and personal-care professions (CAP AEPE, Titre Pro ADVF, Bac Pro ASSP, parenting and Montessori support). The group also runs Ed'solidaire, a subsidy scheme that opens paid childcare to low-income families. Investors include Serena, M Capital, Inco Ventures, MakeSense and Racine2. Edacademy delivers its programmes through a self-hosted Moodle learning platform at formation.edacademy.fr, but that is an end-user LMS: as of August 2026 Educ-up publishes no developer portal, no API documentation and no machine-readable API contract, and its corporate domain educ-up.fr now redirects to a parked IONOS default site.",
-     "rank": 98
+     "rank": 100
     },
     {
      "name": "Electra",
      "slug": "go-electra",
      "description": "Electra is a European operator of ultra-fast electric-vehicle charging, headquartered at 104 rue de Richelieu in the 2nd arrondissement of Paris and led by co-founder and CEO Aurelien de Meaux. It designs, finances, installs and operates its own DC fast-charging stations rather than reselling someone else's hardware, advertising 770+ live stations with 68 more under construction, charge rates up to 400 kW, and a target of 2,200 stations / 15,000 charge points across Europe by 2030. Its own pricing and station pages cover France, Belgium, Spain, Italy, Germany, Austria, the Netherlands and Switzerland, with city hubs in Paris, Lyon, Marseille, Brussels, Antwerp, Liege, Milan, Bologna, Turin, Madrid, Barcelona and Zurich. The commercial surface is consumer- and fleet-facing: a mobile app, an Electra+ subscription that cuts up to 0.20 EUR/kWh, an RFID charging card, Autocharge and Plug&Charge, and a fleet dashboard at business.go-electra.com. It is a Serena portfolio company and has raised a 160 MEUR round, a 304 MEUR Series B and a 433 MEUR debt facility. Electra publishes NO developer portal, NO API documentation, NO OpenAPI, NO llms.txt, NO MCP server and NO A2A agent card — every one of those was probed and missed on 2026-08-17. What it does run, and what almost nobody looking at the marketing site would find, is a real machine-readable API: a live Open Charge Point Interface implementation in the Charge Point Operator role at https://ocpi.go-electra.com/ocpi/cpo, serving BOTH OCPI 2.1.1 and OCPI 2.2.1 concurrently. Its version-negotiation endpoints answer anonymously with HTTP 200 and enumerate the full module inventory — cdrs, commands, credentials, locations, sessions, tariffs and tokens, with SENDER/RECEIVER roles declared on the 2.2.1 surface — while every data module itself returns HTTP 401 with `WWW-Authenticate: Token realm=\"Application\"`, OCPI's own bilateral token scheme. That is a documented open industry standard, fully implemented, discoverable without credentials and readable only with a roaming agreement; its production use is evidenced by the 180+ e-mobility service provider cards Electra's own help centre lists as accepted at its chargers.",
-     "rank": 99
+     "rank": 101
+    },
+    {
+     "name": "Goodvest",
+     "slug": "goodvest",
+     "description": "Goodvest is a French mission-driven fintech (entreprise à mission) based in Paris that sells climate-aligned retail savings and investment products: an ISR assurance-vie (Goodvie, insured by Generali), a euro-fund assurance-vie (Goodlife, insured by Spirica), a Plan Épargne Retraite, a minors' contract, a green Livret d'Épargne backed by CFCAL-Banque, and a Goodvest First private-management tier covering private equity, sustainable real estate, green infrastructure and structured products. Portfolios are screened against a published seven-filter methodology aligned with the Paris Agreement — fossil-fuel exclusion, carbon-footprint and biodiversity analysis — and every unit-linked support carries EU SFDR Article 8 or Article 9 sustainability disclosures. Goodvest SAS is registered with ORIAS (20007544) as an insurance broker and non-exclusive banking intermediary, is a member of ANACOFI-CIF, and is supervised by the ACPR and the AMF. It publishes a complete public fee schedule (0% entry, exit, arbitrage and performance fees) but no public API, SDK, webhook surface or developer portal of any kind.",
+     "rank": 102
+    },
+    {
+     "name": "Habiteo",
+     "slug": "habiteo",
+     "description": "Habiteo is a French PropTech company founded in 2014 in Paris that builds full-web 3D sales and marketing technology for new-build real estate. Its products let developers, house builders, commercial-property operators and their agencies model a programme in 3D before it is built: 3D floor plans and perspectives, virtual tours, drone-based site insertions and neighbourhood views (Modelisation and myHabiteo Studio), an interior configurator that lets a buyer choose materials and options in place of a physical showroom (Configurateur), a mobile on-site sales unit (Habiteo Truck), and the MegaWidget, a hosted mini-site that gathers every 3D asset for a programme behind a single link. myHabiteo is the operator platform that binds the 3D layer to commercialisation with a CRM, a reservation module, programme management and sales and marketing dashboards. More than 350 developers, including Nexity, Kaufman & Broad and Immobiliere 3F, have used the technology. Habiteo was acquired by the French listings portal Bien'ici in May 2022 and continues to operate under its own brand. Habiteo publishes no public developer programme, no API documentation and no machine-readable API contract for any of these products; the only anonymously readable machine surface on its domain is the WordPress REST API behind its marketing site.",
+     "rank": 103
+    },
+    {
+     "name": "helios",
+     "slug": "helios",
+     "description": "helios is a French sustainable-banking company (HELIOS SAS, Paris) offering current, Premium, joint, youth, Liberté and independent/professional accounts, a green savings passbook, sustainable life insurance and wooden or recycled-plastic Visa cards through iOS, Android and web. It is a société à mission and a certified B Corp whose promise is that no customer euro finances fossil fuels or polluting industry, and it publishes the list of transition projects it funds. helios is registered in REGAFI under 731225 as a payment services agent of OKALI, the ACPR-approved electronic money institution that services the accounts. It publishes no public API, SDK, webhook or developer portal; the one machine-readable document it serves is an llms.txt AI-usage policy.",
+     "rank": 104
     },
     {
      "name": "Implicity",
      "slug": "implicity",
      "description": "Implicity is a Paris-based digital health company operating a vendor-neutral, cloud-based cardiac remote monitoring platform. Its software ingests and normalizes transmissions from cardiac implantable electronic devices (CIED) and implantable loop recorders across every major manufacturer, then applies AI-based triage to surface clinically actionable alerts for care teams. The product family spans CIED remote monitoring, heart-failure remote monitoring, an ILR ECG Analyzer, AF alert management, SignalHF predictive AI, patient connectivity management, InLink in-clinic data capture, and an advanced research tool for academic medical centers and life-science partners. Implicity markets a bidirectional EHR/EMR integration and API framework to hospital IT teams, but publishes no public developer portal, API reference, or machine-readable contract; integration is arranged through its sales and IT teams. Security and compliance posture is published through a Bastion-hosted trust center covering ISO 27001:2022, ISO 13485, SOC 2 Type 2, HDS, C5, HIPAA, and GDPR.",
-     "rank": 100
+     "rank": 105
     },
     {
      "name": "Jam.gg",
      "slug": "jam-gg",
      "description": "Jam.gg, founded in Paris in 2020 as Piepacker and rebranded in 2022, built a browser-based social cloud gaming platform for playing retro and indie multiplayer games with friends with no download or install, on patented streaming technology the company said cut bandwidth requirements by roughly 15x. It passed 8 million users before pivoting to selling its cloud gaming technology B2B to game developers and publishers. Backed by Makers Fund, Serena Capital, LEGO Ventures, Kima Ventures and Kickstarter (~$15.4M raised) and a Y Combinator W20 company. Jam.gg never published an HTTP API: its developer surface was a native game-integration SDK plus a Compose Multiplatform virtual gamepad library, both shipped from the GitHub organization still named piepacker. Y Combinator's company directory now lists Jam.gg as Inactive, noting the business split into two entities in 2023 with Onibi emerging separately; the jam.gg web property no longer completes a TLS handshake and piepacker.com has left DNS.",
-     "rank": 101
+     "rank": 106
+    },
+    {
+     "name": "Jimmy",
+     "slug": "jimmy",
+     "description": "Jimmy (Jimmy Energy SAS) is a French nuclear-technology company, founded in 2020 as a spin-off from the CEA, that designs, builds and operates small modular high-temperature reactors it calls thermal generators — helium-cooled HTR units the company describes as bus-sized — to deliver carbon-free process heat directly to industrial sites under secured 20-year supply-and-price contracts. Jimmy is headquartered in Paris with an industrial platform at Le Creusot in Burgundy, targets food, paper, sugar and chemicals producers that currently burn natural gas for process heat, and filed the first SMR creation-authorization request in France for a generator at the Cristanol site in Bazancourt. Jimmy sells heat, not software: it publishes no API, developer portal, SDK or machine-readable specification, and this profile records that measured absence rather than assuming it.",
+     "rank": 107
     },
     {
      "name": "Joy (ex-Privateaser)",
      "slug": "joy-io",
      "description": "Joy is a French SaaS platform for bars, restaurants and venues that turns group and event enquiries into confirmed bookings. Founded in 2014 as Privateaser, the company now runs a two-sided business: privateaser.com, the group-venue marketplace that captures demand, and Joy, the manager-facing application (web plus iOS/Android) where an establishment centralises requests from Google, Instagram, its own website, WhatsApp and Privateaser, then works them through a unified calendar and messaging inbox, an SEO/GEO-optimised event showcase page, a virtual phone assistant, quotes, French-compliant invoicing, and Stripe-backed deposits and prepayments. Joy reports more than 3,000 partner establishments and over EUR100M in bookings managed in 2025. It publishes no public API, SDK, webhook catalogue or developer portal; the only integration surfaces it documents for customers are an embeddable iframe booking form, Reserve-with-Google, and a one-click reservation copy into Zenchef.",
-     "rank": 102
+     "rank": 108
+    },
+    {
+     "name": "Kiute",
+     "slug": "kiute",
+     "description": "Kiute was a French salon management and online booking platform for hair salons, barbershops and beauty institutes, formed from the September 2020 merger of Flexy (FlexyBeauty) and LeCiseau, backed by Serena, Newfund, Matmut Innovation, 123IM, UL Invest and Bourrelier Group. Its Kiute Pro product combined a point-of-sale till, appointment calendar, client records, marketing and an online booking marketplace serving roughly 10,000 beauty and wellness businesses. Booksy acquired Kiute on 2021-11-09 and has since retired the brand: as of 2026-08-17 every Kiute host answers a blanket HTTP 301 to Booksy for every path — kiute.com, www.kiute.com, app.kiute.com and kiute.fr to https://booksy.com/fr-fr/, pro.kiute.com to https://biz.booksy.com/fr-fr — and no api, docs, developers or help subdomain resolves. Kiute publishes no API, no specification and no developer program of its own; the successor surface is the Booksy Public API, profiled separately in this network at all/booksy/ and documented at docs.booksy.com.",
+     "rank": 109
+    },
+    {
+     "name": "Klarys",
+     "slug": "klarys",
+     "description": "Klarys — formerly ProcSea, renamed in 2023 — is a French SaaS eProcurement platform built for the fresh-food supply chain: seafood, fruit and vegetables, meat and dairy. It connects retail, wholesale and foodservice buyers with their suppliers, wholesalers and mareyeurs through a standardized fresh-food product catalog, a supplier sales interface, a centralized purchasing interface, a central purchasing module for store networks, a supplier invoicing module and a business-intelligence module. Klarys states that the platform \"integrates with all your business systems and applications via API and EDI\" — ERP, accounting tools and product reference systems. Founded in 2016 in Rennes, France with operations in Switzerland, it is a Serena portfolio company, a member of the SAP.iO acceleration program and listed on the SAP Store. The tenant application runs at klarys.app and publishes an RFC 8414 OAuth 2.0 authorization-server metadata document anonymously — including mcp:read and mcp:write scopes — but no public API reference, OpenAPI, or developer portal: the schema endpoint requires an authenticated tenant account.",
+     "rank": 110
+    },
+    {
+     "name": "Kleio",
+     "slug": "kleio",
+     "description": "Kleio is a Paris-headquartered agentic commerce platform for complex, high-value enterprise sales, founded in 2024 by Adrien Mathieu, Philippe Wellens and Louis Poirier and backed by a EUR 3M seed round. The platform pairs a domain-specific Knowledge Engine — a continuously updated representation of a company's catalog, pricing, business rules and ontologies — with a stack of orchestrated AI agents tuned for each stage of the sales funnel: discovery agents for intent qualification, product-guidance agents that reason over the catalog, quoting agents wired to configurators and pricing, and a Live Sales Copilot that augments human advisors in real time. Kleio deploys across web widgets, advisor desktops and third-party AI surfaces such as ChatGPT and Gemini via MCP/UCP integrations, with CRM and catalog write-back to Salesforce, HubSpot and custom systems. Named customers include Selectour, Havas Voyages, Showroomprive, Altarea Cogedim, Orpi and Emil Frey, across travel, real estate, automotive, wholesale, insurance, manufacturing and energy. Kleio publishes no public developer portal, API reference or OpenAPI: the platform API at api.kleio.ai is an OAuth-protected Google Cloud API Gateway reachable only to customers, and access begins with a sales conversation.",
+     "rank": 111
+    },
+    {
+     "name": "LaFourchette",
+     "slug": "lafourchette",
+     "description": "LA FOURCHETTE SAS, trading as TheFork, is the European restaurant-booking and restaurant-management platform founded in Paris in 2007 and acquired by TripAdvisor in 2014. It runs the consumer marketplace at thefork.com across a dozen European markets and the TheFork Manager (TFM) SaaS that restaurants use for reservations, table and floor management, reviews, loyalty (\"Yums\"), preset menus and payments. Its developer surface is published at docs.thefork.io and consists of two REST APIs: the B2B / Partners API (api.thefork.io/manager) used by restaurant groups, CRM platforms and booking-funnel partners to read customers, reservations and reviews and to drive availabilities, offers, timeslots and reservation lifecycle; and the POS API v1 (api.thefork.io/pos) used by point-of-sale vendors to register a POS instance and push closed-bill data back onto a reservation. A push webhook flow delivers customer, reservation and review events to partner endpoints. Credentials are issued by the integrations team; the B2B API uses an Auth0 client-credentials access token and the POS API an X-Api-Key header.",
+     "rank": 112
+    },
+    {
+     "name": "Lengow",
+     "slug": "lengow",
+     "description": "Lengow is a French e-commerce automation platform (Nantes, founded 2009; part of the Lengow group alongside Netrivals and NetMonitor) that connects merchant product catalogues to marketplaces, price-comparison sites and advertising channels across Europe. Its Channel Execution suite covers NetMarkets for marketplace management and NetAmplify for advertising feed management, plus NetRivals price intelligence and NetMonitor reseller monitoring. Lengow publishes a public REST API at api.lengow.io covering order retrieval and order actions (accept, refuse, ship, cancel, refund) across marketplaces, marketplace metadata, invoice and delivery documents, Zalando ZFS warehouse communication, product integration reports, and a beta v1.0 catalogue API for products and attributes. Authentication is a session token exchanged from an account access_token + secret pair. First-party e-commerce plugins are published on GitHub for PrestaShop, Magento 2, WooCommerce, Shopware 6 and Salesforce Commerce Cloud.",
+     "rank": 113
+    },
+    {
+     "name": "Lokki",
+     "slug": "lokki",
+     "description": "Lokki is a Grenoble, France rental-management SaaS (getlokki.com) used by 2,500+ equipment rental businesses across bikes, e-bikes, scooters, cars, ski, climbing, surf, paddle, canoe/kayak, boats, event gear, groundskeeping equipment and tooling, paired with the lokki.rent consumer rental marketplace. Lokki publishes a partner-facing read-only REST API — the Lokki External API, seven operations on https://prod.api.eu-west-3.lokki.rent covering stores (rental providers), store items with date-range pricing and stock, and the verticale/category taxonomy — documented on a Mintlify docs host at docs.getlokki.com with an OpenAPI 3.1 specification, llms.txt, an A2A agent card, a provider-authored Agent Skill and an anonymous documentation MCP server. Authentication is an environment-scoped API key in the x-api-key header (lokki_sk_test_ for staging, lokki_sk_live_ for production) issued by a Lokki representative under a partnership agreement, with scopes at domain, action and route level. The same production host also serves an unauthenticated NestJS Swagger document for the 896-operation internal Dashboard / Online Store API. Lokki has raised roughly €6.3M, led by blisce with Racine2 (Serena + makesense), 50 Partners Impact, FJ Labs and Silence VC.",
+     "rank": 114
+    },
+    {
+     "name": "Malt",
+     "slug": "malt",
+     "description": "Malt is a European freelance marketplace and Freelance Management System (FMS) founded in 2013 in Paris by Vincent Huguet and Hugo Lassiege, connecting more than a million independent consultants across tech, data, AI, design, marketing and management with enterprise buyers. Beyond matching, the platform handles the administrative spine of freelance engagement: quotes, automated contracts and NDAs, timesheets, invoicing, insured payments and compliance checks, plus an enterprise tier that consolidates an existing freelance roster (Malt Open) and plugs into 85+ ERP, procurement and HR systems including SAP Fieldglass, Coupa and Workday. Malt publishes a small, credential-gated public API surface at api.malt.com documented with Stoplight Elements: a freelancer billing API (invoices, service charge invoices, payments, invoice PDFs) and a SCIM 2.0 user-provisioning endpoint for enterprise identity lifecycle management.",
+     "rank": 115
     },
     {
      "name": "May",
      "slug": "may",
      "description": "May is a French digital-health company, operated by LN CARE SAS, whose mobile app supports future and new parents from fertility and pregnancy through the first years of a child's life. It pairs a medical messaging service staffed by French-qualified midwives, pediatric nurses and doctors — answering questions seven days a week from 8am to 10pm — with an expert-reviewed content library, roughly hour-long audio masterclasses, everyday tracking tools for sleep, feeding and weight, and Mya, an in-app AI medical assistant. Founded in Paris in 2020 by Cécilia Creuzet, Antoine Creuzet and Adrien Brunet, it reported more than 400,000 users and a team of around 80 health professionals, raised €7M in September 2024 to expand into Spain and the United Kingdom, and also sells a parental-support benefit to employers. It was surfaced as a portfolio company of Serena and profiled in the API Evangelist network; it publishes a consumer marketing site, a blog and an Intercom help center, but no public developer program, no API reference and no machine-readable API contract of any kind.",
-     "rank": 103
+     "rank": 116
+    },
+    {
+     "name": "Melty",
+     "slug": "melty",
+     "description": "Melty is a French digital media brand for youth culture — news and entertainment coverage of series, cinema, television, celebrity, gaming and lifestyle aimed at a 15-34 audience. Founded in 2008 in Paris and operated by EEPLE SAS, Melty was a Serena Capital portfolio company before Reworld Media acquired 100% of the business in a distressed M&A process completed in 2021-2022; melty.fr is now published by EEPLE within Groupe Reworld Media and monetised through advertising and native content rather than software licensing. Melty publishes no developer program, no public API product and no machine-readable API contract. Its only public developer surface is the meltygroup GitHub organisation, which carries the identity servers Kisee and Pasee — MIT-licensed, self-hosted Python HTTP API servers written in-house and released to PyPI, last published in 2021.",
+     "rank": 117
+    },
+    {
+     "name": "Metrobloks",
+     "slug": "metrobloks",
+     "description": "Metrobloks, LLC develops and operates multi-tenant colocation data centers in underserved metropolitan markets, positioning capacity at the metro edge so that AI inference, IoT, gaming, streaming, telecom and financial workloads run closer to the users and devices that generate them. Founded by Ernest Popescu (CEO), Scott Couzens (COO), Ryan Shea (SVP Real Estate) and Alejandro Maldonado (CMO), the company came out of stealth in June 2024 with an oversubscribed $5.2M seed round led by Current Equity Partners with participation from Serena Capital, and has since announced a Eurazeo commitment of up to EUR 100 million for European expansion, a financing round led by the Canopy Generations Fund, a Kansas City joint venture with Lincoln Property Company, and a partnership with Soluna. Sites are announced or under development in Miami FL, Phoenix AZ, Detroit MI, Kansas City MO, Indianapolis IN and McAllen TX in North America, plus Paris in Europe. The product is physical: modular standardized halls, scalable power, air and hybrid liquid cooling with near-zero water consumption, and carrier-neutral interconnection including a self-perform cross-connect option. Metrobloks sells infrastructure, not software. It publishes no API, no developer portal, no customer self-service platform and no machine-readable specification of any kind; its only published compliance claim is a SOC 2 and SOC 3 assertion on its ESG page.",
+     "rank": 118
+    },
+    {
+     "name": "MONI (Ex-Monisnap)",
+     "slug": "monisnap",
+     "description": "MONI, formerly Monisnap, is a Paris-based remittance fintech founded in 2017 by Raphaël Rivière, Jean-Baptiste Bouvier and Jonathan Brossard. It lets diaspora customers in France, Spain and the United Kingdom send money to roughly 150 countries — as cash pickup across a partner network of some 350,000 payout points, as a transfer into a mobile money wallet, as mobile airtime top-up with more than 800 operators, or as a prepaid card recharge — through a consumer app and the monisnap.com and allo.monisnap.com storefronts. Alongside the consumer product MONI runs a B2B \"Moni-as-a-Service\" remittance-as-a-service platform that banks and neobanks such as Nickel and Bnext embed white-label in their own applications. MONISNAP SAS is registered with the French ACPR as a payment services agent of MPS SAS, an authorised payment institution (CIB 17738). MONI publishes no public API: there is no developer portal, no API reference and no machine-readable contract on any MONI host — the partner platform is reached through a sales conversation.",
+     "rank": 119
+    },
+    {
+     "name": "Pretto",
+     "slug": "pretto",
+     "description": "Pretto is a French online mortgage brokerage (courtier en credit immobilier) operated by FINSPOT SAS, founded in 2016 and headquartered in Paris. It runs a digital platform that lets borrowers simulate a home loan, compare rates across more than 125 partner banks, assemble a financing file and be accompanied by a human credit expert through to signature, and it publishes a transparent, non-negotiable fee schedule instead of the bank-funded commission model used by most French brokers. Pretto also operates Pretto Galaxie, a B2B network that opens the same technology stack — semi-automated file assembly, an embeddable loan simulator, a client portal, a commission dashboard and a back-office service — to independent brokers, and Pretto Search, a consumer property-search product priced against real borrowing capacity. FINSPOT is registered with ORIAS (17000916) as a banking/payment-services and insurance broker and is supervised by the ACPR. As of this pass Pretto publishes no public developer program: the api.pretto.fr host serves its API reference behind HTTP Basic auth and the developers.pretto.fr ReadMe hub is deactivated.",
+     "rank": 120
+    },
+    {
+     "name": "Prixtel",
+     "slug": "prixtel",
+     "description": "Prixtel is a French mobile virtual network operator (MVNO) founded in 2004 by David Charles and headquartered in Aix-en-Provence. It is known for \"forfaits flexibles\" — mobile plans whose monthly price moves automatically between published tiers according to the data a subscriber actually consumed, with the ceiling known in advance — and it rides the SFR (historically also Orange) radio network rather than owning spectrum. Prixtel serves roughly 300,000 to 500,000 subscribers, reported about EUR 63.5M revenue in 2024, and was acquired by Altice France, the owner of SFR, in June 2021 for approximately EUR 415M while continuing to trade under its own brand; the Serena venture attribution that surfaced this profile is therefore a realized exit rather than a current holding. Prixtel publishes no public API, no developer portal, no SDK, no webhook catalog, and no machine-readable contract of any kind. Its only first-party software distribution is an end-user iOS/Android app for consumption tracking, invoices and line management; api.prixtel.com is that app's private backend and returns HTTP 404 on every probed path, including its own root.",
+     "rank": 121
+    },
+    {
+     "name": "Qualtera",
+     "slug": "qualtera",
+     "description": "Qualtera was a French software company, founded in 2010 and backed by Serena, that built high-volume big data analytics platforms for semiconductor test and manufacturing — giving IDMs, foundries and OSATs real-time observability, traceability and production control over test and assembly data across worldwide operations, processing the data of tens of millions of wafers and billions of parts a year. Its products included SiliconDash, an automated decision-support system for test, quality and yield analysis. Synopsys acquired Qualtera on June 10, 2020 and folded its analytics into Yield Explorer and TestMAX, which now ship as part of the Synopsys Silicon Lifecycle Management family. The Qualtera brand and any surface it once had are gone: qualtera.com now resolves to Synopsys nameservers and 301-redirects every path to the Synopsys Silicon Lifecycle Management marketing page, and the host refuses a TLS handshake on port 443 entirely. Qualtera never published a public developer portal, API reference, OpenAPI definition, SDK or package on any registry, and no machine-readable contract survives under its own name. This profile is retained as a historical record; the live analytics API surface, where one exists, belongs to Synopsys and is profiled there rather than credited here.",
+     "rank": 122
+    },
+    {
+     "name": "Quantilia",
+     "slug": "quantilia",
+     "description": "Quantilia is a Nice, France based financial data and portfolio reporting platform for institutional investors, family offices, asset managers, private banks, insurance companies and corporates and endowments. It aggregates fragmented investment data from custodian banks, fund administrators, fund managers, private equity and real estate GPs, ESG score providers and benchmark vendors such as MSCI and Bloomberg, then extracts, tests, categorizes, standardizes, labels, enriches and controls it into a single auditable reporting layer with full financial data lineage. Products cover tailored portfolio monitoring, multi-source data aggregation, security-level and private equity lookthrough, structured products monitoring, ESG and risk reports, quantitative analysis, document generation and AI services, with regulatory output for Solvency II, QRT, COREP, CRR3, SFDR, PAI and LEC29. Delivery is via dashboards, report packs, Excel, PDF and API feeds. The company states ISO-27001 certification, GDPR and DORA compliance, and EU/Swiss based hosting. No public developer portal, API reference or machine-readable specification is published; the API surface is delivered to contracted clients.",
+     "rank": 123
+    },
+    {
+     "name": "SantéVet",
+     "slug": "santevet",
+     "description": "SantéVet is a French pet-insurance company, founded in 2003 and headquartered in Lyon, that insures dogs, cats and small pets (NAC) across five European markets — France, Belgium, Spain, Italy and Germany. Alongside its direct-to-consumer business it runs a B2B distribution network: brokers, retailers, affinity partners and veterinary practices embed SantéVet quoting, subscription and claims into their own channels over HTTP APIs. Three of those partner APIs serve documentation anonymously — a reference-data Toolkit API (58 operations, API Platform, Hydra/JSON-LD), a Reimbursement API behind the PayVet third-party-payment product (6 operations, OpenAPI 3.0.3), and an Acquisition API carrying the quote-to-subscribe funnel and the rating engine (14 operations, HTML reference only). SantéVet publishes no developer portal, no SDK, no pricing and no self-serve signup; credentials are issued through a sales process.",
+     "rank": 124
+    },
+    {
+     "name": "Seiza",
+     "slug": "seiza",
+     "description": "Seiza was a French social-recruitment advertising and recruitment-automation SaaS platform dedicated to frontline hiring — hospitality and restaurants, transport and logistics, agri-food, industry, retail, temp staffing, healthcare and construction. Founded in Paris in 2010 as Work4 Labs by Stephane Le Viet, Gautier Machelon and Matt Brown, it built its early business on sourcing candidates through non-professional social networks rather than job boards or LinkedIn, later rebranding from Work4 to Seiza. It raised roughly $22.8M in venture capital (Serena, among others) and served about 400 clients across Europe and the US, including McDonald's, Sysco, Ecolab and Veolia. The product was a recruiter web application — social sourcing campaigns, profile enrichment, one-click calling, a compatibility index, automated interview scheduling, SMS/messaging and reporting — plus a fixed catalog of 23 named ATS connectors (Bullhorn, Workday, Greenhouse, SmartRecruiters, iCIMS, Cornerstone, Recruitee, Talensoft, DigitalRecruiters, Beetween, Fountain, Paychex, CareerBuilder, Avionte, Acquity, Idibu, PivotCX, Talemetry, Gestmax, Scoptalent, Eolia Software, MyCVtheque, Hubspot), with anything outside that list handled as a bespoke integration through sales. No public API, developer portal, API reference, OpenAPI/AsyncAPI specification, webhook catalog, SDK or CLI was ever published: a 557-URL census of the archived seiza.co site shows only marketing, blog, FAQ and legal pages, and every /.well-known/ path returned 404 while the site was live. Seiza was acquired by UK job-search engine Adzuna on 2024-11-18 and folded into Adzuna's social recruitment advertising line; Adzuna's own developer program is profiled separately in this network. The company domain seiza.co was still serving in May 2026 but no longer resolves at all as of 2026-08-17. This profile is retained as a historical company record; there is no API surface to enrich.",
+     "rank": 125
+    },
+    {
+     "name": "Sequans",
+     "slug": "sequans",
+     "description": "Sequans Communications S.A. (NYSE: SQNS) is a fabless semiconductor company founded in 2003 and headquartered in Paris, France, designing and supplying 5G and 4G cellular IoT chips and modules. Its massive-IoT portfolio is built on the Monarch LTE-M/NB-IoT and Calliope Cat 1bis platforms, and its broadband-IoT portfolio on the Cassiopeia Cat 4/Cat 6 and Taurus 5G platforms, alongside the Iris software-defined RF transceiver and licensable silicon and software IP. Sequans sells chips, modules and IP to device makers rather than a developer-facing web API: its technical documentation, firmware, SDKs and AT-command references are distributed through the my.sequans.com support zone and the download.sequans.com customer portal, both of which require an account. The only anonymously reachable machine-readable surfaces on sequans.com are the WordPress REST API behind the corporate site and a WordPress MCP Adapter server advertised through RFC 8414 / RFC 9728 OAuth discovery documents.",
+     "rank": 126
     },
     {
      "name": "Serena",
      "slug": "serena",
      "description": "Serena is a Paris-based European venture capital firm founded in 2008 by Xavier Lorphelin, Marc Fournier and Philippe Hayat, investing in Europe-based founders from pre-seed through Series A with initial tickets ranging from EUR 100K to EUR 15M. The firm closed its EUR 200M Fund IV in 2026, bringing total assets under management to over EUR 1 billion, and concentrates on applied AI, the modern data stack and AI infrastructure, SaaS, climate tech and the energy transition, commercial open source, blockchain, quantum, consumer innovation and impact. Serena describes itself as \"by entrepreneurs for entrepreneurs\" and pairs capital with an in-house operating team (Capital Boost), a dedicated data-focused arm in Serena Data Ventures, and the Racine squared impact and deep-tech vehicle. Its published portfolio of 113 companies includes Dataiku, Memo Bank, Descartes Underwriting, Mindee, Probabl, ACINQ, Brigad and Evaneos, alongside exits such as LaFourchette/The Fork to TripAdvisor, AramisAuto to PSA, PrestaShop to MBE Worldwide, iBanFirst to Marlin Equity Partners, Alkemics to Salsify, Hull to MessageBird, Koyeb and Emmi AI to Mistral, Leonardo.ai to Canva, Shadow to OVH, and the NYSE IPO of Sequans. The firm also publishes an unusually deep public research library, including the French AI Report, the Serena European SaaS Benchmark and the Commercial Open Source Software (COSS) Report. This profile tracks Serena's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 104
+     "rank": 127
+    },
+    {
+     "name": "Silvr",
+     "slug": "silvr",
+     "description": "Silvr (Silvr Groupe SAS, Neuilly-sur-Seine, France) was a French fintech that brought Revenue Based Financing to Europe, underwriting non-dilutive growth capital for e-commerce, SaaS and digital SMEs from its own Silvr Analytics scoring model and later broadening into flexible business loans of EUR 5k-10M covering receivables advances, inventory and equipment financing and working capital. Founded in 2020 by Nima Karimi and Gregory Tappero, it raised a EUR 130M Series A plus EUR 200M in debt from Citi and Channel, with ISAI, Serena, XAnge, Otium, Eurazeo and Bpifrance on the cap table. Silvr declared cessation of payments in June 2025; on 2 December 2025 the Nanterre court awarded Karmen the takeover of all Silvr assets except the non-performing loan portfolio, and silvr.co now redirects applicants and logins to app.karmen.io. Silvr marketed an embedded-finance partner API for real-time eligibility, but never published a developer portal, API reference or machine-readable contract, and that partner funnel now points at Karmen.",
+     "rank": 128
+    },
+    {
+     "name": "Underdog",
+     "slug": "underdog",
+     "description": "Underdog (legal entity Older is Better, RCS Nantes 918 609 629) is a French direct-to-consumer retailer of professionally refurbished large home appliances and televisions — washing machines, fridges, dishwashers, tumble dryers, ovens, cookers, freezers, wine cabinets, TVs and Thermomix — reconditioned in France and sold at up to 50% below new with a two-year warranty, delivery, installation and old-appliance takeback. It is a circular-economy / climate-tech company backed by Serena. Underdog has no developer programme and publishes no OpenAPI, but its storefront runs on Shopify and it exposes a genuine, live agent-commerce surface on its own domain: an /llms.txt and /agents.md agent instruction document, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, two anonymously-listable remote MCP endpoints (a 13-tool UCP commerce server and a 1-tool storefront policy server), an introspectable Shopify Storefront GraphQL API, RFC 8414 / RFC 9728 OAuth metadata, and read-only product and collection JSON endpoints.",
+     "rank": 129
+    },
+    {
+     "name": "Uptime",
+     "slug": "uptime",
+     "description": "Uptime (Uptime SAS, Paris, SIREN 822006839) was a French elevator predictive-maintenance company founded in 2016 by Augustin and Amaury Celier. It fitted 4G-connected sensors to existing elevators and used the resulting telemetry to predict failures, dispatch technicians and report availability to building managers, backed by Serena and angels including Jacques-Antoine Granjon, David Amsellem, Yvan Wibaux and Antoine Martin across roughly EUR 10M of funding. The Paris Commercial Court opened a redressement judiciaire on 2022-07-26 and pronounced liquidation judiciaire with a plan de cession to SAS Otis on 2022-10-20; the elevator-maintenance activity and a minority of staff transferred to Otis. The company never published a public developer program, API reference or machine-readable specification, and the uptime.ac domain has since lapsed — it now 301-redirects every path to unrelated third-party sites. This profile is retained as an honest record of a defunct company with no API surface.",
+     "rank": 130
+    },
+    {
+     "name": "Vekia",
+     "slug": "vekia",
+     "description": "Vekia is a French supply-chain software vendor founded in 2008 in Lille by Manuel Davy (Vekia SAS, 143 rue d'Athènes, 59800 Lille, RCS Lille Métropole 503 225 716). Its platform, Vekia Engine, applies probabilistic artificial intelligence and machine learning to demand and stock forecasting, then generates optimised purchase-order proposals that are pushed back into the customer's existing ERP rather than replacing it, alongside shortage-risk alerting and a logistics control tower. Vekia Disrupt covers disruption and shortage management. The platform is hosted on Microsoft Azure in Europe and marketed to retail and specialised distribution, e-commerce, industry, energy and telecom, with published case studies at ENGIE, Mr Bricolage and Okaïdi. Vekia publishes no public API, no developer portal, no API reference and no machine-readable contract; ERP, WMS and TMS integration is delivered as a project by Vekia rather than through a self-serve developer surface.",
+     "rank": 131
+    },
+    {
+     "name": "Wecasa",
+     "slug": "wecasa",
+     "description": "Wecasa is a French on-demand home-services marketplace that connects households with vetted independent professionals who deliver the service at the customer's home. Its catalogue spans household cleaning and ironing, childcare and babysitting, mobile hairdressing, at-home beauty and nail care, massage and wellness, and personal fitness coaching. Customers book, schedule and pay through the Wecasa web site or the iOS/Android app; the professionals who fulfil the work run their business through the separate Wecasa Pro app. Founded in France and backed by Serena, the company operates in France, the United Kingdom, Germany, Austria and Switzerland. Wecasa publishes no public developer program, API reference or machine-readable contract — the platform is a consumer application and a partner-onboarding funnel, not a developer product.",
+     "rank": 132
     }
    ]
   }

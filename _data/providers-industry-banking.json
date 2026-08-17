@@ -1,6 +1,6 @@
 {
- "total": 852,
- "shown": 852,
+ "total": 855,
+ "shown": 855,
  "limit": 1000,
  "bands": [
   {
@@ -37581,8 +37581,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 5,
-   "shown": 5,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Bitstack",
@@ -37591,29 +37591,47 @@
      "rank": 848
     },
     {
+     "name": "Fipto",
+     "slug": "fipto",
+     "description": "Fipto is a Paris-based enterprise stablecoin payments and multi-currency accounts platform that lets businesses send and receive both fiat and stablecoin payments, hold multi-asset wallets with EUR and USD named accounts, convert between fiat and digital currencies, and automate treasury and reconciliation. It is licensed as a Payment Institution by France's ACPR (code 17908) and as a Crypto-Asset Service Provider by the AMF under MiCA (authorization A2026-009), and is ISO/IEC 27001:2022 certified. Fipto publishes a REST API (OpenAPI 3.0.3) covering wallets, beneficiaries, payouts, transactions, conversions, payment links, automation rules and an AISP/PISP access surface, plus signed webhooks and an open-source Model Context Protocol server for AI agents.",
+     "rank": 849
+    },
+    {
+     "name": "helios",
+     "slug": "helios",
+     "description": "helios is a French sustainable-banking company (HELIOS SAS, Paris) offering current, Premium, joint, youth, Liberté and independent/professional accounts, a green savings passbook, sustainable life insurance and wooden or recycled-plastic Visa cards through iOS, Android and web. It is a société à mission and a certified B Corp whose promise is that no customer euro finances fossil fuels or polluting industry, and it publishes the list of transition projects it funds. helios is registered in REGAFI under 731225 as a payment services agent of OKALI, the ACPR-approved electronic money institution that services the accounts. It publishes no public API, SDK, webhook or developer portal; the one machine-readable document it serves is an llms.txt AI-usage policy.",
+     "rank": 850
+    },
+    {
      "name": "iBanFirst",
      "slug": "ibanfirst",
      "description": "iBanFirst is a Brussels-headquartered cross-border payment and foreign-exchange platform for businesses, licensed as a payment institution by the National Bank of Belgium (company number 0849.872.824) and operating across Belgium, France, the Netherlands, Germany, Spain, Romania, Bulgaria, Italy, Hungary and the United Kingdom. It provides multi-currency \"augmented currency accounts\" with dedicated IBANs, SWIFT and SEPA payments with payment tracking, spot FX in 30+ currencies, and fixed forward payment contracts for currency-risk hedging. Its developer surface is a public REST API (iBanFirst API 1.6.0, 38 operations over accounts, financial movements, beneficiaries, payments, spot trades, fixed forwards, documents and webhook subscriptions), X-WSSE token authentication, HMAC-SHA256-signed webhooks for payment and trade events, a separate eIDAS/QWAC-gated PSD2 XS2A API for AIS and PIS third-party providers, and a hosted first-party remote MCP server that gives agents read access to treasury data.",
-     "rank": 849
+     "rank": 851
     },
     {
      "name": "JPMorgan Chase",
      "slug": "jpmorgan-chase",
      "description": "JPMorgan Chase is a leading global financial services firm and one of the largest banking institutions in the United States, with operations across investment banking, financial services, asset management, and private equity. Through its developer platform, JPMorgan Chase publishes APIs for banking services including payments, treasury services, trade finance, FX, embedded finance, and market data, enabling corporate clients and fintech partners to integrate banking capabilities into their applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jpmorgan-chase/refs/heads/main/screenshots/jpmorgan-chase-2026-06-20T183808.png",
-     "rank": 850
+     "rank": 852
     },
     {
      "name": "Memo Bank",
      "slug": "memo-bank",
      "description": "Memo Bank is an independent French commercial bank, accredited as a credit institution by the European Central Bank and supervised by the ACPR, that serves small and mid-sized companies with current accounts, loans, savings and an API-first payments platform. Its Premium Bank API is a REST/JSON contract authenticated with RS256-signed JWT/JWS request tokens, covering accounts, transactions, bi-directional virtual IBANs, SEPA credit transfers, SEPA Direct Debit collections and mandate signature requests, SWIFT/RTGS wire transfers, bulk payment batches, attachments and account assessments, with 34 webhook event types for asynchronous reconciliation. A Marketplace API adds an OAuth 2.0 layer so third-party developers can act on customer resources, a NextGenPSD2 API implements the Berlin Group AIS/PIS interface for licensed third-party providers, and a hosted MCP server exposes read-only banking data plus attachment upload to AI assistants.",
-     "rank": 851
+     "rank": 853
     },
     {
      "name": "QED Investors",
      "slug": "qed-investors",
      "description": "QED Investors is a global venture capital firm founded in 2007 by Nigel Morris and Frank Rotman, both early leaders at Capital One, and headquartered in Alexandria, Virginia. QED invests exclusively in fintech and financial-services technology, backing what it calls \"pragmatic disruptors who are the future of finance\" across credit and lending, banking and neobanks, banking-as-a-service and embedded finance, payments, insurance/insurtech, wealth management, proptech, and real-estate technology. The firm invests from pre-seed and seed through Series A and growth stages, with early-stage initial checks generally in the $3M-$10M range (roughly $15M average once follow-on is included) and $15M-$20M average from its growth fund. QED operates globally with investment teams across the United States, Latin America, Europe, Asia/India, and Africa, and offices in Alexandria (VA), London, Singapore, Mexico, and Brazil. It reports roughly $4B in assets under management, more than 250 portfolio companies, and over 30 unicorns, with notable investments including Nubank, Credit Karma, SoFi, Klarna, Remitly, Flywire, Klarna, Kavak, Creditas, and Bitso.",
-     "rank": 852
+     "rank": 854
+    },
+    {
+     "name": "Wazo",
+     "slug": "wazo",
+     "description": "Wazo Communication Inc. builds the Wazo Platform, an open-source (GPL-3.0) programmable unified-communications and contact-centre platform assembled from Asterisk, Kamailio, RabbitMQ, PostgreSQL and nginx, which MSPs, carriers, telecom integrators and enterprises self-host or resell white-label as UCaaS. The platform is API-first: thirteen HTTP microservices — authentication, stack configuration (confd), runtime call control (calld), call detail records, directories, call-centre agents, presence and chat, phone auto-provisioning, webhooks, plugin management, the Asterisk Manager facade and initial setup — each publish their own Swagger 2.0 contract totalling 932 operations, share a single X-Auth-Token bearer model governed by 788 fine-grained ACL permissions, and emit 327 named events onto a RabbitMQ bus that wazo-webhookd relays as HTTP webhooks and wazo-websocketd streams over WebSocket. There is no public multi-tenant API host: every base URL is the customer's own stack.",
+     "rank": 855
     }
    ]
   }

@@ -1,5 +1,5 @@
 {
- "total": 1113,
+ "total": 1114,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -5735,7 +5735,7 @@
     {
      "name": "Inato",
      "slug": "inato",
-     "description": "Inato is a Paris-based clinical trials technology company (founded 2016) operating an AI-powered marketplace that connects pharmaceutical sponsors, community research sites, and patients to run faster, more inclusive clinical trials. Sponsors post upcoming trials and site needs; the platform uses AI for site selection, feasibility, patient pre-screening, and enrollment optimization, giving the 95% of community-based research sites that historically run few trials a way to participate. The marketplace spans 6,000+ research sites across 50+ countries and is used by leading pharma sponsors. Inato is not a public API provider — it is a SaaS platform surfaced in the API Evangelist network as a company profile via the obvious-ventures portfolio.",
+     "description": "Inato is a Paris-based clinical trials technology company (founded 2016) operating an AI-powered marketplace that connects pharmaceutical sponsors, community research sites, and patients to run faster, more inclusive clinical trials. Sponsors post upcoming trials and site needs; the platform uses AI for site selection, feasibility, patient pre-screening, and enrollment optimization, giving the 95% of community-based research sites that historically run few trials a way to participate. The marketplace spans 6,000+ research sites across 50+ countries and is used by leading pharma sponsors. Inato publishes no API of its own — no OpenAPI, SDK, MCP server or developer portal — but it is a substantial API CONSUMER: it ingests patient records from site EHRs over read-only bulk FHIR (Epic, Athena, ModMed, eClinicalWorks, Practice Fusion, AdvancedMD, Office Ally, NextGen) and syncs subject status bi-directionally with site CTMS platforms (CRIO, eClinPro), documenting those outbound calls endpoint by endpoint on its own support host. Surfaced in the API Evangelist network as a company profile via the obvious-ventures portfolio.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/inato/refs/heads/main/screenshots/inato-2026-07-25T222216.png",
      "score": 22.7,
      "band": "emerging",
@@ -43817,7 +43817,7 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
+   "count": 5,
    "shown": 0,
    "providers": []
   }

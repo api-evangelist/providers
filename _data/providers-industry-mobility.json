@@ -1,6 +1,6 @@
 {
- "total": 630,
- "shown": 630,
+ "total": 633,
+ "shown": 633,
  "limit": 1000,
  "bands": [
   {
@@ -13635,8 +13635,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 292,
-   "shown": 292,
+   "count": 293,
+   "shown": 293,
    "providers": [
     {
      "name": "Grabr",
@@ -25167,6 +25167,43 @@
      "rank": 626
     },
     {
+     "name": "Bestmile",
+     "slug": "bestmile",
+     "description": "Bestmile was a Swiss fleet-orchestration SaaS company, spun out of EPFL in Lausanne in 2014, whose cloud platform planned, dispatched and optimized mixed fleets of autonomous and human-driven vehicles for on-demand mobility and transit operators. The platform was described by the company as API-first, with documented Fleet, Booking and Transportation APIs for integrating operator booking apps, fleet-management systems and traveler-information systems. The company no longer operates: ZF Friedrichshafen acquired Bestmile's technology in November 2021 and folded it into its own SCALAR fleet-orchestration platform, so any successor API belongs to ZF rather than to Bestmile. As of 2026-08-17 bestmile.com is a parked Gandi.net registrar domain that refuses HTTPS, and no developer portal, documentation, OpenAPI, package or /.well-known surface survives. Surfaced originally as a Partech portfolio company.",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 627
+    },
+    {
      "name": "Enevate",
      "slug": "enevate",
      "description": "Enevate Corporation was an Irvine, California battery technology company that developed and licensed silicon-dominant lithium-ion anode and cell technology — marketed as HD-Energy and XFC-Energy — aimed at extreme fast charging (roughly five minutes to a substantial state of charge), high energy density, and cold-weather performance for electric vehicles, with a licensing rather than cell-manufacturing business model. It was a materials and cell-chemistry licensor, not a software vendor, and it never operated a developer program, public API, SDK or webhook surface. As of an August 2026 probe the company's own domain no longer serves a company website: enevate.com redirects to a \"Website Temporarily Unavailable\" domain notice stating the prior Enevate Corporation website has been retired and the domain is now under new ownership following an asset acquisition process, and that all previously published statements about products, services, partnerships and company operations should no longer be considered current. This profile is retained as a recorded absence with the probe evidence attached.",
@@ -25208,7 +25245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 627
+     "rank": 628
     },
     {
      "name": "Fairmatic",
@@ -25252,7 +25289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 628
+     "rank": 629
     }
    ]
   },
@@ -25261,21 +25298,33 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Electra",
      "slug": "go-electra",
      "description": "Electra is a European operator of ultra-fast electric-vehicle charging, headquartered at 104 rue de Richelieu in the 2nd arrondissement of Paris and led by co-founder and CEO Aurelien de Meaux. It designs, finances, installs and operates its own DC fast-charging stations rather than reselling someone else's hardware, advertising 770+ live stations with 68 more under construction, charge rates up to 400 kW, and a target of 2,200 stations / 15,000 charge points across Europe by 2030. Its own pricing and station pages cover France, Belgium, Spain, Italy, Germany, Austria, the Netherlands and Switzerland, with city hubs in Paris, Lyon, Marseille, Brussels, Antwerp, Liege, Milan, Bologna, Turin, Madrid, Barcelona and Zurich. The commercial surface is consumer- and fleet-facing: a mobile app, an Electra+ subscription that cuts up to 0.20 EUR/kWh, an RFID charging card, Autocharge and Plug&Charge, and a fleet dashboard at business.go-electra.com. It is a Serena portfolio company and has raised a 160 MEUR round, a 304 MEUR Series B and a 433 MEUR debt facility. Electra publishes NO developer portal, NO API documentation, NO OpenAPI, NO llms.txt, NO MCP server and NO A2A agent card — every one of those was probed and missed on 2026-08-17. What it does run, and what almost nobody looking at the marketing site would find, is a real machine-readable API: a live Open Charge Point Interface implementation in the Charge Point Operator role at https://ocpi.go-electra.com/ocpi/cpo, serving BOTH OCPI 2.1.1 and OCPI 2.2.1 concurrently. Its version-negotiation endpoints answer anonymously with HTTP 200 and enumerate the full module inventory — cdrs, commands, credentials, locations, sessions, tariffs and tokens, with SENDER/RECEIVER roles declared on the 2.2.1 surface — while every data module itself returns HTTP 401 with `WWW-Authenticate: Token realm=\"Application\"`, OCPI's own bilateral token scheme. That is a documented open industry standard, fully implemented, discoverable without credentials and readable only with a roaming agreement; its production use is evidenced by the 180+ e-mobility service provider cards Electra's own help centre lists as accepted at its chargers.",
-     "rank": 629
+     "rank": 630
     },
     {
      "name": "Energy and Utilities",
      "slug": "energy-utilities",
      "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
-     "rank": 630
+     "rank": 631
+    },
+    {
+     "name": "Kardinal",
+     "slug": "kardinal",
+     "description": "Kardinal is a Paris-based logistics optimization company whose Always-on Route Optimization (ARO) API solves vehicle routing problems for last-mile delivery, post and parcel, waste and bulk transport, fresh delivery, field services and retail operators. Integrators submit a plan — resources (vehicles), orders (stops) and constraints such as capacities, time windows, driver skills and breaks — with a single idempotent PUT, and the engine optimizes it continuously rather than in a nightly batch, so new orders, cancellations, traffic and field updates are absorbed into the running solution instead of forcing a rerun. The REST API is documented with a published OpenAPI 3.0.3 definition covering 40 operations across authentication, plans, resources, orders and solutions, and is reachable per customer environment at https://<env>.kardinal.ai/api/v2 using short-lived JWT bearer tokens.",
+     "rank": 632
+    },
+    {
+     "name": "Lokki",
+     "slug": "lokki",
+     "description": "Lokki is a Grenoble, France rental-management SaaS (getlokki.com) used by 2,500+ equipment rental businesses across bikes, e-bikes, scooters, cars, ski, climbing, surf, paddle, canoe/kayak, boats, event gear, groundskeeping equipment and tooling, paired with the lokki.rent consumer rental marketplace. Lokki publishes a partner-facing read-only REST API — the Lokki External API, seven operations on https://prod.api.eu-west-3.lokki.rent covering stores (rental providers), store items with date-range pricing and stock, and the verticale/category taxonomy — documented on a Mintlify docs host at docs.getlokki.com with an OpenAPI 3.1 specification, llms.txt, an A2A agent card, a provider-authored Agent Skill and an anonymous documentation MCP server. Authentication is an environment-scoped API key in the x-api-key header (lokki_sk_test_ for staging, lokki_sk_live_ for production) issued by a Lokki representative under a partnership agreement, with scopes at domain, action and route level. The same production host also serves an unauthenticated NestJS Swagger document for the 896-operation internal Dashboard / Online Store API. Lokki has raised roughly €6.3M, led by blisce with Racine2 (Serena + makesense), 50 Partners Impact, FJ Labs and Silence VC.",
+     "rank": 633
     }
    ]
   }

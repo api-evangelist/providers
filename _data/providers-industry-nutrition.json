@@ -1,6 +1,6 @@
 {
- "total": 187,
- "shown": 187,
+ "total": 188,
+ "shown": 188,
  "limit": 1000,
  "bands": [
   {
@@ -7875,6 +7875,22 @@
       "dry_run_mode": false
      },
      "rank": 187
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "CoachClub",
+     "slug": "coachclub",
+     "description": "CoachClub — branded \"CoachClub by Move Your Fit\" — is a French direct-to-consumer online sport and wellness coaching service founded in 2010 in France by Leslie Vartabedian and backed by Serena. Subscribers answer a questionnaire covering goals, physical ability, health and availability, and receive a tailored training and nutrition programme drawn from a library of more than 1,100 on-demand coaching videos spanning over 30 disciplines — fitness, musculation, yoga, danse, cardio boxe, pilates, stretching, bien-être and prénatal/postnatal — graded across three difficulty levels and paired with twelve weeks of healthy recipes, accessible 24/7 from computer, tablet, smartphone or television. The public marketing site runs on WordPress and the member application is a hosted Kajabi tenant at mon.coachclub.com. CoachClub sells an end-user subscription only: it publishes no public API, SDK, webhook catalog, developer portal or machine-readable specification.",
+     "rank": 188
     }
    ]
   }

@@ -1,6 +1,6 @@
 {
- "total": 843,
- "shown": 843,
+ "total": 847,
+ "shown": 847,
  "limit": 1000,
  "bands": [
   {
@@ -32162,27 +32162,51 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 7,
+   "shown": 7,
    "providers": [
+    {
+     "name": "Launchmetrics",
+     "slug": "launchmetrics",
+     "description": "Launchmetrics is the Brand Performance Cloud for the fashion, luxury and beauty (FLB) industries, formed from Fashion GPS and Augure and headquartered in Paris and New York. Its SaaS platform bundles Discover (PR and social media monitoring), Insights (brand performance benchmarking and Media Impact Value), Samples (product sample tracking and logistics), Events (event, RSVP and seating management), Contacts (contact and mailing management) and Spotlight (visual asset galleries). Launchmetrics publishes a small, public REST API reference at nap.launchmetrics.com/docs covering five services — Search, Documents, Documents v2, Medias and Auditlogs — that expose the publication, media-outlet and audit-log data behind Discover and Insights. Requests are authenticated with an app_id issued by Launchmetrics R&D, optionally strengthened with an HMAC-SHA1 request signature. A separate Events API is marketed as a CRM connector but is sales-gated with no public reference.",
+     "rank": 841
+    },
+    {
+     "name": "Melty",
+     "slug": "melty",
+     "description": "Melty is a French digital media brand for youth culture — news and entertainment coverage of series, cinema, television, celebrity, gaming and lifestyle aimed at a 15-34 audience. Founded in 2008 in Paris and operated by EEPLE SAS, Melty was a Serena Capital portfolio company before Reworld Media acquired 100% of the business in a distressed M&A process completed in 2021-2022; melty.fr is now published by EEPLE within Groupe Reworld Media and monetised through advertising and native content rather than software licensing. Melty publishes no developer program, no public API product and no machine-readable API contract. Its only public developer surface is the meltygroup GitHub organisation, which carries the identity servers Kisee and Pasee — MIT-licensed, self-hosted Python HTTP API servers written in-house and released to PyPI, last published in 2021.",
+     "rank": 842
+    },
+    {
+     "name": "Powder",
+     "slug": "powder",
+     "description": "Powder was a Paris-based gaming company, founded in 2018 and backed by a $14M Series A led by Serena with General Catalyst, Slow Ventures, Alven, Bpifrance Digital Venture and Secocha Ventures. It built AI-powered clipping software for gamers and content creators: a low-resource Windows screen recorder plus on-device machine learning that detected highlight moments in gameplay recordings and long Twitch, YouTube and Kick streams and turned them into short vertical clips, AutoEdits and automontages, with per-title models for 40-plus games including Fortnite, Valorant, Counter-Strike 2 and League of Legends, and NPU-accelerated local inference on AMD XDNA hardware. It was distributed as an end-user desktop app through Steam, the Microsoft Store and Razer Cortex, on a free tier with a $9.99/month Powder Pro subscription. Powder published no public API, developer portal, SDK or machine-readable contract. The company has since wound down: its own apex domain now redirects every path to a first-party notice stating the app is no longer updated or maintained and that all subscriptions have been cancelled.",
+     "rank": 843
+    },
+    {
+     "name": "PyannoteAI",
+     "slug": "pyannoteai",
+     "description": "pyannoteAI builds speaker intelligence infrastructure for voice AI: a hosted REST and WebSocket API that answers \"who spoke when\" (speaker diarization) and \"who is speaking\" (speaker identification via voiceprints) for both batch audio files and live streams. The company commercializes the widely adopted open-source pyannote.audio library, offering batch diarization, real-time streaming diarization over a WebSocket gateway, voiceprint enrollment and matching, and speech-to-text orchestration that returns speaker-attributed transcripts in a single call. Developers authenticate with a bearer API key, submit asynchronous jobs, and receive results by polling or signed webhooks.",
+     "rank": 844
+    },
     {
      "name": "Slow Ventures",
      "slug": "slow-ventures",
      "description": "Slow Ventures is a generalist early-stage venture capital firm founded in 2011 and headquartered in San Francisco, with additional offices in Boston and New York. The firm leads pre-seed and seed rounds, writing typical checks of roughly $500K to $3M (averaging around $1.75M), and explicitly rejects thematic investing in favor of backing experienced founders with deep, hard-won domain expertise and genuine conviction. Slow's thesis funds rapid, high-stakes experimentation: capital that tests a novel risk or hypothesis whose validation dramatically increases a company's value and that cannot easily be funded another way. As a generalist, Slow invests across consumer and social, fintech, SaaS and enterprise/developer tools, healthcare, crypto/web3, the creator economy, and real-world operations (SMB acceleration, buyouts/rollups, franchising). The firm runs a dedicated Creator Fund backing creator-led businesses, and has deployed roughly $800M+ across multiple fund vintages since inception. Notable investments include Pinterest, Slack, Robinhood, Nextdoor, Postmates, Opendoor, Wealthfront, Casper, PillPack, Airtable, Gusto, and Solana.",
-     "rank": 841
+     "rank": 845
     },
     {
      "name": "Social Capital",
      "slug": "social-capital",
      "description": "Social Capital is a technology investment firm founded in 2011 by Chamath Palihapitiya (a former Facebook executive) and headquartered in Palo Alto, California, with co-founders Mamoon Hamid and Ted Maidenberg. Originally a traditional venture fund that stood out by backing healthcare, financial services, education, and other hard, regulated sectors the VC community had neglected, the firm pivoted in 2018 into a technology holding company that stopped accepting outside capital and now invests from its own permanent balance sheet of roughly $2.1B, aiming to \"earn like Berkshire Hathaway and invest like the Red Cross.\" Its thesis targets multiple emerging $10T markets across deep tech commercialization, life sciences and drug discovery, the global energy transition, and creator-economy media. Chamath became known as the \"SPAC King\" for taking companies public through the Social Capital Hedosophia (IPOA-IPOF) vehicles, including Virgin Galactic, Opendoor, Clover Health, and SoFi. Notable investments include Slack, Box, SurveyMonkey, Wealthfront, Netskope, Intercom, Groq, Palmetto, Saildrone, and Relativity Space.",
-     "rank": 842
+     "rank": 846
     },
     {
      "name": "Visioconference",
      "slug": "visioconference",
      "description": "Visioconference (video conferencing) is a category of communication technology enabling real-time visual and audio communication between remote participants. This repository profiles the video conferencing API ecosystem including leading providers such as Zoom, Microsoft Teams, Google Meet, Webex, Digital Samba, VideoSDK, Daily.co, and others offering REST APIs for embedding and managing video conferencing functionality. The term \"visioconference\" is commonly used in French-speaking contexts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/visioconference/refs/heads/main/screenshots/visioconference-2026-06-20T201051.png",
-     "rank": 843
+     "rank": 847
     }
    ]
   }

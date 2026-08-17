@@ -1,6 +1,6 @@
 {
- "total": 873,
- "shown": 873,
+ "total": 875,
+ "shown": 875,
  "limit": 1000,
  "bands": [
   {
@@ -34572,14 +34572,26 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "Malt",
+     "slug": "malt",
+     "description": "Malt is a European freelance marketplace and Freelance Management System (FMS) founded in 2013 in Paris by Vincent Huguet and Hugo Lassiege, connecting more than a million independent consultants across tech, data, AI, design, marketing and management with enterprise buyers. Beyond matching, the platform handles the administrative spine of freelance engagement: quotes, automated contracts and NDAs, timesheets, invoicing, insured payments and compliance checks, plus an enterprise tier that consolidates an existing freelance roster (Malt Open) and plugs into 85+ ERP, procurement and HR systems including SAP Fieldglass, Coupa and Workday. Malt publishes a small, credential-gated public API surface at api.malt.com documented with Stoplight Elements: a freelancer billing API (invoices, service charge invoices, payments, invoice PDFs) and a SCIM 2.0 user-provisioning endpoint for enterprise identity lifecycle management.",
+     "rank": 873
+    },
     {
      "name": "May",
      "slug": "may",
      "description": "May is a French digital-health company, operated by LN CARE SAS, whose mobile app supports future and new parents from fertility and pregnancy through the first years of a child's life. It pairs a medical messaging service staffed by French-qualified midwives, pediatric nurses and doctors — answering questions seven days a week from 8am to 10pm — with an expert-reviewed content library, roughly hour-long audio masterclasses, everyday tracking tools for sleep, feeding and weight, and Mya, an in-app AI medical assistant. Founded in Paris in 2020 by Cécilia Creuzet, Antoine Creuzet and Adrien Brunet, it reported more than 400,000 users and a team of around 80 health professionals, raised €7M in September 2024 to expand into Spain and the United Kingdom, and also sells a parental-support benefit to employers. It was surfaced as a portfolio company of Serena and profiled in the API Evangelist network; it publishes a consumer marketing site, a blog and an Intercom help center, but no public developer program, no API reference and no machine-readable API contract of any kind.",
-     "rank": 873
+     "rank": 874
+    },
+    {
+     "name": "Seiza",
+     "slug": "seiza",
+     "description": "Seiza was a French social-recruitment advertising and recruitment-automation SaaS platform dedicated to frontline hiring — hospitality and restaurants, transport and logistics, agri-food, industry, retail, temp staffing, healthcare and construction. Founded in Paris in 2010 as Work4 Labs by Stephane Le Viet, Gautier Machelon and Matt Brown, it built its early business on sourcing candidates through non-professional social networks rather than job boards or LinkedIn, later rebranding from Work4 to Seiza. It raised roughly $22.8M in venture capital (Serena, among others) and served about 400 clients across Europe and the US, including McDonald's, Sysco, Ecolab and Veolia. The product was a recruiter web application — social sourcing campaigns, profile enrichment, one-click calling, a compatibility index, automated interview scheduling, SMS/messaging and reporting — plus a fixed catalog of 23 named ATS connectors (Bullhorn, Workday, Greenhouse, SmartRecruiters, iCIMS, Cornerstone, Recruitee, Talensoft, DigitalRecruiters, Beetween, Fountain, Paychex, CareerBuilder, Avionte, Acquity, Idibu, PivotCX, Talemetry, Gestmax, Scoptalent, Eolia Software, MyCVtheque, Hubspot), with anything outside that list handled as a bespoke integration through sales. No public API, developer portal, API reference, OpenAPI/AsyncAPI specification, webhook catalog, SDK or CLI was ever published: a 557-URL census of the archived seiza.co site shows only marketing, blog, FAQ and legal pages, and every /.well-known/ path returned 404 while the site was live. Seiza was acquired by UK job-search engine Adzuna on 2024-11-18 and folded into Adzuna's social recruitment advertising line; Adzuna's own developer program is profiled separately in this network. The company domain seiza.co was still serving in May 2026 but no longer resolves at all as of 2026-08-17. This profile is retained as a historical company record; there is no API surface to enrich.",
+     "rank": 875
     }
    ]
   }

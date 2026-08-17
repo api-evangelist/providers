@@ -1,5 +1,5 @@
 {
- "total": 1018,
+ "total": 1021,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -18893,7 +18893,7 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 520,
+   "count": 521,
    "shown": 515,
    "providers": [
     {
@@ -28809,7 +28809,7 @@
     {
      "name": "Vitesse",
      "slug": "vitesse",
-     "description": "Vitesse is a universal physical-AI platform for industrial machines, founded by the team behind Tesla's \"Model 3 automation hell\" fix alongside leaders from SpaceX, Siemens, and Safran. It connects any machine - Siemens, Allen-Bradley, Fanuc, KUKA, ABB, and legacy PLCs - through 135 native OT connectors, generates control logic from a natural-language description of a process (up to 15x faster than traditional PLC programming), and runs the full stack at the edge on purpose-built industrial controllers with no cloud required. The platform layers hardware, live data dashboards and SCADA views, interoperability, physical AI, and zero-trust OT/IT cybersecurity (NIS2 and NIST aligned) into one stack, with real-time browser-based monitoring across 800,000+ machine hours. Vitesse exposes a marketing website and a login-gated product application; it does not currently publish a public developer API, OpenAPI specification, or developer documentation.",
+     "description": "Vitesse is a universal physical-AI platform for industrial machines, founded by the team behind Tesla's \"Model 3 automation hell\" fix alongside leaders from SpaceX, Siemens, and Safran. It connects any machine - Siemens, Allen-Bradley, Fanuc, KUKA, ABB, and legacy PLCs - through 135 native OT connectors, generates control logic from a natural-language description of a process (up to 15x faster than traditional PLC programming), and runs the full stack at the edge on purpose-built industrial controllers with no cloud required. The platform layers hardware, live data dashboards and SCADA views, interoperability, physical AI, and zero-trust OT/IT cybersecurity (NIS2 and NIST aligned) into one stack, with real-time browser-based monitoring across 800,000+ machine hours. The company traded as Full Speed Automation and renamed to Vitesse Automation after acquiring Niagara Tech; the legacy fullspeedautomation.com domain no longer resolves over TLS. Vitesse exposes a marketing website and a login-gated product application at app.vitesse.dev; as of August 2026 it publishes no public developer API, OpenAPI/AsyncAPI/GraphQL specification, SDK, webhooks, developer portal, or pricing page, and serves no /.well-known discovery documents.",
      "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -38903,7 +38903,7 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 13,
+   "count": 15,
    "shown": 0,
    "providers": []
   }

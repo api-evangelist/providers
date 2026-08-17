@@ -1,6 +1,6 @@
 {
- "total": 684,
- "shown": 684,
+ "total": 686,
+ "shown": 686,
  "limit": 1000,
  "bands": [
   {
@@ -26130,8 +26130,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Bullpen Capital",
@@ -26141,16 +26141,28 @@
      "rank": 682
     },
     {
+     "name": "Darewise",
+     "slug": "darewise",
+     "description": "Darewise Entertainment is a European game studio founded by AAA industry veterans — game director Benjamin Charbit (Assassin's Creed IV: Black Flag) and engine tech lead Samuel Kahn (Ubisoft Snowdrop, Crytek CryEngine) — with offices in Paris, London and Barcelona. It builds Life Beyond, a free-to-play sci-fi MMO on Unreal Engine 5 set on the alien world Dolos, combining Web3 asset ownership (NFTs and ERC-20 tokens) with player-driven settlement and governance. Animoca Brands announced the acquisition of a majority stake in April 2022, and the studio now trades as Life Beyond Studios. The original darewise.com website last served content in April 2025 and the host now refuses TCP connections on 80 and 443. Darewise publishes no API, developer portal, or API documentation of any kind; the only machine-readable developer artifact it has ever released publicly is an open-source AsyncAPI generator template that emits Unreal Engine C++ from an AsyncAPI 3.x document, published to npm under its own scope.",
+     "rank": 683
+    },
+    {
      "name": "Jam.gg",
      "slug": "jam-gg",
      "description": "Jam.gg, founded in Paris in 2020 as Piepacker and rebranded in 2022, built a browser-based social cloud gaming platform for playing retro and indie multiplayer games with friends with no download or install, on patented streaming technology the company said cut bandwidth requirements by roughly 15x. It passed 8 million users before pivoting to selling its cloud gaming technology B2B to game developers and publishers. Backed by Makers Fund, Serena Capital, LEGO Ventures, Kima Ventures and Kickstarter (~$15.4M raised) and a Y Combinator W20 company. Jam.gg never published an HTTP API: its developer surface was a native game-integration SDK plus a Compose Multiplatform virtual gamepad library, both shipped from the GitHub organization still named piepacker. Y Combinator's company directory now lists Jam.gg as Inactive, noting the business split into two entities in 2023 with Onibi emerging separately; the jam.gg web property no longer completes a TLS handshake and piepacker.com has left DNS.",
-     "rank": 683
+     "rank": 684
+    },
+    {
+     "name": "Onibi",
+     "slug": "onibi",
+     "description": "Onibi (Onibi inc.) is a video game studio founded in 2023 by Benjamin Devienne, with a distributed team in San Francisco, London and Bordeaux drawn from Blizzard, Riot, Ubisoft, EA and Rockstar. Its first title is Tomo: Endless Blue, a procedurally generated monster-taming voxel sandbox open world announced for Steam and funded through a Kickstarter campaign plus roughly $6.5M in seed capital from SeaX Ventures, Serena, Octopus Ventures and Pix Capital. Onibi is a consumer game studio, not an API provider: as of August 2026 the game is unreleased and the studio publishes no developer portal, API reference, SDK or machine-readable specification. The Steam page states an intent to keep the game moddable, but no modding API, tooling or documentation has been published yet, so there is nothing machine-readable to catalog.",
+     "rank": 685
     },
     {
      "name": "Powder",
      "slug": "powder",
-     "description": "Powder is a company surfaced as a portfolio company of serena and added to the API Evangelist network as a stub for enrichment. Sector: gaming. This profile is a lead awaiting the enrichment pipeline.",
-     "rank": 684
+     "description": "Powder was a Paris-based gaming company, founded in 2018 and backed by a $14M Series A led by Serena with General Catalyst, Slow Ventures, Alven, Bpifrance Digital Venture and Secocha Ventures. It built AI-powered clipping software for gamers and content creators: a low-resource Windows screen recorder plus on-device machine learning that detected highlight moments in gameplay recordings and long Twitch, YouTube and Kick streams and turned them into short vertical clips, AutoEdits and automontages, with per-title models for 40-plus games including Fortnite, Valorant, Counter-Strike 2 and League of Legends, and NPU-accelerated local inference on AMD XDNA hardware. It was distributed as an end-user desktop app through Steam, the Microsoft Store and Razer Cortex, on a free tier with a $9.99/month Powder Pro subscription. Powder published no public API, developer portal, SDK or machine-readable contract. The company has since wound down: its own apex domain now redirects every path to a first-party notice stating the app is no longer updated or maintained and that all subscriptions have been cancelled.",
+     "rank": 686
     }
    ]
   }
