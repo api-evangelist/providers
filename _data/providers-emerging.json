@@ -1,5 +1,5 @@
 {
- "total": 6164,
+ "total": 6163,
  "bands": [
   {
    "band": "emerging",
@@ -88643,46 +88643,6 @@
       "dry_run_mode": false
      },
      "rank": 2100
-    },
-    {
-     "name": "Distribusion",
-     "slug": "distribusion",
-     "url": "https://providers.apis.io/providers/distribusion/",
-     "type": "API Provider",
-     "description": "Distribusion is a Berlin-based ground transportation technology company that operates a global distribution system (GDS) for ground travel. Its B2B platform connects 2,000+ carriers - buses, trains, trams, and ferries - with 250+ retailers and travel platforms including Google Maps, Expedia, Booking, and Trainline. The Distribusion Retailer API handles the full transaction lifecycle from search to settlement: inventory search, booking, payment, unified invoicing, channel management, real-time disruption management, and after-sales services. The platform supports the OSDM (Open Sales and Distribution Model) rail distribution standard and aims to make ground travel as accessible and bookable as flights. Backed by Creandum and Northzone.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/distribusion/refs/heads/main/screenshots/distribusion-2026-07-25T212115.png",
-     "score": 20.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 2101
     },
     {
      "name": "EarnUp",
