@@ -1,6 +1,6 @@
 {
- "total": 627,
- "shown": 627,
+ "total": 630,
+ "shown": 630,
  "limit": 1000,
  "bands": [
   {
@@ -25084,8 +25084,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Energy and Utilities",
@@ -25105,6 +25105,24 @@
      "slug": "fluid-truck",
      "description": "Fluid Truck was a Denver, Colorado peer-to-peer commercial vehicle sharing platform founded in 2016 by James Eberhard and Jenifer Snyder, often described as \"the Zipcar of commercial vehicles\". It operated an app-based, self-service rental marketplace for cargo vans, box trucks and flatbeds across roughly 400 cities in 32 US states, and ran the Fluid Vehicle Investor Program (FVIP) through which individuals and small businesses bought fleets that Fluid managed and rented out. The company raised over $80 million in venture funding, filed for Chapter 11 bankruptcy in Delaware in October 2024 after an $20.6 million cash loss in 2023, sold substantially all assets to Kingbee Rentals in December 2024, and the case converted to Chapter 7 liquidation in September 2025. The company is wound down: no developer program, API documentation, or machine-readable contract was ever published, and its own web properties no longer serve a valid TLS certificate.",
      "rank": 627
+    },
+    {
+     "name": "Foxglove Technologies",
+     "slug": "foxglove-technologies",
+     "description": "Foxglove Technologies, Inc. (foxglove.dev) builds a multimodal data platform for robotics, autonomy and physical AI. Its products cover visualization and debugging of robot data (3D scenes, images, plots, logs, maps), cloud and self-hosted data infrastructure for recording ingest and retention, fleet and device management, and an agent layer that lets AI assistants inspect recordings. Foxglove publishes an OpenAPI 3.1 REST API at api.foxglove.dev/v1 for devices, recordings, sessions, events, event types, custom properties, sites, tokens, extensions and layouts; a webhook event surface; SDKs for Python, Rust, C++, C, Go and TypeScript; a Go CLI; and the open-source MCAP container format and Foxglove message schemas.",
+     "rank": 628
+    },
+    {
+     "name": "Franklin Whole Home",
+     "slug": "franklin-whole-home",
+     "description": "Franklin Whole Home (FranklinWH Energy Storage Inc.) builds whole-home energy management and storage hardware for residential solar: the aPower lithium iron phosphate AC battery, the aGate energy management and controller unit, and the FranklinWH mobile app, together forming an ecosystem that coordinates solar, battery, grid, generator and EV power sources for backup, self-consumption, time-of-use arbitrage and off-grid operation. Founded in 2019 and headquartered in the San Francisco Bay Area, the company designs and manufactures nearly all of its own components and sells through a certified installer and distributor channel. FranklinWH publishes a partner API - a unified developer access platform for authorised third-party owners, financiers, installers and service providers to read device and site data, monitor system performance, receive operational alerts and perform approved remote device control.",
+     "rank": 629
+    },
+    {
+     "name": "FreshToHome",
+     "slug": "freshtohome",
+     "description": "FreshToHome (Freshtohome Foods Private Limited) is a Bangalore-headquartered direct-to-consumer e-commerce company selling fresh, antibiotic-residue-free fish, seafood, poultry, mutton, ready-to-cook and heat-and-eat food. Founded in 2015 by Shan Kadavil, Mathew Joseph and Jayesh Jose, it runs its own farm-and-boat-to-doorstep cold chain, sourcing from thousands of fishermen and farmers and delivering across cities in India and the United Arab Emirates. The company sells through its website and its consumer iOS and Android apps. It publishes an llms.txt at its web root but operates no public developer program, API reference, or machine-readable API contract.",
+     "rank": 630
     }
    ]
   }

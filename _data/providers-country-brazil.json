@@ -1,6 +1,6 @@
 {
- "total": 125,
- "shown": 125,
+ "total": 126,
+ "shown": 126,
  "limit": 1000,
  "bands": [
   {
@@ -5317,6 +5317,22 @@
       "dry_run_mode": false
      },
      "rank": 125
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Frete.com",
+     "slug": "frete",
+     "description": "Frete.com is the Brazilian road-freight technology group formed in January 2023 when CargoX merged with Fretebras and FretePago, becoming Latin America's largest freight-matching platform and one of Brazil's logistics unicorns after a US$200M round led by SoftBank and Tencent. The group operates three consumer-facing brands: Fretebras, the freight marketplace that connects shippers and carriers with autonomous truck drivers; CargoX Brasil, which bundles working-capital credit, cargo insurance, document issuance and truck tracking for trucking companies; and FretePago, a fintech offering a digital account and freight payment rails for drivers and fleets. It also acquired Rotas Brasil for route mapping and toll pricing. The platform applies machine learning to freight matching, fraud and cargo-theft prevention, and pricing intelligence. Frete.com does not currently publish a public developer portal or machine-readable API contract; the Fretebras integration API is reached through partner and ERP/TMS channels rather than an open reference.",
+     "rank": 126
     }
    ]
   }

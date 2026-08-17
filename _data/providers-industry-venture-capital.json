@@ -1,6 +1,6 @@
 {
- "total": 1372,
- "shown": 999,
+ "total": 1374,
+ "shown": 1000,
  "limit": 1000,
  "bands": [
   {
@@ -33680,7 +33680,7 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 481,
+   "count": 480,
    "shown": 214,
    "providers": [
     {
@@ -35322,7 +35322,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 827
+     "rank": 826
     },
     {
      "name": "Hundsun Technologies",
@@ -35366,7 +35366,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 828
+     "rank": 827
     },
     {
      "name": "Lato",
@@ -35403,7 +35403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 829
+     "rank": 828
     },
     {
      "name": "MayStreet",
@@ -35448,7 +35448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 830
+     "rank": 829
     },
     {
      "name": "Sav Technologies Limited",
@@ -35492,7 +35492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 831
+     "rank": 830
     },
     {
      "name": "Gyde",
@@ -35537,7 +35537,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 832
+     "rank": 831
     },
     {
      "name": "HODL Media",
@@ -35582,7 +35582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 833
+     "rank": 832
     },
     {
      "name": "Novig",
@@ -35627,7 +35627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 834
+     "rank": 833
     },
     {
      "name": "Argus Software",
@@ -35665,7 +35665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 835
+     "rank": 834
     },
     {
      "name": "Arteria AI",
@@ -35710,7 +35710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 836
+     "rank": 835
     },
     {
      "name": "Raymond James Financial",
@@ -35755,7 +35755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 837
+     "rank": 836
     },
     {
      "name": "Adanos Market Sentiment API",
@@ -35800,7 +35800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 838
+     "rank": 837
     },
     {
      "name": "Backstartup",
@@ -35838,7 +35838,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 839
+     "rank": 838
     },
     {
      "name": "iCapital Network",
@@ -35876,7 +35876,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 840
+     "rank": 839
     },
     {
      "name": "Launching Next",
@@ -35914,7 +35914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 841
+     "rank": 840
     },
     {
      "name": "Withco",
@@ -35951,7 +35951,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 842
+     "rank": 841
     },
     {
      "name": "Aura Finance",
@@ -35989,7 +35989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 843
+     "rank": 842
     },
     {
      "name": "Cadre",
@@ -36027,7 +36027,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 844
+     "rank": 843
     },
     {
      "name": "Flock Homes",
@@ -36065,7 +36065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 845
+     "rank": 844
     },
     {
      "name": "Project Europe",
@@ -36102,7 +36102,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 846
+     "rank": 845
     },
     {
      "name": "Sovryn",
@@ -36146,7 +36146,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 847
+     "rank": 846
     },
     {
      "name": "Jefferies Financial Group",
@@ -36191,7 +36191,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 848
+     "rank": 847
     },
     {
      "name": "LTSE",
@@ -36236,7 +36236,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 849
+     "rank": 848
     },
     {
      "name": "Drahim Holdings",
@@ -36281,7 +36281,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 850
+     "rank": 849
     },
     {
      "name": "Oxford Science Enterprises",
@@ -36326,7 +36326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 851
+     "rank": 850
     },
     {
      "name": "PsyOptions",
@@ -36370,7 +36370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 852
+     "rank": 851
     },
     {
      "name": "Theorem",
@@ -36414,7 +36414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 853
+     "rank": 852
     },
     {
      "name": "Alvarez & Marsal",
@@ -36451,7 +36451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 854
+     "rank": 853
     },
     {
      "name": "Cabal",
@@ -36489,7 +36489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 855
+     "rank": 854
     },
     {
      "name": "Iress",
@@ -36534,7 +36534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 856
+     "rank": 855
     },
     {
      "name": "Calastone",
@@ -36572,7 +36572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 857
+     "rank": 856
     },
     {
      "name": "Donkey",
@@ -36617,7 +36617,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 858
+     "rank": 857
     },
     {
      "name": "Irreverent Labs",
@@ -36662,7 +36662,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 859
+     "rank": 858
     },
     {
      "name": "LVX (formerly LetsVenture)",
@@ -36700,7 +36700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 860
+     "rank": 859
     },
     {
      "name": "Pocket Protector",
@@ -36744,7 +36744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 861
+     "rank": 860
     },
     {
      "name": "Close Brothers",
@@ -36789,7 +36789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 862
+     "rank": 861
     },
     {
      "name": "Curie.Bio",
@@ -36834,7 +36834,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 863
+     "rank": 862
     },
     {
      "name": "Fidelity National Information Services (FIS)",
@@ -36878,7 +36878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 864
+     "rank": 863
     },
     {
      "name": "FundersClub",
@@ -36916,7 +36916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 865
+     "rank": 864
     },
     {
      "name": "Avantos",
@@ -36954,7 +36954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 866
+     "rank": 865
     },
     {
      "name": "Ulu Ventures",
@@ -36991,7 +36991,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 867
+     "rank": 866
     },
     {
      "name": "Cega",
@@ -37035,7 +37035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 868
+     "rank": 867
     },
     {
      "name": "Entrepreneur First",
@@ -37073,7 +37073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 869
+     "rank": 868
     },
     {
      "name": "Exotic Markets",
@@ -37118,7 +37118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 870
+     "rank": 869
     },
     {
      "name": "Jar",
@@ -37156,7 +37156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 871
+     "rank": 870
     },
     {
      "name": "AlgoX2",
@@ -37201,7 +37201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 872
+     "rank": 871
     },
     {
      "name": "eXp World Holdings",
@@ -37246,7 +37246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 873
+     "rank": 872
     },
     {
      "name": "Forwardlane",
@@ -37284,7 +37284,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 874
+     "rank": 873
     },
     {
      "name": "Auxmoney",
@@ -37321,7 +37321,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 875
+     "rank": 874
     },
     {
      "name": "Insurance Australia Group",
@@ -37366,7 +37366,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 876
+     "rank": 875
     },
     {
      "name": "SeekingAlpha",
@@ -37403,7 +37403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 877
+     "rank": 876
     },
     {
      "name": "SunGard Data Systems",
@@ -37440,7 +37440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 878
+     "rank": 877
     },
     {
      "name": "Team8",
@@ -37484,7 +37484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 879
+     "rank": 878
     },
     {
      "name": "Altvia",
@@ -37522,7 +37522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 880
+     "rank": 879
     },
     {
      "name": "CohnReznick",
@@ -37567,7 +37567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 881
+     "rank": 880
     },
     {
      "name": "Indian Energy Exchange",
@@ -37612,7 +37612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 882
+     "rank": 881
     },
     {
      "name": "Vaas",
@@ -37656,7 +37656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 883
+     "rank": 882
     },
     {
      "name": "QPLIX",
@@ -37693,7 +37693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 884
+     "rank": 883
     },
     {
      "name": "AgFunder",
@@ -37731,7 +37731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 885
+     "rank": 884
     },
     {
      "name": "AI Fund",
@@ -37769,7 +37769,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 886
+     "rank": 885
     },
     {
      "name": "California Forever",
@@ -37807,7 +37807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 887
+     "rank": 886
     },
     {
      "name": "Chipper Cash",
@@ -37852,7 +37852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 888
+     "rank": 887
     },
     {
      "name": "Endeavor Catalyst I",
@@ -37890,7 +37890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 889
+     "rank": 888
     },
     {
      "name": "Fundable",
@@ -37928,7 +37928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 890
+     "rank": 889
     },
     {
      "name": "Marlin Equity Partners",
@@ -37966,7 +37966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 891
+     "rank": 890
     },
     {
      "name": "nlyte",
@@ -38004,7 +38004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 892
+     "rank": 891
     },
     {
      "name": "OnCorps AI",
@@ -38042,7 +38042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 893
+     "rank": 892
     },
     {
      "name": "Setpoint.io",
@@ -38079,7 +38079,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 894
+     "rank": 893
     },
     {
      "name": "SmartAsset",
@@ -38116,7 +38116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 895
+     "rank": 894
     },
     {
      "name": "Animoca Brands",
@@ -38154,7 +38154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 896
+     "rank": 895
     },
     {
      "name": "StepStone Group",
@@ -38192,7 +38192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 897
+     "rank": 896
     },
     {
      "name": "Zag Bio",
@@ -38236,7 +38236,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 898
+     "rank": 897
     },
     {
      "name": "International Development Finance Corporation",
@@ -38281,7 +38281,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 899
+     "rank": 898
     },
     {
      "name": "PIN",
@@ -38325,7 +38325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 900
+     "rank": 899
     },
     {
      "name": "Laureate Education",
@@ -38363,7 +38363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 901
+     "rank": 900
     },
     {
      "name": "American Operator",
@@ -38401,7 +38401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 902
+     "rank": 901
     },
     {
      "name": "Collision (now Web Summit Vancouver)",
@@ -38439,7 +38439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 903
+     "rank": 902
     },
     {
      "name": "Digital Currency Group",
@@ -38477,7 +38477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 904
+     "rank": 903
     },
     {
      "name": "Product Hunt",
@@ -38514,7 +38514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 905
+     "rank": 904
     },
     {
      "name": "Realty Mogul",
@@ -38551,7 +38551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 906
+     "rank": 905
     },
     {
      "name": "NovaSparks",
@@ -38595,7 +38595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 907
+     "rank": 906
     },
     {
      "name": "WithAI",
@@ -38632,7 +38632,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 908
+     "rank": 907
     },
     {
      "name": "01 Exchange",
@@ -38677,7 +38677,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 909
+     "rank": 908
     },
     {
      "name": "Hamilton Lane",
@@ -38715,7 +38715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 910
+     "rank": 909
     },
     {
      "name": "Mangata Finance",
@@ -38760,7 +38760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 911
+     "rank": 910
     },
     {
      "name": "Berkshire Hathaway",
@@ -38805,7 +38805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 912
+     "rank": 911
     },
     {
      "name": "Noetica",
@@ -38850,7 +38850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 913
+     "rank": 912
     },
     {
      "name": "Axend",
@@ -38888,7 +38888,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 914
+     "rank": 913
     },
     {
      "name": "Ethic",
@@ -38925,7 +38925,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 915
+     "rank": 914
     },
     {
      "name": "Hustle Fund",
@@ -38963,7 +38963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 916
+     "rank": 915
     },
     {
      "name": "KKR",
@@ -39001,7 +39001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 917
+     "rank": 916
     },
     {
      "name": "Scope",
@@ -39038,7 +39038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 918
+     "rank": 917
     },
     {
      "name": "Scoutzie",
@@ -39075,7 +39075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 919
+     "rank": 918
     },
     {
      "name": "Second Measure",
@@ -39112,7 +39112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 920
+     "rank": 919
     },
     {
      "name": "Slingshot",
@@ -39156,7 +39156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 921
+     "rank": 920
     },
     {
      "name": "Axoni",
@@ -39194,7 +39194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 922
+     "rank": 921
     },
     {
      "name": "PartyDAO",
@@ -39232,7 +39232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 923
+     "rank": 922
     },
     {
      "name": "Skience (The Athene Group)",
@@ -39269,7 +39269,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 924
+     "rank": 923
     },
     {
      "name": "Abaxx",
@@ -39314,7 +39314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 925
+     "rank": 924
     },
     {
      "name": "Evercore Inc",
@@ -39359,7 +39359,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 926
+     "rank": 925
     },
     {
      "name": "The Human Utility",
@@ -39403,7 +39403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 927
+     "rank": 926
     },
     {
      "name": "Ares Management",
@@ -39440,7 +39440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 928
+     "rank": 927
     },
     {
      "name": "Brine (Tanx)",
@@ -39485,7 +39485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 929
+     "rank": 928
     },
     {
      "name": "Wintermute",
@@ -39529,7 +39529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 930
+     "rank": 929
     },
     {
      "name": "Alliance DAO",
@@ -39567,7 +39567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 931
+     "rank": 930
     },
     {
      "name": "Axiom Trust",
@@ -39605,7 +39605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 932
+     "rank": 931
     },
     {
      "name": "DCG",
@@ -39643,7 +39643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 933
+     "rank": 932
     },
     {
      "name": "E-3 Tech",
@@ -39681,7 +39681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 934
+     "rank": 933
     },
     {
      "name": "Lowercarbon Capital",
@@ -39726,7 +39726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 935
+     "rank": 934
     },
     {
      "name": "CleanCapital",
@@ -39770,7 +39770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 936
+     "rank": 935
     },
     {
      "name": "EZ Farming",
@@ -39808,7 +39808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 937
+     "rank": 936
     },
     {
      "name": "High Alpha",
@@ -39846,7 +39846,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 938
+     "rank": 937
     },
     {
      "name": "Latitud",
@@ -39883,7 +39883,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 939
+     "rank": 938
     },
     {
      "name": "Vector Legal",
@@ -39920,7 +39920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 940
+     "rank": 939
     },
     {
      "name": "Warren",
@@ -39957,7 +39957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 941
+     "rank": 940
     },
     {
      "name": "Kayum",
@@ -40002,7 +40002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 942
+     "rank": 941
     },
     {
      "name": "Panta",
@@ -40047,7 +40047,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 943
+     "rank": 942
     },
     {
      "name": "Soria",
@@ -40091,7 +40091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 944
+     "rank": 943
     },
     {
      "name": "NaroIQ",
@@ -40136,7 +40136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 945
+     "rank": 944
     },
     {
      "name": "Personal Capital",
@@ -40173,7 +40173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 946
+     "rank": 945
     },
     {
      "name": "Powerup Money",
@@ -40210,7 +40210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 947
+     "rank": 946
     },
     {
      "name": "SiamSquared",
@@ -40247,7 +40247,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 948
+     "rank": 947
     },
     {
      "name": "Tema",
@@ -40291,7 +40291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 949
+     "rank": 948
     },
     {
      "name": "AssetWorks",
@@ -40336,7 +40336,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 950
+     "rank": 949
     },
     {
      "name": "Dealogic",
@@ -40381,7 +40381,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 951
+     "rank": 950
     },
     {
      "name": "TPG Inc",
@@ -40419,7 +40419,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 952
+     "rank": 951
     },
     {
      "name": "Yipitdata",
@@ -40456,7 +40456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 953
+     "rank": 952
     },
     {
      "name": "Alluva",
@@ -40501,7 +40501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 954
+     "rank": 953
     },
     {
      "name": "Finaccess",
@@ -40539,7 +40539,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 955
+     "rank": 954
     },
     {
      "name": "Kinro",
@@ -40584,7 +40584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 956
+     "rank": 955
     },
     {
      "name": "Scalable Capital",
@@ -40628,7 +40628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 957
+     "rank": 956
     },
     {
      "name": "Western & Southern Financial Group",
@@ -40673,7 +40673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 958
+     "rank": 957
     },
     {
      "name": "Aerodyne",
@@ -40711,7 +40711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 959
+     "rank": 958
     },
     {
      "name": "Chingona Ventures",
@@ -40756,7 +40756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 960
+     "rank": 959
     },
     {
      "name": "Disrupt",
@@ -40794,7 +40794,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 961
+     "rank": 960
     },
     {
      "name": "Evreka",
@@ -40832,7 +40832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 962
+     "rank": 961
     },
     {
      "name": "Market IQ",
@@ -40877,7 +40877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 963
+     "rank": 962
     },
     {
      "name": "merama",
@@ -40915,7 +40915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 964
+     "rank": 963
     },
     {
      "name": "Spider Capital",
@@ -40952,7 +40952,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 965
+     "rank": 964
     },
     {
      "name": "UnifiedCRM",
@@ -40989,7 +40989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 966
+     "rank": 965
     },
     {
      "name": "Compass",
@@ -41033,7 +41033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 967
+     "rank": 966
     },
     {
      "name": "Iman",
@@ -41078,7 +41078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 968
+     "rank": 967
     },
     {
      "name": "Lazard",
@@ -41123,7 +41123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 969
+     "rank": 968
     },
     {
      "name": "Republic",
@@ -41160,7 +41160,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 970
+     "rank": 969
     },
     {
      "name": "Trucks Venture Fund I",
@@ -41197,7 +41197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 971
+     "rank": 970
     },
     {
      "name": "NYDIG",
@@ -41242,7 +41242,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 972
+     "rank": 971
     },
     {
      "name": "Resolute Ventures",
@@ -41279,7 +41279,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 973
+     "rank": 972
     },
     {
      "name": "Westbound Equity Partners",
@@ -41316,7 +41316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 974
+     "rank": 973
     },
     {
      "name": "Noise",
@@ -41361,7 +41361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 975
+     "rank": 974
     },
     {
      "name": "Redesign Health",
@@ -41405,7 +41405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 976
+     "rank": 975
     },
     {
      "name": "Seed Club",
@@ -41442,7 +41442,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 977
+     "rank": 976
     },
     {
      "name": "Temple",
@@ -41486,7 +41486,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 978
+     "rank": 977
     },
     {
      "name": "Skyfri",
@@ -41530,7 +41530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 979
+     "rank": 978
     },
     {
      "name": "Diametric Capital",
@@ -41568,7 +41568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 980
+     "rank": 979
     },
     {
      "name": "Factory Works",
@@ -41606,7 +41606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 981
+     "rank": 980
     },
     {
      "name": "Novus (SEI Investments)",
@@ -41644,7 +41644,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 982
+     "rank": 981
     },
     {
      "name": "Palus Finance",
@@ -41682,7 +41682,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 983
+     "rank": 982
     },
     {
      "name": "Savahq",
@@ -41719,7 +41719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 984
+     "rank": 983
     },
     {
      "name": "Stem AI",
@@ -41756,7 +41756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 985
+     "rank": 984
     },
     {
      "name": "Stone Ridge",
@@ -41800,7 +41800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 986
+     "rank": 985
     },
     {
      "name": "T. Rowe Price",
@@ -41845,7 +41845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 987
+     "rank": 986
     },
     {
      "name": "High Alpha Capital",
@@ -41883,7 +41883,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 988
+     "rank": 987
     },
     {
      "name": "Pioneer Square Labs",
@@ -41920,7 +41920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 989
+     "rank": 988
     },
     {
      "name": "RefineRE",
@@ -41957,7 +41957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 990
+     "rank": 989
     },
     {
      "name": "Synquote",
@@ -42001,7 +42001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 991
+     "rank": 990
     },
     {
      "name": "Titan Invest",
@@ -42038,7 +42038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 992
+     "rank": 991
     },
     {
      "name": "Willow Wealth",
@@ -42075,7 +42075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 993
+     "rank": 992
     },
     {
      "name": "Assurely",
@@ -42119,7 +42119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 994
+     "rank": 993
     },
     {
      "name": "Ensurance",
@@ -42164,7 +42164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 995
+     "rank": 994
     },
     {
      "name": "A Capital",
@@ -42202,7 +42202,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 996
+     "rank": 995
     },
     {
      "name": "A-Frame",
@@ -42240,7 +42240,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 997
+     "rank": 996
     },
     {
      "name": "Arca",
@@ -42278,7 +42278,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 998
+     "rank": 997
     },
     {
      "name": "ElMetr",
@@ -42316,13 +42316,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 999
+     "rank": 998
     },
     {
      "name": "Fractal",
      "slug": "fractal",
      "description": "Fractal Software (fractalsoftware.com) is a venture studio that partners with entrepreneurs and investors to launch AI-driven vertical SaaS companies that transform how whole industries operate. Rather than shipping a single product, Fractal functions as an incubator and holding company, standing up sector-specific software startups across produce, healthcare, government, storage, distribution, and security-services verticals, with more than $650M raised across its portfolio. As a venture studio it exposes no public developer platform, API, SDKs, or documentation of its own; this profile captures its identity, portfolio surface, and domain-security posture. Note the recorded x-backed-by (multicoin, paradigm, a16z, 8vc) was surfaced via name-matching during portfolio ingestion and may conflate a distinct crypto-era \"Fractal\"; the enriched identity below reflects the fractalsoftware.com venture studio.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fractal/refs/heads/main/screenshots/fractal-2026-07-25T215057.png",
+     "score": 7.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 999
+    },
+    {
+     "name": "Intellilake",
+     "slug": "intellilake",
+     "description": "Intellilake is an early-stage company backed by Anthemis and surfaced in the API Evangelist network as a portfolio lead. Its public presence at intellilake.com is currently a placeholder landing page with a corporate contact address and a published privacy policy; the site references online services that require user accounts and login, affiliates, and third-party service providers, but as of this enrichment pass it publishes no developer portal, API documentation, OpenAPI, SDKs, or other machine-readable API surface. This profile remains a lead awaiting a public API before deeper enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/intellilake/refs/heads/main/screenshots/intellilake-2026-07-25T222647.png",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -42363,7 +42401,7 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 106,
+   "count": 108,
    "shown": 0,
    "providers": []
   }

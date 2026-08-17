@@ -1,6 +1,6 @@
 {
- "total": 978,
- "shown": 978,
+ "total": 981,
+ "shown": 981,
  "limit": 1000,
  "bands": [
   {
@@ -38128,60 +38128,78 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 8,
-   "shown": 8,
+   "count": 11,
+   "shown": 11,
    "providers": [
+    {
+     "name": "Foundation Robotics Labs",
+     "slug": "foundation-robotics-labs",
+     "description": "Foundation Robotics Labs — trading publicly as Foundation and incorporated as Foundation Future Industries, Inc. — is a San Francisco humanoid robotics company founded in April 2024 by Sankaet Pathak, Arjun Sethi and Mike LeBlanc. It builds Phantom, a general-purpose humanoid robot aimed at industrial automation, logistics, inspection, disaster response and defense, and Cortex, the company's self-described physics foundation model built on Deep Variational Bayes Filters that pairs physics-informed prediction with vision-language reasoning to drive the robot. The company's published master plan runs from building humanoids through fleet coherence and on to building cities, and it states explicitly that it designs for military environments, unlike U.S. competitors committed to non-weaponization. Foundation has raised a reported $111M and is traded on the secondary market via Forge Global. As of this profile Foundation publishes NO public developer surface — no developer portal, documentation, API reference, OpenAPI/AsyncAPI definition, SDK, package, MCP server or agent card. Its entire public web presence is a five-page Framer marketing site (home, Phantom, Cortex, master plan, culture, careers) with no /docs, /developers, /api, /pricing, /terms or /privacy paths and no llms.txt. Its GitHub organization (github.com/foundationbot, verified first-party by @foundation.bot commit-author domains) holds internal test benches and forks of open-source robotics tooling — Drake, jetson-containers, Kalibr, PlotJuggler, Fast-DDS, an EtherCAT master, actuator dyno benches and NXP S32K MCU demos — and contains no API specification of any kind.",
+     "rank": 971
+    },
     {
      "name": "Foundry Group",
      "slug": "foundry-group",
      "description": "Foundry Group is a Boulder, Colorado venture capital firm founded in 2007 by Brad Feld, Seth Levine, Ryan McIntyre, and Jason Mendelson. The firm invests in early-stage technology startups across the United States, organizing its work around long-lived, horizontal investment themes (such as \"glue\", \"protocol\", \"distribution\", and \"human computer interaction\") rather than narrow verticals, with a particular affinity for hardware, robotics, consumer internet, developer tools, and B2B SaaS. Foundry pioneered a \"network-driven\" model that operates both as a direct investor in startups and as a limited partner in a curated network of more than 40 partner venture funds. The firm manages more than $3.0B for its limited partners, has made 320+ investments and 70+ exits, and is known for radical transparency through the books, blogs, and podcasts of its partners. Notable investments include Fitbit, Zynga, SendGrid, MakerBot, Gnip, Mapbox, SeatGeek, and WHOOP. In 2022 the partners announced Foundry would not raise another fund, continuing to steward its existing funds and portfolio through their life.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/foundry-group/refs/heads/main/screenshots/foundry-group-2026-07-25T215039.png",
-     "rank": 971
+     "rank": 972
+    },
+    {
+     "name": "Fujian Deer Technology",
+     "slug": "fujian-deer-technology",
+     "description": "Fujian Deer Technology (福建德尔科技股份有限公司) is a Chinese specialty-chemicals manufacturer founded in June 2014 and headquartered in the Jiaoyang Industrial Concentration Zone, Shanghang County, Longyan City, Fujian Province. The company pursues a full fluorine-chemistry industry-chain strategy, researching, producing and selling basic chemical materials, fluorine-containing electronic gases, high-purity semiconductor wet electronic chemicals, new-energy (lithium battery) materials and other fluorinated advanced materials. Its electronic-grade gases include trifluoromethane, carbon tetrafluoride, sulfur hexafluoride, hexafluoroethane, chlorine trifluoride and octafluorocyclobutane, supplied into semiconductor chips, LED chips, flat-panel displays, communications optical fibre, power and energy-storage batteries, ultra-high-voltage transmission and transformation, and photovoltaic power generation. It is a designated national high-tech enterprise and is privately held; its shares appear on secondary-market venues. It manufactures physical materials and publishes no public API, developer program or machine-readable interface.",
+     "rank": 973
+    },
+    {
+     "name": "FuriosaAI",
+     "slug": "furiosa",
+     "description": "FuriosaAI is a South Korean semiconductor company that designs data-center AI inference chips and the software stack that runs on them. Its second-generation NPU, RNGD, implements a Tensor Contraction Processor architecture on TSMC 5nm and targets LLM, multi-modal and vision inference. The developer surface is software you run yourself rather than a hosted API: Furiosa-LLM ships an OpenAI-compatible server exposing chat, completions, responses, embeddings, score, rerank, models, tokenizer and Prometheus metrics endpoints, and the earlier Furiosa Model Server implements the KServe v2 Predict Protocol and the Triton Model Repository extension over REST and gRPC. Around that sit Python, Go and Rust packages, a furiosa-smi device CLI, container images, an APT/RPM package repository, and a Kubernetes cloud-native toolkit (device plugin, DRA driver, feature discovery, metrics exporter, NPU operator).",
+     "rank": 974
     },
     {
      "name": "High Tech",
      "slug": "high-tech",
      "description": "High Tech indexes the APIs, data services, and reference artifacts that power the electronics, semiconductor, hardware, and IoT industries. The landscape covers electronic component data and distribution (Octopart / Nexar, Digi-Key, Mouser, Arrow Electronics, Avnet, Newark / element14), ECAD and PCB design data (SnapEDA, Ultra Librarian, Altium 365 via Nexar Design), hardware lifecycle and IoT device management (AWS IoT, Azure IoT Hub, Particle, Golioth), bill-of-materials and component-search workflows used across hardware product engineering, and the authoritative manufacturer data that anchors a component record (manufacturer part number, manufacturer, datasheet, lifecycle status, RoHS / REACH compliance, real-time inventory and pricing across distributors). This index captures the canonical providers, the shape of a component record as JSON Schema, a JSON-LD context aligning with schema.org Product / Offer / Organization, and the domain vocabulary used across the high-tech component supply chain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/screenshots/high-tech-2026-06-20T182732.png",
-     "rank": 972
+     "rank": 975
     },
     {
      "name": "Matrix Partners",
      "slug": "matrix-partners",
      "description": "Matrix Partners (now branded simply \"Matrix\") is an early-stage venture capital firm founded in 1977 by Paul Ferri, investing from idea through Series A. Headquartered in San Francisco at 535 Mission Street with a long-standing East Coast office in Cambridge, Massachusetts, the firm is run by former founders and company builders who describe themselves as \"contrarians who invest with conviction,\" backing founders with deep technical expertise and a specific vision of the future. Matrix is a generalist early-stage investor across AI / frontier tech, B2B and enterprise software, fintech, consumer, healthtech, infrastructure, and semiconductors, typically writing seed and Series A checks and leading rounds. Over nearly five decades the firm has backed foundational technology and consumer companies including Apple, HubSpot, Zendesk, Canva, Afterpay, Oculus, Fivetran, Flock Safety, Quora, Postmates, GOAT, and Suno, with a track record spanning semiconductors and networking through today's AI-native startups.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/matrix-partners/refs/heads/main/screenshots/matrix-partners-2026-07-25T230418.png",
-     "rank": 973
+     "rank": 976
     },
     {
      "name": "Mayfield Fund",
      "slug": "mayfield",
      "description": "Mayfield Fund is an early-stage venture capital firm founded in 1969 and headquartered on Sand Hill Road in Menlo Park, California, with a presence in Mumbai, India. One of the oldest continuously active Silicon Valley firms, Mayfield describes itself as \"people first, from inception\" and reports that roughly 70% of its investments begin at company inception, positioning it as the first institutional investor for early-stage founders. The firm invests primarily at the Seed, Series A, and Series B stages across artificial intelligence, enterprise software, cloud and cybersecurity infrastructure, semiconductors, consumer and social commerce, and human and planetary health. Mayfield reports approximately $3B in assets under management (and states it has committed $3B to AI investments), has backed more than 550 companies over its history, and counts 120+ IPOs and 225+ M&A exits including Genentech, Lyft, HashiCorp, Poshmark, Marketo, Couchbase, SolarCity, Intuitive Surgical, and Compaq. In 2023 the firm raised $955M across two new funds dedicated to early-stage investing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mayfield/refs/heads/main/screenshots/mayfield-2026-07-25T230455.png",
-     "rank": 974
+     "rank": 977
     },
     {
      "name": "Playground Global",
      "slug": "playground-global",
      "description": "Playground Global is an early-stage deep tech venture capital firm founded in 2015 by Andy Rubin, Bruce Leak, Matt Hershenson, and Peter Barrett, and headquartered at 380 Portage Ave, Palo Alto, California. The firm invests \"somewhere between improbable and impossible,\" backing technical founders who take large technology risks and build companies from first principles. Playground concentrates on four pillars: next-gen compute (quantum computing, novel AI chip architectures, advanced interconnects, and semiconductors), automation (robotics, supply-chain and industrial automation with tangible ROI), energy transition and decarbonization, and engineered biology (AI-driven drug discovery, RNA editing, and next-generation therapies). It invests at the earliest stages, often at company formation, and operates Studio Palo Alto, a lab and prototyping environment for hardware and deep-science founders. Reported assets under management are over $1.2 billion across its funds. Notable portfolio companies include PsiQuantum, Relativity Space, Ultima Genomics, d-Matrix, Velo3D (NYSE), and MosaicML (acquired by Databricks).",
-     "rank": 975
+     "rank": 978
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 976
+     "rank": 979
     },
     {
      "name": "Spark Capital",
      "slug": "spark-capital",
      "description": "Spark Capital is a multi-stage venture capital firm founded in 2005 by Paul Conway, Santo Politi, Todd Dagres, and Bijan Sabet, with offices in San Francisco, New York, and Boston. Spark is a generalist firm that partners with founders from seed through growth across consumer internet, enterprise software, artificial intelligence, gaming, crypto, fintech, infrastructure, hardware and semiconductors, life sciences, aerospace, and the future of work. The firm invests from a family of early-stage funds (most recently a $700M fund in 2024) and dedicated growth funds (most recently a $1.4B fund in 2024), and press reports have placed its assets under management in the range of $12-15 billion. Spark first became widely known for leading Twitter's Series B in 2008 and has since backed a run of defining companies including Slack, Discord, Snap, Coinbase, Affirm, Plaid, Cruise, Oculus, Scale AI, Ramp, Deel, and Anthropic, whose Series C investment the firm turned into one of venture's largest recent markups. Spark rebranded in 2020 with design studio Pentagram around its distinctive dog-themed identity, and publishes a curated set of portfolio companies rather than a full list.",
-     "rank": 977
+     "rank": 980
     },
     {
      "name": "True Ventures",
      "slug": "true-ventures",
      "description": "True Ventures is an early-stage venture capital firm founded in 2006 by Jon Callaghan and Phil Black and headquartered in Palo Alto / San Francisco, California. Operating under a \"first to believe\" thesis, True writes the initial institutional check and stays invested through every subsequent stage of a company's journey, concentrating on pre-seed, seed, and Series A rounds with check sizes reported in the roughly $500K-$15M range. The firm invests broadly across technology and founder-led categories including software and developer infrastructure, consumer products and internet, healthcare and life sciences, hardware and robotics, climate and energy, security, and AI. With more than $3.8B in committed capital, True has backed 1,050+ founders across 500+ companies since inception, with notable early checks into Fitbit, Peloton, Ring, Automattic/WordPress, HashiCorp, Duo Security, Sweetgreen, Bluesky, and Splice. True is known for its founder-first platform, the True University founder camps, and long-term conviction-led early ownership.",
-     "rank": 978
+     "rank": 981
     }
    ]
   }

@@ -1,6 +1,6 @@
 {
- "total": 863,
- "shown": 863,
+ "total": 864,
+ "shown": 864,
  "limit": 1000,
  "bands": [
   {
@@ -34584,8 +34584,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Flashparking",
@@ -34600,18 +34600,24 @@
      "rank": 861
     },
     {
+     "name": "Franklin Whole Home",
+     "slug": "franklin-whole-home",
+     "description": "Franklin Whole Home (FranklinWH Energy Storage Inc.) builds whole-home energy management and storage hardware for residential solar: the aPower lithium iron phosphate AC battery, the aGate energy management and controller unit, and the FranklinWH mobile app, together forming an ecosystem that coordinates solar, battery, grid, generator and EV power sources for backup, self-consumption, time-of-use arbitrage and off-grid operation. Founded in 2019 and headquartered in the San Francisco Bay Area, the company designs and manufactures nearly all of its own components and sells through a certified installer and distributor channel. FranklinWH publishes a partner API - a unified developer access platform for authorised third-party owners, financiers, installers and service providers to read device and site data, monitor system performance, receive operational alerts and perform approved remote device control.",
+     "rank": 862
+    },
+    {
      "name": "High Tech",
      "slug": "high-tech",
      "description": "High Tech indexes the APIs, data services, and reference artifacts that power the electronics, semiconductor, hardware, and IoT industries. The landscape covers electronic component data and distribution (Octopart / Nexar, Digi-Key, Mouser, Arrow Electronics, Avnet, Newark / element14), ECAD and PCB design data (SnapEDA, Ultra Librarian, Altium 365 via Nexar Design), hardware lifecycle and IoT device management (AWS IoT, Azure IoT Hub, Particle, Golioth), bill-of-materials and component-search workflows used across hardware product engineering, and the authoritative manufacturer data that anchors a component record (manufacturer part number, manufacturer, datasheet, lifecycle status, RoHS / REACH compliance, real-time inventory and pricing across distributors). This index captures the canonical providers, the shape of a component record as JSON Schema, a JSON-LD context aligning with schema.org Product / Offer / Organization, and the domain vocabulary used across the high-tech component supply chain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/screenshots/high-tech-2026-06-20T182732.png",
-     "rank": 862
+     "rank": 863
     },
     {
      "name": "RFID",
      "slug": "rfid",
      "description": "Radio-Frequency Identification (RFID) is an automatic identification technology that uses radio waves to read and capture information stored on a tag attached to an object. RFID powers supply chain visibility, inventory management, asset tracking, access control, and contactless payments. The RFID ecosystem includes hardware vendors (Zebra, Impinj, Alien Technology), software platforms (ClearStream, TagMatiks, Jetstream), and open standards (GS1 EPCIS, EPC Tag Data Standard, ISO 18000 series).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rfid/refs/heads/main/screenshots/rfid-2026-06-20T193103.png",
-     "rank": 863
+     "rank": 864
     }
    ]
   }

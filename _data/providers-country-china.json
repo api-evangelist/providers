@@ -1,6 +1,6 @@
 {
- "total": 316,
- "shown": 316,
+ "total": 317,
+ "shown": 317,
  "limit": 1000,
  "bands": [
   {
@@ -12569,8 +12569,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "DCM Ventures",
@@ -12580,24 +12580,30 @@
      "rank": 313
     },
     {
+     "name": "Fujian Deer Technology",
+     "slug": "fujian-deer-technology",
+     "description": "Fujian Deer Technology (福建德尔科技股份有限公司) is a Chinese specialty-chemicals manufacturer founded in June 2014 and headquartered in the Jiaoyang Industrial Concentration Zone, Shanghang County, Longyan City, Fujian Province. The company pursues a full fluorine-chemistry industry-chain strategy, researching, producing and selling basic chemical materials, fluorine-containing electronic gases, high-purity semiconductor wet electronic chemicals, new-energy (lithium battery) materials and other fluorinated advanced materials. Its electronic-grade gases include trifluoromethane, carbon tetrafluoride, sulfur hexafluoride, hexafluoroethane, chlorine trifluoride and octafluorocyclobutane, supplied into semiconductor chips, LED chips, flat-panel displays, communications optical fibre, power and energy-storage batteries, ultra-high-voltage transmission and transformation, and photovoltaic power generation. It is a designated national high-tech enterprise and is privately held; its shares appear on secondary-market venues. It manufactures physical materials and publishes no public API, developer program or machine-readable interface.",
+     "rank": 314
+    },
+    {
      "name": "HongShan (HSG)",
      "slug": "hongshan",
      "description": "HongShan (HSG), formerly known as Sequoia Capital China, is a leading global venture capital and private equity firm investing across technology, healthcare, and consumer sectors. Founded in 2005 by Neil Shen with early guidance from Sequoia Capital, the firm spun off as an independent entity in 2023-2024, rebranding from Sequoia China to HongShan (a pinyin romanization of its Chinese name, meaning \"redwood\") while retaining its original Chinese name. HSG invests across the full lifecycle - seed, venture, growth, buyout, and infrastructure - and also runs a public equities business (HCEP). The firm manages over USD 61 billion in assets (as of April 30, 2026) and has backed more than 1,700 companies since inception, with 180+ having gone public and 140+ reaching unicorn status. HSG operates from Hong Kong, Shanghai, Beijing, Shenzhen, London, Tokyo, and Singapore. Notable portfolio companies include Alibaba, ByteDance, Meituan, Pinduoduo, BYD, Nio, Xpeng, Airwallex, Canva, Monzo, and Moderna.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hongshan/refs/heads/main/screenshots/hongshan-2026-07-25T221411.png",
-     "rank": 314
+     "rank": 315
     },
     {
      "name": "IDG Capital",
      "slug": "idg-capital",
      "description": "IDG Capital is a global investment firm founded in Boston in 1993 and headquartered in Hong Kong, widely recognized as one of the first foreign venture investors to enter China. Over more than 30 years it has grown into a multi-stage platform spanning venture capital, growth capital, buyout, secondary markets, and public markets, with reported assets under management of roughly $20–23 billion. The firm has backed 1,800+ companies and realized 600+ exits, employing 300+ staff (about 40% investment professionals) across 12 offices on three continents, including Hong Kong, Beijing, Shanghai, Shenzhen, Guangzhou, Singapore, Seoul, Boston, New York, Barcelona, Muscat, and the Cayman Islands. IDG Capital concentrates on Consumer, Consumer Technology, Healthcare, and Fintech/Web3, and its portfolio includes early bets on many of China's technology leaders — Tencent, Baidu, Xiaomi, Meituan, ByteDance, and Ctrip — alongside global names such as Coinbase, Circle, Farfetch, Moncler, Acne Studios, and Insta360.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/idg-capital/refs/heads/main/screenshots/idg-capital-2026-07-25T222035.png",
-     "rank": 315
+     "rank": 316
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 316
+     "rank": 317
     }
    ]
   }

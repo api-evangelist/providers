@@ -9,13 +9,13 @@
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
-  "count": 318
+  "count": 320
  },
  {
   "slug": "china",
   "name": "China",
   "flag": "🇨🇳",
-  "count": 316
+  "count": 317
  },
  {
   "slug": "united-states",
@@ -45,7 +45,7 @@
   "slug": "brazil",
   "name": "Brazil",
   "flag": "🇧🇷",
-  "count": 125
+  "count": 126
  },
  {
   "slug": "mexico",

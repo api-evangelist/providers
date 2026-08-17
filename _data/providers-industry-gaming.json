@@ -1,6 +1,6 @@
 {
- "total": 679,
- "shown": 679,
+ "total": 682,
+ "shown": 682,
  "limit": 1000,
  "bands": [
   {
@@ -25999,8 +25999,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Bullpen Capital",
@@ -26008,6 +26008,24 @@
      "description": "Bullpen Capital is a San Francisco-based venture capital firm founded in 2010 by Paul Martino, Duncan Davidson, and Richard Melmon that pioneered the \"post-seed\" investment category. The firm provides early-stage financing to companies that have found initial product-market fit but are overlooked by traditional investors \"for no good reason\" — deliberately backing unconventional founders and sectors that other firms dismiss. Bullpen typically writes checks in the range of roughly $1M-$5M, often stepping in between the seed and Series A rounds to help capital-efficient companies push toward a strong institutional raise. The firm invests across gaming, commerce, apps and services, health, consumer and lifestyle, fintech, and marketplaces, primarily in North America with select exposure in Latin America (notably Brazil and Mexico). With a portfolio of 90+ companies, Bullpen's notable investments include FanDuel, Namely, Classy, Braze, HomeLight, ipsy, SpotHero, Splitwise, and Wag.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bullpen-capital/refs/heads/main/screenshots/bullpen-capital-2026-07-25T204059.png",
      "rank": 679
+    },
+    {
+     "name": "Futureverse",
+     "slug": "futureverse",
+     "description": "Futureverse is a New Zealand-founded \"open metaverse\" technology company that rolled up eleven startups after a US$54M raise in 2023 and built The Root Network (TRN), a Substrate-based layer-1 blockchain with an EVM layer, any-token gas, and native NFT/SFT, DEX and bridge protocols. Its developer surface is three products: the Asset Register, a Relay-compliant GraphQL API for cross-chain asset metadata, schemas and asset-to-asset links; FuturePass, an OpenID Connect identity and smart-wallet provider; and RootRewards, a points/quest REST API for partner applications. Futureverse Corporation was placed in receivership on 2025-09-30 and in liquidation on 2025-12-16. Its corporate website and its original developer documentation host are both offline, but the TRN documentation, the Asset Register GraphQL endpoint, the FuturePass OIDC provider, the mainnet RPC nodes and 35 npm packages remain live and publicly reachable.",
+     "rank": 680
+    },
+    {
+     "name": "Gala Games",
+     "slug": "gala-games",
+     "description": "Gala (formerly Gala Games) is a Web3 gaming and entertainment company that operates GalaChain, a Hyperledger Fabric based Layer 1 built for games, music and film. Its public API surface is REST-first rather than RPC. The GalaChain Gateway publishes an OpenAPI document per deployed chaincode contract (token, DEX v3, launchpad, fee and public key) across eighteen channel/contract pairs including per-game channels such as mirandus, championsarena and thewalkingdeadempires. GalaConnect exposes token swaps, headless wallet creation and cross-chain operations at api-galaswap.gala.com, a Block Explorer API serves blocks, transactions and balances, and the Gala DeFi backend serves pool, trading, liquidity and leaderboard data for GalaSwap. Write operations are authenticated by secp256k1 request signatures rather than bearer tokens, and every write carries a uniqueKey that GalaChain enforces as an idempotency key.",
+     "rank": 681
+    },
+    {
+     "name": "Games24x7",
+     "slug": "games24x7",
+     "description": "Games24x7 is a Mumbai-headquartered Indian online skill-gaming company founded in 2006 by Bhavin Pandya and Trivikraman Thampy, operating consumer real-money and casual gaming platforms rather than a developer API business. Its portfolio spans RummyCircle (online rummy), My11Circle (fantasy cricket, football, kabaddi and ludo) and Wowzy (a three-dice ludo variant), backed by Tiger Global, The Raine Group and Malabar Investment. The company publishes engineering writing on distributed systems, Cassandra, Amazon Aurora, ksqlDB and React Native through its Resources section, runs the TechXpedite accelerator, and maintains a small public GitHub organization (games24x7-opensource) plus one first-party npm package for AI-assisted Appium test automation. As of August 2026 it publishes no developer portal, no API documentation, no machine-readable specification, and no partner or affiliate API of its own.",
+     "rank": 682
     }
    ]
   }
