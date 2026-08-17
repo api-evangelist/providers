@@ -28,6 +28,8 @@ import glob
 import json
 import os
 import re
+import subprocess
+import sys
 
 import yaml
 
@@ -1169,41 +1171,18 @@ def separated_tiers(entries, overrides=None):
 
 
 # ---------------------------------------------------------------------------
-# SECTION_TOOLS — the interactive tools that sit above a ranked listing, keyed
-# by page slug. Emitted from here for the same reason paper-promo is: the first
-# pass was hand-added to management/index.html front matter and the next rebuild
-# of this file silently deleted it. Anything a section page needs must be
-# GENERATED or it does not survive.
+# The interactive tools that sit above a ranked listing — "Pick your priorities"
+# for buyers and "Find your opening" for providers — are NOT declared here. They
+# are generated for every listing that sells a report by scripts/build-section-tools.py,
+# which runs as a post-pass at the end of main(). Their card notes are computed
+# from the cohort and the rubric, so a market with nothing unclaimed does not get
+# sold one, and a truncated listing says it is truncated.
 #
 # TWO SIDES, DELIBERATELY EQUAL. A market report has a buy side and a sell side
 # and both arrive on the same page. The listing include renders these as
 # same-size cards rather than a primary button and a secondary link, so whoever
 # lands here finds one addressed to them and neither reads as the afterthought.
-# Order matters: buyers first, providers second, matching the cards left to right.
-SECTION_TOOLS = {
-    "management": [
-        {
-            "side": "For buyers",
-            "label": "Pick your priorities",
-            "icon": "tune",
-            "blurb": "Weight what your team is actually optimizing for and the "
-                     "shortlist of 36 re-sorts underneath you.",
-            "note": "36 providers · one public rubric",
-            "url": "/management/priorities.html",
-            "report": "https://reports.apievangelist.com/reports/state-of-management-apis/",
-        },
-        {
-            "side": "For providers",
-            "label": "Find your opening",
-            "icon": "target",
-            "blurb": "See every check in the rubric, who in this market already "
-                     "passes it, and what shipping it is worth to your score.",
-            "note": "14 checks · 20 points nobody holds",
-            "url": "/management/opportunities.html",
-            "report": "https://reports.apievangelist.com/reports/state-of-management-apis/",
-        },
-    ],
-}
+# ---------------------------------------------------------------------------
 
 
 def listing_page(title, summary, data_key, rated=False, paper=None,
@@ -1257,7 +1236,8 @@ def listing_page(title, summary, data_key, rated=False, paper=None,
                 lines.append('  kind: "%s"' % paper["kind"])
         body.append("{% include paper-promo.html %}")
 
-    # Interactive tools band (see SECTION_TOOLS and _includes/company-listing-rated.html).
+    # Interactive tools band. Only build-section-tools.py passes these; see the
+    # note above listing_page() for why they are generated as a post-pass.
     if tools:
         lines.append("tools:")
         for t in tools:
@@ -1327,8 +1307,7 @@ def build_roster_section_group(data_dir, meta_of, scores, sections,
             os.path.join(SITE, slug_page, "index.html"),
             listing_page(title, summary, data_key, rated=True, paper=paper,
                          papers=extras.get("papers"), entries=entries,
-                         tier_blurbs=extras.get("tier_blurbs"),
-                         tools=SECTION_TOOLS.get(slug_page)),
+                         tier_blurbs=extras.get("tier_blurbs")),
         )
         counts[slug_page] = (len(entries), sum(1 for e in entries if "score" in e))
     return counts
@@ -2542,6 +2521,17 @@ def main():
         len(secondary_entries), sum(1 for e in secondary_entries if "score" in e)))
     print("venture capital:  %d (portfolio companies: %d)" % (
         len(vc_entries), sum(e["portfolio_total"] for e in vc_entries)))
+
+    # The two interactive market tools, for every listing that sells a report.
+    # A POST-PASS, because its notes are computed from the data files written
+    # above and from the rubric, and because the `tools:` block has to land in
+    # pages built by five different call sites here. See the module docstring in
+    # build-section-tools.py for why it is generated rather than hand-added.
+    subprocess.run(
+        [sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                      "build-section-tools.py")],
+        check=True,
+    )
 
 
 if __name__ == "__main__":

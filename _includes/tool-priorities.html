@@ -1,0 +1,455 @@
+{%- comment -%}
+  THE BUY SIDE of a market report. Its sibling, tool-opportunities.html, is the
+  sell side: a vendor finds what to ship. This one is for the buyer — weight what
+  your team is optimizing for and the shortlist re-sorts underneath you.
+
+  READS THE LISTING, NOT A SNAPSHOT. The first version of this tool embedded two
+  CSVs copied out of the report's data bundle. It was correct on the day it shipped
+  and silently wrong after the next rescore, disagreeing with the ranked listing
+  directly beneath it. It now renders from site.data via tool-cohort-json.html —
+  the same file the listing renders from — so the two cannot diverge.
+
+  Nothing here is asserted. Facet scores are read; the cohort average is the mean
+  over the providers actually rendered; the weighted score is the buyer's own
+  weights applied to those facets. The only authored content is the buyer-facing
+  phrasing of each facet, and the flag marking which facets are substantially
+  API Evangelist's own catalog work rather than the vendor's.
+
+  Requires: page.data_key, page.cohort, page.report_title, page.report_url
+{%- endcomment -%}
+<title>Pick Your Priorities — {{ page.report_title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Matches the API Evangelist providers site: Inter, brand blue #3098d8, the same
+   greys and the same semantic pair the rated listing already uses for up/down.
+   Tokens lifted from providers/_includes/head.html so this does not drift. */
+:root{
+  --brand:#3098d8; --brand-dark:#2680c2; --brand-soft:#e3f1fb; --brand-ink:#1c5f90;
+  --paper:#fff; --tint:#f8f9fa; --line:#e9ecef; --line-strong:#dee2e6;
+  --ink:#212529; --body:#333; --mute:#6c757d; --mute-2:#495057;
+  --up:#0b6b4f; --down:#dc3545;
+  --warn-bg:#fff8e6; --warn-line:#f0c36d; --warn-ink:#8a5a00;
+  --sans:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);
+  font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1240px;margin:0 auto;padding:26px 22px 64px}
+.eyebrow{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand);
+  font-weight:600}
+h1{font-size:clamp(26px,3.4vw,36px);line-height:1.15;letter-spacing:-.02em;font-weight:700;
+  margin:8px 0 10px;color:var(--ink);text-wrap:balance;max-width:22ch}
+.lede{font-size:16px;color:var(--mute-2);max-width:64ch;margin:0}
+.lede em{color:var(--ink);font-style:italic;font-weight:500}
+
+.cols{display:grid;grid-template-columns:344px 1fr;gap:24px;margin-top:26px;align-items:start}
+@media (max-width:900px){.cols{grid-template-columns:1fr}}
+.panel{border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:18px}
+.panel>h2{font-size:17px;font-weight:650;margin:0 0 3px;color:var(--ink)}
+.panel>p{font-size:13.5px;color:var(--mute);margin:0 0 15px;line-height:1.45}
+.rail{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow-y:auto}
+
+.presets{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.preset{font-size:11.5px;font-weight:500;border:1px solid var(--line-strong);background:var(--paper);
+  color:var(--mute-2);border-radius:999px;padding:5px 11px;cursor:pointer;transition:.12s;
+  font-family:inherit}
+.preset:hover{color:var(--brand);border-color:var(--brand);background:var(--brand-soft)}
+.preset:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+
+.prio{padding:11px 0;border-bottom:1px solid var(--line)}
+.prio:last-of-type{border-bottom:0}
+.plabel b{font-size:14px;font-weight:600;line-height:1.3;color:var(--ink)}
+.dag{color:var(--warn-ink);cursor:help}
+.pfacet{font-family:var(--mono);font-size:10.5px;color:var(--mute);letter-spacing:.04em}
+.seg{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:8px}
+.seg button{font-size:11px;padding:5px 2px;border:1px solid var(--line-strong);background:var(--paper);
+  color:var(--mute);border-radius:6px;cursor:pointer;transition:.12s;font-family:inherit}
+.seg button:hover{color:var(--ink);border-color:var(--mute)}
+.seg button:focus-visible{outline:2px solid var(--brand);outline-offset:1px}
+/* Off is the resting state, not a selection — filling it made every priority
+   look switched on when nothing was weighted. Only a real weight gets the brand fill. */
+.seg button[aria-pressed="true"]{background:var(--tint);border-color:var(--mute);color:var(--ink);
+  font-weight:600}
+.seg button[aria-pressed="true"]:not([data-w="0"]){background:var(--brand);
+  border-color:var(--brand);color:#fff}
+.prio.authored .seg button[aria-pressed="true"]:not([data-w="0"]){background:var(--warn-ink);
+  border-color:var(--warn-ink);color:#fff}
+
+.warn{margin-top:14px;border:1px solid var(--warn-line);background:var(--warn-bg);
+  padding:10px 12px;border-radius:8px;font-size:12.5px;line-height:1.45;color:var(--warn-ink)}
+.warn b{color:var(--warn-ink)}
+.warn[hidden]{display:none}
+
+.resulthead{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;
+  margin-bottom:14px;flex-wrap:wrap}
+.resulthead h2{margin:0;font-size:19px;font-weight:650;color:var(--ink)}
+.resulthead p{margin:2px 0 0;font-size:13.5px;color:var(--mute)}
+.btn{font-size:12.5px;font-weight:600;border:1px solid var(--brand);background:var(--brand);
+  color:#fff;border-radius:7px;padding:8px 14px;cursor:pointer;transition:.15s;white-space:nowrap;
+  font-family:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{background:var(--brand-dark);border-color:var(--brand-dark);color:#fff}
+.btn:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+
+ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+.row{border:1px solid var(--line);border-radius:9px;background:var(--paper);overflow:hidden}
+.row.top{border-color:var(--brand);box-shadow:0 1px 6px rgba(48,152,216,.16)}
+.rmain{display:grid;grid-template-columns:38px 1fr 84px 116px 30px;gap:12px;align-items:center;
+  padding:11px 14px;cursor:pointer;width:100%;background:none;border:0;color:inherit;font:inherit;
+  text-align:left}
+@media (max-width:760px){.rmain{grid-template-columns:32px 1fr 72px 30px}
+  .rmain .move{display:none}}
+.rmain:hover{background:var(--tint)}
+.rmain:focus-visible{outline:2px solid var(--brand);outline-offset:-2px}
+.pos{font-family:var(--mono);font-size:17px;font-weight:600;color:var(--mute);
+  font-variant-numeric:tabular-nums}
+.row.top .pos{color:var(--brand)}
+.nm{min-width:0}
+.nm b{display:block;font-size:15px;font-weight:600;line-height:1.25;color:var(--ink);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nm span{font-size:11.5px;color:var(--mute)}
+.score{font-family:var(--mono);font-size:21px;font-weight:600;color:var(--brand);text-align:right;
+  font-variant-numeric:tabular-nums}
+.move{text-align:right;font-size:11px;color:var(--mute);font-variant-numeric:tabular-nums}
+.move em{display:block;font-style:normal;font-size:12.5px;font-weight:600;font-family:var(--mono)}
+.move.up em{color:var(--up)} .move.down em{color:var(--down)}
+.chev{color:var(--mute);transition:transform .18s;font-size:16px;text-align:center}
+.row[data-open="true"] .chev{transform:rotate(90deg)}
+.detail{padding:0 14px 14px;border-top:1px solid var(--line);display:none;background:var(--tint)}
+.row[data-open="true"] .detail{display:block}
+.bars{display:flex;flex-direction:column;gap:6px;padding-top:12px}
+.bar{display:grid;grid-template-columns:180px 1fr 50px;gap:10px;align-items:center;font-size:12px}
+@media (max-width:760px){.bar{grid-template-columns:118px 1fr 44px}}
+.bar span:first-child{color:var(--mute);font-family:var(--mono);font-size:11px}
+.track{height:8px;border-radius:4px;background:var(--line);position:relative;overflow:hidden}
+.fill{height:100%;border-radius:4px;background:var(--brand);opacity:.45}
+.bar.weighted .fill{opacity:1}
+.bar.authored .fill{background:var(--warn-line)}
+.bar.authored.weighted .fill{background:var(--warn-ink)}
+.avgmark{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--mute-2);opacity:.7}
+.bval{font-family:var(--mono);font-size:12px;text-align:right;font-variant-numeric:tabular-nums;
+  color:var(--ink)}
+.arts{display:flex;flex-wrap:wrap;gap:5px;padding-top:12px}
+.art{font-family:var(--mono);font-size:10.5px;border:1px solid var(--line-strong);border-radius:999px;
+  padding:3px 9px;color:var(--mute);background:var(--paper)}
+.art.has{color:var(--brand-ink);border-color:var(--brand);background:var(--brand-soft)}
+.art.part{border-style:dashed;color:var(--warn-ink);border-color:var(--warn-line)}
+.legendline{font-size:11.5px;color:var(--mute);margin-top:11px;font-family:var(--mono)}
+.more{margin-top:12px;text-align:center}
+
+.foot{margin-top:28px;border:1px solid var(--line);border-top:3px solid var(--brand);
+  border-radius:10px;background:var(--tint);padding:20px 22px}
+.foot h2{font-size:18px;font-weight:650;margin:0 0 12px;color:var(--ink)}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:12px}
+.note{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:var(--paper)}
+.note b{display:block;font-size:13.5px;margin-bottom:3px;color:var(--ink)}
+.note span{font-size:12.5px;color:var(--mute);line-height:1.45}
+.sig{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:20px;
+  font-size:11.5px;color:var(--mute)}
+.sig b{color:var(--brand-ink);font-weight:600}
+.sig a{color:var(--brand);text-decoration:none;font-weight:600}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <div class="eyebrow">{{ page.report_title }} &nbsp;·&nbsp; For buyers</div>
+  <h1>Pick your priorities</h1>
+  <p class="lede"><span id="lede-n"></span>, scored on one public rubric. There is no single
+  best one — there is a best one for <em>what you are optimizing for</em>. Weight what matters to your
+  team and the shortlist re-sorts underneath you.</p>
+
+  <div class="cols">
+    <aside class="panel rail">
+      <h2>What matters to you</h2>
+      <p>Weight each one. Off means it does not enter the calculation at all.</p>
+      <div class="presets" id="presets"></div>
+      <div id="prios"></div>
+      <div class="warn" id="warn" hidden></div>
+    </aside>
+
+    <main>
+      <div class="resulthead">
+        <div>
+          <h2 id="rtitle">Ranked by overall score</h2>
+          <p id="rsub">Nothing weighted yet — this is the plain leaderboard.</p>
+        </div>
+        <button class="btn" id="copy" type="button">Copy shortlist</button>
+      </div>
+      <ol class="list" id="list"></ol>
+      <div class="more"><button class="btn" id="more" type="button" hidden>Show more</button></div>
+      <p class="legendline" id="legend"></p>
+    </main>
+  </div>
+
+  <div class="foot">
+    <h2>How to read this without fooling yourself</h2>
+    <div class="notes">
+      <div class="note"><b>Two priorities, not seven</b><span>Pick the two that would get you fired if
+        you got them wrong. Weighting everything equally just reproduces the leaderboard.</span></div>
+      <div class="note"><b>The daggered ones are partly ours</b><span>Governance and commercial clarity
+        are substantially API Evangelist's own work on the catalog. They describe what an agent can rely
+        on today, not what the vendor built.</span></div>
+      <div class="note"><b>Movement is the point</b><span>The chip on each row shows how far a provider
+        moves from its overall rank once your priorities are applied. Big movement means the leaderboard
+        was answering a different question than yours.</span></div>
+      <div class="note"><b>Then go and check</b><span>Every score here comes from evidence anyone can
+        re-fetch. Use the shortlist to decide who to actually talk to, not to skip talking to
+        them.</span></div>
+    </div>
+  </div>
+
+  <div class="sig">
+    <span id="prov"></span>
+    <span><a href="{{ page.section_url | default: '/' }}">‹ Back to the listing</a>
+      &nbsp;·&nbsp; <a href="{{ page.report_url }}" target="_blank" rel="noopener">Read the full report ›</a>
+      &nbsp;·&nbsp; <b>API Evangelist</b></span>
+  </div>
+</div>
+
+{% include tool-cohort-json.html %}
+
+{% raw %}
+<script>
+/* ---------------------------------------------------------------------------
+   Reads the SAME site data the ranked listing renders from. Nothing is
+   transcribed by hand: if a number here is wrong it is wrong in the catalog too.
+
+   The one thing worth stating plainly: graded dimensions in this rubric are
+   STRINGS ('derived', 'documented', 'partial'), and every non-empty string is
+   truthy in JavaScript. That is exactly the bug that once paid full credit for
+   partial work, so the artifact chips resolve credit through the rubric rather
+   than testing truthiness.
+--------------------------------------------------------------------------- */
+const R = JSON.parse(document.getElementById('rubric-json').textContent);
+const C = JSON.parse(document.getElementById('cohort-json').textContent);
+
+const DIMS   = R.dims;
+const MAXPTS = DIMS.reduce((a, d) => a + d.points, 0);
+const PCRED  = R.provenance_credit || {};
+const LIST   = C.providers.slice().sort((a, b) => b.score - a.score);
+const N      = LIST.length;
+const AS_OF  = (LIST.find(p => p.scored_at) || {}).scored_at || '';
+const TRUNC  = C.total > N;
+const n_ = v => v.toLocaleString('en-US');  // 1,000 not 1000 — matches the card note
+
+function credit(dim, hit) {
+  if (hit === true) return 1;
+  if (hit === false || hit === null || hit === undefined || hit === '') return 0;
+  if (dim && dim.credit && dim.credit[hit] !== undefined) return dim.credit[hit];
+  if (PCRED[hit] !== undefined) return PCRED[hit];
+  return 1;
+}
+const agentReadiness = dims =>
+  +(100 * DIMS.reduce((a, d) => a + d.points * credit(d, dims[d.id]), 0) / MAXPTS).toFixed(1);
+
+/* Editorial, not data: the buyer-facing phrasing of each facet, and which are
+   substantially API Evangelist's own catalog work rather than the vendor's.
+   The facet list itself comes from the rubric, so a cohort that carries a
+   conditional facet (regulated markets, open-source cohorts) can be weighted
+   on it and one that does not never shows it. */
+const PHRASING = {
+  developer_ergonomics:     'Our developers have to live in it',
+  contract_quality:         'We integrate deeply, no drift',
+  operational_transparency: 'We need to know when it breaks',
+  discoverability:          'People must find and understand it',
+  governance:               'We answer to an architecture board',
+  commercial_clarity:       'Procurement needs a number',
+  regulatory:               'We answer to a regulator',
+  open_source:              'We need to be able to read the source',
+};
+const AUTHORED = new Set(['governance', 'commercial_clarity', 'regulatory']);
+const ORDER = ['developer_ergonomics', 'contract_quality', 'operational_transparency',
+               'discoverability', 'governance', 'commercial_clarity',
+               'regulatory', 'open_source'];
+
+/* A facet is offered only if this cohort actually carries a score for it. */
+const carried = k => LIST.some(p => (p.facets || {})[k] !== undefined && p.facets[k] !== null);
+const PRIORITIES = ORDER.filter(k => R.facets[k] && carried(k)).map(k => ({
+  facet: k, label: PHRASING[k] || R.facets[k].label, authored: AUTHORED.has(k),
+}));
+/* Agent readiness is not a facet of the composite — it is the second score in the
+   rubric — but it is the thing buyers most often need to weight, so it sits in the
+   same list. Inserted after discoverability, matching the published tool. */
+const AR = { facet: 'agent_readiness', label: 'Agents will be calling this' };
+const _at = PRIORITIES.findIndex(p => p.facet === 'discoverability');
+PRIORITIES.splice(_at < 0 ? PRIORITIES.length : _at + 1, 0, AR);
+
+const PRESETS = {
+  'Developer-led':   {developer_ergonomics:3, contract_quality:2, discoverability:1},
+  'Reliability-led': {operational_transparency:3, contract_quality:2},
+  'Agent-first':     {agent_readiness:3, contract_quality:2, discoverability:1},
+  'Procurement-led': {commercial_clarity:3, governance:2},
+};
+
+/* Assemble: facet map per provider, agent readiness alongside it, and the six
+   artifact chips resolved through the rubric's own credit table. */
+const CHIPS = [
+  ['spec_presence', 'openapi'], ['mcp_server', 'mcp'], ['agent_skills', 'skills'],
+  ['event_surface_described', 'events'], ['auth_clarity', 'auth'], ['agent_card', 'agent card'],
+];
+const dimById = Object.fromEntries(DIMS.map(d => [d.id, d]));
+for (const p of LIST) {
+  p.f = Object.assign({}, p.facets, { agent_readiness: p.agent_score });
+  p.art = CHIPS.map(([id, label]) => [label, credit(dimById[id], (p.dims || {})[id])]);
+}
+LIST.forEach((p, i) => {
+  p.rank = i + 1;
+  p.pct = N > 1 ? Math.round(100 * (N - p.rank) / (N - 1)) : 100;
+});
+
+/* Cohort average per weightable facet — the mean over the providers rendered.
+   On a truncated listing that is the mean over the top N, and the page says so. */
+const COHORT = {};
+for (const { facet } of PRIORITIES) {
+  const vals = LIST.map(p => p.f[facet]).filter(v => typeof v === 'number');
+  COHORT[facet] = vals.length ? +(vals.reduce((a, v) => a + v, 0) / vals.length).toFixed(1) : 0;
+}
+
+const weights = Object.fromEntries(PRIORITIES.map(p => [p.facet, 0]));
+const STEPS = ['Off', 'Nice', 'Important', 'Critical'];
+const PAGE = 50;
+let shown = Math.min(PAGE, N);
+
+function weighted(p) {
+  let num = 0, den = 0;
+  for (const { facet } of PRIORITIES) {
+    const w = weights[facet]; if (!w) continue;
+    num += w * (p.f[facet] ?? 0); den += w;
+  }
+  return den ? num / den : p.score;
+}
+
+const $ = id => document.getElementById(id);
+let ranked = [];
+
+function recompute() {
+  ranked = LIST.map(p => Object.assign({}, p, { w: weighted(p) })).sort((a, b) => b.w - a.w);
+  ranked.forEach((p, i) => { p.pos = i + 1; p.move = p.rank - p.pos; });
+}
+
+function render() {
+  const active = PRIORITIES.filter(p => weights[p.facet] > 0);
+  recompute();
+
+  $('rtitle').textContent = active.length ? 'Ranked by what you said matters'
+                                          : 'Ranked by overall score';
+  const moved = ranked.slice(0, 5).filter(p => Math.abs(p.move) >= 3).length;
+  $('rsub').textContent = active.length
+    ? `${active.length} ${active.length === 1 ? 'priority' : 'priorities'} weighted · ${moved} of your top five sit at least 3 places from their overall rank`
+    : 'Nothing weighted yet — this is the plain leaderboard.';
+
+  const authoredOn = active.filter(p => p.authored);
+  const warn = $('warn');
+  warn.hidden = !authoredOn.length;
+  if (authoredOn.length) warn.innerHTML =
+    `<b>† You are weighting our own work.</b> ${authoredOn.map(p => p.label.toLowerCase()).join(' and ')} —
+     these facets are substantially API Evangelist's contribution to the catalog, not the vendor's.
+     They tell you what an agent can rely on today. They are the weakest ground to choose a vendor on.`;
+
+  $('list').innerHTML = ranked.slice(0, shown).map(p => {
+    const cls = p.move > 0 ? 'up' : p.move < 0 ? 'down' : '';
+    const arrow = p.move > 0 ? `▲ ${p.move}` : p.move < 0 ? `▼ ${Math.abs(p.move)}` : '—';
+    const bars = PRIORITIES.map(pr => {
+      const v = p.f[pr.facet] ?? 0, avg = COHORT[pr.facet] ?? 0;
+      const on = weights[pr.facet] > 0;
+      return `<div class="bar${on ? ' weighted' : ''}${pr.authored ? ' authored' : ''}">
+        <span>${pr.facet.replace(/_/g, ' ')}</span>
+        <span class="track"><span class="fill" style="width:${Math.max(0, Math.min(100, v))}%"></span>
+          <span class="avgmark" style="left:${Math.max(0, Math.min(100, avg))}%"></span></span>
+        <span class="bval">${v.toFixed(1)}</span></div>`;
+    }).join('');
+    const arts = p.art.map(([k, c]) =>
+      `<span class="art${c >= 1 ? ' has' : c > 0 ? ' part' : ''}">${c >= 1 ? '✓' : c > 0 ? '◐' : '·'} ${k}</span>`).join('');
+    return `<li class="row${p.pos <= 3 ? ' top' : ''}" data-open="false">
+      <button class="rmain" type="button" aria-expanded="false">
+        <span class="pos">${p.pos}</span>
+        <span class="nm"><b>${p.name}</b><span>${p.band_label || p.band} · ${p.pct}th percentile</span></span>
+        <span class="score">${p.w.toFixed(1)}</span>
+        <span class="move ${cls}"><span>overall #${p.rank}</span><em>${arrow}</em></span>
+        <span class="chev">›</span>
+      </button>
+      <div class="detail"><div class="bars">${bars}</div><div class="arts">${arts}</div></div></li>`;
+  }).join('');
+
+  const more = $('more');
+  more.hidden = shown >= N;
+  more.textContent = `Show more — ${n_(shown)} of ${n_(N)}`;
+
+  $('legend').textContent =
+    `Bars show each provider's facet score; the tick is the cohort average (${PRIORITIES
+      .map(p => `${p.facet.replace(/_/g, ' ')} ${COHORT[p.facet]}`).join(' · ')}).`;
+}
+
+/* controls */
+$('prios').innerHTML = PRIORITIES.map(p => `
+  <div class="prio${p.authored ? ' authored' : ''}">
+    <div class="plabel"><b>${p.label}${p.authored ? ' <span class="dag" title="Substantially API Evangelist’s own catalog work">†</span>' : ''}</b></div>
+    <div class="pfacet">${p.facet.replace(/_/g, ' ')}</div>
+    <div class="seg" role="group" aria-label="${p.label}">
+      ${STEPS.map((s, i) => `<button type="button" data-f="${p.facet}" data-w="${i}"
+        aria-pressed="${i === 0}">${s}</button>`).join('')}
+    </div>
+  </div>`).join('');
+
+$('presets').innerHTML =
+  Object.keys(PRESETS)
+    .filter(k => Object.keys(PRESETS[k]).every(f => weights[f] !== undefined))
+    .map(k => `<button class="preset" type="button" data-p="${k}">${k}</button>`).join('')
+  + `<button class="preset" type="button" data-p="__clear">Clear</button>`;
+
+function setWeights(map) {
+  for (const { facet } of PRIORITIES) weights[facet] = map[facet] ?? 0;
+  document.querySelectorAll('.seg button').forEach(b =>
+    b.setAttribute('aria-pressed', String(+b.dataset.w === weights[b.dataset.f])));
+  shown = Math.min(PAGE, N);
+  render();
+}
+
+document.addEventListener('click', e => {
+  const seg = e.target.closest('.seg button');
+  if (seg) { setWeights(Object.assign({}, weights, { [seg.dataset.f]: +seg.dataset.w })); return; }
+  const pre = e.target.closest('.preset');
+  if (pre) { setWeights(pre.dataset.p === '__clear' ? {} : PRESETS[pre.dataset.p]); return; }
+  if (e.target.closest('#more')) { shown = Math.min(shown + PAGE, N); render(); return; }
+  const row = e.target.closest('.rmain');
+  if (row) {
+    const li = row.parentElement, open = li.dataset.open === 'true';
+    li.dataset.open = String(!open); row.setAttribute('aria-expanded', String(!open));
+  }
+});
+
+$('copy').addEventListener('click', async () => {
+  const active = PRIORITIES.filter(p => weights[p.facet] > 0);
+  const top = ranked.slice(0, 5);
+  const txt = [
+    `${C.cohort} shortlist — weighted for our priorities`,
+    active.length ? `Priorities: ${active.map(p => `${p.label} (${STEPS[weights[p.facet]]})`).join('; ')}`
+                  : `Priorities: none set — this is the overall ranking`,
+    ``,
+    ...top.map((p, i) => `${i + 1}. ${p.name} — ${p.w.toFixed(1)} weighted, #${p.rank} of ${N} overall`),
+    ``,
+    `Source: ${C.report}, API Evangelist.${AS_OF ? ` Scored ${AS_OF},` : ''} ${n_(N)} providers` +
+      (TRUNC ? ` (the top ${n_(N)} of ${n_(C.total)} ranked in this market),` : `,`),
+    `one public rubric.`,
+    C.report_url,
+  ].join('\n');
+  try {
+    await navigator.clipboard.writeText(txt);
+    const b = $('copy'); b.textContent = 'Copied';
+    setTimeout(() => b.textContent = 'Copy shortlist', 1600);
+  } catch { alert(txt); }
+});
+
+/* boot */
+$('lede-n').textContent = TRUNC
+  ? `The top ${n_(N)} of ${n_(C.total)} ${C.cohort} providers ranked`
+  : `${n_(N)} ${C.cohort} providers`;
+$('prov').textContent =
+  `${n_(N)} providers${TRUNC ? ` of ${n_(C.total)} ranked in this market` : ''}` +
+  `${AS_OF ? ` · scored ${AS_OF}` : ''} · read from the same data as the listing`;
+render();
+</script>
+{% endraw %}
