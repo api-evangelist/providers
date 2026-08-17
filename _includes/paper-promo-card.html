@@ -2,12 +2,29 @@
      Do not put a literal include tag in a comment here - Jekyll parses Liquid inside
      HTML comments and will try to execute it.
      Fields on p: slug, title, blurb, price, kind (eyebrow), gets (what-you-get line). -->
-<a class="paper-promo" href="{{ include.p.url }}" style="text-decoration:none;">
+{%- comment -%}
+  Two callers pass different objects. provider-random-paper.html passes an entry
+  from _data/papers.json, which carries absolute `url` and `cover`. paper-promo.html
+  passes a page's `paper:` front-matter block, which carries only slug/title/blurb.
+  Reading url/cover blind rendered href="" and src="" on all 64 landing-page promos
+  — an unclickable card with a blank cover, on every market page that sells a report.
+  Derive from the slug when they are not supplied; a market landing page promotes a
+  report, so the reports host is the right default.
+{%- endcomment -%}
+{%- assign p_url = include.p.url -%}
+{%- unless p_url -%}
+  {%- assign p_url = "https://reports.apievangelist.com/reports/" | append: include.p.slug | append: "/" -%}
+{%- endunless -%}
+{%- assign p_cover = include.p.cover -%}
+{%- unless p_cover -%}
+  {%- assign p_cover = "https://reports.apievangelist.com/assets/covers/" | append: include.p.slug | append: ".png" -%}
+{%- endunless -%}
+<a class="paper-promo" href="{{ p_url }}" style="text-decoration:none;">
   <div class="paper-promo-cover">
-    <img src="{{ include.p.cover }}" alt="{{ include.p.title }} cover" loading="lazy">
+    <img src="{{ p_cover }}" alt="{{ include.p.title }} cover" loading="lazy">
   </div>
   <div class="paper-promo-body">
-    <div class="paper-promo-eyebrow">{{ include.p.kind | default: "API Evangelist Sector Report" }}</div>
+    <div class="paper-promo-eyebrow">{{ include.p.kind | default: "API Evangelist Trend Report" }}</div>
     <div class="paper-promo-title">{{ include.p.title }}</div>
     <div class="paper-promo-blurb">{{ include.p.blurb }}</div>
     <span class="paper-promo-cta">
