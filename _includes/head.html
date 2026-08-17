@@ -26,6 +26,27 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.url | absolute_url | replace: '.html', '' }}" />
 
+    {%- comment -%}
+      Share image. A scored provider shares its Kin Score card -- the K'in sun, the
+      composite and its band, agent readiness, and all six facets. Built by
+      kin-score/cards/, published to the same bucket as the other per-provider
+      generated images, and stable at its URL across rescores.
+
+      Guarded on page.score: an unscored provider has no card, and pointing
+      og:image at a 404 is worse than the site logo.
+
+      Deliberately a SEPARATE variable from page.image. That holds the provider's
+      own logo and is also the JSON-LD `logo` in _layouts/provider.html --
+      repointing it would publish an API Evangelist card as the company's logo.
+    {%- endcomment -%}
+    {% if page.layout == 'provider' and page.score and page.slug %}
+      {% assign og_image = page.slug | prepend: 'https://kinlane-images.s3.amazonaws.com/shared/kin-score/cards/' | append: '.png' %}
+      {% assign og_image_alt = page.name | append: ': Kin Score ' | append: page.score.composite | append: ' out of 100 (' | append: page.score.band | append: ')' %}
+    {% else %}
+      {% assign og_image = page.image | default: site.logo %}
+      {% assign og_image_alt = page.title | default: site.title %}
+    {% endif %}
+
     <!-- Open Graph -->
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
@@ -36,9 +57,10 @@
     {% endif %}
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:description" content="{{ meta_desc | escape }}">
-    <meta property="og:image" content="{{ page.image | default: site.logo }}">
+    <meta property="og:image" content="{{ og_image }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ og_image_alt | escape }}">
     {% if page.layout == 'post' %}
     <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
     <meta property="article:author" content="{{ site.author.name }}">
@@ -53,7 +75,8 @@
     <meta name="twitter:title" content="{{ site.title | escape }}">
     {% endif %}
     <meta name="twitter:description" content="{{ meta_desc | escape }}">
-    <meta name="twitter:image" content="{{ page.image | default: site.logo }}">
+    <meta name="twitter:image" content="{{ og_image }}">
+    <meta name="twitter:image:alt" content="{{ og_image_alt | escape }}">
 
     <!-- JSON-LD Structured Data -->
     {% if page.layout == 'post' %}
