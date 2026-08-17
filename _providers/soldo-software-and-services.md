@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -176,7 +176,7 @@ apis:
 - description: The Workflows API from Soldo Software and Services — 3 operation(s) for workflows.
   name: Soldo Software and Services Workflows API
   slug: soldo-software-and-services-workflows-api
-artifact_total: 99
+artifact_total: 143
 asyncapis:
 - description: ''
   name: Soldo Software And Services Webhooks
@@ -320,6 +320,138 @@ collections:
 - collection_type: postman
   name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Workflows API
   slug: postman-soldo-software-and-services-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification API
+  slug: open-soldo-software-and-services-accounting-classification-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Addresses API
+  slug: open-soldo-software-and-services-addresses-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Authentication API
+  slug: open-soldo-software-and-services-authentication-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Auto-Transfer Presets API
+  slug: open-soldo-software-and-services-auto-transfer-presets-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Autotags API
+  slug: open-soldo-software-and-services-autotags-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Business Trips API
+  slug: open-soldo-software-and-services-business-trips-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Card Rules API
+  slug: open-soldo-software-and-services-card-rules-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Card Rules Presets API
+  slug: open-soldo-software-and-services-card-rules-presets-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Cards API
+  slug: open-soldo-software-and-services-cards-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Company API
+  slug: open-soldo-software-and-services-company-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Contacts API
+  slug: open-soldo-software-and-services-contacts-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Documents API
+  slug: open-soldo-software-and-services-documents-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Expense Categories API
+  slug: open-soldo-software-and-services-expense-categories-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Expense Policies API
+  slug: open-soldo-software-and-services-expense-policies-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Expense Reports API
+  slug: open-soldo-software-and-services-expense-reports-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Groups API
+  slug: open-soldo-software-and-services-groups-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Lists API
+  slug: open-soldo-software-and-services-lists-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Online Ads API
+  slug: open-soldo-software-and-services-online-ads-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Orders API
+  slug: open-soldo-software-and-services-orders-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Out of Office API
+  slug: open-soldo-software-and-services-out-of-office-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Permissions API
+  slug: open-soldo-software-and-services-permissions-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Pre-approved Spend API
+  slug: open-soldo-software-and-services-pre-approved-spend-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Refueling Transactions API
+  slug: open-soldo-software-and-services-refueling-transactions-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Requests API
+  slug: open-soldo-software-and-services-requests-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Resource Sets API
+  slug: open-soldo-software-and-services-resource-sets-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Statements API
+  slug: open-soldo-software-and-services-statements-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Subscriptions API
+  slug: open-soldo-software-and-services-subscriptions-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Tags API
+  slug: open-soldo-software-and-services-tags-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Attachments API
+  slug: open-soldo-software-and-services-transaction-attachments-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Custom Export API
+  slug: open-soldo-software-and-services-transaction-custom-export-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Expense Category API
+  slug: open-soldo-software-and-services-transaction-expense-category-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Metadata API
+  slug: open-soldo-software-and-services-transaction-metadata-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Split API
+  slug: open-soldo-software-and-services-transaction-split-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Tags API
+  slug: open-soldo-software-and-services-transaction-tags-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction VAT Rate API
+  slug: open-soldo-software-and-services-transaction-vat-rate-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transactions API
+  slug: open-soldo-software-and-services-transactions-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification User Roles API
+  slug: open-soldo-software-and-services-user-roles-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Users API
+  slug: open-soldo-software-and-services-users-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification VAT Rates API
+  slug: open-soldo-software-and-services-vat-rates-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Vehicles API
+  slug: open-soldo-software-and-services-vehicles-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Wallets API
+  slug: open-soldo-software-and-services-wallets-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Webhook Subscriptions API
+  slug: open-soldo-software-and-services-webhook-subscriptions-api
+- collection_type: open
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Workflows API
+  slug: open-soldo-software-and-services-workflows-api
 common:
 - group: other
   title: ''
@@ -456,7 +588,7 @@ overview: 'Soldo Software and Services publishes 46 APIs on the [APIs.io](https:
 
 
   Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 90
+random_paper: 48
 scopes:
 - name: Soldo Software And Services Scopes
   scope_count: 59
@@ -491,7 +623,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1203
   human_in_the_loop: 31
@@ -1151,7 +1151,7 @@ arazzos:
 - description: Confirm a head branch exists, then merge it into a base branch.
   name: GitHub Verify a Branch and Merge It
   slug: github-verify-and-merge-branch-workflow
-artifact_total: 1252
+artifact_total: 1568
 asyncapis:
 - description: GitHub Webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur on GitHub, such as pushes, pull requests, issues, releases, and more. Webhooks can be configured at the r
   name: GitHub Webhooks
@@ -1227,68 +1227,797 @@ collections:
   name: GitHub Zen API
   slug: postman-github-zen
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Github About API
+  slug: open-github-about-api
+- collection_type: open
+  name: Github Access API
+  slug: open-github-access-api
+- collection_type: open
+  name: GitHub Installation Accessible API
+  slug: open-github-accessible-api
+- collection_type: open
+  name: Github Actions API
+  slug: open-github-actions-api
+- collection_type: open
+  name: GitHub Org Active API
+  slug: open-github-active-api
+- collection_type: open
+  name: Github Activity API
+  slug: open-github-activity-api
+- collection_type: open
+  name: Github Add API
+  slug: open-github-add-api
+- collection_type: open
+  name: github-repos-api Administrative API
+  slug: open-github-administrative-api
+- collection_type: open
+  name: GitHub Org Advanced API
+  slug: open-github-advanced-api
+- collection_type: open
+  name: Github Alerts API
+  slug: open-github-alerts-api
+- collection_type: open
+  name: Github All API
+  slug: open-github-all-api
+- collection_type: open
+  name: Github Allowed API
+  slug: open-github-allowed-api
+- collection_type: open
+  name: github-repos-api Analysis API
+  slug: open-github-analysis-api
+- collection_type: open
+  name: github-repos-api Annotations API
+  slug: open-github-annotations-api
+- collection_type: open
+  name: GitHub Org Announcement API
+  slug: open-github-announcement-api
+- collection_type: open
   name: GitHub Application API
   slug: open-github-app-api
+- collection_type: open
+  name: Github Applications API
+  slug: open-github-applications-api
+- collection_type: open
+  name: GitHub v3 REST Apps API
+  slug: open-github-apps-api
+- collection_type: open
+  name: Github Archive API
+  slug: open-github-archive-api
+- collection_type: open
+  name: github-repo-actions-api Artifacts API
+  slug: open-github-artifacts-api
+- collection_type: open
+  name: github-repos-api Assets API
+  slug: open-github-assets-api
+- collection_type: open
+  name: Github Assigned API
+  slug: open-github-assigned-api
+- collection_type: open
+  name: Github Assignees API
+  slug: open-github-assignees-api
+- collection_type: open
+  name: github-repos-api Associated API
+  slug: open-github-associated-api
+- collection_type: open
+  name: github-repo-actions-api Attempts API
+  slug: open-github-attempts-api
+- collection_type: open
+  name: GitHub SCIM Attribute API
+  slug: open-github-attribute-api
+- collection_type: open
+  name: GitHub Org Audit API
+  slug: open-github-audit-api
 - collection_type: open
   name: GitHub Auth API
   slug: open-github-auth-api
 - collection_type: open
+  name: Github Authenticated API
+  slug: open-github-authenticated-api
+- collection_type: open
+  name: Github Authorization API
+  slug: open-github-authorization-api
+- collection_type: open
+  name: Github Authorized API
+  slug: open-github-authorized-api
+- collection_type: open
+  name: github-repos-api Autolinks API
+  slug: open-github-autolinks-api
+- collection_type: open
+  name: GitHub Org Banner API
+  slug: open-github-banner-api
+- collection_type: open
+  name: Github Between API
+  slug: open-github-between-api
+- collection_type: open
+  name: github-repos-api Bill API
+  slug: open-github-bill-api
+- collection_type: open
+  name: GitHub v3 REST Billing API
+  slug: open-github-billing-api
+- collection_type: open
+  name: github-repos-api Blobs API
+  slug: open-github-blobs-api
+- collection_type: open
+  name: Github Branches API
+  slug: open-github-branches-api
+- collection_type: open
+  name: github-repos-api Builds API
+  slug: open-github-builds-api
+- collection_type: open
+  name: Github Cache API
+  slug: open-github-cache-api
+- collection_type: open
+  name: github-repo-actions-api Caches API
+  slug: open-github-caches-api
+- collection_type: open
+  name: github-repo-actions-api Cancel API
+  slug: open-github-cancel-api
+- collection_type: open
+  name: GitHub Projects Card API
+  slug: open-github-card-api
+- collection_type: open
+  name: GitHub Projects Cards API
+  slug: open-github-cards-api
+- collection_type: open
+  name: github-repos-api Check API
+  slug: open-github-check-api
+- collection_type: open
+  name: Github Checks API
+  slug: open-github-checks-api
+- collection_type: open
+  name: Github Child API
+  slug: open-github-child-api
+- collection_type: open
+  name: Github Claims API
+  slug: open-github-claims-api
+- collection_type: open
+  name: Github Code API
+  slug: open-github-code-api
+- collection_type: open
   name: GitHub Code of Conduct API
   slug: open-github-code-of-conduct-api
+- collection_type: open
+  name: github-repos-api Code Owners API
+  slug: open-github-code-owners-api
+- collection_type: open
+  name: GitHub v3 REST Code Scanning API
+  slug: open-github-code-scanning-api
+- collection_type: open
+  name: Github Codes Of Conduct API
+  slug: open-github-codes-of-conduct-api
 - collection_type: open
   name: GitHub codes
   slug: open-github-codes
 - collection_type: open
+  name: Github Collaborators API
+  slug: open-github-collaborators-api
+- collection_type: open
+  name: GitHub Projects Column API
+  slug: open-github-column-api
+- collection_type: open
+  name: GitHub Projects Columns API
+  slug: open-github-columns-api
+- collection_type: open
+  name: github-repos-api Combined API
+  slug: open-github-combined-api
+- collection_type: open
+  name: Github Comment API
+  slug: open-github-comment-api
+- collection_type: open
+  name: Github Comments API
+  slug: open-github-comments-api
+- collection_type: open
+  name: Github Commits API
+  slug: open-github-commits-api
+- collection_type: open
+  name: GitHub Org Committers API
+  slug: open-github-committers-api
+- collection_type: open
+  name: github-repos-api Compare API
+  slug: open-github-compare-api
+- collection_type: open
+  name: GitHub Code Conduct API
+  slug: open-github-conduct-api
+- collection_type: open
+  name: Github Configuration API
+  slug: open-github-configuration-api
+- collection_type: open
+  name: GitHub Org Conflicting API
+  slug: open-github-conflicting-api
+- collection_type: open
+  name: Github Connection API
+  slug: open-github-connection-api
+- collection_type: open
+  name: github-repos-api Content API
+  slug: open-github-content-api
+- collection_type: open
+  name: github-repos-api Contexts API
+  slug: open-github-contexts-api
+- collection_type: open
+  name: github-repos-api Contributor API
+  slug: open-github-contributor-api
+- collection_type: open
+  name: github-repos-api Contributors API
+  slug: open-github-contributors-api
+- collection_type: open
+  name: GitHub Org Convert API
+  slug: open-github-convert-api
+- collection_type: open
+  name: github-repos-api Count API
+  slug: open-github-count-api
+- collection_type: open
+  name: Github Create API
+  slug: open-github-create-api
+- collection_type: open
+  name: Github Custom API
+  slug: open-github-custom-api
+- collection_type: open
+  name: Github Customizations API
+  slug: open-github-customizations-api
+- collection_type: open
+  name: github-repos-api Data API
+  slug: open-github-data-api
+- collection_type: open
+  name: github-repos-api Day API
+  slug: open-github-day-api
+- collection_type: open
+  name: Github Delete API
+  slug: open-github-delete-api
+- collection_type: open
+  name: Github Deliveries API
+  slug: open-github-deliveries-api
+- collection_type: open
+  name: Github Dependabot API
+  slug: open-github-dependabot-api
+- collection_type: open
+  name: github-repos-api Dependencies API
+  slug: open-github-dependencies-api
+- collection_type: open
+  name: GitHub v3 REST Dependency Graph API
+  slug: open-github-dependency-graph-api
+- collection_type: open
+  name: github-repos-api Deploy API
+  slug: open-github-deploy-api
+- collection_type: open
+  name: Github Deployments API
+  slug: open-github-deployments-api
+- collection_type: open
+  name: github-repos-api Directories API
+  slug: open-github-directories-api
+- collection_type: open
+  name: Github Disables API
+  slug: open-github-disables-api
+- collection_type: open
+  name: Github Discussions API
+  slug: open-github-discussions-api
+- collection_type: open
+  name: github-repos-api Dismiss API
+  slug: open-github-dismiss-api
+- collection_type: open
+  name: Github Dispatch API
+  slug: open-github-dispatch-api
+- collection_type: open
+  name: GitHub Org Docker API
+  slug: open-github-docker-api
+- collection_type: open
+  name: GitHub Markdown Documents API
+  slug: open-github-documents-api
+- collection_type: open
+  name: Github Download API
+  slug: open-github-download-api
+- collection_type: open
+  name: GitHub Org During API
+  slug: open-github-during-api
+- collection_type: open
+  name: Github Emojis API
+  slug: open-github-emojis-api
+- collection_type: open
   name: GitHub Emojis API
   slug: open-github-emojis
 - collection_type: open
-  name: GitHub Events API
+  name: Github Enabled API
+  slug: open-github-enabled-api
+- collection_type: open
+  name: Github Enables API
+  slug: open-github-enables-api
+- collection_type: open
+  name: Github Enforcement API
+  slug: open-github-enforcement-api
+- collection_type: open
+  name: GitHub v3 REST Enterprise Admin API
+  slug: open-github-enterprise-admin-api
+- collection_type: open
+  name: GitHub v3 REST Enterprise-Admin - Scim API
+  slug: open-github-enterprise-admin-scim-api
+- collection_type: open
+  name: Github Enterprise API
+  slug: open-github-enterprise-api
+- collection_type: open
+  name: github-repos-api Environments API
+  slug: open-github-environments-api
+- collection_type: open
+  name: Github Event API
+  slug: open-github-event-api
+- collection_type: open
+  name: Github Events API
   slug: open-github-events-api
+- collection_type: open
+  name: Github Existing API
+  slug: open-github-existing-api
+- collection_type: open
+  name: github-repos-api Export API
+  slug: open-github-export-api
+- collection_type: open
+  name: Github External API
+  slug: open-github-external-api
+- collection_type: open
+  name: github-repo-actions-api Failed API
+  slug: open-github-failed-api
+- collection_type: open
+  name: GitHub Org Feature API
+  slug: open-github-feature-api
+- collection_type: open
+  name: GitHub Feeds API
+  slug: open-github-feeds-api
 - collection_type: open
   name: GitHub Feeds API
   slug: open-github-feeds
 - collection_type: open
+  name: Github Files API
+  slug: open-github-files-api
+- collection_type: open
+  name: GitHub Org Fine Grained API
+  slug: open-github-fine-grained-api
+- collection_type: open
+  name: GitHub Auth Fingerprint API
+  slug: open-github-fingerprint-api
+- collection_type: open
+  name: Github Forks API
+  slug: open-github-forks-api
+- collection_type: open
+  name: github-repos-api Generate API
+  slug: open-github-generate-api
+- collection_type: open
+  name: Github Get API
+  slug: open-github-get-api
+- collection_type: open
+  name: Github Gists API
+  slug: open-github-gists-api
+- collection_type: open
   name: GitHub Gists API
   slug: open-github-gists
+- collection_type: open
+  name: Github Git API
+  slug: open-github-git-api
+- collection_type: open
+  name: GitHub Application GitHub Application API API
+  slug: open-github-github-application-api-api
+- collection_type: open
+  name: GitHub Auth GitHub Auth API API
+  slug: open-github-github-auth-api-api
+- collection_type: open
+  name: GitHub Code of Conduct GitHub Code Of Conduct API API
+  slug: open-github-github-code-of-conduct-api-api
+- collection_type: open
+  name: GitHub Codes API
+  slug: open-github-github-codes-api
+- collection_type: open
+  name: GitHub Emojis GitHub Emojis API API
+  slug: open-github-github-emojis-api-api
+- collection_type: open
+  name: GitHub Feeds GitHub Feeds API API
+  slug: open-github-github-feeds-api-api
+- collection_type: open
+  name: GitHub Gists GitHub Gists API API
+  slug: open-github-github-gists-api-api
+- collection_type: open
+  name: GitHub Gitignore Templates GitHub Gitignore Templates API API
+  slug: open-github-github-gitignore-templates-api-api
+- collection_type: open
+  name: GitHub Installation GitHub Installation API API
+  slug: open-github-github-installation-api-api
+- collection_type: open
+  name: GitHub Licenses GitHub Licenses API API
+  slug: open-github-github-licenses-api-api
+- collection_type: open
+  name: GitHub Manage GitHub Manage API API
+  slug: open-github-github-manage-api-api
+- collection_type: open
+  name: GitHub Markdown GitHub Markdown API API
+  slug: open-github-github-markdown-api-api
+- collection_type: open
+  name: GitHub Meta GitHub Meta API API
+  slug: open-github-github-meta-api-api
+- collection_type: open
+  name: GitHub Networks GitHub Networks API API
+  slug: open-github-github-networks-api-api
+- collection_type: open
+  name: GitHub Notifications GitHub Notifications API API
+  slug: open-github-github-notifications-api-api
+- collection_type: open
+  name: GitHub Projects GitHub Projects API API
+  slug: open-github-github-projects-api-api
+- collection_type: open
+  name: GitHub SCIM GitHub SCIM API API
+  slug: open-github-github-scim-api-api
+- collection_type: open
+  name: GitHub v3 REST GitHub V3 REST API API
+  slug: open-github-github-v3-rest-api-api
+- collection_type: open
+  name: GitHub v3 REST Gitignore API
+  slug: open-github-gitignore-api
 - collection_type: open
   name: GitHub Gitignore Templates API
   slug: open-github-gitignore-templates
 - collection_type: open
+  name: GitHub Application Grants API
+  slug: open-github-grants-api
+- collection_type: open
+  name: Github Groups API
+  slug: open-github-groups-api
+- collection_type: open
+  name: github-repos-api Head API
+  slug: open-github-head-api
+- collection_type: open
+  name: Github History API
+  slug: open-github-history-api
+- collection_type: open
+  name: Github Hook API
+  slug: open-github-hook-api
+- collection_type: open
+  name: Github Hooks API
+  slug: open-github-hooks-api
+- collection_type: open
+  name: github-repos-api Hourly API
+  slug: open-github-hourly-api
+- collection_type: open
+  name: github-repo-actions-api Identifiers API
+  slug: open-github-identifiers-api
+- collection_type: open
+  name: GitHub SCIM Identities API
+  slug: open-github-identities-api
+- collection_type: open
+  name: GitHub Auth Impersonation API
+  slug: open-github-impersonation-api
+- collection_type: open
+  name: Github Information API
+  slug: open-github-information-api
+- collection_type: open
   name: GitHub Installation API
   slug: open-github-installation
 - collection_type: open
-  name: GitHub Issues API
+  name: Github Installations API
+  slug: open-github-installations-api
+- collection_type: open
+  name: github-repos-api Instances API
+  slug: open-github-instances-api
+- collection_type: open
+  name: github-repos-api Invitation API
+  slug: open-github-invitation-api
+- collection_type: open
+  name: github-repos-api Invitations API
+  slug: open-github-invitations-api
+- collection_type: open
+  name: Github Issues API
   slug: open-github-issues-api
+- collection_type: open
+  name: github-repo-actions-api Jobs API
+  slug: open-github-jobs-api
+- collection_type: open
+  name: Github Keys API
+  slug: open-github-keys-api
+- collection_type: open
+  name: github-repo-actions-api Label API
+  slug: open-github-label-api
+- collection_type: open
+  name: Github Labels API
+  slug: open-github-labels-api
+- collection_type: open
+  name: github-repos-api Languages API
+  slug: open-github-languages-api
+- collection_type: open
+  name: github-repos-api Large File Storage API
+  slug: open-github-large-file-storage-api
+- collection_type: open
+  name: github-repos-api Last API
+  slug: open-github-last-api
+- collection_type: open
+  name: github-repos-api Latest API
+  slug: open-github-latest-api
+- collection_type: open
+  name: GitHub Teams Ldap API
+  slug: open-github-ldap-api
+- collection_type: open
+  name: Github Legacy API
+  slug: open-github-legacy-api
+- collection_type: open
+  name: github-repo-actions-api Levels API
+  slug: open-github-levels-api
+- collection_type: open
+  name: Github Licenses API
+  slug: open-github-licenses-api
 - collection_type: open
   name: GitHub Licenses API
   slug: open-github-licenses
 - collection_type: open
+  name: GitHub Rate Limit API
+  slug: open-github-limit-api
+- collection_type: open
+  name: Github Lists API
+  slug: open-github-lists-api
+- collection_type: open
+  name: github-repos-api Locks API
+  slug: open-github-locks-api
+- collection_type: open
+  name: GitHub Org Log API
+  slug: open-github-log-api
+- collection_type: open
+  name: github-repo-actions-api Logs API
+  slug: open-github-logs-api
+- collection_type: open
+  name: GitHub Setup Maintenance API
+  slug: open-github-maintenance-api
+- collection_type: open
   name: GitHub Manage API
   slug: open-github-manage
+- collection_type: open
+  name: Github Manager API
+  slug: open-github-manager-api
+- collection_type: open
+  name: GitHub Application Manifest API
+  slug: open-github-manifest-api
+- collection_type: open
+  name: GitHub Teams Mapping API
+  slug: open-github-mapping-api
+- collection_type: open
+  name: Github Mark API
+  slug: open-github-mark-api
+- collection_type: open
+  name: Github Markdown API
+  slug: open-github-markdown-api
 - collection_type: open
   name: GitHub Markdown API
   slug: open-github-markdown
 - collection_type: open
+  name: github-repos-api Matching API
+  slug: open-github-matching-api
+- collection_type: open
+  name: github-repos-api Materials API
+  slug: open-github-materials-api
+- collection_type: open
+  name: Github Member API
+  slug: open-github-member-api
+- collection_type: open
+  name: Github Members API
+  slug: open-github-members-api
+- collection_type: open
+  name: GitHub Org Membership API
+  slug: open-github-membership-api
+- collection_type: open
+  name: Github Memberships API
+  slug: open-github-memberships-api
+- collection_type: open
+  name: Github Merge API
+  slug: open-github-merge-api
+- collection_type: open
+  name: github-repos-api Merged API
+  slug: open-github-merged-api
+- collection_type: open
+  name: Github Meta API
+  slug: open-github-meta-api
+- collection_type: open
   name: GitHub Meta API
   slug: open-github-meta
+- collection_type: open
+  name: Github Migrations API
+  slug: open-github-migrations-api
+- collection_type: open
+  name: github-repos-api Milestones API
+  slug: open-github-milestones-api
+- collection_type: open
+  name: GitHub Markdown Mode API
+  slug: open-github-mode-api
+- collection_type: open
+  name: GitHub Setup Modes API
+  slug: open-github-modes-api
+- collection_type: open
+  name: GitHub Projects Move API
+  slug: open-github-move-api
+- collection_type: open
+  name: Github Name API
+  slug: open-github-name-api
+- collection_type: open
+  name: GitHub Networks Network API
+  slug: open-github-network-api
 - collection_type: open
   name: GitHub Networks API
   slug: open-github-networks
 - collection_type: open
+  name: GitHub Manage Node API
+  slug: open-github-node-api
+- collection_type: open
+  name: GitHub Manage Nodes API
+  slug: open-github-nodes-api
+- collection_type: open
+  name: github-repos-api Notes API
+  slug: open-github-notes-api
+- collection_type: open
+  name: github-repos-api Notifications API
+  slug: open-github-notifications-api
+- collection_type: open
   name: GitHub Notifications API
   slug: open-github-notifications
+- collection_type: open
+  name: GitHub Auth OAUTH API
+  slug: open-github-oauth-api
+- collection_type: open
+  name: GitHub v3 REST OAUTH Authorizations API
+  slug: open-github-oauth-authorizations-api
+- collection_type: open
+  name: github-repos-api Objects API
+  slug: open-github-objects-api
+- collection_type: open
+  name: GitHub Octocat API
+  slug: open-github-octocat-api
 - collection_type: open
   name: GitHub Octocat API
   slug: open-github-octocat
 - collection_type: open
+  name: GitHub v3 REST Oidc API
+  slug: open-github-oidc-api
+- collection_type: open
+  name: Github Openid Connect API
+  slug: open-github-openid-connect-api
+- collection_type: open
+  name: Github Organizations API
+  slug: open-github-organizations-api
+- collection_type: open
   name: GitHub Org API
   slug: open-github-organizations
+- collection_type: open
+  name: GitHub v3 REST Orgs API
+  slug: open-github-orgs-api
+- collection_type: open
+  name: Github Outside API
+  slug: open-github-outside-api
+- collection_type: open
+  name: GitHub Org Owned API
+  slug: open-github-owned-api
+- collection_type: open
+  name: GitHub Org Package API
+  slug: open-github-package-api
+- collection_type: open
+  name: Github Packages API
+  slug: open-github-packages-api
+- collection_type: open
+  name: github-repos-api Pages API
+  slug: open-github-pages-api
+- collection_type: open
+  name: Github Pending API
+  slug: open-github-pending-api
+- collection_type: open
+  name: GitHub Projects Permission API
+  slug: open-github-permission-api
+- collection_type: open
+  name: Github Permissions API
+  slug: open-github-permissions-api
+- collection_type: open
+  name: Github Ping API
+  slug: open-github-ping-api
+- collection_type: open
+  name: Github Policies API
+  slug: open-github-policies-api
+- collection_type: open
+  name: Github Pre Receive API
+  slug: open-github-pre-receive-api
+- collection_type: open
+  name: github-repos-api Preferences API
+  slug: open-github-preferences-api
+- collection_type: open
+  name: GitHub Setup Process API
+  slug: open-github-process-api
+- collection_type: open
+  name: Github Project API
+  slug: open-github-project-api
+- collection_type: open
+  name: Github Projects API
+  slug: open-github-projects-api
 - collection_type: open
   name: GitHub Projects API
   slug: open-github-projects
 - collection_type: open
+  name: Github Protected API
+  slug: open-github-protected-api
+- collection_type: open
+  name: Github Protections API
+  slug: open-github-protections-api
+- collection_type: open
+  name: GitHub SCIM Provision API
+  slug: open-github-provision-api
+- collection_type: open
+  name: GitHub SCIM Provisioned API
+  slug: open-github-provisioned-api
+- collection_type: open
+  name: GitHub SCIM Provisioning API
+  slug: open-github-provisioning-api
+- collection_type: open
+  name: Github Public API
+  slug: open-github-public-api
+- collection_type: open
+  name: Github Pull API
+  slug: open-github-pull-api
+- collection_type: open
+  name: GitHub v3 REST Pulls API
+  slug: open-github-pulls-api
+- collection_type: open
+  name: github-repo-hooks-api Push API
+  slug: open-github-push-api
+- collection_type: open
+  name: GitHub Limit Rate API
+  slug: open-github-rate-api
+- collection_type: open
   name: GitHub Rate Limit API
   slug: open-github-rate-limit-
+- collection_type: open
+  name: GitHub v3 REST Rate Limit API
+  slug: open-github-rate-limit-api
+- collection_type: open
+  name: GitHub Markdown Raw API
+  slug: open-github-raw-api
+- collection_type: open
+  name: Github Re Deliver API
+  slug: open-github-re-deliver-api
+- collection_type: open
+  name: github-repos-api Re Request API
+  slug: open-github-re-request-api
+- collection_type: open
+  name: github-repo-actions-api Re Run API
+  slug: open-github-re-run-api
+- collection_type: open
+  name: github-repos-api Reaction API
+  slug: open-github-reaction-api
+- collection_type: open
+  name: Github Reactions API
+  slug: open-github-reactions-api
+- collection_type: open
+  name: Github Read API
+  slug: open-github-read-api
+- collection_type: open
+  name: github-repos-api Readme API
+  slug: open-github-readme-api
+- collection_type: open
+  name: Github References API
+  slug: open-github-references-api
+- collection_type: open
+  name: Github Registration API
+  slug: open-github-registration-api
+- collection_type: open
+  name: Github Releases API
+  slug: open-github-releases-api
+- collection_type: open
+  name: Github Remove API
+  slug: open-github-remove-api
+- collection_type: open
+  name: github-repos-api Rename API
+  slug: open-github-rename-api
+- collection_type: open
+  name: GitHub Markdown Render API
+  slug: open-github-render-api
+- collection_type: open
+  name: github-repos-api Replace API
+  slug: open-github-replace-api
+- collection_type: open
+  name: GitHub Manage Replicas API
+  slug: open-github-replicas-api
+- collection_type: open
+  name: github-repos-api Replication API
+  slug: open-github-replication-api
+- collection_type: open
+  name: github-repos-api Reply API
+  slug: open-github-reply-api
 - collection_type: open
   name: github-repo-actions-api
   slug: open-github-repo-actions-api
@@ -1329,23 +2058,242 @@ collections:
   name: github-repos-api
   slug: open-github-repo-tags-api
 - collection_type: open
-  name: github-repos-api
+  name: Github Repos API
   slug: open-github-repos-api
+- collection_type: open
+  name: Github Repositories API
+  slug: open-github-repositories-api
+- collection_type: open
+  name: github-repos-api Requested API
+  slug: open-github-requested-api
+- collection_type: open
+  name: Github Requests API
+  slug: open-github-requests-api
+- collection_type: open
+  name: github-repos-api Rerequest API
+  slug: open-github-rerequest-api
+- collection_type: open
+  name: GitHub Application Reset API
+  slug: open-github-reset-api
+- collection_type: open
+  name: GitHub Org Restore API
+  slug: open-github-restore-api
+- collection_type: open
+  name: Github Restrictions API
+  slug: open-github-restrictions-api
+- collection_type: open
+  name: GitHub Installation Revoke API
+  slug: open-github-revoke-api
+- collection_type: open
+  name: GitHub Org Role API
+  slug: open-github-role-api
+- collection_type: open
+  name: GitHub Org Roles API
+  slug: open-github-roles-api
+- collection_type: open
+  name: Github Runners API
+  slug: open-github-runners-api
+- collection_type: open
+  name: GitHub Manage Running API
+  slug: open-github-running-api
+- collection_type: open
+  name: Github Runs API
+  slug: open-github-runs-api
+- collection_type: open
+  name: Github Scanning API
+  slug: open-github-scanning-api
+- collection_type: open
+  name: GitHub SCIM API
+  slug: open-github-scim-api
 - collection_type: open
   name: GitHub SCIM API
   slug: open-github-scim
 - collection_type: open
-  name: GitHub Search API
+  name: GitHub Application Scoped API
+  slug: open-github-scoped-api
+- collection_type: open
+  name: Github Search API
   slug: open-github-search-api
+- collection_type: open
+  name: GitHub v3 REST Secret Scanning API
+  slug: open-github-secret-scanning-api
+- collection_type: open
+  name: Github Secrets API
+  slug: open-github-secrets-api
+- collection_type: open
+  name: GitHub Teams Security API
+  slug: open-github-security-api
+- collection_type: open
+  name: GitHub Org Selected API
+  slug: open-github-selected-api
+- collection_type: open
+  name: Github Self Hosted API
+  slug: open-github-self-hosted-api
+- collection_type: open
+  name: Github Servers API
+  slug: open-github-servers-api
+- collection_type: open
+  name: Github Sets API
+  slug: open-github-sets-api
+- collection_type: open
+  name: Github Settings API
+  slug: open-github-settings-api
+- collection_type: open
+  name: Github Setup API
+  slug: open-github-setup-api
 - collection_type: open
   name: GitHub Setup API
   slug: open-github-setup
 - collection_type: open
+  name: github-repos-api Signatures API
+  slug: open-github-signatures-api
+- collection_type: open
+  name: Github Single API
+  slug: open-github-single-api
+- collection_type: open
+  name: github-repos-api Sites API
+  slug: open-github-sites-api
+- collection_type: open
+  name: github-repos-api Software API
+  slug: open-github-software-api
+- collection_type: open
+  name: Github Specific API
+  slug: open-github-specific-api
+- collection_type: open
+  name: Github Ssh API
+  slug: open-github-ssh-api
+- collection_type: open
+  name: GitHub Gists Star API
+  slug: open-github-star-api
+- collection_type: open
+  name: github-repos-api Stargazers API
+  slug: open-github-stargazers-api
+- collection_type: open
+  name: GitHub Gists Starred API
+  slug: open-github-starred-api
+- collection_type: open
+  name: Github Start API
+  slug: open-github-start-api
+- collection_type: open
+  name: github-repos-api State API
+  slug: open-github-state-api
+- collection_type: open
+  name: github-repos-api States API
+  slug: open-github-states-api
+- collection_type: open
+  name: github-repos-api Static Analysis Results Interchange Format API
+  slug: open-github-static-analysis-results-interchange-format-api
+- collection_type: open
+  name: Github Status API
+  slug: open-github-status-api
+- collection_type: open
+  name: github-repos-api Statuses API
+  slug: open-github-statuses-api
+- collection_type: open
+  name: Github Subject API
+  slug: open-github-subject-api
+- collection_type: open
+  name: github-repos-api Submit API
+  slug: open-github-submit-api
+- collection_type: open
+  name: Github Subscriptions API
+  slug: open-github-subscriptions-api
+- collection_type: open
+  name: github-repos-api Suites API
+  slug: open-github-suites-api
+- collection_type: open
+  name: Github Suspend API
+  slug: open-github-suspend-api
+- collection_type: open
+  name: Github Sync API
+  slug: open-github-sync-api
+- collection_type: open
+  name: github-repos-api Tar API
+  slug: open-github-tar-api
+- collection_type: open
+  name: Github Teams API
+  slug: open-github-teams-api
+- collection_type: open
   name: GitHub Teams API
   slug: open-github-teams
 - collection_type: open
-  name: GitHub User API
+  name: Github Templates API
+  slug: open-github-templates-api
+- collection_type: open
+  name: github-repo-hooks-api Tests API
+  slug: open-github-tests-api
+- collection_type: open
+  name: GitHub Notifications Thread API
+  slug: open-github-thread-api
+- collection_type: open
+  name: github-repos-api Timelines API
+  slug: open-github-timelines-api
+- collection_type: open
+  name: Github Tokens API
+  slug: open-github-tokens-api
+- collection_type: open
+  name: github-repos-api Topics API
+  slug: open-github-topics-api
+- collection_type: open
+  name: github-repos-api Transfers API
+  slug: open-github-transfers-api
+- collection_type: open
+  name: github-repos-api Trees API
+  slug: open-github-trees-api
+- collection_type: open
+  name: Github Unlock API
+  slug: open-github-unlock-api
+- collection_type: open
+  name: GitHub Gists Unstar API
+  slug: open-github-unstar-api
+- collection_type: open
+  name: Github Unsuspend API
+  slug: open-github-unsuspend-api
+- collection_type: open
+  name: Github Update API
+  slug: open-github-update-api
+- collection_type: open
+  name: GitHub Setup Upgrade API
+  slug: open-github-upgrade-api
+- collection_type: open
+  name: Github Upload API
+  slug: open-github-upload-api
+- collection_type: open
+  name: github-repos-api Upstream API
+  slug: open-github-upstream-api
+- collection_type: open
+  name: Github Usage API
+  slug: open-github-usage-api
+- collection_type: open
+  name: Github Users API
   slug: open-github-users-api
+- collection_type: open
+  name: Github Variables API
+  slug: open-github-variables-api
+- collection_type: open
+  name: Github Versions API
+  slug: open-github-versions-api
+- collection_type: open
+  name: github-repos-api Vulnerabilities API
+  slug: open-github-vulnerabilities-api
+- collection_type: open
+  name: github-repos-api Watchers API
+  slug: open-github-watchers-api
+- collection_type: open
+  name: Github Webhooks API
+  slug: open-github-webhooks-api
+- collection_type: open
+  name: github-repos-api Weekly API
+  slug: open-github-weekly-api
+- collection_type: open
+  name: Github Workflows API
+  slug: open-github-workflows-api
+- collection_type: open
+  name: github-repos-api Year API
+  slug: open-github-year-api
+- collection_type: open
+  name: GitHub Zen API
+  slug: open-github-zen-api
 - collection_type: open
   name: GitHub Zen API
   slug: open-github-zen
@@ -4018,7 +4966,7 @@ plans:
 - name: Github Plans Pricing
   plan_count: 3
   slug: github-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 8
   name: Github Rate Limits
@@ -4068,7 +5016,7 @@ score:
       marker_coverage: 0.0
       total: 322
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/screenshots/github-2026-06-20T181834.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -90,8 +90,62 @@ apis:
 - description: Modal workspaces.
   name: Modal Workspaces API
   slug: modal-com-workspaces-api
-artifact_total: 61
+artifact_total: 79
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Modal Dicts and Queues Apps API
+  slug: open-modal-com-apps-api
+- collection_type: open
+  name: Modal and Queues Apps Dicts API
+  slug: open-modal-com-dicts-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Environments API
+  slug: open-modal-com-environments-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Execution API
+  slug: open-modal-com-execution-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Files API
+  slug: open-modal-com-files-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Filesystem API
+  slug: open-modal-com-filesystem-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Functions API
+  slug: open-modal-com-functions-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Images API
+  slug: open-modal-com-images-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Invocations API
+  slug: open-modal-com-invocations-api
+- collection_type: open
+  name: Modal Dicts and Apps Queues API
+  slug: open-modal-com-queues-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Sandboxes API
+  slug: open-modal-com-sandboxes-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Schedules API
+  slug: open-modal-com-schedules-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Secrets API
+  slug: open-modal-com-secrets-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Tokens API
+  slug: open-modal-com-tokens-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Volumes API
+  slug: open-modal-com-volumes-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps WebEndpoints API
+  slug: open-modal-com-webendpoints-api
+- collection_type: open
+  name: Modal Dicts and Queues Apps Workspaces API
+  slug: open-modal-com-workspaces-api
 - collection_type: open
   name: Modal Dicts and Queues API
   slug: open-modal-dicts-queues
@@ -417,7 +471,7 @@ plans:
 - name: Modal Plans Pricing
   plan_count: 3
   slug: modal-plans-pricing
-random_paper: 49
+random_paper: 144
 rate_limits:
 - limit_count: 3
   name: Modal Rate Limits
@@ -459,7 +513,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/screenshots/modal-com-2026-06-20T185747.png
 security:

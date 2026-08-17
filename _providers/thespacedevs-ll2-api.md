@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 40
 apis:
 - description: The Agencies API from TheSpaceDevs LL2 API — 2 operation(s) for agencies.
@@ -151,7 +151,131 @@ apis:
 - description: The Variants API from TheSpaceDevs LL2 API — 2 operation(s) for variants.
   name: TheSpaceDevs LL2 API Variants API
   slug: thespacedevs-ll2-api-variants-api
-artifact_total: 51
+artifact_total: 92
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TheSpaceDevs LL2 Agencies API
+  slug: open-thespacedevs-ll2-api-agencies-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Agency API
+  slug: open-thespacedevs-ll2-api-agency-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Api-throttle API
+  slug: open-thespacedevs-ll2-api-api-throttle-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Astronaut API
+  slug: open-thespacedevs-ll2-api-astronaut-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Astronauts API
+  slug: open-thespacedevs-ll2-api-astronauts-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Bodies API
+  slug: open-thespacedevs-ll2-api-bodies-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Celestial API
+  slug: open-thespacedevs-ll2-api-celestial-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Closure API
+  slug: open-thespacedevs-ll2-api-closure-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Configurations API
+  slug: open-thespacedevs-ll2-api-configurations-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Countries API
+  slug: open-thespacedevs-ll2-api-countries-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Docking API
+  slug: open-thespacedevs-ll2-api-docking-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Events API
+  slug: open-thespacedevs-ll2-api-events-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Expeditions API
+  slug: open-thespacedevs-ll2-api-expeditions-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Families API
+  slug: open-thespacedevs-ll2-api-families-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Flights API
+  slug: open-thespacedevs-ll2-api-flights-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Landings API
+  slug: open-thespacedevs-ll2-api-landings-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Languages API
+  slug: open-thespacedevs-ll2-api-languages-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Launch API
+  slug: open-thespacedevs-ll2-api-launch-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Launcher API
+  slug: open-thespacedevs-ll2-api-launcher-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Launchers API
+  slug: open-thespacedevs-ll2-api-launchers-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Launches API
+  slug: open-thespacedevs-ll2-api-launches-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Licenses API
+  slug: open-thespacedevs-ll2-api-licenses-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Locations API
+  slug: open-thespacedevs-ll2-api-locations-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Pads API
+  slug: open-thespacedevs-ll2-api-pads-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Patches API
+  slug: open-thespacedevs-ll2-api-patches-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Payloads API
+  slug: open-thespacedevs-ll2-api-payloads-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Precisions API
+  slug: open-thespacedevs-ll2-api-precisions-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Previous API
+  slug: open-thespacedevs-ll2-api-previous-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Programs API
+  slug: open-thespacedevs-ll2-api-programs-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Spacecraft API
+  slug: open-thespacedevs-ll2-api-spacecraft-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Spacewalks API
+  slug: open-thespacedevs-ll2-api-spacewalks-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Stages API
+  slug: open-thespacedevs-ll2-api-stages-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Starship API
+  slug: open-thespacedevs-ll2-api-starship-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Station API
+  slug: open-thespacedevs-ll2-api-station-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Stations API
+  slug: open-thespacedevs-ll2-api-stations-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Throttle API
+  slug: open-thespacedevs-ll2-api-throttle-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Timeline API
+  slug: open-thespacedevs-ll2-api-timeline-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Types API
+  slug: open-thespacedevs-ll2-api-types-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Updates API
+  slug: open-thespacedevs-ll2-api-updates-api
+- collection_type: open
+  name: TheSpaceDevs LL2 Variants API
+  slug: open-thespacedevs-ll2-api-variants-api
 common:
 - group: auth
   title: ''
@@ -224,7 +348,7 @@ plans:
 - name: Thespacedevs Ll2 Api Plans Pricing
   plan_count: 3
   slug: thespacedevs-ll2-api-plans-pricing
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Thespacedevs Ll2 Api Rate Limits
@@ -265,7 +389,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/screenshots/thespacedevs-ll2-api-2026-06-20T195255.png
 security:

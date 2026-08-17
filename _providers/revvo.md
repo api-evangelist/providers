@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,7 +66,32 @@ arazzos:
 - description: Authenticate and read tire events/alerts for a fleet over a time window.
   name: Pull tire events for a fleet
   slug: revvo-pull-tire-events
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: revvo-api Api-keys API
+  slug: open-revvo-api-keys-api
+- collection_type: open
+  name: revvo-api Api-keys Auth API
+  slug: open-revvo-auth-api
+- collection_type: open
+  name: revvo-api Api-keys Device API
+  slug: open-revvo-device-api
+- collection_type: open
+  name: revvo-api Api-keys Event API
+  slug: open-revvo-event-api
+- collection_type: open
+  name: revvo-api Api-keys Fleet API
+  slug: open-revvo-fleet-api
+- collection_type: open
+  name: revvo-api Api-keys Tire Operation API
+  slug: open-revvo-tire-operation-api
+- collection_type: open
+  name: revvo-api Api-keys Vehicle API
+  slug: open-revvo-vehicle-api
 common:
 - group: company
   title: ''
@@ -184,7 +209,7 @@ overview: 'Revvo publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Revvo''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, authentication, and 18 more developer resources.'
-random_paper: 82
+random_paper: 115
 score:
   band: thin
   composite: 41.9
@@ -208,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

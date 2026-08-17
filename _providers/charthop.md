@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 430
   human_in_the_loop: 11
@@ -300,11 +300,273 @@ apis:
 - description: The well-known API from Charthop — 6 operation(s) for well-known.
   name: Charthop well-known API
   slug: charthop-well-known-api
-artifact_total: 94
+artifact_total: 181
 asyncapis:
 - description: ''
   name: Charthop Events Webhooks
   slug: charthop-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ChartHop access API
+  slug: open-charthop-access-api
+- collection_type: open
+  name: ChartHop access action API
+  slug: open-charthop-action-api
+- collection_type: open
+  name: ChartHop access ai API
+  slug: open-charthop-ai-api
+- collection_type: open
+  name: ChartHop access ai-credit-limit API
+  slug: open-charthop-ai-credit-limit-api
+- collection_type: open
+  name: ChartHop access ai-hint API
+  slug: open-charthop-ai-hint-api
+- collection_type: open
+  name: ChartHop access ai-prompt API
+  slug: open-charthop-ai-prompt-api
+- collection_type: open
+  name: ChartHop access app API
+  slug: open-charthop-app-api
+- collection_type: open
+  name: ChartHop access appConfig API
+  slug: open-charthop-appconfig-api
+- collection_type: open
+  name: ChartHop access approval API
+  slug: open-charthop-approval-api
+- collection_type: open
+  name: ChartHop access approval-delegate API
+  slug: open-charthop-approval-delegate-api
+- collection_type: open
+  name: ChartHop access approval-request API
+  slug: open-charthop-approval-request-api
+- collection_type: open
+  name: ChartHop access assessment API
+  slug: open-charthop-assessment-api
+- collection_type: open
+  name: ChartHop access band API
+  slug: open-charthop-band-api
+- collection_type: open
+  name: ChartHop access billing API
+  slug: open-charthop-billing-api
+- collection_type: open
+  name: ChartHop access budget API
+  slug: open-charthop-budget-api
+- collection_type: open
+  name: ChartHop access budget-pool API
+  slug: open-charthop-budget-pool-api
+- collection_type: open
+  name: ChartHop access calendar API
+  slug: open-charthop-calendar-api
+- collection_type: open
+  name: ChartHop access category API
+  slug: open-charthop-category-api
+- collection_type: open
+  name: ChartHop access category-sort API
+  slug: open-charthop-category-sort-api
+- collection_type: open
+  name: ChartHop access change API
+  slug: open-charthop-change-api
+- collection_type: open
+  name: ChartHop access comment API
+  slug: open-charthop-comment-api
+- collection_type: open
+  name: ChartHop access content API
+  slug: open-charthop-content-api
+- collection_type: open
+  name: ChartHop access customer API
+  slug: open-charthop-customer-api
+- collection_type: open
+  name: ChartHop access data-view API
+  slug: open-charthop-data-view-api
+- collection_type: open
+  name: ChartHop access email-template API
+  slug: open-charthop-email-template-api
+- collection_type: open
+  name: ChartHop access event API
+  slug: open-charthop-event-api
+- collection_type: open
+  name: ChartHop access exchange-rate API
+  slug: open-charthop-exchange-rate-api
+- collection_type: open
+  name: ChartHop access export API
+  slug: open-charthop-export-api
+- collection_type: open
+  name: ChartHop access expression API
+  slug: open-charthop-expression-api
+- collection_type: open
+  name: ChartHop access field API
+  slug: open-charthop-field-api
+- collection_type: open
+  name: ChartHop access file API
+  slug: open-charthop-file-api
+- collection_type: open
+  name: ChartHop access form API
+  slug: open-charthop-form-api
+- collection_type: open
+  name: ChartHop access form-response API
+  slug: open-charthop-form-response-api
+- collection_type: open
+  name: ChartHop access goal API
+  slug: open-charthop-goal-api
+- collection_type: open
+  name: ChartHop access goal-type API
+  slug: open-charthop-goal-type-api
+- collection_type: open
+  name: ChartHop access goalProgress API
+  slug: open-charthop-goalprogress-api
+- collection_type: open
+  name: ChartHop access goalTarget API
+  slug: open-charthop-goaltarget-api
+- collection_type: open
+  name: ChartHop access group API
+  slug: open-charthop-group-api
+- collection_type: open
+  name: ChartHop access group-type API
+  slug: open-charthop-group-type-api
+- collection_type: open
+  name: ChartHop access guideline API
+  slug: open-charthop-guideline-api
+- collection_type: open
+  name: ChartHop access import API
+  slug: open-charthop-import-api
+- collection_type: open
+  name: ChartHop access job API
+  slug: open-charthop-job-api
+- collection_type: open
+  name: ChartHop access job-code API
+  slug: open-charthop-job-code-api
+- collection_type: open
+  name: ChartHop access job-level API
+  slug: open-charthop-job-level-api
+- collection_type: open
+  name: ChartHop access legalDoc API
+  slug: open-charthop-legaldoc-api
+- collection_type: open
+  name: ChartHop access mcp API
+  slug: open-charthop-mcp-api
+- collection_type: open
+  name: ChartHop access media API
+  slug: open-charthop-media-api
+- collection_type: open
+  name: ChartHop access message API
+  slug: open-charthop-message-api
+- collection_type: open
+  name: ChartHop access metric API
+  slug: open-charthop-metric-api
+- collection_type: open
+  name: ChartHop access multiplier API
+  slug: open-charthop-multiplier-api
+- collection_type: open
+  name: ChartHop access notification API
+  slug: open-charthop-notification-api
+- collection_type: open
+  name: ChartHop access oauth API
+  slug: open-charthop-oauth-api
+- collection_type: open
+  name: ChartHop access org API
+  slug: open-charthop-org-api
+- collection_type: open
+  name: ChartHop access org-config API
+  slug: open-charthop-org-config-api
+- collection_type: open
+  name: ChartHop access person API
+  slug: open-charthop-person-api
+- collection_type: open
+  name: ChartHop access policy API
+  slug: open-charthop-policy-api
+- collection_type: open
+  name: ChartHop access preload API
+  slug: open-charthop-preload-api
+- collection_type: open
+  name: ChartHop access process API
+  slug: open-charthop-process-api
+- collection_type: open
+  name: ChartHop access product API
+  slug: open-charthop-product-api
+- collection_type: open
+  name: ChartHop access profile-tab API
+  slug: open-charthop-profile-tab-api
+- collection_type: open
+  name: ChartHop access query API
+  slug: open-charthop-query-api
+- collection_type: open
+  name: ChartHop access question API
+  slug: open-charthop-question-api
+- collection_type: open
+  name: ChartHop access report API
+  slug: open-charthop-report-api
+- collection_type: open
+  name: ChartHop access reportChart API
+  slug: open-charthop-reportchart-api
+- collection_type: open
+  name: ChartHop access role API
+  slug: open-charthop-role-api
+- collection_type: open
+  name: ChartHop access saml API
+  slug: open-charthop-saml-api
+- collection_type: open
+  name: ChartHop access scenario API
+  slug: open-charthop-scenario-api
+- collection_type: open
+  name: ChartHop access search API
+  slug: open-charthop-search-api
+- collection_type: open
+  name: ChartHop access signature-request API
+  slug: open-charthop-signature-request-api
+- collection_type: open
+  name: ChartHop access status API
+  slug: open-charthop-status-api
+- collection_type: open
+  name: ChartHop access stock API
+  slug: open-charthop-stock-api
+- collection_type: open
+  name: ChartHop access stockgrant API
+  slug: open-charthop-stockgrant-api
+- collection_type: open
+  name: ChartHop access stripe API
+  slug: open-charthop-stripe-api
+- collection_type: open
+  name: ChartHop access table API
+  slug: open-charthop-table-api
+- collection_type: open
+  name: ChartHop access task API
+  slug: open-charthop-task-api
+- collection_type: open
+  name: ChartHop access task-config API
+  slug: open-charthop-task-config-api
+- collection_type: open
+  name: ChartHop access template API
+  slug: open-charthop-template-api
+- collection_type: open
+  name: ChartHop access Time off ledger API
+  slug: open-charthop-time-off-ledger-api
+- collection_type: open
+  name: ChartHop access timeoff API
+  slug: open-charthop-timeoff-api
+- collection_type: open
+  name: ChartHop access timeoffAdjustment API
+  slug: open-charthop-timeoffadjustment-api
+- collection_type: open
+  name: ChartHop access timeOffPolicy API
+  slug: open-charthop-timeoffpolicy-api
+- collection_type: open
+  name: ChartHop access transcript API
+  slug: open-charthop-transcript-api
+- collection_type: open
+  name: ChartHop access usage API
+  slug: open-charthop-usage-api
+- collection_type: open
+  name: ChartHop access user API
+  slug: open-charthop-user-api
+- collection_type: open
+  name: ChartHop access webauthn API
+  slug: open-charthop-webauthn-api
+- collection_type: open
+  name: ChartHop access well-known API
+  slug: open-charthop-well-known-api
 common:
 - group: start
   title: ''
@@ -453,7 +715,7 @@ overview: 'Charthop publishes 87 APIs on the [APIs.io](https://apis.io/) network
 
 
   Charthop''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 25 more developer resources.'
-random_paper: 17
+random_paper: 112
 score:
   band: developing
   composite: 49.3
@@ -477,7 +739,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/screenshots/charthop-2026-07-25T205113.png
 security:

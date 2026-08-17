@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,11 +66,41 @@ apis:
 - description: Подписчики и их сегментационные теги.
   name: AppsMax Subscribers API
   slug: appsmax-rest-api-v1-subscribers-api
-artifact_total: 18
+artifact_total: 28
 collections:
 - collection_type: postman
   name: AppsMax REST API v1 — Quickstart
   slug: postman-appsmax-rest-api-v1-quickstart
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AppsMax REST Access API
+  slug: open-appsmax-rest-api-v1-access-api
+- collection_type: open
+  name: AppsMax REST Applications API
+  slug: open-appsmax-rest-api-v1-applications-api
+- collection_type: open
+  name: AppsMax REST Bots API
+  slug: open-appsmax-rest-api-v1-bots-api
+- collection_type: open
+  name: AppsMax REST Campaigns API
+  slug: open-appsmax-rest-api-v1-campaigns-api
+- collection_type: open
+  name: AppsMax REST Funnels API
+  slug: open-appsmax-rest-api-v1-funnels-api
+- collection_type: open
+  name: AppsMax REST Interactive menu API
+  slug: open-appsmax-rest-api-v1-interactive-menu-api
+- collection_type: open
+  name: AppsMax REST Miniapps API
+  slug: open-appsmax-rest-api-v1-miniapps-api
+- collection_type: open
+  name: AppsMax REST Organizations API
+  slug: open-appsmax-rest-api-v1-organizations-api
+- collection_type: open
+  name: AppsMax REST Subscribers API
+  slug: open-appsmax-rest-api-v1-subscribers-api
 common:
 - group: agent
   title: ''
@@ -224,7 +254,7 @@ plans:
 - name: Appsmax Rest Api V1 Plans
   plan_count: 5
   slug: appsmax-rest-api-v1-plans
-random_paper: 24
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Appsmax Rest Api V1 Rate Limits
@@ -257,7 +287,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

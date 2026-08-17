@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Point weather forecasts and historical weather data
   name: Stormglass Weather API
   slug: stormglass-weather-api
-artifact_total: 30
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Stormglass Astronomy API
@@ -83,6 +83,30 @@ collections:
 - collection_type: postman
   name: Stormglass Astronomy Weather API
   slug: postman-stormglass-weather-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stormglass Astronomy API
+  slug: open-stormglass-astronomy-api
+- collection_type: open
+  name: Stormglass Astronomy Bio API
+  slug: open-stormglass-bio-api
+- collection_type: open
+  name: Stormglass Astronomy Elevation API
+  slug: open-stormglass-elevation-api
+- collection_type: open
+  name: Stormglass Astronomy Marine API
+  slug: open-stormglass-marine-api
+- collection_type: open
+  name: Stormglass Astronomy Solar API
+  slug: open-stormglass-solar-api
+- collection_type: open
+  name: Stormglass Astronomy Tides API
+  slug: open-stormglass-tides-api
+- collection_type: open
+  name: Stormglass Astronomy Weather API
+  slug: open-stormglass-weather-api
 - collection_type: open
   name: Stormglass API
   slug: open-stormglass
@@ -192,7 +216,7 @@ plans:
 - name: Stormglass Plans Pricing
   plan_count: 3
   slug: stormglass-plans-pricing
-random_paper: 23
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Stormglass Rate Limits
@@ -234,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/screenshots/stormglass-2026-06-20T194607.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,8 +59,26 @@ apis:
 - description: Vector index management
   name: Upstash Vector API
   slug: upstash-vector-api
-artifact_total: 11
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Upstash APIs Kafka API
+  slug: open-upstash-kafka-api
+- collection_type: open
+  name: Upstash APIs Kafka Redis API
+  slug: open-upstash-redis-api
+- collection_type: open
+  name: Upstash APIs Kafka RedisCommand API
+  slug: open-upstash-rediscommand-api
+- collection_type: open
+  name: Upstash APIs Kafka Teams API
+  slug: open-upstash-teams-api
+- collection_type: open
+  name: Upstash APIs Kafka Vector API
+  slug: open-upstash-vector-api
 - collection_type: open
   name: Upstash APIs
   slug: open-upstash
@@ -121,7 +139,7 @@ overview: 'Upstash publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Upstash''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 56
+random_paper: 31
 score:
   band: thin
   composite: 31.9
@@ -142,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/screenshots/upstash-2026-06-20T200514.png
 security:

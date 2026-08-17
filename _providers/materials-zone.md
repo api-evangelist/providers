@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: Tables are organized in folders, and contain Items.
   name: Materials Zone tables API
   slug: materials-zone-tables-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Materials Zone files API
+  slug: open-materials-zone-files-api
+- collection_type: open
+  name: Materials Zone files folders API
+  slug: open-materials-zone-folders-api
+- collection_type: open
+  name: Materials Zone files items API
+  slug: open-materials-zone-items-api
+- collection_type: open
+  name: Materials Zone files jobs API
+  slug: open-materials-zone-jobs-api
+- collection_type: open
+  name: Materials Zone files measurements API
+  slug: open-materials-zone-measurements-api
+- collection_type: open
+  name: Materials Zone files parameters API
+  slug: open-materials-zone-parameters-api
+- collection_type: open
+  name: Materials Zone files parsers API
+  slug: open-materials-zone-parsers-api
+- collection_type: open
+  name: Materials Zone files protocols API
+  slug: open-materials-zone-protocols-api
+- collection_type: open
+  name: Materials Zone files tables API
+  slug: open-materials-zone-tables-api
 common:
 - group: agent
   title: ''
@@ -175,7 +206,7 @@ overview: 'Materials Zone publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Materials Zone''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 17 more developer resources.'
-random_paper: 11
+random_paper: 110
 score:
   band: thin
   composite: 40.7
@@ -205,7 +236,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/screenshots/materials-zone-2026-07-25T230407.png
 security:

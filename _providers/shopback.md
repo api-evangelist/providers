@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Account Linking API from ShopBack — 4 operation(s) for account linking.
@@ -36,11 +36,30 @@ apis:
 - description: The Pre-Auth API from ShopBack — 6 operation(s) for pre-auth.
   name: ShopBack Pre Auth API
   slug: shopback-pre-auth-api
-artifact_total: 9
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Shopback Payment Notification Webhooks
   slug: shopback-payment-notification-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Online Payments Account Linking API
+  slug: open-shopback-account-linking-api
+- collection_type: open
+  name: Online Payments Authentication API
+  slug: open-shopback-authentication-api
+- collection_type: open
+  name: In-Store Payments Notification API
+  slug: open-shopback-notification-api
+- collection_type: open
+  name: Shopback Orders API
+  slug: open-shopback-orders-api
+- collection_type: open
+  name: Online Payments Pre Auth API
+  slug: open-shopback-pre-auth-api
 common:
 - group: agent
   title: ''
@@ -194,7 +213,7 @@ overview: 'ShopBack publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShopBack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 3
+random_paper: 98
 score:
   band: developing
   composite: 52.4
@@ -223,7 +242,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

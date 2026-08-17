@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -94,14 +94,26 @@ arazzos:
 - description: Find an environment by name and update it if it exists, otherwise create it.
   name: MuleSoft Upsert Environment
   slug: mulesoft-upsert-environment-workflow
-artifact_total: 124
+artifact_total: 128
 collections:
 - collection_type: postman
   name: MuleSoft Anypoint Platform API
   slug: postman-mulesoft-anypoint-platform
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: MuleSoft Anypoint Platform API
   slug: open-mulesoft-anypoint-platform
+- collection_type: open
+  name: MuleSoft Anypoint Platform Applications API
+  slug: open-mulesoft-applications-api
+- collection_type: open
+  name: MuleSoft Anypoint Platform Applications Environments API
+  slug: open-mulesoft-environments-api
+- collection_type: open
+  name: MuleSoft Anypoint Platform Applications Organizations API
+  slug: open-mulesoft-organizations-api
 common:
 - group: agent
   title: ''
@@ -547,7 +559,7 @@ plans:
 - name: Mulesoft Plans Pricing
   plan_count: 4
   slug: mulesoft-plans-pricing
-random_paper: 39
+random_paper: 134
 rate_limits:
 - limit_count: 3
   name: Mulesoft Rate Limits
@@ -589,7 +601,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/screenshots/mulesoft-2026-06-20T185854.png
 security:

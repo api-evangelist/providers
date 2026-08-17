@@ -11,24 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-12'
+  score: 59.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 2
@@ -350,7 +351,323 @@ apis:
 - description: The Websites API from Partnerize — 2 operation(s) for websites.
   name: Partnerize Websites API
   slug: partnerize-websites-api
-artifact_total: 115
+artifact_total: 222
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Partnerize Brands Attribution API
+  slug: open-partnerize-attribution-api
+- collection_type: open
+  name: Partnerize Brands Attribution Available Commission API
+  slug: open-partnerize-available-commission-api
+- collection_type: open
+  name: Partnerize Brands Attribution Brand Clicks API
+  slug: open-partnerize-brand-clicks-api
+- collection_type: open
+  name: Partnerize Brands Attribution Brand Conversions API
+  slug: open-partnerize-brand-conversions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Brand Discovery (v2) API
+  slug: open-partnerize-brand-discovery-v2-api
+- collection_type: open
+  name: Partnerize Attribution Brands API
+  slug: open-partnerize-brands-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign Conversions API
+  slug: open-partnerize-campaign-conversions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign Extra Fields API
+  slug: open-partnerize-campaign-extra-fields-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign Group Campaigns API
+  slug: open-partnerize-campaign-group-campaigns-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign Invitations (v2) API
+  slug: open-partnerize-campaign-invitations-v2-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign References (v1) API
+  slug: open-partnerize-campaign-references-v1-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign Requests and Invites API
+  slug: open-partnerize-campaign-requests-and-invites-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign Requests (v2) API
+  slug: open-partnerize-campaign-requests-v2-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign Terms and Conditions Acknowledgments API
+  slug: open-partnerize-campaign-terms-and-conditions-acknowledgments-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign Terms and Conditions API
+  slug: open-partnerize-campaign-terms-and-conditions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign Transaction Queries API
+  slug: open-partnerize-campaign-transaction-queries-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaign v3 API
+  slug: open-partnerize-campaign-v3-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaigns API
+  slug: open-partnerize-campaigns-api
+- collection_type: open
+  name: Partnerize Brands Attribution Campaigns (v1) API
+  slug: open-partnerize-campaigns-v1-api
+- collection_type: open
+  name: Partnerize Brands Attribution Clicks API
+  slug: open-partnerize-clicks-api
+- collection_type: open
+  name: Partnerize Brands Attribution Commission Groups API
+  slug: open-partnerize-commission-groups-api
+- collection_type: open
+  name: Partnerize Brands Attribution Commission Groups (v1) API
+  slug: open-partnerize-commission-groups-v1-api
+- collection_type: open
+  name: Partnerize Brands Attribution Commissions API
+  slug: open-partnerize-commissions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Commissions CSV Download API
+  slug: open-partnerize-commissions-csv-download-api
+- collection_type: open
+  name: Partnerize Brands Attribution Communication Templates API
+  slug: open-partnerize-communication-templates-api
+- collection_type: open
+  name: Partnerize Brands Attribution Communications API
+  slug: open-partnerize-communications-api
+- collection_type: open
+  name: Partnerize Brands Attribution Conversion Metrics API
+  slug: open-partnerize-conversion-metrics-api
+- collection_type: open
+  name: Partnerize Brands Attribution Conversion Types API
+  slug: open-partnerize-conversion-types-api
+- collection_type: open
+  name: Partnerize Brands Attribution Conversions API
+  slug: open-partnerize-conversions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Countries API
+  slug: open-partnerize-countries-api
+- collection_type: open
+  name: Partnerize Brands Attribution Creatives API
+  slug: open-partnerize-creatives-api
+- collection_type: open
+  name: Partnerize Brands Attribution Creatives (v1) API
+  slug: open-partnerize-creatives-v1-api
+- collection_type: open
+  name: Partnerize Brands Attribution Currencies API
+  slug: open-partnerize-currencies-api
+- collection_type: open
+  name: Partnerize Brands Attribution Currency countries API
+  slug: open-partnerize-currency-countries-api
+- collection_type: open
+  name: Partnerize Brands Attribution Current User API
+  slug: open-partnerize-current-user-api
+- collection_type: open
+  name: Partnerize Brands Attribution Custom Terms and Conditions API
+  slug: open-partnerize-custom-terms-and-conditions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Databases API
+  slug: open-partnerize-databases-api
+- collection_type: open
+  name: Partnerize Brands Attribution Deals API
+  slug: open-partnerize-deals-api
+- collection_type: open
+  name: Partnerize Brands Attribution Deep link domains API
+  slug: open-partnerize-deep-link-domains-api
+- collection_type: open
+  name: Partnerize Brands Attribution Devices API
+  slug: open-partnerize-devices-api
+- collection_type: open
+  name: Partnerize Brands Attribution Discovery Settings API
+  slug: open-partnerize-discovery-settings-api
+- collection_type: open
+  name: Partnerize Brands Attribution Exclusive Code API
+  slug: open-partnerize-exclusive-code-api
+- collection_type: open
+  name: Partnerize Brands Attribution Exports API
+  slug: open-partnerize-exports-api
+- collection_type: open
+  name: Partnerize Brands Attribution Feeds (v1) API
+  slug: open-partnerize-feeds-v1-api
+- collection_type: open
+  name: Partnerize Brands Attribution Filter Sets API
+  slug: open-partnerize-filter-sets-api
+- collection_type: open
+  name: Partnerize Brands Attribution Impressions API
+  slug: open-partnerize-impressions-api
+- collection_type: open
+  name: Partnerize Brands Attribution In-Cart API
+  slug: open-partnerize-in-cart-api
+- collection_type: open
+  name: Partnerize Brands Attribution Incidents API
+  slug: open-partnerize-incidents-api
+- collection_type: open
+  name: Partnerize Brands Attribution Invoices API
+  slug: open-partnerize-invoices-api
+- collection_type: open
+  name: Partnerize Brands Attribution Jobs API
+  slug: open-partnerize-jobs-api
+- collection_type: open
+  name: Partnerize Brands Attribution Jobs (v1) API
+  slug: open-partnerize-jobs-v1-api
+- collection_type: open
+  name: Partnerize Brands Attribution Locales API
+  slug: open-partnerize-locales-api
+- collection_type: open
+  name: Partnerize Brands Attribution Meta Attributes API
+  slug: open-partnerize-meta-attributes-api
+- collection_type: open
+  name: Partnerize Brands Attribution Meta Fields API
+  slug: open-partnerize-meta-fields-api
+- collection_type: open
+  name: Partnerize Brands Attribution Metrics API
+  slug: open-partnerize-metrics-api
+- collection_type: open
+  name: Partnerize Brands Attribution My Brands API
+  slug: open-partnerize-my-brands-api
+- collection_type: open
+  name: Partnerize Brands Attribution Network Partners API
+  slug: open-partnerize-network-partners-api
+- collection_type: open
+  name: Partnerize Brands Attribution Network Terms and Conditions Acknowledgments (v3) API
+  slug: open-partnerize-network-terms-and-conditions-acknowledgments-v3-api
+- collection_type: open
+  name: Partnerize Brands Attribution Network Terms and Conditions API
+  slug: open-partnerize-network-terms-and-conditions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Network Terms and Conditions (v3) API
+  slug: open-partnerize-network-terms-and-conditions-v3-api
+- collection_type: open
+  name: Partnerize Brands Attribution Networks API
+  slug: open-partnerize-networks-api
+- collection_type: open
+  name: Partnerize Brands Attribution Paid Search Violations API
+  slug: open-partnerize-paid-search-violations-api
+- collection_type: open
+  name: Partnerize Brands Attribution Participating Partners API
+  slug: open-partnerize-participating-partners-api
+- collection_type: open
+  name: Partnerize Brands Attribution Participations API
+  slug: open-partnerize-participations-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partner Clicks API
+  slug: open-partnerize-partner-clicks-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partner Commissions API
+  slug: open-partnerize-partner-commissions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partner Conversions API
+  slug: open-partnerize-partner-conversions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partner Details API
+  slug: open-partnerize-partner-details-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partner Groups API
+  slug: open-partnerize-partner-groups-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partner Payable API
+  slug: open-partnerize-partner-payable-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partner Whitelisting API
+  slug: open-partnerize-partner-whitelisting-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partnerize Tag Features API
+  slug: open-partnerize-partnerize-tag-features-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partnerize Tags API
+  slug: open-partnerize-partnerize-tags-api
+- collection_type: open
+  name: Partnerize Brands Attribution Partnership Models API
+  slug: open-partnerize-partnership-models-api
+- collection_type: open
+  name: Partnerize Brands Attribution Payment Details API
+  slug: open-partnerize-payment-details-api
+- collection_type: open
+  name: Partnerize Brands Attribution Placeholders API
+  slug: open-partnerize-placeholders-api
+- collection_type: open
+  name: Partnerize Brands Attribution Platform Communications API
+  slug: open-partnerize-platform-communications-api
+- collection_type: open
+  name: Partnerize Brands Attribution Preferred Partner API
+  slug: open-partnerize-preferred-partner-api
+- collection_type: open
+  name: Partnerize Brands Attribution Product Feeds API
+  slug: open-partnerize-product-feeds-api
+- collection_type: open
+  name: Partnerize Brands Attribution Promotional Commissions API
+  slug: open-partnerize-promotional-commissions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Promotional Methods API
+  slug: open-partnerize-promotional-methods-api
+- collection_type: open
+  name: Partnerize Brands Attribution Publishers API
+  slug: open-partnerize-publishers-api
+- collection_type: open
+  name: Partnerize Brands Attribution Reporting on Meta data API
+  slug: open-partnerize-reporting-on-meta-data-api
+- collection_type: open
+  name: Partnerize Brands Attribution Saved Reports API
+  slug: open-partnerize-saved-reports-api
+- collection_type: open
+  name: Partnerize Brands Attribution Self-billing API
+  slug: open-partnerize-self-billing-api
+- collection_type: open
+  name: Partnerize Brands Attribution Split API
+  slug: open-partnerize-split-api
+- collection_type: open
+  name: Partnerize Brands Attribution Summary API
+  slug: open-partnerize-summary-api
+- collection_type: open
+  name: Partnerize Brands Attribution Suppressed Code API
+  slug: open-partnerize-suppressed-code-api
+- collection_type: open
+  name: Partnerize Brands Attribution Terms and Conditions API
+  slug: open-partnerize-terms-and-conditions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Tiered Commissions API
+  slug: open-partnerize-tiered-commissions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Tiers API
+  slug: open-partnerize-tiers-api
+- collection_type: open
+  name: Partnerize Brands Attribution Timezones API
+  slug: open-partnerize-timezones-api
+- collection_type: open
+  name: Partnerize Brands Attribution Tracking Links API
+  slug: open-partnerize-tracking-links-api
+- collection_type: open
+  name: Partnerize Brands Attribution Traffic Sources API
+  slug: open-partnerize-traffic-sources-api
+- collection_type: open
+  name: Partnerize Brands Attribution Transaction Queries API
+  slug: open-partnerize-transaction-queries-api
+- collection_type: open
+  name: Partnerize Brands Attribution Transaction Query Reasons API
+  slug: open-partnerize-transaction-query-reasons-api
+- collection_type: open
+  name: Partnerize Brands Attribution US States API
+  slug: open-partnerize-us-states-api
+- collection_type: open
+  name: Partnerize Brands Attribution User Contexts API
+  slug: open-partnerize-user-contexts-api
+- collection_type: open
+  name: Partnerize Brands Attribution Verticals API
+  slug: open-partnerize-verticals-api
+- collection_type: open
+  name: Partnerize Brands Attribution Voucher Codes API
+  slug: open-partnerize-voucher-codes-api
+- collection_type: open
+  name: Partnerize Brands Attribution Voucher Codes (v1) API
+  slug: open-partnerize-voucher-codes-v1-api
+- collection_type: open
+  name: Partnerize Brands Attribution Voucher Commissions API
+  slug: open-partnerize-voucher-commissions-api
+- collection_type: open
+  name: Partnerize Brands Attribution Website Types API
+  slug: open-partnerize-website-types-api
+- collection_type: open
+  name: Partnerize Brands Attribution Websites API
+  slug: open-partnerize-websites-api
 common:
 - group: agent
   title: ''
@@ -420,8 +737,100 @@ common:
   title: ''
   type: FinOps
   url: finops/partnerize-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api-docs.partnerize.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-docs.partnerize.com/brand/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://api-docs.partnerize.com/brand/#section/Quick-Start
+- group: operate
+  title: ''
+  type: Support
+  url: https://partnerize.com/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://signup.partnerize.com/signup/en
+- group: start
+  title: ''
+  type: Login
+  url: https://console.partnerize.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://partnerize.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://partnerize.com/legal/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/performancehorizongroup
+- group: build
+  title: ''
+  type: Packages
+  url: packages/partnerize-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/partnerize-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/partnerize-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/partnerize-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/partnerize-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/partnerize-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/partnerize-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/partnerize-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://api-docs.partnerize.com/brand/#section/API-Change-Management-Policy
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/partnerize-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/partnerize-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/partnerize-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/partnerize-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-06-13'
-description: Affiliate and partner marketing platform with a REST API for managing publisher partnerships, tracking sales, processing commissions, and accessing performance analytics.
+description: Partnerize is a partnership-automation platform for affiliate, influencer and performance marketing, used by brands to discover and recruit partners, track clicks and conversions, calculate and pay commissions, guard against fraud, and report on channel performance. Its API is built API-first — the Partnerize console runs on top of it — and is published as two OpenAPI documents, a Brands API and a Partners API, covering 327 operations across three concurrent versions (v1, v2 and v3) on api.partnerize.com, authenticated with HTTP Basic over an application key and a user API key.
 examples:
 - key_count: 3
   name: Partnerize Examples
@@ -448,7 +857,11 @@ jsonld:
   property_count: 4
   slug: partnerize-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: partnerize-mcp.yml
+  slug: partnerize-mcpyml
+modified: '2026-08-13'
 name: Partnerize
 nav: Providers
 network: true
@@ -458,14 +871,14 @@ overview: 'Partnerize publishes 104 APIs on the [APIs.io](https://apis.io/) netw
   The Partnerize catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Partnerize''s developer surface includes documentation, engineering blog, code examples, pricing, and 13 more developer resources.'
+  Partnerize''s developer surface includes documentation, engineering blog, code examples, pricing, API reference, getting-started guide, support, and 33 more developer resources.'
 plans:
 - name: Partnerize Plans Pricing
   plan_count: 2
   slug: partnerize-plans-pricing
-random_paper: 12
+random_paper: 49
 rate_limits:
-- limit_count: 2
+- limit_count: 1
   name: Partnerize Rate Limits
   slug: partnerize-rate-limits
 rules:
@@ -478,16 +891,16 @@ rules:
     warn: 4
   slug: partnerize-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 41.8
-  delta: 0.0
+  band: exemplar
+  composite: 70.4
+  delta: 28.6
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 73.7
     contract_quality: 64.0
-    developer_ergonomics: 10.9
-    discoverability: 40.7
-    governance: 68.8
-    operational_transparency: 26.3
+    developer_ergonomics: 73.9
+    discoverability: 75.9
+    governance: 89.6
+    operational_transparency: 50.0
   previous_composite: 41.8
   provenance:
     agentic_access: derived
@@ -497,10 +910,14 @@ score:
       marker_coverage: 0.0
       total: 104
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/screenshots/partnerize-2026-06-20T191430.png
 security:
+- kind: authentication
+  name: Partnerize Authentication
+  slug: partnerize-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Partnerize Domain Security
   slug: partnerize-domain-security

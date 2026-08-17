@@ -9,25 +9,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_card: near-conformant
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
     mcp_server: false
     openapi_examples: documented
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.8
-  scored_at: '2026-08-12'
+  score: 60.9
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 1
+  name: Fasten Health Agentic Access
+  operation_count: 12
+  slug: fasten-health-agentic-access
+  summary_line: 12 operations · 4 acting · 1 human-in-the-loop
 api_count: 11
 apis:
 - description: Fasten OnPrem is an open-source, self-hosted, personal and family electronic medical record manager written in Go (47%) and TypeScript (35%). It runs as a Docker container behind HTTPS/TLS, supports m
@@ -63,8 +70,20 @@ apis:
 - description: GPL-3.0 licensed Python proof-of-concept for AI-powered health insights — exploratory work on conversational querying of a patient's longitudinal medical record using LLMs.
   name: Fasten Answers AI
   slug: fasten-answers-ai
-artifact_total: 12
+artifact_total: 19
+asyncapis:
+- description: ''
+  name: Fasten Health Webhooks
+  slug: fasten-health-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/fasten-health-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/fasten-health-authentication.yml
 - group: docs
   title: ''
   type: ContributionGuide
@@ -136,51 +155,195 @@ common:
 - group: operate
   title: ''
   type: Status
-  url: https://docs.connect.fastenhealth.com/support
+  url: https://status.fastenhealth.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.fastenhealth.com/
 - group: company
   title: ''
   type: Careers
   url: https://wellfound.com/company/fasten-health
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://portal.fastenhealth.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.connect.fastenhealth.com/api-reference/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.connect.fastenhealth.com/quickstart
+- group: start
+  title: ''
+  type: SignUp
+  url: https://portal.fastenhealth.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/fastenhealth
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://policy.fastenhealth.com/terms.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policy.fastenhealth.com/connect/privacy_policy.html
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/fasten-health-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fasten-health-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/fasten-health-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/fasten-health-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/fasten-health-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/fasten-health-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/fasten-health-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/fasten-health-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/fasten-health-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/fasten-health-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/fasten-health-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.fastenhealth.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/fasten-health-trust-center.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/fasten-health-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/fasten-health-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/fasten-health-components.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/fasten-health-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/fasten-health-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fasten-health-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/fasten-health-webhooks.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fasten-health-connect-overlay.yaml
 created: '2026-05-25'
 description: Fasten Health is a healthcare data interoperability company offering a unified medical record platform that gives patients and developers access to clinical data across the U.S. healthcare system. Fasten began as an open-source project — Fasten OnPrem, a self-hosted personal/family electronic medical record manager that ingests FHIR Bundles and is distributed under GPL-3.0 with 2.7k+ GitHub stars. The team then productized the connectivity layer as Fasten Connect, a commercial REST + FHIR API and Stitch client SDK suite that lets developers retrieve clinical records from 50,000+ healthcare systems and 60,000+ organizations including Epic, Cerner, MyChart, Kaiser Permanente, HCA, Ascension, Humana, and Medicare. Founded by engineers who lived through the fragmentation of health data firsthand and based in New York City, Fasten ships GPL/MIT/Apache 2.0 open source repos alongside the hosted Fasten Connect platform.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fasten-health.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-14'
 name: Fasten Health
 nav: Providers
 network: true
 overview: 'Fasten Health publishes 1 API on the [APIs.io](https://apis.io/) network: Fasten Connect API. Tagged areas include Healthcare, FHIR, Personal Health Record, Electronic Medical Record, and Health Data Interoperability.
 
 
-  Fasten Health''s developer surface includes documentation, GitHub presence, engineering blog, changelog, signup flow, pricing, support, and 12 more developer resources.'
-random_paper: 116
+  The Fasten Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Fasten Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, signup flow, pricing, and 44 more developer resources.'
+plans:
+- name: Fasten Health Plans Pricing
+  plan_count: 0
+  slug: fasten-health-plans-pricing
+random_paper: 124
+rate_limits:
+- limit_count: 0
+  name: Fasten Health Rate Limits
+  slug: fasten-health-rate-limits
+scopes:
+- name: Fasten Health Scopes
+  scope_count: 5
+  slug: fasten-health-scopes
+  summary_line: 5 scopes
 score:
-  band: emerging
-  composite: 23.5
-  delta: 0.0
+  band: developing
+  composite: 55.5
+  delta: 32.0
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 32.3
-    developer_ergonomics: 21.7
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 60.5
+    contract_quality: 51.6
+    developer_ergonomics: 71.7
+    discoverability: 72.2
+    governance: 20.8
+    operational_transparency: 44.7
   previous_composite: 23.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
+    score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/screenshots/fasten-health-2026-06-20T181048.png
 security:
+- kind: authentication
+  name: Fasten Health Authentication
+  slug: fasten-health-authentication
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Fasten Health Domain Security
   slug: fasten-health-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Fasten Health Trust Center
+  slug: fasten-health-trust-center
+  summary_line: SOC 2, HIPAA
 slug: fasten-health
 tags:
 - Healthcare

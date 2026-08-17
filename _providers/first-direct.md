@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -51,7 +51,11 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII) API for first direct accounts, exposed through HSBC's developer platform. FAPI-secured with OAuth2/OIDC, mutual-TLS and PSD2 strong customer authenticatio
   name: first direct Confirmation of Funds API (CBPII)
   slug: first-direct-confirmation-of-funds-api
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata
 common:
 - group: agent
   title: ''
@@ -214,7 +218,7 @@ overview: 'first direct publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   first direct''s developer surface includes authentication, changelog, sandbox, getting-started guide, signup flow, documentation, support, and 29 more developer resources.'
-random_paper: 32
+random_paper: 40
 scopes:
 - name: First Direct Scopes
   scope_count: 3
@@ -249,7 +253,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png
 security:

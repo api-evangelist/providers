@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 2
@@ -177,7 +177,7 @@ arazzos:
 - description: Authenticate, list accounts, read balances, and pull an account's transactions.
   name: Read Narmi accounts, balances, and transactions
   slug: narmi-read-accounts
-artifact_total: 97
+artifact_total: 142
 asyncapis:
 - description: ''
   name: Narmi Webhooks
@@ -315,6 +315,141 @@ collections:
 - collection_type: postman
   name: Narmi Public account balances wires API
   slug: postman-narmi-wires-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Narmi Public account balances API
+  slug: open-narmi-account-balances-api
+- collection_type: open
+  name: Narmi Public account balances accounts API
+  slug: open-narmi-accounts-api
+- collection_type: open
+  name: Narmi Public account balances ach companies API
+  slug: open-narmi-ach-companies-api
+- collection_type: open
+  name: Narmi Public account balances ach destinations API
+  slug: open-narmi-ach-destinations-api
+- collection_type: open
+  name: Narmi Public account balances ach import API
+  slug: open-narmi-ach-import-api
+- collection_type: open
+  name: Narmi Public account balances ach payments API
+  slug: open-narmi-ach-payments-api
+- collection_type: open
+  name: Narmi Public account balances ach transfers API
+  slug: open-narmi-ach-transfers-api
+- collection_type: open
+  name: Narmi Public account balances alerts API
+  slug: open-narmi-alerts-api
+- collection_type: open
+  name: Narmi Public account balances automatic savings enrollment API
+  slug: open-narmi-automatic-savings-enrollment-api
+- collection_type: open
+  name: Narmi Public account balances card linked offers API
+  slug: open-narmi-card-linked-offers-api
+- collection_type: open
+  name: Narmi Public account balances cards API
+  slug: open-narmi-cards-api
+- collection_type: open
+  name: Narmi Public account balances data access management API
+  slug: open-narmi-data-access-management-api
+- collection_type: open
+  name: Narmi Public account balances deposits API
+  slug: open-narmi-deposits-api
+- collection_type: open
+  name: Narmi Public account balances documents API
+  slug: open-narmi-documents-api
+- collection_type: open
+  name: Narmi Public account balances enrollments API
+  slug: open-narmi-enrollments-api
+- collection_type: open
+  name: Narmi Public account balances express-checkout API
+  slug: open-narmi-express-checkout-api
+- collection_type: open
+  name: Narmi Public account balances fedwire destinations API
+  slug: open-narmi-fedwire-destinations-api
+- collection_type: open
+  name: Narmi Public account balances fedwire templates API
+  slug: open-narmi-fedwire-templates-api
+- collection_type: open
+  name: Narmi Public account balances income source API
+  slug: open-narmi-income-source-api
+- collection_type: open
+  name: Narmi Public account balances instant transfers API
+  slug: open-narmi-instant-transfers-api
+- collection_type: open
+  name: Narmi Public account balances institution API
+  slug: open-narmi-institution-api
+- collection_type: open
+  name: Narmi Public account balances international wires API
+  slug: open-narmi-international-wires-api
+- collection_type: open
+  name: Narmi Public account balances me API
+  slug: open-narmi-me-api
+- collection_type: open
+  name: Narmi Public account balances merchants API
+  slug: open-narmi-merchants-api
+- collection_type: open
+  name: Narmi Public account balances mfa API
+  slug: open-narmi-mfa-api
+- collection_type: open
+  name: Narmi Public account balances payees API
+  slug: open-narmi-payees-api
+- collection_type: open
+  name: Narmi Public account balances payments API
+  slug: open-narmi-payments-api
+- collection_type: open
+  name: Narmi Public account balances ping API
+  slug: open-narmi-ping-api
+- collection_type: open
+  name: Narmi Public account balances recipients API
+  slug: open-narmi-recipients-api
+- collection_type: open
+  name: Narmi Public account balances reports API
+  slug: open-narmi-reports-api
+- collection_type: open
+  name: Narmi Public account balances same-day transfers API
+  slug: open-narmi-same-day-transfers-api
+- collection_type: open
+  name: Narmi Public account balances scheduled transfers API
+  slug: open-narmi-scheduled-transfers-api
+- collection_type: open
+  name: Narmi Public account balances subscriptions API
+  slug: open-narmi-subscriptions-api
+- collection_type: open
+  name: Narmi Public account balances support API
+  slug: open-narmi-support-api
+- collection_type: open
+  name: Narmi Public account balances surveys API
+  slug: open-narmi-surveys-api
+- collection_type: open
+  name: Narmi Public account balances swift wire templates API
+  slug: open-narmi-swift-wire-templates-api
+- collection_type: open
+  name: Narmi Public account balances teams API
+  slug: open-narmi-teams-api
+- collection_type: open
+  name: Narmi Public account balances threads API
+  slug: open-narmi-threads-api
+- collection_type: open
+  name: Narmi Public account balances transactions API
+  slug: open-narmi-transactions-api
+- collection_type: open
+  name: Narmi Public account balances unverified ach transactions API
+  slug: open-narmi-unverified-ach-transactions-api
+- collection_type: open
+  name: Narmi Public account balances users API
+  slug: open-narmi-users-api
+- collection_type: open
+  name: Narmi Public account balances whatismyip API
+  slug: open-narmi-whatismyip-api
+- collection_type: open
+  name: Narmi Public account balances wire recipients API
+  slug: open-narmi-wire-recipients-api
+- collection_type: open
+  name: Narmi Public account balances wires API
+  slug: open-narmi-wires-api
 common:
 - group: other
   title: ''
@@ -479,7 +614,7 @@ overview: 'Narmi publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Narmi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 29 more developer resources.'
-random_paper: 55
+random_paper: 88
 scopes:
 - name: Narmi Scopes
   scope_count: 11
@@ -514,7 +649,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/screenshots/narmi-2026-08-07T184633.png
 security:

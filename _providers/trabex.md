@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Submit and manage export shipment data for compliance processing, AES filing, and documentation generation.
   name: Trabex Shipments API
   slug: trabex-shipments-api
-artifact_total: 19
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trabex Trade Compliance AES Filing API
+  slug: open-trabex-aes-filing-api
+- collection_type: open
+  name: Trabex Trade Compliance AES Filing Companies API
+  slug: open-trabex-companies-api
+- collection_type: open
+  name: Trabex Trade Compliance AES Filing Documents API
+  slug: open-trabex-documents-api
+- collection_type: open
+  name: Trabex Trade Compliance AES Filing Screening API
+  slug: open-trabex-screening-api
+- collection_type: open
+  name: Trabex Trade Compliance AES Filing Shipments API
+  slug: open-trabex-shipments-api
 - collection_type: open
   name: Trabex Trade Compliance API
   slug: open-trabex-trade-compliance
@@ -131,7 +149,7 @@ plans:
 - name: Trabex Plans Pricing
   plan_count: 3
   slug: trabex-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Trabex Rate Limits
@@ -173,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/screenshots/trabex-2026-06-20T195511.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 10
@@ -95,11 +95,72 @@ apis:
 - description: The work-requests API from Remberg — 7 operation(s) for work-requests.
   name: Remberg work-requests API
   slug: remberg-work-requests-api
-artifact_total: 26
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Remberg Events Webhooks
   slug: remberg-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AI ai-chat API
+  slug: open-remberg-ai-chat-api
+- collection_type: open
+  name: AI ai-chat asset-status-signals API
+  slug: open-remberg-asset-status-signals-api
+- collection_type: open
+  name: AI ai-chat asset-types API
+  slug: open-remberg-asset-types-api
+- collection_type: open
+  name: AI ai-chat assets API
+  slug: open-remberg-assets-api
+- collection_type: open
+  name: AI ai-chat contacts API
+  slug: open-remberg-contacts-api
+- collection_type: open
+  name: AI ai-chat failure-types API
+  slug: open-remberg-failure-types-api
+- collection_type: open
+  name: AI ai-chat files API
+  slug: open-remberg-files-api
+- collection_type: open
+  name: AI ai-chat forms API
+  slug: open-remberg-forms-api
+- collection_type: open
+  name: AI ai-chat inventories API
+  slug: open-remberg-inventories-api
+- collection_type: open
+  name: AI ai-chat organizations API
+  slug: open-remberg-organizations-api
+- collection_type: open
+  name: AI ai-chat part-stock-changes API
+  slug: open-remberg-part-stock-changes-api
+- collection_type: open
+  name: AI ai-chat parts API
+  slug: open-remberg-parts-api
+- collection_type: open
+  name: AI ai-chat procedure-templates API
+  slug: open-remberg-procedure-templates-api
+- collection_type: open
+  name: AI ai-chat tickets API
+  slug: open-remberg-tickets-api
+- collection_type: open
+  name: AI ai-chat user-groups API
+  slug: open-remberg-user-groups-api
+- collection_type: open
+  name: AI ai-chat user-roles API
+  slug: open-remberg-user-roles-api
+- collection_type: open
+  name: AI ai-chat users API
+  slug: open-remberg-users-api
+- collection_type: open
+  name: AI ai-chat work-orders API
+  slug: open-remberg-work-orders-api
+- collection_type: open
+  name: AI ai-chat work-requests API
+  slug: open-remberg-work-requests-api
 common:
 - group: other
   title: ''
@@ -236,7 +297,7 @@ overview: 'Remberg publishes 19 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Remberg''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 23 more developer resources.'
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 2
   name: Remberg Rate Limits
@@ -264,7 +325,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

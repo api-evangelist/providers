@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Table metadata operations
   name: Rasgo Metadata API
   slug: rasgo-metadata-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rasgo Metadata API
+  slug: open-rasgo-metadata-api
 common:
 - group: auth
   title: ''
@@ -124,7 +131,7 @@ overview: 'Rasgo publishes 1 API on the [APIs.io](https://apis.io/) network: Met
 
 
   Rasgo''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 12 more developer resources.'
-random_paper: 60
+random_paper: 93
 score:
   band: thin
   composite: 39.5
@@ -147,7 +154,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

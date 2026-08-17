@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -231,7 +231,203 @@ apis:
 - description: The Video API from eBay — 3 operation(s) for video.
   name: eBay Video API
   slug: ebay-video-api
-artifact_total: 544
+artifact_total: 609
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: eBay Account Advertising_eligibility API
+  slug: open-ebay-advertising-eligibility-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Bidding API
+  slug: open-ebay-bidding-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Category_tree API
+  slug: open-ebay-category-tree-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Charity_org API
+  slug: open-ebay-charity-org-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Config API
+  slug: open-ebay-config-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Country API
+  slug: open-ebay-country-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Custom_policy API
+  slug: open-ebay-custom-policy-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Customer_service_metric API
+  slug: open-ebay-customer-service-metric-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Customer_service_metric_task API
+  slug: open-ebay-customer-service-metric-task-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Deal_item API
+  slug: open-ebay-deal-item-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Destination API
+  slug: open-ebay-destination-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Event API
+  slug: open-ebay-event-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Event_item API
+  slug: open-ebay-event-item-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Fulfillment_policy API
+  slug: open-ebay-fulfillment-policy-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Guest_checkout_session API
+  slug: open-ebay-guest-checkout-session-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Guest_purchase_order API
+  slug: open-ebay-guest-purchase-order-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Inventory_item API
+  slug: open-ebay-inventory-item-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Inventory_item_group API
+  slug: open-ebay-inventory-item-group-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Inventory_task API
+  slug: open-ebay-inventory-task-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Item API
+  slug: open-ebay-item-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Item_sales API
+  slug: open-ebay-item-sales-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Item_summary API
+  slug: open-ebay-item-summary-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Kyc API
+  slug: open-ebay-kyc-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Language API
+  slug: open-ebay-language-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Listing API
+  slug: open-ebay-listing-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Listing_recommendation API
+  slug: open-ebay-listing-recommendation-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Listing_violation API
+  slug: open-ebay-listing-violation-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Listing_violation_summary API
+  slug: open-ebay-listing-violation-summary-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Location API
+  slug: open-ebay-location-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Marketplace API
+  slug: open-ebay-marketplace-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Merchandised_product API
+  slug: open-ebay-merchandised-product-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Offer API
+  slug: open-ebay-offer-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Onboarding API
+  slug: open-ebay-onboarding-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Order API
+  slug: open-ebay-order-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Order_task API
+  slug: open-ebay-order-task-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Payment_dispute API
+  slug: open-ebay-payment-dispute-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Payment_policy API
+  slug: open-ebay-payment-policy-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Payments_program API
+  slug: open-ebay-payments-program-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Payout API
+  slug: open-ebay-payout-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Privilege API
+  slug: open-ebay-privilege-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Product API
+  slug: open-ebay-product-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Product_compatibility API
+  slug: open-ebay-product-compatibility-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Product_summary API
+  slug: open-ebay-product-summary-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Program API
+  slug: open-ebay-program-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Public_key API
+  slug: open-ebay-public-key-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Rate_table API
+  slug: open-ebay-rate-table-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Register API
+  slug: open-ebay-register-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Return_policy API
+  slug: open-ebay-return-policy-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Sales_tax API
+  slug: open-ebay-sales-tax-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Schedule API
+  slug: open-ebay-schedule-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Seller_funds_summary API
+  slug: open-ebay-seller-funds-summary-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Seller_standards_profile API
+  slug: open-ebay-seller-standards-profile-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Shipment API
+  slug: open-ebay-shipment-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Shipping_fulfillment API
+  slug: open-ebay-shipping-fulfillment-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Shipping_quote API
+  slug: open-ebay-shipping-quote-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Signing_key API
+  slug: open-ebay-signing-key-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Subscription API
+  slug: open-ebay-subscription-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Task API
+  slug: open-ebay-task-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Topic API
+  slug: open-ebay-topic-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Traffic_report API
+  slug: open-ebay-traffic-report-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Transaction API
+  slug: open-ebay-transaction-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Transfer API
+  slug: open-ebay-transfer-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility User API
+  slug: open-ebay-user-api
+- collection_type: open
+  name: eBay Account Advertising_eligibility Video API
+  slug: open-ebay-video-api
 common:
 - group: agent
   title: ''
@@ -1774,7 +1970,7 @@ press:
 - date: '2026-05-25'
   title: Inside eBay's Quest to Become an AI Leader
   url: https://www.wsj.com/articles/inside-ebays-quest-to-become-an-ai-leader-32e7fa45
-random_paper: 57
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Ebay Rate Limits
@@ -1813,7 +2009,7 @@ score:
       marker_coverage: 0.0
       total: 71
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png
 security:

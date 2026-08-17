@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -131,7 +131,104 @@ apis:
 - description: The Zipped Csv Upload API from Orbii Tech Ltd — 1 operation(s) for zipped csv upload.
   name: Orbii Tech Ltd Zipped Csv Upload API
   slug: orbii-tech-ltd-zipped-csv-upload-api
-artifact_total: 35
+artifact_total: 67
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment API
+  slug: open-orbii-tech-ltd-business-category-assignment-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Categories API
+  slug: open-orbii-tech-ltd-categories-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Clients API
+  slug: open-orbii-tech-ltd-clients-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Company Management API
+  slug: open-orbii-tech-ltd-company-management-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Data Check API
+  slug: open-orbii-tech-ltd-data-check-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment General API
+  slug: open-orbii-tech-ltd-general-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment IBANs API
+  slug: open-orbii-tech-ltd-ibans-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Invoices API
+  slug: open-orbii-tech-ltd-invoices-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment KPIs API
+  slug: open-orbii-tech-ltd-kpis-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Lending Actions API
+  slug: open-orbii-tech-ltd-lending-actions-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Merchants API
+  slug: open-orbii-tech-ltd-merchants-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Micro Loan API
+  slug: open-orbii-tech-ltd-micro-loan-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Orbii API Rewaa API
+  slug: open-orbii-tech-ltd-orbii-api-rewaa-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment PDFs API
+  slug: open-orbii-tech-ltd-pdfs-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Raw Numbers API
+  slug: open-orbii-tech-ltd-raw-numbers-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Rewaa Baseline Eligibility Raw API
+  slug: open-orbii-tech-ltd-rewaa-baseline-eligibility-raw-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Rewaa Business Stability And Risk Raw API
+  slug: open-orbii-tech-ltd-rewaa-business-stability-and-risk-raw-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Rewaa Final Band Classification API
+  slug: open-orbii-tech-ltd-rewaa-final-band-classification-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Rewaa Industry And Seasonal Trends Raw API
+  slug: open-orbii-tech-ltd-rewaa-industry-and-seasonal-trends-raw-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Rewaa KPI Rules API
+  slug: open-orbii-tech-ltd-rewaa-kpi-rules-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Rewaa Loan Amounts API
+  slug: open-orbii-tech-ltd-rewaa-loan-amounts-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Rewaa Payment Processing And Liquidity Raw API
+  slug: open-orbii-tech-ltd-rewaa-payment-processing-and-liquidity-raw-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Rewaa Revenue And Sales Performance Raw API
+  slug: open-orbii-tech-ltd-rewaa-revenue-and-sales-performance-raw-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Rewaa Risk Assessment API
+  slug: open-orbii-tech-ltd-rewaa-risk-assessment-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Risk Assessment API
+  slug: open-orbii-tech-ltd-risk-assessment-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Run Assessment API
+  slug: open-orbii-tech-ltd-run-assessment-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Scores and Final Band Classification API
+  slug: open-orbii-tech-ltd-scores-and-final-band-classification-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Subcategories API
+  slug: open-orbii-tech-ltd-subcategories-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Transactions API
+  slug: open-orbii-tech-ltd-transactions-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment UpdateKpiRules API
+  slug: open-orbii-tech-ltd-updatekpirules-api
+- collection_type: open
+  name: Orbii API - Foodics Business Category Assignment Zipped Csv Upload API
+  slug: open-orbii-tech-ltd-zipped-csv-upload-api
 common:
 - group: other
   title: ''
@@ -229,7 +326,7 @@ overview: 'Orbii Tech Ltd publishes 31 APIs on the [APIs.io](https://apis.io/) n
 
 
   Orbii Tech Ltd''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 47
+random_paper: 26
 score:
   band: thin
   composite: 32.2
@@ -259,7 +356,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/screenshots/orbii-tech-ltd-2026-08-07T190907.png
 security:

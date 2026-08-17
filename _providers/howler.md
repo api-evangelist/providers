@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -89,7 +89,65 @@ apis:
 - description: The User API from Howler — 4 operation(s) for user.
   name: Howler User API
   slug: howler-user-api
-artifact_total: 22
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Howler API v3 Artists API
+  slug: open-howler-artists-api
+- collection_type: open
+  name: Howler API v3 Artists Assign Ticket API
+  slug: open-howler-assign-ticket-api
+- collection_type: open
+  name: Howler API v3 Artists Bank Account API
+  slug: open-howler-bank-account-api
+- collection_type: open
+  name: Howler API v3 Artists Basic Authentication API
+  slug: open-howler-basic-authentication-api
+- collection_type: open
+  name: Howler API v3 Artists Cashless Tags API
+  slug: open-howler-cashless-tags-api
+- collection_type: open
+  name: Howler API v3 Artists Cashout API
+  slug: open-howler-cashout-api
+- collection_type: open
+  name: Howler API v3 Artists Email OTP API
+  slug: open-howler-email-otp-api
+- collection_type: open
+  name: Howler API v3 Artists Events API
+  slug: open-howler-events-api
+- collection_type: open
+  name: Howler API v3 Artists OAuth API
+  slug: open-howler-oauth-api
+- collection_type: open
+  name: Howler API v3 Artists Third Party OAuth API
+  slug: open-howler-third-party-oauth-api
+- collection_type: open
+  name: Howler API v3 Artists Tickets API
+  slug: open-howler-tickets-api
+- collection_type: open
+  name: Howler API v3 Artists Top Up API
+  slug: open-howler-top-up-api
+- collection_type: open
+  name: Howler API v3 Artists Top Up Cashless Tag API
+  slug: open-howler-top-up-cashless-tag-api
+- collection_type: open
+  name: Howler API v3 Artists Top Up Ticket API
+  slug: open-howler-top-up-ticket-api
+- collection_type: open
+  name: Howler API v3 Artists Topupables API
+  slug: open-howler-topupables-api
+- collection_type: open
+  name: Howler API v3 Artists Transfer Ticket API
+  slug: open-howler-transfer-ticket-api
+- collection_type: open
+  name: Howler API v3 Artists User API
+  slug: open-howler-user-api
+- collection_type: open
+  name: Howler Webhooks v1
+  slug: open-howler-webhooks
 common:
 - group: company
   title: ''
@@ -211,7 +269,7 @@ overview: 'Howler publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Howler''s developer surface includes documentation, API reference, developer portal, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 57
+random_paper: 61
 scopes:
 - name: Howler Scopes
   scope_count: 3
@@ -246,7 +304,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/screenshots/howler-2026-07-25T221539.png
 security:

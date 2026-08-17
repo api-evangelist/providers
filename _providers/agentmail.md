@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -122,11 +122,99 @@ apis:
 - description: The webhooks API from AgentMail — 2 operation(s) for webhooks.
   name: AgentMail webhooks API
   slug: agentmail-webhooks-api
-artifact_total: 34
+artifact_total: 63
 asyncapis:
 - description: ''
   name: API Reference
   slug: agentmail-websockets-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference agent API
+  slug: open-agentmail-agent-api
+- collection_type: open
+  name: API Reference agent api-keys API
+  slug: open-agentmail-api-keys-api
+- collection_type: open
+  name: API Reference agent auth API
+  slug: open-agentmail-auth-api
+- collection_type: open
+  name: API Reference agent domains API
+  slug: open-agentmail-domains-api
+- collection_type: open
+  name: API Reference agent drafts API
+  slug: open-agentmail-drafts-api
+- collection_type: open
+  name: API Reference agent inboxes > api-keys API
+  slug: open-agentmail-inboxes-api-keys-api
+- collection_type: open
+  name: API Reference agent inboxes API
+  slug: open-agentmail-inboxes-api
+- collection_type: open
+  name: API Reference agent inboxes > drafts API
+  slug: open-agentmail-inboxes-drafts-api
+- collection_type: open
+  name: API Reference agent inboxes > events API
+  slug: open-agentmail-inboxes-events-api
+- collection_type: open
+  name: API Reference agent inboxes > lists API
+  slug: open-agentmail-inboxes-lists-api
+- collection_type: open
+  name: API Reference agent inboxes > messages API
+  slug: open-agentmail-inboxes-messages-api
+- collection_type: open
+  name: API Reference agent inboxes > metrics API
+  slug: open-agentmail-inboxes-metrics-api
+- collection_type: open
+  name: API Reference agent inboxes > threads API
+  slug: open-agentmail-inboxes-threads-api
+- collection_type: open
+  name: API Reference agent inboxes > webhooks API
+  slug: open-agentmail-inboxes-webhooks-api
+- collection_type: open
+  name: API Reference agent lists API
+  slug: open-agentmail-lists-api
+- collection_type: open
+  name: API Reference agent metrics API
+  slug: open-agentmail-metrics-api
+- collection_type: open
+  name: API Reference agent organizations API
+  slug: open-agentmail-organizations-api
+- collection_type: open
+  name: API Reference agent pods > api-keys API
+  slug: open-agentmail-pods-api-keys-api
+- collection_type: open
+  name: API Reference agent pods API
+  slug: open-agentmail-pods-api
+- collection_type: open
+  name: API Reference agent pods > domains API
+  slug: open-agentmail-pods-domains-api
+- collection_type: open
+  name: API Reference agent pods > drafts API
+  slug: open-agentmail-pods-drafts-api
+- collection_type: open
+  name: API Reference agent pods > inboxes API
+  slug: open-agentmail-pods-inboxes-api
+- collection_type: open
+  name: API Reference agent pods > lists API
+  slug: open-agentmail-pods-lists-api
+- collection_type: open
+  name: API Reference agent pods > metrics API
+  slug: open-agentmail-pods-metrics-api
+- collection_type: open
+  name: API Reference agent pods > threads API
+  slug: open-agentmail-pods-threads-api
+- collection_type: open
+  name: API Reference agent pods > webhooks API
+  slug: open-agentmail-pods-webhooks-api
+- collection_type: open
+  name: API Reference agent threads API
+  slug: open-agentmail-threads-api
+- collection_type: open
+  name: API Reference agent webhooks API
+  slug: open-agentmail-webhooks-api
 common:
 - group: start
   title: ''
@@ -283,7 +371,7 @@ overview: 'AgentMail publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
-random_paper: 106
+random_paper: 52
 score:
   band: developing
   composite: 53.8
@@ -307,7 +395,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/screenshots/agentmail-2026-07-25T195240.png
 security:

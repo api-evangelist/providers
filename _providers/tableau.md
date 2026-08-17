@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ apis:
 - description: Publish, query, update, delete, and download workbooks. Workbooks contain one or more views (sheets, dashboards, or stories) and can connect to one or more data sources.
   name: Tableau Workbooks API
   slug: tableau-workbooks-api
-artifact_total: 363
+artifact_total: 377
 collections:
 - collection_type: postman
   name: Tableau REST Authentication API
@@ -157,8 +157,50 @@ collections:
   name: Tableau REST Authentication Workbooks API
   slug: postman-tableau-workbooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tableau REST Authentication API
+  slug: open-tableau-authentication-api
+- collection_type: open
+  name: Tableau REST Authentication Data Sources API
+  slug: open-tableau-data-sources-api
+- collection_type: open
+  name: Tableau REST Authentication Favorites API
+  slug: open-tableau-favorites-api
+- collection_type: open
+  name: Tableau REST Authentication Groups API
+  slug: open-tableau-groups-api
+- collection_type: open
+  name: Tableau REST Authentication Jobs API
+  slug: open-tableau-jobs-api
+- collection_type: open
+  name: Tableau REST Authentication Permissions API
+  slug: open-tableau-permissions-api
+- collection_type: open
+  name: Tableau REST Authentication Projects API
+  slug: open-tableau-projects-api
+- collection_type: open
   name: Tableau REST API
   slug: open-tableau-rest-api
+- collection_type: open
+  name: Tableau REST Authentication Schedules API
+  slug: open-tableau-schedules-api
+- collection_type: open
+  name: Tableau REST Authentication Sites API
+  slug: open-tableau-sites-api
+- collection_type: open
+  name: Tableau REST Authentication Subscriptions API
+  slug: open-tableau-subscriptions-api
+- collection_type: open
+  name: Tableau REST Authentication Users API
+  slug: open-tableau-users-api
+- collection_type: open
+  name: Tableau REST Authentication Views API
+  slug: open-tableau-views-api
+- collection_type: open
+  name: Tableau REST Authentication Workbooks API
+  slug: open-tableau-workbooks-api
 common:
 - group: build
   title: ''
@@ -1195,7 +1237,7 @@ plans:
 - name: Tableau Plans Pricing
   plan_count: 4
   slug: tableau-plans-pricing
-random_paper: 14
+random_paper: 138
 rate_limits:
 - limit_count: 6
   name: Tableau Rate Limits
@@ -1237,7 +1279,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/screenshots/tableau-2026-06-20T194845.png
 security:

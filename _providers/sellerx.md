@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: A live, remotely hosted Model Context Protocol server operated by SellerX at mcp.sellerx.com. The endpoint requires an OAuth 2.1 bearer token, so the tool manifest is auth-gated, but the server publis
@@ -98,7 +98,7 @@ overview: 'SellerX publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   SellerX''s developer surface includes legal docs, authentication, and 12 more developer resources.'
-random_paper: 47
+random_paper: 22
 scopes:
 - name: Sellerx Scopes
   scope_count: 1
@@ -120,7 +120,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

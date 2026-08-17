@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
 - description: Parsoid wikitext ↔ HTML transforms and lint
   name: Wiktionary Transform API
   slug: wiktionary-transform-api
-artifact_total: 154
+artifact_total: 166
 collections:
 - collection_type: postman
   name: Wiktionary MediaWiki Core REST Definition API
@@ -106,6 +106,42 @@ collections:
 - collection_type: postman
   name: Wiktionary MediaWiki Core REST Definition Transform API
   slug: postman-wiktionary-transform-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition API
+  slug: open-wiktionary-definition-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition ExpandTemplates API
+  slug: open-wiktionary-expandtemplates-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition File API
+  slug: open-wiktionary-file-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition History API
+  slug: open-wiktionary-history-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition OpenSearch API
+  slug: open-wiktionary-opensearch-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition Page API
+  slug: open-wiktionary-page-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition Page Content API
+  slug: open-wiktionary-page-content-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition Parse API
+  slug: open-wiktionary-parse-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition Query API
+  slug: open-wiktionary-query-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition Search API
+  slug: open-wiktionary-search-api
+- collection_type: open
+  name: Wiktionary MediaWiki Core REST Definition Transform API
+  slug: open-wiktionary-transform-api
 common:
 - group: build
   title: ''
@@ -613,7 +649,7 @@ overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 32 more developer resources.'
-random_paper: 25
+random_paper: 62
 rules:
 - name: Wiktionary API Rules
   rule_count: 6
@@ -662,7 +698,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/screenshots/wiktionary-2026-06-20T201458.png
 security:

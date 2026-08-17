@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Ip API from Sunrise Atelier — 2 operation(s) for ip.
@@ -37,7 +37,17 @@ apis:
 - description: The Timezone API from Sunrise Atelier — 2 operation(s) for timezone.
   name: Sunrise Atelier Timezone API
   slug: sunrise-atelier-timezone-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sunrise.am World Time Ip API
+  slug: open-sunrise-atelier-ip-api
+- collection_type: open
+  name: Sunrise.am World Time Ip Timezone API
+  slug: open-sunrise-atelier-timezone-api
 common:
 - group: agent
   title: ''
@@ -95,7 +105,7 @@ overview: 'Sunrise Atelier publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Sunrise Atelier''s developer surface includes support and 9 more developer resources.'
-random_paper: 4
+random_paper: 74
 score:
   band: thin
   composite: 31.1
@@ -118,7 +128,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

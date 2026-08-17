@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -59,8 +59,26 @@ apis:
 - description: Manage end-user identities.
   name: PingOne Users API
   slug: pingone-users-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PingOne Platform Applications API
+  slug: open-pingone-applications-api
+- collection_type: open
+  name: PingOne Platform Applications Authentication API
+  slug: open-pingone-authentication-api
+- collection_type: open
+  name: PingOne Platform Applications Environments API
+  slug: open-pingone-environments-api
+- collection_type: open
+  name: PingOne Platform Applications Populations API
+  slug: open-pingone-populations-api
+- collection_type: open
+  name: PingOne Platform Applications Users API
+  slug: open-pingone-users-api
 - collection_type: open
   name: PingOne Platform API
   slug: open-pingone
@@ -129,7 +147,7 @@ overview: 'PingOne publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PingOne''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 32
+random_paper: 7
 score:
   band: thin
   composite: 33.8
@@ -150,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/screenshots/pingone-2026-06-20T191715.png
 security:

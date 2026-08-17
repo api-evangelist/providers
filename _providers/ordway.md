@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -102,7 +102,74 @@ apis:
 - description: Manage webhook configurations
   name: Ordway Webhooks API
   slug: ordway-webhooks-api
-artifact_total: 38
+artifact_total: 60
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ordway REST Billing Runs API
+  slug: open-ordway-billing-runs-api
+- collection_type: open
+  name: Ordway REST Billing Runs Billing Schedules API
+  slug: open-ordway-billing-schedules-api
+- collection_type: open
+  name: Ordway REST Billing Runs Chart of Accounts API
+  slug: open-ordway-chart-of-accounts-api
+- collection_type: open
+  name: Ordway REST Billing Runs Coupons API
+  slug: open-ordway-coupons-api
+- collection_type: open
+  name: Ordway REST Billing Runs Credits API
+  slug: open-ordway-credits-api
+- collection_type: open
+  name: Ordway REST Billing Runs Customers API
+  slug: open-ordway-customers-api
+- collection_type: open
+  name: Ordway REST Billing Runs Debit Memos API
+  slug: open-ordway-debit-memos-api
+- collection_type: open
+  name: Ordway REST Billing Runs Invoices API
+  slug: open-ordway-invoices-api
+- collection_type: open
+  name: Ordway REST Billing Runs Journal Entries API
+  slug: open-ordway-journal-entries-api
+- collection_type: open
+  name: Ordway REST Billing Runs Orders API
+  slug: open-ordway-orders-api
+- collection_type: open
+  name: Ordway REST Billing Runs Payment Runs API
+  slug: open-ordway-payment-runs-api
+- collection_type: open
+  name: Ordway REST Billing Runs Payments API
+  slug: open-ordway-payments-api
+- collection_type: open
+  name: Ordway REST Billing Runs Plans API
+  slug: open-ordway-plans-api
+- collection_type: open
+  name: Ordway REST Billing Runs Products API
+  slug: open-ordway-products-api
+- collection_type: open
+  name: Ordway REST Billing Runs Refunds API
+  slug: open-ordway-refunds-api
+- collection_type: open
+  name: Ordway REST Billing Runs Revenue Rules API
+  slug: open-ordway-revenue-rules-api
+- collection_type: open
+  name: Ordway REST Billing Runs Revenue Schedules API
+  slug: open-ordway-revenue-schedules-api
+- collection_type: open
+  name: Ordway REST Billing Runs Statements API
+  slug: open-ordway-statements-api
+- collection_type: open
+  name: Ordway REST Billing Runs Subscriptions API
+  slug: open-ordway-subscriptions-api
+- collection_type: open
+  name: Ordway REST Billing Runs Usages API
+  slug: open-ordway-usages-api
+- collection_type: open
+  name: Ordway REST Billing Runs Webhooks API
+  slug: open-ordway-webhooks-api
 common:
 - group: agent
   title: ''
@@ -213,7 +280,7 @@ plans:
 - name: Ordway Plans Pricing
   plan_count: 1
   slug: ordway-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Ordway Rate Limits
@@ -253,7 +320,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/screenshots/ordway-2026-06-20T191205.png
 security:

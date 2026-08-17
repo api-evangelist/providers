@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,17 @@ apis:
 - description: R release version information
   name: R Versions API
   slug: r-versions-api
-artifact_total: 23
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: METACRAN CranDB Badges API
+  slug: open-r-badges-api
+- collection_type: open
+  name: METACRAN CranDB Badges Downloads API
+  slug: open-r-downloads-api
 - collection_type: open
   name: METACRAN CranDB API
   slug: open-r-metacran-crandb
@@ -62,8 +71,17 @@ collections:
   name: METACRAN CranLogs API
   slug: open-r-metacran-cranlogs
 - collection_type: open
+  name: METACRAN CranDB Badges Packages API
+  slug: open-r-packages-api
+- collection_type: open
   name: R Versions API
   slug: open-r-rversions
+- collection_type: open
+  name: METACRAN CranDB Badges Top Packages API
+  slug: open-r-top-packages-api
+- collection_type: open
+  name: METACRAN CranDB Badges Versions API
+  slug: open-r-versions-api
 common:
 - group: agent
   title: ''
@@ -211,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/screenshots/r-2026-06-20T192458.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -131,11 +131,108 @@ apis:
 - description: The Workflow API from Catchpoint Systems — 1 operation(s) for workflow.
   name: Catchpoint Systems Workflow API
   slug: catchpoint-systems-workflow-api
-artifact_total: 36
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Catchpoint Systems Webhooks
   slug: catchpoint-systems-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account API
+  slug: open-catchpoint-systems-account-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Alerts API
+  slug: open-catchpoint-systems-alerts-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account ASNs API
+  slug: open-catchpoint-systems-asns-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Assertions API
+  slug: open-catchpoint-systems-assertions-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account CommandControl API
+  slug: open-catchpoint-systems-commandcontrol-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Contacts API
+  slug: open-catchpoint-systems-contacts-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Credentials API
+  slug: open-catchpoint-systems-credentials-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Divisions API
+  slug: open-catchpoint-systems-divisions-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account EndpointDevice API
+  slug: open-catchpoint-systems-endpointdevice-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account EndpointDevicePerformance API
+  slug: open-catchpoint-systems-endpointdeviceperformance-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Folder API
+  slug: open-catchpoint-systems-folder-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Insights API
+  slug: open-catchpoint-systems-insights-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Instances API
+  slug: open-catchpoint-systems-instances-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account InstantTest API
+  slug: open-catchpoint-systems-instanttest-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account InternetWeather API
+  slug: open-catchpoint-systems-internetweather-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Label API
+  slug: open-catchpoint-systems-label-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Node API
+  slug: open-catchpoint-systems-node-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account NodeGroup API
+  slug: open-catchpoint-systems-nodegroup-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account NodeUtilization API
+  slug: open-catchpoint-systems-nodeutilization-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Product API
+  slug: open-catchpoint-systems-product-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account RealUser API
+  slug: open-catchpoint-systems-realuser-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account RecentErrors API
+  slug: open-catchpoint-systems-recenterrors-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account SLA API
+  slug: open-catchpoint-systems-sla-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account SLO API
+  slug: open-catchpoint-systems-slo-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Test API
+  slug: open-catchpoint-systems-test-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account TestPerformance API
+  slug: open-catchpoint-systems-testperformance-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account TestTemplates API
+  slug: open-catchpoint-systems-testtemplates-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account UsageReport API
+  slug: open-catchpoint-systems-usagereport-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account UserIdentity API
+  slug: open-catchpoint-systems-useridentity-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account UserRole API
+  slug: open-catchpoint-systems-userrole-api
+- collection_type: open
+  name: Catchpoint REST API v2.0 Account Workflow API
+  slug: open-catchpoint-systems-workflow-api
 common:
 - group: auth
   title: ''
@@ -268,7 +365,7 @@ overview: 'Catchpoint Systems publishes 31 APIs on the [APIs.io](https://apis.io
 
 
   Catchpoint Systems'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 106
+random_paper: 118
 score:
   band: developing
   composite: 50.9
@@ -292,7 +389,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catchpoint-systems/refs/heads/main/screenshots/catchpoint-systems-2026-07-25T204812.png
 security:

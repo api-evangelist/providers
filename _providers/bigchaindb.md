@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Full-text search over asset payloads.
@@ -52,7 +52,32 @@ apis:
 - description: Read the node's validator set.
   name: Bigchaindb Validators API
   slug: bigchaindb-validators-api
-artifact_total: 9
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BigchainDB HTTP Assets API
+  slug: open-bigchaindb-assets-api
+- collection_type: open
+  name: BigchainDB HTTP Assets Blocks API
+  slug: open-bigchaindb-blocks-api
+- collection_type: open
+  name: BigchainDB HTTP Assets Metadata API
+  slug: open-bigchaindb-metadata-api
+- collection_type: open
+  name: BigchainDB HTTP Assets Outputs API
+  slug: open-bigchaindb-outputs-api
+- collection_type: open
+  name: BigchainDB HTTP Assets Root API
+  slug: open-bigchaindb-root-api
+- collection_type: open
+  name: BigchainDB HTTP Assets Transactions API
+  slug: open-bigchaindb-transactions-api
+- collection_type: open
+  name: BigchainDB HTTP Assets Validators API
+  slug: open-bigchaindb-validators-api
 common:
 - group: agent
   title: ''
@@ -142,7 +167,7 @@ overview: 'Bigchaindb publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Bigchaindb''s developer surface includes documentation, getting-started guide, engineering blog, and 15 more developer resources.'
-random_paper: 59
+random_paper: 125
 score:
   band: thin
   composite: 36.2
@@ -164,7 +189,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/screenshots/bigchaindb-2026-07-25T202922.png
 security:

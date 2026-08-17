@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Registered agent appointment and management for business entities.
   name: Harbor Compliance Registered Agents API
   slug: harbor-compliance-registered-agents-api
-artifact_total: 22
+artifact_total: 29
 collections:
 - collection_type: postman
   name: Harbor Compliance Compliance Filings API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Harbor Compliance Compliance Filings Registered Agents API
   slug: postman-harbor-compliance-registered-agents-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harbor Compliance Compliance Filings API
+  slug: open-harbor-compliance-compliance-filings-api
+- collection_type: open
+  name: Harbor Compliance Compliance Filings Entities API
+  slug: open-harbor-compliance-entities-api
+- collection_type: open
+  name: Harbor Compliance Compliance Filings Jurisdictions API
+  slug: open-harbor-compliance-jurisdictions-api
+- collection_type: open
+  name: Harbor Compliance Compliance Filings Licenses API
+  slug: open-harbor-compliance-licenses-api
+- collection_type: open
+  name: Harbor Compliance Compliance Filings Orders API
+  slug: open-harbor-compliance-orders-api
+- collection_type: open
+  name: Harbor Compliance Compliance Filings Registered Agents API
+  slug: open-harbor-compliance-registered-agents-api
 - collection_type: open
   name: Harbor Compliance API
   slug: open-harbor-compliance
@@ -181,7 +202,7 @@ plans:
 - name: Harbor Compliance Plans Pricing
   plan_count: 3
   slug: harbor-compliance-plans-pricing
-random_paper: 54
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Harbor Compliance Rate Limits
@@ -215,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/screenshots/harbor-compliance-2026-06-20T182514.png
 security:

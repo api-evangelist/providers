@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Create and manage hotel reservations.
   name: Marriott International Reservations API
   slug: marriott-international-reservations-api
-artifact_total: 12
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Marriott Developer Availability API
+  slug: open-marriott-international-availability-api
 - collection_type: open
   name: Marriott Developer API
   slug: open-marriott-international-developer-api
+- collection_type: open
+  name: Marriott Developer Availability Properties API
+  slug: open-marriott-international-properties-api
+- collection_type: open
+  name: Marriott Developer Availability Reservations API
+  slug: open-marriott-international-reservations-api
 common:
 - group: agent
   title: ''
@@ -113,7 +125,7 @@ press:
 - date: '2026-05-25'
   title: How Marriott's AI Initiatives Will Empower Event Planners
   url: https://marriottbonvoyevents.com/news-and-highlights/article/674/how-marriott-s-ai-initiatives-will-empower-event-planners
-random_paper: 47
+random_paper: 92
 rate_limits:
 - limit_count: 2
   name: Marriott International Rate Limits
@@ -143,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/screenshots/marriott-international-2026-06-20T185001.png
 security:

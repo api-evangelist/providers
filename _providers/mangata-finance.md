@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Mangata Finance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Mangata Finance''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 58
+random_paper: 8
 score:
   band: minimal
   composite: 9.9
@@ -95,7 +95,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangata-finance/refs/heads/main/screenshots/mangata-finance-2026-07-25T230038.png
 security:

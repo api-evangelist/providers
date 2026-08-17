@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Get decisions from your knowledge maps. **Start** a session, **inject** any available facts, run a **query**, provide a **response** to any questions asked and **undo** your answers to give a differen
@@ -44,7 +44,20 @@ arazzos:
 - description: Start a session against a Knowledge Map, run a query, then retrieve the evidence chain behind the result.
   name: Rainbird — run a decision and fetch its evidence
   slug: rainbird-technologies-run-and-explain
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rainbird API Documentation Decisions API
+  slug: open-rainbird-technologies-decisions-api
+- collection_type: open
+  name: Rainbird API Documentation Decisions Evidence API
+  slug: open-rainbird-technologies-evidence-api
+- collection_type: open
+  name: Rainbird API Documentation Decisions Platform API
+  slug: open-rainbird-technologies-platform-api
 common:
 - group: start
   title: ''
@@ -182,7 +195,7 @@ overview: 'Rainbird Technologies publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Rainbird Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 23 more developer resources.'
-random_paper: 12
+random_paper: 86
 score:
   band: developing
   composite: 46.2
@@ -205,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

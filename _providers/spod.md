@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Subscriptions API from SPOD — 5 operation(s) for subscriptions.
   name: SPOD Subscriptions API
   slug: spod-subscriptions-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SPOD (Spreadconnect) Fulfillment REST Articles API
+  slug: open-spod-articles-api
+- collection_type: open
+  name: SPOD (Spreadconnect) Fulfillment REST Articles Common API
+  slug: open-spod-common-api
+- collection_type: open
+  name: SPOD (Spreadconnect) Fulfillment REST Articles Orders API
+  slug: open-spod-orders-api
+- collection_type: open
+  name: SPOD (Spreadconnect) Fulfillment REST Articles Product Types API
+  slug: open-spod-product-types-api
+- collection_type: open
+  name: SPOD (Spreadconnect) Fulfillment REST Articles Shipping API
+  slug: open-spod-shipping-api
+- collection_type: open
+  name: SPOD (Spreadconnect) Fulfillment REST Articles Stock API
+  slug: open-spod-stock-api
+- collection_type: open
+  name: SPOD (Spreadconnect) Fulfillment REST Articles Subscriptions API
+  slug: open-spod-subscriptions-api
 - collection_type: open
   name: SPOD (Spreadconnect) Fulfillment REST API
   slug: open-spod
@@ -130,7 +154,7 @@ plans:
 - name: Spod Plans Pricing
   plan_count: 1
   slug: spod-plans-pricing
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 2
   name: Spod Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

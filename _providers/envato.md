@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: The User API from Envato — 4 operation(s) for user.
   name: Envato User API
   slug: envato-user-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Envato Market Author API
+  slug: open-envato-author-api
+- collection_type: open
+  name: Envato Market Author Catalog API
+  slug: open-envato-catalog-api
+- collection_type: open
+  name: Envato Market Author Downloads API
+  slug: open-envato-downloads-api
+- collection_type: open
+  name: Envato Market Author Items API
+  slug: open-envato-items-api
+- collection_type: open
+  name: Envato Market Author Search API
+  slug: open-envato-search-api
+- collection_type: open
+  name: Envato Market Author User API
+  slug: open-envato-user-api
 - collection_type: open
   name: Envato Market API
   slug: open-envato
@@ -141,7 +162,7 @@ plans:
 - name: Envato Plans Pricing
   plan_count: 2
   slug: envato-plans-pricing
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Envato Rate Limits
@@ -171,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/screenshots/envato-2026-06-20T180736.png
 security:

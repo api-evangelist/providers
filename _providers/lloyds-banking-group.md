@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -46,11 +46,15 @@ apis:
 - description: OBIE Event Notifications API delivering aggregated and real-time event signals (e.g. consent revocation, resource-update notifications) to registered TPPs. FAPI-secured; requires developer-portal onbo
   name: Lloyds Banking Group Event Notifications API
   slug: event-notifications-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Lloyds Banking Group Event Notifications Webhooks
   slug: lloyds-banking-group-event-notifications-webhooks
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-swagger
 common:
 - group: auth
   title: ''
@@ -156,7 +160,7 @@ overview: 'Lloyds Banking Group publishes 5 APIs on the [APIs.io](https://apis.i
 
 
   Lloyds Banking Group''s developer surface includes authentication, getting-started guide, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 0
+random_paper: 103
 scopes:
 - name: Lloyds Banking Group Scopes
   scope_count: 3
@@ -190,7 +194,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for approved partners to access Pie Insurance workers compensation quoting and binding workflows. Supports appetite checking, price indication, quote submission, document upload, and retrieva
@@ -104,7 +104,7 @@ plans:
 - name: Pie Plans Pricing
   plan_count: 1
   slug: pie-plans-pricing
-random_paper: 78
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Pie Rate Limits
@@ -128,7 +128,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pie/refs/heads/main/screenshots/pie-2026-06-20T191702.png
 security:

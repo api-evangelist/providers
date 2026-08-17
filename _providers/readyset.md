@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -127,7 +127,7 @@ overview: 'ReadySet is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ReadySet''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 13 more developer resources.'
-random_paper: 25
+random_paper: 120
 score:
   band: emerging
   composite: 25.0
@@ -144,7 +144,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

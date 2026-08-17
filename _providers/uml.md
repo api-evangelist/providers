@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,14 +47,26 @@ apis:
 - description: Validate PlantUML source syntax
   name: UML Validation API
   slug: uml-validation-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Kroki Diagram API
   slug: open-kroki
 - collection_type: open
   name: PlantUML Server API
   slug: open-plantuml-server
+- collection_type: open
+  name: Kroki Diagram Diagrams API
+  slug: open-uml-diagrams-api
+- collection_type: open
+  name: Kroki Diagram Diagrams Health API
+  slug: open-uml-health-api
+- collection_type: open
+  name: Kroki Diagram Diagrams Validation API
+  slug: open-uml-validation-api
 common:
 - group: agent
   title: ''
@@ -159,7 +171,7 @@ plans:
 - name: Uml Plans Pricing
   plan_count: 3
   slug: uml-plans-pricing
-random_paper: 94
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Uml Rate Limits
@@ -201,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uml/refs/heads/main/screenshots/uml-2026-06-20T200022.png
 security:

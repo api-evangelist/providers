@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The API Keys API from Prosper AI — 1 operation(s) for api keys.
@@ -49,7 +49,29 @@ apis:
 - description: The Targets API from Prosper AI — 1 operation(s) for targets.
   name: Prosper AI Targets API
   slug: prosper-ai-targets-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prosper Voice API Keys API
+  slug: open-prosper-ai-api-keys-api
+- collection_type: open
+  name: Prosper Voice API Keys Call Logs API
+  slug: open-prosper-ai-call-logs-api
+- collection_type: open
+  name: Prosper Voice API Keys Campaigns API
+  slug: open-prosper-ai-campaigns-api
+- collection_type: open
+  name: Prosper Voice API Keys Live Calls API
+  slug: open-prosper-ai-live-calls-api
+- collection_type: open
+  name: Prosper Voice API Keys Status API
+  slug: open-prosper-ai-status-api
+- collection_type: open
+  name: Prosper Voice API Keys Targets API
+  slug: open-prosper-ai-targets-api
 common:
 - group: other
   title: ''
@@ -143,7 +165,7 @@ overview: 'Prosper AI publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prosper AI''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, and 13 more developer resources.'
-random_paper: 66
+random_paper: 132
 scopes:
 - name: Prosper Ai Scopes
   scope_count: 1
@@ -177,7 +199,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -132,7 +132,95 @@ apis:
 - description: The WalletTradeActivity API from Zora — 1 operation(s) for wallettradeactivity.
   name: Zora WalletTradeActivity API
   slug: zora-wallettradeactivity-api
-artifact_total: 47
+artifact_total: 76
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zora SDK ApiKey API
+  slug: open-zora-apikey-api
+- collection_type: open
+  name: Zora SDK ApiKey Coin API
+  slug: open-zora-coin-api
+- collection_type: open
+  name: Zora SDK ApiKey CoinComments API
+  slug: open-zora-coincomments-api
+- collection_type: open
+  name: Zora SDK ApiKey CoinHolders API
+  slug: open-zora-coinholders-api
+- collection_type: open
+  name: Zora SDK ApiKey CoinPriceHistory API
+  slug: open-zora-coinpricehistory-api
+- collection_type: open
+  name: Zora SDK ApiKey Coins API
+  slug: open-zora-coins-api
+- collection_type: open
+  name: Zora SDK ApiKey CoinsList API
+  slug: open-zora-coinslist-api
+- collection_type: open
+  name: Zora SDK ApiKey CoinSwaps API
+  slug: open-zora-coinswaps-api
+- collection_type: open
+  name: Zora SDK ApiKey ContentCoinPoolConfig API
+  slug: open-zora-contentcoinpoolconfig-api
+- collection_type: open
+  name: Zora SDK ApiKey Create API
+  slug: open-zora-create-api
+- collection_type: open
+  name: Zora SDK ApiKey CreateUploadJWT API
+  slug: open-zora-createuploadjwt-api
+- collection_type: open
+  name: Zora SDK ApiKey CreatorCoinPoolConfig API
+  slug: open-zora-creatorcoinpoolconfig-api
+- collection_type: open
+  name: Zora SDK ApiKey CreatorLivestreamComments API
+  slug: open-zora-creatorlivestreamcomments-api
+- collection_type: open
+  name: Zora SDK ApiKey Explore API
+  slug: open-zora-explore-api
+- collection_type: open
+  name: Zora SDK ApiKey FeaturedCreators API
+  slug: open-zora-featuredcreators-api
+- collection_type: open
+  name: Zora SDK ApiKey LatestLiveStreams API
+  slug: open-zora-latestlivestreams-api
+- collection_type: open
+  name: Zora SDK ApiKey Profile API
+  slug: open-zora-profile-api
+- collection_type: open
+  name: Zora SDK ApiKey ProfileBalances API
+  slug: open-zora-profilebalances-api
+- collection_type: open
+  name: Zora SDK ApiKey ProfileBySocialHandle API
+  slug: open-zora-profilebysocialhandle-api
+- collection_type: open
+  name: Zora SDK ApiKey ProfileCoins API
+  slug: open-zora-profilecoins-api
+- collection_type: open
+  name: Zora SDK ApiKey ProfileSocial API
+  slug: open-zora-profilesocial-api
+- collection_type: open
+  name: Zora SDK ApiKey Quote API
+  slug: open-zora-quote-api
+- collection_type: open
+  name: Zora SDK ApiKey TokenInfo API
+  slug: open-zora-tokeninfo-api
+- collection_type: open
+  name: Zora SDK ApiKey TopLiveStreams API
+  slug: open-zora-toplivestreams-api
+- collection_type: open
+  name: Zora SDK ApiKey TraderLeaderboard API
+  slug: open-zora-traderleaderboard-api
+- collection_type: open
+  name: Zora SDK ApiKey TrendCoin API
+  slug: open-zora-trendcoin-api
+- collection_type: open
+  name: Zora SDK ApiKey TrendsByName API
+  slug: open-zora-trendsbyname-api
+- collection_type: open
+  name: Zora SDK ApiKey WalletTradeActivity API
+  slug: open-zora-wallettradeactivity-api
 common:
 - group: agent
   title: ''
@@ -233,7 +321,7 @@ plans:
 - name: Zora Plans Pricing
   plan_count: 3
   slug: zora-plans-pricing
-random_paper: 84
+random_paper: 146
 rate_limits:
 - limit_count: 0
   name: Zora Rate Limits
@@ -267,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zora/refs/heads/main/screenshots/zora-2026-06-20T201958.png
 security:

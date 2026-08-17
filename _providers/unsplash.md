@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: User profile operations
   name: Unsplash Users API
   slug: unsplash-users-api
-artifact_total: 23
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unsplash Collections API
+  slug: open-unsplash-collections-api
+- collection_type: open
+  name: Unsplash Collections Current User API
+  slug: open-unsplash-current-user-api
+- collection_type: open
+  name: Unsplash Collections Photos API
+  slug: open-unsplash-photos-api
+- collection_type: open
+  name: Unsplash Collections Search API
+  slug: open-unsplash-search-api
+- collection_type: open
+  name: Unsplash Collections Stats API
+  slug: open-unsplash-stats-api
+- collection_type: open
+  name: Unsplash Collections Topics API
+  slug: open-unsplash-topics-api
+- collection_type: open
+  name: Unsplash Collections Users API
+  slug: open-unsplash-users-api
 - collection_type: open
   name: Unsplash API
   slug: open-unsplash
@@ -169,7 +193,7 @@ plans:
 - name: Unsplash Plans Pricing
   plan_count: 3
   slug: unsplash-plans-pricing
-random_paper: 38
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Unsplash Rate Limits
@@ -216,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

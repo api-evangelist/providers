@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: File upload endpoints
@@ -44,11 +44,27 @@ apis:
 - description: World generation endpoints
   name: SpAItial worlds API
   slug: spaitial-ai-worlds-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: Webhook event surface for the SpAItial Developer API. Set webhook.url on a POST /v1/worlds request to receive an HTTPS callback on terminal state. Deliveries carry an HMAC-SHA256 signature (X-Spaitial
   name: SpAItial Developer API Webhooks
   slug: spaitial-ai-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SpAItial Developer files API
+  slug: open-spaitial-ai-files-api
+- collection_type: open
+  name: SpAItial Developer files models API
+  slug: open-spaitial-ai-models-api
+- collection_type: open
+  name: SpAItial Developer files panoramas API
+  slug: open-spaitial-ai-panoramas-api
+- collection_type: open
+  name: SpAItial Developer files worlds API
+  slug: open-spaitial-ai-worlds-api
 common:
 - group: auth
   title: ''
@@ -209,7 +225,7 @@ plans:
 - name: Spaitial Ai Plans
   plan_count: 4
   slug: spaitial-ai-plans
-random_paper: 22
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Spaitial Ai Rate Limits
@@ -236,7 +252,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

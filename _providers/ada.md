@@ -1,35 +1,36 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  label: Enterprise · Sales-led onboarding
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - https://www.ada.cx/
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-12'
+  score: 66.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 45
   slug: ada-agentic-access
   summary_line: 45 operations · 26 acting
-api_count: 13
+api_count: 14
 apis:
 - description: Real-time management of end-user profile information with webhook events for new chats and profile updates.
   name: Ada End Users API
@@ -48,6 +49,9 @@ apis:
 - description: Connect external applications to Ada using OAuth to extend AI agent capabilities with partner-built integrations.
   name: Ada Integrations API
   slug: ada-integrations-api
+- description: Model Context Protocol server exposing Ada's management surface to AI assistants — metrics, conversation transcripts, knowledge and coaching search, entity discovery, test cases and runs, change sets,
+  name: Ada MCP Server
+  slug: ada-mcp-server
 - description: The subpackage_channels API from Ada — 1 operation(s) for subpackage_channels.
   name: Ada subpackage_channels API
   slug: ada-subpackage-channels-api
@@ -78,7 +82,45 @@ apis:
 - description: The subpackage_webhookManagement API from Ada — 5 operation(s) for subpackage_webhookmanagement.
   name: Ada subpackage_webhookManagement API
   slug: ada-subpackage-webhookmanagement-api
-artifact_total: 29
+artifact_total: 44
+asyncapis:
+- description: ''
+  name: Ada Webhooks
+  slug: ada-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Data Compliance subpackage_channels API
+  slug: open-ada-subpackage-channels-api
+- collection_type: open
+  name: Data Compliance subpackage_channels subpackage_conversations API
+  slug: open-ada-subpackage-conversations-api
+- collection_type: open
+  name: Data Compliance subpackage_channels subpackage_deleteChatterData API
+  slug: open-ada-subpackage-deletechatterdata-api
+- collection_type: open
+  name: Data Compliance subpackage_channels subpackage_endUsers API
+  slug: open-ada-subpackage-endusers-api
+- collection_type: open
+  name: Data Compliance subpackage_channels subpackage_knowledge.subpackage_knowledge/articles API
+  slug: open-ada-subpackage-knowledge-subpackage-knowledge-articles-api
+- collection_type: open
+  name: Data Compliance subpackage_channels subpackage_knowledge.subpackage_knowledge/sources API
+  slug: open-ada-subpackage-knowledge-subpackage-knowledge-sources-api
+- collection_type: open
+  name: Data Compliance subpackage_channels subpackage_knowledge.subpackage_knowledge/tags API
+  slug: open-ada-subpackage-knowledge-subpackage-knowledge-tags-api
+- collection_type: open
+  name: Data Compliance subpackage_channels subpackage_messages API
+  slug: open-ada-subpackage-messages-api
+- collection_type: open
+  name: Data Compliance subpackage_channels subpackage_platformIntegrations API
+  slug: open-ada-subpackage-platformintegrations-api
+- collection_type: open
+  name: Data Compliance subpackage_channels subpackage_webhookManagement API
+  slug: open-ada-subpackage-webhookmanagement-api
 common:
 - group: agent
   title: ''
@@ -152,6 +194,142 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/ada-context.jsonld
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.ada.cx/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.ada.cx/generative/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.ada.cx/docs/welcome/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:help@ada.cx
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ada.cx/legal/customer-terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ada.cx/legal/privacy-policy/
+- group: start
+  title: ''
+  type: Demo
+  url: https://www.ada.cx/demo/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.ada.cx/login/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@ada_cx
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.ada.cx/legal/vulnerability-disclosure/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://security.ada.cx/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ada-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/ada-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/ada-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/ada-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ada-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ada-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/ada-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ada-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ada-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.ada.cx/reference/introduction/migrate-to-v-2
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ada-changelog.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://docs.ada.cx/release-notes
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ada-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ada-data-model.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/ada-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ada-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://docs.ada.cx/.well-known/api-catalog
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ada-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ada-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/ada-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/ada-webhooks.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-knowledge-subpackage-knowledge-articles-overlay.yaml
 created: 2026-06-12
 description: Ada is an AI-powered customer service automation platform that enables enterprises to deploy AI agents capable of resolving customer inquiries across digital channels without human intervention. The platform exposes a suite of REST APIs for managing knowledge bases, end-user profiles, conversation handling, data export, data compliance, and external integrations. All APIs use rotatable API keys for authentication, return JSON, and support cursor-based pagination. Ada serves global brands including Pinterest, Square, Ancestry, and Zendesk, and has powered more than 6.4 billion customer interactions since its founding in 2016.
 examples:
@@ -163,7 +341,7 @@ finops:
   service_category: ''
   slug: ada-finops
 graphqls:
-- description: Ada is an AI-powered customer service platform. The API covers bot configuration, conversation management, intents, responses, analytics, handoff to live agents, and multi-channel deployment for autom
+- description: '> **NOT A PUBLISHED ADA CONTRACT.** Ada publishes no GraphQL API. Verified 2026-08-14: no'
   name: Ada GraphQL API
   slug: ada-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ada.png
@@ -186,22 +364,26 @@ jsonld:
   property_count: 24
   slug: ada-context
 layout: provider
-modified: 2026-06-12
+mcp_servers:
+- description: ''
+  name: ada-mcp.yml
+  slug: ada-mcpyml
+modified: 2026-08-14
 name: Ada
 nav: Providers
 network: true
 overview: 'Ada publishes 10 APIs on the [APIs.io](https://apis.io/) network, including subpackage_channels API, subpackage_conversations API, subpackage_deleteChatterData API, and 7 more. Tagged areas include ai, customer-service, chatbot, automation, and conversational-ai.
 
 
-  The Ada catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Ada catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Ada''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  Ada''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 45 more developer resources.'
 plans:
 - name: Ada Plans Pricing
   plan_count: 1
   slug: ada-plans-pricing
-random_paper: 54
+random_paper: 145
 rate_limits:
 - limit_count: 0
   name: Ada Rate Limits
@@ -215,17 +397,22 @@ rules:
     info: 1
     warn: 5
   slug: ada-jsonschema-spectral-rules
+scopes:
+- name: Ada Scopes
+  scope_count: 8
+  slug: ada-scopes
+  summary_line: 8 scopes · authorizationCode/refreshToken
 score:
-  band: developing
-  composite: 49.1
-  delta: 0.0
+  band: exemplar
+  composite: 82.3
+  delta: 33.2
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 67.3
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 21.1
+    commercial_clarity: 89.5
+    contract_quality: 75.2
+    developer_ergonomics: 87.0
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 63.2
   previous_composite: 49.1
   provenance:
     agentic_access: derived
@@ -235,14 +422,14 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png
 security:
 - kind: authentication
   name: Ada Authentication
   slug: ada-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Ada Domain Security
   slug: ada-domain-security
@@ -250,11 +437,11 @@ security:
 - kind: vulnerability-disclosure
   name: Ada Vulnerability Disclosure
   slug: ada-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Bugcrowd · security.txt · contact published
 - kind: trust-center
   name: Ada Trust Center
   slug: ada-trust-center
-  summary_line: SOC 2, HIPAA, GDPR
+  summary_line: SOC 2 Type 2, SOC 3, PCI DSS (Attestation of Compliance), HIPAA, GDPR, CCPA, CPRA, PIPEDA, VPAT 2024 (WCAG 2.1 AA)
 slug: ada
 tags:
 - ai

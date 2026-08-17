@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 5
@@ -114,22 +114,91 @@ apis:
 - description: Create and manage collections with vector fields for semantic search and nearest-neighbor queries.
   name: Typesense Vector Collections API
   slug: typesense-vector-collections-api
-artifact_total: 128
+artifact_total: 151
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Typesense Analytics API
   slug: open-typesense-analytics-api
 - collection_type: open
+  name: Typesense Analytics Analytics Events API
+  slug: open-typesense-analytics-events-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Analytics Operations API
+  slug: open-typesense-analytics-operations-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Analytics Rules API
+  slug: open-typesense-analytics-rules-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events API Keys API
+  slug: open-typesense-api-keys-api
+- collection_type: open
   name: Typesense Cloud Management API
   slug: open-typesense-cloud-management-api
 - collection_type: open
-  name: Typesense Conversational Search API
+  name: Typesense Analytics Analytics Events Cluster Management API
+  slug: open-typesense-cluster-management-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Collection Aliases API
+  slug: open-typesense-collection-aliases-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Collections API
+  slug: open-typesense-collections-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Configuration API
+  slug: open-typesense-configuration-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Configuration Changes API
+  slug: open-typesense-configuration-changes-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Conversation Models API
+  slug: open-typesense-conversation-models-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Conversational Search API
   slug: open-typesense-conversational-search-api
 - collection_type: open
-  name: Typesense Search API
+  name: Typesense Analytics Analytics Events Curation Sets API
+  slug: open-typesense-curation-sets-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Documents API
+  slug: open-typesense-documents-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Monitoring API
+  slug: open-typesense-monitoring-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Multi-Search API
+  slug: open-typesense-multi-search-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events NL Search Models API
+  slug: open-typesense-nl-search-models-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Operations API
+  slug: open-typesense-operations-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Presets API
+  slug: open-typesense-presets-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Search API
   slug: open-typesense-search-api
 - collection_type: open
-  name: Typesense Vector Search API
+  name: Typesense Analytics Analytics Events Server Configuration Parameters API
+  slug: open-typesense-server-configuration-parameters-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Stemming API
+  slug: open-typesense-stemming-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Stopwords API
+  slug: open-typesense-stopwords-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Synonym Sets API
+  slug: open-typesense-synonym-sets-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Vector Collections API
+  slug: open-typesense-vector-collections-api
+- collection_type: open
+  name: Typesense Analytics Analytics Events Vector Search API
   slug: open-typesense-vector-search-api
 common:
 - group: agent
@@ -491,7 +560,7 @@ plans:
 - name: Typesense Plans Pricing
   plan_count: 5
   slug: typesense-plans-pricing
-random_paper: 32
+random_paper: 98
 rate_limits:
 - limit_count: 3
   name: Typesense Rate Limits
@@ -525,7 +594,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/screenshots/typesense-2026-06-20T195907.png
 security:

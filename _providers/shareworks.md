@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -90,7 +90,59 @@ apis:
 - description: The Write Access API from Shareworks — 17 operation(s) for write access.
   name: Shareworks Write Access API
   slug: shareworks-write-access-api
-artifact_total: 104
+artifact_total: 121
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token API
+  slug: open-shareworks-authentication-token-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Authorized Capital API
+  slug: open-shareworks-authorized-capital-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Award Type API
+  slug: open-shareworks-award-type-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Company API
+  slug: open-shareworks-company-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Company Board API
+  slug: open-shareworks-company-board-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Company Integration API
+  slug: open-shareworks-company-integration-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Entity Stakeholder API
+  slug: open-shareworks-entity-stakeholder-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Grant API
+  slug: open-shareworks-grant-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Holdings API
+  slug: open-shareworks-holdings-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Individual Stakeholder API
+  slug: open-shareworks-individual-stakeholder-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Plan API
+  slug: open-shareworks-plan-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Read Access API
+  slug: open-shareworks-read-access-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Stock Certificate API
+  slug: open-shareworks-stock-certificate-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Stock Filing API
+  slug: open-shareworks-stock-filing-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Vesting Schedule API
+  slug: open-shareworks-vesting-schedule-api
+- collection_type: open
+  name: Shareworks Admin REST Authentication Token Write Access API
+  slug: open-shareworks-write-access-api
 common:
 - group: agent
   title: ''
@@ -412,7 +464,7 @@ plans:
 - name: Shareworks Plans Pricing
   plan_count: 2
   slug: shareworks-plans-pricing
-random_paper: 17
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Shareworks Rate Limits
@@ -446,7 +498,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/screenshots/shareworks-2026-06-20T193746.png
 security:

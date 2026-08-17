@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: '**Powerful generic endpoints** for reading and writing any collection type. Works with all collections using field UUIDs. Query `/fields` first to discover the schema, then use these endpoints for fle'
@@ -43,11 +43,27 @@ apis:
 - description: Utility endpoints for timezone information and other general-purpose data.
   name: Teambridge Utilities API
   slug: teambridge-utilities-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Teambridge Webhooks
   slug: teambridge-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Teambridge External Collections (Unified API) Collections (Unified API) Collections (Unified API) API
+  slug: open-teambridge-collections-unified-api-api
+- collection_type: open
+  name: Teambridge External Collections (Unified API) Collections (Unified API) Documents API
+  slug: open-teambridge-documents-api
+- collection_type: open
+  name: Teambridge External Collections (Unified API) Collections (Unified API) Mappings API
+  slug: open-teambridge-mappings-api
+- collection_type: open
+  name: Teambridge External Collections (Unified API) Collections (Unified API) Utilities API
+  slug: open-teambridge-utilities-api
 common:
 - group: company
   title: ''
@@ -168,7 +184,7 @@ overview: 'Teambridge publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Teambridge''s developer surface includes documentation, API reference, authentication, pricing, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 84
+random_paper: 1
 scopes:
 - name: Teambridge Scopes
   scope_count: 1
@@ -196,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

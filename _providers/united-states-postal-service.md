@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -75,17 +75,32 @@ apis:
 - description: Package tracking status and event operations
   name: United States Postal Service Tracking API
   slug: united-states-postal-service-tracking-api
-artifact_total: 104
+artifact_total: 109
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USPS Addresses API
+  slug: open-united-states-postal-service-addresses-api
 - collection_type: open
   name: USPS Addresses API
   slug: open-united-states-postal-service-addresses
 - collection_type: open
+  name: USPS Addresses Carrier Pickup API
+  slug: open-united-states-postal-service-carrier-pickup-api
+- collection_type: open
   name: USPS Carrier Pickup API
   slug: open-united-states-postal-service-carrier-pickup
 - collection_type: open
+  name: USPS Addresses Domestic Prices API
+  slug: open-united-states-postal-service-domestic-prices-api
+- collection_type: open
   name: USPS Domestic Prices API
   slug: open-united-states-postal-service-domestic-prices
+- collection_type: open
+  name: USPS Addresses Tracking API
+  slug: open-united-states-postal-service-tracking-api
 - collection_type: open
   name: USPS Tracking API
   slug: open-united-states-postal-service-tracking
@@ -381,7 +396,7 @@ plans:
 - name: United States Postal Service Plans Pricing
   plan_count: 2
   slug: united-states-postal-service-plans-pricing
-random_paper: 96
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: United States Postal Service Rate Limits
@@ -429,7 +444,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/screenshots/united-states-postal-service-2026-06-20T200056.png
 security:

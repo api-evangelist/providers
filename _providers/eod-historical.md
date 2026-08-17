@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
 - description: User account and subscription information
   name: EOD Historical Data User API
   slug: eod-historical-user-api
-artifact_total: 53
+artifact_total: 74
 collections:
 - collection_type: postman
   name: EODHD Financial Data Calendar API
@@ -161,6 +161,69 @@ collections:
 - collection_type: postman
   name: EODHD Financial Data Calendar User API
   slug: postman-eod-historical-user-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EODHD Financial Data Calendar API
+  slug: open-eod-historical-calendar-api
+- collection_type: open
+  name: EODHD Financial Data Calendar CBOE API
+  slug: open-eod-historical-cboe-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Corporate Actions API
+  slug: open-eod-historical-corporate-actions-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Dividends & Splits API
+  slug: open-eod-historical-dividends-splits-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Economic Data API
+  slug: open-eod-historical-economic-data-api
+- collection_type: open
+  name: EODHD Financial Data Calendar End-of-Day Data API
+  slug: open-eod-historical-end-of-day-data-api
+- collection_type: open
+  name: EODHD Financial Data Calendar ESG API
+  slug: open-eod-historical-esg-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Exchanges API
+  slug: open-eod-historical-exchanges-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Fundamentals API
+  slug: open-eod-historical-fundamentals-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Indices API
+  slug: open-eod-historical-indices-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Intraday Data API
+  slug: open-eod-historical-intraday-data-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Investment Analytics API
+  slug: open-eod-historical-investment-analytics-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Logos API
+  slug: open-eod-historical-logos-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Market Data API
+  slug: open-eod-historical-market-data-api
+- collection_type: open
+  name: EODHD Financial Data Calendar News API
+  slug: open-eod-historical-news-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Options API
+  slug: open-eod-historical-options-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Screening API
+  slug: open-eod-historical-screening-api
+- collection_type: open
+  name: EODHD Financial Data Calendar Technical API
+  slug: open-eod-historical-technical-api
+- collection_type: open
+  name: EODHD Financial Data Calendar US Treasury API
+  slug: open-eod-historical-us-treasury-api
+- collection_type: open
+  name: EODHD Financial Data Calendar User API
+  slug: open-eod-historical-user-api
 common:
 - group: build
   title: ''
@@ -279,7 +342,7 @@ plans:
 - name: Eod Historical Plans Pricing
   plan_count: 6
   slug: eod-historical-plans-pricing
-random_paper: 111
+random_paper: 90
 rate_limits:
 - limit_count: 4
   name: Eod Historical Rate Limits
@@ -319,7 +382,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eod-historical/refs/heads/main/screenshots/eod-historical-2026-06-20T180743.png
 security:

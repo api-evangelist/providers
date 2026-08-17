@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -108,11 +108,84 @@ apis:
 - description: The Tron API from Blockaid — 2 operation(s) for tron.
   name: Blockaid Tron API
   slug: blockaid-tron-api
-artifact_total: 28
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Blockaid Token Webhooks
   slug: blockaid-token-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blockaid Asset Management API
+  slug: open-blockaid-asset-management-api
+- collection_type: open
+  name: Blockaid Asset Management Audit Logs API
+  slug: open-blockaid-audit-logs-api
+- collection_type: open
+  name: Blockaid Asset Management Bitcoin API
+  slug: open-blockaid-bitcoin-api
+- collection_type: open
+  name: Blockaid Asset Management Chain Agnostic API
+  slug: open-blockaid-chain-agnostic-api
+- collection_type: open
+  name: Blockaid Asset Management cosigner API
+  slug: open-blockaid-cosigner-api
+- collection_type: open
+  name: Blockaid Asset Management Crypto Fraud Prevention API
+  slug: open-blockaid-crypto-fraud-prevention-api
+- collection_type: open
+  name: Blockaid Asset Management Enrichment API
+  slug: open-blockaid-enrichment-api
+- collection_type: open
+  name: Blockaid Asset Management EVM API
+  slug: open-blockaid-evm-api
+- collection_type: open
+  name: Blockaid Asset Management external api integrations API
+  slug: open-blockaid-external-api-integrations-api
+- collection_type: open
+  name: Blockaid Asset Management external API
+  slug: open-blockaid-external-api
+- collection_type: open
+  name: Blockaid Asset Management Hedera API
+  slug: open-blockaid-hedera-api
+- collection_type: open
+  name: Blockaid Asset Management Metrics API
+  slug: open-blockaid-metrics-api
+- collection_type: open
+  name: Blockaid Asset Management Monitors API
+  slug: open-blockaid-monitors-api
+- collection_type: open
+  name: Blockaid Asset Management Organization Risk Config API
+  slug: open-blockaid-organization-risk-config-api
+- collection_type: open
+  name: Blockaid Asset Management Report API
+  slug: open-blockaid-report-api
+- collection_type: open
+  name: Blockaid Asset Management Scan Feedback API
+  slug: open-blockaid-scan-feedback-api
+- collection_type: open
+  name: Blockaid Asset Management Site API
+  slug: open-blockaid-site-api
+- collection_type: open
+  name: Blockaid Asset Management Solana API
+  slug: open-blockaid-solana-api
+- collection_type: open
+  name: Blockaid Asset Management Starknet API
+  slug: open-blockaid-starknet-api
+- collection_type: open
+  name: Blockaid Asset Management Stellar API
+  slug: open-blockaid-stellar-api
+- collection_type: open
+  name: Blockaid Asset Management Sui API
+  slug: open-blockaid-sui-api
+- collection_type: open
+  name: Blockaid Asset Management Token API
+  slug: open-blockaid-token-api
+- collection_type: open
+  name: Blockaid Asset Management Tron API
+  slug: open-blockaid-tron-api
 common:
 - group: company
   title: ''
@@ -233,7 +306,7 @@ overview: 'Blockaid publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Blockaid''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 105
+random_paper: 80
 score:
   band: developing
   composite: 42.7
@@ -263,7 +336,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/screenshots/blockaid-2026-07-25T203339.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: The Users API from Price Lab — 1 operation(s) for users.
   name: Price Lab Users API
   slug: price-lab-users-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Price Lab Authentication API
+  slug: open-price-lab-authentication-api
+- collection_type: open
+  name: Price Lab Authentication Categories API
+  slug: open-price-lab-categories-api
+- collection_type: open
+  name: Price Lab Authentication Competitor Pricing API
+  slug: open-price-lab-competitor-pricing-api
+- collection_type: open
+  name: Price Lab Authentication Data Import API
+  slug: open-price-lab-data-import-api
+- collection_type: open
+  name: Price Lab Authentication Electronic Price Tags API
+  slug: open-price-lab-electronic-price-tags-api
+- collection_type: open
+  name: Price Lab Authentication Price Management API
+  slug: open-price-lab-price-management-api
+- collection_type: open
+  name: Price Lab Authentication Products API
+  slug: open-price-lab-products-api
+- collection_type: open
+  name: Price Lab Authentication Recommendations API
+  slug: open-price-lab-recommendations-api
+- collection_type: open
+  name: Price Lab Authentication Users API
+  slug: open-price-lab-users-api
 common:
 - group: auth
   title: ''
@@ -171,7 +202,7 @@ overview: 'Price Lab publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Price Lab''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 39
+random_paper: 134
 score:
   band: thin
   composite: 39.6
@@ -195,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

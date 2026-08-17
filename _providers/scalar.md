@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 3
@@ -129,11 +129,86 @@ apis:
 - description: The workspace API from Scalar — 6 operation(s) for workspace.
   name: Scalar workspace API
   slug: scalar-workspace-api
-artifact_total: 47
+artifact_total: 72
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Core access-groups API
+  slug: open-scalar-access-groups-api
+- collection_type: open
+  name: Core access-groups analytics API
+  slug: open-scalar-analytics-api
+- collection_type: open
+  name: Core access-groups api-docs API
+  slug: open-scalar-api-docs-api
+- collection_type: open
+  name: Core access-groups auth API
+  slug: open-scalar-auth-api
 - collection_type: open
   name: Core
   slug: open-scalar-core
+- collection_type: open
+  name: Core access-groups docs API
+  slug: open-scalar-docs-api
+- collection_type: open
+  name: Core access-groups Docs Projects API
+  slug: open-scalar-docs-projects-api
+- collection_type: open
+  name: Core access-groups Forgejo API
+  slug: open-scalar-forgejo-api
+- collection_type: open
+  name: Core access-groups github API
+  slug: open-scalar-github-api
+- collection_type: open
+  name: Core access-groups Internal API
+  slug: open-scalar-internal-api
+- collection_type: open
+  name: Core access-groups login-portals API
+  slug: open-scalar-login-portals-api
+- collection_type: open
+  name: Core access-groups payment API
+  slug: open-scalar-payment-api
+- collection_type: open
+  name: Core access-groups publish API
+  slug: open-scalar-publish-api
+- collection_type: open
+  name: Core access-groups pubsub API
+  slug: open-scalar-pubsub-api
+- collection_type: open
+  name: Core access-groups rules API
+  slug: open-scalar-rules-api
+- collection_type: open
+  name: Core access-groups schemas API
+  slug: open-scalar-schemas-api
+- collection_type: open
+  name: Core access-groups sdks API
+  slug: open-scalar-sdks-api
+- collection_type: open
+  name: Core access-groups share API
+  slug: open-scalar-share-api
+- collection_type: open
+  name: Core access-groups signup API
+  slug: open-scalar-signup-api
+- collection_type: open
+  name: Core access-groups team API
+  slug: open-scalar-team-api
+- collection_type: open
+  name: Core access-groups themes API
+  slug: open-scalar-themes-api
+- collection_type: open
+  name: Core access-groups utility API
+  slug: open-scalar-utility-api
+- collection_type: open
+  name: Core access-groups vcs API
+  slug: open-scalar-vcs-api
+- collection_type: open
+  name: Core access-groups waitlist API
+  slug: open-scalar-waitlist-api
+- collection_type: open
+  name: Core access-groups workspace API
+  slug: open-scalar-workspace-api
 common:
 - group: agent
   title: ''
@@ -269,7 +344,7 @@ plans:
 - name: Scalar Plans Pricing
   plan_count: 3
   slug: scalar-plans-pricing
-random_paper: 30
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Scalar Rate Limits
@@ -311,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/screenshots/scalar-2026-06-20T193504.png
 security:

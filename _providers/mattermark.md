@@ -10,11 +10,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: true
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -22,23 +23,34 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-12'
+  score: 51.4
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Mattermark Agentic Access
+  operation_count: 11
+  slug: mattermark-agentic-access
+  summary_line: 11 operations · 1 acting
 api_count: 2
 apis:
 - description: RESTful access to Mattermark company, investor, funding-event, news and personnel data, with page-based pagination and MSFL query endpoints.
   name: Mattermark REST API
   slug: mattermark-rest-api
-- description: GraphQL access to the Mattermark dataset using the Mattermark Search Filter Language (MSFL) for complex company and investor queries.
+- description: 'GraphQL access to the Mattermark dataset using the Mattermark Search Filter Language (MSFL) for complex company and investor queries. Read-only: the published schema declares 57 types under a single R'
   name: Mattermark GraphQL API
   slug: mattermark-graphql-api
-artifact_total: 6
+artifact_total: 8
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/mattermark-agentic-access.yml
 - group: company
   title: ''
   type: Website
@@ -70,7 +82,7 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://mattermark.com/privacy
+  url: https://mattermark.com/privacy-policy/
 - group: company
   title: ''
   type: Blog
@@ -113,6 +125,10 @@ common:
   url: mcp/mattermark-mcp.yml
 - group: build
   title: ''
+  type: ToolCrosswalk
+  url: mcp/mattermark-tool-crosswalk.yml
+- group: build
+  title: ''
   type: Packages
   url: packages/mattermark-packages.yml
 - group: design
@@ -127,6 +143,30 @@ common:
   title: ''
   type: DomainSecurity
   url: security/mattermark-domain-security.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/mattermark-rest-api-openapi.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/mattermark.graphql
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mattermark-rest-api-overlay.yaml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/mattermark-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/mattermark-plans-pricing.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-17'
 description: Mattermark is a business-intelligence platform for data-driven deal making, providing profiles on roughly four million companies and twenty million key contacts along with their investors, funding events, and news. Relaunched as an independent company, Mattermark exposes its dataset through a REST API (api.mattermark.com) and a GraphQL API (eapi.mattermark.com), both authenticated with a Bearer API key and queryable with the Mattermark Search Filter Language (MSFL). Originally an a16z / Slow Ventures / Version One Ventures-backed startup, it is tracked in the API Evangelist network as a company profile.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mattermark.png
@@ -135,43 +175,47 @@ mcp_servers:
 - description: ''
   name: mattermark-mcp.yml
   slug: mattermark-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Mattermark
 nav: Providers
 network: true
-overview: 'Mattermark publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Intelligence, Company Data, Investors, and Funding.
+overview: 'Mattermark publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Company, Business Intelligence, Company Data, Investors, and Funding.
 
 
-  Mattermark''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 15 more developer resources.'
-random_paper: 0
+  Mattermark''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 23 more developer resources.'
+plans:
+- name: Mattermark Plans Pricing
+  plan_count: 4
+  slug: mattermark-plans-pricing
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Mattermark Rate Limits
   slug: mattermark-rate-limits
 score:
-  band: emerging
-  composite: 27.0
-  delta: 0.0
+  band: developing
+  composite: 51.0
+  delta: 24.0
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 0.0
-    developer_ergonomics: 50.0
+    commercial_clarity: 63.2
+    contract_quality: 56.3
+    developer_ergonomics: 63.0
     discoverability: 75.9
-    governance: 3.1
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 27.0
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/screenshots/mattermark-2026-07-25T230426.png
 security:
 - kind: authentication
   name: Mattermark Authentication
   slug: mattermark-authentication
-  summary_line: http · 1 scheme
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Mattermark Domain Security
   slug: mattermark-domain-security

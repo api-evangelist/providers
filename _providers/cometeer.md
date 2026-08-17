@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The public, unauthenticated JSON browsing surface of the Cometeer online store — products, collections, search and sitemap. Cometeer documents these endpoints for agents itself, under "Read-Only Brows
@@ -27,7 +27,11 @@ apis:
 - description: Cometeer's Universal Commerce Protocol shopping service, exposed over MCP (JSON-RPC 2.0 via HTTP POST) at /api/ucp/mcp and advertised from /.well-known/ucp. Thirteen tools cover catalog search and loo
   name: Cometeer UCP Commerce (MCP)
   slug: ucp-commerce
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Cometeer Storefront (read-only agent surface)
+  slug: open-cometeer-storefront
 common:
 - group: auth
   title: ''
@@ -121,7 +125,7 @@ overview: 'Cometeer publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Cometeer''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 12
+random_paper: 107
 scopes:
 - name: Cometeer Scopes
   scope_count: 4
@@ -149,7 +153,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/screenshots/cometeer-2026-08-07T163704.png
 security:

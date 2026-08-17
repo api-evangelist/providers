@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Move faster with payment experts offering advisory and development services, along with a Surcharging API to recover costs and ensure compliance.
@@ -68,7 +68,7 @@ plans:
 - name: Yeeld Plans Pricing
   plan_count: 3
   slug: yeeld-plans-pricing
-random_paper: 51
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Yeeld Rate Limits
@@ -86,7 +86,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 8.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yeeld/refs/heads/main/screenshots/yeeld-2026-06-20T201737.png
 security:

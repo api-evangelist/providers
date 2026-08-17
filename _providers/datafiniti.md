@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,11 +66,29 @@ apis:
 - description: The Properties API from Datafiniti — 1 operation(s) for properties.
   name: Datafiniti Properties API
   slug: datafiniti-properties-api
-artifact_total: 25
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Datafiniti API
   slug: open-datafiniti-api
+- collection_type: open
+  name: Datafiniti Authentication API
+  slug: open-datafiniti-authentication-api
+- collection_type: open
+  name: Datafiniti Authentication Businesses API
+  slug: open-datafiniti-businesses-api
+- collection_type: open
+  name: Datafiniti Authentication People API
+  slug: open-datafiniti-people-api
+- collection_type: open
+  name: Datafiniti Authentication Products API
+  slug: open-datafiniti-products-api
+- collection_type: open
+  name: Datafiniti Authentication Properties API
+  slug: open-datafiniti-properties-api
 common:
 - group: agent
   title: ''
@@ -180,7 +198,7 @@ plans:
 - name: Datafiniti Plans Pricing
   plan_count: 3
   slug: datafiniti-plans-pricing
-random_paper: 93
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Datafiniti Rate Limits
@@ -222,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/screenshots/datafiniti-2026-06-20T175637.png
 security:

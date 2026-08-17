@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -62,11 +62,38 @@ apis:
 - description: Authenticated user profile, feed, uploads, playlists, and notifications.
   name: Audiomack User API
   slug: audiomack-user-api
-artifact_total: 28
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Audiomack Data Artist API
+  slug: open-audiomack-artist-api
+- collection_type: open
+  name: Audiomack Data Artist Chart API
+  slug: open-audiomack-chart-api
 - collection_type: open
   name: Audiomack Data API
   slug: open-audiomack-data-api
+- collection_type: open
+  name: Audiomack Data Artist Music API
+  slug: open-audiomack-music-api
+- collection_type: open
+  name: Audiomack Data Artist OAuth API
+  slug: open-audiomack-oauth-api
+- collection_type: open
+  name: Audiomack Data Artist Playlist API
+  slug: open-audiomack-playlist-api
+- collection_type: open
+  name: Audiomack Data Artist Search API
+  slug: open-audiomack-search-api
+- collection_type: open
+  name: Audiomack Data Artist Stats API
+  slug: open-audiomack-stats-api
+- collection_type: open
+  name: Audiomack Data Artist User API
+  slug: open-audiomack-user-api
 common:
 - group: agent
   title: ''
@@ -213,7 +240,7 @@ overview: 'Audiomack publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Audiomack''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, support, signup flow, and 22 more developer resources.'
-random_paper: 102
+random_paper: 48
 score:
   band: thin
   composite: 37.5
@@ -234,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/screenshots/audiomack-2026-06-20T172548.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Search endpoints for datasets and resources.
   name: National Energy System Operator Search API
   slug: national-energy-system-operator-search-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NESO Data Portal Datastore API
+  slug: open-national-energy-system-operator-datastore-api
+- collection_type: open
+  name: NESO Data Portal Datastore Discovery API
+  slug: open-national-energy-system-operator-discovery-api
+- collection_type: open
+  name: NESO Data Portal Datastore Metadata API
+  slug: open-national-energy-system-operator-metadata-api
+- collection_type: open
+  name: NESO Data Portal Datastore Search API
+  slug: open-national-energy-system-operator-search-api
 - collection_type: open
   name: NESO Data Portal API
   slug: open-national-energy-system-operator
@@ -104,7 +119,7 @@ plans:
 - name: National Energy System Operator Plans Pricing
   plan_count: 3
   slug: national-energy-system-operator-plans-pricing
-random_paper: 72
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: National Energy System Operator Rate Limits
@@ -135,7 +150,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/refs/heads/main/screenshots/national-energy-system-operator-2026-06-20T190011.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The URL Scanner API from IPQualityScore — 1 operation(s) for url scanner.
   name: IPQualityScore URL Scanner API
   slug: ipqualityscore-url-scanner-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IPQualityScore Device Fingerprint API
+  slug: open-ipqualityscore-device-fingerprint-api
+- collection_type: open
+  name: IPQualityScore Device Fingerprint Email Validation API
+  slug: open-ipqualityscore-email-validation-api
+- collection_type: open
+  name: IPQualityScore Device Fingerprint IP Reputation API
+  slug: open-ipqualityscore-ip-reputation-api
+- collection_type: open
+  name: IPQualityScore Device Fingerprint Leaked Data API
+  slug: open-ipqualityscore-leaked-data-api
+- collection_type: open
+  name: IPQualityScore Device Fingerprint Phone Validation API
+  slug: open-ipqualityscore-phone-validation-api
+- collection_type: open
+  name: IPQualityScore Device Fingerprint URL Scanner API
+  slug: open-ipqualityscore-url-scanner-api
 - collection_type: open
   name: IPQualityScore API
   slug: open-ipqualityscore
@@ -123,7 +144,7 @@ plans:
 - name: Ipqualityscore Plans Pricing
   plan_count: 5
   slug: ipqualityscore-plans-pricing
-random_paper: 94
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Ipqualityscore Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/screenshots/ipqualityscore-2026-07-25T222839.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -65,11 +65,42 @@ apis:
 - description: The Webhooks API from Vooma — 10 operation(s) for webhooks.
   name: Vooma Webhooks API
   slug: vooma-webhooks-api
-artifact_total: 15
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Vooma Webhooks
   slug: vooma-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: api Carriers API
+  slug: open-vooma-carriers-api
+- collection_type: open
+  name: api Carriers Contacts API
+  slug: open-vooma-contacts-api
+- collection_type: open
+  name: api Carriers Customers API
+  slug: open-vooma-customers-api
+- collection_type: open
+  name: api Carriers Locations API
+  slug: open-vooma-locations-api
+- collection_type: open
+  name: api Carriers Movements API
+  slug: open-vooma-movements-api
+- collection_type: open
+  name: api Carriers Quotes API
+  slug: open-vooma-quotes-api
+- collection_type: open
+  name: api Carriers Shipments API
+  slug: open-vooma-shipments-api
+- collection_type: open
+  name: api Carriers Tracking Status API
+  slug: open-vooma-tracking-status-api
+- collection_type: open
+  name: api Carriers Webhooks API
+  slug: open-vooma-webhooks-api
 common:
 - group: auth
   title: ''
@@ -198,7 +229,7 @@ overview: 'Vooma publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vooma''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 66
+random_paper: 99
 score:
   band: developing
   composite: 48.9
@@ -228,7 +259,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -261,7 +261,7 @@ apis:
 - description: Webhooks enable real-time communication and automation between systems by sending messages through all protocols supported by SNS, such as HTTP, HTTPS, and Serverless Functions, allowing for immediate
   name: Scaleway Webhooks API
   slug: scaleway-webhooks-api
-artifact_total: 515
+artifact_total: 589
 collections:
 - collection_type: postman
   name: Managed Database for PostgreSQL and MySQL Access Control List API
@@ -483,23 +483,200 @@ collections:
   name: Managed Database for PostgreSQL and MySQL Access Control List Webhooks API
   slug: postman-scaleway-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List API
+  slug: open-scaleway-access-control-list-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List ACLs API
+  slug: open-scaleway-acls-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Alert Subscribers API
+  slug: open-scaleway-alert-subscribers-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List API Keys API
+  slug: open-scaleway-api-keys-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Applications API
+  slug: open-scaleway-applications-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Backends API
+  slug: open-scaleway-backends-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Backups API
+  slug: open-scaleway-backups-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Blocklist API
+  slug: open-scaleway-blocklist-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Certificate API
+  slug: open-scaleway-certificate-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Cluster types API
+  slug: open-scaleway-cluster-types-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Clusters API
+  slug: open-scaleway-clusters-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Containers API
+  slug: open-scaleway-containers-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Crons API
+  slug: open-scaleway-crons-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Database Instances API
+  slug: open-scaleway-database-instances-api
+- collection_type: open
   name: Managed Database for PostgreSQL and MySQL API
   slug: open-scaleway-database
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Databases API
+  slug: open-scaleway-databases-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Domains API
+  slug: open-scaleway-domains-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Emails API
+  slug: open-scaleway-emails-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Endpoints API
+  slug: open-scaleway-endpoints-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Engines API
+  slug: open-scaleway-engines-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Frontends API
+  slug: open-scaleway-frontends-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Functions API
+  slug: open-scaleway-functions-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Groups API
+  slug: open-scaleway-groups-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Iam API
+  slug: open-scaleway-iam-api
 - collection_type: open
   name: IAM API
   slug: open-scaleway-iam
 - collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Images API
+  slug: open-scaleway-images-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Instance API
+  slug: open-scaleway-instance-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Instance Settings API
+  slug: open-scaleway-instance-settings-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Instance Types API
+  slug: open-scaleway-instance-types-api
+- collection_type: open
   name: Instance API
   slug: open-scaleway-instance
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Instances API
+  slug: open-scaleway-instances-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List IP addresses API
+  slug: open-scaleway-ip-addresses-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List IPs API
+  slug: open-scaleway-ips-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List JWTs API
+  slug: open-scaleway-jwts-api
 - collection_type: open
   name: Kubernetes API
   slug: open-scaleway-kubernetes
 - collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Load Balancer API
+  slug: open-scaleway-load-balancer-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Load Balancer Types API
+  slug: open-scaleway-load-balancer-types-api
+- collection_type: open
   name: Load Balancer API
   slug: open-scaleway-load-balancer
 - collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Logs API
+  slug: open-scaleway-logs-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Namespaces API
+  slug: open-scaleway-namespaces-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Network ACLs API
+  slug: open-scaleway-network-acls-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Nodes API
+  slug: open-scaleway-nodes-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List NodeTypes API
+  slug: open-scaleway-nodetypes-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List offers API
+  slug: open-scaleway-offers-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Permission sets API
+  slug: open-scaleway-permission-sets-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Placement Groups API
+  slug: open-scaleway-placement-groups-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Policies API
+  slug: open-scaleway-policies-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Pools API
+  slug: open-scaleway-pools-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Private Networks API
+  slug: open-scaleway-private-networks-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Private NICs API
+  slug: open-scaleway-private-nics-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Privileges API
+  slug: open-scaleway-privileges-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Project Consumption API
+  slug: open-scaleway-project-consumption-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Project Settings API
+  slug: open-scaleway-project-settings-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Quotas API
+  slug: open-scaleway-quotas-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Read Replicas API
+  slug: open-scaleway-read-replicas-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Route API
+  slug: open-scaleway-route-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Routes API
+  slug: open-scaleway-routes-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Rules API
+  slug: open-scaleway-rules-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List SAML API
+  slug: open-scaleway-saml-api
+- collection_type: open
   name: Secret Manager API
   slug: open-scaleway-secret-manager
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Secret Versions API
+  slug: open-scaleway-secret-versions-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Secrets API
+  slug: open-scaleway-secrets-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Security Groups API
+  slug: open-scaleway-security-groups-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Security Settings API
+  slug: open-scaleway-security-settings-api
 - collection_type: open
   name: Serverless Containers API
   slug: open-scaleway-serverless-containers
@@ -507,11 +684,56 @@ collections:
   name: Serverless Functions API
   slug: open-scaleway-serverless-functions
 - collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Snapshots API
+  slug: open-scaleway-snapshots-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List SSH Keys API
+  slug: open-scaleway-ssh-keys-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Statistics API
+  slug: open-scaleway-statistics-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Stats API
+  slug: open-scaleway-stats-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Subnets API
+  slug: open-scaleway-subnets-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Tokens API
+  slug: open-scaleway-tokens-api
+- collection_type: open
   name: Transactional Email API
   slug: open-scaleway-transactional-email
 - collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Triggers API
+  slug: open-scaleway-triggers-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List User Data API
+  slug: open-scaleway-user-data-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Users API
+  slug: open-scaleway-users-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Versions API
+  slug: open-scaleway-versions-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Volume Types API
+  slug: open-scaleway-volume-types-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Volumes API
+  slug: open-scaleway-volumes-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List VPC Connectors API
+  slug: open-scaleway-vpc-connectors-api
+- collection_type: open
   name: VPC API
   slug: open-scaleway-vpc
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List VPCs API
+  slug: open-scaleway-vpcs-api
+- collection_type: open
+  name: Managed Database for PostgreSQL and MySQL Access Control List Webhooks API
+  slug: open-scaleway-webhooks-api
 common:
 - group: build
   title: ''
@@ -1689,7 +1911,7 @@ plans:
 - name: Scaleway Plans Pricing
   plan_count: 2
   slug: scaleway-plans-pricing
-random_paper: 17
+random_paper: 112
 rate_limits:
 - limit_count: 2
   name: Scaleway Rate Limits
@@ -1731,7 +1953,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: Manage firewall rules.
   name: pfSense Firewall Rules API
   slug: pfsense-firewall-rules-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: pfSense REST API (pfSense-pkg-RESTAPI) Authentication API
+  slug: open-pfsense-authentication-api
+- collection_type: open
+  name: pfSense REST API (pfSense-pkg-RESTAPI) Authentication Firewall Aliases API
+  slug: open-pfsense-firewall-aliases-api
+- collection_type: open
+  name: pfSense REST API (pfSense-pkg-RESTAPI) Authentication Firewall Apply API
+  slug: open-pfsense-firewall-apply-api
+- collection_type: open
+  name: pfSense REST API (pfSense-pkg-RESTAPI) Authentication Firewall Rules API
+  slug: open-pfsense-firewall-rules-api
 - collection_type: open
   name: pfSense REST API (pfSense-pkg-RESTAPI)
   slug: open-pfsense
@@ -123,7 +138,7 @@ overview: 'pfSense publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   pfSense''s developer surface includes authentication, documentation, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 36
+random_paper: 11
 score:
   band: emerging
   composite: 27.9
@@ -144,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/screenshots/pfsense-2026-06-20T191628.png
 security:

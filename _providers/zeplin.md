@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -87,7 +87,59 @@ apis:
 - description: The Webhooks API from Zeplin — 8 operation(s) for webhooks.
   name: Zeplin Webhooks API
   slug: zeplin-webhooks-api
-artifact_total: 27
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zeplin Authorization API
+  slug: open-zeplin-authorization-api
+- collection_type: open
+  name: Zeplin Authorization Colors API
+  slug: open-zeplin-colors-api
+- collection_type: open
+  name: Zeplin Authorization Components API
+  slug: open-zeplin-components-api
+- collection_type: open
+  name: Zeplin Authorization Connected Components API
+  slug: open-zeplin-connected-components-api
+- collection_type: open
+  name: Zeplin Authorization Design Tokens API
+  slug: open-zeplin-design-tokens-api
+- collection_type: open
+  name: Zeplin Authorization Flows API
+  slug: open-zeplin-flows-api
+- collection_type: open
+  name: Zeplin Authorization Notifications API
+  slug: open-zeplin-notifications-api
+- collection_type: open
+  name: Zeplin Authorization Organizations API
+  slug: open-zeplin-organizations-api
+- collection_type: open
+  name: Zeplin Authorization Projects API
+  slug: open-zeplin-projects-api
+- collection_type: open
+  name: Zeplin Authorization Screens API
+  slug: open-zeplin-screens-api
+- collection_type: open
+  name: Zeplin Authorization Spacing API
+  slug: open-zeplin-spacing-api
+- collection_type: open
+  name: Zeplin Authorization Styleguides API
+  slug: open-zeplin-styleguides-api
+- collection_type: open
+  name: Zeplin Authorization TextStyles API
+  slug: open-zeplin-textstyles-api
+- collection_type: open
+  name: Zeplin Authorization Users API
+  slug: open-zeplin-users-api
+- collection_type: open
+  name: Zeplin Authorization Variable Collections API
+  slug: open-zeplin-variable-collections-api
+- collection_type: open
+  name: Zeplin Authorization Webhooks API
+  slug: open-zeplin-webhooks-api
 common:
 - group: agent
   title: ''
@@ -185,7 +237,7 @@ plans:
 - name: Zeplin Plans Pricing
   plan_count: 4
   slug: zeplin-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Zeplin Rate Limits
@@ -224,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/screenshots/zeplin-2026-06-20T201824.png
 security:

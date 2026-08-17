@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Lending-grade automated valuation model (ClearAVM) and Rental AVM delivered over a RESTful interface, returning a point value estimate, value certainty, and supporting analytics for a subject property
@@ -44,8 +44,11 @@ apis:
 - description: Ordering and fulfillment of Clear Capital valuation products via the Property Valuation API - Hybrid Appraisal, Desktop Appraisal (GSE 1004 Desktop/70D), Broker Price Opinion (BPO), Collateral Desktop
   name: Clear Capital Appraisal & Orders API
   slug: appraisal-orders-api
-artifact_total: 11
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Clear Capital API
   slug: open-clear-capital
@@ -110,7 +113,7 @@ plans:
 - name: Clear Capital Plans Pricing
   plan_count: 1
   slug: clear-capital-plans-pricing
-random_paper: 98
+random_paper: 106
 rate_limits:
 - limit_count: 2
   name: Clear Capital Rate Limits
@@ -128,7 +131,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 31.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/screenshots/clear-capital-2026-07-25T205535.png
 security:

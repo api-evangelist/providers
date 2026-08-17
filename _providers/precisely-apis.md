@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 81
 apis:
 - description: The Address API from Precisely APIs — 2 operation(s) for address.
@@ -274,7 +274,254 @@ apis:
 - description: The Zones Service API from Precisely APIs — 1 operation(s) for zones service.
   name: Precisely APIs Zones  Service API
   slug: precisely-apis-zones-service-api
-artifact_total: 86
+artifact_total: 168
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Precisely APIs Address API
+  slug: open-precisely-apis-address-api
+- collection_type: open
+  name: Precisely APIs Address  Verification  Service API
+  slug: open-precisely-apis-address-verification-service-api
+- collection_type: open
+  name: Precisely APIs Addresses API
+  slug: open-precisely-apis-addresses-api
+- collection_type: open
+  name: Precisely APIs Addresses  Service. API
+  slug: open-precisely-apis-addresses-service-api
+- collection_type: open
+  name: Precisely APIs Advanced API
+  slug: open-precisely-apis-advanced-api
+- collection_type: open
+  name: Precisely APIs Ahj API
+  slug: open-precisely-apis-ahj-api
+- collection_type: open
+  name: Precisely APIs Attributes API
+  slug: open-precisely-apis-attributes-api
+- collection_type: open
+  name: Precisely APIs Autocomplete API
+  slug: open-precisely-apis-autocomplete-api
+- collection_type: open
+  name: Precisely APIs Basic API
+  slug: open-precisely-apis-basic-api
+- collection_type: open
+  name: Precisely APIs Bundles API
+  slug: open-precisely-apis-bundles-api
+- collection_type: open
+  name: Precisely APIs Byaddress API
+  slug: open-precisely-apis-byaddress-api
+- collection_type: open
+  name: Precisely APIs Byarea API
+  slug: open-precisely-apis-byarea-api
+- collection_type: open
+  name: Precisely APIs Byboundary API
+  slug: open-precisely-apis-byboundary-api
+- collection_type: open
+  name: Precisely APIs Byboundaryids API
+  slug: open-precisely-apis-byboundaryids-api
+- collection_type: open
+  name: Precisely APIs Byboundaryname API
+  slug: open-precisely-apis-byboundaryname-api
+- collection_type: open
+  name: Precisely APIs Bydistance API
+  slug: open-precisely-apis-bydistance-api
+- collection_type: open
+  name: Precisely APIs Byfccid API
+  slug: open-precisely-apis-byfccid-api
+- collection_type: open
+  name: Precisely APIs Bylocation API
+  slug: open-precisely-apis-bylocation-api
+- collection_type: open
+  name: Precisely APIs Byprecisely API
+  slug: open-precisely-apis-byprecisely-api
+- collection_type: open
+  name: Precisely APIs Categories API
+  slug: open-precisely-apis-categories-api
+- collection_type: open
+  name: Precisely APIs Crime API
+  slug: open-precisely-apis-crime-api
+- collection_type: open
+  name: Precisely APIs Demographics  Service API
+  slug: open-precisely-apis-demographics-service-api
+- collection_type: open
+  name: Precisely APIs Earthquake API
+  slug: open-precisely-apis-earthquake-api
+- collection_type: open
+  name: Precisely APIs Earthquakehistory API
+  slug: open-precisely-apis-earthquakehistory-api
+- collection_type: open
+  name: Precisely APIs Email  Verification  Service API
+  slug: open-precisely-apis-email-verification-service-api
+- collection_type: open
+  name: Precisely APIs Fire API
+  slug: open-precisely-apis-fire-api
+- collection_type: open
+  name: Precisely APIs Firehistory API
+  slug: open-precisely-apis-firehistory-api
+- collection_type: open
+  name: Precisely APIs Firestation API
+  slug: open-precisely-apis-firestation-api
+- collection_type: open
+  name: Precisely APIs Flood API
+  slug: open-precisely-apis-flood-api
+- collection_type: open
+  name: Precisely APIs Geocode API
+  slug: open-precisely-apis-geocode-api
+- collection_type: open
+  name: Precisely APIs Geocode  Service API
+  slug: open-precisely-apis-geocode-service-api
+- collection_type: open
+  name: Precisely APIs Geolocation API
+  slug: open-precisely-apis-geolocation-api
+- collection_type: open
+  name: Precisely APIs Geolocation  Service API
+  slug: open-precisely-apis-geolocation-service-api
+- collection_type: open
+  name: Precisely APIs Getcitystateprovince API
+  slug: open-precisely-apis-getcitystateprovince-api
+- collection_type: open
+  name: Precisely APIs Getpostalcodes API
+  slug: open-precisely-apis-getpostalcodes-api
+- collection_type: open
+  name: Precisely APIs Intersection API
+  slug: open-precisely-apis-intersection-api
+- collection_type: open
+  name: Precisely APIs Key API
+  slug: open-precisely-apis-key-api
+- collection_type: open
+  name: Precisely APIs Local  Tax  Service API
+  slug: open-precisely-apis-local-tax-service-api
+- collection_type: open
+  name: Precisely APIs Location API
+  slug: open-precisely-apis-location-api
+- collection_type: open
+  name: Precisely APIs Locations API
+  slug: open-precisely-apis-locations-api
+- collection_type: open
+  name: Precisely APIs Metadata API
+  slug: open-precisely-apis-metadata-api
+- collection_type: open
+  name: Precisely APIs Neighborhoods  Service. API
+  slug: open-precisely-apis-neighborhoods-service-api
+- collection_type: open
+  name: Precisely APIs P S A P/911  Service API
+  slug: open-precisely-apis-p-s-a-p-911-service-api
+- collection_type: open
+  name: Precisely APIs Phone  Verification  Service API
+  slug: open-precisely-apis-phone-verification-service-api
+- collection_type: open
+  name: Precisely APIs Place API
+  slug: open-precisely-apis-place-api
+- collection_type: open
+  name: Precisely APIs Places API
+  slug: open-precisely-apis-places-api
+- collection_type: open
+  name: Precisely APIs Places  Service. API
+  slug: open-precisely-apis-places-service-api
+- collection_type: open
+  name: Precisely APIs Properties API
+  slug: open-precisely-apis-properties-api
+- collection_type: open
+  name: Precisely APIs Property  Information  Service API
+  slug: open-precisely-apis-property-information-service-api
+- collection_type: open
+  name: Precisely APIs Psap API
+  slug: open-precisely-apis-psap-api
+- collection_type: open
+  name: Precisely APIs Ratecenter API
+  slug: open-precisely-apis-ratecenter-api
+- collection_type: open
+  name: Precisely APIs Rates API
+  slug: open-precisely-apis-rates-api
+- collection_type: open
+  name: Precisely APIs Reverse API
+  slug: open-precisely-apis-reverse-api
+- collection_type: open
+  name: Precisely APIs Risks  Service API
+  slug: open-precisely-apis-risks-service-api
+- collection_type: open
+  name: Precisely APIs Route API
+  slug: open-precisely-apis-route-api
+- collection_type: open
+  name: Precisely APIs Routing API
+  slug: open-precisely-apis-routing-api
+- collection_type: open
+  name: Precisely APIs Routing  Service API
+  slug: open-precisely-apis-routing-service-api
+- collection_type: open
+  name: Precisely APIs School API
+  slug: open-precisely-apis-school-api
+- collection_type: open
+  name: Precisely APIs Schools  Service API
+  slug: open-precisely-apis-schools-service-api
+- collection_type: open
+  name: Precisely APIs Segmentation API
+  slug: open-precisely-apis-segmentation-api
+- collection_type: open
+  name: Precisely APIs Select API
+  slug: open-precisely-apis-select-api
+- collection_type: open
+  name: Precisely APIs Shoreline API
+  slug: open-precisely-apis-shoreline-api
+- collection_type: open
+  name: Precisely APIs Sic API
+  slug: open-precisely-apis-sic-api
+- collection_type: open
+  name: Precisely APIs Speedlimit API
+  slug: open-precisely-apis-speedlimit-api
+- collection_type: open
+  name: Precisely APIs Streets  Service API
+  slug: open-precisely-apis-streets-service-api
+- collection_type: open
+  name: Precisely APIs Tax API
+  slug: open-precisely-apis-tax-api
+- collection_type: open
+  name: Precisely APIs Taxdistrict API
+  slug: open-precisely-apis-taxdistrict-api
+- collection_type: open
+  name: Precisely APIs Taxes API
+  slug: open-precisely-apis-taxes-api
+- collection_type: open
+  name: Precisely APIs Taxrate API
+  slug: open-precisely-apis-taxrate-api
+- collection_type: open
+  name: Precisely APIs Telecomm  Info  Service API
+  slug: open-precisely-apis-telecomm-info-service-api
+- collection_type: open
+  name: Precisely APIs Time  Zone  Service API
+  slug: open-precisely-apis-time-zone-service-api
+- collection_type: open
+  name: Precisely APIs Timezone API
+  slug: open-precisely-apis-timezone-api
+- collection_type: open
+  name: Precisely APIs Type API
+  slug: open-precisely-apis-type-api
+- collection_type: open
+  name: Precisely APIs Validateemailaddress API
+  slug: open-precisely-apis-validateemailaddress-api
+- collection_type: open
+  name: Precisely APIs Validatemailingaddress API
+  slug: open-precisely-apis-validatemailingaddress-api
+- collection_type: open
+  name: Precisely APIs Validatemailingaddresspremium API
+  slug: open-precisely-apis-validatemailingaddresspremium-api
+- collection_type: open
+  name: Precisely APIs Validatemailingaddresspro API
+  slug: open-precisely-apis-validatemailingaddresspro-api
+- collection_type: open
+  name: Precisely APIs Validatemailingaddressuscan API
+  slug: open-precisely-apis-validatemailingaddressuscan-api
+- collection_type: open
+  name: Precisely APIs Validatephonenumber API
+  slug: open-precisely-apis-validatephonenumber-api
+- collection_type: open
+  name: Precisely APIs Zones API
+  slug: open-precisely-apis-zones-api
+- collection_type: open
+  name: Precisely APIs Zones  Service API
+  slug: open-precisely-apis-zones-service-api
 common:
 - group: auth
   title: ''
@@ -384,7 +631,7 @@ plans:
 - name: Precisely Apis Plans Pricing
   plan_count: 3
   slug: precisely-apis-plans-pricing
-random_paper: 10
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Precisely Apis Rate Limits
@@ -408,7 +655,7 @@ score:
       marker_coverage: 0.0
       total: 81
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/screenshots/precisely-apis-2026-06-20T192041.png
 security:

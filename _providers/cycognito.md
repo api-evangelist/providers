@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -74,7 +74,47 @@ apis:
 - description: The Verify IPs API from CyCognito — 1 operation(s) for verify ips.
   name: CyCognito Verify IPs API
   slug: cycognito-verify-ips-api
-artifact_total: 18
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CyCognito API V1 Reference Assets API
+  slug: open-cycognito-assets-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Audit Logs API
+  slug: open-cycognito-audit-logs-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Cloud Connectors API
+  slug: open-cycognito-cloud-connectors-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Export Data API
+  slug: open-cycognito-export-data-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Issues API
+  slug: open-cycognito-issues-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Organizations API
+  slug: open-cycognito-organizations-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Realm API
+  slug: open-cycognito-realm-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Reports API
+  slug: open-cycognito-reports-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Revalidation API
+  slug: open-cycognito-revalidation-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Scope Management API
+  slug: open-cycognito-scope-management-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Users API
+  slug: open-cycognito-users-api
+- collection_type: open
+  name: CyCognito API V1 Reference Assets Verify IPs API
+  slug: open-cycognito-verify-ips-api
 common:
 - group: company
   title: ''
@@ -212,7 +252,7 @@ overview: 'CyCognito publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CyCognito''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, authentication, and 24 more developer resources.'
-random_paper: 15
+random_paper: 81
 score:
   band: developing
   composite: 48.2
@@ -236,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/screenshots/cycognito-2026-07-25T211040.png
 security:

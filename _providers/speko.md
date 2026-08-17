@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -51,11 +51,27 @@ apis:
 - description: The Voice API from Speko — 8 operation(s) for voice.
   name: Speko Voice API
   slug: speko-voice-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Speko Webhooks
   slug: speko-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Speko Agents API
+  slug: open-speko-agents-api
+- collection_type: open
+  name: Speko Agents Providers API
+  slug: open-speko-providers-api
+- collection_type: open
+  name: Speko Agents Telephony API
+  slug: open-speko-telephony-api
+- collection_type: open
+  name: Speko Agents Voice API
+  slug: open-speko-voice-api
 common:
 - group: other
   title: ''
@@ -168,7 +184,7 @@ overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
-random_paper: 66
+random_paper: 99
 score:
   band: developing
   composite: 55.2
@@ -192,7 +208,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

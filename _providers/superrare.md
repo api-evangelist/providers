@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -68,7 +68,29 @@ apis:
 - description: Retrieve user profile information
   name: SuperRare Users API
   slug: superrare-users-api
-artifact_total: 16
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SuperRare Marketplace Collections API
+  slug: open-superrare-collections-api
+- collection_type: open
+  name: SuperRare Marketplace Collections Media API
+  slug: open-superrare-media-api
+- collection_type: open
+  name: SuperRare Marketplace Collections Merkle Roots API
+  slug: open-superrare-merkle-roots-api
+- collection_type: open
+  name: SuperRare Marketplace Collections NFTs API
+  slug: open-superrare-nfts-api
+- collection_type: open
+  name: SuperRare Marketplace Collections Tokens API
+  slug: open-superrare-tokens-api
+- collection_type: open
+  name: SuperRare Marketplace Collections Users API
+  slug: open-superrare-users-api
 common:
 - group: commercial
   title: ''
@@ -162,7 +184,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 25
+random_paper: 91
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -187,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/screenshots/superrare-2026-06-20T194728.png
 security:

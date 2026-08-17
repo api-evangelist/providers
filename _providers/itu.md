@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -34,7 +34,14 @@ apis:
 - description: An ITU-D Technology and Network Development API that scores a batch of coordinates against the ITU Interactive Transmission Map (Broadband Maps) fibre network data. Two routes are published on the ITU
   name: ITU Proximity to Fibre Node API
   slug: itu-proximity-to-fibre-node-api
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: ITU DataHub API
+  slug: open-itu-datahub
+- collection_type: open
+  name: ITU Proximity to Fibre Node API
+  slug: open-itu-proximity
 common:
 - group: agent
   title: ''
@@ -141,7 +148,7 @@ overview: 'ITU publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data
 
 
   ITU''s developer surface includes authentication, code examples, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 98
+random_paper: 40
 score:
   band: thin
   composite: 35.8
@@ -171,7 +178,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/screenshots/itu-2026-08-07T170931.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Ethereum-compatible JSON-RPC endpoint for the 0G Chain mainnet ("Aristotle", chain ID 16661), an AI-focused Layer 1 with sub-second finality. Standard EVM methods (eth_chainId, eth_call, eth_sendRawTr
@@ -48,7 +48,29 @@ apis:
 - description: The Service Types API from 0G Labs — 1 operation(s) for service types.
   name: 0G Labs Service Types API
   slug: 0g-labs-service-types-api
-artifact_total: 13
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 0G Router Account API
+  slug: open-0g-labs-account-api
+- collection_type: open
+  name: 0G Router API Key API
+  slug: open-0g-labs-api-key-api
+- collection_type: open
+  name: 0G Router Inference API
+  slug: open-0g-labs-inference-api
+- collection_type: open
+  name: 0G Router Models API
+  slug: open-0g-labs-models-api
+- collection_type: open
+  name: 0G Router Provider API
+  slug: open-0g-labs-provider-api
+- collection_type: open
+  name: 0G Router Service Types API
+  slug: open-0g-labs-service-types-api
 common:
 - group: operate
   title: ''
@@ -239,7 +261,7 @@ overview: '0G Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   0G Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 36 more developer resources.'
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: 0G Labs Rate Limits
@@ -266,7 +288,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/screenshots/0g-labs-2026-08-07T160641.png
 security:

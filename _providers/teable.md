@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Views over a table.
   name: Teable View API
   slug: teable-view-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Teable Attachment API
+  slug: open-teable-attachment-api
+- collection_type: open
+  name: Teable Attachment Base API
+  slug: open-teable-base-api
+- collection_type: open
+  name: Teable Attachment Field API
+  slug: open-teable-field-api
+- collection_type: open
+  name: Teable Attachment Record API
+  slug: open-teable-record-api
+- collection_type: open
+  name: Teable Attachment Space API
+  slug: open-teable-space-api
+- collection_type: open
+  name: Teable Attachment Table API
+  slug: open-teable-table-api
+- collection_type: open
+  name: Teable Attachment View API
+  slug: open-teable-view-api
 - collection_type: open
   name: Teable API
   slug: open-teable
@@ -130,7 +154,7 @@ plans:
 - name: Teable Plans Pricing
   plan_count: 5
   slug: teable-plans-pricing
-random_paper: 21
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Teable Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/screenshots/teable-2026-06-20T194954.png
 security:

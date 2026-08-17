@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: 'Seller authorization flow: a Lazada seller grants a registered Lazada Open Platform app permission to call Lazada APIs on their shop''s behalf, issuing access and refresh tokens scoped per region.'
@@ -133,7 +133,7 @@ plans:
 - name: Lazada Plans Pricing
   plan_count: 1
   slug: lazada-plans-pricing
-random_paper: 21
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Lazada Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/screenshots/lazada-2026-06-20T184341.png
 security:

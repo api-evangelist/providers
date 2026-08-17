@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -72,8 +72,41 @@ apis:
 - description: The Users API from Mabl — 1 operation(s) for users.
   name: Mabl Users API
   slug: mabl-users-api
-artifact_total: 19
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: mabl Applications API
+  slug: open-mabl-applications-api
+- collection_type: open
+  name: mabl Applications Credentials API
+  slug: open-mabl-credentials-api
+- collection_type: open
+  name: mabl Applications Database Connections API
+  slug: open-mabl-database-connections-api
+- collection_type: open
+  name: mabl Applications Deployment Events API
+  slug: open-mabl-deployment-events-api
+- collection_type: open
+  name: mabl Applications Environments API
+  slug: open-mabl-environments-api
+- collection_type: open
+  name: mabl Applications Flows API
+  slug: open-mabl-flows-api
+- collection_type: open
+  name: mabl Applications Issues API
+  slug: open-mabl-issues-api
+- collection_type: open
+  name: mabl Applications Test Runs API
+  slug: open-mabl-test-runs-api
+- collection_type: open
+  name: mabl Applications Tests API
+  slug: open-mabl-tests-api
+- collection_type: open
+  name: mabl Applications Users API
+  slug: open-mabl-users-api
 - collection_type: open
   name: mabl API
   slug: open-mabl
@@ -142,7 +175,7 @@ plans:
 - name: Mabl Plans Pricing
   plan_count: 3
   slug: mabl-plans-pricing
-random_paper: 52
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Mabl Rate Limits
@@ -167,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/screenshots/mabl-2026-06-20T184832.png
 security:

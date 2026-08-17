@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'Shape Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Shape Security''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 22
+random_paper: 121
 score:
   band: minimal
   composite: 6.7
@@ -69,7 +69,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

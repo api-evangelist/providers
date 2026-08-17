@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-12'
+  score: 61.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 352
   slug: mirakl-agentic-access
   summary_line: 352 operations · 126 acting
-api_count: 19
+api_count: 26
 apis:
 - description: The Carriers API from Mirakl — 1 operation(s) for carriers.
   name: Mirakl Carriers API
@@ -96,11 +96,93 @@ apis:
 - description: The Users API from Mirakl — 1 operation(s) for users.
   name: Mirakl Users API
   slug: mirakl-users-api
-artifact_total: 26
+- description: The Mirakl Connect API — the seller-side network API behind Mirakl Connect, covering stores, channels, catalog, offers, orders and business requests across 24 paths. Bearer (JWT) authenticated against
+  name: Mirakl Connect APIs
+  slug: mirakl-connect-api
+- description: The Connect Channel Platform API used by channel partners integrating a sales channel with Mirakl Connect — store business information, channel catalog configuration, taxonomy upserts, product feedbac
+  name: Mirakl Connect Channel Platform APIs
+  slug: mirakl-connect-channel-platform-api
+- description: The Account Channel Platform API for creating and updating seller-account stores and linking them to a Mirakl seller account (3 paths), OAuth 2.0 protected and served from the dedicated Mirakl Account
+  name: Mirakl Account Channel Platform APIs
+  slug: mirakl-account-channel-platform-api
+- description: The MMP Front API surface — machine-to-machine operations designed for storefront and CMS integration with a Mirakl marketplace instance (78 paths across orders, offers, products, returns, messaging a
+  name: Mirakl Marketplace Front APIs
+  slug: mirakl-marketplace-front-api
+- description: The Mirakl Catalog Platform (MCM) Front API — 20 paths for storefront-facing catalog reads and transformations against a Mirakl catalog instance. Front bearer token or OAuth 2.0.
+  name: Mirakl Catalog Manager Front APIs
+  slug: mirakl-catalog-manager-front-api
+- description: The Mirakl Platform for Services (MPS) Front API — 22 paths for storefront-facing service-offer discovery, ordering and post-sale flows. Front bearer token, front API key or OAuth 2.0.
+  name: Mirakl Platform for Services Front APIs
+  slug: mirakl-services-front-api
+- description: The public API of Mirakl's Shopify operator connector — 52 paths for settings, product bindings, storefront orders and returns, and synchronization jobs between a Shopify storefront and a Mirakl marke
+  name: Mirakl Shopify Operator Connector APIs
+  slug: mirakl-shopify-operator-connector-api
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Mirakl Webhooks
   slug: mirakl-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers API
+  slug: open-mirakl-carriers-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Catalog Configuration API
+  slug: open-mirakl-catalog-configuration-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Incidents API
+  slug: open-mirakl-incidents-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Invoicing and Accounting API
+  slug: open-mirakl-invoicing-and-accounting-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Messages API
+  slug: open-mirakl-messages-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Multiple shipments API
+  slug: open-mirakl-multiple-shipments-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Offers API
+  slug: open-mirakl-offers-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Orders API
+  slug: open-mirakl-orders-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Picklists API
+  slug: open-mirakl-picklists-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Platform Settings API
+  slug: open-mirakl-platform-settings-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Product Feedback API
+  slug: open-mirakl-product-feedback-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Products API
+  slug: open-mirakl-products-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Promotions API
+  slug: open-mirakl-promotions-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Returns API
+  slug: open-mirakl-returns-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Services API
+  slug: open-mirakl-services-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Store API
+  slug: open-mirakl-store-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Stores API
+  slug: open-mirakl-stores-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Taxonomy API
+  slug: open-mirakl-taxonomy-api
+- collection_type: open
+  name: Mirakl Connect Channel Platform APIs Carriers Users API
+  slug: open-mirakl-users-api
 common:
 - group: start
   title: ''
@@ -230,6 +312,30 @@ common:
   title: ''
   type: Website
   url: https://www.mirakl.com/
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/mirakl-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/mirakl-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/mirakl-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/mirakl-sandbox.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://developer.mirakl.com/specs/content/product/mmp/rest/seller/postman-mmp-seller.json?download
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.mirakl.com/products/connect/pricing/
 created: '2026-07-17'
 description: Mirakl is the global leader in platform business innovation, providing an operating system for commerce that lets retailers, brands, and B2B distributors launch and scale online marketplaces and dropship programs without holding inventory. The platform spans the Mirakl Marketplace Platform (MMP), Mirakl Platform for Services (MPS), the Mirakl Catalog Platform, Mirakl Connect for multichannel selling, Mirakl Ads retail media, and Mirakl Payout. Mirakl exposes extensive REST APIs (OpenAPI 3.1) for sellers/shops and operators covering orders, offers, products, catalog, invoicing, messaging, returns, and shipments, plus a Connect Channel Platform with push webhooks for offer, price/stock, product, order-action, and store events.
 image: https://developer.mirakl.com/assets/favicon.4ab028206801f00ee2105fefa49d337d0d59395bb42860e0a6ab464c1729fe2d.930eac86.ico
@@ -238,34 +344,42 @@ mcp_servers:
 - description: ''
   name: mirakl-mcp.yml
   slug: mirakl-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Mirakl
 nav: Providers
 network: true
-overview: 'Mirakl publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Catalog Configuration API, Incidents API, and 16 more. Tagged areas include Company, Commerce, eCommerce, Marketplace, and Dropship.
+overview: 'Mirakl publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Catalog Configuration API, Incidents API, and 23 more. Tagged areas include Company, Commerce, eCommerce, Marketplace, and Dropship.
 
 
   The Mirakl catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mirakl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 40
+  Mirakl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 31 more developer resources.'
+plans:
+- name: Mirakl Plans Pricing
+  plan_count: 3
+  slug: mirakl-plans-pricing
+random_paper: 44
+rate_limits:
+- limit_count: 478
+  name: Mirakl Rate Limits
+  slug: mirakl-rate-limits
 scopes:
 - name: Mirakl Scopes
   scope_count: 0
   slug: mirakl-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.6
-  delta: 0.0
+  band: exemplar
+  composite: 72.2
+  delta: 14.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.1
-    developer_ergonomics: 69.0
+    commercial_clarity: 92.1
+    contract_quality: 68.9
+    developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 28.9
+    operational_transparency: 76.3
   previous_composite: 57.6
   provenance:
     agentic_access: derived
@@ -278,18 +392,18 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
 security:
 - kind: authentication
   name: Mirakl Authentication
   slug: mirakl-authentication
-  summary_line: apiKey/http/oauth2 · 3 schemes
+  summary_line: apiKey/http/oauth2 · 6 schemes
 - kind: domain-security
   name: Mirakl Domain Security
   slug: mirakl-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.2 · HSTS · DMARC
 - kind: trust-center
   name: Mirakl Trust Center
   slug: mirakl-trust-center

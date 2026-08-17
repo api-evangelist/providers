@@ -13,28 +13,28 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-12'
+  score: 31.1
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
-- description: Hosted Model Context Protocol (MCP) server for tday, exposed at https://tday.com/api/mcp and secured with OAuth 2.1 (authorization_code + PKCE, dynamic client registration, single "tday" scope). It is
+- description: 'Model Context Protocol server for tday, and the agent-facing entry point to the platform. It ships in two deployments that front the same nine tools: a hosted remote endpoint at https://tday.com/api/m'
   name: tday MCP Server
   slug: tday-mcp-server
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -44,14 +44,30 @@ common:
   title: ''
   type: Website
   url: https://tday.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://tday.com/mcp
 - group: start
   title: ''
   type: Login
   url: https://tday.com/login
+- group: start
+  title: ''
+  type: SignUp
+  url: https://tday.com/signup
 - group: operate
   title: ''
   type: Support
-  url: https://tday.com/book
+  url: https://tday.com/support
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://tday.com/pricing
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://tday.com/changelog
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -64,6 +80,14 @@ common:
   title: ''
   type: MCPServer
   url: mcp/tdaycom-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/tdaycom-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: agent
   title: ''
   type: WellKnown
@@ -76,54 +100,103 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/tdaycom-scopes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/tdaycom-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/tdaycom-cli.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/tdaycom-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/tdaycom-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/tdaycom-rate-limits.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/tdaycom-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/tdaycom-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/tdaycom-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/tdaycom-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/tdaycom-plans-pricing.yml
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/tdaycom-llms.txt
 created: '2026-07-17'
-description: tday (tday.com) is a Y Combinator-backed (Spring 2026) AI platform that turns a software product into on-brand marketing content. It connects to a company's GitHub repository or live website, and on every release automatically produces a launch package — an end-to-end demo video generated from real product flows, feature showcases, and on-brand social graphics and ads — then publishes that creative to social and ad channels and measures how it performs, closing the loop from what a team ships to what it posts. tday operates through the browser like a user, with no SDK embedded in the customer's product, using isolated per-run workspaces, scoped repository access, secure credential storage, and secret redaction. tday exposes a hosted Model Context Protocol (MCP) server at https://tday.com/api/mcp secured with OAuth 2.1 (PKCE, dynamic client registration, RFC 8414 / RFC 9728 discovery), making it the agent-facing surface of the platform.
-image: https://tday.com/favicon.ico
+description: 'tday (tday.com) is a Y Combinator-backed (Spring 2026) AI platform, operated by Altacomm Technologies Pty. Ltd. of Adelaide, South Australia, that turns what a software team ships into on-brand creative. It connects to a company''s GitHub repository or drives a live site through the browser like a user, and on every release produces a launch package — an end-to-end demo video recorded from real product flows, a promotional feature showcase, and on-brand social graphics — then publishes that creative to social channels and measures how it performs. A second surface generates brand-aware still designs from a text prompt against a stored brand, where a brand is created from a website URL and its colors, fonts and logos are extracted automatically. tday operates with no SDK embedded in the customer''s product, using isolated per-run workspaces and database branches, scoped repository access, secure credential storage, and secret redaction. Its developer surface is agent-shaped
+  rather than REST-shaped: tday publishes no OpenAPI, and instead ships a hosted Model Context Protocol server at https://tday.com/api/mcp secured with OAuth 2.1 (PKCE, dynamic client registration, RFC 8414 / RFC 9728 discovery), a local stdio MCP server distributed on npm as @designtday/mcp, and five of its own packaged agent skills.'
+image: https://tday.com/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
   name: tdaycom-mcp.yml
   slug: tdaycom-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Tdaycom
 nav: Providers
 network: true
-overview: 'Tdaycom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Artificial Intelligence, Content Generation, and Video.
+overview: 'Tdaycom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Artificial Intelligence, Content Generation, and Design.
 
 
-  Tdaycom''s developer surface includes support, authentication, and 9 more developer resources.'
-random_paper: 33
+  Tdaycom''s developer surface includes documentation, signup flow, support, pricing, changelog, authentication, CLI, and 20 more developer resources.'
+plans:
+- name: Tdaycom Plans Pricing
+  plan_count: 3
+  slug: tdaycom-plans-pricing
+random_paper: 8
+rate_limits:
+- limit_count: 0
+  name: Tdaycom Rate Limits
+  slug: tdaycom-rate-limits
 scopes:
 - name: Tdaycom Scopes
   scope_count: 1
   slug: tdaycom-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: emerging
-  composite: 19.2
-  delta: 0.0
+  band: thin
+  composite: 35.5
+  delta: 16.3
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 45.7
     discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 0.0
+    governance: 12.5
+    operational_transparency: 15.8
   previous_composite: 19.2
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Tdaycom Authentication
   slug: tdaycom-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2/http-bearer · 2 schemes
 - kind: domain-security
   name: Tdaycom Domain Security
   slug: tdaycom-domain-security
@@ -134,6 +207,7 @@ tags:
 - Marketing
 - Artificial Intelligence
 - Content Generation
+- Design
 - Video
 - Social Media
 - Developer Tools

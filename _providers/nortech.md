@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -74,11 +74,51 @@ apis:
 - description: This API includes endpoints that allow you to interact with `Workspaces` metadata.
   name: Nortech Workspace API
   slug: nortech-workspace-api
-artifact_total: 17
+artifact_total: 30
 asyncapis:
 - description: Real-time signal data streamed over MQTT-over-TLS. Subscribe to per-signal topics after creating a Data Connection through the HTTP API.
   name: Nortech Live Data (MQTT)
   slug: nortech-live-data-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nortech Asset API
+  slug: open-nortech-asset-api
+- collection_type: open
+  name: Nortech Asset Deriver API
+  slug: open-nortech-deriver-api
+- collection_type: open
+  name: Nortech Asset Division API
+  slug: open-nortech-division-api
+- collection_type: open
+  name: Nortech Asset Health API
+  slug: open-nortech-health-api
+- collection_type: open
+  name: Nortech Asset Historical Data API
+  slug: open-nortech-historical-data-api
+- collection_type: open
+  name: Nortech Asset Import Data API
+  slug: open-nortech-import-data-api
+- collection_type: open
+  name: Nortech Asset Live Data API
+  slug: open-nortech-live-data-api
+- collection_type: open
+  name: Nortech Asset Me API
+  slug: open-nortech-me-api
+- collection_type: open
+  name: Nortech Asset MQTT Live Data API
+  slug: open-nortech-mqtt-live-data-api
+- collection_type: open
+  name: Nortech Asset Signal API
+  slug: open-nortech-signal-api
+- collection_type: open
+  name: Nortech Asset Unit API
+  slug: open-nortech-unit-api
+- collection_type: open
+  name: Nortech Asset Workspace API
+  slug: open-nortech-workspace-api
 common:
 - group: start
   title: ''
@@ -211,7 +251,7 @@ overview: 'Nortech publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nortech''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 23 more developer resources.'
-random_paper: 35
+random_paper: 10
 score:
   band: developing
   composite: 48.4
@@ -235,7 +275,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/screenshots/nortech-2026-08-07T185521.png
 security:

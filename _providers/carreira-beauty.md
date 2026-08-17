@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Carreira Beauty
 nav: Providers
 network: true
 overview: Carreira Beauty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Wellness, Aesthetics, and Jobs.
-random_paper: 96
+random_paper: 46
 score:
   band: minimal
   composite: 12.7
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carreira-beauty/refs/heads/main/screenshots/carreira-beauty-2026-07-25T204634.png
 security:

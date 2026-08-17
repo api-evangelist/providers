@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -133,11 +133,53 @@ arazzos:
 - description: Update an existing branch variable value, find the deployment, and redeploy it.
   name: Zuplo Update an Environment Variable and Redeploy
   slug: zuplo-update-variable-and-redeploy-workflow
-artifact_total: 57
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Zuplo Developer API
   slug: postman-zuplo
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets API
+  slug: open-zuplo-api-keys-buckets-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets API Keys - Consumers API
+  slug: open-zuplo-api-keys-consumers-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets API Keys - Keys API
+  slug: open-zuplo-api-keys-keys-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets API Keys - Managers API
+  slug: open-zuplo-api-keys-managers-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets Audit Logs API
+  slug: open-zuplo-audit-logs-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets Custom Domains API
+  slug: open-zuplo-custom-domains-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets Deployments API
+  slug: open-zuplo-deployments-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets MCP Servers API
+  slug: open-zuplo-mcp-servers-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets Openapi API
+  slug: open-zuplo-openapi-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets Tunnel Services API
+  slug: open-zuplo-tunnel-services-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets Tunnels API
+  slug: open-zuplo-tunnels-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets Variables API
+  slug: open-zuplo-variables-api
+- collection_type: open
+  name: Zuplo Developer API Keys - Buckets Who Am I API
+  slug: open-zuplo-who-am-i-api
 - collection_type: open
   name: Zuplo Developer API
   slug: open-zuplo
@@ -467,7 +509,7 @@ plans:
 - name: Zuplo Plans Pricing
   plan_count: 3
   slug: zuplo-plans-pricing
-random_paper: 90
+random_paper: 123
 rate_limits:
 - limit_count: 5
   name: Zuplo Rate Limits
@@ -509,7 +551,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png
 security:

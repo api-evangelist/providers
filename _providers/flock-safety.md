@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -68,11 +68,45 @@ apis:
 - description: The Vehicle Images API from Flock Safety — 1 operation(s) for vehicle images.
   name: Flock Safety Vehicle Images API
   slug: flock-safety-vehicle-images-api
-artifact_total: 18
+artifact_total: 29
 asyncapis:
 - description: Real-time webhook that delivers Flock Safety LPR (license plate recognition) hotlist alert events. An alert fires when a plate captured by a Flock LPR camera (owned by, or shared within the First Resp
   name: Flock Safety LPR Hotlist Alerts Webhook
   slug: flock-safety-lpr-alerts-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts API
+  slug: open-flock-safety-alerts-api
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts CAD Events API
+  slug: open-flock-safety-cad-events-api
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts Custom Hotlists API
+  slug: open-flock-safety-custom-hotlists-api
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts Devices API
+  slug: open-flock-safety-devices-api
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts LPR Hotlist Alert Subscriptions API
+  slug: open-flock-safety-lpr-hotlist-alert-subscriptions-api
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts OAuth2 API
+  slug: open-flock-safety-oauth2-api
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts Plate Reads API
+  slug: open-flock-safety-plate-reads-api
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts Tracked Subject Types API
+  slug: open-flock-safety-tracked-subject-types-api
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts Tracked Subjects API
+  slug: open-flock-safety-tracked-subjects-api
+- collection_type: open
+  name: Flock Safety API Platform (v3) Alerts Vehicle Images API
+  slug: open-flock-safety-vehicle-images-api
 common:
 - group: other
   title: ''
@@ -233,7 +267,7 @@ overview: 'Flock Safety publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Flock Safety''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 28 more developer resources.'
-random_paper: 24
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Flock Safety Rate Limits
@@ -266,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/screenshots/flock-safety-2026-07-25T214812.png
 security:

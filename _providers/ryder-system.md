@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,14 +78,50 @@ apis:
 - description: Vehicle and shipment location tracking
   name: Ryder System Tracking API
   slug: ryder-system-tracking-api
-artifact_total: 37
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Ryder Carrier API
   slug: open-ryder-carrier-api
 - collection_type: open
   name: Ryder Fleet Management API
   slug: open-ryder-fleet-management-api
+- collection_type: open
+  name: Ryder Carrier Documents API
+  slug: open-ryder-system-documents-api
+- collection_type: open
+  name: Ryder Carrier Documents Fleet API
+  slug: open-ryder-system-fleet-api
+- collection_type: open
+  name: Ryder Carrier Documents Invoices API
+  slug: open-ryder-system-invoices-api
+- collection_type: open
+  name: Ryder Carrier Documents Load Events API
+  slug: open-ryder-system-load-events-api
+- collection_type: open
+  name: Ryder Carrier Documents Loads API
+  slug: open-ryder-system-loads-api
+- collection_type: open
+  name: Ryder Carrier Documents Locations API
+  slug: open-ryder-system-locations-api
+- collection_type: open
+  name: Ryder Carrier Documents Service History API
+  slug: open-ryder-system-service-history-api
+- collection_type: open
+  name: Ryder Carrier Documents Ship Confirmation API
+  slug: open-ryder-system-ship-confirmation-api
+- collection_type: open
+  name: Ryder Carrier Documents Ship Status API
+  slug: open-ryder-system-ship-status-api
+- collection_type: open
+  name: Ryder Carrier Documents Shipments API
+  slug: open-ryder-system-shipments-api
+- collection_type: open
+  name: Ryder Carrier Documents Tracking API
+  slug: open-ryder-system-tracking-api
 - collection_type: open
   name: Ryder TM Shipment Management API
   slug: open-ryder-tm-shipment-api
@@ -222,7 +258,7 @@ press:
 - date: '2026-05-25'
   title: Ryder and Terminal Digitize Yard; Achieve 99% Accuracy ...
   url: https://www.businesswire.com/news/home/20240821139395/en/Ryder-and-Terminal-Digitize-Yard-Achieve-99-Accuracy-with-AI-Computer-Vision
-random_paper: 72
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Ryder System Rate Limits
@@ -277,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +53,29 @@ apis:
 - description: Geofencing rules and operational zones
   name: TIER Zones API
   slug: tier-mobility-zones-api
-artifact_total: 31
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TIER / Dott GBFS Discovery API
+  slug: open-tier-mobility-discovery-api
 - collection_type: open
   name: TIER / Dott GBFS API
   slug: open-tier-mobility-gbfs
+- collection_type: open
+  name: TIER / Dott GBFS Discovery Stations API
+  slug: open-tier-mobility-stations-api
+- collection_type: open
+  name: TIER / Dott GBFS Discovery System API
+  slug: open-tier-mobility-system-api
+- collection_type: open
+  name: TIER / Dott GBFS Discovery Vehicles API
+  slug: open-tier-mobility-vehicles-api
+- collection_type: open
+  name: TIER / Dott GBFS Discovery Zones API
+  slug: open-tier-mobility-zones-api
 common:
 - group: agent
   title: ''
@@ -188,7 +206,7 @@ plans:
 - name: Tier Mobility Plans Pricing
   plan_count: 2
   slug: tier-mobility-plans-pricing
-random_paper: 34
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Tier Mobility Rate Limits
@@ -236,7 +254,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/screenshots/tier-mobility-2026-06-20T195343.png
 security:

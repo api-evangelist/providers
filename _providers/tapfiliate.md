@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 57.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 77
   slug: tapfiliate-agentic-access
   summary_line: 77 operations · 41 acting
-api_count: 10
+api_count: 11
 apis:
 - description: Manage affiliate groups
   name: Tapfiliate Affiliate Groups API
@@ -69,7 +70,48 @@ apis:
 - description: Manage affiliate programs and program affiliates
   name: Tapfiliate Programs API
   slug: tapfiliate-programs-api
-artifact_total: 25
+- description: Official remote Model Context Protocol server for Tapfiliate, announced 2026-08-07. A read-only analytics surface over live account data — clicks, conversions, customers, revenue, commissions, payouts
+  name: Tapfiliate MCP Server
+  slug: tapfiliate-mcp-server
+artifact_total: 40
+asyncapis:
+- description: ''
+  name: Tapfiliate Webhooks
+  slug: tapfiliate-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups API
+  slug: open-tapfiliate-affiliate-groups-api
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups Affiliate Prospects API
+  slug: open-tapfiliate-affiliate-prospects-api
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups Affiliates API
+  slug: open-tapfiliate-affiliates-api
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups Balances API
+  slug: open-tapfiliate-balances-api
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups Clicks API
+  slug: open-tapfiliate-clicks-api
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups Commissions API
+  slug: open-tapfiliate-commissions-api
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups Conversions API
+  slug: open-tapfiliate-conversions-api
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups Customers API
+  slug: open-tapfiliate-customers-api
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups Payments API
+  slug: open-tapfiliate-payments-api
+- collection_type: open
+  name: Tapfiliate REST Affiliate Groups Programs API
+  slug: open-tapfiliate-programs-api
 common:
 - group: agent
   title: ''
@@ -139,6 +181,102 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/tapfiliate-context.jsonld
+- group: build
+  title: ''
+  type: Packages
+  url: packages/tapfiliate-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/tapfiliate-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/tapfiliate-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/tapfiliate-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/tapfiliate-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/tapfiliate-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/tapfiliate-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/tapfiliate-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/tapfiliate-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/tapfiliate-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/tapfiliate-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/tapfiliate-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/tapfiliate-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/tapfiliate-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/tapfiliate-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/tapfiliate-llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://tapfiliate.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://tapfiliate.com/docs/rest/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://tapfiliate.com/docs/integrations/rest-api/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.tapfiliate.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://tapfiliate.com/signup/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://tapfiliate.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://tapfiliate.com/privacy/
 created: 2026-06-13
 description: Tapfiliate is an affiliate tracking and management platform with a REST API for creating affiliate programs, managing affiliates, tracking conversions, and handling commission payouts. The API is versioned at V1.6 and uses API key authentication via the X-Api-Key header.
 examples:
@@ -172,22 +310,26 @@ jsonld:
   property_count: 0
   slug: tapfiliate-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: tapfiliate-mcp.yml
+  slug: tapfiliate-mcpyml
+modified: 2026-08-13
 name: Tapfiliate
 nav: Providers
 network: true
 overview: 'Tapfiliate publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Affiliate Groups API, Affiliate Prospects API, Affiliates API, and 7 more. Tagged areas include Affiliate Marketing, Affiliate Tracking, Commission Management, Conversion Tracking, and Partner Programs.
 
 
-  The Tapfiliate catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Tapfiliate catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Tapfiliate''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Tapfiliate''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Tapfiliate Plans Pricing
   plan_count: 3
   slug: tapfiliate-plans-pricing
-random_paper: 99
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Tapfiliate Rate Limits
@@ -201,17 +343,22 @@ rules:
     info: 1
     warn: 4
   slug: tapfiliate-jsonschema-spectral-rules
+scopes:
+- name: Tapfiliate Scopes
+  scope_count: 4
+  slug: tapfiliate-scopes
+  summary_line: 4 scopes
 score:
-  band: developing
-  composite: 49.5
-  delta: 0.0
+  band: exemplar
+  composite: 77.1
+  delta: 27.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 67.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 21.1
+    commercial_clarity: 84.2
+    contract_quality: 76.1
+    developer_ergonomics: 80.4
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 39.5
   previous_composite: 49.5
   provenance:
     agentic_access: derived
@@ -221,14 +368,14 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/screenshots/tapfiliate-2026-06-20T194920.png
 security:
 - kind: authentication
   name: Tapfiliate Authentication
   slug: tapfiliate-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Tapfiliate Domain Security
   slug: tapfiliate-domain-security

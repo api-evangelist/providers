@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -86,8 +86,59 @@ apis:
 - description: The Utilities API from National Archives and Records Administration (NARA) — 1 operation(s) for utilities.
   name: National Archives and Records Administration (NARA) Utilities API
   slug: national-archives-and-records-administration-nara--utilities-api
-artifact_total: 22
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NextGen Catalog Accounts API
+  slug: open-national-archives-and-records-administration-nara--accounts-api
+- collection_type: open
+  name: NextGen Catalog Accounts Announcements API
+  slug: open-national-archives-and-records-administration-nara--announcements-api
+- collection_type: open
+  name: NextGen Catalog Accounts Comments API
+  slug: open-national-archives-and-records-administration-nara--comments-api
+- collection_type: open
+  name: NextGen Catalog Accounts Contributions API
+  slug: open-national-archives-and-records-administration-nara--contributions-api
+- collection_type: open
+  name: NextGen Catalog Accounts Extracted Text API
+  slug: open-national-archives-and-records-administration-nara--extracted-text-api
+- collection_type: open
+  name: NextGen Catalog Accounts Justifications API
+  slug: open-national-archives-and-records-administration-nara--justifications-api
+- collection_type: open
+  name: NextGen Catalog Accounts Metadata API
+  slug: open-national-archives-and-records-administration-nara--metadata-api
+- collection_type: open
+  name: NextGen Catalog Accounts Online Availability API
+  slug: open-national-archives-and-records-administration-nara--online-availability-api
+- collection_type: open
+  name: NextGen Catalog Accounts Other Extracted Text API
+  slug: open-national-archives-and-records-administration-nara--other-extracted-text-api
+- collection_type: open
+  name: NextGen Catalog Accounts Partner API
+  slug: open-national-archives-and-records-administration-nara--partner-api
+- collection_type: open
+  name: NextGen Catalog Accounts Records API
+  slug: open-national-archives-and-records-administration-nara--records-api
+- collection_type: open
+  name: NextGen Catalog Accounts Statistics API
+  slug: open-national-archives-and-records-administration-nara--statistics-api
+- collection_type: open
+  name: NextGen Catalog Accounts Tags API
+  slug: open-national-archives-and-records-administration-nara--tags-api
+- collection_type: open
+  name: NextGen Catalog Accounts Transcriptions API
+  slug: open-national-archives-and-records-administration-nara--transcriptions-api
+- collection_type: open
+  name: NextGen Catalog Accounts Users API
+  slug: open-national-archives-and-records-administration-nara--users-api
+- collection_type: open
+  name: NextGen Catalog Accounts Utilities API
+  slug: open-national-archives-and-records-administration-nara--utilities-api
 - collection_type: open
   name: NextGen Catalog API
   slug: open-national-archives-and-records-administration-nara-
@@ -136,7 +187,7 @@ plans:
 - name: National Archives And Records Administration Nara  Plans Pricing
   plan_count: 3
   slug: national-archives-and-records-administration-nara--plans-pricing
-random_paper: 46
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: National Archives And Records Administration Nara  Rate Limits
@@ -167,7 +218,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/screenshots/national-archives-and-records-administration-nara--2026-06-20T190001.png
 security:

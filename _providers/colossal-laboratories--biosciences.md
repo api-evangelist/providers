@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -58,7 +58,38 @@ apis:
 - description: The Users API from Colossal Laboratories & Biosciences — 3 operation(s) for users.
   name: Colossal Laboratories & Biosciences Users API
   slug: colossal-laboratories--biosciences-users-api
-artifact_total: 14
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Colossal Content API (WordPress REST wp/v2) Comments API
+  slug: open-colossal-laboratories--biosciences-comments-api
+- collection_type: open
+  name: Colossal Content API (WordPress REST wp/v2) Discovery API
+  slug: open-colossal-laboratories--biosciences-discovery-api
+- collection_type: open
+  name: Colossal Content API (WordPress REST wp/v2) Media API
+  slug: open-colossal-laboratories--biosciences-media-api
+- collection_type: open
+  name: Colossal Content API (WordPress REST wp/v2) Pages API
+  slug: open-colossal-laboratories--biosciences-pages-api
+- collection_type: open
+  name: Colossal Content API (WordPress REST wp/v2) Posts API
+  slug: open-colossal-laboratories--biosciences-posts-api
+- collection_type: open
+  name: Colossal Content API (WordPress REST wp/v2) Search API
+  slug: open-colossal-laboratories--biosciences-search-api
+- collection_type: open
+  name: Colossal Content API (WordPress REST wp/v2) Settings API
+  slug: open-colossal-laboratories--biosciences-settings-api
+- collection_type: open
+  name: Colossal Content API (WordPress REST wp/v2) Taxonomy API
+  slug: open-colossal-laboratories--biosciences-taxonomy-api
+- collection_type: open
+  name: Colossal Content API (WordPress REST wp/v2) Users API
+  slug: open-colossal-laboratories--biosciences-users-api
 common:
 - group: other
   title: ''
@@ -185,7 +216,7 @@ overview: 'Colossal Laboratories & Biosciences publishes 9 APIs on the [APIs.io]
 
 
   Colossal Laboratories & Biosciences'' developer surface includes engineering blog, product news, authentication, and 24 more developer resources.'
-random_paper: 85
+random_paper: 18
 score:
   band: emerging
   composite: 21.9
@@ -215,7 +246,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 2
@@ -121,7 +121,86 @@ arazzos:
 - description: Create a supplier site, run validation and screening, then read its risk alerts.
   name: Onboard and monitor a supplier
   slug: prewave-onboard-and-monitor-supplier
-artifact_total: 32
+artifact_total: 58
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Prewave Actions API
+  slug: open-prewave-actions-api
+- collection_type: open
+  name: Public Prewave Actions Alerts API
+  slug: open-prewave-alerts-api
+- collection_type: open
+  name: Public Prewave Actions Collections - Management API
+  slug: open-prewave-collections-management-api
+- collection_type: open
+  name: Public Prewave Actions Collections - Network API
+  slug: open-prewave-collections-network-api
+- collection_type: open
+  name: Public Prewave Actions Collections - Targets API
+  slug: open-prewave-collections-targets-api
+- collection_type: open
+  name: Public Prewave Actions Collections - Tier-N API
+  slug: open-prewave-collections-tier-n-api
+- collection_type: open
+  name: Public Prewave Actions Disruptions API
+  slug: open-prewave-disruptions-api
+- collection_type: open
+  name: Public Prewave Actions EUDR - Customers - DDS API
+  slug: open-prewave-eudr-customers-dds-api
+- collection_type: open
+  name: Public Prewave Actions EUDR - Customers - Origin Requests API
+  slug: open-prewave-eudr-customers-origin-requests-api
+- collection_type: open
+  name: Public Prewave Actions EUDR - Customers - Products API
+  slug: open-prewave-eudr-customers-products-api
+- collection_type: open
+  name: Public Prewave Actions EUDR - Customers - Suppliers API
+  slug: open-prewave-eudr-customers-suppliers-api
+- collection_type: open
+  name: Public Prewave Actions EUDR - Shared API
+  slug: open-prewave-eudr-shared-api
+- collection_type: open
+  name: Public Prewave Actions EUDR - Suppliers API
+  slug: open-prewave-eudr-suppliers-api
+- collection_type: open
+  name: Public Prewave Actions Exposure API
+  slug: open-prewave-exposure-api
+- collection_type: open
+  name: Public Prewave Actions Infotags API
+  slug: open-prewave-infotags-api
+- collection_type: open
+  name: Public Prewave Actions Scores - Enterprise Export API
+  slug: open-prewave-scores-enterprise-export-api
+- collection_type: open
+  name: Public Prewave Actions Scores - Externals API
+  slug: open-prewave-scores-externals-api
+- collection_type: open
+  name: Public Prewave Actions Scores - Target API
+  slug: open-prewave-scores-target-api
+- collection_type: open
+  name: Public Prewave Actions Suppliers - Connection Contacts API
+  slug: open-prewave-suppliers-connection-contacts-api
+- collection_type: open
+  name: Public Prewave Actions Suppliers - Management API
+  slug: open-prewave-suppliers-management-api
+- collection_type: open
+  name: Public Prewave Actions Suppliers - Sites API
+  slug: open-prewave-suppliers-sites-api
+- collection_type: open
+  name: Public Prewave Actions Suppliers - Sites Upsert API
+  slug: open-prewave-suppliers-sites-upsert-api
+- collection_type: open
+  name: Public Prewave Actions Suppliers - Supplier Graph API
+  slug: open-prewave-suppliers-supplier-graph-api
+- collection_type: open
+  name: Public Prewave Actions Users API
+  slug: open-prewave-users-api
+- collection_type: open
+  name: Public Prewave Actions Users - Roles API
+  slug: open-prewave-users-roles-api
 common:
 - group: other
   title: ''
@@ -243,7 +322,7 @@ overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Prewave''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 21 more developer resources.'
-random_paper: 42
+random_paper: 17
 score:
   band: developing
   composite: 44.6
@@ -267,7 +346,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

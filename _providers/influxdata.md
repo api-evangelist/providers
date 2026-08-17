@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 0
@@ -174,7 +174,146 @@ apis:
 - description: Write time series data to [buckets](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#bucket).
   name: InfluxData Write API
   slug: influxdata-write-api
-artifact_total: 51
+artifact_total: 97
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Authorizations (API tokens) API
+  slug: open-influxdata-authorizations-api-tokens-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Backup API
+  slug: open-influxdata-backup-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Bucket Schemas API
+  slug: open-influxdata-bucket-schemas-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Buckets API
+  slug: open-influxdata-buckets-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Cells API
+  slug: open-influxdata-cells-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Checks API
+  slug: open-influxdata-checks-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Config API
+  slug: open-influxdata-config-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Dashboards API
+  slug: open-influxdata-dashboards-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Data I/O endpoints API
+  slug: open-influxdata-data-i-o-endpoints-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) DBRPs API
+  slug: open-influxdata-dbrps-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Debug API
+  slug: open-influxdata-debug-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Delete API
+  slug: open-influxdata-delete-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Health API
+  slug: open-influxdata-health-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Labels API
+  slug: open-influxdata-labels-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Limits API
+  slug: open-influxdata-limits-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Metrics API
+  slug: open-influxdata-metrics-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) NotificationEndpoints API
+  slug: open-influxdata-notificationendpoints-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) NotificationRules API
+  slug: open-influxdata-notificationrules-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Organizations API
+  slug: open-influxdata-organizations-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Ping API
+  slug: open-influxdata-ping-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Query API
+  slug: open-influxdata-query-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Ready API
+  slug: open-influxdata-ready-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) RemoteConnections API
+  slug: open-influxdata-remoteconnections-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Replications API
+  slug: open-influxdata-replications-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Resources API
+  slug: open-influxdata-resources-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Restore API
+  slug: open-influxdata-restore-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Routes API
+  slug: open-influxdata-routes-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Rules API
+  slug: open-influxdata-rules-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Scraper Targets API
+  slug: open-influxdata-scraper-targets-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Secrets API
+  slug: open-influxdata-secrets-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Security and access endpoints API
+  slug: open-influxdata-security-and-access-endpoints-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Setup API
+  slug: open-influxdata-setup-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Signin API
+  slug: open-influxdata-signin-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Signout API
+  slug: open-influxdata-signout-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Sources API
+  slug: open-influxdata-sources-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) System information endpoints API
+  slug: open-influxdata-system-information-endpoints-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Tasks API
+  slug: open-influxdata-tasks-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Telegraf Plugins API
+  slug: open-influxdata-telegraf-plugins-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Telegrafs API
+  slug: open-influxdata-telegrafs-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Templates API
+  slug: open-influxdata-templates-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Usage API
+  slug: open-influxdata-usage-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Users API
+  slug: open-influxdata-users-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Variables API
+  slug: open-influxdata-variables-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Views API
+  slug: open-influxdata-views-api
+- collection_type: open
+  name: InfluxDB Cloud API Service Authorizations (API tokens) Authorizations (API tokens) Write API
+  slug: open-influxdata-write-api
 common:
 - group: other
   title: ''
@@ -336,7 +475,7 @@ overview: 'InfluxData publishes 45 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   InfluxData''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 112
+random_paper: 29
 score:
   band: developing
   composite: 52.1
@@ -360,7 +499,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/screenshots/influxdata-2026-07-25T222417.png
 security:

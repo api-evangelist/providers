@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 8
 common:
@@ -150,7 +150,7 @@ plans:
 - name: Tvbeat Plans Pricing
   plan_count: 0
   slug: tvbeat-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Tvbeat Rate Limits
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.6
-  delta: 13.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -166,10 +166,10 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 42.1
-  previous_composite: 11.6
+  previous_composite: 24.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Tvbeat Authentication

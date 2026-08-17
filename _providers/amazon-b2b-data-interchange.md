@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: Manage EDI transformers for document conversion
   name: Amazon B2B Data Interchange Transformers API
   slug: amazon-b2b-data-interchange-transformers-api
-artifact_total: 22
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS B2B Data Interchange Capabilities API
+  slug: open-amazon-b2b-data-interchange-capabilities-api
+- collection_type: open
+  name: AWS B2B Data Interchange Capabilities Partnerships API
+  slug: open-amazon-b2b-data-interchange-partnerships-api
+- collection_type: open
+  name: AWS B2B Data Interchange Capabilities Profiles API
+  slug: open-amazon-b2b-data-interchange-profiles-api
+- collection_type: open
+  name: AWS B2B Data Interchange Capabilities Tags API
+  slug: open-amazon-b2b-data-interchange-tags-api
+- collection_type: open
+  name: AWS B2B Data Interchange Capabilities Testing API
+  slug: open-amazon-b2b-data-interchange-testing-api
+- collection_type: open
+  name: AWS B2B Data Interchange Capabilities Transformers API
+  slug: open-amazon-b2b-data-interchange-transformers-api
 common:
 - group: agent
   title: ''
@@ -184,7 +206,7 @@ overview: 'Amazon B2B Data Interchange publishes 6 APIs on the [APIs.io](https:/
 
 
   Amazon B2B Data Interchange''s developer surface includes authentication, CLI, SDKs, pricing, and 14 more developer resources.'
-random_paper: 77
+random_paper: 64
 rules:
 - name: Amazon B2B Data Interchange API Rules
   rule_count: 5
@@ -222,7 +244,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/screenshots/amazon-b2b-data-interchange-2026-07-25T195932.png
 security:

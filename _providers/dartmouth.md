@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,7 +65,32 @@ apis:
 - description: The Queryable API from Dartmouth College — 1 operation(s) for queryable.
   name: Dartmouth College Queryable API
   slug: dartmouth-queryable-api
-artifact_total: 22
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hub Search Catalog API
+  slug: open-dartmouth-catalog-api
+- collection_type: open
+  name: Hub Search Catalog Collection API
+  slug: open-dartmouth-collection-api
+- collection_type: open
+  name: Hub Search Catalog OgcItem API
+  slug: open-dartmouth-ogcitem-api
+- collection_type: open
+  name: Hub Search Catalog OgcItemAggregation API
+  slug: open-dartmouth-ogcitemaggregation-api
+- collection_type: open
+  name: Hub Search Catalog OgcRoot API
+  slug: open-dartmouth-ogcroot-api
+- collection_type: open
+  name: Hub Search Catalog OgcRootConformance API
+  slug: open-dartmouth-ogcrootconformance-api
+- collection_type: open
+  name: Hub Search Catalog Queryable API
+  slug: open-dartmouth-queryable-api
 common:
 - group: agent
   title: ''
@@ -169,7 +194,7 @@ plans:
 - name: Dartmouth Plans Pricing
   plan_count: 2
   slug: dartmouth-plans-pricing
-random_paper: 24
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Dartmouth Rate Limits
@@ -217,7 +242,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/screenshots/dartmouth-2026-07-25T211220.png
 security:

@@ -1,14 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup with published list pricing
   onboarding: self-serve
-  pricing: unknown
-  public: false
+  pricing: freemium
+  public: true
   source:
-  - authentication
-  trial: false
-  try_now: false
+  - https://www.enigma.com/pricing
+  - plans/enigma-analytics-plans-pricing.yml
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -18,32 +19,33 @@ agent_readiness:
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 30.4
+  scored_at: '2026-08-17'
+api_count: 4
 apis:
 - description: 'Enigma''s primary programmatic surface: a Relay-style GraphQL API over the business knowledge graph. Query Brand, LegalEntity, OperatingLocation, Address, Person, and Industry entities via connection-b'
   name: Enigma GraphQL API
   slug: enigma-graphql-api
-artifact_total: 6
+- description: REST endpoint for Know Your Business verification. POST a business name, address, website, TIN and/or person and receive identity matching and compliance validation. The `identify` package returns bas
+  name: Enigma KYB REST API
+  slug: enigma-kyb-rest-api
+- description: REST endpoint for screening persons and organizations against sanctions, PEP and watchlist databases. Accepts a batch of ENTITY searches carrying person_name and/or org_name descriptions and returns m
+  name: Enigma Screen API
+  slug: enigma-screen-api
+- description: Remote Model Context Protocol server for U.S. business intelligence — entity resolution, KYB verification, sanctions and negative-news screening, card-transaction analytics and public-records search —
+  name: Enigma MCP Server
+  slug: enigma-mcp-server
+artifact_total: 12
 common:
-- group: auth
-  title: ''
-  type: TrustCenter
-  url: security/enigma-analytics-trust-center.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/enigma-analytics-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -76,6 +78,10 @@ common:
   title: ''
   type: Pricing
   url: https://www.enigma.com/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/enigma-analytics-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -84,6 +90,10 @@ common:
   title: ''
   type: Support
   url: https://www.enigma.com/contact-us
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/enigma-io
 - group: operate
   title: ''
   type: StatusPage
@@ -104,14 +114,34 @@ common:
   title: ''
   type: Compliance
   url: https://www.enigma.com/legal/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/enigma-analytics-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/enigma-analytics-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/enigma-analytics-vulnerability-disclosure.yml
 - group: agent
   title: ''
   type: MCPServer
   url: mcp/enigma-analytics-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/enigma-analytics-tool-crosswalk.yml
 - group: auth
   title: ''
   type: Authentication
   url: authentication/enigma-analytics-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/enigma-analytics-scopes.yml
 - group: agent
   title: ''
   type: WellKnown
@@ -120,10 +150,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/enigma-analytics-security.txt
-- group: auth
-  title: ''
-  type: VulnerabilityDisclosure
-  url: security/enigma-analytics-vulnerability-disclosure.yml
 - group: design
   title: ''
   type: Conformance
@@ -140,6 +166,22 @@ common:
   title: ''
   type: DataModel
   url: data-model/enigma-analytics-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/enigma-analytics-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/enigma-analytics-rate-limits.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/enigma-analytics-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/enigma-analytics-packages.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -149,47 +191,60 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
-description: Enigma Analytics (Enigma Technologies) operates a knowledge graph of every U.S. business — 100M+ business registrations and 2B+ relationships spanning brands, legal entities, operating locations, addresses, and the people behind them. Enigma exposes this business identity infrastructure through a Relay-style GraphQL API, a hosted Console, and a remote MCP server, powering Know Your Business (KYB) onboarding, sanctions and watchlist screening, negative-news and government-archive checks, TIN verification, card-transaction analytics, and payment underwriting and go-to-market signals for banks, fintechs, and payments platforms.
+description: Enigma Analytics (Enigma Technologies) operates a knowledge graph of every U.S. business — 100M+ business registrations and 2B+ relationships spanning brands, legal entities, operating locations, addresses, and the people behind them, enriched with 750M+ anonymized cards and 30B+ annual card transactions. Enigma exposes this business identity infrastructure through three developer surfaces — a Relay-style GraphQL API, a KYB REST API, and a sanctions Screen API — plus a hosted Console and an OAuth 2.1 remote MCP server, powering Know Your Business (KYB) onboarding, sanctions and watchlist screening, negative-news and government-archive checks, TIN and SSN verification, card-transaction analytics, and payment underwriting and go-to-market signals for banks, fintechs, and payments platforms. Pricing is published and self-serve, metered in credits at one cent each.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enigma-analytics.png
 layout: provider
 mcp_servers:
 - description: ''
   name: enigma-analytics-mcp.yml
   slug: enigma-analytics-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Enigma Analytics
 nav: Providers
 network: true
-overview: 'Enigma Analytics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Data, KYB, Identity Verification, and Compliance.
+overview: 'Enigma Analytics publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Data, KYB, Identity Verification, and Compliance.
 
 
-  Enigma Analytics'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 78
+  Enigma Analytics'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 29 more developer resources.'
+plans:
+- name: Enigma Analytics Plans Pricing
+  plan_count: 4
+  slug: enigma-analytics-plans-pricing
+random_paper: 148
+rate_limits:
+- limit_count: 12
+  name: Enigma Analytics Rate Limits
+  slug: enigma-analytics-rate-limits
+scopes:
+- name: Enigma Analytics Scopes
+  scope_count: 0
+  slug: enigma-analytics-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 38.2
-  delta: 0.0
+  band: developing
+  composite: 51.2
+  delta: 13.0
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 0.0
-    developer_ergonomics: 62.5
-    discoverability: 87.0
+    developer_ergonomics: 69.0
+    discoverability: 92.6
     governance: 12.5
-    operational_transparency: 26.3
+    operational_transparency: 63.2
   previous_composite: 38.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/screenshots/enigma-analytics-2026-07-25T213359.png
 security:
 - kind: authentication
   name: Enigma Analytics Authentication
   slug: enigma-analytics-authentication
-  summary_line: apiKey/bearer · 2 schemes
+  summary_line: apiKey/oauth2/http · 4 schemes
 - kind: domain-security
   name: Enigma Analytics Domain Security
   slug: enigma-analytics-domain-security
@@ -214,5 +269,7 @@ tags:
 - Fintech
 - Data Enrichment
 - MCP
+- Agent Skills
+- Payments Risk
 website: https://www.enigma.com
 ---

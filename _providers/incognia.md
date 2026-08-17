@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Login and payment risk assessment
   name: Incognia Transactions API
   slug: incognia-transactions-api
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Incognia Authentication API
+  slug: open-incognia-authentication-api
+- collection_type: open
+  name: Incognia Authentication Feedback API
+  slug: open-incognia-feedback-api
+- collection_type: open
+  name: Incognia Authentication Onboarding API
+  slug: open-incognia-onboarding-api
+- collection_type: open
+  name: Incognia Authentication Transactions API
+  slug: open-incognia-transactions-api
 common:
 - group: other
   title: ''
@@ -180,7 +196,7 @@ overview: 'Incognia publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Incognia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 0
+random_paper: 95
 scopes:
 - name: Incognia Scopes
   scope_count: 0
@@ -209,7 +225,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/screenshots/incognia-2026-07-25T222233.png
 security:

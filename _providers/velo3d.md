@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Sapphire family (Sapphire, Sapphire XC, Sapphire 1MZ) of laser powder bed fusion metal 3D printers, using multiple 1-kilowatt lasers to produce large-format support-free parts. Product feature - n
@@ -43,8 +43,11 @@ apis:
 - description: The Intelligent Fusion manufacturing process that integrates the Sapphire printers, Flow, and Assure into an end-to-end metal additive-manufacturing workflow. Process technology - no documented public
   name: Velo3D Intelligent Fusion
   slug: intelligent-fusion
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Velo3D
   slug: open-velo3d
@@ -101,7 +104,7 @@ plans:
 - name: Velo3D Plans Pricing
   plan_count: 2
   slug: velo3d-plans-pricing
-random_paper: 109
+random_paper: 142
 rate_limits:
 - limit_count: 0
   name: Velo3D Rate Limits
@@ -119,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/screenshots/velo3d-2026-06-20T200904.png
 security:

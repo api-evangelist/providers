@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: Browser-based Caris+Portal landing surface.
   name: Caris Life Sciences Portal API
   slug: caris-life-sciences-portal-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Caris Life Sciences (Public Surface) Information API
+  slug: open-caris-life-sciences-information-api
+- collection_type: open
+  name: Caris Life Sciences (Public Surface) Information Portal API
+  slug: open-caris-life-sciences-portal-api
 - collection_type: open
   name: Caris Life Sciences (Public Surface)
   slug: open-caris-life-sciences
@@ -102,7 +111,7 @@ plans:
 - name: Caris Life Sciences Plans Pricing
   plan_count: 2
   slug: caris-life-sciences-plans-pricing
-random_paper: 81
+random_paper: 93
 rate_limits:
 - limit_count: 3
   name: Caris Life Sciences Rate Limits
@@ -133,7 +142,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/screenshots/caris-life-sciences-2026-06-20T174006.png
 security:

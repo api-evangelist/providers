@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Create, retrieve, update, and delete linked connectors for a tenant.
   name: Hotglue Linked Connectors API
   slug: hotglue-linked-connectors-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hotglue API V2 Connector Metadata API
+  slug: open-hotglue-connector-metadata-api
+- collection_type: open
+  name: Hotglue API V2 Connector Metadata Connector State API
+  slug: open-hotglue-connector-state-api
+- collection_type: open
+  name: Hotglue API V2 Connector Metadata Discover API
+  slug: open-hotglue-discover-api
+- collection_type: open
+  name: Hotglue API V2 Connector Metadata Jobs API
+  slug: open-hotglue-jobs-api
+- collection_type: open
+  name: Hotglue API V2 Connector Metadata Linked Connectors API
+  slug: open-hotglue-linked-connectors-api
 - collection_type: open
   name: Hotglue API V2
   slug: open-hotglue
@@ -139,7 +157,7 @@ plans:
 - name: Hotglue Plans Pricing
   plan_count: 3
   slug: hotglue-plans-pricing
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Hotglue Rate Limits
@@ -164,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/screenshots/hotglue-2026-06-20T182845.png
 security:

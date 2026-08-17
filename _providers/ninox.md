@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 15
@@ -60,7 +60,26 @@ arazzos:
 - description: Create a module in a workspace, add a table, and define its fields.
   name: Ninox — Provision a module with tables and fields
   slug: ninox-provision-module
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ninox Public Fields API
+  slug: open-ninox-fields-api
+- collection_type: open
+  name: Ninox Public Fields Modules API
+  slug: open-ninox-modules-api
+- collection_type: open
+  name: Ninox Public Fields Records API
+  slug: open-ninox-records-api
+- collection_type: open
+  name: Ninox Public Fields Tables API
+  slug: open-ninox-tables-api
+- collection_type: open
+  name: Ninox Public Fields Workspace API
+  slug: open-ninox-workspace-api
 common:
 - group: other
   title: ''
@@ -202,7 +221,7 @@ overview: 'Ninox publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Ninox''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 76
+random_paper: 109
 score:
   band: developing
   composite: 48.5
@@ -226,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/screenshots/ninox-2026-08-07T185329.png
 security:

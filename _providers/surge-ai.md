@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -81,8 +81,20 @@ apis:
 - description: The Teams API from Surge AI — 1 operation(s) for teams.
   name: Surge AI Teams API
   slug: surge-ai-teams-api
-artifact_total: 40
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Surge AI Projects API
+  slug: open-surge-ai-projects-api
+- collection_type: open
+  name: Surge AI Projects Tasks API
+  slug: open-surge-ai-tasks-api
+- collection_type: open
+  name: Surge AI Projects Teams API
+  slug: open-surge-ai-teams-api
 - collection_type: open
   name: Surge AI API
   slug: open-surge-ai
@@ -205,7 +217,7 @@ plans:
 - name: Surge Ai Plans Pricing
   plan_count: 1
   slug: surge-ai-plans-pricing
-random_paper: 77
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Surge Ai Rate Limits
@@ -230,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/screenshots/surge-ai-2026-06-20T194733.png
 security:

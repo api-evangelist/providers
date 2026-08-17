@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Genspark's hosted (remote) Model Context Protocol server, exposing Genspark's AI agent tools, resources, and prompts to MCP-capable clients over HTTP under OAuth 2.1.
@@ -104,7 +104,7 @@ overview: 'Genspark publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Genspark''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
-random_paper: 19
+random_paper: 114
 scopes:
 - name: Genspark Scopes
   scope_count: 4
@@ -126,7 +126,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/screenshots/genspark-2026-07-25T215631.png
 security:

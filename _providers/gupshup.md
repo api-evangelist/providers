@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,20 @@ apis:
 - description: Send and list WhatsApp template (HSM) messages.
   name: Gupshup Templates API
   slug: gupshup-templates-api
-artifact_total: 13
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gupshup WhatsApp Business Messaging API
+  slug: open-gupshup-messaging-api
+- collection_type: open
+  name: Gupshup WhatsApp Business Messaging Opt-In API
+  slug: open-gupshup-opt-in-api
+- collection_type: open
+  name: Gupshup WhatsApp Business Messaging Templates API
+  slug: open-gupshup-templates-api
 - collection_type: open
   name: Gupshup WhatsApp Business API
   slug: open-gupshup
@@ -123,7 +135,7 @@ plans:
 - name: Gupshup Plans Pricing
   plan_count: 4
   slug: gupshup-plans-pricing
-random_paper: 60
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Gupshup Rate Limits
@@ -154,7 +166,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/screenshots/gupshup-2026-07-25T220436.png
 security:

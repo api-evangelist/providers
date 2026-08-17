@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Browse, search, and list radio stations.
   name: Radio Browser Stations API
   slug: radio-browser-stations-api
-artifact_total: 40
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Radio Browser Categories API
+  slug: open-radio-browser-categories-api
+- collection_type: open
+  name: Radio Browser Categories Interactions API
+  slug: open-radio-browser-interactions-api
+- collection_type: open
+  name: Radio Browser Categories Service API
+  slug: open-radio-browser-service-api
+- collection_type: open
+  name: Radio Browser Categories Stations API
+  slug: open-radio-browser-stations-api
 - collection_type: open
   name: Radio Browser API
   slug: open-radio-browser
@@ -221,7 +236,7 @@ plans:
 - name: Radio Browser Plans Pricing
   plan_count: 1
   slug: radio-browser-plans-pricing
-random_paper: 24
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Radio Browser Rate Limits
@@ -269,7 +284,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/screenshots/radio-browser-2026-06-20T192514.png
 security:

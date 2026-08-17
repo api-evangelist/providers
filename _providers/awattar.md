@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: EPEX Spot electricity market price data
   name: aWATTar Market Data API
   slug: awattar-market-data-api
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: aWATTar Market Data API
+  slug: open-awattar-market-data-api
 common:
 - group: agent
   title: ''
@@ -123,7 +130,7 @@ plans:
 - name: Awattar Plans Pricing
   plan_count: 1
   slug: awattar-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Awattar Rate Limits
@@ -163,7 +170,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/awattar/refs/heads/main/screenshots/awattar-2026-06-20T172732.png
 security:

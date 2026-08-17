@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -57,8 +57,29 @@ apis:
 - description: The Subscriptions API from Microsoft Office Integration — 5 operation(s) for subscriptions.
   name: Microsoft Office Integration Subscriptions API
   slug: microsoft-office-integration-subscriptions-api
-artifact_total: 23
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Office Integration Microsoft Office 365 Management Activity CurrentStatus API
+  slug: open-microsoft-office-integration-currentstatus-api
+- collection_type: open
+  name: Microsoft Office Integration Microsoft Office 365 Management Activity CurrentStatus HistoricalStatus API
+  slug: open-microsoft-office-integration-historicalstatus-api
+- collection_type: open
+  name: Microsoft Office Integration Microsoft Office 365 Management Activity CurrentStatus Messages API
+  slug: open-microsoft-office-integration-messages-api
+- collection_type: open
+  name: Microsoft Office Integration Microsoft Office 365 Management Activity CurrentStatus Resources API
+  slug: open-microsoft-office-integration-resources-api
+- collection_type: open
+  name: Microsoft Office Integration Microsoft Office 365 Management Activity CurrentStatus Services API
+  slug: open-microsoft-office-integration-services-api
+- collection_type: open
+  name: Microsoft Office Integration Microsoft Office 365 Management Activity CurrentStatus Subscriptions API
+  slug: open-microsoft-office-integration-subscriptions-api
 - collection_type: open
   name: Microsoft Office Integration Microsoft Office 365 Management Activity API
   slug: open-microsoft-office-management-activity-api
@@ -149,7 +170,7 @@ plans:
 - name: Microsoft Office Integration Plans Pricing
   plan_count: 3
   slug: microsoft-office-integration-plans-pricing
-random_paper: 0
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Integration Rate Limits
@@ -183,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/screenshots/microsoft-office-integration-2026-06-20T185512.png
 security:

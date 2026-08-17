@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -194,11 +194,167 @@ apis:
 - description: Trunk management operations
   name: Nfon trunks API
   slug: nfon-trunks-api
-artifact_total: 57
+artifact_total: 109
 collections:
 - collection_type: postman
   name: __Official Service Portal API Collection
   slug: postman-nfon-service-portal-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NFON Call History Accounts API
+  slug: open-nfon-accounts-api
+- collection_type: open
+  name: NFON Call History Accounts address API
+  slug: open-nfon-address-api
+- collection_type: open
+  name: NFON Call History Accounts authentication API
+  slug: open-nfon-authentication-api
+- collection_type: open
+  name: NFON Call History Accounts Blacklist Profiles API
+  slug: open-nfon-blacklist-profiles-api
+- collection_type: open
+  name: NFON Call History Accounts clip-screened-prefixes API
+  slug: open-nfon-clip-screened-prefixes-api
+- collection_type: open
+  name: NFON Call History Accounts Contract Types API
+  slug: open-nfon-contract-types-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Announcements API
+  slug: open-nfon-customer-announcements-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Conference API
+  slug: open-nfon-customer-conference-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Contracts API
+  slug: open-nfon-customer-contracts-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Device Types API
+  slug: open-nfon-customer-device-types-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Devices API
+  slug: open-nfon-customer-devices-api
+- collection_type: open
+  name: NFON Call History Accounts Customer DIDs API
+  slug: open-nfon-customer-dids-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Extensions API
+  slug: open-nfon-customer-extensions-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Frontdesk API
+  slug: open-nfon-customer-frontdesk-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Groups API
+  slug: open-nfon-customer-groups-api
+- collection_type: open
+  name: NFON Call History Accounts Customer IP Whitelist API
+  slug: open-nfon-customer-ip-whitelist-api
+- collection_type: open
+  name: NFON Call History Accounts Customer IVR API
+  slug: open-nfon-customer-ivr-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Lync API
+  slug: open-nfon-customer-lync-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Phone Books API
+  slug: open-nfon-customer-phone-books-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Queues API
+  slug: open-nfon-customer-queues-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Routers API
+  slug: open-nfon-customer-routers-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Sites API
+  slug: open-nfon-customer-sites-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Skills API
+  slug: open-nfon-customer-skills-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Speed Dials API
+  slug: open-nfon-customer-speed-dials-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Targets API
+  slug: open-nfon-customer-targets-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Time Controls API
+  slug: open-nfon-customer-time-controls-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Trunks API
+  slug: open-nfon-customer-trunks-api
+- collection_type: open
+  name: NFON Call History Accounts Customer Voice Recording API
+  slug: open-nfon-customer-voice-recording-api
+- collection_type: open
+  name: NFON Call History Accounts Customers API
+  slug: open-nfon-customers-api
+- collection_type: open
+  name: NFON Call History Accounts Device IDs API
+  slug: open-nfon-device-ids-api
+- collection_type: open
+  name: NFON Call History Accounts Device Types API
+  slug: open-nfon-device-types-api
+- collection_type: open
+  name: NFON Call History Accounts Devices API
+  slug: open-nfon-devices-api
+- collection_type: open
+  name: NFON Call History Accounts Direct Calls API
+  slug: open-nfon-direct-calls-api
+- collection_type: open
+  name: NFON Call History Accounts import-export API
+  slug: open-nfon-import-export-api
+- collection_type: open
+  name: NFON Call History Accounts Integration Types API
+  slug: open-nfon-integration-types-api
+- collection_type: open
+  name: NFON Call History Accounts licenses API
+  slug: open-nfon-licenses-api
+- collection_type: open
+  name: NFON Call History Accounts Operators API
+  slug: open-nfon-operators-api
+- collection_type: open
+  name: NFON Call History Accounts PBX Groups API
+  slug: open-nfon-pbx-groups-api
+- collection_type: open
+  name: NFON Call History Accounts phone extensions API
+  slug: open-nfon-phone-extensions-api
+- collection_type: open
+  name: NFON Call History Accounts queue-profiles API
+  slug: open-nfon-queue-profiles-api
+- collection_type: open
+  name: NFON Call History Accounts Rating Profiles API
+  slug: open-nfon-rating-profiles-api
+- collection_type: open
+  name: NFON Call History Accounts records API
+  slug: open-nfon-records-api
+- collection_type: open
+  name: NFON Call History Accounts references API
+  slug: open-nfon-references-api
+- collection_type: open
+  name: NFON Call History Accounts SIP Servers API
+  slug: open-nfon-sip-servers-api
+- collection_type: open
+  name: NFON Call History Accounts sites API
+  slug: open-nfon-sites-api
+- collection_type: open
+  name: NFON Call History Accounts Softswitches API
+  slug: open-nfon-softswitches-api
+- collection_type: open
+  name: NFON Call History Accounts System Integrators API
+  slug: open-nfon-system-integrators-api
+- collection_type: open
+  name: NFON Call History Accounts Tenants API
+  slug: open-nfon-tenants-api
+- collection_type: open
+  name: NFON Call History Accounts Timezones API
+  slug: open-nfon-timezones-api
+- collection_type: open
+  name: NFON Call History Accounts trial-templates API
+  slug: open-nfon-trial-templates-api
+- collection_type: open
+  name: NFON Call History Accounts trunks API
+  slug: open-nfon-trunks-api
 common:
 - group: auth
   title: ''
@@ -344,7 +500,7 @@ overview: 'Nfon publishes 52 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nfon''s developer surface includes authentication, documentation, API reference, support, changelog, and 27 more developer resources.'
-random_paper: 73
+random_paper: 135
 score:
   band: developing
   composite: 47.9
@@ -374,7 +530,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png
 security:

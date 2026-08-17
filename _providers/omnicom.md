@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,11 +93,11 @@ name: Omnicom Group
 nav: Providers
 network: true
 overview: Omnicom Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Advertising, Marketing, Holding Company, and Media.
-random_paper: 34
+random_paper: 9
 score:
   band: minimal
   composite: 10.6
-  delta: 6.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -105,10 +105,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 4.1
+  previous_composite: 10.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnicom/refs/heads/main/screenshots/omnicom-2026-06-20T190706.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -92,11 +92,69 @@ apis:
 - description: The User Profiles API from Fairmarkit — 1 operation(s) for user profiles.
   name: Fairmarkit User Profiles API
   slug: fairmarkit-user-profiles-api
-artifact_total: 23
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Fairmarkit Webhooks
   slug: fairmarkit-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BUYER PUBLIC Business Units API
+  slug: open-fairmarkit-business-units-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Categories API
+  slug: open-fairmarkit-categories-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Data Exports API
+  slug: open-fairmarkit-data-exports-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Data Fields API
+  slug: open-fairmarkit-data-fields-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units ERP Systems API
+  slug: open-fairmarkit-erp-systems-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Event API
+  slug: open-fairmarkit-event-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units File attachments API
+  slug: open-fairmarkit-file-attachments-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Identity API
+  slug: open-fairmarkit-identity-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Price Books API
+  slug: open-fairmarkit-price-books-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Purchase Orders API
+  slug: open-fairmarkit-purchase-orders-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Requests API
+  slug: open-fairmarkit-requests-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Responses API
+  slug: open-fairmarkit-responses-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units RFP API
+  slug: open-fairmarkit-rfp-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units RFQ API
+  slug: open-fairmarkit-rfq-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Schema API
+  slug: open-fairmarkit-schema-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units Supplier API
+  slug: open-fairmarkit-supplier-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units UOM API
+  slug: open-fairmarkit-uom-api
+- collection_type: open
+  name: BUYER PUBLIC Business Units User Profiles API
+  slug: open-fairmarkit-user-profiles-api
 common:
 - group: other
   title: ''
@@ -229,7 +287,7 @@ overview: 'Fairmarkit publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fairmarkit''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 21 more developer resources.'
-random_paper: 106
+random_paper: 23
 score:
   band: developing
   composite: 49.1
@@ -253,7 +311,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/screenshots/fairmarkit-2026-07-25T214156.png
 security:

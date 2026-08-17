@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Docusaurus is an open-source static site generator for documentation sites with React, MDX, versioning, i18n, and a plugin architecture. Docusaurus does not expose an HTTP API; it is a build tool cons
@@ -104,7 +104,7 @@ plans:
 - name: Docusaurus Plans Pricing
   plan_count: 3
   slug: docusaurus-plans-pricing
-random_paper: 22
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Docusaurus Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 15.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusaurus/refs/heads/main/screenshots/docusaurus-2026-06-20T180120.png
 security:

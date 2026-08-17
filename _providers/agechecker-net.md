@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Webhooks API from AgeChecker.Net — 1 operation(s) for webhooks.
   name: AgeChecker.Net Webhooks API
   slug: agechecker-net-webhooks-api
-artifact_total: 31
+artifact_total: 35
 collections:
 - collection_type: postman
   name: AgeChecker.Net Age Verification Sessions API
@@ -60,8 +60,20 @@ collections:
   name: AgeChecker.Net Age Verification Sessions Webhooks API
   slug: postman-agechecker-net-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: AgeChecker.Net Age Verification API
   slug: open-agechecker-net-age-verification
+- collection_type: open
+  name: AgeChecker.Net Age Verification Sessions API
+  slug: open-agechecker-net-sessions-api
+- collection_type: open
+  name: AgeChecker.Net Age Sessions Verification API
+  slug: open-agechecker-net-verification-api
+- collection_type: open
+  name: AgeChecker.Net Age Verification Sessions Webhooks API
+  slug: open-agechecker-net-webhooks-api
 common:
 - group: build
   title: ''
@@ -215,7 +227,7 @@ plans:
 - name: Agechecker Net Plans Pricing
   plan_count: 3
   slug: agechecker-net-plans-pricing
-random_paper: 78
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Agechecker Net Rate Limits
@@ -257,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/screenshots/agechecker-net-2026-06-20T165819.png
 security:

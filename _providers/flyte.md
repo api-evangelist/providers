@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -74,11 +74,50 @@ apis:
 - description: Workflow entity registration, listing, and retrieval.
   name: Flyte Workflows API
   slug: flyte-workflows-api
-artifact_total: 18
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Flyte Admin API
   slug: open-flyte-admin-api
+- collection_type: open
+  name: Flyte Admin DataProxy API
+  slug: open-flyte-dataproxy-api
+- collection_type: open
+  name: Flyte Admin DataProxy Events API
+  slug: open-flyte-events-api
+- collection_type: open
+  name: Flyte Admin DataProxy Executions API
+  slug: open-flyte-executions-api
+- collection_type: open
+  name: Flyte Admin DataProxy LaunchPlans API
+  slug: open-flyte-launchplans-api
+- collection_type: open
+  name: Flyte Admin DataProxy MatchableAttributes API
+  slug: open-flyte-matchableattributes-api
+- collection_type: open
+  name: Flyte Admin DataProxy NamedEntities API
+  slug: open-flyte-namedentities-api
+- collection_type: open
+  name: Flyte Admin DataProxy NodeExecutions API
+  slug: open-flyte-nodeexecutions-api
+- collection_type: open
+  name: Flyte Admin DataProxy Projects API
+  slug: open-flyte-projects-api
+- collection_type: open
+  name: Flyte Admin DataProxy TaskExecutions API
+  slug: open-flyte-taskexecutions-api
+- collection_type: open
+  name: Flyte Admin DataProxy Tasks API
+  slug: open-flyte-tasks-api
+- collection_type: open
+  name: Flyte Admin DataProxy Version API
+  slug: open-flyte-version-api
+- collection_type: open
+  name: Flyte Admin DataProxy Workflows API
+  slug: open-flyte-workflows-api
 common:
 - group: operate
   title: ''
@@ -156,7 +195,7 @@ plans:
 - name: Flyte Plans Pricing
   plan_count: 3
   slug: flyte-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Flyte Rate Limits
@@ -181,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/screenshots/flyte-2026-06-20T181349.png
 security:

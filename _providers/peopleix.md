@@ -14,7 +14,7 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,19 +22,55 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 23.0
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The hosted, remote Model Context Protocol server through which peopleIX exposes a customer's People Intelligence knowledge layer to agents such as Claude, ChatGPT and Copilot. A JSON-RPC POST to https
+  name: peopleIX MCP
+  slug: peopleix-mcp
+artifact_total: 8
 common:
 - group: agent
   title: ''
   type: MCPServer
   url: mcp/peopleix-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/peopleix-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/peopleix-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/peopleix-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/peopleix-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/peopleix-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/peopleix-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/peopleix-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/peopleix-rate-limits.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -63,6 +99,10 @@ common:
   title: ''
   type: Imprint
   url: https://www.peopleix.com/imprint
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/peopleIX
 - group: agent
   title: ''
   type: LLMsTxt
@@ -78,43 +118,61 @@ common:
 - group: auth
   title: ''
   type: TrustCenter
-  url: security/peopleix-trust-center.yml
+  url: https://trust.peopleix.com
 created: '2026-07-17'
-description: peopleIX is a People Intelligence platform for HR leaders, built and operated by peopleIX GmbH in Cologne, Germany (founded 2022). It integrates 100+ HR systems (HRIS, ATS, LMS, payroll) and pairs an AI Data Analyst (people analytics — the "what") with AI-led conversations across the workforce (conversation intelligence — the "why") to answer hard workforce questions in hours rather than months. Each engagement leaves a persistent, queryable knowledge layer the customer keeps, which is accessible from Claude, ChatGPT, and Copilot via MCP. The service is EU-resident end-to-end, GDPR and ISO 27001 compliant, and never trains on customer data. Backed by Earlybird, neoteq ventures, ts ventures, and business angels. peopleIX does not currently publish a public developer API, OpenAPI, or SDK — this profile captures the identity, compliance posture, and machine-readable (llms.txt) surface it does publish.
+description: peopleIX is a People Intelligence platform for HR leaders, built and operated by peopleIX GmbH in Cologne, Germany (founded 2022). It integrates 100+ HR systems (HRIS, ATS, LMS, payroll) and pairs an AI Data Analyst (people analytics — the "what") with AI-led conversations across the workforce (conversation intelligence — the "why") to answer hard workforce questions in hours rather than months. Each engagement leaves a persistent, queryable knowledge layer the customer keeps. That knowledge layer is exposed to agents through a real, hosted, remote MCP server at https://app.peopleix.com/mcp — confirmed live, OAuth 2.1-gated (PKCE S256, dynamic client registration, Clerk-backed), and advertised through RFC 8414 and RFC 9728 discovery documents the application host serves anonymously. peopleIX publishes no OpenAPI, no REST developer portal, and no SDK; the MCP endpoint is the entire developer-facing surface, and its tool inventory sits behind customer authentication. The service
+  is EU-resident end-to-end, GDPR compliant and ISO 27001 certified with a Vanta-hosted trust center at https://trust.peopleix.com, and never trains on customer data. Backed by Earlybird, neoteq ventures, ts ventures, and business angels.
 image: https://www.peopleix.com/opengraph-image
 layout: provider
 mcp_servers:
 - description: ''
   name: peopleix-mcp.yml
   slug: peopleix-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Peopleix
 nav: Providers
 network: true
-overview: 'Peopleix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR, People Analytics, People Intelligence, and Conversation Intelligence.
+overview: 'Peopleix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR, People Analytics, People Intelligence, and Conversation Intelligence.
 
 
-  Peopleix''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 30
+  Peopleix''s developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
+plans:
+- name: Peopleix Plans Pricing
+  plan_count: 0
+  slug: peopleix-plans-pricing
+random_paper: 125
+rate_limits:
+- limit_count: 0
+  name: Peopleix Rate Limits
+  slug: peopleix-rate-limits
+scopes:
+- name: Peopleix Scopes
+  scope_count: 0
+  slug: peopleix-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 18.2
-  delta: 0.0
+  composite: 24.0
+  delta: 5.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 57.4
+    developer_ergonomics: 26.1
+    discoverability: 87.0
     governance: 12.5
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 18.2
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Peopleix Authentication
+  slug: peopleix-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Peopleix Domain Security
   slug: peopleix-domain-security

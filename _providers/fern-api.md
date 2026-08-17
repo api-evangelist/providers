@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,17 @@ apis:
 - description: Index documentation websites and check indexing job status.
   name: Fern Website Sources API
   slug: fern-api-website-sources-api
-artifact_total: 11
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fern Fern Ask API
+  slug: open-fern-api-ask-api
+- collection_type: open
+  name: Fern Fern Ask Website Sources API
+  slug: open-fern-api-website-sources-api
 - collection_type: open
   name: Fern Ask Fern API
   slug: open-fern-api
@@ -120,7 +129,7 @@ plans:
 - name: Fern Api Plans Pricing
   plan_count: 4
   slug: fern-api-plans-pricing
-random_paper: 66
+random_paper: 41
 rate_limits:
 - limit_count: 4
   name: Fern Api Rate Limits
@@ -145,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fern-api/refs/heads/main/screenshots/fern-api-2026-07-25T214344.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - description: Inspect Or Delete Timers
   name: StatsD Timers API
   slug: statsd-timers-api
-artifact_total: 34
+artifact_total: 41
 asyncapis:
 - description: The DogStatsD wire protocol — Datadog's StatsD-compatible ingestion format. A strict superset of vanilla StatsD that adds first-class tag syntax (`|#k:v,k:v`), histogram (`|h`) and distribution (`|d`)
   name: DogStatsD Wire Protocol
@@ -71,8 +71,29 @@ asyncapis:
   slug: statsd-wire-protocol-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: StatsD Admin Interface
   slug: open-statsd-admin-interface
+- collection_type: open
+  name: StatsD Admin Interface Configuration API
+  slug: open-statsd-configuration-api
+- collection_type: open
+  name: StatsD Admin Interface Configuration Counters API
+  slug: open-statsd-counters-api
+- collection_type: open
+  name: StatsD Admin Interface Configuration Gauges API
+  slug: open-statsd-gauges-api
+- collection_type: open
+  name: StatsD Admin Interface Configuration Health API
+  slug: open-statsd-health-api
+- collection_type: open
+  name: StatsD Admin Interface Configuration Stats API
+  slug: open-statsd-stats-api
+- collection_type: open
+  name: StatsD Admin Interface Configuration Timers API
+  slug: open-statsd-timers-api
 common:
 - group: agent
   title: ''
@@ -355,7 +376,7 @@ overview: 'StatsD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   StatsD''s developer surface includes GitHub presence, changelog, and 49 more developer resources.'
-random_paper: 59
+random_paper: 63
 rules:
 - name: StatsD API Rules
   rule_count: 7
@@ -401,7 +422,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/screenshots/statsd-2026-06-20T194527.png
 slug: statsd

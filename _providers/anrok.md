@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: 'This documentation describes how to use Anrok''s Transactions API to synchronize transactions between Anrok and your billing system, as well as calculate sales tax for new invoices. Use of this API is '
   name: Anrok Transactions API
   slug: anrok-transactions-api
-artifact_total: 56
+artifact_total: 63
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anrok Customer certificates API
+  slug: open-anrok-customer-certificates-api
+- collection_type: open
+  name: Anrok Customer certificates Filings API
+  slug: open-anrok-filings-api
+- collection_type: open
+  name: Anrok Customer certificates Product mappings API
+  slug: open-anrok-product-mappings-api
+- collection_type: open
+  name: Anrok Customer certificates Products API
+  slug: open-anrok-products-api
+- collection_type: open
+  name: Anrok Customer certificates Tax ID validation API
+  slug: open-anrok-tax-id-validation-api
+- collection_type: open
+  name: Anrok Customer certificates Transactions API
+  slug: open-anrok-transactions-api
 common:
 - group: agent
   title: ''
@@ -269,7 +291,7 @@ plans:
 - name: Anrok Plans Pricing
   plan_count: 2
   slug: anrok-plans-pricing
-random_paper: 59
+random_paper: 92
 rate_limits:
 - limit_count: 1
   name: Anrok Rate Limits
@@ -303,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/screenshots/anrok-2026-06-20T172015.png
 security:

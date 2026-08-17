@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: The accessManagement API from Atomicwork — 8 operation(s) for accessmanagement.
@@ -79,7 +79,59 @@ apis:
 - description: The workspaces API from Atomicwork — 3 operation(s) for workspaces.
   name: Atomicwork workspaces API
   slug: atomicwork-workspaces-api
-artifact_total: 21
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Atomicwork Public accessManagement API
+  slug: open-atomicwork-accessmanagement-api
+- collection_type: open
+  name: Atomicwork Public accessManagement agentGroups API
+  slug: open-atomicwork-agentgroups-api
+- collection_type: open
+  name: Atomicwork Public accessManagement assets API
+  slug: open-atomicwork-assets-api
+- collection_type: open
+  name: Atomicwork Public accessManagement auditLogs API
+  slug: open-atomicwork-auditlogs-api
+- collection_type: open
+  name: Atomicwork Public accessManagement businessHourConfig API
+  slug: open-atomicwork-businesshourconfig-api
+- collection_type: open
+  name: Atomicwork Public accessManagement changeManagement API
+  slug: open-atomicwork-changemanagement-api
+- collection_type: open
+  name: Atomicwork Public accessManagement customObjects API
+  slug: open-atomicwork-customobjects-api
+- collection_type: open
+  name: Atomicwork Public accessManagement entities API
+  slug: open-atomicwork-entities-api
+- collection_type: open
+  name: Atomicwork Public accessManagement forms API
+  slug: open-atomicwork-forms-api
+- collection_type: open
+  name: Atomicwork Public accessManagement problems API
+  slug: open-atomicwork-problems-api
+- collection_type: open
+  name: Atomicwork Public accessManagement requests API
+  slug: open-atomicwork-requests-api
+- collection_type: open
+  name: Atomicwork Public accessManagement serviceCatalog API
+  slug: open-atomicwork-servicecatalog-api
+- collection_type: open
+  name: Atomicwork Public accessManagement tags API
+  slug: open-atomicwork-tags-api
+- collection_type: open
+  name: Atomicwork Public accessManagement users API
+  slug: open-atomicwork-users-api
+- collection_type: open
+  name: Atomicwork Public accessManagement workflows API
+  slug: open-atomicwork-workflows-api
+- collection_type: open
+  name: Atomicwork Public accessManagement workspaces API
+  slug: open-atomicwork-workspaces-api
 common:
 - group: company
   title: ''
@@ -217,7 +269,7 @@ overview: 'Atomicwork publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Atomicwork''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 8
+random_paper: 45
 score:
   band: developing
   composite: 50.5
@@ -240,7 +292,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/screenshots/atomicwork-2026-07-25T201615.png
 security:

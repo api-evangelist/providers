@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-12'
+  score: 55.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: The Sites API from VigLink (Sovrn Commerce) — 1 operation(s) for sites.
   name: VigLink (Sovrn Commerce) Sites API
   slug: viglink-sites-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bid Check Account API
+  slug: open-viglink-account-api
+- collection_type: open
+  name: Bid Check Account Ai Orchestration API
+  slug: open-viglink-ai-orchestration-api
+- collection_type: open
+  name: Check Account Bid API
+  slug: open-viglink-bid-api
+- collection_type: open
+  name: Bid Check Account Link API
+  slug: open-viglink-link-api
+- collection_type: open
+  name: Bid Check Account Merchant Group Summaries API
+  slug: open-viglink-merchant-group-summaries-api
+- collection_type: open
+  name: Bid Check Account Product Coupons API
+  slug: open-viglink-product-coupons-api
+- collection_type: open
+  name: Bid Check Account reports API
+  slug: open-viglink-reports-api
+- collection_type: open
+  name: Bid Check Account Sites API
+  slug: open-viglink-sites-api
 common:
 - group: auth
   title: ''
@@ -201,6 +229,34 @@ common:
   title: ''
   type: StatusPage
   url: https://status.sovrn.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/viglink-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/viglink-packages.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/viglink-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/viglink-plans-pricing.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/viglink-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/viglink-trust-center.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/viglink-security.txt
 created: '2026-07-17'
 description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early 2018 and now operates as Sovrn Commerce. The product's public APIs still run on VigLink infrastructure (api.viglink.com, rest.viglink.com, viglink.io) and cover link monetization checks, real-time bid checks, campaigns, real-time revenue reporting, merchant summaries, product recommendations, promo codes, and price comparisons, documented on the Sovrn Developer Center alongside a hosted Commerce MCP server for AI agents.
 image: https://www.sovrn.com/favicon.ico
@@ -209,28 +265,32 @@ mcp_servers:
 - description: ''
   name: viglink-mcp.yml
   slug: viglink-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: VigLink (Sovrn Commerce)
 nav: Providers
 network: true
 overview: 'VigLink (Sovrn Commerce) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Ai Orchestration API, Bid API, and 5 more. Tagged areas include Affiliate Marketing, Commerce, Monetization, Publishers, and Links.
 
 
-  VigLink (Sovrn Commerce)''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
-random_paper: 36
+  VigLink (Sovrn Commerce)''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 34 more developer resources.'
+plans:
+- name: Viglink Plans Pricing
+  plan_count: 1
+  slug: viglink-plans-pricing
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Viglink Rate Limits
   slug: viglink-rate-limits
 score:
-  band: developing
-  composite: 50.9
-  delta: 0.0
+  band: strong
+  composite: 60.6
+  delta: 9.7
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 71.1
     contract_quality: 55.4
-    developer_ergonomics: 69.0
-    discoverability: 81.5
+    developer_ergonomics: 75.5
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
   previous_composite: 50.9
@@ -245,13 +305,13 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Viglink Authentication
   slug: viglink-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey · 3 schemes
 - kind: domain-security
   name: Viglink Domain Security
   slug: viglink-domain-security
@@ -260,6 +320,10 @@ security:
   name: Viglink Vulnerability Disclosure
   slug: viglink-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Viglink Trust Center
+  slug: viglink-trust-center
+  summary_line: TAG Platinum
 slug: viglink
 tags:
 - Affiliate Marketing

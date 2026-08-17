@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ name: Adcendo
 nav: Providers
 network: true
 overview: Adcendo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Life Sciences.
-random_paper: 118
+random_paper: 122
 score:
   band: minimal
   composite: 8.5
@@ -115,7 +115,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adcendo/refs/heads/main/screenshots/adcendo-2026-08-07T160906.png
 security:

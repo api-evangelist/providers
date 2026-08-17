@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Service registration and management operations
   name: Allianz Future Cloud Platform Services API
   slug: allianz-future-cloud-platform-services-api
-artifact_total: 66
+artifact_total: 72
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Allianz Future Cloud Platform Services Deployments API
+  slug: open-allianz-future-cloud-platform-deployments-api
+- collection_type: open
+  name: Allianz Future Cloud Platform Services Deployments Infrastructure API
+  slug: open-allianz-future-cloud-platform-infrastructure-api
+- collection_type: open
+  name: Allianz Future Cloud Platform Services Deployments Namespaces API
+  slug: open-allianz-future-cloud-platform-namespaces-api
+- collection_type: open
+  name: Allianz Future Cloud Platform Services Deployments Observability API
+  slug: open-allianz-future-cloud-platform-observability-api
+- collection_type: open
+  name: Allianz Future Cloud Platform Deployments Services API
+  slug: open-allianz-future-cloud-platform-services-api
 common:
 - group: agent
   title: ''
@@ -284,7 +303,7 @@ overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https
 
 
   Allianz Future Cloud Platform''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
-random_paper: 73
+random_paper: 122
 rules:
 - name: Allianz Future Cloud Platform API Rules
   rule_count: 5
@@ -335,7 +354,7 @@ score:
     regime_id: insurance
     score: 60.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/screenshots/allianz-future-cloud-platform-2026-07-25T195701.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -95,7 +95,68 @@ apis:
 - description: The Vsock API from Firecracker — 1 operation(s) for vsock.
   name: Firecracker Vsock API
   slug: firecracker-vsock-api
-artifact_total: 23
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Firecracker Actions API
+  slug: open-firecracker-actions-api
+- collection_type: open
+  name: Firecracker Actions Balloon API
+  slug: open-firecracker-balloon-api
+- collection_type: open
+  name: Firecracker Actions Boot Source API
+  slug: open-firecracker-boot-source-api
+- collection_type: open
+  name: Firecracker Actions Cpu Config API
+  slug: open-firecracker-cpu-config-api
+- collection_type: open
+  name: Firecracker Actions Drives API
+  slug: open-firecracker-drives-api
+- collection_type: open
+  name: Firecracker Actions Entropy API
+  slug: open-firecracker-entropy-api
+- collection_type: open
+  name: Firecracker Actions Firecracker API API
+  slug: open-firecracker-firecracker-api-api
+- collection_type: open
+  name: Firecracker Actions Hotplug API
+  slug: open-firecracker-hotplug-api
+- collection_type: open
+  name: Firecracker Actions Logger API
+  slug: open-firecracker-logger-api
+- collection_type: open
+  name: Firecracker Actions Machine Config API
+  slug: open-firecracker-machine-config-api
+- collection_type: open
+  name: Firecracker Actions Metrics API
+  slug: open-firecracker-metrics-api
+- collection_type: open
+  name: Firecracker Actions Mmds API
+  slug: open-firecracker-mmds-api
+- collection_type: open
+  name: Firecracker Actions Network Interfaces API
+  slug: open-firecracker-network-interfaces-api
+- collection_type: open
+  name: Firecracker Actions Pmem API
+  slug: open-firecracker-pmem-api
+- collection_type: open
+  name: Firecracker Actions Serial API
+  slug: open-firecracker-serial-api
+- collection_type: open
+  name: Firecracker Actions Snapshot API
+  slug: open-firecracker-snapshot-api
+- collection_type: open
+  name: Firecracker Actions Version API
+  slug: open-firecracker-version-api
+- collection_type: open
+  name: Firecracker Actions Vm API
+  slug: open-firecracker-vm-api
+- collection_type: open
+  name: Firecracker Actions Vsock API
+  slug: open-firecracker-vsock-api
 common:
 - group: operate
   title: ''
@@ -185,7 +246,7 @@ plans:
 - name: Firecracker Plans Pricing
   plan_count: 3
   slug: firecracker-plans-pricing
-random_paper: 73
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Firecracker Rate Limits
@@ -210,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/screenshots/firecracker-2026-06-20T181228.png
 slug: firecracker

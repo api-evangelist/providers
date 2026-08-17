@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -81,8 +81,38 @@ apis:
 - description: The TitleStorage API from Epic Games — 1 operation(s) for titlestorage.
   name: Epic Games TitleStorage API
   slug: epic-games-titlestorage-api
-artifact_total: 24
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Epic Online Services Web Achievements API
+  slug: open-epic-games-achievements-api
+- collection_type: open
+  name: Epic Online Services Web Achievements Auth API
+  slug: open-epic-games-auth-api
+- collection_type: open
+  name: Epic Online Services Web Achievements Connect API
+  slug: open-epic-games-connect-api
+- collection_type: open
+  name: Epic Online Services Web Achievements Ecom API
+  slug: open-epic-games-ecom-api
+- collection_type: open
+  name: Epic Online Services Web Achievements Leaderboards API
+  slug: open-epic-games-leaderboards-api
+- collection_type: open
+  name: Epic Online Services Web Achievements PlayerDataStorage API
+  slug: open-epic-games-playerdatastorage-api
+- collection_type: open
+  name: Epic Online Services Web Achievements Sanctions API
+  slug: open-epic-games-sanctions-api
+- collection_type: open
+  name: Epic Online Services Web Achievements Stats API
+  slug: open-epic-games-stats-api
+- collection_type: open
+  name: Epic Online Services Web Achievements TitleStorage API
+  slug: open-epic-games-titlestorage-api
 - collection_type: open
   name: Epic Online Services Web API
   slug: open-epic-games
@@ -207,7 +237,7 @@ plans:
 - name: Epic Games Plans Pricing
   plan_count: 1
   slug: epic-games-plans-pricing
-random_paper: 27
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Epic Games Rate Limits
@@ -237,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/screenshots/epic-games-2026-06-20T180759.png
 security:

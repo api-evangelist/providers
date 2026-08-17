@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
   name: StarTree (Cortexdata) Query API API
   slug: startree-cortexdata-query-api-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: StarTree Cloud Query Query API API
+  slug: open-startree-cortexdata-query-api-api
 common:
 - group: other
   title: ''
@@ -156,7 +163,7 @@ overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.i
 
 
   StarTree (Cortexdata)''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 70
+random_paper: 53
 score:
   band: developing
   composite: 50.9
@@ -179,7 +186,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

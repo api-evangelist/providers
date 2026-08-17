@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 29
@@ -89,8 +89,62 @@ apis:
 - description: The rest-api-common-controller API from Predictive Oncology Model and Data Clearinghouse — 17 operation(s) for rest-api-common-controller.
   name: Predictive Oncology Model and Data Clearinghouse rest-api-common-controller API
   slug: predictive-oncology-model-and-data-clearinghouse-rest-api-common-controller-api
-artifact_total: 23
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MoDaC asset-details-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-asset-details-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller delete-collection-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-delete-collection-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller delete-data-file-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-delete-data-file-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller delete-predictions-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-delete-predictions-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller doe-collection-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-doe-collection-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller doe-create-bulk-datafile-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-doe-create-bulk-datafile-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller doe-create-collection-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-doe-create-collection-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller doe-create-datafile-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-doe-create-datafile-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller doe-download-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-doe-download-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller doe-download-files-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-doe-download-files-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller doe-retry-download-task-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-doe-retry-download-task-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller doe-retry-uploadtask-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-doe-retry-uploadtask-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller doe-sync-download-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-doe-sync-download-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller home-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-home-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller perform-inferencing-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-perform-inferencing-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller release-notes-notifications-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-release-notes-notifications-controller-api
+- collection_type: open
+  name: MoDaC asset-details-controller rest-api-common-controller API
+  slug: open-predictive-oncology-model-and-data-clearinghouse-rest-api-common-controller-api
 - collection_type: open
   name: MoDaC API
   slug: open-predictive-oncology-model-and-data-clearinghouse
@@ -143,7 +197,7 @@ plans:
 - name: Predictive Oncology Model And Data Clearinghouse Plans Pricing
   plan_count: 3
   slug: predictive-oncology-model-and-data-clearinghouse-plans-pricing
-random_paper: 1
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Predictive Oncology Model And Data Clearinghouse Rate Limits
@@ -174,7 +228,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/screenshots/predictive-oncology-model-and-data-clearinghouse-2026-06-20T192044.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -71,7 +71,44 @@ apis:
 - description: The User Management API from Qualio — 7 operation(s) for user management.
   name: Qualio User Management API
   slug: qualio-user-management-api
-artifact_total: 16
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qualio Developer Audit Trail API
+  slug: open-qualio-audit-trail-api
+- collection_type: open
+  name: Qualio Developer Change Management API
+  slug: open-qualio-change-management-api
+- collection_type: open
+  name: Qualio Developer Compliance Intelligence API
+  slug: open-qualio-compliance-intelligence-api
+- collection_type: open
+  name: Qualio Developer Design Controls API
+  slug: open-qualio-design-controls-api
+- collection_type: open
+  name: Qualio Developer Documents API
+  slug: open-qualio-documents-api
+- collection_type: open
+  name: Qualio Developer Events API
+  slug: open-qualio-events-api
+- collection_type: open
+  name: Qualio Developer Resource Library API
+  slug: open-qualio-resource-library-api
+- collection_type: open
+  name: Qualio Developer Suppliers API
+  slug: open-qualio-suppliers-api
+- collection_type: open
+  name: Qualio Developer Tags API
+  slug: open-qualio-tags-api
+- collection_type: open
+  name: Qualio Developer Training API
+  slug: open-qualio-training-api
+- collection_type: open
+  name: Qualio Developer User Management API
+  slug: open-qualio-user-management-api
 common:
 - group: start
   title: ''
@@ -197,7 +234,7 @@ overview: 'Qualio publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qualio''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: developing
   composite: 48.0
@@ -227,7 +264,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

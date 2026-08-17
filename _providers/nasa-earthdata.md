@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,7 +59,20 @@ apis:
 - description: The OpenAPI API from NASA Earthdata — 1 operation(s) for openapi.
   name: NASA Earthdata OpenAPI API
   slug: nasa-earthdata-openapi-api
-artifact_total: 12
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harmony API conforming to OGC API - Coverages Capabilities API
+  slug: open-nasa-earthdata-capabilities-api
+- collection_type: open
+  name: Harmony API conforming to OGC API - Coverages Capabilities Coverage API
+  slug: open-nasa-earthdata-coverage-api
+- collection_type: open
+  name: Harmony API conforming to OGC API - Coverages Capabilities OpenAPI API
+  slug: open-nasa-earthdata-openapi-api
 common:
 - group: agent
   title: ''
@@ -121,7 +134,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 86
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -146,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/screenshots/nasa-earthdata-2026-06-20T185948.png
 security:

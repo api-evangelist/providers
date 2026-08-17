@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Commands API from Arc Prize Foundation — 8 operation(s) for commands.
@@ -40,7 +40,20 @@ apis:
 - description: The Scorecards API from Arc Prize Foundation — 4 operation(s) for scorecards.
   name: Arc Prize Foundation Scorecards API
   slug: arc-prize-foundation-scorecards-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ARC‑AGI‑3 REST Commands API
+  slug: open-arc-prize-foundation-commands-api
+- collection_type: open
+  name: ARC‑AGI‑3 REST Commands Games API
+  slug: open-arc-prize-foundation-games-api
+- collection_type: open
+  name: ARC‑AGI‑3 REST Commands Scorecards API
+  slug: open-arc-prize-foundation-scorecards-api
 common:
 - group: other
   title: ''
@@ -150,7 +163,7 @@ overview: 'Arc Prize Foundation publishes 3 APIs on the [APIs.io](https://apis.i
 
 
   Arc Prize Foundation''s developer surface includes authentication, changelog, documentation, API reference, quickstart, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 113
+random_paper: 96
 score:
   band: thin
   composite: 41.9
@@ -173,7 +186,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/screenshots/arc-prize-foundation-2026-07-25T201009.png
 security:

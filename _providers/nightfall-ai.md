@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Scans API from Nightfall AI — 1 operation(s) for scans.
   name: Nightfall AI Scans API
   slug: nightfall-ai-scans-api
-artifact_total: 11
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nightfall AI Scan API
+  slug: open-nightfall-ai-scan-api
+- collection_type: open
+  name: Nightfall AI Scan Scans API
+  slug: open-nightfall-ai-scans-api
 - collection_type: open
   name: Nightfall AI
   slug: open-nightfall-ai
@@ -175,7 +184,7 @@ plans:
 - name: Nightfall Ai Plans Pricing
   plan_count: 3
   slug: nightfall-ai-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Nightfall Ai Rate Limits
@@ -200,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/screenshots/nightfall-ai-2026-06-20T190326.png
 security:

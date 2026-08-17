@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -99,7 +99,71 @@ apis:
 - description: The Types API from Zalando — 1 operation(s) for types.
   name: Zalando Types API
   slug: zalando-types-api
-artifact_total: 25
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Article Requirements AnnouncedReturns API
+  slug: open-zalando-announcedreturns-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns attribute-types API
+  slug: open-zalando-attribute-types-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns attribute-values API
+  slug: open-zalando-attribute-values-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Attributes API
+  slug: open-zalando-attributes-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Cross Border Movements API
+  slug: open-zalando-cross-border-movements-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Discovery API API
+  slug: open-zalando-discovery-api-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns History of Price Update Attempts API
+  slug: open-zalando-history-of-price-update-attempts-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Liquidated Items API
+  slug: open-zalando-liquidated-items-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Logistic Centers API
+  slug: open-zalando-logistic-centers-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns offer-blockers API
+  slug: open-zalando-offer-blockers-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Orders API
+  slug: open-zalando-orders-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Outlines API
+  slug: open-zalando-outlines-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns prices API
+  slug: open-zalando-prices-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Product Association API
+  slug: open-zalando-product-association-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Reports API
+  slug: open-zalando-reports-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Returned Items API
+  slug: open-zalando-returned-items-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns SalesChannels API
+  slug: open-zalando-saleschannels-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Shipments API
+  slug: open-zalando-shipments-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns stocks API
+  slug: open-zalando-stocks-api
+- collection_type: open
+  name: Article Requirements AnnouncedReturns Types API
+  slug: open-zalando-types-api
 common:
 - group: other
   title: ''
@@ -233,7 +297,7 @@ overview: 'Zalando publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zalando''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, engineering blog, and 22 more developer resources.'
-random_paper: 25
+random_paper: 0
 scopes:
 - name: Zalando Scopes
   scope_count: 16
@@ -268,7 +332,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

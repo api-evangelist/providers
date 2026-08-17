@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The Plants API from Rime — 2 operation(s) for plants.
   name: Rime Plants API
   slug: rime-ai-plants-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenAPI Plant Store Plants API
+  slug: open-rime-ai-plants-api
 - collection_type: open
   name: OpenAPI Plant Store
   slug: open-rime-ai
@@ -111,7 +117,7 @@ plans:
 - name: Rime Ai Plans Pricing
   plan_count: 4
   slug: rime-ai-plans-pricing
-random_paper: 76
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Rime Ai Rate Limits
@@ -136,7 +142,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rime-ai/refs/heads/main/screenshots/rime-ai-2026-06-20T193201.png
 security:

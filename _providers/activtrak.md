@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Live Data API - query activity reports (Working Hours, Activity Log).
   name: ActivTrak Reports API
   slug: activtrak-reports-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ActivTrak Public APIs Administration API
+  slug: open-activtrak-administration-api
+- collection_type: open
+  name: ActivTrak Public APIs Administration Administration - SCIM API
+  slug: open-activtrak-administration-scim-api
+- collection_type: open
+  name: ActivTrak Public APIs Administration Bulk Import API
+  slug: open-activtrak-bulk-import-api
+- collection_type: open
+  name: ActivTrak Public APIs Administration Reports API
+  slug: open-activtrak-reports-api
 common:
 - group: agent
   title: ''
@@ -152,7 +168,7 @@ overview: 'ActivTrak publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   ActivTrak''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 9
+random_paper: 75
 score:
   band: developing
   composite: 50.5
@@ -176,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/screenshots/activtrak-2026-07-25T181531.png
 security:

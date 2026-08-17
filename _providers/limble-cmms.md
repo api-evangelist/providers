@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 0
@@ -167,7 +167,137 @@ apis:
 - description: The Work Request Submissions API from Limble CMMS — 3 operation(s) for work request submissions.
   name: Limble CMMS Work Request Submissions API
   slug: limble-cmms-work-request-submissions-api
-artifact_total: 75
+artifact_total: 118
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Limble API V2 Assets API
+  slug: open-limble-cmms-assets-api
+- collection_type: open
+  name: Limble API V2 Assets Batch API
+  slug: open-limble-cmms-batch-api
+- collection_type: open
+  name: Limble API V2 Assets Bills API
+  slug: open-limble-cmms-bills-api
+- collection_type: open
+  name: Limble API V2 Assets Budgets API
+  slug: open-limble-cmms-budgets-api
+- collection_type: open
+  name: Limble API V2 Assets Capacity API
+  slug: open-limble-cmms-capacity-api
+- collection_type: open
+  name: Limble API V2 Assets Categories API
+  slug: open-limble-cmms-categories-api
+- collection_type: open
+  name: Limble API V2 Assets Comments API
+  slug: open-limble-cmms-comments-api
+- collection_type: open
+  name: Limble API V2 Assets Exceptions API
+  slug: open-limble-cmms-exceptions-api
+- collection_type: open
+  name: Limble API V2 Assets Fields API
+  slug: open-limble-cmms-fields-api
+- collection_type: open
+  name: Limble API V2 Assets Files API
+  slug: open-limble-cmms-files-api
+- collection_type: open
+  name: Limble API V2 Assets General Ledgers API
+  slug: open-limble-cmms-general-ledgers-api
+- collection_type: open
+  name: Limble API V2 Assets Image API
+  slug: open-limble-cmms-image-api
+- collection_type: open
+  name: Limble API V2 Assets Images API
+  slug: open-limble-cmms-images-api
+- collection_type: open
+  name: Limble API V2 Assets Instructions API
+  slug: open-limble-cmms-instructions-api
+- collection_type: open
+  name: Limble API V2 Assets Invoices API
+  slug: open-limble-cmms-invoices-api
+- collection_type: open
+  name: Limble API V2 Assets Items API
+  slug: open-limble-cmms-items-api
+- collection_type: open
+  name: Limble API V2 Assets Labor API
+  slug: open-limble-cmms-labor-api
+- collection_type: open
+  name: Limble API V2 Assets Locations API
+  slug: open-limble-cmms-locations-api
+- collection_type: open
+  name: Limble API V2 Assets Logs API
+  slug: open-limble-cmms-logs-api
+- collection_type: open
+  name: Limble API V2 Assets Me API
+  slug: open-limble-cmms-me-api
+- collection_type: open
+  name: Limble API V2 Assets Options API
+  slug: open-limble-cmms-options-api
+- collection_type: open
+  name: Limble API V2 Assets Parts API
+  slug: open-limble-cmms-parts-api
+- collection_type: open
+  name: Limble API V2 Assets Priorities API
+  slug: open-limble-cmms-priorities-api
+- collection_type: open
+  name: Limble API V2 Assets Purchasables API
+  slug: open-limble-cmms-purchasables-api
+- collection_type: open
+  name: Limble API V2 Assets Purchase Orders API
+  slug: open-limble-cmms-purchase-orders-api
+- collection_type: open
+  name: Limble API V2 Assets Regions API
+  slug: open-limble-cmms-regions-api
+- collection_type: open
+  name: Limble API V2 Assets Roles API
+  slug: open-limble-cmms-roles-api
+- collection_type: open
+  name: Limble API V2 Assets Routes API
+  slug: open-limble-cmms-routes-api
+- collection_type: open
+  name: Limble API V2 Assets Schedules API
+  slug: open-limble-cmms-schedules-api
+- collection_type: open
+  name: Limble API V2 Assets State API
+  slug: open-limble-cmms-state-api
+- collection_type: open
+  name: Limble API V2 Assets Statuses API
+  slug: open-limble-cmms-statuses-api
+- collection_type: open
+  name: Limble API V2 Assets Steps API
+  slug: open-limble-cmms-steps-api
+- collection_type: open
+  name: Limble API V2 Assets Tags API
+  slug: open-limble-cmms-tags-api
+- collection_type: open
+  name: Limble API V2 Assets Tasks API
+  slug: open-limble-cmms-tasks-api
+- collection_type: open
+  name: Limble API V2 Assets Teams API
+  slug: open-limble-cmms-teams-api
+- collection_type: open
+  name: Limble API V2 Assets Transactions API
+  slug: open-limble-cmms-transactions-api
+- collection_type: open
+  name: Limble API V2 Assets Units of Measure API
+  slug: open-limble-cmms-units-of-measure-api
+- collection_type: open
+  name: Limble API V2 Assets Users API
+  slug: open-limble-cmms-users-api
+- collection_type: open
+  name: Limble API V2 Assets Vendor Associations API
+  slug: open-limble-cmms-vendor-associations-api
+- collection_type: open
+  name: Limble API V2 Assets Vendors API
+  slug: open-limble-cmms-vendors-api
+- collection_type: open
+  name: Limble API V2 Assets Webhooks API
+  slug: open-limble-cmms-webhooks-api
+- collection_type: open
+  name: Limble API V2 Assets Work Request Submissions API
+  slug: open-limble-cmms-work-request-submissions-api
 common:
 - group: agent
   title: ''
@@ -319,7 +449,7 @@ overview: 'Limble CMMS publishes 42 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Limble CMMS''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, signup flow, and 6 more developer resources.'
-random_paper: 26
+random_paper: 63
 rules:
 - name: Limble CMMS API Rules
   rule_count: 5
@@ -357,7 +487,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/screenshots/limble-cmms-2026-06-20T184528.png
 security:

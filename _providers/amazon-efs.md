@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,11 +61,17 @@ arazzos:
 - description: Verify a file system is available, create a mount target, then poll until the mount target is available.
   name: Amazon EFS Provision Mount Target
   slug: amazon-efs-provision-mount-target-workflow
-artifact_total: 43
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Amazon EFS Amazon Elastic File System (EFS) API
   slug: postman-amazon-efs
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EFS Amazon Elastic File System (EFS) 2015 02 01 API
+  slug: open-amazon-efs-2015-02-01-api
 - collection_type: open
   name: Amazon EFS Amazon Elastic File System (EFS) API
   slug: open-amazon-efs
@@ -278,7 +284,7 @@ plans:
 - name: Amazon Efs Plans Pricing
   plan_count: 3
   slug: amazon-efs-plans-pricing
-random_paper: 49
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Amazon Efs Rate Limits
@@ -320,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/screenshots/amazon-efs-2026-06-20T171636.png
 security:

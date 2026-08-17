@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -90,7 +90,53 @@ apis:
 - description: The Schemas API from Polygon ID — 2 operation(s) for schemas.
   name: Polygon ID Schemas API
   slug: polygon-id-schemas-api
-artifact_total: 129
+artifact_total: 144
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Privado ID - Issuer Agent API
+  slug: open-polygon-id-agent-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Auth API
+  slug: open-polygon-id-auth-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Config API
+  slug: open-polygon-id-config-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Connection API
+  slug: open-polygon-id-connection-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Credentials API
+  slug: open-polygon-id-credentials-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Display Methods API
+  slug: open-polygon-id-display-methods-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Identity API
+  slug: open-polygon-id-identity-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Internal API
+  slug: open-polygon-id-internal-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Key Management API
+  slug: open-polygon-id-key-management-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Links API
+  slug: open-polygon-id-links-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Payment API
+  slug: open-polygon-id-payment-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Public API
+  slug: open-polygon-id-public-api
+- collection_type: open
+  name: Privado ID - Issuer Agent QR Store API
+  slug: open-polygon-id-qr-store-api
+- collection_type: open
+  name: Privado ID - Issuer Agent Schemas API
+  slug: open-polygon-id-schemas-api
 common:
 - group: agent
   title: ''
@@ -485,7 +531,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 66
+random_paper: 132
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -519,7 +565,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/screenshots/polygon-id-2026-06-20T191901.png
 security:

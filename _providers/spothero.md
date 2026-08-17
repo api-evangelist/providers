@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Search for available parking locations and facilities
   name: SpotHero Search API
   slug: spothero-search-api
-artifact_total: 27
+artifact_total: 33
 collections:
 - collection_type: postman
   name: SpotHero Parking Availability API
@@ -75,8 +75,26 @@ collections:
   name: SpotHero Parking Availability Search API
   slug: postman-spothero-search-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SpotHero Parking Availability API
+  slug: open-spothero-availability-api
+- collection_type: open
+  name: SpotHero Parking Availability Facilities API
+  slug: open-spothero-facilities-api
+- collection_type: open
   name: SpotHero Parking API
   slug: open-spothero-parking
+- collection_type: open
+  name: SpotHero Parking Availability Rates API
+  slug: open-spothero-rates-api
+- collection_type: open
+  name: SpotHero Parking Availability Reservations API
+  slug: open-spothero-reservations-api
+- collection_type: open
+  name: SpotHero Parking Availability Search API
+  slug: open-spothero-search-api
 common:
 - group: build
   title: ''
@@ -203,7 +221,7 @@ plans:
 - name: Spothero Plans Pricing
   plan_count: 3
   slug: spothero-plans-pricing
-random_paper: 44
+random_paper: 139
 rate_limits:
 - limit_count: 5
   name: Spothero Rate Limits
@@ -245,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/screenshots/spothero-2026-06-20T194352.png
 security:

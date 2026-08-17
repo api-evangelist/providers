@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,11 +51,23 @@ apis:
 - description: Read and update the active gateway configuration
   name: Ocelot Configuration API
   slug: ocelot-configuration-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Ocelot Administration API
   slug: open-ocelot-administration
+- collection_type: open
+  name: Ocelot Administration Authentication API
+  slug: open-ocelot-authentication-api
+- collection_type: open
+  name: Ocelot Administration Authentication Cache API
+  slug: open-ocelot-cache-api
+- collection_type: open
+  name: Ocelot Administration Authentication Configuration API
+  slug: open-ocelot-configuration-api
 common:
 - group: commercial
   title: ''
@@ -129,7 +141,7 @@ plans:
 - name: Ocelot Plans Pricing
   plan_count: 3
   slug: ocelot-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Ocelot Rate Limits
@@ -154,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/screenshots/ocelot-2026-06-20T190607.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Reverse API from Geocode Earth — 1 operation(s) for reverse.
   name: Geocode Earth Reverse API
   slug: geocode-earth-reverse-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Geocode Earth Forward API
+  slug: open-geocode-earth-forward-api
+- collection_type: open
+  name: Geocode Earth Forward Place API
+  slug: open-geocode-earth-place-api
+- collection_type: open
+  name: Geocode Earth Forward Reverse API
+  slug: open-geocode-earth-reverse-api
 - collection_type: open
   name: Geocode Earth API
   slug: open-geocode-earth
@@ -118,7 +130,7 @@ plans:
 - name: Geocode Earth Plans Pricing
   plan_count: 5
   slug: geocode-earth-plans-pricing
-random_paper: 103
+random_paper: 111
 rate_limits:
 - limit_count: 4
   name: Geocode Earth Rate Limits
@@ -149,7 +161,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/screenshots/geocode-earth-2026-07-25T215637.png
 security:

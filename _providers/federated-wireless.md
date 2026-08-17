@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The external API of the Federated Wireless Spectrum Controller, the cloud platform that manages CBRS spectrum assignment, CBSD lifecycle, monitoring and compliance. The Spectrum Controller web applica
@@ -198,7 +198,7 @@ plans:
 - name: Federated Wireless Plans Pricing
   plan_count: 0
   slug: federated-wireless-plans-pricing
-random_paper: 55
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Federated Wireless Rate Limits
@@ -211,6 +211,7 @@ scopes:
 score:
   band: thin
   composite: 30.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -218,6 +219,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 30.2
   regulatory:
     applies: true
     matched_via: tags
@@ -225,7 +227,8 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Federated Wireless Authentication

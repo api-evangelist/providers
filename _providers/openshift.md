@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ apis:
 - description: Manage application routes that expose services at a hostname. Routes provide external access to services via HTTP/HTTPS, with support for TLS termination strategies including edge, passthrough, and re
   name: OpenShift Routes API
   slug: openshift-routes-api
-artifact_total: 277
+artifact_total: 284
 collections:
 - collection_type: postman
   name: openshift-rest-api BuildConfigs API
@@ -153,8 +153,29 @@ collections:
   name: openshift-rest-api BuildConfigs Routes API
   slug: postman-openshift-routes-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: openshift-rest-api BuildConfigs API
+  slug: open-openshift-buildconfigs-api
+- collection_type: open
+  name: openshift-rest-api BuildConfigs Builds API
+  slug: open-openshift-builds-api
+- collection_type: open
+  name: openshift-rest-api BuildConfigs DeploymentConfigs API
+  slug: open-openshift-deploymentconfigs-api
+- collection_type: open
+  name: openshift-rest-api BuildConfigs ProjectRequests API
+  slug: open-openshift-projectrequests-api
+- collection_type: open
+  name: openshift-rest-api BuildConfigs Projects API
+  slug: open-openshift-projects-api
+- collection_type: open
   name: openshift-rest-api
   slug: open-openshift-rest-api
+- collection_type: open
+  name: openshift-rest-api BuildConfigs Routes API
+  slug: open-openshift-routes-api
 common:
 - group: build
   title: ''
@@ -908,7 +929,7 @@ plans:
 - name: Openshift Plans Pricing
   plan_count: 8
   slug: openshift-plans-pricing
-random_paper: 16
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Openshift Rate Limits
@@ -950,7 +971,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/screenshots/openshift-2026-06-20T191034.png
 security:

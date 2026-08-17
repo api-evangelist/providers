@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ arazzos:
 - description: List a user's accounts and deployed triggers, then delete the user and all their resources.
   name: Pipedream Offboard an External User
   slug: pipedream-user-offboarding-workflow
-artifact_total: 234
+artifact_total: 251
 collections:
 - collection_type: postman
   name: Pipedream MCP Server Accounts API
@@ -193,8 +193,59 @@ collections:
   name: Pipedream MCP Server Accounts Webhooks API
   slug: postman-pipedream-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pipedream MCP Server Accounts API
+  slug: open-pipedream-accounts-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Actions API
+  slug: open-pipedream-actions-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts App Categories API
+  slug: open-pipedream-app-categories-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Apps API
+  slug: open-pipedream-apps-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Components API
+  slug: open-pipedream-components-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Deployed Triggers API
+  slug: open-pipedream-deployed-triggers-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts File Stash API
+  slug: open-pipedream-file-stash-api
+- collection_type: open
+  name: Pipedream Server Accounts MCP API
+  slug: open-pipedream-mcp-api
+- collection_type: open
   name: Pipedream MCP Server
   slug: open-pipedream-mcp
+- collection_type: open
+  name: Pipedream MCP Server Accounts OAuth API
+  slug: open-pipedream-oauth-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Projects API
+  slug: open-pipedream-projects-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Proxy API
+  slug: open-pipedream-proxy-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Tokens API
+  slug: open-pipedream-tokens-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Triggers API
+  slug: open-pipedream-triggers-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Usage API
+  slug: open-pipedream-usage-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Users API
+  slug: open-pipedream-users-api
+- collection_type: open
+  name: Pipedream MCP Server Accounts Webhooks API
+  slug: open-pipedream-webhooks-api
 - collection_type: open
   name: Pipedream API
   slug: open-pipedream
@@ -942,7 +993,7 @@ plans:
 - name: Pipedream Plans Pricing
   plan_count: 4
   slug: pipedream-plans-pricing
-random_paper: 111
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Pipedream Rate Limits
@@ -989,7 +1040,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/screenshots/pipedream-2026-06-20T191726.png
 security:

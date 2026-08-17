@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Post categories
@@ -45,7 +45,38 @@ apis:
 - description: Post tags
   name: Atsena Therapeutics Tags API
   slug: atsena-therapeutics-tags-api
-artifact_total: 10
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Atsena Therapeutics Content API (WordPress REST API) Categories API
+  slug: open-atsena-therapeutics-categories-api
+- collection_type: open
+  name: Atsena Therapeutics Content API (WordPress REST API) Discovery API
+  slug: open-atsena-therapeutics-discovery-api
+- collection_type: open
+  name: Atsena Therapeutics Content API (WordPress REST API) Media API
+  slug: open-atsena-therapeutics-media-api
+- collection_type: open
+  name: Atsena Therapeutics Content API (WordPress REST API) O Embed API
+  slug: open-atsena-therapeutics-oembed-api
+- collection_type: open
+  name: Atsena Therapeutics Content API (WordPress REST API) Pages API
+  slug: open-atsena-therapeutics-pages-api
+- collection_type: open
+  name: Atsena Therapeutics Content API (WordPress REST API) Posts API
+  slug: open-atsena-therapeutics-posts-api
+- collection_type: open
+  name: Atsena Therapeutics Content API (WordPress REST API) Search API
+  slug: open-atsena-therapeutics-search-api
+- collection_type: open
+  name: Atsena Therapeutics Content API (WordPress REST API) Tags API
+  slug: open-atsena-therapeutics-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-atsena-therapeutics-wp-rest-discovery-original
 common:
 - group: company
   title: ''
@@ -184,7 +215,7 @@ overview: 'Atsena Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io
 
 
   Atsena Therapeutics'' developer surface includes engineering blog, product news, support, authentication, and 27 more developer resources.'
-random_paper: 58
+random_paper: 41
 score:
   band: thin
   composite: 29.7
@@ -212,7 +243,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/screenshots/atsena-therapeutics-2026-08-07T161907.png
 security:

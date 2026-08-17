@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Trading card game sets (expansions), from Base Set onward.
   name: Pokémon TCG API Sets API
   slug: pokemon-tcg-sets-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pokémon TCG Cards API
+  slug: open-pokemon-tcg-cards-api
+- collection_type: open
+  name: Pokémon TCG Cards Metadata API
+  slug: open-pokemon-tcg-metadata-api
+- collection_type: open
+  name: Pokémon TCG Cards Sets API
+  slug: open-pokemon-tcg-sets-api
 - collection_type: open
   name: Pokémon TCG API
   slug: open-pokemon-tcg
@@ -130,7 +142,7 @@ plans:
 - name: Pokemon Tcg Plans Pricing
   plan_count: 3
   slug: pokemon-tcg-plans-pricing
-random_paper: 44
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Pokemon Tcg Rate Limits
@@ -161,7 +173,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

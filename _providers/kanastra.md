@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 20
 apis:
 - description: The Accounts API from Kanastra — 3 operation(s) for accounts.
@@ -91,7 +91,7 @@ apis:
 - description: The Wallet API from Kanastra — 2 operation(s) for wallet.
   name: Kanastra Wallet API
   slug: kanastra-wallet-api
-artifact_total: 26
+artifact_total: 47
 asyncapis:
 - description: Webhook event surface for Kanastra Banking. Subscribing systems receive JSON payloads for bank slip (boleto) lifecycle and CNAB file-processing events. Captured from the provider-published webhook doc
   name: Kanastra Banking Webhooks
@@ -100,6 +100,69 @@ collections:
 - collection_type: postman
   name: Kanastra Banking
   slug: postman-kanastra-banking
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kanastra Banking Accounts API
+  slug: open-kanastra-accounts-api
+- collection_type: open
+  name: Kanastra Banking Accounts Amendment API
+  slug: open-kanastra-amendment-api
+- collection_type: open
+  name: Kanastra Banking Accounts Authentication API
+  slug: open-kanastra-authentication-api
+- collection_type: open
+  name: Kanastra Banking Accounts Balance API
+  slug: open-kanastra-balance-api
+- collection_type: open
+  name: Kanastra Banking Accounts Bank Account Beneficiary API
+  slug: open-kanastra-bank-account-beneficiary-api
+- collection_type: open
+  name: Kanastra Banking Accounts Bank Slip (Boleto) API
+  slug: open-kanastra-bank-slip-boleto-api
+- collection_type: open
+  name: Kanastra Banking Accounts CNAB API
+  slug: open-kanastra-cnab-api
+- collection_type: open
+  name: Kanastra Banking Accounts Commercial Note API
+  slug: open-kanastra-commercial-note-api
+- collection_type: open
+  name: Kanastra Banking Accounts Create API
+  slug: open-kanastra-create-api
+- collection_type: open
+  name: Kanastra Banking Accounts File Return API
+  slug: open-kanastra-file-return-api
+- collection_type: open
+  name: Kanastra Banking Accounts Guarantees API
+  slug: open-kanastra-guarantees-api
+- collection_type: open
+  name: Kanastra Banking Accounts Issuers API
+  slug: open-kanastra-issuers-api
+- collection_type: open
+  name: Kanastra Banking Accounts Pagamentos API
+  slug: open-kanastra-pagamentos-api
+- collection_type: open
+  name: Kanastra Banking Accounts PIX Deposit API
+  slug: open-kanastra-pix-deposit-api
+- collection_type: open
+  name: Kanastra Banking Accounts PIX Keys API
+  slug: open-kanastra-pix-keys-api
+- collection_type: open
+  name: Kanastra Banking Accounts PIX Transfer API
+  slug: open-kanastra-pix-transfer-api
+- collection_type: open
+  name: Kanastra Banking Accounts QRCodes API
+  slug: open-kanastra-qrcodes-api
+- collection_type: open
+  name: Kanastra Banking Accounts TED Transfer API
+  slug: open-kanastra-ted-transfer-api
+- collection_type: open
+  name: Kanastra Banking Accounts Transactions API
+  slug: open-kanastra-transactions-api
+- collection_type: open
+  name: Kanastra Banking Accounts Wallet API
+  slug: open-kanastra-wallet-api
 common:
 - group: agent
   title: ''
@@ -160,7 +223,7 @@ overview: 'Kanastra publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kanastra''s developer surface includes documentation, API reference, authentication, and 7 more developer resources.'
-random_paper: 13
+random_paper: 108
 scopes:
 - name: Kanastra Scopes
   scope_count: 5
@@ -194,7 +257,7 @@ score:
     regime_id: banking_open_finance
     score: 41.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png
 security:

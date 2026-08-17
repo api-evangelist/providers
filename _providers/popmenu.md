@@ -1,15 +1,18 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
   public: false
-  source: []
+  source:
+  - https://get.popmenu.com/developer-api
+  - https://get.popmenu.com/pricing
+  - https://api.popmenu.com/graphql
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -17,17 +20,17 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 6.8
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Popmenu Developer API gives partners access to restaurant data including menus, guests, and orders for building custom integrations with the Popmenu platform. Popmenu also connects with POS and ma
@@ -36,7 +39,7 @@ apis:
 - description: 'Popmenu integrates with popular restaurant, ordering, delivery, reservation, and marketing applications including Square, Toast, Google Analytics, Google Business Profile, Mailchimp, Yelp, OpenTable, '
   name: Popmenu Integrations
   slug: integrations
-artifact_total: 24
+artifact_total: 27
 common:
 - group: auth
   title: ''
@@ -46,9 +49,9 @@ common:
   title: ''
   type: Website
   url: https://get.popmenu.com/
-- group: docs
+- group: other
   title: ''
-  type: Documentation
+  type: DeveloperProgram
   url: https://get.popmenu.com/developer-api
 - group: operate
   title: ''
@@ -57,7 +60,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://get.popmenu.com/post
+  url: https://get.popmenu.com/blog
 - group: company
   title: ''
   type: Partners
@@ -66,12 +69,73 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/Popmenu
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://get.popmenu.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://my.popmenu.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://my.popmenu.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://my.popmenu.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.popmenu.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/popmenu-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/popmenu-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/popmenu-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/popmenu-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/popmenu-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/popmenu-problem-types.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/popmenu-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/popmenu-llms.txt
+- group: agent
+  title: ''
+  type: WellKnownProbe
+  url: well-known/popmenu-well-known.yml
+- group: agent
+  title: ''
+  type: MCPProbe
+  url: mcp/popmenu-mcp.yml
 - group: company
   title: ''
   type: Partners
   url: ''
 created: '2026-06-02'
-description: Popmenu is a restaurant technology platform offering websites, interactive and dynamic menus, online ordering, marketing automation, and menu management designed to turn a restaurant's web presence into a customer conversion engine. Popmenu promotes a Developer API that gives partners access to data on menus, guests, orders, and more for custom integrations, and it connects to applications such as Square, Toast, Google Analytics, Mailchimp, OpenTable, Resy, DoorDash, and Yelp, plus hundreds of others through partner integrations. Public technical documentation, authentication details, and base URLs are not openly published; API access is arranged through Popmenu's developer and partner channels rather than self-service onboarding. Popmenu's engineering stack is Ruby on Rails with a GraphQL API surface, hosted on Heroku, but that internal interface is not exposed as a public, documented product.
+description: 'Popmenu is a restaurant technology platform offering websites, interactive and dynamic menus, online ordering, marketing automation, and menu management designed to turn a restaurant''s web presence into a customer conversion engine. Popmenu promotes a Developer API that gives partners access to data on menus, guests, orders, and more for custom integrations, and it connects to applications such as Square, Toast, Google Analytics, Mailchimp, OpenTable, Resy, DoorDash, and Yelp, plus hundreds of others through partner integrations. That API is GraphQL rather than REST: a live single endpoint was verified at https://api.popmenu.com/graphql on 2026-08-13, mirrored at https://my.popmenu.com/graphql, returning HTTP 200 with vendor popmenu-ratelimit-* headers — but introspection and every query answer "unauthorized" without partner credentials, so the schema cannot be discovered publicly. No OpenAPI, Swagger, AsyncAPI, webhook catalog, MCP server, agent card, llms.txt or /.well-known/
+  document exists on any Popmenu host. Authentication, scopes, error codes and rate limits are undocumented, and get.popmenu.com/developer-api is a lead-capture form rather than a reference. Popmenu''s engineering stack is Ruby on Rails with a React front end, and its entire marketing estate returns HTTP 403 to non-browser clients.'
 features:
 - description: Mobile-responsive restaurant websites with built-in SEO designed to convert visitors into guests.
   name: Restaurant Websites
@@ -84,7 +148,7 @@ features:
 - description: Centralized menu management and publishing that syncs across the website, ordering, and partner channels such as OpenTable.
   name: Menu Management
 graphqls:
-- description: ''
+- description: 'generated: ''2026-08-13'''
   name: Popmenu GraphQL API
   slug: popmenu-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/popmenu.png
@@ -114,36 +178,48 @@ integrations:
 - description: Social posting and marketing integration.
   name: Instagram
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-13'
 name: Popmenu
 nav: Providers
 network: true
 overview: 'Popmenu publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Menus, Online Ordering, Websites, and Marketing.
 
 
-  Popmenu''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 52
+  Popmenu''s developer surface includes support, engineering blog, pricing, and 19 more developer resources.'
+plans:
+- name: Popmenu Plans Pricing
+  plan_count: 4
+  slug: popmenu-plans-pricing
+random_paper: 27
+rate_limits:
+- limit_count: 1
+  name: Popmenu Rate Limits
+  slug: popmenu-rate-limits
 score:
-  band: minimal
-  composite: 9.7
-  delta: 0.0
+  band: thin
+  composite: 30.2
+  delta: 20.5
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 5.3
+    developer_ergonomics: 6.5
+    discoverability: 66.7
+    governance: 12.5
+    operational_transparency: 42.1
   previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/screenshots/popmenu-2026-06-20T191922.png
 security:
+- kind: authentication
+  name: Popmenu Authentication
+  slug: popmenu-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Popmenu Domain Security
   slug: popmenu-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 slug: popmenu
 tags:
 - Restaurant
@@ -152,6 +228,12 @@ tags:
 - Websites
 - Marketing
 - Integrations
+- Hospitality
+- GraphQL
+- Point Of Sale
+- Reservations
+- Loyalty
+- AI Marketing
 use_cases:
 - description: Use partner integrations to publish and keep menus consistent across ordering, delivery, and reservation platforms.
   name: Sync Menus to Partner Channels

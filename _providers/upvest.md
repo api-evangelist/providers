@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ apis:
 - description: Process cash withdrawals from investment accounts.
   name: Upvest Withdrawals API
   slug: upvest-withdrawals-api
-artifact_total: 277
+artifact_total: 313
 asyncapis:
 - description: The Upvest Investment API uses an asynchronous, event-driven architecture where events represent state changes within the system. Webhook subscriptions allow your application to receive real-time noti
   name: Upvest Investment Events
@@ -256,8 +256,116 @@ collections:
   name: Upvest Investment Account Transfers Withdrawals API
   slug: postman-upvest-withdrawals-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Upvest Investment Account Transfers API
+  slug: open-upvest-account-transfers-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Accounts API
+  slug: open-upvest-accounts-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Authentication API
+  slug: open-upvest-authentication-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Cash Balances API
+  slug: open-upvest-cash-balances-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Corporate Actions API
+  slug: open-upvest-corporate-actions-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Direct Debits API
+  slug: open-upvest-direct-debits-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Executions API
+  slug: open-upvest-executions-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Fee Configurations API
+  slug: open-upvest-fee-configurations-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Fees API
+  slug: open-upvest-fees-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Files API
+  slug: open-upvest-files-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Instrument Prices API
+  slug: open-upvest-instrument-prices-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Instruments API
+  slug: open-upvest-instruments-api
+- collection_type: open
   name: Upvest Investment API
   slug: open-upvest-investment-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Liquidations API
+  slug: open-upvest-liquidations-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Mandates API
+  slug: open-upvest-mandates-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Order Cancellations API
+  slug: open-upvest-order-cancellations-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Orders API
+  slug: open-upvest-orders-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Portfolio Allocations API
+  slug: open-upvest-portfolio-allocations-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Portfolio Orders API
+  slug: open-upvest-portfolio-orders-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Portfolios API
+  slug: open-upvest-portfolios-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Portfolios Rebalancing API
+  slug: open-upvest-portfolios-rebalancing-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Positions API
+  slug: open-upvest-positions-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Reference Accounts API
+  slug: open-upvest-reference-accounts-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Reports API
+  slug: open-upvest-reports-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Returns API
+  slug: open-upvest-returns-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Savings Plans API
+  slug: open-upvest-savings-plans-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Securities Transfers API
+  slug: open-upvest-securities-transfers-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Tax Residencies API
+  slug: open-upvest-tax-residencies-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Transactions API
+  slug: open-upvest-transactions-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Treasury Reports API
+  slug: open-upvest-treasury-reports-api
+- collection_type: open
+  name: Upvest Investment Account Transfers User Checks API
+  slug: open-upvest-user-checks-api
+- collection_type: open
+  name: Upvest Investment Account Transfers User Identifiers API
+  slug: open-upvest-user-identifiers-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Users API
+  slug: open-upvest-users-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Valuations API
+  slug: open-upvest-valuations-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Webhook Subscriptions API
+  slug: open-upvest-webhook-subscriptions-api
+- collection_type: open
+  name: Upvest Investment Account Transfers Withdrawals API
+  slug: open-upvest-withdrawals-api
 common:
 - group: commercial
   title: ''
@@ -938,7 +1046,7 @@ plans:
 - name: Upvest Plans Pricing
   plan_count: 3
   slug: upvest-plans-pricing
-random_paper: 79
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Upvest Rate Limits
@@ -999,7 +1107,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upvest/refs/heads/main/screenshots/upvest-2026-06-20T200511.png
 security:

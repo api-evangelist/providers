@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: Event webhooks and delivery logs.
   name: Dfns Webhooks API
   slug: dfns-webhooks-api
-artifact_total: 19
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dfns Approvals API
+  slug: open-dfns-approvals-api
+- collection_type: open
+  name: Dfns Approvals Auth API
+  slug: open-dfns-auth-api
+- collection_type: open
+  name: Dfns Approvals Keys API
+  slug: open-dfns-keys-api
+- collection_type: open
+  name: Dfns Approvals Networks API
+  slug: open-dfns-networks-api
+- collection_type: open
+  name: Dfns Approvals Permissions API
+  slug: open-dfns-permissions-api
+- collection_type: open
+  name: Dfns Approvals Policies API
+  slug: open-dfns-policies-api
+- collection_type: open
+  name: Dfns Approvals ServiceAccounts API
+  slug: open-dfns-serviceaccounts-api
+- collection_type: open
+  name: Dfns Approvals Signatures API
+  slug: open-dfns-signatures-api
+- collection_type: open
+  name: Dfns Approvals Transactions API
+  slug: open-dfns-transactions-api
+- collection_type: open
+  name: Dfns Approvals Transfers API
+  slug: open-dfns-transfers-api
+- collection_type: open
+  name: Dfns Approvals Wallets API
+  slug: open-dfns-wallets-api
+- collection_type: open
+  name: Dfns Approvals Webhooks API
+  slug: open-dfns-webhooks-api
 - collection_type: open
   name: Dfns API
   slug: open-dfns
@@ -141,7 +180,7 @@ plans:
 - name: Dfns Plans Pricing
   plan_count: 3
   slug: dfns-plans-pricing
-random_paper: 67
+random_paper: 129
 rate_limits:
 - limit_count: 4
   name: Dfns Rate Limits
@@ -172,7 +211,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/screenshots/dfns-2026-07-25T212051.png
 security:

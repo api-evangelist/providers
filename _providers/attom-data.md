@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: Automated Valuation Model (AVM) and rental value.
   name: ATTOM Valuation API
   slug: attom-data-valuation-api
-artifact_total: 19
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ATTOM Area API
+  slug: open-attom-data-area-api
+- collection_type: open
+  name: ATTOM Area Assessment API
+  slug: open-attom-data-assessment-api
+- collection_type: open
+  name: ATTOM Area Community API
+  slug: open-attom-data-community-api
+- collection_type: open
+  name: ATTOM Area Events API
+  slug: open-attom-data-events-api
+- collection_type: open
+  name: ATTOM Area Home Equity API
+  slug: open-attom-data-home-equity-api
+- collection_type: open
+  name: ATTOM Area Mortgage API
+  slug: open-attom-data-mortgage-api
+- collection_type: open
+  name: ATTOM Area POI API
+  slug: open-attom-data-poi-api
+- collection_type: open
+  name: ATTOM Area Property API
+  slug: open-attom-data-property-api
+- collection_type: open
+  name: ATTOM Area Sales API
+  slug: open-attom-data-sales-api
+- collection_type: open
+  name: ATTOM Area School API
+  slug: open-attom-data-school-api
+- collection_type: open
+  name: ATTOM Area Transportation Noise API
+  slug: open-attom-data-transportation-noise-api
+- collection_type: open
+  name: ATTOM Area Valuation API
+  slug: open-attom-data-valuation-api
 - collection_type: open
   name: ATTOM API
   slug: open-attom-data
@@ -141,7 +180,7 @@ plans:
 - name: Attom Data Plans Pricing
   plan_count: 3
   slug: attom-data-plans-pricing
-random_paper: 44
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Attom Data Rate Limits
@@ -166,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/screenshots/attom-data-2026-07-25T201637.png
 security:

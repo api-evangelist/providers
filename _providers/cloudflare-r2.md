@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -81,7 +81,53 @@ apis:
 - description: The Table Management API from Cloudflare R2 — 1 operation(s) for table management.
   name: Cloudflare R2 Table Management API
   slug: cloudflare-r2-table-management-api
-artifact_total: 33
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets API
+  slug: open-cloudflare-r2-buckets-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets CORS API
+  slug: open-cloudflare-r2-cors-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets Credential Management API
+  slug: open-cloudflare-r2-credential-management-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets Lifecycle API
+  slug: open-cloudflare-r2-lifecycle-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets Maintenance Configuration API
+  slug: open-cloudflare-r2-maintenance-configuration-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets Multipart Upload API
+  slug: open-cloudflare-r2-multipart-upload-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets Namespace Management API
+  slug: open-cloudflare-r2-namespace-management-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets Objects API
+  slug: open-cloudflare-r2-objects-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets R2 Account API
+  slug: open-cloudflare-r2-r2-account-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets R2 Bucket API
+  slug: open-cloudflare-r2-r2-bucket-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets R2 Catalog Management API
+  slug: open-cloudflare-r2-r2-catalog-management-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets R2 Object API
+  slug: open-cloudflare-r2-r2-object-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets Table Maintenance Configuration API
+  slug: open-cloudflare-r2-table-maintenance-configuration-api
+- collection_type: open
+  name: Cloudflare R2 Cloudflare Buckets Table Management API
+  slug: open-cloudflare-r2-table-management-api
 common:
 - group: operate
   title: ''
@@ -223,7 +269,7 @@ plans:
 - name: Cloudflare R2 Plans Pricing
   plan_count: 3
   slug: cloudflare-r2-plans-pricing
-random_paper: 66
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Cloudflare R2 Rate Limits
@@ -257,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/screenshots/cloudflare-r2-2026-06-20T174556.png
 security:

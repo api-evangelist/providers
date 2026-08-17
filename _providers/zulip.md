@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 2
@@ -90,12 +90,57 @@ apis:
 - description: The webhooks API from Zulip — 1 operation(s) for webhooks.
   name: Zulip webhooks API
   slug: zulip-webhooks-api
-artifact_total: 28
+artifact_total: 43
 asyncapis:
 - description: The Zulip Events API delivers real-time updates from a Zulip server to a client via an HTTPS long-poll. Clients first register an event queue by calling POST /api/v1/register, then repeatedly call GET
   name: Zulip Events API
   slug: zulip-events-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zulip REST authentication API
+  slug: open-zulip-authentication-api
+- collection_type: open
+  name: Zulip REST authentication bots API
+  slug: open-zulip-bots-api
+- collection_type: open
+  name: Zulip REST authentication channels API
+  slug: open-zulip-channels-api
+- collection_type: open
+  name: Zulip REST authentication drafts API
+  slug: open-zulip-drafts-api
+- collection_type: open
+  name: Zulip REST authentication invites API
+  slug: open-zulip-invites-api
+- collection_type: open
+  name: Zulip REST authentication messages API
+  slug: open-zulip-messages-api
+- collection_type: open
+  name: Zulip REST authentication mobile API
+  slug: open-zulip-mobile-api
+- collection_type: open
+  name: Zulip REST authentication navigation_views API
+  slug: open-zulip-navigation-views-api
+- collection_type: open
+  name: Zulip REST authentication real_time_events API
+  slug: open-zulip-real-time-events-api
+- collection_type: open
+  name: Zulip REST authentication reminders API
+  slug: open-zulip-reminders-api
+- collection_type: open
+  name: Zulip REST authentication scheduled_messages API
+  slug: open-zulip-scheduled-messages-api
+- collection_type: open
+  name: Zulip REST authentication server_and_organizations API
+  slug: open-zulip-server-and-organizations-api
+- collection_type: open
+  name: Zulip REST authentication users API
+  slug: open-zulip-users-api
+- collection_type: open
+  name: Zulip REST authentication webhooks API
+  slug: open-zulip-webhooks-api
 - collection_type: open
   name: Zulip REST API
   slug: open-zulip
@@ -159,7 +204,7 @@ plans:
 - name: Zulip Plans Pricing
   plan_count: 3
   slug: zulip-plans-pricing
-random_paper: 84
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Zulip Rate Limits
@@ -193,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/screenshots/zulip-2026-06-20T201957.png
 security:

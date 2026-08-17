@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: Search cocktails and ingredients.
   name: Free Cocktail API Search API
   slug: free-cocktail-api-search-api
-artifact_total: 11
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Free Cocktail Filter API
+  slug: open-free-cocktail-api-filter-api
+- collection_type: open
+  name: Free Cocktail Filter List API
+  slug: open-free-cocktail-api-list-api
+- collection_type: open
+  name: Free Cocktail Filter Lookup API
+  slug: open-free-cocktail-api-lookup-api
+- collection_type: open
+  name: Free Cocktail Filter Random API
+  slug: open-free-cocktail-api-random-api
+- collection_type: open
+  name: Free Cocktail Filter Search API
+  slug: open-free-cocktail-api-search-api
 - collection_type: open
   name: Free Cocktail API
   slug: open-free-cocktail-api
@@ -95,7 +113,7 @@ plans:
 - name: Free Cocktail Api Plans Pricing
   plan_count: 3
   slug: free-cocktail-api-plans-pricing
-random_paper: 104
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Free Cocktail Api Rate Limits
@@ -120,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/screenshots/free-cocktail-api-2026-06-20T181517.png
 security:

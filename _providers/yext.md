@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 0
@@ -111,7 +111,77 @@ apis:
 - description: Yext Webhooks from Yext, described in OpenAPI.
   name: Yext Webhooks
   slug: yext-webhooks-openapi
-artifact_total: 41
+artifact_total: 64
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yext Admin Account Settings API
+  slug: open-yext-account-settings-api
+- collection_type: open
+  name: Yext Admin Account Settings Accounts API
+  slug: open-yext-accounts-api
+- collection_type: open
+  name: Yext Admin Account Settings Administrative API API
+  slug: open-yext-administrative-api-api
+- collection_type: open
+  name: Yext Admin Account Settings Analytics API
+  slug: open-yext-analytics-api
+- collection_type: open
+  name: Yext Admin Account Settings Computations API
+  slug: open-yext-computations-api
+- collection_type: open
+  name: Yext Admin Account Settings Configuration API
+  slug: open-yext-configuration-api
+- collection_type: open
+  name: Yext Admin Account Settings Connectors API
+  slug: open-yext-connectors-api
+- collection_type: open
+  name: Yext Admin Account Settings Content API API
+  slug: open-yext-content-api-api
+- collection_type: open
+  name: Yext Admin Account Settings Domains API
+  slug: open-yext-domains-api
+- collection_type: open
+  name: Yext Admin Account Settings Health Check API
+  slug: open-yext-health-check-api
+- collection_type: open
+  name: Yext Admin Account Settings Knowledge Manager API
+  slug: open-yext-knowledge-manager-api
+- collection_type: open
+  name: Yext Admin Account Settings Licenses API
+  slug: open-yext-licenses-api
+- collection_type: open
+  name: Yext Admin Account Settings Listings API
+  slug: open-yext-listings-api
+- collection_type: open
+  name: Yext Admin Account Settings Lists API
+  slug: open-yext-lists-api
+- collection_type: open
+  name: Yext Admin Account Settings Live API API
+  slug: open-yext-live-api-api
+- collection_type: open
+  name: Yext Admin Account Settings LogsAPI API
+  slug: open-yext-logsapi-api
+- collection_type: open
+  name: Yext Admin Account Settings Optimization Tasks API
+  slug: open-yext-optimization-tasks-api
+- collection_type: open
+  name: Yext Admin Account Settings Plpixel API
+  slug: open-yext-plpixel-api
+- collection_type: open
+  name: Yext Admin Account Settings Publisher Disruptions API
+  slug: open-yext-publisher-disruptions-api
+- collection_type: open
+  name: Yext Admin Account Settings Social API
+  slug: open-yext-social-api
+- collection_type: open
+  name: Yext Admin Account Settings Suggestions API
+  slug: open-yext-suggestions-api
+- collection_type: open
+  name: Webhooks
+  slug: open-yext-webhooks
 common:
 - group: agent
   title: ''
@@ -234,7 +304,7 @@ plans:
 - name: Yext Plans Pricing
   plan_count: 5
   slug: yext-plans-pricing
-random_paper: 98
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Yext Rate Limits
@@ -268,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/screenshots/yext-2026-06-20T201740.png
 security:

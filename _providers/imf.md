@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: Retrieve dataset metadata including dataflows, data structures, codelists, and concept schemes
   name: IMF Data Structure API
   slug: imf-structure-api
-artifact_total: 17
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IMF SDMX 3.0 Data API
+  slug: open-imf-data-api
+- collection_type: open
+  name: IMF SDMX 3.0 Data Structure API
+  slug: open-imf-structure-api
 common:
 - group: agent
   title: ''
@@ -153,7 +163,7 @@ plans:
 - name: Imf Plans Pricing
   plan_count: 1
   slug: imf-plans-pricing
-random_paper: 76
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Imf Rate Limits
@@ -193,7 +203,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/screenshots/imf-2026-06-20T183250.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The VMS API from SMSAPI — 1 operation(s) for vms.
   name: SMSAPI VMS API
   slug: smsapi-vms-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SMSAPI REST 2FA API
+  slug: open-smsapi-2fa-api
+- collection_type: open
+  name: SMSAPI REST 2FA Blacklist API
+  slug: open-smsapi-blacklist-api
+- collection_type: open
+  name: SMSAPI REST 2FA Contacts API
+  slug: open-smsapi-contacts-api
+- collection_type: open
+  name: SMSAPI REST 2FA HLR API
+  slug: open-smsapi-hlr-api
+- collection_type: open
+  name: SMSAPI REST 2FA MMS API
+  slug: open-smsapi-mms-api
+- collection_type: open
+  name: SMSAPI REST 2FA Profile API
+  slug: open-smsapi-profile-api
+- collection_type: open
+  name: SMSAPI REST 2FA Sender Names API
+  slug: open-smsapi-sender-names-api
+- collection_type: open
+  name: SMSAPI REST 2FA Short URLs API
+  slug: open-smsapi-short-urls-api
+- collection_type: open
+  name: SMSAPI REST 2FA SMS API
+  slug: open-smsapi-sms-api
+- collection_type: open
+  name: SMSAPI REST 2FA Subusers API
+  slug: open-smsapi-subusers-api
+- collection_type: open
+  name: SMSAPI REST 2FA VMS API
+  slug: open-smsapi-vms-api
 - collection_type: open
   name: SMSAPI REST API
   slug: open-smsapi
@@ -146,7 +182,7 @@ plans:
 - name: Smsapi Plans Pricing
   plan_count: 3
   slug: smsapi-plans-pricing
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Smsapi Rate Limits
@@ -177,7 +213,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

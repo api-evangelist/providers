@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Shared UK Open Banking Open Data standard for public, unauthenticated reference data (ATMs, branches, personal and business current accounts, unsecured SME loans, commercial credit cards). Included as
@@ -43,7 +43,11 @@ apis:
 - description: Shared OBIE Read/Write Confirmation of Funds (CBPII) standard, FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 SCA. Included as the OBIE v4.0 standard specification, not a confirmed Recognise Bank
   name: UK Open Banking Confirmation of Funds API (OBIE Standard)
   slug: uk-open-banking-confirmation-of-funds-api
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-swagger
 common:
 - group: auth
   title: ''
@@ -122,7 +126,7 @@ overview: 'Recognise Bank publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Recognise Bank''s developer surface includes authentication, engineering blog, and 14 more developer resources.'
-random_paper: 96
+random_paper: 75
 scopes:
 - name: Recognise Bank Scopes
   scope_count: 3
@@ -154,7 +158,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Bailey44 is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Bailey44''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 14
+random_paper: 138
 score:
   band: minimal
   composite: 9.7
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bailey44/refs/heads/main/screenshots/bailey44-2026-08-07T162106.png
 security:

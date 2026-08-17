@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -42,11 +42,15 @@ apis:
 - description: 'Asynchronous generative-media API. Submit a generation request to any of the 100+ model endpoints (POST /{model_id}), then retrieve status (GET /requests/{request_id}/status), cancel a queued request '
   name: Higgsfield API
   slug: higgsfield-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Higgsfield Webhooks
   slug: higgsfield-webhooks
+collections:
+- collection_type: open
+  name: API Reference
+  slug: open-higgsfield-openapi-original
 common:
 - group: agent
   title: ''
@@ -195,7 +199,7 @@ overview: 'Higgsfield publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Higgsfield''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 86
+random_paper: 3
 score:
   band: developing
   composite: 52.2
@@ -214,7 +218,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/higgsfield/refs/heads/main/screenshots/higgsfield-2026-07-25T221304.png
 security:

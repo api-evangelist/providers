@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Track shipments and delivery status.
   name: Dana Shipping API
   slug: dana-shipping-api
-artifact_total: 17
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Dana Aftermarket API
   slug: open-dana-aftermarket-api
+- collection_type: open
+  name: Dana Aftermarket Availability API
+  slug: open-dana-availability-api
+- collection_type: open
+  name: Dana Aftermarket Availability Orders API
+  slug: open-dana-orders-api
+- collection_type: open
+  name: Dana Aftermarket Availability Parts API
+  slug: open-dana-parts-api
+- collection_type: open
+  name: Dana Aftermarket Availability Pricing API
+  slug: open-dana-pricing-api
+- collection_type: open
+  name: Dana Aftermarket Availability Shipping API
+  slug: open-dana-shipping-api
 common:
 - group: agent
   title: ''
@@ -143,7 +161,7 @@ press:
 - date: '2026-05-25'
   title: Dana and Chrysler relations fester as costs rise
   url: https://www.autonews.com/article/20080807/OEM02/308079998/dana-and-chrysler-relations-fester-as-costs-rise/
-random_paper: 44
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: Dana Rate Limits
@@ -185,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/screenshots/dana-2026-06-20T175459.png
 security:

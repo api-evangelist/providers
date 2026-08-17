@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -80,8 +80,44 @@ apis:
 - description: The Workbench API from Travelport — 3 operation(s) for workbench.
   name: Travelport Workbench API
   slug: travelport-workbench-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Travelport TripServices Flights Booking API
+  slug: open-travelport-booking-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking EMDs API
+  slug: open-travelport-emds-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking Fare Rules API
+  slug: open-travelport-fare-rules-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking Modifications API
+  slug: open-travelport-modifications-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking Pricing API
+  slug: open-travelport-pricing-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking Queues API
+  slug: open-travelport-queues-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking Reservations API
+  slug: open-travelport-reservations-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking Search API
+  slug: open-travelport-search-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking Seats and Ancillaries API
+  slug: open-travelport-seats-and-ancillaries-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking Ticketing API
+  slug: open-travelport-ticketing-api
+- collection_type: open
+  name: Travelport TripServices Flights Booking Workbench API
+  slug: open-travelport-workbench-api
 - collection_type: open
   name: Travelport TripServices Flights API
   slug: open-travelport
@@ -166,7 +202,7 @@ overview: 'Travelport publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Travelport''s developer surface includes authentication, getting-started guide, support, product news, and 12 more developer resources.'
-random_paper: 27
+random_paper: 64
 score:
   band: emerging
   composite: 27.1
@@ -193,7 +229,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png
 security:

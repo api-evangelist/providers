@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,11 +66,42 @@ apis:
 - description: The Users API from Vitally — 3 operation(s) for users.
   name: Vitally Users API
   slug: vitally-users-api
-artifact_total: 17
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Vitally Webhooks
   slug: vitally-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vitally REST Accounts API
+  slug: open-vitally-accounts-api
+- collection_type: open
+  name: Vitally REST Accounts Admins API
+  slug: open-vitally-admins-api
+- collection_type: open
+  name: Vitally REST Accounts Conversations API
+  slug: open-vitally-conversations-api
+- collection_type: open
+  name: Vitally REST Accounts Custom Objects API
+  slug: open-vitally-custom-objects-api
+- collection_type: open
+  name: Vitally REST Accounts Notes API
+  slug: open-vitally-notes-api
+- collection_type: open
+  name: Vitally REST Accounts NPS Responses API
+  slug: open-vitally-nps-responses-api
+- collection_type: open
+  name: Vitally REST Accounts Organizations API
+  slug: open-vitally-organizations-api
+- collection_type: open
+  name: Vitally REST Accounts Tasks API
+  slug: open-vitally-tasks-api
+- collection_type: open
+  name: Vitally REST Accounts Users API
+  slug: open-vitally-users-api
 common:
 - group: other
   title: ''
@@ -227,7 +258,7 @@ overview: 'Vitally publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Vitally''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 53
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Vitally Rate Limits
@@ -255,7 +286,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

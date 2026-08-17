@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -83,7 +83,56 @@ apis:
 - description: The User API from Loopay — 2 operation(s) for user.
   name: Loopay User API
   slug: loopay-user-api
-artifact_total: 19
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: loopay-api Affiliate API
+  slug: open-loopay-affiliate-api
+- collection_type: open
+  name: loopay-api Affiliate Bank API
+  slug: open-loopay-bank-api
+- collection_type: open
+  name: loopay-api Affiliate Company API
+  slug: open-loopay-company-api
+- collection_type: open
+  name: loopay-api Affiliate CompanyProduct API
+  slug: open-loopay-companyproduct-api
+- collection_type: open
+  name: loopay-api Affiliate Country API
+  slug: open-loopay-country-api
+- collection_type: open
+  name: loopay-api Affiliate Currency API
+  slug: open-loopay-currency-api
+- collection_type: open
+  name: loopay-api Affiliate DocumentType API
+  slug: open-loopay-documenttype-api
+- collection_type: open
+  name: loopay-api Affiliate Movements API
+  slug: open-loopay-movements-api
+- collection_type: open
+  name: loopay-api Affiliate PaidMethods API
+  slug: open-loopay-paidmethods-api
+- collection_type: open
+  name: loopay-api Affiliate PayIn API
+  slug: open-loopay-payin-api
+- collection_type: open
+  name: loopay-api Affiliate Payout API
+  slug: open-loopay-payout-api
+- collection_type: open
+  name: loopay-api Affiliate PhysicalPoint API
+  slug: open-loopay-physicalpoint-api
+- collection_type: open
+  name: loopay-api Affiliate SourcesOfPayment API
+  slug: open-loopay-sourcesofpayment-api
+- collection_type: open
+  name: loopay-api Affiliate SourcesOfPaymentAdmin API
+  slug: open-loopay-sourcesofpaymentadmin-api
+- collection_type: open
+  name: loopay-api Affiliate User API
+  slug: open-loopay-user-api
 common:
 - group: start
   title: ''
@@ -197,7 +246,7 @@ overview: 'Loopay publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Loopay''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 60
+random_paper: 64
 score:
   band: thin
   composite: 37.8
@@ -227,7 +276,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/screenshots/loopay-2026-07-25T225527.png
 security:

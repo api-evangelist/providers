@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -78,12 +78,42 @@ apis:
 - description: The State API from Celigo — 2 operation(s) for state.
   name: Celigo State API
   slug: celigo-state-api
-artifact_total: 23
+artifact_total: 33
 asyncapis:
 - description: AsyncAPI description of Celigo integrator.io's inbound webhook surface. integrator.io exposes "webhook listeners" that receive HTTP POST or PUT requests from third-party source applications. Each list
   name: Celigo integrator.io Webhook Listeners
   slug: celigo-webhook-listeners-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Celigo integrator.io Platform REST Connections API
+  slug: open-celigo-connections-api
+- collection_type: open
+  name: Celigo integrator.io Platform REST Connections Exports API
+  slug: open-celigo-exports-api
+- collection_type: open
+  name: Celigo integrator.io Platform REST Connections Flows API
+  slug: open-celigo-flows-api
+- collection_type: open
+  name: Celigo integrator.io Platform REST Connections iClients API
+  slug: open-celigo-iclients-api
+- collection_type: open
+  name: Celigo integrator.io Platform REST Connections Imports API
+  slug: open-celigo-imports-api
+- collection_type: open
+  name: Celigo integrator.io Platform REST Connections Integrations API
+  slug: open-celigo-integrations-api
+- collection_type: open
+  name: Celigo integrator.io Platform REST Connections Jobs API
+  slug: open-celigo-jobs-api
+- collection_type: open
+  name: Celigo integrator.io Platform REST Connections Licenses API
+  slug: open-celigo-licenses-api
+- collection_type: open
+  name: Celigo integrator.io Platform REST Connections State API
+  slug: open-celigo-state-api
 - collection_type: open
   name: Celigo integrator.io Platform REST API
   slug: open-celigo
@@ -167,7 +197,7 @@ plans:
 - name: Celigo Plans Pricing
   plan_count: 3
   slug: celigo-plans-pricing
-random_paper: 27
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Celigo Rate Limits
@@ -201,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/screenshots/celigo-2026-06-20T174113.png
 security:

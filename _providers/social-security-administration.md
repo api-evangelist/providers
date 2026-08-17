@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,17 @@ apis:
 - description: Query SSA Resident Station locations and hours
   name: Social Security Administration Resident Stations API
   slug: social-security-administration-resident-stations-api
-artifact_total: 18
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SSA Field Office Address Field Offices API
+  slug: open-social-security-administration-field-offices-api
+- collection_type: open
+  name: SSA Field Office Address Field Offices Resident Stations API
+  slug: open-social-security-administration-resident-stations-api
 - collection_type: open
   name: SSA Field Office Address API
   slug: open-ssa-field-office
@@ -158,7 +167,7 @@ plans:
 - name: Social Security Administration Plans Pricing
   plan_count: 3
   slug: social-security-administration-plans-pricing
-random_paper: 3
+random_paper: 143
 rate_limits:
 - limit_count: 5
   name: Social Security Administration Rate Limits
@@ -206,7 +215,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/screenshots/social-security-administration-2026-06-20T194118.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -68,11 +68,42 @@ apis:
 - description: The Webhooks API from H Company — 5 operation(s) for webhooks.
   name: H Company Webhooks API
   slug: h-company-webhooks-api
-artifact_total: 15
+artifact_total: 25
 asyncapis:
 - description: ''
   name: H Company Webhooks
   slug: h-company-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Computer-Use Agents API
+  slug: open-h-company-agents-api
+- collection_type: open
+  name: Computer-Use Agents Browser Profiles API
+  slug: open-h-company-browser-profiles-api
+- collection_type: open
+  name: Computer-Use Agents Environments API
+  slug: open-h-company-environments-api
+- collection_type: open
+  name: Computer-Use Agents quota API
+  slug: open-h-company-quota-api
+- collection_type: open
+  name: Computer-Use Agents Schedules API
+  slug: open-h-company-schedules-api
+- collection_type: open
+  name: Computer-Use Agents Sessions API
+  slug: open-h-company-sessions-api
+- collection_type: open
+  name: Computer-Use Agents Skills API
+  slug: open-h-company-skills-api
+- collection_type: open
+  name: Computer-Use Agents Vaults API
+  slug: open-h-company-vaults-api
+- collection_type: open
+  name: Computer-Use Agents Webhooks API
+  slug: open-h-company-webhooks-api
 common:
 - group: other
   title: ''
@@ -217,7 +248,7 @@ overview: 'H Company publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   H Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 68
+random_paper: 14
 score:
   band: developing
   composite: 55.5
@@ -241,7 +272,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/screenshots/h-company-2026-07-25T220500.png
 security:

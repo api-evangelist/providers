@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 1
@@ -192,8 +192,164 @@ apis:
 - description: Create and manage workspace members.
   name: Portkey Workspaces > Members API
   slug: portkey-workspaces-members-api
-artifact_total: 58
+artifact_total: 110
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Portkey Analytics > Graphs API
+  slug: open-portkey-analytics-graphs-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Analytics > Groups API
+  slug: open-portkey-analytics-groups-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Analytics > Summary API
+  slug: open-portkey-analytics-summary-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Api-Keys API
+  slug: open-portkey-api-keys-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Assistants API
+  slug: open-portkey-assistants-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Audio API
+  slug: open-portkey-audio-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Audit Logs API
+  slug: open-portkey-audit-logs-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Batch API
+  slug: open-portkey-batch-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Chat API
+  slug: open-portkey-chat-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Collections API
+  slug: open-portkey-collections-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Completions API
+  slug: open-portkey-completions-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Configs API
+  slug: open-portkey-configs-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Embeddings API
+  slug: open-portkey-embeddings-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Feedback API
+  slug: open-portkey-feedback-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Files API
+  slug: open-portkey-files-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Fine-tuning API
+  slug: open-portkey-fine-tuning-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Finetune API
+  slug: open-portkey-finetune-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Guardrails API
+  slug: open-portkey-guardrails-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Images API
+  slug: open-portkey-images-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Integrations API
+  slug: open-portkey-integrations-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Integrations > Models API
+  slug: open-portkey-integrations-models-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Integrations > Workspaces API
+  slug: open-portkey-integrations-workspaces-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Labels API
+  slug: open-portkey-labels-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Logs API
+  slug: open-portkey-logs-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Logs Export API
+  slug: open-portkey-logs-export-api
+- collection_type: open
+  name: Portkey Analytics > Graphs MCP Integrations API
+  slug: open-portkey-mcp-integrations-api
+- collection_type: open
+  name: Portkey Analytics > Graphs MCP Integrations > Capabilities API
+  slug: open-portkey-mcp-integrations-capabilities-api
+- collection_type: open
+  name: Portkey Analytics > Graphs MCP Integrations > Metadata API
+  slug: open-portkey-mcp-integrations-metadata-api
+- collection_type: open
+  name: Portkey Analytics > Graphs MCP Integrations > Workspaces API
+  slug: open-portkey-mcp-integrations-workspaces-api
+- collection_type: open
+  name: Portkey Analytics > Graphs MCP Servers API
+  slug: open-portkey-mcp-servers-api
+- collection_type: open
+  name: Portkey Analytics > Graphs MCP Servers > Capabilities API
+  slug: open-portkey-mcp-servers-capabilities-api
+- collection_type: open
+  name: Portkey Analytics > Graphs MCP Servers > Connections API
+  slug: open-portkey-mcp-servers-connections-api
+- collection_type: open
+  name: Portkey Analytics > Graphs MCP Servers > User Access API
+  slug: open-portkey-mcp-servers-user-access-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Model Pricing API
+  slug: open-portkey-model-pricing-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Models API
+  slug: open-portkey-models-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Moderations API
+  slug: open-portkey-moderations-api
+- collection_type: open
+  name: Portkey Analytics > Graphs PromptPartials API
+  slug: open-portkey-promptpartials-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Prompts API
+  slug: open-portkey-prompts-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Providers API
+  slug: open-portkey-providers-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Rate Limits Policies API
+  slug: open-portkey-rate-limits-policies-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Realtime API
+  slug: open-portkey-realtime-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Rerank API
+  slug: open-portkey-rerank-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Responses API
+  slug: open-portkey-responses-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Secret-References API
+  slug: open-portkey-secret-references-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Usage Limits Policies API
+  slug: open-portkey-usage-limits-policies-api
+- collection_type: open
+  name: Portkey Analytics > Graphs User-invites API
+  slug: open-portkey-user-invites-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Users API
+  slug: open-portkey-users-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Vector Stores API
+  slug: open-portkey-vector-stores-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Virtual-keys API
+  slug: open-portkey-virtual-keys-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Workspaces API
+  slug: open-portkey-workspaces-api
+- collection_type: open
+  name: Portkey Analytics > Graphs Workspaces > Members API
+  slug: open-portkey-workspaces-members-api
 - collection_type: open
   name: Portkey API
   slug: open-portkey
@@ -338,7 +494,7 @@ plans:
 - name: Portkey Plans Pricing
   plan_count: 4
   slug: portkey-plans-pricing
-random_paper: 62
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Portkey Rate Limits
@@ -363,7 +519,7 @@ score:
       marker_coverage: 0.0
       total: 51
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/screenshots/portkey-2026-06-20T191938.png
 security:

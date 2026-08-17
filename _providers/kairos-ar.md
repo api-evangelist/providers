@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Manage galleries and the subjects/face templates enrolled in them.
   name: Kairos AR Galleries API
   slug: kairos-ar-galleries-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kairos Face Recognition & Emotion Analysis API
+  slug: open-kairos-ar-emotion-analysis-api
+- collection_type: open
+  name: Kairos & Emotion Analysis Face Recognition API
+  slug: open-kairos-ar-face-recognition-api
+- collection_type: open
+  name: Kairos Face Recognition & Emotion Analysis Galleries API
+  slug: open-kairos-ar-galleries-api
 common:
 - group: other
   title: ''
@@ -165,7 +178,7 @@ overview: 'Kairos AR publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kairos AR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 65
+random_paper: 11
 score:
   band: developing
   composite: 50.3
@@ -189,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/screenshots/kairos-ar-2026-07-25T223414.png
 security:

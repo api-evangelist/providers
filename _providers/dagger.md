@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,14 @@ apis:
 - description: The GraphQL API from Dagger — 1 operation(s) for graphql.
   name: Dagger GraphQL API
   slug: dagger-graphql-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dagger HTTP GraphQL API
+  slug: open-dagger-graphql-api
 - collection_type: open
   name: Dagger HTTP GraphQL API
   slug: open-dagger
@@ -192,7 +198,7 @@ plans:
 - name: Dagger Plans Pricing
   plan_count: 3
   slug: dagger-plans-pricing
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Dagger Rate Limits
@@ -217,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/screenshots/dagger-2026-06-20T175437.png
 security:

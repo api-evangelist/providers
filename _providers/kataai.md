@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Login and token issuance.
@@ -62,7 +62,38 @@ arazzos:
 - description: Log in, create a project, push a bot revision, cut a deployment version, and bind an environment.
   name: Build and deploy a Kata.ai bot
   slug: kataai-build-and-deploy-bot
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kata.ai NL Prediction Auth API
+  slug: open-kataai-auth-api
+- collection_type: open
+  name: Kata.ai NL Prediction Auth Bots API
+  slug: open-kataai-bots-api
+- collection_type: open
+  name: Kata.ai NL Prediction Auth Channels API
+  slug: open-kataai-channels-api
+- collection_type: open
+  name: Kata.ai NL Prediction Auth Deployments API
+  slug: open-kataai-deployments-api
+- collection_type: open
+  name: Kata.ai NL Prediction Auth Environments API
+  slug: open-kataai-environments-api
+- collection_type: open
+  name: Kata.ai NL Prediction Auth NLU API
+  slug: open-kataai-nlu-api
+- collection_type: open
+  name: Kata.ai NL Auth Prediction API
+  slug: open-kataai-prediction-api
+- collection_type: open
+  name: Kata.ai NL Prediction Auth Projects API
+  slug: open-kataai-projects-api
+- collection_type: open
+  name: Kata.ai NL Prediction Auth Teams API
+  slug: open-kataai-teams-api
 common:
 - group: company
   title: ''
@@ -180,7 +211,7 @@ overview: 'Kata.ai publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kata.ai''s developer surface includes documentation, API reference, signup flow, support, authentication, CLI, and 19 more developer resources.'
-random_paper: 19
+random_paper: 23
 score:
   band: thin
   composite: 28.4
@@ -203,7 +234,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png
 security:

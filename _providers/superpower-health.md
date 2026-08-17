@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Annual comprehensive blood testing across 100+ biomarkers in 21 categories (hormones, longevity, immune, inflammation, nutrients, toxins) collected via Quest Diagnostics locations or at-home phlebotom
@@ -46,8 +46,11 @@ apis:
 - description: Inbound sync of wearable and health-app data (Oura, Whoop, Apple Health) plus uploaded past lab results and medical records. Superpower is reported to use the third-party Vital aggregator to ingest th
   name: Superpower Wearable & Records Sync
   slug: superpower-health-wearable-sync
-artifact_total: 10
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Superpower
   slug: open-superpower-health
@@ -80,7 +83,7 @@ plans:
 - name: Superpower Health Plans Pricing
   plan_count: 2
   slug: superpower-health-plans-pricing
-random_paper: 111
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Superpower Health Rate Limits
@@ -104,7 +107,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/screenshots/superpower-health-2026-06-20T194727.png
 security:

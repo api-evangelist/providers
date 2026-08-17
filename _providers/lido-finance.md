@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,32 @@ apis:
 - description: The Validators API from Lido Finance — 1 operation(s) for validators.
   name: Lido Finance Validators API
   slug: lido-finance-validators-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lido Ethereum APR for Eth and stEth API
+  slug: open-lido-finance-apr-for-eth-and-steth-api
+- collection_type: open
+  name: Lido Ethereum APR for Eth and stEth Estimate API
+  slug: open-lido-finance-estimate-api
+- collection_type: open
+  name: Lido Ethereum APR for Eth and stEth NFT API
+  slug: open-lido-finance-nft-api
+- collection_type: open
+  name: Lido Ethereum APR for Eth and stEth Request Time API
+  slug: open-lido-finance-request-time-api
+- collection_type: open
+  name: Lido Ethereum APR for Eth and stEth Rewards API
+  slug: open-lido-finance-rewards-api
+- collection_type: open
+  name: Lido Ethereum APR for Eth and stEth Swap rate for stETH and wstETH API
+  slug: open-lido-finance-swap-rate-for-steth-and-wsteth-api
+- collection_type: open
+  name: Lido Ethereum APR for Eth and stEth Validators API
+  slug: open-lido-finance-validators-api
 common:
 - group: other
   title: ''
@@ -225,7 +250,7 @@ overview: 'Lido Finance publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lido Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 29 more developer resources.'
-random_paper: 113
+random_paper: 1
 score:
   band: developing
   composite: 46.4
@@ -249,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/screenshots/lido-finance-2026-07-25T225027.png
 security:

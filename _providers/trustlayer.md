@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 21
 apis:
 - description: The Auth API from TrustLayer — 1 operation(s) for auth.
@@ -94,11 +94,78 @@ apis:
 - description: The Workspaces API from TrustLayer — 1 operation(s) for workspaces.
   name: TrustLayer Workspaces API
   slug: trustlayer-workspaces-api
-artifact_total: 26
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Trustlayer Webhooks
   slug: trustlayer-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TrustLayer Platform Auth API
+  slug: open-trustlayer-auth-api
+- collection_type: open
+  name: TrustLayer Platform Auth branding API
+  slug: open-trustlayer-branding-api
+- collection_type: open
+  name: TrustLayer Platform Auth compliance-profiles API
+  slug: open-trustlayer-compliance-profiles-api
+- collection_type: open
+  name: TrustLayer Platform Auth contacts API
+  slug: open-trustlayer-contacts-api
+- collection_type: open
+  name: TrustLayer Platform Auth Context Objects API
+  slug: open-trustlayer-context-objects-api
+- collection_type: open
+  name: TrustLayer Platform Auth Context Records API
+  slug: open-trustlayer-context-records-api
+- collection_type: open
+  name: TrustLayer Platform Auth custom-fields API
+  slug: open-trustlayer-custom-fields-api
+- collection_type: open
+  name: TrustLayer Platform Auth Document Types API
+  slug: open-trustlayer-document-types-api
+- collection_type: open
+  name: TrustLayer Platform Auth documents API
+  slug: open-trustlayer-documents-api
+- collection_type: open
+  name: TrustLayer Platform Auth Parties API
+  slug: open-trustlayer-parties-api
+- collection_type: open
+  name: TrustLayer Platform Auth party-types API
+  slug: open-trustlayer-party-types-api
+- collection_type: open
+  name: TrustLayer Platform Auth Policies API
+  slug: open-trustlayer-policies-api
+- collection_type: open
+  name: TrustLayer Platform Auth Primary Objects API
+  slug: open-trustlayer-primary-objects-api
+- collection_type: open
+  name: TrustLayer Platform Auth Primary Records API
+  slug: open-trustlayer-primary-records-api
+- collection_type: open
+  name: TrustLayer Platform Auth Projects API
+  slug: open-trustlayer-projects-api
+- collection_type: open
+  name: TrustLayer Platform Auth reports API
+  slug: open-trustlayer-reports-api
+- collection_type: open
+  name: TrustLayer Platform Auth Request Records API
+  slug: open-trustlayer-request-records-api
+- collection_type: open
+  name: TrustLayer Platform Auth Requirements API
+  slug: open-trustlayer-requirements-api
+- collection_type: open
+  name: TrustLayer Platform Auth tags API
+  slug: open-trustlayer-tags-api
+- collection_type: open
+  name: TrustLayer Platform Auth Views API
+  slug: open-trustlayer-views-api
+- collection_type: open
+  name: TrustLayer Platform Auth Workspaces API
+  slug: open-trustlayer-workspaces-api
 common:
 - group: other
   title: ''
@@ -223,7 +290,7 @@ overview: 'TrustLayer publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   TrustLayer''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 39
+random_paper: 76
 score:
   band: developing
   composite: 46.8
@@ -252,7 +319,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

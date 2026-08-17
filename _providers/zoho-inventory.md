@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 356
   human_in_the_loop: 4
@@ -150,7 +150,122 @@ apis:
 - description: Vendor-Credits Module
   name: Zoho Inventory vendor-credits API
   slug: zoho-inventory-vendor-credits-api
-artifact_total: 86
+artifact_total: 124
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: batches API
+  slug: open-zoho-inventory-batches-api
+- collection_type: open
+  name: batches bills API
+  slug: open-zoho-inventory-bills-api
+- collection_type: open
+  name: batches compositeitems API
+  slug: open-zoho-inventory-compositeitems-api
+- collection_type: open
+  name: batches contact-persons API
+  slug: open-zoho-inventory-contact-persons-api
+- collection_type: open
+  name: batches contacts API
+  slug: open-zoho-inventory-contacts-api
+- collection_type: open
+  name: batches credit-notes API
+  slug: open-zoho-inventory-credit-notes-api
+- collection_type: open
+  name: batches currency API
+  slug: open-zoho-inventory-currency-api
+- collection_type: open
+  name: batches customer-payments API
+  slug: open-zoho-inventory-customer-payments-api
+- collection_type: open
+  name: batches delivery-challans API
+  slug: open-zoho-inventory-delivery-challans-api
+- collection_type: open
+  name: batches inventoryadjustments API
+  slug: open-zoho-inventory-inventoryadjustments-api
+- collection_type: open
+  name: batches invoices API
+  slug: open-zoho-inventory-invoices-api
+- collection_type: open
+  name: batches itemgroups API
+  slug: open-zoho-inventory-itemgroups-api
+- collection_type: open
+  name: batches items API
+  slug: open-zoho-inventory-items-api
+- collection_type: open
+  name: batches landedcosts API
+  slug: open-zoho-inventory-landedcosts-api
+- collection_type: open
+  name: batches locations API
+  slug: open-zoho-inventory-locations-api
+- collection_type: open
+  name: batches moveorders API
+  slug: open-zoho-inventory-moveorders-api
+- collection_type: open
+  name: batches organizations API
+  slug: open-zoho-inventory-organizations-api
+- collection_type: open
+  name: batches packages API
+  slug: open-zoho-inventory-packages-api
+- collection_type: open
+  name: batches picklists API
+  slug: open-zoho-inventory-picklists-api
+- collection_type: open
+  name: batches pricelists API
+  slug: open-zoho-inventory-pricelists-api
+- collection_type: open
+  name: batches purchaseorders API
+  slug: open-zoho-inventory-purchaseorders-api
+- collection_type: open
+  name: batches purchasereceives API
+  slug: open-zoho-inventory-purchasereceives-api
+- collection_type: open
+  name: batches putaways API
+  slug: open-zoho-inventory-putaways-api
+- collection_type: open
+  name: batches replenishment API
+  slug: open-zoho-inventory-replenishment-api
+- collection_type: open
+  name: batches reporting-tags API
+  slug: open-zoho-inventory-reporting-tags-api
+- collection_type: open
+  name: batches retainer-invoices API
+  slug: open-zoho-inventory-retainer-invoices-api
+- collection_type: open
+  name: batches salesorders API
+  slug: open-zoho-inventory-salesorders-api
+- collection_type: open
+  name: batches salesreturns API
+  slug: open-zoho-inventory-salesreturns-api
+- collection_type: open
+  name: batches serialnumbers API
+  slug: open-zoho-inventory-serialnumbers-api
+- collection_type: open
+  name: batches shipmentorders API
+  slug: open-zoho-inventory-shipmentorders-api
+- collection_type: open
+  name: batches storagelocations API
+  slug: open-zoho-inventory-storagelocations-api
+- collection_type: open
+  name: batches tasks API
+  slug: open-zoho-inventory-tasks-api
+- collection_type: open
+  name: batches taxes API
+  slug: open-zoho-inventory-taxes-api
+- collection_type: open
+  name: batches transferorders API
+  slug: open-zoho-inventory-transferorders-api
+- collection_type: open
+  name: batches unit_of_measurement API
+  slug: open-zoho-inventory-unit-of-measurement-api
+- collection_type: open
+  name: batches users API
+  slug: open-zoho-inventory-users-api
+- collection_type: open
+  name: batches vendor-credits API
+  slug: open-zoho-inventory-vendor-credits-api
 common:
 - group: agent
   title: ''
@@ -367,7 +482,7 @@ plans:
 - name: Zoho Inventory Plans Pricing
   plan_count: 5
   slug: zoho-inventory-plans-pricing
-random_paper: 59
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Zoho Inventory Rate Limits
@@ -406,7 +521,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/screenshots/zoho-inventory-2026-06-20T201942.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Module Operations API from Puppet — 2 operation(s) for module operations.
@@ -43,7 +43,23 @@ apis:
 - description: The User Operations API from Puppet — 2 operation(s) for user operations.
   name: Puppet User Operations API
   slug: puppet-labs-user-operations-api
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Puppet Forge v3 Module Operations API
+  slug: open-puppet-labs-module-operations-api
+- collection_type: open
+  name: Puppet Forge v3 Module Operations Release Operations API
+  slug: open-puppet-labs-release-operations-api
+- collection_type: open
+  name: Puppet Forge v3 Module Operations Search Filter Operations API
+  slug: open-puppet-labs-search-filter-operations-api
+- collection_type: open
+  name: Puppet Forge v3 Module Operations User Operations API
+  slug: open-puppet-labs-user-operations-api
 common:
 - group: agent
   title: ''
@@ -153,7 +169,7 @@ overview: 'Puppet publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Puppet''s developer surface includes documentation, API reference, engineering blog, support, pricing, CLI, and 17 more developer resources.'
-random_paper: 53
+random_paper: 90
 score:
   band: developing
   composite: 43.9
@@ -176,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

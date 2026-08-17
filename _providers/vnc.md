@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -48,11 +48,17 @@ apis:
 - description: Manage cloud addresses for VNC Cloud connectivity brokering.
   name: VNC Cloud Addresses API
   slug: vnc-cloud-addresses-api
-artifact_total: 22
+artifact_total: 24
 collections:
 - collection_type: postman
   name: VNC Cloud Cloud Addresses API
   slug: postman-vnc-cloud-addresses-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VNC Cloud Cloud Addresses API
+  slug: open-vnc-cloud-addresses-api
 - collection_type: open
   name: VNC Cloud API
   slug: open-vnc-cloud
@@ -190,7 +196,7 @@ plans:
 - name: Vnc Plans Pricing
   plan_count: 4
   slug: vnc-plans-pricing
-random_paper: 87
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Vnc Rate Limits
@@ -232,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/screenshots/vnc-2026-06-20T201123.png
 security:

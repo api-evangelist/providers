@@ -1,11 +1,13 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
   public: false
-  source: []
+  source:
+  - https://www.influenxio.com/en-US/plans
+  - https://www.influenxio.com/sign-up
   trial: false
   try_now: false
 agent_readiness:
@@ -22,14 +24,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -55,38 +57,92 @@ common:
   title: ''
   type: Blog
   url: https://blog.influenxio.com/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.influenxio.com/feed/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.influenxio.com/en-US/faq
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.influenxio.com/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://www.influenxio.com/login
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Influenxio
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/influenxio-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/influenxio-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/influenxio-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/influenxio-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Influenxio ships only an end-user SaaS product — its full 106-URL sitemap contains no developer, docs, or API page, and the one API host that exists, api.influenxio.com, is the web app's private backend that answers HTTP 401 JSON on every path probed including /openapi.json, /graphql, /mcp and every /.well-known/ location.
+  evidence:
+  - status: 401
+    url: https://api.influenxio.com/openapi.json
+  - status: 404
+    url: https://www.influenxio.com/en-US/api
+  - status: 200
+    url: https://www.influenxio.com/sitemap-0.xml
+  - status: 404
+    url: https://www.influenxio.com/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Influenxio is an Instagram influencer-marketing platform that connects brands with a database of more than 500,000 influencer profiles through an AI-powered matching system. Brands use its campaign-management tooling to search, invite, and collaborate with influencers at scale for brand awareness, website traffic, and affiliate marketing, including a pay-per-click affiliate model and content-authorization workflows for reusing user-generated content. It is a B2B SaaS product aimed at marketers and brands rather than developers, and does not publish a public API, developer portal, or SDKs.
 image: https://res.cloudinary.com/influenxio/image/upload/v1609926905/static/influenxio-thumbnail-2021.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Influenxio
 nav: Providers
 network: true
 overview: 'Influenxio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Influencer Marketing, Marketing, and Social Media.
 
 
-  Influenxio''s developer surface includes pricing, support, engineering blog, and 4 more developer resources.'
-random_paper: 9
+  Influenxio''s developer surface includes pricing, support, engineering blog, signup flow, and 11 more developer resources.'
+plans:
+- name: Influenxio Plans Pricing
+  plan_count: 2
+  slug: influenxio-plans-pricing
+random_paper: 46
+rate_limits:
+- limit_count: 0
+  name: Influenxio Rate Limits
+  slug: influenxio-rate-limits
 score:
-  band: minimal
-  composite: 12.6
-  delta: 0.0
+  band: emerging
+  composite: 20.9
+  delta: 8.3
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 65.8
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 12.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/influenxio/refs/heads/main/screenshots/influenxio-2026-07-25T222414.png
 security:
 - kind: domain-security

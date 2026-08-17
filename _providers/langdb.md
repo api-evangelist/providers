@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,12 +57,33 @@ apis:
 - description: Conversation threads, their messages, and per-thread cost.
   name: LangDB Threads API
   slug: langdb-threads-api
-artifact_total: 15
+artifact_total: 22
 asyncapis:
 - description: AsyncAPI 2.6 description of LangDB's **chat completion streaming** surface. LangDB does not publish a WebSocket API for chat. The asynchronous / event-style transport documented at https://docs.langdb
   name: LangDB Chat Completions Streaming (HTTP + SSE)
   slug: langdb-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LangDB AI Gateway Analytics API
+  slug: open-langdb-analytics-api
+- collection_type: open
+  name: LangDB AI Gateway Analytics Chat API
+  slug: open-langdb-chat-api
+- collection_type: open
+  name: LangDB AI Gateway Analytics Embeddings API
+  slug: open-langdb-embeddings-api
+- collection_type: open
+  name: LangDB AI Gateway Analytics Images API
+  slug: open-langdb-images-api
+- collection_type: open
+  name: LangDB AI Gateway Analytics Models API
+  slug: open-langdb-models-api
+- collection_type: open
+  name: LangDB AI Gateway Analytics Threads API
+  slug: open-langdb-threads-api
 - collection_type: open
   name: LangDB AI Gateway API
   slug: open-langdb
@@ -130,7 +151,7 @@ plans:
 - name: Langdb Plans Pricing
   plan_count: 4
   slug: langdb-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Langdb Rate Limits
@@ -164,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/screenshots/langdb-2026-06-20T184302.png
 security:

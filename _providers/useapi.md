@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: REST API for Google Flow (Veo 3.1 video, Gemini Omni Flash audio-native video, Imagen 4 and Nano Banana image generation) driven through one or more linked Google accounts, with a captcha-solver pipel
@@ -58,11 +58,48 @@ apis:
 - description: Reverse-engineered REST API for Midjourney, driven through a linked Discord account. Retired — useapi.net discontinued Midjourney support on June 24, 2026. The v1 surface was previously sunset on Marc
   name: Midjourney REST API v2 (retired)
   slug: midjourney-v2
-artifact_total: 16
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Useapi Jobs Webhooks
   slug: useapi-jobs-webhooks
+collections:
+- collection_type: open
+  name: Dreamina API v1 by useapi.net
+  slug: open-useapi-dreamina-v1
+- collection_type: open
+  name: InsightFaceSwap API v1 by useapi.net
+  slug: open-useapi-faceswap-v1
+- collection_type: open
+  name: FlowMusic API v1 by useapi.net
+  slug: open-useapi-flowmusic-v1
+- collection_type: open
+  name: Google Flow API v1 by useapi.net
+  slug: open-useapi-google-flow-v1
+- collection_type: open
+  name: Kling API v1 by useapi.net
+  slug: open-useapi-kling-v1
+- collection_type: open
+  name: Midjourney REST API by useapi.net
+  slug: open-useapi-midjourney-v1
+- collection_type: open
+  name: Midjourney REST API v2 by useapi.net
+  slug: open-useapi-midjourney-v2
+- collection_type: open
+  name: MiniMax API v1 by useapi.net
+  slug: open-useapi-minimax-v1
+- collection_type: open
+  name: Mureka API v1 by useapi.net
+  slug: open-useapi-mureka-v1
+- collection_type: open
+  name: PixVerse API v2 (web) by useapi.net
+  slug: open-useapi-pixverse-v2
+- collection_type: open
+  name: Runway API v1 by useapi.net
+  slug: open-useapi-runwayml-v1
+- collection_type: open
+  name: TemPolor API v1 by useapi.net
+  slug: open-useapi-tempolor-v1
 common:
 - group: company
   title: ''
@@ -236,7 +273,7 @@ overview: 'useapi.net publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   useapi.net''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 47
+random_paper: 51
 score:
   band: strong
   composite: 56.6
@@ -259,7 +296,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

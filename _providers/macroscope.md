@@ -28,17 +28,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Workspaces API from Macroscope — 2 operation(s) for workspaces.
   name: Macroscope Workspaces API
   slug: macroscope-workspaces-api
-artifact_total: 5
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Macroscope Webhooks
   slug: macroscope-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Macroscope Agent Webhook Workspaces API
+  slug: open-macroscope-workspaces-api
 common:
 - group: agent
   title: ''
@@ -135,7 +142,7 @@ overview: 'Macroscope publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Macroscope''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 12 more developer resources.'
-random_paper: 108
+random_paper: 25
 score:
   band: thin
   composite: 32.5
@@ -158,7 +165,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/screenshots/macroscope-2026-07-25T225824.png
 security:

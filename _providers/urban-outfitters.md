@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,14 +60,38 @@ apis:
 - description: Shipment and fulfillment tracking
   name: Urban Outfitters Shipments API
   slug: urban-outfitters-shipments-api
-artifact_total: 89
+artifact_total: 97
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Urban Outfitters Affiliate API
   slug: open-urban-outfitters-affiliate-api
 - collection_type: open
+  name: Urban Outfitters Affiliate Creatives API
+  slug: open-urban-outfitters-creatives-api
+- collection_type: open
+  name: Urban Outfitters Affiliate Creatives Inventory API
+  slug: open-urban-outfitters-inventory-api
+- collection_type: open
+  name: Urban Outfitters Affiliate Creatives Links API
+  slug: open-urban-outfitters-links-api
+- collection_type: open
   name: Urban Outfitters Marketplace API
   slug: open-urban-outfitters-marketplace-api
+- collection_type: open
+  name: Urban Outfitters Affiliate Creatives Orders API
+  slug: open-urban-outfitters-orders-api
+- collection_type: open
+  name: Urban Outfitters Affiliate Creatives Products API
+  slug: open-urban-outfitters-products-api
+- collection_type: open
+  name: Urban Outfitters Affiliate Creatives Reports API
+  slug: open-urban-outfitters-reports-api
+- collection_type: open
+  name: Urban Outfitters Affiliate Creatives Shipments API
+  slug: open-urban-outfitters-shipments-api
 common:
 - group: agent
   title: ''
@@ -350,7 +374,7 @@ press:
 - date: '2026-05-25'
   title: URBN Reports Record Q2 Sales and Income
   url: https://investor.urbn.com/news-releases/news-release-details/urbn-reports-record-q2-sales-and-income
-random_paper: 14
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Urban Outfitters Rate Limits
@@ -392,7 +416,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/screenshots/urban-outfitters-2026-06-20T200530.png
 security:

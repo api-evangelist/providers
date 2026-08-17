@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ arazzos:
 - description: Find a document by a GROQ key match and patch it, otherwise create it.
   name: Sanity Upsert Document
   slug: sanity-upsert-document-workflow
-artifact_total: 65
+artifact_total: 72
 asyncapis:
 - description: AsyncAPI specification for Sanity's GROQ-powered webhook surface. Sanity delivers event-driven HTTP callbacks when documents in a Content Lake dataset are created, updated, or deleted. Subscribers con
   name: Sanity GROQ-Powered Webhooks
@@ -149,6 +149,27 @@ collections:
 - collection_type: postman
   name: Sanity HTTP Assets Webhooks API
   slug: postman-sanity-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sanity HTTP Assets API
+  slug: open-sanity-assets-api
+- collection_type: open
+  name: Sanity HTTP Assets Listen API
+  slug: open-sanity-listen-api
+- collection_type: open
+  name: Sanity HTTP Assets Mutations API
+  slug: open-sanity-mutations-api
+- collection_type: open
+  name: Sanity HTTP Assets Projects API
+  slug: open-sanity-projects-api
+- collection_type: open
+  name: Sanity HTTP Assets Query API
+  slug: open-sanity-query-api
+- collection_type: open
+  name: Sanity HTTP Assets Webhooks API
+  slug: open-sanity-webhooks-api
 - collection_type: open
   name: Sanity HTTP API
   slug: open-sanity
@@ -385,7 +406,7 @@ plans:
 - name: Sanity Plans Pricing
   plan_count: 3
   slug: sanity-plans-pricing
-random_paper: 64
+random_paper: 68
 rate_limits:
 - limit_count: 6
   name: Sanity Rate Limits
@@ -435,7 +456,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/screenshots/sanity-2026-06-20T193435.png
 security:

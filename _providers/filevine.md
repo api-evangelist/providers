@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Billable time tracking.
   name: Filevine TimeEntries API
   slug: filevine-timeentries-api
-artifact_total: 82
+artifact_total: 84
 asyncapis:
 - description: Filevine emits webhook events to subscribed callback URLs when activity occurs in the platform. Subscriptions are configured per organization and select from a curated event catalog. Each subscription
   name: Filevine Webhook Events
@@ -100,31 +100,37 @@ collections:
   name: Filevine Contacts Webhooks API
   slug: postman-filevine-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Filevine Contacts API
   slug: open-filevine-contacts-api
 - collection_type: open
-  name: Filevine Deadlines API
+  name: Filevine Contacts Deadlines API
   slug: open-filevine-deadlines-api
 - collection_type: open
-  name: Filevine Documents API
+  name: Filevine Contacts Documents API
   slug: open-filevine-documents-api
 - collection_type: open
-  name: Filevine Identity API
+  name: Filevine Contacts Identity API
   slug: open-filevine-identity-api
 - collection_type: open
-  name: Filevine Notes API
+  name: Filevine Contacts Notes API
   slug: open-filevine-notes-api
 - collection_type: open
-  name: Filevine Projects API
+  name: Filevine Contacts Projects API
   slug: open-filevine-projects-api
 - collection_type: open
-  name: Filevine Tasks API
+  name: Filevine Contacts Tasks API
   slug: open-filevine-tasks-api
 - collection_type: open
   name: Filevine Time Entries API
   slug: open-filevine-time-entries-api
 - collection_type: open
-  name: Filevine Webhooks API
+  name: Filevine Contacts TimeEntries API
+  slug: open-filevine-timeentries-api
+- collection_type: open
+  name: Filevine Contacts Webhooks API
   slug: open-filevine-webhooks-api
 common:
 - group: build
@@ -402,7 +408,7 @@ plans:
 - name: Filevine Plans Pricing
   plan_count: 10
   slug: filevine-plans-pricing
-random_paper: 10
+random_paper: 105
 rate_limits:
 - limit_count: 3
   name: Filevine Rate Limits
@@ -452,7 +458,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/screenshots/filevine-2026-06-20T181208.png
 security:

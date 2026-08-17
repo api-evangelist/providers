@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -164,11 +164,141 @@ apis:
 - description: Users
   name: Newstore users API
   slug: newstore-users-api
-artifact_total: 48
+artifact_total: 91
 asyncapis:
 - description: ''
   name: Newstore Webhooks
   slug: newstore-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NewStore address API
+  slug: open-newstore-address-api
+- collection_type: open
+  name: NewStore address audit-events API
+  slug: open-newstore-audit-events-api
+- collection_type: open
+  name: NewStore address cart API
+  slug: open-newstore-cart-api
+- collection_type: open
+  name: NewStore address cashboxes API
+  slug: open-newstore-cashboxes-api
+- collection_type: open
+  name: NewStore address customer-configuration API
+  slug: open-newstore-customer-configuration-api
+- collection_type: open
+  name: NewStore address customer-profile API
+  slug: open-newstore-customer-profile-api
+- collection_type: open
+  name: NewStore address customerProfile API
+  slug: open-newstore-customerprofile-api
+- collection_type: open
+  name: NewStore address data API
+  slug: open-newstore-data-api
+- collection_type: open
+  name: NewStore address EasypostAdapterConfig API
+  slug: open-newstore-easypostadapterconfig-api
+- collection_type: open
+  name: NewStore address external-public API
+  slug: open-newstore-external-public-api
+- collection_type: open
+  name: NewStore address fulfillment-requests API
+  slug: open-newstore-fulfillment-requests-api
+- collection_type: open
+  name: NewStore address identity-providers API
+  slug: open-newstore-identity-providers-api
+- collection_type: open
+  name: NewStore address Import Schemas API
+  slug: open-newstore-import-schemas-api
+- collection_type: open
+  name: NewStore address Inventory Configuration API
+  slug: open-newstore-inventory-configuration-api
+- collection_type: open
+  name: NewStore address order-injection API
+  slug: open-newstore-order-injection-api
+- collection_type: open
+  name: NewStore address order-injection-config API
+  slug: open-newstore-order-injection-config-api
+- collection_type: open
+  name: NewStore address orders API
+  slug: open-newstore-orders-api
+- collection_type: open
+  name: NewStore address package-types API
+  slug: open-newstore-package-types-api
+- collection_type: open
+  name: NewStore address Pricebook export API
+  slug: open-newstore-pricebook-export-api
+- collection_type: open
+  name: NewStore address Product export API
+  slug: open-newstore-product-export-api
+- collection_type: open
+  name: NewStore address profiles API
+  slug: open-newstore-profiles-api
+- collection_type: open
+  name: NewStore address provider-rates API
+  slug: open-newstore-provider-rates-api
+- collection_type: open
+  name: NewStore address providers API
+  slug: open-newstore-providers-api
+- collection_type: open
+  name: NewStore address Reason Codes API
+  slug: open-newstore-reason-codes-api
+- collection_type: open
+  name: NewStore address reservations API
+  slug: open-newstore-reservations-api
+- collection_type: open
+  name: NewStore address roles API
+  slug: open-newstore-roles-api
+- collection_type: open
+  name: NewStore address routing API
+  slug: open-newstore-routing-api
+- collection_type: open
+  name: NewStore address routing-config API
+  slug: open-newstore-routing-config-api
+- collection_type: open
+  name: NewStore address routing-ruleset API
+  slug: open-newstore-routing-ruleset-api
+- collection_type: open
+  name: NewStore address sales-orders API
+  slug: open-newstore-sales-orders-api
+- collection_type: open
+  name: NewStore address shipment-configurations API
+  slug: open-newstore-shipment-configurations-api
+- collection_type: open
+  name: NewStore address shipping-labels API
+  slug: open-newstore-shipping-labels-api
+- collection_type: open
+  name: NewStore address shipping-option-audits API
+  slug: open-newstore-shipping-option-audits-api
+- collection_type: open
+  name: NewStore address stock API
+  slug: open-newstore-stock-api
+- collection_type: open
+  name: NewStore address store-tax-configuration API
+  slug: open-newstore-store-tax-configuration-api
+- collection_type: open
+  name: NewStore address stores API
+  slug: open-newstore-stores-api
+- collection_type: open
+  name: NewStore address tax-transactions API
+  slug: open-newstore-tax-transactions-api
+- collection_type: open
+  name: NewStore address tenant-config API
+  slug: open-newstore-tenant-config-api
+- collection_type: open
+  name: NewStore address tenant-tax-configuration API
+  slug: open-newstore-tenant-tax-configuration-api
+- collection_type: open
+  name: NewStore address token-operations API
+  slug: open-newstore-token-operations-api
+- collection_type: open
+  name: NewStore address tppe API
+  slug: open-newstore-tppe-api
+- collection_type: open
+  name: NewStore address users API
+  slug: open-newstore-users-api
 common:
 - group: auth
   title: ''
@@ -309,7 +439,7 @@ overview: 'Newstore publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   Newstore''s developer surface includes authentication, documentation, API reference, changelog, pricing, support, sandbox, and 23 more developer resources.'
-random_paper: 47
+random_paper: 142
 scopes:
 - name: Newstore Scopes
   scope_count: 29
@@ -338,7 +468,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/screenshots/newstore-2026-08-07T185135.png
 security:

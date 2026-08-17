@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Plant species data
   name: Perenual Species API
   slug: perenual-species-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Perenual Care API
+  slug: open-perenual-care-api
+- collection_type: open
+  name: Perenual Care Maps API
+  slug: open-perenual-maps-api
 - collection_type: open
   name: Perenual API
   slug: open-perenual-perenual
+- collection_type: open
+  name: Perenual Care Pests API
+  slug: open-perenual-pests-api
+- collection_type: open
+  name: Perenual Care Species API
+  slug: open-perenual-species-api
 common:
 - group: agent
   title: ''
@@ -105,7 +120,7 @@ plans:
 - name: Perenual Plans Pricing
   plan_count: 3
   slug: perenual-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Perenual Rate Limits
@@ -130,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/screenshots/perenual-2026-06-20T191559.png
 security:

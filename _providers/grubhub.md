@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -90,7 +90,7 @@ apis:
 - description: Endpoints for retrieving and managing merchant operating hours for delivery, pickup, and catering.
   name: grubhub Schedules API
   slug: grubhub-schedules-api
-artifact_total: 199
+artifact_total: 217
 asyncapis:
 - description: 'Event-driven interface for receiving real-time delivery status updates from Grubhub. Partners can subscribe to webhook notifications for delivery updates including driver assignment, courier location '
   name: Grubhub Delivery Events
@@ -100,8 +100,29 @@ asyncapis:
   slug: grubhub-order-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Grubhub Deliveries API
   slug: open-grubhub-deliveries
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status API
+  slug: open-grubhub-delivery-status-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Driver Communication API
+  slug: open-grubhub-driver-communication-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Issue Reporting API
+  slug: open-grubhub-issue-reporting-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Menu Ingestion API
+  slug: open-grubhub-menu-ingestion-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Menu Retrieval API
+  slug: open-grubhub-menu-retrieval-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Menu Schedule Overrides API
+  slug: open-grubhub-menu-schedule-overrides-api
 - collection_type: open
   name: Grubhub Menu API
   slug: open-grubhub-menu
@@ -109,14 +130,47 @@ collections:
   name: Grubhub Merchant Data API
   slug: open-grubhub-merchant-data
 - collection_type: open
+  name: Grubhub Deliveries Delivery Status Merchant Eligibility API
+  slug: open-grubhub-merchant-eligibility-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Merchant Onboarding API
+  slug: open-grubhub-merchant-onboarding-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Merchant Properties API
+  slug: open-grubhub-merchant-properties-api
+- collection_type: open
   name: Grubhub Merchant Schedules API
   slug: open-grubhub-merchant-schedules
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Merchant Status API
+  slug: open-grubhub-merchant-status-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Merchants API
+  slug: open-grubhub-merchants-api
 - collection_type: open
   name: Grubhub Onboarding API
   slug: open-grubhub-onboarding
 - collection_type: open
+  name: Grubhub Deliveries Delivery Status Order Change Requests API
+  slug: open-grubhub-order-change-requests-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Order Polling API
+  slug: open-grubhub-order-polling-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Order Status API
+  slug: open-grubhub-order-status-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Orders API
+  slug: open-grubhub-orders-api
+- collection_type: open
   name: Grubhub Orders API
   slug: open-grubhub-orders
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Schedule Overrides API
+  slug: open-grubhub-schedule-overrides-api
+- collection_type: open
+  name: Grubhub Deliveries Delivery Status Schedules API
+  slug: open-grubhub-schedules-api
 common:
 - group: agent
   title: ''
@@ -702,7 +756,7 @@ plans:
 - name: Grubhub Plans Pricing
   plan_count: 4
   slug: grubhub-plans-pricing
-random_paper: 31
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Grubhub Rate Limits
@@ -757,7 +811,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: AI service discovery and metadata
   name: SingularityNET Services API
   slug: singularity-net-services-api
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SingularityNET Marketplace Channels API
+  slug: open-singularity-net-channels-api
+- collection_type: open
+  name: SingularityNET Marketplace Channels Organizations API
+  slug: open-singularity-net-organizations-api
+- collection_type: open
+  name: SingularityNET Marketplace Channels Service Groups API
+  slug: open-singularity-net-service-groups-api
+- collection_type: open
+  name: SingularityNET Marketplace Channels Services API
+  slug: open-singularity-net-services-api
 - collection_type: open
   name: SingularityNET Marketplace API
   slug: open-singularitynet-marketplace
@@ -151,7 +166,7 @@ plans:
 - name: Singularity Net Plans Pricing
   plan_count: 3
   slug: singularity-net-plans-pricing
-random_paper: 23
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Singularity Net Rate Limits
@@ -193,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/screenshots/singularity-net-2026-06-20T193947.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -84,11 +84,20 @@ apis:
 - description: The Eats API from Uber Eats — 9 operation(s) for eats.
   name: Uber Eats Eats API
   slug: uber-eats-eats-api
-artifact_total: 68
+artifact_total: 71
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Uber Direct (DaaS) API
   slug: open-uber-direct
+- collection_type: open
+  name: Uber Direct (DaaS) Customers API
+  slug: open-uber-eats-customers-api
+- collection_type: open
+  name: Uber Direct (DaaS) Customers Eats API
+  slug: open-uber-eats-eats-api
 - collection_type: open
   name: Uber Eats Marketplace API
   slug: open-uber-eats
@@ -337,7 +346,7 @@ plans:
 - name: Uber Eats Plans Pricing
   plan_count: 6
   slug: uber-eats-plans-pricing
-random_paper: 64
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Uber Eats Rate Limits
@@ -384,7 +393,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/screenshots/uber-eats-2026-06-20T195931.png
 security:

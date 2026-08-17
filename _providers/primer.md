@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: The Payments API API from Primer — 8 operation(s) for payments api.
   name: Primer Payments API API
   slug: primer-payments-api-api
-artifact_total: 47
+artifact_total: 53
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Primer Client Session API API
+  slug: open-primer-client-session-api-api
+- collection_type: open
+  name: Primer Client Session API Dispute & Chargebacks Webhooks API
+  slug: open-primer-dispute-chargebacks-webhooks-api
+- collection_type: open
+  name: Primer Client Session API Payment Methods API API
+  slug: open-primer-payment-methods-api-api
+- collection_type: open
+  name: Primer Client Session API Payment Webhooks API
+  slug: open-primer-payment-webhooks-api
+- collection_type: open
+  name: Primer Client Session API Payments API API
+  slug: open-primer-payments-api-api
 common:
 - group: agent
   title: ''
@@ -278,7 +297,7 @@ plans:
 - name: Primer Plans Pricing
   plan_count: 2
   slug: primer-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Primer Rate Limits
@@ -318,7 +337,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png
 security:

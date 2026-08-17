@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,11 +60,29 @@ apis:
 - description: Well master data
   name: Quorum Software Wells API
   slug: quorum-wells-api
-artifact_total: 19
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quorum Land Management DivisionOrders API
+  slug: open-quorum-divisionorders-api
 - collection_type: open
   name: Quorum Land Management API
   slug: open-quorum-land-management
+- collection_type: open
+  name: Quorum Land Management DivisionOrders Leases API
+  slug: open-quorum-leases-api
+- collection_type: open
+  name: Quorum Land Management DivisionOrders Owners API
+  slug: open-quorum-owners-api
+- collection_type: open
+  name: Quorum Land Management DivisionOrders Tracts API
+  slug: open-quorum-tracts-api
+- collection_type: open
+  name: Quorum Land Management DivisionOrders Wells API
+  slug: open-quorum-wells-api
 common:
 - group: agent
   title: ''
@@ -150,7 +168,7 @@ plans:
 - name: Quorum Plans Pricing
   plan_count: 1
   slug: quorum-plans-pricing
-random_paper: 81
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: Quorum Rate Limits
@@ -195,7 +213,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/screenshots/quorum-2026-06-20T192444.png
 security:

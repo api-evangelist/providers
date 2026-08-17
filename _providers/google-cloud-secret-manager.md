@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: The Secrets API from Google Cloud Secret Manager — 2 operation(s) for secrets.
   name: Google Cloud Secret Manager Secrets API
   slug: google-cloud-secret-manager-secrets-api
-artifact_total: 16
+artifact_total: 19
 collections:
 - collection_type: postman
   name: Google Cloud Secret Manager Secret Versions API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Google Cloud Secret Manager Secret Versions Secrets API
   slug: postman-google-cloud-secret-manager-secrets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Secret Manager Secret Versions API
+  slug: open-google-cloud-secret-manager-secret-versions-api
+- collection_type: open
+  name: Google Cloud Secret Manager Secret Versions Secrets API
+  slug: open-google-cloud-secret-manager-secrets-api
 - collection_type: open
   name: Google Cloud Secret Manager API
   slug: open-openapi
@@ -161,7 +170,7 @@ plans:
 - name: Google Cloud Secret Manager Plans Pricing
   plan_count: 3
   slug: google-cloud-secret-manager-plans-pricing
-random_paper: 44
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Google Cloud Secret Manager Rate Limits
@@ -200,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/screenshots/google-cloud-secret-manager-2026-06-20T182131.png
 security:

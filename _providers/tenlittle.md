@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -92,7 +92,7 @@ overview: 'Ten Little is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ten Little''s developer surface includes authentication, engineering blog, support, and 8 more developer resources.'
-random_paper: 21
+random_paper: 87
 scopes:
 - name: Tenlittle Scopes
   scope_count: 4
@@ -113,7 +113,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ arazzos:
 - description: Upload new function code, wait for the update to settle, smoke-test $LATEST, and publish an immutable version guarded by the code hash.
   name: AWS Lambda Ship New Code and Cut an Immutable Version
   slug: aws-lambda-update-code-publish-version-workflow
-artifact_total: 175
+artifact_total: 184
 asyncapis:
 - description: AWS Lambda integrates with other AWS services to invoke functions in response to events. Lambda functions can be triggered by event sources including Amazon S3, Amazon DynamoDB Streams, Amazon Kinesis
   name: AWS Lambda Event Triggers
@@ -147,8 +147,35 @@ collections:
   name: AWS Lambda Aliases Versions API
   slug: postman-aws-lambda-versions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Lambda Aliases API
+  slug: open-aws-lambda-aliases-api
+- collection_type: open
   name: AWS Lambda API
   slug: open-aws-lambda-api
+- collection_type: open
+  name: AWS Lambda Aliases Concurrency API
+  slug: open-aws-lambda-concurrency-api
+- collection_type: open
+  name: AWS Lambda Aliases Event Source Mappings API
+  slug: open-aws-lambda-event-source-mappings-api
+- collection_type: open
+  name: AWS Lambda Aliases Function URL API
+  slug: open-aws-lambda-function-url-api
+- collection_type: open
+  name: AWS Lambda Aliases Functions API
+  slug: open-aws-lambda-functions-api
+- collection_type: open
+  name: AWS Lambda Aliases Layers API
+  slug: open-aws-lambda-layers-api
+- collection_type: open
+  name: AWS Lambda Aliases Tags API
+  slug: open-aws-lambda-tags-api
+- collection_type: open
+  name: AWS Lambda Aliases Versions API
+  slug: open-aws-lambda-versions-api
 common:
 - group: operate
   title: ''
@@ -720,7 +747,7 @@ plans:
 - name: Aws Lambda Plans Pricing
   plan_count: 7
   slug: aws-lambda-plans-pricing
-random_paper: 25
+random_paper: 91
 rate_limits:
 - limit_count: 13
   name: Aws Lambda Rate Limits
@@ -772,7 +799,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/screenshots/aws-lambda-2026-06-20T172758.png
 security:

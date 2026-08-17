@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -68,11 +68,45 @@ apis:
 - description: The Users API API from Thriva — 3 operation(s) for users api.
   name: Thriva Users API API
   slug: thriva-users-api-api
-artifact_total: 16
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Thriva Webhooks
   slug: thriva-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Platform API V1 Appointments API API
+  slug: open-thriva-appointments-api-api
+- collection_type: open
+  name: Platform API V1 Appointments API Auth API API
+  slug: open-thriva-auth-api-api
+- collection_type: open
+  name: Platform API V1 Appointments API Biomarkers API API
+  slug: open-thriva-biomarkers-api-api
+- collection_type: open
+  name: Platform API V1 Appointments API Bulk Orders API API
+  slug: open-thriva-bulk-orders-api-api
+- collection_type: open
+  name: Platform API V1 Appointments API Escalations API API
+  slug: open-thriva-escalations-api-api
+- collection_type: open
+  name: Platform API V1 Appointments API Orders API API
+  slug: open-thriva-orders-api-api
+- collection_type: open
+  name: Platform API V1 Appointments API Result attachments API API
+  slug: open-thriva-result-attachments-api-api
+- collection_type: open
+  name: Platform API V1 Appointments API Results API API
+  slug: open-thriva-results-api-api
+- collection_type: open
+  name: Platform API V1 Appointments API Tracking API API
+  slug: open-thriva-tracking-api-api
+- collection_type: open
+  name: Platform API V1 Appointments API Users API API
+  slug: open-thriva-users-api-api
 common:
 - group: other
   title: ''
@@ -209,7 +243,7 @@ overview: 'Thriva publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
-random_paper: 54
+random_paper: 58
 score:
   band: developing
   composite: 45.2
@@ -239,7 +273,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

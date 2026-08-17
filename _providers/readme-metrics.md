@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: The Docs API from ReadMe Metrics — 1 operation(s) for docs.
   name: ReadMe Metrics Docs API
   slug: readme-metrics-docs-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ReadMe Api Registry API
+  slug: open-readme-metrics-api-registry-api
+- collection_type: open
+  name: ReadMe Api Registry Api Specification API
+  slug: open-readme-metrics-api-specification-api
+- collection_type: open
+  name: ReadMe Api Registry Changelogs API
+  slug: open-readme-metrics-changelogs-api
+- collection_type: open
+  name: ReadMe Api Registry Docs API
+  slug: open-readme-metrics-docs-api
 - collection_type: open
   name: ReadMe API
   slug: open-readme-metrics
@@ -144,7 +159,7 @@ plans:
 - name: Readme Metrics Plans Pricing
   plan_count: 3
   slug: readme-metrics-plans-pricing
-random_paper: 106
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Readme Metrics Rate Limits
@@ -169,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/screenshots/readme-metrics-2026-06-20T192740.png
 security:

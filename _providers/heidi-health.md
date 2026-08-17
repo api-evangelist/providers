@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Audio upload and transcript retrieval.
   name: Heidi Health Transcription API
   slug: heidi-health-transcription-api
-artifact_total: 63
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Heidi Health Ask Heidi API
@@ -104,6 +104,39 @@ collections:
 - collection_type: postman
   name: Heidi Health Ask Heidi Transcription API
   slug: postman-heidi-health-transcription-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Heidi Health Ask Heidi API
+  slug: open-heidi-health-ask-heidi-api
+- collection_type: open
+  name: Heidi Health Ask Heidi Authentication API
+  slug: open-heidi-health-authentication-api
+- collection_type: open
+  name: Heidi Health Ask Heidi Clinical Coding API
+  slug: open-heidi-health-clinical-coding-api
+- collection_type: open
+  name: Heidi Health Ask Heidi Consult Notes API
+  slug: open-heidi-health-consult-notes-api
+- collection_type: open
+  name: Heidi Health Ask Heidi Documents API
+  slug: open-heidi-health-documents-api
+- collection_type: open
+  name: Heidi Health Ask Heidi Patient Profiles API
+  slug: open-heidi-health-patient-profiles-api
+- collection_type: open
+  name: Heidi Health Ask Heidi Session Context API
+  slug: open-heidi-health-session-context-api
+- collection_type: open
+  name: Heidi Health Ask Heidi Sessions API
+  slug: open-heidi-health-sessions-api
+- collection_type: open
+  name: Heidi Health Ask Heidi Templates API
+  slug: open-heidi-health-templates-api
+- collection_type: open
+  name: Heidi Health Ask Heidi Transcription API
+  slug: open-heidi-health-transcription-api
 - collection_type: open
   name: Heidi Health API
   slug: open-heidi-health
@@ -366,7 +399,7 @@ plans:
 - name: Heidi Health Plans Pricing
   plan_count: 4
   slug: heidi-health-plans-pricing
-random_paper: 110
+random_paper: 147
 rate_limits:
 - limit_count: 0
   name: Heidi Health Rate Limits
@@ -414,7 +447,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/screenshots/heidi-health-2026-06-20T182614.png
 security:

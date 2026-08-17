@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Groups API from Testerarmy — 5 operation(s) for groups.
@@ -47,11 +47,30 @@ apis:
 - description: The Webhooks API from Testerarmy — 2 operation(s) for webhooks.
   name: Testerarmy Webhooks API
   slug: testerarmy-webhooks-api
-artifact_total: 9
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Testerarmy Webhooks
   slug: testerarmy-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TestArmy Groups API
+  slug: open-testerarmy-groups-api
+- collection_type: open
+  name: TestArmy Groups Projects API
+  slug: open-testerarmy-projects-api
+- collection_type: open
+  name: TestArmy Groups Test Runs API
+  slug: open-testerarmy-test-runs-api
+- collection_type: open
+  name: TestArmy Groups Tests API
+  slug: open-testerarmy-tests-api
+- collection_type: open
+  name: TestArmy Groups Webhooks API
+  slug: open-testerarmy-webhooks-api
 common:
 - group: other
   title: ''
@@ -180,7 +199,7 @@ overview: 'Testerarmy publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Testerarmy''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, pricing, and 20 more developer resources.'
-random_paper: 24
+random_paper: 61
 score:
   band: developing
   composite: 50.9
@@ -203,7 +222,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

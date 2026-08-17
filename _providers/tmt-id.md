@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -50,7 +50,29 @@ apis:
 - description: The Phronesis-derived flagship, a single POST that assembles a configurable set of mobile network signals about a number and device — SIM swap and device change look-back windows, GSMA device blacklis
   name: Network Biometrics API
   slug: tmt-id-network-biometrics
-artifact_total: 13
+artifact_total: 20
+collections:
+- collection_type: open
+  name: TMT Authenticate API specs
+  slug: open-tmt-id-authenticate
+- collection_type: open
+  name: TMT Live API specs
+  slug: open-tmt-id-live
+- collection_type: open
+  name: Network Biometrics™ by TMT ID
+  slug: open-tmt-id-network-biometrics
+- collection_type: open
+  name: TMT Score API specs
+  slug: open-tmt-id-score
+- collection_type: open
+  name: TMT Teleshield API specs
+  slug: open-tmt-id-teleshield
+- collection_type: open
+  name: TMT Velocity API specs
+  slug: open-tmt-id-velocity
+- collection_type: open
+  name: TMT Verify API specs
+  slug: open-tmt-id-verify
 common:
 - group: start
   title: ''
@@ -221,7 +243,7 @@ overview: 'TMT ID publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   TMT ID''s developer surface includes sandbox, authentication, documentation, developer portal, signup flow, engineering blog, support, and 31 more developer resources.'
-random_paper: 111
+random_paper: 144
 score:
   band: developing
   composite: 43.3
@@ -251,7 +273,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

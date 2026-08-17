@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The primary developer interface - the @raycast/api npm package. A strongly typed TypeScript/Node SDK (installed via `npm i @raycast/api`) providing React UI components (List, Detail, Form, Grid, Actio
@@ -40,8 +40,11 @@ apis:
 - description: The Raycast Store distributes community and partner extensions. Publishing is done via the `ray` CLI and a pull request to the github.com/raycast/extensions monorepo; there is no documented public RES
   name: Raycast Store
   slug: raycast-store
-artifact_total: 8
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Raycast Extension API (SDK)
   slug: open-raycast
@@ -102,7 +105,7 @@ plans:
 - name: Raycast Plans Pricing
   plan_count: 5
   slug: raycast-plans-pricing
-random_paper: 39
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Raycast Rate Limits
@@ -120,7 +123,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/screenshots/raycast-2026-06-20T192715.png
 security:

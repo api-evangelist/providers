@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Instore API from Scalapay — 6 operation(s) for instore.
@@ -30,11 +30,24 @@ apis:
 - description: The Reporting API from Scalapay — 6 operation(s) for reporting.
   name: Scalapay Reporting API
   slug: scalapay-reporting-api
-artifact_total: 7
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Scalapay Webhooks
   slug: scalapay-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scalapay Instore API
+  slug: open-scalapay-instore-api
+- collection_type: open
+  name: Scalapay Orders API
+  slug: open-scalapay-orders-api
+- collection_type: open
+  name: Scalapay Reporting API
+  slug: open-scalapay-reporting-api
 common:
 - group: agent
   title: ''
@@ -187,7 +200,7 @@ overview: 'Scalapay publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Scalapay''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 26 more developer resources.'
-random_paper: 6
+random_paper: 101
 score:
   band: developing
   composite: 52.3
@@ -216,7 +229,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

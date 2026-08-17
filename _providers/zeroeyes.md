@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'ZeroEyes is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ZeroEyes'' developer surface includes support, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 46
+random_paper: 141
 score:
   band: emerging
   composite: 22.0
@@ -113,7 +113,7 @@ score:
     regime_id: government
     score: 44.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

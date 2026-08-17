@@ -11,10 +11,11 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -27,9 +28,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-12'
-api_count: 4
+  score: 55.6
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Revenuebase Agentic Access
+  operation_count: 10
+  slug: revenuebase-agentic-access
+  summary_line: 10 operations · 6 acting
+api_count: 5
 apis:
 - description: The Account API from RevenueBase — 2 operation(s) for account.
   name: RevenueBase Account API
@@ -43,8 +51,31 @@ apis:
 - description: The Organization API from RevenueBase — 2 operation(s) for organization.
   name: RevenueBase Organization API
   slug: revenuebase-organization-api
-artifact_total: 7
+- description: The contact-refresh service from RevenueBase — resolves an email address to the person's current contact records so a stale CRM row can be reconnected to whoever that person is today. One operation (P
+  name: RevenueBase Contact Refresh API
+  slug: revenuebase-contact-refresh-api
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Revenuebase API v2 Account API
+  slug: open-revenuebase-account-api
+- collection_type: open
+  name: Revenuebase API v2 Account Email API
+  slug: open-revenuebase-email-api
+- collection_type: open
+  name: Revenuebase API v2 Account Jobs API
+  slug: open-revenuebase-jobs-api
+- collection_type: open
+  name: Revenuebase API v2 Account Organization API
+  slug: open-revenuebase-organization-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/revenuebase-agentic-access.yml
 - group: company
   title: ''
   type: Website
@@ -60,7 +91,7 @@ common:
 - group: docs
   title: ''
   type: APIReference
-  url: https://docs.revenuebase.ai/api-reference/overview
+  url: https://docs.revenuebase.ai/api-reference/v2/overview
 - group: start
   title: ''
   type: GettingStarted
@@ -68,7 +99,7 @@ common:
 - group: start
   title: ''
   type: Quickstart
-  url: https://docs.revenuebase.ai/docs/getting-started/quickstart
+  url: https://docs.revenuebase.ai/api-reference/v2/make-first-call
 - group: auth
   title: ''
   type: Authentication
@@ -144,7 +175,7 @@ common:
 - group: operate
   title: ''
   type: RateLimits
-  url: https://docs.revenuebase.ai/api-reference/rate-limits
+  url: rate-limits/revenuebase-rate-limits.yml
 - group: company
   title: ''
   type: Blog
@@ -172,7 +203,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://revenuebase.ai/stc
+  url: https://revenuebase.ai/stc-01-14-2024
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -185,34 +216,62 @@ common:
   title: ''
   type: Twitter
   url: https://x.com/revenuebase
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/revenuebase-a2a.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/revenuebase-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/revenuebase-provider-skill.md
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/revenuebase-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://docs.revenuebase.ai/docs/release-notes
 created: '2026-07-17'
-description: RevenueBase is a B2B data infrastructure platform — "the trust layer for B2B data" — providing 390M+ continuously verified contacts and 60M+ companies delivered via Snowflake, S3, Gigasheet, or a REST API. Core capabilities include real-time and batch email verification, deterministic and semantic company matching/resolution, organization discovery, and record enrichment, with data filterable by headcount, revenue, funding stage, industry, job title, seniority, geography, and tech stack. The v2 REST API authenticates with an API key in the x-key header and meters usage in credits. Originally surfaced as a Bessemer Venture Partners portfolio company and enriched into the API Evangelist network.
+description: RevenueBase is a B2B data infrastructure platform — "the trust layer for B2B data" — providing 400M+ continuously verified contacts (399M as of the August 2026 release notes) and 65M+ companies delivered via Snowflake, S3, Gigasheet, or a REST API. Core capabilities include real-time and batch email verification, deterministic and semantic company matching/resolution, organization discovery, and record enrichment, with data filterable by headcount, revenue, funding stage, industry, job title, seniority, geography, and tech stack. The v2 REST API authenticates with an API key in the x-key header and meters usage in credits. Originally surfaced as a Bessemer Venture Partners portfolio company and enriched into the API Evangelist network.
 image: https://cdn.prod.website-files.com/69aeeb63d4c5075af2fb954d/69dcb129729f9ab3c0816e26_RevenueBase-Favicon-32x32px.png
 layout: provider
 mcp_servers:
 - description: ''
   name: revenuebase-mcp.yml
   slug: revenuebase-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: RevenueBase
 nav: Providers
 network: true
-overview: 'RevenueBase publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Email API, Jobs API, and 1 more. Tagged areas include Company, B2B Data, Data Enrichment, Email Verification, and Contact Data.
+overview: 'RevenueBase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Email API, Jobs API, and 2 more. Tagged areas include Company, B2B Data, Data Enrichment, Email Verification, and Contact Data.
 
 
-  RevenueBase''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, changelog, engineering blog, and 28 more developer resources.'
-random_paper: 93
+  RevenueBase''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, changelog, engineering blog, and 34 more developer resources.'
+plans:
+- name: Revenuebase Plans Pricing
+  plan_count: 5
+  slug: revenuebase-plans-pricing
+random_paper: 130
+rate_limits:
+- limit_count: 2
+  name: Revenuebase Rate Limits
+  slug: revenuebase-rate-limits
 score:
-  band: developing
-  composite: 51.5
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: 8.6
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 59.0
+    commercial_clarity: 76.3
+    contract_quality: 57.2
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 44.7
+    operational_transparency: 65.8
   previous_composite: 51.5
   provenance:
     conformance: derived
@@ -224,8 +283,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Revenuebase Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Advanced routes for customisation
@@ -40,7 +40,20 @@ apis:
 - description: Main routes
   name: TypingDNA standard API
   slug: typingdna-standard-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TypingDNA - Authentication API Documentation advanced API
+  slug: open-typingdna-advanced-api
+- collection_type: open
+  name: TypingDNA - Authentication API Documentation advanced optional API
+  slug: open-typingdna-optional-api
+- collection_type: open
+  name: TypingDNA - Authentication API Documentation advanced standard API
+  slug: open-typingdna-standard-api
 common:
 - group: other
   title: ''
@@ -202,7 +215,7 @@ overview: 'TypingDNA publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   TypingDNA''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 14
+random_paper: 80
 scopes:
 - name: Typingdna Scopes
   scope_count: 3
@@ -230,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

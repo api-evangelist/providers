@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -48,7 +48,7 @@ apis:
 - description: Operations for managing resource tags
   name: Amazon AppFlow Tags API
   slug: amazon-appflow-tags-api
-artifact_total: 213
+artifact_total: 217
 collections:
 - collection_type: postman
   name: Amazon AppFlow Connectors API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Amazon AppFlow Connectors Tags API
   slug: postman-amazon-appflow-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon AppFlow Connectors API
+  slug: open-amazon-appflow-connectors-api
+- collection_type: open
+  name: Amazon AppFlow Connectors Flows API
+  slug: open-amazon-appflow-flows-api
+- collection_type: open
+  name: Amazon AppFlow Connectors Tags API
+  slug: open-amazon-appflow-tags-api
 common:
 - group: build
   title: ''
@@ -782,7 +794,7 @@ overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
-random_paper: 12
+random_paper: 111
 rules:
 - name: Amazon AppFlow API Rules
   rule_count: 6
@@ -822,7 +834,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:

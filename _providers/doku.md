@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -57,7 +57,7 @@ apis:
 - description: SNAP BI-SNAP Virtual Account lifecycle.
   name: DOKU Virtual Account API
   slug: doku-virtual-account-api
-artifact_total: 22
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Doku Webhooks
@@ -81,6 +81,27 @@ collections:
 - collection_type: postman
   name: DOKU Payment Access Token Virtual Account API
   slug: postman-doku-virtual-account-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DOKU Payment Access Token API
+  slug: open-doku-access-token-api
+- collection_type: open
+  name: DOKU Payment Access Token Checkout API
+  slug: open-doku-checkout-api
+- collection_type: open
+  name: DOKU Payment Access Token Direct Debit & e-Wallet API
+  slug: open-doku-direct-debit-e-wallet-api
+- collection_type: open
+  name: DOKU Payment Access Token Payout API
+  slug: open-doku-payout-api
+- collection_type: open
+  name: DOKU Payment Access Token QRIS API
+  slug: open-doku-qris-api
+- collection_type: open
+  name: DOKU Payment Access Token Virtual Account API
+  slug: open-doku-virtual-account-api
 common:
 - group: build
   title: ''
@@ -261,7 +282,7 @@ plans:
 - name: Doku Plans Pricing
   plan_count: 3
   slug: doku-plans-pricing
-random_paper: 75
+random_paper: 137
 rate_limits:
 - limit_count: 3
   name: Doku Rate Limits
@@ -295,7 +316,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png
 security:

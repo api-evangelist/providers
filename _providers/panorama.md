@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: The Restapi API from Panorama — 3 operation(s) for restapi.
   name: Panorama Restapi API
   slug: panorama-restapi-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Panorama Panorama API API
+  slug: open-panorama-panorama-api-api
+- collection_type: open
+  name: Panorama Panorama API Restapi API
+  slug: open-panorama-restapi-api
 - collection_type: open
   name: Panorama API
   slug: open-panorama
@@ -102,7 +111,7 @@ plans:
 - name: Panorama Plans Pricing
   plan_count: 3
   slug: panorama-plans-pricing
-random_paper: 7
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Panorama Rate Limits
@@ -127,7 +136,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/screenshots/panorama-2026-06-20T191341.png
 security:

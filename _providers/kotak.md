@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Kotak Mahindra Bank enterprise open-banking API platform. A curated corporate banking API stack of 39 published API products across six categories — Account Services, Payment Services, Collection '
@@ -137,7 +137,7 @@ overview: 'Kotak Mahindra Bank publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Kotak Mahindra Bank''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, FAQ, sandbox, and 15 more developer resources.'
-random_paper: 58
+random_paper: 91
 score:
   band: emerging
   composite: 27.9
@@ -159,7 +159,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/screenshots/kotak-2026-07-25T224245.png
 security:

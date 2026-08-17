@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: API quota and status information
   name: Free Currency API Status API
   slug: freecurrencyapi-status-api
-artifact_total: 19
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Free Currency Currencies API
+  slug: open-freecurrencyapi-currencies-api
+- collection_type: open
+  name: Free Currency Currencies Exchange Rates API
+  slug: open-freecurrencyapi-exchange-rates-api
+- collection_type: open
+  name: Free Currency Currencies Status API
+  slug: open-freecurrencyapi-status-api
 common:
 - group: agent
   title: ''
@@ -148,7 +161,7 @@ plans:
 - name: Freecurrencyapi Plans Pricing
   plan_count: 2
   slug: freecurrencyapi-plans-pricing
-random_paper: 47
+random_paper: 117
 rate_limits:
 - limit_count: 1
   name: Freecurrencyapi Rate Limits
@@ -182,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/screenshots/freecurrencyapi-2026-06-20T181521.png
 security:

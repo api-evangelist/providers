@@ -1,34 +1,37 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Published pricing, API access on request
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - authentication
-  trial: false
-  try_now: false
+  - https://unbounce.com/pricing/
+  - https://developer.unbounce.com/getting_started/
+  - plans/unbounce-plans-pricing.yml
+  trial: true
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
+    mcp_server: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-12'
+  score: 56.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,11 +39,14 @@ agentic_access:
   operation_count: 21
   slug: unbounce-agentic-access
   summary_line: 21 operations
-api_count: 8
+api_count: 9
 apis:
 - description: REST API for Unbounce providing programmatic access to accounts, sub-accounts, domains, pages, page groups, and leads. Authentication uses OAuth 2.0 Authorization Code flow with Bearer access tokens a
   name: Unbounce REST API
   slug: rest-api
+- description: Official hosted Model Context Protocol server for Unbounce. Exposes 37 tools that create, edit, publish, A/B-test and report on Unbounce landing pages and variants directly from an AI assistant. Autho
+  name: Unbounce MCP Server
+  slug: mcp-server
 - description: Account and sub-account resources
   name: Unbounce Accounts API
   slug: unbounce-accounts-api
@@ -62,8 +68,36 @@ apis:
 - description: Users in the account
   name: Unbounce Users API
   slug: unbounce-users-api
-artifact_total: 15
+artifact_total: 64
+asyncapis:
+- description: ''
+  name: Unbounce Webhooks
+  slug: unbounce-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unbounce REST Accounts API
+  slug: open-unbounce-accounts-api
+- collection_type: open
+  name: Unbounce REST Accounts Domains API
+  slug: open-unbounce-domains-api
+- collection_type: open
+  name: Unbounce REST Accounts Leads API
+  slug: open-unbounce-leads-api
+- collection_type: open
+  name: Unbounce REST Accounts Meta API
+  slug: open-unbounce-meta-api
+- collection_type: open
+  name: Unbounce REST Accounts PageGroups API
+  slug: open-unbounce-pagegroups-api
+- collection_type: open
+  name: Unbounce REST Accounts Pages API
+  slug: open-unbounce-pages-api
+- collection_type: open
+  name: Unbounce REST Accounts Users API
+  slug: open-unbounce-users-api
 - collection_type: open
   name: Unbounce REST API
   slug: open-unbounce
@@ -140,35 +174,268 @@ common:
   title: ''
   type: Community
   url: https://community.unbounce.com/
+- group: other
+  title: ''
+  type: RAML
+  url: raml/unbounce-api-v0.4.raml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/_index.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/_index.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/unbounce-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/unbounce-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/unbounce-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/unbounce-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/unbounce-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/unbounce-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/unbounce-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/unbounce-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://unbounce.com/security/
+- group: auth
+  title: ''
+  type: Security
+  url: https://unbounce.com/security/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/unbounce-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.unbounce.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/unbounce-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/unbounce-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/unbounce-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/unbounce-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/unbounce-rate-limits.yml
+- group: start
+  title: ''
+  type: Console
+  url: https://developer.unbounce.com/console.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.unbounce.com/getting_started/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.unbounce.com/api_reference/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://unbounce.com/lp/free-trial/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://unbounce.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://unbounce.com/privacy/
 created: '2026-05-11'
-description: Unbounce is a landing page, popup, and sticky bar builder with conversion rate optimization features including drag-and-drop design, A/B testing, AI copywriting (Smart Copy), and AI traffic routing (Smart Traffic) for marketers, agencies, SaaS, and ecommerce. The platform integrates with HubSpot, Salesforce, Google Analytics, and other marketing platforms to capture, qualify, and route leads. The Unbounce REST API provides programmatic access to pages, leads, sub-accounts, and domains using OAuth 2.0 Authorization Code flow.
+description: Unbounce is a landing page, popup, and sticky bar builder with conversion rate optimization features including drag-and-drop design, A/B testing, AI copywriting (Smart Copy), and AI traffic routing (Smart Traffic) for marketers, agencies, SaaS, and ecommerce. The platform integrates with HubSpot, Salesforce, Google Analytics, and other marketing platforms to capture, qualify, and route leads. The Unbounce REST API provides programmatic access to pages, leads, sub-accounts, and domains using an API key over HTTP Basic or OAuth 2.0 Authorization Code, described by a published RAML 0.8 definition. Unbounce also operates an official hosted Model Context Protocol server at mcp.unbounce.com with 37 tools — the only public write surface for pages, variants, publishing and traffic — plus three Agent Skills shipped in its own agent-plugin marketplace.
+examples:
+- key_count: 6
+  name: Unbounce Accounts Account_Get
+  slug: unbounce-accounts-account_get
+- key_count: 2
+  name: Unbounce Accounts Accounts_Get
+  slug: unbounce-accounts-accounts_get
+- key_count: 2
+  name: Unbounce Accounts Pages_Get
+  slug: unbounce-accounts-pages_get
+- key_count: 2
+  name: Unbounce Accounts Sub_Accounts_Get
+  slug: unbounce-accounts-sub_accounts_get
+- key_count: 4
+  name: Unbounce Domains Domain_Get
+  slug: unbounce-domains-domain_get
+- key_count: 2
+  name: Unbounce Domains Pages_Get
+  slug: unbounce-domains-pages_get
+- key_count: 9
+  name: Unbounce Lead_Deletion_Request Lead_Deletion_Request_Get
+  slug: unbounce-lead_deletion_request-lead_deletion_request_get
+- key_count: 8
+  name: Unbounce Leads Lead_Get
+  slug: unbounce-leads-lead_get
+- key_count: 2
+  name: Unbounce Page_Groups Pages_Get
+  slug: unbounce-page_groups-pages_get
+- key_count: 2
+  name: Unbounce Pages Form_Fields_Get
+  slug: unbounce-pages-form_fields_get
+- key_count: 2
+  name: Unbounce Pages Leads_Get
+  slug: unbounce-pages-leads_get
+- key_count: 14
+  name: Unbounce Pages Page_Get
+  slug: unbounce-pages-page_get
+- key_count: 2
+  name: Unbounce Pages Pages_Get
+  slug: unbounce-pages-pages_get
+- key_count: 2
+  name: Unbounce Sub_Accounts Domains_Get
+  slug: unbounce-sub_accounts-domains_get
+- key_count: 2
+  name: Unbounce Sub_Accounts Page_Groups_Get
+  slug: unbounce-sub_accounts-page_groups_get
+- key_count: 2
+  name: Unbounce Sub_Accounts Pages_Get
+  slug: unbounce-sub_accounts-pages_get
+- key_count: 6
+  name: Unbounce Sub_Accounts Sub_Account_Get
+  slug: unbounce-sub_accounts-sub_account_get
+- key_count: 5
+  name: Unbounce Users Self_Get
+  slug: unbounce-users-self_get
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unbounce.png
+json_schemas:
+- name: Unbounce Account
+  property_count: 5
+  slug: unbounce-account
+- name: Unbounce Accounts
+  property_count: 2
+  slug: unbounce-accounts
+- name: Unbounce Api_Root
+  property_count: 4
+  slug: unbounce-api_root
+- name: Unbounce Domain
+  property_count: 3
+  slug: unbounce-domain
+- name: Unbounce Domains
+  property_count: 2
+  slug: unbounce-domains
+- name: Unbounce Error_V3.1
+  property_count: 0
+  slug: unbounce-error_v3.1
+- name: Unbounce Form_Fields
+  property_count: 2
+  slug: unbounce-form_fields
+- name: Unbounce Lead
+  property_count: 8
+  slug: unbounce-lead
+- name: Unbounce Lead_Deletion_Request
+  property_count: 8
+  slug: unbounce-lead_deletion_request
+- name: Unbounce Lead_Deletion_Request_Query
+  property_count: 4
+  slug: unbounce-lead_deletion_request_query
+- name: Unbounce Leads
+  property_count: 2
+  slug: unbounce-leads
+- name: Unbounce New_Lead
+  property_count: 3
+  slug: unbounce-new_lead
+- name: Unbounce Page
+  property_count: 14
+  slug: unbounce-page
+- name: Unbounce Page_Groups
+  property_count: 2
+  slug: unbounce-page_groups
+- name: Unbounce Pages
+  property_count: 2
+  slug: unbounce-pages
+- name: Unbounce Sub_Account
+  property_count: 7
+  slug: unbounce-sub_account
+- name: Unbounce Sub_Accounts
+  property_count: 2
+  slug: unbounce-sub_accounts
+- name: Unbounce User
+  property_count: 5
+  slug: unbounce-user
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: unbounce-mcp.yml
+  slug: unbounce-mcpyml
+modified: '2026-08-13'
 name: Unbounce
 nav: Providers
 network: true
 overview: 'Unbounce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Domains API, Leads API, and 4 more. Tagged areas include Landing Pages, Conversion Rate Optimization, Marketing, A/B Testing, and Lead Generation.
 
 
-  Unbounce''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
-random_paper: 23
+  The Unbounce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Unbounce''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, code examples, and 38 more developer resources.'
+plans:
+- name: Unbounce Plans Pricing
+  plan_count: 6
+  slug: unbounce-plans-pricing
+random_paper: 118
+rate_limits:
+- limit_count: 1
+  name: Unbounce Rate Limits
+  slug: unbounce-rate-limits
 scopes:
 - name: Unbounce Scopes
   scope_count: 2
   slug: unbounce-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 36.6
-  delta: 0.0
+  band: exemplar
+  composite: 71.0
+  delta: 34.4
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 55.7
-    developer_ergonomics: 41.3
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 92.1
+    contract_quality: 64.6
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 76.3
   previous_composite: 36.6
   provenance:
     agentic_access: derived
@@ -178,14 +445,14 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/screenshots/unbounce-2026-06-20T200015.png
 security:
 - kind: authentication
   name: Unbounce Authentication
   slug: unbounce-authentication
-  summary_line: http/oauth2 · 2 schemes
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Unbounce Domain Security
   slug: unbounce-domain-security

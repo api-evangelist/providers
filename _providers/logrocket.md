@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,18 +51,30 @@ apis:
 - description: Manage user identification and traits for session context.
   name: LogRocket Users API
   slug: logrocket-users-api
-artifact_total: 32
+artifact_total: 36
 asyncapis:
 - description: The LogRocket Galileo Highlights webhook delivers AI-generated session highlights to a customer-specified URL when processing completes. When a highlights request includes a webhookURL parameter, LogR
   name: LogRocket Galileo Highlights Webhook
   slug: logrocket-highlights-webhook-asyncapi
 collections:
 - collection_type: open
-  name: LogRocket GraphQL API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LogRocket GraphQL Data Export API
+  slug: open-logrocket-data-export-api
+- collection_type: open
+  name: LogRocket Data Export GraphQL API
   slug: open-logrocket-graphql-api
+- collection_type: open
+  name: LogRocket GraphQL Data Export Highlights API
+  slug: open-logrocket-highlights-api
 - collection_type: open
   name: LogRocket REST API
   slug: open-logrocket-rest-api
+- collection_type: open
+  name: LogRocket GraphQL Data Export Users API
+  slug: open-logrocket-users-api
 common:
 - group: agent
   title: ''
@@ -192,7 +204,7 @@ plans:
 - name: Logrocket Plans Pricing
   plan_count: 1
   slug: logrocket-plans-pricing
-random_paper: 10
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Logrocket Rate Limits
@@ -234,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/screenshots/logrocket-2026-06-20T184701.png
 security:

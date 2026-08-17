@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -81,20 +81,56 @@ apis:
 - description: Collection of workload instances sharing common properties
   name: Istio WorkloadGroup API
   slug: istio-workloadgroup-api
-artifact_total: 37
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy API
+  slug: open-istio-authorizationpolicy-api
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy DestinationRule API
+  slug: open-istio-destinationrule-api
 - collection_type: open
   name: Istio Extensions API
   slug: open-istio-extensions-api
 - collection_type: open
+  name: Istio Extensions AuthorizationPolicy Gateway API
+  slug: open-istio-gateway-api
+- collection_type: open
   name: Istio Networking API
   slug: open-istio-networking-api
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy PeerAuthentication API
+  slug: open-istio-peerauthentication-api
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy RequestAuthentication API
+  slug: open-istio-requestauthentication-api
 - collection_type: open
   name: Istio Security API
   slug: open-istio-security-api
 - collection_type: open
-  name: Istio Telemetry API
+  name: Istio Extensions AuthorizationPolicy ServiceEntry API
+  slug: open-istio-serviceentry-api
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy Sidecar API
+  slug: open-istio-sidecar-api
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy Telemetry API
   slug: open-istio-telemetry-api
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy VirtualService API
+  slug: open-istio-virtualservice-api
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy WasmPlugin API
+  slug: open-istio-wasmplugin-api
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy WorkloadEntry API
+  slug: open-istio-workloadentry-api
+- collection_type: open
+  name: Istio Extensions AuthorizationPolicy WorkloadGroup API
+  slug: open-istio-workloadgroup-api
 common:
 - group: agent
   title: ''
@@ -250,7 +286,7 @@ plans:
 - name: Istio Plans Pricing
   plan_count: 1
   slug: istio-plans-pricing
-random_paper: 72
+random_paper: 105
 rate_limits:
 - limit_count: 1
   name: Istio Rate Limits
@@ -284,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/screenshots/istio-2026-06-20T183628.png
 security:

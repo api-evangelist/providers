@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,23 @@ apis:
 - description: The Utility Rates API from National Renewable Energy Laboratory — 1 operation(s) for utility rates.
   name: National Renewable Energy Laboratory Utility Rates API
   slug: national-renewable-energy-laboratory-utility-rates-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NREL Developer Network APIs Alt Fuel Stations API
+  slug: open-national-renewable-energy-laboratory-alt-fuel-stations-api
+- collection_type: open
+  name: NREL Developer Network APIs Alt Fuel Stations Pvwatts API
+  slug: open-national-renewable-energy-laboratory-pvwatts-api
+- collection_type: open
+  name: NREL Developer Network APIs Alt Fuel Stations Solar API
+  slug: open-national-renewable-energy-laboratory-solar-api
+- collection_type: open
+  name: NREL Developer Network APIs Alt Fuel Stations Utility Rates API
+  slug: open-national-renewable-energy-laboratory-utility-rates-api
 - collection_type: open
   name: NREL Developer Network APIs
   slug: open-national-renewable-energy-laboratory
@@ -117,7 +132,7 @@ plans:
 - name: National Renewable Energy Laboratory Plans Pricing
   plan_count: 2
   slug: national-renewable-energy-laboratory-plans-pricing
-random_paper: 75
+random_paper: 99
 rate_limits:
 - limit_count: 3
   name: National Renewable Energy Laboratory Rate Limits
@@ -148,7 +163,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Request messaging statistics reports by country.
   name: Messente Statistics API
   slug: messente-statistics-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Messente Account Balance API
+  slug: open-messente-account-balance-api
+- collection_type: open
+  name: Messente Account Balance Blacklist API
+  slug: open-messente-blacklist-api
+- collection_type: open
+  name: Messente Account Balance Bulk Messaging API
+  slug: open-messente-bulk-messaging-api
+- collection_type: open
+  name: Messente Account Balance Contacts API
+  slug: open-messente-contacts-api
+- collection_type: open
+  name: Messente Account Balance Delivery Report API
+  slug: open-messente-delivery-report-api
+- collection_type: open
+  name: Messente Account Balance Groups API
+  slug: open-messente-groups-api
+- collection_type: open
+  name: Messente Account Balance Number Lookup API
+  slug: open-messente-number-lookup-api
+- collection_type: open
+  name: Messente Account Balance Number Verification API
+  slug: open-messente-number-verification-api
+- collection_type: open
+  name: Messente Account Balance Omnimessage API
+  slug: open-messente-omnimessage-api
+- collection_type: open
+  name: Messente Account Balance Pricing API
+  slug: open-messente-pricing-api
+- collection_type: open
+  name: Messente Account Balance Statistics API
+  slug: open-messente-statistics-api
 - collection_type: open
   name: Messente API
   slug: open-messente
@@ -146,7 +182,7 @@ plans:
 - name: Messente Plans Pricing
   plan_count: 2
   slug: messente-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 3
   name: Messente Rate Limits
@@ -177,7 +213,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/screenshots/messente-2026-08-07T172635.png
 security:

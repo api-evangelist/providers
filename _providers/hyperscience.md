@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: The Version API from Hyperscience — 1 operation(s) for version.
   name: Hyperscience Version API
   slug: hyperscience-version-api
-artifact_total: 20
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hyperscience Audit Logs API
+  slug: open-hyperscience-audit-logs-api
+- collection_type: open
+  name: Hyperscience Audit Logs Cases API
+  slug: open-hyperscience-cases-api
+- collection_type: open
+  name: Hyperscience Audit Logs Documents API
+  slug: open-hyperscience-documents-api
+- collection_type: open
+  name: Hyperscience Audit Logs Flow Runs API
+  slug: open-hyperscience-flow-runs-api
+- collection_type: open
+  name: Hyperscience Audit Logs Flows API
+  slug: open-hyperscience-flows-api
+- collection_type: open
+  name: Hyperscience Audit Logs Layouts API
+  slug: open-hyperscience-layouts-api
+- collection_type: open
+  name: Hyperscience Audit Logs Pages API
+  slug: open-hyperscience-pages-api
+- collection_type: open
+  name: Hyperscience Audit Logs Submissions API
+  slug: open-hyperscience-submissions-api
+- collection_type: open
+  name: Hyperscience Audit Logs Version API
+  slug: open-hyperscience-version-api
 - collection_type: open
   name: Hyperscience API
   slug: open-hyperscience
@@ -159,7 +189,7 @@ plans:
 - name: Hyperscience Plans Pricing
   plan_count: 4
   slug: hyperscience-plans-pricing
-random_paper: 82
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Hyperscience Rate Limits
@@ -189,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/screenshots/hyperscience-2026-06-20T183049.png
 security:

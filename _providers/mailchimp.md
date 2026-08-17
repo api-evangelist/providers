@@ -15,13 +15,13 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-12'
+  score: 64.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 0
@@ -458,7 +458,11 @@ arazzos:
 - description: Find a member by email and update them, otherwise add them to the audience.
   name: Mailchimp Upsert Audience Member
   slug: mailchimp-upsert-member-workflow
-artifact_total: 336
+artifact_total: 460
+asyncapis:
+- description: AsyncAPI description of Mailchimp Marketing audience webhooks. Mailchimp delivers list/audience events to a customer-configured callback URL via HTTP POST with an `application/x-www-form-urlencoded` b
+  name: Mailchimp Marketing Webhooks
+  slug: mailchimp-marketing-webhooks-asyncapi
 collections:
 - collection_type: postman
   name: Mailchimp Marketing API
@@ -467,14 +471,380 @@ collections:
   name: Mailchimp Transactional API
   slug: postman-mailchimp-transactional-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mailchimp Marketing Abuse API
+  slug: open-mailchimp-abuse-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Account Export API
+  slug: open-mailchimp-account-export-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Accounts API
+  slug: open-mailchimp-accounts-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Actions API
+  slug: open-mailchimp-actions-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Activity API
+  slug: open-mailchimp-activity-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Advice API
+  slug: open-mailchimp-advice-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Allowlists API
+  slug: open-mailchimp-allowlists-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Answers API
+  slug: open-mailchimp-answers-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Applications API
+  slug: open-mailchimp-applications-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Archive API
+  slug: open-mailchimp-archive-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Authorized API
+  slug: open-mailchimp-authorized-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Authorized Apps API
+  slug: open-mailchimp-authorized-apps-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Automations API
+  slug: open-mailchimp-automations-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Batch API
+  slug: open-mailchimp-batch-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Batch Webhooks API
+  slug: open-mailchimp-batch-webhooks-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Batches API
+  slug: open-mailchimp-batches-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Campaign Folders API
+  slug: open-mailchimp-campaign-folders-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Campaigns API
+  slug: open-mailchimp-campaigns-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Cancels API
+  slug: open-mailchimp-cancels-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Carts API
+  slug: open-mailchimp-carts-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Categories API
+  slug: open-mailchimp-categories-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Chatter API
+  slug: open-mailchimp-chatter-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Checklist API
+  slug: open-mailchimp-checklist-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Click API
+  slug: open-mailchimp-click-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Clients API
+  slug: open-mailchimp-clients-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Connected API
+  slug: open-mailchimp-connected-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Connected_site_id API
+  slug: open-mailchimp-connected-site-id-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Connected Sites API
+  slug: open-mailchimp-connected-sites-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Content API
+  slug: open-mailchimp-content-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Conversations API
+  slug: open-mailchimp-conversations-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Customers API
+  slug: open-mailchimp-customers-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Domains API
+  slug: open-mailchimp-domains-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Ecommerce API
+  slug: open-mailchimp-ecommerce-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Eepurl API
+  slug: open-mailchimp-eepurl-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Email API
+  slug: open-mailchimp-email-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Emails API
+  slug: open-mailchimp-emails-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Events API
+  slug: open-mailchimp-events-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Exports API
+  slug: open-mailchimp-exports-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Facebook Ads API
+  slug: open-mailchimp-facebook-ads-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Facebook API
+  slug: open-mailchimp-facebook-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Feed API
+  slug: open-mailchimp-feed-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Feedback API
+  slug: open-mailchimp-feedback-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Fields API
+  slug: open-mailchimp-fields-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse File Manager API
+  slug: open-mailchimp-file-manager-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Files API
+  slug: open-mailchimp-files-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Folders API
+  slug: open-mailchimp-folders-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Forms API
+  slug: open-mailchimp-forms-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Goals API
+  slug: open-mailchimp-goals-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Growth API
+  slug: open-mailchimp-growth-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse History API
+  slug: open-mailchimp-history-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Images API
+  slug: open-mailchimp-images-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Installation API
+  slug: open-mailchimp-installation-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Interest API
+  slug: open-mailchimp-interest-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Interests API
+  slug: open-mailchimp-interests-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse IPs API
+  slug: open-mailchimp-ips-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Journeys API
+  slug: open-mailchimp-journeys-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Landing API
+  slug: open-mailchimp-landing-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Landing Pages API
+  slug: open-mailchimp-landing-pages-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Lines API
+  slug: open-mailchimp-lines-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse List_id API
+  slug: open-mailchimp-list-id-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Lists API
+  slug: open-mailchimp-lists-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Locations API
+  slug: open-mailchimp-locations-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Managers API
+  slug: open-mailchimp-managers-api
+- collection_type: open
+  name: Mailchimp Marketing API
+  slug: open-mailchimp-marketing-api-openapi-original
+- collection_type: open
   name: Mailchimp Marketing API
   slug: open-mailchimp-marketing-api
 - collection_type: open
   name: Mailchimp Marketing Webhooks
   slug: open-mailchimp-marketing-webhooks-asyncapi
 - collection_type: open
+  name: Mailchimp Marketing Abuse Members API
+  slug: open-mailchimp-members-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Merge API
+  slug: open-mailchimp-merge-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Messages API
+  slug: open-mailchimp-messages-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Metadata API
+  slug: open-mailchimp-metadata-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Month API
+  slug: open-mailchimp-month-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Notes API
+  slug: open-mailchimp-notes-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Open API
+  slug: open-mailchimp-open-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Orders API
+  slug: open-mailchimp-orders-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Outreach_id API
+  slug: open-mailchimp-outreach-id-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Pages API
+  slug: open-mailchimp-pages-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Pause API
+  slug: open-mailchimp-pause-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Performance API
+  slug: open-mailchimp-performance-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Pings API
+  slug: open-mailchimp-pings-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Product API
+  slug: open-mailchimp-product-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Products API
+  slug: open-mailchimp-products-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Promo API
+  slug: open-mailchimp-promo-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Promo_code_id API
+  slug: open-mailchimp-promo-code-id-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Publish API
+  slug: open-mailchimp-publish-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Questions API
+  slug: open-mailchimp-questions-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Queues API
+  slug: open-mailchimp-queues-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Rejects API
+  slug: open-mailchimp-rejects-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Removed API
+  slug: open-mailchimp-removed-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Replicate API
+  slug: open-mailchimp-replicate-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Reporting API
+  slug: open-mailchimp-reporting-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Reports API
+  slug: open-mailchimp-reports-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Resend API
+  slug: open-mailchimp-resend-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Response_id API
+  slug: open-mailchimp-response-id-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Resume API
+  slug: open-mailchimp-resume-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Root API
+  slug: open-mailchimp-root-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Rules API
+  slug: open-mailchimp-rules-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Schedules API
+  slug: open-mailchimp-schedules-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Scripts API
+  slug: open-mailchimp-scripts-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Search API
+  slug: open-mailchimp-search-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Segments API
+  slug: open-mailchimp-segments-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Send API
+  slug: open-mailchimp-send-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Senders API
+  slug: open-mailchimp-senders-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Sent API
+  slug: open-mailchimp-sent-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Signup API
+  slug: open-mailchimp-signup-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Steps API
+  slug: open-mailchimp-steps-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Stores API
+  slug: open-mailchimp-stores-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Subaccounts API
+  slug: open-mailchimp-subaccounts-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Subscribers API
+  slug: open-mailchimp-subscribers-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Surveys API
+  slug: open-mailchimp-surveys-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Tags API
+  slug: open-mailchimp-tags-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Template API
+  slug: open-mailchimp-template-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Template Folders API
+  slug: open-mailchimp-template-folders-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Templates API
+  slug: open-mailchimp-templates-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Tests API
+  slug: open-mailchimp-tests-api
+- collection_type: open
+  name: Mailchimp Transactional API
+  slug: open-mailchimp-transactional-api-openapi-original
+- collection_type: open
   name: Mailchimp Transactional API
   slug: open-mailchimp-transactional-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Trigger API
+  slug: open-mailchimp-trigger-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Unsubscribed API
+  slug: open-mailchimp-unsubscribed-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Users API
+  slug: open-mailchimp-users-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Variants API
+  slug: open-mailchimp-variants-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Verified API
+  slug: open-mailchimp-verified-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Verified Domains API
+  slug: open-mailchimp-verified-domains-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Verify API
+  slug: open-mailchimp-verify-api
+- collection_type: open
+  name: Mailchimp Marketing Abuse Webhooks API
+  slug: open-mailchimp-webhooks-api
 common:
 - group: other
   title: ''
@@ -487,6 +857,10 @@ common:
 - group: build
   title: ''
   type: Packages
+  url: packages/mailchimp-packages.yml
+- group: build
+  title: ''
+  type: SDKs
   url: packages/mailchimp-packages.yml
 - group: agent
   title: ''
@@ -696,8 +1070,69 @@ common:
   title: ''
   type: SDKs
   url: https://mailchimp.com/developer/marketing/docs/mobile-sdk/
-created: 2023/11/23
-description: Mailchimp is an Intuit company providing a marketing automation platform and email marketing service for managing mailing lists, creating email marketing campaigns, and automating marketing workflows.
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://mailchimp.com/developer/marketing/docs/fundamentals/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://mailchimp.com/developer/marketing/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://mailchimp.com/developer/marketing/guides/quick-start/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/mailchimp/mailchimp-client-lib-codegen
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/mailchimp-vocabulary.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/mailchimp-marketing-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://mailchimp.com/developer/marketing/guides/sync-audience-data-webhooks/
+- group: auth
+  title: ''
+  type: Security
+  url: https://mailchimp.com/about/security/#Responsible_Disclosure
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://mailchimp.com/about/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/mailchimp-trust-center.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://mailchimp.com/developer/marketing/docs/fundamentals/#api-versions
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/mailchimp-tool-crosswalk.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/mailchimp-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/mailchimp-plans-pricing.yml
+created: '2023-11-23'
+description: 'Mailchimp is an Intuit company providing a marketing automation platform and email marketing service for managing mailing lists, creating email marketing campaigns, and automating marketing workflows. It exposes two distinct developer surfaces: the Marketing API (v3, REST, 298 operations at https://<dc>.api.mailchimp.com/3.0) covering audiences, members, tags, segments, campaigns, content, automations, customer journeys, reports, e-commerce stores and orders, file manager, templates, landing pages, batch operations and webhooks; and Mailchimp Transactional, formerly Mandrill (99 RPC-style POST methods at https://mandrillapp.com/api/1.0), for one-to-one transactional email and SMS, inbound processing, dedicated IP management and subaccounts. Authentication is an API key or OAuth 2 for the Marketing API and a body-parameter API key for Transactional. Mailchimp runs a hosted MCP server for the Transactional API, publishes eight official client libraries and two mobile SDKs, and
+  delivers audience events as HMAC-signed webhooks.'
 examples:
 - key_count: 6
   name: Mailchimp Postallowlistsadd Example
@@ -1230,24 +1665,24 @@ mcp_servers:
 - description: ''
   name: mailchimp-mcp.yml
   slug: mailchimp-mcpyml
-modified: '2026-06-20'
+modified: '2026-08-13'
 name: Mailchimp
 nav: Providers
 network: true
 overview: 'Mailchimp publishes 119 APIs on the [APIs.io](https://apis.io/) network, including Abuse API, Account Export API, Accounts API, and 116 more. Tagged areas include Campaigns, Email Marketing, Marketing Automation, Newsletters, and Transactional Email.
 
 
-  The Mailchimp catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Mailchimp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Mailchimp''s developer surface includes changelog, sandbox, authentication, developer portal, engineering blog, pricing, support, and 48 more developer resources.'
+  Mailchimp''s developer surface includes changelog, sandbox, authentication, developer portal, engineering blog, pricing, support, and 64 more developer resources.'
 plans:
 - name: Mailchimp Plans Pricing
   plan_count: 4
   slug: mailchimp-plans-pricing
-random_paper: 108
+random_paper: 54
 rate_limits:
-- limit_count: 3
+- limit_count: 7
   name: Mailchimp Rate Limits
   slug: mailchimp-rate-limits
 rules:
@@ -1268,16 +1703,16 @@ rules:
     warn: 9
   slug: mailchimp-spectral-rules
 score:
-  band: strong
-  composite: 64.0
-  delta: 0.0
+  band: exemplar
+  composite: 77.5
+  delta: 13.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 74.1
-    developer_ergonomics: 52.2
+    commercial_clarity: 76.3
+    contract_quality: 83.1
+    developer_ergonomics: 93.5
     discoverability: 87.0
-    governance: 69.8
-    operational_transparency: 44.7
+    governance: 80.2
+    operational_transparency: 71.1
   previous_composite: 64.0
   provenance:
     agentic_access: derived
@@ -1288,9 +1723,15 @@ score:
       marker_coverage: 0.0
       total: 120
     mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/screenshots/mailchimp-2026-06-20T184854.png
 security:
 - kind: authentication
@@ -1305,6 +1746,10 @@ security:
   name: Mailchimp Vulnerability Disclosure
   slug: mailchimp-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Mailchimp Trust Center
+  slug: mailchimp-trust-center
+  summary_line: SOC 2, ISO 27001, EU-U.S. Data Privacy Framework (incl. UK Extension and Swiss-U.S. DPF), GDPR, VPAT (Section 508 accessibility)
 slug: mailchimp
 tags:
 - Campaigns
@@ -1312,5 +1757,10 @@ tags:
 - Marketing Automation
 - Newsletters
 - Transactional Email
+- Audience Management
+- SMS
+- E-Commerce
+- Webhooks
+- Marketing Analytics
 website: https://mailchimp.com/developer/
 ---

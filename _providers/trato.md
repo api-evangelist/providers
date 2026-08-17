@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Create, configure, send, sign and manage contracts.
@@ -46,11 +46,30 @@ apis:
 - description: List reusable contract templates.
   name: Trato Templates API
   slug: trato-templates-api
-artifact_total: 9
+artifact_total: 15
 asyncapis:
 - description: TRATO delivers contract and milestone lifecycle events to subscriber URLs as HTTP POST callbacks. Webhooks are configured in the user profile per event type. Each request carries an `X-Trato-Secret` h
   name: TRATO Webhooks
   slug: trato-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TRATO Contract Contracts API
+  slug: open-trato-contracts-api
+- collection_type: open
+  name: TRATO Contract Contracts Custom Properties API
+  slug: open-trato-custom-properties-api
+- collection_type: open
+  name: TRATO Contract Contracts Participants API
+  slug: open-trato-participants-api
+- collection_type: open
+  name: TRATO Contract Contracts Spectators API
+  slug: open-trato-spectators-api
+- collection_type: open
+  name: TRATO Contract Contracts Templates API
+  slug: open-trato-templates-api
 common:
 - group: company
   title: ''
@@ -187,7 +206,7 @@ overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Trato''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 22 more developer resources.'
-random_paper: 74
+random_paper: 107
 score:
   band: developing
   composite: 50.4
@@ -210,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Contacts API from Zoho Books — 4 operation(s) for contacts.
@@ -42,7 +42,23 @@ apis:
 - description: The Organizations API from Zoho Books — 1 operation(s) for organizations.
   name: Zoho Books Organizations API
   slug: zoho-books-organizations-api
-artifact_total: 6
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zoho Books Contacts API
+  slug: open-zoho-books-contacts-api
+- collection_type: open
+  name: Zoho Books Invoices API
+  slug: open-zoho-books-invoices-api
+- collection_type: open
+  name: Zoho Books Items API
+  slug: open-zoho-books-items-api
+- collection_type: open
+  name: Zoho Books Organizations API
+  slug: open-zoho-books-organizations-api
 common:
 - group: auth
   title: ''
@@ -116,7 +132,7 @@ overview: 'Zoho Books publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zoho Books'' developer surface includes documentation, pricing, signup flow, support, engineering blog, developer console, and 9 more developer resources.'
-random_paper: 75
+random_paper: 141
 score:
   band: thin
   composite: 34.8
@@ -142,7 +158,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/screenshots/zoho-books-2026-06-20T201932.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'REST API giving partner developers and shipper TMS platforms access to the core Emerge shipper workflow: create and manage opportunities, post them to the Emerge Marketplace or to network partners, re'
@@ -28,11 +28,18 @@ apis:
 - description: REST API for Capacity and Integration Providers (carriers, brokers and their TMS vendors) working with shippers on the Emerge platform. Providers receive Rate Request and Tender Request events by webh
   name: Emerge Carrier API
   slug: emerge-carrier-api
-artifact_total: 10
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Emerge Webhooks
   slug: emerge-webhooks
+collections:
+- collection_type: open
+  name: Emerge Carrier API
+  slug: open-emerge-carrier-api
+- collection_type: open
+  name: Emerge Public API
+  slug: open-emerge-public-api
 common:
 - group: company
   title: ''
@@ -202,7 +209,7 @@ plans:
 - name: Emerge Plans Pricing
   plan_count: 0
   slug: emerge-plans-pricing
-random_paper: 29
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Emerge Rate Limits
@@ -210,6 +217,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.1
@@ -217,8 +225,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 63.2
+  previous_composite: 60.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Emerge Authentication

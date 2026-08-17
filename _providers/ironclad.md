@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ arazzos:
 - description: Find a contract record by a filter and update it if found, otherwise create it.
   name: Ironclad Upsert a Contract Record
   slug: ironclad-upsert-contract-record
-artifact_total: 92
+artifact_total: 105
 collections:
 - collection_type: postman
   name: Ironclad OAuth 2.0 API
@@ -133,14 +133,53 @@ collections:
   name: Ironclad SCIM API
   slug: postman-ironclad-scim-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization API
+  slug: open-ironclad-authorization-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Entities API
+  slug: open-ironclad-entities-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Exports API
+  slug: open-ironclad-exports-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Groups API
+  slug: open-ironclad-groups-api
+- collection_type: open
   name: Ironclad OAuth 2.0 API
   slug: open-ironclad-oauth-20-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Obligations API
+  slug: open-ironclad-obligations-api
 - collection_type: open
   name: Ironclad Public API
   slug: open-ironclad-public-api
 - collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Records API
+  slug: open-ironclad-records-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Resources API
+  slug: open-ironclad-resources-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Schemas API
+  slug: open-ironclad-schemas-api
+- collection_type: open
   name: Ironclad SCIM API
   slug: open-ironclad-scim-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Search API
+  slug: open-ironclad-search-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Users API
+  slug: open-ironclad-users-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Webhooks API
+  slug: open-ironclad-webhooks-api
+- collection_type: open
+  name: Ironclad OAuth 2.0 Authorization Workflows API
+  slug: open-ironclad-workflows-api
 common:
 - group: agent
   title: ''
@@ -419,7 +458,7 @@ plans:
 - name: Ironclad Plans Pricing
   plan_count: 5
   slug: ironclad-plans-pricing
-random_paper: 4
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Ironclad Rate Limits
@@ -466,7 +505,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/screenshots/ironclad-2026-06-20T183610.png
 security:

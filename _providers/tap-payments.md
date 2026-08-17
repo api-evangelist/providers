@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: Single-use tokenization of cards and wallets.
   name: Tap Payments Tokens API
   slug: tap-payments-tokens-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tap Payments Authorize API
+  slug: open-tap-payments-authorize-api
+- collection_type: open
+  name: Tap Payments Authorize Business API
+  slug: open-tap-payments-business-api
+- collection_type: open
+  name: Tap Payments Authorize Cards API
+  slug: open-tap-payments-cards-api
+- collection_type: open
+  name: Tap Payments Authorize Charges API
+  slug: open-tap-payments-charges-api
+- collection_type: open
+  name: Tap Payments Authorize Customers API
+  slug: open-tap-payments-customers-api
+- collection_type: open
+  name: Tap Payments Authorize Invoices API
+  slug: open-tap-payments-invoices-api
+- collection_type: open
+  name: Tap Payments Authorize Payouts API
+  slug: open-tap-payments-payouts-api
+- collection_type: open
+  name: Tap Payments Authorize Refunds API
+  slug: open-tap-payments-refunds-api
+- collection_type: open
+  name: Tap Payments Authorize Tokens API
+  slug: open-tap-payments-tokens-api
 - collection_type: open
   name: Tap Payments API
   slug: open-tap-payments
@@ -135,7 +165,7 @@ plans:
 - name: Tap Payments Plans Pricing
   plan_count: 3
   slug: tap-payments-plans-pricing
-random_paper: 51
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Tap Payments Rate Limits
@@ -166,7 +196,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

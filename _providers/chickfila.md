@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -79,11 +79,41 @@ apis:
 - description: Health and configuration operations.
   name: Chick-fil-A System API
   slug: chickfila-system-api
-artifact_total: 129
+artifact_total: 139
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chick-fil-A BOVINE Accounts API
+  slug: open-chickfila-accounts-api
 - collection_type: open
   name: Chick-fil-A BOVINE API
   slug: open-chickfila-bovine
+- collection_type: open
+  name: Chick-fil-A BOVINE Accounts Compliance API
+  slug: open-chickfila-compliance-api
+- collection_type: open
+  name: Chick-fil-A BOVINE Accounts Compute API
+  slug: open-chickfila-compute-api
+- collection_type: open
+  name: Chick-fil-A BOVINE Accounts Databases API
+  slug: open-chickfila-databases-api
+- collection_type: open
+  name: Chick-fil-A BOVINE Accounts Identity API
+  slug: open-chickfila-identity-api
+- collection_type: open
+  name: Chick-fil-A BOVINE Accounts Networking API
+  slug: open-chickfila-networking-api
+- collection_type: open
+  name: Chick-fil-A BOVINE Accounts Storage API
+  slug: open-chickfila-storage-api
+- collection_type: open
+  name: Chick-fil-A BOVINE Accounts Summary API
+  slug: open-chickfila-summary-api
+- collection_type: open
+  name: Chick-fil-A BOVINE Accounts System API
+  slug: open-chickfila-system-api
 common:
 - group: operate
   title: ''
@@ -487,7 +517,7 @@ overview: 'Chick-fil-A publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Chick-fil-A''s developer surface includes signup flow, engineering blog, tooling, code examples, and 15 more developer resources.'
-random_paper: 86
+random_paper: 32
 rules:
 - name: Chick-fil-A API Rules
   rule_count: 5
@@ -525,7 +555,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -86,11 +86,63 @@ apis:
 - description: The User Reports API from Sublime Security — 1 operation(s) for user reports.
   name: Sublime Security User Reports API
   slug: sublime-security-user-reports-api
-artifact_total: 22
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Sublime Security Webhooks
   slug: sublime-security-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode API
+  slug: open-sublime-security-binexplode-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Email Bombs API
+  slug: open-sublime-security-email-bombs-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Enrichment API
+  slug: open-sublime-security-enrichment-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Events in the audit log API
+  slug: open-sublime-security-events-in-the-audit-log-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Hunt Jobs API
+  slug: open-sublime-security-hunt-jobs-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Lists API
+  slug: open-sublime-security-lists-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Live flow API
+  slug: open-sublime-security-live-flow-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Mailboxes API
+  slug: open-sublime-security-mailboxes-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Message Groups API
+  slug: open-sublime-security-message-groups-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Messages API
+  slug: open-sublime-security-messages-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Organizations API
+  slug: open-sublime-security-organizations-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Roles API
+  slug: open-sublime-security-roles-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Rules API
+  slug: open-sublime-security-rules-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode SCIM API
+  slug: open-sublime-security-scim-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode Tasks API
+  slug: open-sublime-security-tasks-api
+- collection_type: open
+  name: Multi-Tenancy API (BETA) BinExplode User Reports API
+  slug: open-sublime-security-user-reports-api
 common:
 - group: company
   title: ''
@@ -211,7 +263,7 @@ overview: 'Sublime Security publishes 16 APIs on the [APIs.io](https://apis.io/)
 
 
   Sublime Security''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 19 more developer resources.'
-random_paper: 6
+random_paper: 47
 score:
   band: developing
   composite: 45.1
@@ -235,7 +287,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

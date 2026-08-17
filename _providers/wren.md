@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Manage the prepaid credit balance
@@ -51,11 +51,35 @@ apis:
 - description: Create and list tree-planting orders
   name: Wren Tree Orders API
   slug: wren-tree-orders-api
-artifact_total: 8
+artifact_total: 16
 collections:
 - collection_type: postman
   name: Wren API
   slug: postman-wren-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wren Credits API
+  slug: open-wren-credits-api
+- collection_type: open
+  name: Wren Credits Offset Orders API
+  slug: open-wren-offset-orders-api
+- collection_type: open
+  name: Wren Credits Portfolios API
+  slug: open-wren-portfolios-api
+- collection_type: open
+  name: Wren Credits Project Donations API
+  slug: open-wren-project-donations-api
+- collection_type: open
+  name: Wren Credits Project Orders API
+  slug: open-wren-project-orders-api
+- collection_type: open
+  name: Wren Credits Purchases API
+  slug: open-wren-purchases-api
+- collection_type: open
+  name: Wren Credits Tree Orders API
+  slug: open-wren-tree-orders-api
 common:
 - group: company
   title: ''
@@ -70,7 +94,7 @@ name: Wren
 nav: Providers
 network: true
 overview: Wren publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Credits API, Offset Orders API, Portfolios API, and 4 more. Tagged areas include Company.
-random_paper: 84
+random_paper: 146
 score:
   band: minimal
   composite: 7.7
@@ -90,7 +114,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: wren
 tags:

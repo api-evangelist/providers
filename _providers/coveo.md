@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 551
   human_in_the_loop: 13
@@ -496,7 +496,7 @@ apis:
 - description: The Zendesk API from Coveo — 1 operation(s) for zendesk.
   name: Coveo Zendesk API
   slug: coveo-zendesk-api
-artifact_total: 357
+artifact_total: 508
 collections:
 - collection_type: postman
   name: Coveo Activity Activities API
@@ -954,6 +954,459 @@ collections:
 - collection_type: postman
   name: Coveo Activity Activities Zendesk API
   slug: postman-coveo-zendesk-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coveo Activity Activities API
+  slug: open-coveo-activities-api
+- collection_type: open
+  name: Coveo Activity Activities Administration API - Version 15 API
+  slug: open-coveo-administration-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Advanced Model Configurations API
+  slug: open-coveo-advanced-model-configurations-api
+- collection_type: open
+  name: Coveo Activity Activities Agent Configuration API API
+  slug: open-coveo-agent-configuration-api-api
+- collection_type: open
+  name: Coveo Activity Activities Agent Orchestration API API
+  slug: open-coveo-agent-orchestration-api-api
+- collection_type: open
+  name: Coveo Activity Activities Analysis V3 API
+  slug: open-coveo-analysis-v3-api
+- collection_type: open
+  name: Coveo Activity Activities Analytics API - Version 14 API
+  slug: open-coveo-analytics-api-version-14-api
+- collection_type: open
+  name: Coveo Activity Activities Analytics API - Version 15 API
+  slug: open-coveo-analytics-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Answer API
+  slug: open-coveo-answer-api
+- collection_type: open
+  name: Coveo Activity Activities Api Keys API
+  slug: open-coveo-api-keys-api
+- collection_type: open
+  name: Coveo Activity Activities Atlassian Connect App API
+  slug: open-coveo-atlassian-connect-app-api
+- collection_type: open
+  name: Coveo Activity Activities Badges API
+  slug: open-coveo-badges-api
+- collection_type: open
+  name: Coveo Activity Activities Built-in Groups API
+  slug: open-coveo-built-in-groups-api
+- collection_type: open
+  name: Coveo Activity Activities Case Assist API
+  slug: open-coveo-case-assist-api
+- collection_type: open
+  name: Coveo Activity Activities Case Classification Configuration API
+  slug: open-coveo-case-classification-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Catalog Configurations API
+  slug: open-coveo-catalog-configurations-api
+- collection_type: open
+  name: Coveo Activity Activities Catalog Content API
+  slug: open-coveo-catalog-content-api
+- collection_type: open
+  name: Coveo Activity Activities Catalog Filter API
+  slug: open-coveo-catalog-filter-api
+- collection_type: open
+  name: Coveo Activity Activities Catalogs API
+  slug: open-coveo-catalogs-api
+- collection_type: open
+  name: Coveo Activity Activities Conditions API
+  slug: open-coveo-conditions-api
+- collection_type: open
+  name: Coveo Activity Activities Configuration API
+  slug: open-coveo-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Context API
+  slug: open-coveo-context-api
+- collection_type: open
+  name: Coveo Activity Activities Context Mapping Configurations API
+  slug: open-coveo-context-mapping-configurations-api
+- collection_type: open
+  name: Coveo Activity Activities Crawling Module API
+  slug: open-coveo-crawling-module-api
+- collection_type: open
+  name: Coveo Activity Activities CRGA For Cases API
+  slug: open-coveo-crga-for-cases-api
+- collection_type: open
+  name: Coveo Activity Activities Data Health API - Version 15 API
+  slug: open-coveo-data-health-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Diagnostic Logs API
+  slug: open-coveo-diagnostic-logs-api
+- collection_type: open
+  name: Coveo Activity Activities Dimensions API - Version 14 API
+  slug: open-coveo-dimensions-api-version-14-api
+- collection_type: open
+  name: Coveo Activity Activities Dimensions API - Version 15 API
+  slug: open-coveo-dimensions-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Dynamic Navigation Experience Configuration API
+  slug: open-coveo-dynamic-navigation-experience-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Event API API
+  slug: open-coveo-event-api-api
+- collection_type: open
+  name: Coveo Activity Activities Exports API - Version 14 API
+  slug: open-coveo-exports-api-version-14-api
+- collection_type: open
+  name: Coveo Activity Activities Exports API - Version 15 API
+  slug: open-coveo-exports-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Facet API
+  slug: open-coveo-facet-api
+- collection_type: open
+  name: Coveo Activity Activities Facet Field Configurations API
+  slug: open-coveo-facet-field-configurations-api
+- collection_type: open
+  name: Coveo Activity Activities Facets API
+  slug: open-coveo-facets-api
+- collection_type: open
+  name: Coveo Activity Activities Fields API
+  slug: open-coveo-fields-api
+- collection_type: open
+  name: Coveo Activity Activities File Container API
+  slug: open-coveo-file-container-api
+- collection_type: open
+  name: Coveo Activity Activities Filters API - Version 14 API
+  slug: open-coveo-filters-api-version-14-api
+- collection_type: open
+  name: Coveo Activity Activities Filters API - Version 15 API
+  slug: open-coveo-filters-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Group Invites API
+  slug: open-coveo-group-invites-api
+- collection_type: open
+  name: Coveo Activity Activities Group Members API
+  slug: open-coveo-group-members-api
+- collection_type: open
+  name: Coveo Activity Activities Group Realms API
+  slug: open-coveo-group-realms-api
+- collection_type: open
+  name: Coveo Activity Activities Groups API - Version 15 API
+  slug: open-coveo-groups-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Groups API
+  slug: open-coveo-groups-api
+- collection_type: open
+  name: Coveo Activity Activities Hosted Page API
+  slug: open-coveo-hosted-page-api
+- collection_type: open
+  name: Coveo Activity Activities In-App API
+  slug: open-coveo-in-app-api
+- collection_type: open
+  name: Coveo Activity Activities Indexing Pipeline Extensions API
+  slug: open-coveo-indexing-pipeline-extensions-api
+- collection_type: open
+  name: Coveo Activity Activities Ingestion Content API
+  slug: open-coveo-ingestion-content-api
+- collection_type: open
+  name: Coveo Activity Activities Insight Panel API
+  slug: open-coveo-insight-panel-api
+- collection_type: open
+  name: Coveo Activity Activities Invites API
+  slug: open-coveo-invites-api
+- collection_type: open
+  name: Coveo Activity Activities IPX Configuration API
+  slug: open-coveo-ipx-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities IPX loader API
+  slug: open-coveo-ipx-loader-api
+- collection_type: open
+  name: Coveo Activity Activities Item API
+  slug: open-coveo-item-api
+- collection_type: open
+  name: Coveo Activity Activities License API
+  slug: open-coveo-license-api
+- collection_type: open
+  name: Coveo Activity Activities License Metrics API
+  slug: open-coveo-license-metrics-api
+- collection_type: open
+  name: Coveo Activity Activities Limits API
+  slug: open-coveo-limits-api
+- collection_type: open
+  name: Coveo Activity Activities Link API
+  slug: open-coveo-link-api
+- collection_type: open
+  name: Coveo Activity Activities Listing Configurations API
+  slug: open-coveo-listing-configurations-api
+- collection_type: open
+  name: Coveo Activity Activities Listings API
+  slug: open-coveo-listings-api
+- collection_type: open
+  name: Coveo Activity Activities Logs API
+  slug: open-coveo-logs-api
+- collection_type: open
+  name: Coveo Activity Activities Machine learning associations API
+  slug: open-coveo-machine-learning-associations-api
+- collection_type: open
+  name: Coveo Activity Activities Machine Learning Models API
+  slug: open-coveo-machine-learning-models-api
+- collection_type: open
+  name: Coveo Activity Activities Mappings API
+  slug: open-coveo-mappings-api
+- collection_type: open
+  name: Coveo Activity Activities Metadata API
+  slug: open-coveo-metadata-api
+- collection_type: open
+  name: Coveo Activity Activities Metrics API - Version 14 API
+  slug: open-coveo-metrics-api-version-14-api
+- collection_type: open
+  name: Coveo Activity Activities Metrics API - Version 15 API
+  slug: open-coveo-metrics-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Model Associations API
+  slug: open-coveo-model-associations-api
+- collection_type: open
+  name: Coveo Activity Activities Model Detailed Info API
+  slug: open-coveo-model-detailed-info-api
+- collection_type: open
+  name: Coveo Activity Activities Model Listing API
+  slug: open-coveo-model-listing-api
+- collection_type: open
+  name: Coveo Activity Activities Organization Access API
+  slug: open-coveo-organization-access-api
+- collection_type: open
+  name: Coveo Activity Activities Organization Api Keys Templates API
+  slug: open-coveo-organization-api-keys-templates-api
+- collection_type: open
+  name: Coveo Activity Activities Organization Endpoints Monitoring API
+  slug: open-coveo-organization-endpoints-monitoring-api
+- collection_type: open
+  name: Coveo Activity Activities Organization Global Configuration API
+  slug: open-coveo-organization-global-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Organization Invites API
+  slug: open-coveo-organization-invites-api
+- collection_type: open
+  name: Coveo Activity Activities Organization Members API
+  slug: open-coveo-organization-members-api
+- collection_type: open
+  name: Coveo Activity Activities Organization Privileges API
+  slug: open-coveo-organization-privileges-api
+- collection_type: open
+  name: Coveo Activity Activities Organization Realms API
+  slug: open-coveo-organization-realms-api
+- collection_type: open
+  name: Coveo Activity Activities Organizations API
+  slug: open-coveo-organizations-api
+- collection_type: open
+  name: Coveo Activity Activities Passages Alpha API
+  slug: open-coveo-passages-alpha-api
+- collection_type: open
+  name: Coveo Activity Activities Passages V3 API
+  slug: open-coveo-passages-v3-api
+- collection_type: open
+  name: Coveo Activity Activities Pipelines API
+  slug: open-coveo-pipelines-api
+- collection_type: open
+  name: Coveo Activity Activities Platform Tokens API
+  slug: open-coveo-platform-tokens-api
+- collection_type: open
+  name: Coveo Activity Activities Predictive Query Suggest Configuration API
+  slug: open-coveo-predictive-query-suggest-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Privilege Evaluator API
+  slug: open-coveo-privilege-evaluator-api
+- collection_type: open
+  name: Coveo Activity Activities Product Suggest Configurations API
+  slug: open-coveo-product-suggest-configurations-api
+- collection_type: open
+  name: Coveo Activity Activities Projects API
+  slug: open-coveo-projects-api
+- collection_type: open
+  name: Coveo Activity Activities Property API API
+  slug: open-coveo-property-api-api
+- collection_type: open
+  name: Coveo Activity Activities Public Listing Page API API
+  slug: open-coveo-public-listing-page-api-api
+- collection_type: open
+  name: Coveo Activity Activities Query Configurations API
+  slug: open-coveo-query-configurations-api
+- collection_type: open
+  name: Coveo Activity Activities Query Logs API
+  slug: open-coveo-query-logs-api
+- collection_type: open
+  name: Coveo Activity Activities Raw Metrics API
+  slug: open-coveo-raw-metrics-api
+- collection_type: open
+  name: Coveo Activity Activities Reader Account API - Version 15 API
+  slug: open-coveo-reader-account-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Recommendations API
+  slug: open-coveo-recommendations-api
+- collection_type: open
+  name: Coveo Activity Activities Recommendations Configuration API
+  slug: open-coveo-recommendations-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Region Configuration API
+  slug: open-coveo-region-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Relevance Generative Answering Configuration API
+  slug: open-coveo-relevance-generative-answering-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Reports API - Version 14 API
+  slug: open-coveo-reports-api-version-14-api
+- collection_type: open
+  name: Coveo Activity Activities Reports API - Version 15 API
+  slug: open-coveo-reports-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Resources API
+  slug: open-coveo-resources-api
+- collection_type: open
+  name: Coveo Activity Activities Rest API
+  slug: open-coveo-rest-api
+- collection_type: open
+  name: Coveo Activity Activities Result rankings API
+  slug: open-coveo-result-rankings-api
+- collection_type: open
+  name: Coveo Activity Activities Salesforce Organizations API
+  slug: open-coveo-salesforce-organizations-api
+- collection_type: open
+  name: Coveo Activity Activities Salesforce Source Configuration API
+  slug: open-coveo-salesforce-source-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Salesforce Sources API
+  slug: open-coveo-salesforce-sources-api
+- collection_type: open
+  name: Coveo Activity Activities Salesforce Trial API
+  slug: open-coveo-salesforce-trial-api
+- collection_type: open
+  name: Coveo Activity Activities Saml Identity Providers API
+  slug: open-coveo-saml-identity-providers-api
+- collection_type: open
+  name: Coveo Activity Activities Search API
+  slug: open-coveo-search-api
+- collection_type: open
+  name: Coveo Activity Activities Search Configurations API
+  slug: open-coveo-search-configurations-api
+- collection_type: open
+  name: Coveo Activity Activities Search Hub Entitlement Sync API
+  slug: open-coveo-search-hub-entitlement-sync-api
+- collection_type: open
+  name: Coveo Activity Activities Search Hubs API
+  slug: open-coveo-search-hubs-api
+- collection_type: open
+  name: Coveo Activity Activities Search Interface API
+  slug: open-coveo-search-interface-api
+- collection_type: open
+  name: Coveo Activity Activities Search Page Configuration API
+  slug: open-coveo-search-page-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Search Pages API
+  slug: open-coveo-search-pages-api
+- collection_type: open
+  name: Coveo Activity Activities Search V2 API
+  slug: open-coveo-search-v2-api
+- collection_type: open
+  name: Coveo Activity Activities Search V3 API
+  slug: open-coveo-search-v3-api
+- collection_type: open
+  name: Coveo Activity Activities Secure Data Sharing API - Version 15 API
+  slug: open-coveo-secure-data-sharing-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Security Cache API
+  slug: open-coveo-security-cache-api
+- collection_type: open
+  name: Coveo Activity Activities Security Identity API
+  slug: open-coveo-security-identity-api
+- collection_type: open
+  name: Coveo Activity Activities Security Providers API
+  slug: open-coveo-security-providers-api
+- collection_type: open
+  name: Coveo Activity Activities Security Providers Schedules API
+  slug: open-coveo-security-providers-schedules-api
+- collection_type: open
+  name: Coveo Activity Activities Semantic Encoder Configuration API
+  slug: open-coveo-semantic-encoder-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Setup API
+  slug: open-coveo-setup-api
+- collection_type: open
+  name: Coveo Activity Activities Smart Snippets Configuration API
+  slug: open-coveo-smart-snippets-configuration-api
+- collection_type: open
+  name: Coveo Activity Activities Snapshot Access API
+  slug: open-coveo-snapshot-access-api
+- collection_type: open
+  name: Coveo Activity Activities Snapshot API
+  slug: open-coveo-snapshot-api
+- collection_type: open
+  name: Coveo Activity Activities Snapshot Synchronization API
+  slug: open-coveo-snapshot-synchronization-api
+- collection_type: open
+  name: Coveo Activity Activities Source Extension Configurations API
+  slug: open-coveo-source-extension-configurations-api
+- collection_type: open
+  name: Coveo Activity Activities Source Item Types API
+  slug: open-coveo-source-item-types-api
+- collection_type: open
+  name: Coveo Activity Activities Source Status API
+  slug: open-coveo-source-status-api
+- collection_type: open
+  name: Coveo Activity Activities Sources API
+  slug: open-coveo-sources-api
+- collection_type: open
+  name: Coveo Activity Activities Statement groups API
+  slug: open-coveo-statement-groups-api
+- collection_type: open
+  name: Coveo Activity Activities Statements V1 API
+  slug: open-coveo-statements-v1-api
+- collection_type: open
+  name: Coveo Activity Activities Statements V2 API
+  slug: open-coveo-statements-v2-api
+- collection_type: open
+  name: Coveo Activity Activities Statistics API - Version 14 API
+  slug: open-coveo-statistics-api-version-14-api
+- collection_type: open
+  name: Coveo Activity Activities Statistics API - Version 15 API
+  slug: open-coveo-statistics-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Stream API
+  slug: open-coveo-stream-api
+- collection_type: open
+  name: Coveo Activity Activities Streaming Model Response API
+  slug: open-coveo-streaming-model-response-api
+- collection_type: open
+  name: Coveo Activity Activities Subscription API
+  slug: open-coveo-subscription-api
+- collection_type: open
+  name: Coveo Activity Activities Synonym API
+  slug: open-coveo-synonym-api
+- collection_type: open
+  name: Coveo Activity Activities Temporary Access API
+  slug: open-coveo-temporary-access-api
+- collection_type: open
+  name: Coveo Activity Activities Token Certificates API
+  slug: open-coveo-token-certificates-api
+- collection_type: open
+  name: Coveo Activity Activities Usage Analytics Event Validation API API
+  slug: open-coveo-usage-analytics-event-validation-api-api
+- collection_type: open
+  name: Coveo Activity Activities User Statistics API - Version 15 API
+  slug: open-coveo-user-statistics-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Users API - Version 14 API
+  slug: open-coveo-users-api-version-14-api
+- collection_type: open
+  name: Coveo Activity Activities Users API - Version 15 API
+  slug: open-coveo-users-api-version-15-api
+- collection_type: open
+  name: Coveo Activity Activities Users API
+  slug: open-coveo-users-api
+- collection_type: open
+  name: Coveo Activity Activities Vault API
+  slug: open-coveo-vault-api
+- collection_type: open
+  name: Coveo Activity Activities View Definitions API
+  slug: open-coveo-view-definitions-api
+- collection_type: open
+  name: Coveo Activity Activities Zendesk API
+  slug: open-coveo-zendesk-api
 common:
 - group: build
   title: ''
@@ -1259,7 +1712,7 @@ plans:
 - name: Coveo Plans Pricing
   plan_count: 3
   slug: coveo-plans-pricing
-random_paper: 60
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Coveo Rate Limits
@@ -1306,7 +1759,7 @@ score:
       marker_coverage: 0.0
       total: 152
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/screenshots/coveo-2026-06-20T175131.png
 security:

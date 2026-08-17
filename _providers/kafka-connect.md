@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -47,8 +47,20 @@ apis:
 - description: The Kafka Connect REST API API from Kafka Connect — 1 operation(s) for kafka connect rest api.
   name: Kafka Connect Kafka Connect REST API API
   slug: kafka-connect-kafka-connect-rest-api-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kafka Connect REST Connector Plugins API
+  slug: open-kafka-connect-connector-plugins-api
+- collection_type: open
+  name: Kafka Connect REST Connector Plugins Connectors API
+  slug: open-kafka-connect-connectors-api
+- collection_type: open
+  name: Kafka Connect REST Connector Plugins Kafka Connect REST API API
+  slug: open-kafka-connect-kafka-connect-rest-api-api
 - collection_type: open
   name: Kafka Connect REST API
   slug: open-kafka-connect
@@ -109,7 +121,7 @@ plans:
 - name: Kafka Connect Plans Pricing
   plan_count: 3
   slug: kafka-connect-plans-pricing
-random_paper: 101
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Kafka Connect Rate Limits
@@ -134,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/screenshots/kafka-connect-2026-06-20T183852.png
 security:

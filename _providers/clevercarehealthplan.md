@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Public (rate limited) provider directory resources
   name: Clever Care Health Plan Provider Directory API
   slug: clevercarehealthplan-provider-directory-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clever Care Health Plan FHIR R4 Drug Formulary API
+  slug: open-clevercarehealthplan-drug-formulary-api
+- collection_type: open
+  name: Clever Care Health Plan FHIR R4 Drug Formulary Patient Access API
+  slug: open-clevercarehealthplan-patient-access-api
+- collection_type: open
+  name: Clever Care Health Plan FHIR R4 Drug Formulary Provider Directory API
+  slug: open-clevercarehealthplan-provider-directory-api
 common:
 - group: other
   title: ''
@@ -157,7 +170,7 @@ overview: 'Clever Care Health Plan publishes 3 APIs on the [APIs.io](https://api
 
 
   Clever Care Health Plan''s developer surface includes getting-started guide, documentation, API reference, signup flow, authentication, and 18 more developer resources.'
-random_paper: 69
+random_paper: 23
 scopes:
 - name: Clevercarehealthplan Scopes
   scope_count: 4
@@ -192,7 +205,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/screenshots/clevercarehealthplan-2026-07-25T205602.png
 security:

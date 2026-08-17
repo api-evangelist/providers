@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -127,7 +127,7 @@ arazzos:
 - description: Stop a channel, poll until it is fully stopped, then delete it.
   name: Dolby OptiView Tear Down a Channel
   slug: dolby-io-teardown-channel-workflow
-artifact_total: 71
+artifact_total: 86
 collections:
 - collection_type: postman
   name: Dolby OptiView Real-time Streaming API
@@ -136,11 +136,56 @@ collections:
   name: Dolby OptiView THEOlive API
   slug: postman-dolby-io-theolive-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders API
+  slug: open-dolby-io-abr-ladders-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Analytics API
+  slug: open-dolby-io-analytics-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Channels API
+  slug: open-dolby-io-channels-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Cluster API
+  slug: open-dolby-io-cluster-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Custom Endpoint Providers API
+  slug: open-dolby-io-custom-endpoint-providers-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Custom Endpoints API
+  slug: open-dolby-io-custom-endpoints-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Distributions API
+  slug: open-dolby-io-distributions-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Engines API
+  slug: open-dolby-io-engines-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Ingests API
+  slug: open-dolby-io-ingests-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders PublishToken API
+  slug: open-dolby-io-publishtoken-api
+- collection_type: open
   name: Dolby OptiView Real-time Streaming API
   slug: open-dolby-io-realtime-streaming-api
 - collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Regions API
+  slug: open-dolby-io-regions-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders SubscribeToken API
+  slug: open-dolby-io-subscribetoken-api
+- collection_type: open
   name: Dolby OptiView THEOlive API
   slug: open-dolby-io-theolive-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Webhook API
+  slug: open-dolby-io-webhook-api
+- collection_type: open
+  name: Dolby OptiView Real-time Streaming ABR Ladders Webhooks API
+  slug: open-dolby-io-webhooks-api
 common:
 - group: other
   title: ''
@@ -451,7 +496,7 @@ plans:
 - name: Dolby Io Plans Pricing
   plan_count: 4
   slug: dolby-io-plans-pricing
-random_paper: 79
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Dolby Io Rate Limits
@@ -495,7 +540,7 @@ score:
       total: 14
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png
 security:

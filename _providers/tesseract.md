@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The clients API from Tesseract — 3 operation(s) for clients.
@@ -46,7 +46,26 @@ apis:
 - description: The vaults API from Tesseract — 4 operation(s) for vaults.
   name: Tesseract vaults API
   slug: tesseract-vaults-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tesseract Public clients API
+  slug: open-tesseract-clients-api
+- collection_type: open
+  name: Tesseract Public clients health API
+  slug: open-tesseract-health-api
+- collection_type: open
+  name: Tesseract Public clients insights API
+  slug: open-tesseract-insights-api
+- collection_type: open
+  name: Tesseract Public clients strategies API
+  slug: open-tesseract-strategies-api
+- collection_type: open
+  name: Tesseract Public clients vaults API
+  slug: open-tesseract-vaults-api
 common:
 - group: auth
   title: ''
@@ -168,7 +187,7 @@ overview: 'Tesseract publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tesseract''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 19 more developer resources.'
-random_paper: 14
+random_paper: 80
 score:
   band: developing
   composite: 44.6
@@ -191,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

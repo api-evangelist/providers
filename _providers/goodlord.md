@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -38,11 +38,21 @@ apis:
 - description: A second real Goodlord API surface, discovered outside the developer portal. The Goodlord Insurance App is an API Platform (Symfony) service whose OpenAPI 3.1.0 document is served publicly and unauthe
   name: Goodlord Insurance App API
   slug: goodlord-insurance-app-api
-artifact_total: 10
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Goodlord Referencing Webhooks
   slug: goodlord-referencing-webhooks
+collections:
+- collection_type: open
+  name: Insurance App
+  slug: open-goodlord-insurance-app-api
+- collection_type: open
+  name: Referencing API
+  slug: open-goodlord-referencing-api-sandbox
+- collection_type: open
+  name: Referencing API
+  slug: open-goodlord-referencing-api
 common:
 - group: design
   title: ''
@@ -208,7 +218,7 @@ overview: 'Goodlord publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 29 more developer resources.'
-random_paper: 18
+random_paper: 113
 scopes:
 - name: Goodlord Scopes
   scope_count: 2
@@ -243,7 +253,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/screenshots/goodlord-2026-08-07T165804.png
 security:

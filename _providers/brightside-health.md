@@ -13,14 +13,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -86,18 +86,34 @@ common:
   title: ''
   type: Conformance
   url: conformance/brightside-health-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/brightside-health-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/brightside-health-lifecycle.yml
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.brightside.com/careers/
 coverage:
-  checked: '2026-08-08'
-  detail: 'Brightside Health markets a real programmatic surface to health systems — "Integration with your EHR for seamless discharge planning", "ADT notifications" and a Patient Referral Portal — but the only route to it is a "Contact our Partnership Team / Get in touch" form: there is no developer site (/developers/, /api/ and /status/ all 404), no reference, and no specification, while api.brightside.com is the private patient-app backend that answers every anonymous request with a Cloudflare bot challenge.'
+  checked: '2026-08-15'
+  detail: Brightside Health markets a real programmatic surface to health systems — "Integration with your EHR for seamless discharge planning", "ADT notifications" and a Patient Referral Portal — but the only route to it is a "Contact our Partnership Team / Get in touch" form; the 2026-08-15 sweep confirmed api.brightside.com IS a live versioned Rails REST API whose /v1/ and /api/v1/ paths reach the origin (JSON envelope {"errors":["Record not found"]}) while every other path is held behind a Cloudflare bot challenge, and no route index, schema, docs or specification endpoint exists on it — the only public machine-readable surface on any Brightside host is the marketing site's WordPress REST index at /wp-json/, which is CMS boilerplate, not a product API.
   evidence:
   - status: 200
     url: https://www.brightside.com/partners/health-systems/
   - status: 404
-    url: https://www.brightside.com/developers/
-  - status: 404
-    url: https://www.brightside.com/openapi.json
+    url: https://api.brightside.com/v1/openapi.json
   - status: 403
     url: https://api.brightside.com/openapi.json
+  - status: 200
+    url: https://www.brightside.com/wp-json/
+  - status: 404
+    url: https://www.brightside.com/developers/
+  - status: 0
+    url: https://developer.brightside.com/
   - status: 200
     url: https://www.brightside.com/llms.txt
   reason: sales-gate
@@ -107,15 +123,23 @@ description: Brightside Health is a U.S. national telehealth provider of evidenc
   portal, but publishes no public developer program, API reference or machine-readable specification — partner integration is arranged through its partnerships team.
 image: https://www.brightside.com/wp-content/uploads/2023/05/social-share-banner.png
 layout: provider
-modified: '2026-08-08'
+modified: '2026-08-15'
 name: Brightside Health
 nav: Providers
 network: true
 overview: 'Brightside Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include telehealth, mental-health, behavioral-health, psychiatry, and therapy.
 
 
-  Brightside Health''s developer surface includes support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 56
+  Brightside Health''s developer surface includes support, engineering blog, pricing, signup flow, and 15 more developer resources.'
+plans:
+- name: Brightside Health Plans Pricing
+  plan_count: 0
+  slug: brightside-health-plans-pricing
+random_paper: 97
+rate_limits:
+- limit_count: 0
+  name: Brightside Health Rate Limits
+  slug: brightside-health-rate-limits
 score:
   band: emerging
   composite: 21.3
@@ -137,7 +161,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

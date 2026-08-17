@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -139,7 +139,7 @@ arazzos:
 - description: Inspect zone connectivity, active calls, and recent call history together.
   name: Cisco Expressway Zone Health Investigation
   slug: cisco-expressway-zone-health-investigation-workflow
-artifact_total: 54
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Cisco Expressway Configuration API
@@ -148,11 +148,62 @@ collections:
   name: Cisco Expressway Status API
   slug: postman-cisco-expressway-status-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account API
+  slug: open-cisco-expressway-admin-account-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account Alarms API
+  slug: open-cisco-expressway-alarms-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account Calls API
+  slug: open-cisco-expressway-calls-api
+- collection_type: open
   name: Cisco Expressway Configuration API
   slug: open-cisco-expressway-configuration-api
 - collection_type: open
+  name: Cisco Expressway Configuration Admin Account DNS API
+  slug: open-cisco-expressway-dns-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account Licensing API
+  slug: open-cisco-expressway-licensing-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account NTP API
+  slug: open-cisco-expressway-ntp-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account Registrations API
+  slug: open-cisco-expressway-registrations-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account Resource Usage API
+  slug: open-cisco-expressway-resource-usage-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account Search Rules API
+  slug: open-cisco-expressway-search-rules-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account SFTP API
+  slug: open-cisco-expressway-sftp-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account SIP API
+  slug: open-cisco-expressway-sip-api
+- collection_type: open
   name: Cisco Expressway Status API
   slug: open-cisco-expressway-status-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account System API
+  slug: open-cisco-expressway-system-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account System Status API
+  slug: open-cisco-expressway-system-status-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account Transforms API
+  slug: open-cisco-expressway-transforms-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account Upgrade API
+  slug: open-cisco-expressway-upgrade-api
+- collection_type: open
+  name: Cisco Expressway Configuration Admin Account Zones API
+  slug: open-cisco-expressway-zones-api
 common:
 - group: agent
   title: ''
@@ -356,7 +407,7 @@ plans:
 - name: Cisco Expressway Plans Pricing
   plan_count: 1
   slug: cisco-expressway-plans-pricing
-random_paper: 9
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Cisco Expressway Rate Limits
@@ -398,7 +449,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/screenshots/cisco-expressway-2026-06-20T174356.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Tracks API from SoundStat — 1 operation(s) for tracks.
   name: SoundStat Tracks API
   slug: soundstat-tracks-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SoundStat Genres API
+  slug: open-soundstat-genres-api
+- collection_type: open
+  name: SoundStat Genres Recommendations API
+  slug: open-soundstat-recommendations-api
+- collection_type: open
+  name: SoundStat Genres Stats API
+  slug: open-soundstat-stats-api
+- collection_type: open
+  name: SoundStat Genres Track API
+  slug: open-soundstat-track-api
+- collection_type: open
+  name: SoundStat Genres Tracks API
+  slug: open-soundstat-tracks-api
 - collection_type: open
   name: SoundStat API
   slug: open-soundstat
@@ -120,7 +138,7 @@ plans:
 - name: Soundstat Plans Pricing
   plan_count: 5
   slug: soundstat-plans-pricing
-random_paper: 37
+random_paper: 103
 rate_limits:
 - limit_count: 3
   name: Soundstat Rate Limits
@@ -145,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

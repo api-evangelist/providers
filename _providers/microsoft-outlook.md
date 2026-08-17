@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ arazzos:
 - description: List the newest messages, read the top one in full, and reply to its sender.
   name: Microsoft Outlook Triage and Reply
   slug: microsoft-outlook-triage-and-reply-workflow
-artifact_total: 100
+artifact_total: 104
 asyncapis:
 - description: 'AsyncAPI specification for Microsoft Graph change notifications (webhooks) for Outlook mail resources. Enables real-time event-driven architecture by subscribing to changes in messages, mail folders, '
   name: Microsoft Outlook Change Notifications
@@ -99,8 +99,20 @@ collections:
   name: Microsoft Outlook Microsoft Graph Mail API
   slug: postman-microsoft-graph-mail-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Microsoft Outlook Microsoft Graph Mail API
   slug: open-microsoft-graph-mail-api
+- collection_type: open
+  name: Microsoft Outlook Microsoft Graph Mail Attachments API
+  slug: open-microsoft-outlook-attachments-api
+- collection_type: open
+  name: Microsoft Outlook Microsoft Graph Mail Attachments Mail Folders API
+  slug: open-microsoft-outlook-mail-folders-api
+- collection_type: open
+  name: Microsoft Outlook Microsoft Graph Mail Attachments Messages API
+  slug: open-microsoft-outlook-messages-api
 common:
 - group: agent
   title: ''
@@ -493,7 +505,7 @@ plans:
 - name: Microsoft Outlook Plans Pricing
   plan_count: 5
   slug: microsoft-outlook-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 7
   name: Microsoft Outlook Rate Limits
@@ -550,7 +562,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/screenshots/microsoft-outlook-2026-06-20T185517.png
 security:

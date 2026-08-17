@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -54,15 +54,24 @@ apis:
 - description: Control the Trunk Merge Queue.
   name: Trunk Merge Queue API
   slug: trunk-merge-queue-api
-artifact_total: 15
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Trunk Webhooks
   slug: trunk-webhooks
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trunk Flaky Tests API
+  slug: open-trunk-flaky-tests-api
+- collection_type: open
   name: Trunk API
   slug: open-trunk-io
+- collection_type: open
+  name: Trunk Flaky Tests Merge Queue API
+  slug: open-trunk-merge-queue-api
 common:
 - group: company
   title: ''
@@ -187,7 +196,7 @@ plans:
 - name: Trunk Plans Pricing
   plan_count: 3
   slug: trunk-plans-pricing
-random_paper: 84
+random_paper: 117
 rate_limits:
 - limit_count: 3
   name: Trunk Rate Limits
@@ -215,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/screenshots/trunk-2026-06-20T195810.png
 security:

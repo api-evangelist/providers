@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,8 +59,14 @@ apis:
 - description: Endpoints for automated valuation model (AVM) data and estimates.
   name: Redfin Valuation API
   slug: redfin-valuation-api
-artifact_total: 26
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Redfin Data Center CSV Export API
+  slug: open-redfin-csv-export-api
 - collection_type: open
   name: Redfin Data Center
   slug: open-redfin-data-center
@@ -68,8 +74,26 @@ collections:
   name: Redfin GIS CSV Export API
   slug: open-redfin-gis-csv-api
 - collection_type: open
+  name: Redfin Data Center CSV Export Market Tracker API
+  slug: open-redfin-market-tracker-api
+- collection_type: open
+  name: Redfin Data Center CSV Export Market Trends API
+  slug: open-redfin-market-trends-api
+- collection_type: open
+  name: Redfin Data Center CSV Export Neighborhood API
+  slug: open-redfin-neighborhood-api
+- collection_type: open
+  name: Redfin Data Center CSV Export Property Details API
+  slug: open-redfin-property-details-api
+- collection_type: open
+  name: Redfin Data Center CSV Export Search API
+  slug: open-redfin-search-api
+- collection_type: open
   name: Redfin Stingray API
   slug: open-redfin-stingray-api
+- collection_type: open
+  name: Redfin Data Center CSV Export Valuation API
+  slug: open-redfin-valuation-api
 common:
 - group: agent
   title: ''
@@ -183,7 +207,7 @@ plans:
 - name: Redfin Plans Pricing
   plan_count: 1
   slug: redfin-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Redfin Rate Limits
@@ -225,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -64,7 +64,47 @@ apis:
 - description: The Users API from Skydance Media — 3 operation(s) for users.
   name: Skydance Media Users API
   slug: skydance-media-users-api
-artifact_total: 15
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Categories API
+  slug: open-skydance-media-categories-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Comments API
+  slug: open-skydance-media-comments-api
+- collection_type: open
+  name: Skydance Content API (WordPress REST wp/v2) Media API
+  slug: open-skydance-media-media-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Pages API
+  slug: open-skydance-media-pages-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Posts API
+  slug: open-skydance-media-posts-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Search API
+  slug: open-skydance-media-search-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Settings API
+  slug: open-skydance-media-settings-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Statuses API
+  slug: open-skydance-media-statuses-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Tags API
+  slug: open-skydance-media-tags-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Taxonomies API
+  slug: open-skydance-media-taxonomies-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Types API
+  slug: open-skydance-media-types-api
+- collection_type: open
+  name: Skydance Media Content API (WordPress REST wp/v2) Users API
+  slug: open-skydance-media-users-api
 common:
 - group: other
   title: ''
@@ -203,7 +243,7 @@ overview: 'Skydance Media publishes 12 APIs on the [APIs.io](https://apis.io/) n
 
 
   Skydance Media''s developer surface includes authentication, engineering blog, FAQ, YouTube channel, and 27 more developer resources.'
-random_paper: 87
+random_paper: 66
 score:
   band: emerging
   composite: 20.3
@@ -226,7 +266,7 @@ score:
       total: 12
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

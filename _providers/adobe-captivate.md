@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Find a learner's enrollment in a course, confirm it, and remove it if present.
   name: Adobe Learning Manager Unenroll a Learner from a Course
   slug: adobe-captivate-unenroll-learner-workflow
-artifact_total: 228
+artifact_total: 241
 asyncapis:
 - description: The Adobe Learning Manager Webhooks API enables real-time event notifications for learning management activities. When configured, Adobe Learning Manager sends HTTP POST requests to registered webhook
   name: Adobe Learning Manager Webhooks API
@@ -116,8 +116,47 @@ collections:
   name: Adobe Captivate Prime API (Learning Manager)
   slug: postman-adobe-captivate-prime-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account API
+  slug: open-adobe-captivate-account-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Badges API
+  slug: open-adobe-captivate-badges-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Catalogs API
+  slug: open-adobe-captivate-catalogs-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Certifications API
+  slug: open-adobe-captivate-certifications-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Enrollments API
+  slug: open-adobe-captivate-enrollments-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Gamification API
+  slug: open-adobe-captivate-gamification-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Jobs API
+  slug: open-adobe-captivate-jobs-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Learning Objects API
+  slug: open-adobe-captivate-learning-objects-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Notifications API
+  slug: open-adobe-captivate-notifications-api
+- collection_type: open
   name: Adobe Captivate Prime API (Learning Manager)
   slug: open-adobe-captivate-prime-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Skills API
+  slug: open-adobe-captivate-skills-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account User Groups API
+  slug: open-adobe-captivate-user-groups-api
+- collection_type: open
+  name: Adobe Captivate Prime API (Learning Manager) Account Users API
+  slug: open-adobe-captivate-users-api
 common:
 - group: agent
   title: ''
@@ -828,7 +867,7 @@ plans:
 - name: Adobe Captivate Plans Pricing
   plan_count: 2
   slug: adobe-captivate-plans-pricing
-random_paper: 73
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Adobe Captivate Rate Limits
@@ -883,7 +922,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/screenshots/adobe-captivate-2026-06-20T164834.png
 security:

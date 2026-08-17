@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -251,8 +251,224 @@ apis:
 - description: The UpdateWebAppCustomization API from Amazon Transfer Family — 1 operation(s) for updatewebappcustomization.
   name: Amazon Transfer Family UpdateWebAppCustomization API
   slug: amazon-transfer-family-updatewebappcustomization-api
-artifact_total: 85
+artifact_total: 157
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess API
+  slug: open-amazon-transfer-family-createaccess-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess CreateAgreement API
+  slug: open-amazon-transfer-family-createagreement-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess CreateConnector API
+  slug: open-amazon-transfer-family-createconnector-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess CreateProfile API
+  slug: open-amazon-transfer-family-createprofile-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess CreateServer API
+  slug: open-amazon-transfer-family-createserver-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess CreateUser API
+  slug: open-amazon-transfer-family-createuser-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess CreateWebApp API
+  slug: open-amazon-transfer-family-createwebapp-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess CreateWorkflow API
+  slug: open-amazon-transfer-family-createworkflow-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteAccess API
+  slug: open-amazon-transfer-family-deleteaccess-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteAgreement API
+  slug: open-amazon-transfer-family-deleteagreement-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteCertificate API
+  slug: open-amazon-transfer-family-deletecertificate-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteConnector API
+  slug: open-amazon-transfer-family-deleteconnector-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteHostKey API
+  slug: open-amazon-transfer-family-deletehostkey-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteProfile API
+  slug: open-amazon-transfer-family-deleteprofile-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteServer API
+  slug: open-amazon-transfer-family-deleteserver-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteSshPublicKey API
+  slug: open-amazon-transfer-family-deletesshpublickey-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteUser API
+  slug: open-amazon-transfer-family-deleteuser-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteWebApp API
+  slug: open-amazon-transfer-family-deletewebapp-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteWebAppCustomization API
+  slug: open-amazon-transfer-family-deletewebappcustomization-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DeleteWorkflow API
+  slug: open-amazon-transfer-family-deleteworkflow-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeAccess API
+  slug: open-amazon-transfer-family-describeaccess-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeAgreement API
+  slug: open-amazon-transfer-family-describeagreement-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeCertificate API
+  slug: open-amazon-transfer-family-describecertificate-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeConnector API
+  slug: open-amazon-transfer-family-describeconnector-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeExecution API
+  slug: open-amazon-transfer-family-describeexecution-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeHostKey API
+  slug: open-amazon-transfer-family-describehostkey-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeProfile API
+  slug: open-amazon-transfer-family-describeprofile-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeSecurityPolicy API
+  slug: open-amazon-transfer-family-describesecuritypolicy-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeServer API
+  slug: open-amazon-transfer-family-describeserver-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeUser API
+  slug: open-amazon-transfer-family-describeuser-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeWebApp API
+  slug: open-amazon-transfer-family-describewebapp-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeWebAppCustomization API
+  slug: open-amazon-transfer-family-describewebappcustomization-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess DescribeWorkflow API
+  slug: open-amazon-transfer-family-describeworkflow-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ImportCertificate API
+  slug: open-amazon-transfer-family-importcertificate-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ImportHostKey API
+  slug: open-amazon-transfer-family-importhostkey-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ImportSshPublicKey API
+  slug: open-amazon-transfer-family-importsshpublickey-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListAccesses API
+  slug: open-amazon-transfer-family-listaccesses-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListAgreements API
+  slug: open-amazon-transfer-family-listagreements-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListCertificates API
+  slug: open-amazon-transfer-family-listcertificates-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListConnectors API
+  slug: open-amazon-transfer-family-listconnectors-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListExecutions API
+  slug: open-amazon-transfer-family-listexecutions-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListFileTransferResults API
+  slug: open-amazon-transfer-family-listfiletransferresults-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListHostKeys API
+  slug: open-amazon-transfer-family-listhostkeys-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListProfiles API
+  slug: open-amazon-transfer-family-listprofiles-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListSecurityPolicies API
+  slug: open-amazon-transfer-family-listsecuritypolicies-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListServers API
+  slug: open-amazon-transfer-family-listservers-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListTagsForResource API
+  slug: open-amazon-transfer-family-listtagsforresource-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListUsers API
+  slug: open-amazon-transfer-family-listusers-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListWebApps API
+  slug: open-amazon-transfer-family-listwebapps-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess ListWorkflows API
+  slug: open-amazon-transfer-family-listworkflows-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess SendWorkflowStepState API
+  slug: open-amazon-transfer-family-sendworkflowstepstate-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess StartDirectoryListing API
+  slug: open-amazon-transfer-family-startdirectorylisting-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess StartFileTransfer API
+  slug: open-amazon-transfer-family-startfiletransfer-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess StartRemoteDelete API
+  slug: open-amazon-transfer-family-startremotedelete-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess StartRemoteMove API
+  slug: open-amazon-transfer-family-startremotemove-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess StartServer API
+  slug: open-amazon-transfer-family-startserver-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess StopServer API
+  slug: open-amazon-transfer-family-stopserver-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess TagResource API
+  slug: open-amazon-transfer-family-tagresource-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess TestConnection API
+  slug: open-amazon-transfer-family-testconnection-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess TestIdentityProvider API
+  slug: open-amazon-transfer-family-testidentityprovider-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UntagResource API
+  slug: open-amazon-transfer-family-untagresource-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateAccess API
+  slug: open-amazon-transfer-family-updateaccess-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateAgreement API
+  slug: open-amazon-transfer-family-updateagreement-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateCertificate API
+  slug: open-amazon-transfer-family-updatecertificate-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateConnector API
+  slug: open-amazon-transfer-family-updateconnector-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateHostKey API
+  slug: open-amazon-transfer-family-updatehostkey-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateProfile API
+  slug: open-amazon-transfer-family-updateprofile-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateServer API
+  slug: open-amazon-transfer-family-updateserver-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateUser API
+  slug: open-amazon-transfer-family-updateuser-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateWebApp API
+  slug: open-amazon-transfer-family-updatewebapp-api
+- collection_type: open
+  name: Amazon Transfer Family CreateAccess UpdateWebAppCustomization API
+  slug: open-amazon-transfer-family-updatewebappcustomization-api
 - collection_type: open
   name: Amazon Transfer Family
   slug: open-amazon-transfer-family
@@ -362,7 +578,7 @@ plans:
 - name: Amazon Transfer Family Plans Pricing
   plan_count: 3
   slug: amazon-transfer-family-plans-pricing
-random_paper: 87
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Transfer Family Rate Limits
@@ -396,7 +612,7 @@ score:
       marker_coverage: 0.0
       total: 71
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/screenshots/amazon-transfer-family-2026-06-20T171837.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The EPAM Systems API provides access to platform services and data for enterprise integration and automation.
@@ -69,7 +69,7 @@ plans:
 - name: Epam Systems Plans Pricing
   plan_count: 1
   slug: epam-systems-plans-pricing
-random_paper: 56
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Epam Systems Rate Limits
@@ -87,7 +87,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 9.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -100,7 +100,71 @@ apis:
 - description: Request a withdrawal from a HiPay account
   name: HiPay withdrawal API
   slug: hipay-withdrawal-api
-artifact_total: 26
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hipay Payment Gateway balance API
+  slug: open-hipay-balance-api
+- collection_type: open
+  name: Hipay Payment Gateway balance bank-info API
+  slug: open-hipay-bank-info-api
+- collection_type: open
+  name: Hipay Payment Gateway balance captcha-generation API
+  slug: open-hipay-captcha-generation-api
+- collection_type: open
+  name: Hipay Payment Gateway balance Connector API
+  slug: open-hipay-connector-api
+- collection_type: open
+  name: Hipay Payment Gateway balance constants API
+  slug: open-hipay-constants-api
+- collection_type: open
+  name: Hipay Payment Gateway balance identification API
+  slug: open-hipay-identification-api
+- collection_type: open
+  name: Hipay Payment Gateway balance invoice API
+  slug: open-hipay-invoice-api
+- collection_type: open
+  name: Hipay Payment Gateway balance maintenance API
+  slug: open-hipay-maintenance-api
+- collection_type: open
+  name: Hipay Payment Gateway balance merchant-group API
+  slug: open-hipay-merchant-group-api
+- collection_type: open
+  name: Hipay Payment Gateway balance Order API
+  slug: open-hipay-order-api
+- collection_type: open
+  name: Hipay Payment Gateway balance payments API
+  slug: open-hipay-payments-api
+- collection_type: open
+  name: Hipay Payment Gateway balance Routing API
+  slug: open-hipay-routing-api
+- collection_type: open
+  name: Hipay Payment Gateway balance Sessions API
+  slug: open-hipay-sessions-api
+- collection_type: open
+  name: Hipay Payment Gateway balance settlement API
+  slug: open-hipay-settlement-api
+- collection_type: open
+  name: Hipay Payment Gateway balance tokenization API
+  slug: open-hipay-tokenization-api
+- collection_type: open
+  name: Hipay Payment Gateway balance Transaction API
+  slug: open-hipay-transaction-api
+- collection_type: open
+  name: Hipay Payment Gateway balance transfer API
+  slug: open-hipay-transfer-api
+- collection_type: open
+  name: Hipay Payment Gateway balance ubo API
+  slug: open-hipay-ubo-api
+- collection_type: open
+  name: Hipay Payment Gateway balance user-account API
+  slug: open-hipay-user-account-api
+- collection_type: open
+  name: Hipay Payment Gateway balance withdrawal API
+  slug: open-hipay-withdrawal-api
 common:
 - group: agent
   title: ''
@@ -178,7 +242,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 59
+random_paper: 92
 rate_limits:
 - limit_count: 4
   name: Rate Limits
@@ -209,7 +273,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/screenshots/hipay-2026-06-20T182747.png
 security:

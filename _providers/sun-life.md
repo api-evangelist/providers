@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: FHIR R4 (4.0.1) read-only Patient Access API from DentaQuest, the Sun Life U.S. dental company, published under the CMS Interoperability and Patient Access Final Rule (CMS-9115-F). Third-party applica
@@ -30,7 +30,17 @@ apis:
 - description: Anonymous FHIR R4 conformance endpoint for the DentaQuest (Sun Life U.S.) interoperability platform. A single GET /metadata operation returns the CapabilityStatement of the underlying Azure Healthcare
   name: DentaQuest FHIR Metadata API
   slug: sun-life-dentaquest-fhir-metadata
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: FHIR Metadata
+  slug: open-sun-life-dentaquest-fhir-metadata
+- collection_type: open
+  name: Fhir Patient Access
+  slug: open-sun-life-dentaquest-fhir-patient-access
+- collection_type: open
+  name: Fhir Provider Directory
+  slug: open-sun-life-dentaquest-fhir-provider-directory
 common:
 - group: auth
   title: ''
@@ -201,7 +211,7 @@ overview: 'Sun Life publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Sun Life''s developer surface includes product news, documentation, API reference, getting-started guide, signup flow, support, authentication, and 31 more developer resources.'
-random_paper: 83
+random_paper: 58
 scopes:
 - name: Sun Life Scopes
   scope_count: 5
@@ -235,7 +245,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

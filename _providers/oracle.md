@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -1217,14 +1217,986 @@ arazzos:
 - description: Read an instance, find an active console connection for it, and if none exists fall back to a diagnostic reboot.
   name: Oracle OCI Troubleshoot Instance via Console Connection
   slug: oracle-troubleshoot-instance-console-workflow
-artifact_total: 541
+artifact_total: 865
 collections:
 - collection_type: postman
   name: Oracle OCI Compute API
   slug: postman-oci-compute-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Collection
+  slug: open-harvest-manifest
+- collection_type: open
   name: Oracle OCI Compute API
   slug: open-oci-compute-api
+- collection_type: open
+  name: Access Governance Access Governance CP API
+  slug: open-oracle-accessgovernancecp-api
+- collection_type: open
+  name: Managed Access Access Request API
+  slug: open-oracle-accessrequest-api
+- collection_type: open
+  name: Operator Access Control Access Requests API
+  slug: open-oracle-accessrequests-api
+- collection_type: open
+  name: Marketplace Service Account API
+  slug: open-oracle-account-api
+- collection_type: open
+  name: Control Plane AI Data Platform API
+  slug: open-oracle-aidataplatform-api
+- collection_type: open
+  name: Document Understanding AI Service Document API
+  slug: open-oracle-aiservicedocument-api
+- collection_type: open
+  name: Language AI Service Language API
+  slug: open-oracle-aiservicelanguage-api
+- collection_type: open
+  name: Speech AI Service Speech API
+  slug: open-oracle-aiservicespeech-api
+- collection_type: open
+  name: Vision AI Service Vision API
+  slug: open-oracle-aiservicevision-api
+- collection_type: open
+  name: Analytics API
+  slug: open-oracle-analytics-api
+- collection_type: open
+  name: Announcements Service Announcement API
+  slug: open-oracle-announcement-api
+- collection_type: open
+  name: Announcements Service Announcements Preferences API
+  slug: open-oracle-announcementspreferences-api
+- collection_type: open
+  name: Announcements Service Announcement Subscription API
+  slug: open-oracle-announcementsubscription-api
+- collection_type: open
+  name: API Gateway API
+  slug: open-oracle-apigateway-api
+- collection_type: open
+  name: Oracle API Access Control API Metadata API
+  slug: open-oracle-apimetadata-api
+- collection_type: open
+  name: Application Performance Monitoring Control Plane Apm Domain API
+  slug: open-oracle-apmdomain-api
+- collection_type: open
+  name: APM Availability Monitoring Apm Synthetic API
+  slug: open-oracle-apmsynthetic-api
+- collection_type: open
+  name: Application Dependency Management API
+  slug: open-oracle-applicationdependencymanagement-api
+- collection_type: open
+  name: Resource Discovery and Monitoring Control Appmgmt Control API
+  slug: open-oracle-appmgmtcontrol-api
+- collection_type: open
+  name: Managed Access Approval Template API
+  slug: open-oracle-approvaltemplate-api
+- collection_type: open
+  name: Container Images Artifacts API
+  slug: open-oracle-artifacts-api
+- collection_type: open
+  name: Application Performance Monitoring Trace Explorer Attributes API
+  slug: open-oracle-attributes-api
+- collection_type: open
+  name: Audit API
+  slug: open-oracle-audit-api
+- collection_type: open
+  name: Auto Scaling API
+  slug: open-oracle-autoscaling-api
+- collection_type: open
+  name: Bastion API
+  slug: open-oracle-bastion-api
+- collection_type: open
+  name: Batch Batch Computing API
+  slug: open-oracle-batchcomputing-api
+- collection_type: open
+  name: Big Data Service Bds API
+  slug: open-oracle-bds-api
+- collection_type: open
+  name: Usage Proxy Billing Schedule API
+  slug: open-oracle-billingschedule-api
+- collection_type: open
+  name: Control Plane Blockchain Platform API
+  slug: open-oracle-blockchainplatform-api
+- collection_type: open
+  name: Core Services Blockstorage API
+  slug: open-oracle-blockstorage-api
+- collection_type: open
+  name: Budgets Budget API
+  slug: open-oracle-budget-api
+- collection_type: open
+  name: Oracle Cloud VMware Solution Byol API
+  slug: open-oracle-byol-api
+- collection_type: open
+  name: Oracle Cloud VMware Solution Byol Allocation API
+  slug: open-oracle-byolallocation-api
+- collection_type: open
+  name: Generative AI Service NL2SQL Cancel Enrichment Job API
+  slug: open-oracle-cancelenrichmentjob-api
+- collection_type: open
+  name: OCI Control Center Capacity Management API
+  slug: open-oracle-capacitymanagement-api
+- collection_type: open
+  name: Service Retrieval Certificates API
+  slug: open-oracle-certificates-api
+- collection_type: open
+  name: Certificates Service Management Certificates Management API
+  slug: open-oracle-certificatesmanagement-api
+- collection_type: open
+  name: MySQL Database Service Channels API
+  slug: open-oracle-channels-api
+- collection_type: open
+  name: Oracle Cloud My Services Cloud Account Resource API
+  slug: open-oracle-cloudaccountresource-api
+- collection_type: open
+  name: Oracle Cloud My Services Cloud Accounts Resource API
+  slug: open-oracle-cloudaccountsresource-api
+- collection_type: open
+  name: Security Zones Cloud Guard API
+  slug: open-oracle-cloudguard-api
+- collection_type: open
+  name: Oracle Cloud VMware Solution Cluster API
+  slug: open-oracle-cluster-api
+- collection_type: open
+  name: Cluster Placement Groups Cluster Placement Groups CP API
+  slug: open-oracle-clusterplacementgroupscp-api
+- collection_type: open
+  name: Usage Proxy Commitment API
+  slug: open-oracle-commitment-api
+- collection_type: open
+  name: Oracle Cloud Bridge Common API
+  slug: open-oracle-common-api
+- collection_type: open
+  name: Core Services Compute API
+  slug: open-oracle-compute-api
+- collection_type: open
+  name: Compute Cloud@Customer Compute Cloud At Customer API
+  slug: open-oracle-computecloudatcustomer-api
+- collection_type: open
+  name: Usage Proxy Computed Usage API
+  slug: open-oracle-computedusage-api
+- collection_type: open
+  name: Oracle Cloud Agent Compute Instance Agent API
+  slug: open-oracle-computeinstanceagent-api
+- collection_type: open
+  name: Core Services Compute Management API
+  slug: open-oracle-computemanagement-api
+- collection_type: open
+  name: Application Performance Monitoring Configuration Config API
+  slug: open-oracle-config-api
+- collection_type: open
+  name: Connector Hub Connector Plugins API
+  slug: open-oracle-connectorplugins-api
+- collection_type: open
+  name: Kubernetes Engine Container Engine API
+  slug: open-oracle-containerengine-api
+- collection_type: open
+  name: Container Instance API
+  slug: open-oracle-containerinstance-api
+- collection_type: open
+  name: Container Registry API
+  slug: open-oracle-containerregistry-api
+- collection_type: open
+  name: Oracle Cost Ad API
+  slug: open-oracle-costad-api
+- collection_type: open
+  name: Dashboards Dashboard API
+  slug: open-oracle-dashboard-api
+- collection_type: open
+  name: Dashboards Dashboard Group API
+  slug: open-oracle-dashboardgroup-api
+- collection_type: open
+  name: ManagementDashboard Dashx APIS API
+  slug: open-oracle-dashxapis-api
+- collection_type: open
+  name: Service Database API
+  slug: open-oracle-database-api
+- collection_type: open
+  name: Database Migration API
+  slug: open-oracle-databasemigration-api
+- collection_type: open
+  name: Oracle Database Autonomous Recovery Service Database Recovery API
+  slug: open-oracle-databaserecovery-api
+- collection_type: open
+  name: Database Tools API
+  slug: open-oracle-databasetools-api
+- collection_type: open
+  name: Database Tools Runtime API
+  slug: open-oracle-databasetoolsruntime-api
+- collection_type: open
+  name: Data Catalog API
+  slug: open-oracle-datacatalog-api
+- collection_type: open
+  name: Data Flow API
+  slug: open-oracle-dataflow-api
+- collection_type: open
+  name: Data Infrastructure Cloud@Customer Service Datainfracc API
+  slug: open-oracle-datainfracc-api
+- collection_type: open
+  name: Data Integration API
+  slug: open-oracle-dataintegration-api
+- collection_type: open
+  name: Data Labeling API
+  slug: open-oracle-datalabeling-api
+- collection_type: open
+  name: Data Labeling Management API
+  slug: open-oracle-datalabelingmanagement-api
+- collection_type: open
+  name: Fusion Applications Environment Management Data Masking Activity API
+  slug: open-oracle-datamaskingactivity-api
+- collection_type: open
+  name: Identity and Access Management Data Plane Dataplane API
+  slug: open-oracle-dataplane-api
+- collection_type: open
+  name: Data Safe API
+  slug: open-oracle-datasafe-api
+- collection_type: open
+  name: Data Science API
+  slug: open-oracle-datascience-api
+- collection_type: open
+  name: Oracle Cloud VMware Solution Datastore API
+  slug: open-oracle-datastore-api
+- collection_type: open
+  name: Oracle Cloud VMware Solution Datastore Cluster API
+  slug: open-oracle-datastorecluster-api
+- collection_type: open
+  name: MySQL Database Service Db Backups API
+  slug: open-oracle-dbbackups-api
+- collection_type: open
+  name: Database Management Db Management API
+  slug: open-oracle-dbmanagement-api
+- collection_type: open
+  name: Oracle Database MultiCloud Data Plane Integration Db Multicloud Aws Provider API
+  slug: open-oracle-dbmulticloudawsprovider-api
+- collection_type: open
+  name: Oracle Database MultiCloud Data Plane Integration Db Multicloud GCP Provider API
+  slug: open-oracle-dbmulticloudgcpprovider-api
+- collection_type: open
+  name: MySQL Database Service Db System API
+  slug: open-oracle-dbsystem-api
+- collection_type: open
+  name: Oracle Delegate Access Control API
+  slug: open-oracle-delegateaccesscontrol-api
+- collection_type: open
+  name: OCI Control Center Capacity Management Demand Signal API
+  slug: open-oracle-demandsignal-api
+- collection_type: open
+  name: Gateway Deployment API
+  slug: open-oracle-deployment-api
+- collection_type: open
+  name: Secure Desktops Desktop Service API
+  slug: open-oracle-desktopservice-api
+- collection_type: open
+  name: Devops API
+  slug: open-oracle-devops-api
+- collection_type: open
+  name: Database Management Diagnosability API
+  slug: open-oracle-diagnosability-api
+- collection_type: open
+  name: Full Stack Disaster Recovery API
+  slug: open-oracle-disasterrecovery-api
+- collection_type: open
+  name: Oracle Cloud Bridge Discovery API
+  slug: open-oracle-discovery-api
+- collection_type: open
+  name: Globally Distributed Database Distributed Autonomous Db Service API
+  slug: open-oracle-distributedautonomousdbservice-api
+- collection_type: open
+  name: Globally Distributed Database Distributed Db Private Endpoint Service API
+  slug: open-oracle-distributeddbprivateendpointservice-api
+- collection_type: open
+  name: Globally Distributed Database Distributed Db Service API
+  slug: open-oracle-distributeddbservice-api
+- collection_type: open
+  name: Globally Distributed Database Distributed Db Work Request Service API
+  slug: open-oracle-distributeddbworkrequestservice-api
+- collection_type: open
+  name: Email Delivery ${dkim Tag} ${dkim Tag} API
+  slug: open-oracle-dkim-tag-api
+- collection_type: open
+  name: Dns API
+  slug: open-oracle-dns-api
+- collection_type: open
+  name: Pre-Built Function Document Generator Documentgenerator API
+  slug: open-oracle-documentgenerator-api
+- collection_type: open
+  name: Oracle Domain API
+  slug: open-oracle-domain-api
+- collection_type: open
+  name: Oracle Domain Governance API
+  slug: open-oracle-domaingovernance-api
+- collection_type: open
+  name: OS Management Hub Dynamic Set API
+  slug: open-oracle-dynamicset-api
+- collection_type: open
+  name: Vault Key Management Ekm API
+  slug: open-oracle-ekm-api
+- collection_type: open
+  name: Email Delivery ${email Configuration Tag} ${email Configuration Tag} API
+  slug: open-oracle-email-configuration-tag-api
+- collection_type: open
+  name: Email Delivery ${email Domain Tag} ${email Domain Tag} API
+  slug: open-oracle-email-domain-tag-api
+- collection_type: open
+  name: Email Delivery ${email Ippool Tag} ${email Ippool Tag} API
+  slug: open-oracle-email-ippool-tag-api
+- collection_type: open
+  name: Email Delivery ${email Return Path Tag} ${email Return Path Tag} API
+  slug: open-oracle-email-return-path-tag-api
+- collection_type: open
+  name: Oracle Esxi Host API
+  slug: open-oracle-esxihost-api
+- collection_type: open
+  name: OS Management Hub Event API
+  slug: open-oracle-event-api
+- collection_type: open
+  name: Events API
+  slug: open-oracle-events-api
+- collection_type: open
+  name: File Storage API
+  slug: open-oracle-filestorage-api
+- collection_type: open
+  name: Fleet Application Management Service Fleet Apps Management API
+  slug: open-oracle-fleetappsmanagement-api
+- collection_type: open
+  name: Fleet Application Management Service Fleet Apps Management Admin API
+  slug: open-oracle-fleetappsmanagementadmin-api
+- collection_type: open
+  name: Fleet Application Management Service Fleet Apps Management Catalog API
+  slug: open-oracle-fleetappsmanagementcatalog-api
+- collection_type: open
+  name: Fleet Application Management Service Fleet Apps Management Maintenance Window API
+  slug: open-oracle-fleetappsmanagementmaintenancewindow-api
+- collection_type: open
+  name: Fleet Application Management Service Fleet Apps Management Operations API
+  slug: open-oracle-fleetappsmanagementoperations-api
+- collection_type: open
+  name: Fleet Application Management Service Fleet Apps Management Provision API
+  slug: open-oracle-fleetappsmanagementprovision-api
+- collection_type: open
+  name: Fleet Application Management Service Fleet Apps Management Runbooks API
+  slug: open-oracle-fleetappsmanagementrunbooks-api
+- collection_type: open
+  name: Fleet Application Management Service Fleet Apps Management Work Request API
+  slug: open-oracle-fleetappsmanagementworkrequest-api
+- collection_type: open
+  name: Exadata Fleet Update service Fleet Software Update API
+  slug: open-oracle-fleetsoftwareupdate-api
+- collection_type: open
+  name: Functions Service Functions Invoke API
+  slug: open-oracle-functionsinvoke-api
+- collection_type: open
+  name: Functions Service Functions Management API
+  slug: open-oracle-functionsmanagement-api
+- collection_type: open
+  name: Fusion Applications Environment Management Fusion Environment API
+  slug: open-oracle-fusionenvironment-api
+- collection_type: open
+  name: Fusion Applications Environment Management Fusion Environment Family API
+  slug: open-oracle-fusionenvironmentfamily-api
+- collection_type: open
+  name: API Gateway API
+  slug: open-oracle-gateway-api
+- collection_type: open
+  name: Generative AI Service NL2SQL Generate Enrichment Job API
+  slug: open-oracle-generateenrichmentjob-api
+- collection_type: open
+  name: Generative AI Service NL2SQL Generate Sql From Nl Job API
+  slug: open-oracle-generatesqlfromnljob-api
+- collection_type: open
+  name: Service Management Generative AI API
+  slug: open-oracle-generativeai-api
+- collection_type: open
+  name: Generative AI Agents Management Generative AI Agent API
+  slug: open-oracle-generativeaiagent-api
+- collection_type: open
+  name: Generative AI Agents Client Generative AI Agent Runtime API
+  slug: open-oracle-generativeaiagentruntime-api
+- collection_type: open
+  name: Generative AI Service Inference Generative AI Inference API
+  slug: open-oracle-generativeaiinference-api
+- collection_type: open
+  name: Generic Artifacts Content API
+  slug: open-oracle-genericartifactscontent-api
+- collection_type: open
+  name: Generative AI Service NL2SQL Get Enrichment Job API
+  slug: open-oracle-getenrichmentjob-api
+- collection_type: open
+  name: Golden Gate API
+  slug: open-oracle-goldengate-api
+- collection_type: open
+  name: Oracle Governance API
+  slug: open-oracle-governance-api
+- collection_type: open
+  name: Usage Proxy Greetings API
+  slug: open-oracle-greetings-api
+- collection_type: open
+  name: Health Checks API
+  slug: open-oracle-healthchecks-api
+- collection_type: open
+  name: Access Management Service Identity API
+  slug: open-oracle-identity-api
+- collection_type: open
+  name: Identity Domains API
+  slug: open-oracle-identitydomains-api
+- collection_type: open
+  name: Support Management Incident API
+  slug: open-oracle-incident-api
+- collection_type: open
+  name: Oracle Integration Integration Instance API
+  slug: open-oracle-integrationinstance-api
+- collection_type: open
+  name: Oracle Cloud Bridge Inventory API
+  slug: open-oracle-inventory-api
+- collection_type: open
+  name: Usage Proxy Invoice Summary API
+  slug: open-oracle-invoicesummary-api
+- collection_type: open
+  name: Internet of Things Iot API
+  slug: open-oracle-iot-api
+- collection_type: open
+  name: Java Management Service Java Download API
+  slug: open-oracle-javadownload-api
+- collection_type: open
+  name: Fleets Java Management Service API
+  slug: open-oracle-javamanagementservice-api
+- collection_type: open
+  name: Java Management Service Utilities Jms Utils API
+  slug: open-oracle-jmsutils-api
+- collection_type: open
+  name: Oracle Streaming with Apache Kafka (OSAK) Kafka Cluster API
+  slug: open-oracle-kafkacluster-api
+- collection_type: open
+  name: Vault Key Management Kms Crypto API
+  slug: open-oracle-kmscrypto-api
+- collection_type: open
+  name: Vault Key Management Kms Hsm Cluster API
+  slug: open-oracle-kmshsmcluster-api
+- collection_type: open
+  name: Vault Key Management Kms Management API
+  slug: open-oracle-kmsmanagement-api
+- collection_type: open
+  name: Vault Key Management Kms Vault API
+  slug: open-oracle-kmsvault-api
+- collection_type: open
+  name: License Manager API
+  slug: open-oracle-licensemanager-api
+- collection_type: open
+  name: OS Management Hub Lifecycle Environment API
+  slug: open-oracle-lifecycleenvironment-api
+- collection_type: open
+  name: Service Limits API
+  slug: open-oracle-limits-api
+- collection_type: open
+  name: Limits Increase API
+  slug: open-oracle-limitsincrease-api
+- collection_type: open
+  name: Oracle Link API
+  slug: open-oracle-link-api
+- collection_type: open
+  name: Organizations Link Features API
+  slug: open-oracle-linkfeatures-api
+- collection_type: open
+  name: Generative AI Service NL2SQL List Enrichment Jobs API
+  slug: open-oracle-listenrichmentjobs-api
+- collection_type: open
+  name: Load Balancing Load Balancer API
+  slug: open-oracle-loadbalancer-api
+- collection_type: open
+  name: Managed Access Lockbox API
+  slug: open-oracle-lockbox-api
+- collection_type: open
+  name: Managed Access Lockbox Access Context Attribute API
+  slug: open-oracle-lockboxaccesscontextattribute-api
+- collection_type: open
+  name: Log Analytics API
+  slug: open-oracle-loganalytics-api
+- collection_type: open
+  name: Ingestion Logging API
+  slug: open-oracle-logging-api
+- collection_type: open
+  name: Logging Management API
+  slug: open-oracle-loggingmanagement-api
+- collection_type: open
+  name: Logging Search Log Search API
+  slug: open-oracle-logsearch-api
+- collection_type: open
+  name: File Storage with Lustre Lustre File Storage API
+  slug: open-oracle-lustrefilestorage-api
+- collection_type: open
+  name: OCI Managed Services for Mac Mac Device API
+  slug: open-oracle-macdevice-api
+- collection_type: open
+  name: OCI Managed Services for Mac Mac Order API
+  slug: open-oracle-macorder-api
+- collection_type: open
+  name: OS Management Hub Managed Instance API
+  slug: open-oracle-managedinstance-api
+- collection_type: open
+  name: OS Management Hub Managed Instance Group API
+  slug: open-oracle-managedinstancegroup-api
+- collection_type: open
+  name: Database Management Managed My Sql Databases API
+  slug: open-oracle-managedmysqldatabases-api
+- collection_type: open
+  name: Digital Assistant Service Instance Management API
+  slug: open-oracle-management-api
+- collection_type: open
+  name: Management Agent API
+  slug: open-oracle-managementagent-api
+- collection_type: open
+  name: Oracle Cloud VMware Solution Management Appliance API
+  slug: open-oracle-managementappliance-api
+- collection_type: open
+  name: OS Management Hub Management Station API
+  slug: open-oracle-managementstation-api
+- collection_type: open
+  name: Service Marketplace API
+  slug: open-oracle-marketplace-api
+- collection_type: open
+  name: MarketplacePublisherService Marketplace Publisher API
+  slug: open-oracle-marketplacepublisher-api
+- collection_type: open
+  name: Media Services API
+  slug: open-oracle-mediaservices-api
+- collection_type: open
+  name: Media Services Media Stream API
+  slug: open-oracle-mediastream-api
+- collection_type: open
+  name: Oracle Multicloud Metadata API
+  slug: open-oracle-metadata-api
+- collection_type: open
+  name: Oracle Cloud Migrations Migration API
+  slug: open-oracle-migration-api
+- collection_type: open
+  name: Resource Analytics Monitored Region API
+  slug: open-oracle-monitoredregion-api
+- collection_type: open
+  name: Monitoring API
+  slug: open-oracle-monitoring-api
+- collection_type: open
+  name: Oracle Database MultiCloud Data Plane Integration Multi Cloud Resource Discovery API
+  slug: open-oracle-multicloudresourcediscovery-api
+- collection_type: open
+  name: Oracle Multicloud Multicloud Resources API
+  slug: open-oracle-multicloudresources-api
+- collection_type: open
+  name: Oracle Multicloud Multi Clouds Metadata API
+  slug: open-oracle-multicloudsmetadata-api
+- collection_type: open
+  name: Oracle Multicloud Multicloudsubscriptions API
+  slug: open-oracle-multicloudsubscriptions-api
+- collection_type: open
+  name: MySQL Database Service Mysqlaas API
+  slug: open-oracle-mysqlaas-api
+- collection_type: open
+  name: Oracle Network Firewall API
+  slug: open-oracle-networkfirewall-api
+- collection_type: open
+  name: Network Load Balancer API
+  slug: open-oracle-networkloadbalancer-api
+- collection_type: open
+  name: Database Nosql API
+  slug: open-oracle-nosql-api
+- collection_type: open
+  name: Notifications Notification Control Plane API
+  slug: open-oracle-notificationcontrolplane-api
+- collection_type: open
+  name: Notifications Notification Data Plane API
+  slug: open-oracle-notificationdataplane-api
+- collection_type: open
+  name: Oracle Object Storage API
+  slug: open-oracle-objectstorage-api
+- collection_type: open
+  name: Oracle Cloud Bridge Ocb Agent Svc API
+  slug: open-oracle-ocbagentsvc-api
+- collection_type: open
+  name: OCI Control Center Demand Signal Occ Demand Signal API
+  slug: open-oracle-occdemandsignal-api
+- collection_type: open
+  name: OCI Control Center Demand Signal Occ Metric Alarm API
+  slug: open-oracle-occmetricalarm-api
+- collection_type: open
+  name: OCI Control Center Occ Metrics API
+  slug: open-oracle-occmetrics-api
+- collection_type: open
+  name: Oracle Content Management Oce Instance API
+  slug: open-oracle-oceinstance-api
+- collection_type: open
+  name: OCI Cache Oci Cache Backup API
+  slug: open-oracle-ocicachebackup-api
+- collection_type: open
+  name: OCI Cache Oci Cache Config Set API
+  slug: open-oracle-ocicacheconfigset-api
+- collection_type: open
+  name: OCI Cache Oci Cache Default Config Set API
+  slug: open-oracle-ocicachedefaultconfigset-api
+- collection_type: open
+  name: OCI Cache Oci Cache User API
+  slug: open-oracle-ocicacheuser-api
+- collection_type: open
+  name: Digital Assistant Service Instance Oda API
+  slug: open-oracle-oda-api
+- collection_type: open
+  name: Digital Assistant Service Instance Odapackage API
+  slug: open-oracle-odapackage-api
+- collection_type: open
+  name: Oracle Multicloud Omhub Network Anchor API
+  slug: open-oracle-omhubnetworkanchor-api
+- collection_type: open
+  name: Oracle Multicloud Omhub Resource Anchor API
+  slug: open-oracle-omhubresourceanchor-api
+- collection_type: open
+  name: OS Management Hub Onboarding API
+  slug: open-oracle-onboarding-api
+- collection_type: open
+  name: Process Automation Opa Instance API
+  slug: open-oracle-opainstance-api
+- collection_type: open
+  name: OpenSearch Service Opensearch Cluster API
+  slug: open-oracle-opensearchcluster-api
+- collection_type: open
+  name: OpenSearch Service Opensearch Cluster Backup API
+  slug: open-oracle-opensearchclusterbackup-api
+- collection_type: open
+  name: OpenSearch Service Opensearch Cluster Pipeline API
+  slug: open-oracle-opensearchclusterpipeline-api
+- collection_type: open
+  name: Oracle Cloud My Services Operation Resource API
+  slug: open-oracle-operationresource-api
+- collection_type: open
+  name: Ops Insights Operations Insights API
+  slug: open-oracle-operationsinsights-api
+- collection_type: open
+  name: Oracle Cloud My Services Operations Resource API
+  slug: open-oracle-operationsresource-api
+- collection_type: open
+  name: Operator Access Control Operator Actions API
+  slug: open-oracle-operatoractions-api
+- collection_type: open
+  name: Operator Access Control Operator Control API
+  slug: open-oracle-operatorcontrol-api
+- collection_type: open
+  name: Operator Access Control Operator Control Assignment API
+  slug: open-oracle-operatorcontrolassignment-api
+- collection_type: open
+  name: Cloud Advisor Optimizer API
+  slug: open-oracle-optimizer-api
+- collection_type: open
+  name: Oracle Database MultiCloud Data Plane Integration Oracle DB Azure Blob Container API
+  slug: open-oracle-oracledbazureblobcontainer-api
+- collection_type: open
+  name: Oracle Database MultiCloud Data Plane Integration Oracle DB Azure Blob Mount API
+  slug: open-oracle-oracledbazureblobmount-api
+- collection_type: open
+  name: Oracle Database MultiCloud Data Plane Integration Oracle DB Azure Connector API
+  slug: open-oracle-oracledbazureconnector-api
+- collection_type: open
+  name: Oracle Database MultiCloud Data Plane Integration Oracle Db Azure Key API
+  slug: open-oracle-oracledbazurekey-api
+- collection_type: open
+  name: Oracle Database MultiCloud Data Plane Integration Oracle Db Azure Vault API
+  slug: open-oracle-oracledbazurevault-api
+- collection_type: open
+  name: Oracle Database MultiCloud Data Plane Integration Oracle Db Azure Vault Association API
+  slug: open-oracle-oracledbazurevaultassociation-api
+- collection_type: open
+  name: Oracle Orders API
+  slug: open-oracle-orders-api
+- collection_type: open
+  name: Oracle Organization API
+  slug: open-oracle-organization-api
+- collection_type: open
+  name: Usage Proxy Organization Subscription API
+  slug: open-oracle-organizationsubscription-api
+- collection_type: open
+  name: Managed Access Partner API
+  slug: open-oracle-partner-api
+- collection_type: open
+  name: SELF Service Partner Integeration API
+  slug: open-oracle-partnerintegeration-api
+- collection_type: open
+  name: Database Management Perfhub API
+  slug: open-oracle-perfhub-api
+- collection_type: open
+  name: Oracle Cloud Agent Plugin API
+  slug: open-oracle-plugin-api
+- collection_type: open
+  name: Oracle Cloud Agent Pluginconfig API
+  slug: open-oracle-pluginconfig-api
+- collection_type: open
+  name: PGSQL Control Plane Postgresql API
+  slug: open-oracle-postgresql-api
+- collection_type: open
+  name: Control Plane Private Service Access API
+  slug: open-oracle-privateserviceaccess-api
+- collection_type: open
+  name: Oracle API Access Control Privileged API Control API
+  slug: open-oracle-privilegedapicontrol-api
+- collection_type: open
+  name: Oracle API Access Control Privileged API Requests API
+  slug: open-oracle-privilegedapirequests-api
+- collection_type: open
+  name: Oracle API Access Control Privileged API Work Request API
+  slug: open-oracle-privilegedapiworkrequest-api
+- collection_type: open
+  name: Oracle Cloud My Services Purchase Entitlement Resource API
+  slug: open-oracle-purchaseentitlementresource-api
+- collection_type: open
+  name: Oracle Cloud My Services Purchase Entitlements Resource API
+  slug: open-oracle-purchaseentitlementsresource-api
+- collection_type: open
+  name: Application Performance Monitoring Trace Explorer Query API
+  slug: open-oracle-query-api
+- collection_type: open
+  name: Queue API
+  slug: open-oracle-queue-api
+- collection_type: open
+  name: Queue Queue Admin API
+  slug: open-oracle-queueadmin-api
+- collection_type: open
+  name: Service Limits Quotas API
+  slug: open-oracle-quotas-api
+- collection_type: open
+  name: Usage Proxy Ratecard API
+  slug: open-oracle-ratecard-api
+- collection_type: open
+  name: Oracle Recipient Invitation API
+  slug: open-oracle-recipientinvitation-api
+- collection_type: open
+  name: Web Application Acceleration and Security Services Redirect API
+  slug: open-oracle-redirect-api
+- collection_type: open
+  name: OCI Cache Redis Cluster API
+  slug: open-oracle-rediscluster-api
+- collection_type: open
+  name: OCI Cache Redis Identity API
+  slug: open-oracle-redisidentity-api
+- collection_type: open
+  name: Fusion Applications Environment Management Refresh Activity API
+  slug: open-oracle-refreshactivity-api
+- collection_type: open
+  name: MySQL Database Service Replicas API
+  slug: open-oracle-replicas-api
+- collection_type: open
+  name: OS Management Hub Reporting Managed Instance API
+  slug: open-oracle-reportingmanagedinstance-api
+- collection_type: open
+  name: Resource Analytics Resource Analytics Instance API
+  slug: open-oracle-resourceanalyticsinstance-api
+- collection_type: open
+  name: Resource Manager API
+  slug: open-oracle-resourcemanager-api
+- collection_type: open
+  name: Usage Proxy Resources API
+  slug: open-oracle-resources-api
+- collection_type: open
+  name: Search Service Resource Search API
+  slug: open-oracle-resourcesearch-api
+- collection_type: open
+  name: Usage Proxy Rewards API
+  slug: open-oracle-rewards-api
+- collection_type: open
+  name: RoverCloudService Rover Cluster API
+  slug: open-oracle-rovercluster-api
+- collection_type: open
+  name: RoverCloudService Rover Entitlement API
+  slug: open-oracle-roverentitlement-api
+- collection_type: open
+  name: RoverCloudService Rover Node API
+  slug: open-oracle-rovernode-api
+- collection_type: open
+  name: Amazon S3 Compatibility S3 Object Storage API
+  slug: open-oracle-s3objectstorage-api
+- collection_type: open
+  name: Resource Scheduler Schedule API
+  slug: open-oracle-schedule-api
+- collection_type: open
+  name: Fusion Applications Environment Management Scheduled Activity API
+  slug: open-oracle-scheduledactivity-api
+- collection_type: open
+  name: OS Management Hub Scheduled Job API
+  slug: open-oracle-scheduledjob-api
+- collection_type: open
+  name: Oracle Sddc API
+  slug: open-oracle-sddc-api
+- collection_type: open
+  name: Vault Secret Retrieval Secrets API
+  slug: open-oracle-secrets-api
+- collection_type: open
+  name: Security Attribute API
+  slug: open-oracle-securityattribute-api
+- collection_type: open
+  name: Oracle Cloud My Services SE Exadata Security Group Resource API
+  slug: open-oracle-seexadatasecuritygroupresource-api
+- collection_type: open
+  name: Oracle Cloud My Services SE Exadata Security Groups Resource API
+  slug: open-oracle-seexadatasecuritygroupsresource-api
+- collection_type: open
+  name: Email Delivery ${sender Tag} ${sender Tag} API
+  slug: open-oracle-sender-tag-api
+- collection_type: open
+  name: Oracle Sender Invitation API
+  slug: open-oracle-senderinvitation-api
+- collection_type: open
+  name: Announcements Service API
+  slug: open-oracle-service-api
+- collection_type: open
+  name: Fusion Applications Environment Management Service Attachment API
+  slug: open-oracle-serviceattachment-api
+- collection_type: open
+  name: Service Catalog API
+  slug: open-oracle-servicecatalog-api
+- collection_type: open
+  name: Connector Hub Service Connector API
+  slug: open-oracle-serviceconnector-api
+- collection_type: open
+  name: Oracle Cloud My Services Service Definition Resource API
+  slug: open-oracle-servicedefinitionresource-api
+- collection_type: open
+  name: Oracle Cloud My Services Service Definitions Resource API
+  slug: open-oracle-servicedefinitionsresource-api
+- collection_type: open
+  name: Oracle Cloud My Services Service Entitlement Resource API
+  slug: open-oracle-serviceentitlementresource-api
+- collection_type: open
+  name: Oracle Cloud My Services Service Entitlements Resource API
+  slug: open-oracle-serviceentitlementsresource-api
+- collection_type: open
+  name: Oracle Cloud My Services Service Instance Resource API
+  slug: open-oracle-serviceinstanceresource-api
+- collection_type: open
+  name: Oracle Cloud My Services Service Instances Resource API
+  slug: open-oracle-serviceinstancesresource-api
+- collection_type: open
+  name: Service Manager Proxy API
+  slug: open-oracle-servicemanagerproxy-api
+- collection_type: open
+  name: Oracle Cloud My Services SE Service Configuration Resource API
+  slug: open-oracle-seserviceconfigurationresource-api
+- collection_type: open
+  name: Oracle Cloud My Services SE Service Configurations Resource API
+  slug: open-oracle-seserviceconfigurationsresource-api
+- collection_type: open
+  name: RoverCloudService Shape API
+  slug: open-oracle-shape-api
+- collection_type: open
+  name: Oracle Cloud My Services SI Exadata Bursting Resource API
+  slug: open-oracle-siexadataburstingresource-api
+- collection_type: open
+  name: Oracle Cloud My Services SI Exadata Security Group Assignment Resource API
+  slug: open-oracle-siexadatasecuritygroupassignmentresource-api
+- collection_type: open
+  name: Oracle Cloud My Services SI Exadata Security Group Assignments Resource API
+  slug: open-oracle-siexadatasecuritygroupassignmentsresource-api
+- collection_type: open
+  name: Oracle Cloud My Services SI Service Configuration Resource API
+  slug: open-oracle-siserviceconfigurationresource-api
+- collection_type: open
+  name: Oracle Cloud My Services SI Service Configurations Resource API
+  slug: open-oracle-siserviceconfigurationsresource-api
+- collection_type: open
+  name: OS Management Hub Software Source API
+  slug: open-oracle-softwaresource-api
+- collection_type: open
+  name: Database Management Sql Tuning API
+  slug: open-oracle-sqltuning-api
+- collection_type: open
+  name: Stack Monitoring API
+  slug: open-oracle-stackmonitoring-api
+- collection_type: open
+  name: Streaming Stream API
+  slug: open-oracle-stream-api
+- collection_type: open
+  name: Streaming Stream Admin API
+  slug: open-oracle-streamadmin-api
+- collection_type: open
+  name: Email Delivery Submission ${submit Email Tag} ${submit Email Tag} API
+  slug: open-oracle-submit-email-tag-api
+- collection_type: open
+  name: Email Delivery Submission ${submit Raw Email Tag} ${submit Raw Email Tag} API
+  slug: open-oracle-submit-raw-email-tag-api
+- collection_type: open
+  name: Usage Proxy Subscribed Service API
+  slug: open-oracle-subscribedservice-api
+- collection_type: open
+  name: Gateway Subscribers API
+  slug: open-oracle-subscribers-api
+- collection_type: open
+  name: Oracle Subscription API
+  slug: open-oracle-subscription-api
+- collection_type: open
+  name: Email Delivery ${suppression Tag} ${suppression Tag} API
+  slug: open-oracle-suppression-tag-api
+- collection_type: open
+  name: Resource Analytics Tenancy Attachment API
+  slug: open-oracle-tenancyattachment-api
+- collection_type: open
+  name: Threat Intelligence Threatintel API
+  slug: open-oracle-threatintel-api
+- collection_type: open
+  name: Application Performance Monitoring Explorer Trace API
+  slug: open-oracle-trace-api
+- collection_type: open
+  name: Usage Usageapi API
+  slug: open-oracle-usageapi-api
+- collection_type: open
+  name: Usage Proxy Usagelimits API
+  slug: open-oracle-usagelimits-api
+- collection_type: open
+  name: Gateway Usage Plans API
+  slug: open-oracle-usageplans-api
+- collection_type: open
+  name: Fusion Applications Environment Management Vanity Domain API
+  slug: open-oracle-vanitydomain-api
+- collection_type: open
+  name: Vault Secret Management Vaults API
+  slug: open-oracle-vaults-api
+- collection_type: open
+  name: Visual Builder Vb Instance API
+  slug: open-oracle-vbinstance-api
+- collection_type: open
+  name: Visual Builder Studio Vbs Instance API
+  slug: open-oracle-vbsinstance-api
+- collection_type: open
+  name: Core Services Virtual Network API
+  slug: open-oracle-virtualnetwork-api
+- collection_type: open
+  name: Network Monitoring Vn Monitoring API
+  slug: open-oracle-vnmonitoring-api
+- collection_type: open
+  name: Scanning Vulnerability Scanning API
+  slug: open-oracle-vulnerabilityscanning-api
+- collection_type: open
+  name: Web Application Acceleration () Waa API
+  slug: open-oracle-waa-api
+- collection_type: open
+  name: Web Application Acceleration and Security Services Waas API
+  slug: open-oracle-waas-api
+- collection_type: open
+  name: Web Application Firewall () Waf API
+  slug: open-oracle-waf-api
+- collection_type: open
+  name: Weblogic Management Service API
+  slug: open-oracle-weblogicmanagementservice-api
+- collection_type: open
+  name: WebLogic Management Service Weblogic Management Service Configuration API
+  slug: open-oracle-weblogicmanagementserviceconfiguration-api
+- collection_type: open
+  name: Email Delivery ${work Request Tag} ${work Request Tag} API
+  slug: open-oracle-work-request-tag-api
+- collection_type: open
+  name: Oracle Work Request API
+  slug: open-oracle-workrequest-api
+- collection_type: open
+  name: Oracle Work Requests API
+  slug: open-oracle-workrequests-api
+- collection_type: open
+  name: Zero Trust Packet Routing Control Plane Zpr API
+  slug: open-oracle-zpr-api
+- collection_type: open
+  name: Zero Trust Packet Routing Tools Zpr Topology API
+  slug: open-oracle-zprtopology-api
 common:
 - group: agent
   title: ''
@@ -1841,7 +2813,7 @@ score:
       marker_coverage: 95.0
       total: 322
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png
 security:

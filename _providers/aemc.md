@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,11 @@ apis:
 - description: The undocumented JSON API behind AEMC's Energy Rules application. It serves the consolidated, versioned text of the National Electricity Rules, National Gas Rules and National Energy Retail Rules — ev
   name: AEMC Energy Rules API
   slug: aemc-energy-rules-api
-artifact_total: 13
+artifact_total: 14
+collections:
+- collection_type: open
+  name: AEMC Energy Rules API
+  slug: open-aemc-energy-rules-openapi-derived
 common:
 - group: company
   title: ''
@@ -185,7 +189,7 @@ overview: 'Australian Energy Market Commission publishes 1 API on the [APIs.io](
 
 
   Australian Energy Market Commission''s developer surface includes support, documentation, engineering blog, authentication, code examples, changelog, and 22 more developer resources.'
-random_paper: 46
+random_paper: 108
 rate_limits:
 - limit_count: 0
   name: Aemc Rate Limits
@@ -219,7 +223,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

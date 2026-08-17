@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,8 +78,32 @@ apis:
 - description: The TastingNotes API from Constellation Brands — 1 operation(s) for tastingnotes.
   name: Constellation Brands TastingNotes API
   slug: constellation-brands-tastingnotes-api
-artifact_total: 20
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Constellation Brands Partner BottleShots API
+  slug: open-constellation-brands-bottleshots-api
+- collection_type: open
+  name: Constellation Brands Partner BottleShots HotSheets API
+  slug: open-constellation-brands-hotsheets-api
+- collection_type: open
+  name: Constellation Brands Partner BottleShots Items API
+  slug: open-constellation-brands-items-api
+- collection_type: open
+  name: Constellation Brands Partner BottleShots NeckHangers API
+  slug: open-constellation-brands-neckhangers-api
+- collection_type: open
+  name: Constellation Brands Partner BottleShots Recipes API
+  slug: open-constellation-brands-recipes-api
+- collection_type: open
+  name: Constellation Brands Partner BottleShots ShelfTalkers API
+  slug: open-constellation-brands-shelftalkers-api
+- collection_type: open
+  name: Constellation Brands Partner BottleShots TastingNotes API
+  slug: open-constellation-brands-tastingnotes-api
 - collection_type: open
   name: Constellation Brands Partner API
   slug: open-constellation-brands
@@ -164,7 +188,7 @@ press:
 - date: '2026-05-25'
   title: 'Constellation Brands: Leveraging Technology, Data, and ...'
   url: https://cdotimes.com/2024/07/01/constellation-brands-leveraging-technology-data-and-ai-for-excellence/
-random_paper: 46
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Constellation Brands Rate Limits
@@ -189,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/screenshots/constellation-brands-2026-06-20T174911.png
 security:

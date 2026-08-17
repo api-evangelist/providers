@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ arazzos:
 - description: Pick a site, create a Collection, add a custom field, then seed it with a first item.
   name: Webflow Scaffold a CMS Collection
   slug: webflow-scaffold-cms-collection-workflow
-artifact_total: 130
+artifact_total: 153
 asyncapis:
 - description: AsyncAPI specification for Webflow webhook events. Webflow delivers webhook payloads via HTTP POST to a URL you register through the Webflow API. Each payload includes a signature header (`X-Webflow-S
   name: Webflow Webhooks
@@ -192,17 +192,44 @@ collections:
   name: Webflow Webhooks API
   slug: postman-webflow-webhooks
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Webflow Assets Asset Folders API
+  slug: open-webflow-asset-folders-api
+- collection_type: open
+  name: Webflow Asset Folders Assets API
+  slug: open-webflow-assets-api
+- collection_type: open
   name: Webflow Assets API
   slug: open-webflow-assets
+- collection_type: open
+  name: Webflow Assets Asset Folders Collections API
+  slug: open-webflow-collections-api
 - collection_type: open
   name: Webflow Collections API
   slug: open-webflow-collections
 - collection_type: open
+  name: Webflow Assets Asset Folders Comments API
+  slug: open-webflow-comments-api
+- collection_type: open
   name: Webflow Comments API
   slug: open-webflow-comments
 - collection_type: open
+  name: Webflow Assets Asset Folders Components API
+  slug: open-webflow-components-api
+- collection_type: open
   name: Webflow Components API
   slug: open-webflow-components
+- collection_type: open
+  name: Webflow Assets Asset Folders Custom Code API
+  slug: open-webflow-custom-code-api
+- collection_type: open
+  name: Webflow Assets Asset Folders Custom Code - Pages API
+  slug: open-webflow-custom-code-pages-api
+- collection_type: open
+  name: Webflow Assets Asset Folders Custom Code - Sites API
+  slug: open-webflow-custom-code-sites-api
 - collection_type: open
   name: Webflow Custom Code API
   slug: open-webflow-custom-code
@@ -213,32 +240,74 @@ collections:
   name: Webflow Ecommerce Settings API
   slug: open-webflow-ecommerce-settings
 - collection_type: open
+  name: Webflow Assets Asset Folders Forms API
+  slug: open-webflow-forms-api
+- collection_type: open
   name: Webflow Forms API
   slug: open-webflow-forms
+- collection_type: open
+  name: Webflow Assets Asset Folders Inventory API
+  slug: open-webflow-inventory-api
 - collection_type: open
   name: Webflow Inventory API
   slug: open-webflow-inventory
 - collection_type: open
+  name: Webflow Assets Asset Folders Items API
+  slug: open-webflow-items-api
+- collection_type: open
   name: Webflow CMS Items API
   slug: open-webflow-items
+- collection_type: open
+  name: Webflow Assets Asset Folders Meta API
+  slug: open-webflow-meta-api
 - collection_type: open
   name: Webflow Meta API
   slug: open-webflow-meta
 - collection_type: open
+  name: Webflow Assets Asset Folders Orders API
+  slug: open-webflow-orders-api
+- collection_type: open
   name: Webflow Orders API
   slug: open-webflow-orders
+- collection_type: open
+  name: Webflow Assets Asset Folders Pages API
+  slug: open-webflow-pages-api
 - collection_type: open
   name: Webflow Pages API
   slug: open-webflow-pages
 - collection_type: open
+  name: Webflow Assets Asset Folders Products & SKUs API
+  slug: open-webflow-products-skus-api
+- collection_type: open
   name: Webflow Products and SKUs API
   slug: open-webflow-products
+- collection_type: open
+  name: Webflow Assets Asset Folders Registered Scripts API
+  slug: open-webflow-registered-scripts-api
+- collection_type: open
+  name: Webflow Assets Asset Folders Settings API
+  slug: open-webflow-settings-api
+- collection_type: open
+  name: Webflow Assets Asset Folders Site Activity API
+  slug: open-webflow-site-activity-api
+- collection_type: open
+  name: Webflow Assets Asset Folders Site Administration API
+  slug: open-webflow-site-administration-api
+- collection_type: open
+  name: Webflow Assets Asset Folders Sites API
+  slug: open-webflow-sites-api
 - collection_type: open
   name: Webflow Sites API
   slug: open-webflow-sites
 - collection_type: open
+  name: Webflow Assets Asset Folders Webhooks API
+  slug: open-webflow-webhooks-api
+- collection_type: open
   name: Webflow Webhooks API
   slug: open-webflow-webhooks
+- collection_type: open
+  name: Webflow Assets Asset Folders Workspce Audit Logs API
+  slug: open-webflow-workspce-audit-logs-api
 common:
 - group: agent
   title: ''
@@ -524,7 +593,7 @@ plans:
 - name: Webflow Plans Pricing
   plan_count: 14
   slug: webflow-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Webflow Rate Limits
@@ -579,7 +648,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:

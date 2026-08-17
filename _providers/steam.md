@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,8 +114,23 @@ apis:
 - description: The ISteamUserStats API from Steam — 3 operation(s) for isteamuserstats.
   name: Steam ISteamUserStats API
   slug: steam-isteamuserstats-api
-artifact_total: 32
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Steamworks Web IPlayerService API
+  slug: open-steam-iplayerservice-api
+- collection_type: open
+  name: Steamworks Web IPlayerService ISteamNews API
+  slug: open-steam-isteamnews-api
+- collection_type: open
+  name: Steamworks Web IPlayerService ISteamUser API
+  slug: open-steam-isteamuser-api
+- collection_type: open
+  name: Steamworks Web IPlayerService ISteamUserStats API
+  slug: open-steam-isteamuserstats-api
 - collection_type: open
   name: Steamworks Web API
   slug: open-steam
@@ -260,7 +275,7 @@ plans:
 - name: Steam Plans Pricing
   plan_count: 3
   slug: steam-plans-pricing
-random_paper: 58
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Steam Rate Limits
@@ -285,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/screenshots/steam-2026-06-20T194532.png
 security:

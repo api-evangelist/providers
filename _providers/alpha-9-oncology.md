@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,6 +59,14 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/alpha9tx/
+- group: company
+  title: ''
+  type: Website
+  url: https://a9oncology.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/alpha9tx
 created: '2026-07-17'
 description: Alpha-9 Oncology is a clinical-stage radiopharmaceutical company that spun out of the University of British Columbia and BC Cancer in 2019 to develop a portfolio of targeted cancer therapies. Alpha-9 engineers bespoke radiopharmaceutical molecules — optimizing the binder, linker, chelator, and radioisotope — to deliver radiation directly to tumor cells while limiting exposure to healthy tissue. The company operates purpose-built research facilities in Vancouver, BC and Boston, MA, and in October 2024 raised an oversubscribed $175M Series C led by Lightspeed Venture Partners and Ascenta Capital to advance its clinical pipeline. Alpha-9 is a drug developer and does not currently publish a public developer API; this profile captures its company identity and public-web surface for the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpha-9-oncology.png
@@ -70,8 +78,8 @@ network: true
 overview: 'Alpha-9 Oncology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Radiopharmaceuticals, and Biotechnology.
 
 
-  Alpha-9 Oncology''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 99
+  Alpha-9 Oncology''s developer surface includes engineering blog, support, and 7 more developer resources.'
+random_paper: 49
 score:
   band: minimal
   composite: 11.6
@@ -91,9 +99,9 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-9-oncology/refs/heads/main/screenshots/alpha-9-oncology-2026-07-25T195750.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-9-oncology/refs/heads/main/screenshots/alpha-9-oncology-2026-07-25T195753.png
 security:
 - kind: domain-security
   name: Alpha 9 Oncology Domain Security

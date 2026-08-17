@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -50,11 +50,36 @@ apis:
 - description: The Webhooks API from Zillapi — 3 operation(s) for webhooks.
   name: Zillapi Webhooks API
   slug: zillapi-webhooks-api
-artifact_total: 16
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Zillapi Webhooks
   slug: zillapi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Zillapi: Zillow property data Account API'
+  slug: open-zillapi-account-api
+- collection_type: open
+  name: 'Zillapi: Zillow property data Buildings API'
+  slug: open-zillapi-buildings-api
+- collection_type: open
+  name: 'Zillapi: Zillow property data Jobs API'
+  slug: open-zillapi-jobs-api
+- collection_type: open
+  name: 'Zillapi: Zillow property data Listings API'
+  slug: open-zillapi-listings-api
+- collection_type: open
+  name: 'Zillapi: Zillow property data Properties API'
+  slug: open-zillapi-properties-api
+- collection_type: open
+  name: 'Zillapi: Zillow property data Search API'
+  slug: open-zillapi-search-api
+- collection_type: open
+  name: 'Zillapi: Zillow property data Webhooks API'
+  slug: open-zillapi-webhooks-api
 common:
 - group: agent
   title: ''
@@ -203,7 +228,7 @@ plans:
 - name: Zillapi Plans
   plan_count: 4
   slug: zillapi-plans
-random_paper: 37
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Zillapi Rate Limits
@@ -236,7 +261,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

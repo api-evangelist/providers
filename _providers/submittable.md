@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Submitters - the people who send submissions.
   name: Submittable Users API
   slug: submittable-users-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Submittable Assignments API
+  slug: open-submittable-assignments-api
+- collection_type: open
+  name: Submittable Assignments Entries API
+  slug: open-submittable-entries-api
+- collection_type: open
+  name: Submittable Assignments Funds API
+  slug: open-submittable-funds-api
+- collection_type: open
+  name: Submittable Assignments Labels API
+  slug: open-submittable-labels-api
+- collection_type: open
+  name: Submittable Assignments Messaging API
+  slug: open-submittable-messaging-api
+- collection_type: open
+  name: Submittable Assignments Payments API
+  slug: open-submittable-payments-api
+- collection_type: open
+  name: Submittable Assignments Projects API
+  slug: open-submittable-projects-api
+- collection_type: open
+  name: Submittable Assignments Submissions API
+  slug: open-submittable-submissions-api
+- collection_type: open
+  name: Submittable Assignments Teams API
+  slug: open-submittable-teams-api
+- collection_type: open
+  name: Submittable Assignments Users API
+  slug: open-submittable-users-api
 - collection_type: open
   name: Submittable API (v4)
   slug: open-submittable
@@ -143,7 +176,7 @@ plans:
 - name: Submittable Plans Pricing
   plan_count: 3
   slug: submittable-plans-pricing
-random_paper: 100
+random_paper: 137
 rate_limits:
 - limit_count: 2
   name: Submittable Rate Limits
@@ -168,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -102,12 +102,78 @@ apis:
 - description: Webhook endpoint registration.
   name: Cartesia Webhooks API
   slug: cartesia-ai-webhooks-api
-artifact_total: 32
+artifact_total: 54
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Cartesia''s **documented public WebSocket API**. Unlike most providers in this catalog, Cartesia publishes a real, bidirectional WebSocket protocol - not Server-Sent Events '
   name: Cartesia Realtime WebSocket API (TTS + STT)
   slug: cartesia-ai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cartesia Agents API
+  slug: open-cartesia-ai-agents-api
+- collection_type: open
+  name: Cartesia Agents API Keys API
+  slug: open-cartesia-ai-api-keys-api
+- collection_type: open
+  name: Cartesia Agents Auth API
+  slug: open-cartesia-ai-auth-api
+- collection_type: open
+  name: Cartesia Agents Calls API
+  slug: open-cartesia-ai-calls-api
+- collection_type: open
+  name: Cartesia Agents Datasets API
+  slug: open-cartesia-ai-datasets-api
+- collection_type: open
+  name: Cartesia Agents Deployments API
+  slug: open-cartesia-ai-deployments-api
+- collection_type: open
+  name: Cartesia Agents Infill API
+  slug: open-cartesia-ai-infill-api
+- collection_type: open
+  name: Cartesia Agents Knowledge Base API
+  slug: open-cartesia-ai-knowledge-base-api
+- collection_type: open
+  name: Cartesia Agents Metrics API
+  slug: open-cartesia-ai-metrics-api
+- collection_type: open
+  name: Cartesia Agents Phone Numbers API
+  slug: open-cartesia-ai-phone-numbers-api
+- collection_type: open
+  name: Cartesia Agents Pronunciation Dictionaries API
+  slug: open-cartesia-ai-pronunciation-dictionaries-api
+- collection_type: open
+  name: Cartesia Agents Providers API
+  slug: open-cartesia-ai-providers-api
+- collection_type: open
+  name: Cartesia Agents Speech-to-Text API
+  slug: open-cartesia-ai-speech-to-text-api
+- collection_type: open
+  name: Cartesia Agents Status API
+  slug: open-cartesia-ai-status-api
+- collection_type: open
+  name: Cartesia Auth STT API
+  slug: open-cartesia-ai-stt-api
+- collection_type: open
+  name: Cartesia Agents Text-to-Speech API
+  slug: open-cartesia-ai-text-to-speech-api
+- collection_type: open
+  name: Cartesia Auth TTS API
+  slug: open-cartesia-ai-tts-api
+- collection_type: open
+  name: Cartesia Agents Usage API
+  slug: open-cartesia-ai-usage-api
+- collection_type: open
+  name: Cartesia Agents Voice Changer API
+  slug: open-cartesia-ai-voice-changer-api
+- collection_type: open
+  name: Cartesia Agents Voices API
+  slug: open-cartesia-ai-voices-api
+- collection_type: open
+  name: Cartesia Agents Webhooks API
+  slug: open-cartesia-ai-webhooks-api
 - collection_type: open
   name: Cartesia API
   slug: open-cartesia-ai
@@ -210,7 +276,7 @@ plans:
 - name: Cartesia Ai Plans Pricing
   plan_count: 6
   slug: cartesia-ai-plans-pricing
-random_paper: 11
+random_paper: 48
 rate_limits:
 - limit_count: 15
   name: Cartesia Ai Rate Limits
@@ -244,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/screenshots/cartesia-ai-2026-07-25T204650.png
 security:

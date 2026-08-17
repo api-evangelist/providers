@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,11 +77,15 @@ arazzos:
 - description: Resolve a UPRN to Sprift's internal property ID, then collect the price estimate, unified comparables, recently sold evidence and live for-sale stock.
   name: Sprift — valuation evidence pack
   slug: sprift-valuation-evidence
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Sprift Webhooks
   slug: sprift-webhooks
+collections:
+- collection_type: open
+  name: Sprift API
+  slug: open-sprift
 common:
 - group: agent
   title: ''
@@ -268,7 +272,7 @@ overview: 'Sprift publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sprift''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, support, engineering blog, and 34 more developer resources.'
-random_paper: 64
+random_paper: 68
 score:
   band: developing
   composite: 43.1
@@ -292,7 +296,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

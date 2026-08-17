@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,8 +60,17 @@ apis:
 - description: Molecular profiling results delivered back to the patient chart.
   name: Guardant Health Results API
   slug: guardant-health-results-api
-artifact_total: 16
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Guardant Health EMR Integration API (Illustrative Model) Orders API
+  slug: open-guardant-health-orders-api
+- collection_type: open
+  name: Guardant Health EMR Integration API (Illustrative Model) Orders Results API
+  slug: open-guardant-health-results-api
 - collection_type: open
   name: Guardant Health EMR Integration (Illustrative Model)
   slug: open-guardant-health
@@ -134,7 +143,7 @@ plans:
 - name: Guardant Health Plans Pricing
   plan_count: 3
   slug: guardant-health-plans-pricing
-random_paper: 89
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Guardant Health Rate Limits
@@ -170,7 +179,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/screenshots/guardant-health-2026-06-20T182424.png
 security:

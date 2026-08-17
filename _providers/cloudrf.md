@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: User and system templates.
   name: CloudRF Template API
   slug: cloudrf-template-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CloudRF 3D API
+  slug: open-cloudrf-3d-api
+- collection_type: open
+  name: CloudRF 3D Account API
+  slug: open-cloudrf-account-api
+- collection_type: open
+  name: CloudRF 3D Analyse API
+  slug: open-cloudrf-analyse-api
+- collection_type: open
+  name: CloudRF 3D Create API
+  slug: open-cloudrf-create-api
+- collection_type: open
+  name: CloudRF 3D Manage API
+  slug: open-cloudrf-manage-api
+- collection_type: open
+  name: CloudRF 3D Satellite API
+  slug: open-cloudrf-satellite-api
+- collection_type: open
+  name: CloudRF 3D Template API
+  slug: open-cloudrf-template-api
 - collection_type: open
   name: CloudRF API
   slug: open-cloudrf
@@ -150,7 +174,7 @@ plans:
 - name: Cloudrf Plans Pricing
   plan_count: 3
   slug: cloudrf-plans-pricing
-random_paper: 31
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Cloudrf Rate Limits
@@ -190,7 +214,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/screenshots/cloudrf-2026-06-20T174617.png
 security:

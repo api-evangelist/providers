@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ arazzos:
 - description: Create a workspace, add a principal with a specific access right, and verify the resulting membership.
   name: Power BI Provision a Workspace and Grant Access
   slug: power-bi-workspace-provision-access-workflow
-artifact_total: 255
+artifact_total: 262
 collections:
 - collection_type: postman
   name: Power BI REST Dashboards API
@@ -130,6 +130,27 @@ collections:
 - collection_type: postman
   name: Power BI REST Dashboards Reports API
   slug: postman-power-bi-reports-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Power BI REST Dashboards API
+  slug: open-power-bi-dashboards-api
+- collection_type: open
+  name: Power BI REST Dashboards Datasets API
+  slug: open-power-bi-datasets-api
+- collection_type: open
+  name: Power BI REST Dashboards Gateways API
+  slug: open-power-bi-gateways-api
+- collection_type: open
+  name: Power BI REST Dashboards Groups API
+  slug: open-power-bi-groups-api
+- collection_type: open
+  name: Power BI REST Dashboards Imports API
+  slug: open-power-bi-imports-api
+- collection_type: open
+  name: Power BI REST Dashboards Reports API
+  slug: open-power-bi-reports-api
 - collection_type: open
   name: Power BI REST API
   slug: open-power-bi-rest-api
@@ -1002,7 +1023,7 @@ plans:
 - name: Power Bi Plans Pricing
   plan_count: 5
   slug: power-bi-plans-pricing
-random_paper: 85
+random_paper: 60
 rate_limits:
 - limit_count: 4
   name: Power Bi Rate Limits
@@ -1051,7 +1072,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:

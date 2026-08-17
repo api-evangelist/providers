@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 22
@@ -264,11 +264,243 @@ apis:
 - description: The Visibility API from OneRail — 4 operation(s) for visibility.
   name: OneRail Visibility API
   slug: onerail-visibility-api
-artifact_total: 82
+artifact_total: 159
 asyncapis:
 - description: ''
   name: Onerail Delivery Events Webhooks
   slug: onerail-delivery-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OneRail Operation Dashboard Api Auth API
+  slug: open-onerail-api-auth-api
+- collection_type: open
+  name: OneRail Delivery Cloud - Delivery Assets API
+  slug: open-onerail-assets-api
+- collection_type: open
+  name: OneRail Operation Dashboard Associated Location API
+  slug: open-onerail-associatedlocation-api
+- collection_type: open
+  name: OneRail Operation Dashboard Authentication API
+  slug: open-onerail-authentication-api
+- collection_type: open
+  name: OneRail Operation Dashboard Blob Storage API API
+  slug: open-onerail-blob-storage-api-api
+- collection_type: open
+  name: OneRail Operation Dashboard Box API
+  slug: open-onerail-box-api
+- collection_type: open
+  name: OneRail Operation Dashboard Bulk Approve SLA Template API
+  slug: open-onerail-bulk-approve-sla-template-api
+- collection_type: open
+  name: OneRail Operation Dashboard Bulk Send SLA Template API
+  slug: open-onerail-bulk-send-sla-template-api
+- collection_type: open
+  name: OneRail Operation Dashboard Bulk Uploads API
+  slug: open-onerail-bulk-uploads-api
+- collection_type: open
+  name: OneRail Operation Dashboard Cancellation Reason API
+  slug: open-onerail-cancellation-reason-api
+- collection_type: open
+  name: OneRail Operation Dashboard Carrier API
+  slug: open-onerail-carrier-api
+- collection_type: open
+  name: OneRail Operation Dashboard Client Users API
+  slug: open-onerail-client-users-api
+- collection_type: open
+  name: OneRail Operation Dashboard Control Tower API
+  slug: open-onerail-controltower-api
+- collection_type: open
+  name: OneRail Operation Dashboard Cost API
+  slug: open-onerail-cost-api
+- collection_type: open
+  name: OneRail Operation Dashboard Decision Weight API
+  slug: open-onerail-decision-weight-api
+- collection_type: open
+  name: OneRail Operation Dashboard Decision Weight Default API
+  slug: open-onerail-decision-weight-default-api
+- collection_type: open
+  name: OneRail Delivery Cloud - Delivery API
+  slug: open-onerail-delivery-api
+- collection_type: open
+  name: OneRail Operation Dashboard Delivery Attempt API
+  slug: open-onerail-delivery-attempt-api
+- collection_type: open
+  name: OneRail Operation Dashboard Delivery Exception API
+  slug: open-onerail-delivery-exception-api
+- collection_type: open
+  name: OneRail Operation Dashboard Delivery Rating API
+  slug: open-onerail-delivery-rating-api
+- collection_type: open
+  name: OneRail Operation Dashboard Delivery Note API
+  slug: open-onerail-deliverynote-api
+- collection_type: open
+  name: OneRail Operation Dashboard Delivery Notification Statuses API
+  slug: open-onerail-deliverynotificationstatuses-api
+- collection_type: open
+  name: OneRail Operation Dashboard Delivery Viewing API
+  slug: open-onerail-deliveryviewing-api
+- collection_type: open
+  name: OneRail Operation Dashboard Dispatch Platform API
+  slug: open-onerail-dispatch-platform-api
+- collection_type: open
+  name: OneRail Operation Dashboard Dispatch Platform Setting API
+  slug: open-onerail-dispatch-platform-setting-api
+- collection_type: open
+  name: OneRail Operation Dashboard DOBO API
+  slug: open-onerail-dobo-api
+- collection_type: open
+  name: OneRail Delivery Cloud - Delivery Documents API
+  slug: open-onerail-documents-api
+- collection_type: open
+  name: OneRail Operation Dashboard Drivers API
+  slug: open-onerail-drivers-api
+- collection_type: open
+  name: OneRail Operation Dashboard Dynamic Routing Config API
+  slug: open-onerail-dynamicroutingconfig-api
+- collection_type: open
+  name: OneRail Operation Dashboard Exception Alert API
+  slug: open-onerail-exception-alert-api
+- collection_type: open
+  name: OneRail Operation Dashboard File Type API
+  slug: open-onerail-file-type-api
+- collection_type: open
+  name: OneRail Operation Dashboard Fleet Assets API
+  slug: open-onerail-fleet-assets-api
+- collection_type: open
+  name: OneRail Operation Dashboard Freight Audit & Pay API
+  slug: open-onerail-freight-audit-pay-api
+- collection_type: open
+  name: Onerail Health Check API
+  slug: open-onerail-healthcheck-api
+- collection_type: open
+  name: OneRail Operation Dashboard Holiday API
+  slug: open-onerail-holiday-api
+- collection_type: open
+  name: Onerail Home API
+  slug: open-onerail-home-api
+- collection_type: open
+  name: OneRail Operation Dashboard Location API
+  slug: open-onerail-location-api
+- collection_type: open
+  name: OneRail Operation Dashboard Locations API
+  slug: open-onerail-locations-api
+- collection_type: open
+  name: OneRail Operation Dashboard LP Contract SLA API
+  slug: open-onerail-lp-contract-sla-api
+- collection_type: open
+  name: OneRail Operation Dashboard LP Market API
+  slug: open-onerail-lp-market-api
+- collection_type: open
+  name: OneRail Operation Dashboard LP Self Onboarding API
+  slug: open-onerail-lp-self-onboarding-api
+- collection_type: open
+  name: OneRail Operation Dashboard Lp Configuration API
+  slug: open-onerail-lpconfiguration-api
+- collection_type: open
+  name: Onerail Manifest API
+  slug: open-onerail-manifest-api
+- collection_type: open
+  name: OneRail Operation Dashboard Market Modifier API
+  slug: open-onerail-market-modifier-api
+- collection_type: open
+  name: OneRail Operation Dashboard Mem Watch API
+  slug: open-onerail-memwatch-api
+- collection_type: open
+  name: OneRail Delivery Cloud - Delivery O Auth2 API
+  slug: open-onerail-oauth2-api
+- collection_type: open
+  name: OneRail Operation Dashboard
+  slug: open-onerail-operations-api
+- collection_type: open
+  name: Onerail Order API
+  slug: open-onerail-order-api
+- collection_type: open
+  name: OneRail Operation Dashboard Organization API
+  slug: open-onerail-organization-api
+- collection_type: open
+  name: OneRail Operation Dashboard Organizations API
+  slug: open-onerail-organizations-api
+- collection_type: open
+  name: OneRail Operation Dashboard Origin Pickup Associations API
+  slug: open-onerail-originpickupassociations-api
+- collection_type: open
+  name: OneRail Operation Dashboard Own Fleet Vehicle API
+  slug: open-onerail-own-fleet-vehicle-api
+- collection_type: open
+  name: OneRail Operation Dashboard Pod Rating API
+  slug: open-onerail-pod-rating-api
+- collection_type: open
+  name: OneRail Operation Dashboard Power Bi API
+  slug: open-onerail-powerbi-api
+- collection_type: open
+  name: OneRail Operation Dashboard Preference API
+  slug: open-onerail-preference-api
+- collection_type: open
+  name: OneRail Operation Dashboard Product API
+  slug: open-onerail-product-api
+- collection_type: open
+  name: OneRail Operation Dashboard Profiler API
+  slug: open-onerail-profiler-api
+- collection_type: open
+  name: OneRail Operation Dashboard Ratecards Market API
+  slug: open-onerail-ratecards-market-api
+- collection_type: open
+  name: OneRail Operation Dashboard Readiness Check API
+  slug: open-onerail-readiness-check-api
+- collection_type: open
+  name: OneRail Operation Dashboard Role API
+  slug: open-onerail-role-api
+- collection_type: open
+  name: OneRail Operation Dashboard Route API
+  slug: open-onerail-route-api
+- collection_type: open
+  name: OneRail Delivery Cloud - Delivery Routes API
+  slug: open-onerail-routes-api
+- collection_type: open
+  name: OneRail Operation Dashboard Route Stop Note API
+  slug: open-onerail-routestopnote-api
+- collection_type: open
+  name: OneRail Operation Dashboard Service Level Exception Conditions API
+  slug: open-onerail-service-level-exception-conditions-api
+- collection_type: open
+  name: OneRail Operation Dashboard Service Level Triggers API
+  slug: open-onerail-service-level-triggers-api
+- collection_type: open
+  name: OneRail Delivery Cloud - Delivery Set Redis Key API
+  slug: open-onerail-set-redis-key-api
+- collection_type: open
+  name: OneRail Operation Dashboard Shipment ID API
+  slug: open-onerail-shipmentid-api
+- collection_type: open
+  name: OneRail Operation Dashboard Shipper Contract API
+  slug: open-onerail-shipper-contract-api
+- collection_type: open
+  name: OneRail Operation Dashboard Shipper Contract SLA API
+  slug: open-onerail-shipper-contract-sla-api
+- collection_type: open
+  name: OneRail Operation Dashboard Shipper Contract SLA Template API
+  slug: open-onerail-shipper-contract-sla-template-api
+- collection_type: open
+  name: OneRail Delivery Cloud - Delivery Shipping Label API
+  slug: open-onerail-shipping-label-api
+- collection_type: open
+  name: OneRail Operation Dashboard Team API
+  slug: open-onerail-team-api
+- collection_type: open
+  name: OneRail Operation Dashboard Uploads API
+  slug: open-onerail-uploads-api
+- collection_type: open
+  name: Onerail User API
+  slug: open-onerail-user-api
+- collection_type: open
+  name: OneRail Operation Dashboard Vehicle Status API
+  slug: open-onerail-vehicle-status-api
+- collection_type: open
+  name: Onerail Visibility API
+  slug: open-onerail-visibility-api
 common:
 - group: agent
   title: ''
@@ -402,7 +634,7 @@ overview: 'OneRail publishes 75 APIs on the [APIs.io](https://apis.io/) network,
 
 
   OneRail''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
-random_paper: 26
+random_paper: 1
 scopes:
 - name: Onerail Scopes
   scope_count: 0
@@ -431,7 +663,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/screenshots/onerail-2026-08-07T190340.png
 security:

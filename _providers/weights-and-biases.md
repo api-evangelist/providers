@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -72,8 +72,38 @@ apis:
 - description: The Tables API from Weights & Biases — 4 operation(s) for tables.
   name: Weights & Biases Tables API
   slug: weights-and-biases-tables-api
-artifact_total: 20
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast Calls API
+  slug: open-weights-and-biases-calls-api
+- collection_type: open
+  name: Fast Calls Costs API
+  slug: open-weights-and-biases-costs-api
+- collection_type: open
+  name: Fast Calls Feedback API
+  slug: open-weights-and-biases-feedback-api
+- collection_type: open
+  name: Fast Calls Files API
+  slug: open-weights-and-biases-files-api
+- collection_type: open
+  name: Fast Calls Objects API
+  slug: open-weights-and-biases-objects-api
+- collection_type: open
+  name: Fast Calls Refs API
+  slug: open-weights-and-biases-refs-api
+- collection_type: open
+  name: Fast Calls Service API
+  slug: open-weights-and-biases-service-api
+- collection_type: open
+  name: Fast Calls Table API
+  slug: open-weights-and-biases-table-api
+- collection_type: open
+  name: Fast Calls Tables API
+  slug: open-weights-and-biases-tables-api
 - collection_type: open
   name: FastAPI
   slug: open-weights-and-biases
@@ -150,7 +180,7 @@ plans:
 - name: Weights And Biases Plans Pricing
   plan_count: 1
   slug: weights-and-biases-plans-pricing
-random_paper: 111
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Weights And Biases Rate Limits
@@ -175,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/screenshots/weights-and-biases-2026-06-20T201349.png
 security:

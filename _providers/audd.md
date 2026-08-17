@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Recognition API from AudD — 2 operation(s) for recognition.
   name: AudD Recognition API
   slug: audd-recognition-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AudD Music Recognition Lyrics API
+  slug: open-audd-lyrics-api
+- collection_type: open
+  name: AudD Music Lyrics Recognition API
+  slug: open-audd-recognition-api
 - collection_type: open
   name: AudD Music Recognition API
   slug: open-audd
@@ -111,7 +120,7 @@ plans:
 - name: Audd Plans Pricing
   plan_count: 4
   slug: audd-plans-pricing
-random_paper: 54
+random_paper: 116
 rate_limits:
 - limit_count: 4
   name: Audd Rate Limits
@@ -136,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/screenshots/audd-2026-07-25T201708.png
 security:

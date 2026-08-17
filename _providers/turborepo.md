@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: Operations for managing cache artifacts
   name: Turborepo artifacts API
   slug: turborepo-artifacts-api
-artifact_total: 28
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Turborepo Remote Cache analytics API
+  slug: open-turborepo-analytics-api
+- collection_type: open
+  name: Turborepo Remote Cache analytics artifacts API
+  slug: open-turborepo-artifacts-api
 - collection_type: open
   name: Turborepo Remote Cache API
   slug: open-turborepo-remote-cache-api
@@ -220,7 +229,7 @@ overview: 'Turborepo publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Turborepo''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, code examples, and 26 more developer resources.'
-random_paper: 34
+random_paper: 100
 score:
   band: thin
   composite: 36.6
@@ -241,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/screenshots/turborepo-2026-06-20T195834.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: Vehicles featured in Studio Ghibli films.
   name: Studio Ghibli Vehicles API
   slug: studio-ghibli-vehicles-api
-artifact_total: 48
+artifact_total: 54
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Studio Ghibli Films API
+  slug: open-studio-ghibli-films-api
+- collection_type: open
+  name: Studio Ghibli Films Locations API
+  slug: open-studio-ghibli-locations-api
+- collection_type: open
+  name: Studio Ghibli Films People API
+  slug: open-studio-ghibli-people-api
+- collection_type: open
+  name: Studio Ghibli Films Species API
+  slug: open-studio-ghibli-species-api
+- collection_type: open
+  name: Studio Ghibli Films Vehicles API
+  slug: open-studio-ghibli-vehicles-api
 - collection_type: open
   name: Studio Ghibli API
   slug: open-studio-ghibli
@@ -246,7 +264,7 @@ plans:
 - name: Studio Ghibli Plans Pricing
   plan_count: 1
   slug: studio-ghibli-plans-pricing
-random_paper: 12
+random_paper: 140
 rate_limits:
 - limit_count: 1
   name: Studio Ghibli Rate Limits
@@ -288,7 +306,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/screenshots/studio-ghibli-2026-06-20T194625.png
 security:

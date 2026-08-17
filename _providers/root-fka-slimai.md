@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -98,11 +98,75 @@ apis:
 - description: The Webhooks API from Root (fka Slim.ai) — 3 operation(s) for webhooks.
   name: Root (fka Slim.ai) Webhooks API
   slug: root-fka-slimai-webhooks-api
-artifact_total: 27
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Root Fka Slimai Webhooks
   slug: root-fka-slimai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Root.io Accounts API
+  slug: open-root-fka-slimai-accounts-api
+- collection_type: open
+  name: Root.io Accounts API Keys API
+  slug: open-root-fka-slimai-api-keys-api
+- collection_type: open
+  name: Root.io Accounts Authentication API
+  slug: open-root-fka-slimai-authentication-api
+- collection_type: open
+  name: Root.io Accounts AVR API
+  slug: open-root-fka-slimai-avr-api
+- collection_type: open
+  name: Root.io Accounts Billing API
+  slug: open-root-fka-slimai-billing-api
+- collection_type: open
+  name: Root.io Accounts Core - Discovered Packages V3 API
+  slug: open-root-fka-slimai-core-discovered-packages-v3-api
+- collection_type: open
+  name: Root.io Accounts CveFeed API
+  slug: open-root-fka-slimai-cvefeed-api
+- collection_type: open
+  name: Root.io Accounts Discovery API
+  slug: open-root-fka-slimai-discovery-api
+- collection_type: open
+  name: Root.io Accounts Invitations API
+  slug: open-root-fka-slimai-invitations-api
+- collection_type: open
+  name: Root.io Accounts Notifications API
+  slug: open-root-fka-slimai-notifications-api
+- collection_type: open
+  name: Root.io Accounts Organizations API
+  slug: open-root-fka-slimai-organizations-api
+- collection_type: open
+  name: Root.io Accounts OSVFeed API
+  slug: open-root-fka-slimai-osvfeed-api
+- collection_type: open
+  name: Root.io Accounts Package API
+  slug: open-root-fka-slimai-package-api
+- collection_type: open
+  name: Root.io Accounts Patches API
+  slug: open-root-fka-slimai-patches-api
+- collection_type: open
+  name: Root.io Accounts PatchFeed API
+  slug: open-root-fka-slimai-patchfeed-api
+- collection_type: open
+  name: Root.io Accounts Remediation API
+  slug: open-root-fka-slimai-remediation-api
+- collection_type: open
+  name: Root.io Accounts Security Findings API
+  slug: open-root-fka-slimai-security-findings-api
+- collection_type: open
+  name: Root.io Accounts Subscriptions API
+  slug: open-root-fka-slimai-subscriptions-api
+- collection_type: open
+  name: Root.io Accounts System Matrix API
+  slug: open-root-fka-slimai-system-matrix-api
+- collection_type: open
+  name: Root.io Accounts Webhooks API
+  slug: open-root-fka-slimai-webhooks-api
 common:
 - group: other
   title: ''
@@ -247,7 +311,7 @@ overview: 'Root (fka Slim.ai) publishes 20 APIs on the [APIs.io](https://apis.io
 
 
   Root (fka Slim.ai)''s developer surface includes authentication, changelog, CLI, documentation, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 47
+random_paper: 146
 score:
   band: developing
   composite: 51.7
@@ -271,7 +335,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

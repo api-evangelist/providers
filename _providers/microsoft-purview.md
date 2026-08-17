@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -223,7 +223,7 @@ arazzos:
 - description: Search for an asset, read its entity, then walk its lineage graph with pagination.
   name: Microsoft Purview Trace Data Asset Lineage
   slug: microsoft-purview-trace-asset-lineage-workflow
-artifact_total: 235
+artifact_total: 279
 collections:
 - collection_type: postman
   name: Microsoft Purview Account API
@@ -262,14 +262,53 @@ collections:
   name: Microsoft Purview Workflow API
   slug: postman-microsoft-purview-workflow
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Microsoft Purview Account API
   slug: open-microsoft-purview-account
+- collection_type: open
+  name: Microsoft Purview Account Accounts API
+  slug: open-microsoft-purview-accounts-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Approval API
+  slug: open-microsoft-purview-approval-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Business Domains API
+  slug: open-microsoft-purview-business-domains-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Cases API
+  slug: open-microsoft-purview-cases-api
 - collection_type: open
   name: Microsoft Purview Catalog API
   slug: open-microsoft-purview-catalog
 - collection_type: open
+  name: Microsoft Purview Account Accounts Classification Rules API
+  slug: open-microsoft-purview-classification-rules-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Critical Data Elements API
+  slug: open-microsoft-purview-critical-data-elements-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Custodians API
+  slug: open-microsoft-purview-custodians-api
+- collection_type: open
   name: Microsoft Purview Data Map API
   slug: open-microsoft-purview-data-map
+- collection_type: open
+  name: Microsoft Purview Account Accounts Data Products API
+  slug: open-microsoft-purview-data-products-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Data Profiling API
+  slug: open-microsoft-purview-data-profiling-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Data Quality Rules API
+  slug: open-microsoft-purview-data-quality-rules-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Data Quality Scans API
+  slug: open-microsoft-purview-data-quality-scans-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Data Quality Scores API
+  slug: open-microsoft-purview-data-quality-scores-api
 - collection_type: open
   name: Microsoft Purview Data Quality API
   slug: open-microsoft-purview-data-quality
@@ -277,26 +316,119 @@ collections:
   name: Microsoft Purview Data Security and Governance API
   slug: open-microsoft-purview-data-security-governance
 - collection_type: open
+  name: Microsoft Purview Account Accounts Data Sources API
+  slug: open-microsoft-purview-data-sources-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Discovery API
+  slug: open-microsoft-purview-discovery-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts DLP Policies API
+  slug: open-microsoft-purview-dlp-policies-api
+- collection_type: open
   name: Microsoft Purview eDiscovery API
   slug: open-microsoft-purview-ediscovery
+- collection_type: open
+  name: Microsoft Purview Account Accounts Entity API
+  slug: open-microsoft-purview-entity-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Glossary API
+  slug: open-microsoft-purview-glossary-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Glossary Terms API
+  slug: open-microsoft-purview-glossary-terms-api
 - collection_type: open
   name: Microsoft Purview Information Protection API
   slug: open-microsoft-purview-information-protection
 - collection_type: open
+  name: Microsoft Purview Account Accounts Label Policy Settings API
+  slug: open-microsoft-purview-label-policy-settings-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Legal Holds API
+  slug: open-microsoft-purview-legal-holds-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Lineage API
+  slug: open-microsoft-purview-lineage-api
+- collection_type: open
   name: Microsoft Purview Metadata Policies API
   slug: open-microsoft-purview-metadata-policies
+- collection_type: open
+  name: Microsoft Purview Account Accounts Metadata Policy API
+  slug: open-microsoft-purview-metadata-policy-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Metadata Roles API
+  slug: open-microsoft-purview-metadata-roles-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts OKRs API
+  slug: open-microsoft-purview-okrs-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Operations API
+  slug: open-microsoft-purview-operations-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Private Endpoint Connections API
+  slug: open-microsoft-purview-private-endpoint-connections-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Protection Scopes API
+  slug: open-microsoft-purview-protection-scopes-api
 - collection_type: open
   name: Microsoft Purview Records Management API
   slug: open-microsoft-purview-records-management
 - collection_type: open
+  name: Microsoft Purview Account Accounts Relationship API
+  slug: open-microsoft-purview-relationship-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Retention Event Types API
+  slug: open-microsoft-purview-retention-event-types-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Retention Events API
+  slug: open-microsoft-purview-retention-events-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Retention Labels API
+  slug: open-microsoft-purview-retention-labels-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Scan Result API
+  slug: open-microsoft-purview-scan-result-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Scan Rulesets API
+  slug: open-microsoft-purview-scan-rulesets-api
+- collection_type: open
   name: Microsoft Purview Scanning API
   slug: open-microsoft-purview-scanning
+- collection_type: open
+  name: Microsoft Purview Account Accounts Scans API
+  slug: open-microsoft-purview-scans-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Searches API
+  slug: open-microsoft-purview-searches-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Sensitivity Labels API
+  slug: open-microsoft-purview-sensitivity-labels-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Triggers API
+  slug: open-microsoft-purview-triggers-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Type API
+  slug: open-microsoft-purview-type-api
 - collection_type: open
   name: Microsoft Purview Unified Catalog API
   slug: open-microsoft-purview-unified-catalog
 - collection_type: open
+  name: Microsoft Purview Account Accounts User Requests API
+  slug: open-microsoft-purview-user-requests-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Workflow API
+  slug: open-microsoft-purview-workflow-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Workflow Run API
+  slug: open-microsoft-purview-workflow-run-api
+- collection_type: open
+  name: Microsoft Purview Account Accounts Workflow Task API
+  slug: open-microsoft-purview-workflow-task-api
+- collection_type: open
   name: Microsoft Purview Workflow API
   slug: open-microsoft-purview-workflow
+- collection_type: open
+  name: Microsoft Purview Account Accounts Workflows API
+  slug: open-microsoft-purview-workflows-api
 common:
 - group: agent
   title: ''
@@ -1009,7 +1141,7 @@ plans:
 - name: Microsoft Purview Plans Pricing
   plan_count: 4
   slug: microsoft-purview-plans-pricing
-random_paper: 13
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Microsoft Purview Rate Limits
@@ -1050,7 +1182,7 @@ score:
       total: 44
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/screenshots/microsoft-purview-2026-06-20T185528.png
 security:

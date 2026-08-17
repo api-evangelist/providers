@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 1
@@ -156,8 +156,128 @@ apis:
 - description: Interact with and view information about users.
   name: NetBird Users API
   slug: netbird-users-api
-artifact_total: 46
+artifact_total: 86
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NetBird REST Accounts API
+  slug: open-netbird-accounts-api
+- collection_type: open
+  name: NetBird REST Accounts AWS Marketplace API
+  slug: open-netbird-aws-marketplace-api
+- collection_type: open
+  name: NetBird REST Accounts Checkout API
+  slug: open-netbird-checkout-api
+- collection_type: open
+  name: NetBird REST Accounts DNS API
+  slug: open-netbird-dns-api
+- collection_type: open
+  name: NetBird REST Accounts DNS Zones API
+  slug: open-netbird-dns-zones-api
+- collection_type: open
+  name: NetBird REST Accounts EDR Falcon Integrations API
+  slug: open-netbird-edr-falcon-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts EDR FleetDM Integrations API
+  slug: open-netbird-edr-fleetdm-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts EDR Huntress Integrations API
+  slug: open-netbird-edr-huntress-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts EDR Intune Integrations API
+  slug: open-netbird-edr-intune-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts EDR Peers API
+  slug: open-netbird-edr-peers-api
+- collection_type: open
+  name: NetBird REST Accounts EDR SentinelOne Integrations API
+  slug: open-netbird-edr-sentinelone-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts Event Streaming Integrations API
+  slug: open-netbird-event-streaming-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts Events API
+  slug: open-netbird-events-api
+- collection_type: open
+  name: NetBird REST Accounts Geo Locations API
+  slug: open-netbird-geo-locations-api
+- collection_type: open
+  name: NetBird REST Accounts Groups API
+  slug: open-netbird-groups-api
+- collection_type: open
+  name: NetBird REST Accounts Identity Providers API
+  slug: open-netbird-identity-providers-api
+- collection_type: open
+  name: NetBird REST Accounts IDP Azure Integrations API
+  slug: open-netbird-idp-azure-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts IDP Google Integrations API
+  slug: open-netbird-idp-google-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts IDP Okta SCIM Integrations API
+  slug: open-netbird-idp-okta-scim-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts IDP SCIM Integrations API
+  slug: open-netbird-idp-scim-integrations-api
+- collection_type: open
+  name: NetBird REST Accounts Ingress Ports API
+  slug: open-netbird-ingress-ports-api
+- collection_type: open
+  name: NetBird REST Accounts Instance API
+  slug: open-netbird-instance-api
+- collection_type: open
+  name: NetBird REST Accounts Invoice API
+  slug: open-netbird-invoice-api
+- collection_type: open
+  name: NetBird REST Accounts Jobs API
+  slug: open-netbird-jobs-api
+- collection_type: open
+  name: NetBird REST Accounts MSP API
+  slug: open-netbird-msp-api
+- collection_type: open
+  name: NetBird REST Accounts Networks API
+  slug: open-netbird-networks-api
+- collection_type: open
+  name: NetBird REST Accounts Notifications API
+  slug: open-netbird-notifications-api
+- collection_type: open
+  name: NetBird REST Accounts Peers API
+  slug: open-netbird-peers-api
+- collection_type: open
+  name: NetBird REST Accounts Plans API
+  slug: open-netbird-plans-api
+- collection_type: open
+  name: NetBird REST Accounts Policies API
+  slug: open-netbird-policies-api
+- collection_type: open
+  name: NetBird REST Accounts Portal API
+  slug: open-netbird-portal-api
+- collection_type: open
+  name: NetBird REST Accounts Posture Checks API
+  slug: open-netbird-posture-checks-api
+- collection_type: open
+  name: NetBird REST Accounts Routes API
+  slug: open-netbird-routes-api
+- collection_type: open
+  name: NetBird REST Accounts Services API
+  slug: open-netbird-services-api
+- collection_type: open
+  name: NetBird REST Accounts Setup Keys API
+  slug: open-netbird-setup-keys-api
+- collection_type: open
+  name: NetBird REST Accounts Subscription API
+  slug: open-netbird-subscription-api
+- collection_type: open
+  name: NetBird REST Accounts Tokens API
+  slug: open-netbird-tokens-api
+- collection_type: open
+  name: NetBird REST Accounts Usage API
+  slug: open-netbird-usage-api
+- collection_type: open
+  name: NetBird REST Accounts Users API
+  slug: open-netbird-users-api
 - collection_type: open
   name: NetBird REST API
   slug: open-netbird
@@ -222,7 +342,7 @@ plans:
 - name: Netbird Plans Pricing
   plan_count: 3
   slug: netbird-plans-pricing
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Netbird Rate Limits
@@ -247,7 +367,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbird/refs/heads/main/screenshots/netbird-2026-06-20T190148.png
 security:

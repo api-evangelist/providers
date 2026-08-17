@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
 - description: Users operations
   name: Thinkific Users API
   slug: thinkific-users-api
-artifact_total: 66
+artifact_total: 89
 collections:
 - collection_type: postman
   name: Thinkific Admin Bundles API
@@ -179,6 +179,75 @@ collections:
 - collection_type: postman
   name: Thinkific Admin Bundles Webhooks API
   slug: postman-thinkific-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thinkific Admin Bundles API
+  slug: open-thinkific-bundles-api
+- collection_type: open
+  name: Thinkific Admin Bundles Categories API
+  slug: open-thinkific-categories-api
+- collection_type: open
+  name: Thinkific Admin Bundles Category Memberships API
+  slug: open-thinkific-category-memberships-api
+- collection_type: open
+  name: Thinkific Admin Bundles Chapters API
+  slug: open-thinkific-chapters-api
+- collection_type: open
+  name: Thinkific Admin Bundles Contents API
+  slug: open-thinkific-contents-api
+- collection_type: open
+  name: Thinkific Admin Bundles Coupons API
+  slug: open-thinkific-coupons-api
+- collection_type: open
+  name: Thinkific Admin Bundles Courses API
+  slug: open-thinkific-courses-api
+- collection_type: open
+  name: Thinkific Admin Bundles Custom Profile Field Definitions API
+  slug: open-thinkific-custom-profile-field-definitions-api
+- collection_type: open
+  name: Thinkific Admin Bundles Enrollments API
+  slug: open-thinkific-enrollments-api
+- collection_type: open
+  name: Thinkific Admin Bundles Events API
+  slug: open-thinkific-events-api
+- collection_type: open
+  name: Thinkific Admin Bundles External Orders API
+  slug: open-thinkific-external-orders-api
+- collection_type: open
+  name: Thinkific Admin Bundles Group Analysts API
+  slug: open-thinkific-group-analysts-api
+- collection_type: open
+  name: Thinkific Admin Bundles Group Users API
+  slug: open-thinkific-group-users-api
+- collection_type: open
+  name: Thinkific Admin Bundles Groups API
+  slug: open-thinkific-groups-api
+- collection_type: open
+  name: Thinkific Admin Bundles Instructors API
+  slug: open-thinkific-instructors-api
+- collection_type: open
+  name: Thinkific Admin Bundles Orders API
+  slug: open-thinkific-orders-api
+- collection_type: open
+  name: Thinkific Admin Bundles Product Publish Request API
+  slug: open-thinkific-product-publish-request-api
+- collection_type: open
+  name: Thinkific Admin Bundles Products API
+  slug: open-thinkific-products-api
+- collection_type: open
+  name: Thinkific Admin Bundles Promotions API
+  slug: open-thinkific-promotions-api
+- collection_type: open
+  name: Thinkific Admin Bundles Site Scripts API
+  slug: open-thinkific-site-scripts-api
+- collection_type: open
+  name: Thinkific Admin Bundles Users API
+  slug: open-thinkific-users-api
+- collection_type: open
+  name: Thinkific Admin Bundles Webhooks API
+  slug: open-thinkific-webhooks-api
 common:
 - group: build
   title: ''
@@ -326,7 +395,7 @@ plans:
 - name: Thinkific Plans Pricing
   plan_count: 4
   slug: thinkific-plans-pricing
-random_paper: 113
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Thinkific Rate Limits
@@ -360,7 +429,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/screenshots/thinkific-2026-06-20T195305.png
 security:

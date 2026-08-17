@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 182
   human_in_the_loop: 3
@@ -116,17 +116,95 @@ apis:
 - description: The Webhook Endpoints API from Scalr — 2 operation(s) for webhook endpoints.
   name: Scalr Webhook Endpoints API
   slug: scalr-webhook-endpoints-api
-artifact_total: 42
+artifact_total: 68
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Scalr Account API
   slug: open-scalr-account
 - collection_type: open
+  name: Scalr Account Acl Roles API
+  slug: open-scalr-acl-roles-api
+- collection_type: open
+  name: Scalr Account Acl Roles Ansible Tower API
+  slug: open-scalr-ansible-tower-api
+- collection_type: open
+  name: Scalr Account Acl Roles Cloud Credentials API
+  slug: open-scalr-cloud-credentials-api
+- collection_type: open
+  name: Scalr Account Acl Roles Clouds API
+  slug: open-scalr-clouds-api
+- collection_type: open
+  name: Scalr Account Acl Roles Cost Centers API
+  slug: open-scalr-cost-centers-api
+- collection_type: open
+  name: Scalr Account Acl Roles Environments API
+  slug: open-scalr-environments-api
+- collection_type: open
+  name: Scalr Account Acl Roles Event Logs API
+  slug: open-scalr-event-logs-api
+- collection_type: open
+  name: Scalr Account Acl Roles Events API
+  slug: open-scalr-events-api
+- collection_type: open
+  name: Scalr Account Acl Roles Farm Roles API
+  slug: open-scalr-farm-roles-api
+- collection_type: open
+  name: Scalr Account Acl Roles Farms API
+  slug: open-scalr-farms-api
+- collection_type: open
+  name: Scalr Account Acl Roles Global Variables API
+  slug: open-scalr-global-variables-api
+- collection_type: open
   name: Scalr Global API
   slug: open-scalr-global
 - collection_type: open
+  name: Scalr Account Acl Roles Images API
+  slug: open-scalr-images-api
+- collection_type: open
+  name: Scalr Account Acl Roles Orchestration Logs API
+  slug: open-scalr-orchestration-logs-api
+- collection_type: open
+  name: Scalr Account Acl Roles Orchestration Rules API
+  slug: open-scalr-orchestration-rules-api
+- collection_type: open
+  name: Scalr Account Acl Roles Os API
+  slug: open-scalr-os-api
+- collection_type: open
+  name: Scalr Account Acl Roles Projects API
+  slug: open-scalr-projects-api
+- collection_type: open
+  name: Scalr Account Acl Roles Role Categories API
+  slug: open-scalr-role-categories-api
+- collection_type: open
+  name: Scalr Account Acl Roles API
+  slug: open-scalr-roles-api
+- collection_type: open
+  name: Scalr Account Acl Roles Scaling Metrics API
+  slug: open-scalr-scaling-metrics-api
+- collection_type: open
+  name: Scalr Account Acl Roles Script Executions API
+  slug: open-scalr-script-executions-api
+- collection_type: open
+  name: Scalr Account Acl Roles Scripts API
+  slug: open-scalr-scripts-api
+- collection_type: open
+  name: Scalr Account Acl Roles Servers API
+  slug: open-scalr-servers-api
+- collection_type: open
+  name: Scalr Account Acl Roles Teams API
+  slug: open-scalr-teams-api
+- collection_type: open
   name: Scalr User API
   slug: open-scalr-user
+- collection_type: open
+  name: Scalr Account Acl Roles Users API
+  slug: open-scalr-users-api
+- collection_type: open
+  name: Scalr Account Acl Roles Webhook Endpoints API
+  slug: open-scalr-webhook-endpoints-api
 common:
 - group: agent
   title: ''
@@ -246,7 +324,7 @@ plans:
 - name: Scalr Plans Pricing
   plan_count: 2
   slug: scalr-plans-pricing
-random_paper: 53
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Scalr Rate Limits
@@ -294,7 +372,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/screenshots/scalr-2026-06-20T193608.png
 security:

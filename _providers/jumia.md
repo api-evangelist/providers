@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -172,7 +172,7 @@ overview: 'Jumia is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jumia''s developer surface includes GitHub presence, engineering blog, YouTube channel, and 29 more developer resources.'
-random_paper: 54
+random_paper: 87
 score:
   band: minimal
   composite: 8.8
@@ -192,7 +192,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumia/refs/heads/main/screenshots/jumia-2026-06-20T183828.png
 security:

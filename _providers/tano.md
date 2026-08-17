@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,7 +43,26 @@ apis:
 - description: Webinar and event registrations.
   name: Tano Events API
   slug: tano-events-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tano Public Brand Signups API
+  slug: open-tano-brand-signups-api
+- collection_type: open
+  name: Tano Public Brand Signups Contact API
+  slug: open-tano-contact-api
+- collection_type: open
+  name: Tano Public Brand Signups Creator Signups API
+  slug: open-tano-creator-signups-api
+- collection_type: open
+  name: Tano Public Brand Signups Discovery API
+  slug: open-tano-discovery-api
+- collection_type: open
+  name: Tano Public Brand Signups Events API
+  slug: open-tano-events-api
 common:
 - group: agent
   title: ''
@@ -77,7 +96,7 @@ name: Tano
 nav: Providers
 network: true
 overview: Tano publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Brand Signups API, Contact API, Creator Signups API, and 2 more. Tagged areas include Company.
-random_paper: 74
+random_paper: 136
 score:
   band: emerging
   composite: 21.6
@@ -101,7 +120,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

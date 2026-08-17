@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Document generation utilities
   name: ApyHub Generate API
   slug: apyhub-generate-api
-artifact_total: 16
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ApyHub Convert API
+  slug: open-apyhub-convert-api
+- collection_type: open
+  name: ApyHub Convert Currency API
+  slug: open-apyhub-currency-api
+- collection_type: open
+  name: ApyHub Convert Extract API
+  slug: open-apyhub-extract-api
+- collection_type: open
+  name: ApyHub Convert Generate API
+  slug: open-apyhub-generate-api
 common:
 - group: agent
   title: ''
@@ -137,7 +153,7 @@ plans:
 - name: Apyhub Plans Pricing
   plan_count: 3
   slug: apyhub-plans-pricing
-random_paper: 49
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Apyhub Rate Limits
@@ -185,7 +201,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/screenshots/apyhub-2026-06-20T172345.png
 security:

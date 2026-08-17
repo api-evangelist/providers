@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Worker queue metrics
   name: Activepieces Worker Machines API
   slug: activepieces-worker-machines-api
-artifact_total: 134
+artifact_total: 144
 collections:
 - collection_type: postman
   name: Activepieces Connections API
@@ -95,6 +95,36 @@ collections:
 - collection_type: postman
   name: Activepieces Connections Worker Machines API
   slug: postman-activepieces-worker-machines-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Activepieces Connections API
+  slug: open-activepieces-connections-api
+- collection_type: open
+  name: Activepieces Connections Flow Runs API
+  slug: open-activepieces-flow-runs-api
+- collection_type: open
+  name: Activepieces Connections Flows API
+  slug: open-activepieces-flows-api
+- collection_type: open
+  name: Activepieces Connections Folders API
+  slug: open-activepieces-folders-api
+- collection_type: open
+  name: Activepieces Connections Pieces API
+  slug: open-activepieces-pieces-api
+- collection_type: open
+  name: Activepieces Connections Projects API
+  slug: open-activepieces-projects-api
+- collection_type: open
+  name: Activepieces Connections Templates API
+  slug: open-activepieces-templates-api
+- collection_type: open
+  name: Activepieces Connections Users API
+  slug: open-activepieces-users-api
+- collection_type: open
+  name: Activepieces Connections Worker Machines API
+  slug: open-activepieces-worker-machines-api
 - collection_type: open
   name: Activepieces API
   slug: open-activepieces
@@ -485,7 +515,7 @@ plans:
 - name: Activepieces Plans Pricing
   plan_count: 3
   slug: activepieces-plans-pricing
-random_paper: 69
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Activepieces Rate Limits
@@ -527,7 +557,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/screenshots/activepieces-2026-06-20T164235.png
 security:

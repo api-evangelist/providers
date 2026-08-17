@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -105,12 +105,78 @@ apis:
 - description: The User Tenants API from Courier — 2 operation(s) for user tenants.
   name: Courier User Tenants API
   slug: courier-user-tenants-api
-artifact_total: 33
+artifact_total: 55
 asyncapis:
 - description: AsyncAPI definition for Courier's Inbox WebSocket service used by the Courier client SDKs (JS, React, React Native, iOS, Android, Flutter, Web Components) to receive real-time, in-app notification eve
   name: Courier Inbox Real-Time API
   slug: courier-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Courier Audiences API
+  slug: open-courier-audiences-api
+- collection_type: open
+  name: Courier Audiences Audit Events API
+  slug: open-courier-audit-events-api
+- collection_type: open
+  name: Courier Audiences Authentication API
+  slug: open-courier-authentication-api
+- collection_type: open
+  name: Courier Audiences Automations API
+  slug: open-courier-automations-api
+- collection_type: open
+  name: Courier Audiences Brands API
+  slug: open-courier-brands-api
+- collection_type: open
+  name: Courier Audiences Bulk API
+  slug: open-courier-bulk-api
+- collection_type: open
+  name: Courier Audiences Courier Create API
+  slug: open-courier-courier-create-api
+- collection_type: open
+  name: Courier Audiences Device Tokens API
+  slug: open-courier-device-tokens-api
+- collection_type: open
+  name: Courier Audiences Inbound API
+  slug: open-courier-inbound-api
+- collection_type: open
+  name: Courier Audiences Journeys API
+  slug: open-courier-journeys-api
+- collection_type: open
+  name: Courier Audiences Lists API
+  slug: open-courier-lists-api
+- collection_type: open
+  name: Courier Audiences Notification Templates API
+  slug: open-courier-notification-templates-api
+- collection_type: open
+  name: Courier Audiences Providers API
+  slug: open-courier-providers-api
+- collection_type: open
+  name: Courier Audiences Routing Strategies API
+  slug: open-courier-routing-strategies-api
+- collection_type: open
+  name: Courier Audiences Send API
+  slug: open-courier-send-api
+- collection_type: open
+  name: Courier Audiences Sent Messages API
+  slug: open-courier-sent-messages-api
+- collection_type: open
+  name: Courier Audiences Tenants API
+  slug: open-courier-tenants-api
+- collection_type: open
+  name: Courier Audiences Translations API
+  slug: open-courier-translations-api
+- collection_type: open
+  name: Courier Audiences User Preferences API
+  slug: open-courier-user-preferences-api
+- collection_type: open
+  name: Courier Audiences User Profiles API
+  slug: open-courier-user-profiles-api
+- collection_type: open
+  name: Courier Audiences User Tenants API
+  slug: open-courier-user-tenants-api
 - collection_type: open
   name: Courier
   slug: open-courier
@@ -186,7 +252,7 @@ plans:
 - name: Courier Plans Pricing
   plan_count: 1
   slug: courier-plans-pricing
-random_paper: 41
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Courier Rate Limits
@@ -226,7 +292,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/screenshots/courier-2026-06-20T175109.png
 security:

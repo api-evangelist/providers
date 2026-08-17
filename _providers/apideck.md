@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ apis:
 - description: A User represents a CRM team member, including name, email, role, status, and associated permissions within the system.
   name: Apideck Users API
   slug: apideck-users-api
-artifact_total: 903
+artifact_total: 957
 collections:
 - collection_type: postman
   name: Apideck Accounting Activities API
@@ -352,17 +352,179 @@ collections:
   name: Apideck Accounting Activities Users API
   slug: postman-apideck-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Apideck Accounting API
   slug: open-apideck-accounting
+- collection_type: open
+  name: Apideck Accounting Activities API
+  slug: open-apideck-activities-api
+- collection_type: open
+  name: Apideck Accounting Activities Aged Creditors API
+  slug: open-apideck-aged-creditors-api
+- collection_type: open
+  name: Apideck Accounting Activities Aged Debtors API
+  slug: open-apideck-aged-debtors-api
+- collection_type: open
+  name: Apideck Accounting Activities Attachments API
+  slug: open-apideck-attachments-api
+- collection_type: open
+  name: Apideck Accounting Activities Balance Sheet API
+  slug: open-apideck-balance-sheet-api
+- collection_type: open
+  name: Apideck Accounting Activities Bank Accounts API
+  slug: open-apideck-bank-accounts-api
+- collection_type: open
+  name: Apideck Accounting Activities Bank Feed Accounts API
+  slug: open-apideck-bank-feed-accounts-api
+- collection_type: open
+  name: Apideck Accounting Activities Bank Feed Statements API
+  slug: open-apideck-bank-feed-statements-api
+- collection_type: open
+  name: Apideck Accounting Activities Bill Payments API
+  slug: open-apideck-bill-payments-api
+- collection_type: open
+  name: Apideck Accounting Activities Bills API
+  slug: open-apideck-bills-api
+- collection_type: open
+  name: Apideck Accounting Activities Categories API
+  slug: open-apideck-categories-api
+- collection_type: open
+  name: Apideck Accounting Activities Companies API
+  slug: open-apideck-companies-api
+- collection_type: open
+  name: Apideck Accounting Activities Company Info API
+  slug: open-apideck-company-info-api
+- collection_type: open
+  name: Apideck Accounting Activities Contacts API
+  slug: open-apideck-contacts-api
+- collection_type: open
+  name: Apideck Accounting Activities Credit Notes API
+  slug: open-apideck-credit-notes-api
 - collection_type: open
   name: Apideck CRM API
   slug: open-apideck-crm
 - collection_type: open
+  name: Apideck Accounting Activities Custom Object Schemas API
+  slug: open-apideck-custom-object-schemas-api
+- collection_type: open
+  name: Apideck Accounting Activities Custom Objects API
+  slug: open-apideck-custom-objects-api
+- collection_type: open
+  name: Apideck Accounting Activities Customers API
+  slug: open-apideck-customers-api
+- collection_type: open
+  name: Apideck Accounting Activities Departments API
+  slug: open-apideck-departments-api
+- collection_type: open
+  name: Apideck Accounting Activities Drive Groups API
+  slug: open-apideck-drive-groups-api
+- collection_type: open
+  name: Apideck Accounting Activities Drives API
+  slug: open-apideck-drives-api
+- collection_type: open
+  name: Apideck Accounting Activities Employee Payrolls API
+  slug: open-apideck-employee-payrolls-api
+- collection_type: open
+  name: Apideck Accounting Activities Employee Schedules API
+  slug: open-apideck-employee-schedules-api
+- collection_type: open
+  name: Apideck Accounting Activities Employees API
+  slug: open-apideck-employees-api
+- collection_type: open
+  name: Apideck Accounting Activities Expense Categories API
+  slug: open-apideck-expense-categories-api
+- collection_type: open
+  name: Apideck Accounting Activities Expense Reports API
+  slug: open-apideck-expense-reports-api
+- collection_type: open
+  name: Apideck Accounting Activities Expenses API
+  slug: open-apideck-expenses-api
+- collection_type: open
   name: Apideck File storage API
   slug: open-apideck-file-storage
 - collection_type: open
+  name: Apideck Accounting Activities Files API
+  slug: open-apideck-files-api
+- collection_type: open
+  name: Apideck Accounting Activities Folders API
+  slug: open-apideck-folders-api
+- collection_type: open
   name: Apideck HRIS API
   slug: open-apideck-hris
+- collection_type: open
+  name: Apideck Accounting Activities Invoice Items API
+  slug: open-apideck-invoice-items-api
+- collection_type: open
+  name: Apideck Accounting Activities Invoices API
+  slug: open-apideck-invoices-api
+- collection_type: open
+  name: Apideck Accounting Activities Journal Entries API
+  slug: open-apideck-journal-entries-api
+- collection_type: open
+  name: Apideck Accounting Activities Leads API
+  slug: open-apideck-leads-api
+- collection_type: open
+  name: Apideck Accounting Activities Ledger Accounts API
+  slug: open-apideck-ledger-accounts-api
+- collection_type: open
+  name: Apideck Accounting Activities Locations API
+  slug: open-apideck-locations-api
+- collection_type: open
+  name: Apideck Accounting Activities Notes API
+  slug: open-apideck-notes-api
+- collection_type: open
+  name: Apideck Accounting Activities Opportunities API
+  slug: open-apideck-opportunities-api
+- collection_type: open
+  name: Apideck Accounting Activities Payments API
+  slug: open-apideck-payments-api
+- collection_type: open
+  name: Apideck Accounting Activities Payrolls API
+  slug: open-apideck-payrolls-api
+- collection_type: open
+  name: Apideck Accounting Activities Pipelines API
+  slug: open-apideck-pipelines-api
+- collection_type: open
+  name: Apideck Accounting Activities Profit and Loss API
+  slug: open-apideck-profit-and-loss-api
+- collection_type: open
+  name: Apideck Accounting Activities Projects API
+  slug: open-apideck-projects-api
+- collection_type: open
+  name: Apideck Accounting Activities Purchase Orders API
+  slug: open-apideck-purchase-orders-api
+- collection_type: open
+  name: Apideck Accounting Activities Quotes API
+  slug: open-apideck-quotes-api
+- collection_type: open
+  name: Apideck Accounting Activities Refunds API
+  slug: open-apideck-refunds-api
+- collection_type: open
+  name: Apideck Accounting Activities Shared Links API
+  slug: open-apideck-shared-links-api
+- collection_type: open
+  name: Apideck Accounting Activities Subsidiaries API
+  slug: open-apideck-subsidiaries-api
+- collection_type: open
+  name: Apideck Accounting Activities Suppliers API
+  slug: open-apideck-suppliers-api
+- collection_type: open
+  name: Apideck Accounting Activities Tax Rates API
+  slug: open-apideck-tax-rates-api
+- collection_type: open
+  name: Apideck Accounting Activities Time Off Requests API
+  slug: open-apideck-time-off-requests-api
+- collection_type: open
+  name: Apideck Accounting Activities Tracking Categories API
+  slug: open-apideck-tracking-categories-api
+- collection_type: open
+  name: Apideck Accounting Activities Upload Sessions API
+  slug: open-apideck-upload-sessions-api
+- collection_type: open
+  name: Apideck Accounting Activities Users API
+  slug: open-apideck-users-api
 common:
 - group: build
   title: ''
@@ -2492,7 +2654,7 @@ plans:
 - name: Apideck Plans Pricing
   plan_count: 3
   slug: apideck-plans-pricing
-random_paper: 1
+random_paper: 125
 rate_limits:
 - limit_count: 2
   name: Apideck Rate Limits
@@ -2526,7 +2688,7 @@ score:
       marker_coverage: 0.0
       total: 53
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/screenshots/apideck-2026-06-20T172302.png
 security:

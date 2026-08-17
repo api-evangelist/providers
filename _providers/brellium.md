@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -65,11 +65,42 @@ apis:
 - description: The Users API from Brellium — 2 operation(s) for users.
   name: Brellium Users API
   slug: brellium-users-api
-artifact_total: 15
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Brellium Webhooks
   slug: brellium-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brellium Audits API
+  slug: open-brellium-audits-api
+- collection_type: open
+  name: Brellium Audits Auth API
+  slug: open-brellium-auth-api
+- collection_type: open
+  name: Brellium Audits Coding API
+  slug: open-brellium-coding-api
+- collection_type: open
+  name: Brellium Audits Documents API
+  slug: open-brellium-documents-api
+- collection_type: open
+  name: Brellium Audits Documents Multiple API
+  slug: open-brellium-documents-multiple-api
+- collection_type: open
+  name: Brellium Audits Link Providers API
+  slug: open-brellium-link-providers-api
+- collection_type: open
+  name: Brellium Audits Question Sets API
+  slug: open-brellium-question-sets-api
+- collection_type: open
+  name: Brellium Audits Update Audits Flags API
+  slug: open-brellium-update-audits-flags-api
+- collection_type: open
+  name: Brellium Audits Users API
+  slug: open-brellium-users-api
 common:
 - group: agent
   title: ''
@@ -186,7 +217,7 @@ overview: 'Brellium publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Brellium''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 17 more developer resources.'
-random_paper: 20
+random_paper: 115
 score:
   band: developing
   composite: 45.1
@@ -216,7 +247,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/screenshots/brellium-2026-07-25T203751.png
 security:

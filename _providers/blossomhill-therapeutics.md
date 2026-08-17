@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -118,7 +118,7 @@ overview: 'BlossomHill Therapeutics is profiled on the [APIs.io](https://apis.io
 
 
   BlossomHill Therapeutics'' developer surface includes engineering blog and 16 more developer resources.'
-random_paper: 14
+random_paper: 1
 score:
   band: minimal
   composite: 11.5
@@ -138,7 +138,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blossomhill-therapeutics/refs/heads/main/screenshots/blossomhill-therapeutics-2026-08-07T162640.png
 security:

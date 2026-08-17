@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -105,7 +105,59 @@ apis:
 - description: Access to Total Energy Data
   name: Department of Energy TOTAL API
   slug: doe-total-api
-artifact_total: 51
+artifact_total: 68
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EIA APIv2 AEO API
+  slug: open-doe-aeo-api
+- collection_type: open
+  name: EIA APIv2 AEO COAL API
+  slug: open-doe-coal-api
+- collection_type: open
+  name: EIA APIv2 AEO CRUD_IMPORTS API
+  slug: open-doe-crud-imports-api
+- collection_type: open
+  name: EIA APIv2 AEO DBF API
+  slug: open-doe-dbf-api
+- collection_type: open
+  name: EIA APIv2 AEO ELEC API
+  slug: open-doe-elec-api
+- collection_type: open
+  name: EIA APIv2 AEO EMISS API
+  slug: open-doe-emiss-api
+- collection_type: open
+  name: EIA APIv2 AEO IEO API
+  slug: open-doe-ieo-api
+- collection_type: open
+  name: EIA APIv2 AEO INTL API
+  slug: open-doe-intl-api
+- collection_type: open
+  name: EIA APIv2 AEO NG API
+  slug: open-doe-ng-api
+- collection_type: open
+  name: EIA APIv2 AEO NUC_STATUS API
+  slug: open-doe-nuc-status-api
+- collection_type: open
+  name: EIA APIv2 AEO Root API
+  slug: open-doe-root-api
+- collection_type: open
+  name: EIA APIv2 AEO RTO API
+  slug: open-doe-rto-api
+- collection_type: open
+  name: EIA APIv2 AEO SEDS API
+  slug: open-doe-seds-api
+- collection_type: open
+  name: EIA APIv2 AEO SEP API
+  slug: open-doe-sep-api
+- collection_type: open
+  name: EIA APIv2 AEO STEO API
+  slug: open-doe-steo-api
+- collection_type: open
+  name: EIA APIv2 AEO TOTAL API
+  slug: open-doe-total-api
 common:
 - group: agent
   title: ''
@@ -256,7 +308,7 @@ plans:
 - name: Doe Plans Pricing
   plan_count: 5
   slug: doe-plans-pricing
-random_paper: 72
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Doe Rate Limits
@@ -296,7 +348,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/screenshots/doe-2026-06-20T180122.png
 security:

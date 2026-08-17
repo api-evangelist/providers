@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,12 +48,24 @@ apis:
 - description: Operations for managing Pub/Sub topics
   name: Google Cloud Pub/Sub Topics API
   slug: google-cloud-pubsub-topics-api
-artifact_total: 17
+artifact_total: 21
 asyncapis:
 - description: Google Cloud Pub/Sub is a fully managed, real-time messaging service for sending and receiving messages between independent applications. This AsyncAPI document describes Pub/Sub's event-driven surfac
   name: Google Cloud Pub/Sub Messaging Surface
   slug: google-cloud-pubsub-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Pub/Sub Schemas API
+  slug: open-google-cloud-pubsub-schemas-api
+- collection_type: open
+  name: Google Cloud Pub/Sub Schemas Subscriptions API
+  slug: open-google-cloud-pubsub-subscriptions-api
+- collection_type: open
+  name: Google Cloud Pub/Sub Schemas Topics API
+  slug: open-google-cloud-pubsub-topics-api
 - collection_type: open
   name: Google Cloud Pub/Sub API
   slug: open-google-cloud-pubsub
@@ -126,7 +138,7 @@ plans:
 - name: Google Cloud Pubsub Plans Pricing
   plan_count: 3
   slug: google-cloud-pubsub-plans-pricing
-random_paper: 119
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Google Cloud Pubsub Rate Limits
@@ -173,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/screenshots/google-cloud-pubsub-2026-06-20T182128.png
 security:

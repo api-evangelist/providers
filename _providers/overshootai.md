@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The V1beta API from overshoot.ai — 1 operation(s) for v1beta.
   name: overshoot.ai V1beta API
   slug: overshootai-v1beta-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inference Service Billing API
+  slug: open-overshootai-billing-api
+- collection_type: open
+  name: Inference Service Billing Chat API
+  slug: open-overshootai-chat-api
+- collection_type: open
+  name: Inference Service Billing Healthz API
+  slug: open-overshootai-healthz-api
+- collection_type: open
+  name: Inference Service Billing Metrics API
+  slug: open-overshootai-metrics-api
+- collection_type: open
+  name: Inference Service Billing Models API
+  slug: open-overshootai-models-api
+- collection_type: open
+  name: Inference Service Billing Readyz API
+  slug: open-overshootai-readyz-api
+- collection_type: open
+  name: Inference Service Billing Streams API
+  slug: open-overshootai-streams-api
+- collection_type: open
+  name: Inference Service Billing V1beta API
+  slug: open-overshootai-v1beta-api
 common:
 - group: agent
   title: ''
@@ -140,7 +168,7 @@ overview: 'overshoot.ai publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   overshoot.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Overshootai Rate Limits
@@ -168,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/screenshots/overshootai-2026-08-07T191137.png
 security:

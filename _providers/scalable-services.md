@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -81,8 +81,32 @@ apis:
 - description: The Services API from Scalable Services — 2 operation(s) for services.
   name: Scalable Services Services API
   slug: scalable-services-services-api
-artifact_total: 28
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kubernetes Core API (v1) ConfigMaps API
+  slug: open-scalable-services-configmaps-api
+- collection_type: open
+  name: Kubernetes Core API (v1) ConfigMaps Namespaces API
+  slug: open-scalable-services-namespaces-api
+- collection_type: open
+  name: Kubernetes Core API (v1) ConfigMaps Nodes API
+  slug: open-scalable-services-nodes-api
+- collection_type: open
+  name: Kubernetes Core API (v1) ConfigMaps PersistentVolumes API
+  slug: open-scalable-services-persistentvolumes-api
+- collection_type: open
+  name: Kubernetes Core API (v1) ConfigMaps Pods API
+  slug: open-scalable-services-pods-api
+- collection_type: open
+  name: Kubernetes Core API (v1) ConfigMaps Secrets API
+  slug: open-scalable-services-secrets-api
+- collection_type: open
+  name: Kubernetes Core API (v1) ConfigMaps Services API
+  slug: open-scalable-services-services-api
 - collection_type: open
   name: Kubernetes Core API (v1)
   slug: open-scalable-services
@@ -190,7 +214,7 @@ plans:
 - name: Scalable Services Plans Pricing
   plan_count: 3
   slug: scalable-services-plans-pricing
-random_paper: 56
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Scalable Services Rate Limits
@@ -224,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-services/refs/heads/main/screenshots/scalable-services-2026-06-20T193455.png
 security:

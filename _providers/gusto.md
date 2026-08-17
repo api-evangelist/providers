@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -74,11 +74,44 @@ apis:
 - description: The Webhooks API from Gusto — 1 operation(s) for webhooks.
   name: Gusto Webhooks API
   slug: gusto-webhooks-api
-artifact_total: 20
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Gusto Embedded Payroll Webhooks
   slug: open-gusto-asyncapi
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts API
+  slug: open-gusto-bankaccounts-api
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts Companies API
+  slug: open-gusto-companies-api
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts ContractorPayments API
+  slug: open-gusto-contractorpayments-api
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts Contractors API
+  slug: open-gusto-contractors-api
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts Employees API
+  slug: open-gusto-employees-api
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts Flows API
+  slug: open-gusto-flows-api
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts Payrolls API
+  slug: open-gusto-payrolls-api
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts PaySchedules API
+  slug: open-gusto-payschedules-api
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts Reports API
+  slug: open-gusto-reports-api
+- collection_type: open
+  name: Gusto Embedded Payroll BankAccounts Webhooks API
+  slug: open-gusto-webhooks-api
 - collection_type: open
   name: Gusto Embedded Payroll API
   slug: open-gusto
@@ -199,7 +232,7 @@ overview: 'Gusto publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Gusto''s developer surface includes authentication, documentation, support, engineering blog, and 21 more developer resources.'
-random_paper: 82
+random_paper: 115
 score:
   band: developing
   composite: 42.5
@@ -220,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png
 security:

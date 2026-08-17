@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Identity and data verification for KYC/KYB.
   name: Mono Lookup API
   slug: mono-africa-lookup-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mono Connect API
+  slug: open-mono-africa-connect-api
+- collection_type: open
+  name: Mono Connect Creditworthiness API
+  slug: open-mono-africa-creditworthiness-api
+- collection_type: open
+  name: Mono Connect DirectPay API
+  slug: open-mono-africa-directpay-api
+- collection_type: open
+  name: Mono Connect Financial Data API
+  slug: open-mono-africa-financial-data-api
+- collection_type: open
+  name: Mono Connect Investment API
+  slug: open-mono-africa-investment-api
+- collection_type: open
+  name: Mono Connect Lookup API
+  slug: open-mono-africa-lookup-api
 - collection_type: open
   name: Mono API
   slug: open-mono-africa
@@ -127,7 +148,7 @@ plans:
 - name: Mono Africa Plans Pricing
   plan_count: 3
   slug: mono-africa-plans-pricing
-random_paper: 20
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Mono Africa Rate Limits
@@ -158,7 +179,7 @@ score:
     regime_id: banking_open_finance
     score: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/screenshots/mono-africa-2026-08-07T184204.png
 security:

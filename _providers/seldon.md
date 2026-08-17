@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -132,7 +132,98 @@ apis:
 - description: The server API from Seldon — 3 operation(s) for server.
   name: Seldon server API
   slug: seldon-server-api
-artifact_total: 47
+artifact_total: 77
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Seldon Deploy AlertingService API
+  slug: open-seldon-alertingservice-api
+- collection_type: open
+  name: Seldon Deploy AlertingService ApplicationLogs API
+  slug: open-seldon-applicationlogs-api
+- collection_type: open
+  name: Seldon Deploy AlertingService BatchJobs API
+  slug: open-seldon-batchjobs-api
+- collection_type: open
+  name: Seldon Deploy AlertingService DriftDetector API
+  slug: open-seldon-driftdetector-api
+- collection_type: open
+  name: Seldon Deploy AlertingService Environment API
+  slug: open-seldon-environment-api
+- collection_type: open
+  name: Seldon Deploy AlertingService Experiments API
+  slug: open-seldon-experiments-api
+- collection_type: open
+  name: Seldon Deploy AlertingService Explain API
+  slug: open-seldon-explain-api
+- collection_type: open
+  name: Seldon Deploy AlertingService External Ambassador API API
+  slug: open-seldon-external-ambassador-api-api
+- collection_type: open
+  name: Seldon Deploy AlertingService GitOps API
+  slug: open-seldon-gitops-api
+- collection_type: open
+  name: Seldon Deploy AlertingService health API
+  slug: open-seldon-health-api
+- collection_type: open
+  name: Seldon Deploy AlertingService HealthcheckService API
+  slug: open-seldon-healthcheckservice-api
+- collection_type: open
+  name: Seldon Deploy AlertingService inference API
+  slug: open-seldon-inference-api
+- collection_type: open
+  name: Seldon Deploy AlertingService InferenceLogsService API
+  slug: open-seldon-inferencelogsservice-api
+- collection_type: open
+  name: Seldon Deploy AlertingService Internal API
+  slug: open-seldon-internal-api
+- collection_type: open
+  name: Seldon Deploy AlertingService KubernetesResources API
+  slug: open-seldon-kubernetesresources-api
+- collection_type: open
+  name: Seldon Deploy AlertingService LoadtestJobs API
+  slug: open-seldon-loadtestjobs-api
+- collection_type: open
+  name: Seldon Deploy AlertingService metadata API
+  slug: open-seldon-metadata-api
+- collection_type: open
+  name: Seldon Deploy AlertingService MetricsServer API
+  slug: open-seldon-metricsserver-api
+- collection_type: open
+  name: Seldon Deploy AlertingService model API
+  slug: open-seldon-model-api
+- collection_type: open
+  name: Seldon Deploy AlertingService ModelMetadataService API
+  slug: open-seldon-modelmetadataservice-api
+- collection_type: open
+  name: Seldon Deploy AlertingService Models API
+  slug: open-seldon-models-api
+- collection_type: open
+  name: Seldon Deploy AlertingService Monitor API
+  slug: open-seldon-monitor-api
+- collection_type: open
+  name: Seldon Deploy AlertingService OutlierDetector API
+  slug: open-seldon-outlierdetector-api
+- collection_type: open
+  name: Seldon Deploy AlertingService PermissionManagementService API
+  slug: open-seldon-permissionmanagementservice-api
+- collection_type: open
+  name: Seldon Deploy AlertingService Pipelines API
+  slug: open-seldon-pipelines-api
+- collection_type: open
+  name: Seldon Deploy AlertingService Predict API
+  slug: open-seldon-predict-api
+- collection_type: open
+  name: Seldon Deploy AlertingService SecretsService API
+  slug: open-seldon-secretsservice-api
+- collection_type: open
+  name: Seldon Deploy AlertingService SeldonDeployments API
+  slug: open-seldon-seldondeployments-api
+- collection_type: open
+  name: Seldon Deploy AlertingService server API
+  slug: open-seldon-server-api
 common:
 - group: agent
   title: ''
@@ -285,7 +376,7 @@ plans:
 - name: Seldon Plans Pricing
   plan_count: 4
   slug: seldon-plans-pricing
-random_paper: 45
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Seldon Rate Limits
@@ -324,7 +415,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/screenshots/seldon-2026-06-20T193641.png
 security:

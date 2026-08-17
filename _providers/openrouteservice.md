@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -87,7 +87,38 @@ apis:
 - description: Snap coordinates to the nearest road network nodes
   name: OpenRouteService Snapping API
   slug: openrouteservice-snapping-api
-artifact_total: 33
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenRouteService Directions API
+  slug: open-openrouteservice-directions-api
+- collection_type: open
+  name: OpenRouteService Directions Elevation API
+  slug: open-openrouteservice-elevation-api
+- collection_type: open
+  name: OpenRouteService Directions Geocoding API
+  slug: open-openrouteservice-geocoding-api
+- collection_type: open
+  name: OpenRouteService Directions Health API
+  slug: open-openrouteservice-health-api
+- collection_type: open
+  name: OpenRouteService Directions Isochrones API
+  slug: open-openrouteservice-isochrones-api
+- collection_type: open
+  name: OpenRouteService Directions Matrix API
+  slug: open-openrouteservice-matrix-api
+- collection_type: open
+  name: OpenRouteService Directions Optimization API
+  slug: open-openrouteservice-optimization-api
+- collection_type: open
+  name: OpenRouteService Directions POI API
+  slug: open-openrouteservice-poi-api
+- collection_type: open
+  name: OpenRouteService Directions Snapping API
+  slug: open-openrouteservice-snapping-api
 common:
 - group: commercial
   title: ''
@@ -234,7 +265,7 @@ plans:
 - name: Openrouteservice Plans Pricing
   plan_count: 4
   slug: openrouteservice-plans-pricing
-random_paper: 66
+random_paper: 107
 rate_limits:
 - limit_count: 0
   name: Openrouteservice Rate Limits
@@ -268,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/screenshots/openrouteservice-2026-06-20T191029.png
 security:

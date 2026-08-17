@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: OAuth 2.0 authorization-code API giving partners full access to Altruist custody data — accounts, households, positions, transactions, and cost basis — for advisor tools, reporting, and reconciliation
@@ -167,7 +167,7 @@ overview: 'Altruist publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Altruist''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 21 more developer resources.'
-random_paper: 48
+random_paper: 143
 scopes:
 - name: Altruist Scopes
   scope_count: 1
@@ -189,7 +189,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/screenshots/altruist-2026-07-25T195845.png
 security:

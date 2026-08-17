@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 34
 apis:
 - description: The Brands API from VSCO — 2 operation(s) for brands.
@@ -133,11 +133,117 @@ apis:
 - description: The Users API from VSCO — 2 operation(s) for users.
   name: VSCO Users API
   slug: vsco-users-api
-artifact_total: 38
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Vsco Workspace Webhooks
   slug: vsco-workspace-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VSCO Workspace Brands API
+  slug: open-vsco-brands-api
+- collection_type: open
+  name: VSCO Workspace Brands Contacts API
+  slug: open-vsco-contacts-api
+- collection_type: open
+  name: VSCO Workspace Brands Custom Fields API
+  slug: open-vsco-custom-fields-api
+- collection_type: open
+  name: VSCO Workspace Brands Discount Types API
+  slug: open-vsco-discount-types-api
+- collection_type: open
+  name: VSCO Workspace Brands Discounts API
+  slug: open-vsco-discounts-api
+- collection_type: open
+  name: VSCO Workspace Brands Event Types API
+  slug: open-vsco-event-types-api
+- collection_type: open
+  name: VSCO Workspace Brands Events API
+  slug: open-vsco-events-api
+- collection_type: open
+  name: VSCO Workspace Brands File Types API
+  slug: open-vsco-file-types-api
+- collection_type: open
+  name: VSCO Workspace Brands Files API
+  slug: open-vsco-files-api
+- collection_type: open
+  name: VSCO Workspace Brands Galleries API
+  slug: open-vsco-galleries-api
+- collection_type: open
+  name: VSCO Workspace Brands Job Closed Reasons API
+  slug: open-vsco-job-closed-reasons-api
+- collection_type: open
+  name: VSCO Workspace Brands Job Contacts API
+  slug: open-vsco-job-contacts-api
+- collection_type: open
+  name: VSCO Workspace Brands Job Payment API
+  slug: open-vsco-job-payment-api
+- collection_type: open
+  name: VSCO Workspace Brands Job Roles API
+  slug: open-vsco-job-roles-api
+- collection_type: open
+  name: VSCO Workspace Brands Job Types API
+  slug: open-vsco-job-types-api
+- collection_type: open
+  name: VSCO Workspace Brands Job Worksheets API
+  slug: open-vsco-job-worksheets-api
+- collection_type: open
+  name: VSCO Workspace Brands Jobs API
+  slug: open-vsco-jobs-api
+- collection_type: open
+  name: VSCO Workspace Brands Lead Sources API
+  slug: open-vsco-lead-sources-api
+- collection_type: open
+  name: VSCO Workspace Brands Lead Statuses API
+  slug: open-vsco-lead-statuses-api
+- collection_type: open
+  name: VSCO Workspace Brands Notes API
+  slug: open-vsco-notes-api
+- collection_type: open
+  name: VSCO Workspace Brands Orders API
+  slug: open-vsco-orders-api
+- collection_type: open
+  name: VSCO Workspace Brands Payment Methods API
+  slug: open-vsco-payment-methods-api
+- collection_type: open
+  name: VSCO Workspace Brands Payments API
+  slug: open-vsco-payments-api
+- collection_type: open
+  name: VSCO Workspace Brands Product Types API
+  slug: open-vsco-product-types-api
+- collection_type: open
+  name: VSCO Workspace Brands Products API
+  slug: open-vsco-products-api
+- collection_type: open
+  name: VSCO Workspace Brands Profit Centers API
+  slug: open-vsco-profit-centers-api
+- collection_type: open
+  name: VSCO Workspace Brands Quotes API
+  slug: open-vsco-quotes-api
+- collection_type: open
+  name: VSCO Workspace Brands Rest Hooks API
+  slug: open-vsco-rest-hooks-api
+- collection_type: open
+  name: VSCO Workspace Brands Schedulers - Client Access API
+  slug: open-vsco-schedulers-client-access-api
+- collection_type: open
+  name: VSCO Workspace Brands Studio API
+  slug: open-vsco-studio-api
+- collection_type: open
+  name: VSCO Workspace Brands Tax Groups API
+  slug: open-vsco-tax-groups-api
+- collection_type: open
+  name: VSCO Workspace Brands Tax Rates API
+  slug: open-vsco-tax-rates-api
+- collection_type: open
+  name: VSCO Workspace Brands Timezones API
+  slug: open-vsco-timezones-api
+- collection_type: open
+  name: VSCO Workspace Brands Users API
+  slug: open-vsco-users-api
 common:
 - group: other
   title: ''
@@ -242,7 +348,7 @@ overview: 'VSCO publishes 34 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   VSCO''s developer surface includes documentation, getting-started guide, support, authentication, and 17 more developer resources.'
-random_paper: 83
+random_paper: 145
 score:
   band: thin
   composite: 41.7
@@ -265,7 +371,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

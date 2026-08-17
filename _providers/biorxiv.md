@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Usage API from bioRxiv — 1 operation(s) for usage.
   name: bioRxiv Usage API
   slug: biorxiv-usage-api
-artifact_total: 21
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: bioRxiv REST Details API
+  slug: open-biorxiv-details-api
+- collection_type: open
+  name: bioRxiv REST Details Funder API
+  slug: open-biorxiv-funder-api
+- collection_type: open
+  name: bioRxiv REST Details Pub API
+  slug: open-biorxiv-pub-api
+- collection_type: open
+  name: bioRxiv REST Details Publisher API
+  slug: open-biorxiv-publisher-api
+- collection_type: open
+  name: bioRxiv REST Details Pubs API
+  slug: open-biorxiv-pubs-api
+- collection_type: open
+  name: bioRxiv REST Details Sum API
+  slug: open-biorxiv-sum-api
+- collection_type: open
+  name: bioRxiv REST Details Usage API
+  slug: open-biorxiv-usage-api
 common:
 - group: agent
   title: ''
@@ -129,7 +154,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -169,7 +194,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/screenshots/biorxiv-2026-06-20T173251.png
 security:

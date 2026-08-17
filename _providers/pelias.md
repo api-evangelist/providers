@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Convert geographic coordinates into places and addresses
   name: Pelias Reverse Geocoding API
   slug: pelias-reverse-geocoding-api
-artifact_total: 15
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pelias Geocoding Autocomplete API
+  slug: open-pelias-autocomplete-api
+- collection_type: open
+  name: Pelias Geocoding Autocomplete Forward Geocoding API
+  slug: open-pelias-forward-geocoding-api
+- collection_type: open
+  name: Pelias Geocoding Autocomplete Place Lookup API
+  slug: open-pelias-place-lookup-api
+- collection_type: open
+  name: Pelias Geocoding Autocomplete Reverse Geocoding API
+  slug: open-pelias-reverse-geocoding-api
 common:
 - group: agent
   title: ''
@@ -128,7 +144,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -162,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/screenshots/pelias-2026-06-20T191527.png
 security:

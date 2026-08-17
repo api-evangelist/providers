@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,7 +49,20 @@ apis:
 - description: Retrieve charge-related webhook events
   name: Coinbase Commerce Events API
   slug: commerce-coinbase-events-api
-artifact_total: 19
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coinbase Commerce Charges API
+  slug: open-commerce-coinbase-charges-api
+- collection_type: open
+  name: Coinbase Commerce Charges Checkouts API
+  slug: open-commerce-coinbase-checkouts-api
+- collection_type: open
+  name: Coinbase Commerce Charges Events API
+  slug: open-commerce-coinbase-events-api
 common:
 - group: agent
   title: ''
@@ -174,7 +187,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 44
+random_paper: 85
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -214,7 +227,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/screenshots/commerce-coinbase-2026-06-20T174814.png
 security:

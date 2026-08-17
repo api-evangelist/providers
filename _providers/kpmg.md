@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Registries API from KPMG — 2 operation(s) for registries.
   name: KPMG Registries API
   slug: kpmg-registries-api
-artifact_total: 12
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: KPMG Origins APIs Discovery API
+  slug: open-kpmg-discovery-api
+- collection_type: open
+  name: KPMG Origins APIs Discovery Movements API
+  slug: open-kpmg-movements-api
+- collection_type: open
+  name: KPMG Origins APIs Discovery Registries API
+  slug: open-kpmg-registries-api
 - collection_type: open
   name: KPMG Origins APIs
   slug: open-kpmg
@@ -187,7 +199,7 @@ plans:
 - name: Kpmg Plans Pricing
   plan_count: 3
   slug: kpmg-plans-pricing
-random_paper: 71
+random_paper: 133
 rate_limits:
 - limit_count: 2
   name: Kpmg Rate Limits
@@ -212,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/screenshots/kpmg-2026-06-20T184147.png
 security:

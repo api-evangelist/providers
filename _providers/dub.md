@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: The Track API from Dub — 3 operation(s) for track.
   name: Dub Track API
   slug: dub-track-api
-artifact_total: 52
+artifact_total: 68
 collections:
 - collection_type: postman
   name: Dub Analytics API
@@ -140,6 +140,54 @@ collections:
 - collection_type: postman
   name: Dub Analytics Track API
   slug: postman-dub-track-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dub Analytics API
+  slug: open-dub-analytics-api
+- collection_type: open
+  name: Dub Analytics Bounties API
+  slug: open-dub-bounties-api
+- collection_type: open
+  name: Dub Analytics Commissions API
+  slug: open-dub-commissions-api
+- collection_type: open
+  name: Dub Analytics Customers API
+  slug: open-dub-customers-api
+- collection_type: open
+  name: Dub Analytics Domains API
+  slug: open-dub-domains-api
+- collection_type: open
+  name: Dub Analytics Embed Tokens API
+  slug: open-dub-embed-tokens-api
+- collection_type: open
+  name: Dub Analytics Events API
+  slug: open-dub-events-api
+- collection_type: open
+  name: Dub Analytics Folders API
+  slug: open-dub-folders-api
+- collection_type: open
+  name: Dub Analytics Links API
+  slug: open-dub-links-api
+- collection_type: open
+  name: Dub Analytics Partner Applications API
+  slug: open-dub-partner-applications-api
+- collection_type: open
+  name: Dub Analytics Partners API
+  slug: open-dub-partners-api
+- collection_type: open
+  name: Dub Analytics Payouts API
+  slug: open-dub-payouts-api
+- collection_type: open
+  name: Dub Analytics QR Codes API
+  slug: open-dub-qr-codes-api
+- collection_type: open
+  name: Dub Analytics Tags API
+  slug: open-dub-tags-api
+- collection_type: open
+  name: Dub Analytics Track API
+  slug: open-dub-track-api
 common:
 - group: build
   title: ''
@@ -306,7 +354,7 @@ plans:
 - name: Dub Plans Pricing
   plan_count: 5
   slug: dub-plans-pricing
-random_paper: 75
+random_paper: 17
 rate_limits:
 - limit_count: 8
   name: Dub Rate Limits
@@ -340,7 +388,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/screenshots/dub-2026-06-20T180305.png
 security:

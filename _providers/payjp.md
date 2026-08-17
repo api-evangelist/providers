@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 6
@@ -81,7 +81,7 @@ apis:
 - description: The Transfers API from PAY.JP — 3 operation(s) for transfers.
   name: PAY.JP Transfers API
   slug: payjp-transfers-api
-artifact_total: 38
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Payjp Webhooks
@@ -129,6 +129,51 @@ collections:
 - collection_type: postman
   name: PAY.JP 3D Secure Transfers API
   slug: postman-payjp-transfers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PAY.JP 3D Secure API
+  slug: open-payjp-3d-secure-api
+- collection_type: open
+  name: PAY.JP 3D Secure Account API
+  slug: open-payjp-account-api
+- collection_type: open
+  name: PAY.JP 3D Secure Balances API
+  slug: open-payjp-balances-api
+- collection_type: open
+  name: PAY.JP 3D Secure Cards API
+  slug: open-payjp-cards-api
+- collection_type: open
+  name: PAY.JP 3D Secure Charges API
+  slug: open-payjp-charges-api
+- collection_type: open
+  name: PAY.JP 3D Secure Customers API
+  slug: open-payjp-customers-api
+- collection_type: open
+  name: PAY.JP 3D Secure Events API
+  slug: open-payjp-events-api
+- collection_type: open
+  name: PAY.JP 3D Secure Plans API
+  slug: open-payjp-plans-api
+- collection_type: open
+  name: PAY.JP 3D Secure Platform API
+  slug: open-payjp-platform-api
+- collection_type: open
+  name: PAY.JP 3D Secure Statements API
+  slug: open-payjp-statements-api
+- collection_type: open
+  name: PAY.JP 3D Secure Subscriptions API
+  slug: open-payjp-subscriptions-api
+- collection_type: open
+  name: PAY.JP 3D Secure Terms API
+  slug: open-payjp-terms-api
+- collection_type: open
+  name: PAY.JP 3D Secure Tokens API
+  slug: open-payjp-tokens-api
+- collection_type: open
+  name: PAY.JP 3D Secure Transfers API
+  slug: open-payjp-transfers-api
 common:
 - group: build
   title: ''
@@ -321,7 +366,7 @@ plans:
 - name: Payjp Plans Pricing
   plan_count: 6
   slug: payjp-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 3
   name: Payjp Rate Limits
@@ -355,7 +400,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/screenshots/payjp-2026-08-07T191639.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,8 +60,23 @@ apis:
 - description: Warehouse task management
   name: blue-yonder Tasks API
   slug: blue-yonder-tasks-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blue Yonder Warehouse Management Inventory API
+  slug: open-blue-yonder-inventory-api
+- collection_type: open
+  name: Blue Yonder Warehouse Management Inventory Orders API
+  slug: open-blue-yonder-orders-api
+- collection_type: open
+  name: Blue Yonder Warehouse Management Inventory Receipts API
+  slug: open-blue-yonder-receipts-api
+- collection_type: open
+  name: Blue Yonder Warehouse Management Inventory Tasks API
+  slug: open-blue-yonder-tasks-api
 - collection_type: open
   name: Blue Yonder Warehouse Management API
   slug: open-blue-yonder-warehouse-management
@@ -153,7 +168,7 @@ plans:
 - name: Blue Yonder Plans Pricing
   plan_count: 1
   slug: blue-yonder-plans-pricing
-random_paper: 46
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Blue Yonder Rate Limits
@@ -192,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/screenshots/blue-yonder-2026-06-20T173532.png
 security:

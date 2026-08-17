@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Netflix Zuul is an L7 application gateway built on Netty that provides dynamic routing, load balancing, authentication, monitoring, and resiliency for edge services. Zuul 3.x is the current release, s
@@ -102,7 +102,7 @@ plans:
 - name: Netflix Zuul Plans Pricing
   plan_count: 3
   slug: netflix-zuul-plans-pricing
-random_paper: 71
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Netflix Zuul Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 16.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-zuul/refs/heads/main/screenshots/netflix-zuul-2026-06-20T190156.png
 slug: netflix-zuul

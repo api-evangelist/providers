@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: Actions relating to APIs in the collection
   name: APIs.guru APIs API
   slug: apis-guru-apis-api
-artifact_total: 41
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: .guru APIs API
+  slug: open-apis-guru-apis-api
 common:
 - group: build
   title: ''
@@ -230,7 +237,7 @@ plans:
 - name: Apis Guru Plans Pricing
   plan_count: 3
   slug: apis-guru-plans-pricing
-random_paper: 85
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Apis Guru Rate Limits
@@ -272,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/screenshots/apis-guru-2026-06-20T172300.png
 security:

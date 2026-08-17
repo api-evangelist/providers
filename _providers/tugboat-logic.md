@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Tugboat Logic is now OneTrust Certification Automation. Programmatic access, where available, is provided through the OneTrust developer platform. Legacy Tugboat Logic APIs are not separately document
@@ -85,7 +85,7 @@ plans:
 - name: Tugboat Logic Plans Pricing
   plan_count: 1
   slug: tugboat-logic-plans-pricing
-random_paper: 9
+random_paper: 137
 rate_limits:
 - limit_count: 1
   name: Tugboat Logic Rate Limits
@@ -103,7 +103,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tugboat-logic/refs/heads/main/screenshots/tugboat-logic-2026-06-20T195824.png
 security:

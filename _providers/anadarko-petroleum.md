@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: Anadarko Announces New Board Member and Promotion ...
   url: https://www.prnewswire.com/news-releases/anadarko-announces-new-board-member-and-promotion-of-amanda-mcmillian-300144415.html
-random_paper: 67
+random_paper: 79
 score:
   band: minimal
   composite: 6.9
@@ -94,7 +94,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anadarko-petroleum/refs/heads/main/screenshots/anadarko-petroleum-2026-06-20T171945.png
 security:

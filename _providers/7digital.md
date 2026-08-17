@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -108,7 +108,7 @@ apis:
 - description: Partner-scoped user directory operations — find and update users.
   name: 7digital Users API
   slug: 7digital-users-api
-artifact_total: 286
+artifact_total: 310
 collections:
 - collection_type: postman
   name: 7digital Artists API
@@ -180,11 +180,83 @@ collections:
   name: 7digital Artists Users API
   slug: postman-7digital-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: 7digital API
   slug: open-7digital-api
 - collection_type: open
+  name: 7digital Artists API
+  slug: open-7digital-artists-api
+- collection_type: open
+  name: 7digital Artists Basket API
+  slug: open-7digital-basket-api
+- collection_type: open
+  name: 7digital Artists Catalogue API
+  slug: open-7digital-catalogue-api
+- collection_type: open
+  name: 7digital Artists Content Delivery API
+  slug: open-7digital-content-delivery-api
+- collection_type: open
+  name: 7digital Artists Download Purchases API
+  slug: open-7digital-download-purchases-api
+- collection_type: open
+  name: 7digital Artists Editorial API
+  slug: open-7digital-editorial-api
+- collection_type: open
+  name: 7digital Artists Interactive Radio API
+  slug: open-7digital-interactive-radio-api
+- collection_type: open
+  name: 7digital Artists IpLookup API
+  slug: open-7digital-iplookup-api
+- collection_type: open
+  name: 7digital Artists Logging API
+  slug: open-7digital-logging-api
+- collection_type: open
+  name: 7digital Artists Offline Devices API
+  slug: open-7digital-offline-devices-api
+- collection_type: open
+  name: 7digital Artists Payment API
+  slug: open-7digital-payment-api
+- collection_type: open
+  name: 7digital Artists Playlists API
+  slug: open-7digital-playlists-api
+- collection_type: open
+  name: 7digital Artists Releases API
+  slug: open-7digital-releases-api
+- collection_type: open
+  name: 7digital Artists Sales API
+  slug: open-7digital-sales-api
+- collection_type: open
+  name: 7digital Artists Streaming API
+  slug: open-7digital-streaming-api
+- collection_type: open
   name: 7digital / MassiveMusic Streaming Platform API
   slug: open-7digital-streaming-platform
+- collection_type: open
+  name: 7digital Artists Subscriptions API
+  slug: open-7digital-subscriptions-api
+- collection_type: open
+  name: 7digital Artists Tags API
+  slug: open-7digital-tags-api
+- collection_type: open
+  name: 7digital Artists Territories API
+  slug: open-7digital-territories-api
+- collection_type: open
+  name: 7digital Artists Tracks API
+  slug: open-7digital-tracks-api
+- collection_type: open
+  name: 7digital Artists Translations API
+  slug: open-7digital-translations-api
+- collection_type: open
+  name: 7digital Artists User API
+  slug: open-7digital-user-api
+- collection_type: open
+  name: 7digital Artists User Management API
+  slug: open-7digital-user-management-api
+- collection_type: open
+  name: 7digital Artists Users API
+  slug: open-7digital-users-api
 common:
 - group: operate
   title: ''
@@ -940,7 +1012,7 @@ plans:
 - name: 7Digital Plans Pricing
   plan_count: 1
   slug: 7digital-plans-pricing
-random_paper: 69
+random_paper: 44
 rate_limits:
 - limit_count: 7
   name: 7Digital Rate Limits
@@ -982,7 +1054,7 @@ score:
       marker_coverage: 100.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/screenshots/7digital-2026-06-20T162807.png
 security:

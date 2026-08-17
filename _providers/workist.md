@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The Rfq API from Workist — 5 operation(s) for rfq.
   name: Workist Rfq API
   slug: workist-rfq-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workist Integrations & Developer Delivery Notes API
+  slug: open-workist-delivery-notes-api
+- collection_type: open
+  name: Workist Integrations & Developer Delivery Notes Invoices API
+  slug: open-workist-invoices-api
+- collection_type: open
+  name: Workist Integrations & Developer Delivery Notes List Of Services API
+  slug: open-workist-list-of-services-api
+- collection_type: open
+  name: Workist Integrations & Developer Delivery Notes Master Data API
+  slug: open-workist-master-data-api
+- collection_type: open
+  name: Workist Integrations & Developer Delivery Notes Order Confirmations API
+  slug: open-workist-order-confirmations-api
+- collection_type: open
+  name: Workist Integrations & Developer Delivery Notes Orders API
+  slug: open-workist-orders-api
+- collection_type: open
+  name: Workist Integrations & Developer Delivery Notes Property Bills API
+  slug: open-workist-property-bills-api
+- collection_type: open
+  name: Workist Integrations & Developer Delivery Notes Rfq API
+  slug: open-workist-rfq-api
 common:
 - group: agent
   title: ''
@@ -188,7 +216,7 @@ overview: 'Workist publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Workist''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 20 more developer resources.'
-random_paper: 67
+random_paper: 42
 score:
   band: developing
   composite: 49.5
@@ -212,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

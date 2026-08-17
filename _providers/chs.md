@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 18
 common:
@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: CHS Inc's post
   url: https://www.facebook.com/CHSInc/posts/cooperative-ventures-a-joint-venture-between-farmer-owned-cooperatives-chs-and-g/1540997380376074/
-random_paper: 78
+random_paper: 20
 score:
   band: minimal
   composite: 10.7
@@ -166,7 +166,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chs/refs/heads/main/screenshots/chs-2026-06-20T174334.png
 security:

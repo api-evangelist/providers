@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,8 +63,32 @@ apis:
 - description: Manage equity and stock compensation plans
   name: Workday Advanced Compensation Stock Plans API
   slug: workday-advanced-compensation-stock-plans-api
-artifact_total: 45
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Advanced Compensation Bonus Plans API
+  slug: open-workday-advanced-compensation-bonus-plans-api
+- collection_type: open
+  name: Workday Advanced Compensation Bonus Plans Compensation Budgets API
+  slug: open-workday-advanced-compensation-compensation-budgets-api
+- collection_type: open
+  name: Workday Advanced Compensation Bonus Plans Compensation Grades API
+  slug: open-workday-advanced-compensation-compensation-grades-api
+- collection_type: open
+  name: Workday Advanced Compensation Bonus Plans Compensation Plans API
+  slug: open-workday-advanced-compensation-compensation-plans-api
+- collection_type: open
+  name: Workday Advanced Compensation Bonus Plans Employee Compensation API
+  slug: open-workday-advanced-compensation-employee-compensation-api
+- collection_type: open
+  name: Workday Advanced Compensation Bonus Plans Merit Plans API
+  slug: open-workday-advanced-compensation-merit-plans-api
+- collection_type: open
+  name: Workday Advanced Compensation Bonus Plans Stock Plans API
+  slug: open-workday-advanced-compensation-stock-plans-api
 - collection_type: open
   name: Workday Advanced Compensation API
   slug: open-workday-advanced-compensation
@@ -237,7 +261,7 @@ plans:
 - name: Workday Advanced Compensation Plans Pricing
   plan_count: 3
   slug: workday-advanced-compensation-plans-pricing
-random_paper: 97
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Workday Advanced Compensation Rate Limits
@@ -284,7 +308,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/screenshots/workday-advanced-compensation-2026-06-20T201555.png
 security:

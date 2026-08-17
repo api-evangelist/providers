@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -93,7 +93,7 @@ apis:
 - description: Generate images that adopt the visual style of a reference image while following a text prompt for content direction.
   name: Stability AI Style API
   slug: stability-ai-style-api
-artifact_total: 98
+artifact_total: 117
 collections:
 - collection_type: postman
   name: Stability AI Stable Fast 3D 3D Generation API
@@ -150,6 +150,57 @@ collections:
   name: Stability AI Stable Fast 3D 3D Generation Style API
   slug: postman-stability-ai-style-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation API
+  slug: open-stability-ai-3d-generation-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Conservative Upscale API
+  slug: open-stability-ai-conservative-upscale-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Creative Upscale API
+  slug: open-stability-ai-creative-upscale-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Erase API
+  slug: open-stability-ai-erase-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Fast Upscale API
+  slug: open-stability-ai-fast-upscale-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Generate Core API
+  slug: open-stability-ai-generate-core-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Generate SD3 API
+  slug: open-stability-ai-generate-sd3-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Generate Ultra API
+  slug: open-stability-ai-generate-ultra-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Image to Video API
+  slug: open-stability-ai-image-to-video-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Inpaint API
+  slug: open-stability-ai-inpaint-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Outpaint API
+  slug: open-stability-ai-outpaint-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Remove Background API
+  slug: open-stability-ai-remove-background-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Replace Background and Relight API
+  slug: open-stability-ai-replace-background-and-relight-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Search and Recolor API
+  slug: open-stability-ai-search-and-recolor-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Search and Replace API
+  slug: open-stability-ai-search-and-replace-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Sketch API
+  slug: open-stability-ai-sketch-api
+- collection_type: open
   name: Stability AI Stable Fast 3D API
   slug: open-stability-ai-stable-fast-3d
 - collection_type: open
@@ -167,6 +218,12 @@ collections:
 - collection_type: open
   name: Stability AI Stable Video Diffusion API
   slug: open-stability-ai-stable-video-diffusion
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Structure API
+  slug: open-stability-ai-structure-api
+- collection_type: open
+  name: Stability AI Stable Fast 3D 3D Generation Style API
+  slug: open-stability-ai-style-api
 common:
 - group: build
   title: ''
@@ -382,7 +439,7 @@ plans:
 - name: Stability Ai Plans Pricing
   plan_count: 4
   slug: stability-ai-plans-pricing
-random_paper: 28
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Stability Ai Rate Limits
@@ -424,7 +481,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/screenshots/stability-ai-2026-06-20T194438.png
 security:

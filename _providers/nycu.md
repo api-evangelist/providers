@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 5
@@ -113,7 +113,80 @@ apis:
 - description: The Workflows API from National Yang Ming Chiao Tung University — 1 operation(s) for workflows.
   name: National Yang Ming Chiao Tung University Workflows API
   slug: nycu-workflows-api
-artifact_total: 39
+artifact_total: 63
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access API
+  slug: open-nycu-access-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Admin API
+  slug: open-nycu-admin-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Batch API
+  slug: open-nycu-batch-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Builtin Users API
+  slug: open-nycu-builtin-users-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Datasets API
+  slug: open-nycu-datasets-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Datatags API
+  slug: open-nycu-datatags-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Dataverses API
+  slug: open-nycu-dataverses-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Edit API
+  slug: open-nycu-edit-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Files API
+  slug: open-nycu-files-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Harvest API
+  slug: open-nycu-harvest-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Info API
+  slug: open-nycu-info-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Ingest API
+  slug: open-nycu-ingest-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Licenses API
+  slug: open-nycu-licenses-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Mail API
+  slug: open-nycu-mail-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Meta API
+  slug: open-nycu-meta-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Metadatablocks API
+  slug: open-nycu-metadatablocks-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Mydata API
+  slug: open-nycu-mydata-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Notifications API
+  slug: open-nycu-notifications-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Pids API
+  slug: open-nycu-pids-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Roles API
+  slug: open-nycu-roles-api
+- collection_type: open
+  name: NYCU Dataverse Native & Access Search API
+  slug: open-nycu-search-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Users API
+  slug: open-nycu-users-api
+- collection_type: open
+  name: NYCU Dataverse Native & Search Access Workflows API
+  slug: open-nycu-workflows-api
 common:
 - group: agent
   title: ''
@@ -197,7 +270,7 @@ plans:
 - name: Nycu Plans Pricing
   plan_count: 2
   slug: nycu-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Nycu Rate Limits
@@ -245,7 +318,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png
 security:

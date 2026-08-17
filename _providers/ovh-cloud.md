@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 334
   human_in_the_loop: 18
@@ -42,7 +42,14 @@ apis:
 - description: The Cloud API from OVH Cloud — 469 operation(s) for cloud.
   name: OVH Cloud Cloud API
   slug: ovh-cloud-cloud-api
-artifact_total: 9
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OVH OVHcloud API specification Cloud API
+  slug: open-ovh-cloud-cloud-api
 common:
 - group: agent
   title: ''
@@ -156,7 +163,7 @@ plans:
 - name: Ovh Cloud Plans Pricing
   plan_count: 3
   slug: ovh-cloud-plans-pricing
-random_paper: 73
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Ovh Cloud Rate Limits
@@ -186,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/screenshots/ovh-cloud-2026-06-20T191242.png
 security:

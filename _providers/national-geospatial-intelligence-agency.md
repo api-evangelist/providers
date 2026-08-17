@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Short-term orbit prediction products.
   name: National Geospatial-Intelligence Agency Orbit API
   slug: national-geospatial-intelligence-agency-orbit-api
-artifact_total: 10
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NGA Earth-Info REST Clock API
+  slug: open-national-geospatial-intelligence-agency-clock-api
+- collection_type: open
+  name: NGA Earth-Info REST Clock EOPP API
+  slug: open-national-geospatial-intelligence-agency-eopp-api
+- collection_type: open
+  name: NGA Earth-Info REST Clock Ephemeris API
+  slug: open-national-geospatial-intelligence-agency-ephemeris-api
+- collection_type: open
+  name: NGA Earth-Info REST Clock Orbit API
+  slug: open-national-geospatial-intelligence-agency-orbit-api
 - collection_type: open
   name: NGA Earth-Info REST API
   slug: open-national-geospatial-intelligence-agency
@@ -108,7 +123,7 @@ plans:
 - name: National Geospatial Intelligence Agency Plans Pricing
   plan_count: 3
   slug: national-geospatial-intelligence-agency-plans-pricing
-random_paper: 112
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: National Geospatial Intelligence Agency Rate Limits
@@ -139,7 +154,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/screenshots/national-geospatial-intelligence-agency-2026-06-20T190021.png
 security:

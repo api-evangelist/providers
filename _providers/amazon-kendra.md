@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -100,11 +100,38 @@ arazzos:
 - description: Delete a data source connector, confirm it is gone, then delete the index that owned it.
   name: Amazon Kendra Teardown Data Source and Index
   slug: amazon-kendra-teardown-data-source-and-index-workflow
-artifact_total: 58
+artifact_total: 67
 collections:
 - collection_type: postman
   name: Amazon Kendra API
   slug: postman-amazon-kendra
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Kendra Data Sources API
+  slug: open-amazon-kendra-data-sources-api
+- collection_type: open
+  name: Amazon Kendra Data Sources Documents API
+  slug: open-amazon-kendra-documents-api
+- collection_type: open
+  name: Amazon Kendra Data Sources Experience API
+  slug: open-amazon-kendra-experience-api
+- collection_type: open
+  name: Amazon Kendra Data Sources FAQs API
+  slug: open-amazon-kendra-faqs-api
+- collection_type: open
+  name: Amazon Kendra Data Sources Indexes API
+  slug: open-amazon-kendra-indexes-api
+- collection_type: open
+  name: Amazon Kendra Data Sources Queries API
+  slug: open-amazon-kendra-queries-api
+- collection_type: open
+  name: Amazon Kendra Data Sources Query Suggestions API
+  slug: open-amazon-kendra-query-suggestions-api
+- collection_type: open
+  name: Amazon Kendra Data Sources Thesaurus API
+  slug: open-amazon-kendra-thesaurus-api
 - collection_type: open
   name: Amazon Kendra API
   slug: open-amazon-kendra
@@ -337,7 +364,7 @@ plans:
 - name: Amazon Kendra Plans Pricing
   plan_count: 3
   slug: amazon-kendra-plans-pricing
-random_paper: 0
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Amazon Kendra Rate Limits
@@ -379,7 +406,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/screenshots/amazon-kendra-2026-06-20T171715.png
 security:

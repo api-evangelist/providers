@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: AVI Networks
 nav: Providers
 network: true
 overview: AVI Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Load Balancing, Application Delivery, and Networking.
-random_paper: 58
+random_paper: 66
 score:
   band: minimal
   composite: 8.7
@@ -78,7 +78,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avi-networks/refs/heads/main/screenshots/avi-networks-2026-07-25T201928.png
 security:

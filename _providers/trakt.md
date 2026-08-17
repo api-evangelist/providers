@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -105,7 +105,7 @@ apis:
 - description: Profiles, settings, follows, friends, social activity, comments, watching.
   name: Trakt Users API
   slug: trakt-users-api
-artifact_total: 99
+artifact_total: 122
 collections:
 - collection_type: postman
   name: Trakt Calendars API
@@ -173,6 +173,75 @@ collections:
 - collection_type: postman
   name: Trakt Calendars Users API
   slug: postman-trakt-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trakt Calendars API
+  slug: open-trakt-calendars-api
+- collection_type: open
+  name: Trakt Calendars Certifications API
+  slug: open-trakt-certifications-api
+- collection_type: open
+  name: Trakt Calendars Checkin API
+  slug: open-trakt-checkin-api
+- collection_type: open
+  name: Trakt Calendars Comments API
+  slug: open-trakt-comments-api
+- collection_type: open
+  name: Trakt Calendars Countries API
+  slug: open-trakt-countries-api
+- collection_type: open
+  name: Trakt Calendars Episodes API
+  slug: open-trakt-episodes-api
+- collection_type: open
+  name: Trakt Calendars Genres API
+  slug: open-trakt-genres-api
+- collection_type: open
+  name: Trakt Calendars Languages API
+  slug: open-trakt-languages-api
+- collection_type: open
+  name: Trakt Calendars Lists API
+  slug: open-trakt-lists-api
+- collection_type: open
+  name: Trakt Calendars Movies API
+  slug: open-trakt-movies-api
+- collection_type: open
+  name: Trakt Calendars Networks API
+  slug: open-trakt-networks-api
+- collection_type: open
+  name: Trakt Calendars Notes API
+  slug: open-trakt-notes-api
+- collection_type: open
+  name: Trakt Calendars OAuth API
+  slug: open-trakt-oauth-api
+- collection_type: open
+  name: Trakt Calendars People API
+  slug: open-trakt-people-api
+- collection_type: open
+  name: Trakt Calendars Recommendations API
+  slug: open-trakt-recommendations-api
+- collection_type: open
+  name: Trakt Calendars Scrobble API
+  slug: open-trakt-scrobble-api
+- collection_type: open
+  name: Trakt Calendars Search API
+  slug: open-trakt-search-api
+- collection_type: open
+  name: Trakt Calendars Seasons API
+  slug: open-trakt-seasons-api
+- collection_type: open
+  name: Trakt Calendars Shows API
+  slug: open-trakt-shows-api
+- collection_type: open
+  name: Trakt Calendars Studios API
+  slug: open-trakt-studios-api
+- collection_type: open
+  name: Trakt Calendars Sync API
+  slug: open-trakt-sync-api
+- collection_type: open
+  name: Trakt Calendars Users API
+  slug: open-trakt-users-api
 - collection_type: open
   name: Trakt API
   slug: open-trakt
@@ -466,7 +535,7 @@ plans:
 - name: Trakt Plans Pricing
   plan_count: 3
   slug: trakt-plans-pricing
-random_paper: 70
+random_paper: 103
 rate_limits:
 - limit_count: 2
   name: Trakt Rate Limits
@@ -508,7 +577,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/screenshots/trakt-2026-06-20T195545.png
 security:

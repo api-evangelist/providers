@@ -1,19 +1,20 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
   - authentication
+  - plans
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
@@ -24,12 +25,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-12'
+  score: 63.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,7 +55,26 @@ apis:
 - description: The Token API from Cello — 1 operation(s) for token.
   name: Cello Token API
   slug: cello-token-api
-artifact_total: 9
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cello Events API
+  slug: open-cello-events-api
+- collection_type: open
+  name: Cello Events New Users API
+  slug: open-cello-new-users-api
+- collection_type: open
+  name: Cello Events Referral Codes API
+  slug: open-cello-referral-codes-api
+- collection_type: open
+  name: Cello Events Referrers API
+  slug: open-cello-referrers-api
+- collection_type: open
+  name: Cello Events Token API
+  slug: open-cello-token-api
 common:
 - group: other
   title: ''
@@ -176,6 +196,34 @@ common:
   title: ''
   type: AgentSkill
   url: skills/cello-fetch-and-reward-referee.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/cello-referral-integration.md
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/cello-a2a.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/cello-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/cello-scopes.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/cello-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cello-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cello-rate-limits.yml
 created: '2026-07-17'
 description: Cello is an all-in-one, AI-powered referral platform for SaaS companies. It lets product teams embed in-product user referrals and run partner/affiliate programs with a few lines of code, then automates attribution, campaigns, notifications, fraud detection, and cross-border payouts. Cello ships an embeddable Referral Component and Attribution JS SDK for web plus native iOS, Android, Flutter, and React Native SDKs, a REST API for tokens, referral-code validation, events, and new-user rewards, a Growth Portal for analytics, and an official hosted MCP server exposing developer and growth-manager tools. Customers include Typeform, Miro, Descript, Pleo, and SmallPDF. Backed by HV Capital.
 image: https://cello.so/wp-content/uploads/2022/12/Group-174900-1.png
@@ -184,24 +232,37 @@ mcp_servers:
 - description: ''
   name: cello-mcp.yml
   slug: cello-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Cello
 nav: Providers
 network: true
 overview: 'Cello publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Events API, New Users API, Referral Codes API, and 2 more. Tagged areas include Company, Referral Marketing, Affiliate Marketing, Growth, and SaaS.
 
 
-  Cello''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 47
+  Cello''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
+plans:
+- name: Cello Plans Pricing
+  plan_count: 7
+  slug: cello-plans-pricing
+random_paper: 80
+rate_limits:
+- limit_count: 0
+  name: Cello Rate Limits
+  slug: cello-rate-limits
+scopes:
+- name: Cello Scopes
+  scope_count: 0
+  slug: cello-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 52.6
-  delta: 0.0
+  band: strong
+  composite: 60.0
+  delta: 7.4
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 84.2
     contract_quality: 54.3
     developer_ergonomics: 75.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
   previous_composite: 52.6
@@ -216,14 +277,14 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/screenshots/cello-2026-07-25T204908.png
 security:
 - kind: authentication
   name: Cello Authentication
   slug: cello-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Cello Domain Security
   slug: cello-domain-security

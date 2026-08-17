@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -114,7 +114,83 @@ apis:
 - description: Vocabulary and controlled terms endpoints
   name: Zenodo Vocabularies API
   slug: zenodo-vocabularies-api
-artifact_total: 35
+artifact_total: 60
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zenodo REST Access API
+  slug: open-zenodo-access-api
+- collection_type: open
+  name: Zenodo REST Access Audit Logs API
+  slug: open-zenodo-audit-logs-api
+- collection_type: open
+  name: Zenodo REST Access Avatars API
+  slug: open-zenodo-avatars-api
+- collection_type: open
+  name: Zenodo REST Access Comments API
+  slug: open-zenodo-comments-api
+- collection_type: open
+  name: Zenodo REST Access Communities API
+  slug: open-zenodo-communities-api
+- collection_type: open
+  name: Zenodo REST Access Communities Invitations API
+  slug: open-zenodo-communities-invitations-api
+- collection_type: open
+  name: Zenodo REST Access Communities logo API
+  slug: open-zenodo-communities-logo-api
+- collection_type: open
+  name: Zenodo REST Access Communities Members API
+  slug: open-zenodo-communities-members-api
+- collection_type: open
+  name: Zenodo REST Access Drafts API
+  slug: open-zenodo-drafts-api
+- collection_type: open
+  name: Zenodo REST Access Drafts Files upload API
+  slug: open-zenodo-drafts-files-upload-api
+- collection_type: open
+  name: Zenodo REST Access Export API
+  slug: open-zenodo-export-api
+- collection_type: open
+  name: Zenodo REST Access Featured Communities API
+  slug: open-zenodo-featured-communities-api
+- collection_type: open
+  name: Zenodo REST Access Groups API
+  slug: open-zenodo-groups-api
+- collection_type: open
+  name: Zenodo REST Access OAI-PMH API
+  slug: open-zenodo-oai-pmh-api
+- collection_type: open
+  name: Zenodo REST Access OAI-PMH Sets API
+  slug: open-zenodo-oai-pmh-sets-api
+- collection_type: open
+  name: Zenodo REST Access Records API
+  slug: open-zenodo-records-api
+- collection_type: open
+  name: Zenodo REST Access Records Files API
+  slug: open-zenodo-records-files-api
+- collection_type: open
+  name: Zenodo REST Access Records Versions API
+  slug: open-zenodo-records-versions-api
+- collection_type: open
+  name: Zenodo REST Access Request Actions API
+  slug: open-zenodo-request-actions-api
+- collection_type: open
+  name: Zenodo REST Access Requests API
+  slug: open-zenodo-requests-api
+- collection_type: open
+  name: Zenodo REST Access Statistics API
+  slug: open-zenodo-statistics-api
+- collection_type: open
+  name: Zenodo REST Access Timeline API
+  slug: open-zenodo-timeline-api
+- collection_type: open
+  name: Zenodo REST Access Users API
+  slug: open-zenodo-users-api
+- collection_type: open
+  name: Zenodo REST Access Vocabularies API
+  slug: open-zenodo-vocabularies-api
 common:
 - group: agent
   title: ''
@@ -228,7 +304,7 @@ plans:
 - name: Zenodo Plans Pricing
   plan_count: 2
   slug: zenodo-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 7
   name: Zenodo Rate Limits
@@ -268,7 +344,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/screenshots/zenodo-2026-06-20T201814.png
 security:

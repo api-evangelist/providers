@@ -10,31 +10,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
+  score: 26.6
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
-- description: REST API for accessing real-time guidance, call analytics, rep performance data, conversation insights, and CRM activity synchronization within the Revenue.io revenue intelligence platform.
+- description: Revenue.io's programmable surface for guided selling, call analytics, rep performance data, conversation insights, and CRM activity synchronization. Exposed as RDNACadence Apex classes and Flow invoca
   name: Revenue.io API
   slug: revenue-io-api
-artifact_total: 6
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -84,48 +84,149 @@ common:
   title: ''
   type: FinOps
   url: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/finops/revenue-io-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://support.revenue.io/guided-selling/salesforce-administration/api-endpoints/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.revenue.io/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.revenue.io/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ringdna
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.revenue.io/msa
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.revenue.io/privacy-policy
+- group: start
+  title: ''
+  type: Login
+  url: https://app.revenue.io/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.revenue.io/security
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://support.revenue.io/guided-selling/release-notes/guided-selling-winter-2025-release-v12/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://support.revenue.io/guided-selling/release-notes/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/revenue-io-changelog.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/revenue-io-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/revenue-io-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/revenue-io-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/revenue-io-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/revenue-io-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/revenue-io-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/revenue-io-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/revenue-io-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/revenue-io-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/revenue-io-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/revenue-io-data-model.yml
 created: '2026-06-13'
-description: Revenue.io is a revenue intelligence platform offering real-time guidance, call analytics, rep performance tracking, conversation insights, and CRM activity synchronization via a REST API. Formerly known as RingDNA, it powers RevOps, Sales Engagement, and Conversation Intelligence for inside sales teams using Salesforce.
+description: Revenue.io is a Salesforce-native revenue orchestration platform offering real-time guidance, call analytics, rep performance tracking, conversation insights, and CRM activity synchronization. Formerly known as RingDNA, it powers RevOps, Sales Engagement, and Conversation Intelligence for inside sales teams using Salesforce. It publishes no public REST API or OpenAPI; its documented programmable surface is a set of Apex classes and Flow invocable actions in the RDNACadence managed-package namespace, plus an OAuth-gated remote MCP server at https://app.ringdna.com/mcp discovered from RFC 9728 protected-resource metadata on api.revenue.io.
 finops:
 - name: Revenue Io Finops
   service_category: ''
   slug: revenue-io-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revenue-io.png
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: revenue-io-mcp.yml
+  slug: revenue-io-mcpyml
+modified: '2026-08-13'
 name: Revenue.io
 nav: Providers
 network: true
 overview: 'Revenue.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Revenue Intelligence, Sales Engagement, Conversation Intelligence, RevOps, and Call Analytics.
 
 
-  Revenue.io''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Revenue.io''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, changelog, and 27 more developer resources.'
 plans:
 - name: Revenue Io Plans Pricing
   plan_count: 3
   slug: revenue-io-plans-pricing
-random_paper: 63
+random_paper: 129
 rate_limits:
 - limit_count: 0
   name: Revenue Io Rate Limits
   slug: revenue-io-rate-limits
+scopes:
+- name: Revenue Io Scopes
+  scope_count: 1
+  slug: revenue-io-scopes
+  summary_line: 1 scope · authorizationCode
 score:
-  band: emerging
-  composite: 22.7
-  delta: 0.0
+  band: developing
+  composite: 46.5
+  delta: 23.8
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 100.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 15.8
+    developer_ergonomics: 52.2
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 44.7
   previous_composite: 22.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/screenshots/revenue-io-2026-06-20T193047.png
 security:
+- kind: authentication
+  name: Revenue Io Authentication
+  slug: revenue-io-authentication
+  summary_line: oauth2/apiKey · 3 schemes
 - kind: domain-security
   name: Revenue Io Domain Security
   slug: revenue-io-domain-security

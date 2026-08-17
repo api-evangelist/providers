@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Manage and run custom structured-data extractors.
   name: Doctly Extractors API
   slug: doctly-ai-extractors-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Doctly Documents API
+  slug: open-doctly-ai-documents-api
+- collection_type: open
+  name: Doctly Documents Extractors API
+  slug: open-doctly-ai-extractors-api
 - collection_type: open
   name: Doctly API
   slug: open-doctly-ai
@@ -111,7 +120,7 @@ plans:
 - name: Doctly Ai Plans Pricing
   plan_count: 3
   slug: doctly-ai-plans-pricing
-random_paper: 62
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Doctly Ai Rate Limits
@@ -136,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/screenshots/doctly-ai-2026-07-25T212214.png
 security:

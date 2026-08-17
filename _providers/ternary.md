@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Cost reports, dashboards, and analytics
   name: Ternary Reporting API
   slug: ternary-reporting-api
-artifact_total: 21
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ternary Anomaly Detection API
+  slug: open-ternary-anomaly-detection-api
+- collection_type: open
+  name: Ternary Anomaly Detection Commitments API
+  slug: open-ternary-commitments-api
+- collection_type: open
+  name: Ternary Anomaly Detection Cost Allocation API
+  slug: open-ternary-cost-allocation-api
+- collection_type: open
+  name: Ternary Anomaly Detection Forecasting API
+  slug: open-ternary-forecasting-api
+- collection_type: open
+  name: Ternary Anomaly Detection Kubernetes API
+  slug: open-ternary-kubernetes-api
+- collection_type: open
+  name: Ternary Anomaly Detection Reporting API
+  slug: open-ternary-reporting-api
 - collection_type: open
   name: Ternary API
   slug: open-ternary
@@ -157,7 +178,7 @@ plans:
 - name: Ternary Plans Pricing
   plan_count: 3
   slug: ternary-plans-pricing
-random_paper: 53
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Ternary Rate Limits
@@ -200,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/screenshots/ternary-2026-06-20T195129.png
 security:

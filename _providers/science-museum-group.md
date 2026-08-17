@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,11 +50,26 @@ apis:
 - description: Full-text and filtered search across all collection types
   name: Science Museum Group Search API
   slug: science-museum-group-search-api
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Science Museum Group Collection API
   slug: open-science-museum-group-collection
+- collection_type: open
+  name: Science Museum Group Collection Documents API
+  slug: open-science-museum-group-documents-api
+- collection_type: open
+  name: Science Museum Group Collection Documents Objects API
+  slug: open-science-museum-group-objects-api
+- collection_type: open
+  name: Science Museum Group Collection Documents People API
+  slug: open-science-museum-group-people-api
+- collection_type: open
+  name: Science Museum Group Collection Documents Search API
+  slug: open-science-museum-group-search-api
 common:
 - group: commercial
   title: ''
@@ -124,7 +139,7 @@ plans:
 - name: Science Museum Group Plans Pricing
   plan_count: 3
   slug: science-museum-group-plans-pricing
-random_paper: 5
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Science Museum Group Rate Limits
@@ -172,7 +187,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/screenshots/science-museum-group-2026-06-20T193534.png
 security:

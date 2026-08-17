@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Watchtower API from Interos — 3 operation(s) for watchtower.
   name: Interos Watchtower API
   slug: interos-watchtower-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Interos Groups API
+  slug: open-interos-groups-api
+- collection_type: open
+  name: Interos Groups health API
+  slug: open-interos-health-api
+- collection_type: open
+  name: Interos Groups Organizations API
+  slug: open-interos-organizations-api
+- collection_type: open
+  name: Interos Groups Relationships API
+  slug: open-interos-relationships-api
+- collection_type: open
+  name: Interos Groups Watchtower API
+  slug: open-interos-watchtower-api
 common:
 - group: company
   title: ''
@@ -163,7 +182,7 @@ overview: 'Interos publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Interos'' developer surface includes documentation, API reference, authentication, and 20 more developer resources.'
-random_paper: 52
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Interos Rate Limits
@@ -191,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/screenshots/interos-2026-07-25T222710.png
 security:

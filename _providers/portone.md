@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 34
@@ -99,7 +99,7 @@ apis:
 - description: The Token API from PortOne — 1 operation(s) for token.
   name: PortOne Token API
   slug: portone-token-api
-artifact_total: 49
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Portone Webhooks
@@ -162,6 +162,66 @@ collections:
 - collection_type: postman
   name: PortOne B2b Token API
   slug: postman-portone-token-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PortOne B2b API
+  slug: open-portone-b2b-api
+- collection_type: open
+  name: PortOne B2b Banks API
+  slug: open-portone-banks-api
+- collection_type: open
+  name: PortOne B2b Billing Keys API
+  slug: open-portone-billing-keys-api
+- collection_type: open
+  name: PortOne B2b Cash Receipts API
+  slug: open-portone-cash-receipts-api
+- collection_type: open
+  name: PortOne B2b Checkout Profiles API
+  slug: open-portone-checkout-profiles-api
+- collection_type: open
+  name: PortOne B2b Identity Verifications API
+  slug: open-portone-identity-verifications-api
+- collection_type: open
+  name: PortOne B2b Kakaopay API
+  slug: open-portone-kakaopay-api
+- collection_type: open
+  name: PortOne B2b Login API
+  slug: open-portone-login-api
+- collection_type: open
+  name: PortOne B2b Payment Events By Cursor API
+  slug: open-portone-payment-events-by-cursor-api
+- collection_type: open
+  name: PortOne B2b Payment Gateways API
+  slug: open-portone-payment-gateways-api
+- collection_type: open
+  name: PortOne B2b Payment Reconciliations API
+  slug: open-portone-payment-reconciliations-api
+- collection_type: open
+  name: PortOne B2b Payment Schedules API
+  slug: open-portone-payment-schedules-api
+- collection_type: open
+  name: PortOne B2b Payment Sessions API
+  slug: open-portone-payment-sessions-api
+- collection_type: open
+  name: PortOne B2b Payments API
+  slug: open-portone-payments-api
+- collection_type: open
+  name: PortOne B2b Payments By Cursor API
+  slug: open-portone-payments-by-cursor-api
+- collection_type: open
+  name: PortOne B2b Paymentwall API
+  slug: open-portone-paymentwall-api
+- collection_type: open
+  name: PortOne B2b Platform API
+  slug: open-portone-platform-api
+- collection_type: open
+  name: PortOne B2b Promotions API
+  slug: open-portone-promotions-api
+- collection_type: open
+  name: PortOne B2b Token API
+  slug: open-portone-token-api
 common:
 - group: build
   title: ''
@@ -342,7 +402,7 @@ plans:
 - name: Portone Plans Pricing
   plan_count: 3
   slug: portone-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Portone Rate Limits
@@ -376,7 +436,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

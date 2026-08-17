@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 237
   human_in_the_loop: 11
@@ -222,8 +222,11 @@ apis:
 - description: Validation endpoints are used to pass in data from fabric and third-party services to perform business logic on the Cart
   name: fabric Validations API
   slug: fabric-com-validations-api
-artifact_total: 96
+artifact_total: 158
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Cart API
   slug: open-fabric-cart
@@ -233,6 +236,189 @@ collections:
 - collection_type: open
   name: Checkout
   slug: open-fabric-checkout
+- collection_type: open
+  name: Cart Actions Endpoints API
+  slug: open-fabric-com-actions-endpoints-api
+- collection_type: open
+  name: Cart Actions Endpoints Addresses API
+  slug: open-fabric-com-addresses-api
+- collection_type: open
+  name: Cart Actions Endpoints Appeasements API
+  slug: open-fabric-com-appeasements-api
+- collection_type: open
+  name: Cart Actions Endpoints Attributes API
+  slug: open-fabric-com-attributes-api
+- collection_type: open
+  name: Cart Actions Endpoints Authentication Endpoints API
+  slug: open-fabric-com-authentication-endpoints-api
+- collection_type: open
+  name: Cart Actions Endpoints Bulk Import API
+  slug: open-fabric-com-bulk-import-api
+- collection_type: open
+  name: Cart Actions Endpoints Cancellations API
+  slug: open-fabric-com-cancellations-api
+- collection_type: open
+  name: Endpoints Cart Actions API
+  slug: open-fabric-com-cart-actions-api
+- collection_type: open
+  name: Cart Actions Endpoints Cart Adjustments API
+  slug: open-fabric-com-cart-adjustments-api
+- collection_type: open
+  name: Actions Endpoints Cart API
+  slug: open-fabric-com-cart-api
+- collection_type: open
+  name: Cart Actions Endpoints Cart Fees API
+  slug: open-fabric-com-cart-fees-api
+- collection_type: open
+  name: Cart Actions Endpoints CartPayments API
+  slug: open-fabric-com-cartpayments-api
+- collection_type: open
+  name: Cart Actions Endpoints Carts API
+  slug: open-fabric-com-carts-api
+- collection_type: open
+  name: Cart Actions Endpoints Catalog Connector Files API
+  slug: open-fabric-com-catalog-connector-files-api
+- collection_type: open
+  name: Cart Actions Endpoints Catalog Connector Jobs API
+  slug: open-fabric-com-catalog-connector-jobs-api
+- collection_type: open
+  name: Cart Actions Endpoints Catalog Connector Operations by Item ID API
+  slug: open-fabric-com-catalog-connector-operations-by-item-id-api
+- collection_type: open
+  name: Cart Actions Endpoints Catalog Connector Operations by Product ID API
+  slug: open-fabric-com-catalog-connector-operations-by-product-id-api
+- collection_type: open
+  name: Cart Actions Endpoints Catalog Connector Operations by SKU API
+  slug: open-fabric-com-catalog-connector-operations-by-sku-api
+- collection_type: open
+  name: Cart Actions Endpoints Categories API
+  slug: open-fabric-com-categories-api
+- collection_type: open
+  name: Cart Actions Endpoints Category API
+  slug: open-fabric-com-category-api
+- collection_type: open
+  name: Cart Actions Endpoints Checkout Session API
+  slug: open-fabric-com-checkout-session-api
+- collection_type: open
+  name: Cart Actions Endpoints Counters API
+  slug: open-fabric-com-counters-api
+- collection_type: open
+  name: Cart Actions Endpoints Coupons API
+  slug: open-fabric-com-coupons-api
+- collection_type: open
+  name: Cart Actions Endpoints Credits API
+  slug: open-fabric-com-credits-api
+- collection_type: open
+  name: Cart Actions Endpoints Customer Address API
+  slug: open-fabric-com-customer-address-api
+- collection_type: open
+  name: Cart Actions Endpoints Customer API
+  slug: open-fabric-com-customer-api
+- collection_type: open
+  name: Cart Actions Endpoints Customer Profile API
+  slug: open-fabric-com-customer-profile-api
+- collection_type: open
+  name: Cart Actions Endpoints Customer Self API
+  slug: open-fabric-com-customer-self-api
+- collection_type: open
+  name: Cart Actions Endpoints Frauds API
+  slug: open-fabric-com-frauds-api
+- collection_type: open
+  name: Cart Actions Endpoints Fulfillment Adjustments API
+  slug: open-fabric-com-fulfillment-adjustments-api
+- collection_type: open
+  name: Cart Actions Endpoints Fulfillment Fees API
+  slug: open-fabric-com-fulfillment-fees-api
+- collection_type: open
+  name: Cart Actions Endpoints Fulfillments API
+  slug: open-fabric-com-fulfillments-api
+- collection_type: open
+  name: Cart Actions Endpoints General Catalog Connector Operations API
+  slug: open-fabric-com-general-catalog-connector-operations-api
+- collection_type: open
+  name: Cart Actions Endpoints Global Components API
+  slug: open-fabric-com-global-components-api
+- collection_type: open
+  name: Cart Actions Endpoints Inventory API
+  slug: open-fabric-com-inventory-api
+- collection_type: open
+  name: Cart Actions Endpoints Inventory Import Configs API
+  slug: open-fabric-com-inventory-import-configs-api
+- collection_type: open
+  name: Cart Actions Endpoints Inventory Imports API
+  slug: open-fabric-com-inventory-imports-api
+- collection_type: open
+  name: Cart Actions Endpoints Invoices API
+  slug: open-fabric-com-invoices-api
+- collection_type: open
+  name: Cart Actions Endpoints Item Actions API
+  slug: open-fabric-com-item-actions-api
+- collection_type: open
+  name: Cart Actions Endpoints Item Adjustments API
+  slug: open-fabric-com-item-adjustments-api
+- collection_type: open
+  name: Cart Actions Endpoints Item Fees API
+  slug: open-fabric-com-item-fees-api
+- collection_type: open
+  name: Cart Actions Endpoints Items API
+  slug: open-fabric-com-items-api
+- collection_type: open
+  name: Cart Actions Endpoints LineItems API
+  slug: open-fabric-com-lineitems-api
+- collection_type: open
+  name: Cart Actions Endpoints Menu API
+  slug: open-fabric-com-menu-api
+- collection_type: open
+  name: Cart Actions Endpoints Networks API
+  slug: open-fabric-com-networks-api
+- collection_type: open
+  name: Cart Actions Endpoints Optimize API
+  slug: open-fabric-com-optimize-api
+- collection_type: open
+  name: Cart Actions Endpoints OrderDrafts API
+  slug: open-fabric-com-orderdrafts-api
+- collection_type: open
+  name: Cart Actions Endpoints Orders API
+  slug: open-fabric-com-orders-api
+- collection_type: open
+  name: Cart Actions Endpoints Pages API
+  slug: open-fabric-com-pages-api
+- collection_type: open
+  name: Cart Actions Endpoints Payments API
+  slug: open-fabric-com-payments-api
+- collection_type: open
+  name: Cart Actions Endpoints Platform API
+  slug: open-fabric-com-platform-api
+- collection_type: open
+  name: Cart Actions Endpoints Prices API
+  slug: open-fabric-com-prices-api
+- collection_type: open
+  name: Cart Actions Endpoints Product API
+  slug: open-fabric-com-product-api
+- collection_type: open
+  name: Cart Actions Endpoints Promotions API
+  slug: open-fabric-com-promotions-api
+- collection_type: open
+  name: Cart Actions Endpoints Real-time Pricing Engine API
+  slug: open-fabric-com-real-time-pricing-engine-api
+- collection_type: open
+  name: Cart Actions Endpoints ReservedNetwork Endpoints API
+  slug: open-fabric-com-reservednetwork-endpoints-api
+- collection_type: open
+  name: Cart Actions Endpoints Returns API
+  slug: open-fabric-com-returns-api
+- collection_type: open
+  name: Cart Actions Endpoints Shipments API
+  slug: open-fabric-com-shipments-api
+- collection_type: open
+  name: Cart Actions Endpoints Tracking API
+  slug: open-fabric-com-tracking-api
+- collection_type: open
+  name: Cart Actions Endpoints transfer-shipment-controller API
+  slug: open-fabric-com-transfer-shipment-controller-api
+- collection_type: open
+  name: Cart Actions Endpoints Validations API
+  slug: open-fabric-com-validations-api
 - collection_type: open
   name: Customers
   slug: open-fabric-customers
@@ -425,7 +611,7 @@ plans:
 - name: Fabric Com Plans Pricing
   plan_count: 2
   slug: fabric-com-plans-pricing
-random_paper: 19
+random_paper: 85
 rate_limits:
 - limit_count: 0
   name: Fabric Com Rate Limits
@@ -473,7 +659,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/screenshots/fabric-com-2026-06-20T181000.png
 security:

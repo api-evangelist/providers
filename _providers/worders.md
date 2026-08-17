@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Templates API from Worders — 1 operation(s) for templates.
   name: Worders Templates API
   slug: worders-templates-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Worders API V1 Customers API
+  slug: open-worders-customers-api
+- collection_type: open
+  name: Worders API V1 Customers Freelancers API
+  slug: open-worders-freelancers-api
+- collection_type: open
+  name: Worders API V1 Customers Invoices API
+  slug: open-worders-invoices-api
+- collection_type: open
+  name: Worders API V1 Customers Orders API
+  slug: open-worders-orders-api
+- collection_type: open
+  name: Worders API V1 Customers PurchaseOrders API
+  slug: open-worders-purchaseorders-api
+- collection_type: open
+  name: Worders API V1 Customers Quotes API
+  slug: open-worders-quotes-api
+- collection_type: open
+  name: Worders API V1 Customers Templates API
+  slug: open-worders-templates-api
 common:
 - group: company
   title: ''
@@ -149,7 +174,7 @@ overview: 'Worders publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Worders'' developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 54
+random_paper: 29
 score:
   band: thin
   composite: 31.4
@@ -173,7 +198,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

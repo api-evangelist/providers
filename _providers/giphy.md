@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Identifier generation and other helpers.
   name: Giphy Utilities API
   slug: giphy-utilities-api
-artifact_total: 84
+artifact_total: 96
 collections:
 - collection_type: postman
   name: GIPHY Analytics API
@@ -107,6 +107,42 @@ collections:
 - collection_type: postman
   name: GIPHY Analytics Utilities API
   slug: postman-giphy-utilities-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GIPHY Analytics API
+  slug: open-giphy-analytics-api
+- collection_type: open
+  name: GIPHY Analytics Animate API
+  slug: open-giphy-animate-api
+- collection_type: open
+  name: GIPHY Analytics Categories API
+  slug: open-giphy-categories-api
+- collection_type: open
+  name: GIPHY Analytics Channels API
+  slug: open-giphy-channels-api
+- collection_type: open
+  name: GIPHY Analytics Clips API
+  slug: open-giphy-clips-api
+- collection_type: open
+  name: GIPHY Analytics Emoji API
+  slug: open-giphy-emoji-api
+- collection_type: open
+  name: GIPHY Analytics GIFs API
+  slug: open-giphy-gifs-api
+- collection_type: open
+  name: GIPHY Analytics Search Discovery API
+  slug: open-giphy-search-discovery-api
+- collection_type: open
+  name: GIPHY Analytics Stickers API
+  slug: open-giphy-stickers-api
+- collection_type: open
+  name: GIPHY Analytics Upload API
+  slug: open-giphy-upload-api
+- collection_type: open
+  name: GIPHY Analytics Utilities API
+  slug: open-giphy-utilities-api
 - collection_type: open
   name: GIPHY API
   slug: open-giphy
@@ -373,7 +409,7 @@ plans:
 - name: Giphy Plans Pricing
   plan_count: 3
   slug: giphy-plans-pricing
-random_paper: 65
+random_paper: 98
 rate_limits:
 - limit_count: 0
   name: Giphy Rate Limits
@@ -415,7 +451,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/screenshots/giphy-2026-06-20T181827.png
 security:

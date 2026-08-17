@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Event notifications delivered to merchant endpoints.
   name: Printify Webhooks API
   slug: printify-webhooks-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Printify Catalog API
+  slug: open-printify-catalog-api
+- collection_type: open
+  name: Printify Catalog Orders API
+  slug: open-printify-orders-api
+- collection_type: open
+  name: Printify Catalog Products API
+  slug: open-printify-products-api
+- collection_type: open
+  name: Printify Catalog Shops API
+  slug: open-printify-shops-api
+- collection_type: open
+  name: Printify Catalog Uploads API
+  slug: open-printify-uploads-api
+- collection_type: open
+  name: Printify Catalog Webhooks API
+  slug: open-printify-webhooks-api
 - collection_type: open
   name: Printify API
   slug: open-printify
@@ -131,7 +152,7 @@ plans:
 - name: Printify Plans Pricing
   plan_count: 3
   slug: printify-plans-pricing
-random_paper: 45
+random_paper: 140
 rate_limits:
 - limit_count: 4
   name: Printify Rate Limits
@@ -156,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

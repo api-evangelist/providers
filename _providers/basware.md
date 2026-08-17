@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -162,7 +162,128 @@ apis:
 - description: The .well-known API from Basware — 2 operation(s) for .well-known.
   name: Basware .well-known API
   slug: basware-well-known-api
-artifact_total: 59
+artifact_total: 99
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments API
+  slug: open-basware-accountingdocuments-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Accounts API
+  slug: open-basware-accounts-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments AdvancedPermissions API
+  slug: open-basware-advancedpermissions-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments AdvancedValidations API
+  slug: open-basware-advancedvalidations-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments ApplicationGroups API
+  slug: open-basware-applicationgroups-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Companies (deprecated) API
+  slug: open-basware-companies-deprecated-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Contracts API
+  slug: open-basware-contracts-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments CostCenters API
+  slug: open-basware-costcenters-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Data extract API
+  slug: open-basware-data-extract-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Directory France lookup API
+  slug: open-basware-directory-france-lookup-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Document Import API API
+  slug: open-basware-document-import-api-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments ErrorFeedbacks API
+  slug: open-basware-errorfeedbacks-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments ExchangeRates API
+  slug: open-basware-exchangerates-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments ExportedContracts API
+  slug: open-basware-exportedcontracts-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments ExportedContractSpends API
+  slug: open-basware-exportedcontractspends-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments ExportedPurchaseOrders API
+  slug: open-basware-exportedpurchaseorders-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments ExportedPurchaseRequisitions API
+  slug: open-basware-exportedpurchaserequisitions-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments GenericLists API
+  slug: open-basware-genericlists-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments MatchingOrderLines API
+  slug: open-basware-matchingorderlines-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments MatchingOrders API
+  slug: open-basware-matchingorders-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Notification history API
+  slug: open-basware-notification-history-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Organizations API
+  slug: open-basware-organizations-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments PaymentTerms API
+  slug: open-basware-paymentterms-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Projects v1 (deprecated) API
+  slug: open-basware-projects-v1-deprecated-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Projects v2 API
+  slug: open-basware-projects-v2-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments PurchaseGoodsReceipts API
+  slug: open-basware-purchasegoodsreceipts-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments PurchaseOrders API
+  slug: open-basware-purchaseorders-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments PurchaseRequisitions API
+  slug: open-basware-purchaserequisitions-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments RequestStatus API
+  slug: open-basware-requeststatus-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Subscribe to notifications API
+  slug: open-basware-subscribe-to-notifications-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments TaxCodes API
+  slug: open-basware-taxcodes-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Tokens API
+  slug: open-basware-tokens-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments UserGroupAssociatedUsers API
+  slug: open-basware-usergroupassociatedusers-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments UserGroups API
+  slug: open-basware-usergroups-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Users API
+  slug: open-basware-users-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Vault Archiving API
+  slug: open-basware-vault-archiving-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Vault Indexing API
+  slug: open-basware-vault-indexing-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments Vendors API
+  slug: open-basware-vendors-api
+- collection_type: open
+  name: Basware OAUTH2 authentication APIs AccountingDocuments .well-known API
+  slug: open-basware-well-known-api
 common:
 - group: agent
   title: ''
@@ -281,7 +402,7 @@ plans:
 - name: Basware Plans Pricing
   plan_count: 4
   slug: basware-plans-pricing
-random_paper: 21
+random_paper: 145
 rate_limits:
 - limit_count: 0
   name: Basware Rate Limits
@@ -326,7 +447,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/screenshots/basware-2026-06-20T173043.png
 security:

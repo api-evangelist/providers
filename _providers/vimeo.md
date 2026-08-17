@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,11 +53,26 @@ apis:
 - description: The Videos API from Vimeo — 3 operation(s) for videos.
   name: Vimeo Videos API
   slug: vimeo-videos-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vimeo Albums API
+  slug: open-vimeo-albums-api
 - collection_type: open
   name: Vimeo Webhooks API
   slug: open-vimeo-asyncapi
+- collection_type: open
+  name: Vimeo Albums Channels API
+  slug: open-vimeo-channels-api
+- collection_type: open
+  name: Vimeo Albums Users API
+  slug: open-vimeo-users-api
+- collection_type: open
+  name: Vimeo Albums Videos API
+  slug: open-vimeo-videos-api
 - collection_type: open
   name: Vimeo API
   slug: open-vimeo
@@ -130,7 +145,7 @@ overview: 'Vimeo publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vimeo''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 64
+random_paper: 97
 scopes:
 - name: Vimeo Scopes
   scope_count: 6
@@ -156,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/screenshots/vimeo-2026-06-20T201045.png
 security:

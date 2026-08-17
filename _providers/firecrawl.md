@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -69,11 +69,44 @@ apis:
 - description: The Search API from Firecrawl — 1 operation(s) for search.
   name: Firecrawl Search API
   slug: firecrawl-search-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Firecrawl Account API
+  slug: open-firecrawl-account-api
+- collection_type: open
+  name: Firecrawl Account Agent API
+  slug: open-firecrawl-agent-api
+- collection_type: open
+  name: Firecrawl Account Billing API
+  slug: open-firecrawl-billing-api
+- collection_type: open
+  name: Firecrawl Account Browser API
+  slug: open-firecrawl-browser-api
+- collection_type: open
+  name: Firecrawl Account Crawling API
+  slug: open-firecrawl-crawling-api
+- collection_type: open
+  name: Firecrawl Account Extraction API
+  slug: open-firecrawl-extraction-api
+- collection_type: open
+  name: Firecrawl Account Mapping API
+  slug: open-firecrawl-mapping-api
+- collection_type: open
+  name: Firecrawl Account Miscellaneous API
+  slug: open-firecrawl-miscellaneous-api
 - collection_type: open
   name: Firecrawl API
   slug: open-firecrawl-openapi-original
+- collection_type: open
+  name: Firecrawl Account Scraping API
+  slug: open-firecrawl-scraping-api
+- collection_type: open
+  name: Firecrawl Account Search API
+  slug: open-firecrawl-search-api
 common:
 - group: agent
   title: ''
@@ -175,7 +208,7 @@ plans:
 - name: Firecrawl Plans Pricing
   plan_count: 3
   slug: firecrawl-plans-pricing
-random_paper: 119
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Firecrawl Rate Limits
@@ -200,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/screenshots/firecrawl-2026-06-20T181259.png
 security:

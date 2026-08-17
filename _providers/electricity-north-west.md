@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The current Opendatasoft Explore REST API v2.1 scoped to the SP Electricity North West open data domain. Read-only (GET only, JSON), 16 documented paths covering catalogue search over the 146 publishe
@@ -27,7 +27,14 @@ apis:
 - description: The previous-generation Opendatasoft Explore REST API v2.0, still served on the SP Electricity North West domain alongside v2.1. Same 16-path read-only shape — catalogue, dataset metadata, records, fa
   name: SP Electricity North West Open Data Explore API v2.0
   slug: explore-api-v2-0
-artifact_total: 14
+artifact_total: 16
+collections:
+- collection_type: open
+  name: Explore API
+  slug: open-electricity-north-west-explore-api-v2-0
+- collection_type: open
+  name: Explore API
+  slug: open-electricity-north-west-explore-api-v2-1
 common:
 - group: company
   title: ''
@@ -242,7 +249,7 @@ overview: 'Electricity North West publishes 2 APIs on the [APIs.io](https://apis
 
 
   Electricity North West''s developer surface includes developer portal, documentation, API reference, getting-started guide, sandbox, developer console, signup flow, and 37 more developer resources.'
-random_paper: 1
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Electricity North West Rate Limits
@@ -275,7 +282,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/screenshots/electricity-north-west-2026-08-07T164817.png
 security:

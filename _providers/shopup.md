@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Merchant pickup store management
   name: ShopUp Pickup Stores API
   slug: shopup-pickup-stores-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: REDX Open Areas API
+  slug: open-shopup-areas-api
+- collection_type: open
+  name: REDX Open Areas Parcels API
+  slug: open-shopup-parcels-api
+- collection_type: open
+  name: REDX Open Areas Pickup Stores API
+  slug: open-shopup-pickup-stores-api
 common:
 - group: company
   title: ''
@@ -153,7 +166,7 @@ overview: 'ShopUp publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   ShopUp''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 71
+random_paper: 75
 score:
   band: thin
   composite: 39.4
@@ -177,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

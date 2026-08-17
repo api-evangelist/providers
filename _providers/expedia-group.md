@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -84,7 +84,56 @@ apis:
 - description: The EPS shopping APIs provide you with access to live rates & availability.
   name: Expedia Group Shopping API
   slug: expedia-group-shopping-api
-artifact_total: 25
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings API
+  slug: open-expedia-group-bookings-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Content API
+  slug: open-expedia-group-content-api
+- collection_type: open
+  name: Expedia Group EPS Bookings Deposit API
+  slug: open-expedia-group-deposit-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Geography API
+  slug: open-expedia-group-geography-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Loyalty API
+  slug: open-expedia-group-loyalty-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Manage Booking API
+  slug: open-expedia-group-manage-booking-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Notifications API
+  slug: open-expedia-group-notifications-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings OrderPurchaseScreen API
+  slug: open-expedia-group-orderpurchasescreen-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings OrderPurchaseUpdate API
+  slug: open-expedia-group-orderpurchaseupdate-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Property API
+  slug: open-expedia-group-property-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Rate Plan API
+  slug: open-expedia-group-rate-plan-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Rate Verification Thresholds API
+  slug: open-expedia-group-rate-verification-thresholds-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Room Type Amenities API
+  slug: open-expedia-group-room-type-amenities-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Room Type API
+  slug: open-expedia-group-room-type-api
+- collection_type: open
+  name: Expedia Group EPS Deposit Bookings Shopping API
+  slug: open-expedia-group-shopping-api
 common:
 - group: agent
   title: ''
@@ -158,7 +207,7 @@ plans:
 - name: Expedia Group Plans Pricing
   plan_count: 1
   slug: expedia-group-plans-pricing
-random_paper: 18
+random_paper: 146
 rate_limits:
 - limit_count: 1
   name: Expedia Group Rate Limits
@@ -188,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/screenshots/expedia-group-2026-06-20T180935.png
 security:

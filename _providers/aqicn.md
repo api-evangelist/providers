@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Air Quality Index Data for over 1000 cities
@@ -56,7 +56,7 @@ name: AQICN
 nav: Providers
 network: true
 overview: AQICN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather and Public APIs.
-random_paper: 44
+random_paper: 77
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqicn/refs/heads/main/screenshots/aqicn-2026-06-20T172345.png
 security:

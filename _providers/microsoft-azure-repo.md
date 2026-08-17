@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,11 +66,38 @@ apis:
 - description: Operations for retrieving branch statistics such as commit counts ahead and behind relative to the default branch.
   name: Azure Repos Stats API
   slug: microsoft-azure-repo-stats-api
-artifact_total: 18
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Azure Repos Git API
   slug: open-azure-repo-git-api
+- collection_type: open
+  name: Azure Repos Git Commits API
+  slug: open-microsoft-azure-repo-commits-api
+- collection_type: open
+  name: Azure Repos Git Commits Items API
+  slug: open-microsoft-azure-repo-items-api
+- collection_type: open
+  name: Azure Repos Git Commits Pull Request Threads API
+  slug: open-microsoft-azure-repo-pull-request-threads-api
+- collection_type: open
+  name: Azure Repos Git Commits Pull Requests API
+  slug: open-microsoft-azure-repo-pull-requests-api
+- collection_type: open
+  name: Azure Repos Git Commits Pushes API
+  slug: open-microsoft-azure-repo-pushes-api
+- collection_type: open
+  name: Azure Repos Git Commits Refs API
+  slug: open-microsoft-azure-repo-refs-api
+- collection_type: open
+  name: Azure Repos Git Commits Repositories API
+  slug: open-microsoft-azure-repo-repositories-api
+- collection_type: open
+  name: Azure Repos Git Commits Stats API
+  slug: open-microsoft-azure-repo-stats-api
 common:
 - group: agent
   title: ''
@@ -192,7 +219,7 @@ plans:
 - name: Microsoft Azure Repo Plans Pricing
   plan_count: 5
   slug: microsoft-azure-repo-plans-pricing
-random_paper: 21
+random_paper: 124
 rate_limits:
 - limit_count: 3
   name: Microsoft Azure Repo Rate Limits
@@ -222,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/screenshots/microsoft-azure-repo-2026-06-20T185433.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'SpruceID is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SpruceID''s developer surface includes documentation, getting-started guide, engineering blog, support, and 11 more developer resources.'
-random_paper: 58
+random_paper: 62
 score:
   band: emerging
   composite: 22.6
@@ -125,7 +125,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -130,7 +130,7 @@ arazzos:
 - description: Pull historical monthly trends for a query, then compare to the live count.
   name: Shodan Historical Trends vs Live Exposure
   slug: shodan-trends-vs-live-workflow
-artifact_total: 109
+artifact_total: 125
 asyncapis:
 - description: Real-time streaming firehose of banner data collected by Shodan, delivered as newline-separated JSON or Server-Sent Events. Subscribers can consume the full firehose or filter by ASN, country, port, o
   name: Shodan Streaming API
@@ -152,20 +152,68 @@ collections:
   name: Shodan Trends API
   slug: postman-shodan-trends
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shodan CVEDB Account API
+  slug: open-shodan-account-api
+- collection_type: open
+  name: Shodan CVEDB Account Bulk Data API
+  slug: open-shodan-bulk-data-api
+- collection_type: open
+  name: Shodan CVEDB Account CPE API
+  slug: open-shodan-cpe-api
+- collection_type: open
+  name: Shodan CVEDB Account CVE API
+  slug: open-shodan-cve-api
+- collection_type: open
   name: Shodan CVEDB API
   slug: open-shodan-cvedb
+- collection_type: open
+  name: Shodan CVEDB Account Directory API
+  slug: open-shodan-directory-api
+- collection_type: open
+  name: Shodan CVEDB Account DNS API
+  slug: open-shodan-dns-api
+- collection_type: open
+  name: Shodan CVEDB Account InternetDB API
+  slug: open-shodan-internetdb-api
 - collection_type: open
   name: Shodan InternetDB API
   slug: open-shodan-internetdb
 - collection_type: open
+  name: Shodan CVEDB Account Network Alerts API
+  slug: open-shodan-network-alerts-api
+- collection_type: open
+  name: Shodan CVEDB Account Notifiers API
+  slug: open-shodan-notifiers-api
+- collection_type: open
+  name: Shodan CVEDB Account On-Demand Scanning API
+  slug: open-shodan-on-demand-scanning-api
+- collection_type: open
+  name: Shodan CVEDB Account Organization API
+  slug: open-shodan-organization-api
+- collection_type: open
   name: Shodan REST API
   slug: open-shodan-rest
+- collection_type: open
+  name: Shodan CVEDB Account Search Methods API
+  slug: open-shodan-search-methods-api
 - collection_type: open
   name: Shodan Streaming API
   slug: open-shodan-stream
 - collection_type: open
+  name: Shodan CVEDB Account Streaming API
+  slug: open-shodan-streaming-api
+- collection_type: open
+  name: Shodan CVEDB Account Trends API
+  slug: open-shodan-trends-api
+- collection_type: open
   name: Shodan Trends API
   slug: open-shodan-trends
+- collection_type: open
+  name: Shodan CVEDB Account Utility API
+  slug: open-shodan-utility-api
 common:
 - group: agent
   title: ''
@@ -636,7 +684,7 @@ plans:
 - name: Shodan Plans Pricing
   plan_count: 6
   slug: shodan-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 17
   name: Shodan Rate Limits
@@ -686,7 +734,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/screenshots/shodan-2026-06-20T193830.png
 security:

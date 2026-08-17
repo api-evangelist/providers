@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 4
@@ -102,7 +102,71 @@ apis:
 - description: The vault_deaccession API from Utrecht University — 4 operation(s) for vault_deaccession.
   name: Utrecht University vault_deaccession API
   slug: utrecht-vault-deaccession-api
-artifact_total: 37
+artifact_total: 58
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yoda core admin API
+  slug: open-utrecht-admin-api
+- collection_type: open
+  name: Yoda core admin browse API
+  slug: open-utrecht-browse-api
+- collection_type: open
+  name: Yoda core admin data_access_token API
+  slug: open-utrecht-data-access-token-api
+- collection_type: open
+  name: Yoda core admin datarequest API
+  slug: open-utrecht-datarequest-api
+- collection_type: open
+  name: Yoda core admin folder API
+  slug: open-utrecht-folder-api
+- collection_type: open
+  name: Yoda core admin groups API
+  slug: open-utrecht-groups-api
+- collection_type: open
+  name: Yoda core admin meta API
+  slug: open-utrecht-meta-api
+- collection_type: open
+  name: Yoda core admin meta_form API
+  slug: open-utrecht-meta-form-api
+- collection_type: open
+  name: Yoda core admin notifications API
+  slug: open-utrecht-notifications-api
+- collection_type: open
+  name: Yoda core admin provenance API
+  slug: open-utrecht-provenance-api
+- collection_type: open
+  name: Yoda core admin publication_troubleshoot API
+  slug: open-utrecht-publication-troubleshoot-api
+- collection_type: open
+  name: Yoda core admin research API
+  slug: open-utrecht-research-api
+- collection_type: open
+  name: Yoda core admin revisions API
+  slug: open-utrecht-revisions-api
+- collection_type: open
+  name: Yoda core admin schema API
+  slug: open-utrecht-schema-api
+- collection_type: open
+  name: Yoda core admin schema_transformation API
+  slug: open-utrecht-schema-transformation-api
+- collection_type: open
+  name: Yoda core admin settings API
+  slug: open-utrecht-settings-api
+- collection_type: open
+  name: Yoda core admin stats API
+  slug: open-utrecht-stats-api
+- collection_type: open
+  name: Yoda core admin vault API
+  slug: open-utrecht-vault-api
+- collection_type: open
+  name: Yoda core admin vault_archive API
+  slug: open-utrecht-vault-archive-api
+- collection_type: open
+  name: Yoda core admin vault_deaccession API
+  slug: open-utrecht-vault-deaccession-api
 common:
 - group: commercial
   title: ''
@@ -205,7 +269,7 @@ plans:
 - name: Utrecht Plans Pricing
   plan_count: 2
   slug: utrecht-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Utrecht Rate Limits
@@ -247,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png
 security:

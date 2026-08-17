@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Velma 2 Accent Batch API from Modulate — 1 operation(s) for velma 2 accent batch.
@@ -65,7 +65,7 @@ apis:
 - description: The Velma 2 Synthetic Voice Detection Batch API from Modulate — 1 operation(s) for velma 2 synthetic voice detection batch.
   name: Modulate Velma 2 Synthetic Voice Detection Batch API
   slug: modulate-velma-2-synthetic-voice-detection-batch-api
-artifact_total: 23
+artifact_total: 35
 asyncapis:
 - description: 'Real-time AI music detection over WebSocket. The client streams audio and receives per-window vocal AI verdicts as they become available, followed by a final clip-level summary including instrumental '
   name: Velma 2 AI Music Detection Streaming API
@@ -88,6 +88,43 @@ asyncapis:
 - description: Streaming velma-2 over WebSocket. Transcribes and analyzes a live audio stream against a client-supplied analysis configuration, emitting JSON events that describe clips and analysis results as they a
   name: Modulate Velma-2 Streaming Server
   slug: modulate-velma-2-streaming-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Velma 2 Accent Batch API
+  slug: open-modulate-velma-2-accent-batch-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Ai Music Detection Batch API
+  slug: open-modulate-velma-2-ai-music-detection-batch-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Batch API
+  slug: open-modulate-velma-2-batch-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Emotion Batch API
+  slug: open-modulate-velma-2-emotion-batch-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Language Detection Batch API
+  slug: open-modulate-velma-2-language-detection-batch-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Music Detection Batch API
+  slug: open-modulate-velma-2-music-detection-batch-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Pii Phi Redaction Batch API
+  slug: open-modulate-velma-2-pii-phi-redaction-batch-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Stt Batch API
+  slug: open-modulate-velma-2-stt-batch-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Stt Batch English Vfast API
+  slug: open-modulate-velma-2-stt-batch-english-vfast-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Stt Batch Multilingual Vfast API
+  slug: open-modulate-velma-2-stt-batch-multilingual-vfast-api
+- collection_type: open
+  name: Velma 2 Accent Batch Velma 2 Synthetic Voice Detection Batch API
+  slug: open-modulate-velma-2-synthetic-voice-detection-batch-api
 common:
 - group: other
   title: ''
@@ -224,7 +261,7 @@ overview: 'Modulate publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 19
+random_paper: 114
 rate_limits:
 - limit_count: 3
   name: Modulate Rate Limits
@@ -251,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/screenshots/modulate-2026-08-07T184031.png
 security:

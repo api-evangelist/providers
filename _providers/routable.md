@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Webhook events.
   name: Routable Webhooks API
   slug: routable-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Routable Companies API
+  slug: open-routable-companies-api
+- collection_type: open
+  name: Routable Companies Contacts API
+  slug: open-routable-contacts-api
+- collection_type: open
+  name: Routable Companies Funding Sources API
+  slug: open-routable-funding-sources-api
+- collection_type: open
+  name: Routable Companies Payables API
+  slug: open-routable-payables-api
+- collection_type: open
+  name: Routable Companies Payment Methods API
+  slug: open-routable-payment-methods-api
+- collection_type: open
+  name: Routable Companies Receivables API
+  slug: open-routable-receivables-api
+- collection_type: open
+  name: Routable Companies Webhooks API
+  slug: open-routable-webhooks-api
 - collection_type: open
   name: Routable API
   slug: open-routable
@@ -126,7 +150,7 @@ plans:
 - name: Routable Plans Pricing
   plan_count: 2
   slug: routable-plans-pricing
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 1
   name: Routable Rate Limits
@@ -157,7 +181,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

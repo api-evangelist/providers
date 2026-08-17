@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: The Users API from GTE — 6 operation(s) for users.
   name: GTE Users API
   slug: gte-users-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GTE Exchange API
+  slug: open-gte-exchange-api
+- collection_type: open
+  name: GTE Exchange Health API
+  slug: open-gte-health-api
+- collection_type: open
+  name: GTE Exchange Info API
+  slug: open-gte-info-api
+- collection_type: open
+  name: GTE Exchange Markets API
+  slug: open-gte-markets-api
+- collection_type: open
+  name: GTE Exchange Tokens API
+  slug: open-gte-tokens-api
+- collection_type: open
+  name: GTE Exchange Users API
+  slug: open-gte-users-api
 common:
 - group: auth
   title: ''
@@ -178,7 +200,7 @@ overview: 'GTE publishes 6 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   GTE''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 80
+random_paper: 22
 score:
   band: thin
   composite: 39.7
@@ -208,7 +230,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/screenshots/gte-2026-07-25T220408.png
 security:

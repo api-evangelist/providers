@@ -29,13 +29,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Phi is a biomodal computation platform for protein design. The REST API lets a caller create datasets from PDB/CIF structures, submit structure-prediction and sequence-design jobs across twenty biomod
   name: Dyno Phi — Protein Design API
   slug: dyno-phi-protein-design-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Phi — Protein Design API
+  slug: open-dyno-phi
 common:
 - group: agent
   title: ''
@@ -186,7 +190,7 @@ plans:
 - name: Dyno Plans Pricing
   plan_count: 0
   slug: dyno-plans-pricing
-random_paper: 82
+random_paper: 144
 rate_limits:
 - limit_count: 0
   name: Dyno Rate Limits
@@ -219,7 +223,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

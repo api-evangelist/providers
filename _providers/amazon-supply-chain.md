@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: The Tags API from Amazon Supply Chain — 1 operation(s) for tags.
   name: Amazon Supply Chain Tags API
   slug: amazon-supply-chain-tags-api
-artifact_total: 51
+artifact_total: 58
 collections:
 - collection_type: postman
   name: AWS Supply Chain Bill of Materials API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: AWS Supply Chain Bill of Materials Tags API
   slug: postman-amazon-supply-chain-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Supply Chain Bill of Materials API
+  slug: open-amazon-supply-chain-bill-of-materials-api
+- collection_type: open
+  name: AWS Supply Chain Bill of Materials Data Integration Events API
+  slug: open-amazon-supply-chain-data-integration-events-api
+- collection_type: open
+  name: AWS Supply Chain Bill of Materials Data Integration Flows API
+  slug: open-amazon-supply-chain-data-integration-flows-api
+- collection_type: open
+  name: AWS Supply Chain Bill of Materials Data Lake API
+  slug: open-amazon-supply-chain-data-lake-api
+- collection_type: open
+  name: AWS Supply Chain Bill of Materials Instances API
+  slug: open-amazon-supply-chain-instances-api
+- collection_type: open
+  name: AWS Supply Chain Bill of Materials Tags API
+  slug: open-amazon-supply-chain-tags-api
 common:
 - group: build
   title: ''
@@ -256,7 +277,7 @@ plans:
 - name: Amazon Supply Chain Plans Pricing
   plan_count: 3
   slug: amazon-supply-chain-plans-pricing
-random_paper: 16
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Amazon Supply Chain Rate Limits
@@ -298,7 +319,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/screenshots/amazon-supply-chain-2026-06-20T171834.png
 security:

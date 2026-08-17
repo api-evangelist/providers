@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Official remote Model Context Protocol server (com.1stdibs/1stDibs) for browsing and searching luxury design items on the 1stDibs marketplace. Streamable-HTTP transport, API-key authentication.
@@ -83,7 +83,7 @@ overview: '1stdibs publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   1stdibs'' developer surface includes support and 7 more developer resources.'
-random_paper: 98
+random_paper: 102
 score:
   band: emerging
   composite: 15.1
@@ -99,7 +99,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1stdibs/refs/heads/main/screenshots/1stdibs-2026-08-07T160656.png
 security:

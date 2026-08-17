@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: Manage spaces, which are logical containers within a tenant that control access for users and groups through role-based assignments.
   name: Qlik Sense Spaces API
   slug: qlik-sense-spaces-api
-artifact_total: 44
+artifact_total: 48
 collections:
 - collection_type: postman
   name: Qlik Cloud REST Apps API
@@ -76,8 +76,20 @@ collections:
   name: Qlik Cloud REST Apps Spaces API
   slug: postman-qlik-sense-spaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qlik Cloud REST Apps API
+  slug: open-qlik-sense-apps-api
+- collection_type: open
   name: Qlik Cloud REST API
   slug: open-qlik-sense-cloud-rest-api
+- collection_type: open
+  name: Qlik Cloud REST Apps Reloads API
+  slug: open-qlik-sense-reloads-api
+- collection_type: open
+  name: Qlik Cloud REST Apps Spaces API
+  slug: open-qlik-sense-spaces-api
 common:
 - group: build
   title: ''
@@ -270,7 +282,7 @@ plans:
 - name: Qlik Sense Plans Pricing
   plan_count: 1
   slug: qlik-sense-plans-pricing
-random_paper: 60
+random_paper: 126
 rate_limits:
 - limit_count: 1
   name: Qlik Sense Rate Limits
@@ -304,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-sense/refs/heads/main/screenshots/qlik-sense-2026-06-20T192340.png
 security:

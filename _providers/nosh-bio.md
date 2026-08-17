@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Nosh Bio
 nav: Providers
 network: true
 overview: Nosh Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FoodTech, Biotechnology, Precision Fermentation, and Alternative Protein.
-random_paper: 79
+random_paper: 54
 score:
   band: minimal
   composite: 5.0
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nosh-bio/refs/heads/main/screenshots/nosh-bio-2026-08-07T185535.png
 slug: nosh-bio

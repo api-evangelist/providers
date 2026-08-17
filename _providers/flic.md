@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -115,7 +115,7 @@ overview: 'Flic is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Flic''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 10 more developer resources.'
-random_paper: 54
+random_paper: 116
 score:
   band: thin
   composite: 35.4
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flic/refs/heads/main/screenshots/flic-2026-07-25T214752.png
 security:

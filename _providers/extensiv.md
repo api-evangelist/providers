@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Physical facilities (endpointsModeled).
   name: Extensiv Warehouses API
   slug: extensiv-warehouses-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Extensiv 3PL Warehouse Manager API (modeled) Authentication API
+  slug: open-extensiv-authentication-api
+- collection_type: open
+  name: Extensiv 3PL Warehouse Manager API (modeled) Authentication Customers API
+  slug: open-extensiv-customers-api
+- collection_type: open
+  name: Extensiv 3PL Warehouse Manager API (modeled) Authentication Inventory API
+  slug: open-extensiv-inventory-api
+- collection_type: open
+  name: Extensiv 3PL Warehouse Manager API (modeled) Authentication Items API
+  slug: open-extensiv-items-api
+- collection_type: open
+  name: Extensiv 3PL Warehouse Manager API (modeled) Authentication Orders API
+  slug: open-extensiv-orders-api
+- collection_type: open
+  name: Extensiv 3PL Warehouse Manager API (modeled) Authentication Receivers API
+  slug: open-extensiv-receivers-api
+- collection_type: open
+  name: Extensiv 3PL Warehouse Manager API (modeled) Authentication Warehouses API
+  slug: open-extensiv-warehouses-api
 - collection_type: open
   name: Extensiv 3PL Warehouse Manager API (modeled)
   slug: open-extensiv
@@ -130,7 +154,7 @@ plans:
 - name: Extensiv Plans Pricing
   plan_count: 4
   slug: extensiv-plans-pricing
-random_paper: 46
+random_paper: 141
 rate_limits:
 - limit_count: 3
   name: Extensiv Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/screenshots/extensiv-2026-07-25T213952.png
 security:

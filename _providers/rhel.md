@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,14 +54,32 @@ apis:
 - description: Registered system management
   name: Red Hat Enterprise Linux Systems API
   slug: rhel-systems-api
-artifact_total: 31
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Red Hat Security Data Advisories API
+  slug: open-rhel-advisories-api
+- collection_type: open
+  name: Red Hat Security Data Advisories CVEs API
+  slug: open-rhel-cves-api
+- collection_type: open
+  name: Red Hat Security Data Advisories OVAL API
+  slug: open-rhel-oval-api
 - collection_type: open
   name: Red Hat Security Data API
   slug: open-rhel-security-data
 - collection_type: open
   name: Red Hat Subscription Management API
   slug: open-rhel-subscription-management
+- collection_type: open
+  name: Red Hat Security Data Advisories Subscriptions API
+  slug: open-rhel-subscriptions-api
+- collection_type: open
+  name: Red Hat Security Data Advisories Systems API
+  slug: open-rhel-systems-api
 common:
 - group: commercial
   title: ''
@@ -230,7 +248,7 @@ plans:
 - name: Rhel Plans Pricing
   plan_count: 7
   slug: rhel-plans-pricing
-random_paper: 67
+random_paper: 129
 rate_limits:
 - limit_count: 1
   name: Rhel Rate Limits
@@ -277,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/screenshots/rhel-2026-06-20T193105.png
 security:

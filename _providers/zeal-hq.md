@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: The Tax API from Zeal — 4 operation(s) for tax.
   name: Zeal Tax API
   slug: zeal-hq-tax-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zeal Companies API
+  slug: open-zeal-hq-companies-api
+- collection_type: open
+  name: Zeal Companies Contractor Payments API
+  slug: open-zeal-hq-contractor-payments-api
+- collection_type: open
+  name: Zeal Companies Contractors API
+  slug: open-zeal-hq-contractors-api
+- collection_type: open
+  name: Zeal Companies Employee Check API
+  slug: open-zeal-hq-employee-check-api
+- collection_type: open
+  name: Zeal Companies Employees API
+  slug: open-zeal-hq-employees-api
+- collection_type: open
+  name: Zeal Companies Funding API
+  slug: open-zeal-hq-funding-api
+- collection_type: open
+  name: Zeal Companies Onboarding API
+  slug: open-zeal-hq-onboarding-api
+- collection_type: open
+  name: Zeal Companies Pay Schedules API
+  slug: open-zeal-hq-pay-schedules-api
+- collection_type: open
+  name: Zeal Companies Reports API
+  slug: open-zeal-hq-reports-api
+- collection_type: open
+  name: Zeal Companies Tax API
+  slug: open-zeal-hq-tax-api
 - collection_type: open
   name: Zeal API
   slug: open-zeal-hq
@@ -135,7 +168,7 @@ plans:
 - name: Zeal Hq Plans Pricing
   plan_count: 4
   slug: zeal-hq-plans-pricing
-random_paper: 90
+random_paper: 94
 rate_limits:
 - limit_count: 3
   name: Zeal Hq Rate Limits
@@ -160,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

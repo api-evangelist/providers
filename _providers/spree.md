@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 343
   human_in_the_loop: 6
@@ -297,7 +297,269 @@ apis:
 - description: The Zones API from Spree Commerce — 2 operation(s) for zones.
   name: Spree Commerce Zones API
   slug: spree-zones-api
-artifact_total: 122
+artifact_total: 209
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Admin Account / Address API
+  slug: open-spree-account-address-api
+- collection_type: open
+  name: Admin / Address Account API
+  slug: open-spree-account-api
+- collection_type: open
+  name: Admin Account / Address Account / Credit Cards API
+  slug: open-spree-account-credit-cards-api
+- collection_type: open
+  name: Admin Account / Address Account / Orders API
+  slug: open-spree-account-orders-api
+- collection_type: open
+  name: Admin Account / Address Addresses API
+  slug: open-spree-addresses-api
+- collection_type: open
+  name: Admin Account / Address Adjustments API
+  slug: open-spree-adjustments-api
+- collection_type: open
+  name: Admin Account / Address Adyen API
+  slug: open-spree-adyen-api
+- collection_type: open
+  name: Admin Account / Address Allowed Origins API
+  slug: open-spree-allowed-origins-api
+- collection_type: open
+  name: Admin Account / Address API Keys API
+  slug: open-spree-api-keys-api
+- collection_type: open
+  name: Admin Account / Address Authentication API
+  slug: open-spree-authentication-api
+- collection_type: open
+  name: Admin Account / Address Cart API
+  slug: open-spree-cart-api
+- collection_type: open
+  name: Admin Account / Address Cart / Coupons API
+  slug: open-spree-cart-coupons-api
+- collection_type: open
+  name: Admin Account / Address Cart / Line Items API
+  slug: open-spree-cart-line-items-api
+- collection_type: open
+  name: Admin Account / Address Cart / Other API
+  slug: open-spree-cart-other-api
+- collection_type: open
+  name: Admin Account / Address Carts API
+  slug: open-spree-carts-api
+- collection_type: open
+  name: Admin Account / Address Channels API
+  slug: open-spree-channels-api
+- collection_type: open
+  name: Admin Account / Address Checkout API
+  slug: open-spree-checkout-api
+- collection_type: open
+  name: Admin Account / Address Checkout / Payments API
+  slug: open-spree-checkout-payments-api
+- collection_type: open
+  name: Admin Account / Address Checkout / Shipments API
+  slug: open-spree-checkout-shipments-api
+- collection_type: open
+  name: Admin Account / Address Checkout / State API
+  slug: open-spree-checkout-state-api
+- collection_type: open
+  name: Admin Account / Address Checkout / Store Credit API
+  slug: open-spree-checkout-store-credit-api
+- collection_type: open
+  name: Admin Account / Address Classifications API
+  slug: open-spree-classifications-api
+- collection_type: open
+  name: Admin Account / Address CMS Pages API
+  slug: open-spree-cms-pages-api
+- collection_type: open
+  name: Admin Account / Address CMS Sections API
+  slug: open-spree-cms-sections-api
+- collection_type: open
+  name: Admin Account / Address Countries API
+  slug: open-spree-countries-api
+- collection_type: open
+  name: Admin Account / Address Custom Fields API
+  slug: open-spree-custom-fields-api
+- collection_type: open
+  name: Admin Account / Address Customer Groups API
+  slug: open-spree-customer-groups-api
+- collection_type: open
+  name: Admin Account / Address Customers API
+  slug: open-spree-customers-api
+- collection_type: open
+  name: Admin Account / Address Data Feeds API
+  slug: open-spree-data-feeds-api
+- collection_type: open
+  name: Admin Account / Address Digital Assets API
+  slug: open-spree-digital-assets-api
+- collection_type: open
+  name: Admin Account / Address Digital Downloads API
+  slug: open-spree-digital-downloads-api
+- collection_type: open
+  name: Admin Account / Address Digital Links API
+  slug: open-spree-digital-links-api
+- collection_type: open
+  name: Admin Account / Address Digitals API
+  slug: open-spree-digitals-api
+- collection_type: open
+  name: Admin Account / Address Exports API
+  slug: open-spree-exports-api
+- collection_type: open
+  name: Admin Account / Address Fulfillments API
+  slug: open-spree-fulfillments-api
+- collection_type: open
+  name: Admin Account / Address Gift Cards API
+  slug: open-spree-gift-cards-api
+- collection_type: open
+  name: Admin Account / Address Line Items API
+  slug: open-spree-line-items-api
+- collection_type: open
+  name: Admin Account / Address Markets API
+  slug: open-spree-markets-api
+- collection_type: open
+  name: Admin Account / Address Menu Items API
+  slug: open-spree-menu-items-api
+- collection_type: open
+  name: Admin Account / Address Menus API
+  slug: open-spree-menus-api
+- collection_type: open
+  name: Admin Account / Address Newsletter Subscribers API
+  slug: open-spree-newsletter-subscribers-api
+- collection_type: open
+  name: Admin Account / Address Option Types API
+  slug: open-spree-option-types-api
+- collection_type: open
+  name: Admin Account / Address Option Values API
+  slug: open-spree-option-values-api
+- collection_type: open
+  name: Admin Account / Address Order Status API
+  slug: open-spree-order-status-api
+- collection_type: open
+  name: Admin Account / Address Orders API
+  slug: open-spree-orders-api
+- collection_type: open
+  name: Admin Account / Address Payment Methods API
+  slug: open-spree-payment-methods-api
+- collection_type: open
+  name: Admin Account / Address Payments API
+  slug: open-spree-payments-api
+- collection_type: open
+  name: Admin Account / Address Policies API
+  slug: open-spree-policies-api
+- collection_type: open
+  name: Admin Account / Address Post Categories API
+  slug: open-spree-post-categories-api
+- collection_type: open
+  name: Admin Account / Address Posts API
+  slug: open-spree-posts-api
+- collection_type: open
+  name: Admin Account / Address Pricing API
+  slug: open-spree-pricing-api
+- collection_type: open
+  name: Admin Account / Address Product Catalog API
+  slug: open-spree-product-catalog-api
+- collection_type: open
+  name: Admin Account / Address Products API
+  slug: open-spree-products-api
+- collection_type: open
+  name: Admin Account / Address Promotion Actions API
+  slug: open-spree-promotion-actions-api
+- collection_type: open
+  name: Admin Account / Address Promotion Categories API
+  slug: open-spree-promotion-categories-api
+- collection_type: open
+  name: Admin Account / Address Promotion Rules API
+  slug: open-spree-promotion-rules-api
+- collection_type: open
+  name: Admin Account / Address Promotions API
+  slug: open-spree-promotions-api
+- collection_type: open
+  name: Admin Account / Address Refunds API
+  slug: open-spree-refunds-api
+- collection_type: open
+  name: Admin Account / Address Roles API
+  slug: open-spree-roles-api
+- collection_type: open
+  name: Admin Account / Address Settings API
+  slug: open-spree-settings-api
+- collection_type: open
+  name: Admin Account / Address Shipments API
+  slug: open-spree-shipments-api
+- collection_type: open
+  name: Admin Account / Address Shipping Categories API
+  slug: open-spree-shipping-categories-api
+- collection_type: open
+  name: Admin Account / Address Shipping Methods API
+  slug: open-spree-shipping-methods-api
+- collection_type: open
+  name: Admin Account / Address Staff API
+  slug: open-spree-staff-api
+- collection_type: open
+  name: Admin Account / Address States API
+  slug: open-spree-states-api
+- collection_type: open
+  name: Admin Account / Address Stock Items API
+  slug: open-spree-stock-items-api
+- collection_type: open
+  name: Admin Account / Address Stock Locations API
+  slug: open-spree-stock-locations-api
+- collection_type: open
+  name: Admin Account / Address Store Credit Categories API
+  slug: open-spree-store-credit-categories-api
+- collection_type: open
+  name: Admin Account / Address Store Credit Types API
+  slug: open-spree-store-credit-types-api
+- collection_type: open
+  name: Admin Account / Address Store Credits API
+  slug: open-spree-store-credits-api
+- collection_type: open
+  name: Admin Account / Address Stores API
+  slug: open-spree-stores-api
+- collection_type: open
+  name: Admin Account / Address Stripe API
+  slug: open-spree-stripe-api
+- collection_type: open
+  name: Admin Account / Address Tax Categories API
+  slug: open-spree-tax-categories-api
+- collection_type: open
+  name: Admin Account / Address Tax Rates API
+  slug: open-spree-tax-rates-api
+- collection_type: open
+  name: Admin Account / Address Taxonomies API
+  slug: open-spree-taxonomies-api
+- collection_type: open
+  name: Admin Account / Address Taxons API
+  slug: open-spree-taxons-api
+- collection_type: open
+  name: Admin Account / Address Users API
+  slug: open-spree-users-api
+- collection_type: open
+  name: Admin Account / Address Variants API
+  slug: open-spree-variants-api
+- collection_type: open
+  name: Admin Account / Address Vendors API
+  slug: open-spree-vendors-api
+- collection_type: open
+  name: Admin Account / Address Webhook Events API
+  slug: open-spree-webhook-events-api
+- collection_type: open
+  name: Admin Account / Address Webhook Subscribers API
+  slug: open-spree-webhook-subscribers-api
+- collection_type: open
+  name: Admin Account / Address Webhooks API
+  slug: open-spree-webhooks-api
+- collection_type: open
+  name: Admin Account / Address Wished Items API
+  slug: open-spree-wished-items-api
+- collection_type: open
+  name: Admin Account / Address Wishlists API
+  slug: open-spree-wishlists-api
+- collection_type: open
+  name: Admin Account / Address Wishlists / Wished Items API
+  slug: open-spree-wishlists-wished-items-api
+- collection_type: open
+  name: Admin Account / Address Zones API
+  slug: open-spree-zones-api
 common:
 - group: agent
   title: ''
@@ -401,7 +663,7 @@ plans:
 - name: Spree Plans Pricing
   plan_count: 2
   slug: spree-plans-pricing
-random_paper: 63
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Spree Rate Limits
@@ -441,7 +703,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree/refs/heads/main/screenshots/spree-2026-06-20T194402.png
 security:

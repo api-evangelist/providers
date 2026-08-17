@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,11 @@ apis:
 - description: Wahi's own real estate API, and the only machine-readable contract it authors. Discovered through https://wahi.com/.well-known/ai-plugin.json, an OpenAI-style AI plugin manifest that points at https:/
   name: Wahi Listing Search API
   slug: wahi-listing-search-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-wahi-wp-json-discovery
 common:
 - group: agent
   title: ''
@@ -134,7 +138,7 @@ overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: List
 
 
   Wahi''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
-random_paper: 65
+random_paper: 127
 score:
   band: thin
   composite: 31.3
@@ -164,7 +168,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

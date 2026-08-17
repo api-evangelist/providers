@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: JWT-authenticated API for partner vendors (drop-off locations, scan events) to exchange an API key for a 24-hour access token and query shipment tracking status and event history.
@@ -52,11 +52,30 @@ apis:
 - description: Receive real-time shipment status updates.
   name: UniUni Webhooks API
   slug: uniuni-webhooks-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Uniuni Webhooks
   slug: uniuni-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UniUni Platform Client Batches API
+  slug: open-uniuni-batches-api
+- collection_type: open
+  name: UniUni Platform Client Batches Labels API
+  slug: open-uniuni-labels-api
+- collection_type: open
+  name: UniUni Platform Client Batches Shipments API
+  slug: open-uniuni-shipments-api
+- collection_type: open
+  name: UniUni Platform Client Batches Tracking API
+  slug: open-uniuni-tracking-api
+- collection_type: open
+  name: UniUni Platform Client Batches Webhooks API
+  slug: open-uniuni-webhooks-api
 common:
 - group: other
   title: ''
@@ -173,7 +192,7 @@ overview: 'UniUni publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   UniUni''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 64
+random_paper: 68
 score:
   band: developing
   composite: 48.7
@@ -196,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

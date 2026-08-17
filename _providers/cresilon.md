@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,41 @@ apis:
 - description: Site comments — anonymously readable, empty at capture.
   name: Cresilon Comments API
   slug: cresilon-comments-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cresilon Discovery Authors API
+  slug: open-cresilon-authors-api
+- collection_type: open
+  name: Cresilon News & Press Releases Comments API
+  slug: open-cresilon-comments-api
+- collection_type: open
+  name: Cresilon Discovery API
+  slug: open-cresilon-discovery-api
+- collection_type: open
+  name: Cresilon Media API
+  slug: open-cresilon-media-api
+- collection_type: open
+  name: Cresilon O Embed API
+  slug: open-cresilon-oembed-api
+- collection_type: open
+  name: Cresilon Pages API
+  slug: open-cresilon-pages-api
+- collection_type: open
+  name: Cresilon News & Press Releases Posts API
+  slug: open-cresilon-posts-api
+- collection_type: open
+  name: Cresilon Search API
+  slug: open-cresilon-search-api
+- collection_type: open
+  name: Cresilon Metadata SEO API
+  slug: open-cresilon-seo-api
+- collection_type: open
+  name: Cresilon Taxonomy API
+  slug: open-cresilon-taxonomy-api
 common:
 - group: agent
   title: ''
@@ -231,7 +265,7 @@ overview: 'Cresilon publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cresilon''s developer surface includes engineering blog, support, signup flow, YouTube channel, authentication, code examples, and 30 more developer resources.'
-random_paper: 23
+random_paper: 118
 score:
   band: thin
   composite: 37.0
@@ -261,7 +295,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/screenshots/cresilon-2026-08-07T163837.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: Live job openings, searchable by category, level, company, and location.
   name: The Muse Jobs API
   slug: themuse-jobs-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Muse Public Companies API
+  slug: open-themuse-companies-api
+- collection_type: open
+  name: The Muse Public Companies Jobs API
+  slug: open-themuse-jobs-api
 - collection_type: open
   name: The Muse Public API
   slug: open-themuse
@@ -106,7 +115,7 @@ plans:
 - name: Themuse Plans Pricing
   plan_count: 3
   slug: themuse-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Themuse Rate Limits
@@ -131,7 +140,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themuse/refs/heads/main/screenshots/themuse-2026-06-20T195325.png
 security:

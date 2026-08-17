@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -84,7 +84,7 @@ plans:
 - name: Ragas Plans Pricing
   plan_count: 1
   slug: ragas-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Ragas Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ragas/refs/heads/main/screenshots/ragas-2026-06-20T192529.png
 security:

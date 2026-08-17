@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,7 +123,7 @@ overview: 'Chai Discovery is profiled on the [APIs.io](https://apis.io/) network
 
 
   Chai Discovery''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, changelog, and 13 more developer resources.'
-random_paper: 114
+random_paper: 93
 score:
   band: emerging
   composite: 24.9
@@ -137,7 +137,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chai-discovery/refs/heads/main/screenshots/chai-discovery-2026-07-25T205017.png
 security:

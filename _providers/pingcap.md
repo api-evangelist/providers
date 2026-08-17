@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -125,7 +125,104 @@ apis:
 - description: The Trends API from PingCAP — 1 operation(s) for trends.
   name: PingCAP Trends API
   slug: pingcap-trends-api
-artifact_total: 39
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IAM System OPEN API Key API
+  slug: open-pingcap-api-key-api
+- collection_type: open
+  name: IAM System OPEN Audit Log API
+  slug: open-pingcap-audit-log-api
+- collection_type: open
+  name: TiDB Cloud Backup API
+  slug: open-pingcap-backup-api
+- collection_type: open
+  name: System OPEN Billing API
+  slug: open-pingcap-billing-api
+- collection_type: open
+  name: TiDB Cloud Starter and Essential Branch API
+  slug: open-pingcap-branch-api
+- collection_type: open
+  name: TiDB Cloud Dedicated Changefeed API
+  slug: open-pingcap-changefeed-api
+- collection_type: open
+  name: TiDB Cloud Data Service OPEN Chat2 Query API
+  slug: open-pingcap-chat2query-api
+- collection_type: open
+  name: Pingcap Cluster API
+  slug: open-pingcap-cluster-api
+- collection_type: open
+  name: OSSInsight Public Collections API
+  slug: open-pingcap-collections-api
+- collection_type: open
+  name: TiDB Cloud Data Service OPEN Data API Key API
+  slug: open-pingcap-data-api-key-api
+- collection_type: open
+  name: TiDB Cloud Data Service OPEN Data App API
+  slug: open-pingcap-data-app-api
+- collection_type: open
+  name: TiDB Cloud Data Service OPEN Data Source API
+  slug: open-pingcap-data-source-api
+- collection_type: open
+  name: TiDB Cloud Data Service OPEN Deployment API
+  slug: open-pingcap-deployment-api
+- collection_type: open
+  name: DM OpenAPI Doc API
+  slug: open-pingcap-doc-api
+- collection_type: open
+  name: TiDB Cloud Data Service OPEN Endpoint API
+  slug: open-pingcap-endpoint-api
+- collection_type: open
+  name: TiDB Cloud Starter and Essential Export API
+  slug: open-pingcap-export-api
+- collection_type: open
+  name: Pingcap Import API
+  slug: open-pingcap-import-api
+- collection_type: open
+  name: TiDB Cloud Dedicated Integration API
+  slug: open-pingcap-integration-api
+- collection_type: open
+  name: OSSInsight Public Issue Creators API
+  slug: open-pingcap-issue-creators-api
+- collection_type: open
+  name: IAM System OPEN Member API
+  slug: open-pingcap-member-api
+- collection_type: open
+  name: TiDB Cloud Data Service OPEN OpenAPI Specification API
+  slug: open-pingcap-openapi-specification-api
+- collection_type: open
+  name: TiDB Cloud Dedicated Private Endpoint Connection API
+  slug: open-pingcap-private-endpoint-connection-api
+- collection_type: open
+  name: TiDB Cloud Project API
+  slug: open-pingcap-project-api
+- collection_type: open
+  name: Control Plane Internal Public Shadow Pool Service API
+  slug: open-pingcap-publicshadowpoolservice-api
+- collection_type: open
+  name: OSSInsight Public Pull Request Creators API
+  slug: open-pingcap-pull-request-creators-api
+- collection_type: open
+  name: TiDB Cloud Dedicated Region API
+  slug: open-pingcap-region-api
+- collection_type: open
+  name: TiDB Cloud Restore API
+  slug: open-pingcap-restore-api
+- collection_type: open
+  name: DM OpenAPI DOC Source API
+  slug: open-pingcap-source-api
+- collection_type: open
+  name: OSSInsight Public Stargazers API
+  slug: open-pingcap-stargazers-api
+- collection_type: open
+  name: DM OpenAPI DOC Task API
+  slug: open-pingcap-task-api
+- collection_type: open
+  name: OSSInsight Public Trends API
+  slug: open-pingcap-trends-api
 common:
 - group: other
   title: ''
@@ -327,7 +424,7 @@ overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network,
 
 
   PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 18
+random_paper: 142
 rate_limits:
 - limit_count: 1
   name: Pingcap Rate Limits
@@ -355,7 +452,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

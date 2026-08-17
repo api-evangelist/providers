@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Functions API from Integry — 4 operation(s) for functions.
   name: Integry Functions API
   slug: integry-functions-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Integry Apps API
+  slug: open-integry-apps-api
+- collection_type: open
+  name: Integry Apps Functions API
+  slug: open-integry-functions-api
 - collection_type: open
   name: Integry API
   slug: open-integry
@@ -103,7 +112,7 @@ plans:
 - name: Integry Plans Pricing
   plan_count: 3
   slug: integry-plans-pricing
-random_paper: 50
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Integry Rate Limits
@@ -128,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integry/refs/heads/main/screenshots/integry-2026-06-20T183535.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,8 +57,20 @@ apis:
 - description: Write actions (require API token).
   name: Bureau of Consular Affairs Write API
   slug: bureau-of-consular-affairs-write-api
-artifact_total: 13
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CA Data Catalog (CKAN) Datastore API
+  slug: open-bureau-of-consular-affairs-datastore-api
+- collection_type: open
+  name: CA Data Catalog (CKAN) Datastore Discovery API
+  slug: open-bureau-of-consular-affairs-discovery-api
+- collection_type: open
+  name: CA Data Catalog (CKAN) Datastore Write API
+  slug: open-bureau-of-consular-affairs-write-api
 - collection_type: open
   name: CA Data Catalog (CKAN) API
   slug: open-bureau-of-consular-affairs
@@ -119,7 +131,7 @@ plans:
 - name: Bureau Of Consular Affairs Plans Pricing
   plan_count: 3
   slug: bureau-of-consular-affairs-plans-pricing
-random_paper: 75
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Bureau Of Consular Affairs Rate Limits
@@ -150,7 +162,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/screenshots/bureau-of-consular-affairs-2026-06-20T173807.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: System-level cluster operations.
   name: HashiCorp Nomad System API
   slug: hashicorp-nomad-system-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL API
+  slug: open-hashicorp-nomad-acl-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Allocations API
+  slug: open-hashicorp-nomad-allocations-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Deployments API
+  slug: open-hashicorp-nomad-deployments-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Evaluations API
+  slug: open-hashicorp-nomad-evaluations-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Jobs API
+  slug: open-hashicorp-nomad-jobs-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Namespaces API
+  slug: open-hashicorp-nomad-namespaces-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Nodes API
+  slug: open-hashicorp-nomad-nodes-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL System API
+  slug: open-hashicorp-nomad-system-api
 - collection_type: open
   name: HashiCorp Nomad HTTP API
   slug: open-hashicorp-nomad
@@ -149,7 +176,7 @@ plans:
 - name: Hashicorp Nomad Plans Pricing
   plan_count: 3
   slug: hashicorp-nomad-plans-pricing
-random_paper: 93
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Hashicorp Nomad Rate Limits
@@ -174,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/screenshots/hashicorp-nomad-2026-06-20T182531.png
 security:

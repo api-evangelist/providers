@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 10
@@ -153,8 +153,125 @@ apis:
 - description: Persistent storage volume management
   name: QuantCDN Volumes API
   slug: quantcdn-volumes-api
-artifact_total: 46
+artifact_total: 85
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QuantCDN AI Agents API
+  slug: open-quantcdn-ai-agents-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Custom Tools API
+  slug: open-quantcdn-ai-custom-tools-api
+- collection_type: open
+  name: QuantCDN AI Agents AI File Storage API
+  slug: open-quantcdn-ai-file-storage-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Filter Policies API
+  slug: open-quantcdn-ai-filter-policies-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Governance API
+  slug: open-quantcdn-ai-governance-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Inference API
+  slug: open-quantcdn-ai-inference-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Models API
+  slug: open-quantcdn-ai-models-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Monitoring API
+  slug: open-quantcdn-ai-monitoring-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Orchestrations API
+  slug: open-quantcdn-ai-orchestrations-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Sessions API
+  slug: open-quantcdn-ai-sessions-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Skills API
+  slug: open-quantcdn-ai-skills-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Slack Bots API
+  slug: open-quantcdn-ai-slack-bots-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Task Management API
+  slug: open-quantcdn-ai-task-management-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Tools API
+  slug: open-quantcdn-ai-tools-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Usage API
+  slug: open-quantcdn-ai-usage-api
+- collection_type: open
+  name: QuantCDN AI Agents AI Vector Database API
+  slug: open-quantcdn-ai-vector-database-api
+- collection_type: open
+  name: QuantCDN AI Agents Applications API
+  slug: open-quantcdn-applications-api
+- collection_type: open
+  name: QuantCDN AI Agents Backup Management API
+  slug: open-quantcdn-backup-management-api
+- collection_type: open
+  name: QuantCDN AI Agents CDN Metrics API
+  slug: open-quantcdn-cdn-metrics-api
+- collection_type: open
+  name: QuantCDN AI Agents Commands API
+  slug: open-quantcdn-commands-api
+- collection_type: open
+  name: QuantCDN AI Agents Compose API
+  slug: open-quantcdn-compose-api
+- collection_type: open
+  name: QuantCDN AI Agents Containers API
+  slug: open-quantcdn-containers-api
+- collection_type: open
+  name: QuantCDN AI Agents Crawlers API
+  slug: open-quantcdn-crawlers-api
+- collection_type: open
+  name: QuantCDN AI Agents CrawlerSchedules API
+  slug: open-quantcdn-crawlerschedules-api
+- collection_type: open
+  name: QuantCDN AI Agents Cron API
+  slug: open-quantcdn-cron-api
+- collection_type: open
+  name: QuantCDN AI Agents Domains API
+  slug: open-quantcdn-domains-api
+- collection_type: open
+  name: QuantCDN AI Agents Environments API
+  slug: open-quantcdn-environments-api
+- collection_type: open
+  name: QuantCDN AI Agents Headers API
+  slug: open-quantcdn-headers-api
+- collection_type: open
+  name: QuantCDN AI Agents KV API
+  slug: open-quantcdn-kv-api
+- collection_type: open
+  name: QuantCDN AI Agents Organizations API
+  slug: open-quantcdn-organizations-api
+- collection_type: open
+  name: QuantCDN AI Agents Projects API
+  slug: open-quantcdn-projects-api
+- collection_type: open
+  name: QuantCDN AI Agents Purge API
+  slug: open-quantcdn-purge-api
+- collection_type: open
+  name: QuantCDN AI Agents Rules API
+  slug: open-quantcdn-rules-api
+- collection_type: open
+  name: QuantCDN AI Agents ScalingPolicy API
+  slug: open-quantcdn-scalingpolicy-api
+- collection_type: open
+  name: QuantCDN AI Agents SSH Access API
+  slug: open-quantcdn-ssh-access-api
+- collection_type: open
+  name: QuantCDN AI Agents Tokens API
+  slug: open-quantcdn-tokens-api
+- collection_type: open
+  name: QuantCDN AI Agents Variables API
+  slug: open-quantcdn-variables-api
+- collection_type: open
+  name: QuantCDN AI Agents Volumes API
+  slug: open-quantcdn-volumes-api
 - collection_type: open
   name: QuantCDN API
   slug: open-quantcdn
@@ -215,7 +332,7 @@ plans:
 - name: Quantcdn Plans Pricing
   plan_count: 3
   slug: quantcdn-plans-pricing
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Quantcdn Rate Limits
@@ -240,7 +357,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/screenshots/quantcdn-2026-06-20T192409.png
 security:

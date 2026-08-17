@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Inspect variable and attribute metadata for a specific dataset.
   name: NOAA ERDDAP Metadata API
   slug: noaa-erddap-metadata-api
-artifact_total: 15
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ERDDAP REST Data Access API
+  slug: open-noaa-erddap-data-access-api
+- collection_type: open
+  name: ERDDAP REST Data Access Discovery API
+  slug: open-noaa-erddap-discovery-api
+- collection_type: open
+  name: ERDDAP REST Data Access Files API
+  slug: open-noaa-erddap-files-api
+- collection_type: open
+  name: ERDDAP REST Data Access Metadata API
+  slug: open-noaa-erddap-metadata-api
 common:
 - group: agent
   title: ''
@@ -101,7 +117,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 4
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -132,7 +148,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/screenshots/noaa-erddap-2026-06-20T190341.png
 security:

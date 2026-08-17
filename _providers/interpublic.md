@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: WordPress core content API for the Interpublic Group corporate site - posts, pages, media, taxonomies, users, settings, blocks and templates. Read collections (posts, pages, media, categories, tags, s
@@ -42,7 +42,23 @@ apis:
 - description: 'The REST API index / namespace-discovery route. GET https://interpublic.com/wp-json/ returns the self-describing document that enumerates all 254 routes across 17 namespaces, along with site identity '
   name: Interpublic Group WordPress REST Index API
   slug: root-api
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: Interpublic Group WordPress REST oembed/1.0 API
+  slug: open-interpublic-oembed-1-0-api
+- collection_type: open
+  name: Interpublic Group WordPress REST Root API
+  slug: open-interpublic-root-api
+- collection_type: open
+  name: Interpublic Group WordPress REST wp-abilities/v1 API
+  slug: open-interpublic-wp-abilities-v1-api
+- collection_type: open
+  name: API Collection
+  slug: open-interpublic-wp-rest-discovery-original
+- collection_type: open
+  name: Interpublic Group WordPress REST wp/v2 API
+  slug: open-interpublic-wp-v2-api
 common:
 - group: auth
   title: ''
@@ -135,7 +151,7 @@ plans:
 - name: Interpublic Plans Pricing
   plan_count: 0
   slug: interpublic-plans-pricing
-random_paper: 105
+random_paper: 142
 rate_limits:
 - limit_count: 0
   name: Interpublic Rate Limits
@@ -152,7 +168,7 @@ rules:
 score:
   band: thin
   composite: 28.1
-  delta: 21.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 50.8
@@ -160,10 +176,10 @@ score:
     discoverability: 81.5
     governance: 31.3
     operational_transparency: 0.0
-  previous_composite: 6.2
+  previous_composite: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/screenshots/interpublic-2026-06-20T183507.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
@@ -77,11 +77,57 @@ apis:
 - description: The Rate API from Traveloka — 2 operation(s) for rate.
   name: Traveloka Rate API
   slug: traveloka-rate-api
-artifact_total: 21
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Traveloka Connect Webhooks
   slug: traveloka-connect-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Traveloka Atlas 1.1 Content - Hotel & Room API
+  slug: open-traveloka-1-1-content-hotel-room-api
+- collection_type: open
+  name: Traveloka Atlas 2.1 Search - HotelList API
+  slug: open-traveloka-2-1-search-hotellist-api
+- collection_type: open
+  name: Traveloka Atlas 2.2 Search - RoomList API
+  slug: open-traveloka-2-2-search-roomlist-api
+- collection_type: open
+  name: Traveloka Atlas 2.3 Search - BulkRoomList API
+  slug: open-traveloka-2-3-search-bulkroomlist-api
+- collection_type: open
+  name: Traveloka Atlas 3.1 Booking - Book API
+  slug: open-traveloka-3-1-booking-book-api
+- collection_type: open
+  name: Traveloka Atlas 3.2 Booking - IssueCheck API
+  slug: open-traveloka-3-2-booking-issuecheck-api
+- collection_type: open
+  name: Traveloka Atlas 3.3 Booking - Issue API
+  slug: open-traveloka-3-3-booking-issue-api
+- collection_type: open
+  name: Traveloka Atlas 3.4 Booking - BookingSummary API
+  slug: open-traveloka-3-4-booking-bookingsummary-api
+- collection_type: open
+  name: Traveloka Atlas 3.5 Booking - Cancel API
+  slug: open-traveloka-3-5-booking-cancel-api
+- collection_type: open
+  name: LOKA Authorization API
+  slug: open-traveloka-authorization-api
+- collection_type: open
+  name: LOKA Booking API
+  slug: open-traveloka-booking-api
+- collection_type: open
+  name: LOKA Content API
+  slug: open-traveloka-content-api
+- collection_type: open
+  name: LOKA Discovery (Optional) Discovery (Optional) API
+  slug: open-traveloka-discovery-optional-api
+- collection_type: open
+  name: LOKA Rate API
+  slug: open-traveloka-rate-api
 common:
 - group: agent
   title: ''
@@ -222,7 +268,7 @@ overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Traveloka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Traveloka Rate Limits
@@ -249,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

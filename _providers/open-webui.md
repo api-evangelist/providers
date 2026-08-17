@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Ollama API from Open WebUI — 3 operation(s) for ollama.
   name: Open WebUI Ollama API
   slug: open-webui-ollama-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open WebUI Anthropic API
+  slug: open-open-webui-anthropic-api
+- collection_type: open
+  name: Open WebUI Anthropic Chat API
+  slug: open-open-webui-chat-api
+- collection_type: open
+  name: Open WebUI Anthropic Ollama API
+  slug: open-open-webui-ollama-api
 - collection_type: open
   name: Open WebUI API
   slug: open-open-webui
@@ -121,7 +133,7 @@ plans:
 - name: Open Webui Plans Pricing
   plan_count: 1
   slug: open-webui-plans-pricing
-random_paper: 59
+random_paper: 125
 rate_limits:
 - limit_count: 2
   name: Open Webui Rate Limits
@@ -146,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/screenshots/open-webui-2026-06-20T190859.png
 security:

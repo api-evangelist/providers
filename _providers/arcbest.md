@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Shipment tracking and visibility
   name: ArcBest Tracking API
   slug: arcbest-tracking-api
-artifact_total: 64
+artifact_total: 69
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ArcBest Pickups API
+  slug: open-arcbest-pickups-api
+- collection_type: open
+  name: ArcBest Pickups Rates API
+  slug: open-arcbest-rates-api
+- collection_type: open
+  name: ArcBest Pickups Shipments API
+  slug: open-arcbest-shipments-api
+- collection_type: open
+  name: ArcBest Pickups Tracking API
+  slug: open-arcbest-tracking-api
 common:
 - group: agent
   title: ''
@@ -268,7 +284,7 @@ press:
 - date: '2026-05-25'
   title: ArcBest Helps Bridge the Gap Between Robotics and ...
   url: https://investors.arcb.com/news-events/news/News-Details/2024/ArcBest-Helps-Bridge-the-Gap-Between-Robotics-and-Logistics-Using-NVIDIA-Technology/
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Arcbest Rate Limits
@@ -310,7 +326,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/screenshots/arcbest-2026-06-20T172358.png
 security:

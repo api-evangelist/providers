@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 527
   human_in_the_loop: 6
@@ -141,7 +141,7 @@ overview: 'Huma publishes 1 API on the [APIs.io](https://apis.io/) network: Inte
 
 
   Huma''s developer surface includes authentication, documentation, getting-started guide, signup flow, API reference, and 17 more developer resources.'
-random_paper: 67
+random_paper: 129
 score:
   band: thin
   composite: 40.7
@@ -171,7 +171,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/screenshots/huma-2026-07-25T221642.png
 security:

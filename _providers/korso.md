@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -164,7 +164,7 @@ overview: 'Korso is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Korso''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, signup flow, and 22 more developer resources.'
-random_paper: 78
+random_paper: 111
 score:
   band: thin
   composite: 31.5
@@ -182,7 +182,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/screenshots/korso-2026-07-25T224225.png
 security:

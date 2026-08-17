@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for the Clockwise AI calendar optimization platform, providing programmatic access to focus time management, meeting preferences, scheduling links, and team calendar coordination features.
@@ -112,7 +112,7 @@ plans:
 - name: Clockwise Plans Pricing
   plan_count: 4
   slug: clockwise-plans-pricing
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Clockwise Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 35.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/screenshots/clockwise-2026-06-20T174529.png
 security:

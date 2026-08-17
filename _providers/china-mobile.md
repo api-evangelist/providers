@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - description: 中国移动互联网能力开放平台 at dev.10086.cn is the operator's application-facing capability marketplace, describing itself as offering 移动认证/号码认证 (mobile and number authentication), 大数据服务 (big data services), 通信能力 (
   name: China Mobile Internet Capability Open Platform
   slug: internet-capability-open-platform
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: 'OneNET pushes events to application servers over plain HTTP(S) POST. Two distinct outbound surfaces are documented anonymously: the platform-wide 数据推送 (HTTP data push) service, which delivers rule-eng'
   name: China Mobile OneNET event and callback surface
@@ -55,6 +55,13 @@ asyncapis:
 - description: ''
   name: China Mobile Onenet Webhooks
   slug: china-mobile-onenet-webhooks
+collections:
+- collection_type: open
+  name: China Mobile OneNET Studio Application API
+  slug: open-china-mobile-onenet-studio
+- collection_type: open
+  name: China Mobile OneNET Voice Call Service (VCS) API
+  slug: open-china-mobile-vcs
 common:
 - group: agent
   title: ''
@@ -204,7 +211,7 @@ overview: 'China Mobile publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   China Mobile''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 112
+random_paper: 0
 score:
   band: thin
   composite: 38.1
@@ -234,7 +241,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/screenshots/china-mobile-2026-08-07T163418.png
 security:

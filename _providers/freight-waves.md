@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Free reference lookups for valid indexes, qualifiers, levels, lanes, and zip3.
   name: Freight Waves Lookup API
   slug: freight-waves-lookup-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FreightWaves SONAR Authentication API
+  slug: open-freight-waves-authentication-api
+- collection_type: open
+  name: FreightWaves SONAR Authentication Data API
+  slug: open-freight-waves-data-api
+- collection_type: open
+  name: FreightWaves SONAR Authentication Lookup API
+  slug: open-freight-waves-lookup-api
 common:
 - group: company
   title: ''
@@ -182,7 +195,7 @@ overview: 'Freight Waves publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Freight Waves'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 22 more developer resources.'
-random_paper: 20
+random_paper: 148
 rate_limits:
 - limit_count: 1
   name: Freight Waves Rate Limits
@@ -221,7 +234,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/screenshots/freight-waves-2026-07-25T215152.png
 security:

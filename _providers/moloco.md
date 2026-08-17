@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 2
@@ -46,11 +46,30 @@ apis:
 - description: Outbound webhook surface for Moloco Commerce Media, published as an OpenAPI 3.1 webhooks document. Moloco POSTs signed JSON deliveries to a platform-configured HTTPS endpoint for churned-ad-account re
   name: Moloco Commerce Media Webhooks
   slug: moloco-commerce-media-webhooks
-artifact_total: 14
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Moloco Commerce Media Webhooks
   slug: moloco-commerce-media-webhooks
+collections:
+- collection_type: open
+  name: Moloco Ads Campaign Management API
+  slug: open-moloco-ads-campaign-management
+- collection_type: open
+  name: MOLOCO Cloud Auth API
+  slug: open-moloco-cloud-auth
+- collection_type: open
+  name: Decision API
+  slug: open-moloco-commerce-media-decision
+- collection_type: open
+  name: Event API
+  slug: open-moloco-commerce-media-event
+- collection_type: open
+  name: Management API
+  slug: open-moloco-commerce-media-management
+- collection_type: open
+  name: MCM Webhooks
+  slug: open-moloco-commerce-media-webhooks
 common:
 - group: agent
   title: ''
@@ -220,6 +239,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/moloco-commerce-media-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/moloco-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://help.moloco.com/hc/en-us/articles/15764588719255-Pricing
 created: '2026-07-31'
 description: 'Moloco is a machine-learning advertising company that operates three developer-facing platforms: Moloco Ads (a performance demand-side platform for app marketers), Moloco Commerce Media / MCM (a retail-media platform that lets marketplaces and retailers run sponsored product, brand, display and reserved-display ads on their own inventory), and Moloco Streaming Monetization. Its public API surface spans a Campaign Management API and a Cloud Auth API on api.moloco.cloud for the DSP side, plus MCM Management, Decision, Event and Webhook APIs on mcm-api.moloco.com for the commerce-media side, covering ad accounts, products, campaigns, ad groups, creatives, audience targets, catalog items, wallets, spending limits, reporting, log export, real-time ad decisioning and first-party user-event ingestion.'
 image: https://cdn.prod.website-files.com/6237fca0466ffd9274a1dbdd/6a4b55676ce1b724bd4b3bb2_Open%20Graph%20image.jpg
@@ -228,7 +255,7 @@ mcp_servers:
 - description: ''
   name: moloco-mcp.yml
   slug: moloco-mcpyml
-modified: '2026-07-31'
+modified: '2026-08-13'
 name: MOLOCO
 nav: Providers
 network: true
@@ -238,8 +265,12 @@ overview: 'MOLOCO publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The MOLOCO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MOLOCO''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 35 more developer resources.'
-random_paper: 49
+  MOLOCO''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 37 more developer resources.'
+plans:
+- name: Moloco Plans Pricing
+  plan_count: 0
+  slug: moloco-plans-pricing
+random_paper: 53
 rate_limits:
 - limit_count: 11
   name: Moloco Rate Limits
@@ -250,11 +281,11 @@ scopes:
   slug: moloco-scopes
   summary_line: 2 scopes
 score:
-  band: strong
-  composite: 64.4
-  delta: 0.0
+  band: exemplar
+  composite: 66.5
+  delta: 2.1
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 60.5
     contract_quality: 64.8
     developer_ergonomics: 86.4
     discoverability: 92.6
@@ -272,7 +303,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/screenshots/moloco-2026-08-07T184114.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Operations on individual versions of a dataset
   name: Dryad versions API
   slug: dryad-versions-api
-artifact_total: 66
+artifact_total: 74
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dryad datasets API
+  slug: open-dryad-datasets-api
+- collection_type: open
+  name: Dryad datasets files API
+  slug: open-dryad-files-api
+- collection_type: open
+  name: Dryad datasets internal API
+  slug: open-dryad-internal-api
+- collection_type: open
+  name: Dryad datasets reports API
+  slug: open-dryad-reports-api
+- collection_type: open
+  name: Dryad datasets root API
+  slug: open-dryad-root-api
+- collection_type: open
+  name: Dryad datasets search API
+  slug: open-dryad-search-api
+- collection_type: open
+  name: Dryad datasets versions API
+  slug: open-dryad-versions-api
 common:
 - group: operate
   title: ''
@@ -305,7 +330,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 52
+random_paper: 85
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -339,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/screenshots/dryad-2026-06-20T180256.png
 security:

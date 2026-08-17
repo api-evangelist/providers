@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Videos API from ByteDance Doubao — 2 operation(s) for videos.
   name: ByteDance Doubao Videos API
   slug: doubao-videos-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Volcano Engine Ark API (Doubao) Batch API
+  slug: open-doubao-batch-api
+- collection_type: open
+  name: Volcano Engine Ark API (Doubao) Batch Chat API
+  slug: open-doubao-chat-api
+- collection_type: open
+  name: Volcano Engine Ark API (Doubao) Batch Embeddings API
+  slug: open-doubao-embeddings-api
+- collection_type: open
+  name: Volcano Engine Ark API (Doubao) Batch Images API
+  slug: open-doubao-images-api
+- collection_type: open
+  name: Volcano Engine Ark API (Doubao) Batch Videos API
+  slug: open-doubao-videos-api
 - collection_type: open
   name: Volcano Engine Ark API (Doubao)
   slug: open-doubao
@@ -123,7 +141,7 @@ plans:
 - name: Doubao Plans Pricing
   plan_count: 2
   slug: doubao-plans-pricing
-random_paper: 34
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Doubao Rate Limits
@@ -148,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/screenshots/doubao-2026-06-20T180218.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -81,7 +81,53 @@ apis:
 - description: Site-level information and configuration
   name: Lemmy Site API
   slug: lemmy-site-api
-artifact_total: 28
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lemmy REST Account API
+  slug: open-lemmy-account-api
+- collection_type: open
+  name: Lemmy REST Account Admin API
+  slug: open-lemmy-admin-api
+- collection_type: open
+  name: Lemmy REST Account Authentication API
+  slug: open-lemmy-authentication-api
+- collection_type: open
+  name: Lemmy REST Account Comment API
+  slug: open-lemmy-comment-api
+- collection_type: open
+  name: Lemmy REST Account Community API
+  slug: open-lemmy-community-api
+- collection_type: open
+  name: Lemmy REST Account Federation API
+  slug: open-lemmy-federation-api
+- collection_type: open
+  name: Lemmy REST Account Images API
+  slug: open-lemmy-images-api
+- collection_type: open
+  name: Lemmy REST Account Notifications API
+  slug: open-lemmy-notifications-api
+- collection_type: open
+  name: Lemmy REST Account Person API
+  slug: open-lemmy-person-api
+- collection_type: open
+  name: Lemmy REST Account Post API
+  slug: open-lemmy-post-api
+- collection_type: open
+  name: Lemmy REST Account Private Messages API
+  slug: open-lemmy-private-messages-api
+- collection_type: open
+  name: Lemmy REST Account Reports API
+  slug: open-lemmy-reports-api
+- collection_type: open
+  name: Lemmy REST Account Search API
+  slug: open-lemmy-search-api
+- collection_type: open
+  name: Lemmy REST Account Site API
+  slug: open-lemmy-site-api
 common:
 - group: operate
   title: ''
@@ -199,7 +245,7 @@ plans:
 - name: Lemmy Plans Pricing
   plan_count: 3
   slug: lemmy-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 6
   name: Lemmy Rate Limits
@@ -233,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/screenshots/lemmy-2026-06-20T184415.png
 security:

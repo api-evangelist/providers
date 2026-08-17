@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,8 +57,23 @@ apis:
 - description: The Members API from Microsoft Bot Framework — 4 operation(s) for members.
   name: Microsoft Bot Framework Members API
   slug: microsoft-bot-framework-members-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Bot Framework Connector REST Activities API
+  slug: open-microsoft-bot-framework-activities-api
+- collection_type: open
+  name: Microsoft Bot Framework Connector REST Activities Attachments API
+  slug: open-microsoft-bot-framework-attachments-api
+- collection_type: open
+  name: Microsoft Bot Framework Connector REST Activities Conversations API
+  slug: open-microsoft-bot-framework-conversations-api
+- collection_type: open
+  name: Microsoft Bot Framework Connector REST Activities Members API
+  slug: open-microsoft-bot-framework-members-api
 - collection_type: open
   name: Microsoft Bot Framework Connector REST API
   slug: open-microsoft-bot-framework
@@ -131,7 +146,7 @@ plans:
 - name: Microsoft Bot Framework Plans Pricing
   plan_count: 3
   slug: microsoft-bot-framework-plans-pricing
-random_paper: 91
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Microsoft Bot Framework Rate Limits
@@ -156,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/screenshots/microsoft-bot-framework-2026-06-20T185445.png
 security:

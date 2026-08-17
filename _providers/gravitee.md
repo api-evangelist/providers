@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 193
   human_in_the_loop: 11
@@ -194,7 +194,7 @@ apis:
 - description: Manage Gravitee users
   name: Gravitee Users API
   slug: gravitee-users-api
-artifact_total: 129
+artifact_total: 179
 collections:
 - collection_type: postman
   name: Gravitee.io - Access Management alerts API
@@ -347,11 +347,161 @@ collections:
   name: Gravitee.io - Access Management alerts Users API
   slug: postman-gravitee-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gravitee.io - Access Management alerts API
+  slug: open-gravitee-alerts-api
+- collection_type: open
   name: Gravitee.io - Access Management API
   slug: open-gravitee-am
 - collection_type: open
+  name: Gravitee.io - Access Management alerts Analytics API
+  slug: open-gravitee-analytics-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts API Products API
+  slug: open-gravitee-api-products-api
+- collection_type: open
   name: Gravitee.io APIM Management API
   slug: open-gravitee-apim
+- collection_type: open
+  name: Gravitee.io - Access Management alerts APIs API
+  slug: open-gravitee-apis-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts application API
+  slug: open-gravitee-application-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Applications API
+  slug: open-gravitee-applications-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts audit API
+  slug: open-gravitee-audit-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Authentication Device Notifier API
+  slug: open-gravitee-authentication-device-notifier-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Authorization Engine API
+  slug: open-gravitee-authorization-engine-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Bot Detection API
+  slug: open-gravitee-bot-detection-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Certificate API
+  slug: open-gravitee-certificate-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts data-sources API
+  slug: open-gravitee-data-sources-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts dataPlane API
+  slug: open-gravitee-dataplane-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Device Identifier API
+  slug: open-gravitee-device-identifier-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts device identifiers API
+  slug: open-gravitee-device-identifiers-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts devices API
+  slug: open-gravitee-devices-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts dictionary API
+  slug: open-gravitee-dictionary-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts domain API
+  slug: open-gravitee-domain-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts email API
+  slug: open-gravitee-email-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts entrypoints API
+  slug: open-gravitee-entrypoints-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Extension Grant API
+  slug: open-gravitee-extension-grant-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Factor API
+  slug: open-gravitee-factor-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts flow API
+  slug: open-gravitee-flow-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts form API
+  slug: open-gravitee-form-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts group API
+  slug: open-gravitee-group-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Identity Provider API
+  slug: open-gravitee-identity-provider-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Installation API
+  slug: open-gravitee-installation-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Logs API
+  slug: open-gravitee-logs-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Newsletter API
+  slug: open-gravitee-newsletter-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Notifier API
+  slug: open-gravitee-notifier-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Organizations API
+  slug: open-gravitee-organizations-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Password Policy API
+  slug: open-gravitee-password-policy-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Plans API
+  slug: open-gravitee-plans-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts platform API
+  slug: open-gravitee-platform-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Plugin API
+  slug: open-gravitee-plugin-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Plugins API
+  slug: open-gravitee-plugins-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Policy API
+  slug: open-gravitee-policy-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts protected-resource API
+  slug: open-gravitee-protected-resource-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Reporter API
+  slug: open-gravitee-reporter-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Resource API
+  slug: open-gravitee-resource-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts role API
+  slug: open-gravitee-role-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts scope API
+  slug: open-gravitee-scope-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts sharding-tags API
+  slug: open-gravitee-sharding-tags-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Subscriptions API
+  slug: open-gravitee-subscriptions-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts theme API
+  slug: open-gravitee-theme-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts UI API
+  slug: open-gravitee-ui-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts user API
+  slug: open-gravitee-user-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts user notifications API
+  slug: open-gravitee-user-notifications-api
+- collection_type: open
+  name: Gravitee.io - Access Management alerts Users API
+  slug: open-gravitee-users-api
 common:
 - group: operate
   title: ''
@@ -571,7 +721,7 @@ plans:
 - name: Gravitee Plans Pricing
   plan_count: 9
   slug: gravitee-plans-pricing
-random_paper: 15
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Gravitee Rate Limits
@@ -613,7 +763,7 @@ score:
       marker_coverage: 0.0
       total: 50
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png
 security:

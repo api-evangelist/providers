@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Placing and managing of products placed for products.
   name: Products Products API
   slug: products-api-products-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Products API
+  slug: open-products-api-products-api
 - collection_type: open
   name: Products API
   slug: open-products-api
@@ -80,7 +86,7 @@ plans:
 - name: Products Api Plans
   plan_count: 3
   slug: products-api-plans
-random_paper: 43
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Products Api Rate Limits
@@ -105,7 +111,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/products-api/refs/heads/main/screenshots/products-api-2026-06-20T192140.png
 security:

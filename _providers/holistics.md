@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Submit report queries and retrieve results.
   name: Holistics Reports API
   slug: holistics-reports-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Holistics Data Pipeline API
+  slug: open-holistics-data-pipeline-api
+- collection_type: open
+  name: Holistics Data Pipeline Datasets API
+  slug: open-holistics-datasets-api
+- collection_type: open
+  name: Holistics Data Pipeline Export API
+  slug: open-holistics-export-api
+- collection_type: open
+  name: Holistics Data Pipeline Jobs API
+  slug: open-holistics-jobs-api
+- collection_type: open
+  name: Holistics Data Pipeline Reports API
+  slug: open-holistics-reports-api
 - collection_type: open
   name: Holistics API
   slug: open-holistics
@@ -124,7 +142,7 @@ plans:
 - name: Holistics Plans Pricing
   plan_count: 5
   slug: holistics-plans-pricing
-random_paper: 18
+random_paper: 84
 rate_limits:
 - limit_count: 4
   name: Holistics Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/screenshots/holistics-2026-06-20T182813.png
 security:

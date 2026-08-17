@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 225
   human_in_the_loop: 9
@@ -158,7 +158,131 @@ apis:
 - description: The Working Timekeepers API from Laurel — 3 operation(s) for working timekeepers.
   name: Laurel Working Timekeepers API
   slug: laurel-working-timekeepers-api
-artifact_total: 46
+artifact_total: 87
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Identity Service Ably API
+  slug: open-laurel-ably-api
+- collection_type: open
+  name: Identity Service Ably Activities API
+  slug: open-laurel-activities-api
+- collection_type: open
+  name: Identity Service Ably Clients API
+  slug: open-laurel-clients-api
+- collection_type: open
+  name: Identity Service Ably Code Types API
+  slug: open-laurel-code-types-api
+- collection_type: open
+  name: Identity Service Ably Codes API
+  slug: open-laurel-codes-api
+- collection_type: open
+  name: Identity Service Ably CodeTypes API
+  slug: open-laurel-codetypes-api
+- collection_type: open
+  name: Identity Service Ably Customers API
+  slug: open-laurel-customers-api
+- collection_type: open
+  name: Identity Service Ably DailySelectedInitiatives API
+  slug: open-laurel-dailyselectedinitiatives-api
+- collection_type: open
+  name: Identity Service Ably Data Retention Audits API
+  slug: open-laurel-data-retention-audits-api
+- collection_type: open
+  name: Identity Service Ably Delegators API
+  slug: open-laurel-delegators-api
+- collection_type: open
+  name: Identity Service Ably Entries API
+  slug: open-laurel-entries-api
+- collection_type: open
+  name: Identity Service Ably Entry Date Restrictions API
+  slug: open-laurel-entry-date-restrictions-api
+- collection_type: open
+  name: Identity Service Ably Exports API
+  slug: open-laurel-exports-api
+- collection_type: open
+  name: Identity Service Ably Health Check API
+  slug: open-laurel-health-check-api
+- collection_type: open
+  name: Identity Service Ably HealthCheck API
+  slug: open-laurel-healthcheck-api
+- collection_type: open
+  name: Identity Service Ably Impersonation Events API
+  slug: open-laurel-impersonation-events-api
+- collection_type: open
+  name: Identity Service Ably Initiative Props API
+  slug: open-laurel-initiative-props-api
+- collection_type: open
+  name: Identity Service Ably InitiativeDto API
+  slug: open-laurel-initiativedto-api
+- collection_type: open
+  name: Identity Service Ably Initiatives API
+  slug: open-laurel-initiatives-api
+- collection_type: open
+  name: Identity Service Ably Metrics API
+  slug: open-laurel-metrics-api
+- collection_type: open
+  name: Identity Service Ably Narrative Templates API
+  slug: open-laurel-narrative-templates-api
+- collection_type: open
+  name: Identity Service Ably OAuth API
+  slug: open-laurel-oauth-api
+- collection_type: open
+  name: Identity Service Ably Onboarding Profiles API
+  slug: open-laurel-onboarding-profiles-api
+- collection_type: open
+  name: Identity Service Ably Permissions API
+  slug: open-laurel-permissions-api
+- collection_type: open
+  name: Identity Service Ably Public API
+  slug: open-laurel-public-api
+- collection_type: open
+  name: Identity Service Ably Roles API
+  slug: open-laurel-roles-api
+- collection_type: open
+  name: Identity Service Ably Search API
+  slug: open-laurel-search-api
+- collection_type: open
+  name: Identity Service Ably Settings API
+  slug: open-laurel-settings-api
+- collection_type: open
+  name: Identity Service Ably Tenants API
+  slug: open-laurel-tenants-api
+- collection_type: open
+  name: Identity Service Ably Timekeeper Goals API
+  slug: open-laurel-timekeeper-goals-api
+- collection_type: open
+  name: Identity Service Ably Timer Carryovers API
+  slug: open-laurel-timer-carryovers-api
+- collection_type: open
+  name: Identity Service Ably Timer Draft API
+  slug: open-laurel-timer-draft-api
+- collection_type: open
+  name: Identity Service Ably Timers API
+  slug: open-laurel-timers-api
+- collection_type: open
+  name: Identity Service Ably Timesheets API
+  slug: open-laurel-timesheets-api
+- collection_type: open
+  name: Identity Service Ably Twilio API
+  slug: open-laurel-twilio-api
+- collection_type: open
+  name: Identity Service Ably User Groups API
+  slug: open-laurel-user-groups-api
+- collection_type: open
+  name: Identity Service Ably Users API
+  slug: open-laurel-users-api
+- collection_type: open
+  name: Identity Service Ably Validation Rules API
+  slug: open-laurel-validation-rules-api
+- collection_type: open
+  name: Identity Service Ably Work Groups API
+  slug: open-laurel-work-groups-api
+- collection_type: open
+  name: Identity Service Ably Working Timekeepers API
+  slug: open-laurel-working-timekeepers-api
 common:
 - group: other
   title: ''
@@ -292,7 +416,7 @@ overview: 'Laurel publishes 40 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Laurel''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 45
+random_paper: 49
 score:
   band: developing
   composite: 44.6
@@ -316,7 +440,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/screenshots/laurel-2026-07-25T224622.png
 security:

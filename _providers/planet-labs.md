@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -93,8 +93,29 @@ apis:
 - description: Standing area-of-interest delivery feeds.
   name: Planet Labs Subscriptions API
   slug: planet-labs-subscriptions-api
-artifact_total: 26
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Planet Insights Platform Data - Item Types API
+  slug: open-planet-labs-data-item-types-api
+- collection_type: open
+  name: Planet Insights Platform Data - Item Types Data - Items API
+  slug: open-planet-labs-data-items-api
+- collection_type: open
+  name: Planet Insights Platform Data - Item Types Data - Search API
+  slug: open-planet-labs-data-search-api
+- collection_type: open
+  name: Planet Insights Platform Data - Item Types Data - Stats API
+  slug: open-planet-labs-data-stats-api
+- collection_type: open
+  name: Planet Insights Platform Data - Item Types Orders API
+  slug: open-planet-labs-orders-api
+- collection_type: open
+  name: Planet Insights Platform Data - Item Types Subscriptions API
+  slug: open-planet-labs-subscriptions-api
 - collection_type: open
   name: Planet Insights Platform API
   slug: open-planet-labs
@@ -183,7 +204,7 @@ plans:
 - name: Planet Labs Plans Pricing
   plan_count: 1
   slug: planet-labs-plans-pricing
-random_paper: 27
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Planet Labs Rate Limits
@@ -208,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/screenshots/planet-labs-2026-06-20T191756.png
 security:

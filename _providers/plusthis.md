@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -124,7 +124,7 @@ plans:
 - name: Plusthis Plans Pricing
   plan_count: 7
   slug: plusthis-plans-pricing
-random_paper: 52
+random_paper: 147
 rate_limits:
 - limit_count: 0
   name: Plusthis Rate Limits
@@ -132,6 +132,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.3
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 51.6
@@ -139,6 +140,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 35.3
   regulatory:
     applies: true
     matched_via: tags
@@ -146,7 +148,8 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Plusthis Domain Security

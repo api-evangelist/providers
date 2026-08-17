@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -68,8 +68,32 @@ apis:
 - description: The Zones API from Apple CloudKit — 4 operation(s) for zones.
   name: Apple CloudKit Zones API
   slug: cloudkit-zones-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apple CloudKit Web Services Assets API
+  slug: open-cloudkit-assets-api
+- collection_type: open
+  name: Apple CloudKit Web Services Assets Changes API
+  slug: open-cloudkit-changes-api
+- collection_type: open
+  name: Apple CloudKit Web Services Assets Records API
+  slug: open-cloudkit-records-api
+- collection_type: open
+  name: Apple CloudKit Web Services Assets Subscriptions API
+  slug: open-cloudkit-subscriptions-api
+- collection_type: open
+  name: Apple CloudKit Web Services Assets Tokens API
+  slug: open-cloudkit-tokens-api
+- collection_type: open
+  name: Apple CloudKit Web Services Assets Users API
+  slug: open-cloudkit-users-api
+- collection_type: open
+  name: Apple CloudKit Web Services Assets Zones API
+  slug: open-cloudkit-zones-api
 - collection_type: open
   name: Apple CloudKit Web Services
   slug: open-cloudkit
@@ -134,7 +158,7 @@ overview: 'Apple CloudKit publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Apple CloudKit''s developer surface includes authentication, documentation, developer console, and 7 more developer resources.'
-random_paper: 23
+random_paper: 118
 rules:
 - name: Apple CloudKit API Rules
   rule_count: 12
@@ -164,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/screenshots/cloudkit-2026-06-20T174606.png
 security:

@@ -10,26 +10,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
-api_count: 6
+  score: 60.8
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 8
+  human_in_the_loop: 0
+  name: Clay Com Agentic Access
+  operation_count: 13
+  slug: clay-com-agentic-access
+  summary_line: 13 operations · 8 acting
+api_count: 8
 apis:
 - description: Generic HTTP request column inside Clay Tables that lets users call any external REST or GraphQL endpoint with row-level variables and write the response back into Clay. Acts as Clay's universal API c
   name: Clay HTTP API Enrichment
@@ -49,8 +57,138 @@ apis:
 - description: Browser extension for scraping LinkedIn profiles and other web pages directly into Clay Tables, used to bootstrap prospect lists from manual research.
   name: Clay Chrome Extension
   slug: chrome-extension
-artifact_total: 11
+- description: Clay's REST API for programmatic access to the GTM platform — search Clay's proprietary database of companies and people, run Clay-managed functions, custom functions and Workflows as routines (inline
+  name: Clay Public API
+  slug: public-api
+- description: Clay's hosted remote Model Context Protocol server, letting an MCP client search companies and people, run enrichment routines and query Clay tables from natural language. Streamable HTTP at https://a
+  name: Clay MCP Server
+  slug: mcp
+artifact_total: 20
+asyncapis:
+- description: ''
+  name: Clay Com Webhooks
+  slug: clay-com-webhooks
 common:
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/clay-com-llms.txt
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/clay-com-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/clay-com-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/clay-com-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://trust.clay.com
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.clay.com/enterprise
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/clay-com-trust-center.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/clay-com-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/clay-com-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/clay-com-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/clay-com-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.clay.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/clay-com-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/clay-com-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/clay-com-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clay-com-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/clay-com-cli.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/clay-com-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/clay-com-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/clay-com-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.clay.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.clay.com/api-reference/me/get-the-authenticated-user
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.clay.com/quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://community.clay.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/clay-run
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.clay.com/changelog
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/clay-com-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/clay-com-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/clay-com-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -81,7 +219,7 @@ common:
   url: https://www.clay.com/blog
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://app.clay.com/signup
 - group: start
   title: ''
@@ -123,44 +261,68 @@ graphqls:
   slug: clay-com-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clay-com.png
 layout: provider
-modified: '2026-05-23'
+mcp_servers:
+- description: ''
+  name: clay-com-mcp.yml
+  slug: clay-com-mcpyml
+modified: '2026-08-14'
 name: Clay
 nav: Providers
 network: true
-overview: 'Clay publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Prospecting, GTM, Sales, Enrichment, and Automation.
+overview: 'Clay publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Prospecting, GTM, Sales, Enrichment, and Automation.
 
 
-  Clay''s developer surface includes documentation, pricing, engineering blog, signup flow, YouTube channel, and 10 more developer resources.'
+  The Clay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Clay''s developer surface includes changelog, CLI, API reference, getting-started guide, support, authentication, documentation, and 38 more developer resources.'
 plans:
 - name: Clay Com Plans Pricing
-  plan_count: 1
+  plan_count: 4
   slug: clay-com-plans-pricing
-random_paper: 69
+random_paper: 44
 rate_limits:
-- limit_count: 2
+- limit_count: 1
   name: Clay Com Rate Limits
   slug: clay-com-rate-limits
+scopes:
+- name: Clay Com Scopes
+  scope_count: 1
+  slug: clay-com-scopes
+  summary_line: 1 scope
 score:
-  band: emerging
-  composite: 27.9
-  delta: 0.0
+  band: exemplar
+  composite: 66.5
+  delta: 38.6
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 100.0
+    contract_quality: 51.6
+    developer_ergonomics: 65.2
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 76.3
   previous_composite: 27.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/screenshots/clay-com-2026-06-20T174453.png
 security:
+- kind: authentication
+  name: Clay Com Authentication
+  slug: clay-com-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Clay Com Domain Security
   slug: clay-com-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Clay Com Vulnerability Disclosure
+  slug: clay-com-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Clay Com Trust Center
+  slug: clay-com-trust-center
+  summary_line: SOC 2 Type II, ISO 27001, GDPR, CCPA
 slug: clay-com
 tags:
 - Prospecting

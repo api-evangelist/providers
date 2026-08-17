@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -66,11 +66,41 @@ apis:
 - description: Volume lifecycle management including creating, attaching, detaching, expanding, and deleting volumes. Also includes volume actions such as activating, canceling expansion, and managing replicas.
   name: Longhorn Volumes API
   slug: longhorn-volumes-api
-artifact_total: 19
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Longhorn Manager BackingImages API
+  slug: open-longhorn-backingimages-api
+- collection_type: open
+  name: Longhorn Manager BackingImages Backups API
+  slug: open-longhorn-backups-api
+- collection_type: open
+  name: Longhorn Manager BackingImages EngineImages API
+  slug: open-longhorn-engineimages-api
 - collection_type: open
   name: Longhorn Manager API
   slug: open-longhorn-manager-api
+- collection_type: open
+  name: Longhorn Manager BackingImages Nodes API
+  slug: open-longhorn-nodes-api
+- collection_type: open
+  name: Longhorn Manager BackingImages RecurringJobs API
+  slug: open-longhorn-recurringjobs-api
+- collection_type: open
+  name: Longhorn Manager BackingImages Settings API
+  slug: open-longhorn-settings-api
+- collection_type: open
+  name: Longhorn Manager BackingImages Snapshots API
+  slug: open-longhorn-snapshots-api
+- collection_type: open
+  name: Longhorn Manager BackingImages SystemBackups API
+  slug: open-longhorn-systembackups-api
+- collection_type: open
+  name: Longhorn Manager BackingImages Volumes API
+  slug: open-longhorn-volumes-api
 common:
 - group: operate
   title: ''
@@ -176,7 +206,7 @@ plans:
 - name: Longhorn Plans Pricing
   plan_count: 3
   slug: longhorn-plans-pricing
-random_paper: 31
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Longhorn Rate Limits
@@ -210,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/screenshots/longhorn-2026-06-20T184706.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'Altitude Software is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Altitude Software''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 100
+random_paper: 141
 score:
   band: minimal
   composite: 6.3
@@ -73,7 +73,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altitude-software/refs/heads/main/screenshots/altitude-software-2026-07-25T195834.png
 slug: altitude-software

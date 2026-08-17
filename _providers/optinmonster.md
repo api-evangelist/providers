@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The OptinMonster application REST API. Versioned path segments (`/v1`, `/v2`) sit on api.optinmonster.com and cover campaigns, leads, sites, site origins, integrations, account, revenue attribution an
@@ -144,7 +144,7 @@ plans:
 - name: Optinmonster Plans Pricing
   plan_count: 4
   slug: optinmonster-plans-pricing
-random_paper: 10
+random_paper: 138
 rate_limits:
 - limit_count: 0
   name: Optinmonster Rate Limits
@@ -152,6 +152,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 51.6
@@ -159,8 +160,10 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 34.2
+  previous_composite: 50.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Optinmonster Authentication

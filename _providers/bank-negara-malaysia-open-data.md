@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Malaysia Central Bank Open Data
@@ -60,7 +60,7 @@ name: Bank Negara Malaysia Open Data
 nav: Providers
 network: true
 overview: Bank Negara Malaysia Open Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 27
+random_paper: 76
 score:
   band: minimal
   composite: 8.2
@@ -80,7 +80,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-negara-malaysia-open-data/refs/heads/main/screenshots/bank-negara-malaysia-open-data-2026-06-20T172953.png
 security:

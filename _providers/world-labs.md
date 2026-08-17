@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The credits API from World Labs — 1 operation(s) for credits.
@@ -37,7 +37,17 @@ apis:
 - description: The Marble API from World Labs — 8 operation(s) for marble.
   name: World Labs Marble API
   slug: world-labs-marble-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Marble Public API v1 credits API
+  slug: open-world-labs-credits-api
+- collection_type: open
+  name: Public API v1 credits Marble API
+  slug: open-world-labs-marble-api
 common:
 - group: agent
   title: ''
@@ -83,7 +93,7 @@ overview: 'World Labs publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   World Labs'' developer surface includes authentication and 6 more developer resources.'
-random_paper: 55
+random_paper: 121
 score:
   band: emerging
   composite: 24.8
@@ -105,7 +115,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

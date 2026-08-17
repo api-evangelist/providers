@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 5
@@ -113,7 +113,83 @@ apis:
 - description: The Workflows API from University of Chile — 1 operation(s) for workflows.
   name: University of Chile Workflows API
   slug: university-of-chile-workflows-api
-artifact_total: 41
+artifact_total: 66
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access API
+  slug: open-university-of-chile-access-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Admin API
+  slug: open-university-of-chile-admin-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Batch API
+  slug: open-university-of-chile-batch-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Builtin Users API
+  slug: open-university-of-chile-builtin-users-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Datasets API
+  slug: open-university-of-chile-datasets-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Datatags API
+  slug: open-university-of-chile-datatags-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Dataverses API
+  slug: open-university-of-chile-dataverses-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Edit API
+  slug: open-university-of-chile-edit-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Files API
+  slug: open-university-of-chile-files-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Harvest API
+  slug: open-university-of-chile-harvest-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Inbox API
+  slug: open-university-of-chile-inbox-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Info API
+  slug: open-university-of-chile-info-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Ingest API
+  slug: open-university-of-chile-ingest-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Licenses API
+  slug: open-university-of-chile-licenses-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Mail API
+  slug: open-university-of-chile-mail-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Meta API
+  slug: open-university-of-chile-meta-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Metadatablocks API
+  slug: open-university-of-chile-metadatablocks-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Mydata API
+  slug: open-university-of-chile-mydata-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Notifications API
+  slug: open-university-of-chile-notifications-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Pids API
+  slug: open-university-of-chile-pids-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Roles API
+  slug: open-university-of-chile-roles-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Search API
+  slug: open-university-of-chile-search-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Users API
+  slug: open-university-of-chile-users-api
+- collection_type: open
+  name: UChile Research Data Repository (Dataverse API) Access Workflows API
+  slug: open-university-of-chile-workflows-api
 common:
 - group: agent
   title: ''
@@ -214,7 +290,7 @@ plans:
 - name: University Of Chile Plans Pricing
   plan_count: 2
   slug: university-of-chile-plans-pricing
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: University Of Chile Rate Limits
@@ -262,7 +338,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/screenshots/university-of-chile-2026-06-20T200146.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: The Lookup API from NASA NeoWs — 1 operation(s) for lookup.
   name: NASA NeoWs Lookup API
   slug: nasa-neows-lookup-api
-artifact_total: 17
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NASA NeoWs - Near Earth Object Web Service Browse API
+  slug: open-nasa-neows-browse-api
+- collection_type: open
+  name: NASA NeoWs - Near Earth Object Web Service Browse Feed API
+  slug: open-nasa-neows-feed-api
+- collection_type: open
+  name: NASA NeoWs - Near Earth Object Web Service Browse Lookup API
+  slug: open-nasa-neows-lookup-api
 common:
 - group: operate
   title: ''
@@ -162,7 +175,7 @@ plans:
 - name: Nasa Neows Plans Pricing
   plan_count: 3
   slug: nasa-neows-plans-pricing
-random_paper: 60
+random_paper: 126
 rate_limits:
 - limit_count: 3
   name: Nasa Neows Rate Limits
@@ -202,7 +215,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-neows/refs/heads/main/screenshots/nasa-neows-2026-06-20T185953.png
 security:

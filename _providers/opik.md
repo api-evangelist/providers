@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 39
 apis:
 - description: Agent configuration management
@@ -148,7 +148,128 @@ apis:
 - description: Workspace related resources
   name: Opik Workspaces API
   slug: opik-workspaces-api
-artifact_total: 52
+artifact_total: 92
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Opik REST Agent Configs API
+  slug: open-opik-agent-configs-api
+- collection_type: open
+  name: Opik REST AI Spend API
+  slug: open-opik-ai-spend-api
+- collection_type: open
+  name: Opik REST Alerts API
+  slug: open-opik-alerts-api
+- collection_type: open
+  name: Opik REST Annotation Queues API
+  slug: open-opik-annotation-queues-api
+- collection_type: open
+  name: Opik REST Assertion Results API
+  slug: open-opik-assertion-results-api
+- collection_type: open
+  name: Opik REST Attachments API
+  slug: open-opik-attachments-api
+- collection_type: open
+  name: Opik REST Automation rule evaluators API
+  slug: open-opik-automation-rule-evaluators-api
+- collection_type: open
+  name: Opik REST Chat Completions API
+  slug: open-opik-chat-completions-api
+- collection_type: open
+  name: Opik REST Check API
+  slug: open-opik-check-api
+- collection_type: open
+  name: Opik REST Dashboards API
+  slug: open-opik-dashboards-api
+- collection_type: open
+  name: Opik REST Datasets API
+  slug: open-opik-datasets-api
+- collection_type: open
+  name: Opik REST Environments API
+  slug: open-opik-environments-api
+- collection_type: open
+  name: Opik REST Experiments API
+  slug: open-opik-experiments-api
+- collection_type: open
+  name: Opik REST Feedback-definitions API
+  slug: open-opik-feedback-definitions-api
+- collection_type: open
+  name: Opik REST Guardrails API
+  slug: open-opik-guardrails-api
+- collection_type: open
+  name: Opik REST Insights Views API
+  slug: open-opik-insights-views-api
+- collection_type: open
+  name: Opik REST Is Alive API
+  slug: open-opik-is-alive-api
+- collection_type: open
+  name: Opik REST LLM Models API
+  slug: open-opik-llm-models-api
+- collection_type: open
+  name: Opik REST LlmProviderKey API
+  slug: open-opik-llmproviderkey-api
+- collection_type: open
+  name: Opik REST Manual Evaluation API
+  slug: open-opik-manual-evaluation-api
+- collection_type: open
+  name: Opik REST MCP OAuth API
+  slug: open-opik-mcp-oauth-api
+- collection_type: open
+  name: Opik REST Ollama API
+  slug: open-opik-ollama-api
+- collection_type: open
+  name: Opik REST Ollie State API
+  slug: open-opik-ollie-state-api
+- collection_type: open
+  name: Opik REST OpenTelemetry Ingestion API
+  slug: open-opik-opentelemetry-ingestion-api
+- collection_type: open
+  name: Opik REST Optimizations API
+  slug: open-opik-optimizations-api
+- collection_type: open
+  name: Opik REST Pairing API
+  slug: open-opik-pairing-api
+- collection_type: open
+  name: Opik REST Projects API
+  slug: open-opik-projects-api
+- collection_type: open
+  name: Opik REST Prompts API
+  slug: open-opik-prompts-api
+- collection_type: open
+  name: Opik REST Redirect API
+  slug: open-opik-redirect-api
+- collection_type: open
+  name: Opik REST Reports API
+  slug: open-opik-reports-api
+- collection_type: open
+  name: Opik REST Retention Rules API
+  slug: open-opik-retention-rules-api
+- collection_type: open
+  name: Opik REST Runners API
+  slug: open-opik-runners-api
+- collection_type: open
+  name: Opik REST Service Toggles API
+  slug: open-opik-service-toggles-api
+- collection_type: open
+  name: Opik REST Spans API
+  slug: open-opik-spans-api
+- collection_type: open
+  name: Opik REST System usage API
+  slug: open-opik-system-usage-api
+- collection_type: open
+  name: Opik REST Traces API
+  slug: open-opik-traces-api
+- collection_type: open
+  name: Opik REST Welcome Wizard API
+  slug: open-opik-welcome-wizard-api
+- collection_type: open
+  name: Opik REST Workspace permissions API
+  slug: open-opik-workspace-permissions-api
+- collection_type: open
+  name: Opik REST Workspaces API
+  slug: open-opik-workspaces-api
 common:
 - group: commercial
   title: ''
@@ -290,7 +411,7 @@ plans:
 - name: Opik Plans Pricing
   plan_count: 5
   slug: opik-plans-pricing
-random_paper: 75
+random_paper: 137
 rate_limits:
 - limit_count: 4
   name: Opik Rate Limits
@@ -323,7 +444,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:

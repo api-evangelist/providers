@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
 - description: View functions,
   name: Aptos View API
   slug: aptos-view-api
-artifact_total: 253
+artifact_total: 261
 collections:
 - collection_type: postman
   name: Aptos Node Accounts API
@@ -91,6 +91,30 @@ collections:
 - collection_type: postman
   name: Aptos Node Accounts View API
   slug: postman-aptos-view-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aptos Node Accounts API
+  slug: open-aptos-accounts-api
+- collection_type: open
+  name: Aptos Node Accounts Blocks API
+  slug: open-aptos-blocks-api
+- collection_type: open
+  name: Aptos Node Accounts Events API
+  slug: open-aptos-events-api
+- collection_type: open
+  name: Aptos Node Accounts General API
+  slug: open-aptos-general-api
+- collection_type: open
+  name: Aptos Node Accounts Tables API
+  slug: open-aptos-tables-api
+- collection_type: open
+  name: Aptos Node Accounts Transactions API
+  slug: open-aptos-transactions-api
+- collection_type: open
+  name: Aptos Node Accounts View API
+  slug: open-aptos-view-api
 common:
 - group: build
   title: ''
@@ -884,7 +908,7 @@ plans:
 - name: Aptos Plans Pricing
   plan_count: 3
   slug: aptos-plans-pricing
-random_paper: 71
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Aptos Rate Limits
@@ -918,7 +942,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/screenshots/aptos-2026-06-20T172345.png
 security:

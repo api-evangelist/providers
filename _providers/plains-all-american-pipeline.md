@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Plains All American Pipeline API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Plains All American Pipeline Plans Pricing
   plan_count: 1
   slug: plains-all-american-pipeline-plans-pricing
-random_paper: 21
+random_paper: 99
 rate_limits:
 - limit_count: 1
   name: Plains All American Pipeline Rate Limits
@@ -89,7 +89,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plains-all-american-pipeline/refs/heads/main/screenshots/plains-all-american-pipeline-2026-06-20T191746.png
 security:

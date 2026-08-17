@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: ScienceLogic is an AIOps platform providing IT infrastructure monitoring, service management, and automated remediation.
@@ -88,7 +88,7 @@ plans:
 - name: Sciencelogic Plans Pricing
   plan_count: 3
   slug: sciencelogic-plans-pricing
-random_paper: 56
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Sciencelogic Rate Limits
@@ -106,7 +106,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sciencelogic/refs/heads/main/screenshots/sciencelogic-2026-06-20T193537.png
 security:

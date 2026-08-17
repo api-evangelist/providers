@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,7 +63,38 @@ apis:
 - description: API version information
   name: SolarEdge Version API
   slug: solar-edge-version-api
-artifact_total: 25
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SolarEdge Monitoring Account API
+  slug: open-solar-edge-account-api
+- collection_type: open
+  name: SolarEdge Monitoring Accounts API
+  slug: open-solar-edge-accounts-api
+- collection_type: open
+  name: SolarEdge Monitoring Accounts Energy API
+  slug: open-solar-edge-energy-api
+- collection_type: open
+  name: SolarEdge Monitoring Accounts Environmental API
+  slug: open-solar-edge-environmental-api
+- collection_type: open
+  name: SolarEdge Monitoring Accounts Equipment API
+  slug: open-solar-edge-equipment-api
+- collection_type: open
+  name: SolarEdge Monitoring Accounts Power API
+  slug: open-solar-edge-power-api
+- collection_type: open
+  name: SolarEdge Monitoring Accounts Sites API
+  slug: open-solar-edge-sites-api
+- collection_type: open
+  name: SolarEdge Monitoring Accounts Storage API
+  slug: open-solar-edge-storage-api
+- collection_type: open
+  name: SolarEdge Monitoring Accounts Version API
+  slug: open-solar-edge-version-api
 common:
 - group: other
   title: ''
@@ -235,7 +266,7 @@ plans:
 - name: Solar Edge Plans Pricing
   plan_count: 1
   slug: solar-edge-plans-pricing
-random_paper: 35
+random_paper: 101
 rate_limits:
 - limit_count: 3
   name: Solar Edge Rate Limits
@@ -277,7 +308,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png
 security:

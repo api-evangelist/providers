@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -78,8 +78,35 @@ apis:
 - description: PDP server metadata.
   name: Cerbos Server API
   slug: cerbos-server-api
-artifact_total: 51
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cerbos PDP REST Admin Audit API
+  slug: open-cerbos-admin-audit-api
+- collection_type: open
+  name: Cerbos PDP REST Admin Audit Admin Policies API
+  slug: open-cerbos-admin-policies-api
+- collection_type: open
+  name: Cerbos PDP REST Admin Audit Admin Schemas API
+  slug: open-cerbos-admin-schemas-api
+- collection_type: open
+  name: Cerbos PDP REST Admin Audit Admin Store API
+  slug: open-cerbos-admin-store-api
+- collection_type: open
+  name: Cerbos PDP REST Admin Audit AuthZEN API
+  slug: open-cerbos-authzen-api
+- collection_type: open
+  name: Cerbos PDP REST Admin Audit Check API
+  slug: open-cerbos-check-api
+- collection_type: open
+  name: Cerbos PDP REST Admin Audit Plan API
+  slug: open-cerbos-plan-api
+- collection_type: open
+  name: Cerbos PDP REST Admin Audit Server API
+  slug: open-cerbos-server-api
 - collection_type: open
   name: Cerbos PDP REST API
   slug: open-cerbos
@@ -260,7 +287,7 @@ plans:
 - name: Cerbos Plans Pricing
   plan_count: 3
   slug: cerbos-plans-pricing
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Cerbos Rate Limits
@@ -291,7 +318,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/screenshots/cerbos-2026-06-20T174139.png
 security:

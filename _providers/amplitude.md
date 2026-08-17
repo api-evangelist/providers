@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ arazzos:
 - description: Download flag configurations for local evaluation, then remotely evaluate variant assignments for a user.
   name: Amplitude Variant Evaluation
   slug: amplitude-variant-evaluation-workflow
-artifact_total: 515
+artifact_total: 539
 asyncapis:
 - description: 'AsyncAPI description of two outbound, push-style surfaces offered by Amplitude''s Data destination catalog: 1. Webhooks Streaming destination - a generic event/user forwarding destination that delivers'
   name: Amplitude Webhooks and Cohort Sync
@@ -228,7 +228,13 @@ collections:
   name: Amplitude User Profile API
   slug: postman-amplitude-user-profile-api
 - collection_type: open
-  name: Amplitude Attribution API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amplitude Attribution Annotations API
+  slug: open-amplitude-annotations-api
+- collection_type: open
+  name: Amplitude Annotations Attribution API
   slug: open-amplitude-attribution-api
 - collection_type: open
   name: Amplitude Behavioral Cohorts API
@@ -237,11 +243,44 @@ collections:
   name: Amplitude Chart Annotations API
   slug: open-amplitude-chart-annotations-api
 - collection_type: open
+  name: Amplitude Attribution Annotations Cohorts API
+  slug: open-amplitude-cohorts-api
+- collection_type: open
   name: Amplitude Dashboard REST API
   slug: open-amplitude-dashboard-rest-api
 - collection_type: open
+  name: Amplitude Attribution Annotations Data Access API
+  slug: open-amplitude-data-access-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Data Deletion API
+  slug: open-amplitude-data-deletion-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Deployments API
+  slug: open-amplitude-deployments-api
+- collection_type: open
   name: Amplitude Data Subject Access Request API
   slug: open-amplitude-dsar-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Evaluation API
+  slug: open-amplitude-evaluation-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Event Categories API
+  slug: open-amplitude-event-categories-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Event List API
+  slug: open-amplitude-event-list-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Event Properties API
+  slug: open-amplitude-event-properties-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Event Segmentation API
+  slug: open-amplitude-event-segmentation-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Event Types API
+  slug: open-amplitude-event-types-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Events API
+  slug: open-amplitude-events-api
 - collection_type: open
   name: Amplitude Experiment Evaluation API
   slug: open-amplitude-experiment-evaluation-api
@@ -249,14 +288,35 @@ collections:
   name: Amplitude Experiment Management API
   slug: open-amplitude-experiment-management-api
 - collection_type: open
-  name: Amplitude Export API
+  name: Amplitude Attribution Annotations Experiments API
+  slug: open-amplitude-experiments-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Export API
   slug: open-amplitude-export-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Flags API
+  slug: open-amplitude-flags-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Funnel Analysis API
+  slug: open-amplitude-funnel-analysis-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Groups API
+  slug: open-amplitude-groups-api
 - collection_type: open
   name: Amplitude HTTP V2 API
   slug: open-amplitude-http-v2-api
 - collection_type: open
-  name: Amplitude Identify API
+  name: Amplitude Attribution Annotations Identify API
   slug: open-amplitude-identify-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Profiles API
+  slug: open-amplitude-profiles-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Retention Analysis API
+  slug: open-amplitude-retention-analysis-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Revenue Analysis API
+  slug: open-amplitude-revenue-analysis-api
 - collection_type: open
   name: Amplitude SCIM API
   slug: open-amplitude-scim-api
@@ -264,11 +324,23 @@ collections:
   name: Amplitude Taxonomy API
   slug: open-amplitude-taxonomy-api
 - collection_type: open
-  name: Amplitude User Mapping API
+  name: Amplitude Attribution Annotations User Activity API
+  slug: open-amplitude-user-activity-api
+- collection_type: open
+  name: Amplitude Attribution Annotations User Mapping API
   slug: open-amplitude-user-mapping-api
 - collection_type: open
   name: Amplitude User Profile API
   slug: open-amplitude-user-profile-api
+- collection_type: open
+  name: Amplitude Attribution Annotations User Properties API
+  slug: open-amplitude-user-properties-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Users API
+  slug: open-amplitude-users-api
+- collection_type: open
+  name: Amplitude Attribution Annotations Versions API
+  slug: open-amplitude-versions-api
 common:
 - group: agent
   title: ''
@@ -1662,7 +1734,7 @@ plans:
 - name: Amplitude Plans Pricing
   plan_count: 4
   slug: amplitude-plans-pricing
-random_paper: 5
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Amplitude Rate Limits
@@ -1712,7 +1784,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/screenshots/amplitude-2026-06-20T171944.png
 security:

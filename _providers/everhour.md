@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -81,8 +81,53 @@ apis:
 - description: Webhook subscriptions for resource change events.
   name: Everhour Webhooks API
   slug: everhour-webhooks-api
-artifact_total: 22
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Everhour Clients API
+  slug: open-everhour-clients-api
+- collection_type: open
+  name: Everhour Clients Expenses API
+  slug: open-everhour-expenses-api
+- collection_type: open
+  name: Everhour Clients Invoices API
+  slug: open-everhour-invoices-api
+- collection_type: open
+  name: Everhour Clients Projects API
+  slug: open-everhour-projects-api
+- collection_type: open
+  name: Everhour Clients Reports API
+  slug: open-everhour-reports-api
+- collection_type: open
+  name: Everhour Clients Schedule API
+  slug: open-everhour-schedule-api
+- collection_type: open
+  name: Everhour Clients Tasks API
+  slug: open-everhour-tasks-api
+- collection_type: open
+  name: Everhour Clients Time Off API
+  slug: open-everhour-time-off-api
+- collection_type: open
+  name: Everhour Clients Time Records API
+  slug: open-everhour-time-records-api
+- collection_type: open
+  name: Everhour Clients Timecards API
+  slug: open-everhour-timecards-api
+- collection_type: open
+  name: Everhour Clients Timers API
+  slug: open-everhour-timers-api
+- collection_type: open
+  name: Everhour Clients Timesheets API
+  slug: open-everhour-timesheets-api
+- collection_type: open
+  name: Everhour Clients Users API
+  slug: open-everhour-users-api
+- collection_type: open
+  name: Everhour Clients Webhooks API
+  slug: open-everhour-webhooks-api
 - collection_type: open
   name: Everhour API
   slug: open-everhour
@@ -155,7 +200,7 @@ plans:
 - name: Everhour Plans Pricing
   plan_count: 3
   slug: everhour-plans-pricing
-random_paper: 40
+random_paper: 135
 rate_limits:
 - limit_count: 3
   name: Everhour Rate Limits
@@ -180,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everhour/refs/heads/main/screenshots/everhour-2026-07-25T213727.png
 security:

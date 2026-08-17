@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -117,12 +117,45 @@ apis:
 - description: The Stream API from Bunny.net — 2 operation(s) for stream.
   name: Bunny.net Stream API
   slug: bunny-net-stream-api
-artifact_total: 36
+artifact_total: 47
 asyncapis:
 - description: AsyncAPI definition of the Bunny Stream webhook surface. Bunny Stream sends a signed HTTP POST callback to the `WebhookUrl` configured on a Video Library whenever the state of a video changes (upload,
   name: Bunny.net Stream Webhooks
   slug: bunny-net-stream-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys API
+  slug: open-bunny-net-apikeys-api
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys Billing API
+  slug: open-bunny-net-billing-api
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys Countries API
+  slug: open-bunny-net-countries-api
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys DNSZones API
+  slug: open-bunny-net-dnszones-api
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys PullZones API
+  slug: open-bunny-net-pullzones-api
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys Purge API
+  slug: open-bunny-net-purge-api
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys Regions API
+  slug: open-bunny-net-regions-api
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys Statistics API
+  slug: open-bunny-net-statistics-api
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys StorageZones API
+  slug: open-bunny-net-storagezones-api
+- collection_type: open
+  name: Bunny.net Core Platform APIKeys Stream API
+  slug: open-bunny-net-stream-api
 - collection_type: open
   name: Bunny.net Core Platform API
   slug: open-bunny-net
@@ -210,7 +243,7 @@ plans:
 - name: Bunny Net Plans Pricing
   plan_count: 1
   slug: bunny-net-plans-pricing
-random_paper: 88
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Bunny Net Rate Limits
@@ -244,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/screenshots/bunny-net-2026-06-20T173805.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -66,7 +66,32 @@ arazzos:
 - description: BankID auth, email verification, terms acceptance, and KYC to reach a trade-ready customer.
   name: Safello — onboard a customer with BankID
   slug: safello-onboard-customer
-artifact_total: 15
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Safello account API
+  slug: open-safello-account-api
+- collection_type: open
+  name: Safello account auth API
+  slug: open-safello-auth-api
+- collection_type: open
+  name: Safello account compliance API
+  slug: open-safello-compliance-api
+- collection_type: open
+  name: Safello account market API
+  slug: open-safello-market-api
+- collection_type: open
+  name: Safello account orders API
+  slug: open-safello-orders-api
+- collection_type: open
+  name: Safello account prices API
+  slug: open-safello-prices-api
+- collection_type: open
+  name: Safello account wallet API
+  slug: open-safello-wallet-api
 common:
 - group: other
   title: ''
@@ -208,7 +233,7 @@ overview: 'Safello publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Safello''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 22
+random_paper: 146
 scopes:
 - name: Safello Scopes
   scope_count: 8
@@ -243,7 +268,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

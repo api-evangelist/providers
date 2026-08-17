@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Skai's REST API for programmatic access to advertising data and campaign management across search, social and retail-media publishers. Reporting is the primary surface — synchronous for small pulls, a
@@ -39,7 +39,11 @@ apis:
 - description: First-party hosted, remote Model Context Protocol servers exposing the Skai platform to AI assistants. The Reporting MCP is read-only and publishes five tools — fetch_report, relevant_columns, get_tod
   name: Skai MCP Servers
   slug: skai-mcp-servers
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Skai API
+  slug: open-skai-kenshoo-api
 common:
 - group: company
   title: ''
@@ -202,7 +206,7 @@ plans:
 - name: Skai Kenshoo Plans Pricing
   plan_count: 5
   slug: skai-kenshoo-plans-pricing
-random_paper: 28
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Skai Kenshoo Rate Limits
@@ -215,7 +219,7 @@ scopes:
 score:
   band: strong
   composite: 56.3
-  delta: 25.7
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 30.0
@@ -223,12 +227,12 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 30.6
+  previous_composite: 56.3
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Skai Kenshoo Authentication

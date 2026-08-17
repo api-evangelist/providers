@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -135,8 +135,107 @@ apis:
 - description: Manage virtual node groups (launch specifications) within Ocean clusters.
   name: Spot Virtual Node Groups API
   slug: flexera-virtual-node-groups-api
-artifact_total: 327
+artifact_total: 360
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spot Administration Access Policies API
+  slug: open-flexera-access-policies-api
+- collection_type: open
+  name: Spot Administration Access Policies Accounts API
+  slug: open-flexera-accounts-api
+- collection_type: open
+  name: Spot Administration Access Policies Audit API
+  slug: open-flexera-audit-api
+- collection_type: open
+  name: Spot Administration Access Policies Billing Accounts API
+  slug: open-flexera-billing-accounts-api
+- collection_type: open
+  name: Spot Administration Access Policies Billing Engine Setup API
+  slug: open-flexera-billing-engine-setup-api
+- collection_type: open
+  name: Spot Administration Access Policies Cloud Credentials API
+  slug: open-flexera-cloud-credentials-api
+- collection_type: open
+  name: Spot Administration Access Policies Cost Analysis API
+  slug: open-flexera-cost-analysis-api
+- collection_type: open
+  name: Spot Administration Access Policies Cost Intelligence API
+  slug: open-flexera-cost-intelligence-api
+- collection_type: open
+  name: Spot Administration Access Policies Deployments API
+  slug: open-flexera-deployments-api
+- collection_type: open
+  name: Spot Administration Access Policies Eco AWS API
+  slug: open-flexera-eco-aws-api
+- collection_type: open
+  name: Spot Administration Access Policies Eco Azure API
+  slug: open-flexera-eco-azure-api
+- collection_type: open
+  name: Spot Administration Access Policies Eco GCP API
+  slug: open-flexera-eco-gcp-api
+- collection_type: open
+  name: Spot Administration Access Policies Elastigroup AWS API
+  slug: open-flexera-elastigroup-aws-api
+- collection_type: open
+  name: Spot Administration Access Policies Elastigroup Azure API
+  slug: open-flexera-elastigroup-azure-api
+- collection_type: open
+  name: Spot Administration Access Policies Elastigroup GCP API
+  slug: open-flexera-elastigroup-gcp-api
+- collection_type: open
+  name: Spot Administration Access Policies EMR API
+  slug: open-flexera-emr-api
+- collection_type: open
+  name: Spot Administration Access Policies Families API
+  slug: open-flexera-families-api
+- collection_type: open
+  name: Spot Administration Access Policies Health Check API
+  slug: open-flexera-health-check-api
+- collection_type: open
+  name: Spot Administration Access Policies Ocean AKS API
+  slug: open-flexera-ocean-aks-api
+- collection_type: open
+  name: Spot Administration Access Policies Ocean AWS API
+  slug: open-flexera-ocean-aws-api
+- collection_type: open
+  name: Spot Administration Access Policies Ocean CD API
+  slug: open-flexera-ocean-cd-api
+- collection_type: open
+  name: Spot Administration Access Policies Ocean ECS API
+  slug: open-flexera-ocean-ecs-api
+- collection_type: open
+  name: Spot Administration Access Policies Ocean GKE API
+  slug: open-flexera-ocean-gke-api
+- collection_type: open
+  name: Spot Administration Access Policies Ocean Spark API
+  slug: open-flexera-ocean-spark-api
+- collection_type: open
+  name: Spot Administration Access Policies Organizations API
+  slug: open-flexera-organizations-api
+- collection_type: open
+  name: Spot Administration Access Policies Right Sizing API
+  slug: open-flexera-right-sizing-api
+- collection_type: open
+  name: Spot Administration Access Policies Rolls API
+  slug: open-flexera-rolls-api
+- collection_type: open
+  name: Spot Administration Access Policies Savings Analysis API
+  slug: open-flexera-savings-analysis-api
+- collection_type: open
+  name: Spot Administration Access Policies Stateful Instances API
+  slug: open-flexera-stateful-instances-api
+- collection_type: open
+  name: Spot Administration Access Policies Subscriptions API
+  slug: open-flexera-subscriptions-api
+- collection_type: open
+  name: Spot Administration Access Policies Users API
+  slug: open-flexera-users-api
+- collection_type: open
+  name: Spot Administration Access Policies Virtual Node Groups API
+  slug: open-flexera-virtual-node-groups-api
 - collection_type: open
   name: Spot Administration API
   slug: open-spot-administration-api
@@ -1041,7 +1140,7 @@ plans:
 - name: Spot Plans Pricing
   plan_count: 1
   slug: spot-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 1
   name: Flexera Rate Limits
@@ -1094,7 +1193,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/screenshots/flexera-2026-06-20T181307.png
 security:

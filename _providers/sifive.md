@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization server that fronts the SiFive Cloud Services (SCS) portal at scs.sifive.com, where SiFive Core Designer and the rest of the SiFive development tooling are delivered. It pub
@@ -163,7 +163,7 @@ overview: 'SiFive publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   SiFive''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, CLI, and 22 more developer resources.'
-random_paper: 46
+random_paper: 50
 scopes:
 - name: Sifive Scopes
   scope_count: 3
@@ -185,7 +185,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

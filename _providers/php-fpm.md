@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,8 +46,17 @@ apis:
 - description: Operational status endpoint exposed by PHP-FPM via the pm.status_path directive. Returns pool statistics (active processes, idle processes, accepted connections, slow requests) in plain text, JSON, XM
   name: PHP-FPM Status Endpoint
   slug: status-endpoint
-artifact_total: 7
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PHP-FPM Status and Endpoints Ping API
+  slug: open-php-fpm-ping-api
+- collection_type: open
+  name: PHP-FPM and Endpoints Ping Status API
+  slug: open-php-fpm-status-api
 - collection_type: open
   name: PHP-FPM Status and Ping Endpoints
   slug: open-php-fpm
@@ -100,7 +109,7 @@ overview: 'PHP-FPM publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   PHP-FPM''s developer surface includes documentation and 8 more developer resources.'
-random_paper: 96
+random_paper: 100
 score:
   band: emerging
   composite: 21.3
@@ -121,7 +130,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/screenshots/php-fpm-2026-06-20T191655.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Manage authentication tokens
   name: Tinybird Tokens API
   slug: tinybird-tokens-api
-artifact_total: 43
+artifact_total: 54
 collections:
 - collection_type: postman
   name: Tinybird Analyze API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: Tinybird Analyze Tokens API
   slug: postman-tinybird-tokens-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tinybird Analyze API
+  slug: open-tinybird-analyze-api
+- collection_type: open
+  name: Tinybird Analyze Data Sources API
+  slug: open-tinybird-data-sources-api
+- collection_type: open
+  name: Tinybird Analyze Environment Variables API
+  slug: open-tinybird-environment-variables-api
+- collection_type: open
+  name: Tinybird Analyze Events API
+  slug: open-tinybird-events-api
+- collection_type: open
+  name: Tinybird Analyze Jobs API
+  slug: open-tinybird-jobs-api
+- collection_type: open
+  name: Tinybird Analyze Organizations API
+  slug: open-tinybird-organizations-api
+- collection_type: open
+  name: Tinybird Analyze Pipes API
+  slug: open-tinybird-pipes-api
+- collection_type: open
+  name: Tinybird Analyze Query API
+  slug: open-tinybird-query-api
+- collection_type: open
+  name: Tinybird Analyze Sink Pipes API
+  slug: open-tinybird-sink-pipes-api
+- collection_type: open
+  name: Tinybird Analyze Tokens API
+  slug: open-tinybird-tokens-api
 - collection_type: open
   name: Tinybird API
   slug: open-tinybird
@@ -233,7 +266,7 @@ plans:
 - name: Tinybird Plans Pricing
   plan_count: 3
   slug: tinybird-plans-pricing
-random_paper: 29
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Tinybird Rate Limits
@@ -275,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/screenshots/tinybird-2026-06-20T195408.png
 security:

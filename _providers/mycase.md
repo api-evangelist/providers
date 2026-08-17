@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: The authorized firm of the current API user.
   name: MyCase Firm API
   slug: mycase-firm-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MyCase Open Case Stages API
+  slug: open-mycase-case-stages-api
+- collection_type: open
+  name: MyCase Open Case Stages Cases API
+  slug: open-mycase-cases-api
+- collection_type: open
+  name: MyCase Open Case Stages Companies API
+  slug: open-mycase-companies-api
+- collection_type: open
+  name: MyCase Open Case Stages Contacts API
+  slug: open-mycase-contacts-api
+- collection_type: open
+  name: MyCase Open Case Stages Documents API
+  slug: open-mycase-documents-api
+- collection_type: open
+  name: MyCase Open Case Stages Events API
+  slug: open-mycase-events-api
+- collection_type: open
+  name: MyCase Open Case Stages Firm API
+  slug: open-mycase-firm-api
 - collection_type: open
   name: MyCase Open API
   slug: open-mycase-open-api
@@ -220,7 +244,7 @@ overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   MyCase''s developer surface includes authentication, pricing, signup flow, developer portal, documentation, support, engineering blog, and 25 more developer resources.'
-random_paper: 42
+random_paper: 46
 rules:
 - name: MyCase API Rules
   rule_count: 5
@@ -256,7 +280,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/screenshots/mycase-2026-06-20T185916.png
 security:

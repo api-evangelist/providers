@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Public GraphQL API for Parabol. Authenticated with scoped Personal Access Tokens passed as a Bearer token. A single root `viewer` query returns the authenticated user and their teams, meetings, tasks,
@@ -183,7 +183,7 @@ overview: 'Parabol publishes 1 API on the [APIs.io](https://apis.io/) network: G
 
 
   Parabol''s developer surface includes API reference, documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 17
+random_paper: 141
 scopes:
 - name: Parabol Scopes
   scope_count: 16
@@ -206,7 +206,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parabol/refs/heads/main/screenshots/parabol-2026-08-07T191355.png
 security:

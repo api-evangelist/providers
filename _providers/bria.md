@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 1
@@ -71,11 +71,54 @@ apis:
 - description: Image-to-Video capabilities
   name: Bria Video Generation API
   slug: bria-video-generation-api
-artifact_total: 21
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Bria Webhooks
   slug: bria-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Product Shot API Reference Automotive Endpoints API
+  slug: open-bria-automotive-endpoints-api
+- collection_type: open
+  name: Tailored Generation API Reference Dataset API
+  slug: open-bria-dataset-api
+- collection_type: open
+  name: Video API Reference Editing Endpoints API
+  slug: open-bria-editing-endpoints-api
+- collection_type: open
+  name: Bria Endpoints API
+  slug: open-bria-endpoints-api
+- collection_type: open
+  name: Bria Attribution Service API Reference Image Attribution API
+  slug: open-bria-image-attribution-api
+- collection_type: open
+  name: Tailored Generation API Reference Image Generation API
+  slug: open-bria-image-generation-api
+- collection_type: open
+  name: Video API Reference Masking Endpoints API
+  slug: open-bria-masking-endpoints-api
+- collection_type: open
+  name: Tailored Generation API Reference Model API
+  slug: open-bria-model-api
+- collection_type: open
+  name: Product Shot API Reference Product Endpoints API
+  slug: open-bria-product-endpoints-api
+- collection_type: open
+  name: Tailored Generation API Reference Project API
+  slug: open-bria-project-api
+- collection_type: open
+  name: Image Editing API Reference v2 endpoints API
+  slug: open-bria-v2-endpoints-api
+- collection_type: open
+  name: Bria Attribution Service API Reference Video Attribution API
+  slug: open-bria-video-attribution-api
+- collection_type: open
+  name: Tailored Generation API Reference Video Generation API
+  slug: open-bria-video-generation-api
 common:
 - group: other
   title: ''
@@ -240,7 +283,7 @@ overview: 'Bria publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Bria''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 29 more developer resources.'
-random_paper: 54
+random_paper: 116
 scopes:
 - name: Bria Scopes
   scope_count: 3
@@ -269,7 +312,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

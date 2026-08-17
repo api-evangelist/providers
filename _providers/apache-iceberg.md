@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -54,7 +54,20 @@ apis:
 - description: The OAuth2 API API from Apache Iceberg — 1 operation(s) for oauth2 api.
   name: Apache Iceberg OAuth2 API API
   slug: apache-iceberg-oauth2-api-api
-artifact_total: 509
+artifact_total: 513
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Iceberg REST Catalog Catalog API API
+  slug: open-apache-iceberg-catalog-api-api
+- collection_type: open
+  name: Apache Iceberg REST Catalog Catalog API Configuration API API
+  slug: open-apache-iceberg-configuration-api-api
+- collection_type: open
+  name: Apache Iceberg REST Catalog Catalog API OAuth2 API API
+  slug: open-apache-iceberg-oauth2-api-api
 common:
 - group: operate
   title: ''
@@ -1624,7 +1637,7 @@ plans:
 - name: Apache Iceberg Plans Pricing
   plan_count: 3
   slug: apache-iceberg-plans-pricing
-random_paper: 56
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Apache Iceberg Rate Limits
@@ -1671,7 +1684,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/screenshots/apache-iceberg-2026-06-20T172110.png
 security:

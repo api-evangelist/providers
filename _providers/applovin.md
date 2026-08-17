@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 65.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -72,7 +72,11 @@ apis:
 - description: Per-segment waterfall management
   name: AppLovin Waterfalls API
   slug: applovin-waterfalls-api
-artifact_total: 46
+artifact_total: 60
+asyncapis:
+- description: ''
+  name: Applovin Webhooks
+  slug: applovin-webhooks
 collections:
 - collection_type: postman
   name: AppLovin Axon Campaign Management Ad Units API
@@ -107,6 +111,42 @@ collections:
 - collection_type: postman
   name: AppLovin Axon Campaign Management Ad Units Waterfalls API
   slug: postman-applovin-waterfalls-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units API
+  slug: open-applovin-ad-units-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Asset Reporting API
+  slug: open-applovin-asset-reporting-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Assets API
+  slug: open-applovin-assets-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Campaigns API
+  slug: open-applovin-campaigns-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Conversion Events API
+  slug: open-applovin-conversion-events-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Creative Sets API
+  slug: open-applovin-creative-sets-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Experiments API
+  slug: open-applovin-experiments-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Growth Reporting API
+  slug: open-applovin-growth-reporting-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Revenue Reporting API
+  slug: open-applovin-revenue-reporting-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Test Devices API
+  slug: open-applovin-test-devices-api
+- collection_type: open
+  name: AppLovin Axon Campaign Management Ad Units Waterfalls API
+  slug: open-applovin-waterfalls-api
 common:
 - group: build
   title: ''
@@ -135,15 +175,15 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://support.axon.ai
+  url: https://support.applovin.com
 - group: start
-  title: ''
+  title: Developer portal (developers.applovin.com redirects here)
   type: DeveloperPortal
-  url: https://developers.applovin.com
+  url: https://support.applovin.com
 - group: operate
   title: ''
   type: Support
-  url: https://support.axon.ai
+  url: https://support.applovin.com
 - group: company
   title: ''
   type: Blog
@@ -252,6 +292,90 @@ common:
   title: AppLovin Conversion Event Schema
   type: JSONSchema
   url: json-schema/applovin-conversion-event-schema.json
+- group: build
+  title: AppLovin SDK + package inventory
+  type: Packages
+  url: packages/applovin-packages.yml
+- group: build
+  title: AppLovin first-party SDK inventory
+  type: SDKs
+  url: packages/applovin-packages.yml
+- group: agent
+  title: Candidate MCP tool surface (no server published)
+  type: MCPServer
+  url: mcp/applovin-mcp.yml
+- group: agent
+  title: AppLovin llms.txt (generated)
+  type: LLMsTxt
+  url: llms/applovin-llms.txt
+- group: design
+  title: AppLovin standards conformance
+  type: Conformance
+  url: conformance/applovin-conformance.yml
+- group: design
+  title: AppLovin error catalog
+  type: ErrorCatalog
+  url: errors/applovin-problem-types.yml
+- group: design
+  title: AppLovin API lifecycle
+  type: Lifecycle
+  url: lifecycle/applovin-lifecycle.yml
+- group: design
+  title: AppLovin API conventions
+  type: Conventions
+  url: conventions/applovin-conventions.yml
+- group: design
+  title: Conversion API dedupe_id deduplication contract
+  type: Idempotency
+  url: conventions/applovin-conventions.yml
+- group: operate
+  title: AppLovin MAX SDK changelog
+  type: ChangeLog
+  url: changelog/applovin-changelog.yml
+- group: start
+  title: MAX SDK test mode (no API sandbox)
+  type: Sandbox
+  url: sandbox/applovin-sandbox.yml
+- group: design
+  title: AppLovin entity-relationship model
+  type: DataModel
+  url: data-model/applovin-data-model.yml
+- group: design
+  title: AppLovin server-to-server postback catalog
+  type: Webhooks
+  url: asyncapi/applovin-webhooks.yml
+- group: agent
+  title: AppLovin agent skills
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: AppLovin published rate limits
+  type: RateLimits
+  url: rate-limits/applovin-rate-limits.yml
+- group: commercial
+  title: AppLovin plans (none published)
+  type: Plans
+  url: plans/applovin-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/applovin-finops.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://max.applovin.com/login
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://support.applovin.com/en/max/reporting-apis/revenue-reporting-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.applovin.com/en/growth/getting-started
+- group: build
+  title: AppLovin Postman workspace (API Evangelist)
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/applovin/overview
 created: '2026-05-04'
 description: AppLovin is a marketing platform that helps businesses reach, monetize, and grow their global audiences through mobile advertising, mediation, and analytics. The company operates platforms including AppDiscovery (Axon) for performance-based user acquisition, MAX for in-app bidding mediation, Adjust for mobile measurement, and Wurl for connected TV. AppLovin provides SDKs and REST APIs that allow app developers and advertisers to integrate ad serving, monetization, campaign management, conversion tracking, and reporting capabilities into their applications.
 examples:
@@ -313,22 +437,26 @@ jsonld:
   property_count: 10
   slug: applovin-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: Candidate MCP tool surface (no server published)
+  slug: candidate-mcp-tool-surface-no-server-published
+modified: '2026-08-13'
 name: AppLovin
 nav: Providers
 network: true
 overview: 'AppLovin publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Ad Units API, Asset Reporting API, Assets API, and 8 more. Tagged areas include Advertising, Mobile, AdTech, App Monetization, and Mediation.
 
 
-  The AppLovin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The AppLovin catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  AppLovin''s developer surface includes authentication, documentation, support, engineering blog, code examples, tooling, and 30 more developer resources.'
+  AppLovin''s developer surface includes authentication, documentation, support, engineering blog, code examples, tooling, changelog, and 50 more developer resources.'
 plans:
 - name: Applovin Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: applovin-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 2
   name: Applovin Rate Limits
@@ -351,16 +479,16 @@ rules:
     warn: 15
   slug: applovin-rules
 score:
-  band: developing
-  composite: 45.3
-  delta: 0.0
+  band: strong
+  composite: 61.8
+  delta: 16.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 23.6
-    developer_ergonomics: 54.3
-    discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 26.3
+    commercial_clarity: 42.1
+    contract_quality: 32.5
+    developer_ergonomics: 93.5
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 50.0
   previous_composite: 45.3
   provenance:
     agentic_access: derived
@@ -370,8 +498,8 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:
 - kind: authentication
@@ -381,7 +509,7 @@ security:
 - kind: domain-security
   name: Applovin Domain Security
   slug: applovin-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: applovin
 tags:
 - Advertising

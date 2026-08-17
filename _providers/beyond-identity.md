@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -91,7 +91,7 @@ apis:
 - description: The Tokens API from Beyond Identity — 2 operation(s) for tokens.
   name: Beyond Identity Tokens API
   slug: beyond-identity-tokens-api
-artifact_total: 46
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Beyond Identity Secure Access Applications API
@@ -141,6 +141,57 @@ collections:
 - collection_type: postman
   name: Beyond Identity Secure Access Applications Tokens API
   slug: postman-beyond-identity-tokens-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Beyond Identity Secure Access Applications API
+  slug: open-beyond-identity-applications-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Authenticator Configurations API
+  slug: open-beyond-identity-authenticator-configurations-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Credential Binding Jobs API
+  slug: open-beyond-identity-credential-binding-jobs-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Credentials API
+  slug: open-beyond-identity-credentials-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Groups API
+  slug: open-beyond-identity-groups-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Identities API
+  slug: open-beyond-identity-identities-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Identity Provider API
+  slug: open-beyond-identity-identity-provider-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Launch Mechanisms API
+  slug: open-beyond-identity-launch-mechanisms-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Realms API
+  slug: open-beyond-identity-realms-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Resource Servers API
+  slug: open-beyond-identity-resource-servers-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Roles API
+  slug: open-beyond-identity-roles-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications SCIM API
+  slug: open-beyond-identity-scim-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications SSO Configs API
+  slug: open-beyond-identity-sso-configs-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Tenants API
+  slug: open-beyond-identity-tenants-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Themes API
+  slug: open-beyond-identity-themes-api
+- collection_type: open
+  name: Beyond Identity Secure Access Applications Tokens API
+  slug: open-beyond-identity-tokens-api
 common:
 - group: build
   title: ''
@@ -264,7 +315,7 @@ plans:
 - name: Beyond Identity Plans Pricing
   plan_count: 3
   slug: beyond-identity-plans-pricing
-random_paper: 0
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Beyond Identity Rate Limits
@@ -298,7 +349,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/screenshots/beyond-identity-2026-06-20T173212.png
 security:

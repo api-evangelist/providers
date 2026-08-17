@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: OUTERWALL ENTERS INTO DEFINITIVE MERGER ...
   url: https://www.prnewswire.com/news-releases/outerwall-enters-into-definitive-merger-agreement-to-be-acquired-by-certain-funds-managed-by-affiliates-of-apollo-global-management-for-5200-per-share-in-cash-300303115.html
-random_paper: 31
+random_paper: 97
 score:
   band: minimal
   composite: 4.1
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: outerwall
 tags:

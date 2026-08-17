@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The PMS Connectivity API from eZee Technosys — 1 operation(s) for pms connectivity.
   name: eZee Technosys PMS Connectivity API
   slug: ezee-pms-connectivity-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: eZee Technosys YCS Connectivity Inventory and Rates API
+  slug: open-ezee-inventory-and-rates-api
+- collection_type: open
+  name: eZee Technosys YCS Connectivity Inventory and Rates PMS Connectivity API
+  slug: open-ezee-pms-connectivity-api
 - collection_type: open
   name: eZee Technosys YCS Connectivity API
   slug: open-ezee
@@ -111,7 +120,7 @@ plans:
 - name: Ezee Plans Pricing
   plan_count: 2
   slug: ezee-plans-pricing
-random_paper: 65
+random_paper: 127
 rate_limits:
 - limit_count: 2
   name: Ezee Rate Limits
@@ -136,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/screenshots/ezee-2026-07-25T214046.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Wangdiantong (旺店通) ERP Open Platform HTTP API (openapi2). Endpoints are named PHP methods (e.g. trade_push.php, trade_query.php, goods_push.php, stock_query.php) grouped into basics (shops/warehou
@@ -100,7 +100,7 @@ overview: 'Huice publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Huice''s developer surface includes documentation, API reference, support, authentication, sandbox, and 8 more developer resources.'
-random_paper: 46
+random_paper: 79
 score:
   band: emerging
   composite: 16.7
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/screenshots/huice-2026-07-25T221632.png
 security:

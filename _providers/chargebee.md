@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,12 +62,39 @@ apis:
 - description: The Subscriptions API from Chargebee — 2 operation(s) for subscriptions.
   name: Chargebee Subscriptions API
   slug: chargebee-subscriptions-api
-artifact_total: 14
+artifact_total: 23
 asyncapis:
 - description: AsyncAPI description of Chargebee's webhook (event) surface. When a notable change occurs on a Chargebee site (customer created, subscription cancelled, invoice generated, payment failed, etc.) Charge
   name: Chargebee Webhooks
   slug: chargebee-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chargebee API v2 Customers API
+  slug: open-chargebee-customers-api
+- collection_type: open
+  name: Chargebee API v2 Customers Invoices API
+  slug: open-chargebee-invoices-api
+- collection_type: open
+  name: Chargebee API v2 Customers Items API
+  slug: open-chargebee-items-api
+- collection_type: open
+  name: Chargebee API v2 Customers Orders API
+  slug: open-chargebee-orders-api
+- collection_type: open
+  name: Chargebee API v2 Customers Payments API
+  slug: open-chargebee-payments-api
+- collection_type: open
+  name: Chargebee API v2 Customers Plans API
+  slug: open-chargebee-plans-api
+- collection_type: open
+  name: Chargebee API v2 Customers Quotes API
+  slug: open-chargebee-quotes-api
+- collection_type: open
+  name: Chargebee API v2 Customers Subscriptions API
+  slug: open-chargebee-subscriptions-api
 - collection_type: open
   name: Chargebee API v2
   slug: open-chargebee
@@ -203,7 +230,7 @@ overview: 'Chargebee publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Chargebee''s developer surface includes sandbox, changelog, getting-started guide, authentication, documentation, API reference, pricing, and 22 more developer resources.'
-random_paper: 78
+random_paper: 24
 rules:
 - name: Chargebee API Rules
   rule_count: 9
@@ -239,7 +266,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/screenshots/chargebee-2026-06-20T174220.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -53,11 +53,29 @@ apis:
 - description: Hopper uses a unique ID to correlate API calls and events produced by a user's interaction with an airline application. The duration of the user's interactions is called a "session", and the correlati
   name: Hopper Sessions API
   slug: hopper-com-sessions-api
-artifact_total: 9
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Airline API
   slug: open-hopper-airlines
+- collection_type: open
+  name: Airline Analytics API
+  slug: open-hopper-com-analytics-api
+- collection_type: open
+  name: Airline Analytics Authentication API
+  slug: open-hopper-com-authentication-api
+- collection_type: open
+  name: Airline Analytics Cancel For Any Reason (CFAR) API
+  slug: open-hopper-com-cancel-for-any-reason-cfar-api
+- collection_type: open
+  name: Airline Analytics Disruption Guarantee (DG) API
+  slug: open-hopper-com-disruption-guarantee-dg-api
+- collection_type: open
+  name: Airline Analytics Sessions API
+  slug: open-hopper-com-sessions-api
 common:
 - group: agent
   title: ''
@@ -151,7 +169,7 @@ overview: 'Hopper publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Hopper''s developer surface includes authentication, GitHub presence, engineering blog, and 17 more developer resources.'
-random_paper: 58
+random_paper: 124
 score:
   band: emerging
   composite: 25.4
@@ -172,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/screenshots/hopper-com-2026-06-20T182832.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -72,8 +72,44 @@ apis:
 - description: Event subscriptions delivering HTTPS callbacks.
   name: Booqable Webhooks API
   slug: booqable-webhooks-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability API
+  slug: open-booqable-availability-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Bundles & Collections API
+  slug: open-booqable-bundles-collections-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Customers API
+  slug: open-booqable-customers-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Documents API
+  slug: open-booqable-documents-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Order Fulfillment API
+  slug: open-booqable-order-fulfillment-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Orders API
+  slug: open-booqable-orders-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Product Groups API
+  slug: open-booqable-product-groups-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Products API
+  slug: open-booqable-products-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Settings API
+  slug: open-booqable-settings-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Stock Items API
+  slug: open-booqable-stock-items-api
+- collection_type: open
+  name: Booqable API (v4 "Boomerang") Availability Webhooks API
+  slug: open-booqable-webhooks-api
 - collection_type: open
   name: Booqable API (v4 Boomerang)
   slug: open-booqable
@@ -146,7 +182,7 @@ plans:
 - name: Booqable Plans Pricing
   plan_count: 4
   slug: booqable-plans-pricing
-random_paper: 117
+random_paper: 92
 rate_limits:
 - limit_count: 3
   name: Booqable Rate Limits
@@ -171,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/screenshots/booqable-2026-07-25T203619.png
 security:

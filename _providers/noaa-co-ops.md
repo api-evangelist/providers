@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,7 +76,50 @@ apis:
 - description: The Toptenwaterlevels API from NOAA CO-OPS — 1 operation(s) for toptenwaterlevels.
   name: NOAA CO-OPS Toptenwaterlevels API
   slug: noaa-co-ops-toptenwaterlevels-api
-artifact_total: 23
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks API
+  slug: open-noaa-co-ops-benchmarks-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Datagetter API
+  slug: open-noaa-co-ops-datagetter-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Extremewaterlevels API
+  slug: open-noaa-co-ops-extremewaterlevels-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Htf Annual API
+  slug: open-noaa-co-ops-htf-annual-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Htf Monthly API
+  slug: open-noaa-co-ops-htf-monthly-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Htf Projection Decadal API
+  slug: open-noaa-co-ops-htf-projection-decadal-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Peakwaterlevels API
+  slug: open-noaa-co-ops-peakwaterlevels-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Ports.json API
+  slug: open-noaa-co-ops-ports-json-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Sealvltrends API
+  slug: open-noaa-co-ops-sealvltrends-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Slr Projections API
+  slug: open-noaa-co-ops-slr-projections-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Stations API
+  slug: open-noaa-co-ops-stations-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Stations.json API
+  slug: open-noaa-co-ops-stations-json-api
+- collection_type: open
+  name: NOAA CO-OPS Data Retrieval Benchmarks Toptenwaterlevels API
+  slug: open-noaa-co-ops-toptenwaterlevels-api
 common:
 - group: agent
   title: ''
@@ -200,7 +243,7 @@ overview: 'NOAA CO-OPS publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 18 more developer resources.'
-random_paper: 93
+random_paper: 10
 rules:
 - name: NOAA CO-OPS API Rules
   rule_count: 5
@@ -236,7 +279,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/screenshots/noaa-co-ops-2026-06-20T190339.png
 security:

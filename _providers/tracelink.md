@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'SOAP web service for serialized operations: commissioning, aggregation, decommissioning, shipment and receipt orders, serial number verification, lot status, market release, sampling, and destruction.'
@@ -313,7 +313,7 @@ overview: 'TraceLink publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   TraceLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, code examples, and 27 more developer resources.'
-random_paper: 117
+random_paper: 63
 score:
   band: developing
   composite: 51.3
@@ -337,7 +337,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 25
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
@@ -97,11 +97,84 @@ apis:
 - description: Webhooks.
   name: Uphold Webhooks API
   slug: uphold-webhooks-api
-artifact_total: 32
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Uphold Core Webhooks
   slug: uphold-core-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Core Accounts API
+  slug: open-uphold-accounts-api
+- collection_type: open
+  name: Uphold Assets API
+  slug: open-uphold-assets-api
+- collection_type: open
+  name: Core Authentication API
+  slug: open-uphold-authentication-api
+- collection_type: open
+  name: Core Capabilities API
+  slug: open-uphold-capabilities-api
+- collection_type: open
+  name: Core Countries API
+  slug: open-uphold-countries-api
+- collection_type: open
+  name: Core External accounts API
+  slug: open-uphold-external-accounts-api
+- collection_type: open
+  name: Core Files API
+  slug: open-uphold-files-api
+- collection_type: open
+  name: Market Pulse General API
+  slug: open-uphold-general-api
+- collection_type: open
+  name: KYC Connectors Ingestions API
+  slug: open-uphold-ingestions-api
+- collection_type: open
+  name: Core KYB API
+  slug: open-uphold-kyb-api
+- collection_type: open
+  name: Uphold KYC API
+  slug: open-uphold-kyc-api
+- collection_type: open
+  name: Topper KYC sharing API
+  slug: open-uphold-kyc-sharing-api
+- collection_type: open
+  name: Core Metadata API
+  slug: open-uphold-metadata-api
+- collection_type: open
+  name: Widget Payment API
+  slug: open-uphold-payment-api
+- collection_type: open
+  name: Core Portfolio API
+  slug: open-uphold-portfolio-api
+- collection_type: open
+  name: Core Statements API
+  slug: open-uphold-statements-api
+- collection_type: open
+  name: KYC Connectors Sumsub API
+  slug: open-uphold-sumsub-api
+- collection_type: open
+  name: Core Terms of service API
+  slug: open-uphold-terms-of-service-api
+- collection_type: open
+  name: Core Transactions API
+  slug: open-uphold-transactions-api
+- collection_type: open
+  name: Widget Travel rule API
+  slug: open-uphold-travel-rule-api
+- collection_type: open
+  name: Core Users API
+  slug: open-uphold-users-api
+- collection_type: open
+  name: KYC Connectors Veriff API
+  slug: open-uphold-veriff-api
+- collection_type: open
+  name: Core Webhooks API
+  slug: open-uphold-webhooks-api
 common:
 - group: other
   title: ''
@@ -298,7 +371,7 @@ overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 37 more developer resources.'
-random_paper: 52
+random_paper: 56
 scopes:
 - name: Uphold Scopes
   scope_count: 64
@@ -332,7 +405,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

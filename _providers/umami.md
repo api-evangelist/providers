@@ -1,25 +1,26 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  label: Freemium product, paid API · Self-serve signup · 14-day trial
   onboarding: self-serve
   pricing: freemium
   public: false
   source:
-  - plans
-  - authentication
-  trial: false
+  - https://umami.is/pricing
+  - plans/umami-plans-pricing.yml
+  - authentication/umami-authentication.yml
+  trial: true
   try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 45.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,7 +61,7 @@ apis:
 - description: Website management and configuration
   name: Umami Websites API
   slug: umami-websites-api
-artifact_total: 102
+artifact_total: 112
 collections:
 - collection_type: postman
   name: Umami Analytics Authentication API
@@ -84,9 +85,41 @@ collections:
   name: Umami Analytics Authentication Websites API
   slug: postman-umami-websites-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Umami Analytics Authentication API
+  slug: open-umami-authentication-api
+- collection_type: open
+  name: Umami Analytics Authentication Events API
+  slug: open-umami-events-api
+- collection_type: open
+  name: Umami Analytics Authentication Sessions API
+  slug: open-umami-sessions-api
+- collection_type: open
+  name: Umami Analytics Authentication Teams API
+  slug: open-umami-teams-api
+- collection_type: open
+  name: Umami Analytics Authentication Users API
+  slug: open-umami-users-api
+- collection_type: open
+  name: Umami Analytics Authentication Website Statistics API
+  slug: open-umami-website-statistics-api
+- collection_type: open
+  name: Umami Analytics Authentication Websites API
+  slug: open-umami-websites-api
+- collection_type: open
   name: Umami Analytics API
   slug: open-umami
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/umami-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/umami-vulnerability-disclosure.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -114,7 +147,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://umami.is/docs
+  url: https://docs.umami.is
 - group: company
   title: ''
   type: Blog
@@ -142,11 +175,123 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://umami.is/docs/support
+  url: https://umami.is/contact
 - group: design
   title: ''
   type: SpectralRules
   url: rules/umami-spectral-rules.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/umami-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/umami-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/umami-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/umami-components.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/umami-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/umami-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/umami-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/umami-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://umami.statuspage.io
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/umami-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/umami-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/umami-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/umami-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/umami-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/umami-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/umami-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/umami-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.umami.is/docs/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.umami.is/docs/collect-data
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/umami-software
+- group: operate
+  title: ''
+  type: ChangeLogPage
+  url: https://docs.umami.is/docs/cloud/changelog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://umami.is/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://umami.is/privacy
+- group: commercial
+  title: ''
+  type: DataProcessingAgreement
+  url: https://umami.is/dpa
+- group: auth
+  title: ''
+  type: SecurityPage
+  url: https://umami.is/security
+- group: operate
+  title: ''
+  type: Contact
+  url: https://umami.is/contact
+- group: docs
+  title: ''
+  type: Guides
+  url: https://docs.umami.is/docs/guides
 - group: design
   title: ''
   type: Vocabulary
@@ -366,7 +511,7 @@ jsonld:
   property_count: 0
   slug: umami-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Umami
 nav: Providers
 network: true
@@ -376,14 +521,14 @@ overview: 'Umami publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Umami catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Umami''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 9 more developer resources.'
+  Umami''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 39 more developer resources.'
 plans:
 - name: Umami Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: umami-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Umami Rate Limits
   slug: umami-rate-limits
 rules:
@@ -404,16 +549,16 @@ rules:
     warn: 15
   slug: umami-spectral-rules
 score:
-  band: thin
-  composite: 38.0
-  delta: 0.0
+  band: strong
+  composite: 61.2
+  delta: 23.2
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 76.3
     contract_quality: 26.7
-    developer_ergonomics: 30.4
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 13.2
+    developer_ergonomics: 67.4
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 52.6
   previous_composite: 38.0
   provenance:
     agentic_access: derived
@@ -423,18 +568,26 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/screenshots/umami-2026-06-20T200011.png
 security:
 - kind: authentication
   name: Umami Authentication
   slug: umami-authentication
-  summary_line: http · 1 scheme
+  summary_line: http · 2 schemes
 - kind: domain-security
   name: Umami Domain Security
   slug: umami-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Umami Vulnerability Disclosure
+  slug: umami-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Umami Trust Center
+  slug: umami-trust-center
+  summary_line: trust center published
 slug: umami
 solutions:
 - description: Hosted Umami instance at cloud.umami.is with managed infrastructure and API key authentication.
@@ -447,6 +600,13 @@ tags:
 - Privacy
 - Web Analytics
 - Website Analytics
+- Product Analytics
+- Event Tracking
+- Self-Hosted
+- GDPR
+- Session Replay
+- Heatmaps
+- Marketing Attribution
 use_cases:
 - description: Track pageviews, unique visitors, bounce rates, and session duration for website optimization.
   name: Website Performance Monitoring

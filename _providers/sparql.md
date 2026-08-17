@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: SPARQL update operation
   name: SPARQL Update API
   slug: sparql-update-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SPARQL 1.1 Protocol Query API
+  slug: open-sparql-query-api
+- collection_type: open
+  name: 1.1 Protocol Query Sparql API
+  slug: open-sparql-sparql-api
+- collection_type: open
+  name: SPARQL 1.1 Protocol Query Sparql Graph API
+  slug: open-sparql-sparql-graph-api
+- collection_type: open
+  name: SPARQL 1.1 Protocol Query Sparql Update API
+  slug: open-sparql-sparql-update-api
+- collection_type: open
+  name: SPARQL 1.1 Protocol Query Update API
+  slug: open-sparql-update-api
 - collection_type: open
   name: SPARQL 1.1 Protocol
   slug: open-sparql
@@ -87,7 +105,7 @@ plans:
 - name: Sparql Plans Pricing
   plan_count: 3
   slug: sparql-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Sparql Rate Limits
@@ -112,7 +130,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/screenshots/sparql-2026-06-20T194246.png
 security:

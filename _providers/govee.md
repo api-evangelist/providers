@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -51,8 +51,23 @@ apis:
 - description: Dynamic light scenes and DIY scenes.
   name: Govee Scenes API
   slug: govee-scenes-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Govee Developer Device Control API
+  slug: open-govee-device-control-api
+- collection_type: open
+  name: Govee Developer Device Control Device State API
+  slug: open-govee-device-state-api
+- collection_type: open
+  name: Govee Developer Device Control Devices API
+  slug: open-govee-devices-api
+- collection_type: open
+  name: Govee Developer Device Control Scenes API
+  slug: open-govee-scenes-api
 - collection_type: open
   name: Govee Developer API
   slug: open-govee
@@ -117,7 +132,7 @@ plans:
 - name: Govee Plans Pricing
   plan_count: 2
   slug: govee-plans-pricing
-random_paper: 54
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Govee Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/screenshots/govee-2026-07-25T220132.png
 security:

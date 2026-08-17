@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,7 +48,17 @@ arazzos:
 - description: Create an AI media-generation job on Glio and poll until it completes, then read the result. Uses Glio's asynchronous job workflow.
   name: Glio - generate media and retrieve result
   slug: glio-generate-media
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Glio Jobs API
+  slug: open-glio-jobs-api
+- collection_type: open
+  name: Glio Jobs LLM API
+  slug: open-glio-llm-api
 common:
 - group: other
   title: ''
@@ -154,7 +164,7 @@ overview: 'Glio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Job
 
 
   Glio''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 15 more developer resources.'
-random_paper: 67
+random_paper: 129
 score:
   band: developing
   composite: 43.7
@@ -178,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/screenshots/glio-2026-07-25T215909.png
 security:

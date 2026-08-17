@@ -10,25 +10,26 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
+  score: 50.9
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API for the Affise Performance platform enabling admins and affiliates to manage offers, track conversions, retrieve statistics, handle publisher payouts, and automate billing operations programm
@@ -37,12 +38,116 @@ apis:
 - description: Mobile Measurement Partner API enabling mobile app attribution tracking, install measurement, event tracking, and audience analytics for iOS, Android, and cross-platform mobile applications.
   name: Affise MMP API
   slug: affise-mmp-api
-artifact_total: 7
+artifact_total: 12
+asyncapis:
+- description: ''
+  name: Affise Postbacks Webhooks
+  slug: affise-postbacks-webhooks
+collections:
+- collection_type: open
+  name: API Documentation
+  slug: open-affise
 common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/affise-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://srs.s4e.io/affise.com/report
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/affise-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/affise-well-known.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/affise-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/affise-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/affise-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/affise-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/affise-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/affise-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://affise.com/gdpr/
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/affise-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/affise-postbacks-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/affise-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/affise-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/affise-llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://affise.com/api/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.affise.com/docs3.2/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help-center.affise.com/en/articles/6463675-start-with-api-admins
+- group: operate
+  title: ''
+  type: Support
+  url: https://help-center.affise.com/en/
+- group: build
+  title: ''
+  type: Postman
+  url: https://github.com/affise/affise-postman-api-collection
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://affise.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://affise.com/privacy-policy/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://affise.com/signup/
 - group: company
   title: ''
   type: Website
@@ -112,47 +217,59 @@ jsonld:
   property_count: 4
   slug: affise-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: affise-mcp.yml
+  slug: affise-mcpyml
+modified: '2026-08-13'
 name: Affise
 nav: Providers
 network: true
 overview: 'Affise publishes 1 API on the [APIs.io](https://apis.io/) network: Performance API. Tagged areas include Affiliate Marketing, Performance Marketing, Conversions, Publishers, and Analytics.
 
 
-  The Affise catalog on APIs.io includes 1 JSON-LD context.
+  The Affise catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Affise''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
+  Affise''s developer surface includes authentication, sandbox, API reference, getting-started guide, support, signup flow, documentation, and 32 more developer resources.'
 plans:
 - name: Affise Plans Pricing
   plan_count: 7
   slug: affise-plans-pricing
-random_paper: 22
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Affise Rate Limits
   slug: affise-rate-limits
 score:
-  band: emerging
-  composite: 25.0
-  delta: 0.0
+  band: exemplar
+  composite: 66.4
+  delta: 41.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 92.1
+    contract_quality: 65.6
+    developer_ergonomics: 76.1
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 39.5
   previous_composite: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/screenshots/affise-2026-06-20T165649.png
 security:
+- kind: authentication
+  name: Affise Authentication
+  slug: affise-authentication
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Affise Domain Security
   slug: affise-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Affise Vulnerability Disclosure
+  slug: affise-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: affise
 tags:
 - Affiliate Marketing

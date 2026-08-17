@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: The Job Management API from Apache Giraph — 2 operation(s) for job management.
   name: Apache Giraph Job Management API
   slug: apache-giraph-job-management-api
-artifact_total: 43
+artifact_total: 46
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Giraph Job Monitoring Cluster API
+  slug: open-apache-giraph-cluster-api
+- collection_type: open
+  name: Apache Giraph Job Monitoring Cluster Job Management API
+  slug: open-apache-giraph-job-management-api
 - collection_type: open
   name: Apache Giraph Job Monitoring API
   slug: open-apache-giraph-job
@@ -192,7 +201,7 @@ plans:
 - name: Apache Giraph Plans Pricing
   plan_count: 3
   slug: apache-giraph-plans-pricing
-random_paper: 90
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Apache Giraph Rate Limits
@@ -234,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/screenshots/apache-giraph-2026-06-20T172100.png
 security:

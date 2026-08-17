@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: The Post API from AB Tasty — 4 operation(s) for post.
   name: AB Tasty Post API
   slug: ab-tasty-post-api
-artifact_total: 85
+artifact_total: 91
 collections:
 - collection_type: postman
   name: AB Tasty Decision Activate API
@@ -77,6 +77,24 @@ collections:
 - collection_type: postman
   name: AB Tasty Decision Activate Post API
   slug: postman-ab-tasty-post-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AB Tasty Decision Activate API
+  slug: open-ab-tasty-activate-api
+- collection_type: open
+  name: AB Tasty Decision Activate Campaigns API
+  slug: open-ab-tasty-campaigns-api
+- collection_type: open
+  name: AB Tasty Decision Activate Environments API
+  slug: open-ab-tasty-environments-api
+- collection_type: open
+  name: AB Tasty Decision Activate Flags API
+  slug: open-ab-tasty-flags-api
+- collection_type: open
+  name: AB Tasty Decision Activate Post API
+  slug: open-ab-tasty-post-api
 - collection_type: open
   name: AB Tasty Decision API
   slug: open-decision-api
@@ -347,7 +365,7 @@ plans:
 - name: Ab Tasty Plans Pricing
   plan_count: 4
   slug: ab-tasty-plans-pricing
-random_paper: 85
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Ab Tasty Rate Limits
@@ -389,7 +407,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/screenshots/ab-tasty-2026-06-20T163043.png
 security:

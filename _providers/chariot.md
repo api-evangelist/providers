@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -125,7 +125,7 @@ apis:
 - description: The verificationRequests API from Chariot — 2 operation(s) for verificationrequests.
   name: Chariot verificationRequests API
   slug: chariot-verificationrequests-api
-artifact_total: 64
+artifact_total: 94
 asyncapis:
 - description: ''
   name: Chariot Webhooks
@@ -218,6 +218,96 @@ collections:
 - collection_type: postman
   name: Chariot FDX Accounts verificationRequests API
   slug: postman-chariot-verificationrequests-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chariot FDX Accounts API
+  slug: open-chariot-accounts-api
+- collection_type: open
+  name: Chariot FDX Accounts Authorization Tokens API
+  slug: open-chariot-authorization-tokens-api
+- collection_type: open
+  name: Chariot FDX Accounts Connects API
+  slug: open-chariot-connects-api
+- collection_type: open
+  name: Chariot FDX Accounts Contact API
+  slug: open-chariot-contact-api
+- collection_type: open
+  name: Chariot FDX Accounts Customers API
+  slug: open-chariot-customers-api
+- collection_type: open
+  name: Chariot FDX Accounts Deposits API
+  slug: open-chariot-deposits-api
+- collection_type: open
+  name: Chariot FDX Accounts Disbursements API
+  slug: open-chariot-disbursements-api
+- collection_type: open
+  name: Chariot FDX Accounts Donations API
+  slug: open-chariot-donations-api
+- collection_type: open
+  name: Chariot FDX Accounts Donor Accounts API
+  slug: open-chariot-donor-accounts-api
+- collection_type: open
+  name: Chariot FDX Accounts Donor Advised Funds API
+  slug: open-chariot-donor-advised-funds-api
+- collection_type: open
+  name: Chariot FDX Accounts Event Subscriptions API
+  slug: open-chariot-event-subscriptions-api
+- collection_type: open
+  name: Chariot FDX Accounts Events API
+  slug: open-chariot-events-api
+- collection_type: open
+  name: Chariot FDX Accounts Financial Accounts API
+  slug: open-chariot-financial-accounts-api
+- collection_type: open
+  name: Chariot FDX Accounts Giving Pools API
+  slug: open-chariot-giving-pools-api
+- collection_type: open
+  name: Chariot FDX Accounts Grant Requests API
+  slug: open-chariot-grant-requests-api
+- collection_type: open
+  name: Chariot FDX Accounts Grants API
+  slug: open-chariot-grants-api
+- collection_type: open
+  name: Chariot FDX Accounts Inbound Transfers API
+  slug: open-chariot-inboundtransfers-api
+- collection_type: open
+  name: Chariot FDX Accounts Mailbox API
+  slug: open-chariot-mailbox-api
+- collection_type: open
+  name: Chariot FDX Accounts Nonprofit Addresses API
+  slug: open-chariot-nonprofitaddresses-api
+- collection_type: open
+  name: Chariot FDX Accounts Nonprofit Contacts API
+  slug: open-chariot-nonprofitcontacts-api
+- collection_type: open
+  name: Chariot FDX Accounts Organizations API
+  slug: open-chariot-organizations-api
+- collection_type: open
+  name: Chariot FDX Accounts Payment Sources API
+  slug: open-chariot-paymentsources-api
+- collection_type: open
+  name: Chariot FDX Accounts Programs API
+  slug: open-chariot-programs-api
+- collection_type: open
+  name: Chariot FDX Accounts Properties API
+  slug: open-chariot-properties-api
+- collection_type: open
+  name: Chariot FDX Accounts Recurring Grants API
+  slug: open-chariot-recurring-grants-api
+- collection_type: open
+  name: Chariot FDX Accounts Statements API
+  slug: open-chariot-statements-api
+- collection_type: open
+  name: Chariot FDX Accounts Transactions API
+  slug: open-chariot-transactions-api
+- collection_type: open
+  name: Chariot FDX Accounts Unintegrated Grants API
+  slug: open-chariot-unintegrated-grants-api
+- collection_type: open
+  name: Chariot FDX Accounts Verification Requests API
+  slug: open-chariot-verificationrequests-api
 common:
 - group: other
   title: ''
@@ -386,7 +476,7 @@ overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 26
+random_paper: 1
 scopes:
 - name: Chariot Scopes
   scope_count: 4
@@ -421,7 +511,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/screenshots/chariot-2026-07-25T205102.png
 security:

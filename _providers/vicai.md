@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -138,11 +138,114 @@ apis:
 - description: Webhook subscriptions control which events your system receives and where they are delivered. Each company may have one V0 subscription or multiple V2 subscriptions. You can subscribe to all events or
   name: Vic.ai Webhook Subscriptions API
   slug: vicai-webhook-subscriptions-api
-artifact_total: 40
+artifact_total: 74
 asyncapis:
 - description: ''
   name: Vicai Webhooks
   slug: vicai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vic.ai Accounts API
+  slug: open-vicai-accounts-api
+- collection_type: open
+  name: Vic.ai Accounts Allowed Senders API
+  slug: open-vicai-allowed-senders-api
+- collection_type: open
+  name: Vic.ai Accounts Attachments API
+  slug: open-vicai-attachments-api
+- collection_type: open
+  name: Vic.ai Accounts Authentication API
+  slug: open-vicai-authentication-api
+- collection_type: open
+  name: Vic.ai Accounts Beta Features API
+  slug: open-vicai-beta-features-api
+- collection_type: open
+  name: Vic.ai Accounts Bills API
+  slug: open-vicai-bills-api
+- collection_type: open
+  name: Vic.ai Accounts Companies API
+  slug: open-vicai-companies-api
+- collection_type: open
+  name: Vic.ai Accounts Company Settings API
+  slug: open-vicai-company-settings-api
+- collection_type: open
+  name: Vic.ai Accounts Credit Confirmations API
+  slug: open-vicai-credit-confirmations-api
+- collection_type: open
+  name: Vic.ai Accounts CSV Reports API
+  slug: open-vicai-csv-reports-api
+- collection_type: open
+  name: Vic.ai Accounts Dimensions API
+  slug: open-vicai-dimensions-api
+- collection_type: open
+  name: Vic.ai Accounts Email Endpoints API
+  slug: open-vicai-email-endpoints-api
+- collection_type: open
+  name: Vic.ai Accounts Invoice Approval Flows API
+  slug: open-vicai-invoice-approval-flows-api
+- collection_type: open
+  name: Vic.ai Accounts Invoices API
+  slug: open-vicai-invoices-api
+- collection_type: open
+  name: Vic.ai Accounts Organizations API
+  slug: open-vicai-organizations-api
+- collection_type: open
+  name: Vic.ai Accounts Partners API
+  slug: open-vicai-partners-api
+- collection_type: open
+  name: Vic.ai Accounts Payment Batches API
+  slug: open-vicai-payment-batches-api
+- collection_type: open
+  name: Vic.ai Accounts Payment Confirmations API
+  slug: open-vicai-payment-confirmations-api
+- collection_type: open
+  name: Vic.ai Accounts Payment Terms API
+  slug: open-vicai-payment-terms-api
+- collection_type: open
+  name: Vic.ai Accounts Purchase Order Line Items API
+  slug: open-vicai-purchase-order-line-items-api
+- collection_type: open
+  name: Vic.ai Accounts Purchase Orders API
+  slug: open-vicai-purchase-orders-api
+- collection_type: open
+  name: Vic.ai Accounts Status API
+  slug: open-vicai-status-api
+- collection_type: open
+  name: Vic.ai Accounts Synchronizing API
+  slug: open-vicai-synchronizing-api
+- collection_type: open
+  name: Vic.ai Accounts Tags API
+  slug: open-vicai-tags-api
+- collection_type: open
+  name: Vic.ai Accounts Tax Codes API
+  slug: open-vicai-tax-codes-api
+- collection_type: open
+  name: Vic.ai Accounts Training Invoices API
+  slug: open-vicai-training-invoices-api
+- collection_type: open
+  name: Vic.ai Accounts Users API
+  slug: open-vicai-users-api
+- collection_type: open
+  name: Vic.ai Accounts VAT Codes API
+  slug: open-vicai-vat-codes-api
+- collection_type: open
+  name: Vic.ai Accounts Vendor Groups API
+  slug: open-vicai-vendor-groups-api
+- collection_type: open
+  name: Vic.ai Accounts Vendor Tags API
+  slug: open-vicai-vendor-tags-api
+- collection_type: open
+  name: Vic.ai Accounts Vendors API
+  slug: open-vicai-vendors-api
+- collection_type: open
+  name: Vic.ai Accounts Webhook Events API
+  slug: open-vicai-webhook-events-api
+- collection_type: open
+  name: Vic.ai Accounts Webhook Subscriptions API
+  slug: open-vicai-webhook-subscriptions-api
 common:
 - group: other
   title: ''
@@ -279,7 +382,7 @@ overview: 'Vic.ai publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 44
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Vicai Rate Limits
@@ -313,7 +416,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

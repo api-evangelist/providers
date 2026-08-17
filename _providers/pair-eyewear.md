@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Shopify-hosted Universal Commerce Protocol shopping service exposed over MCP for agent-driven catalog search, cart, and buyer-approved checkout on the Pair Eyewear storefront.
@@ -116,7 +116,7 @@ overview: 'Pair Eyewear publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Pair Eyewear''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 27
+random_paper: 35
 scopes:
 - name: Pair Eyewear Scopes
   scope_count: 4
@@ -139,7 +139,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/screenshots/pair-eyewear-2026-08-07T191314.png
 security:

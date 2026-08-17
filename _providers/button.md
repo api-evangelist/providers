@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,11 +63,33 @@ arazzos:
 - description: List your Button billing accounts (one per currency), then page through all commission transactions across every account to reconcile affiliate earnings.
   name: Reconcile affiliate commission transactions
   slug: button-reconcile-transactions
-artifact_total: 14
+artifact_total: 21
 asyncapis:
 - description: Button delivers signed HTTP POST webhooks to a Publisher-configured URL when a transaction takes place based on traffic the Publisher drove to a Brand. Each delivery carries a Transaction in three pos
   name: Button Transaction Webhooks
   slug: button-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: billing-api Accounts API
+  slug: open-button-accounts-api
+- collection_type: open
+  name: billing-api Accounts Brands Api API
+  slug: open-button-brands-api-api
+- collection_type: open
+  name: billing-api Accounts Create API
+  slug: open-button-create-api
+- collection_type: open
+  name: billing-api Accounts Links Api API
+  slug: open-button-links-api-api
+- collection_type: open
+  name: billing-api Accounts Offers API
+  slug: open-button-offers-api
+- collection_type: open
+  name: billing-api Accounts Transactions API
+  slug: open-button-transactions-api
 common:
 - group: company
   title: ''
@@ -216,7 +238,7 @@ overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Button''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 68
+random_paper: 72
 score:
   band: developing
   composite: 50.2
@@ -240,7 +262,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/screenshots/button-2026-07-25T204122.png
 security:

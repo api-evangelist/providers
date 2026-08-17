@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Gnowbe is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Gnowbe''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
-random_paper: 42
+random_paper: 46
 score:
   band: emerging
   composite: 16.0
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gnowbe/refs/heads/main/screenshots/gnowbe-2026-07-25T215945.png
 security:

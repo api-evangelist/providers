@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 2
@@ -74,7 +74,47 @@ apis:
 - description: Endpoints to create, view, update and delete VPCs
   name: Fluence VPCs API
   slug: fluence-vpcs-api
-artifact_total: 17
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fluence Billing API
+  slug: open-fluence-billing-api
+- collection_type: open
+  name: Fluence Billing Hardware API
+  slug: open-fluence-hardware-api
+- collection_type: open
+  name: Fluence Billing Prices API
+  slug: open-fluence-prices-api
+- collection_type: open
+  name: Fluence Billing PublicIP API
+  slug: open-fluence-publicip-api
+- collection_type: open
+  name: Fluence Billing SecurityGroup API
+  slug: open-fluence-securitygroup-api
+- collection_type: open
+  name: Fluence Billing Service API
+  slug: open-fluence-service-api
+- collection_type: open
+  name: Fluence Billing SSH keys API
+  slug: open-fluence-ssh-keys-api
+- collection_type: open
+  name: Fluence Billing Storage API
+  slug: open-fluence-storage-api
+- collection_type: open
+  name: Fluence Billing Subnets API
+  slug: open-fluence-subnets-api
+- collection_type: open
+  name: Fluence Billing Users API
+  slug: open-fluence-users-api
+- collection_type: open
+  name: Fluence Billing VMs API
+  slug: open-fluence-vms-api
+- collection_type: open
+  name: Fluence Billing VPCs API
+  slug: open-fluence-vpcs-api
 common:
 - group: other
   title: ''
@@ -192,7 +232,7 @@ overview: 'Fluence publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fluence''s developer surface includes documentation, API reference, getting-started guide, developer console, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 18
+random_paper: 142
 scopes:
 - name: Fluence Scopes
   scope_count: 34
@@ -221,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/screenshots/fluence-2026-07-25T214842.png
 security:

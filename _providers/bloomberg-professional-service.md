@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Provides programmatic access to Bloomberg's comprehensive financial data including pricing, reference data, fundamentals, and historical information. Content can be accessed via a REST API, SFTP, or n
@@ -174,7 +174,7 @@ plans:
 - name: Bloomberg Professional Service Plans Pricing
   plan_count: 3
   slug: bloomberg-professional-service-plans-pricing
-random_paper: 97
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Bloomberg Professional Service Rate Limits
@@ -198,7 +198,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-professional-service/refs/heads/main/screenshots/bloomberg-professional-service-2026-06-20T173510.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: REST API surfacing end-user consent operations under the GDPR using the IAB Transparency & Consent Framework (TCF v2.2). Supports retrieving end-user consent status and history by site, merging an end
@@ -49,7 +49,29 @@ apis:
 - description: REST API exposing aggregated dashboard data for GDPR and U.S. Multi-State Privacy campaigns, including pageview and message data filtered by period for dashboard and BI integration. Powers the Sourcep
   name: Sourcepoint Reporting API
   slug: sourcepoint-reporting-api
-artifact_total: 28
+artifact_total: 35
+collections:
+- collection_type: open
+  name: Sourcepoint GDPR Standard API
+  slug: open-sourcepoint-gdpr-standard
+- collection_type: open
+  name: Sourcepoint GDPR TCF API
+  slug: open-sourcepoint-gdpr-tcf
+- collection_type: open
+  name: Sourcepoint Global Enterprise API
+  slug: open-sourcepoint-global-enterprise
+- collection_type: open
+  name: Preferences API
+  slug: open-sourcepoint-preferences
+- collection_type: open
+  name: Sourcepoint Reporting GDPR API
+  slug: open-sourcepoint-reporting-gdpr
+- collection_type: open
+  name: Sourcepoint Reporting U.S. Multi-State Privacy API
+  slug: open-sourcepoint-reporting-usnat
+- collection_type: open
+  name: Sourcepoint U.S. Multi-State Privacy API
+  slug: open-sourcepoint-usnat
 common:
 - group: auth
   title: ''
@@ -368,7 +390,7 @@ plans:
 - name: Sourcepoint Plans Pricing
   plan_count: 3
   slug: sourcepoint-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Sourcepoint Rate Limits
@@ -376,7 +398,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.0
-  delta: 42.1
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 45.4
@@ -384,10 +406,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 18.9
+  previous_composite: 61.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png
 security:
 - kind: authentication

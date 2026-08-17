@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,11 +68,23 @@ apis:
 - description: Standard Helm chart repository endpoints for index and chart download. These endpoints are required for any Helm-compatible chart repository.
   name: Helm Repository API
   slug: helm-repository-api
-artifact_total: 22
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Helm Chart Repository API
   slug: open-helm-chart-repository
+- collection_type: open
+  name: Helm Chart Repository ChartMuseum API
+  slug: open-helm-chartmuseum-api
+- collection_type: open
+  name: Helm Chart Repository ChartMuseum Charts API
+  slug: open-helm-charts-api
+- collection_type: open
+  name: Helm Chart ChartMuseum Repository API
+  slug: open-helm-repository-api
 common:
 - group: operate
   title: ''
@@ -199,7 +211,7 @@ plans:
 - name: Helm Plans Pricing
   plan_count: 1
   slug: helm-plans-pricing
-random_paper: 62
+random_paper: 124
 rate_limits:
 - limit_count: 1
   name: Helm Rate Limits
@@ -233,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/screenshots/helm-2026-06-20T182629.png
 security:

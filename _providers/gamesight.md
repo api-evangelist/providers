@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The Reporting API from Gamesight — 9 operation(s) for reporting.
   name: Gamesight Reporting API
   slug: gamesight-reporting-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gamesight Measurement API
+  slug: open-gamesight-measurement-api
+- collection_type: open
+  name: Gamesight Measurement Reporting API
+  slug: open-gamesight-reporting-api
 common:
 - group: other
   title: ''
@@ -162,6 +172,26 @@ common:
   title: ''
   type: Website
   url: https://gamesight.io/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/gamesight-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/gamesight-scopes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gamesight-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/gamesight-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/gamesight-plans-pricing.yml
 created: '2026-07-17'
 description: Gamesight is a performance marketing platform for PC and console games, giving game publishers the data, technology, and expertise to reach players across a title's lifecycle. Its Marketing Measurement suite delivers attribution for PC, console, and web games, cost aggregation from ad networks, and incrementality testing, while its Creator Marketing products run influencer campaigns, creator programs, and creator-led playtests. Developers integrate via a REST Measurement (ingest) API that streams in-game events with device identifiers, a Reporting API that pulls marketing analytics into a data warehouse, and a web measurement JavaScript SDK. The platform processes over a billion gaming data points daily and is SOC 2, GDPR, and CCPA compliant.
 image: https://console.gamesight.io/images/meta/gamesight-facebook.png
@@ -170,27 +200,36 @@ mcp_servers:
 - description: ''
   name: gamesight-mcp.yml
   slug: gamesight-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Gamesight
 nav: Providers
 network: true
 overview: 'Gamesight publishes 2 APIs on the [APIs.io](https://apis.io/) network: Measurement API and Reporting API. Tagged areas include Company, Gaming, Marketing, Analytics, and Attribution.
 
 
-  Gamesight''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
-random_paper: 113
+  Gamesight''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
+plans:
+- name: Gamesight Plans Pricing
+  plan_count: 0
+  slug: gamesight-plans-pricing
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Gamesight Rate Limits
   slug: gamesight-rate-limits
+scopes:
+- name: Gamesight Scopes
+  scope_count: 0
+  slug: gamesight-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 55.3
+  delta: 1.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.7
-    developer_ergonomics: 62.5
+    developer_ergonomics: 69.0
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 57.9
@@ -206,18 +245,18 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png
 security:
 - kind: authentication
   name: Gamesight Authentication
   slug: gamesight-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Gamesight Domain Security
   slug: gamesight-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: trust-center
   name: Gamesight Trust Center
   slug: gamesight-trust-center

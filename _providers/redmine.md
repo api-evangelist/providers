@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -92,8 +92,62 @@ apis:
 - description: The Wiki Pages.json API from Redmine — 1 operation(s) for wiki pages.json.
   name: Redmine Wiki Pages.json API
   slug: redmine-wiki-pages-json-api
-artifact_total: 22
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Redmine REST Attachments API
+  slug: open-redmine-attachments-api
+- collection_type: open
+  name: Redmine REST Attachments Custom Fields.json API
+  slug: open-redmine-custom-fields-json-api
+- collection_type: open
+  name: Redmine REST Attachments Groups.json API
+  slug: open-redmine-groups-json-api
+- collection_type: open
+  name: Redmine REST Attachments Issue Statuses.json API
+  slug: open-redmine-issue-statuses-json-api
+- collection_type: open
+  name: Redmine REST Attachments Issues API
+  slug: open-redmine-issues-api
+- collection_type: open
+  name: Redmine REST Attachments Issues.json API
+  slug: open-redmine-issues-json-api
+- collection_type: open
+  name: Redmine REST Attachments My API
+  slug: open-redmine-my-api
+- collection_type: open
+  name: Redmine REST Attachments Projects API
+  slug: open-redmine-projects-api
+- collection_type: open
+  name: Redmine REST Attachments Projects.json API
+  slug: open-redmine-projects-json-api
+- collection_type: open
+  name: Redmine REST Attachments Roles.json API
+  slug: open-redmine-roles-json-api
+- collection_type: open
+  name: Redmine REST Attachments Time Entries API
+  slug: open-redmine-time-entries-api
+- collection_type: open
+  name: Redmine REST Attachments Time Entries.json API
+  slug: open-redmine-time-entries-json-api
+- collection_type: open
+  name: Redmine REST Attachments Trackers.json API
+  slug: open-redmine-trackers-json-api
+- collection_type: open
+  name: Redmine REST Attachments Uploads.json API
+  slug: open-redmine-uploads-json-api
+- collection_type: open
+  name: Redmine REST Attachments Users API
+  slug: open-redmine-users-api
+- collection_type: open
+  name: Redmine REST Attachments Users.json API
+  slug: open-redmine-users-json-api
+- collection_type: open
+  name: Redmine REST Attachments Wiki Pages.json API
+  slug: open-redmine-wiki-pages-json-api
 - collection_type: open
   name: Redmine REST API
   slug: open-redmine
@@ -166,7 +220,7 @@ overview: 'Redmine publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Redmine''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
-random_paper: 20
+random_paper: 144
 score:
   band: emerging
   composite: 24.8
@@ -187,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/screenshots/redmine-2026-06-20T192728.png
 security:

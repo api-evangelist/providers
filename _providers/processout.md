@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -68,11 +68,45 @@ apis:
 - description: The Uploads API from ProcessOut — 3 operation(s) for uploads.
   name: ProcessOut Uploads API
   slug: processout-uploads-api
-artifact_total: 17
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Processout Webhooks
   slug: processout-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ProcessOut Balances API
+  slug: open-processout-balances-api
+- collection_type: open
+  name: ProcessOut Balances Cards API
+  slug: open-processout-cards-api
+- collection_type: open
+  name: ProcessOut Balances Customers API
+  slug: open-processout-customers-api
+- collection_type: open
+  name: ProcessOut Balances Events API
+  slug: open-processout-events-api
+- collection_type: open
+  name: ProcessOut Balances Invoices API
+  slug: open-processout-invoices-api
+- collection_type: open
+  name: ProcessOut Balances Network Tokens API
+  slug: open-processout-network-tokens-api
+- collection_type: open
+  name: ProcessOut Balances Payouts API
+  slug: open-processout-payouts-api
+- collection_type: open
+  name: ProcessOut Balances Projects API
+  slug: open-processout-projects-api
+- collection_type: open
+  name: ProcessOut Balances Transactions API
+  slug: open-processout-transactions-api
+- collection_type: open
+  name: ProcessOut Balances Uploads API
+  slug: open-processout-uploads-api
 common:
 - group: docs
   title: ''
@@ -253,7 +287,7 @@ overview: 'ProcessOut publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ProcessOut''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
-random_paper: 31
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Processout Rate Limits
@@ -287,7 +321,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

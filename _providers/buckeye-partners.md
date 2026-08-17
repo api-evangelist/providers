@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ press:
 - date: '2023-07-17'
   title: Buckeye Partners Acquires Carbon Capture Company Elysian
   url: https://www.buckeye.com/press-releases/buckeye-partners-acquires-carbon-capture-company-elysian
-random_paper: 108
+random_paper: 29
 score:
   band: minimal
   composite: 8.1
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buckeye-partners/refs/heads/main/screenshots/buckeye-partners-2026-06-20T173736.png
 security:

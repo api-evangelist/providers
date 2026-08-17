@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -132,7 +132,101 @@ apis:
 - description: The Withdrawals API from DriveWealth — 4 operation(s) for withdrawals.
   name: DriveWealth Withdrawals API
   slug: drivewealth-withdrawals-api
-artifact_total: 45
+artifact_total: 76
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DriveWealth Accounts API
+  slug: open-drivewealth-accounts-api
+- collection_type: open
+  name: DriveWealth Accounts Advisor Reports API
+  slug: open-drivewealth-advisor-reports-api
+- collection_type: open
+  name: DriveWealth Accounts Asset Transfer API
+  slug: open-drivewealth-asset-transfer-api
+- collection_type: open
+  name: DriveWealth Accounts Auth API
+  slug: open-drivewealth-auth-api
+- collection_type: open
+  name: DriveWealth Accounts AutoPilot API
+  slug: open-drivewealth-autopilot-api
+- collection_type: open
+  name: DriveWealth Accounts Beneficiaries API
+  slug: open-drivewealth-beneficiaries-api
+- collection_type: open
+  name: DriveWealth Accounts Charts API
+  slug: open-drivewealth-charts-api
+- collection_type: open
+  name: DriveWealth Accounts Commission Schedules API
+  slug: open-drivewealth-commission-schedules-api
+- collection_type: open
+  name: DriveWealth Accounts Correspondent Reports API
+  slug: open-drivewealth-correspondent-reports-api
+- collection_type: open
+  name: DriveWealth Accounts Deposits API
+  slug: open-drivewealth-deposits-api
+- collection_type: open
+  name: DriveWealth Accounts Depth of Book API
+  slug: open-drivewealth-depth-of-book-api
+- collection_type: open
+  name: DriveWealth Accounts Exchanges API
+  slug: open-drivewealth-exchanges-api
+- collection_type: open
+  name: DriveWealth Accounts Funds API
+  slug: open-drivewealth-funds-api
+- collection_type: open
+  name: DriveWealth Accounts Instruments API
+  slug: open-drivewealth-instruments-api
+- collection_type: open
+  name: DriveWealth Accounts Linked Bank Accounts API
+  slug: open-drivewealth-linked-bank-accounts-api
+- collection_type: open
+  name: DriveWealth Accounts Orders API
+  slug: open-drivewealth-orders-api
+- collection_type: open
+  name: DriveWealth Accounts Physical Documents API
+  slug: open-drivewealth-physical-documents-api
+- collection_type: open
+  name: DriveWealth Accounts Portfolios API
+  slug: open-drivewealth-portfolios-api
+- collection_type: open
+  name: DriveWealth Accounts Positions API
+  slug: open-drivewealth-positions-api
+- collection_type: open
+  name: DriveWealth Accounts Quotes API
+  slug: open-drivewealth-quotes-api
+- collection_type: open
+  name: DriveWealth Accounts Settlements API
+  slug: open-drivewealth-settlements-api
+- collection_type: open
+  name: DriveWealth Accounts Statements API
+  slug: open-drivewealth-statements-api
+- collection_type: open
+  name: DriveWealth Accounts Subscriptions API
+  slug: open-drivewealth-subscriptions-api
+- collection_type: open
+  name: DriveWealth Accounts Supported Countries API
+  slug: open-drivewealth-supported-countries-api
+- collection_type: open
+  name: DriveWealth Accounts Trade Allocations API
+  slug: open-drivewealth-trade-allocations-api
+- collection_type: open
+  name: DriveWealth Accounts Transactions API
+  slug: open-drivewealth-transactions-api
+- collection_type: open
+  name: DriveWealth Accounts Users API
+  slug: open-drivewealth-users-api
+- collection_type: open
+  name: DriveWealth Accounts Violations API
+  slug: open-drivewealth-violations-api
+- collection_type: open
+  name: DriveWealth Accounts Virtual Bank Accounts API
+  slug: open-drivewealth-virtual-bank-accounts-api
+- collection_type: open
+  name: DriveWealth Accounts Withdrawals API
+  slug: open-drivewealth-withdrawals-api
 common:
 - group: agent
   title: ''
@@ -274,7 +368,7 @@ plans:
 - name: Drivewealth Plans Pricing
   plan_count: 2
   slug: drivewealth-plans-pricing
-random_paper: 103
+random_paper: 140
 rate_limits:
 - limit_count: 1
   name: Drivewealth Rate Limits
@@ -314,7 +408,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/screenshots/drivewealth-2026-06-20T180237.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 215
   human_in_the_loop: 1
@@ -809,7 +809,782 @@ apis:
 - description: The Zone API from AMCS Group — 2 operation(s) for zone.
   name: AMCS Group Zone API
   slug: amcs-group-zone-api
-artifact_total: 261
+artifact_total: 519
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Core AccessGroup API
+  slug: open-amcs-group-accessgroup-api
+- collection_type: open
+  name: Core AccessGroup AccessPassHistory API
+  slug: open-amcs-group-accesspasshistory-api
+- collection_type: open
+  name: Core AccessGroup AccountBalance API
+  slug: open-amcs-group-accountbalance-api
+- collection_type: open
+  name: Core AccessGroup AccountCustomer API
+  slug: open-amcs-group-accountcustomer-api
+- collection_type: open
+  name: Core AccessGroup AccountingPeriod API
+  slug: open-amcs-group-accountingperiod-api
+- collection_type: open
+  name: Core AccessGroup AccountingPeriodInventoryBatch API
+  slug: open-amcs-group-accountingperiodinventorybatch-api
+- collection_type: open
+  name: Core AccessGroup AccountingPeriodLock API
+  slug: open-amcs-group-accountingperiodlock-api
+- collection_type: open
+  name: Core AccessGroup Action API
+  slug: open-amcs-group-action-api
+- collection_type: open
+  name: Core AccessGroup ActionType API
+  slug: open-amcs-group-actiontype-api
+- collection_type: open
+  name: Core AccessGroup AllContaminationEvent API
+  slug: open-amcs-group-allcontaminationevent-api
+- collection_type: open
+  name: Core AccessGroup AllOverfilledContainerEvent API
+  slug: open-amcs-group-alloverfilledcontainerevent-api
+- collection_type: open
+  name: Core AccessGroup ApiConfigurationService API
+  slug: open-amcs-group-apiconfigurationservice-api
+- collection_type: open
+  name: Core AccessGroup ApiDocumentation API
+  slug: open-amcs-group-apidocumentation-api
+- collection_type: open
+  name: Core AccessGroup ApiGpsDataExternal API
+  slug: open-amcs-group-apigpsdataexternal-api
+- collection_type: open
+  name: Core AccessGroup ApiGpsTrailExportService API
+  slug: open-amcs-group-apigpstrailexportservice-api
+- collection_type: open
+  name: Core AccessGroup ApiSignalRService API
+  slug: open-amcs-group-apisignalrservice-api
+- collection_type: open
+  name: Core AccessGroup ApiTripExternal API
+  slug: open-amcs-group-apitripexternal-api
+- collection_type: open
+  name: Core AccessGroup ApiWorkflowDefinitionService API
+  slug: open-amcs-group-apiworkflowdefinitionservice-api
+- collection_type: open
+  name: Core AccessGroup ApiWorkflowGetInstanceStateService API
+  slug: open-amcs-group-apiworkflowgetinstancestateservice-api
+- collection_type: open
+  name: Core AccessGroup ApiWorkflowInstanceCancelService API
+  slug: open-amcs-group-apiworkflowinstancecancelservice-api
+- collection_type: open
+  name: Core AccessGroup ApiWorkflowInstanceDeleteService API
+  slug: open-amcs-group-apiworkflowinstancedeleteservice-api
+- collection_type: open
+  name: Core AccessGroup ApiWorkflowSetInstanceStateService API
+  slug: open-amcs-group-apiworkflowsetinstancestateservice-api
+- collection_type: open
+  name: Core AccessGroup ApplicationUISettings API
+  slug: open-amcs-group-applicationuisettings-api
+- collection_type: open
+  name: Core AccessGroup AppliedCost API
+  slug: open-amcs-group-appliedcost-api
+- collection_type: open
+  name: Core AccessGroup AreaOfOrigin API
+  slug: open-amcs-group-areaoforigin-api
+- collection_type: open
+  name: Core AccessGroup Asset API
+  slug: open-amcs-group-asset-api
+- collection_type: open
+  name: Core AccessGroup AssignedUdfs API
+  slug: open-amcs-group-assignedudfs-api
+- collection_type: open
+  name: Core AccessGroup Auth API
+  slug: open-amcs-group-auth-api
+- collection_type: open
+  name: Core AccessGroup Authentication API
+  slug: open-amcs-group-authentication-api
+- collection_type: open
+  name: Core AccessGroup AuthStatus API
+  slug: open-amcs-group-authstatus-api
+- collection_type: open
+  name: Core AccessGroup AuthToken API
+  slug: open-amcs-group-authtoken-api
+- collection_type: open
+  name: Core AccessGroup Blob API
+  slug: open-amcs-group-blob-api
+- collection_type: open
+  name: Core AccessGroup BulkyWasteJob API
+  slug: open-amcs-group-bulkywastejob-api
+- collection_type: open
+  name: Core AccessGroup BulkyWasteJobOrderDetail API
+  slug: open-amcs-group-bulkywastejoborderdetail-api
+- collection_type: open
+  name: Core AccessGroup BusinessObjectLookup API
+  slug: open-amcs-group-businessobjectlookup-api
+- collection_type: open
+  name: Core AccessGroup BusinessType API
+  slug: open-amcs-group-businesstype-api
+- collection_type: open
+  name: Core AccessGroup BusinessTypeOption API
+  slug: open-amcs-group-businesstypeoption-api
+- collection_type: open
+  name: Core AccessGroup CameraEvent API
+  slug: open-amcs-group-cameraevent-api
+- collection_type: open
+  name: Core AccessGroup Charge API
+  slug: open-amcs-group-charge-api
+- collection_type: open
+  name: Core AccessGroup CheckBalance API
+  slug: open-amcs-group-checkbalance-api
+- collection_type: open
+  name: Core AccessGroup CommsServerSyncStatus API
+  slug: open-amcs-group-commsserversyncstatus-api
+- collection_type: open
+  name: Core AccessGroup Communication API
+  slug: open-amcs-group-communication-api
+- collection_type: open
+  name: Core AccessGroup CommunicationClassification API
+  slug: open-amcs-group-communicationclassification-api
+- collection_type: open
+  name: Core AccessGroup CommunicationOutcome API
+  slug: open-amcs-group-communicationoutcome-api
+- collection_type: open
+  name: Core AccessGroup CommunicationType API
+  slug: open-amcs-group-communicationtype-api
+- collection_type: open
+  name: Core AccessGroup Company API
+  slug: open-amcs-group-company-api
+- collection_type: open
+  name: Core AccessGroup CompanyOutletAnalysisCode API
+  slug: open-amcs-group-companyoutletanalysiscode-api
+- collection_type: open
+  name: Core AccessGroup Contact API
+  slug: open-amcs-group-contact-api
+- collection_type: open
+  name: Core AccessGroup ContactRegistrationStatus API
+  slug: open-amcs-group-contactregistrationstatus-api
+- collection_type: open
+  name: Core AccessGroup ContactType API
+  slug: open-amcs-group-contacttype-api
+- collection_type: open
+  name: Core AccessGroup Container API
+  slug: open-amcs-group-container-api
+- collection_type: open
+  name: Core AccessGroup ContainerApplications API
+  slug: open-amcs-group-containerapplications-api
+- collection_type: open
+  name: Core AccessGroup ContainerCategory API
+  slug: open-amcs-group-containercategory-api
+- collection_type: open
+  name: Core AccessGroup ContainerStatus API
+  slug: open-amcs-group-containerstatus-api
+- collection_type: open
+  name: Core AccessGroup ContainerType API
+  slug: open-amcs-group-containertype-api
+- collection_type: open
+  name: Core AccessGroup ContaminationEvent API
+  slug: open-amcs-group-contaminationevent-api
+- collection_type: open
+  name: Core AccessGroup Contract API
+  slug: open-amcs-group-contract-api
+- collection_type: open
+  name: Core AccessGroup ContractStatus API
+  slug: open-amcs-group-contractstatus-api
+- collection_type: open
+  name: Core AccessGroup CoreConfiguration API
+  slug: open-amcs-group-coreconfiguration-api
+- collection_type: open
+  name: Core AccessGroup CostAgreement API
+  slug: open-amcs-group-costagreement-api
+- collection_type: open
+  name: Core AccessGroup CostCentre API
+  slug: open-amcs-group-costcentre-api
+- collection_type: open
+  name: Core AccessGroup Country API
+  slug: open-amcs-group-country-api
+- collection_type: open
+  name: Core AccessGroup CreditNote API
+  slug: open-amcs-group-creditnote-api
+- collection_type: open
+  name: Core AccessGroup Currency API
+  slug: open-amcs-group-currency-api
+- collection_type: open
+  name: Core AccessGroup CurrencyRate API
+  slug: open-amcs-group-currencyrate-api
+- collection_type: open
+  name: Core AccessGroup CurrencyRoundingType API
+  slug: open-amcs-group-currencyroundingtype-api
+- collection_type: open
+  name: Core AccessGroup Customer API
+  slug: open-amcs-group-customer-api
+- collection_type: open
+  name: Core AccessGroup CustomerBlob API
+  slug: open-amcs-group-customerblob-api
+- collection_type: open
+  name: Core AccessGroup CustomerCategory API
+  slug: open-amcs-group-customercategory-api
+- collection_type: open
+  name: Core AccessGroup CustomerGroup API
+  slug: open-amcs-group-customergroup-api
+- collection_type: open
+  name: Core AccessGroup CustomerHomeCache API
+  slug: open-amcs-group-customerhomecache-api
+- collection_type: open
+  name: Core AccessGroup CustomerReportBlob API
+  slug: open-amcs-group-customerreportblob-api
+- collection_type: open
+  name: Core AccessGroup CustomerSite API
+  slug: open-amcs-group-customersite-api
+- collection_type: open
+  name: Core AccessGroup CustomerSiteHealthAndSafetyBlob API
+  slug: open-amcs-group-customersitehealthandsafetyblob-api
+- collection_type: open
+  name: Core AccessGroup CustomerSiteState API
+  slug: open-amcs-group-customersitestate-api
+- collection_type: open
+  name: Core AccessGroup CustomerState API
+  slug: open-amcs-group-customerstate-api
+- collection_type: open
+  name: Core AccessGroup CustomerTemplate API
+  slug: open-amcs-group-customertemplate-api
+- collection_type: open
+  name: Core AccessGroup CustomerType API
+  slug: open-amcs-group-customertype-api
+- collection_type: open
+  name: Core AccessGroup DayOfOccurrenceInMonth API
+  slug: open-amcs-group-dayofoccurrenceinmonth-api
+- collection_type: open
+  name: Core AccessGroup DayOfWeek API
+  slug: open-amcs-group-dayofweek-api
+- collection_type: open
+  name: Core AccessGroup DefaultAction API
+  slug: open-amcs-group-defaultaction-api
+- collection_type: open
+  name: Core AccessGroup Definition API
+  slug: open-amcs-group-definition-api
+- collection_type: open
+  name: Core AccessGroup DefinitionAndProvider API
+  slug: open-amcs-group-definitionandprovider-api
+- collection_type: open
+  name: Core AccessGroup DefinitionBrowser API
+  slug: open-amcs-group-definitionbrowser-api
+- collection_type: open
+  name: Core AccessGroup DefinitionSchedule API
+  slug: open-amcs-group-definitionschedule-api
+- collection_type: open
+  name: Core AccessGroup DeleteJob API
+  slug: open-amcs-group-deletejob-api
+- collection_type: open
+  name: Core AccessGroup Department API
+  slug: open-amcs-group-department-api
+- collection_type: open
+  name: Core AccessGroup Diagnostics API
+  slug: open-amcs-group-diagnostics-api
+- collection_type: open
+  name: Core AccessGroup DirectDebitAccountType API
+  slug: open-amcs-group-directdebitaccounttype-api
+- collection_type: open
+  name: Core AccessGroup DirectDebitRunConfiguration API
+  slug: open-amcs-group-directdebitrunconfiguration-api
+- collection_type: open
+  name: Core AccessGroup Disbursements API
+  slug: open-amcs-group-disbursements-api
+- collection_type: open
+  name: Core AccessGroup DocumentDeliveryType API
+  slug: open-amcs-group-documentdeliverytype-api
+- collection_type: open
+  name: Core AccessGroup Driver API
+  slug: open-amcs-group-driver-api
+- collection_type: open
+  name: Core AccessGroup EmbeddedBIConfiguration API
+  slug: open-amcs-group-embeddedbiconfiguration-api
+- collection_type: open
+  name: Core AccessGroup EventImage API
+  slug: open-amcs-group-eventimage-api
+- collection_type: open
+  name: Core AccessGroup EwcCode API
+  slug: open-amcs-group-ewccode-api
+- collection_type: open
+  name: Core AccessGroup ExclusionType API
+  slug: open-amcs-group-exclusiontype-api
+- collection_type: open
+  name: Core AccessGroup ExternalReferenceType API
+  slug: open-amcs-group-externalreferencetype-api
+- collection_type: open
+  name: Core AccessGroup ExternalTransaction API
+  slug: open-amcs-group-externaltransaction-api
+- collection_type: open
+  name: Core AccessGroup ExternalVehicle API
+  slug: open-amcs-group-externalvehicle-api
+- collection_type: open
+  name: Core AccessGroup FacilityType API
+  slug: open-amcs-group-facilitytype-api
+- collection_type: open
+  name: Core AccessGroup GLBatch API
+  slug: open-amcs-group-glbatch-api
+- collection_type: open
+  name: Core AccessGroup GLExport API
+  slug: open-amcs-group-glexport-api
+- collection_type: open
+  name: Core AccessGroup GLJournal API
+  slug: open-amcs-group-gljournal-api
+- collection_type: open
+  name: Core AccessGroup GlossaryBrowser API
+  slug: open-amcs-group-glossarybrowser-api
+- collection_type: open
+  name: Core AccessGroup GlossaryEditor API
+  slug: open-amcs-group-glossaryeditor-api
+- collection_type: open
+  name: Core AccessGroup GlossaryLanguage API
+  slug: open-amcs-group-glossarylanguage-api
+- collection_type: open
+  name: Core AccessGroup GpsMatchingSource API
+  slug: open-amcs-group-gpsmatchingsource-api
+- collection_type: open
+  name: Core AccessGroup HealthAndSafetyDocumentType API
+  slug: open-amcs-group-healthandsafetydocumenttype-api
+- collection_type: open
+  name: Core AccessGroup InspectionType API
+  slug: open-amcs-group-inspectiontype-api
+- collection_type: open
+  name: Core AccessGroup Instance API
+  slug: open-amcs-group-instance-api
+- collection_type: open
+  name: Core AccessGroup InstanceBrowser API
+  slug: open-amcs-group-instancebrowser-api
+- collection_type: open
+  name: Core AccessGroup IntegratedHeader API
+  slug: open-amcs-group-integratedheader-api
+- collection_type: open
+  name: Core AccessGroup InventoryProductionShift API
+  slug: open-amcs-group-inventoryproductionshift-api
+- collection_type: open
+  name: Core AccessGroup InventoryProductionShiftMaterialIn API
+  slug: open-amcs-group-inventoryproductionshiftmaterialin-api
+- collection_type: open
+  name: Core AccessGroup InventoryProductionShiftMaterialOut API
+  slug: open-amcs-group-inventoryproductionshiftmaterialout-api
+- collection_type: open
+  name: Core AccessGroup Invoice API
+  slug: open-amcs-group-invoice-api
+- collection_type: open
+  name: Core AccessGroup InvoiceCycle API
+  slug: open-amcs-group-invoicecycle-api
+- collection_type: open
+  name: Core AccessGroup InvoiceFrequency API
+  slug: open-amcs-group-invoicefrequency-api
+- collection_type: open
+  name: Core AccessGroup Job API
+  slug: open-amcs-group-job-api
+- collection_type: open
+  name: Core AccessGroup JobCancel API
+  slug: open-amcs-group-jobcancel-api
+- collection_type: open
+  name: Core AccessGroup JobHandler API
+  slug: open-amcs-group-jobhandler-api
+- collection_type: open
+  name: Core AccessGroup JobLog API
+  slug: open-amcs-group-joblog-api
+- collection_type: open
+  name: Core AccessGroup JobMaterials API
+  slug: open-amcs-group-jobmaterials-api
+- collection_type: open
+  name: Core AccessGroup JobPost API
+  slug: open-amcs-group-jobpost-api
+- collection_type: open
+  name: Core AccessGroup LanguageEditor API
+  slug: open-amcs-group-languageeditor-api
+- collection_type: open
+  name: Core AccessGroup LanguageLookup API
+  slug: open-amcs-group-languagelookup-api
+- collection_type: open
+  name: Core AccessGroup LatePaymentFeeType API
+  slug: open-amcs-group-latepaymentfeetype-api
+- collection_type: open
+  name: Core AccessGroup LiftEvent API
+  slug: open-amcs-group-liftevent-api
+- collection_type: open
+  name: Core AccessGroup LocalAuthority API
+  slug: open-amcs-group-localauthority-api
+- collection_type: open
+  name: Core AccessGroup Locale API
+  slug: open-amcs-group-locale-api
+- collection_type: open
+  name: Core AccessGroup Location API
+  slug: open-amcs-group-location-api
+- collection_type: open
+  name: Core AccessGroup LocationData API
+  slug: open-amcs-group-locationdata-api
+- collection_type: open
+  name: Core AccessGroup LocationDataSave API
+  slug: open-amcs-group-locationdatasave-api
+- collection_type: open
+  name: Core AccessGroup Lodgement API
+  slug: open-amcs-group-lodgement-api
+- collection_type: open
+  name: Core AccessGroup LodgementType API
+  slug: open-amcs-group-lodgementtype-api
+- collection_type: open
+  name: Core AccessGroup Market API
+  slug: open-amcs-group-market-api
+- collection_type: open
+  name: Core AccessGroup MasterAccount API
+  slug: open-amcs-group-masteraccount-api
+- collection_type: open
+  name: Core AccessGroup Material API
+  slug: open-amcs-group-material-api
+- collection_type: open
+  name: Core AccessGroup MaterialClass API
+  slug: open-amcs-group-materialclass-api
+- collection_type: open
+  name: Core AccessGroup MaterialClassGroup API
+  slug: open-amcs-group-materialclassgroup-api
+- collection_type: open
+  name: Core AccessGroup MaterialFinishedState API
+  slug: open-amcs-group-materialfinishedstate-api
+- collection_type: open
+  name: Core AccessGroup MaterialProducerType API
+  slug: open-amcs-group-materialproducertype-api
+- collection_type: open
+  name: Core AccessGroup MaterialState API
+  slug: open-amcs-group-materialstate-api
+- collection_type: open
+  name: Core AccessGroup MobileSettingsProfileList API
+  slug: open-amcs-group-mobilesettingsprofilelist-api
+- collection_type: open
+  name: Core AccessGroup Mobills IVR API
+  slug: open-amcs-group-mobills-ivr-api
+- collection_type: open
+  name: Core AccessGroup MomentTimeZoneDatabase API
+  slug: open-amcs-group-momenttimezonedatabase-api
+- collection_type: open
+  name: Core AccessGroup MunicipalAccountBuildingType API
+  slug: open-amcs-group-municipalaccountbuildingtype-api
+- collection_type: open
+  name: Core AccessGroup MunicipalAccountCalendarEvent API
+  slug: open-amcs-group-municipalaccountcalendarevent-api
+- collection_type: open
+  name: Core AccessGroup MunicipalAccountChangeBatch API
+  slug: open-amcs-group-municipalaccountchangebatch-api
+- collection_type: open
+  name: Core AccessGroup MunicipalAccountServicePackage API
+  slug: open-amcs-group-municipalaccountservicepackage-api
+- collection_type: open
+  name: Core AccessGroup MunicipalAccountState API
+  slug: open-amcs-group-municipalaccountstate-api
+- collection_type: open
+  name: Core AccessGroup MunicipalEventDetail API
+  slug: open-amcs-group-municipaleventdetail-api
+- collection_type: open
+  name: Core AccessGroup MunicipalFunctionalId API
+  slug: open-amcs-group-municipalfunctionalid-api
+- collection_type: open
+  name: Core AccessGroup Notification API
+  slug: open-amcs-group-notification-api
+- collection_type: open
+  name: Core AccessGroup OneOffAction API
+  slug: open-amcs-group-oneoffaction-api
+- collection_type: open
+  name: Core AccessGroup Order API
+  slug: open-amcs-group-order-api
+- collection_type: open
+  name: Core AccessGroup OrderCombinationGrouping API
+  slug: open-amcs-group-ordercombinationgrouping-api
+- collection_type: open
+  name: Core AccessGroup Outlet API
+  slug: open-amcs-group-outlet-api
+- collection_type: open
+  name: Core AccessGroup OutletType API
+  slug: open-amcs-group-outlettype-api
+- collection_type: open
+  name: Core AccessGroup OverfilledContainerEvent API
+  slug: open-amcs-group-overfilledcontainerevent-api
+- collection_type: open
+  name: Core AccessGroup ParcelBoundary API
+  slug: open-amcs-group-parcelboundary-api
+- collection_type: open
+  name: Core AccessGroup Payment API
+  slug: open-amcs-group-payment-api
+- collection_type: open
+  name: Core AccessGroup PaymentHandlingCode API
+  slug: open-amcs-group-paymenthandlingcode-api
+- collection_type: open
+  name: Core AccessGroup PaymentPoint API
+  slug: open-amcs-group-paymentpoint-api
+- collection_type: open
+  name: Core AccessGroup PaymentTerm API
+  slug: open-amcs-group-paymentterm-api
+- collection_type: open
+  name: Core AccessGroup PaymentType API
+  slug: open-amcs-group-paymenttype-api
+- collection_type: open
+  name: Core AccessGroup PickupInterval API
+  slug: open-amcs-group-pickupinterval-api
+- collection_type: open
+  name: Core AccessGroup Picture API
+  slug: open-amcs-group-picture-api
+- collection_type: open
+  name: Core AccessGroup Plugin API
+  slug: open-amcs-group-plugin-api
+- collection_type: open
+  name: Core AccessGroup PluginConfiguration API
+  slug: open-amcs-group-pluginconfiguration-api
+- collection_type: open
+  name: Core AccessGroup PluginInstall API
+  slug: open-amcs-group-plugininstall-api
+- collection_type: open
+  name: Core AccessGroup PluginMetadata API
+  slug: open-amcs-group-pluginmetadata-api
+- collection_type: open
+  name: Core AccessGroup PluginMetadataExchange API
+  slug: open-amcs-group-pluginmetadataexchange-api
+- collection_type: open
+  name: Core AccessGroup PluginMetadataRegistry API
+  slug: open-amcs-group-pluginmetadataregistry-api
+- collection_type: open
+  name: Core AccessGroup PluginWebHook API
+  slug: open-amcs-group-pluginwebhook-api
+- collection_type: open
+  name: Core AccessGroup PostTown API
+  slug: open-amcs-group-posttown-api
+- collection_type: open
+  name: Core AccessGroup PriceModifier API
+  slug: open-amcs-group-pricemodifier-api
+- collection_type: open
+  name: Core AccessGroup PricingBasis API
+  slug: open-amcs-group-pricingbasis-api
+- collection_type: open
+  name: Core AccessGroup Priority API
+  slug: open-amcs-group-priority-api
+- collection_type: open
+  name: Core AccessGroup Provider API
+  slug: open-amcs-group-provider-api
+- collection_type: open
+  name: Core AccessGroup PurchaseOrderAmountType API
+  slug: open-amcs-group-purchaseorderamounttype-api
+- collection_type: open
+  name: Core AccessGroup PurchaseOrderNumberChain API
+  slug: open-amcs-group-purchaseordernumberchain-api
+- collection_type: open
+  name: Core AccessGroup Reason API
+  slug: open-amcs-group-reason-api
+- collection_type: open
+  name: Core AccessGroup ReasonCategory API
+  slug: open-amcs-group-reasoncategory-api
+- collection_type: open
+  name: Core AccessGroup RecyclingCentreServiceStatus API
+  slug: open-amcs-group-recyclingcentreservicestatus-api
+- collection_type: open
+  name: Core AccessGroup Region API
+  slug: open-amcs-group-region-api
+- collection_type: open
+  name: Core AccessGroup RegionCode API
+  slug: open-amcs-group-regioncode-api
+- collection_type: open
+  name: Core AccessGroup ReminderLetterPolicy API
+  slug: open-amcs-group-reminderletterpolicy-api
+- collection_type: open
+  name: Core AccessGroup RentalQuantityAttribute API
+  slug: open-amcs-group-rentalquantityattribute-api
+- collection_type: open
+  name: Core AccessGroup RentTerm API
+  slug: open-amcs-group-rentterm-api
+- collection_type: open
+  name: Core AccessGroup ReverseProxyRule API
+  slug: open-amcs-group-reverseproxyrule-api
+- collection_type: open
+  name: Core AccessGroup Route API
+  slug: open-amcs-group-route-api
+- collection_type: open
+  name: Core AccessGroup RouteAssignment API
+  slug: open-amcs-group-routeassignment-api
+- collection_type: open
+  name: Core AccessGroup RouteBuildScheduleLog API
+  slug: open-amcs-group-routebuildschedulelog-api
+- collection_type: open
+  name: Core AccessGroup RouteManagementType API
+  slug: open-amcs-group-routemanagementtype-api
+- collection_type: open
+  name: Core AccessGroup RouteTemplate API
+  slug: open-amcs-group-routetemplate-api
+- collection_type: open
+  name: Core AccessGroup RouteTemplateAssignment API
+  slug: open-amcs-group-routetemplateassignment-api
+- collection_type: open
+  name: Core AccessGroup RouteVisit API
+  slug: open-amcs-group-routevisit-api
+- collection_type: open
+  name: Core AccessGroup RouteVisitJob API
+  slug: open-amcs-group-routevisitjob-api
+- collection_type: open
+  name: Core AccessGroup RouteVisitPrice API
+  slug: open-amcs-group-routevisitprice-api
+- collection_type: open
+  name: Core AccessGroup SaveLocation API
+  slug: open-amcs-group-savelocation-api
+- collection_type: open
+  name: Core AccessGroup Schedule API
+  slug: open-amcs-group-schedule-api
+- collection_type: open
+  name: Core AccessGroup ScheduledJob API
+  slug: open-amcs-group-scheduledjob-api
+- collection_type: open
+  name: Core AccessGroup Service API
+  slug: open-amcs-group-service-api
+- collection_type: open
+  name: Core AccessGroup ServiceAgreement API
+  slug: open-amcs-group-serviceagreement-api
+- collection_type: open
+  name: Core AccessGroup ServiceCategory API
+  slug: open-amcs-group-servicecategory-api
+- collection_type: open
+  name: Core AccessGroup ServiceFrequency API
+  slug: open-amcs-group-servicefrequency-api
+- collection_type: open
+  name: Core AccessGroup SharedContainer API
+  slug: open-amcs-group-sharedcontainer-api
+- collection_type: open
+  name: Core AccessGroup SharedContainerHistory API
+  slug: open-amcs-group-sharedcontainerhistory-api
+- collection_type: open
+  name: Core AccessGroup SicCode API
+  slug: open-amcs-group-siccode-api
+- collection_type: open
+  name: Core AccessGroup Site API
+  slug: open-amcs-group-site-api
+- collection_type: open
+  name: Core AccessGroup SiteOrderItemState API
+  slug: open-amcs-group-siteorderitemstate-api
+- collection_type: open
+  name: Core AccessGroup SiteType API
+  slug: open-amcs-group-sitetype-api
+- collection_type: open
+  name: Core AccessGroup Sso API
+  slug: open-amcs-group-sso-api
+- collection_type: open
+  name: Core AccessGroup StaffType API
+  slug: open-amcs-group-stafftype-api
+- collection_type: open
+  name: Core AccessGroup Subscriber API
+  slug: open-amcs-group-subscriber-api
+- collection_type: open
+  name: Core AccessGroup Subscription API
+  slug: open-amcs-group-subscription-api
+- collection_type: open
+  name: Core AccessGroup SubscriptionType API
+  slug: open-amcs-group-subscriptiontype-api
+- collection_type: open
+  name: Core AccessGroup Supplier API
+  slug: open-amcs-group-supplier-api
+- collection_type: open
+  name: Core AccessGroup SupplierBill API
+  slug: open-amcs-group-supplierbill-api
+- collection_type: open
+  name: Core AccessGroup SupplierPayment API
+  slug: open-amcs-group-supplierpayment-api
+- collection_type: open
+  name: Core AccessGroup SupplierSite API
+  slug: open-amcs-group-suppliersite-api
+- collection_type: open
+  name: Core AccessGroup SupplierType API
+  slug: open-amcs-group-suppliertype-api
+- collection_type: open
+  name: Core AccessGroup SystemConfiguration API
+  slug: open-amcs-group-systemconfiguration-api
+- collection_type: open
+  name: Core AccessGroup TaxTemplateCollection API
+  slug: open-amcs-group-taxtemplatecollection-api
+- collection_type: open
+  name: Core AccessGroup TeamBoard API
+  slug: open-amcs-group-teamboard-api
+- collection_type: open
+  name: Core AccessGroup TempFile API
+  slug: open-amcs-group-tempfile-api
+- collection_type: open
+  name: Core AccessGroup TenantRegistration API
+  slug: open-amcs-group-tenantregistration-api
+- collection_type: open
+  name: Core AccessGroup TipLocation API
+  slug: open-amcs-group-tiplocation-api
+- collection_type: open
+  name: Core AccessGroup TradingNameType API
+  slug: open-amcs-group-tradingnametype-api
+- collection_type: open
+  name: Core AccessGroup Trailer API
+  slug: open-amcs-group-trailer-api
+- collection_type: open
+  name: Core AccessGroup TruxRoute API
+  slug: open-amcs-group-truxroute-api
+- collection_type: open
+  name: Core AccessGroup UdfWorkflowActivity API
+  slug: open-amcs-group-udfworkflowactivity-api
+- collection_type: open
+  name: Core AccessGroup UnitOfMeasure API
+  slug: open-amcs-group-unitofmeasure-api
+- collection_type: open
+  name: Core AccessGroup User API
+  slug: open-amcs-group-user-api
+- collection_type: open
+  name: Core AccessGroup UserPreference API
+  slug: open-amcs-group-userpreference-api
+- collection_type: open
+  name: Core AccessGroup ValidateVehicle API
+  slug: open-amcs-group-validatevehicle-api
+- collection_type: open
+  name: Core AccessGroup Vat API
+  slug: open-amcs-group-vat-api
+- collection_type: open
+  name: Core AccessGroup Vehicle API
+  slug: open-amcs-group-vehicle-api
+- collection_type: open
+  name: Core AccessGroup VehicleCarrierWork API
+  slug: open-amcs-group-vehiclecarrierwork-api
+- collection_type: open
+  name: Core AccessGroup VehicleEvent API
+  slug: open-amcs-group-vehicleevent-api
+- collection_type: open
+  name: Core AccessGroup VehicleEventGeoSummary API
+  slug: open-amcs-group-vehicleeventgeosummary-api
+- collection_type: open
+  name: Core AccessGroup VehicleEventType API
+  slug: open-amcs-group-vehicleeventtype-api
+- collection_type: open
+  name: Core AccessGroup VehicleTrail API
+  slug: open-amcs-group-vehicletrail-api
+- collection_type: open
+  name: Core AccessGroup VehicleType API
+  slug: open-amcs-group-vehicletype-api
+- collection_type: open
+  name: Core AccessGroup VisitStatus API
+  slug: open-amcs-group-visitstatus-api
+- collection_type: open
+  name: Core AccessGroup WebHookCallback API
+  slug: open-amcs-group-webhookcallback-api
+- collection_type: open
+  name: Core AccessGroup Weighing API
+  slug: open-amcs-group-weighing-api
+- collection_type: open
+  name: Core AccessGroup WeighingType API
+  slug: open-amcs-group-weighingtype-api
+- collection_type: open
+  name: Core AccessGroup WeightBlob API
+  slug: open-amcs-group-weightblob-api
+- collection_type: open
+  name: Core AccessGroup WeightType API
+  slug: open-amcs-group-weighttype-api
+- collection_type: open
+  name: Core AccessGroup WorkCenterIcon API
+  slug: open-amcs-group-workcentericon-api
+- collection_type: open
+  name: Core AccessGroup WorkflowActivity API
+  slug: open-amcs-group-workflowactivity-api
+- collection_type: open
+  name: Core AccessGroup WorkflowProviderWebHook API
+  slug: open-amcs-group-workflowproviderwebhook-api
+- collection_type: open
+  name: Core AccessGroup WriteOffReason API
+  slug: open-amcs-group-writeoffreason-api
+- collection_type: open
+  name: Core AccessGroup Zone API
+  slug: open-amcs-group-zone-api
 common:
 - group: other
   title: ''
@@ -935,7 +1710,7 @@ overview: 'AMCS Group publishes 257 APIs on the [APIs.io](https://apis.io/) netw
 
 
   AMCS Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
-random_paper: 62
+random_paper: 128
 score:
   band: thin
   composite: 39.5
@@ -965,7 +1740,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png
 security:

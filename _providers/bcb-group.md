@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: The Virtual Accounts API from BCB Group — 6 operation(s) for virtual accounts.
   name: BCB Group Virtual Accounts API
   slug: bcb-group-virtual-accounts-api
-artifact_total: 14
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Bcb Group Webhooks
   slug: bcb-group-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BCB Group Payments Accounts API
+  slug: open-bcb-group-accounts-api
+- collection_type: open
+  name: BCB Group Payments Accounts Authentication API
+  slug: open-bcb-group-authentication-api
+- collection_type: open
+  name: BCB Group Payments Accounts Beneficiaries API
+  slug: open-bcb-group-beneficiaries-api
+- collection_type: open
+  name: BCB Group Payments Accounts BLINC API
+  slug: open-bcb-group-blinc-api
+- collection_type: open
+  name: BCB Group Payments Accounts Notifications API
+  slug: open-bcb-group-notifications-api
+- collection_type: open
+  name: BCB Group Accounts Payments API
+  slug: open-bcb-group-payments-api
+- collection_type: open
+  name: BCB Group Payments Accounts Tools API
+  slug: open-bcb-group-tools-api
+- collection_type: open
+  name: BCB Group Payments Accounts Virtual Accounts API
+  slug: open-bcb-group-virtual-accounts-api
 common:
 - group: other
   title: ''
@@ -219,7 +247,7 @@ overview: 'BCB Group publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   BCB Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 26 more developer resources.'
-random_paper: 57
+random_paper: 3
 score:
   band: developing
   composite: 51.3
@@ -249,7 +277,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/screenshots/bcb-group-2026-07-25T202502.png
 security:

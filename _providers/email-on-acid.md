@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Standalone spam filter analysis and seed list management
   name: Email on Acid Spam Testing API
   slug: email-on-acid-spam-testing-api
-artifact_total: 20
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Email on Acid Authentication API
+  slug: open-email-on-acid-authentication-api
+- collection_type: open
+  name: Email on Acid Authentication Email Clients API
+  slug: open-email-on-acid-email-clients-api
+- collection_type: open
+  name: Email on Acid Authentication Email Testing API
+  slug: open-email-on-acid-email-testing-api
+- collection_type: open
+  name: Email on Acid Authentication Spam Testing API
+  slug: open-email-on-acid-spam-testing-api
 common:
 - group: agent
   title: ''
@@ -164,7 +180,7 @@ plans:
 - name: Email On Acid Plans Pricing
   plan_count: 3
   slug: email-on-acid-plans-pricing
-random_paper: 32
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Email On Acid Rate Limits
@@ -198,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/screenshots/email-on-acid-2026-06-20T180618.png
 security:

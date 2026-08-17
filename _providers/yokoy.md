@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 22
 apis:
 - description: Card account associated to one of Yokoy's card programs. Only active card accounts are allowed to order new cards.
@@ -97,7 +97,77 @@ apis:
 - description: Users in Yokoy reflect the fundamental roles of submitter, approver, and finance user. Mandatory user information depends on the specific organization requirements and Yokoy features enabled. Email ad
   name: Yokoy User API
   slug: yokoy-user-api
-artifact_total: 28
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yokoy Card account API
+  slug: open-yokoy-card-account-api
+- collection_type: open
+  name: Yokoy Card account Company card API
+  slug: open-yokoy-company-card-api
+- collection_type: open
+  name: Yokoy Card account Cost center API
+  slug: open-yokoy-cost-center-api
+- collection_type: open
+  name: Yokoy Card account Daily statement API
+  slug: open-yokoy-daily-statement-api
+- collection_type: open
+  name: Yokoy Card account Expense API
+  slug: open-yokoy-expense-api
+- collection_type: open
+  name: Yokoy Card account Expense category API
+  slug: open-yokoy-expense-category-api
+- collection_type: open
+  name: Yokoy Card account External invoice API
+  slug: open-yokoy-external-invoice-api
+- collection_type: open
+  name: Yokoy Card account Finance export API
+  slug: open-yokoy-finance-export-api
+- collection_type: open
+  name: Yokoy Card account FX rates API
+  slug: open-yokoy-fx-rates-api
+- collection_type: open
+  name: Yokoy Card account Goods receipt API
+  slug: open-yokoy-goods-receipt-api
+- collection_type: open
+  name: Yokoy Card account Invoice API
+  slug: open-yokoy-invoice-api
+- collection_type: open
+  name: Yokoy Card account Invoice category API
+  slug: open-yokoy-invoice-category-api
+- collection_type: open
+  name: Yokoy Card account Invoice payment terms API
+  slug: open-yokoy-invoice-payment-terms-api
+- collection_type: open
+  name: Yokoy Card account Legal entity API
+  slug: open-yokoy-legal-entity-api
+- collection_type: open
+  name: Yokoy Card account Policy API
+  slug: open-yokoy-policy-api
+- collection_type: open
+  name: Yokoy Card account Purchase order API
+  slug: open-yokoy-purchase-order-api
+- collection_type: open
+  name: Yokoy Card account Supplier API
+  slug: open-yokoy-supplier-api
+- collection_type: open
+  name: Yokoy Card account Tag API
+  slug: open-yokoy-tag-api
+- collection_type: open
+  name: Yokoy Card account Tax rates API
+  slug: open-yokoy-tax-rates-api
+- collection_type: open
+  name: Yokoy Card account Transaction API
+  slug: open-yokoy-transaction-api
+- collection_type: open
+  name: Yokoy Card account Trip API
+  slug: open-yokoy-trip-api
+- collection_type: open
+  name: Yokoy Card account User API
+  slug: open-yokoy-user-api
 common:
 - group: other
   title: ''
@@ -211,7 +281,7 @@ overview: 'Yokoy publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 91
+random_paper: 124
 scopes:
 - name: Yokoy Scopes
   scope_count: 0
@@ -245,7 +315,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

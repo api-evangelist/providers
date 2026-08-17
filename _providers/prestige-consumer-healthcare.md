@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Prestige Consumer Healthcare API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Prestige Consumer Healthcare Plans Pricing
   plan_count: 1
   slug: prestige-consumer-healthcare-plans-pricing
-random_paper: 114
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Prestige Consumer Healthcare Rate Limits
@@ -89,7 +89,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prestige-consumer-healthcare/refs/heads/main/screenshots/prestige-consumer-healthcare-2026-06-20T192052.png
 security:

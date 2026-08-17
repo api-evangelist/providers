@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,15 +57,33 @@ apis:
 - description: Labor scheduling and timesheet resources.
   name: Revel Systems Scheduling API
   slug: revel-systems-scheduling-api
-artifact_total: 86
+artifact_total: 92
 asyncapis:
 - description: 'Revel Systems delivers event notifications to partner-registered HTTPS endpoints via webhooks. Each event type is delivered by HTTP POST with a JSON body. Requests carry an HMAC-SHA1 signature in the '
   name: Revel Webhooks
   slug: revel-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Revel Open API
   slug: open-revel-open-api
+- collection_type: open
+  name: Revel Open Customers API
+  slug: open-revel-systems-customers-api
+- collection_type: open
+  name: Revel Open Customers Establishments API
+  slug: open-revel-systems-establishments-api
+- collection_type: open
+  name: Revel Open Customers Orders API
+  slug: open-revel-systems-orders-api
+- collection_type: open
+  name: Revel Open Customers Products API
+  slug: open-revel-systems-products-api
+- collection_type: open
+  name: Revel Open Customers Scheduling API
+  slug: open-revel-systems-scheduling-api
 common:
 - group: agent
   title: ''
@@ -334,7 +352,7 @@ plans:
 - name: Revel Systems Plans Pricing
   plan_count: 1
   slug: revel-systems-plans-pricing
-random_paper: 59
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Revel Systems Rate Limits
@@ -384,7 +402,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/screenshots/revel-systems-2026-06-20T193052.png
 security:

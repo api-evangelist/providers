@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -113,11 +113,26 @@ arazzos:
 - description: Find a sub-user by name and patch its traffic limit and status.
   name: Oxylabs Throttle Sub-user Traffic
   slug: oxylabs-throttle-sub-user-traffic-workflow
-artifact_total: 66
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Oxylabs Web Intelligence APIs
   slug: postman-oxylabs
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oxylabs Web Intelligence APIs Login API
+  slug: open-oxylabs-login-api
+- collection_type: open
+  name: Oxylabs Web Intelligence APIs Login Queries API
+  slug: open-oxylabs-queries-api
+- collection_type: open
+  name: Oxylabs Web Intelligence APIs Login Stats API
+  slug: open-oxylabs-stats-api
+- collection_type: open
+  name: Oxylabs Web Intelligence APIs Login Users API
+  slug: open-oxylabs-users-api
 - collection_type: open
   name: Oxylabs Web Intelligence APIs
   slug: open-oxylabs
@@ -458,7 +473,7 @@ plans:
 - name: Oxylabs Plans Pricing
   plan_count: 3
   slug: oxylabs-plans-pricing
-random_paper: 50
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Oxylabs Rate Limits
@@ -483,7 +498,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/screenshots/oxylabs-2026-06-20T191301.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API served by SKALE Chains (per-chain RPC/WSS endpoints), plus SKALE Programmable Privacy methods (bite_getDecryptedTransactionData, bite_getCommitteesInfo).
@@ -136,7 +136,7 @@ overview: 'Skale Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Skale Labs'' developer surface includes documentation, API reference, getting-started guide, support, pricing, CLI, sandbox, and 14 more developer resources.'
-random_paper: 31
+random_paper: 97
 score:
   band: thin
   composite: 29.3
@@ -160,7 +160,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

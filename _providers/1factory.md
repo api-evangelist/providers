@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Work Orders define a list of current work order primary & secondary identifiers that may be used as identifiers on Inspections & FAIs.
   name: 1Factory Work Orders API
   slug: 1factory-work-orders-api
-artifact_total: 218
+artifact_total: 226
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 1Factory Customers API
+  slug: open-1factory-customers-api
+- collection_type: open
+  name: 1Factory Customers Manufacturing API
+  slug: open-1factory-manufacturing-api
+- collection_type: open
+  name: 1Factory Customers Part Master API
+  slug: open-1factory-part-master-api
+- collection_type: open
+  name: 1Factory Customers QMS API
+  slug: open-1factory-qms-api
+- collection_type: open
+  name: 1Factory Customers Receiving API
+  slug: open-1factory-receiving-api
+- collection_type: open
+  name: 1Factory Customers Suppliers API
+  slug: open-1factory-suppliers-api
+- collection_type: open
+  name: 1Factory Customers Work Orders API
+  slug: open-1factory-work-orders-api
 - collection_type: open
   name: 1Factory API
   slug: open-1factory
@@ -729,7 +753,7 @@ plans:
 - name: 1Factory Plans Pricing
   plan_count: 3
   slug: 1factory-plans-pricing
-random_paper: 89
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: 1Factory Rate Limits
@@ -771,7 +795,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/screenshots/1factory-2026-06-20T162434.png
 security:

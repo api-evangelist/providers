@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 26
 apis:
 - description: The bi API from Select Star — 23 operation(s) for bi.
@@ -109,7 +109,89 @@ apis:
 - description: The terms API from Select Star — 5 operation(s) for terms.
   name: Select Star terms API
   slug: select-star-terms-api
-artifact_total: 30
+artifact_total: 57
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Select Star Metadata bi API
+  slug: open-select-star-bi-api
+- collection_type: open
+  name: Select Star Metadata bi collections API
+  slug: open-select-star-collections-api
+- collection_type: open
+  name: Select Star Metadata bi columns API
+  slug: open-select-star-columns-api
+- collection_type: open
+  name: Select Star Metadata bi comments API
+  slug: open-select-star-comments-api
+- collection_type: open
+  name: Select Star Metadata bi custom-attribute-values API
+  slug: open-select-star-custom-attribute-values-api
+- collection_type: open
+  name: Select Star Metadata bi custom-attributes API
+  slug: open-select-star-custom-attributes-api
+- collection_type: open
+  name: Select Star Metadata bi custom-attributes-with-value API
+  slug: open-select-star-custom-attributes-with-value-api
+- collection_type: open
+  name: Select Star Metadata bi data-metrics API
+  slug: open-select-star-data-metrics-api
+- collection_type: open
+  name: Select Star Metadata bi data-sources API
+  slug: open-select-star-data-sources-api
+- collection_type: open
+  name: Select Star Metadata bi databases API
+  slug: open-select-star-databases-api
+- collection_type: open
+  name: Select Star Metadata bi dbt API
+  slug: open-select-star-dbt-api
+- collection_type: open
+  name: Select Star Metadata bi documents API
+  slug: open-select-star-documents-api
+- collection_type: open
+  name: Select Star Metadata bi ingestion API
+  slug: open-select-star-ingestion-api
+- collection_type: open
+  name: Select Star Metadata bi jobs API
+  slug: open-select-star-jobs-api
+- collection_type: open
+  name: Select Star Metadata bi joins API
+  slug: open-select-star-joins-api
+- collection_type: open
+  name: Select Star Metadata bi lineage API
+  slug: open-select-star-lineage-api
+- collection_type: open
+  name: Select Star bi metadata API
+  slug: open-select-star-metadata-api
+- collection_type: open
+  name: Select Star Metadata bi metrics API
+  slug: open-select-star-metrics-api
+- collection_type: open
+  name: Select Star Metadata bi pii API
+  slug: open-select-star-pii-api
+- collection_type: open
+  name: Select Star Metadata bi schemas API
+  slug: open-select-star-schemas-api
+- collection_type: open
+  name: Select Star Metadata bi scim API
+  slug: open-select-star-scim-api
+- collection_type: open
+  name: Select Star Metadata bi search API
+  slug: open-select-star-search-api
+- collection_type: open
+  name: Select Star Metadata bi tables API
+  slug: open-select-star-tables-api
+- collection_type: open
+  name: Select Star Metadata bi tags API
+  slug: open-select-star-tags-api
+- collection_type: open
+  name: Select Star Metadata bi teams API
+  slug: open-select-star-teams-api
+- collection_type: open
+  name: Select Star Metadata bi terms API
+  slug: open-select-star-terms-api
 common:
 - group: auth
   title: ''
@@ -239,7 +321,7 @@ overview: 'Select Star publishes 26 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Select Star''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 47
+random_paper: 84
 score:
   band: developing
   composite: 49.5
@@ -262,7 +344,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

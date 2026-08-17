@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 4
@@ -231,7 +231,203 @@ apis:
 - description: The Users API from Flowable — 20 operation(s) for users.
   name: Flowable Users API
   slug: flowable-users-api
-artifact_total: 85
+artifact_total: 150
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flowable REST Access Tokens API
+  slug: open-flowable-access-tokens-api
+- collection_type: open
+  name: Flowable REST Access Tokens Accounts API
+  slug: open-flowable-accounts-api
+- collection_type: open
+  name: Flowable REST Access Tokens Acquire and Execute API
+  slug: open-flowable-acquire-and-execute-api
+- collection_type: open
+  name: Flowable REST Access Tokens Batch parts API
+  slug: open-flowable-batch-parts-api
+- collection_type: open
+  name: Flowable REST Access Tokens Batches API
+  slug: open-flowable-batches-api
+- collection_type: open
+  name: Flowable REST Access Tokens Case Definitions API
+  slug: open-flowable-case-definitions-api
+- collection_type: open
+  name: Flowable REST Access Tokens Case Instance Identity Links API
+  slug: open-flowable-case-instance-identity-links-api
+- collection_type: open
+  name: Flowable REST Access Tokens Case Instance Variables API
+  slug: open-flowable-case-instance-variables-api
+- collection_type: open
+  name: Flowable REST Access Tokens Case Instances API
+  slug: open-flowable-case-instances-api
+- collection_type: open
+  name: Flowable REST Access Tokens Cmmn Engine API
+  slug: open-flowable-cmmn-engine-api
+- collection_type: open
+  name: Flowable REST Access Tokens Contact Filters API
+  slug: open-flowable-contact-filters-api
+- collection_type: open
+  name: Flowable REST Access Tokens Content item API
+  slug: open-flowable-content-item-api
+- collection_type: open
+  name: Flowable REST Access Tokens Content item metadata API
+  slug: open-flowable-content-item-metadata-api
+- collection_type: open
+  name: Flowable REST Access Tokens Current User API
+  slug: open-flowable-current-user-api
+- collection_type: open
+  name: Flowable REST Access Tokens Database tables API
+  slug: open-flowable-database-tables-api
+- collection_type: open
+  name: Flowable REST Access Tokens Decision Tables API
+  slug: open-flowable-decision-tables-api
+- collection_type: open
+  name: Flowable REST Access Tokens Decisions API
+  slug: open-flowable-decisions-api
+- collection_type: open
+  name: Flowable REST Access Tokens Deployment API
+  slug: open-flowable-deployment-api
+- collection_type: open
+  name: Flowable REST Access Tokens DMN Decision Service API
+  slug: open-flowable-dmn-decision-service-api
+- collection_type: open
+  name: Flowable REST Access Tokens DMN Rule Service API
+  slug: open-flowable-dmn-rule-service-api
+- collection_type: open
+  name: Flowable REST Access Tokens Document Definitions API
+  slug: open-flowable-document-definitions-api
+- collection_type: open
+  name: Flowable REST Access Tokens Engine API
+  slug: open-flowable-engine-api
+- collection_type: open
+  name: Flowable REST Access Tokens EngineProperties API
+  slug: open-flowable-engineproperties-api
+- collection_type: open
+  name: Flowable REST Access Tokens Event subscriptions API
+  slug: open-flowable-event-subscriptions-api
+- collection_type: open
+  name: Flowable REST Access Tokens Executions API
+  slug: open-flowable-executions-api
+- collection_type: open
+  name: Flowable REST Access Tokens Form Definitions API
+  slug: open-flowable-form-definitions-api
+- collection_type: open
+  name: Flowable REST Access Tokens Form Deployments API
+  slug: open-flowable-form-deployments-api
+- collection_type: open
+  name: Flowable REST Access Tokens Form Instance Models API
+  slug: open-flowable-form-instance-models-api
+- collection_type: open
+  name: Flowable REST Access Tokens Form Instances API
+  slug: open-flowable-form-instances-api
+- collection_type: open
+  name: Flowable REST Access Tokens Form Models API
+  slug: open-flowable-form-models-api
+- collection_type: open
+  name: Flowable REST Access Tokens Forms API
+  slug: open-flowable-forms-api
+- collection_type: open
+  name: Flowable REST Access Tokens Groups API
+  slug: open-flowable-groups-api
+- collection_type: open
+  name: Flowable REST Access Tokens Historic Decision Executions API
+  slug: open-flowable-historic-decision-executions-api
+- collection_type: open
+  name: Flowable REST Access Tokens History API
+  slug: open-flowable-history-api
+- collection_type: open
+  name: Flowable REST Access Tokens History Case API
+  slug: open-flowable-history-case-api
+- collection_type: open
+  name: Flowable REST Access Tokens History Milestone API
+  slug: open-flowable-history-milestone-api
+- collection_type: open
+  name: Flowable REST Access Tokens History PlanItem API
+  slug: open-flowable-history-planitem-api
+- collection_type: open
+  name: Flowable REST Access Tokens History Process API
+  slug: open-flowable-history-process-api
+- collection_type: open
+  name: Flowable REST Access Tokens History Task API
+  slug: open-flowable-history-task-api
+- collection_type: open
+  name: Flowable REST Access Tokens Info and Query API
+  slug: open-flowable-info-and-query-api
+- collection_type: open
+  name: Flowable REST Access Tokens Jobs API
+  slug: open-flowable-jobs-api
+- collection_type: open
+  name: Flowable REST Access Tokens Manage History Case Instances API
+  slug: open-flowable-manage-history-case-instances-api
+- collection_type: open
+  name: Flowable REST Access Tokens Manage History Process Instances API
+  slug: open-flowable-manage-history-process-instances-api
+- collection_type: open
+  name: Flowable REST Access Tokens Models API
+  slug: open-flowable-models-api
+- collection_type: open
+  name: Flowable REST Access Tokens Plan Item Instance Variables API
+  slug: open-flowable-plan-item-instance-variables-api
+- collection_type: open
+  name: Flowable REST Access Tokens Plan Item Instances API
+  slug: open-flowable-plan-item-instances-api
+- collection_type: open
+  name: Flowable REST Access Tokens Privileges API
+  slug: open-flowable-privileges-api
+- collection_type: open
+  name: Flowable REST Access Tokens Process Definitions API
+  slug: open-flowable-process-definitions-api
+- collection_type: open
+  name: Flowable REST Access Tokens Process Instance Identity Links API
+  slug: open-flowable-process-instance-identity-links-api
+- collection_type: open
+  name: Flowable REST Access Tokens Process Instance Variables API
+  slug: open-flowable-process-instance-variables-api
+- collection_type: open
+  name: Flowable REST Access Tokens Process Instances API
+  slug: open-flowable-process-instances-api
+- collection_type: open
+  name: Flowable REST Access Tokens Query API
+  slug: open-flowable-query-api
+- collection_type: open
+  name: Flowable REST Access Tokens Rendition item API
+  slug: open-flowable-rendition-item-api
+- collection_type: open
+  name: Flowable REST Access Tokens Runtime API
+  slug: open-flowable-runtime-api
+- collection_type: open
+  name: Flowable REST Access Tokens Task Attachments API
+  slug: open-flowable-task-attachments-api
+- collection_type: open
+  name: Flowable REST Access Tokens Task Comments API
+  slug: open-flowable-task-comments-api
+- collection_type: open
+  name: Flowable REST Access Tokens Task Identity Links API
+  slug: open-flowable-task-identity-links-api
+- collection_type: open
+  name: Flowable REST Access Tokens Task Variables API
+  slug: open-flowable-task-variables-api
+- collection_type: open
+  name: Flowable REST Access Tokens Tasks API
+  slug: open-flowable-tasks-api
+- collection_type: open
+  name: Flowable REST Access Tokens Tenants API
+  slug: open-flowable-tenants-api
+- collection_type: open
+  name: Flowable REST Access Tokens Unacquire API
+  slug: open-flowable-unacquire-api
+- collection_type: open
+  name: Flowable REST Access Tokens User Admin API
+  slug: open-flowable-user-admin-api
+- collection_type: open
+  name: Flowable REST Access Tokens User Definitions API
+  slug: open-flowable-user-definitions-api
+- collection_type: open
+  name: Flowable REST Access Tokens Users API
+  slug: open-flowable-users-api
 common:
 - group: operate
   title: ''
@@ -391,7 +587,7 @@ plans:
 - name: Flowable Plans Pricing
   plan_count: 3
   slug: flowable-plans-pricing
-random_paper: 4
+random_paper: 99
 rate_limits:
 - limit_count: 0
   name: Flowable Rate Limits
@@ -425,7 +621,7 @@ score:
       marker_coverage: 0.0
       total: 64
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/screenshots/flowable-2026-06-20T181326.png
 security:

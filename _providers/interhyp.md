@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: provides endpoints to access to commands sent to the submission API
@@ -55,7 +55,35 @@ apis:
 - description: provides endpoints for submission resources associated with a specific financing partner
   name: Interhyp submissions API
   slug: interhyp-submissions-api
-artifact_total: 11
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Interhyp Submission commands API
+  slug: open-interhyp-commands-api
+- collection_type: open
+  name: Interhyp Submission commands documents API
+  slug: open-interhyp-documents-api
+- collection_type: open
+  name: Interhyp Submission commands financing-application API
+  slug: open-interhyp-financing-application-api
+- collection_type: open
+  name: Interhyp Submission commands info API
+  slug: open-interhyp-info-api
+- collection_type: open
+  name: Interhyp Submission commands logbook API
+  slug: open-interhyp-logbook-api
+- collection_type: open
+  name: Interhyp Submission commands pre-submission-checks API
+  slug: open-interhyp-pre-submission-checks-api
+- collection_type: open
+  name: Interhyp Submission commands protocol API
+  slug: open-interhyp-protocol-api
+- collection_type: open
+  name: Interhyp Submission commands submissions API
+  slug: open-interhyp-submissions-api
 common:
 - group: other
   title: ''
@@ -169,7 +197,7 @@ overview: 'Interhyp publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Interhyp''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 43
+random_paper: 138
 score:
   band: developing
   composite: 44.1
@@ -198,7 +226,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/screenshots/interhyp-2026-07-25T222702.png
 security:

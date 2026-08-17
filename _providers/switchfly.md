@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Describes authentication required (`client_credentials` OAuth 2) and refund requests performed by Switchfly application to 3rd party service to cancel redemption components.
@@ -40,7 +40,20 @@ apis:
 - description: Information about requests performed by Switchfly system to 3rd party service to fetch Loyalty profile data and redeem points from the customer account.
   name: Switchfly Shopping Flow API
   slug: switchfly-shopping-flow-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Switchfly Loyalty Machine to Machine (OAuth2 & Refund) Machine to Machine (OAuth2 & Refund) Machine to Machine (OAuth2 & Refund) API
+  slug: open-switchfly-machine-to-machine-oauth2-refund-api
+- collection_type: open
+  name: Switchfly Loyalty Machine to Machine (OAuth2 & Refund) Machine to Machine (OAuth2 & Refund) OAuth 2 - SSO Authorize API
+  slug: open-switchfly-oauth-2-sso-authorize-api
+- collection_type: open
+  name: Switchfly Loyalty Machine to Machine (OAuth2 & Refund) Machine to Machine (OAuth2 & Refund) Shopping Flow API
+  slug: open-switchfly-shopping-flow-api
 common:
 - group: agent
   title: ''
@@ -134,7 +147,7 @@ overview: 'Switchfly publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Switchfly''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 29
+random_paper: 95
 score:
   band: thin
   composite: 38.0
@@ -157,7 +170,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

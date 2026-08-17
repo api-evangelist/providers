@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: The Projects API from MongoDB Atlas — 2 operation(s) for projects.
   name: MongoDB Atlas Projects API
   slug: mongodb-atlas-projects-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MongoDB Atlas Administration Clusters API
+  slug: open-mongodb-atlas-clusters-api
+- collection_type: open
+  name: MongoDB Atlas Administration Clusters Database Users API
+  slug: open-mongodb-atlas-database-users-api
+- collection_type: open
+  name: MongoDB Atlas Administration Clusters Organizations API
+  slug: open-mongodb-atlas-organizations-api
+- collection_type: open
+  name: MongoDB Atlas Administration Clusters Projects API
+  slug: open-mongodb-atlas-projects-api
 - collection_type: open
   name: MongoDB Atlas Administration API
   slug: open-mongodb-atlas
@@ -116,7 +131,7 @@ overview: 'MongoDB Atlas publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   MongoDB Atlas'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 0
+random_paper: 128
 score:
   band: thin
   composite: 34.1
@@ -137,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/screenshots/mongodb-atlas-2026-06-20T185729.png
 security:

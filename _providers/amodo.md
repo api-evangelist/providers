@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Amodo
 nav: Providers
 network: true
 overview: Amodo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Telematics, and Usage-Based Insurance.
-random_paper: 48
+random_paper: 81
 score:
   band: minimal
   composite: 5.6
@@ -72,7 +72,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amodo/refs/heads/main/screenshots/amodo-2026-07-25T200109.png
 security:

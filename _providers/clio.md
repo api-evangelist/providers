@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 4
@@ -292,8 +292,260 @@ apis:
 - description: Webhooks are a way of detecting events in Clio without the need for polling. A webhook can be subscribed to a number of `events` on a model. Some events will be different depending on the chosen model
   name: Clio Webhooks API
   slug: clio-webhooks-api
-artifact_total: 93
+artifact_total: 177
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clio API Documentation Activities API
+  slug: open-clio-activities-api
+- collection_type: open
+  name: Clio API Documentation Activities Activity Descriptions API
+  slug: open-clio-activity-descriptions-api
+- collection_type: open
+  name: Clio API Documentation Activities Activity Rates API
+  slug: open-clio-activity-rates-api
+- collection_type: open
+  name: Clio API Documentation Activities Allocations API
+  slug: open-clio-allocations-api
+- collection_type: open
+  name: Clio API Documentation Activities Bank Accounts API
+  slug: open-clio-bank-accounts-api
+- collection_type: open
+  name: Clio API Documentation Activities Bank Transactions API
+  slug: open-clio-bank-transactions-api
+- collection_type: open
+  name: Clio API Documentation Activities Bank Transfers API
+  slug: open-clio-bank-transfers-api
+- collection_type: open
+  name: Clio API Documentation Activities Bill Themes API
+  slug: open-clio-bill-themes-api
+- collection_type: open
+  name: Clio API Documentation Activities Billable Clients API
+  slug: open-clio-billable-clients-api
+- collection_type: open
+  name: Clio API Documentation Activities Billable Matters API
+  slug: open-clio-billable-matters-api
+- collection_type: open
+  name: Clio API Documentation Activities Billing Settings API
+  slug: open-clio-billing-settings-api
+- collection_type: open
+  name: Clio API Documentation Activities Bills API
+  slug: open-clio-bills-api
+- collection_type: open
+  name: Clio API Documentation Activities Calendar Entries API
+  slug: open-clio-calendar-entries-api
+- collection_type: open
+  name: Clio API Documentation Activities Calendar Entry Event Types API
+  slug: open-clio-calendar-entry-event-types-api
+- collection_type: open
+  name: Clio API Documentation Activities Calendar Visibilities API
+  slug: open-clio-calendar-visibilities-api
+- collection_type: open
+  name: Clio API Documentation Activities Calendars API
+  slug: open-clio-calendars-api
+- collection_type: open
+  name: Clio API Documentation Activities Civil Certificated Rates API
+  slug: open-clio-civil-certificated-rates-api
+- collection_type: open
+  name: Clio API Documentation Activities Civil Controlled Rates API
+  slug: open-clio-civil-controlled-rates-api
+- collection_type: open
+  name: Clio API Documentation Activities Clients API
+  slug: open-clio-clients-api
+- collection_type: open
+  name: Clio API Documentation Activities Clio Payments Links API
+  slug: open-clio-clio-payments-links-api
+- collection_type: open
+  name: Clio API Documentation Activities Clio Payments Payments API
+  slug: open-clio-clio-payments-payments-api
+- collection_type: open
+  name: Clio API Documentation Activities Comments API
+  slug: open-clio-comments-api
+- collection_type: open
+  name: Clio API Documentation Activities Communications API
+  slug: open-clio-communications-api
+- collection_type: open
+  name: Clio API Documentation Activities Contacts API
+  slug: open-clio-contacts-api
+- collection_type: open
+  name: Clio API Documentation Activities Conversation Messages API
+  slug: open-clio-conversation-messages-api
+- collection_type: open
+  name: Clio API Documentation Activities Conversations API
+  slug: open-clio-conversations-api
+- collection_type: open
+  name: Clio API Documentation Activities Credit Memos API
+  slug: open-clio-credit-memos-api
+- collection_type: open
+  name: Clio API Documentation Activities Criminal Controlled Rates API
+  slug: open-clio-criminal-controlled-rates-api
+- collection_type: open
+  name: Clio API Documentation Activities Currencies API
+  slug: open-clio-currencies-api
+- collection_type: open
+  name: Clio API Documentation Activities Custom Actions API
+  slug: open-clio-custom-actions-api
+- collection_type: open
+  name: Clio API Documentation Activities Custom Field Sets API
+  slug: open-clio-custom-field-sets-api
+- collection_type: open
+  name: Clio API Documentation Activities Custom Fields API
+  slug: open-clio-custom-fields-api
+- collection_type: open
+  name: Clio API Documentation Activities Damages API
+  slug: open-clio-damages-api
+- collection_type: open
+  name: Clio API Documentation Activities Document Archives API
+  slug: open-clio-document-archives-api
+- collection_type: open
+  name: Clio API Documentation Activities Document Automations API
+  slug: open-clio-document-automations-api
+- collection_type: open
+  name: Clio API Documentation Activities Document Categories API
+  slug: open-clio-document-categories-api
+- collection_type: open
+  name: Clio API Documentation Activities Document Templates API
+  slug: open-clio-document-templates-api
+- collection_type: open
+  name: Clio API Documentation Activities Document Versions API
+  slug: open-clio-document-versions-api
+- collection_type: open
+  name: Clio API Documentation Activities Documents API
+  slug: open-clio-documents-api
+- collection_type: open
+  name: Clio API Documentation Activities Email Addresses API
+  slug: open-clio-email-addresses-api
+- collection_type: open
+  name: Clio API Documentation Activities Event Metrics API
+  slug: open-clio-event-metrics-api
+- collection_type: open
+  name: Clio API Documentation Activities Expense Categories API
+  slug: open-clio-expense-categories-api
+- collection_type: open
+  name: Clio API Documentation Activities Folders API
+  slug: open-clio-folders-api
+- collection_type: open
+  name: Clio API Documentation Activities Grant Funding Sources API
+  slug: open-clio-grant-funding-sources-api
+- collection_type: open
+  name: Clio API Documentation Activities Grants API
+  slug: open-clio-grants-api
+- collection_type: open
+  name: Clio API Documentation Activities Groups API
+  slug: open-clio-groups-api
+- collection_type: open
+  name: Clio API Documentation Activities Interest Charges API
+  slug: open-clio-interest-charges-api
+- collection_type: open
+  name: Clio API Documentation Activities Jurisdictions API
+  slug: open-clio-jurisdictions-api
+- collection_type: open
+  name: Clio API Documentation Activities Jurisdictions To Triggers API
+  slug: open-clio-jurisdictions-to-triggers-api
+- collection_type: open
+  name: Clio API Documentation Activities Line Items API
+  slug: open-clio-line-items-api
+- collection_type: open
+  name: Clio API Documentation Activities Log Entries API
+  slug: open-clio-log-entries-api
+- collection_type: open
+  name: Clio API Documentation Activities Matter Contacts API
+  slug: open-clio-matter-contacts-api
+- collection_type: open
+  name: Clio API Documentation Activities Matter Dockets API
+  slug: open-clio-matter-dockets-api
+- collection_type: open
+  name: Clio API Documentation Activities Matter Stages API
+  slug: open-clio-matter-stages-api
+- collection_type: open
+  name: Clio API Documentation Activities Matters API
+  slug: open-clio-matters-api
+- collection_type: open
+  name: Clio API Documentation Activities Medical Bills API
+  slug: open-clio-medical-bills-api
+- collection_type: open
+  name: Clio API Documentation Activities Medical Records API
+  slug: open-clio-medical-records-api
+- collection_type: open
+  name: Clio API Documentation Activities Medical Records Details API
+  slug: open-clio-medical-records-details-api
+- collection_type: open
+  name: Clio API Documentation Activities My Events API
+  slug: open-clio-my-events-api
+- collection_type: open
+  name: Clio API Documentation Activities Notes API
+  slug: open-clio-notes-api
+- collection_type: open
+  name: Clio API Documentation Activities Outstanding Client Balances API
+  slug: open-clio-outstanding-client-balances-api
+- collection_type: open
+  name: Clio API Documentation Activities Phone Numbers API
+  slug: open-clio-phone-numbers-api
+- collection_type: open
+  name: Clio API Documentation Activities Practice Areas API
+  slug: open-clio-practice-areas-api
+- collection_type: open
+  name: Clio API Documentation Activities Related Contacts API
+  slug: open-clio-related-contacts-api
+- collection_type: open
+  name: Clio API Documentation Activities Relationships API
+  slug: open-clio-relationships-api
+- collection_type: open
+  name: Clio API Documentation Activities Reminders API
+  slug: open-clio-reminders-api
+- collection_type: open
+  name: Clio API Documentation Activities Report Presets API
+  slug: open-clio-report-presets-api
+- collection_type: open
+  name: Clio API Documentation Activities Report Schedules API
+  slug: open-clio-report-schedules-api
+- collection_type: open
+  name: Clio API Documentation Activities Reports API
+  slug: open-clio-reports-api
+- collection_type: open
+  name: Clio API Documentation Activities Service Types API
+  slug: open-clio-service-types-api
+- collection_type: open
+  name: Clio API Documentation Activities Task Template Lists API
+  slug: open-clio-task-template-lists-api
+- collection_type: open
+  name: Clio API Documentation Activities Task Templates API
+  slug: open-clio-task-templates-api
+- collection_type: open
+  name: Clio API Documentation Activities Task Types API
+  slug: open-clio-task-types-api
+- collection_type: open
+  name: Clio API Documentation Activities Tasks API
+  slug: open-clio-tasks-api
+- collection_type: open
+  name: Clio API Documentation Activities Tax Rate Configurations API
+  slug: open-clio-tax-rate-configurations-api
+- collection_type: open
+  name: Clio API Documentation Activities Text Snippets API
+  slug: open-clio-text-snippets-api
+- collection_type: open
+  name: Clio API Documentation Activities Timers API
+  slug: open-clio-timers-api
+- collection_type: open
+  name: Clio API Documentation Activities Trust Line Items API
+  slug: open-clio-trust-line-items-api
+- collection_type: open
+  name: Clio API Documentation Activities Trust Requests API
+  slug: open-clio-trust-requests-api
+- collection_type: open
+  name: Clio API Documentation Activities Users API
+  slug: open-clio-users-api
+- collection_type: open
+  name: Clio API Documentation Activities Utbms Codes API
+  slug: open-clio-utbms-codes-api
+- collection_type: open
+  name: Clio API Documentation Activities Utbms Sets API
+  slug: open-clio-utbms-sets-api
+- collection_type: open
+  name: Clio API Documentation Activities Webhooks API
+  slug: open-clio-webhooks-api
 - collection_type: open
   name: Clio API Documentation
   slug: open-clio
@@ -410,7 +662,7 @@ overview: 'Clio publishes 83 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Clio''s developer surface includes documentation, pricing, signup flow, developer portal, authentication, support, engineering blog, and 15 more developer resources.'
-random_paper: 63
+random_paper: 125
 rules:
 - name: Clio API Rules
   rule_count: 10
@@ -440,7 +692,7 @@ score:
       marker_coverage: 0.0
       total: 83
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/screenshots/clio-2026-06-20T174526.png
 security:

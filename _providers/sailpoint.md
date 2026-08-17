@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Use this API to implement and customize role functionality. Roles represent the broadest level of access and group one or more access profiles. When you create a role and configure it with role criter
   name: SailPoint Roles API
   slug: sailpoint-roles-api
-artifact_total: 71
+artifact_total: 76
 collections:
 - collection_type: postman
   name: Identity Security Cloud V3 Access Profiles API
@@ -75,8 +75,23 @@ collections:
   name: Identity Security Cloud V3 Access Profiles Roles API
   slug: postman-sailpoint-roles-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Identity Security Cloud V3 API
   slug: open-identity-security-cloud-v3
+- collection_type: open
+  name: Identity Security Cloud V3 Access Profiles API
+  slug: open-sailpoint-access-profiles-api
+- collection_type: open
+  name: Identity Security Cloud V3 Access Profiles Certifications API
+  slug: open-sailpoint-certifications-api
+- collection_type: open
+  name: Identity Security Cloud V3 Access Profiles Identities API
+  slug: open-sailpoint-identities-api
+- collection_type: open
+  name: Identity Security Cloud V3 Access Profiles Roles API
+  slug: open-sailpoint-roles-api
 common:
 - group: build
   title: ''
@@ -444,7 +459,7 @@ plans:
 - name: Sailpoint Plans Pricing
   plan_count: 1
   slug: sailpoint-plans-pricing
-random_paper: 19
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: Sailpoint Rate Limits
@@ -491,7 +506,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/screenshots/sailpoint-2026-06-20T193336.png
 security:

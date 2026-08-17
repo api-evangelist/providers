@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,17 +75,56 @@ apis:
 - description: The Titles API from Library of Congress — 3 operation(s) for titles.
   name: Library of Congress Titles API
   slug: library-of-congress-titles-api
-artifact_total: 22
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Library of Congress Chronicling America Bills API
+  slug: open-library-of-congress-bills-api
 - collection_type: open
   name: Library of Congress Chronicling America API
   slug: open-library-of-congress-chronicling-america-api
 - collection_type: open
+  name: Library of Congress Chronicling America Bills Collections API
+  slug: open-library-of-congress-collections-api
+- collection_type: open
+  name: Library of Congress Chronicling America Bills Committees API
+  slug: open-library-of-congress-committees-api
+- collection_type: open
   name: Library of Congress Congress.gov API
   slug: open-library-of-congress-congress-gov-api
 - collection_type: open
+  name: Library of Congress Chronicling America Bills Congressional Record API
+  slug: open-library-of-congress-congressional-record-api
+- collection_type: open
+  name: Library of Congress Chronicling America Bills Issues API
+  slug: open-library-of-congress-issues-api
+- collection_type: open
+  name: Library of Congress Chronicling America Bills Items API
+  slug: open-library-of-congress-items-api
+- collection_type: open
+  name: Library of Congress Chronicling America Bills Laws API
+  slug: open-library-of-congress-laws-api
+- collection_type: open
   name: Library of Congress loc.gov JSON API
   slug: open-library-of-congress-loc-gov-json-api
+- collection_type: open
+  name: Library of Congress Chronicling America Bills Members API
+  slug: open-library-of-congress-members-api
+- collection_type: open
+  name: Library of Congress Chronicling America Bills Pages API
+  slug: open-library-of-congress-pages-api
+- collection_type: open
+  name: Library of Congress Chronicling America Bills Resources API
+  slug: open-library-of-congress-resources-api
+- collection_type: open
+  name: Library of Congress Chronicling America Bills Search API
+  slug: open-library-of-congress-search-api
+- collection_type: open
+  name: Library of Congress Chronicling America Bills Titles API
+  slug: open-library-of-congress-titles-api
 common:
 - group: agent
   title: ''
@@ -147,7 +186,7 @@ plans:
 - name: Library Of Congress Plans Pricing
   plan_count: 3
   slug: library-of-congress-plans-pricing
-random_paper: 8
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Library Of Congress Rate Limits
@@ -178,7 +217,7 @@ score:
     regime_id: government
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/screenshots/library-of-congress-2026-06-20T184501.png
 security:

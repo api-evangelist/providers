@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ apis:
 - description: Send and retrieve SMS, MMS, and WhatsApp messages.
   name: Plivo Message API
   slug: plivo-message-api
-artifact_total: 37
+artifact_total: 40
 asyncapis:
 - description: The Plivo Audio Streaming API delivers near real-time raw audio from active Plivo voice calls to a customer-operated WebSocket server, and (when bidirectional streaming is enabled) accepts audio and c
   name: Plivo Audio Streaming WebSocket API
@@ -123,6 +123,15 @@ collections:
 - collection_type: postman
   name: Plivo Account Message API
   slug: postman-plivo-message-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Plivo Account API
+  slug: open-plivo-account-api
+- collection_type: open
+  name: Plivo Account Message API
+  slug: open-plivo-message-api
 - collection_type: open
   name: Plivo API
   slug: open-plivo
@@ -294,7 +303,7 @@ plans:
 - name: Plivo Plans Pricing
   plan_count: 3
   slug: plivo-plans-pricing
-random_paper: 74
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Plivo Rate Limits
@@ -334,7 +343,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/screenshots/plivo-2026-06-20T191841.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -77,11 +77,44 @@ apis:
 - description: The Metrics API from Spring Boot — 3 operation(s) for metrics.
   name: Spring Boot Metrics API
   slug: spring-boot-metrics-api
-artifact_total: 30
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Spring Boot Actuator API
   slug: open-spring-boot-actuator
+- collection_type: open
+  name: Spring Boot Actuator Application API
+  slug: open-spring-boot-application-api
+- collection_type: open
+  name: Spring Boot Actuator Application Caches API
+  slug: open-spring-boot-caches-api
+- collection_type: open
+  name: Spring Boot Actuator Application Configuration API
+  slug: open-spring-boot-configuration-api
+- collection_type: open
+  name: Spring Boot Actuator Application Environment API
+  slug: open-spring-boot-environment-api
+- collection_type: open
+  name: Spring Boot Actuator Application Health API
+  slug: open-spring-boot-health-api
+- collection_type: open
+  name: Spring Boot Actuator Application Info API
+  slug: open-spring-boot-info-api
+- collection_type: open
+  name: Spring Boot Actuator Application JVM API
+  slug: open-spring-boot-jvm-api
+- collection_type: open
+  name: Spring Boot Actuator Application Lifecycle API
+  slug: open-spring-boot-lifecycle-api
+- collection_type: open
+  name: Spring Boot Actuator Application Loggers API
+  slug: open-spring-boot-loggers-api
+- collection_type: open
+  name: Spring Boot Actuator Application Metrics API
+  slug: open-spring-boot-metrics-api
 common:
 - group: commercial
   title: ''
@@ -203,7 +236,7 @@ plans:
 - name: Spring Boot Plans Pricing
   plan_count: 3
   slug: spring-boot-plans-pricing
-random_paper: 60
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Spring Boot Rate Limits
@@ -245,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/screenshots/spring-boot-2026-06-20T194406.png
 security:

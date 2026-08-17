@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: near-conformant
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
+  score: 41.7
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Vidyard Dashboard API provides full CRUD access to your Vidyard account assets including players, videos, chapters, organizations, teams, users, roles, events, campaigns, tags, webhooks, embeds, a
@@ -40,7 +40,11 @@ apis:
 - description: The Analytics Webhook API allows subscribing to and streaming video view data from Vidyard to an external application. View events are delivered as HTTP POST requests in JSON format to a configured en
   name: Vidyard Analytics Webhook API
   slug: vidyard-analytics-webhook-api
-artifact_total: 10
+artifact_total: 12
+asyncapis:
+- description: ''
+  name: Vidyard Webhooks
+  slug: vidyard-webhooks
 common:
 - group: auth
   title: ''
@@ -98,6 +102,114 @@ common:
   title: ''
   type: FinOps
   url: finops/vidyard-finops.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/vidyard-a2a.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/vidyard-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/vidyard-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/vidyard-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/vidyard-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/vidyard-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/vidyard-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/vidyard-webhooks.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/vidyard-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/vidyard-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/vidyard-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/vidyard-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/vidyard-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/vidyard-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/vidyard-components.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://vy-docs.s3.amazonaws.com/postman/VidyardAnalyticsWebhooks.postman_collection.json
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.vidyard.com/security/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.vidyard.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.vidyard.com/developers/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.vidyard.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://knowledge.vidyard.com/hc/en-us/articles/360010000133-How-to-use-the-Vidyard-Dashboard-API
+- group: operate
+  title: ''
+  type: Support
+  url: https://knowledge.vidyard.com/hc/en-us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://knowledge.vidyard.com/hc/en-us
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Vidyard
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.vidyard.com/sign-up-for-free/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.vidyard.com/legal/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.vidyard.com/privacy/
 created: '2026-06-12'
 description: Vidyard is a video platform for business that provides REST APIs for managing video libraries, generating sharing links, tracking viewer analytics, and integrating with CRM and marketing tools. The Dashboard API enables programmatic control over players, videos, chapters, organizations, teams, users, events, campaigns, webhooks, and more. The Video Agent API supports AI-powered personalized video creation workflows, and the Analytics Webhook API streams real-time viewer data to external systems.
 finops:
@@ -111,43 +223,47 @@ jsonld:
   property_count: 20
   slug: vidyard-context
 layout: provider
-modified: '2026-06-12'
+modified: '2026-08-13'
 name: Vidyard
 nav: Providers
 network: true
-overview: 'Vidyard publishes 1 API on the [APIs.io](https://apis.io/) network: Dashboard API. Tagged areas include Video, Video Platform, Video Analytics, Video Sharing, and Sales Video.
+overview: 'Vidyard publishes 1 API on the [APIs.io](https://apis.io/) network: Analytics Webhook API. Tagged areas include Video, Video Platform, Video Analytics, Video Sharing, and Sales Video.
 
 
-  The Vidyard catalog on APIs.io includes 1 JSON-LD context.
+  The Vidyard catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Vidyard''s developer surface includes documentation, GitHub presence, engineering blog, pricing, and 10 more developer resources.'
+  Vidyard''s developer surface includes documentation, GitHub presence, engineering blog, pricing, authentication, changelog, CLI, and 34 more developer resources.'
 plans:
 - name: Vidyard Plans Pricing
   plan_count: 4
   slug: vidyard-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Vidyard Rate Limits
   slug: vidyard-rate-limits
 score:
-  band: thin
-  composite: 40.5
-  delta: 0.0
+  band: exemplar
+  composite: 72.2
+  delta: 31.7
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 50.0
-    developer_ergonomics: 10.9
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 52.6
+    commercial_clarity: 100.0
+    contract_quality: 69.4
+    developer_ergonomics: 69.6
+    discoverability: 81.5
+    governance: 12.5
+    operational_transparency: 86.8
   previous_composite: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/screenshots/vidyard-2026-06-20T201023.png
 security:
+- kind: authentication
+  name: Vidyard Authentication
+  slug: vidyard-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Vidyard Domain Security
   slug: vidyard-domain-security
@@ -159,7 +275,7 @@ security:
 - kind: trust-center
   name: Vidyard Trust Center
   slug: vidyard-trust-center
-  summary_line: SOC 2, GDPR
+  summary_line: SOC 2 Type 2, GDPR, Microsoft SSPA
 slug: vidyard
 tags:
 - Video

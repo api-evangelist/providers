@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications, including routing, middleware support, and HTTP utility meth
@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: American Express Global Business Travel Unveils New ...
   url: https://www.amexglobalbusinesstravel.com/press-releases/american-express-global-business-travel-unveils-new-initiative-to-drive-ai-innovation-and-governance/
-random_paper: 58
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Express Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

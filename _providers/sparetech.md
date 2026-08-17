@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: The Schema API from Sparetech — 2 operation(s) for schema.
   name: Sparetech Schema API
   slug: sparetech-schema-api
-artifact_total: 12
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sync Authentication API
+  slug: open-sparetech-authentication-api
+- collection_type: open
+  name: Sync Authentication ChangeIntent API
+  slug: open-sparetech-changeintent-api
+- collection_type: open
+  name: Sync Authentication CreationIntent API
+  slug: open-sparetech-creationintent-api
+- collection_type: open
+  name: Sync Authentication ExtensionIntent API
+  slug: open-sparetech-extensionintent-api
+- collection_type: open
+  name: Sync Authentication Material Master Sync API
+  slug: open-sparetech-material-master-sync-api
+- collection_type: open
+  name: Sync Authentication Schema API
+  slug: open-sparetech-schema-api
 common:
 - group: company
   title: ''
@@ -190,7 +212,7 @@ overview: 'Sparetech publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sparetech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
-random_paper: 119
+random_paper: 65
 score:
   band: developing
   composite: 48.1
@@ -214,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

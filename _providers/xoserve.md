@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,20 @@ apis:
 - description: Xoserve Meter Asset from Xoserve, described in OpenAPI.
   name: Xoserve Meter Asset (Xoserve Meter Asset Api V2)
   slug: xoserve-meter-asset-api-v2-openapi
-artifact_total: 18
+artifact_total: 22
+collections:
+- collection_type: open
+  name: Meter Asset
+  slug: open-xoserve-meter-asset-api-v1
+- collection_type: open
+  name: Meter Asset
+  slug: open-xoserve-meter-asset-api-v2
+- collection_type: open
+  name: Shipper
+  slug: open-xoserve-shipper-api
+- collection_type: open
+  name: Supplier
+  slug: open-xoserve-supplier-api
 common:
 - group: auth
   title: ''
@@ -226,7 +239,7 @@ plans:
 - name: Xoserve Plans
   plan_count: 4
   slug: xoserve-plans
-random_paper: 60
+random_paper: 35
 rate_limits:
 - limit_count: 6
   name: Xoserve Rate Limits
@@ -260,7 +273,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

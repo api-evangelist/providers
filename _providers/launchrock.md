@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -89,32 +89,64 @@ common:
   url: security/launchrock-domain-security.yml
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/launchrock-well-known.yml
-- group: agent
-  title: ''
   type: LLMsTxt
   url: llms/launchrock-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/launchrock-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/launchrock-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/launchrock-rate-limits.yml
+coverage:
+  checked: '2026-08-13'
+  detail: Launchrock ships only an end-user landing-page builder; the single live machine surface on its domain is an internal Apollo GraphQL endpoint at /graphql that backs the Startups.com web app, with introspection disabled in production and no schema, reference or developer terms published anywhere.
+  evidence:
+  - status: 400
+    url: https://www.launchrock.com/graphql
+  - status: 404
+    url: https://www.launchrock.com/openapi.json
+  - status: 404
+    url: https://www.launchrock.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.launchrock.com/developers
+  - status: 404
+    url: https://api.github.com/orgs/launchrock
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Launchrock is a hosted launch-page and customer-acquisition tool for early-stage founders. It provides a drag-and-drop WYSIWYG builder for pre-launch marketing pages, email capture forms, viral referral and social-sharing mechanics, and simple survey questions, so a founder can stand up a "coming soon" site and collect a waitlist of early users before a product ships. The platform pairs the builder with an education layer of founder courses, masterclass videos and how-to guides on customer acquisition, plus a community of mentors and founders. Launchrock is operated as one product line of the Startups.com platform, alongside Fundable, Bizplan and Clarity.fm, and is bundled into the Startups Unlimited subscription; its help content is served from the Startups.com knowledge base. Vevo, HotelTonight and theCHIVE are cited as sites that launched on the platform. Launchrock was originally a 500 Global (500 Startups) portfolio company. As of this profile Launchrock publishes no public
   API, developer portal, API reference, OpenAPI description, SDKs, CLI, webhook catalog or sandbox; delivery is entirely through the hosted web application.
 image: https://s3.amazonaws.com/app-assets.startups.com/launchrock-share-default.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: LaunchRock
 nav: Providers
 network: true
 overview: 'LaunchRock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Landing Pages, Website Builder, No Code, and Customer Acquisition.
 
 
-  LaunchRock''s developer surface includes pricing, signup flow, support, and 13 more developer resources.'
-random_paper: 106
+  LaunchRock''s developer surface includes pricing, signup flow, support, and 15 more developer resources.'
+plans:
+- name: Launchrock Plans Pricing
+  plan_count: 3
+  slug: launchrock-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Launchrock Rate Limits
+  slug: launchrock-rate-limits
 score:
   band: emerging
-  composite: 15.5
-  delta: 0.0
+  composite: 21.9
+  delta: 6.4
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 4.3
     discoverability: 57.4
@@ -122,8 +154,8 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchrock/refs/heads/main/screenshots/launchrock-2026-07-25T224622.png
 security:
 - kind: domain-security

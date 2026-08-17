@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ arazzos:
 - description: Read a payment, patch its communication while it is still pending, then re-read to confirm.
   name: Fintecture Update Payment Communication
   slug: fintecture-update-payment-communication-workflow
-artifact_total: 86
+artifact_total: 106
 collections:
 - collection_type: postman
   name: Fintecture Account Information Services API
@@ -172,29 +172,89 @@ collections:
   name: Fintecture Transactions and Settlements API
   slug: postman-fintecture-transactions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fintecture Account Information Services Accounts API
+  slug: open-fintecture-accounts-api
+- collection_type: open
   name: Fintecture Account Information Services API
   slug: open-fintecture-ais-api
 - collection_type: open
-  name: Fintecture Customers API
+  name: Fintecture Account Information Services Accounts Applications API
+  slug: open-fintecture-applications-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Authentication API
+  slug: open-fintecture-authentication-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Bank Accounts API
+  slug: open-fintecture-bank-accounts-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Companies API
+  slug: open-fintecture-companies-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Customers API
   slug: open-fintecture-customers-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts E-Mandates API
+  slug: open-fintecture-e-mandates-api
 - collection_type: open
   name: Fintecture E-Mandates API
   slug: open-fintecture-emandates-api
 - collection_type: open
+  name: Fintecture Account Information Services Accounts Memberships API
+  slug: open-fintecture-memberships-api
+- collection_type: open
   name: Fintecture Organisation Access Credentials API
   slug: open-fintecture-oac-api
 - collection_type: open
-  name: Fintecture OAuth and Tokens API
+  name: Fintecture Account Information Services Accounts OAuth API
   slug: open-fintecture-oauth-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Organisation Nodes API
+  slug: open-fintecture-organisation-nodes-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Payments API
+  slug: open-fintecture-payments-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Payouts API
+  slug: open-fintecture-payouts-api
 - collection_type: open
   name: Fintecture Payment Initiation Services API
   slug: open-fintecture-pis-api
 - collection_type: open
+  name: Fintecture Account Information Services Accounts Providers API
+  slug: open-fintecture-providers-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Refunds API
+  slug: open-fintecture-refunds-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Request To Pay API
+  slug: open-fintecture-request-to-pay-api
+- collection_type: open
   name: Fintecture Resources API
   slug: open-fintecture-resources-api
 - collection_type: open
-  name: Fintecture Transactions and Settlements API
+  name: Fintecture Account Information Services Accounts Sandbox API
+  slug: open-fintecture-sandbox-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Settlements API
+  slug: open-fintecture-settlements-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Test Accounts API
+  slug: open-fintecture-test-accounts-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Transactions API
   slug: open-fintecture-transactions-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Users API
+  slug: open-fintecture-users-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Verification API
+  slug: open-fintecture-verification-api
+- collection_type: open
+  name: Fintecture Account Information Services Accounts Verifications API
+  slug: open-fintecture-verifications-api
 common:
 - group: agent
   title: ''
@@ -463,7 +523,7 @@ plans:
 - name: Fintecture Plans Pricing
   plan_count: 9
   slug: fintecture-plans-pricing
-random_paper: 1
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Fintecture Rate Limits
@@ -511,7 +571,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/screenshots/fintecture-2026-06-20T181225.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -77,8 +77,47 @@ apis:
 - description: The Tokens API from Amazon Selling Partner API — 1 operation(s) for tokens.
   name: Amazon Selling Partner API Tokens API
   slug: amazon-seller-central-tokens-api
-artifact_total: 17
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication API
+  slug: open-amazon-seller-central-authentication-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Catalog API
+  slug: open-amazon-seller-central-catalog-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Feeds API
+  slug: open-amazon-seller-central-feeds-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Finances API
+  slug: open-amazon-seller-central-finances-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Inventory API
+  slug: open-amazon-seller-central-inventory-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Listings API
+  slug: open-amazon-seller-central-listings-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Notifications API
+  slug: open-amazon-seller-central-notifications-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Orders API
+  slug: open-amazon-seller-central-orders-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Pricing API
+  slug: open-amazon-seller-central-pricing-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Reports API
+  slug: open-amazon-seller-central-reports-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Shipping API
+  slug: open-amazon-seller-central-shipping-api
+- collection_type: open
+  name: Amazon Selling Partner API (SP-API) Authentication Tokens API
+  slug: open-amazon-seller-central-tokens-api
 - collection_type: open
   name: Amazon Selling Partner API (SP-API)
   slug: open-amazon-seller-central
@@ -127,7 +166,7 @@ overview: 'Amazon Selling Partner API publishes 12 APIs on the [APIs.io](https:/
 
 
   Amazon Selling Partner API''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 88
+random_paper: 42
 score:
   band: thin
   composite: 30.6
@@ -148,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/screenshots/amazon-seller-central-2026-06-20T171817.png
 security:

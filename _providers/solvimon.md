@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 287
   human_in_the_loop: 4
@@ -230,7 +230,203 @@ apis:
 - description: The workflowTriggers API from Solvimon — 3 operation(s) for workflowtriggers.
   name: Solvimon workflowTriggers API
   slug: solvimon-workflowtriggers-api
-artifact_total: 69
+artifact_total: 134
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Configuration alertRules API
+  slug: open-solvimon-alertrules-api
+- collection_type: open
+  name: Configuration alertRules alerts API
+  slug: open-solvimon-alerts-api
+- collection_type: open
+  name: Configuration alertRules apiKeys API
+  slug: open-solvimon-apikeys-api
+- collection_type: open
+  name: Configuration alertRules approvalPolicy API
+  slug: open-solvimon-approvalpolicy-api
+- collection_type: open
+  name: Configuration alertRules approvalRequest API
+  slug: open-solvimon-approvalrequest-api
+- collection_type: open
+  name: Configuration alertRules attachments API
+  slug: open-solvimon-attachments-api
+- collection_type: open
+  name: Configuration alertRules auditRecords API
+  slug: open-solvimon-auditrecords-api
+- collection_type: open
+  name: Configuration alertRules authentication API
+  slug: open-solvimon-authentication-api
+- collection_type: open
+  name: Configuration alertRules authenticationProviders API
+  slug: open-solvimon-authenticationproviders-api
+- collection_type: open
+  name: Configuration alertRules billingEntities API
+  slug: open-solvimon-billingentities-api
+- collection_type: open
+  name: Configuration alertRules bulkActions API
+  slug: open-solvimon-bulkactions-api
+- collection_type: open
+  name: Configuration alertRules contacts API
+  slug: open-solvimon-contacts-api
+- collection_type: open
+  name: Configuration alertRules coupons API
+  slug: open-solvimon-coupons-api
+- collection_type: open
+  name: Configuration alertRules creditTypes API
+  slug: open-solvimon-credittypes-api
+- collection_type: open
+  name: Configuration alertRules customers API
+  slug: open-solvimon-customers-api
+- collection_type: open
+  name: Configuration alertRules customFields API
+  slug: open-solvimon-customfields-api
+- collection_type: open
+  name: Configuration alertRules documents API
+  slug: open-solvimon-documents-api
+- collection_type: open
+  name: Configuration alertRules features API
+  slug: open-solvimon-features-api
+- collection_type: open
+  name: Configuration alertRules fileProcessingSettings API
+  slug: open-solvimon-fileprocessingsettings-api
+- collection_type: open
+  name: Configuration alertRules files API
+  slug: open-solvimon-files-api
+- collection_type: open
+  name: Configuration alertRules ingest API
+  slug: open-solvimon-ingest-api
+- collection_type: open
+  name: Configuration alertRules integrations API
+  slug: open-solvimon-integrations-api
+- collection_type: open
+  name: Configuration alertRules invoices API
+  slug: open-solvimon-invoices-api
+- collection_type: open
+  name: Configuration alertRules meterProperties API
+  slug: open-solvimon-meterproperties-api
+- collection_type: open
+  name: Configuration alertRules meters API
+  slug: open-solvimon-meters-api
+- collection_type: open
+  name: Configuration alertRules meterValueCalculations API
+  slug: open-solvimon-metervaluecalculations-api
+- collection_type: open
+  name: Configuration alertRules meterValues API
+  slug: open-solvimon-metervalues-api
+- collection_type: open
+  name: Configuration alertRules paymentAcceptors API
+  slug: open-solvimon-paymentacceptors-api
+- collection_type: open
+  name: Configuration alertRules paymentMethods API
+  slug: open-solvimon-paymentmethods-api
+- collection_type: open
+  name: Configuration alertRules payments API
+  slug: open-solvimon-payments-api
+- collection_type: open
+  name: Configuration alertRules paymentSchedules API
+  slug: open-solvimon-paymentschedules-api
+- collection_type: open
+  name: Configuration alertRules platforms API
+  slug: open-solvimon-platforms-api
+- collection_type: open
+  name: Configuration alertRules portalUrls API
+  slug: open-solvimon-portalurls-api
+- collection_type: open
+  name: Configuration alertRules pricingGroups API
+  slug: open-solvimon-pricinggroups-api
+- collection_type: open
+  name: Configuration alertRules pricingPlans API
+  slug: open-solvimon-pricingplans-api
+- collection_type: open
+  name: Configuration alertRules pricingPlanSchedules API
+  slug: open-solvimon-pricingplanschedules-api
+- collection_type: open
+  name: Configuration alertRules pricingPlanSubscriptionGroups API
+  slug: open-solvimon-pricingplansubscriptiongroups-api
+- collection_type: open
+  name: Configuration alertRules pricingPlanSubscriptions API
+  slug: open-solvimon-pricingplansubscriptions-api
+- collection_type: open
+  name: Configuration alertRules pricingPlanVersions API
+  slug: open-solvimon-pricingplanversions-api
+- collection_type: open
+  name: Configuration alertRules pricings API
+  slug: open-solvimon-pricings-api
+- collection_type: open
+  name: Configuration alertRules productCategories API
+  slug: open-solvimon-productcategories-api
+- collection_type: open
+  name: Configuration alertRules productItems API
+  slug: open-solvimon-productitems-api
+- collection_type: open
+  name: Configuration alertRules products API
+  slug: open-solvimon-products-api
+- collection_type: open
+  name: Configuration alertRules promotionCodes API
+  slug: open-solvimon-promotioncodes-api
+- collection_type: open
+  name: Configuration alertRules quotes API
+  slug: open-solvimon-quotes-api
+- collection_type: open
+  name: Configuration alertRules quoteTemplates API
+  slug: open-solvimon-quotetemplates-api
+- collection_type: open
+  name: Configuration alertRules quoteVersions API
+  slug: open-solvimon-quoteversions-api
+- collection_type: open
+  name: Configuration alertRules reportConfigurations API
+  slug: open-solvimon-reportconfigurations-api
+- collection_type: open
+  name: Configuration alertRules reportDefinitions API
+  slug: open-solvimon-reportdefinitions-api
+- collection_type: open
+  name: Configuration alertRules reports API
+  slug: open-solvimon-reports-api
+- collection_type: open
+  name: Configuration alertRules reportSubscriptions API
+  slug: open-solvimon-reportsubscriptions-api
+- collection_type: open
+  name: Configuration alertRules reprocess API
+  slug: open-solvimon-reprocess-api
+- collection_type: open
+  name: Configuration alertRules roles API
+  slug: open-solvimon-roles-api
+- collection_type: open
+  name: Configuration alertRules signatureRequests API
+  slug: open-solvimon-signaturerequests-api
+- collection_type: open
+  name: Configuration alertRules taxIdTypes API
+  slug: open-solvimon-taxidtypes-api
+- collection_type: open
+  name: Configuration alertRules teams API
+  slug: open-solvimon-teams-api
+- collection_type: open
+  name: Configuration alertRules users API
+  slug: open-solvimon-users-api
+- collection_type: open
+  name: Configuration alertRules walletGrants API
+  slug: open-solvimon-walletgrants-api
+- collection_type: open
+  name: Configuration alertRules wallets API
+  slug: open-solvimon-wallets-api
+- collection_type: open
+  name: Configuration alertRules walletTypes API
+  slug: open-solvimon-wallettypes-api
+- collection_type: open
+  name: Configuration alertRules webhooks API
+  slug: open-solvimon-webhooks-api
+- collection_type: open
+  name: Configuration alertRules workflowActions API
+  slug: open-solvimon-workflowactions-api
+- collection_type: open
+  name: Configuration alertRules workflows API
+  slug: open-solvimon-workflows-api
+- collection_type: open
+  name: Configuration alertRules workflowTriggers API
+  slug: open-solvimon-workflowtriggers-api
 common:
 - group: other
   title: ''
@@ -384,7 +580,7 @@ overview: 'Solvimon publishes 64 APIs on the [APIs.io](https://apis.io/) network
 
 
   Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 27 more developer resources.'
-random_paper: 47
+random_paper: 142
 score:
   band: developing
   composite: 51.2
@@ -414,7 +610,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 2
@@ -57,8 +57,23 @@ apis:
 - description: API portal publishing operations
   name: Software AG Publishing API
   slug: software-ag-publishing-api
-artifact_total: 20
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: webMethods API Gateway Service Management APIs API
+  slug: open-software-ag-apis-api
+- collection_type: open
+  name: webMethods API Gateway Service Management APIs Applications API
+  slug: open-software-ag-applications-api
+- collection_type: open
+  name: webMethods API Gateway Service Management APIs Policies API
+  slug: open-software-ag-policies-api
+- collection_type: open
+  name: webMethods API Gateway Service Management APIs Publishing API
+  slug: open-software-ag-publishing-api
 - collection_type: open
   name: webMethods API Gateway Service Management API
   slug: open-webmethods-api-gateway
@@ -170,7 +185,7 @@ plans:
 - name: Software Ag Plans Pricing
   plan_count: 1
   slug: software-ag-plans-pricing
-random_paper: 40
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Software Ag Rate Limits
@@ -212,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png
 security:

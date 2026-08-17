@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -75,8 +75,32 @@ apis:
 - description: Manage and download workbooks.
   name: Tableau Desktop Workbooks API
   slug: tableau-desktop-workbooks-api
-artifact_total: 37
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tableau REST Authentication API
+  slug: open-tableau-desktop-authentication-api
+- collection_type: open
+  name: Tableau REST Authentication Data Sources API
+  slug: open-tableau-desktop-data-sources-api
+- collection_type: open
+  name: Tableau REST Authentication Projects API
+  slug: open-tableau-desktop-projects-api
+- collection_type: open
+  name: Tableau REST Authentication Server API
+  slug: open-tableau-desktop-server-api
+- collection_type: open
+  name: Tableau REST Authentication Sites API
+  slug: open-tableau-desktop-sites-api
+- collection_type: open
+  name: Tableau REST Authentication Users API
+  slug: open-tableau-desktop-users-api
+- collection_type: open
+  name: Tableau REST Authentication Workbooks API
+  slug: open-tableau-desktop-workbooks-api
 - collection_type: open
   name: Tableau REST API
   slug: open-tableau-desktop
@@ -183,7 +207,7 @@ plans:
 - name: Tableau Desktop Plans Pricing
   plan_count: 3
   slug: tableau-desktop-plans-pricing
-random_paper: 101
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Tableau Desktop Rate Limits
@@ -208,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/screenshots/tableau-desktop-2026-06-20T194845.png
 security:

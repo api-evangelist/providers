@@ -1,35 +1,37 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
-  pricing: enterprise
+  label: Tiered subscription · Sales-led onboarding · API is an Enterprise-tier entitlement
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - pricing-page
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 50.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -37,44 +39,110 @@ agentic_access:
   operation_count: 10
   slug: pverify-agentic-access
   summary_line: 10 operations · 7 acting
-api_count: 6
+api_count: 13
 apis:
-- description: The Authentication API from pVerify — 1 operation(s) for authentication.
+- description: OAuth2 client-credentials token endpoint. POST /Token exchanges Client_Id + Client_Secret for a bearer access_token used on every other pVerify call, alongside the case-sensitive Client-API-Id header.
   name: pVerify Authentication API
   slug: pverify-authentication-api
-- description: The Batch API from pVerify — 1 operation(s) for batch.
-  name: pVerify Batch API
-  slug: pverify-batch-api
-- description: The Claim Status API from pVerify — 1 operation(s) for claim status.
-  name: pVerify Claim Status API
-  slug: pverify-claim-status-api
-- description: The Eligibility API from pVerify — 5 operation(s) for eligibility.
+- description: Real-time X12 270/271 insurance eligibility verification. Submit an EligibilitySummary inquiry, poll the pending queue, retrieve the parsed benefit summary or the raw 271, pull a PDF report, and cance
   name: pVerify Eligibility API
   slug: pverify-eligibility-api
-- description: The Estimation API from pVerify — 1 operation(s) for estimation.
-  name: pVerify Estimation API
+- description: Dental insurance eligibility and benefit verification, including the only version-prefixed path in the pVerify surface (/api/v2/DentalEligibilitySummary) alongside the unversioned v1 endpoints.
+  name: pVerify Dental Eligibility API
+  slug: pverify-dental-eligibility-api
+- description: Find unknown or unreported active insurance coverage for a patient presenting as self-pay, returning candidate payers and member IDs plus a hosted details URL and PDF report.
+  name: pVerify Insurance Discovery API
+  slug: pverify-insurance-discovery-api
+- description: Look up a Medicare Beneficiary Identifier for a patient from demographic data, for providers who need the MBI before they can run Medicare eligibility.
+  name: pVerify MBI Lookup API
+  slug: pverify-mbi-lookup-api
+- description: Validate and complete patient demographic data (pDV) — name, date of birth, gender and address — so that downstream eligibility and discovery inquiries match on identity.
+  name: pVerify Patient Demographic Validator API
+  slug: pverify-patient-demographic-validator-api
+- description: X12 276/277 claim status inquiry. Ask a payer what happened to a submitted claim and retrieve the 277 response by RequestID. Not every payer supports 276/277 electronically.
+  name: pVerify Claim Status API
+  slug: pverify-claim-status-api
+- description: Estimate patient financial responsibility for a planned service from the payer benefit data, for point-of-service collection.
+  name: pVerify Patient Cost Estimator API
   slug: pverify-estimation-api
-- description: The Payers API from pVerify — 1 operation(s) for payers.
+- description: 'The payer network surface: the full supported-payer catalog, live per-payer up/down status (the only pVerify operation requiring no authentication), and recent per-payer rejection statistics.'
   name: pVerify Payers API
   slug: pverify-payers-api
-artifact_total: 13
+- description: Provision and drive the embeddable eligibility-and-estimates widget. Setup runs against the premium portal host; CGXInquiry returns a combined estimate plus eligibility result for the widget to render
+  name: pVerify CGX Widget API
+  slug: pverify-cgx-widget-api
+- description: Medicare same-or-similar DME history check. pVerify labels this product "(Discontinued)" in its own documentation while continuing to document it in full; every operation is marked deprecated in the s
+  name: pVerify Same or Similar API (discontinued)
+  slug: pverify-same-or-similar-api
+- description: Certificate of Medical Necessity lookup. Labelled "(Discontinued)" by pVerify; every operation is marked deprecated in the spec.
+  name: pVerify CMN API (discontinued)
+  slug: pverify-cmn-api
+- description: Skilled Nursing Facility stay verification. Labelled "(Discontinued)" by pVerify; every operation is marked deprecated in the spec.
+  name: pVerify SNF API (discontinued)
+  slug: pverify-snf-api
+artifact_total: 29
+asyncapis:
+- description: ''
+  name: Pverify Callbacks
+  slug: pverify-callbacks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: pVerify Authentication API
+  slug: open-pverify-authentication-api
+- collection_type: open
+  name: pVerify Authentication Batch API
+  slug: open-pverify-batch-api
+- collection_type: open
+  name: pVerify Authentication Claim Status API
+  slug: open-pverify-claim-status-api
+- collection_type: open
+  name: pVerify Authentication Eligibility API
+  slug: open-pverify-eligibility-api
+- collection_type: open
+  name: pVerify Authentication Estimation API
+  slug: open-pverify-estimation-api
+- collection_type: open
+  name: pVerify Authentication Payers API
+  slug: open-pverify-payers-api
 - collection_type: open
   name: pVerify API
   slug: open-pverify
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/pverify-agentic-access.yml
-- group: auth
+  type: Website
+  url: https://www.pverify.com
+- group: start
   title: ''
-  type: DomainSecurity
-  url: security/pverify-domain-security.yml
-- group: auth
+  type: DeveloperPortal
+  url: https://pverify.com/api-developers/
+- group: docs
   title: ''
-  type: Authentication
-  url: authentication/pverify-authentication.yml
+  type: Documentation
+  url: https://docs.pverify.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://postman.pverify.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://postman.pverify.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://pverify.com/templates/
+- group: operate
+  title: ''
+  type: Support
+  url: https://pverify.com/contact-support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://pverify.com/blog/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -83,14 +151,98 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/pverify
-- group: company
+- group: start
   title: ''
-  type: Website
-  url: https://www.pverify.com
-- group: docs
+  type: Login
+  url: https://apimgmt.pverify.com/
+- group: commercial
   title: ''
-  type: Documentation
-  url: https://docs.pverify.io/
+  type: Pricing
+  url: https://pverify.com/pricing/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://pverify.com/pverify-legal-documentation/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://pverify.com/privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.dosespot.com/posts/dashboard
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/pverify-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.dosespot.com/
+- group: operate
+  title: ''
+  type: SLA
+  url: https://pverify.com/wp-content/uploads/2025/04/Exhibit-B-SLA.docx
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pverify-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pverify-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pverify-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pverify-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pverify-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/pverify-data-model.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/pverify-vocabulary.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/pverify-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/pverify-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pverify-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/pverify-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pverify-llms.txt
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/pverify-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pverify-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -103,46 +255,49 @@ common:
   title: ''
   type: FinOps
   url: finops/pverify-finops.yml
-- group: company
+- group: build
   title: ''
-  type: Blog
-  url: https://pverify.com/blog/
+  type: PostmanCollection
+  url: collections/pverify-published-postman-collection.json
 created: '2026-06-21'
-description: pVerify provides real-time healthcare insurance eligibility verification and revenue-cycle APIs. Its RESTful API at https://api.pverify.com exchanges EDI 270/271 eligibility transactions, returns plan and benefit summaries, checks claim status (276/277), lists supported payers, and estimates patient financial responsibility, secured with OAuth2 bearer tokens.
+description: pVerify is a US healthcare insurance eligibility and revenue-cycle API company, part of DoseSpot (now Interra Health). Its REST API at https://api.pverify.com exchanges X12 270/271 eligibility transactions and returns parsed, practice-type-specific benefit summaries; runs 276/277 claim status inquiries; discovers unknown active coverage for self-pay patients; looks up Medicare Beneficiary Identifiers; validates patient demographics; publishes a supported-payer catalog with live per-payer up/down status; and estimates patient financial responsibility at the point of service. Authentication is an OAuth2 client-credentials bearer token plus a case-sensitive Client-API-Id header. pVerify publishes no OpenAPI — its machine-readable contract is a public Postman Collection v2.0.0 at https://postman.pverify.com/, from which the OpenAPI documents in this repository were derived operation-for-operation.
 finops:
 - name: Pverify Finops
   service_category: Healthcare and Insurance
   slug: pverify-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pverify.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-08-15'
 name: pVerify
 nav: Providers
 network: true
-overview: 'pVerify publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Batch API, Claim Status API, and 3 more. Tagged areas include Healthcare, Insurance, Eligibility, Claims, and EDI.
+overview: 'pVerify publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Eligibility API, Dental Eligibility API, and 10 more. Tagged areas include Healthcare, Insurance, Eligibility, Claims, and EDI.
 
 
-  pVerify''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  The pVerify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  pVerify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 30 more developer resources.'
 plans:
 - name: Pverify Plans Pricing
-  plan_count: 2
+  plan_count: 8
   slug: pverify-plans-pricing
-random_paper: 53
+random_paper: 28
 rate_limits:
 - limit_count: 4
   name: Pverify Rate Limits
   slug: pverify-rate-limits
 score:
-  band: thin
-  composite: 34.1
-  delta: 0.0
+  band: exemplar
+  composite: 66.1
+  delta: 32.0
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 58.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 100.0
+    contract_quality: 68.7
+    developer_ergonomics: 76.1
+    discoverability: 81.5
+    governance: 31.3
+    operational_transparency: 52.6
   previous_composite: 34.1
   provenance:
     agentic_access: derived
@@ -154,21 +309,25 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 18.2
+    regime: Health
+    regime_id: health
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Pverify Authentication
   slug: pverify-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: http/apiKey · 3 schemes
 - kind: domain-security
   name: Pverify Domain Security
   slug: pverify-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Pverify Trust Center
+  slug: pverify-trust-center
+  summary_line: SOC 2 Type II, HIPAA
 slug: pverify
 tags:
 - Healthcare
@@ -177,5 +336,13 @@ tags:
 - Claims
 - EDI
 - 270/271
+- 276/277
+- Revenue Cycle
+- Medicare
+- Payers
+- Insurance Discovery
+- Patient Estimation
+- HIPAA
+- Dental
 website: https://www.pverify.com
 ---

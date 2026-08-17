@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-12'
+  score: 61.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -36,7 +37,7 @@ agentic_access:
   operation_count: 15
   slug: refersion-agentic-access
   summary_line: 15 operations · 15 acting
-api_count: 6
+api_count: 7
 apis:
 - description: GraphQL API providing an explorer interface for querying affiliate data, managing program configurations, and integrating with e-commerce platforms.
   name: Refersion GraphQL API
@@ -44,6 +45,9 @@ apis:
 - description: Webhook API for receiving real-time notifications about affiliate activity, including new conversions, conversion approvals/denials, payments, affiliate status changes, and bonus tier movements.
   name: Refersion Webhooks API
   slug: refersion-webhooks-api
+- description: Inbound order-reporting surface used to send completed orders to Refersion so commissions are calculated. Server-side integrations POST the order JSON plus a merchant-generated cart_id to inbound-webh
+  name: Refersion Order Tracking API
+  slug: refersion-order-tracking-api
 - description: Create, retrieve, update, search, and manage affiliate accounts and their conversion triggers.
   name: Refersion Affiliates API
   slug: refersion-affiliates-api
@@ -56,7 +60,27 @@ apis:
 - description: Generate download links for saved reports.
   name: Refersion Reporting API
   slug: refersion-reporting-api
-artifact_total: 21
+artifact_total: 30
+asyncapis:
+- description: ''
+  name: Refersion Webhooks
+  slug: refersion-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Refersion REST Affiliates API
+  slug: open-refersion-affiliates-api
+- collection_type: open
+  name: Refersion REST Affiliates Conversions API
+  slug: open-refersion-conversions-api
+- collection_type: open
+  name: Refersion REST Affiliates Offers API
+  slug: open-refersion-offers-api
+- collection_type: open
+  name: Refersion REST Affiliates Reporting API
+  slug: open-refersion-reporting-api
 common:
 - group: agent
   title: ''
@@ -114,6 +138,90 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/refersion-vocabulary.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/refersion-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/refersion-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/refersion-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/refersion-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/refersion-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/refersion-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/refersion-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/refersion-conformance.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/refersion-components.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/refersion-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/refersion-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/refersion-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.refersion.dev/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.refersion.dev/reference/welcome-to-refersion
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.refersion.dev/reference/order-tracking-overview
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.refersion.com/en/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://auth.refersion.com/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://auth.refersion.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.refersion.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.refersion.com/privacy/
 - group: design
   title: ''
   type: JSONLDContext
@@ -158,24 +266,28 @@ jsonld:
   property_count: 68
   slug: refersion-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: refersion-mcp.yml
+  slug: refersion-mcpyml
+modified: '2026-08-13'
 name: Refersion
 nav: Providers
 network: true
 overview: 'Refersion publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Conversions API, Offers API, and 1 more. Tagged areas include Affiliate Marketing, Influencer Marketing, E-Commerce, Referral Tracking, and Commission Management.
 
 
-  The Refersion catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Refersion catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Refersion''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
+  Refersion''s developer surface includes documentation, engineering blog, pricing, authentication, API reference, getting-started guide, support, and 29 more developer resources.'
 plans:
 - name: Refersion Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: refersion-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
-- limit_count: 3
+- limit_count: 5
   name: Refersion Rate Limits
   slug: refersion-rate-limits
 rules:
@@ -188,16 +300,16 @@ rules:
     warn: 4
   slug: refersion-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 52.5
-  delta: 0.0
+  band: exemplar
+  composite: 76.9
+  delta: 24.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 71.2
-    developer_ergonomics: 10.9
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    commercial_clarity: 84.2
+    contract_quality: 79.1
+    developer_ergonomics: 67.4
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 60.5
   previous_composite: 52.5
   provenance:
     agentic_access: derived
@@ -207,10 +319,14 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/screenshots/refersion-2026-06-20T192744.png
 security:
+- kind: authentication
+  name: Refersion Authentication
+  slug: refersion-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Refersion Domain Security
   slug: refersion-domain-security

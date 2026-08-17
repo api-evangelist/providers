@@ -1,44 +1,77 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
+  source:
+  - https://www.docket.io/pricing
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: Docket's hosted, read-only remote Model Context Protocol server. It exposes Demand Capture Agents and their performance, captured visitors and leads, engaged accounts, conversation summaries with qual
+  name: Docket Demand MCP
+  slug: docket-demand-mcp
+artifact_total: 9
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.docket.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.docket.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.docket.io/articles/9442251006-using-the-aiseller-javascript-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.docket.io/articles/5098230267-getting-started-with-docket-marketing-agent
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.docket.io/
 - group: company
   title: ''
   type: Blog
   url: https://www.docket.io/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/DocketAI
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.docket.io/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.docketai.com/
 - group: commercial
   title: ''
   type: Pricing
@@ -55,6 +88,54 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/docketai-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/docketai-help-center-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/docketai-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/docketai-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/docketai-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/docketai-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/docketai-conventions.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/docketai-components.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/docketai-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/docketai-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/docketai-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/docketai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/docketai-rate-limits.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -72,35 +153,60 @@ common:
   type: TrustCenter
   url: security/docketai-trust-center.yml
 created: '2026-07-17'
-description: Docket (formerly Docket AI, docketai.com) is an AI-powered marketing and sales agent platform that engages website visitors in real, substantive conversations to qualify leads, book meetings, and generate pipeline without a first-touch SDR. Its Sales Knowledge Lake ingests 100+ data sources and a custom cognitive / retrieval-augmented architecture powers autonomous marketing and website-concierge agents that hold voice and text conversations in 40+ languages. Docket deploys via a JavaScript snippet ("no developer required") and syncs to the go-to-market stack through native connectors for Salesforce, HubSpot, Gong, Slack, Google Drive, Notion, SharePoint and more. The company raised a $15M Series A and is backed by Mayfield. Docket publishes no public REST API or developer portal; it is an agent-and-integration product, so this profile captures its identity, integration surface, published llms.txt, and security/compliance posture.
+description: 'Docket (docket.io, formerly Docket AI on docketai.com) is an Agentic Marketing platform for B2B revenue teams. Its AI Marketing Agent engages inbound website visitors in real voice or text conversations, answers from approved product knowledge, qualifies intent in real time and produces an Agent Qualified Lead (AQL) with full conversation context. The governed Sales Knowledge Lake ingests 100+ data sources — CRM records, Gong calls, Slack, Google Drive, Notion, SharePoint, Intercom and product documentation — and the agent supports 40+ languages. Docket deploys as a per-agent JavaScript snippet with no engineering work, and syncs to the go-to-market stack through native Salesforce, HubSpot, Marketo, Microsoft Dynamics 365, Demandbase, Zoom and Google Calendar connectors. Docket publishes NO public REST API and no OpenAPI, but it does ship two real developer surfaces: the Docket Demand MCP server, a hosted read-only remote MCP endpoint at demand-mcp.app.docketai.com/mcp secured
+  by OAuth 2.0 with dynamic client registration; and the window.AISeller browser JavaScript API for passing visitor context into an agent. The company raised a $15M Series A and is backed by Mayfield.'
 image: https://www.docket.io/favicon.ico
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: docketai-mcp.yml
+  slug: docketai-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
+modified: '2026-08-13'
 name: Docket
 nav: Providers
 network: true
-overview: 'Docket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Sales Enablement, Demand Generation, and Marketing Automation.
+overview: 'Docket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agentic Marketing, Sales Enablement, and Demand Generation.
 
 
-  Docket''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
-random_paper: 116
+  Docket''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
+plans:
+- name: Docketai Plans Pricing
+  plan_count: 3
+  slug: docketai-plans-pricing
+random_paper: 91
+rate_limits:
+- limit_count: 0
+  name: Docketai Rate Limits
+  slug: docketai-rate-limits
+scopes:
+- name: Docketai Scopes
+  scope_count: 4
+  slug: docketai-scopes
+  summary_line: 4 scopes · authorizationCode/deviceCode
 score:
-  band: emerging
-  composite: 15.7
-  delta: 0.0
+  band: thin
+  composite: 41.8
+  delta: 26.1
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 92.1
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 52.2
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 21.1
   previous_composite: 15.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/screenshots/docketai-2026-07-25T212205.png
 security:
+- kind: authentication
+  name: Docketai Authentication
+  slug: docketai-authentication
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Docketai Domain Security
   slug: docketai-domain-security
@@ -113,11 +219,14 @@ slug: docketai
 tags:
 - Company
 - AI Agents
+- Agentic Marketing
 - Sales Enablement
 - Demand Generation
 - Marketing Automation
 - Conversational AI
 - Lead Qualification
 - Go-To-Market
+- MCP
+- Model Context Protocol
 website: https://www.docket.io/
 ---

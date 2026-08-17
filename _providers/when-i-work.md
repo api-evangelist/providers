@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -105,7 +105,77 @@ apis:
 - description: A person on the When I Work platform is associated with a two tier record. The persons email/password is associated to a person_id. For each Workplace the person belongs to a user_id record exists. Th
   name: When I Work Users API
   slug: when-i-work-users-api
-artifact_total: 40
+artifact_total: 63
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: When I Work API Documentation Accounts API
+  slug: open-when-i-work-accounts-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Annotations API
+  slug: open-when-i-work-annotations-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Availabilities API
+  slug: open-when-i-work-availabilities-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Import API
+  slug: open-when-i-work-import-api
+- collection_type: open
+  name: When I Work API Documentation Accounts OpenShift Requests API
+  slug: open-when-i-work-openshift-requests-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Payrolls API
+  slug: open-when-i-work-payrolls-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Positions API
+  slug: open-when-i-work-positions-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Punch API
+  slug: open-when-i-work-punch-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Request Type API
+  slug: open-when-i-work-request-type-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Schedule Templates API
+  slug: open-when-i-work-schedule-templates-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Schedules (Locations) API
+  slug: open-when-i-work-schedules-locations-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Shift Break - Paid Rest API
+  slug: open-when-i-work-shift-break-paid-rest-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Shift Breaks API
+  slug: open-when-i-work-shift-breaks-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Shift Requests API
+  slug: open-when-i-work-shift-requests-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Shift Templates (Blocks) API
+  slug: open-when-i-work-shift-templates-blocks-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Shifts API
+  slug: open-when-i-work-shifts-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Sites API
+  slug: open-when-i-work-sites-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Swaps API
+  slug: open-when-i-work-swaps-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Time Off Requests API
+  slug: open-when-i-work-time-off-requests-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Times API
+  slug: open-when-i-work-times-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Timezones API
+  slug: open-when-i-work-timezones-api
+- collection_type: open
+  name: When I Work API Documentation Accounts Users API
+  slug: open-when-i-work-users-api
 common:
 - group: agent
   title: ''
@@ -224,7 +294,7 @@ plans:
 - name: When I Work Plans Pricing
   plan_count: 3
   slug: when-i-work-plans-pricing
-random_paper: 0
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: When I Work Rate Limits
@@ -258,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/when-i-work/refs/heads/main/screenshots/when-i-work-2026-06-20T201428.png
 security:

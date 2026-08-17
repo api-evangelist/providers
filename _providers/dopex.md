@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,35 @@ apis:
 - description: The xSYK API from Dopex — 1 operation(s) for xsyk.
   name: Dopex xSYK API
   slug: dopex-xsyk-api
-artifact_total: 25
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stryke deposit API
+  slug: open-dopex-deposit-api
+- collection_type: open
+  name: Stryke deposit exercise API
+  slug: open-dopex-exercise-api
+- collection_type: open
+  name: Stryke deposit option-markets API
+  slug: open-dopex-option-markets-api
+- collection_type: open
+  name: Stryke deposit purchase API
+  slug: open-dopex-purchase-api
+- collection_type: open
+  name: Stryke deposit stats API
+  slug: open-dopex-stats-api
+- collection_type: open
+  name: Stryke deposit strikes-chain API
+  slug: open-dopex-strikes-chain-api
+- collection_type: open
+  name: Stryke deposit withdraw API
+  slug: open-dopex-withdraw-api
+- collection_type: open
+  name: Stryke deposit xSYK API
+  slug: open-dopex-xsyk-api
 common:
 - group: agent
   title: ''
@@ -186,7 +214,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 64
+random_paper: 97
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -220,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/screenshots/dopex-2026-06-20T180154.png
 security:

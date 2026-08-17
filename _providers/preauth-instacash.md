@@ -28,17 +28,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Create and manage pre-authorization orders.
   name: PreAuth (Instacash) Orders API
   slug: preauth-instacash-orders-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: Preauth delivers order lifecycle notifications as HTTP POST requests to a URL the merchant configures in the developer panel (https://dashboard.preauth.io/panel/devs). Faithfully modeled from https://
   name: Preauth Webhooks
   slug: preauth-instacash-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Preauth Orders API
+  slug: open-preauth-instacash-orders-api
 common:
 - group: other
   title: ''
@@ -163,7 +170,7 @@ overview: 'PreAuth (Instacash) publishes 1 API on the [APIs.io](https://apis.io/
 
 
   PreAuth (Instacash)''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 84
+random_paper: 125
 score:
   band: developing
   composite: 45.8
@@ -192,7 +199,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

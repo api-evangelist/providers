@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -117,7 +117,7 @@ plans:
 - name: Cultfit Plans Pricing
   plan_count: 0
   slug: cultfit-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Cultfit Rate Limits
@@ -141,7 +141,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cultfit/refs/heads/main/screenshots/cultfit-2026-07-25T210923.png
 security:

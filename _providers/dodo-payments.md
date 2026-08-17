@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: The Webhooks API from Dodo Payments — 4 operation(s) for webhooks.
   name: Dodo Payments Webhooks API
   slug: dodo-payments-webhooks-api
-artifact_total: 20
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dodo Payments Checkout Sessions API
+  slug: open-dodo-payments-checkout-sessions-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions Customers API
+  slug: open-dodo-payments-customers-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions Discounts API
+  slug: open-dodo-payments-discounts-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions Disputes API
+  slug: open-dodo-payments-disputes-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions License Keys API
+  slug: open-dodo-payments-license-keys-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions Licenses API
+  slug: open-dodo-payments-licenses-api
+- collection_type: open
+  name: Dodo Checkout Sessions Payments API
+  slug: open-dodo-payments-payments-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions Payouts API
+  slug: open-dodo-payments-payouts-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions Products API
+  slug: open-dodo-payments-products-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions Refunds API
+  slug: open-dodo-payments-refunds-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions Subscriptions API
+  slug: open-dodo-payments-subscriptions-api
+- collection_type: open
+  name: Dodo Payments Checkout Sessions Webhooks API
+  slug: open-dodo-payments-webhooks-api
 - collection_type: open
   name: Dodo Payments API
   slug: open-dodo-payments
@@ -149,7 +188,7 @@ plans:
 - name: Dodo Payments Plans Pricing
   plan_count: 3
   slug: dodo-payments-plans-pricing
-random_paper: 28
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Dodo Payments Rate Limits
@@ -180,7 +219,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/screenshots/dodo-payments-2026-07-25T212230.png
 security:

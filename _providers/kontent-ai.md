@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,8 +66,20 @@ apis:
 - description: The Items Feed API from Kontent AI — 1 operation(s) for items feed.
   name: Kontent AI Items Feed API
   slug: kontent-ai-items-feed-api
-artifact_total: 18
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kontent.ai Delivery Assets API
+  slug: open-kontent-ai-assets-api
+- collection_type: open
+  name: Kontent.ai Delivery Assets Items API
+  slug: open-kontent-ai-items-api
+- collection_type: open
+  name: Kontent.ai Delivery Assets Items Feed API
+  slug: open-kontent-ai-items-feed-api
 - collection_type: open
   name: Kontent.ai Delivery API
   slug: open-kontent-ai
@@ -140,7 +152,7 @@ plans:
 - name: Kontent Ai Plans Pricing
   plan_count: 3
   slug: kontent-ai-plans-pricing
-random_paper: 58
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Kontent Ai Rate Limits
@@ -165,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/screenshots/kontent-ai-2026-06-20T184133.png
 security:

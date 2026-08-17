@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: Izotope Plans Pricing
   plan_count: 0
   slug: izotope-plans-pricing
-random_paper: 58
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Izotope Rate Limits
@@ -242,7 +242,7 @@ scopes:
 score:
   band: thin
   composite: 30.8
-  delta: 23.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -250,10 +250,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 7.0
+  previous_composite: 30.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/screenshots/izotope-2026-08-07T170937.png
 security:
 - kind: authentication

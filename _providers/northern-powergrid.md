@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,14 @@ apis:
 - description: The original Opendatasoft Search API, still live on the portal and still carrying its own interactive console. Confirmed anonymously on 2026-07-27 — GET /api/datasets/1.0/search/?rows=1 returned nhits
   name: Northern Powergrid Open Data Search API v1
   slug: northern-powergrid-open-data-search-api-v1
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Explore API
+  slug: open-northern-powergrid-open-data-explore-api-v2-0
+- collection_type: open
+  name: Explore API
+  slug: open-northern-powergrid-open-data-explore-api-v2-1
 common:
 - group: agent
   title: ''
@@ -247,7 +254,7 @@ overview: 'Northern Powergrid publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Northern Powergrid''s developer surface includes authentication, changelog, code examples, sandbox, API reference, getting-started guide, support, and 38 more developer resources.'
-random_paper: 104
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: Northern Powergrid Rate Limits
@@ -281,7 +288,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/screenshots/northern-powergrid-2026-08-07T185523.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -134,7 +134,95 @@ apis:
 - description: The Workers API from NGINX — 2 operation(s) for workers.
   name: NGINX Workers API
   slug: nginx-workers-api
-artifact_total: 236
+artifact_total: 265
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NGINX njs Scripting Connections API
+  slug: open-nginx-connections-api
+- collection_type: open
+  name: NGINX njs Scripting Connections General Info API
+  slug: open-nginx-general-info-api
+- collection_type: open
+  name: NGINX njs Scripting Connections HTTP API
+  slug: open-nginx-http-api
+- collection_type: open
+  name: NGINX njs Scripting Connections HTTP Caches API
+  slug: open-nginx-http-caches-api
+- collection_type: open
+  name: NGINX njs Scripting Connections HTTP Keyvals API
+  slug: open-nginx-http-keyvals-api
+- collection_type: open
+  name: NGINX njs Scripting Connections HTTP Limit Conns API
+  slug: open-nginx-http-limit-conns-api
+- collection_type: open
+  name: NGINX njs Scripting Connections HTTP Limit Reqs API
+  slug: open-nginx-http-limit-reqs-api
+- collection_type: open
+  name: NGINX njs Scripting Connections HTTP Location Zones API
+  slug: open-nginx-http-location-zones-api
+- collection_type: open
+  name: NGINX njs Scripting Connections HTTP Requests API
+  slug: open-nginx-http-requests-api
+- collection_type: open
+  name: NGINX njs Scripting Connections HTTP Server Zones API
+  slug: open-nginx-http-server-zones-api
+- collection_type: open
+  name: NGINX njs Scripting Connections HTTP Upstreams API
+  slug: open-nginx-http-upstreams-api
+- collection_type: open
+  name: NGINX njs Scripting Connections License API
+  slug: open-nginx-license-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Method DELETE API
+  slug: open-nginx-method-delete-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Method GET API
+  slug: open-nginx-method-get-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Method PATCH API
+  slug: open-nginx-method-patch-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Method POST API
+  slug: open-nginx-method-post-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Processes API
+  slug: open-nginx-processes-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Resolvers API
+  slug: open-nginx-resolvers-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Slabs API
+  slug: open-nginx-slabs-api
+- collection_type: open
+  name: NGINX njs Scripting Connections SSL API
+  slug: open-nginx-ssl-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Status API
+  slug: open-nginx-status-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Stream API
+  slug: open-nginx-stream-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Stream Keyvals API
+  slug: open-nginx-stream-keyvals-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Stream Limit Conns API
+  slug: open-nginx-stream-limit-conns-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Stream Server Zones API
+  slug: open-nginx-stream-server-zones-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Stream Upstreams API
+  slug: open-nginx-stream-upstreams-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Stream Zone Sync API
+  slug: open-nginx-stream-zone-sync-api
+- collection_type: open
+  name: NGINX njs Scripting Connections Workers API
+  slug: open-nginx-workers-api
 common:
 - group: operate
   title: ''
@@ -847,7 +935,7 @@ plans:
 - name: Nginx Plans Pricing
   plan_count: 6
   slug: nginx-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Nginx Rate Limits
@@ -889,7 +977,7 @@ score:
       marker_coverage: 100.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
 security:

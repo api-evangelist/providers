@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -82,8 +82,50 @@ apis:
 - description: The Webhooks API from Stack Auth — 1 operation(s) for webhooks.
   name: Stack Auth Webhooks API
   slug: stack-auth-webhooks-api
-artifact_total: 25
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stack REST Auth API
+  slug: open-stack-auth-auth-api
+- collection_type: open
+  name: Stack REST Auth Connected Accounts API
+  slug: open-stack-auth-connected-accounts-api
+- collection_type: open
+  name: Stack REST Auth Contact Channels API
+  slug: open-stack-auth-contact-channels-api
+- collection_type: open
+  name: Stack REST Auth Emails API
+  slug: open-stack-auth-emails-api
+- collection_type: open
+  name: Stack REST Auth Sessions API
+  slug: open-stack-auth-sessions-api
+- collection_type: open
+  name: Stack REST Auth Stack Auth REST API API
+  slug: open-stack-auth-stack-auth-rest-api-api
+- collection_type: open
+  name: Stack REST Auth Team Api Keys API
+  slug: open-stack-auth-team-api-keys-api
+- collection_type: open
+  name: Stack REST Auth Team Memberships API
+  slug: open-stack-auth-team-memberships-api
+- collection_type: open
+  name: Stack REST Auth Team Permissions API
+  slug: open-stack-auth-team-permissions-api
+- collection_type: open
+  name: Stack REST Auth Teams API
+  slug: open-stack-auth-teams-api
+- collection_type: open
+  name: Stack REST Auth User Api Keys API
+  slug: open-stack-auth-user-api-keys-api
+- collection_type: open
+  name: Stack REST Auth Users API
+  slug: open-stack-auth-users-api
+- collection_type: open
+  name: Stack REST Auth Webhooks API
+  slug: open-stack-auth-webhooks-api
 - collection_type: open
   name: Stack Auth REST API
   slug: open-stack-auth
@@ -152,7 +194,7 @@ plans:
 - name: Stack Auth Plans Pricing
   plan_count: 1
   slug: stack-auth-plans-pricing
-random_paper: 53
+random_paper: 119
 rate_limits:
 - limit_count: 2
   name: Stack Auth Rate Limits
@@ -177,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/screenshots/stack-auth-2026-06-20T194441.png
 security:

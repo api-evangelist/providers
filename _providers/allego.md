@@ -15,26 +15,29 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
 - description: 'REST API for the Allego sales enablement platform enabling programmatic access to video coaching sessions, content libraries, learning modules, certifications, rep readiness assessments, conversation '
   name: Allego API
   slug: allego-api
-artifact_total: 6
+- description: First-party hosted Model Context Protocol server shipped with Allego 9 that exposes Allego deal intelligence, content and enablement to any MCP-compatible AI copilot. Verified live at https://mcp.alle
+  name: Allego MCP API Server
+  slug: allego-mcp-api-server
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -84,6 +87,66 @@ common:
   title: ''
   type: FinOps
   url: finops/allego-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/allego-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/allego-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/allego-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/allego-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/allego-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/allego-trust-center.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/allego-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.allego.com/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/allego-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/allego-problem-types.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.allego.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.allego.com/privacy-policy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/allegosoftware
+- group: start
+  title: ''
+  type: Login
+  url: https://my.allego.com/login.do
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.allego.com/
 created: '2026-06-13'
 description: Allego is an AI-powered sales enablement and revenue training platform providing a REST API for managing video coaching, content libraries, certifications, rep readiness assessments, conversation intelligence, and deal intelligence to help revenue teams improve performance.
 finops:
@@ -92,40 +155,48 @@ finops:
   slug: allego-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allego.png
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: allego-mcp.yml
+  slug: allego-mcpyml
+modified: '2026-08-14'
 name: Allego
 nav: Providers
 network: true
-overview: 'Allego publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Enablement, Sales Training, Video Coaching, Content Management, and Conversation Intelligence.
+overview: 'Allego publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Enablement, Sales Training, Video Coaching, Content Management, and Conversation Intelligence.
 
 
-  Allego''s developer surface includes documentation, engineering blog, pricing, support, and 8 more developer resources.'
+  Allego''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 22 more developer resources.'
 plans:
 - name: Allego Plans Pricing
   plan_count: 4
   slug: allego-plans-pricing
-random_paper: 28
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Allego Rate Limits
   slug: allego-rate-limits
 score:
   band: thin
-  composite: 29.5
-  delta: 0.0
+  composite: 38.8
+  delta: 9.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 32.3
-    developer_ergonomics: 15.2
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 100.0
+    contract_quality: 0.0
+    developer_ergonomics: 34.8
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 21.1
   previous_composite: 29.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/screenshots/allego-2026-06-20T171529.png
 security:
+- kind: authentication
+  name: Allego Authentication
+  slug: allego-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Allego Domain Security
   slug: allego-domain-security
@@ -133,7 +204,7 @@ security:
 - kind: trust-center
   name: Allego Trust Center
   slug: allego-trust-center
-  summary_line: SOC 2, ISO 27001, GDPR
+  summary_line: SOC 2 Type II, ISO 27001, GDPR, UK Data Protection Law (UKDPL), CCPA, FINRA 17a-3 / 17a-4, FDA 21 CFR Part 11, EU AI Act
 slug: allego
 tags:
 - Sales Enablement

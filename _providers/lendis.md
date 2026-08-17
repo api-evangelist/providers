@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,41 @@ apis:
 - description: Wiki glossary entries
   name: Lendis wiki API
   slug: lendis-wiki-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study API
+  slug: open-lendis-case-study-api
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study discovery API
+  slug: open-lendis-discovery-api
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study kataloge API
+  slug: open-lendis-kataloge-api
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study media API
+  slug: open-lendis-media-api
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study pages API
+  slug: open-lendis-pages-api
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study posts API
+  slug: open-lendis-posts-api
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study ratgeber API
+  slug: open-lendis-ratgeber-api
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study taxonomies API
+  slug: open-lendis-taxonomies-api
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study testimonial API
+  slug: open-lendis-testimonial-api
+- collection_type: open
+  name: Lendis Content API (WordPress REST) case-study wiki API
+  slug: open-lendis-wiki-api
 common:
 - group: agent
   title: ''
@@ -166,7 +200,7 @@ overview: 'Lendis publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Lendis'' developer surface includes engineering blog, support, YouTube channel, and 17 more developer resources.'
-random_paper: 39
+random_paper: 43
 score:
   band: emerging
   composite: 22.9
@@ -190,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/screenshots/lendis-2026-07-25T224902.png
 security:

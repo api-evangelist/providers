@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The Webhooks API from BitGo — 1 operation(s) for webhooks.
   name: BitGo Webhooks API
   slug: bitgo-webhooks-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BitGo Platform Addresses API
+  slug: open-bitgo-addresses-api
+- collection_type: open
+  name: BitGo Platform Addresses Enterprise API
+  slug: open-bitgo-enterprise-api
+- collection_type: open
+  name: BitGo Platform Addresses Keychains API
+  slug: open-bitgo-keychains-api
+- collection_type: open
+  name: BitGo Platform Addresses Policies API
+  slug: open-bitgo-policies-api
+- collection_type: open
+  name: BitGo Platform Addresses Staking API
+  slug: open-bitgo-staking-api
+- collection_type: open
+  name: BitGo Platform Addresses Trading API
+  slug: open-bitgo-trading-api
+- collection_type: open
+  name: BitGo Platform Addresses Transactions API
+  slug: open-bitgo-transactions-api
+- collection_type: open
+  name: BitGo Platform Addresses Transfers API
+  slug: open-bitgo-transfers-api
+- collection_type: open
+  name: BitGo Platform Addresses User API
+  slug: open-bitgo-user-api
+- collection_type: open
+  name: BitGo Platform Addresses Wallets API
+  slug: open-bitgo-wallets-api
+- collection_type: open
+  name: BitGo Platform Addresses Webhooks API
+  slug: open-bitgo-webhooks-api
 - collection_type: open
   name: BitGo Platform API
   slug: open-bitgo
@@ -146,7 +182,7 @@ plans:
 - name: Bitgo Plans Pricing
   plan_count: 4
   slug: bitgo-plans-pricing
-random_paper: 53
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Bitgo Rate Limits
@@ -177,7 +213,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/screenshots/bitgo-2026-07-25T203154.png
 security:

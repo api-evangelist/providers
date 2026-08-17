@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Cobre's REST API (v1) for local and cross-border money movements, accounts and balances, counterparties, Bre-B keys, FX quotes, stablecoin payouts, reports/reconciliation and webhook subscriptions.
@@ -154,7 +154,7 @@ overview: 'Cobre publishes 1 API on the [APIs.io](https://apis.io/) network: Pla
 
 
   Cobre''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, sandbox, and 16 more developer resources.'
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Cobre Rate Limits
@@ -181,7 +181,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/screenshots/cobre-2026-07-25T205845.png
 security:

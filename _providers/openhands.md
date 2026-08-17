@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -81,8 +81,41 @@ apis:
 - description: The User API from OpenHands — 8 operation(s) for user.
   name: OpenHands User API
   slug: openhands-user-api
-artifact_total: 37
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenHands Add Git Providers API
+  slug: open-openhands-add-git-providers-api
+- collection_type: open
+  name: OpenHands Add Git Providers Alive API
+  slug: open-openhands-alive-api
+- collection_type: open
+  name: OpenHands Add Git Providers Conversations API
+  slug: open-openhands-conversations-api
+- collection_type: open
+  name: OpenHands Add Git Providers Health API
+  slug: open-openhands-health-api
+- collection_type: open
+  name: OpenHands Add Git Providers Options API
+  slug: open-openhands-options-api
+- collection_type: open
+  name: OpenHands Add Git Providers Reset Settings API
+  slug: open-openhands-reset-settings-api
+- collection_type: open
+  name: OpenHands Add Git Providers Secrets API
+  slug: open-openhands-secrets-api
+- collection_type: open
+  name: OpenHands Add Git Providers Settings API
+  slug: open-openhands-settings-api
+- collection_type: open
+  name: OpenHands Add Git Providers Unset Provider Tokens API
+  slug: open-openhands-unset-provider-tokens-api
+- collection_type: open
+  name: OpenHands Add Git Providers User API
+  slug: open-openhands-user-api
 - collection_type: open
   name: OpenHands
   slug: open-openhands
@@ -223,7 +256,7 @@ plans:
 - name: Openhands Plans Pricing
   plan_count: 1
   slug: openhands-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Openhands Rate Limits
@@ -248,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/screenshots/openhands-2026-06-20T191005.png
 security:

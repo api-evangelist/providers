@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -61,7 +61,35 @@ apis:
 - description: The TransactionService API from Spacemesh — 8 operation(s) for transactionservice.
   name: Spacemesh TransactionService API
   slug: spacemesh-transactionservice-api
-artifact_total: 11
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spacemesh AccountService API
+  slug: open-spacemesh-accountservice-api
+- collection_type: open
+  name: Spacemesh AccountService ActivationService API
+  slug: open-spacemesh-activationservice-api
+- collection_type: open
+  name: Spacemesh AccountService LayerService API
+  slug: open-spacemesh-layerservice-api
+- collection_type: open
+  name: Spacemesh AccountService MalfeasanceService API
+  slug: open-spacemesh-malfeasanceservice-api
+- collection_type: open
+  name: Spacemesh AccountService NetworkService API
+  slug: open-spacemesh-networkservice-api
+- collection_type: open
+  name: Spacemesh AccountService NodeService API
+  slug: open-spacemesh-nodeservice-api
+- collection_type: open
+  name: Spacemesh AccountService RewardService API
+  slug: open-spacemesh-rewardservice-api
+- collection_type: open
+  name: Spacemesh AccountService TransactionService API
+  slug: open-spacemesh-transactionservice-api
 common:
 - group: other
   title: ''
@@ -167,7 +195,7 @@ overview: 'Spacemesh publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Spacemesh''s developer surface includes documentation, API reference, CLI, changelog, and 18 more developer resources.'
-random_paper: 113
+random_paper: 59
 score:
   band: thin
   composite: 29.9
@@ -191,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

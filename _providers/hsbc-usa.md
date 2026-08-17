@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: HSBC group corporate transaction-banking API for initiating outbound payments programmatically, documented on HSBC's Developer Portal and available to wholesale clients including HSBC USA corporate re
@@ -110,7 +110,7 @@ overview: 'HSBC USA publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   HSBC USA''s developer surface includes engineering blog, signup flow, documentation, support, and 13 more developer resources.'
-random_paper: 70
+random_paper: 45
 score:
   band: emerging
   composite: 19.5
@@ -130,7 +130,7 @@ score:
     regime_id: banking_open_finance
     score: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-usa/refs/heads/main/screenshots/hsbc-usa-2026-07-25T221547.png
 security:

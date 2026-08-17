@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Read-only REST API for Axie Infinity: Origins community game data — list and fetch cards, runes, charms and items; list a user''s fighters and fighter configurations; read burned items; list seasons an'
@@ -124,7 +124,7 @@ overview: 'Axie Infinity publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Axie Infinity''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 22
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Axie Infinity Rate Limits
@@ -144,7 +144,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/screenshots/axie-infinity-2026-08-07T162037.png
 security:

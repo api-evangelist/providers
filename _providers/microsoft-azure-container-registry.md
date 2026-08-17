@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Tags API from microsoft-azure-container-registry — 1 operation(s) for tags.
   name: microsoft-azure-container-registry Tags API
   slug: microsoft-azure-container-registry-tags-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Container Registry REST Blobs API
+  slug: open-microsoft-azure-container-registry-blobs-api
+- collection_type: open
+  name: Azure Container Registry REST Blobs Manifests API
+  slug: open-microsoft-azure-container-registry-manifests-api
+- collection_type: open
+  name: Azure Container Registry REST Blobs Repositories API
+  slug: open-microsoft-azure-container-registry-repositories-api
+- collection_type: open
+  name: Azure Container Registry REST Blobs Tags API
+  slug: open-microsoft-azure-container-registry-tags-api
 - collection_type: open
   name: Azure Container Registry REST API
   slug: open-microsoft-azure-container-registry
@@ -116,7 +131,7 @@ plans:
 - name: Microsoft Azure Container Registry Plans Pricing
   plan_count: 3
   slug: microsoft-azure-container-registry-plans-pricing
-random_paper: 40
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Container Registry Rate Limits
@@ -141,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-container-registry/refs/heads/main/screenshots/microsoft-azure-container-registry-2026-06-20T185406.png
 security:

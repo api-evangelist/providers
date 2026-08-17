@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,7 +75,38 @@ apis:
 - description: The Results API from SAP Fieldglass — 1 operation(s) for results.
   name: SAP Fieldglass Results API
   slug: sap-fieldglass-results-api
-artifact_total: 53
+artifact_total: 63
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Approval API
+  slug: open-sap-fieldglass-approval-api
+- collection_type: open
+  name: Approval Audit Trail API
+  slug: open-sap-fieldglass-audit-trail-api
+- collection_type: open
+  name: Approval Get Data API
+  slug: open-sap-fieldglass-get-data-api
+- collection_type: open
+  name: Approval Get Entities API
+  slug: open-sap-fieldglass-get-entities-api
+- collection_type: open
+  name: Approval Get Metadata API
+  slug: open-sap-fieldglass-get-metadata-api
+- collection_type: open
+  name: Approval Get Providers API
+  slug: open-sap-fieldglass-get-providers-api
+- collection_type: open
+  name: Approval Order Confirmation API
+  slug: open-sap-fieldglass-order-confirmation-api
+- collection_type: open
+  name: Approval Reports API
+  slug: open-sap-fieldglass-reports-api
+- collection_type: open
+  name: Approval Results API
+  slug: open-sap-fieldglass-results-api
 common:
 - group: agent
   title: ''
@@ -272,7 +303,7 @@ plans:
 - name: Sap Fieldglass Plans Pricing
   plan_count: 1
   slug: sap-fieldglass-plans-pricing
-random_paper: 103
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Sap Fieldglass Rate Limits
@@ -311,7 +342,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/screenshots/sap-fieldglass-2026-06-20T193426.png
 security:

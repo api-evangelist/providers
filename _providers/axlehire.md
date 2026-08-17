@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Assignment specific calls
@@ -37,11 +37,30 @@ apis:
 - description: Tracking specific calls
   name: AxleHire (Jitsu) Tracking Information API
   slug: axlehire-tracking-information-api
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Axlehire Webhooks
   slug: axlehire-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jitsu REST Assignment Information API
+  slug: open-axlehire-assignment-information-api
+- collection_type: open
+  name: Jitsu REST Driver Information API
+  slug: open-axlehire-driver-information-api
+- collection_type: open
+  name: Jitsu REST Partner Information API
+  slug: open-axlehire-partner-information-api
+- collection_type: open
+  name: Jitsu REST Shipping Information API
+  slug: open-axlehire-shipping-information-api
+- collection_type: open
+  name: Jitsu REST Tracking Information API
+  slug: open-axlehire-tracking-information-api
 common:
 - group: auth
   title: ''
@@ -203,7 +222,7 @@ overview: 'AxleHire (Jitsu) publishes 5 APIs on the [APIs.io](https://apis.io/) 
 
 
   AxleHire (Jitsu)''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 26 more developer resources.'
-random_paper: 10
+random_paper: 105
 rate_limits:
 - limit_count: 1
   name: Axlehire Rate Limits
@@ -229,7 +248,7 @@ score:
       total: 5
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/screenshots/axlehire-2026-08-07T162043.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 35
@@ -57,8 +57,26 @@ apis:
 - description: The /user/subscription/ API from NovelAI — 2 operation(s) for /user/subscription/.
   name: NovelAI /user/subscription/ API
   slug: novelai-user-subscription-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NovelAI Primary /ai/ /ai/ /ai/ API
+  slug: open-novelai-ai-api
+- collection_type: open
+  name: NovelAI Primary /ai/ /ai/ /ai/module/ API
+  slug: open-novelai-ai-module-api
+- collection_type: open
+  name: NovelAI Primary /ai/ /ai/ / API
+  slug: open-novelai-default-api
+- collection_type: open
+  name: NovelAI Primary /ai/ /ai/ /user/ API
+  slug: open-novelai-user-api
+- collection_type: open
+  name: NovelAI Primary /ai/ /ai/ /user/subscription/ API
+  slug: open-novelai-user-subscription-api
 - collection_type: open
   name: NovelAI Primary API
   slug: open-novelai
@@ -111,7 +129,7 @@ plans:
 - name: Novelai Plans Pricing
   plan_count: 3
   slug: novelai-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Novelai Rate Limits
@@ -136,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/screenshots/novelai-2026-06-20T190437.png
 security:

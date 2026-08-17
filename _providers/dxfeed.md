@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -56,11 +56,15 @@ apis:
 - description: Historical data access covering candle/aggregated data and raw tick data extraction (dxFeed stores up to 10TB of raw data per day). The knowledge base documents how to request tick data and read extra
   name: dxFeed Historical Data Services
   slug: dxfeed-historical-data-services
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: '## Overview dxLink.WebSocket is a WebSocket-based protocol that allows you to receive market data from dxFeed services. ## Terminology - **Connection** - an instance of the WebSocket connection - **Cl'
   name: dxLink WebSocket
   slug: dxfeed-dxlink-asyncapi
+collections:
+- collection_type: open
+  name: dxFeed Fundamentals API
+  slug: open-dxfeed-fundamentals
 common:
 - group: agent
   title: ''
@@ -185,7 +189,7 @@ overview: 'dxFeed publishes 2 APIs on the [APIs.io](https://apis.io/) network: d
 
 
   dxFeed''s developer surface includes authentication, sandbox, getting-started guide, API reference, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 24
+random_paper: 28
 score:
   band: developing
   composite: 45.9
@@ -210,7 +214,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png
 security:

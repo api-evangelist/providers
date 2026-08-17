@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -49,7 +49,7 @@ apis:
 - description: Webhook event notifications — subscribe to asynchronous payment and account events (for example float_accounts.unmatched_credit.received) to drive real-time reconciliation and payment status handling.
   name: Zepto Notifications API (Webhooks)
   slug: notifications-api
-artifact_total: 22
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Zepto Payments Notifications Webhooks
@@ -76,6 +76,27 @@ collections:
 - collection_type: postman
   name: Zepto API
   slug: postman-zepto-payments-zepto
+- collection_type: open
+  name: Zepto Clients API (Alpha)
+  slug: open-zepto-payments-clients
+- collection_type: open
+  name: Zepto Investigations API
+  slug: open-zepto-payments-investigations
+- collection_type: open
+  name: Zepto Merchant Reports API
+  slug: open-zepto-payments-merchant-reports
+- collection_type: open
+  name: Notifications
+  slug: open-zepto-payments-notifications
+- collection_type: open
+  name: Zepto PayTo API
+  slug: open-zepto-payments-pay-to
+- collection_type: open
+  name: Zepto Validate API (Confirmation of Payee)
+  slug: open-zepto-payments-validate-cop
+- collection_type: open
+  name: Zepto API
+  slug: open-zepto-payments-zepto
 common:
 - group: build
   title: ''
@@ -257,7 +278,7 @@ overview: 'Zepto publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zepto''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, sandbox, and 33 more developer resources.'
-random_paper: 48
+random_paper: 147
 scopes:
 - name: Zepto Payments Scopes
   scope_count: 9
@@ -292,7 +313,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

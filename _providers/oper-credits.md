@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 52
 apis:
 - description: The Agent Documents API from Oper Credits — 2 operation(s) for agent documents.
@@ -187,11 +187,171 @@ apis:
 - description: Your Webhooks tag description
   name: Oper Credits Webhooks API
   slug: oper-credits-webhooks-api
-artifact_total: 58
+artifact_total: 111
 asyncapis:
 - description: ''
   name: Oper Credits Webhooks
   slug: oper-credits-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oper Credits Agent Documents API
+  slug: open-oper-credits-agent-documents-api
+- collection_type: open
+  name: Oper Credits Agent Documents Appointment Booking Websites API
+  slug: open-oper-credits-appointment-booking-websites-api
+- collection_type: open
+  name: Oper Credits Agent Documents Approvals API
+  slug: open-oper-credits-approvals-api
+- collection_type: open
+  name: Oper Credits Agent Documents Bank Release Policy API
+  slug: open-oper-credits-bank-release-policy-api
+- collection_type: open
+  name: Oper Credits Agent Documents Base Products API
+  slug: open-oper-credits-base-products-api
+- collection_type: open
+  name: Oper Credits Agent Documents Calculate API
+  slug: open-oper-credits-calculate-api
+- collection_type: open
+  name: Oper Credits Agent Documents Check Invite Token API
+  slug: open-oper-credits-check-invite-token-api
+- collection_type: open
+  name: Oper Credits Agent Documents Check Reset Password API
+  slug: open-oper-credits-check-reset-password-api
+- collection_type: open
+  name: Oper Credits Agent Documents Client Users API
+  slug: open-oper-credits-client-users-api
+- collection_type: open
+  name: Oper Credits Agent Documents Clients API
+  slug: open-oper-credits-clients-api
+- collection_type: open
+  name: Oper Credits Agent Documents Commissions API
+  slug: open-oper-credits-commissions-api
+- collection_type: open
+  name: Oper Credits Agent Documents Communication History API
+  slug: open-oper-credits-communication-history-api
+- collection_type: open
+  name: Oper Credits Agent Documents Connective API
+  slug: open-oper-credits-connective-api
+- collection_type: open
+  name: Oper Credits Agent Documents Contact Advisor API
+  slug: open-oper-credits-contact-advisor-api
+- collection_type: open
+  name: Oper Credits Agent Documents Contact API
+  slug: open-oper-credits-contact-api
+- collection_type: open
+  name: Oper Credits Agent Documents Contact Policy API
+  slug: open-oper-credits-contact-policy-api
+- collection_type: open
+  name: Oper Credits Agent Documents Credit Providers API
+  slug: open-oper-credits-credit-providers-api
+- collection_type: open
+  name: Oper Credits Agent Documents Documentation Library API
+  slug: open-oper-credits-documentation-library-api
+- collection_type: open
+  name: Oper Credits Agent Documents API
+  slug: open-oper-credits-documents-api
+- collection_type: open
+  name: Oper Credits Agent Documents Easy Audit API
+  slug: open-oper-credits-easy-audit-api
+- collection_type: open
+  name: Oper Credits Agent Documents Forgot Password API
+  slug: open-oper-credits-forgot-password-api
+- collection_type: open
+  name: Oper Credits Agent Documents Gdpr Policy API
+  slug: open-oper-credits-gdpr-policy-api
+- collection_type: open
+  name: Oper Credits Agent Documents Health API
+  slug: open-oper-credits-health-api
+- collection_type: open
+  name: Oper Credits Agent Documents Integrations API
+  slug: open-oper-credits-integrations-api
+- collection_type: open
+  name: Oper Credits Agent Documents Internaldocuments API
+  slug: open-oper-credits-internaldocuments-api
+- collection_type: open
+  name: Oper Credits Agent Documents Jwt API
+  slug: open-oper-credits-jwt-api
+- collection_type: open
+  name: Oper Credits Agent Documents Legal Links API
+  slug: open-oper-credits-legal-links-api
+- collection_type: open
+  name: Oper Credits Agent Documents Library API
+  slug: open-oper-credits-library-api
+- collection_type: open
+  name: Oper Credits Agent Documents Loan Requests API
+  slug: open-oper-credits-loan-requests-api
+- collection_type: open
+  name: Oper Credits Agent Documents Loan Requests Client Info API
+  slug: open-oper-credits-loan-requests-client-info-api
+- collection_type: open
+  name: Oper Credits Agent Documents Main API
+  slug: open-oper-credits-main-api
+- collection_type: open
+  name: Oper Credits Agent Documents Me API
+  slug: open-oper-credits-me-api
+- collection_type: open
+  name: Oper Credits Agent Documents Metrics API
+  slug: open-oper-credits-metrics-api
+- collection_type: open
+  name: Oper Credits Agent Documents Model Fields API
+  slug: open-oper-credits-model-fields-api
+- collection_type: open
+  name: Oper Credits Agent Documents Pricing API
+  slug: open-oper-credits-pricing-api
+- collection_type: open
+  name: Oper Credits Agent Documents Privacy Policy API
+  slug: open-oper-credits-privacy-policy-api
+- collection_type: open
+  name: Oper Credits Agent Documents Products API
+  slug: open-oper-credits-products-api
+- collection_type: open
+  name: Oper Credits Agent Documents Reset Password API
+  slug: open-oper-credits-reset-password-api
+- collection_type: open
+  name: Oper Credits Agent Documents Resources API
+  slug: open-oper-credits-resources-api
+- collection_type: open
+  name: Oper Credits Agent Documents Send Generic Email API
+  slug: open-oper-credits-send-generic-email-api
+- collection_type: open
+  name: Oper Credits Agent Documents Sign In API
+  slug: open-oper-credits-sign-in-api
+- collection_type: open
+  name: Oper Credits Agent Documents Sign Up API
+  slug: open-oper-credits-sign-up-api
+- collection_type: open
+  name: Oper Credits Agent Documents Simulators API
+  slug: open-oper-credits-simulators-api
+- collection_type: open
+  name: Oper Credits Agent Documents Sso API
+  slug: open-oper-credits-sso-api
+- collection_type: open
+  name: Oper Credits Agent Documents Tasks API
+  slug: open-oper-credits-tasks-api
+- collection_type: open
+  name: Oper Credits Agent Documents Terms And Conditions API
+  slug: open-oper-credits-terms-and-conditions-api
+- collection_type: open
+  name: Oper Credits Agent Documents Third Parties API
+  slug: open-oper-credits-third-parties-api
+- collection_type: open
+  name: Oper Credits Agent Documents Third Party Api API
+  slug: open-oper-credits-third-party-api-api
+- collection_type: open
+  name: Oper Credits Agent Documents User Management API
+  slug: open-oper-credits-user-management-api
+- collection_type: open
+  name: Oper Credits Agent Documents Users API
+  slug: open-oper-credits-users-api
+- collection_type: open
+  name: Oper Credits Agent Documents Validators API
+  slug: open-oper-credits-validators-api
+- collection_type: open
+  name: Oper Credits Agent Documents Webhooks API
+  slug: open-oper-credits-webhooks-api
 common:
 - group: company
   title: ''
@@ -312,7 +472,7 @@ overview: 'Oper Credits publishes 52 APIs on the [APIs.io](https://apis.io/) net
 
 
   Oper Credits'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 33
+random_paper: 41
 score:
   band: developing
   composite: 43.5
@@ -341,7 +501,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/screenshots/oper-credits-2026-08-07T190702.png
 security:

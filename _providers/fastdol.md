@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -71,7 +71,7 @@ apis:
 - description: The Webhooks API from FastDOL — 1 operation(s) for webhooks.
   name: FastDOL Webhooks API
   slug: fastdol-webhooks-api
-artifact_total: 125
+artifact_total: 137
 collections:
 - collection_type: postman
   name: FastDOL Auth API
@@ -106,6 +106,42 @@ collections:
 - collection_type: postman
   name: FastDOL Auth Webhooks API
   slug: postman-fastdol-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FastDOL Auth API
+  slug: open-fastdol-auth-api
+- collection_type: open
+  name: FastDOL Auth Dashboard API
+  slug: open-fastdol-dashboard-api
+- collection_type: open
+  name: FastDOL Auth Employers API
+  slug: open-fastdol-employers-api
+- collection_type: open
+  name: FastDOL Auth Export API
+  slug: open-fastdol-export-api
+- collection_type: open
+  name: FastDOL Auth Health API
+  slug: open-fastdol-health-api
+- collection_type: open
+  name: FastDOL Auth Industries API
+  slug: open-fastdol-industries-api
+- collection_type: open
+  name: FastDOL Auth Inspections API
+  slug: open-fastdol-inspections-api
+- collection_type: open
+  name: FastDOL Auth Sitemap API
+  slug: open-fastdol-sitemap-api
+- collection_type: open
+  name: FastDOL Auth Stats API
+  slug: open-fastdol-stats-api
+- collection_type: open
+  name: FastDOL Auth Usage API
+  slug: open-fastdol-usage-api
+- collection_type: open
+  name: FastDOL Auth Webhooks API
+  slug: open-fastdol-webhooks-api
 - collection_type: open
   name: FastDOL API
   slug: open-fastdol
@@ -464,7 +500,7 @@ plans:
 - name: Fastdol Plans Pricing
   plan_count: 2
   slug: fastdol-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 10
   name: Fastdol Rate Limits
@@ -512,7 +548,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/screenshots/fastdol-2026-06-20T181047.png
 security:

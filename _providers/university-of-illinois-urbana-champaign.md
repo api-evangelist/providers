@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 3
@@ -81,7 +81,47 @@ apis:
 - description: The .well Known API from University of Illinois Urbana-Champaign — 1 operation(s) for .well known.
   name: University of Illinois Urbana-Champaign .well Known API
   slug: university-of-illinois-urbana-champaign-well-known-api
-artifact_total: 30
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rokwire Core Building Block Admin API
+  slug: open-university-of-illinois-urbana-champaign-admin-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin BBs API
+  slug: open-university-of-illinois-urbana-champaign-bbs-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin Client API
+  slug: open-university-of-illinois-urbana-champaign-client-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin Default API
+  slug: open-university-of-illinois-urbana-champaign-default-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin Enc API
+  slug: open-university-of-illinois-urbana-champaign-enc-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin Services API
+  slug: open-university-of-illinois-urbana-champaign-services-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin System API
+  slug: open-university-of-illinois-urbana-champaign-system-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin Third-Party Services API
+  slug: open-university-of-illinois-urbana-champaign-third-party-services-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin TPS API
+  slug: open-university-of-illinois-urbana-champaign-tps-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin UI API
+  slug: open-university-of-illinois-urbana-champaign-ui-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin Version API
+  slug: open-university-of-illinois-urbana-champaign-version-api
+- collection_type: open
+  name: Rokwire Core Building Block Admin .well Known API
+  slug: open-university-of-illinois-urbana-champaign-well-known-api
 common:
 - group: agent
   title: ''
@@ -187,7 +227,7 @@ plans:
 - name: University Of Illinois Urbana Champaign Plans Pricing
   plan_count: 2
   slug: university-of-illinois-urbana-champaign-plans-pricing
-random_paper: 111
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: University Of Illinois Urbana Champaign Rate Limits
@@ -235,7 +275,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/screenshots/university-of-illinois-urbana-champaign-2026-06-20T200155.png
 security:

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 52.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +61,26 @@ apis:
 - description: SEND surface - draft, populate, attach, and send messages.
   name: Kno2 Messaging API
   slug: kno2-messaging-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kno2 Communication Attachments API
+  slug: open-kno2-attachments-api
+- collection_type: open
+  name: Kno2 Communication Attachments Authentication API
+  slug: open-kno2-authentication-api
+- collection_type: open
+  name: Kno2 Communication Attachments Directory API
+  slug: open-kno2-directory-api
+- collection_type: open
+  name: Kno2 Communication Attachments Intake API
+  slug: open-kno2-intake-api
+- collection_type: open
+  name: Kno2 Communication Attachments Messaging API
+  slug: open-kno2-messaging-api
 - collection_type: open
   name: Kno2 Communication API
   slug: open-kno2
@@ -114,6 +133,98 @@ common:
   title: ''
   type: FinOps
   url: finops/kno2-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.kno2.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.kno2.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://kno2.com/contact/
+- group: company
+  title: ''
+  type: Blog
+  url: https://kno2.com/resources/blog/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://kno2.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://kno2.com/privacy-policy/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://kno2.com/request-a-demo/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/kno2-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kno2-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/kno2-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kno2-attachments-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kno2-authentication-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kno2-directory-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kno2-intake-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kno2-messaging-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/kno2-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/kno2-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/kno2-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.kno2.com
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/kno2-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/kno2-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kno2-send-a-message.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kno2-process-inbound-message.md
 created: '2026-07-12'
 description: Kno2 provides Interoperability as a Service for healthcare - a single Communication API to SEND, RECEIVE, and FIND patient information across the healthcare ecosystem. One connection reaches Direct Secure Messaging, clinical document exchange, HL7 FHIR resources, HL7 V2.x, cloud fax, and national record location and retrieval through Kno2's private network, Carequality, eHealth Exchange, and TEFCA (Kno2 is a federally designated QHIN). API access is partner/enterprise gated - integrators are provisioned a per-subscription tenant host with OAuth2 client-credentials keys and an IP allowlist; a staging sandbox is available through the Kno2 Developer Program.
 finops:
@@ -122,34 +233,38 @@ finops:
   slug: kno2-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kno2.png
 layout: provider
-modified: '2026-07-12'
+mcp_servers:
+- description: ''
+  name: kno2-mcp.yml
+  slug: kno2-mcpyml
+modified: '2026-08-14'
 name: Kno2
 nav: Providers
 network: true
 overview: 'Kno2 publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Authentication API, Directory API, and 2 more. Tagged areas include Healthcare Interoperability, Clinical Records, Health Information Exchange, Direct Secure Messaging, and FHIR.
 
 
-  Kno2''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Kno2''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 29 more developer resources.'
 plans:
 - name: Kno2 Plans Pricing
   plan_count: 2
   slug: kno2-plans-pricing
-random_paper: 18
+random_paper: 80
 rate_limits:
 - limit_count: 3
   name: Kno2 Rate Limits
   slug: kno2-rate-limits
 score:
-  band: thin
-  composite: 34.0
-  delta: 0.0
+  band: developing
+  composite: 53.1
+  delta: 19.1
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 63.2
     contract_quality: 62.0
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 52.6
   previous_composite: 34.0
   provenance:
     agentic_access: derived
@@ -163,20 +278,20 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 15.0
+    score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/screenshots/kno2-2026-07-25T224009.png
 security:
 - kind: authentication
   name: Kno2 Authentication
   slug: kno2-authentication
-  summary_line: oauth2/http · 3 schemes
+  summary_line: http · 2 schemes
 - kind: domain-security
   name: Kno2 Domain Security
   slug: kno2-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: kno2
 tags:
 - Healthcare Interoperability

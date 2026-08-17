@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Manage API keys (also called API tokens) used to authenticate Control Plane API requests. Distinct from disk tokens.
@@ -43,7 +43,7 @@ apis:
 - description: Run commands on a disk without provisioning compute
   name: Archil Serverless Execution API
   slug: archil-serverless-execution-api
-artifact_total: 13
+artifact_total: 18
 collections:
 - collection_type: postman
   name: Archil Control Plane API Tokens API
@@ -57,6 +57,21 @@ collections:
 - collection_type: postman
   name: Archil Control Plane API Tokens Serverless Execution API
   slug: postman-archil-serverless-execution-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Archil Control Plane API Tokens API
+  slug: open-archil-api-tokens-api
+- collection_type: open
+  name: Archil Control Plane API Tokens Disk Users API
+  slug: open-archil-disk-users-api
+- collection_type: open
+  name: Archil Control Plane API Tokens Disks API
+  slug: open-archil-disks-api
+- collection_type: open
+  name: Archil Control Plane API Tokens Serverless Execution API
+  slug: open-archil-serverless-execution-api
 common:
 - group: other
   title: ''
@@ -195,7 +210,7 @@ overview: 'Archil publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Archil''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 27
+random_paper: 31
 score:
   band: strong
   composite: 59.3
@@ -218,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/screenshots/archil-2026-07-25T201028.png
 security:

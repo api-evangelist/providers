@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 50
 apis:
 - description: The Analytics API from Wispr AI — 3 operation(s) for analytics.
@@ -181,7 +181,161 @@ apis:
 - description: The Wispr Backend API from Wispr AI — 1 operation(s) for wispr backend.
   name: Wispr AI Wispr Backend API
   slug: wispr-ai-wispr-backend-api
-artifact_total: 55
+artifact_total: 106
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wispr Backend Analytics API
+  slug: open-wispr-ai-analytics-api
+- collection_type: open
+  name: Wispr Backend Analytics Analytics Registry API
+  slug: open-wispr-ai-analytics-registry-api
+- collection_type: open
+  name: Wispr Backend Analytics Attribution Tracking API
+  slug: open-wispr-ai-attribution-tracking-api
+- collection_type: open
+  name: Wispr Backend Analytics Authentication API
+  slug: open-wispr-ai-authentication-api
+- collection_type: open
+  name: Wispr Backend Analytics Automations API
+  slug: open-wispr-ai-automations-api
+- collection_type: open
+  name: Wispr Backend Analytics Calendar API
+  slug: open-wispr-ai-calendar-api
+- collection_type: open
+  name: Wispr Backend Analytics Connectors API
+  slug: open-wispr-ai-connectors-api
+- collection_type: open
+  name: Wispr Backend Analytics Cost Centers API
+  slug: open-wispr-ai-cost-centers-api
+- collection_type: open
+  name: Wispr Backend Analytics Dash API
+  slug: open-wispr-ai-dash-api
+- collection_type: open
+  name: Wispr Backend Analytics Dictionary API
+  slug: open-wispr-ai-dictionary-api
+- collection_type: open
+  name: Wispr Backend Analytics Enterpret API
+  slug: open-wispr-ai-enterpret-api
+- collection_type: open
+  name: Wispr Backend Analytics Enterprise API
+  slug: open-wispr-ai-enterprise-api
+- collection_type: open
+  name: Wispr Backend Analytics Geo API
+  slug: open-wispr-ai-geo-api
+- collection_type: open
+  name: Wispr Backend Analytics History API
+  slug: open-wispr-ai-history-api
+- collection_type: open
+  name: Wispr Backend Analytics Incidents API
+  slug: open-wispr-ai-incidents-api
+- collection_type: open
+  name: Wispr Backend Analytics Insights API
+  slug: open-wispr-ai-insights-api
+- collection_type: open
+  name: Wispr Backend Analytics InstructHistory API
+  slug: open-wispr-ai-instructhistory-api
+- collection_type: open
+  name: Wispr Backend Analytics Internal API
+  slug: open-wispr-ai-internal-api
+- collection_type: open
+  name: Wispr Backend Analytics Internal Marketing API
+  slug: open-wispr-ai-internal-marketing-api
+- collection_type: open
+  name: Wispr Backend Analytics keyboard_telemetry API
+  slug: open-wispr-ai-keyboard-telemetry-api
+- collection_type: open
+  name: Wispr Backend Analytics LinkedIn API
+  slug: open-wispr-ai-linkedin-api
+- collection_type: open
+  name: Wispr Backend Analytics LLM API
+  slug: open-wispr-ai-llm-api
+- collection_type: open
+  name: Wispr Backend Analytics Marketing API
+  slug: open-wispr-ai-marketing-api
+- collection_type: open
+  name: Wispr Backend Analytics Meeting Share API
+  slug: open-wispr-ai-meeting-share-api
+- collection_type: open
+  name: Wispr Backend Analytics Meetings API
+  slug: open-wispr-ai-meetings-api
+- collection_type: open
+  name: Wispr Backend Analytics memory API
+  slug: open-wispr-ai-memory-api
+- collection_type: open
+  name: Wispr Backend Analytics Notes API
+  slug: open-wispr-ai-notes-api
+- collection_type: open
+  name: Wispr Backend Analytics Notetaker Chats API
+  slug: open-wispr-ai-notetaker-chats-api
+- collection_type: open
+  name: Wispr Backend Analytics Notification API
+  slug: open-wispr-ai-notification-api
+- collection_type: open
+  name: Wispr Backend Analytics Payments API
+  slug: open-wispr-ai-payments-api
+- collection_type: open
+  name: Wispr Backend Analytics Platform API
+  slug: open-wispr-ai-platform-api
+- collection_type: open
+  name: Wispr Backend Analytics Polish API
+  slug: open-wispr-ai-polish-api
+- collection_type: open
+  name: Wispr Backend Analytics Promotions API
+  slug: open-wispr-ai-promotions-api
+- collection_type: open
+  name: Wispr Backend Analytics Referral API
+  slug: open-wispr-ai-referral-api
+- collection_type: open
+  name: Wispr Backend Analytics sandbox-user API
+  slug: open-wispr-ai-sandbox-user-api
+- collection_type: open
+  name: Wispr Backend Analytics SMS API
+  slug: open-wispr-ai-sms-api
+- collection_type: open
+  name: Wispr Backend Analytics Support API
+  slug: open-wispr-ai-support-api
+- collection_type: open
+  name: Wispr Backend Analytics Sync API
+  slug: open-wispr-ai-sync-api
+- collection_type: open
+  name: Wispr Backend Analytics Sync WS API
+  slug: open-wispr-ai-sync-ws-api
+- collection_type: open
+  name: Wispr Backend Analytics Team Insights API
+  slug: open-wispr-ai-team-insights-api
+- collection_type: open
+  name: Wispr Backend Analytics Teams API
+  slug: open-wispr-ai-teams-api
+- collection_type: open
+  name: Wispr Backend Analytics Todos API
+  slug: open-wispr-ai-todos-api
+- collection_type: open
+  name: Wispr Backend Analytics Tracking API
+  slug: open-wispr-ai-tracking-api
+- collection_type: open
+  name: Wispr Backend Analytics Transform API
+  slug: open-wispr-ai-transform-api
+- collection_type: open
+  name: Wispr Backend Analytics Typing Test API
+  slug: open-wispr-ai-typing-test-api
+- collection_type: open
+  name: Wispr Backend Analytics User Context API
+  slug: open-wispr-ai-user-context-api
+- collection_type: open
+  name: Wispr Backend Analytics User Management API
+  slug: open-wispr-ai-user-management-api
+- collection_type: open
+  name: Wispr Backend Analytics User Voice Preferences API
+  slug: open-wispr-ai-user-voice-preferences-api
+- collection_type: open
+  name: Wispr Backend Analytics Voice Actions API
+  slug: open-wispr-ai-voice-actions-api
+- collection_type: open
+  name: Analytics Wispr Backend API
+  slug: open-wispr-ai-wispr-backend-api
 common:
 - group: company
   title: ''
@@ -315,7 +469,7 @@ overview: 'Wispr AI publishes 50 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wispr AI''s developer surface includes engineering blog, pricing, support, signup flow, changelog, authentication, and 23 more developer resources.'
-random_paper: 92
+random_paper: 67
 score:
   band: developing
   composite: 45.6
@@ -338,7 +492,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

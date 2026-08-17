@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -99,8 +99,26 @@ apis:
 - description: Token counting and other helpers
   name: Gemini Utility API
   slug: gemini-utility-api
-artifact_total: 50
+artifact_total: 56
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Gemini Embeddings API
+  slug: open-gemini-embeddings-api
+- collection_type: open
+  name: Google Gemini Embeddings Files API
+  slug: open-gemini-files-api
+- collection_type: open
+  name: Google Gemini Embeddings Generation API
+  slug: open-gemini-generation-api
+- collection_type: open
+  name: Google Gemini Embeddings Models API
+  slug: open-gemini-models-api
+- collection_type: open
+  name: Google Gemini Embeddings Utility API
+  slug: open-gemini-utility-api
 - collection_type: open
   name: Google Gemini API
   slug: open-gemini
@@ -239,7 +257,7 @@ plans:
 - name: Gemini Plans Pricing
   plan_count: 3
   slug: gemini-plans-pricing
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Gemini Rate Limits
@@ -264,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/screenshots/gemini-2026-06-20T181714.png
 security:

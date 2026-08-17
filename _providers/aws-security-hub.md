@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -74,8 +74,44 @@ apis:
 - description: The Tags API from AWS Security Hub — 1 operation(s) for tags.
   name: AWS Security Hub Tags API
   slug: aws-security-hub-tags-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Security Hub Action Targets API
+  slug: open-aws-security-hub-action-targets-api
+- collection_type: open
+  name: AWS Security Hub Action Targets Automation Rules API
+  slug: open-aws-security-hub-automation-rules-api
+- collection_type: open
+  name: AWS Security Hub Action Targets Configuration Policies API
+  slug: open-aws-security-hub-configuration-policies-api
+- collection_type: open
+  name: AWS Security Hub Action Targets Controls API
+  slug: open-aws-security-hub-controls-api
+- collection_type: open
+  name: AWS Security Hub Action Targets Findings API
+  slug: open-aws-security-hub-findings-api
+- collection_type: open
+  name: AWS Security Action Targets Hub API
+  slug: open-aws-security-hub-hub-api
+- collection_type: open
+  name: AWS Security Hub Action Targets Insights API
+  slug: open-aws-security-hub-insights-api
+- collection_type: open
+  name: AWS Security Hub Action Targets Invitations API
+  slug: open-aws-security-hub-invitations-api
+- collection_type: open
+  name: AWS Security Hub Action Targets Members API
+  slug: open-aws-security-hub-members-api
+- collection_type: open
+  name: AWS Security Hub Action Targets Standards API
+  slug: open-aws-security-hub-standards-api
+- collection_type: open
+  name: AWS Security Hub Action Targets Tags API
+  slug: open-aws-security-hub-tags-api
 - collection_type: open
   name: AWS Security Hub API
   slug: open-aws-security-hub
@@ -132,7 +168,7 @@ overview: 'AWS Security Hub publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   AWS Security Hub''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 68
+random_paper: 138
 score:
   band: thin
   composite: 31.1
@@ -153,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/screenshots/aws-security-hub-2026-06-20T172802.png
 security:

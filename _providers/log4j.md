@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The logging facade providing a feature-rich Java interface for application logging. Applications code against this stable API while delegating to a backing implementation such as Log4j Core.
@@ -111,7 +111,7 @@ plans:
 - name: Log4J Plans Pricing
   plan_count: 3
   slug: log4j-plans-pricing
-random_paper: 0
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Log4J Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/screenshots/log4j-2026-06-20T184648.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,11 +66,32 @@ apis:
 - description: Football team information and statistics
   name: TheSports Teams API
   slug: thesports-teams-api
-artifact_total: 25
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TheSports Football Competitions API
+  slug: open-thesports-competitions-api
 - collection_type: open
   name: TheSports Football API
   slug: open-thesports-football
+- collection_type: open
+  name: TheSports Football Competitions Matches API
+  slug: open-thesports-matches-api
+- collection_type: open
+  name: TheSports Football Competitions Players API
+  slug: open-thesports-players-api
+- collection_type: open
+  name: TheSports Football Competitions Standings API
+  slug: open-thesports-standings-api
+- collection_type: open
+  name: TheSports Football Competitions Statistics API
+  slug: open-thesports-statistics-api
+- collection_type: open
+  name: TheSports Football Competitions Teams API
+  slug: open-thesports-teams-api
 common:
 - group: agent
   title: ''
@@ -165,7 +186,7 @@ plans:
 - name: Thesports Plans Pricing
   plan_count: 1
   slug: thesports-plans-pricing
-random_paper: 44
+random_paper: 110
 rate_limits:
 - limit_count: 1
   name: Thesports Rate Limits
@@ -207,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/screenshots/thesports-2026-06-20T195259.png
 security:

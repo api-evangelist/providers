@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,11 +41,18 @@ apis:
 - description: The Fleet API from Fleet — 2 operation(s) for fleet.
   name: Fleet Fleet API
   slug: fleet-fleet-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Fleet Webhooks
   slug: fleet-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Premium Fleet API
+  slug: open-fleet-fleet-api
 common:
 - group: agent
   title: ''
@@ -198,7 +205,7 @@ overview: 'Fleet publishes 1 API on the [APIs.io](https://apis.io/) network: Fle
 
 
   Fleet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 48
+random_paper: 81
 score:
   band: developing
   composite: 54.8
@@ -222,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/screenshots/fleet-2026-07-25T214732.png
 security:

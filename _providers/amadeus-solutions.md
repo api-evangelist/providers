@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +43,17 @@ apis:
 - description: The Shopping API from Amadeus Solutions — 3 operation(s) for shopping.
   name: Amadeus Solutions Shopping API
   slug: amadeus-solutions-shopping-api
-artifact_total: 725
+artifact_total: 728
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Branded Fares Upsell Display SeatMaps API
+  slug: open-amadeus-solutions-display-seatmaps-api
+- collection_type: open
+  name: Branded Fares Upsell Display SeatMaps Shopping API
+  slug: open-amadeus-solutions-shopping-api
 common:
 - group: other
   title: ''
@@ -2297,7 +2307,7 @@ overview: 'Amadeus Solutions publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Amadeus Solutions'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 21 more developer resources.'
-random_paper: 109
+random_paper: 1
 rules:
 - name: Amadeus Solutions API Rules
   rule_count: 5
@@ -2337,7 +2347,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/screenshots/amadeus-solutions-2026-07-25T195907.png
 security:

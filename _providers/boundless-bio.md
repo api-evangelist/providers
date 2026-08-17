@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -58,7 +58,41 @@ apis:
 - description: The Users API from Boundless Bio — 3 operation(s) for users.
   name: Boundless Bio Users API
   slug: boundless-bio-users-api
-artifact_total: 13
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Comments API
+  slug: open-boundless-bio-comments-api
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Discovery API
+  slug: open-boundless-bio-discovery-api
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Leadership API
+  slug: open-boundless-bio-leadership-api
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Media API
+  slug: open-boundless-bio-media-api
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Pages API
+  slug: open-boundless-bio-pages-api
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Posts API
+  slug: open-boundless-bio-posts-api
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Search API
+  slug: open-boundless-bio-search-api
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Settings API
+  slug: open-boundless-bio-settings-api
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Taxonomy API
+  slug: open-boundless-bio-taxonomy-api
+- collection_type: open
+  name: Boundless Bio Content API (WordPress REST wp/v2) Users API
+  slug: open-boundless-bio-users-api
 common:
 - group: other
   title: ''
@@ -169,7 +203,7 @@ overview: 'Boundless Bio publishes 10 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Boundless Bio''s developer surface includes support, authentication, and 22 more developer resources.'
-random_paper: 14
+random_paper: 142
 score:
   band: emerging
   composite: 22.3
@@ -198,7 +232,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

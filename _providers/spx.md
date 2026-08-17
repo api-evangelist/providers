@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,11 +53,29 @@ apis:
 - description: Control rundown focus and item playback
   name: SPX Graphics Rundown API
   slug: spx-rundown-api
-artifact_total: 18
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SPX Graphics Control Data API
+  slug: open-spx-data-api
+- collection_type: open
+  name: SPX Graphics Control Data Extensions API
+  slug: open-spx-extensions-api
+- collection_type: open
+  name: SPX Graphics Control Data Files API
+  slug: open-spx-files-api
 - collection_type: open
   name: SPX Graphics Control API
   slug: open-spx-graphics-control-api
+- collection_type: open
+  name: SPX Graphics Control Data Item API
+  slug: open-spx-item-api
+- collection_type: open
+  name: SPX Graphics Control Data Rundown API
+  slug: open-spx-rundown-api
 common:
 - group: agent
   title: ''
@@ -150,7 +168,7 @@ press:
 - date: '2026-05-25'
   title: SPX FLOW and Siemens collaborate on revolutionary ...
   url: https://www.prnewswire.com/news-releases/spx-flow-and-siemens-collaborate-on-revolutionary-digital-twin-and-ai-product-design-302363262.html
-random_paper: 107
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Spx Rate Limits
@@ -192,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/screenshots/spx-2026-06-20T194423.png
 security:

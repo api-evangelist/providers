@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,11 +65,26 @@ apis:
 - description: Model management and metadata operations
   name: Scalable Inference Serving Models API
   slug: scalable-inference-serving-models-api
-artifact_total: 43
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: KServe Open Inference Protocol API
   slug: open-kserve-open-inference-protocol
+- collection_type: open
+  name: KServe Open Inference Protocol Health API
+  slug: open-scalable-inference-serving-health-api
+- collection_type: open
+  name: KServe Open Protocol Health Inference API
+  slug: open-scalable-inference-serving-inference-api
+- collection_type: open
+  name: KServe Open Inference Protocol Health Metadata API
+  slug: open-scalable-inference-serving-metadata-api
+- collection_type: open
+  name: KServe Open Inference Protocol Health Models API
+  slug: open-scalable-inference-serving-models-api
 common:
 - group: agent
   title: ''
@@ -228,7 +243,7 @@ plans:
 - name: Scalable Inference Serving Plans Pricing
   plan_count: 1
   slug: scalable-inference-serving-plans-pricing
-random_paper: 102
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Scalable Inference Serving Rate Limits
@@ -270,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/screenshots/scalable-inference-serving-2026-06-20T193501.png
 slug: scalable-inference-serving

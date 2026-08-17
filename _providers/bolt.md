@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -78,7 +78,29 @@ apis:
 - description: Use the Testing API to generate and retrieve test data to verify a subset of flows in non-production environments.
   name: Bolt Testing API
   slug: bolt-testing-api
-artifact_total: 110
+artifact_total: 117
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bolt API Reference Account API
+  slug: open-bolt-account-api
+- collection_type: open
+  name: Bolt API Reference Account Callbacks API
+  slug: open-bolt-callbacks-api
+- collection_type: open
+  name: Bolt API Reference Account OAuth API
+  slug: open-bolt-oauth-api
+- collection_type: open
+  name: Bolt API Reference Account Orders API
+  slug: open-bolt-orders-api
+- collection_type: open
+  name: Bolt API Reference Account Payments API
+  slug: open-bolt-payments-api
+- collection_type: open
+  name: Bolt API Reference Account Testing API
+  slug: open-bolt-testing-api
 common:
 - group: agent
   title: ''
@@ -451,7 +473,7 @@ plans:
 - name: Bolt Plans Pricing
   plan_count: 1
   slug: bolt-plans-pricing
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 0
   name: Bolt Rate Limits
@@ -496,7 +518,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt/refs/heads/main/screenshots/bolt-2026-06-20T173600.png
 security:

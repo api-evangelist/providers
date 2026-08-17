@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,11 @@ apis:
 - description: The only Yardi API that can be called today without a contract. It is the Atlassian Statuspage v2 REST API hosted on Yardi's own status host, with the endpoint list published by Yardi at https://statu
   name: Yardi Systems Status API
   slug: yardi-systems-status-api
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Yardi Systems Status API
+  slug: open-yardi-canada-status
 common:
 - group: agent
   title: ''
@@ -204,7 +208,7 @@ overview: 'Yardi Canada publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Yardi Canada''s developer surface includes documentation, authentication, changelog, support, legal docs, engineering blog, product news, and 29 more developer resources.'
-random_paper: 102
+random_paper: 139
 scopes:
 - name: Yardi Canada Scopes
   scope_count: 4
@@ -239,7 +243,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

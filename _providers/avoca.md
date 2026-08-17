@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: Teams accessible to the API key
   name: Avoca Teams API
   slug: avoca-teams-api
-artifact_total: 13
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Avoca Webhooks
   slug: avoca-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Avoca Enterprise Analytics (v1) Analytics (v1) Analytics (v1) API
+  slug: open-avoca-analytics-v1-api
+- collection_type: open
+  name: Avoca Enterprise Analytics (v1) Analytics (v1) Calls API
+  slug: open-avoca-calls-api
+- collection_type: open
+  name: Avoca Enterprise Analytics (v1) Analytics (v1) Coach API
+  slug: open-avoca-coach-api
+- collection_type: open
+  name: Avoca Enterprise Analytics (v1) Analytics (v1) Leads API
+  slug: open-avoca-leads-api
+- collection_type: open
+  name: Avoca Enterprise Analytics (v1) Analytics (v1) Outbound Texting API
+  slug: open-avoca-outbound-texting-api
+- collection_type: open
+  name: Avoca Enterprise Analytics (v1) Analytics (v1) Scheduler Analytics (v0) API
+  slug: open-avoca-scheduler-analytics-v0-api
+- collection_type: open
+  name: Avoca Enterprise Analytics (v1) Analytics (v1) Sessions & Bookings API
+  slug: open-avoca-sessions-bookings-api
+- collection_type: open
+  name: Avoca Enterprise Analytics (v1) Analytics (v1) Teams API
+  slug: open-avoca-teams-api
 common:
 - group: agent
   title: ''
@@ -179,7 +207,7 @@ overview: 'Avoca publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Avoca''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, changelog, and 16 more developer resources.'
-random_paper: 42
+random_paper: 75
 score:
   band: developing
   composite: 50.6
@@ -203,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/screenshots/avoca-2026-07-25T202002.png
 security:

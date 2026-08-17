@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -123,7 +123,7 @@ apis:
 - description: The UpdateChannel API from Amazon Interactive Video Service — 1 operation(s) for updatechannel.
   name: Amazon Interactive Video Service UpdateChannel API
   slug: amazon-interactive-video-service-updatechannel-api
-artifact_total: 390
+artifact_total: 419
 collections:
 - collection_type: postman
   name: Amazon Interactive Video Service BatchGetChannel API
@@ -209,6 +209,93 @@ collections:
 - collection_type: postman
   name: Amazon Interactive Video Service BatchGetChannel UpdateChannel API
   slug: postman-amazon-interactive-video-service-updatechannel-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel API
+  slug: open-amazon-interactive-video-service-batchgetchannel-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel BatchGetStreamKey API
+  slug: open-amazon-interactive-video-service-batchgetstreamkey-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel BatchStartViewerSessionRevocation API
+  slug: open-amazon-interactive-video-service-batchstartviewersessionrevocation-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel CreateChannel API
+  slug: open-amazon-interactive-video-service-createchannel-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel CreateRecordingConfiguration API
+  slug: open-amazon-interactive-video-service-createrecordingconfiguration-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel CreateStreamKey API
+  slug: open-amazon-interactive-video-service-createstreamkey-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel DeleteChannel API
+  slug: open-amazon-interactive-video-service-deletechannel-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel DeletePlaybackKeyPair API
+  slug: open-amazon-interactive-video-service-deleteplaybackkeypair-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel DeleteRecordingConfiguration API
+  slug: open-amazon-interactive-video-service-deleterecordingconfiguration-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel DeleteStreamKey API
+  slug: open-amazon-interactive-video-service-deletestreamkey-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel GetChannel API
+  slug: open-amazon-interactive-video-service-getchannel-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel GetPlaybackKeyPair API
+  slug: open-amazon-interactive-video-service-getplaybackkeypair-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel GetRecordingConfiguration API
+  slug: open-amazon-interactive-video-service-getrecordingconfiguration-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel GetStream API
+  slug: open-amazon-interactive-video-service-getstream-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel GetStreamKey API
+  slug: open-amazon-interactive-video-service-getstreamkey-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel GetStreamSession API
+  slug: open-amazon-interactive-video-service-getstreamsession-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel ImportPlaybackKeyPair API
+  slug: open-amazon-interactive-video-service-importplaybackkeypair-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel ListChannels API
+  slug: open-amazon-interactive-video-service-listchannels-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel ListPlaybackKeyPairs API
+  slug: open-amazon-interactive-video-service-listplaybackkeypairs-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel ListRecordingConfigurations API
+  slug: open-amazon-interactive-video-service-listrecordingconfigurations-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel ListStreamKeys API
+  slug: open-amazon-interactive-video-service-liststreamkeys-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel ListStreams API
+  slug: open-amazon-interactive-video-service-liststreams-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel ListStreamSessions API
+  slug: open-amazon-interactive-video-service-liststreamsessions-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel PutMetadata API
+  slug: open-amazon-interactive-video-service-putmetadata-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel StartViewerSessionRevocation API
+  slug: open-amazon-interactive-video-service-startviewersessionrevocation-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel StopStream API
+  slug: open-amazon-interactive-video-service-stopstream-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel Tags API
+  slug: open-amazon-interactive-video-service-tags-api
+- collection_type: open
+  name: Amazon Interactive Video Service BatchGetChannel UpdateChannel API
+  slug: open-amazon-interactive-video-service-updatechannel-api
 common:
 - group: build
   title: ''
@@ -1286,7 +1373,7 @@ plans:
 - name: Amazon Interactive Video Service Plans Pricing
   plan_count: 3
   slug: amazon-interactive-video-service-plans-pricing
-random_paper: 11
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Amazon Interactive Video Service Rate Limits
@@ -1328,7 +1415,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/screenshots/amazon-interactive-video-service-2026-06-20T171714.png
 security:

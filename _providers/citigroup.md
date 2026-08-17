@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Citi Accounts and Transactions API provides authorized third-party access to retail customer accounts, current and available balances, and transaction histories, enabling account-aggregation and p
@@ -207,7 +207,7 @@ press:
 - date: '2026-05-25'
   title: Citi eyes AI productivity gains as it consolidates data systems
   url: https://www.ciodive.com/news/citigroup-data-compliance-modernization-generative-ai/745683/
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Citigroup Rate Limits
@@ -242,7 +242,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citigroup/refs/heads/main/screenshots/citigroup-2026-06-20T174411.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -47,11 +47,18 @@ apis:
 - description: A hosted documentation-search MCP server on the docs host, discovered via RFC 9728 protected-resource metadata at https://docs.happyrobot.ai/.well-known/oauth-protected-resource. It advertises a singl
   name: Happyrobot Docs MCP Server
   slug: happyrobot-docs-mcp-server
-artifact_total: 16
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Happyrobot Events
   slug: happyrobot-events
+collections:
+- collection_type: open
+  name: Happyrobot Platform API
+  slug: open-happyrobot-platform-v1
+- collection_type: open
+  name: Happyrobot Public API
+  slug: open-happyrobot-public-api
 common:
 - group: company
   title: ''
@@ -247,7 +254,7 @@ overview: 'Happyrobot publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Happyrobot''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 35 more developer resources.'
-random_paper: 16
+random_paper: 53
 scopes:
 - name: Happyrobot Scopes
   scope_count: 8
@@ -271,7 +278,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/screenshots/happyrobot-2026-08-07T165946.png
 security:

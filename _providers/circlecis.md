@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: Workflow inspection and cancellation.
   name: CircleCI Workflow API
   slug: circlecis-workflow-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CircleCI REST API V2 Context API
+  slug: open-circlecis-context-api
+- collection_type: open
+  name: CircleCI REST API V2 Context Job API
+  slug: open-circlecis-job-api
+- collection_type: open
+  name: CircleCI REST API V2 Context Pipeline API
+  slug: open-circlecis-pipeline-api
+- collection_type: open
+  name: CircleCI REST API V2 Context Project API
+  slug: open-circlecis-project-api
+- collection_type: open
+  name: CircleCI REST API V2 Context User API
+  slug: open-circlecis-user-api
+- collection_type: open
+  name: CircleCI REST API V2 Context Workflow API
+  slug: open-circlecis-workflow-api
 - collection_type: open
   name: CircleCI REST API V2
   slug: open-circlecis
@@ -113,7 +134,7 @@ plans:
 - name: Circlecis Plans Pricing
   plan_count: 3
   slug: circlecis-plans-pricing
-random_paper: 105
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Circlecis Rate Limits
@@ -138,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/screenshots/circlecis-2026-06-20T174349.png
 security:

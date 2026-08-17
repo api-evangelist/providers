@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -63,11 +63,39 @@ apis:
 - description: The Verification API from Verisoul — 3 operation(s) for verification.
   name: Verisoul Verification API
   slug: verisoul-verification-api
-artifact_total: 15
+artifact_total: 24
 asyncapis:
 - description: Asynchronous results for the Verisoul Email Intelligence API are delivered to your configured endpoint as signed webhooks. When an email submitted via POST /email (or the batch endpoint) finishes anal
   name: Verisoul Email Intelligence Webhooks
   slug: verisoul-email-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Verisoul Account API
+  slug: open-verisoul-account-api
+- collection_type: open
+  name: Verisoul Account Email API
+  slug: open-verisoul-email-api
+- collection_type: open
+  name: Verisoul Account Enrollment API
+  slug: open-verisoul-enrollment-api
+- collection_type: open
+  name: Verisoul Account List API
+  slug: open-verisoul-list-api
+- collection_type: open
+  name: Verisoul Account Phone API
+  slug: open-verisoul-phone-api
+- collection_type: open
+  name: Verisoul Account Public API
+  slug: open-verisoul-public-api
+- collection_type: open
+  name: Verisoul Account Session API
+  slug: open-verisoul-session-api
+- collection_type: open
+  name: Verisoul Account Verification API
+  slug: open-verisoul-verification-api
 common:
 - group: other
   title: ''
@@ -232,7 +260,7 @@ overview: 'Verisoul publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Verisoul''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 49
+random_paper: 144
 rate_limits:
 - limit_count: 0
   name: Verisoul Rate Limits
@@ -260,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

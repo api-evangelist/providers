@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,17 @@ apis:
 - description: Ingest metric values
   name: Atlassian Compass Metrics API
   slug: atlassian-compass-metrics-api
-artifact_total: 34
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Atlassian Compass REST Events API
+  slug: open-atlassian-compass-events-api
+- collection_type: open
+  name: Atlassian Compass REST Events Metrics API
+  slug: open-atlassian-compass-metrics-api
 - collection_type: open
   name: Atlassian Compass REST API
   slug: open-atlassian-compass
@@ -191,7 +200,7 @@ plans:
 - name: Atlassian Compass Plans Pricing
   plan_count: 3
   slug: atlassian-compass-plans-pricing
-random_paper: 83
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Atlassian Compass Rate Limits
@@ -221,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/screenshots/atlassian-compass-2026-06-20T172526.png
 security:

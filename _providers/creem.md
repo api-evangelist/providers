@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Transactions API from Creem — 2 operation(s) for transactions.
   name: Creem Transactions API
   slug: creem-transactions-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Creem Checkouts API
+  slug: open-creem-checkouts-api
+- collection_type: open
+  name: Creem Checkouts Customers API
+  slug: open-creem-customers-api
+- collection_type: open
+  name: Creem Checkouts Discounts API
+  slug: open-creem-discounts-api
+- collection_type: open
+  name: Creem Checkouts Licenses API
+  slug: open-creem-licenses-api
+- collection_type: open
+  name: Creem Checkouts Products API
+  slug: open-creem-products-api
+- collection_type: open
+  name: Creem Checkouts Subscriptions API
+  slug: open-creem-subscriptions-api
+- collection_type: open
+  name: Creem Checkouts Transactions API
+  slug: open-creem-transactions-api
 - collection_type: open
   name: Creem API
   slug: open-creem
@@ -130,7 +154,7 @@ plans:
 - name: Creem Plans Pricing
   plan_count: 1
   slug: creem-plans-pricing
-random_paper: 44
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Creem Rate Limits
@@ -161,7 +185,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creem/refs/heads/main/screenshots/creem-2026-07-25T210726.png
 security:

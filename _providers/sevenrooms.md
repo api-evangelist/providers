@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The SevenRooms API is a RESTful interface for hospitality data and operations. It exposes reservations, guest profiles, and feedback scores, and supports retrieving venue info, searching shift-level a
@@ -168,7 +168,7 @@ plans:
 - name: Sevenrooms Plans Pricing
   plan_count: 2
   slug: sevenrooms-plans-pricing
-random_paper: 25
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Sevenrooms Rate Limits
@@ -186,7 +186,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sevenrooms/refs/heads/main/screenshots/sevenrooms-2026-06-20T193741.png
 security:

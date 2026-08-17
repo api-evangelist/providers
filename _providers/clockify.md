@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 2
@@ -122,8 +122,92 @@ apis:
 - description: This endpoint group contains deprecated endpoints from the [Workspace](#tag/Workspace) endpoint group.
   name: Clockify Workspace (Deprecated) API
   slug: clockify-workspace-deprecated-api
-artifact_total: 34
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clockify Approval API
+  slug: open-clockify-approval-api
+- collection_type: open
+  name: Clockify Approval Audit Log Report API
+  slug: open-clockify-audit-log-report-api
+- collection_type: open
+  name: Clockify Approval Balance API
+  slug: open-clockify-balance-api
+- collection_type: open
+  name: Clockify Approval Client API
+  slug: open-clockify-client-api
+- collection_type: open
+  name: Clockify Approval Custom fields API
+  slug: open-clockify-custom-fields-api
+- collection_type: open
+  name: Clockify Approval Entity changes (Experimental) API
+  slug: open-clockify-entity-changes-experimental-api
+- collection_type: open
+  name: Clockify Approval Expense API
+  slug: open-clockify-expense-api
+- collection_type: open
+  name: Clockify Approval Expense Report API
+  slug: open-clockify-expense-report-api
+- collection_type: open
+  name: Clockify Approval Group API
+  slug: open-clockify-group-api
+- collection_type: open
+  name: Clockify Approval Holiday API
+  slug: open-clockify-holiday-api
+- collection_type: open
+  name: Clockify Approval Invoice API
+  slug: open-clockify-invoice-api
+- collection_type: open
+  name: Clockify Approval Policy API
+  slug: open-clockify-policy-api
+- collection_type: open
+  name: Clockify Approval Project API
+  slug: open-clockify-project-api
+- collection_type: open
+  name: Clockify Approval Scheduling API
+  slug: open-clockify-scheduling-api
+- collection_type: open
+  name: Clockify Approval Scheduling (Deprecated) API
+  slug: open-clockify-scheduling-deprecated-api
+- collection_type: open
+  name: Clockify Approval Shared Report API
+  slug: open-clockify-shared-report-api
+- collection_type: open
+  name: Clockify Approval Tag API
+  slug: open-clockify-tag-api
+- collection_type: open
+  name: Clockify Approval Task API
+  slug: open-clockify-task-api
+- collection_type: open
+  name: Clockify Approval Team Report API
+  slug: open-clockify-team-report-api
+- collection_type: open
+  name: Clockify Approval Template (Deprecated) API
+  slug: open-clockify-template-deprecated-api
+- collection_type: open
+  name: Clockify Approval Time entry API
+  slug: open-clockify-time-entry-api
+- collection_type: open
+  name: Clockify Approval Time Entry Report API
+  slug: open-clockify-time-entry-report-api
+- collection_type: open
+  name: Clockify Approval Time Off API
+  slug: open-clockify-time-off-api
+- collection_type: open
+  name: Clockify Approval User API
+  slug: open-clockify-user-api
+- collection_type: open
+  name: Clockify Approval Webhooks API
+  slug: open-clockify-webhooks-api
+- collection_type: open
+  name: Clockify Approval Workspace API
+  slug: open-clockify-workspace-api
+- collection_type: open
+  name: Clockify Approval Workspace (Deprecated) API
+  slug: open-clockify-workspace-deprecated-api
 - collection_type: open
   name: Clockify API
   slug: open-clockify
@@ -196,7 +280,7 @@ overview: 'Clockify publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Clockify''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 12
+random_paper: 107
 score:
   band: thin
   composite: 32.4
@@ -217,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/screenshots/clockify-2026-06-20T174530.png
 security:

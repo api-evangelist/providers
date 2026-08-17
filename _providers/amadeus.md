@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ arazzos:
 - description: Resolve origin and destination IATA codes from keywords, then search flight offers between them.
   name: Amadeus Resolve Locations and Search Flights
   slug: amadeus-resolve-locations-and-search-flights-workflow
-artifact_total: 2325
+artifact_total: 2352
 asyncapis:
 - description: ''
   name: Review
@@ -298,11 +298,20 @@ collections:
   name: Trip Purpose Prediction
   slug: postman-amadeus-trip-purpose-prediction
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airline Code Lookup air-traffic API
+  slug: open-amadeus-air-traffic-api
+- collection_type: open
   name: Airline Code Lookup API
   slug: open-amadeus-airline-code-lookup
 - collection_type: open
   name: Airline Routes
   slug: open-amadeus-airline-routes
+- collection_type: open
+  name: Airline Code Lookup air-traffic airlines API
+  slug: open-amadeus-airlines-api
 - collection_type: open
   name: Airport & City Search
   slug: open-amadeus-airport-city-search
@@ -313,17 +322,44 @@ collections:
   name: Airport On-Time Performance
   slug: open-amadeus-airport-on-time-performance
 - collection_type: open
+  name: Airline Code Lookup air-traffic airport-ontime-prediction API
+  slug: open-amadeus-airport-ontime-prediction-api
+- collection_type: open
   name: Airport Routes
   slug: open-amadeus-airport-routes
 - collection_type: open
   name: Amadeus OAuth2 Login
   slug: open-amadeus-authorization
 - collection_type: open
+  name: Airline Code Lookup air-traffic Availibility API
+  slug: open-amadeus-availibility-api
+- collection_type: open
+  name: Airline Code Lookup air-traffic Booking API
+  slug: open-amadeus-booking-api
+- collection_type: open
   name: Branded Fares Upsell
   slug: open-amadeus-branded-fares-upsell
 - collection_type: open
+  name: Airline Code Lookup air-traffic category-rated-areas API
+  slug: open-amadeus-category-rated-areas-api
+- collection_type: open
+  name: Airline Code Lookup air-traffic checkin-links API
+  slug: open-amadeus-checkin-links-api
+- collection_type: open
+  name: Airline Code Lookup air-traffic City API
+  slug: open-amadeus-city-api
+- collection_type: open
   name: City Search
   slug: open-amadeus-city-search
+- collection_type: open
+  name: Airline Code Lookup air-traffic destinations API
+  slug: open-amadeus-destinations-api
+- collection_type: open
+  name: Airline Code Lookup air-traffic direct-destinations API
+  slug: open-amadeus-direct-destinations-api
+- collection_type: open
+  name: Airline Code Lookup air-traffic Display SeatMaps API
+  slug: open-amadeus-display-seatmaps-api
 - collection_type: open
   name: Flight Availibilities Search
   slug: open-amadeus-flight-availabilities-search
@@ -337,14 +373,26 @@ collections:
   name: Flight Check-in Links
   slug: open-amadeus-flight-checkin-links
 - collection_type: open
+  name: Airline Code Lookup air-traffic flight-choice-prediction API
+  slug: open-amadeus-flight-choice-prediction-api
+- collection_type: open
   name: Flight Choice Prediction
   slug: open-amadeus-flight-choice-prediction
 - collection_type: open
   name: Flight Create Orders
   slug: open-amadeus-flight-create-orders
 - collection_type: open
+  name: Airline Code Lookup air-traffic flight-dates API
+  slug: open-amadeus-flight-dates-api
+- collection_type: open
+  name: Airline Code Lookup air-traffic flight-delay-prediction API
+  slug: open-amadeus-flight-delay-prediction-api
+- collection_type: open
   name: Flight Delay Prediction
   slug: open-amadeus-flight-delay-prediction
+- collection_type: open
+  name: Airline Code Lookup air-traffic flight-destinations API
+  slug: open-amadeus-flight-destinations-api
 - collection_type: open
   name: Flight Inspiration Search
   slug: open-amadeus-flight-inspiration-search
@@ -367,6 +415,9 @@ collections:
   name: Flight Price Analysis API
   slug: open-amadeus-flight-price-analysis
 - collection_type: open
+  name: Airline Code Lookup air-traffic flights API
+  slug: open-amadeus-flights-api
+- collection_type: open
   name: Hotel Booking
   slug: open-amadeus-hotel-booking-v1
 - collection_type: open
@@ -379,14 +430,26 @@ collections:
   name: Hotel Name Autocomplete
   slug: open-amadeus-hotel-name-autocomplete
 - collection_type: open
+  name: Airline Code Lookup air-traffic Hotel Ratings API
+  slug: open-amadeus-hotel-ratings-api
+- collection_type: open
   name: Hotel Ratings
   slug: open-amadeus-hotel-ratings
 - collection_type: open
   name: Hotel Search API
   slug: open-amadeus-hotel-search
 - collection_type: open
+  name: Airline Code Lookup air-traffic Hotels API
+  slug: open-amadeus-hotels-api
+- collection_type: open
+  name: Airline Code Lookup air-traffic location API
+  slug: open-amadeus-location-api
+- collection_type: open
   name: Location Score
   slug: open-amadeus-location-score
+- collection_type: open
+  name: Airline Code Lookup air-traffic OAuth2 Access Token API
+  slug: open-amadeus-oauth2-access-token-api
 - collection_type: open
   name: On-Demand Flight Status
   slug: open-amadeus-on-demand-flight-status
@@ -394,11 +457,26 @@ collections:
   name: Points of Interest
   slug: open-amadeus-points-of-interest
 - collection_type: open
+  name: Airline Code Lookup air-traffic price-metrics API
+  slug: open-amadeus-price-metrics-api
+- collection_type: open
+  name: Airline Code Lookup air-traffic recommended-locations API
+  slug: open-amadeus-recommended-locations-api
+- collection_type: open
+  name: Airline Code Lookup air-traffic Retrieve API
+  slug: open-amadeus-retrieve-api
+- collection_type: open
   name: Safe Place
   slug: open-amadeus-safe-place
 - collection_type: open
+  name: Airline Code Lookup air-traffic Search API
+  slug: open-amadeus-search-api
+- collection_type: open
   name: Seatmap Display
   slug: open-amadeus-seatmap-display
+- collection_type: open
+  name: Airline Code Lookup air-traffic Shopping API
+  slug: open-amadeus-shopping-api
 - collection_type: open
   name: Tours and Activities
   slug: open-amadeus-tours-and-activities
@@ -414,6 +492,9 @@ collections:
 - collection_type: open
   name: Travel Recommendations API
   slug: open-amadeus-travel-recommendations
+- collection_type: open
+  name: Airline Code Lookup air-traffic trip-purpose-prediction API
+  slug: open-amadeus-trip-purpose-prediction-api
 - collection_type: open
   name: Trip Purpose Prediction
   slug: open-amadeus-trip-purpose-prediction
@@ -7220,7 +7301,7 @@ plans:
 - name: Amadeus Plans Pricing
   plan_count: 3
   slug: amadeus-plans-pricing
-random_paper: 16
+random_paper: 140
 rate_limits:
 - limit_count: 3
   name: Amadeus Rate Limits
@@ -7262,7 +7343,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png
 security:

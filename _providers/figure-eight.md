@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: Manage account info.
@@ -70,11 +70,54 @@ apis:
 - description: Copy, launch, pause and resume workflows, check status and configuration values
   name: Figure Eight Workflows API
   slug: figure-eight-workflows-api
-artifact_total: 17
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Figure Eight Webhooks
   slug: figure-eight-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Appen Platform Account Info API
+  slug: open-figure-eight-account-info-api
+- collection_type: open
+  name: Appen Platform Account Info Job Create/Update API
+  slug: open-figure-eight-job-create-update-api
+- collection_type: open
+  name: Appen Platform Account Info Job Ontology API
+  slug: open-figure-eight-job-ontology-api
+- collection_type: open
+  name: Appen Platform Account Info Job Results API
+  slug: open-figure-eight-job-results-api
+- collection_type: open
+  name: Appen Platform Account Info Job Status API
+  slug: open-figure-eight-job-status-api
+- collection_type: open
+  name: Appen Platform Account Info Manage Job Data API
+  slug: open-figure-eight-manage-job-data-api
+- collection_type: open
+  name: Appen Platform Account Info Manage Job Settings API
+  slug: open-figure-eight-manage-job-settings-api
+- collection_type: open
+  name: Appen Platform Account Info Monitor Contributors API
+  slug: open-figure-eight-monitor-contributors-api
+- collection_type: open
+  name: Appen Platform Account Info Workflow Data Upload/Download API
+  slug: open-figure-eight-workflow-data-upload-download-api
+- collection_type: open
+  name: Appen Platform Account Info Workflow Filter Rules API
+  slug: open-figure-eight-workflow-filter-rules-api
+- collection_type: open
+  name: Appen Platform Account Info Workflow Step Routes API
+  slug: open-figure-eight-workflow-step-routes-api
+- collection_type: open
+  name: Appen Platform Account Info Workflow Steps API
+  slug: open-figure-eight-workflow-steps-api
+- collection_type: open
+  name: Appen Platform Account Info Workflows API
+  slug: open-figure-eight-workflows-api
 common:
 - group: other
   title: ''
@@ -159,7 +202,7 @@ overview: 'Figure Eight publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Figure Eight''s developer surface includes API reference, documentation, authentication, and 13 more developer resources.'
-random_paper: 16
+random_paper: 24
 score:
   band: thin
   composite: 32.3
@@ -181,7 +224,7 @@ score:
       total: 13
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/screenshots/figure-eight-2026-07-25T214447.png
 security:

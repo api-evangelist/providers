@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -133,14 +133,29 @@ arazzos:
 - description: Patch a user's profile properties, then read the user back to verify.
   name: Microsoft Office 365 Update User Profile
   slug: microsoft-office-365-update-user-profile-workflow
-artifact_total: 256
+artifact_total: 261
 collections:
 - collection_type: postman
   name: Microsoft Office 365 Microsoft Graph API
   slug: postman-microsoft-graph-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Microsoft Office 365 Microsoft Graph API
   slug: open-microsoft-graph-api
+- collection_type: open
+  name: Microsoft Office 365 Microsoft Graph Calendar API
+  slug: open-microsoft-office-365-calendar-api
+- collection_type: open
+  name: Microsoft Office 365 Microsoft Graph Calendar Groups API
+  slug: open-microsoft-office-365-groups-api
+- collection_type: open
+  name: Microsoft Office 365 Microsoft Graph Calendar Mail API
+  slug: open-microsoft-office-365-mail-api
+- collection_type: open
+  name: Microsoft Office 365 Microsoft Graph Calendar Users API
+  slug: open-microsoft-office-365-users-api
 common:
 - group: agent
   title: ''
@@ -958,7 +973,7 @@ plans:
 - name: Microsoft Office 365 Plans Pricing
   plan_count: 5
   slug: microsoft-office-365-plans-pricing
-random_paper: 50
+random_paper: 62
 rate_limits:
 - limit_count: 8
   name: Microsoft Office 365 Rate Limits
@@ -1005,7 +1020,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/screenshots/microsoft-office-365-2026-06-20T185511.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -140,8 +140,107 @@ apis:
 - description: This object represents a user's custom role. Each user can be assigned to only one custom role.
   name: Zenduty User Custom Role API
   slug: zenduty-user-custom-role-api
-artifact_total: 39
+artifact_total: 72
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zenduty Account Custom Role API
+  slug: open-zenduty-account-custom-role-api
+- collection_type: open
+  name: Zenduty Account Custom Role Account Member API
+  slug: open-zenduty-account-member-api
+- collection_type: open
+  name: Zenduty Account Custom Role Alert Rules API
+  slug: open-zenduty-alert-rules-api
+- collection_type: open
+  name: Zenduty Account Custom Role Analytics API
+  slug: open-zenduty-analytics-api
+- collection_type: open
+  name: Zenduty Account Custom Role Contact Methods API
+  slug: open-zenduty-contact-methods-api
+- collection_type: open
+  name: Zenduty Account Custom Role Escalation Policies API
+  slug: open-zenduty-escalation-policies-api
+- collection_type: open
+  name: Zenduty Account Custom Role Events API
+  slug: open-zenduty-events-api
+- collection_type: open
+  name: Zenduty Account Custom Role Forwarding Rules API
+  slug: open-zenduty-forwarding-rules-api
+- collection_type: open
+  name: Zenduty Account Custom Role Global Router API
+  slug: open-zenduty-global-router-api
+- collection_type: open
+  name: Zenduty Account Custom Role Global Router Rules API
+  slug: open-zenduty-global-router-rules-api
+- collection_type: open
+  name: Zenduty Account Custom Role Incident Alerts API
+  slug: open-zenduty-incident-alerts-api
+- collection_type: open
+  name: Zenduty Account Custom Role Incident Notes API
+  slug: open-zenduty-incident-notes-api
+- collection_type: open
+  name: Zenduty Account Custom Role Incident Responders API
+  slug: open-zenduty-incident-responders-api
+- collection_type: open
+  name: Zenduty Account Custom Role Incident Roles API
+  slug: open-zenduty-incident-roles-api
+- collection_type: open
+  name: Zenduty Account Custom Role Incident Tags API
+  slug: open-zenduty-incident-tags-api
+- collection_type: open
+  name: Zenduty Account Custom Role Incidents API
+  slug: open-zenduty-incidents-api
+- collection_type: open
+  name: Zenduty Account Custom Role Integrations API
+  slug: open-zenduty-integrations-api
+- collection_type: open
+  name: Zenduty Account Custom Role Notification Rules API
+  slug: open-zenduty-notification-rules-api
+- collection_type: open
+  name: Zenduty Account Custom Role OnCall API
+  slug: open-zenduty-oncall-api
+- collection_type: open
+  name: Zenduty Account Custom Role Postmortem API
+  slug: open-zenduty-postmortem-api
+- collection_type: open
+  name: Zenduty Account Custom Role Priorities API
+  slug: open-zenduty-priorities-api
+- collection_type: open
+  name: Zenduty Account Custom Role Schedule Overrides API
+  slug: open-zenduty-schedule-overrides-api
+- collection_type: open
+  name: Zenduty Account Custom Role Schedules API
+  slug: open-zenduty-schedules-api
+- collection_type: open
+  name: Zenduty Account Custom Role Services API
+  slug: open-zenduty-services-api
+- collection_type: open
+  name: Zenduty Account Custom Role SLA API
+  slug: open-zenduty-sla-api
+- collection_type: open
+  name: Zenduty Account Custom Role Tags API
+  slug: open-zenduty-tags-api
+- collection_type: open
+  name: Zenduty Account Custom Role Task Templates API
+  slug: open-zenduty-task-templates-api
+- collection_type: open
+  name: Zenduty Account Custom Role Team Maintenance Mode API
+  slug: open-zenduty-team-maintenance-mode-api
+- collection_type: open
+  name: Zenduty Account Custom Role Team Members API
+  slug: open-zenduty-team-members-api
+- collection_type: open
+  name: Zenduty Account Custom Role Team Permissions API
+  slug: open-zenduty-team-permissions-api
+- collection_type: open
+  name: Zenduty Account Custom Role Teams API
+  slug: open-zenduty-teams-api
+- collection_type: open
+  name: Zenduty Account Custom Role User Custom Role API
+  slug: open-zenduty-user-custom-role-api
 - collection_type: open
   name: Zenduty
   slug: open-zenduty
@@ -202,7 +301,7 @@ overview: 'Zenduty publishes 32 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zenduty''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 67
+random_paper: 42
 score:
   band: thin
   composite: 33.3
@@ -223,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/screenshots/zenduty-2026-06-20T201810.png
 security:

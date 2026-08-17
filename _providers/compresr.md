@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -120,7 +120,92 @@ apis:
 - description: The Usage API from Compresr — 1 operation(s) for usage.
   name: Compresr Usage API
   slug: compresr-usage-api
-artifact_total: 34
+artifact_total: 62
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Compresr Platform Admin API
+  slug: open-compresr-admin-api
+- collection_type: open
+  name: Compresr Platform Admin Admin - Whitelist API
+  slug: open-compresr-admin-whitelist-api
+- collection_type: open
+  name: Compresr Platform Admin API Keys API
+  slug: open-compresr-api-keys-api
+- collection_type: open
+  name: Compresr Platform Admin Auth API
+  slug: open-compresr-auth-api
+- collection_type: open
+  name: Compresr Platform Admin Billing API
+  slug: open-compresr-billing-api
+- collection_type: open
+  name: Compresr Platform Admin Careers API
+  slug: open-compresr-careers-api
+- collection_type: open
+  name: Compresr Platform Admin Compresr Platform API API
+  slug: open-compresr-compresr-platform-api-api
+- collection_type: open
+  name: Compresr Platform Admin Compression-Agentic API
+  slug: open-compresr-compression-agentic-api
+- collection_type: open
+  name: Compresr Platform Admin Compression API
+  slug: open-compresr-compression-api
+- collection_type: open
+  name: Compresr Platform Admin Compression-Demo API
+  slug: open-compresr-compression-demo-api
+- collection_type: open
+  name: Compresr Platform Admin Compression-Models API
+  slug: open-compresr-compression-models-api
+- collection_type: open
+  name: Compresr Platform Admin Dashboard API
+  slug: open-compresr-dashboard-api
+- collection_type: open
+  name: Compresr Platform Admin Feature Requests API
+  slug: open-compresr-feature-requests-api
+- collection_type: open
+  name: Compresr Platform Admin Gateway API
+  slug: open-compresr-gateway-api
+- collection_type: open
+  name: Compresr Platform Admin Health API
+  slug: open-compresr-health-api
+- collection_type: open
+  name: Compresr Platform Admin Inference API
+  slug: open-compresr-inference-api
+- collection_type: open
+  name: Compresr Platform Admin Logs API
+  slug: open-compresr-logs-api
+- collection_type: open
+  name: Compresr Platform Admin Metrics API
+  slug: open-compresr-metrics-api
+- collection_type: open
+  name: Compresr Platform Admin Newsletter API
+  slug: open-compresr-newsletter-api
+- collection_type: open
+  name: Compresr Platform Admin OAuth API
+  slug: open-compresr-oauth-api
+- collection_type: open
+  name: Compresr Platform Admin OAuth Authorization API
+  slug: open-compresr-oauth-authorization-api
+- collection_type: open
+  name: Compresr Platform Admin On-Prem API
+  slug: open-compresr-on-prem-api
+- collection_type: open
+  name: Compresr Platform Admin On-Prem Telemetry API
+  slug: open-compresr-on-prem-telemetry-api
+- collection_type: open
+  name: Compresr Platform Admin Pricing API
+  slug: open-compresr-pricing-api
+- collection_type: open
+  name: Compresr Platform Admin Profile API
+  slug: open-compresr-profile-api
+- collection_type: open
+  name: Compresr Platform Admin Ready API
+  slug: open-compresr-ready-api
+- collection_type: open
+  name: Compresr Platform Admin Usage API
+  slug: open-compresr-usage-api
 common:
 - group: start
   title: ''
@@ -278,7 +363,7 @@ plans:
 - name: Compresr Plans
   plan_count: 2
   slug: compresr-plans
-random_paper: 35
+random_paper: 130
 rate_limits:
 - limit_count: 5
   name: Compresr Rate Limits
@@ -306,7 +391,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/screenshots/compresr-2026-07-25T210203.png
 security:

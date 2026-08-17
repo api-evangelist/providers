@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Asset Configurations
@@ -54,7 +54,44 @@ apis:
 - description: Workspaces
   name: OPAQUE Workspaces API
   slug: opaque-workspaces-api
-artifact_total: 14
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Opaque UI Asset Configs API
+  slug: open-opaque-asset-configs-api
+- collection_type: open
+  name: Opaque UI Auth API
+  slug: open-opaque-auth-api
+- collection_type: open
+  name: Opaque UI Datasets API
+  slug: open-opaque-datasets-api
+- collection_type: open
+  name: Opaque UI Jobs API
+  slug: open-opaque-jobs-api
+- collection_type: open
+  name: Opaque UI Organizations API
+  slug: open-opaque-organizations-api
+- collection_type: open
+  name: Opaque UI Pinned Queries API
+  slug: open-opaque-pinned-queries-api
+- collection_type: open
+  name: Opaque UI Predefined Query Templates API
+  slug: open-opaque-predefined-query-templates-api
+- collection_type: open
+  name: Opaque UI Users API
+  slug: open-opaque-users-api
+- collection_type: open
+  name: Opaque UI Versioning API
+  slug: open-opaque-versioning-api
+- collection_type: open
+  name: Opaque UI Workflows API
+  slug: open-opaque-workflows-api
+- collection_type: open
+  name: Opaque UI Workspaces API
+  slug: open-opaque-workspaces-api
 common:
 - group: agent
   title: ''
@@ -177,7 +214,7 @@ overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: developing
   composite: 44.8
@@ -200,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/screenshots/opaque-2026-08-07T190445.png
 security:

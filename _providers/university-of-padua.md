@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -96,7 +96,53 @@ apis:
 - description: Requests for controlled vocabularies
   name: University of Padua vocabularies API
   slug: university-of-padua-vocabularies-api
-artifact_total: 34
+artifact_total: 49
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PHAIDRA datastream API
+  slug: open-university-of-padua-datastream-api
+- collection_type: open
+  name: PHAIDRA datastream directory API
+  slug: open-university-of-padua-directory-api
+- collection_type: open
+  name: PHAIDRA datastream imageserver API
+  slug: open-university-of-padua-imageserver-api
+- collection_type: open
+  name: PHAIDRA datastream lists API
+  slug: open-university-of-padua-lists-api
+- collection_type: open
+  name: PHAIDRA datastream misc API
+  slug: open-university-of-padua-misc-api
+- collection_type: open
+  name: PHAIDRA datastream oai-pmh API
+  slug: open-university-of-padua-oai-pmh-api
+- collection_type: open
+  name: PHAIDRA datastream object-advanced API
+  slug: open-university-of-padua-object-advanced-api
+- collection_type: open
+  name: PHAIDRA datastream object-basics API
+  slug: open-university-of-padua-object-basics-api
+- collection_type: open
+  name: PHAIDRA datastream relationships API
+  slug: open-university-of-padua-relationships-api
+- collection_type: open
+  name: PHAIDRA datastream search API
+  slug: open-university-of-padua-search-api
+- collection_type: open
+  name: PHAIDRA datastream session API
+  slug: open-university-of-padua-session-api
+- collection_type: open
+  name: PHAIDRA datastream stats API
+  slug: open-university-of-padua-stats-api
+- collection_type: open
+  name: PHAIDRA datastream templates API
+  slug: open-university-of-padua-templates-api
+- collection_type: open
+  name: PHAIDRA datastream vocabularies API
+  slug: open-university-of-padua-vocabularies-api
 common:
 - group: agent
   title: ''
@@ -191,7 +237,7 @@ plans:
 - name: University Of Padua Plans Pricing
   plan_count: 2
   slug: university-of-padua-plans-pricing
-random_paper: 28
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: University Of Padua Rate Limits
@@ -239,7 +285,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/screenshots/university-of-padua-2026-06-20T200320.png
 security:

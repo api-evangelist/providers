@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for the Dolibarr ERP/CRM platform providing full CRUD operations on business objects including contacts, invoices, products, orders, projects, banking entries, and HR records. Available on an
@@ -120,7 +120,7 @@ plans:
 - name: Dolibarr Plans Pricing
   plan_count: 3
   slug: dolibarr-plans-pricing
-random_paper: 7
+random_paper: 102
 rate_limits:
 - limit_count: 0
   name: Dolibarr Rate Limits
@@ -144,7 +144,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolibarr/refs/heads/main/screenshots/dolibarr-2026-06-20T180134.png
 security:

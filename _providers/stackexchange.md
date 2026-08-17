@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
 - description: Site users, their reputation, badges, tags, top posts, timeline, and write surfaces.
   name: Stack Exchange Users API
   slug: stackexchange-users-api
-artifact_total: 108
+artifact_total: 125
 collections:
 - collection_type: postman
   name: Stack Exchange Access Tokens API
@@ -140,6 +140,57 @@ collections:
 - collection_type: postman
   name: Stack Exchange Access Tokens Users API
   slug: postman-stackexchange-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stack Exchange Access Tokens API
+  slug: open-stackexchange-access-tokens-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Answers API
+  slug: open-stackexchange-answers-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Badges API
+  slug: open-stackexchange-badges-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Comments API
+  slug: open-stackexchange-comments-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Events API
+  slug: open-stackexchange-events-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Filters API
+  slug: open-stackexchange-filters-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Info API
+  slug: open-stackexchange-info-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Me API
+  slug: open-stackexchange-me-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Posts API
+  slug: open-stackexchange-posts-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Questions API
+  slug: open-stackexchange-questions-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Revisions API
+  slug: open-stackexchange-revisions-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Search API
+  slug: open-stackexchange-search-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Sites API
+  slug: open-stackexchange-sites-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Suggested Edits API
+  slug: open-stackexchange-suggested-edits-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Tags API
+  slug: open-stackexchange-tags-api
+- collection_type: open
+  name: Stack Exchange Access Tokens Users API
+  slug: open-stackexchange-users-api
 common:
 - group: build
   title: ''
@@ -458,7 +509,7 @@ plans:
 - name: Stackexchange Plans Pricing
   plan_count: 3
   slug: stackexchange-plans-pricing
-random_paper: 49
+random_paper: 28
 rate_limits:
 - limit_count: 6
   name: Stackexchange Rate Limits
@@ -505,7 +556,7 @@ score:
       marker_coverage: 100.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/screenshots/stackexchange-2026-06-20T194445.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The WebRtcCdnService API from Subspace — 1 operation(s) for webrtccdnservice.
   name: Subspace WebRtcCdnService API
   slug: subspace-webrtccdnservice-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Subspace Product AcceleratorService API
+  slug: open-subspace-acceleratorservice-api
+- collection_type: open
+  name: Subspace Product AcceleratorService SipTeleportService API
+  slug: open-subspace-sipteleportservice-api
+- collection_type: open
+  name: Subspace Product AcceleratorService WebRtcCdnService API
+  slug: open-subspace-webrtccdnservice-api
 common:
 - group: other
   title: ''
@@ -165,7 +178,7 @@ overview: 'Subspace publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Subspace''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 14
+random_paper: 109
 scopes:
 - name: Subspace Scopes
   scope_count: 9
@@ -194,7 +207,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

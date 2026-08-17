@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -92,7 +92,68 @@ apis:
 - description: TUI Group Supply from TUI Group — 1 path(s) described in OpenAPI.
   name: TUI Group Supply
   slug: tui-group-tui-supply-openapi
-artifact_total: 28
+artifact_total: 48
+collections:
+- collection_type: open
+  name: TravelMessage.v31
+  slug: open-tui-group-tui-b2bota-g7-travelmessage
+- collection_type: open
+  name: CheckInHandler Service API
+  slug: open-tui-group-tui-checkinhandler-service-api
+- collection_type: open
+  name: TUI Cruise Booking APIs
+  slug: open-tui-group-tui-cruise-booking-apis
+- collection_type: open
+  name: Cruise Cabin Availability
+  slug: open-tui-group-tui-cruise-cabin-availability
+- collection_type: open
+  name: TUI Cruise Price and Availability.
+  slug: open-tui-group-tui-cruise-price-and-availability
+- collection_type: open
+  name: NSKCC Availability Search API
+  slug: open-tui-group-tui-flight-availability-search-api
+- collection_type: open
+  name: flight-ndc-gateway-navitaire
+  slug: open-tui-group-tui-flight-ndc-gateway
+- collection_type: open
+  name: HolidayOffersController API
+  slug: open-tui-group-tui-holiday-offers-controller-api
+- collection_type: open
+  name: Meta Partner Package Live Search
+  slug: open-tui-group-tui-meta-partner-package-live-search
+- collection_type: open
+  name: Meta Partner Packages & Flights
+  slug: open-tui-group-tui-meta-partner-packages-flights
+- collection_type: open
+  name: Meta-Search-Generic API
+  slug: open-tui-group-tui-meta-search-generic-api
+- collection_type: open
+  name: NewSkies-Digital-Api
+  slug: open-tui-group-tui-newskies-digital-api
+- collection_type: open
+  name: NewSkies-GoNow-Api
+  slug: open-tui-group-tui-newskies-gonow-api
+- collection_type: open
+  name: NewSkies Payment API
+  slug: open-tui-group-tui-newskies-payment-api
+- collection_type: open
+  name: TUI NewSkies PriceFile Api
+  slug: open-tui-group-tui-newskies-pricefile-api
+- collection_type: open
+  name: OTA Content API
+  slug: open-tui-group-tui-ota-content-api
+- collection_type: open
+  name: Partner Content API
+  slug: open-tui-group-tui-partner-content-api
+- collection_type: open
+  name: WallDy API
+  slug: open-tui-group-tui-search-walldy-api
+- collection_type: open
+  name: Ship Content API
+  slug: open-tui-group-tui-ship-content-api
+- collection_type: open
+  name: Supply
+  slug: open-tui-group-tui-supply
 common:
 - group: agent
   title: ''
@@ -280,7 +341,7 @@ overview: 'TUI Group publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TUI Group''s developer surface includes authentication, changelog, sandbox, documentation, API reference, signup flow, getting-started guide, and 35 more developer resources.'
-random_paper: 100
+random_paper: 46
 rate_limits:
 - limit_count: 6
   name: Tui Group Rate Limits
@@ -313,7 +374,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Prints API from Formlabs — 2 operation(s) for prints.
   name: Formlabs Prints API
   slug: formlabs-prints-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Formlabs Web Consumables API
+  slug: open-formlabs-consumables-api
+- collection_type: open
+  name: Formlabs Web Consumables Events API
+  slug: open-formlabs-events-api
+- collection_type: open
+  name: Formlabs Web Consumables Groups API
+  slug: open-formlabs-groups-api
+- collection_type: open
+  name: Formlabs Web Consumables Printers API
+  slug: open-formlabs-printers-api
+- collection_type: open
+  name: Formlabs Web Consumables Prints API
+  slug: open-formlabs-prints-api
 - collection_type: open
   name: Formlabs Web API
   slug: open-formlabs
@@ -135,7 +153,7 @@ plans:
 - name: Formlabs Plans Pricing
   plan_count: 2
   slug: formlabs-plans-pricing
-random_paper: 14
+random_paper: 109
 rate_limits:
 - limit_count: 2
   name: Formlabs Rate Limits
@@ -165,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/screenshots/formlabs-2026-06-20T181439.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -62,8 +62,35 @@ apis:
 - description: The Zot API from Zot — 6 operation(s) for zot.
   name: Zot Zot API
   slug: zot-zot-api
-artifact_total: 13
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Container Initiative Distribution Specification Blobs API
+  slug: open-zot-blobs-api
+- collection_type: open
+  name: Open Container Initiative Distribution Specification Blobs Catalog API
+  slug: open-zot-catalog-api
+- collection_type: open
+  name: Open Container Initiative Distribution Specification Blobs Manifests API
+  slug: open-zot-manifests-api
+- collection_type: open
+  name: Open Container Initiative Distribution Specification Blobs Oci API
+  slug: open-zot-oci-api
+- collection_type: open
+  name: Blobs Open Container Initiative Distribution Specification API
+  slug: open-zot-open-container-initiative-distribution-specification-api
+- collection_type: open
+  name: Open Container Initiative Distribution Specification Blobs Referrers API
+  slug: open-zot-referrers-api
+- collection_type: open
+  name: Open Container Initiative Distribution Specification Blobs Tags API
+  slug: open-zot-tags-api
+- collection_type: open
+  name: Open Container Initiative Distribution Specification Blobs Zot API
+  slug: open-zot-zot-api
 - collection_type: open
   name: Open Container Initiative Distribution Specification
   slug: open-zot
@@ -93,7 +120,7 @@ plans:
 - name: Zot Plans Pricing
   plan_count: 1
   slug: zot-plans-pricing
-random_paper: 109
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Zot Rate Limits
@@ -118,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/screenshots/zot-2026-06-20T201959.png
 slug: zot

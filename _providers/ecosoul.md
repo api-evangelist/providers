@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -100,7 +100,7 @@ overview: 'EcoSoul Home is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   EcoSoul Home''s developer surface includes authentication, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 42
+random_paper: 17
 scopes:
 - name: Ecosoul Scopes
   scope_count: 4
@@ -121,7 +121,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecosoul/refs/heads/main/screenshots/ecosoul-2026-08-07T164718.png
 security:

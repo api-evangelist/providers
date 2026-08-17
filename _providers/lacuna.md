@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,11 +45,21 @@ arazzos:
 - description: Submits a music generation task to the Lacuna Music API, polls it to a terminal state, and returns the hosted audio URL of the first rendered track. Both operationIds are verified against the provider
   name: Generate a Lacuna track and collect the audio
   slug: lacuna-generate-and-collect
-artifact_total: 14
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Lacuna Webhooks
   slug: lacuna-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lacuna Music Lacuna Music API API
+  slug: open-lacuna-lacuna-music-api-api
+- collection_type: open
+  name: Lacuna Music API
+  slug: open-lacuna-music-api
 common:
 - group: agent
   title: ''
@@ -238,7 +248,7 @@ plans:
 - name: Lacuna Plans
   plan_count: 4
   slug: lacuna-plans
-random_paper: 28
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Lacuna Rate Limits
@@ -271,7 +281,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

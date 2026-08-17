@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -63,8 +63,32 @@ apis:
 - description: The Tokens API from Thunder Compute — 1 operation(s) for tokens.
   name: Thunder Compute Tokens API
   slug: thundercompute-tokens-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thunder Compute Instances API
+  slug: open-thundercompute-instances-api
+- collection_type: open
+  name: Thunder Compute Instances Pricing API
+  slug: open-thundercompute-pricing-api
+- collection_type: open
+  name: Thunder Compute Instances Snapshots API
+  slug: open-thundercompute-snapshots-api
+- collection_type: open
+  name: Thunder Compute Instances Specs API
+  slug: open-thundercompute-specs-api
+- collection_type: open
+  name: Thunder Compute Instances SSH Keys API
+  slug: open-thundercompute-ssh-keys-api
+- collection_type: open
+  name: Thunder Compute Instances Templates API
+  slug: open-thundercompute-templates-api
+- collection_type: open
+  name: Thunder Compute Instances Tokens API
+  slug: open-thundercompute-tokens-api
 - collection_type: open
   name: Thunder Compute API
   slug: open-thundercompute
@@ -133,7 +157,7 @@ plans:
 - name: Thundercompute Plans Pricing
   plan_count: 3
   slug: thundercompute-plans-pricing
-random_paper: 87
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Thundercompute Rate Limits
@@ -158,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

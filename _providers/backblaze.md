@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -101,11 +101,32 @@ arazzos:
 - description: Authorize, request a bucket upload URL, then upload a single file to that bucket.
   name: Backblaze Upload a File
   slug: backblaze-upload-file-workflow
-artifact_total: 175
+artifact_total: 182
 collections:
 - collection_type: postman
   name: Backblaze B2 Native API
   slug: postman-backblaze-b2-native-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Backblaze B2 Native Application Keys API
+  slug: open-backblaze-application-keys-api
+- collection_type: open
+  name: Backblaze B2 Native Application Keys Authorization API
+  slug: open-backblaze-authorization-api
+- collection_type: open
+  name: Backblaze B2 Native Application Keys Buckets API
+  slug: open-backblaze-buckets-api
+- collection_type: open
+  name: Backblaze B2 Native Application Keys Files API
+  slug: open-backblaze-files-api
+- collection_type: open
+  name: Backblaze B2 Native Application Keys Large Files API
+  slug: open-backblaze-large-files-api
+- collection_type: open
+  name: Backblaze B2 Native Application Keys Notifications API
+  slug: open-backblaze-notifications-api
 common:
 - group: agent
   title: ''
@@ -751,7 +772,7 @@ plans:
 - name: Backblaze Plans Pricing
   plan_count: 3
   slug: backblaze-plans-pricing
-random_paper: 87
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Backblaze Rate Limits
@@ -795,7 +816,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/screenshots/backblaze-2026-07-25T202216.png
 security:

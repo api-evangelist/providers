@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -80,7 +80,59 @@ apis:
 - description: Transaction endpoints for checking transaction receipts and status
   name: OpenSea Transaction Endpoints API
   slug: opensea-transaction-endpoints-api
-artifact_total: 329
+artifact_total: 346
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenSea Account Endpoints API
+  slug: open-opensea-account-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Analytics Endpoints API
+  slug: open-opensea-analytics-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Auth Endpoints API
+  slug: open-opensea-auth-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Chain Endpoints API
+  slug: open-opensea-chain-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Collection Endpoints API
+  slug: open-opensea-collection-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Contract Endpoints API
+  slug: open-opensea-contract-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Drops Endpoints API
+  slug: open-opensea-drops-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Listing Endpoints API
+  slug: open-opensea-listing-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints NFT Endpoints API
+  slug: open-opensea-nft-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Offer Endpoints API
+  slug: open-opensea-offer-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Order Endpoints API
+  slug: open-opensea-order-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Search Endpoints API
+  slug: open-opensea-search-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Swap Endpoints API
+  slug: open-opensea-swap-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Token Endpoints API
+  slug: open-opensea-token-endpoints-api
+- collection_type: open
+  name: OpenSea Account Endpoints Tool Endpoints [Beta] API
+  slug: open-opensea-tool-endpoints-beta-api
+- collection_type: open
+  name: OpenSea Account Endpoints Transaction Endpoints API
+  slug: open-opensea-transaction-endpoints-api
 common:
 - group: other
   title: ''
@@ -1089,7 +1141,7 @@ plans:
 - name: Opensea Plans
   plan_count: 2
   slug: opensea-plans
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Opensea Rate Limits
@@ -1129,7 +1181,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/screenshots/opensea-2026-06-20T191039.png
 security:

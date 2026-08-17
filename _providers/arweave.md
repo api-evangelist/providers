@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: GraphQL API for querying Arweave transaction and block metadata by tags, owner addresses, recipients, block height ranges, and transaction IDs. Supports cursor-based pagination and sorting. Primary en
@@ -52,7 +52,7 @@ apis:
 - description: Endpoints for querying wallet balances and transaction history
   name: Arweave Wallets API
   slug: arweave-wallets-api
-artifact_total: 26
+artifact_total: 32
 collections:
 - collection_type: postman
   name: Arweave HTTP Node Blocks API
@@ -69,6 +69,24 @@ collections:
 - collection_type: postman
   name: Arweave HTTP Node Wallets API
   slug: postman-arweave-wallets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arweave HTTP Node Blocks API
+  slug: open-arweave-blocks-api
+- collection_type: open
+  name: Arweave HTTP Node Chunks API
+  slug: open-arweave-chunks-api
+- collection_type: open
+  name: Arweave HTTP Node Network API
+  slug: open-arweave-network-api
+- collection_type: open
+  name: Arweave HTTP Node Transactions API
+  slug: open-arweave-transactions-api
+- collection_type: open
+  name: Arweave HTTP Node Wallets API
+  slug: open-arweave-wallets-api
 common:
 - group: build
   title: ''
@@ -200,7 +218,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -233,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/screenshots/arweave-2026-06-20T172449.png
 security:

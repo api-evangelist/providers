@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Track events within agent sessions.
@@ -37,7 +37,17 @@ apis:
 - description: Create and manage agent sessions.
   name: Sentrial Sessions API
   slug: sentrial-sessions-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sentrial SDK Events API
+  slug: open-sentrial-events-api
+- collection_type: open
+  name: Sentrial SDK Events Sessions API
+  slug: open-sentrial-sessions-api
 common:
 - group: auth
   title: ''
@@ -147,7 +157,7 @@ overview: 'Sentrial publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Sentrial''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 16 more developer resources.'
-random_paper: 26
+random_paper: 121
 score:
   band: developing
   composite: 44.1
@@ -170,7 +180,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

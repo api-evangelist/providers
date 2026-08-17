@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Makani * is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Makani *''s developer surface includes documentation and 12 more developer resources.'
-random_paper: 25
+random_paper: 29
 score:
   band: minimal
   composite: 10.5
@@ -115,7 +115,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makani/refs/heads/main/screenshots/makani-2026-07-25T225932.png
 security:

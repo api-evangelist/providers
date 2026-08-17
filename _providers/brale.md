@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Accounts API from Brale — 4 operation(s) for accounts.
@@ -49,7 +49,7 @@ apis:
 - description: The Webhooks API from Brale — 6 operation(s) for webhooks.
   name: Brale Webhooks API
   slug: brale-webhooks-api
-artifact_total: 18
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Brale Webhooks
@@ -73,6 +73,27 @@ collections:
 - collection_type: postman
   name: Brale Accounts Webhooks API
   slug: postman-brale-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brale Accounts API
+  slug: open-brale-accounts-api
+- collection_type: open
+  name: Brale Accounts Addresses API
+  slug: open-brale-addresses-api
+- collection_type: open
+  name: Brale Accounts Automations API
+  slug: open-brale-automations-api
+- collection_type: open
+  name: Brale Accounts Financial Institutions API
+  slug: open-brale-financial-institutions-api
+- collection_type: open
+  name: Brale Accounts Orders API
+  slug: open-brale-orders-api
+- collection_type: open
+  name: Brale Accounts Webhooks API
+  slug: open-brale-webhooks-api
 common:
 - group: build
   title: ''
@@ -253,7 +274,7 @@ overview: 'Brale publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Brale''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 33 more developer resources.'
-random_paper: 38
+random_paper: 71
 scopes:
 - name: Brale Scopes
   scope_count: 20
@@ -287,7 +308,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png
 security:

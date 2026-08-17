@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Operations for vendor invoices, purchase orders and accounts payable transactions, accessed via the ItfVendorInvoice Voyager web service interface. Corresponds to the "Payables API" interface category
   name: Yardi Vendor Invoicing Interface
   slug: yardi-vendor-invoicing-api
-artifact_total: 56
+artifact_total: 62
 collections:
 - collection_type: postman
   name: Yardi Voyager Billing and Payments API
@@ -89,6 +89,24 @@ collections:
 - collection_type: postman
   name: Yardi Voyager Billing and Payments Vendor Invoicing API
   slug: postman-yardi-vendor-invoicing-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yardi Voyager Billing and Payments API
+  slug: open-yardi-billing-and-payments-api
+- collection_type: open
+  name: Yardi Voyager Billing and Payments Common Data API
+  slug: open-yardi-common-data-api
+- collection_type: open
+  name: Yardi Voyager Billing and Payments Job Cost API
+  slug: open-yardi-job-cost-api
+- collection_type: open
+  name: Yardi Voyager Billing and Payments Service Requests API
+  slug: open-yardi-service-requests-api
+- collection_type: open
+  name: Yardi Voyager Billing and Payments Vendor Invoicing API
+  slug: open-yardi-vendor-invoicing-api
 - collection_type: open
   name: Yardi Voyager API
   slug: open-yardi-voyager-api
@@ -306,7 +324,7 @@ plans:
 - name: Yardi Plans Pricing
   plan_count: 1
   slug: yardi-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Yardi Rate Limits
@@ -348,7 +366,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png
 security:

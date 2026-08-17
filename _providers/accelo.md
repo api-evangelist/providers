@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: The Tasks API from Accelo — 2 operation(s) for tasks.
   name: Accelo Tasks API
   slug: accelo-tasks-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accelo REST Activities API
+  slug: open-accelo-activities-api
+- collection_type: open
+  name: Accelo REST Activities Companies API
+  slug: open-accelo-companies-api
+- collection_type: open
+  name: Accelo REST Activities Contacts API
+  slug: open-accelo-contacts-api
+- collection_type: open
+  name: Accelo REST Activities Issues API
+  slug: open-accelo-issues-api
+- collection_type: open
+  name: Accelo REST Activities Jobs API
+  slug: open-accelo-jobs-api
+- collection_type: open
+  name: Accelo REST Activities OAuth API
+  slug: open-accelo-oauth-api
+- collection_type: open
+  name: Accelo REST Activities Tasks API
+  slug: open-accelo-tasks-api
 - collection_type: open
   name: Accelo REST API
   slug: open-accelo
@@ -132,7 +156,7 @@ overview: 'Accelo publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Accelo''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 15
+random_paper: 19
 scopes:
 - name: Accelo Scopes
   scope_count: 4
@@ -158,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/screenshots/accelo-2026-06-20T163557.png
 security:

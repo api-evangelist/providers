@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Query CVEs using Empirical search syntax.
   name: Empirical Security Search API
   slug: empirical-security-search-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Empirical Security CVE Groups API
+  slug: open-empirical-security-cve-groups-api
+- collection_type: open
+  name: Empirical Security CVE Groups CVEs API
+  slug: open-empirical-security-cves-api
+- collection_type: open
+  name: Empirical Security CVE Groups Search API
+  slug: open-empirical-security-search-api
 common:
 - group: other
   title: ''
@@ -161,7 +174,7 @@ overview: 'Empirical Security publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   Empirical Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 83
+random_paper: 95
 scopes:
 - name: Empirical Security Scopes
   scope_count: 1
@@ -190,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/screenshots/empirical-security-2026-07-25T213247.png
 security:

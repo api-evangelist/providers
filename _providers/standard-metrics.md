@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -81,7 +81,53 @@ apis:
 - description: The whoami API from Standard Metrics — 1 operation(s) for whoami.
   name: Standard Metrics whoami API
   slug: standard-metrics-whoami-api
-artifact_total: 21
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OAuth Token budgets API
+  slug: open-standard-metrics-budgets-api
+- collection_type: open
+  name: OAuth Token budgets cap_table API
+  slug: open-standard-metrics-cap-table-api
+- collection_type: open
+  name: OAuth Token budgets companies API
+  slug: open-standard-metrics-companies-api
+- collection_type: open
+  name: OAuth Token budgets custom-columns API
+  slug: open-standard-metrics-custom-columns-api
+- collection_type: open
+  name: OAuth Token budgets documents API
+  slug: open-standard-metrics-documents-api
+- collection_type: open
+  name: OAuth Token budgets firm-details API
+  slug: open-standard-metrics-firm-details-api
+- collection_type: open
+  name: OAuth Token budgets funds API
+  slug: open-standard-metrics-funds-api
+- collection_type: open
+  name: OAuth Token budgets information-reports API
+  slug: open-standard-metrics-information-reports-api
+- collection_type: open
+  name: OAuth Token budgets information-requests API
+  slug: open-standard-metrics-information-requests-api
+- collection_type: open
+  name: OAuth Token budgets metrics API
+  slug: open-standard-metrics-metrics-api
+- collection_type: open
+  name: OAuth Token budgets notes API
+  slug: open-standard-metrics-notes-api
+- collection_type: open
+  name: OAuth Token budgets O API
+  slug: open-standard-metrics-o-api
+- collection_type: open
+  name: OAuth Token budgets users API
+  slug: open-standard-metrics-users-api
+- collection_type: open
+  name: OAuth Token budgets whoami API
+  slug: open-standard-metrics-whoami-api
 common:
 - group: other
   title: ''
@@ -219,7 +265,7 @@ overview: 'Standard Metrics publishes 14 APIs on the [APIs.io](https://apis.io/)
 
 
   Standard Metrics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
-random_paper: 93
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Standard Metrics Rate Limits
@@ -252,7 +298,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: User profiles.
   name: Hacker News Users API
   slug: hacker-news-users-api
-artifact_total: 10
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hacker News Items API
+  slug: open-hacker-news-items-api
+- collection_type: open
+  name: Hacker News Items Lists API
+  slug: open-hacker-news-lists-api
+- collection_type: open
+  name: Hacker News Items Live API
+  slug: open-hacker-news-live-api
+- collection_type: open
+  name: Hacker News Items Users API
+  slug: open-hacker-news-users-api
 - collection_type: open
   name: Hacker News API
   slug: open-hacker-news
@@ -124,7 +139,7 @@ plans:
 - name: Hacker News Plans Pricing
   plan_count: 3
   slug: hacker-news-plans-pricing
-random_paper: 32
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Hacker News Rate Limits
@@ -149,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/screenshots/hacker-news-2026-06-20T182448.png
 security:

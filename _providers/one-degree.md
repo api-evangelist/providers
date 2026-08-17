@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Housing properties.
@@ -53,11 +53,32 @@ arazzos:
 - description: Search opportunities by location, then load the top result's details and schedule.
   name: One Degree — find and detail a nearby service
   slug: one-degree-find-services
-artifact_total: 11
+artifact_total: 18
 collections:
 - collection_type: postman
   name: One Degree
   slug: postman-one-degree
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: One Degree Resource Server Housing API
+  slug: open-one-degree-housing-api
+- collection_type: open
+  name: One Degree Resource Server Housing Locations API
+  slug: open-one-degree-locations-api
+- collection_type: open
+  name: One Degree Resource Server Housing Opportunities API
+  slug: open-one-degree-opportunities-api
+- collection_type: open
+  name: One Degree Resource Server Housing Organizations API
+  slug: open-one-degree-organizations-api
+- collection_type: open
+  name: One Degree Resource Server Housing Reference API
+  slug: open-one-degree-reference-api
+- collection_type: open
+  name: One Degree Resource Server Housing Submissions API
+  slug: open-one-degree-submissions-api
 common:
 - group: other
   title: ''
@@ -167,7 +188,7 @@ overview: 'One Degree publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 27
+random_paper: 93
 score:
   band: thin
   composite: 41.7
@@ -196,7 +217,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/screenshots/one-degree-2026-08-07T190242.png
 security:

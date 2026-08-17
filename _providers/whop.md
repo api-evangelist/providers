@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -75,12 +75,45 @@ apis:
 - description: Webhook endpoint registration for platform events.
   name: Whop Webhooks API
   slug: whop-webhooks-api
-artifact_total: 22
+artifact_total: 33
 asyncapis:
 - description: AsyncAPI 2.6 description of Whop's **realtime WebSocket** surface, used by Whop apps for bidirectional realtime messaging (custom app messages plus chat / feed updates) between connected clients and W
   name: Whop Realtime WebSocket
   slug: whop-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations API
+  slug: open-whop-checkout-configurations-api
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations Companies API
+  slug: open-whop-companies-api
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations Memberships API
+  slug: open-whop-memberships-api
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations Payments API
+  slug: open-whop-payments-api
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations Plans API
+  slug: open-whop-plans-api
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations Products API
+  slug: open-whop-products-api
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations Promo Codes API
+  slug: open-whop-promo-codes-api
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations Transfers API
+  slug: open-whop-transfers-api
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations Users API
+  slug: open-whop-users-api
+- collection_type: open
+  name: Whop REST API (v1) Checkout Configurations Webhooks API
+  slug: open-whop-webhooks-api
 - collection_type: open
   name: Whop REST API (v1)
   slug: open-whop
@@ -156,7 +189,7 @@ plans:
 - name: Whop Plans Pricing
   plan_count: 3
   slug: whop-plans-pricing
-random_paper: 86
+random_paper: 148
 rate_limits:
 - limit_count: 4
   name: Whop Rate Limits
@@ -196,7 +229,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

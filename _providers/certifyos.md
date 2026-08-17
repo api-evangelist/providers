@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 61
@@ -206,11 +206,192 @@ apis:
 - description: APIs for managing webhooks
   name: Certifyos Webhooks API
   slug: certifyos-webhooks-api
-artifact_total: 64
+artifact_total: 124
 asyncapis:
 - description: ''
   name: Certifyos Webhooks
   slug: certifyos-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Certify API Layer Address Standardization API
+  slug: open-certifyos-addressstandardization-api
+- collection_type: open
+  name: Certify API Layer Auth API
+  slug: open-certifyos-auth-api
+- collection_type: open
+  name: Certify API Layer Auth Resource API
+  slug: open-certifyos-auth-resource-api
+- collection_type: open
+  name: CertifyOS Auth Tokens API
+  slug: open-certifyos-auth-tokens-api
+- collection_type: open
+  name: Certifyos Contracts API
+  slug: open-certifyos-contracts-api
+- collection_type: open
+  name: Certify API Layer Credentialing Outreach Resource API
+  slug: open-certifyos-credentialing-outreach-resource-api
+- collection_type: open
+  name: CertifyOS Credentialing Workflows API
+  slug: open-certifyos-credentialing-workflows-api
+- collection_type: open
+  name: Certifyos Credentialing Workflow API
+  slug: open-certifyos-credentialingworkflow-api
+- collection_type: open
+  name: Certifyos Dal Reactive Test Resource API
+  slug: open-certifyos-dal-reactive-test-resource-api
+- collection_type: open
+  name: Certify API Layer Directory API
+  slug: open-certifyos-directory-api
+- collection_type: open
+  name: Certify API Layer Egress Template API
+  slug: open-certifyos-egresstemplate-api
+- collection_type: open
+  name: Certify API Layer Event Email Settings API
+  slug: open-certifyos-event-email-settings-api
+- collection_type: open
+  name: Certify API Layer Facility API
+  slug: open-certifyos-facility-api
+- collection_type: open
+  name: Certify API Layer Facility Credentialing Outreach Resource API
+  slug: open-certifyos-facility-credentialing-outreach-resource-api
+- collection_type: open
+  name: Certify API Layer Facility Note API
+  slug: open-certifyos-facility-note-api
+- collection_type: open
+  name: Certify API Layer Facility Credentialing Workflow API
+  slug: open-certifyos-facilitycredentialingworkflow-api
+- collection_type: open
+  name: Certifyos File Storage Resource API
+  slug: open-certifyos-file-storage-resource-api
+- collection_type: open
+  name: Certify API Layer Flag API
+  slug: open-certifyos-flag-api
+- collection_type: open
+  name: Certify API Layer Flag Calculator API
+  slug: open-certifyos-flagcalculator-api
+- collection_type: open
+  name: CertifyOS Flags API
+  slug: open-certifyos-flags-api
+- collection_type: open
+  name: Certify API Layer Form Submissions API
+  slug: open-certifyos-form-submissions-api
+- collection_type: open
+  name: CertifyOS Forms API
+  slug: open-certifyos-forms-api
+- collection_type: open
+  name: Certify API Layer Group API
+  slug: open-certifyos-group-api
+- collection_type: open
+  name: Certify API Layer Locations API
+  slug: open-certifyos-locations-api
+- collection_type: open
+  name: Certify API Layer Monitoring Run API
+  slug: open-certifyos-monitoringrun-api
+- collection_type: open
+  name: Certify API Layer Monitoring Workflow API
+  slug: open-certifyos-monitoringworkflow-api
+- collection_type: open
+  name: Certify API Layer Monitoring Workflow Note API
+  slug: open-certifyos-monitoringworkflownote-api
+- collection_type: open
+  name: Certifyos Network API
+  slug: open-certifyos-network-api
+- collection_type: open
+  name: Certify API Layer Note API
+  slug: open-certifyos-note-api
+- collection_type: open
+  name: Certify API Layer Npi Validation API
+  slug: open-certifyos-npivalidation-api
+- collection_type: open
+  name: Certify API Layer Organization Outreach Settings Resource API
+  slug: open-certifyos-organization-outreach-settings-resource-api
+- collection_type: open
+  name: Certifyos Payers API
+  slug: open-certifyos-payers-api
+- collection_type: open
+  name: Certifyos Permission API
+  slug: open-certifyos-permission-api
+- collection_type: open
+  name: Certifyos Plan API
+  slug: open-certifyos-plan-api
+- collection_type: open
+  name: Certify API Layer Practitioner API
+  slug: open-certifyos-practitioner-api
+- collection_type: open
+  name: CertifyOS Providers API
+  slug: open-certifyos-providers-api
+- collection_type: open
+  name: Certify API Layer Role API
+  slug: open-certifyos-role-api
+- collection_type: open
+  name: Certify API Layer Role Resource API
+  slug: open-certifyos-role-resource-api
+- collection_type: open
+  name: Certifyos Roster API
+  slug: open-certifyos-roster-api
+- collection_type: open
+  name: Certifyos Roster upload API
+  slug: open-certifyos-roster-upload-api
+- collection_type: open
+  name: Certifyos Roster Record API
+  slug: open-certifyos-rosterrecord-api
+- collection_type: open
+  name: Certify API Layer Send Grid Webhook Resource API
+  slug: open-certifyos-send-grid-webhook-resource-api
+- collection_type: open
+  name: Certifyos Specialty API
+  slug: open-certifyos-specialty-api
+- collection_type: open
+  name: Certify API Layer Storage API
+  slug: open-certifyos-storage-api
+- collection_type: open
+  name: Certifyos Template API
+  slug: open-certifyos-template-api
+- collection_type: open
+  name: Certify API Layer Tenant Configuration API
+  slug: open-certifyos-tenant-configuration-api
+- collection_type: open
+  name: Certifyos Tenant Specialty API
+  slug: open-certifyos-tenant-specialty-api
+- collection_type: open
+  name: Certify API Layer UDF Schema API
+  slug: open-certifyos-udf-schema-api
+- collection_type: open
+  name: Certify API Layer User API
+  slug: open-certifyos-user-api
+- collection_type: open
+  name: CertifyOS V2/credentialing Workflows API
+  slug: open-certifyos-v2-credentialing-workflows-api
+- collection_type: open
+  name: CertifyOS V2/facilities API
+  slug: open-certifyos-v2-facilities-api
+- collection_type: open
+  name: CertifyOS V2/facility Credentialing Workflows API
+  slug: open-certifyos-v2-facility-credentialing-workflows-api
+- collection_type: open
+  name: CertifyOS V2/flags API
+  slug: open-certifyos-v2-flags-api
+- collection_type: open
+  name: CertifyOS V2/groups API
+  slug: open-certifyos-v2-groups-api
+- collection_type: open
+  name: CertifyOS V2/provider API
+  slug: open-certifyos-v2-provider-api
+- collection_type: open
+  name: CertifyOS V2/provider With Groups API
+  slug: open-certifyos-v2-provider-with-groups-api
+- collection_type: open
+  name: CertifyOS V2/providers API
+  slug: open-certifyos-v2-providers-api
+- collection_type: open
+  name: Certify API Layer Webhook API
+  slug: open-certifyos-webhook-api
+- collection_type: open
+  name: Certifyos Webhooks API
+  slug: open-certifyos-webhooks-api
 common:
 - group: other
   title: ''
@@ -344,7 +525,7 @@ overview: 'Certifyos publishes 59 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Certifyos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 24
+random_paper: 90
 score:
   band: developing
   composite: 49.9
@@ -374,7 +555,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/screenshots/certifyos-2026-07-25T205001.png
 security:

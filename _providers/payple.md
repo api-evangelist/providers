@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Payple REST payment API (v2) for card, bank-account, recurring/billing-key, link, verification, and payout (Hub) operations, plus the hosted payment window.
@@ -155,7 +155,7 @@ overview: 'Payple publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Payple''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: developing
   composite: 43.6
@@ -177,7 +177,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/screenshots/payple-2026-08-07T191656.png
 security:

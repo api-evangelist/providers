@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Anthropic-compatible messages endpoint.
@@ -43,7 +43,23 @@ apis:
 - description: OpenAI-compatible endpoints for reuse of existing OpenAI clients.
   name: LM Studio OpenAI Compatibility API
   slug: lm-studio-openai-compatibility-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LM Studio Local Server Anthropic Compatibility API
+  slug: open-lm-studio-anthropic-compatibility-api
+- collection_type: open
+  name: LM Studio Local Server Anthropic Compatibility Chat API
+  slug: open-lm-studio-chat-api
+- collection_type: open
+  name: LM Studio Local Server Anthropic Compatibility Models API
+  slug: open-lm-studio-models-api
+- collection_type: open
+  name: LM Studio Local Server Anthropic Compatibility OpenAI Compatibility API
+  slug: open-lm-studio-openai-compatibility-api
 common:
 - group: other
   title: ''
@@ -165,7 +181,7 @@ overview: 'LM Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   LM Studio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 19 more developer resources.'
-random_paper: 86
+random_paper: 32
 score:
   band: thin
   composite: 31.8
@@ -188,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/screenshots/lm-studio-2026-07-25T225416.png
 security:

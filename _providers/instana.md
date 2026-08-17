@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 62
 apis:
 - description: The Action Catalog API from Instana — 5 operation(s) for action catalog.
@@ -217,8 +217,197 @@ apis:
 - description: The Website Metrics API from Instana — 3 operation(s) for website metrics.
   name: Instana Website Metrics API
   slug: instana-website-metrics-api
-artifact_total: 68
+artifact_total: 131
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Instana REST API documentation Action Catalog API
+  slug: open-instana-action-catalog-api
+- collection_type: open
+  name: Instana REST API documentation Action History API
+  slug: open-instana-action-history-api
+- collection_type: open
+  name: Instana REST API documentation AI Management API
+  slug: open-instana-ai-management-api
+- collection_type: open
+  name: Instana REST API documentation Apdex Report API
+  slug: open-instana-apdex-report-api
+- collection_type: open
+  name: Instana REST API documentation Apdex Settings API
+  slug: open-instana-apdex-settings-api
+- collection_type: open
+  name: Instana REST API documentation API Token API
+  slug: open-instana-api-token-api
+- collection_type: open
+  name: Instana REST API documentation Application Alert Configuration API
+  slug: open-instana-application-alert-configuration-api
+- collection_type: open
+  name: Instana REST API documentation Application Analyze API
+  slug: open-instana-application-analyze-api
+- collection_type: open
+  name: Instana REST API documentation Application Catalog API
+  slug: open-instana-application-catalog-api
+- collection_type: open
+  name: Instana REST API documentation Application Metrics API
+  slug: open-instana-application-metrics-api
+- collection_type: open
+  name: Instana REST API documentation Application Resources API
+  slug: open-instana-application-resources-api
+- collection_type: open
+  name: Instana REST API documentation Application Settings API
+  slug: open-instana-application-settings-api
+- collection_type: open
+  name: Instana REST API documentation Application Topology API
+  slug: open-instana-application-topology-api
+- collection_type: open
+  name: Instana REST API documentation Audit Log API
+  slug: open-instana-audit-log-api
+- collection_type: open
+  name: Instana REST API documentation Authentication API
+  slug: open-instana-authentication-api
+- collection_type: open
+  name: Instana REST API documentation Business Monitoring API
+  slug: open-instana-business-monitoring-api
+- collection_type: open
+  name: Instana REST API documentation Custom Dashboards API
+  slug: open-instana-custom-dashboards-api
+- collection_type: open
+  name: Instana REST API documentation Custom Entities API
+  slug: open-instana-custom-entities-api
+- collection_type: open
+  name: Instana REST API documentation End User Monitoring API
+  slug: open-instana-end-user-monitoring-api
+- collection_type: open
+  name: Instana REST API documentation Event Settings API
+  slug: open-instana-event-settings-api
+- collection_type: open
+  name: Instana REST API documentation Events API
+  slug: open-instana-events-api
+- collection_type: open
+  name: Instana REST API documentation Global Application Alert Configuration API
+  slug: open-instana-global-application-alert-configuration-api
+- collection_type: open
+  name: Instana REST API documentation Groups API
+  slug: open-instana-groups-api
+- collection_type: open
+  name: Instana REST API documentation Health API
+  slug: open-instana-health-api
+- collection_type: open
+  name: Instana REST API documentation Host Agent API
+  slug: open-instana-host-agent-api
+- collection_type: open
+  name: Instana REST API documentation Infrastructure Alert Configuration API
+  slug: open-instana-infrastructure-alert-configuration-api
+- collection_type: open
+  name: Instana REST API documentation Infrastructure Analyze API
+  slug: open-instana-infrastructure-analyze-api
+- collection_type: open
+  name: Instana REST API documentation Infrastructure Catalog API
+  slug: open-instana-infrastructure-catalog-api
+- collection_type: open
+  name: Instana REST API documentation Infrastructure Metrics API
+  slug: open-instana-infrastructure-metrics-api
+- collection_type: open
+  name: Instana REST API documentation Infrastructure Resources API
+  slug: open-instana-infrastructure-resources-api
+- collection_type: open
+  name: Instana REST API documentation Infrastructure Topology API
+  slug: open-instana-infrastructure-topology-api
+- collection_type: open
+  name: Instana REST API documentation Log Alert Configuration API
+  slug: open-instana-log-alert-configuration-api
+- collection_type: open
+  name: Instana REST API documentation Logging Analyze API
+  slug: open-instana-logging-analyze-api
+- collection_type: open
+  name: Instana REST API documentation Maintenance Configuration API
+  slug: open-instana-maintenance-configuration-api
+- collection_type: open
+  name: Instana REST API documentation Mobile App Analyze API
+  slug: open-instana-mobile-app-analyze-api
+- collection_type: open
+  name: Instana REST API documentation Mobile App Catalog API
+  slug: open-instana-mobile-app-catalog-api
+- collection_type: open
+  name: Instana REST API documentation Mobile App Configuration API
+  slug: open-instana-mobile-app-configuration-api
+- collection_type: open
+  name: Instana REST API documentation Mobile App Metrics API
+  slug: open-instana-mobile-app-metrics-api
+- collection_type: open
+  name: Instana REST API documentation Policies API
+  slug: open-instana-policies-api
+- collection_type: open
+  name: Instana REST API documentation Releases API
+  slug: open-instana-releases-api
+- collection_type: open
+  name: Instana REST API documentation Roles API
+  slug: open-instana-roles-api
+- collection_type: open
+  name: Instana REST API documentation Service Levels Alert Configuration API
+  slug: open-instana-service-levels-alert-configuration-api
+- collection_type: open
+  name: Instana REST API documentation Service Levels Objective(SLO) Configurations API
+  slug: open-instana-service-levels-objective-slo-configurations-api
+- collection_type: open
+  name: Instana REST API documentation Service Levels Objective(SLO) Report API
+  slug: open-instana-service-levels-objective-slo-report-api
+- collection_type: open
+  name: Instana REST API documentation Session Settings API
+  slug: open-instana-session-settings-api
+- collection_type: open
+  name: Instana REST API documentation SLI Report API
+  slug: open-instana-sli-report-api
+- collection_type: open
+  name: Instana REST API documentation SLI Settings API
+  slug: open-instana-sli-settings-api
+- collection_type: open
+  name: Instana REST API documentation SLO Correction Configurations API
+  slug: open-instana-slo-correction-configurations-api
+- collection_type: open
+  name: Instana REST API documentation SLO Correction Windows API
+  slug: open-instana-slo-correction-windows-api
+- collection_type: open
+  name: Instana REST API documentation Synthetic Alert Configuration API
+  slug: open-instana-synthetic-alert-configuration-api
+- collection_type: open
+  name: Instana REST API documentation Synthetic Calls API
+  slug: open-instana-synthetic-calls-api
+- collection_type: open
+  name: Instana REST API documentation Synthetic Catalog API
+  slug: open-instana-synthetic-catalog-api
+- collection_type: open
+  name: Instana REST API documentation Synthetic Metrics API
+  slug: open-instana-synthetic-metrics-api
+- collection_type: open
+  name: Instana REST API documentation Synthetic Settings API
+  slug: open-instana-synthetic-settings-api
+- collection_type: open
+  name: Instana REST API documentation Synthetic Test Playback Results API
+  slug: open-instana-synthetic-test-playback-results-api
+- collection_type: open
+  name: Instana REST API documentation Teams API
+  slug: open-instana-teams-api
+- collection_type: open
+  name: Instana REST API documentation Usage API
+  slug: open-instana-usage-api
+- collection_type: open
+  name: Instana REST API documentation User API
+  slug: open-instana-user-api
+- collection_type: open
+  name: Instana REST API documentation Website Analyze API
+  slug: open-instana-website-analyze-api
+- collection_type: open
+  name: Instana REST API documentation Website Catalog API
+  slug: open-instana-website-catalog-api
+- collection_type: open
+  name: Instana REST API documentation Website Configuration API
+  slug: open-instana-website-configuration-api
+- collection_type: open
+  name: Instana REST API documentation Website Metrics API
+  slug: open-instana-website-metrics-api
 - collection_type: open
   name: Instana REST API documentation
   slug: open-instana
@@ -267,7 +456,7 @@ plans:
 - name: Instana Plans Pricing
   plan_count: 3
   slug: instana-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Instana Rate Limits
@@ -291,7 +480,7 @@ score:
       marker_coverage: 0.0
       total: 62
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/screenshots/instana-2026-06-20T183421.png
 security:

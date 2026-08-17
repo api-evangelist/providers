@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -87,8 +87,56 @@ apis:
 - description: The Teams API from FireHydrant — 2 operation(s) for teams.
   name: FireHydrant Teams API
   slug: firehydrant-teams-api
-artifact_total: 25
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FireHydrant REST Audits API
+  slug: open-firehydrant-audits-api
+- collection_type: open
+  name: FireHydrant REST Audits Change Events API
+  slug: open-firehydrant-change-events-api
+- collection_type: open
+  name: FireHydrant REST Audits Changes API
+  slug: open-firehydrant-changes-api
+- collection_type: open
+  name: FireHydrant REST Audits Conversations API
+  slug: open-firehydrant-conversations-api
+- collection_type: open
+  name: FireHydrant REST Audits Environments API
+  slug: open-firehydrant-environments-api
+- collection_type: open
+  name: FireHydrant REST Audits Functionalities API
+  slug: open-firehydrant-functionalities-api
+- collection_type: open
+  name: FireHydrant REST Audits Incidents API
+  slug: open-firehydrant-incidents-api
+- collection_type: open
+  name: FireHydrant REST Audits Ping API
+  slug: open-firehydrant-ping-api
+- collection_type: open
+  name: FireHydrant REST Audits Priorities API
+  slug: open-firehydrant-priorities-api
+- collection_type: open
+  name: FireHydrant REST Audits Runbooks API
+  slug: open-firehydrant-runbooks-api
+- collection_type: open
+  name: FireHydrant REST Audits Scheduled Maintenances API
+  slug: open-firehydrant-scheduled-maintenances-api
+- collection_type: open
+  name: FireHydrant REST Audits Services API
+  slug: open-firehydrant-services-api
+- collection_type: open
+  name: FireHydrant REST Audits Severities API
+  slug: open-firehydrant-severities-api
+- collection_type: open
+  name: FireHydrant REST Audits Signals API
+  slug: open-firehydrant-signals-api
+- collection_type: open
+  name: FireHydrant REST Audits Teams API
+  slug: open-firehydrant-teams-api
 - collection_type: open
   name: FireHydrant REST API
   slug: open-firehydrant
@@ -153,7 +201,7 @@ plans:
 - name: Firehydrant Plans Pricing
   plan_count: 3
   slug: firehydrant-plans-pricing
-random_paper: 104
+random_paper: 141
 rate_limits:
 - limit_count: 5
   name: Firehydrant Rate Limits
@@ -178,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/screenshots/firehydrant-2026-06-20T181235.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,8 +86,59 @@ apis:
 - description: The Venues.{format} API from Neighbortunes — 1 operation(s) for venues.{format}.
   name: Neighbortunes Venues.{format} API
   slug: neighbortunes-venues-format-api
-artifact_total: 22
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Albums.{format} API
+  slug: open-neighbortunes-albums-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Appearances.{format} API
+  slug: open-neighbortunes-appearances-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Jamcharts.{format} API
+  slug: open-neighbortunes-jamcharts-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Latest.{format} API
+  slug: open-neighbortunes-latest-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Links.{format} API
+  slug: open-neighbortunes-links-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} List API
+  slug: open-neighbortunes-list-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Metadata.{format} API
+  slug: open-neighbortunes-metadata-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Setlists API
+  slug: open-neighbortunes-setlists-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Setlists.{format} API
+  slug: open-neighbortunes-setlists-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Shows API
+  slug: open-neighbortunes-shows-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Shows.{format} API
+  slug: open-neighbortunes-shows-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Songs API
+  slug: open-neighbortunes-songs-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Songs.{format} API
+  slug: open-neighbortunes-songs-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Uploads.{format} API
+  slug: open-neighbortunes-uploads-format-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Venues API
+  slug: open-neighbortunes-venues-api
+- collection_type: open
+  name: Neighbortunes Albums.{format} Albums.{format} Venues.{format} API
+  slug: open-neighbortunes-venues-format-api
 - collection_type: open
   name: Neighbortunes API
   slug: open-neighbortunes
@@ -117,7 +168,7 @@ plans:
 - name: Neighbortunes Plans Pricing
   plan_count: 3
   slug: neighbortunes-plans-pricing
-random_paper: 85
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Neighbortunes Rate Limits
@@ -142,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/screenshots/neighbortunes-2026-06-20T190127.png
 security:

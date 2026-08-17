@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: The Zones API from Brandtrack — 3 operation(s) for zones.
   name: Brandtrack Zones API
   slug: brandtrack-zones-api
-artifact_total: 14
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brandtrack API Documentation Accounts API
+  slug: open-brandtrack-accounts-api
+- collection_type: open
+  name: Brandtrack API Documentation Accounts Groups API
+  slug: open-brandtrack-groups-api
+- collection_type: open
+  name: Brandtrack API Documentation Accounts Locations API
+  slug: open-brandtrack-locations-api
+- collection_type: open
+  name: Brandtrack API Documentation Accounts Other API
+  slug: open-brandtrack-other-api
+- collection_type: open
+  name: Brandtrack API Documentation Accounts Partner API
+  slug: open-brandtrack-partner-api
+- collection_type: open
+  name: Brandtrack API Documentation Accounts Roles API
+  slug: open-brandtrack-roles-api
+- collection_type: open
+  name: Brandtrack API Documentation Accounts Subscriptions API
+  slug: open-brandtrack-subscriptions-api
+- collection_type: open
+  name: Brandtrack API Documentation Accounts Users API
+  slug: open-brandtrack-users-api
+- collection_type: open
+  name: Brandtrack API Documentation Accounts Zones API
+  slug: open-brandtrack-zones-api
 common:
 - group: other
   title: ''
@@ -187,7 +218,7 @@ overview: 'Brandtrack publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brandtrack''s developer surface includes documentation, API reference, authentication, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 92
+random_paper: 9
 scopes:
 - name: Brandtrack Scopes
   scope_count: 1
@@ -216,7 +247,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/screenshots/brandtrack-2026-07-25T203725.png
 security:

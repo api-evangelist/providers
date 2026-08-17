@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,11 +47,24 @@ apis:
 - description: The Workspaces API from Unito — 2 operation(s) for workspaces.
   name: Unito Workspaces API
   slug: unito-workspaces-api
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Unito Connector Webhooks
   slug: unito-connector-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unito Embed Reports API
+  slug: open-unito-reports-api
+- collection_type: open
+  name: Unito Embed Reports Server API
+  slug: open-unito-server-api
+- collection_type: open
+  name: Unito Embed Reports Workspaces API
+  slug: open-unito-workspaces-api
 common:
 - group: other
   title: ''
@@ -216,7 +229,7 @@ overview: 'Unito publishes 3 APIs on the [APIs.io](https://apis.io/) network: Re
 
 
   Unito''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 79
+random_paper: 112
 score:
   band: strong
   composite: 56.5
@@ -240,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

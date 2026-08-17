@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: The WalletEncode7702 API from Uniswap — 1 operation(s) for walletencode7702.
   name: Uniswap WalletEncode7702 API
   slug: uniswap-walletencode7702-api
-artifact_total: 96
+artifact_total: 109
 collections:
 - collection_type: postman
   name: Token Trading Approval API
@@ -120,8 +120,47 @@ collections:
   name: Token Trading Approval WalletEncode7702 API
   slug: postman-uniswap-walletencode7702-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Token Trading Approval API
+  slug: open-uniswap-approval-api
+- collection_type: open
+  name: Token Trading Approval LimitOrderQuote API
+  slug: open-uniswap-limitorderquote-api
+- collection_type: open
+  name: Token Trading Approval Liquidity API
+  slug: open-uniswap-liquidity-api
+- collection_type: open
+  name: Token Trading Approval Order API
+  slug: open-uniswap-order-api
+- collection_type: open
+  name: Token Trading Approval Plan API
+  slug: open-uniswap-plan-api
+- collection_type: open
+  name: Token Trading Approval Quote API
+  slug: open-uniswap-quote-api
+- collection_type: open
+  name: Token Trading Approval Send API
+  slug: open-uniswap-send-api
+- collection_type: open
+  name: Token Trading Approval Swap API
+  slug: open-uniswap-swap-api
+- collection_type: open
+  name: Token Trading Approval SwappableTokens API
+  slug: open-uniswap-swappabletokens-api
+- collection_type: open
   name: Token Trading
   slug: open-uniswap-trading
+- collection_type: open
+  name: Token Trading Approval Wallet API
+  slug: open-uniswap-wallet-api
+- collection_type: open
+  name: Token Trading Approval WalletCheckDelegation API
+  slug: open-uniswap-walletcheckdelegation-api
+- collection_type: open
+  name: Token Trading Approval WalletEncode7702 API
+  slug: open-uniswap-walletencode7702-api
 common:
 - group: build
   title: ''
@@ -383,7 +422,7 @@ plans:
 - name: Uniswap Plans Pricing
   plan_count: 3
   slug: uniswap-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Uniswap Rate Limits
@@ -431,7 +470,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/screenshots/uniswap-2026-06-20T200036.png
 security:

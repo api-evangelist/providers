@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 375
   human_in_the_loop: 8
@@ -86,8 +86,59 @@ apis:
 - description: The .well Known API from Descope — 6 operation(s) for .well known.
   name: Descope .well Known API
   slug: descope-well-known-api
-artifact_total: 66
+artifact_total: 83
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Descope Apps API
+  slug: open-descope-apps-api
+- collection_type: open
+  name: Descope Apps Auth API
+  slug: open-descope-auth-api
+- collection_type: open
+  name: Descope Apps Custom Attributes API
+  slug: open-descope-custom-attributes-api
+- collection_type: open
+  name: Descope Apps  API
+  slug: open-descope-default-api
+- collection_type: open
+  name: Descope Apps Email API
+  slug: open-descope-email-api
+- collection_type: open
+  name: Descope Apps Embedded Link API
+  slug: open-descope-embedded-link-api
+- collection_type: open
+  name: Descope Apps Fedcm API
+  slug: open-descope-fedcm-api
+- collection_type: open
+  name: Descope Apps Instant Message (IM) API
+  slug: open-descope-instant-message-im-api
+- collection_type: open
+  name: Descope Apps Keys API
+  slug: open-descope-keys-api
+- collection_type: open
+  name: Descope Apps Mgmt API
+  slug: open-descope-mgmt-api
+- collection_type: open
+  name: Descope Apps Oauth2 API
+  slug: open-descope-oauth2-api
+- collection_type: open
+  name: Descope Apps Scim API
+  slug: open-descope-scim-api
+- collection_type: open
+  name: Descope Apps Text Message (SMS) API
+  slug: open-descope-text-message-sms-api
+- collection_type: open
+  name: Descope Apps Verification API
+  slug: open-descope-verification-api
+- collection_type: open
+  name: Descope Apps Voice Message (Phone) API
+  slug: open-descope-voice-message-phone-api
+- collection_type: open
+  name: Descope Apps .well Known API
+  slug: open-descope-well-known-api
 - collection_type: open
   name: Descope API
   slug: open-descope
@@ -389,7 +440,7 @@ overview: 'Descope publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Descope''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, developer console, signup flow, and 53 more developer resources.'
-random_paper: 19
+random_paper: 143
 score:
   band: developing
   composite: 50.3
@@ -410,7 +461,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/screenshots/descope-2026-06-20T175937.png
 security:

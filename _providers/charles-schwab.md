@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,14 +69,47 @@ apis:
 - description: User account preferences and metadata
   name: Charles Schwab User Preferences API
   slug: charles-schwab-user-preferences-api
-artifact_total: 26
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Charles Schwab Market Data Accounts API
+  slug: open-charles-schwab-accounts-api
+- collection_type: open
+  name: Charles Schwab Market Data Accounts Instruments API
+  slug: open-charles-schwab-instruments-api
 - collection_type: open
   name: Charles Schwab Market Data API
   slug: open-charles-schwab-market-data-api
 - collection_type: open
+  name: Charles Schwab Market Data Accounts Market Hours API
+  slug: open-charles-schwab-market-hours-api
+- collection_type: open
+  name: Charles Schwab Market Data Accounts Movers API
+  slug: open-charles-schwab-movers-api
+- collection_type: open
+  name: Charles Schwab Market Data Accounts Options API
+  slug: open-charles-schwab-options-api
+- collection_type: open
+  name: Charles Schwab Market Data Accounts Orders API
+  slug: open-charles-schwab-orders-api
+- collection_type: open
+  name: Charles Schwab Market Data Accounts Price History API
+  slug: open-charles-schwab-price-history-api
+- collection_type: open
+  name: Charles Schwab Market Data Accounts Quotes API
+  slug: open-charles-schwab-quotes-api
+- collection_type: open
   name: Charles Schwab Trader API
   slug: open-charles-schwab-trader-api
+- collection_type: open
+  name: Charles Schwab Market Data Accounts Transactions API
+  slug: open-charles-schwab-transactions-api
+- collection_type: open
+  name: Charles Schwab Market Data Accounts User Preferences API
+  slug: open-charles-schwab-user-preferences-api
 common:
 - group: agent
   title: ''
@@ -216,7 +249,7 @@ press:
 - date: '2026-05-25'
   title: What to Know About Artificial Intelligence (AI)
   url: https://www.schwab.com/learn/story/what-to-know-about-artificial-intelligence-ai
-random_paper: 95
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Charles Schwab Rate Limits
@@ -261,7 +294,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png
 security:

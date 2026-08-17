@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -117,17 +117,92 @@ apis:
 - description: Monitor thread pool utilization
   name: Oracle WebLogic Server Thread Pool Runtime API
   slug: oracle-weblogic-thread-pool-runtime-api
-artifact_total: 117
+artifact_total: 142
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment API
+  slug: open-oracle-weblogic-application-deployment-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Application Deployments API
+  slug: open-oracle-weblogic-application-deployments-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Application Runtime API
+  slug: open-oracle-weblogic-application-runtime-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Clusters API
+  slug: open-oracle-weblogic-clusters-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Data Sources API
+  slug: open-oracle-weblogic-data-sources-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Deployment Configuration API
+  slug: open-oracle-weblogic-deployment-configuration-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Deployment Lifecycle API
+  slug: open-oracle-weblogic-deployment-lifecycle-api
 - collection_type: open
   name: Oracle WebLogic Server Oracle WebLogic Deployment API
   slug: open-oracle-weblogic-deployment
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Domain Configuration API
+  slug: open-oracle-weblogic-domain-configuration-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Domain Runtime API
+  slug: open-oracle-weblogic-domain-runtime-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Edit Session API
+  slug: open-oracle-weblogic-edit-session-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment JDBC Runtime API
+  slug: open-oracle-weblogic-jdbc-runtime-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment JMS API
+  slug: open-oracle-weblogic-jms-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment JMS Runtime API
+  slug: open-oracle-weblogic-jms-runtime-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Library Deployments API
+  slug: open-oracle-weblogic-library-deployments-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Machines API
+  slug: open-oracle-weblogic-machines-api
 - collection_type: open
   name: Oracle WebLogic Server Oracle WebLogic RESTful Management Services API
   slug: open-oracle-weblogic-management
 - collection_type: open
   name: Oracle WebLogic Server Oracle WebLogic Monitoring and Diagnostics API
   slug: open-oracle-weblogic-monitoring
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Runtime Search API
+  slug: open-oracle-weblogic-runtime-search-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Search API
+  slug: open-oracle-weblogic-search-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Security API
+  slug: open-oracle-weblogic-security-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Server Lifecycle API
+  slug: open-oracle-weblogic-server-lifecycle-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Server Runtime API
+  slug: open-oracle-weblogic-server-runtime-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Server Templates API
+  slug: open-oracle-weblogic-server-templates-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Servers API
+  slug: open-oracle-weblogic-servers-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Tasks API
+  slug: open-oracle-weblogic-tasks-api
+- collection_type: open
+  name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Thread Pool Runtime API
+  slug: open-oracle-weblogic-thread-pool-runtime-api
 common:
 - group: agent
   title: ''
@@ -468,7 +543,7 @@ plans:
 - name: Oracle Weblogic Plans Pricing
   plan_count: 3
   slug: oracle-weblogic-plans-pricing
-random_paper: 79
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Oracle Weblogic Rate Limits
@@ -502,7 +577,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/screenshots/oracle-weblogic-2026-06-20T191145.png
 security:

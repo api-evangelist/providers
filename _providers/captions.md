@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -60,7 +60,38 @@ apis:
 - description: The Videos API from Captions — 3 operation(s) for videos.
   name: Captions Videos API
   slug: captions-videos-api
-artifact_total: 23
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Captions AI Creator & AI Ads API
+  slug: open-captions-ai-ads-api
+- collection_type: open
+  name: Captions & AI Ads AI Creator API
+  slug: open-captions-ai-creator-api
+- collection_type: open
+  name: Mirage Video Audio API
+  slug: open-captions-audio-api
+- collection_type: open
+  name: Mirage Video Audio health API
+  slug: open-captions-health-api
+- collection_type: open
+  name: Mirage Video Audio internal API
+  slug: open-captions-internal-api
+- collection_type: open
+  name: Mirage Video Audio Meta Text Overlays API
+  slug: open-captions-meta-text-overlays-api
+- collection_type: open
+  name: Mirage Video Audio root API
+  slug: open-captions-root-api
+- collection_type: open
+  name: Mirage Video Audio Video Captions API
+  slug: open-captions-video-captions-api
+- collection_type: open
+  name: Mirage Video Audio Videos API
+  slug: open-captions-videos-api
 common:
 - group: other
   title: ''
@@ -257,7 +288,7 @@ plans:
 - name: Captions Plans
   plan_count: 5
   slug: captions-plans
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 6
   name: Captions Rate Limits
@@ -294,7 +325,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:

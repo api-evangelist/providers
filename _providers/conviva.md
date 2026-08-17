@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Programmatic access to historical and real-time Conviva experience metrics by metric name, with optional group-by dimensions, saved or dimensional filters, KPI thresholds and sorting. Historical reque
@@ -198,7 +198,7 @@ overview: 'Conviva publishes 9 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Conviva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Conviva Rate Limits
@@ -225,7 +225,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/screenshots/conviva-2026-08-07T163806.png
 security:

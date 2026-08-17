@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -57,14 +57,35 @@ apis:
 - description: Endpoints for managing broker user accounts and their association with the Level2 platform.
   name: level2 Users API
   slug: level2-users-api
-artifact_total: 18
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Level2 Strategy Builder Backtesting API
+  slug: open-level2-backtesting-api
+- collection_type: open
+  name: Level2 Strategy Builder Backtesting Discovery API
+  slug: open-level2-discovery-api
+- collection_type: open
+  name: Level2 Strategy Builder Backtesting Market Data API
+  slug: open-level2-market-data-api
+- collection_type: open
+  name: Level2 Strategy Builder Backtesting Strategies API
+  slug: open-level2-strategies-api
 - collection_type: open
   name: Level2 Strategy Builder API
   slug: open-level2-strategy-builder
 - collection_type: open
+  name: Level2 Strategy Builder Backtesting Technical Analysis API
+  slug: open-level2-technical-analysis-api
+- collection_type: open
   name: Level2 TradeStation Integration API
   slug: open-level2-tradestation-integration
+- collection_type: open
+  name: Level2 Strategy Builder Backtesting Users API
+  slug: open-level2-users-api
 common:
 - group: agent
   title: ''
@@ -129,7 +150,7 @@ plans:
 - name: Level2 Plans Pricing
   plan_count: 3
   slug: level2-plans-pricing
-random_paper: 106
+random_paper: 139
 rate_limits:
 - limit_count: 5
   name: Level2 Rate Limits
@@ -163,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/screenshots/level2-2026-06-20T184439.png
 security:

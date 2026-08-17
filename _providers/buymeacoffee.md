@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: One-time supporters (tips / coffees) and their messages.
   name: Buy Me a Coffee Supporters API
   slug: buymeacoffee-supporters-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Buy Me a Coffee Extras API
+  slug: open-buymeacoffee-extras-api
+- collection_type: open
+  name: Buy Me a Coffee Extras Subscriptions API
+  slug: open-buymeacoffee-subscriptions-api
+- collection_type: open
+  name: Buy Me a Coffee Extras Supporters API
+  slug: open-buymeacoffee-supporters-api
 - collection_type: open
   name: Buy Me a Coffee API
   slug: open-buymeacoffee
@@ -113,7 +125,7 @@ plans:
 - name: Buymeacoffee Plans Pricing
   plan_count: 2
   slug: buymeacoffee-plans-pricing
-random_paper: 59
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Buymeacoffee Rate Limits
@@ -144,7 +156,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/screenshots/buymeacoffee-2026-07-25T204126.png
 security:

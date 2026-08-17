@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -75,7 +75,41 @@ apis:
 - description: The symplectic API from University of Auckland — 5 operation(s) for symplectic.
   name: University of Auckland symplectic API
   slug: university-of-auckland-symplectic-api
-artifact_total: 26
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figshare altmetric API
+  slug: open-university-of-auckland-altmetric-api
+- collection_type: open
+  name: Figshare altmetric articles API
+  slug: open-university-of-auckland-articles-api
+- collection_type: open
+  name: Figshare altmetric authors API
+  slug: open-university-of-auckland-authors-api
+- collection_type: open
+  name: Figshare altmetric collections API
+  slug: open-university-of-auckland-collections-api
+- collection_type: open
+  name: Figshare altmetric institutions API
+  slug: open-university-of-auckland-institutions-api
+- collection_type: open
+  name: Figshare altmetric oauth API
+  slug: open-university-of-auckland-oauth-api
+- collection_type: open
+  name: Figshare altmetric other API
+  slug: open-university-of-auckland-other-api
+- collection_type: open
+  name: Figshare altmetric profiles API
+  slug: open-university-of-auckland-profiles-api
+- collection_type: open
+  name: Figshare altmetric projects API
+  slug: open-university-of-auckland-projects-api
+- collection_type: open
+  name: Figshare altmetric symplectic API
+  slug: open-university-of-auckland-symplectic-api
 common:
 - group: agent
   title: ''
@@ -176,7 +210,7 @@ plans:
 - name: University Of Auckland Plans Pricing
   plan_count: 2
   slug: university-of-auckland-plans-pricing
-random_paper: 100
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: University Of Auckland Rate Limits
@@ -229,7 +263,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/screenshots/university-of-auckland-2026-06-20T200126.png
 security:

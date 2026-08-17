@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: OAuth 1.0a (HMAC-SHA1) REST API on the ciloo/v1 namespace of a Ciloo brand store. Read, add, update and remove cart items; mint per-customer OAuth credentials from admin credentials; and issue one-hou
@@ -28,11 +28,15 @@ apis:
 - description: Bidirectional order integration between Ciloo and its production partners. Ciloo POSTs a print order — items, print components with artwork paths and substrate attributes, and shipments with carrier a
   name: Ciloo Printer API Integration
   slug: ciloo-printer-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Ciloo Printer Webhooks
   slug: ciloo-printer-webhooks
+collections:
+- collection_type: open
+  name: Ciloo Cart API
+  slug: open-ciloo-cart-api
 common:
 - group: company
   title: ''
@@ -162,7 +166,7 @@ plans:
 - name: Ciloo Plans Pricing
   plan_count: 0
   slug: ciloo-plans-pricing
-random_paper: 54
+random_paper: 87
 rate_limits:
 - limit_count: 0
   name: Ciloo Rate Limits
@@ -170,6 +174,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 69.9
@@ -177,8 +182,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 7.9
+  previous_composite: 47.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Ciloo Authentication

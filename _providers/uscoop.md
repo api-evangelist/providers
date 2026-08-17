@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Universal Commerce Protocol shopping service exposed over MCP by the tnuck.com Shopify storefront - catalog search, cart, checkout, fulfillment, discounts, and orders, with buyer-approved payment. Dis
@@ -112,7 +112,7 @@ overview: 'uScoop publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   uScoop''s developer surface includes documentation, authentication, support, engineering blog, and 11 more developer resources.'
-random_paper: 65
+random_paper: 69
 scopes:
 - name: Uscoop Scopes
   scope_count: 4
@@ -135,7 +135,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

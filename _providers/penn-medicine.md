@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +60,26 @@ apis:
 - description: SMART on FHIR launch and discovery endpoints.
   name: Penn Medicine SMART API
   slug: penn-medicine-smart-api
-artifact_total: 50
+artifact_total: 55
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Penn Medicine FHIR R4 Bulk Data API
+  slug: open-penn-medicine-bulk-data-api
 - collection_type: open
   name: Penn Medicine FHIR R4 API
   slug: open-penn-medicine-fhir-r4
+- collection_type: open
+  name: Penn Medicine FHIR R4 Bulk Data Patient Access API
+  slug: open-penn-medicine-patient-access-api
+- collection_type: open
+  name: Penn Medicine FHIR R4 Bulk Data Provider Directory API
+  slug: open-penn-medicine-provider-directory-api
+- collection_type: open
+  name: Penn Medicine FHIR R4 Bulk Data SMART API
+  slug: open-penn-medicine-smart-api
 common:
 - group: agent
   title: ''
@@ -238,7 +253,7 @@ plans:
 - name: Penn Medicine Plans Pricing
   plan_count: 3
   slug: penn-medicine-plans-pricing
-random_paper: 108
+random_paper: 116
 rate_limits:
 - limit_count: 3
   name: Penn Medicine Rate Limits
@@ -291,7 +306,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/screenshots/penn-medicine-2026-06-20T191538.png
 security:

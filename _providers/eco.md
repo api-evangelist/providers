@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Quotes V1 API from Eco — 2 operation(s) for quotes v1.
@@ -40,7 +40,20 @@ apis:
 - description: The Quotes V3 API from Eco — 9 operation(s) for quotes v3.
   name: Eco Quotes V3 API
   slug: eco-quotes-v3-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eco Routes Quotes V1 API
+  slug: open-eco-quotes-v1-api
+- collection_type: open
+  name: Eco Routes Quotes V1 Quotes V2 API
+  slug: open-eco-quotes-v2-api
+- collection_type: open
+  name: Eco Routes Quotes V1 Quotes V3 API
+  slug: open-eco-quotes-v3-api
 common:
 - group: auth
   title: ''
@@ -159,7 +172,7 @@ overview: 'Eco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Quot
 
 
   Eco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 18 more developer resources.'
-random_paper: 71
+random_paper: 13
 score:
   band: thin
   composite: 40.5
@@ -188,7 +201,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/screenshots/eco-2026-07-25T212742.png
 security:

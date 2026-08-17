@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: Create, read, update, and delete recipes with nutrition analysis.
   name: Nutrical Solution Ltd Recipes API
   slug: nutrical-solution-ltd-recipes-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NutriCal Food & Nutrition Entity API
+  slug: open-nutrical-solution-ltd-entity-api
+- collection_type: open
+  name: NutriCal Food & Nutrition Entity Ingredients API
+  slug: open-nutrical-solution-ltd-ingredients-api
+- collection_type: open
+  name: NutriCal Food & Nutrition Entity Meal Plans API
+  slug: open-nutrical-solution-ltd-meal-plans-api
+- collection_type: open
+  name: NutriCal Food & Nutrition Entity Metadata API
+  slug: open-nutrical-solution-ltd-metadata-api
+- collection_type: open
+  name: NutriCal Food & Nutrition Entity Recipe Categories API
+  slug: open-nutrical-solution-ltd-recipe-categories-api
+- collection_type: open
+  name: NutriCal Food & Nutrition Entity Recipes API
+  slug: open-nutrical-solution-ltd-recipes-api
 common:
 - group: auth
   title: ''
@@ -182,7 +204,7 @@ overview: 'Nutrical Solution Ltd publishes 6 APIs on the [APIs.io](https://apis.
 
 
   Nutrical Solution Ltd''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 13
+random_paper: 87
 score:
   band: thin
   composite: 32.3
@@ -212,7 +234,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png
 security:

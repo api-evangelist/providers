@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -69,14 +69,20 @@ apis:
 - description: Operations for creating, updating, deleting, and managing the lifecycle of Azure Virtual Machines including power operations, patching, and diagnostics.
   name: Azure Virtual Machines Virtual Machines API
   slug: microsoft-azure-virtual-machines-virtual-machines-api
-artifact_total: 58
+artifact_total: 60
 collections:
 - collection_type: postman
   name: Azure REST Virtual Machines API
   slug: postman-microsoft-azure-virtual-machines-virtual-machines-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Virtual Machines REST API
   slug: open-azure-virtual-machines
+- collection_type: open
+  name: Azure REST Virtual Machines API
+  slug: open-microsoft-azure-virtual-machines-virtual-machines-api
 common:
 - group: build
   title: ''
@@ -341,7 +347,7 @@ plans:
 - name: Microsoft Azure Virtual Machines Plans Pricing
   plan_count: 10
   slug: microsoft-azure-virtual-machines-plans-pricing
-random_paper: 43
+random_paper: 5
 rate_limits:
 - limit_count: 16
   name: Microsoft Azure Virtual Machines Rate Limits
@@ -380,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/screenshots/microsoft-azure-virtual-machines-2026-06-20T185443.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +53,26 @@ apis:
 - description: National Vessel Documentation Center vessel records
   name: United States Coast Guard Vessel Documentation API
   slug: united-states-coast-guard-vessel-documentation-api
-artifact_total: 20
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: CGMIX Maritime Information Exchange API
   slug: open-cgmix-maritime-information-exchange
+- collection_type: open
+  name: CGMIX Maritime Information Exchange Equipment API
+  slug: open-united-states-coast-guard-equipment-api
+- collection_type: open
+  name: CGMIX Maritime Information Exchange Equipment Incident Reports API
+  slug: open-united-states-coast-guard-incident-reports-api
+- collection_type: open
+  name: CGMIX Maritime Information Exchange Equipment Port State Information API
+  slug: open-united-states-coast-guard-port-state-information-api
+- collection_type: open
+  name: CGMIX Maritime Information Exchange Equipment Vessel Documentation API
+  slug: open-united-states-coast-guard-vessel-documentation-api
 common:
 - group: agent
   title: ''
@@ -117,7 +132,7 @@ plans:
 - name: United States Coast Guard Plans Pricing
   plan_count: 3
   slug: united-states-coast-guard-plans-pricing
-random_paper: 113
+random_paper: 129
 rate_limits:
 - limit_count: 5
   name: United States Coast Guard Rate Limits
@@ -165,7 +180,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/screenshots/united-states-coast-guard-2026-06-20T200050.png
 security:

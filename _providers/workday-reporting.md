@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Execute and retrieve data from custom and standard Workday reports configured as web services
   name: Workday Reporting Reports API
   slug: workday-reporting-reports-api
-artifact_total: 24
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Workday Reporting Workday Report-as-a-Service (RaaS) Report Metadata API
@@ -69,8 +69,17 @@ collections:
   name: Workday Reporting Workday Report-as-a-Service (RaaS) Report Metadata Reports API
   slug: postman-workday-reporting-reports-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Workday Reporting Workday Report-as-a-Service (RaaS) API
   slug: open-workday-reporting-raas
+- collection_type: open
+  name: Workday Reporting Workday Report-as-a-Service (RaaS) Report Metadata API
+  slug: open-workday-reporting-report-metadata-api
+- collection_type: open
+  name: Workday Reporting Workday Report-as-a-Service (RaaS) Report Metadata Reports API
+  slug: open-workday-reporting-reports-api
 common:
 - group: build
   title: ''
@@ -203,7 +212,7 @@ plans:
 - name: Workday Reporting Plans Pricing
   plan_count: 1
   slug: workday-reporting-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Workday Reporting Rate Limits
@@ -237,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/screenshots/workday-reporting-2026-06-20T201611.png
 security:

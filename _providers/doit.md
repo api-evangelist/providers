@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 83.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ plans:
 - name: Doit Plans Pricing
   plan_count: 6
   slug: doit-plans-pricing
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 2
   name: Doit Rate Limits
@@ -280,6 +280,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.6
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 64.0
@@ -287,8 +288,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 84.2
+  previous_composite: 72.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Doit Authentication

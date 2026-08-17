@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -95,7 +95,7 @@ overview: 'GLORRI, INC. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   GLORRI, INC.''s developer surface includes pricing, signup flow, support, YouTube channel, and 9 more developer resources.'
-random_paper: 54
+random_paper: 120
 score:
   band: emerging
   composite: 14.8
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glorri-inc/refs/heads/main/screenshots/glorri-inc-2026-07-25T215924.png
 slug: glorri-inc

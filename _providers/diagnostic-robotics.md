@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'REST API for the Proactive Patient Risk Feed: upload FHIR R4 US Core / CCLF / custom claims and EHR datasets, then retrieve ranked actionable risk lists, per-patient risk profiles with contributing fa'
@@ -31,7 +31,17 @@ apis:
 - description: 'REST API for symptom lookup inside the patient-questionnaire flow: autocomplete a free-text symptom string against the Diagnostic Robotics symptom ontology, and list the symptoms already attached to a'
   name: Diagnostic Robotics Symptom Search Service
   slug: diagnostic-robotics-symptom-search-service
-artifact_total: 9
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Diagnostic Robotics API
+  slug: open-diagnostic-robotics-patient-questionnaire
+- collection_type: open
+  name: Diagnostic Robotics API
+  slug: open-diagnostic-robotics-precision-population-health
+- collection_type: open
+  name: Search Service
+  slug: open-diagnostic-robotics-symptom-search
 common:
 - group: company
   title: ''
@@ -165,7 +175,7 @@ plans:
 - name: Diagnostic Robotics Plans Pricing
   plan_count: 0
   slug: diagnostic-robotics-plans-pricing
-random_paper: 55
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Diagnostic Robotics Rate Limits
@@ -178,6 +188,7 @@ scopes:
 score:
   band: developing
   composite: 48.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 48.4
@@ -185,6 +196,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
+  previous_composite: 48.8
   regulatory:
     applies: true
     matched_via: tags
@@ -192,7 +204,8 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Diagnostic Robotics Authentication

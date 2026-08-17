@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -90,7 +90,62 @@ apis:
 - description: The trends API from AYLIEN — 1 operation(s) for trends.
   name: AYLIEN trends API
   slug: aylien-trends-api
-artifact_total: 107
+artifact_total: 125
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AYLIEN News Absa API
+  slug: open-aylien-absa-api
+- collection_type: open
+  name: AYLIEN News Absa autocomplete API
+  slug: open-aylien-autocomplete-api
+- collection_type: open
+  name: AYLIEN News Absa Classify API
+  slug: open-aylien-classify-api
+- collection_type: open
+  name: AYLIEN News Absa cluster API
+  slug: open-aylien-cluster-api
+- collection_type: open
+  name: AYLIEN News Absa Concepts API
+  slug: open-aylien-concepts-api
+- collection_type: open
+  name: AYLIEN News Absa Elsa API
+  slug: open-aylien-elsa-api
+- collection_type: open
+  name: AYLIEN News Absa Entities API
+  slug: open-aylien-entities-api
+- collection_type: open
+  name: AYLIEN News Absa Extract API
+  slug: open-aylien-extract-api
+- collection_type: open
+  name: AYLIEN News Absa Hashtags API
+  slug: open-aylien-hashtags-api
+- collection_type: open
+  name: AYLIEN News Absa histogram API
+  slug: open-aylien-histogram-api
+- collection_type: open
+  name: AYLIEN News Absa Language API
+  slug: open-aylien-language-api
+- collection_type: open
+  name: AYLIEN News Absa related_story API
+  slug: open-aylien-related-story-api
+- collection_type: open
+  name: AYLIEN News Absa Sentiment API
+  slug: open-aylien-sentiment-api
+- collection_type: open
+  name: AYLIEN News Absa story API
+  slug: open-aylien-story-api
+- collection_type: open
+  name: AYLIEN News Absa Summarize API
+  slug: open-aylien-summarize-api
+- collection_type: open
+  name: AYLIEN News Absa time_series API
+  slug: open-aylien-time-series-api
+- collection_type: open
+  name: AYLIEN News Absa trends API
+  slug: open-aylien-trends-api
 common:
 - group: agent
   title: ''
@@ -424,7 +479,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 42
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Rate Limits
@@ -458,7 +513,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

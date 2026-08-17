@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -54,7 +54,7 @@ apis:
 - description: Accept API — create and query payments (collections).
   name: Fazz Payments API
   slug: fazz-payments-api
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Fazz Webhooks
@@ -69,6 +69,18 @@ collections:
 - collection_type: postman
   name: Fazz API (Singapore v4) Disbursements Payments API
   slug: postman-fazz-payments-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fazz Payments API (Singapore v4) Disbursements API
+  slug: open-fazz-disbursements-api
+- collection_type: open
+  name: Fazz Payments API (Singapore v4) Disbursements Payment Methods API
+  slug: open-fazz-payment-methods-api
+- collection_type: open
+  name: Fazz API (Singapore v4) Disbursements Payments API
+  slug: open-fazz-payments-api
 common:
 - group: build
   title: ''
@@ -237,7 +249,7 @@ plans:
 - name: Fazz Plans Pricing
   plan_count: 2
   slug: fazz-plans-pricing
-random_paper: 83
+random_paper: 145
 rate_limits:
 - limit_count: 1
   name: Fazz Rate Limits
@@ -271,7 +283,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/screenshots/fazz-2026-07-25T214301.png
 security:

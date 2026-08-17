@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Status reports and their updates.
   name: OpenStatus Status Report API
   slug: openstatus-status-report-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenStatus Check API
+  slug: open-openstatus-check-api
+- collection_type: open
+  name: OpenStatus Check Incident API
+  slug: open-openstatus-incident-api
+- collection_type: open
+  name: OpenStatus Check Monitor API
+  slug: open-openstatus-monitor-api
+- collection_type: open
+  name: OpenStatus Check Page API
+  slug: open-openstatus-page-api
+- collection_type: open
+  name: OpenStatus Check Status Report API
+  slug: open-openstatus-status-report-api
 - collection_type: open
   name: OpenStatus API
   slug: open-openstatus
@@ -132,7 +150,7 @@ plans:
 - name: Openstatus Plans Pricing
   plan_count: 6
   slug: openstatus-plans-pricing
-random_paper: 30
+random_paper: 67
 rate_limits:
 - limit_count: 6
   name: Openstatus Rate Limits
@@ -157,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/screenshots/openstatus-2026-08-07T190644.png
 security:

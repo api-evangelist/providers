@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -106,14 +106,29 @@ arazzos:
 - description: Fetch a user, then merge nickname, profile, and metadata updates onto them.
   name: Sendbird Update User Metadata
   slug: sendbird-update-user-metadata-workflow
-artifact_total: 43
+artifact_total: 48
 collections:
 - collection_type: postman
   name: Sendbird Platform API
   slug: postman-sendbird-platform
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sendbird Platform Channels API
+  slug: open-sendbird-channels-api
+- collection_type: open
+  name: Sendbird Platform Channels Messages API
+  slug: open-sendbird-messages-api
+- collection_type: open
+  name: Sendbird Platform Channels Moderation API
+  slug: open-sendbird-moderation-api
+- collection_type: open
   name: Sendbird Platform API
   slug: open-sendbird-platform
+- collection_type: open
+  name: Sendbird Platform Channels Users API
+  slug: open-sendbird-users-api
 common:
 - group: build
   title: ''
@@ -380,7 +395,7 @@ plans:
 - name: Sendbird Plans Pricing
   plan_count: 4
   slug: sendbird-plans-pricing
-random_paper: 3
+random_paper: 98
 rate_limits:
 - limit_count: 13
   name: Sendbird Rate Limits
@@ -424,7 +439,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +65,41 @@ apis:
 - description: Multimodal trip planning and itinerary details.
   name: Moovit TripPlan API
   slug: moovit-tripplan-api
-artifact_total: 29
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Moovit Public Transit APIs General API
+  slug: open-moovit-general-api
+- collection_type: open
+  name: Moovit Public Transit APIs General GTFSRealtime API
+  slug: open-moovit-gtfsrealtime-api
+- collection_type: open
+  name: Moovit Public Transit APIs General Lines API
+  slug: open-moovit-lines-api
+- collection_type: open
+  name: Moovit Public Transit APIs General Nearby API
+  slug: open-moovit-nearby-api
 - collection_type: open
   name: Moovit Public Transit APIs
   slug: open-moovit-public-transit-api
+- collection_type: open
+  name: Moovit Public Transit APIs General RealTime API
+  slug: open-moovit-realtime-api
+- collection_type: open
+  name: Moovit Public Transit APIs General Search API
+  slug: open-moovit-search-api
+- collection_type: open
+  name: Moovit Public Transit APIs General ServiceAlerts API
+  slug: open-moovit-servicealerts-api
+- collection_type: open
+  name: Moovit Public Transit APIs General Stops API
+  slug: open-moovit-stops-api
+- collection_type: open
+  name: Moovit Public Transit APIs General TripPlan API
+  slug: open-moovit-tripplan-api
 common:
 - group: agent
   title: ''
@@ -248,7 +278,7 @@ overview: 'Moovit publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Moovit''s developer surface includes authentication, developer portal, documentation, engineering blog, support, YouTube channel, and 31 more developer resources.'
-random_paper: 70
+random_paper: 74
 score:
   band: thin
   composite: 33.1
@@ -269,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/screenshots/moovit-2026-06-20T185803.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -170,7 +170,143 @@ apis:
 - description: Webhook Controller
   name: WinCL Webhook API
   slug: wincl-webhook-api
-artifact_total: 48
+artifact_total: 93
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wincl Admin API
+  slug: open-wincl-admin-api
+- collection_type: open
+  name: Wincl Admin Admin Auth API
+  slug: open-wincl-admin-auth-api
+- collection_type: open
+  name: Wincl Admin Admin FAQ API
+  slug: open-wincl-admin-faq-api
+- collection_type: open
+  name: Wincl Admin Admin Hedera API
+  slug: open-wincl-admin-hedera-api
+- collection_type: open
+  name: Wincl Admin Admin Info API
+  slug: open-wincl-admin-info-api
+- collection_type: open
+  name: Wincl Admin Admin News API
+  slug: open-wincl-admin-news-api
+- collection_type: open
+  name: Wincl Admin Admin Notice API
+  slug: open-wincl-admin-notice-api
+- collection_type: open
+  name: Wincl Admin Admin Order API
+  slug: open-wincl-admin-order-api
+- collection_type: open
+  name: Wincl Admin Admin Payment API
+  slug: open-wincl-admin-payment-api
+- collection_type: open
+  name: Wincl Admin Admin Product API
+  slug: open-wincl-admin-product-api
+- collection_type: open
+  name: Wincl Admin Admin Project API
+  slug: open-wincl-admin-project-api
+- collection_type: open
+  name: Wincl Admin Admin QnA API
+  slug: open-wincl-admin-qna-api
+- collection_type: open
+  name: Wincl Admin Admin Reward API
+  slug: open-wincl-admin-reward-api
+- collection_type: open
+  name: Wincl Admin Admin Smart Contract API
+  slug: open-wincl-admin-smart-contract-api
+- collection_type: open
+  name: Wincl Admin Admin User API
+  slug: open-wincl-admin-user-api
+- collection_type: open
+  name: Wincl Admin Admin Utils API
+  slug: open-wincl-admin-utils-api
+- collection_type: open
+  name: Wincl Admin Admin Wallet API
+  slug: open-wincl-admin-wallet-api
+- collection_type: open
+  name: Wincl Admin APIs for the B2B service (ex. Bespin) API
+  slug: open-wincl-apis-for-the-b2b-service-ex-bespin-api
+- collection_type: open
+  name: Wincl Admin Auth API
+  slug: open-wincl-auth-api
+- collection_type: open
+  name: Wincl Admin CertificateBox API
+  slug: open-wincl-certificatebox-api
+- collection_type: open
+  name: Wincl Admin Coupon API
+  slug: open-wincl-coupon-api
+- collection_type: open
+  name: Wincl Admin CreditBox API
+  slug: open-wincl-creditbox-api
+- collection_type: open
+  name: Wincl Admin Dashboard API
+  slug: open-wincl-dashboard-api
+- collection_type: open
+  name: Wincl Admin FAQ API
+  slug: open-wincl-faq-api
+- collection_type: open
+  name: Wincl Admin health-check-controller API
+  slug: open-wincl-health-check-controller-api
+- collection_type: open
+  name: Wincl Admin Hedera Contract Info API
+  slug: open-wincl-hedera-contract-info-api
+- collection_type: open
+  name: Wincl Admin Info API
+  slug: open-wincl-info-api
+- collection_type: open
+  name: Wincl Admin Internal Reward API
+  slug: open-wincl-internal-reward-api
+- collection_type: open
+  name: Wincl Admin News API
+  slug: open-wincl-news-api
+- collection_type: open
+  name: Wincl Admin Notice API
+  slug: open-wincl-notice-api
+- collection_type: open
+  name: Wincl Admin Order API
+  slug: open-wincl-order-api
+- collection_type: open
+  name: Wincl Admin Partner API
+  slug: open-wincl-partner-api
+- collection_type: open
+  name: Wincl Admin Payment API
+  slug: open-wincl-payment-api
+- collection_type: open
+  name: Wincl Admin Product API
+  slug: open-wincl-product-api
+- collection_type: open
+  name: Wincl Admin Project API
+  slug: open-wincl-project-api
+- collection_type: open
+  name: Wincl Admin QnA API
+  slug: open-wincl-qna-api
+- collection_type: open
+  name: Wincl Admin Ranking API
+  slug: open-wincl-ranking-api
+- collection_type: open
+  name: Wincl Admin Reward API
+  slug: open-wincl-reward-api
+- collection_type: open
+  name: Wincl Admin Shopping API
+  slug: open-wincl-shopping-api
+- collection_type: open
+  name: Wincl Admin Store API
+  slug: open-wincl-store-api
+- collection_type: open
+  name: Wincl Admin User API
+  slug: open-wincl-user-api
+- collection_type: open
+  name: Wincl Admin Utils API
+  slug: open-wincl-utils-api
+- collection_type: open
+  name: Wincl Admin Wallet API
+  slug: open-wincl-wallet-api
+- collection_type: open
+  name: Wincl Admin Webhook API
+  slug: open-wincl-webhook-api
 common:
 - group: other
   title: ''
@@ -248,7 +384,7 @@ overview: 'WinCL publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   WinCL''s developer surface includes documentation, API reference, authentication, and 12 more developer resources.'
-random_paper: 61
+random_paper: 94
 score:
   band: thin
   composite: 28.5
@@ -278,7 +414,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -63,7 +63,7 @@ apis:
 - description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.updateservice.'
   name: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
   slug: fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api
-artifact_total: 25
+artifact_total: 34
 collections:
 - collection_type: postman
   name: AWS Fargate Amazon ECS API (Fargate) Clusters API
@@ -90,8 +90,35 @@ collections:
   name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
   slug: postman-fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Fargate Amazon ECS API (Fargate) Clusters API
+  slug: open-fargate-clusters-api
+- collection_type: open
   name: AWS Fargate Amazon ECS API (Fargate)
   slug: open-fargate-ecs
+- collection_type: open
+  name: AWS Fargate Amazon ECS API (Fargate) Clusters Task Definitions API
+  slug: open-fargate-task-definitions-api
+- collection_type: open
+  name: AWS Fargate Amazon ECS API (Fargate) Clusters Tasks API
+  slug: open-fargate-tasks-api
+- collection_type: open
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API'
+  slug: open-fargate-x-amz-target-amazonec2containerservicev20141113-createservice-api
+- collection_type: open
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API'
+  slug: open-fargate-x-amz-target-amazonec2containerservicev20141113-deleteservice-api
+- collection_type: open
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API'
+  slug: open-fargate-x-amz-target-amazonec2containerservicev20141113-describeservices-api
+- collection_type: open
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API'
+  slug: open-fargate-x-amz-target-amazonec2containerservicev20141113-listservices-api
+- collection_type: open
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
+  slug: open-fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api
 common:
 - group: operate
   title: ''
@@ -245,7 +272,7 @@ plans:
 - name: Fargate Plans Pricing
   plan_count: 3
   slug: fargate-plans-pricing
-random_paper: 10
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Fargate Rate Limits
@@ -270,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/screenshots/fargate-2026-06-20T181042.png
 security:

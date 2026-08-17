@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,18 +66,42 @@ apis:
 - description: Policy quoting and rating
   name: Guidewire Quotes API
   slug: guidewire-quotes-api
-artifact_total: 24
+artifact_total: 32
 asyncapis:
 - description: Guidewire Integration Gateway AsyncAPI specification for event-driven integrations. The gateway publishes webhook events when key policy, claim, and billing lifecycle events occur in Guidewire Cloud a
   name: Guidewire Integration Gateway Events
   slug: guidewire-integration-gateway-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Guidewire ClaimCenter Accounts API
+  slug: open-guidewire-accounts-api
+- collection_type: open
   name: Guidewire ClaimCenter API
   slug: open-guidewire-claimcenter
 - collection_type: open
+  name: Guidewire ClaimCenter Accounts Claims API
+  slug: open-guidewire-claims-api
+- collection_type: open
+  name: Guidewire ClaimCenter Accounts Exposures API
+  slug: open-guidewire-exposures-api
+- collection_type: open
+  name: Guidewire ClaimCenter Accounts FNOL API
+  slug: open-guidewire-fnol-api
+- collection_type: open
+  name: Guidewire ClaimCenter Accounts Payments API
+  slug: open-guidewire-payments-api
+- collection_type: open
+  name: Guidewire ClaimCenter Accounts Policies API
+  slug: open-guidewire-policies-api
+- collection_type: open
   name: Guidewire PolicyCenter API
   slug: open-guidewire-policycenter
+- collection_type: open
+  name: Guidewire ClaimCenter Accounts Quotes API
+  slug: open-guidewire-quotes-api
 common:
 - group: agent
   title: ''
@@ -138,7 +162,7 @@ plans:
 - name: Guidewire Plans Pricing
   plan_count: 1
   slug: guidewire-plans-pricing
-random_paper: 5
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Guidewire Rate Limits
@@ -191,7 +215,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/screenshots/guidewire-2026-06-20T182433.png
 security:

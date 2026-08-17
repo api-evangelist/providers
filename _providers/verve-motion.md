@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -120,7 +120,7 @@ overview: 'Verve Motion is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Verve Motion''s developer surface includes FAQ, engineering blog, YouTube channel, and 15 more developer resources.'
-random_paper: 59
+random_paper: 67
 score:
   band: emerging
   composite: 13.0
@@ -134,7 +134,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

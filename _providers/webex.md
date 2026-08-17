@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 989
   human_in_the_loop: 84
@@ -574,7 +574,7 @@ apis:
 - description: The xAPI API from Webex — 3 operation(s) for xapi.
   name: Webex xAPI API
   slug: webex-xapi-api
-artifact_total: 4446
+artifact_total: 4625
 asyncapis:
 - description: ''
   name: Review
@@ -1115,32 +1115,569 @@ collections:
   name: Webex Admin Address Book xAPI API
   slug: postman-webex-xapi-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Webex Admin Address Book API
+  slug: open-webex-address-book-api
+- collection_type: open
+  name: Webex Admin Address Book Admin Audit Events API
+  slug: open-webex-admin-audit-events-api
+- collection_type: open
   name: Webex Admin
   slug: open-webex-admin
+- collection_type: open
+  name: Webex Admin Address Book Agent Personal Greeting Files API
+  slug: open-webex-agent-personal-greeting-files-api
+- collection_type: open
+  name: Webex Admin Address Book Agent Summaries API
+  slug: open-webex-agent-summaries-api
+- collection_type: open
+  name: Webex Admin Address Book Agent Wellbeing API
+  slug: open-webex-agent-wellbeing-api
+- collection_type: open
+  name: Webex Admin Address Book Agents API
+  slug: open-webex-agents-api
+- collection_type: open
+  name: Webex Admin Address Book AI Feature API
+  slug: open-webex-ai-feature-api
+- collection_type: open
+  name: Webex Admin Address Book API - Domain Management API
+  slug: open-webex-api-domain-management-api
+- collection_type: open
+  name: Webex Admin Address Book Archive Users API
+  slug: open-webex-archive-users-api
+- collection_type: open
+  name: Webex Admin Address Book Attachment Actions API
+  slug: open-webex-attachment-actions-api
+- collection_type: open
+  name: Webex Admin Address Book Audio Files API
+  slug: open-webex-audio-files-api
+- collection_type: open
+  name: Webex Admin Address Book Authorizations API
+  slug: open-webex-authorizations-api
+- collection_type: open
+  name: Webex Admin Address Book Auto CSAT API
+  slug: open-webex-auto-csat-api
+- collection_type: open
+  name: Webex Admin Address Book Auxiliary Code API
+  slug: open-webex-auxiliary-code-api
+- collection_type: open
+  name: Webex Admin Address Book Beta Call Settings For Me With Userhub Phase1 API
+  slug: open-webex-beta-call-settings-for-me-with-userhub-phase1-api
+- collection_type: open
+  name: Webex Admin Address Book Beta Device Call Settings With Dynamic Device Settings API
+  slug: open-webex-beta-device-call-settings-with-dynamic-device-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Beta Settings Features For Barge-In API
+  slug: open-webex-beta-settings-features-for-barge-in-api
+- collection_type: open
+  name: Webex Admin Address Book BroadWorks Billing Reports API
+  slug: open-webex-broadworks-billing-reports-api
+- collection_type: open
+  name: Webex Admin Address Book BroadWorks Enterprises API
+  slug: open-webex-broadworks-enterprises-api
+- collection_type: open
+  name: Webex Admin Address Book BroadWorks Subscribers API
+  slug: open-webex-broadworks-subscribers-api
+- collection_type: open
+  name: Webex Admin Address Book BroadWorks Workspaces API
+  slug: open-webex-broadworks-workspaces-api
 - collection_type: open
   name: Webex Broadworks Calling
   slug: open-webex-broadworks
 - collection_type: open
+  name: Webex Admin Address Book Bulk Manage SCIM 2 Users and Groups API
+  slug: open-webex-bulk-manage-scim-2-users-and-groups-api
+- collection_type: open
+  name: Webex Admin Address Book Business Hour API
+  slug: open-webex-business-hour-api
+- collection_type: open
+  name: Webex Admin Address Book Call Controls API
+  slug: open-webex-call-controls-api
+- collection_type: open
+  name: Webex Admin Address Book Call Monitoring API
+  slug: open-webex-call-monitoring-api
+- collection_type: open
+  name: Webex Admin Address Book Call Queue Settings with Playlist Settings API
+  slug: open-webex-call-queue-settings-with-playlist-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Call Routing API
+  slug: open-webex-call-routing-api
+- collection_type: open
+  name: Webex Admin Address Book Call Settings For Me API
+  slug: open-webex-call-settings-for-me-api
+- collection_type: open
+  name: Webex Admin Address Book Call Settings For Me Phase 4 API
+  slug: open-webex-call-settings-for-me-phase-4-api
+- collection_type: open
+  name: Webex Admin Address Book Call Settings For Me Phase 5 API
+  slug: open-webex-call-settings-for-me-phase-5-api
+- collection_type: open
+  name: Webex Admin Address Book Call Settings For Me With UserHub Phase2 API
+  slug: open-webex-call-settings-for-me-with-userhub-phase2-api
+- collection_type: open
+  name: Webex Admin Address Book Call Settings For Me With UserHub Phase3 API
+  slug: open-webex-call-settings-for-me-with-userhub-phase3-api
+- collection_type: open
+  name: Webex Admin Address Book Callbacks API
+  slug: open-webex-callbacks-api
+- collection_type: open
+  name: Webex Admin Address Book Caller Reputation Provider API
+  slug: open-webex-caller-reputation-provider-api
+- collection_type: open
+  name: Webex Admin Address Book Calling Service Settings API
+  slug: open-webex-calling-service-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Campaign Manager API
+  slug: open-webex-campaign-manager-api
+- collection_type: open
+  name: Webex Admin Address Book Captures API
+  slug: open-webex-captures-api
+- collection_type: open
+  name: Webex Admin Address Book Chats API
+  slug: open-webex-chats-api
+- collection_type: open
+  name: Webex Admin Address Book Classifications API
+  slug: open-webex-classifications-api
+- collection_type: open
+  name: Webex Admin Address Book Client Call Settings API
+  slug: open-webex-client-call-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Closed Captions API
+  slug: open-webex-closed-captions-api
+- collection_type: open
   name: Webex Cloud Calling
   slug: open-webex-cloud-calling
+- collection_type: open
+  name: Webex Admin Address Book Conference Controls API
+  slug: open-webex-conference-controls-api
 - collection_type: open
   name: Webex Contact Center
   slug: open-webex-contact-center
 - collection_type: open
+  name: Webex Admin Address Book Contact List Management API
+  slug: open-webex-contact-list-management-api
+- collection_type: open
+  name: Webex Admin Address Book Contact Number API
+  slug: open-webex-contact-number-api
+- collection_type: open
+  name: Webex Admin Address Book Contact Service Queue API
+  slug: open-webex-contact-service-queue-api
+- collection_type: open
+  name: Webex Admin Address Book Converged Recordings API
+  slug: open-webex-converged-recordings-api
+- collection_type: open
+  name: Webex Admin Address Book Data Sources API
+  slug: open-webex-data-sources-api
+- collection_type: open
+  name: Webex Admin Address Book DECT Devices Settings API
+  slug: open-webex-dect-devices-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Desktop Layout API
+  slug: open-webex-desktop-layout-api
+- collection_type: open
+  name: Webex Admin Address Book Desktop Profile API
+  slug: open-webex-desktop-profile-api
+- collection_type: open
+  name: Webex Admin Address Book Device Call Settings API
+  slug: open-webex-device-call-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Device Call Settings With Device Dynamic Settings API
+  slug: open-webex-device-call-settings-with-device-dynamic-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Device Configurations API
+  slug: open-webex-device-configurations-api
+- collection_type: open
   name: Webex Device
   slug: open-webex-device
+- collection_type: open
+  name: Webex Admin Address Book Devices API
+  slug: open-webex-devices-api
+- collection_type: open
+  name: Webex Admin Address Book Dial Number API
+  slug: open-webex-dial-number-api
+- collection_type: open
+  name: Webex Admin Address Book Dial Plan API
+  slug: open-webex-dial-plan-api
+- collection_type: open
+  name: Webex Admin Address Book DNC Management API
+  slug: open-webex-dnc-management-api
+- collection_type: open
+  name: Webex Admin Address Book ECM folder linking API
+  slug: open-webex-ecm-folder-linking-api
+- collection_type: open
+  name: Webex Admin Address Book Emergency Services Settings API
+  slug: open-webex-emergency-services-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Entry Point API
+  slug: open-webex-entry-point-api
+- collection_type: open
+  name: Webex Admin Address Book Estimated Wait Time API
+  slug: open-webex-estimated-wait-time-api
+- collection_type: open
+  name: Webex Admin Address Book Events API
+  slug: open-webex-events-api
+- collection_type: open
+  name: Webex Admin Address Book External Voicemail API
+  slug: open-webex-external-voicemail-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features: Announcement Playlist API'
+  slug: open-webex-features-announcement-playlist-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features: Announcement Repository API'
+  slug: open-webex-features-announcement-repository-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features:  Auto Attendant API'
+  slug: open-webex-features-auto-attendant-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features:  Call Park API'
+  slug: open-webex-features-call-park-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features:  Call Pickup API'
+  slug: open-webex-features-call-pickup-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features:  Call Queue API'
+  slug: open-webex-features-call-queue-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features: Call Recording API'
+  slug: open-webex-features-call-recording-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features: Customer Assist API'
+  slug: open-webex-features-customer-assist-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features: Hot Desking Sign-in via Voice Portal API'
+  slug: open-webex-features-hot-desking-sign-in-via-voice-portal-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features:  Hunt Group API'
+  slug: open-webex-features-hunt-group-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features: Operating Modes API'
+  slug: open-webex-features-operating-modes-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features:  Paging Group API'
+  slug: open-webex-features-paging-group-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features: Single Number Reach API'
+  slug: open-webex-features-single-number-reach-api
+- collection_type: open
+  name: 'Webex Admin Address Book Features: Virtual Extensions API'
+  slug: open-webex-features-virtual-extensions-api
+- collection_type: open
+  name: Webex Admin Address Book Flow API
+  slug: open-webex-flow-api
+- collection_type: open
+  name: Webex Admin Address Book Generated Summaries API
+  slug: open-webex-generated-summaries-api
+- collection_type: open
+  name: Webex Admin Address Book Global Variables API
+  slug: open-webex-global-variables-api
+- collection_type: open
+  name: Webex Admin Address Book Groups API
+  slug: open-webex-groups-api
+- collection_type: open
+  name: Webex Admin Address Book Guest Management API
+  slug: open-webex-guest-management-api
+- collection_type: open
+  name: Webex Admin Address Book HDS API
+  slug: open-webex-hds-api
+- collection_type: open
+  name: Webex Admin Address Book Historical Analytics APIs API
+  slug: open-webex-historical-analytics-apis-api
+- collection_type: open
+  name: Webex Admin Address Book Holiday List API
+  slug: open-webex-holiday-list-api
+- collection_type: open
+  name: Webex Admin Address Book Hot Desk API
+  slug: open-webex-hot-desk-api
+- collection_type: open
+  name: Webex Admin Address Book Hybrid Clusters API
+  slug: open-webex-hybrid-clusters-api
+- collection_type: open
+  name: Webex Admin Address Book Hybrid Connectors API
+  slug: open-webex-hybrid-connectors-api
+- collection_type: open
+  name: Webex Admin Address Book Identity Organization API
+  slug: open-webex-identity-organization-api
+- collection_type: open
+  name: Webex Admin Address Book Invitees API
+  slug: open-webex-invitees-api
+- collection_type: open
+  name: Webex Admin Address Book Journey - Customer Identification API API
+  slug: open-webex-journey-customer-identification-api-api
+- collection_type: open
+  name: Webex Admin Address Book Journey - Data Ingestion API API
+  slug: open-webex-journey-data-ingestion-api-api
+- collection_type: open
+  name: Webex Admin Address Book Journey - Profile Creation & Insights API API
+  slug: open-webex-journey-profile-creation-insights-api-api
+- collection_type: open
+  name: Webex Admin Address Book Journey - Subscription API API
+  slug: open-webex-journey-subscription-api-api
+- collection_type: open
+  name: Webex Admin Address Book Journey - Trigger Actions API API
+  slug: open-webex-journey-trigger-actions-api-api
+- collection_type: open
+  name: Webex Admin Address Book Journey - Workspace management API API
+  slug: open-webex-journey-workspace-management-api-api
+- collection_type: open
+  name: Webex Admin Address Book Licenses API
+  slug: open-webex-licenses-api
+- collection_type: open
+  name: Webex Admin Address Book Live Monitoring API
+  slug: open-webex-live-monitoring-api
+- collection_type: open
+  name: Webex Admin Address Book Location Call Settings API
+  slug: open-webex-location-call-settings-api
+- collection_type: open
+  name: 'Webex Admin Address Book Location Call Settings: Call Handling API'
+  slug: open-webex-location-call-settings-call-handling-api
+- collection_type: open
+  name: 'Webex Admin Address Book Location Call Settings:  Schedules API'
+  slug: open-webex-location-call-settings-schedules-api
+- collection_type: open
+  name: 'Webex Admin Address Book Location Call Settings:  Voicemail API'
+  slug: open-webex-location-call-settings-voicemail-api
+- collection_type: open
+  name: Webex Admin Address Book Locations API
+  slug: open-webex-locations-api
+- collection_type: open
+  name: Webex Admin Address Book Meeting Polls API
+  slug: open-webex-meeting-polls-api
+- collection_type: open
+  name: Webex Admin Address Book Meeting Q and A API
+  slug: open-webex-meeting-q-and-a-api
+- collection_type: open
+  name: Webex Admin Address Book Meeting Qualities API
+  slug: open-webex-meeting-qualities-api
 - collection_type: open
   name: Webex Meetings
   slug: open-webex-meeting
 - collection_type: open
+  name: Webex Admin Address Book Meetings API
+  slug: open-webex-meetings-api
+- collection_type: open
+  name: Webex Admin Address Book Meetings Summary Report API
+  slug: open-webex-meetings-summary-report-api
+- collection_type: open
+  name: Webex Admin Address Book Memberships API
+  slug: open-webex-memberships-api
+- collection_type: open
+  name: Webex Admin Address Book Messages API
+  slug: open-webex-messages-api
+- collection_type: open
   name: Webex Messaging
   slug: open-webex-messaging
+- collection_type: open
+  name: Webex Admin Address Book Mode Management API
+  slug: open-webex-mode-management-api
+- collection_type: open
+  name: Webex Admin Address Book Multimedia Profile API
+  slug: open-webex-multimedia-profile-api
+- collection_type: open
+  name: Webex Admin Address Book Notification API
+  slug: open-webex-notification-api
+- collection_type: open
+  name: Webex Admin Address Book Numbers API
+  slug: open-webex-numbers-api
+- collection_type: open
+  name: Webex Admin Address Book Organization Contacts API
+  slug: open-webex-organization-contacts-api
+- collection_type: open
+  name: Webex Admin Address Book Organizations API
+  slug: open-webex-organizations-api
+- collection_type: open
+  name: Webex Admin Address Book Outdial ANI API
+  slug: open-webex-outdial-ani-api
+- collection_type: open
+  name: Webex Admin Address Book Overrides API
+  slug: open-webex-overrides-api
+- collection_type: open
+  name: Webex Admin Address Book Participants API
+  slug: open-webex-participants-api
+- collection_type: open
+  name: Webex Admin Address Book Partner Administrators API
+  slug: open-webex-partner-administrators-api
+- collection_type: open
+  name: Webex Admin Address Book Partner Reports/Templates API
+  slug: open-webex-partner-reports-templates-api
+- collection_type: open
+  name: Webex Admin Address Book Partner Tags API
+  slug: open-webex-partner-tags-api
+- collection_type: open
+  name: Webex Admin Address Book People API
+  slug: open-webex-people-api
+- collection_type: open
+  name: Webex Admin Address Book Preferences API
+  slug: open-webex-preferences-api
+- collection_type: open
+  name: Webex Admin Address Book PSTN API
+  slug: open-webex-pstn-api
+- collection_type: open
+  name: Webex Admin Address Book Queues API
+  slug: open-webex-queues-api
+- collection_type: open
+  name: Webex Admin Address Book Realtime API
+  slug: open-webex-realtime-api
+- collection_type: open
+  name: Webex Admin Address Book Recording Report API
+  slug: open-webex-recording-report-api
+- collection_type: open
+  name: Webex Admin Address Book Recordings API
+  slug: open-webex-recordings-api
+- collection_type: open
+  name: Webex Admin Address Book Report Templates API
+  slug: open-webex-report-templates-api
+- collection_type: open
+  name: Webex Admin Address Book Reports API
+  slug: open-webex-reports-api
+- collection_type: open
+  name: 'Webex Admin Address Book Reports: Detailed Call History API'
+  slug: open-webex-reports-detailed-call-history-api
+- collection_type: open
+  name: Webex Admin Address Book Resource Collection API
+  slug: open-webex-resource-collection-api
+- collection_type: open
+  name: Webex Admin Address Book Resource Group Memberships API
+  slug: open-webex-resource-group-memberships-api
+- collection_type: open
+  name: Webex Admin Address Book Resource Groups API
+  slug: open-webex-resource-groups-api
+- collection_type: open
+  name: Webex Admin Address Book Roles API
+  slug: open-webex-roles-api
+- collection_type: open
+  name: Webex Admin Address Book Room Tabs API
+  slug: open-webex-room-tabs-api
+- collection_type: open
+  name: Webex Admin Address Book Rooms API
+  slug: open-webex-rooms-api
+- collection_type: open
+  name: Webex Admin Address Book SCIM 2 Groups API
+  slug: open-webex-scim-2-groups-api
+- collection_type: open
+  name: Webex Admin Address Book SCIM 2 Schemas API
+  slug: open-webex-scim-2-schemas-api
+- collection_type: open
+  name: Webex Admin Address Book SCIM 2 Users API
+  slug: open-webex-scim-2-users-api
+- collection_type: open
+  name: Webex Admin Address Book Search API
+  slug: open-webex-search-api
+- collection_type: open
+  name: Webex Admin Address Book Security Audit Events API
+  slug: open-webex-security-audit-events-api
+- collection_type: open
+  name: Webex Admin Address Book Send Activation Email API
+  slug: open-webex-send-activation-email-api
+- collection_type: open
+  name: Webex Admin Address Book Service Apps API
+  slug: open-webex-service-apps-api
+- collection_type: open
+  name: Webex Admin Address Book Session Types API
+  slug: open-webex-session-types-api
+- collection_type: open
+  name: Webex Admin Address Book Settings API
+  slug: open-webex-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Site API
+  slug: open-webex-site-api
+- collection_type: open
+  name: Webex Admin Address Book Skill API
+  slug: open-webex-skill-api
+- collection_type: open
+  name: Webex Admin Address Book Skill Profile API
+  slug: open-webex-skill-profile-api
+- collection_type: open
+  name: Webex Admin Address Book slidoSecurePremium API
+  slug: open-webex-slidosecurepremium-api
+- collection_type: open
+  name: Webex Admin Address Book Subscriptions API
+  slug: open-webex-subscriptions-api
+- collection_type: open
+  name: Webex Admin Address Book Summaries API
+  slug: open-webex-summaries-api
+- collection_type: open
+  name: Webex Admin Address Book Tasks API
+  slug: open-webex-tasks-api
+- collection_type: open
+  name: Webex Admin Address Book Team API
+  slug: open-webex-team-api
+- collection_type: open
+  name: Webex Admin Address Book Team Memberships API
+  slug: open-webex-team-memberships-api
+- collection_type: open
+  name: Webex Admin Address Book Teams API
+  slug: open-webex-teams-api
+- collection_type: open
+  name: Webex Admin Address Book Telephony API
+  slug: open-webex-telephony-api
+- collection_type: open
+  name: Webex Admin Address Book Tracking Codes API
+  slug: open-webex-tracking-codes-api
+- collection_type: open
+  name: Webex Admin Address Book Transcripts API
+  slug: open-webex-transcripts-api
+- collection_type: open
+  name: Webex Admin Address Book UCM Profile API
+  slug: open-webex-ucm-profile-api
 - collection_type: open
   name: Webex for UCM
   slug: open-webex-ucm
 - collection_type: open
+  name: Webex Admin Address Book User Call Settings (1/2) API
+  slug: open-webex-user-call-settings-1-2-api
+- collection_type: open
+  name: Webex Admin Address Book User Call Settings (2/2) API
+  slug: open-webex-user-call-settings-2-2-api
+- collection_type: open
+  name: Webex Admin Address Book User Profiles API
+  slug: open-webex-user-profiles-api
+- collection_type: open
+  name: Webex Admin Address Book Users API
+  slug: open-webex-users-api
+- collection_type: open
+  name: Webex Admin Address Book Video Mesh API
+  slug: open-webex-video-mesh-api
+- collection_type: open
+  name: Webex Admin Address Book Virtual Line Call Settings API
+  slug: open-webex-virtual-line-call-settings-api
+- collection_type: open
+  name: Webex Admin Address Book Webhooks API
+  slug: open-webex-webhooks-api
+- collection_type: open
+  name: Webex Admin Address Book Wholesale Billing Reports API
+  slug: open-webex-wholesale-billing-reports-api
+- collection_type: open
+  name: Webex Admin Address Book Wholesale Provisioning API
+  slug: open-webex-wholesale-provisioning-api
+- collection_type: open
   name: Webex Wholesale
   slug: open-webex-wholesale
+- collection_type: open
+  name: Webex Admin Address Book Work Types API
+  slug: open-webex-work-types-api
+- collection_type: open
+  name: Webex Admin Address Book Workspace Call Settings (1/2) API
+  slug: open-webex-workspace-call-settings-1-2-api
+- collection_type: open
+  name: Webex Admin Address Book Workspace Call Settings (2/2) API
+  slug: open-webex-workspace-call-settings-2-2-api
+- collection_type: open
+  name: Webex Admin Address Book Workspace Locations API
+  slug: open-webex-workspace-locations-api
+- collection_type: open
+  name: Webex Admin Address Book Workspace Metrics API
+  slug: open-webex-workspace-metrics-api
+- collection_type: open
+  name: Webex Admin Address Book Workspace Personalization API
+  slug: open-webex-workspace-personalization-api
+- collection_type: open
+  name: Webex Admin Address Book Workspaces API
+  slug: open-webex-workspaces-api
+- collection_type: open
+  name: Webex Admin Address Book xAPI API
+  slug: open-webex-xapi-api
 common:
 - group: build
   title: ''
@@ -13457,7 +13994,7 @@ plans:
 - name: Webex Plans Pricing
   plan_count: 3
   slug: webex-plans-pricing
-random_paper: 59
+random_paper: 92
 rate_limits:
 - limit_count: 2
   name: Webex Rate Limits
@@ -13504,7 +14041,7 @@ score:
       marker_coverage: 0.0
       total: 178
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/screenshots/webex-2026-06-20T201328.png
 security:

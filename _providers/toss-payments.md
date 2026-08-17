@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,8 +63,32 @@ apis:
 - description: Per-order virtual bank account issuance.
   name: Toss Payments Virtual Accounts API
   slug: toss-payments-virtual-accounts-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toss Payments Core Billing API
+  slug: open-toss-payments-billing-api
+- collection_type: open
+  name: Toss Payments Core Billing Cash Receipts API
+  slug: open-toss-payments-cash-receipts-api
+- collection_type: open
+  name: Toss Core Billing Payments API
+  slug: open-toss-payments-payments-api
+- collection_type: open
+  name: Toss Payments Core Billing Payouts API
+  slug: open-toss-payments-payouts-api
+- collection_type: open
+  name: Toss Payments Core Billing Settlements API
+  slug: open-toss-payments-settlements-api
+- collection_type: open
+  name: Toss Payments Core Billing Transactions API
+  slug: open-toss-payments-transactions-api
+- collection_type: open
+  name: Toss Payments Core Billing Virtual Accounts API
+  slug: open-toss-payments-virtual-accounts-api
 - collection_type: open
   name: Toss Payments Core API
   slug: open-toss-payments
@@ -129,7 +153,7 @@ plans:
 - name: Toss Payments Plans Pricing
   plan_count: 3
   slug: toss-payments-plans-pricing
-random_paper: 63
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Toss Payments Rate Limits
@@ -160,7 +184,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

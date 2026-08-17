@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: The ValidateLoyaltyCard API from Bolt — 1 operation(s) for validateloyaltycard.
   name: Bolt ValidateLoyaltyCard API
   slug: bolt-eu-validateloyaltycard-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bolt Delivery GenericClient API
+  slug: open-bolt-eu-genericclient-api
+- collection_type: open
+  name: Bolt Delivery GenericClient Pim API
+  slug: open-bolt-eu-pim-api
+- collection_type: open
+  name: Bolt Delivery GenericClient ValidateLoyaltyCard API
+  slug: open-bolt-eu-validateloyaltycard-api
 common:
 - group: agent
   title: ''
@@ -114,7 +127,7 @@ plans:
 - name: Bolt Eu Plans Pricing
   plan_count: 3
   slug: bolt-eu-plans-pricing
-random_paper: 96
+random_paper: 100
 score:
   band: thin
   composite: 35.3
@@ -135,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/screenshots/bolt-eu-2026-07-25T203541.png
 security:

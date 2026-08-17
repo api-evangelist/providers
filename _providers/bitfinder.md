@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Authenticated Awair user profile
   name: Bitfinder User API
   slug: bitfinder-user-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Awair Home & OAuth Developer Air Data API
+  slug: open-bitfinder-air-data-api
+- collection_type: open
+  name: Awair Home & OAuth Developer Air Data Devices API
+  slug: open-bitfinder-devices-api
+- collection_type: open
+  name: Awair Home & OAuth Developer Air Data User API
+  slug: open-bitfinder-user-api
 common:
 - group: company
   title: ''
@@ -177,7 +190,7 @@ overview: 'Bitfinder publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bitfinder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 111
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Bitfinder Rate Limits
@@ -216,7 +229,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png
 security:

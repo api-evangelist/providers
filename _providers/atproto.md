@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,7 +66,35 @@ apis:
 - description: Data synchronization, firehose, blob access
   name: AT Protocol sync API
   slug: atproto-sync-api
-artifact_total: 24
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bluesky Application API (app.bsky) actor API
+  slug: open-atproto-actor-api
+- collection_type: open
+  name: Bluesky Application API (app.bsky) actor feed API
+  slug: open-atproto-feed-api
+- collection_type: open
+  name: Bluesky Application API (app.bsky) actor graph API
+  slug: open-atproto-graph-api
+- collection_type: open
+  name: Bluesky Application API (app.bsky) actor identity API
+  slug: open-atproto-identity-api
+- collection_type: open
+  name: Bluesky Application API (app.bsky) actor notification API
+  slug: open-atproto-notification-api
+- collection_type: open
+  name: Bluesky Application API (app.bsky) actor repo API
+  slug: open-atproto-repo-api
+- collection_type: open
+  name: Bluesky Application API (app.bsky) actor server API
+  slug: open-atproto-server-api
+- collection_type: open
+  name: Bluesky Application API (app.bsky) actor sync API
+  slug: open-atproto-sync-api
 common:
 - group: agent
   title: ''
@@ -179,7 +207,7 @@ plans:
 - name: Atproto Plans Pricing
   plan_count: 3
   slug: atproto-plans-pricing
-random_paper: 57
+random_paper: 32
 rate_limits:
 - limit_count: 17
   name: Atproto Rate Limits
@@ -213,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

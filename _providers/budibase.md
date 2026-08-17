@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Manage Budibase users.
   name: Budibase Users API
   slug: budibase-users-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Budibase Public Applications API
+  slug: open-budibase-applications-api
+- collection_type: open
+  name: Budibase Public Applications Queries API
+  slug: open-budibase-queries-api
+- collection_type: open
+  name: Budibase Public Applications Rows API
+  slug: open-budibase-rows-api
+- collection_type: open
+  name: Budibase Public Applications Tables API
+  slug: open-budibase-tables-api
+- collection_type: open
+  name: Budibase Public Applications Users API
+  slug: open-budibase-users-api
 - collection_type: open
   name: Budibase Public API
   slug: open-budibase
@@ -214,7 +232,7 @@ plans:
 - name: Budibase Plans Pricing
   plan_count: 3
   slug: budibase-plans-pricing
-random_paper: 111
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Budibase Rate Limits
@@ -239,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/screenshots/budibase-2026-06-20T173737.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ arazzos:
 - description: Walk a team to its first project, list that project's files, and read one file's version history.
   name: Figma Snapshot Team Project Versions
   slug: figma-snapshot-team-project-versions-workflow
-artifact_total: 550
+artifact_total: 557
 asyncapis:
 - description: Figma Webhooks allow applications to receive real-time notifications when events occur in Figma files and projects. Webhooks are configured at the team level and send HTTP POST requests with JSON payl
   name: Figma Webhooks
@@ -171,6 +171,9 @@ collections:
   name: Figma Teams API
   slug: postman-figma-teams-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Figma Activity Logs API
   slug: open-figma-activity-logs-api
 - collection_type: open
@@ -180,35 +183,53 @@ collections:
   name: Figma API
   slug: open-figma-api
 - collection_type: open
-  name: Figma Component Sets API
+  name: Figma Activity Logs Comments API
+  slug: open-figma-comments-api
+- collection_type: open
+  name: Figma Activity Logs Component Sets API
   slug: open-figma-component-sets-api
 - collection_type: open
-  name: Figma Dev Resources API
+  name: Figma Activity Logs Components API
+  slug: open-figma-components-api
+- collection_type: open
+  name: Figma Activity Logs Dev Resources API
   slug: open-figma-dev-resources-api
 - collection_type: open
-  name: Figma Files API
+  name: Figma Activity Logs Files API
   slug: open-figma-files-api
 - collection_type: open
-  name: Figma Images API
+  name: Figma Activity Logs Images API
   slug: open-figma-images-api
 - collection_type: open
-  name: Figma Me API
+  name: Figma Activity Logs Keys API
+  slug: open-figma-keys-api
+- collection_type: open
+  name: Figma Activity Logs Library Analytics API
+  slug: open-figma-library-analytics-api
+- collection_type: open
+  name: Figma Activity Logs Me API
   slug: open-figma-me-api
 - collection_type: open
-  name: Figma Payments API
+  name: Figma Activity Logs Payments API
   slug: open-figma-payments-api
 - collection_type: open
-  name: Figma Projects API
+  name: Figma Activity Logs Projects API
   slug: open-figma-projects-api
 - collection_type: open
   name: Figma REST API
   slug: open-figma-rest-api
 - collection_type: open
-  name: Figma Styles API
+  name: Figma Activity Logs Styles API
   slug: open-figma-styles-api
 - collection_type: open
-  name: Figma Teams API
+  name: Figma Activity Logs Teams API
   slug: open-figma-teams-api
+- collection_type: open
+  name: Figma Activity Logs Users API
+  slug: open-figma-users-api
+- collection_type: open
+  name: Figma Activity Logs Webhooks API
+  slug: open-figma-webhooks-api
 common:
 - group: operate
   title: ''
@@ -1964,7 +1985,7 @@ plans:
 - name: Figma Plans Pricing
   plan_count: 4
   slug: figma-plans-pricing
-random_paper: 36
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Figma Rate Limits
@@ -2021,7 +2042,7 @@ score:
       total: 16
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:

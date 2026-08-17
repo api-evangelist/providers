@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -44,7 +44,17 @@ apis:
 - description: Identity and discovery endpoints
   name: Doximity OpenID Connect API
   slug: doximity-openid-connect-api
-artifact_total: 10
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Doximity 2.0 & OpenID Connect OAuth API
+  slug: open-doximity-oauth-api
+- collection_type: open
+  name: Doximity 2.0 & OAuth OpenID Connect API
+  slug: open-doximity-openid-connect-api
 common:
 - group: company
   title: ''
@@ -191,7 +201,7 @@ overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Doximity''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 27 more developer resources.'
-random_paper: 47
+random_paper: 142
 rate_limits:
 - limit_count: 1
   name: Doximity Rate Limits
@@ -230,7 +240,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
 security:

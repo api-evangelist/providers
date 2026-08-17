@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -116,11 +116,93 @@ apis:
 - description: Configure event triggers that start a Run automatically when an external event fires (e.g. an email arrives, a Linear issue is created, or a file changes in Google Drive)
   name: Duvo Ai Triggers API
   slug: duvo-ai-triggers-api
-artifact_total: 32
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Duvo Ai Webhooks
   slug: duvo-ai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Duvo Public Agent Folders API
+  slug: open-duvo-ai-agent-folders-api
+- collection_type: open
+  name: Duvo Public Agent Folders Agent Memory API
+  slug: open-duvo-ai-agent-memory-api
+- collection_type: open
+  name: Duvo Public Agent Folders Agents API
+  slug: open-duvo-ai-agents-api
+- collection_type: open
+  name: Duvo Public Agent Folders Case Triggers API
+  slug: open-duvo-ai-case-triggers-api
+- collection_type: open
+  name: Duvo Public Agent Folders Cases API
+  slug: open-duvo-ai-cases-api
+- collection_type: open
+  name: Duvo Public Agent Folders Clarity API
+  slug: open-duvo-ai-clarity-api
+- collection_type: open
+  name: Duvo Public Agent Folders ClarityV2 API
+  slug: open-duvo-ai-clarityv2-api
+- collection_type: open
+  name: Duvo Public Agent Folders Connections API
+  slug: open-duvo-ai-connections-api
+- collection_type: open
+  name: Duvo Public Agent Folders Credentials API
+  slug: open-duvo-ai-credentials-api
+- collection_type: open
+  name: Duvo Public Agent Folders Duvo Pulse API
+  slug: open-duvo-ai-duvo-pulse-api
+- collection_type: open
+  name: Duvo Public Agent Folders Files API
+  slug: open-duvo-ai-files-api
+- collection_type: open
+  name: Duvo Public Agent Folders Integrations API
+  slug: open-duvo-ai-integrations-api
+- collection_type: open
+  name: Duvo Public Agent Folders MCP API
+  slug: open-duvo-ai-mcp-api
+- collection_type: open
+  name: Duvo Public Agent Folders Organizations API
+  slug: open-duvo-ai-organizations-api
+- collection_type: open
+  name: Duvo Public Agent Folders Plugins API
+  slug: open-duvo-ai-plugins-api
+- collection_type: open
+  name: Duvo Public Agent Folders Queues API
+  slug: open-duvo-ai-queues-api
+- collection_type: open
+  name: Duvo Public Agent Folders Revision Integrations API
+  slug: open-duvo-ai-revision-integrations-api
+- collection_type: open
+  name: Duvo Public Agent Folders Revisions API
+  slug: open-duvo-ai-revisions-api
+- collection_type: open
+  name: Duvo Public Agent Folders Runs API
+  slug: open-duvo-ai-runs-api
+- collection_type: open
+  name: Duvo Public Agent Folders Sandboxes API
+  slug: open-duvo-ai-sandboxes-api
+- collection_type: open
+  name: Duvo Public Agent Folders Schedules API
+  slug: open-duvo-ai-schedules-api
+- collection_type: open
+  name: Duvo Public Agent Folders Secrets API
+  slug: open-duvo-ai-secrets-api
+- collection_type: open
+  name: Duvo Public Agent Folders Skills API
+  slug: open-duvo-ai-skills-api
+- collection_type: open
+  name: Duvo Public Agent Folders Suggestions API
+  slug: open-duvo-ai-suggestions-api
+- collection_type: open
+  name: Duvo Public Agent Folders Team API
+  slug: open-duvo-ai-team-api
+- collection_type: open
+  name: Duvo Public Agent Folders Triggers API
+  slug: open-duvo-ai-triggers-api
 common:
 - group: other
   title: ''
@@ -265,7 +347,7 @@ overview: 'Duvo Ai publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Duvo Ai''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 24 more developer resources.'
-random_paper: 93
+random_paper: 97
 scopes:
 - name: Duvo Ai Scopes
   scope_count: 8
@@ -294,7 +376,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/screenshots/duvo-ai-2026-07-25T212653.png
 security:

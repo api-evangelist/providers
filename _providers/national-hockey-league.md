@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,8 +64,32 @@ apis:
 - description: The Teams API from National Hockey League — 4 operation(s) for teams.
   name: National Hockey League Teams API
   slug: national-hockey-league-teams-api
-artifact_total: 12
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NHL Web Game Center API
+  slug: open-national-hockey-league-game-center-api
+- collection_type: open
+  name: NHL Web Game Center Players API
+  slug: open-national-hockey-league-players-api
+- collection_type: open
+  name: NHL Web Game Center Schedule API
+  slug: open-national-hockey-league-schedule-api
+- collection_type: open
+  name: NHL Web Game Center Scores API
+  slug: open-national-hockey-league-scores-api
+- collection_type: open
+  name: NHL Web Game Center Standings API
+  slug: open-national-hockey-league-standings-api
+- collection_type: open
+  name: NHL Web Game Center Stats API
+  slug: open-national-hockey-league-stats-api
+- collection_type: open
+  name: NHL Web Game Center Teams API
+  slug: open-national-hockey-league-teams-api
 - collection_type: open
   name: NHL Web API
   slug: open-national-hockey-league
@@ -103,7 +127,7 @@ name: National Hockey League
 nav: Providers
 network: true
 overview: National Hockey League publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Game Center API, Players API, Schedule API, and 4 more. Tagged areas include Sports, Hockey, Entertainment, and Professional League.
-random_paper: 54
+random_paper: 128
 score:
   band: emerging
   composite: 19.3
@@ -124,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png
 security:

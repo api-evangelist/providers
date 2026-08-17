@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Access, create, and edit member records - the central pivot of the Glofox data model, spanning leads, active members, and ex-members (soft-deleted via an active flag rather than hard-deleted). The doc
@@ -117,7 +117,7 @@ plans:
 - name: Glofox Plans Pricing
   plan_count: 3
   slug: glofox-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Glofox Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glofox/refs/heads/main/screenshots/glofox-2026-07-25T215925.png
 security:

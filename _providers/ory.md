@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 6
@@ -73,11 +73,29 @@ apis:
 - description: Well-Known Endpoints
   name: Ory wellknown API
   slug: ory-wellknown-api
-artifact_total: 25
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ory Hydra api API
+  slug: open-ory-api-api
+- collection_type: open
+  name: Ory Hydra api courier API
+  slug: open-ory-courier-api
+- collection_type: open
+  name: Ory Hydra api frontend API
+  slug: open-ory-frontend-api
 - collection_type: open
   name: Ory Hydra API
   slug: open-ory-hydra
+- collection_type: open
+  name: Ory Hydra api identity API
+  slug: open-ory-identity-api
+- collection_type: open
+  name: Ory Hydra api jwk API
+  slug: open-ory-jwk-api
 - collection_type: open
   name: Ory Keto API
   slug: open-ory-keto
@@ -85,8 +103,26 @@ collections:
   name: Ory Identities API
   slug: open-ory-kratos
 - collection_type: open
+  name: Ory Hydra api metadata API
+  slug: open-ory-metadata-api
+- collection_type: open
   name: Ory Oathkeeper API
   slug: open-ory-oathkeeper
+- collection_type: open
+  name: Ory Hydra api oAuth2 API
+  slug: open-ory-oauth2-api
+- collection_type: open
+  name: Ory Hydra api oidc API
+  slug: open-ory-oidc-api
+- collection_type: open
+  name: Ory Hydra api permission API
+  slug: open-ory-permission-api
+- collection_type: open
+  name: Ory Hydra api relationship API
+  slug: open-ory-relationship-api
+- collection_type: open
+  name: Ory Hydra api wellknown API
+  slug: open-ory-wellknown-api
 common:
 - group: commercial
   title: ''
@@ -164,7 +200,7 @@ plans:
 - name: Ory Plans Pricing
   plan_count: 4
   slug: ory-plans-pricing
-random_paper: 106
+random_paper: 48
 rate_limits:
 - limit_count: 8
   name: Ory Rate Limits
@@ -194,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/screenshots/ory-2026-06-20T191212.png
 security:

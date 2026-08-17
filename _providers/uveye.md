@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,11 +44,30 @@ apis:
 - description: Generate and record customer-facing public inspection links.
   name: UVeye Public Links API
   slug: uveye-public-links-api
-artifact_total: 13
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Uveye Merchandise Webhooks
   slug: uveye-merchandise-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UVeye Public API v1 Appraisal API
+  slug: open-uveye-appraisal-api
+- collection_type: open
+  name: UVeye Public API v1 Inspections API
+  slug: open-uveye-inspections-api
+- collection_type: open
+  name: UVeye Public API v1 Media API
+  slug: open-uveye-media-api
+- collection_type: open
+  name: UVeye Public API v1 Merchandise API
+  slug: open-uveye-merchandise-api
+- collection_type: open
+  name: UVeye Public API v1 Public Links API
+  slug: open-uveye-public-links-api
 common:
 - group: agent
   title: ''
@@ -210,7 +229,7 @@ overview: 'UVeye publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   UVeye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 78
+random_paper: 111
 rate_limits:
 - limit_count: 3
   name: Uveye Rate Limits
@@ -238,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The Installation Health API from Gitar — 1 operation(s) for installation health.
   name: Gitar Installation Health API
   slug: gitar-installation-health-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gitar External GitLab MR Status API
+  slug: open-gitar-gitlab-mr-status-api
+- collection_type: open
+  name: Gitar External GitLab MR Status GitLab Projects API
+  slug: open-gitar-gitlab-projects-api
+- collection_type: open
+  name: Gitar External GitLab MR Status Installation Health API
+  slug: open-gitar-installation-health-api
 common:
 - group: company
   title: ''
@@ -181,7 +194,7 @@ overview: 'Gitar publishes 3 APIs on the [APIs.io](https://apis.io/) network: Gi
 
 
   Gitar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 55
+random_paper: 88
 score:
   band: developing
   composite: 51.6
@@ -205,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/screenshots/gitar-2026-07-25T215835.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -164,7 +164,137 @@ apis:
 - description: The Workflow API from Cube — 5 operation(s) for workflow.
   name: Cube Workflow API
   slug: cubesoftware-workflow-api
-artifact_total: 48
+artifact_total: 91
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cube Agents API
+  slug: open-cubesoftware-agents-api
+- collection_type: open
+  name: Cube Agents Attributes API
+  slug: open-cubesoftware-attributes-api
+- collection_type: open
+  name: Cube Agents Audit Trail API
+  slug: open-cubesoftware-audit-trail-api
+- collection_type: open
+  name: Cube Agents Auth API
+  slug: open-cubesoftware-auth-api
+- collection_type: open
+  name: Cube Agents Authentication API
+  slug: open-cubesoftware-authentication-api
+- collection_type: open
+  name: Cube Agents Canvases API
+  slug: open-cubesoftware-canvases-api
+- collection_type: open
+  name: Cube Agents ChatMessages API
+  slug: open-cubesoftware-chatmessages-api
+- collection_type: open
+  name: Cube Agents ChatSessions API
+  slug: open-cubesoftware-chatsessions-api
+- collection_type: open
+  name: Cube Agents ChatSettings API
+  slug: open-cubesoftware-chatsettings-api
+- collection_type: open
+  name: Cube Agents Comments API
+  slug: open-cubesoftware-comments-api
+- collection_type: open
+  name: Cube Agents Companies API
+  slug: open-cubesoftware-companies-api
+- collection_type: open
+  name: Cube Agents Company Groups API
+  slug: open-cubesoftware-company-groups-api
+- collection_type: open
+  name: Cube Agents compliance API
+  slug: open-cubesoftware-compliance-api
+- collection_type: open
+  name: Cube Agents Connections API
+  slug: open-cubesoftware-connections-api
+- collection_type: open
+  name: Cube Agents ContentType API
+  slug: open-cubesoftware-contenttype-api
+- collection_type: open
+  name: Agents cube API
+  slug: open-cubesoftware-cube-api
+- collection_type: open
+  name: Cube Agents Cube Data API
+  slug: open-cubesoftware-cube-data-api
+- collection_type: open
+  name: Cube Agents Cube Value Range API
+  slug: open-cubesoftware-cube-value-range-api
+- collection_type: open
+  name: Cube Agents Currencies API
+  slug: open-cubesoftware-currencies-api
+- collection_type: open
+  name: Cube Agents Dashboard API
+  slug: open-cubesoftware-dashboard-api
+- collection_type: open
+  name: Cube Agents Data Table Uploads API
+  slug: open-cubesoftware-data-table-uploads-api
+- collection_type: open
+  name: Cube Agents Data Tables API
+  slug: open-cubesoftware-data-tables-api
+- collection_type: open
+  name: Cube Agents Dimensions API
+  slug: open-cubesoftware-dimensions-api
+- collection_type: open
+  name: Cube Agents Drilldown API
+  slug: open-cubesoftware-drilldown-api
+- collection_type: open
+  name: Cube Agents ERP API
+  slug: open-cubesoftware-erp-api
+- collection_type: open
+  name: Cube Agents Events API
+  slug: open-cubesoftware-events-api
+- collection_type: open
+  name: Cube Agents Formulas API
+  slug: open-cubesoftware-formulas-api
+- collection_type: open
+  name: Cube Agents Integrations API
+  slug: open-cubesoftware-integrations-api
+- collection_type: open
+  name: Cube Agents Invitations API
+  slug: open-cubesoftware-invitations-api
+- collection_type: open
+  name: Cube Agents Library API
+  slug: open-cubesoftware-library-api
+- collection_type: open
+  name: Cube Agents Notifications API
+  slug: open-cubesoftware-notifications-api
+- collection_type: open
+  name: Cube Agents Permissions API
+  slug: open-cubesoftware-permissions-api
+- collection_type: open
+  name: Cube Agents permissionsets API
+  slug: open-cubesoftware-permissionsets-api
+- collection_type: open
+  name: Cube Agents PlanModeSessions API
+  slug: open-cubesoftware-planmodesessions-api
+- collection_type: open
+  name: Cube Agents Planning Table API
+  slug: open-cubesoftware-planning-table-api
+- collection_type: open
+  name: Cube Agents Scenarios API
+  slug: open-cubesoftware-scenarios-api
+- collection_type: open
+  name: Cube Agents Tags API
+  slug: open-cubesoftware-tags-api
+- collection_type: open
+  name: Cube Agents Taskflow API
+  slug: open-cubesoftware-taskflow-api
+- collection_type: open
+  name: Cube Agents Team API
+  slug: open-cubesoftware-team-api
+- collection_type: open
+  name: Cube Agents User API
+  slug: open-cubesoftware-user-api
+- collection_type: open
+  name: Cube Agents UserCompanies API
+  slug: open-cubesoftware-usercompanies-api
+- collection_type: open
+  name: Cube Agents Workflow API
+  slug: open-cubesoftware-workflow-api
 common:
 - group: company
   title: ''
@@ -306,7 +436,7 @@ overview: 'Cube publishes 42 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cube''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 90
+random_paper: 98
 scopes:
 - name: Cubesoftware Scopes
   scope_count: 3
@@ -335,7 +465,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/screenshots/cubesoftware-2026-07-25T210859.png
 security:

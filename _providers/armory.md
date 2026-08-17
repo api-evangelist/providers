@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -97,11 +97,81 @@ apis:
 - description: The vpc-controller API from Armory — 1 operation(s) for vpc-controller.
   name: Armory Vpc Controller API
   slug: armory-vpc-controller-api
-artifact_total: 27
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Armory Webhooks
   slug: armory-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Armory Scale Agent Dynamic Accounts Agent Accounts Controller API
+  slug: open-armory-agent-accounts-controller-api
+- collection_type: open
+  name: Armory Scale Agent Applications & Clusters Applications Controller API
+  slug: open-armory-applications-controller-api
+- collection_type: open
+  name: Armory Scale Agent Credentials Artifact Controller API
+  slug: open-armory-artifact-controller-api
+- collection_type: open
+  name: Armory Scale Agent Operations & Tasks Cache Controller API
+  slug: open-armory-cache-controller-api
+- collection_type: open
+  name: Armory Scale Agent Applications & Clusters Cluster Controller API
+  slug: open-armory-cluster-controller-api
+- collection_type: open
+  name: Armory Scale Agent Credentials Credentials Controller API
+  slug: open-armory-credentials-controller-api
+- collection_type: open
+  name: Armory Scale Agent Infrastructure Elastic Ip Controller API
+  slug: open-armory-elastic-ip-controller-api
+- collection_type: open
+  name: Armory Scale Agent Applications & Clusters Function Controller API
+  slug: open-armory-function-controller-api
+- collection_type: open
+  name: Armory Scale Agent Applications & Clusters Instance Controller API
+  slug: open-armory-instance-controller-api
+- collection_type: open
+  name: Armory Scale Agent Infrastructure Instance Type Controller API
+  slug: open-armory-instance-type-controller-api
+- collection_type: open
+  name: Armory Scale Agent Applications & Clusters Job Controller API
+  slug: open-armory-job-controller-api
+- collection_type: open
+  name: Armory Scale Agent Applications & Clusters Load Balancer Controller API
+  slug: open-armory-load-balancer-controller-api
+- collection_type: open
+  name: Armory Scale Agent Infrastructure Network Controller API
+  slug: open-armory-network-controller-api
+- collection_type: open
+  name: Armory Scale Agent Operations & Tasks Operations Controller API
+  slug: open-armory-operations-controller-api
+- collection_type: open
+  name: Armory Scale Agent Applications & Clusters Raw Resource Controller API
+  slug: open-armory-raw-resource-controller-api
+- collection_type: open
+  name: Armory Scale Agent Infrastructure Reservation Report Controller API
+  slug: open-armory-reservation-report-controller-api
+- collection_type: open
+  name: Armory Scale Agent Infrastructure Search Controller API
+  slug: open-armory-search-controller-api
+- collection_type: open
+  name: Armory Scale Agent Infrastructure Security Group Controller API
+  slug: open-armory-security-group-controller-api
+- collection_type: open
+  name: Armory Scale Agent Applications & Clusters Server Group Controller API
+  slug: open-armory-server-group-controller-api
+- collection_type: open
+  name: Armory Scale Agent Applications & Clusters Server Group Manager Controller API
+  slug: open-armory-server-group-manager-controller-api
+- collection_type: open
+  name: Armory Scale Agent Infrastructure Subnet Controller API
+  slug: open-armory-subnet-controller-api
+- collection_type: open
+  name: Armory Scale Agent Infrastructure Vpc Controller API
+  slug: open-armory-vpc-controller-api
 common:
 - group: operate
   title: ''
@@ -270,7 +340,7 @@ overview: 'Armory publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Armory''s developer surface includes documentation, API reference, getting-started guide, support, changelog, release notes, authentication, and 31 more developer resources.'
-random_paper: 66
+random_paper: 70
 score:
   band: thin
   composite: 40.0
@@ -294,7 +364,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/screenshots/armory-2026-08-07T161731.png
 security:

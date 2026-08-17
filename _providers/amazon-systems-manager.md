@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - description: Operations for running commands on managed instances.
   name: Amazon Systems Manager Run Command API
   slug: amazon-systems-manager-run-command-api
-artifact_total: 27
+artifact_total: 33
 collections:
 - collection_type: postman
   name: Amazon Systems Manager Automation API
@@ -70,6 +70,24 @@ collections:
 - collection_type: postman
   name: Amazon Systems Manager Automation Run Command API
   slug: postman-amazon-systems-manager-run-command-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Systems Manager Automation API
+  slug: open-amazon-systems-manager-automation-api
+- collection_type: open
+  name: Amazon Systems Manager Automation Documents API
+  slug: open-amazon-systems-manager-documents-api
+- collection_type: open
+  name: Amazon Systems Manager Automation Managed Instances API
+  slug: open-amazon-systems-manager-managed-instances-api
+- collection_type: open
+  name: Amazon Systems Manager Automation Parameter Store API
+  slug: open-amazon-systems-manager-parameter-store-api
+- collection_type: open
+  name: Amazon Systems Manager Automation Run Command API
+  slug: open-amazon-systems-manager-run-command-api
 - collection_type: open
   name: Amazon Systems Manager
   slug: open-amazon-systems-manager
@@ -195,7 +213,7 @@ plans:
 - name: Amazon Systems Manager Plans Pricing
   plan_count: 3
   slug: amazon-systems-manager-plans-pricing
-random_paper: 99
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Amazon Systems Manager Rate Limits
@@ -237,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/screenshots/amazon-systems-manager-2026-06-20T171837.png
 security:

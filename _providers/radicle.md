@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Repository issues (collaborative objects)
@@ -52,7 +52,32 @@ apis:
 - description: Aggregate node statistics
   name: Radicle Stats API
   slug: radicle-stats-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Radicle HTTP API (radicle-httpd) Issues API
+  slug: open-radicle-issues-api
+- collection_type: open
+  name: Radicle HTTP API (radicle-httpd) Issues Node API
+  slug: open-radicle-node-api
+- collection_type: open
+  name: Radicle HTTP API (radicle-httpd) Issues Patches API
+  slug: open-radicle-patches-api
+- collection_type: open
+  name: Radicle HTTP API (radicle-httpd) Issues Repositories API
+  slug: open-radicle-repositories-api
+- collection_type: open
+  name: Radicle HTTP API (radicle-httpd) Issues Service API
+  slug: open-radicle-service-api
+- collection_type: open
+  name: Radicle HTTP API (radicle-httpd) Issues Source API
+  slug: open-radicle-source-api
+- collection_type: open
+  name: Radicle HTTP API (radicle-httpd) Issues Stats API
+  slug: open-radicle-stats-api
 common:
 - group: other
   title: ''
@@ -178,7 +203,7 @@ overview: 'Radicle publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Radicle''s developer surface includes documentation, getting-started guide, API reference, engineering blog, FAQ, support, CLI, and 20 more developer resources.'
-random_paper: 4
+random_paper: 128
 score:
   band: developing
   composite: 42.6
@@ -201,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

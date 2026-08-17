@@ -9,28 +9,44 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: true
+    agentic_access: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 47.3
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Owler Agentic Access
+  operation_count: 6
+  slug: owler-agentic-access
+  summary_line: 6 operations
+api_count: 1
+apis:
+- description: 'Read-only REST API over Owler''s company graph. Three products in one OpenAPI 3.0.1 definition: Company Premium (complete firmographics, funding, acquisitions, stock and CEO data for a company looked u'
+  name: Owler Enterprise API
+  slug: owler-enterprise-api
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/owler-agentic-access.yml
 - group: company
   title: ''
   type: Website
@@ -42,11 +58,15 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.owler.com/blog
+  url: https://corp.owler.com/blog
 - group: operate
   title: ''
   type: Support
   url: https://owlerinc.happyfox.com/home/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://owlerinc.happyfox.com/kb/
 - group: commercial
   title: ''
   type: Pricing
@@ -58,45 +78,122 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.owler.com/terms-conditions
+  url: https://corp.owler.com/terms-conditions
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.owler.com/privacy
+  url: https://corp.owler.com/privacy-notice
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.owler.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.owler.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.owler.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.owler.com/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/owler-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/owler-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/owler-rate-limits.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/owler-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/owler-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/owler-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/owler-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/owler-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/owler-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/owler-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/owler-domain-security.yml
 created: '2026-07-17'
-description: Owler is a crowdsourced competitive- and business-intelligence platform that maintains real-time profiles on more than 20 million public and private companies, tracking firmographics, funding, and news across 45M+ competitive relationships contributed and validated by a community of 5M+ business professionals. It is delivered as web and mobile apps (Owler Community, Pro, and Max), a Chrome extension, and CRM and collaboration integrations (Salesforce, HubSpot, Slack, Microsoft Teams, ChatGPT). Its "Owler API" is an enterprise data-licensing offering — a competitive relationship graph, dynamic firmographics, and content monitoring — sold via sales contact rather than a self-serve public developer API; there is no public developer portal, OpenAPI, or SDK surface. Owler was acquired by Meltwater in 2021. Added to the API Evangelist network from the Norwest Venture Partners portfolio.
+description: 'Owler is a crowdsourced competitive- and business-intelligence platform that maintains real-time profiles on more than 20 million public and private companies, tracking firmographics, funding, and news across 45M+ competitive relationships contributed and validated by a community of 5M+ business professionals. It is delivered as web and mobile apps (Owler Community, Pro, and Max), a Chrome extension, and CRM and collaboration integrations (Salesforce, HubSpot, Slack, Microsoft Teams, ChatGPT). The Owler Enterprise API is a real, publicly documented REST API: a Swagger UI developer portal at developers.owler.com renders an OpenAPI 3.0.1 definition (six read operations across Company Premium, Competitor Premium and Feed, served from https://apiv2.owler.com, authenticated with an x-api-key header) that is fetchable at https://developers-v3.owler.com/apis/api3-swagger.json. Access to the data itself is sold through the data-licensing sales motion rather than self-serve signup,
+  and Owler ships no first-party SDKs, CLI or MCP server. Owler was acquired by Meltwater in 2021. Added to the API Evangelist network from the Norwest Venture Partners portfolio.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/owler.png
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: owler-mcp.yml
+  slug: owler-mcpyml
+modified: '2026-08-14'
 name: Owler
 nav: Providers
 network: true
-overview: 'Owler is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Company Intelligence, Sales Intelligence, Competitive Intelligence, and Business Data.
+overview: 'Owler publishes 1 API on the [APIs.io](https://apis.io/) network: Enterprise API. Tagged areas include Company, Company Intelligence, Sales Intelligence, Competitive Intelligence, and Business Data.
 
 
-  Owler''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 73
+  Owler''s developer surface includes engineering blog, support, pricing, documentation, API reference, and 21 more developer resources.'
+plans:
+- name: Owler Plans Pricing
+  plan_count: 0
+  slug: owler-plans-pricing
+random_paper: 106
+rate_limits:
+- limit_count: 0
+  name: Owler Rate Limits
+  slug: owler-rate-limits
 score:
-  band: emerging
-  composite: 15.2
-  delta: 0.0
+  band: developing
+  composite: 44.6
+  delta: 29.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    contract_quality: 57.5
+    developer_ergonomics: 45.7
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 15.8
   previous_composite: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/screenshots/owler-2026-08-07T191152.png
 security:
+- kind: authentication
+  name: Owler Authentication
+  slug: owler-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Owler Domain Security
   slug: owler-domain-security
@@ -111,5 +208,8 @@ tags:
 - Data Licensing
 - News Monitoring
 - Market Research
+- Firmographics
+- Company Search
+- Funding Data
 website: https://corp.owler.com
 ---

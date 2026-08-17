@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: JWT-authenticated REST API for collecting payments (bank payment initiation, cards, MobilePay, BLIK, BNPL / Hire-Purchase), creating and validating Orders, issuing Refunds, generating Payment Links, o
@@ -194,7 +194,7 @@ overview: 'Montonio publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Montonio''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 43
+random_paper: 138
 score:
   band: developing
   composite: 45.0
@@ -218,7 +218,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/screenshots/montonio-2026-08-07T184221.png
 security:

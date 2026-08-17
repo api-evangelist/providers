@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The open-source core. SQL statements embedded in Markdown files run against configured data sources and render charts and components into a static BI website (Svelte/Vite). The interface is a Node CLI
@@ -40,8 +40,11 @@ apis:
 - description: The managed hosting and deployment platform for Evidence projects. Adds a managed query engine, multi-level caching, row-level security, scheduled data syncs, a browser-based IDE, and AI authoring ass
   name: Evidence Cloud
   slug: evidence-cloud
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Evidence (Framework - not a REST API)
   slug: open-evidence-dev
@@ -106,7 +109,7 @@ plans:
 - name: Evidence Dev Plans Pricing
   plan_count: 5
   slug: evidence-dev-plans-pricing
-random_paper: 119
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Evidence Dev Rate Limits
@@ -124,7 +127,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/screenshots/evidence-dev-2026-06-20T180912.png
 security:

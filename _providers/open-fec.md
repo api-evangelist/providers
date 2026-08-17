@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Schedules API from OpenFEC — 3 operation(s) for schedules.
   name: OpenFEC Schedules API
   slug: open-fec-schedules-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenFEC Candidate API
+  slug: open-open-fec-candidate-api
+- collection_type: open
+  name: OpenFEC Candidate Candidates API
+  slug: open-open-fec-candidates-api
+- collection_type: open
+  name: OpenFEC Candidate Committee API
+  slug: open-open-fec-committee-api
+- collection_type: open
+  name: OpenFEC Candidate Committees API
+  slug: open-open-fec-committees-api
+- collection_type: open
+  name: OpenFEC Candidate Elections API
+  slug: open-open-fec-elections-api
+- collection_type: open
+  name: OpenFEC Candidate Filings API
+  slug: open-open-fec-filings-api
+- collection_type: open
+  name: OpenFEC Candidate Names API
+  slug: open-open-fec-names-api
+- collection_type: open
+  name: OpenFEC Candidate Schedules API
+  slug: open-open-fec-schedules-api
 - collection_type: open
   name: OpenFEC API
   slug: open-open-fec
@@ -117,7 +144,7 @@ plans:
 - name: Open Fec Plans Pricing
   plan_count: 3
   slug: open-fec-plans-pricing
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Open Fec Rate Limits
@@ -148,7 +175,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/screenshots/open-fec-2026-06-20T190743.png
 security:

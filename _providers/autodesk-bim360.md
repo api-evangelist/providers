@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -114,7 +114,53 @@ apis:
 - description: The User Projects API from Autodesk BIM 360 — 1 operation(s) for user projects.
   name: Autodesk BIM 360 User Projects API
   slug: autodesk-bim360-user-projects-api
-artifact_total: 46
+artifact_total: 61
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Construction.Account.Admin Account Users API
+  slug: open-autodesk-bim360-account-users-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Business Units API
+  slug: open-autodesk-bim360-business-units-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Companies API
+  slug: open-autodesk-bim360-companies-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Issue Attachments API
+  slug: open-autodesk-bim360-issue-attachments-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Issue Attribute Definitions API
+  slug: open-autodesk-bim360-issue-attribute-definitions-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Issue Attribute Mappings API
+  slug: open-autodesk-bim360-issue-attribute-mappings-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Issue Comments API
+  slug: open-autodesk-bim360-issue-comments-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Issue Root Cause Categories API
+  slug: open-autodesk-bim360-issue-root-cause-categories-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Issue Types API
+  slug: open-autodesk-bim360-issue-types-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Issues API
+  slug: open-autodesk-bim360-issues-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Issues Profile API
+  slug: open-autodesk-bim360-issues-profile-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Project Users API
+  slug: open-autodesk-bim360-project-users-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users Projects API
+  slug: open-autodesk-bim360-projects-api
+- collection_type: open
+  name: Construction.Account.Admin Account Users User Projects API
+  slug: open-autodesk-bim360-user-projects-api
 common:
 - group: agent
   title: ''
@@ -242,7 +288,7 @@ plans:
 - name: Autodesk Bim360 Plans Pricing
   plan_count: 4
   slug: autodesk-bim360-plans-pricing
-random_paper: 54
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Autodesk Bim360 Rate Limits
@@ -281,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/screenshots/autodesk-bim360-2026-06-20T172629.png
 security:

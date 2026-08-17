@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: The Workspace API from Absentify — 1 operation(s) for workspace.
   name: Absentify Workspace API
   slug: absentify-workspace-api
-artifact_total: 68
+artifact_total: 76
 collections:
 - collection_type: postman
   name: Absentify Absences API
@@ -83,6 +83,30 @@ collections:
 - collection_type: postman
   name: Absentify Absences Workspace API
   slug: postman-absentify-workspace-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Absentify Absences API
+  slug: open-absentify-absences-api
+- collection_type: open
+  name: Absentify Absences Departments API
+  slug: open-absentify-departments-api
+- collection_type: open
+  name: Absentify Absences Leave types API
+  slug: open-absentify-leave-types-api
+- collection_type: open
+  name: Absentify Absences Members API
+  slug: open-absentify-members-api
+- collection_type: open
+  name: Absentify Absences Public holidays API
+  slug: open-absentify-public-holidays-api
+- collection_type: open
+  name: Absentify Absences Requests API
+  slug: open-absentify-requests-api
+- collection_type: open
+  name: Absentify Absences Workspace API
+  slug: open-absentify-workspace-api
 - collection_type: open
   name: Absentify API
   slug: open-absentify
@@ -283,7 +307,7 @@ plans:
 - name: Absentify Plans Pricing
   plan_count: 3
   slug: absentify-plans-pricing
-random_paper: 5
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Absentify Rate Limits
@@ -325,7 +349,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/screenshots/absentify-2026-06-20T163354.png
 security:

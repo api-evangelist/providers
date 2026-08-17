@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ apis:
 - description: 'Triggers let you receive notifications when your data in Honeycomb crosses the thresholds that you configure. The graph on which to alert is as flexible as a Honeycomb query, which helps reduce false '
   name: Honeycomb Triggers API
   slug: honeycomb-io-triggers-api
-artifact_total: 74
+artifact_total: 96
 collections:
 - collection_type: postman
   name: Honeycomb Auth API
@@ -167,6 +167,9 @@ collections:
   name: Honeycomb Auth Triggers API
   slug: postman-honeycomb-io-triggers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Honeycomb Auth API
   slug: open-honeycomb-auth-api
 - collection_type: open
@@ -184,6 +187,69 @@ collections:
 - collection_type: open
   name: Honeycomb Events API
   slug: open-honeycomb-events-api
+- collection_type: open
+  name: Honeycomb Auth API
+  slug: open-honeycomb-io-auth-api
+- collection_type: open
+  name: Honeycomb Auth Boards API
+  slug: open-honeycomb-io-boards-api
+- collection_type: open
+  name: Honeycomb Auth Burn Alerts API
+  slug: open-honeycomb-io-burn-alerts-api
+- collection_type: open
+  name: Honeycomb Auth Calculated Fields API
+  slug: open-honeycomb-io-calculated-fields-api
+- collection_type: open
+  name: Honeycomb Auth Columns API
+  slug: open-honeycomb-io-columns-api
+- collection_type: open
+  name: Honeycomb Auth Dataset Definitions API
+  slug: open-honeycomb-io-dataset-definitions-api
+- collection_type: open
+  name: Honeycomb Auth Datasets API
+  slug: open-honeycomb-io-datasets-api
+- collection_type: open
+  name: Honeycomb Auth Environments API
+  slug: open-honeycomb-io-environments-api
+- collection_type: open
+  name: Honeycomb Auth Events API
+  slug: open-honeycomb-io-events-api
+- collection_type: open
+  name: Honeycomb Auth Key Management API
+  slug: open-honeycomb-io-key-management-api
+- collection_type: open
+  name: Honeycomb Auth Kinesis Events API
+  slug: open-honeycomb-io-kinesis-events-api
+- collection_type: open
+  name: Honeycomb Auth Marker Settings API
+  slug: open-honeycomb-io-marker-settings-api
+- collection_type: open
+  name: Honeycomb Auth Markers API
+  slug: open-honeycomb-io-markers-api
+- collection_type: open
+  name: Honeycomb Auth Queries API
+  slug: open-honeycomb-io-queries-api
+- collection_type: open
+  name: Honeycomb Auth Query Annotations API
+  slug: open-honeycomb-io-query-annotations-api
+- collection_type: open
+  name: Honeycomb Auth Query Data API
+  slug: open-honeycomb-io-query-data-api
+- collection_type: open
+  name: Honeycomb Auth Recipients API
+  slug: open-honeycomb-io-recipients-api
+- collection_type: open
+  name: Honeycomb Auth Reporting API
+  slug: open-honeycomb-io-reporting-api
+- collection_type: open
+  name: Honeycomb Auth Service Maps API
+  slug: open-honeycomb-io-service-maps-api
+- collection_type: open
+  name: Honeycomb Auth SLOs API
+  slug: open-honeycomb-io-slos-api
+- collection_type: open
+  name: Honeycomb Auth Triggers API
+  slug: open-honeycomb-io-triggers-api
 - collection_type: open
   name: Honeycomb Key Management API
   slug: open-honeycomb-key-management-api
@@ -432,7 +498,7 @@ plans:
 - name: Honeycomb Io Plans Pricing
   plan_count: 4
   slug: honeycomb-io-plans-pricing
-random_paper: 25
+random_paper: 33
 rate_limits:
 - limit_count: 4
   name: Honeycomb Io Rate Limits
@@ -474,7 +540,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png
 security:

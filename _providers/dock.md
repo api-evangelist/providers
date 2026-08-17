@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Dock's financial infrastructure API, branded Caradhras, covering card issuing and processing, digital accounts, transfers, Pix, bank slips and acquiring. The gateway is live at api.caradhras.io (AWS A
@@ -124,7 +124,7 @@ plans:
 - name: Dock Plans Pricing
   plan_count: 0
   slug: dock-plans-pricing
-random_paper: 57
+random_paper: 119
 rate_limits:
 - limit_count: 0
   name: Dock Rate Limits
@@ -132,6 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.4
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -139,6 +140,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
@@ -146,7 +148,8 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Dock Authentication

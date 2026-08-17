@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,11 +62,32 @@ apis:
 - description: The Subscriptions API from ChartMogul — 1 operation(s) for subscriptions.
   name: ChartMogul Subscriptions API
   slug: chartmogul-subscriptions-api
-artifact_total: 16
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ChartMogul REST Account API
+  slug: open-chartmogul-account-api
 - collection_type: open
   name: ChartMogul Webhooks AsyncAPI
   slug: open-chartmogul-asyncapi
+- collection_type: open
+  name: ChartMogul REST Account Customers API
+  slug: open-chartmogul-customers-api
+- collection_type: open
+  name: ChartMogul REST Account Invoices API
+  slug: open-chartmogul-invoices-api
+- collection_type: open
+  name: ChartMogul REST Account Metrics API
+  slug: open-chartmogul-metrics-api
+- collection_type: open
+  name: ChartMogul REST Account Plans API
+  slug: open-chartmogul-plans-api
+- collection_type: open
+  name: ChartMogul REST Account Subscriptions API
+  slug: open-chartmogul-subscriptions-api
 - collection_type: open
   name: ChartMogul REST API
   slug: open-chartmogul
@@ -139,7 +160,7 @@ overview: 'ChartMogul publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ChartMogul''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 118
+random_paper: 35
 score:
   band: thin
   composite: 35.0
@@ -160,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/screenshots/chartmogul-2026-06-20T174231.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -119,11 +119,96 @@ apis:
 - description: The Web Component Tokens API from JustiFi — 1 operation(s) for web component tokens.
   name: JustiFi Web Component Tokens API
   slug: justifi-web-component-tokens-api
-artifact_total: 32
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Justifi Webhooks
   slug: justifi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees API
+  slug: open-justifi-ach-return-fees-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Address API
+  slug: open-justifi-address-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees API Credentials API
+  slug: open-justifi-api-credentials-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Balance Transactions API
+  slug: open-justifi-balance-transactions-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Bank Account API
+  slug: open-justifi-bank-account-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Bind Insurance API
+  slug: open-justifi-bind-insurance-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Business API
+  slug: open-justifi-business-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Checkouts API
+  slug: open-justifi-checkouts-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Disputes API
+  slug: open-justifi-disputes-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Document API
+  slug: open-justifi-document-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Fee Configurations API
+  slug: open-justifi-fee-configurations-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Identity API
+  slug: open-justifi-identity-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Payment Method Groups API
+  slug: open-justifi-payment-method-groups-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Payment Methods API
+  slug: open-justifi-payment-methods-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Payments API
+  slug: open-justifi-payments-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Payout Holds API
+  slug: open-justifi-payout-holds-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Payouts API
+  slug: open-justifi-payouts-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Proceeds API
+  slug: open-justifi-proceeds-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Provisioning API
+  slug: open-justifi-provisioning-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Refunds API
+  slug: open-justifi-refunds-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Reports API
+  slug: open-justifi-reports-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Sub Accounts API
+  slug: open-justifi-sub-accounts-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Terminals API
+  slug: open-justifi-terminals-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Terminals Orders API
+  slug: open-justifi-terminals-orders-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Terms and Conditions API
+  slug: open-justifi-terms-and-conditions-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Voids API
+  slug: open-justifi-voids-api
+- collection_type: open
+  name: JustiFi API Documentation Ach Return Fees Web Component Tokens API
+  slug: open-justifi-web-component-tokens-api
 common:
 - group: other
   title: ''
@@ -256,7 +341,7 @@ overview: 'JustiFi publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 
 
   JustiFi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
-random_paper: 46
+random_paper: 21
 score:
   band: developing
   composite: 49.0
@@ -286,7 +371,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/screenshots/justifi-2026-07-25T223338.png
 security:

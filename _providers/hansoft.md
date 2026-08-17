@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: GraphQL API service for P4 Plan (Hansoft) exposing 60+ queries, 100+ mutations, and 50+ subscriptions across projects, items (tasks, bugs, backlog), users and groups, sprints, timesheets, reports, das
@@ -169,7 +169,7 @@ overview: 'Hansoft publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Hansoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 20 more developer resources.'
-random_paper: 35
+random_paper: 10
 score:
   band: developing
   composite: 47.7
@@ -186,7 +186,7 @@ score:
     conformance: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/screenshots/hansoft-2026-07-25T220633.png
 security:

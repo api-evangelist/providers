@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ arazzos:
 - description: Authenticate, initialize a user state, fetch the current step, submit step data, then read the profile.
   name: Trulioo Workflow Studio Drive A Flow
   slug: trulioo-workflow-studio-run-flow-workflow
-artifact_total: 92
+artifact_total: 106
 collections:
 - collection_type: postman
   name: Trulioo Business Verification API
@@ -179,26 +179,68 @@ collections:
   name: Trulioo Verifications API
   slug: postman-trulioo-verifications-api
 - collection_type: open
-  name: Trulioo Business Verification API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trulioo Business Verification Authentication API
+  slug: open-trulioo-authentication-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Business Configuration API
+  slug: open-trulioo-business-configuration-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Business Reports API
+  slug: open-trulioo-business-reports-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Business Search API
+  slug: open-trulioo-business-search-api
+- collection_type: open
+  name: Trulioo Authentication Business Verification API
   slug: open-trulioo-business-verification-api
 - collection_type: open
-  name: Trulioo Configuration API
+  name: Trulioo Business Verification Authentication Configuration API
   slug: open-trulioo-configuration-api
 - collection_type: open
-  name: Trulioo Connection API
+  name: Trulioo Business Verification Authentication Connection API
   slug: open-trulioo-connection-api
 - collection_type: open
-  name: Trulioo Identity Document Verification API
+  name: Trulioo Business Verification Authentication Document Configuration API
+  slug: open-trulioo-document-configuration-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Document Verification API
   slug: open-trulioo-document-verification-api
 - collection_type: open
-  name: Trulioo Person Fraud API
+  name: Trulioo Business Verification Authentication Documents API
+  slug: open-trulioo-documents-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication End Clients API
+  slug: open-trulioo-end-clients-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Events API
+  slug: open-trulioo-events-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Flows API
+  slug: open-trulioo-flows-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Known Faces API
+  slug: open-trulioo-known-faces-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Person Fraud API
   slug: open-trulioo-person-fraud-api
 - collection_type: open
   name: Trulioo Platform API
   slug: open-trulioo-platform-api
 - collection_type: open
-  name: Trulioo Verifications API
+  name: Trulioo Business Verification Authentication Sessions API
+  slug: open-trulioo-sessions-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Transactions API
+  slug: open-trulioo-transactions-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Verifications API
   slug: open-trulioo-verifications-api
+- collection_type: open
+  name: Trulioo Business Verification Authentication Workflows API
+  slug: open-trulioo-workflows-api
 common:
 - group: agent
   title: ''
@@ -593,7 +635,7 @@ plans:
 - name: Trulioo Plans Pricing
   plan_count: 6
   slug: trulioo-plans-pricing
-random_paper: 62
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Trulioo Rate Limits
@@ -640,7 +682,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png
 security:

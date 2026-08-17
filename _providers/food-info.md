@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -34,7 +34,17 @@ apis:
 - description: The RecipesApi API from Food Info — 2 operation(s) for recipesapi.
   name: Food Info Recipes API API
   slug: food-info-recipesapi-api
-artifact_total: 9
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Food Info API V1 API
+  slug: open-food-info-apiv1-api
+- collection_type: open
+  name: Food Info Recipes API API
+  slug: open-food-info-recipesapi-api
 common:
 - group: agent
   title: ''
@@ -168,7 +178,7 @@ plans:
 - name: Food Info Plans
   plan_count: 0
   slug: food-info-plans
-random_paper: 57
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Food Info Rate Limits
@@ -202,7 +212,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: Technician time-off records that affect availability.
   name: Workiz Time Off API
   slug: workiz-time-off-api
-artifact_total: 11
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workiz Jobs API
+  slug: open-workiz-jobs-api
+- collection_type: open
+  name: Workiz Jobs Leads API
+  slug: open-workiz-leads-api
+- collection_type: open
+  name: Workiz Jobs Payments API
+  slug: open-workiz-payments-api
+- collection_type: open
+  name: Workiz Jobs Team API
+  slug: open-workiz-team-api
+- collection_type: open
+  name: Workiz Jobs Time Off API
+  slug: open-workiz-time-off-api
 - collection_type: open
   name: Workiz API
   slug: open-workiz
@@ -115,7 +133,7 @@ plans:
 - name: Workiz Plans Pricing
   plan_count: 4
   slug: workiz-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Workiz Rate Limits
@@ -140,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

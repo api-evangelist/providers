@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,12 +51,24 @@ apis:
 - description: The TLM API from Cleanlab — 1 operation(s) for tlm.
   name: Cleanlab TLM API
   slug: cleanlab-tlm-api
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: AsyncAPI 2.6 description of the Trustworthy Language Model (TLM) **chat completion streaming** surface. Cleanlab does not publish a WebSocket API. The TLM is exposed via an OpenAI-compatible Chat Comp
   name: Cleanlab TLM Chat Completions Streaming (HTTP + SSE)
   slug: cleanlab-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cleanlab Codex API
+  slug: open-cleanlab-codex-api
+- collection_type: open
+  name: Cleanlab Codex Studio API
+  slug: open-cleanlab-studio-api
+- collection_type: open
+  name: Cleanlab Codex TLM API
+  slug: open-cleanlab-tlm-api
 - collection_type: open
   name: Cleanlab API
   slug: open-cleanlab
@@ -136,7 +148,7 @@ plans:
 - name: Cleanlab Plans Pricing
   plan_count: 5
   slug: cleanlab-plans-pricing
-random_paper: 98
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Cleanlab Rate Limits
@@ -170,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/screenshots/cleanlab-2026-07-25T205631.png
 security:

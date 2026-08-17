@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -78,8 +78,50 @@ apis:
 - description: Derived fields computed from an APL expression at query time.
   name: Axiom Virtual Fields API
   slug: axiom-co-virtual-fields-api
-artifact_total: 20
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Axiom Annotations API
+  slug: open-axiom-co-annotations-api
+- collection_type: open
+  name: Axiom Annotations Dashboards API
+  slug: open-axiom-co-dashboards-api
+- collection_type: open
+  name: Axiom Annotations Datasets API
+  slug: open-axiom-co-datasets-api
+- collection_type: open
+  name: Axiom Annotations Fields API
+  slug: open-axiom-co-fields-api
+- collection_type: open
+  name: Axiom Annotations Ingest API
+  slug: open-axiom-co-ingest-api
+- collection_type: open
+  name: Axiom Annotations Monitors API
+  slug: open-axiom-co-monitors-api
+- collection_type: open
+  name: Axiom Annotations Notifiers API
+  slug: open-axiom-co-notifiers-api
+- collection_type: open
+  name: Axiom Annotations Organizations API
+  slug: open-axiom-co-organizations-api
+- collection_type: open
+  name: Axiom Annotations Query API
+  slug: open-axiom-co-query-api
+- collection_type: open
+  name: Axiom Annotations Starred Queries API
+  slug: open-axiom-co-starred-queries-api
+- collection_type: open
+  name: Axiom Annotations Tokens API
+  slug: open-axiom-co-tokens-api
+- collection_type: open
+  name: Axiom Annotations Users API
+  slug: open-axiom-co-users-api
+- collection_type: open
+  name: Axiom Annotations Virtual Fields API
+  slug: open-axiom-co-virtual-fields-api
 - collection_type: open
   name: Axiom API
   slug: open-axiom-co
@@ -148,7 +190,7 @@ plans:
 - name: Axiom Co Plans Pricing
   plan_count: 3
   slug: axiom-co-plans-pricing
-random_paper: 77
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: Axiom Co Rate Limits
@@ -173,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

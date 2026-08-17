@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 30
 apis:
 - description: The Agents V1 API from Arthur AI — 12 operation(s) for agents v1.
@@ -121,11 +121,105 @@ apis:
 - description: The Workspaces V1 API from Arthur AI — 3 operation(s) for workspaces v1.
   name: Arthur AI Workspaces V1 API
   slug: arthur-ai-workspaces-v1-api
-artifact_total: 35
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Arthur Ai Webhooks
   slug: arthur-ai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arthur Scope Agents V1 API
+  slug: open-arthur-ai-agents-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Alert Rules V1 API
+  slug: open-arthur-ai-alert-rules-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Alerts V1 API
+  slug: open-arthur-ai-alerts-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Authorization V1 API
+  slug: open-arthur-ai-authorization-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Connector Schemas V1 API
+  slug: open-arthur-ai-connector-schemas-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Connectors V1 API
+  slug: open-arthur-ai-connectors-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Custom Aggregation Tests V1 API
+  slug: open-arthur-ai-custom-aggregation-tests-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Custom Aggregations V1 API
+  slug: open-arthur-ai-custom-aggregations-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Data Plane Associations V1 API
+  slug: open-arthur-ai-data-plane-associations-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Data Planes V1 API
+  slug: open-arthur-ai-data-planes-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Data Retrieval V1 API
+  slug: open-arthur-ai-data-retrieval-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Datasets V1 API
+  slug: open-arthur-ai-datasets-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Feature Flags V1 API
+  slug: open-arthur-ai-feature-flags-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Groups V1 API
+  slug: open-arthur-ai-groups-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Health API
+  slug: open-arthur-ai-health-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Jobs V1 API
+  slug: open-arthur-ai-jobs-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Metric Functions V1 API
+  slug: open-arthur-ai-metric-functions-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Metrics V1 API
+  slug: open-arthur-ai-metrics-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Models V1 API
+  slug: open-arthur-ai-models-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 OAuth V1 API
+  slug: open-arthur-ai-oauth-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Organizations V1 API
+  slug: open-arthur-ai-organizations-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Policies V1 API
+  slug: open-arthur-ai-policies-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Projects V1 API
+  slug: open-arthur-ai-projects-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Registration V1 API
+  slug: open-arthur-ai-registration-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Roles V1 API
+  slug: open-arthur-ai-roles-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Tasks V1 API
+  slug: open-arthur-ai-tasks-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Upsolve V1 API
+  slug: open-arthur-ai-upsolve-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Users V1 API
+  slug: open-arthur-ai-users-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Webhooks V1 API
+  slug: open-arthur-ai-webhooks-v1-api
+- collection_type: open
+  name: Arthur Scope Agents V1 Workspaces V1 API
+  slug: open-arthur-ai-workspaces-v1-api
 common:
 - group: company
   title: ''
@@ -262,7 +356,7 @@ overview: 'Arthur AI publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Arthur AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, authentication, changelog, and 22 more developer resources.'
-random_paper: 69
+random_paper: 15
 scopes:
 - name: Arthur Ai Scopes
   scope_count: 191
@@ -290,7 +384,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png
 security:

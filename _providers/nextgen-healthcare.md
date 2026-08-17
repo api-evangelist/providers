@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-12'
+  score: 38.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 54
   slug: nextgen-healthcare-agentic-access
   summary_line: 54 operations · 4 acting
-api_count: 5
+api_count: 9
 apis:
 - description: HL7 FHIR API for the NextGen Enterprise EHR, certified under the 21st Century Cures Act Patient Access criteria, exposing USCDI data to patient-facing apps. Available in FHIR R4 (4.0.1) and legacy DST
   name: NextGen Enterprise Patient Access FHIR API
@@ -54,7 +54,26 @@ apis:
 - description: HL7 FHIR STU3 (R3) API for the NextGen Office EHR with C-CDA support, authenticated with SMART App Launch / OpenID Connect OAuth2 via Keycloak. Predecessor surface to the R4 Patient Access API.
   name: NextGen Office FHIR R3 API
   slug: nextgen-office-fhir-r3-api
-artifact_total: 11
+- description: FHIR R4-based Patient Access API for NextGen Office (formerly MediTouch) ambulatory practices. Enables patients and authorized apps to access personal health information via the YourHealthFile patient
+  name: NextGen Office Patient FHIR API
+  slug: nextgen-office-patient-fhir-api
+- description: SMART on FHIR App Launch API for NextGen Office enabling vendor applications to obtain USCDIv1 clinical data for a single patient. Compliant with 21st Century Cures Act requirements. Supports HL7 SMAR
+  name: NextGen Office SMART App Launch FHIR API
+  slug: nextgen-office-smart-app-launch-fhir-api
+- description: Bulk FHIR API for NextGen Office enabling authorized vendors to obtain USCDIv1 data for multiple patients in a group using the HL7 FHIR Bulk Data Access specification. Compliant with 21st Century Cure
+  name: NextGen Office Bulk FHIR API
+  slug: nextgen-office-bulk-fhir-api
+- description: 'API for NextGen Mirth Connect, an open-source healthcare integration engine supporting HL7 v2, FHIR, and other healthcare data standards for interoperability between clinical systems. Enables message '
+  name: NextGen Mirth Connect Integration Engine API
+  slug: nextgen-mirth-connect-integration-engine-api
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-nextgen-healthcare-fhir-capability-statement
+- collection_type: open
+  name: NextGen Office BulK FHIR API
+  slug: open-nextgen-office-bulk-fhir-r4
 common:
 - group: auth
   title: ''
@@ -184,39 +203,123 @@ common:
   title: ''
   type: Overlay
   url: overlays/nextgen-healthcare-office-bulk-fhir-r4-overlay.yaml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://dev-cd.nextgen.com/api
+- group: other
+  title: ''
+  type: DeveloperProgram
+  url: https://www.nextgen.com/developer-program
+- group: other
+  title: ''
+  type: Marketplace
+  url: https://www.nextgen.com/solutions/marketplace
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/nextgenhealthcare
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/nextgenhealthcareinc
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/nextgen
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.nextgen.com/company/newsroom
+- group: other
+  title: ''
+  type: Interoperability
+  url: https://www.nextgen.com/solutions/interoperability/api-fhir
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/nextgen-healthcare-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/nextgen-healthcare-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/nextgen-healthcare-finops.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/nextgen-healthcare-cli.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/nextgen-healthcare-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/nextgen-healthcare-sandbox.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.nextgen.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.nextgen.com/login?returnUrl=%2F
 created: '2026-07-24'
 description: 'NextGen Healthcare is a United States ambulatory electronic health record (EHR/EMR) and practice-management vendor headquartered in Remote-first / Atlanta, Georgia, serving outpatient specialties and community health with its NextGen Enterprise and NextGen Office platforms plus the Mirth Connect interoperability engine. Its developer surface is standards-driven: 21st Century Cures Act-certified HL7 FHIR APIs for patient access and provider apps, a SMART App Launch API, and a Bulk FHIR (Flat FHIR) API delivering USCDI data, alongside an 800+ route JSON RESTful Enterprise API family. NextGen Enterprise exposes live FHIR R4 and DSTU2 service base URLs with SMART-on-FHIR OAuth2, and NextGen Office exposes live FHIR R3/R4 and Bulk FHIR endpoints. FHIR resources are coded against the US Core / USCDIv1 implementation guides. Developer onboarding is gated behind an API onboarding form and app registration, which is standard for regulated health-data access in the US market.'
+finops:
+- name: Nextgen Healthcare Finops
+  service_category: ''
+  slug: nextgen-healthcare-finops
 image: https://nextgen.widen.net/content/mcckjhwu0f/svg/NG_Logo_Final_RGB.svg
+jsonld:
+- class_count: 22
+  name: Nextgen Healthcare Context
+  property_count: 2
+  slug: nextgen-healthcare-context
 layout: provider
 mcp_servers:
 - description: ''
   name: nextgen-healthcare-mcp.yml
   slug: nextgen-healthcare-mcpyml
-modified: '2026-07-24'
+modified: '2026-08-14'
 name: NextGen Healthcare
 nav: Providers
 network: true
 overview: 'NextGen Healthcare publishes 2 APIs on the [APIs.io](https://apis.io/) network: NextGen Office FHIR R4 API and NextGen Office Bulk FHIR R4 API. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
 
 
-  NextGen Healthcare''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
-random_paper: 47
+  The NextGen Healthcare catalog on APIs.io includes 1 JSON-LD context.
+
+
+  NextGen Healthcare''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 41 more developer resources.'
+plans:
+- name: Nextgen Healthcare Plans Pricing
+  plan_count: 3
+  slug: nextgen-healthcare-plans-pricing
+random_paper: 59
+rate_limits:
+- limit_count: 5
+  name: Nextgen Healthcare Rate Limits
+  slug: nextgen-healthcare-rate-limits
 scopes:
 - name: Nextgen Healthcare Scopes
   scope_count: 12
   slug: nextgen-healthcare-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 47.8
-  delta: 0.0
+  band: exemplar
+  composite: 67.1
+  delta: 19.3
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 59.5
-    developer_ergonomics: 56.0
+    commercial_clarity: 100.0
+    contract_quality: 64.8
+    developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 5.3
+    operational_transparency: 52.6
   previous_composite: 47.8
   provenance:
     agentic_access: derived
@@ -235,8 +338,8 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/screenshots/nextgen-healthcare-2026-08-07T185204.png
 security:
 - kind: authentication

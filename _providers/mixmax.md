@@ -10,16 +10,17 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-08-12'
+  score: 46.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -56,7 +57,33 @@ apis:
 - description: Snippet tag management
   name: Mixmax Snippet Tags API
   slug: mixmax-snippet-tags-api
-artifact_total: 12
+artifact_total: 22
+asyncapis:
+- description: ''
+  name: Mixmax Webhooks
+  slug: mixmax-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mixmax REST Contact Groups API
+  slug: open-mixmax-contact-groups-api
+- collection_type: open
+  name: Mixmax REST Contact Groups Contacts API
+  slug: open-mixmax-contacts-api
+- collection_type: open
+  name: Mixmax REST Contact Groups File Requests API
+  slug: open-mixmax-file-requests-api
+- collection_type: open
+  name: Mixmax REST Contact Groups Meetings API
+  slug: open-mixmax-meetings-api
+- collection_type: open
+  name: Mixmax REST Contact Groups Sequences API
+  slug: open-mixmax-sequences-api
+- collection_type: open
+  name: Mixmax REST Contact Groups Snippet Tags API
+  slug: open-mixmax-snippet-tags-api
 common:
 - group: agent
   title: ''
@@ -150,38 +177,75 @@ common:
   title: ''
   type: Website
   url: https://www.mixmax.com/
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/mixmax-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/mixmax-scopes.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/mixmax-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/mixmax-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/mixmax-changelog.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mixmax-problem-types.yml
 created: '2026-07-17'
-description: Mixmax is an AI-native sales engagement and execution platform that lives inside Gmail and Outlook, helping sales, customer success, recruiting, and other relationship-driven teams run their entire customer journey without context-switching. It combines email tracking and templates, multi-channel sequences, one-click scheduling, CRM automation, engagement signals, and Meeting Copilot summaries and transcripts. Mixmax exposes a public REST API (api.mixmax.com/v1) for lightweight real-time access to contacts, contact groups, sequences and recipients, file requests, meeting summaries and transcripts, and snippet tags, authenticated with an API token, plus message integrations and Sidebar/Widget SDKs for extending the product surface.
+description: Mixmax is an AI-native sales engagement and execution platform that lives inside Gmail and Outlook, helping sales, customer success, recruiting, and other relationship-driven teams run their entire customer journey without context-switching. It combines email tracking and templates, multi-channel sequences, one-click scheduling, CRM automation, engagement signals, and Meeting Copilot summaries and transcripts. Mixmax exposes a public REST API (api.mixmax.com/v1) for lightweight real-time access to contacts, contact groups, sequences and recipients, file requests, meeting summaries and transcripts, and snippet tags, authenticated with an API token, plus message integrations and Sidebar/Widget SDKs for extending the product surface. Since April 2026 Mixmax also runs a first-party remote MCP server at mcp.mixmax.com/mcp — read-only, OAuth 2.0 with PKCE against its own OpenID Connect provider, scoped meetings:read — together with six installable Claude Skills, a rule-driven incoming
+  and outgoing webhook surface with a documented event catalog, and published per-tier pricing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mixmax.png
 layout: provider
 mcp_servers:
 - description: ''
   name: mixmax-mcp.yml
   slug: mixmax-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Mixmax
 nav: Providers
 network: true
-overview: 'Mixmax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contact Groups API, Contacts API, File Requests API, and 3 more. Tagged areas include Company, Saas, Sales Engagement, Email, and Sales.
+overview: 'Mixmax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contact Groups API, Contacts API, File Requests API, and 3 more. Tagged areas include Company, Saas, MCP, Agents, and Webhooks.
 
 
-  Mixmax''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 60
+  The Mixmax catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Mixmax''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+plans:
+- name: Mixmax Plans Pricing
+  plan_count: 6
+  slug: mixmax-plans-pricing
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Mixmax Rate Limits
   slug: mixmax-rate-limits
+scopes:
+- name: Mixmax Scopes
+  scope_count: 0
+  slug: mixmax-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 52.5
-  delta: 0.0
+  band: strong
+  composite: 65.3
+  delta: 12.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 60.4
+    commercial_clarity: 92.1
+    contract_quality: 69.4
     developer_ergonomics: 51.6
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
-    operational_transparency: 42.1
+    operational_transparency: 65.8
   previous_composite: 52.5
   provenance:
     agentic_access: derived
@@ -194,14 +258,14 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/screenshots/mixmax-2026-08-07T183824.png
 security:
 - kind: authentication
   name: Mixmax Authentication
   slug: mixmax-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 - kind: domain-security
   name: Mixmax Domain Security
   slug: mixmax-domain-security
@@ -214,6 +278,10 @@ slug: mixmax
 tags:
 - Company
 - Saas
+- MCP
+- Agents
+- Webhooks
+- OAuth
 - Sales Engagement
 - Email
 - Sales

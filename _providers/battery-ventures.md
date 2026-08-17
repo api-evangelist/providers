@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Battery Ventures
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 61
 slug: battery-ventures
 tags:
 - Venture Capital

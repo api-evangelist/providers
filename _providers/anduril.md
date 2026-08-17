@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -54,8 +54,23 @@ apis:
 - description: Create, update, query, cancel, and stream tasks; agent-side listen/stream endpoints.
   name: Anduril Industries Tasks API
   slug: anduril-tasks-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anduril Lattice REST Entities API
+  slug: open-anduril-entities-api
+- collection_type: open
+  name: Anduril Lattice REST Entities OAuth API
+  slug: open-anduril-oauth-api
+- collection_type: open
+  name: Anduril Lattice REST Entities Objects API
+  slug: open-anduril-objects-api
+- collection_type: open
+  name: Anduril Lattice REST Entities Tasks API
+  slug: open-anduril-tasks-api
 - collection_type: open
   name: Anduril Lattice REST API
   slug: open-anduril
@@ -144,7 +159,7 @@ plans:
 - name: Anduril Plans Pricing
   plan_count: 1
   slug: anduril-plans-pricing
-random_paper: 31
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Anduril Rate Limits
@@ -174,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/screenshots/anduril-2026-06-20T171951.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -60,7 +60,32 @@ apis:
 - description: The Users API from Cariqa — 2 operation(s) for users.
   name: Cariqa Users API
   slug: cariqa-users-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cariqa Connect Billing Details API
+  slug: open-cariqa-billing-details-api
+- collection_type: open
+  name: Cariqa Connect Billing Details Charging Sessions API
+  slug: open-cariqa-charging-sessions-api
+- collection_type: open
+  name: Cariqa Connect Billing Details Debts API
+  slug: open-cariqa-debts-api
+- collection_type: open
+  name: Cariqa Connect Billing Details Invoices API
+  slug: open-cariqa-invoices-api
+- collection_type: open
+  name: Cariqa Connect Billing Details Payments API
+  slug: open-cariqa-payments-api
+- collection_type: open
+  name: Cariqa Connect Billing Details Stations API
+  slug: open-cariqa-stations-api
+- collection_type: open
+  name: Cariqa Connect Billing Details Users API
+  slug: open-cariqa-users-api
 common:
 - group: docs
   title: ''
@@ -186,7 +211,7 @@ overview: 'Cariqa publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cariqa''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, quickstart, and 20 more developer resources.'
-random_paper: 25
+random_paper: 29
 score:
   band: developing
   composite: 43.2
@@ -216,7 +241,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/screenshots/cariqa-2026-07-25T204619.png
 security:

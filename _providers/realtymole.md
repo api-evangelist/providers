@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: AVM sale-price (value) estimate with comparable sales.
   name: RealtyMole Sale Estimate API
   slug: realtymole-sale-estimate-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Realty Mole Property Listings API
+  slug: open-realtymole-listings-api
+- collection_type: open
+  name: Realty Mole Property Listings Property Records API
+  slug: open-realtymole-property-records-api
+- collection_type: open
+  name: Realty Mole Property Listings Rental Estimate API
+  slug: open-realtymole-rental-estimate-api
+- collection_type: open
+  name: Realty Mole Property Listings Sale Estimate API
+  slug: open-realtymole-sale-estimate-api
 - collection_type: open
   name: Realty Mole Property API
   slug: open-realtymole
@@ -113,7 +128,7 @@ plans:
 - name: Realtymole Plans Pricing
   plan_count: 5
   slug: realtymole-plans-pricing
-random_paper: 6
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Realtymole Rate Limits
@@ -138,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

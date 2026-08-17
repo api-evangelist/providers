@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -60,8 +60,26 @@ apis:
 - description: Manage SwaggerHub projects
   name: SmartBear Projects API
   slug: smartbear-projects-api
-artifact_total: 25
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SmartBear SwaggerHub APIs API
+  slug: open-smartbear-apis-api
+- collection_type: open
+  name: SmartBear SwaggerHub APIs Domains API
+  slug: open-smartbear-domains-api
+- collection_type: open
+  name: SmartBear SwaggerHub APIs Integrations API
+  slug: open-smartbear-integrations-api
+- collection_type: open
+  name: SmartBear SwaggerHub APIs Organizations API
+  slug: open-smartbear-organizations-api
+- collection_type: open
+  name: SmartBear SwaggerHub APIs Projects API
+  slug: open-smartbear-projects-api
 - collection_type: open
   name: SmartBear SwaggerHub API
   slug: open-smartbear-swaggerhub
@@ -208,7 +226,7 @@ plans:
 - name: Smartbear Plans Pricing
   plan_count: 1
   slug: smartbear-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Smartbear Rate Limits
@@ -250,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/screenshots/smartbear-2026-06-20T194038.png
 security:

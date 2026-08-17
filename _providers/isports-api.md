@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: The Basketball Common API API from iSports API — 5 operation(s) for basketball common api.
@@ -66,7 +66,56 @@ apis:
 - description: The Football Stats API from iSports API — 10 operation(s) for football stats.
   name: iSports API Football Stats API
   slug: isports-api-football-stats-api
-artifact_total: 130
+artifact_total: 146
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: iSports Basketball Common API API
+  slug: open-isports-api-basketball-common-api-api
+- collection_type: open
+  name: iSports Basketball Live animation API
+  slug: open-isports-api-basketball-live-animation-api
+- collection_type: open
+  name: iSports Basketball Live Data API
+  slug: open-isports-api-basketball-live-data-api
+- collection_type: open
+  name: iSports Basketball Odds API
+  slug: open-isports-api-basketball-odds-api
+- collection_type: open
+  name: iSports Basketball Profile API
+  slug: open-isports-api-basketball-profile-api
+- collection_type: open
+  name: iSports Basketball Stats API
+  slug: open-isports-api-basketball-stats-api
+- collection_type: open
+  name: iSports Football Common API API
+  slug: open-isports-api-football-common-api-api
+- collection_type: open
+  name: iSports Football European Odds (200+ Agencies) Football European Odds (200+ Agencies) API
+  slug: open-isports-api-football-european-odds-200-agencies-api
+- collection_type: open
+  name: iSports Football Live animation API
+  slug: open-isports-api-football-live-animation-api
+- collection_type: open
+  name: iSports Football Live Data API
+  slug: open-isports-api-football-live-data-api
+- collection_type: open
+  name: iSports Football Multiple languages API
+  slug: open-isports-api-football-multiple-languages-api
+- collection_type: open
+  name: iSports Football Odds (18 Agencies) Football Odds (18 Agencies) API
+  slug: open-isports-api-football-odds-18-agencies-api
+- collection_type: open
+  name: iSports Football Other Odds API
+  slug: open-isports-api-football-other-odds-api
+- collection_type: open
+  name: iSports Football Profile API
+  slug: open-isports-api-football-profile-api
+- collection_type: open
+  name: iSports Football Stats API
+  slug: open-isports-api-football-stats-api
 common:
 - group: other
   title: ''
@@ -534,7 +583,7 @@ plans:
 - name: Isports Api Plans
   plan_count: 14
   slug: isports-api-plans
-random_paper: 67
+random_paper: 104
 rate_limits:
 - limit_count: 0
   name: Isports Api Rate Limits
@@ -560,7 +609,7 @@ score:
       total: 15
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

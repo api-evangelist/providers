@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
 - description: Amberdata Pricing from Amberdata — 16 path(s) described in OpenAPI.
   name: Amberdata Pricing
   slug: amberdata-price-openapi
-artifact_total: 34
+artifact_total: 40
 asyncapis:
 - description: AsyncAPI 2.6 description of Amberdata's **real-time WebSocket streaming** surface. Unlike the Groq reference (which exposes no WebSocket), Amberdata DOES publish a documented public WebSocket API. Cli
   name: Amberdata WebSocket Streaming API
@@ -118,6 +118,24 @@ collections:
 - collection_type: postman
   name: spot-analytics
   slug: postman-amberdata-spot
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amberdata DeFi API
+  slug: open-amberdata-defi-api
+- collection_type: open
+  name: Amberdata DeFi Futures API
+  slug: open-amberdata-futures-api
+- collection_type: open
+  name: Amberdata DeFi On-Chain API
+  slug: open-amberdata-on-chain-api
+- collection_type: open
+  name: Amberdata DeFi Options API
+  slug: open-amberdata-options-api
+- collection_type: open
+  name: Amberdata DeFi Spot API
+  slug: open-amberdata-spot-api
 - collection_type: open
   name: Amberdata API
   slug: open-amberdata
@@ -285,7 +303,7 @@ plans:
 - name: Amberdata Plans Pricing
   plan_count: 2
   slug: amberdata-plans-pricing
-random_paper: 89
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Amberdata Rate Limits
@@ -328,7 +346,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/screenshots/amberdata-2026-07-22T202146.png
 security:

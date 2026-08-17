@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,7 +63,29 @@ arazzos:
 - description: Bulk-resolve a cluster name to its address, then read the full cluster profile.
   name: Resolve a Clusters name to a wallet and profile
   slug: clusters-resolve-name
-artifact_total: 13
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clusters Authentication API
+  slug: open-clusters-authentication-api
+- collection_type: open
+  name: Authentication Clusters API
+  slug: open-clusters-clusters-api
+- collection_type: open
+  name: Clusters Authentication Communities API
+  slug: open-clusters-communities-api
+- collection_type: open
+  name: Clusters Authentication Events API
+  slug: open-clusters-events-api
+- collection_type: open
+  name: Clusters Authentication Names API
+  slug: open-clusters-names-api
+- collection_type: open
+  name: Clusters Authentication Registration API
+  slug: open-clusters-registration-api
 common:
 - group: auth
   title: ''
@@ -205,7 +227,7 @@ overview: 'Clusters publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Clusters'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, sandbox, and 24 more developer resources.'
-random_paper: 45
+random_paper: 140
 score:
   band: developing
   composite: 48.4
@@ -235,7 +257,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/screenshots/clusters-2026-07-25T205748.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Outgoing Transactions API from Procuros — 2 operation(s) for outgoing transactions.
   name: Procuros Outgoing Transactions API
   slug: procuros-outgoing-transactions-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Procuros All Transactions API
+  slug: open-procuros-all-transactions-api
+- collection_type: open
+  name: Procuros All Transactions Incoming Transactions API
+  slug: open-procuros-incoming-transactions-api
+- collection_type: open
+  name: Procuros All Transactions Misc API
+  slug: open-procuros-misc-api
+- collection_type: open
+  name: Procuros All Transactions Outgoing Transactions API
+  slug: open-procuros-outgoing-transactions-api
 common:
 - group: other
   title: ''
@@ -164,7 +180,7 @@ overview: 'Procuros publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Procuros'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 17 more developer resources.'
-random_paper: 53
+random_paper: 148
 score:
   band: developing
   composite: 45.9
@@ -188,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

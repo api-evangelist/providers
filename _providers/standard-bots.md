@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'On-robot REST API (served by the RO1 control box on /api/v1, Bearer-token auth) for controlling arm position and motion, the gripper/end-effector, cameras, routines, teleoperation, the recorder, I/O, '
@@ -148,7 +148,7 @@ overview: 'Standard Bots publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Standard Bots'' developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 14
+random_paper: 142
 score:
   band: thin
   composite: 28.2
@@ -166,7 +166,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: These methods write data. Unless otherwise specified, all object types available are paired with individual /read/ to allow full CRUD (Create, Read, Update, and Destory) operations against any item. N
   name: Vantaca /write/ API
   slug: vantaca-write-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vantaca's Standard APIs /AP/ /AP/ /AP/ API
+  slug: open-vantaca-ap-api
+- collection_type: open
+  name: Vantaca's Standard APIs /AP/ /AP/ /read/ API
+  slug: open-vantaca-read-api
+- collection_type: open
+  name: Vantaca's Standard APIs /AP/ /AP/ /write/ API
+  slug: open-vantaca-write-api
 common:
 - group: agent
   title: ''
@@ -105,7 +118,7 @@ plans:
 - name: Vantaca Plans Pricing
   plan_count: 2
   slug: vantaca-plans-pricing
-random_paper: 14
+random_paper: 138
 rate_limits:
 - limit_count: 3
   name: Vantaca Rate Limits
@@ -130,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

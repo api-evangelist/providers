@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,17 @@ apis:
 - description: The models API from Poolside — 1 operation(s) for models.
   name: Poolside models API
   slug: poolside-ai-models-api
-artifact_total: 11
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenAI Compatible chat API
+  slug: open-poolside-ai-chat-api
+- collection_type: open
+  name: OpenAI Compatible chat models API
+  slug: open-poolside-ai-models-api
 common:
 - group: agent
   title: ''
@@ -121,7 +131,7 @@ plans:
 - name: Poolside Ai Plans Pricing
   plan_count: 3
   slug: poolside-ai-plans-pricing
-random_paper: 30
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Poolside Ai Rate Limits
@@ -146,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

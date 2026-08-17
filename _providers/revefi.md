@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Create a Custom Data Quality Monitor API from Revefi — 1 operation(s) for create a custom data quality monitor.
@@ -49,7 +49,29 @@ apis:
 - description: The Update an existing Custom Data Quality Monitor API from Revefi — 1 operation(s) for update an existing custom data quality monitor.
   name: Revefi Update an existing Custom Data Quality Monitor API
   slug: revefi-update-an-existing-custom-data-quality-monitor-api
-artifact_total: 9
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Data Quality Monitors Create a Custom Data Quality Monitor API
+  slug: open-revefi-create-a-custom-data-quality-monitor-api
+- collection_type: open
+  name: Data Quality Monitors Create a Custom Data Quality Monitor Delete an existing Custom Data Quality Monitor API
+  slug: open-revefi-delete-an-existing-custom-data-quality-monitor-api
+- collection_type: open
+  name: Data Quality Monitors Create a Custom Data Quality Monitor Get Custom Data Quality Monitors API
+  slug: open-revefi-get-custom-data-quality-monitors-api
+- collection_type: open
+  name: Data Quality Monitors Create a Custom Data Quality Monitor Get Custom Data Quality Monitors by Artifact API
+  slug: open-revefi-get-custom-data-quality-monitors-by-artifact-api
+- collection_type: open
+  name: Data Quality Monitors Create a Custom Data Quality Monitor Run Monitors API
+  slug: open-revefi-run-monitors-api
+- collection_type: open
+  name: Data Quality Monitors Create a Custom Data Quality Monitor Update an existing Custom Data Quality Monitor API
+  slug: open-revefi-update-an-existing-custom-data-quality-monitor-api
 common:
 - group: company
   title: ''
@@ -167,7 +189,7 @@ overview: 'Revefi publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Revefi''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 41
+random_paper: 45
 score:
   band: developing
   composite: 49.7
@@ -190,7 +212,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

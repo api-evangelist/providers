@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -65,11 +65,42 @@ apis:
 - description: <p> Before any calls can be made to wefitter, BasicAuth is needed to verify the identity of the requesting party. This call will result into a Bearer token which has administrator privileges and is va
   name: WeFitter token API
   slug: wefitter-token-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Wefitter Webhooks
   slug: wefitter-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WeFitter app API
+  slug: open-wefitter-app-api
+- collection_type: open
+  name: WeFitter app challenge API
+  slug: open-wefitter-challenge-api
+- collection_type: open
+  name: WeFitter app connection API
+  slug: open-wefitter-connection-api
+- collection_type: open
+  name: WeFitter app insights API
+  slug: open-wefitter-insights-api
+- collection_type: open
+  name: WeFitter app loyalty API
+  slug: open-wefitter-loyalty-api
+- collection_type: open
+  name: WeFitter app notification API
+  slug: open-wefitter-notification-api
+- collection_type: open
+  name: WeFitter app profile API
+  slug: open-wefitter-profile-api
+- collection_type: open
+  name: WeFitter app team API
+  slug: open-wefitter-team-api
+- collection_type: open
+  name: WeFitter app token API
+  slug: open-wefitter-token-api
 common:
 - group: start
   title: ''
@@ -214,7 +245,7 @@ overview: 'WeFitter publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   WeFitter''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, changelog, signup flow, and 24 more developer resources.'
-random_paper: 34
+random_paper: 129
 score:
   band: developing
   composite: 45.3
@@ -244,7 +275,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

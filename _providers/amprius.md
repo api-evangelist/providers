@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,7 +112,7 @@ overview: 'Amprius Technologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   Amprius Technologies'' developer surface includes product news, YouTube channel, engineering blog, and 14 more developer resources.'
-random_paper: 49
+random_paper: 24
 score:
   band: minimal
   composite: 5.8
@@ -132,7 +132,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amprius/refs/heads/main/screenshots/amprius-2026-06-20T171944.png
 security:

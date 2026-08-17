@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ arazzos:
 - description: Answer a question with the built-in web search tool and return citations.
   name: ChatGPT Web Search Grounded Answer
   slug: chatgpt-web-search-answer-workflow
-artifact_total: 159
+artifact_total: 160
 collections:
 - collection_type: postman
   name: ChatGPT Chat Completions API
@@ -80,10 +80,13 @@ collections:
   name: ChatGPT Responses API
   slug: postman-chatgpt-responses-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: ChatGPT Chat Completions API
   slug: open-chatgpt-chat-completions-api
 - collection_type: open
-  name: ChatGPT Responses API
+  name: ChatGPT Chat Completions Responses API
   slug: open-chatgpt-responses-api
 common:
 - group: build
@@ -688,7 +691,7 @@ plans:
 - name: Chatgpt Plans Pricing
   plan_count: 7
   slug: chatgpt-plans-pricing
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Chatgpt Rate Limits
@@ -732,7 +735,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/screenshots/chatgpt-2026-06-20T174235.png
 security:

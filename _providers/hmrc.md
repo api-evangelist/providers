@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: VAT return submission
   name: HMRC UK Tax Authority Returns API
   slug: hmrc-returns-api
-artifact_total: 35
+artifact_total: 40
 collections:
 - collection_type: postman
   name: HMRC VAT (Making Tax Digital) Liabilities API
@@ -77,6 +77,21 @@ collections:
 - collection_type: postman
   name: HMRC VAT (Making Tax Digital) Liabilities Returns API
   slug: postman-hmrc-returns-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HMRC VAT (Making Tax Digital) Liabilities API
+  slug: open-hmrc-liabilities-api
+- collection_type: open
+  name: HMRC VAT (Making Tax Digital) Liabilities Obligations API
+  slug: open-hmrc-obligations-api
+- collection_type: open
+  name: HMRC VAT (Making Tax Digital) Liabilities Payments API
+  slug: open-hmrc-payments-api
+- collection_type: open
+  name: HMRC VAT (Making Tax Digital) Liabilities Returns API
+  slug: open-hmrc-returns-api
 - collection_type: open
   name: HMRC VAT (Making Tax Digital) API
   slug: open-hmrc-vat-mtd
@@ -223,7 +238,7 @@ plans:
 - name: Hmrc Plans Pricing
   plan_count: 2
   slug: hmrc-plans-pricing
-random_paper: 66
+random_paper: 128
 rate_limits:
 - limit_count: 3
   name: Hmrc Rate Limits
@@ -268,7 +283,7 @@ score:
     regime_id: government
     score: 68.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/screenshots/hmrc-2026-06-20T182805.png
 security:

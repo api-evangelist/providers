@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -108,7 +108,74 @@ apis:
 - description: The Transfers v2 API from Cashfree Payments — 2 operation(s) for transfers v2.
   name: Cashfree Payments Transfers v2 API
   slug: cashfree-transfers-v2-api
-artifact_total: 40
+artifact_total: 62
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize API
+  slug: open-cashfree-authorize-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Beneficiary v2 API
+  slug: open-cashfree-beneficiary-v2-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize CreateCashgram API
+  slug: open-cashfree-createcashgram-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Deactivate Static KYC Link API
+  slug: open-cashfree-deactivate-static-kyc-link-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize DeactivateCashgram API
+  slug: open-cashfree-deactivatecashgram-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Disputes API
+  slug: open-cashfree-disputes-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Easy-Split API
+  slug: open-cashfree-easy-split-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Eligibility API
+  slug: open-cashfree-eligibility-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Generate KYC Link API
+  slug: open-cashfree-generate-kyc-link-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Generate Static KYC Link API
+  slug: open-cashfree-generate-static-kyc-link-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Get KYC Link Status API
+  slug: open-cashfree-get-kyc-link-status-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize GetCashgramStatus API
+  slug: open-cashfree-getcashgramstatus-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Name Match API
+  slug: open-cashfree-name-match-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Orders API
+  slug: open-cashfree-orders-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Payment Links API
+  slug: open-cashfree-payment-links-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Payments API
+  slug: open-cashfree-payments-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Refunds API
+  slug: open-cashfree-refunds-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Settlement Reconciliation API
+  slug: open-cashfree-settlement-reconciliation-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Settlements API
+  slug: open-cashfree-settlements-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Simulation API
+  slug: open-cashfree-simulation-api
+- collection_type: open
+  name: Cashfree Payment Gateway APIs Authorize Transfers v2 API
+  slug: open-cashfree-transfers-v2-api
 common:
 - group: agent
   title: ''
@@ -258,7 +325,7 @@ plans:
 - name: Cashfree Plans Pricing
   plan_count: 3
   slug: cashfree-plans-pricing
-random_paper: 113
+random_paper: 88
 rate_limits:
 - limit_count: 0
   name: Cashfree Rate Limits
@@ -298,7 +365,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/screenshots/cashfree-2026-06-20T174035.png
 security:

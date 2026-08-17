@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -71,8 +72,45 @@ apis:
 - description: The Tracks API from Agile CRM — 2 operation(s) for tracks.
   name: Agile CRM Tracks API
   slug: agile-crm-tracks-api
-artifact_total: 15
+artifact_total: 30
+asyncapis:
+- description: ''
+  name: Agile Crm Webhooks
+  slug: agile-crm-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agile CRM REST Campaigns API
+  slug: open-agile-crm-campaigns-api
+- collection_type: open
+  name: Agile CRM REST Campaigns Companies API
+  slug: open-agile-crm-companies-api
+- collection_type: open
+  name: Agile CRM REST Campaigns Contacts API
+  slug: open-agile-crm-contacts-api
+- collection_type: open
+  name: Agile CRM REST Campaigns Deals API
+  slug: open-agile-crm-deals-api
+- collection_type: open
+  name: Agile CRM REST Campaigns Documents API
+  slug: open-agile-crm-documents-api
+- collection_type: open
+  name: Agile CRM REST Campaigns Events API
+  slug: open-agile-crm-events-api
+- collection_type: open
+  name: Agile CRM REST Campaigns HelpDesk API
+  slug: open-agile-crm-helpdesk-api
+- collection_type: open
+  name: Agile CRM REST Campaigns Notes API
+  slug: open-agile-crm-notes-api
+- collection_type: open
+  name: Agile CRM REST Campaigns Tasks API
+  slug: open-agile-crm-tasks-api
+- collection_type: open
+  name: Agile CRM REST Campaigns Tracks API
+  slug: open-agile-crm-tracks-api
 - collection_type: open
   name: Agile CRM REST API
   slug: open-agile-crm
@@ -113,30 +151,137 @@ common:
   title: ''
   type: Blog
   url: https://www.agilecrm.com/blog/feed/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/agile-crm-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/agile-crm-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/agile-crm-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/agile-crm-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/agile-crm-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/agile-crm-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/agile-crm-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/agile-crm-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/agile-crm-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/agile-crm-webhooks.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/agile-crm-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/agile-crm-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/agile-crm-rate-limits.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.agilecrm.com/api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://github.com/agilecrm/rest-api/blob/master/README.md
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/agilecrm
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.agilecrm.com/setup-guides
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.agilecrm.com/support
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.agilecrm.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.agilecrm.com/privacy-policy
+- group: start
+  title: ''
+  type: Login
+  url: https://www.agilecrm.com/login
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.agilecrm.com/partners
 created: '2026-05-11'
 description: Agile CRM is an all-in-one customer relationship management platform aimed at small and mid-sized businesses, unifying contact management, sales pipeline tracking, marketing automation, helpdesk ticketing, and telephony in a single application. The platform offers visual workflow builders, email campaigns, landing pages, and web-to-lead forms with built-in reporting. The Agile CRM REST API exposes contacts, deals, campaigns, tasks, and tickets using HTTP Basic authentication with an email and API key.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agile-crm.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: agile-crm-mcp.yml
+  slug: agile-crm-mcpyml
+modified: '2026-08-13'
 name: Agile CRM
 nav: Providers
 network: true
 overview: 'Agile CRM publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Companies API, Contacts API, and 7 more. Tagged areas include CRM, Sales Automation, Marketing Automation, Helpdesk, and Small Business.
 
 
-  Agile CRM''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 41
+  The Agile CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Agile CRM''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, API reference, getting-started guide, and 25 more developer resources.'
+plans:
+- name: Agile Crm Plans Pricing
+  plan_count: 4
+  slug: agile-crm-plans-pricing
+random_paper: 136
+rate_limits:
+- limit_count: 0
+  name: Agile Crm Rate Limits
+  slug: agile-crm-rate-limits
 score:
-  band: thin
-  composite: 29.5
-  delta: 0.0
+  band: strong
+  composite: 58.5
+  delta: 29.0
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 52.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 76.3
+    contract_quality: 64.2
+    developer_ergonomics: 73.9
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 13.2
   previous_composite: 29.5
   provenance:
     agentic_access: derived
@@ -146,8 +291,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/screenshots/agile-crm-2026-06-20T170154.png
 security:
 - kind: authentication

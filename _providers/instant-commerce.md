@@ -1,35 +1,41 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
-  source: []
-  trial: false
-  try_now: false
+  source:
+  - plans
+  - authentication
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: Hosted, remote Model Context Protocol server that lets external AI clients — Claude Desktop, Cursor and other MCP clients — work with an Instant project. Documented tools list, create, edit, publish a
+  name: Instant MCP Server
+  slug: instant-mcp-server
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -115,42 +121,110 @@ common:
   title: ''
   type: DomainSecurity
   url: security/instant-commerce-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.instantcommerce.io/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.instant.so/en/articles/16068139-the-getting-started-checklist
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/instant-commerce-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/instant-commerce-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/instant-commerce-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/instant-commerce-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/instant-commerce-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/instant-commerce-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/instant-commerce-rate-limits.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/instant-commerce-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/instant-commerce-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/instant-commerce-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/instant-commerce-data-model.yml
 created: '2026-07-17'
-description: 'Instant Commerce (product: Instant, instant.so) is an Amsterdam- and Miami-based AI-native eCommerce software company that builds an AI-powered, no-code page builder for Shopify. Merchants describe what they want and Instant''s AI agents generate complete store pages — landing pages, homepages, product and collection pages, popups and cart drawers — including layouts, copy and AI-generated imagery, plus Figma-to-Shopify conversion, A/B testing and conversion-rate optimization. The platform serves roughly 25,000 brands, ships an official developer SDK for building custom React blocks, and exposes a hosted Model Context Protocol (MCP) server so Claude and other AI tools can build pages directly. The company has raised about $10M and is backed by HV Capital. Added to the API Evangelist network as a portfolio-company lead and enriched from public sources.'
+description: 'Instant Commerce (product: Instant, instant.so) is an Amsterdam- and Miami-based AI-native eCommerce software company that builds an AI-powered, no-code page builder for Shopify. Merchants describe what they want and Instant''s AI agents generate complete store pages — landing pages, homepages, product and collection pages, popups and cart drawers — including layouts, copy and AI-generated imagery, plus Figma-to-Shopify conversion, A/B testing and conversion-rate optimization. The platform serves roughly 25,000 brands. Instant''s agent surface is a hosted, remote Model Context Protocol (MCP) server at api.instant.so/mcp, shipped 2026-06-02 and labelled beta, which lets Claude Desktop, Cursor and other MCP clients list, create, edit, publish and unpublish landing pages and drive the AI page-builder agent using a project-scoped bearer access token issued in the dashboard. There is no OpenAPI, no public REST reference and no OAuth; an earlier generation of developer tooling —
+  the @instantcommerce/sdk React block SDK, the @instantcommerce/cli and the developer docs at docs.instantcommerce.io — is still published but has had no release since 2023. The company has raised about $10M and is backed by HV Capital. Added to the API Evangelist network as a portfolio-company lead and enriched from public sources.'
 image: https://instantcommerce.io/og-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: Instant MCP server
-  slug: instant-mcp-server
-modified: '2026-07-19'
+  name: instant-commerce-mcp.yml
+  slug: instant-commerce-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
+modified: '2026-08-13'
 name: Instant Commerce
 nav: Providers
 network: true
-overview: 'Instant Commerce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Ecommerce, Shopify, and No Code.
+overview: 'Instant Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Ecommerce, Shopify, and No Code.
 
 
-  Instant Commerce''s developer surface includes documentation, pricing, signup flow, engineering blog, support, changelog, and 15 more developer resources.'
-random_paper: 97
+  Instant Commerce''s developer surface includes documentation, pricing, signup flow, engineering blog, support, changelog, getting-started guide, and 27 more developer resources.'
+plans:
+- name: Instant Commerce Plans Pricing
+  plan_count: 5
+  slug: instant-commerce-plans-pricing
+random_paper: 18
+rate_limits:
+- limit_count: 0
+  name: Instant Commerce Rate Limits
+  slug: instant-commerce-rate-limits
 score:
-  band: thin
-  composite: 29.1
-  delta: 0.0
+  band: developing
+  composite: 45.7
+  delta: 16.6
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 39.1
-    discoverability: 68.5
-    governance: 0.0
+    developer_ergonomics: 73.9
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 42.1
   previous_composite: 29.1
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/screenshots/instant-commerce-2026-07-25T222609.png
 security:
+- kind: authentication
+  name: Instant Commerce Authentication
+  slug: instant-commerce-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Instant Commerce Domain Security
   slug: instant-commerce-domain-security
@@ -167,5 +241,7 @@ tags:
 - AI Agents
 - Conversion Rate Optimization
 - Developer Tools
+- MCP
+- Agent Native
 website: https://instant.so/
 ---

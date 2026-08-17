@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Logical surface for Podia products - online courses, digital downloads, coaching, and webinars. Podia does not expose a public REST API for products; enrollment can only be automated through the Zapie
@@ -43,7 +43,7 @@ apis:
 - description: Logical surface for Podia sales and orders. No public REST API or webhook is available to receive order data. Zapier surfaces a "New Sale" trigger that fires when someone purchases a free or paid cour
   name: Podia Sales API
   slug: podia-sales-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -65,38 +65,131 @@ common:
   title: ''
   type: Plans
   url: plans/podia-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/podia-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/podia-llms.txt
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/podia-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/podia-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://podia.statuspage.io
+- group: design
+  title: ''
+  type: Components
+  url: components/podia-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/podia-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/podia-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.podia.com/dpa
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.podia.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.podia.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.podia.com/articles
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/podia
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.podia.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.podia.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.podia.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.podia.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.podia.com/privacy
+coverage:
+  checked: '2026-08-13'
+  detail: 'Podia''s own help center article "Does Podia have a public API or webhooks?" answers itself in one line - "Podia does not offer a public API or webhooks" - and every contract probe agreed: api.podia.com resolves but serves an HTML 404 at /openapi.json, /swagger.json, /api-docs and /graphql, and developers.podia.com, developer.podia.com and docs.podia.com do not exist.'
+  evidence:
+  - status: 200
+    url: https://help.podia.com/en/articles/11371075-does-podia-have-a-public-api-or-webhooks.md
+  - status: 404
+    url: https://api.podia.com/openapi.json
+  - status: 404
+    url: https://developers.podia.com/
+  - status: 404
+    url: https://www.podia.com/.well-known/agent-card.json
+  - status: 200
+    url: https://help.podia.com/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-07-05'
-description: Podia is an all-in-one creator platform for selling online courses, digital downloads, coaching, webinars, and memberships, with a website builder, blog, communities, and built-in email marketing. As of this review, Podia does NOT offer a public or partner developer API and does not expose webhooks. The company's own help center states plainly that "Podia does not offer a public API or webhooks," and directs builders to Zapier as the only supported integration path. The logical resources below (products, customers/audience, community, and sales) are therefore documented as endpointsModeled - they reflect the objects and events Podia surfaces through its Zapier app, not a first-party REST API. There is no published base URL, authentication scheme, or OpenAPI description to catalog.
+description: 'Podia is an all-in-one creator platform for selling online courses, digital downloads, coaching, webinars, and memberships, with a website builder, blog, communities, and built-in email marketing. As of this review, Podia does NOT offer a public or partner developer API and does not expose webhooks. The company''s own help center states plainly that "Podia does not offer a public API or webhooks," and directs builders to Zapier as the only supported integration path. The logical resources below (products, customers/audience, community, and sales) are therefore documented as endpointsModeled - they reflect the objects and events Podia surfaces through its Zapier app, not a first-party REST API. There is no published base URL, authentication scheme, or OpenAPI description to catalog. What Podia does publish, and what this profile captures, is a real client-side surface: an Advanced JavaScript tracking API exposing Podia.Customer and Podia.Conversion objects plus three DOM CustomEvents
+  on every storefront page, an embeddable email-capture form that POSTs to a per-creator subscriptions endpoint, and a 509-link llms.txt at help.podia.com that renders every help article as markdown. Podia also runs a public Atlassian status page and a Beamer changelog, and allows GPTBot, ClaudeBot and PerplexityBot in robots.txt - the missing agent surface here is a missing API product, not an anti-AI posture.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/podia.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-08-13'
 name: Podia
 nav: Providers
 network: true
 overview: 'Podia publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Creator Economy, Online Courses, Digital Products, Memberships, and Email Marketing.
 
 
-  Podia''s developer surface includes documentation and 4 more developer resources.'
+  Podia''s developer surface includes documentation, changelog, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
 plans:
 - name: Podia Plans Pricing
   plan_count: 3
   slug: podia-plans-pricing
-random_paper: 45
+random_paper: 78
+rate_limits:
+- limit_count: 0
+  name: Podia Rate Limits
+  slug: podia-rate-limits
 score:
-  band: emerging
-  composite: 14.5
-  delta: 0.0
+  band: thin
+  composite: 33.4
+  delta: 18.9
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 72.2
+    governance: 12.5
+    operational_transparency: 36.8
   previous_composite: 14.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Podia Domain Security
@@ -111,5 +204,9 @@ tags:
 - Email Marketing
 - No Public API
 - Zapier Only
+- Creator Platform
+- Communities
+- Website Builder
+- Client-Side JavaScript
 website: https://www.podia.com
 ---

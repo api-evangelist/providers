@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -40,7 +40,14 @@ apis:
 - description: Operations for requesting, describing, and managing SSL/TLS certificates
   name: Amazon Certificate Manager Certificates API
   slug: amazon-certificate-manager-certificates-api
-artifact_total: 36
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Certificate Manager Certificates API
+  slug: open-amazon-certificate-manager-certificates-api
 common:
 - group: agent
   title: ''
@@ -254,7 +261,7 @@ overview: 'Amazon Certificate Manager publishes 1 API on the [APIs.io](https://a
 
 
   Amazon Certificate Manager''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 24 more developer resources.'
-random_paper: 102
+random_paper: 89
 rules:
 - name: Amazon Certificate Manager API Rules
   rule_count: 5
@@ -294,7 +301,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/screenshots/amazon-certificate-manager-2026-07-25T195941.png
 security:

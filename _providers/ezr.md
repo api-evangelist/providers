@@ -1,35 +1,48 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Sales-gated
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://open.ezrpro.com/#/apiFile/guide/00001
+  - https://www.ezrpro.com/contact
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 45.5
+  scored_at: '2026-08-17'
+api_count: 2
+apis:
+- description: The EZR 开放平台 integration surface — 236 documented interfaces across 11 business domains (base data, member master data, loyalty points, coupons, sales data, WeChat mall, external mall distribution, me
+  name: EZR Open Platform
+  slug: ezr-open-platform
+- description: 'The KOS (Key Opinion Sales) open platform — EZR''s separate integration surface for guide/associate-led social selling, documented in its own developer guide with its own hosts. It uses the same AppId '
+  name: EZR KOS Open Platform
+  slug: ezr-kos-open-platform
+artifact_total: 7
+asyncapis:
+- description: ''
+  name: Ezr Webhooks
+  slug: ezr-webhooks
 common:
 - group: company
   title: ''
@@ -38,7 +51,19 @@ common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://www.ezrpro.com/ecology/link
+  url: https://open.ezrpro.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://open.ezrpro.com/#/apiFile
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://open.ezrpro.com/#/apiFile
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://open.ezrpro.com/#/apiFile/guide/00001
 - group: company
   title: ''
   type: Blog
@@ -53,42 +78,114 @@ common:
   url: http://www.ezrpro.com/privacy.html
 - group: auth
   title: ''
+  type: Authentication
+  url: authentication/ezr-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ezr-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ezr-status-codes.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/ezr-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ezr-data-model.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ezr-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ezr-plans-pricing.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ezr-sandbox.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ezr-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ezr-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ezr-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ezr-conformance.yml
+- group: auth
+  title: ''
   type: DomainSecurity
   url: security/ezr-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ezr-llms.txt
 created: '2026-07-17'
-description: EZR (上海驿氪 / Shanghai Yike Information Technology) is a Shanghai-based retail marketing technology company founded in 2015 that builds SCRM and new-retail CRM software for multi-store and chain brands. Its platform combines a Marketing Cloud and in-store CRM to deliver omnichannel member management, WeChat mini-program malls, guide (导购) distribution and full-staff sales tools, live-streaming commerce, points malls, and campaign automation. EZR serves 800+ brands across fashion, beauty, home goods, food, and pharmacy, and is backed by Tencent, JD.com, DCM, and Lenovo Star. The company advertises an open platform of 100+ APIs covering products, users, transactions, and marketing, though it publishes no public developer portal, OpenAPI, or API reference.
+description: EZR (上海驿氪 / Shanghai EasyRetailPro) is a Shanghai-based retail marketing technology company founded in 2015 that builds SCRM and new-retail CRM software for multi-store and chain brands. Its platform combines a Marketing Cloud and in-store CRM to deliver omnichannel member management, WeChat mini-program malls, guide (导购) distribution and full-staff sales tools, live-streaming commerce, points malls, and campaign automation. EZR serves 800+ brands across fashion, beauty, home goods, food, and pharmacy, and is backed by Tencent, JD.com, DCM, and Lenovo Star. The EZR Open Platform (开放平台) at open.ezrpro.com publishes a reference for 236 interfaces across 11 business domains — stores and staff, member master data, loyalty points, coupons, sales receipts, WeChat mall, gift cards, messaging and third-party platform binding — of which 31 are EZR-to-integrator push callbacks. Every interface is an HTTP POST with a form-encoded, SHA1/MD5-signed envelope carrying the business payload
+  as a JSON string; there is no OpenAPI, no OAuth, no versioning scheme and no self-service onboarding. EZR does publish a packaged Agent Skill for generating integration code.
 image: https://www.ezrpro.com/public/icon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: EZR
 nav: Providers
 network: true
-overview: 'EZR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, SCRM, CRM, and Retail.
+overview: 'EZR publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, SCRM, CRM, and Retail.
 
 
-  EZR''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 97
+  The EZR catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  EZR''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
+plans:
+- name: Ezr Plans Pricing
+  plan_count: 0
+  slug: ezr-plans-pricing
+random_paper: 39
+rate_limits:
+- limit_count: 1
+  name: Ezr Rate Limits
+  slug: ezr-rate-limits
 score:
-  band: minimal
-  composite: 10.1
-  delta: 0.0
+  band: developing
+  composite: 44.1
+  delta: 34.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 65.2
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 44.7
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/screenshots/ezr-2026-07-25T214058.png
 security:
+- kind: authentication
+  name: Ezr Authentication
+  slug: ezr-authentication
+  summary_line: signedRequest · 1 scheme
 - kind: domain-security
   name: Ezr Domain Security
   slug: ezr-domain-security
-  summary_line: TLSv1.3
+  summary_line: TLSv1.3 · HSTS
 slug: ezr
 tags:
 - Company
@@ -100,6 +197,10 @@ tags:
 - WeChat
 - E-Commerce
 - Loyalty
+- Membership
+- Coupons
+- Point of Sale
+- Webhooks
 - China
 website: https://www.ezrpro.com/
 ---

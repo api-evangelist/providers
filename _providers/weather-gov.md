@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,11 +78,53 @@ apis:
 - description: The Zones API from Weather.gov — 6 operation(s) for zones.
   name: Weather.gov Zones API
   slug: weather-gov-zones-api
-artifact_total: 357
+artifact_total: 371
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: weather.gov API
   slug: open-openapi
+- collection_type: open
+  name: weather.gov Alerts API
+  slug: open-weather-gov-alerts-api
+- collection_type: open
+  name: weather.gov Alerts Aviation API
+  slug: open-weather-gov-aviation-api
+- collection_type: open
+  name: weather.gov Alerts Glossary API
+  slug: open-weather-gov-glossary-api
+- collection_type: open
+  name: weather.gov Alerts Gridpoints API
+  slug: open-weather-gov-gridpoints-api
+- collection_type: open
+  name: weather.gov Alerts Icons API
+  slug: open-weather-gov-icons-api
+- collection_type: open
+  name: weather.gov Alerts Offices API
+  slug: open-weather-gov-offices-api
+- collection_type: open
+  name: weather.gov Alerts Points API
+  slug: open-weather-gov-points-api
+- collection_type: open
+  name: weather.gov Alerts Products API
+  slug: open-weather-gov-products-api
+- collection_type: open
+  name: weather.gov Alerts Radar API
+  slug: open-weather-gov-radar-api
+- collection_type: open
+  name: weather.gov Alerts Radio API
+  slug: open-weather-gov-radio-api
+- collection_type: open
+  name: weather.gov Alerts Stations API
+  slug: open-weather-gov-stations-api
+- collection_type: open
+  name: weather.gov Alerts Thumbnails API
+  slug: open-weather-gov-thumbnails-api
+- collection_type: open
+  name: weather.gov Alerts Zones API
+  slug: open-weather-gov-zones-api
 common:
 - group: agent
   title: ''
@@ -1143,7 +1185,7 @@ plans:
 - name: Weather Gov Plans Pricing
   plan_count: 3
   slug: weather-gov-plans-pricing
-random_paper: 49
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Weather Gov Rate Limits
@@ -1191,7 +1233,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/screenshots/weather-gov-2026-06-20T201308.png
 security:

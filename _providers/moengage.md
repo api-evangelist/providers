@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: documented
     mcp_server: true
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-12'
+  score: 66.4
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: 'Create and update user profiles, track events, manage devices, merge and delete users, run bulk imports and file imports, and submit GDPR/CCPA data subject requests. The primary ingestion surface for '
@@ -54,7 +54,99 @@ apis:
 - description: Hosted, OAuth-secured Model Context Protocol server that lets AI assistants build campaign drafts, author content, create and count segments, read and analyze flows, browse dashboards, search campaign
   name: MoEngage MCP Server
   slug: moengage-mcp-server
-artifact_total: 18
+artifact_total: 49
+asyncapis:
+- description: ''
+  name: Moengage Webhooks
+  slug: moengage-webhooks
+collections:
+- collection_type: open
+  name: MoEngage Analytics Dashboard and Chart API
+  slug: open-moengage-analytics
+- collection_type: open
+  name: MoEngage Business Events API
+  slug: open-moengage-business-events
+- collection_type: open
+  name: MoEngage Campaigns API
+  slug: open-moengage-campaign-draft
+- collection_type: open
+  name: MoEngage Campaigns API
+  slug: open-moengage-campaigns
+- collection_type: open
+  name: MoEngage Cards API
+  slug: open-moengage-cards
+- collection_type: open
+  name: MoEngage Catalog API
+  slug: open-moengage-catalog
+- collection_type: open
+  name: Cohort Sync API
+  slug: open-moengage-cohort-audience
+- collection_type: open
+  name: MoEngage Content Block API
+  slug: open-moengage-content-blocks
+- collection_type: open
+  name: Coupon List API 🏷️
+  slug: open-moengage-coupons
+- collection_type: open
+  name: MoEngage Segments API
+  slug: open-moengage-custom-segments
+- collection_type: open
+  name: MoEngage Email Subscription Management APIs
+  slug: open-moengage-email-subscription
+- collection_type: open
+  name: Email Templates API V1
+  slug: open-moengage-email-templates-1
+- collection_type: open
+  name: Email Templates API V2
+  slug: open-moengage-email-templates-2
+- collection_type: open
+  name: Flows
+  slug: open-moengage-flows
+- collection_type: open
+  name: MoEngage GDPR / CCPA API
+  slug: open-moengage-gdpr-ccpa
+- collection_type: open
+  name: MoEngage In-app Template API
+  slug: open-moengage-in-app-templates
+- collection_type: open
+  name: MoEngage Inform API
+  slug: open-moengage-inform
+- collection_type: open
+  name: MoEngage Broadcast Live Activities API
+  slug: open-moengage-live-activities
+- collection_type: open
+  name: MoEngage Message Archival API
+  slug: open-moengage-message-archival
+- collection_type: open
+  name: Offer Decisioning Public API - v5
+  slug: open-moengage-offerings
+- collection_type: open
+  name: MoEngage On-Site Messaging (OSM) Template API
+  slug: open-moengage-osm-templates
+- collection_type: open
+  name: Personalize APIs
+  slug: open-moengage-personalize-experience
+- collection_type: open
+  name: Push Templates API
+  slug: open-moengage-push-templates
+- collection_type: open
+  name: MoEngage Push API
+  slug: open-moengage-push-v2-1
+- collection_type: open
+  name: MoEngage Push API
+  slug: open-moengage-push
+- collection_type: open
+  name: MoEngage Recommendation API
+  slug: open-moengage-recommendations
+- collection_type: open
+  name: MoEngage SMS Template API
+  slug: open-moengage-sms-templates
+- collection_type: open
+  name: MoEngage Campaign Stats and Reports API
+  slug: open-moengage-stats-report
+- collection_type: open
+  name: MoEngage Subscription Categories API
+  slug: open-moengage-subscription-categories
 common:
 - group: auth
   title: ''
@@ -208,6 +300,14 @@ common:
   title: ''
   type: Sandbox
   url: sandbox/moengage-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/moengage-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/moengage-webhooks.yml
 created: '2026-08-01'
 description: MoEngage is an insights-led customer engagement and cross-channel marketing automation platform used by consumer brands to unify customer data, segment audiences, and orchestrate personalized messaging across push notifications, email, SMS, WhatsApp, in-app messages, on-site messaging, app inbox cards, and web push. The platform exposes a broad REST API surface across seven regional data centers (DC-01 through DC-06 and DC-101) covering user and event ingestion, bulk import, business events, GDPR/CCPA data requests, campaign creation and lifecycle management, file- and filter-based segments, cohort sync, content blocks and channel templates, product catalogs, recommendations, coupon lists, offer decisioning, subscription and opt-in preferences, transactional alerts (Inform), iOS Live Activities, personalization experiences, campaign statistics, message archival, and custom analytics dashboards. MoEngage also ships native mobile and web SDKs for Android, iOS, Web, React Native,
   Flutter, Unity, Cordova and Capacitor, and operates a hosted, OAuth-secured Model Context Protocol (MCP) server so AI assistants can draft campaigns, manage segments and flows, and analyze performance conversationally.
@@ -217,15 +317,22 @@ mcp_servers:
 - description: ''
   name: moengage-mcp.yml
   slug: moengage-mcpyml
-modified: '2026-08-01'
+modified: '2026-08-14'
 name: MoEngage
 nav: Providers
 network: true
 overview: 'MoEngage publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Data API, Campaigns API, Push API, and 7 more. Tagged areas include customer-engagement, marketing-automation, customer-data-platform, push-notifications, and email.
 
 
-  MoEngage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 115
+  The MoEngage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  MoEngage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+plans:
+- name: Moengage Plans Pricing
+  plan_count: 4
+  slug: moengage-plans-pricing
+random_paper: 90
 rate_limits:
 - limit_count: 0
   name: Moengage Rate Limits
@@ -236,16 +343,16 @@ scopes:
   slug: moengage-scopes
   summary_line: 5 scopes
 score:
-  band: strong
-  composite: 63.1
-  delta: 0.0
+  band: exemplar
+  composite: 71.2
+  delta: 8.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 60.9
+    commercial_clarity: 92.1
+    contract_quality: 69.8
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 47.4
+    operational_transparency: 55.3
   previous_composite: 63.1
   provenance:
     conformance: first-party
@@ -263,8 +370,8 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/screenshots/moengage-2026-08-07T184040.png
 security:
 - kind: authentication

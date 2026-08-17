@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -48,12 +48,24 @@ apis:
 - description: The Spend Limits API from Brex — 3 operation(s) for spend limits.
   name: Brex Spend Limits API
   slug: brex-spend-limits-api
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Brex Webhooks surface. Brex uses webhooks to deliver real-time notifications when events happen in the accounts that you manage. Subscribers register an HTTPS callback '
   name: Brex Webhooks API
   slug: brex-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brex Budgets Budget Programs API
+  slug: open-brex-budget-programs-api
+- collection_type: open
+  name: Brex Budget Programs Budgets API
+  slug: open-brex-budgets-api
+- collection_type: open
+  name: Brex Budgets Budget Programs Spend Limits API
+  slug: open-brex-spend-limits-api
 - collection_type: open
   name: Brex Budgets API
   slug: open-brex
@@ -109,7 +121,7 @@ plans:
 - name: Brex Plans Pricing
   plan_count: 3
   slug: brex-plans-pricing
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 5
   name: Brex Rate Limits
@@ -149,7 +161,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/screenshots/brex-2026-06-20T173653.png
 security:

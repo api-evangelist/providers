@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -69,11 +69,44 @@ apis:
 - description: User management and listing
   name: SuperTokens Users API
   slug: supertokens-users-api
-artifact_total: 64
+artifact_total: 75
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: SuperTokens Core Driver Interface
   slug: open-supertokens-core-driver-interface
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password API
+  slug: open-supertokens-email-password-api
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password Email Verification API
+  slug: open-supertokens-email-verification-api
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password Health API
+  slug: open-supertokens-health-api
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password Multi Tenancy API
+  slug: open-supertokens-multi-tenancy-api
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password Passwordless API
+  slug: open-supertokens-passwordless-api
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password Sessions API
+  slug: open-supertokens-sessions-api
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password Third Party API
+  slug: open-supertokens-third-party-api
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password User Metadata API
+  slug: open-supertokens-user-metadata-api
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password User Roles API
+  slug: open-supertokens-user-roles-api
+- collection_type: open
+  name: SuperTokens Core Driver Interface Email Password Users API
+  slug: open-supertokens-users-api
 common:
 - group: agent
   title: ''
@@ -253,7 +286,7 @@ plans:
 - name: Supertokens Plans Pricing
   plan_count: 3
   slug: supertokens-plans-pricing
-random_paper: 19
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Supertokens Rate Limits
@@ -295,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/screenshots/supertokens-2026-06-20T194732.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,11 +47,24 @@ apis:
 - description: Read device property (quota) values and send device function commands
   name: EcoFlow Quota API
   slug: ecoflow-quota-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: 'Real-time streaming and command channel for the EcoFlow IoT Open Platform. After obtaining a certificate from the HTTP `getMqttCertification` endpoint, a developer connects to the EcoFlow MQTT broker '
   name: EcoFlow IoT Open Platform MQTT API
   slug: ecoflow-mqtt-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EcoFlow IoT Open Platform Devices API
+  slug: open-ecoflow-devices-api
+- collection_type: open
+  name: EcoFlow IoT Open Platform Devices MQTT API
+  slug: open-ecoflow-mqtt-api
+- collection_type: open
+  name: EcoFlow IoT Open Platform Devices Quota API
+  slug: open-ecoflow-quota-api
 common:
 - group: other
   title: ''
@@ -148,7 +161,7 @@ overview: 'EcoFlow publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   EcoFlow''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, and 14 more developer resources.'
-random_paper: 31
+random_paper: 6
 score:
   band: thin
   composite: 35.4
@@ -178,7 +191,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/screenshots/ecoflow-2026-07-25T212755.png
 security:

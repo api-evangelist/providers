@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,32 @@ apis:
 - description: AI news stories curated and synthesized from monitored accounts.
   name: Aligned News Stories API
   slug: aligned-news-stories-api
-artifact_total: 52
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aligned News REST Bundles API
+  slug: open-aligned-news-bundles-api
+- collection_type: open
+  name: Aligned News REST Bundles News Feed API
+  slug: open-aligned-news-news-feed-api
+- collection_type: open
+  name: Aligned News REST Bundles Reports API
+  slug: open-aligned-news-reports-api
+- collection_type: open
+  name: Aligned News REST Bundles Search API
+  slug: open-aligned-news-search-api
+- collection_type: open
+  name: Aligned News REST Bundles Sections API
+  slug: open-aligned-news-sections-api
+- collection_type: open
+  name: Aligned News REST Bundles Signals API
+  slug: open-aligned-news-signals-api
+- collection_type: open
+  name: Aligned News REST Bundles Stories API
+  slug: open-aligned-news-stories-api
 - collection_type: open
   name: Aligned News REST API
   slug: open-aligned-news
@@ -254,7 +278,7 @@ plans:
 - name: Aligned News Plans Pricing
   plan_count: 3
   slug: aligned-news-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Aligned News Rate Limits
@@ -288,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/screenshots/aligned-news-2026-06-20T171522.png
 security:

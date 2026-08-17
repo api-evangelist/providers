@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: URL-based video transformation and transcoding operations.
   name: Cloudimage Video API
   slug: cloudimage-video-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudimage Filerobot DAM API
+  slug: open-cloudimage-filerobot-dam-api
+- collection_type: open
+  name: Cloudimage Filerobot DAM Image API
+  slug: open-cloudimage-image-api
+- collection_type: open
+  name: Cloudimage Filerobot DAM Video API
+  slug: open-cloudimage-video-api
 - collection_type: open
   name: Cloudimage API
   slug: open-cloudimage
@@ -114,7 +126,7 @@ plans:
 - name: Cloudimage Plans Pricing
   plan_count: 4
   slug: cloudimage-plans-pricing
-random_paper: 90
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Cloudimage Rate Limits
@@ -139,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudimage/refs/heads/main/screenshots/cloudimage-2026-06-20T174604.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Nominal Core REST API (Conjure-generated) for test data storage, ingest, streaming, compute, and asset/run/checklist management.
@@ -144,7 +144,7 @@ overview: 'Nominal publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Nominal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, authentication, and 16 more developer resources.'
-random_paper: 30
+random_paper: 5
 score:
   band: thin
   composite: 34.7
@@ -161,7 +161,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nominal/refs/heads/main/screenshots/nominal-2026-08-07T185449.png
 security:

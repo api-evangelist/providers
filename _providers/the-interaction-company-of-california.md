@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Send messages to Poke programmatically.
   name: The Interaction Company Of California Messaging API
   slug: the-interaction-company-of-california-messaging-api
-artifact_total: 3
+artifact_total: 5
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Poke Messaging API
+  slug: open-the-interaction-company-of-california-messaging-api
 common:
 - group: other
   title: ''
@@ -152,7 +159,7 @@ overview: 'The Interaction Company Of California publishes 1 API on the [APIs.io
 
 
   The Interaction Company Of California''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 19 more developer resources.'
-random_paper: 105
+random_paper: 129
 score:
   band: thin
   composite: 40.7
@@ -174,7 +181,7 @@ score:
       total: 1
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

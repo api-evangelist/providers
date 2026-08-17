@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -75,7 +75,7 @@ overview: 'Vennre is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vennre''s developer surface includes signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 54
+random_paper: 58
 score:
   band: emerging
   composite: 14.7
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: vennre
 tags:

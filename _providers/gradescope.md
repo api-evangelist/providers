@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Gradescope's primary supported integration surface. Implements the 1EdTech LTI 1.3 / LTI Advantage standard, including Names and Role Provisioning Services (NRPS) for roster sync, Assignment and Grade
@@ -46,8 +46,11 @@ apis:
 - description: Grade data and gradebook sync. Grades are pushed to an LMS gradebook through LTI 1.3 Assignment and Grade Services (AGS) rather than a first-party public REST API. Programmatic export/import of grades
   name: Gradescope Grades API
   slug: gradescope-grades-api
-artifact_total: 10
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Gradescope API
   slug: open-gradescope
@@ -104,7 +107,7 @@ plans:
 - name: Gradescope Plans Pricing
   plan_count: 2
   slug: gradescope-plans-pricing
-random_paper: 93
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Gradescope Rate Limits
@@ -122,7 +125,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 27.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/screenshots/gradescope-2026-07-25T220156.png
 security:

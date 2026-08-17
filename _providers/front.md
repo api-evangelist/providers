@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -156,14 +156,125 @@ apis:
 - description: The Views API from Front — 4 operation(s) for views.
   name: Front Views API
   slug: front-views-api
-artifact_total: 60
+artifact_total: 97
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Channel Accounts API
+  slug: open-front-accounts-api
+- collection_type: open
+  name: Channel Accounts Analytics API
+  slug: open-front-analytics-api
+- collection_type: open
+  name: Channel Accounts Application Message Templates API
+  slug: open-front-application-message-templates-api
+- collection_type: open
+  name: Channel Accounts Applications API
+  slug: open-front-applications-api
+- collection_type: open
+  name: Channel Accounts Attachments API
+  slug: open-front-attachments-api
+- collection_type: open
+  name: Channel Accounts Calls API
+  slug: open-front-calls-api
 - collection_type: open
   name: Channel API
   slug: open-front-channel-api
 - collection_type: open
+  name: Channel Accounts Channels API
+  slug: open-front-channels-api
+- collection_type: open
+  name: Channel Accounts Comments API
+  slug: open-front-comments-api
+- collection_type: open
+  name: Channel Accounts Contact Groups API
+  slug: open-front-contact-groups-api
+- collection_type: open
+  name: Channel Accounts Contact Handles API
+  slug: open-front-contact-handles-api
+- collection_type: open
+  name: Channel Accounts Contact Lists API
+  slug: open-front-contact-lists-api
+- collection_type: open
+  name: Channel Accounts Contact Notes API
+  slug: open-front-contact-notes-api
+- collection_type: open
+  name: Channel Accounts Contacts API
+  slug: open-front-contacts-api
+- collection_type: open
+  name: Channel Accounts Conversations API
+  slug: open-front-conversations-api
+- collection_type: open
   name: Core API
   slug: open-front-core-api
+- collection_type: open
+  name: Channel Accounts Custom Fields API
+  slug: open-front-custom-fields-api
+- collection_type: open
+  name: Channel Accounts Drafts API
+  slug: open-front-drafts-api
+- collection_type: open
+  name: Channel Accounts Events API
+  slug: open-front-events-api
+- collection_type: open
+  name: Channel Accounts Inboxes API
+  slug: open-front-inboxes-api
+- collection_type: open
+  name: Channel Accounts Knowledge Base Articles API
+  slug: open-front-knowledge-base-articles-api
+- collection_type: open
+  name: Channel Accounts Knowledge Base Categories API
+  slug: open-front-knowledge-base-categories-api
+- collection_type: open
+  name: Channel Accounts Knowledge Bases API
+  slug: open-front-knowledge-bases-api
+- collection_type: open
+  name: Channel Accounts Links API
+  slug: open-front-links-api
+- collection_type: open
+  name: Channel Accounts Message Template Folders API
+  slug: open-front-message-template-folders-api
+- collection_type: open
+  name: Channel Accounts Message Templates API
+  slug: open-front-message-templates-api
+- collection_type: open
+  name: Channel Accounts Messages API
+  slug: open-front-messages-api
+- collection_type: open
+  name: Channel Accounts Rules API
+  slug: open-front-rules-api
+- collection_type: open
+  name: Channel Accounts Shifts API
+  slug: open-front-shifts-api
+- collection_type: open
+  name: Channel Accounts Signatures API
+  slug: open-front-signatures-api
+- collection_type: open
+  name: Channel Accounts Statuses API
+  slug: open-front-statuses-api
+- collection_type: open
+  name: Channel Accounts Tags API
+  slug: open-front-tags-api
+- collection_type: open
+  name: Channel Accounts Teammate groups API
+  slug: open-front-teammate-groups-api
+- collection_type: open
+  name: Channel Accounts Teammates API
+  slug: open-front-teammates-api
+- collection_type: open
+  name: Channel Accounts Teams API
+  slug: open-front-teams-api
+- collection_type: open
+  name: Channel Accounts Time Off API
+  slug: open-front-time-off-api
+- collection_type: open
+  name: Channel Accounts Token Identity API
+  slug: open-front-token-identity-api
+- collection_type: open
+  name: Channel Accounts Views API
+  slug: open-front-views-api
 common:
 - group: agent
   title: ''
@@ -293,7 +404,7 @@ plans:
 - name: Front Plans Pricing
   plan_count: 10
   slug: front-plans-pricing
-random_paper: 73
+random_paper: 106
 rate_limits:
 - limit_count: 7
   name: Front Rate Limits
@@ -318,7 +429,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/screenshots/front-2026-06-20T181553.png
 security:

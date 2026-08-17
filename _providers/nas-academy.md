@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,17 @@ apis:
 - description: Public developer and integration guidance without private API contracts.
   name: Nas Academy Developer discovery API
   slug: nas-academy-developer-discovery-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nas.com Public Discovery AI discovery API
+  slug: open-nas-academy-ai-discovery-api
+- collection_type: open
+  name: Nas.com Public Discovery AI discovery Developer discovery API
+  slug: open-nas-academy-developer-discovery-api
 common:
 - group: agent
   title: ''
@@ -64,7 +74,7 @@ name: Nas Academy
 nav: Providers
 network: true
 overview: 'Nas Academy publishes 2 APIs on the [APIs.io](https://apis.io/) network: AI discovery API and Developer discovery API. Tagged areas include Company.'
-random_paper: 11
+random_paper: 48
 scopes:
 - name: Nas Academy Scopes
   scope_count: 6
@@ -93,7 +103,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/screenshots/nas-academy-2026-08-07T184637.png
 security:

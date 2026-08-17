@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -81,12 +81,51 @@ apis:
 - description: Upsert, query, update, deactivate, and reactivate users.
   name: Stream Users API
   slug: getstream-users-api
-artifact_total: 25
+artifact_total: 38
 asyncapis:
 - description: AsyncAPI 2.6 description of Stream (GetStream.io) Chat's **real-time WebSocket** surface. Unlike the request/response server-side REST API (`https://chat.stream-io-api.com`, modeled in `openapi/getstr
   name: Stream Chat Realtime WebSocket API
   slug: getstream-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application API
+  slug: open-getstream-application-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Campaigns API
+  slug: open-getstream-campaigns-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Channels API
+  slug: open-getstream-channels-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Devices API
+  slug: open-getstream-devices-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Members API
+  slug: open-getstream-members-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Messages API
+  slug: open-getstream-messages-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Moderation API
+  slug: open-getstream-moderation-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Permissions API
+  slug: open-getstream-permissions-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Reactions API
+  slug: open-getstream-reactions-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Roles API
+  slug: open-getstream-roles-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Threads API
+  slug: open-getstream-threads-api
+- collection_type: open
+  name: Stream Chat API (Server-side REST) Application Users API
+  slug: open-getstream-users-api
 - collection_type: open
   name: Stream Chat API (Server-side REST)
   slug: open-getstream
@@ -166,7 +205,7 @@ plans:
 - name: Getstream Plans Pricing
   plan_count: 4
   slug: getstream-plans-pricing
-random_paper: 12
+random_paper: 78
 rate_limits:
 - limit_count: 4
   name: Getstream Rate Limits
@@ -200,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/screenshots/getstream-2026-07-25T215745.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,12 +57,18 @@ apis:
 - description: The Infura (MetaMask Developer) JSON RPC API API from Infura — 1 operation(s) for infura (metamask developer) json rpc api.
   name: Infura Infura (MetaMask Developer) JSON RPC API API
   slug: infura-infura-metamask-developer-json-rpc-api-api
-artifact_total: 15
+artifact_total: 17
 asyncapis:
 - description: AsyncAPI specification for Infura's (now MetaMask Developer Services) Ethereum-compatible WebSocket JSON-RPC subscription interface. Infura now defers its Ethereum reference documentation to the MetaM
   name: Infura (MetaMask Developer) WebSocket Subscription API
   slug: infura-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Infura (MetaMask Developer) JSON-RPC Infura (MetaMask Developer) JSON RPC API API
+  slug: open-infura-infura-metamask-developer-json-rpc-api-api
 - collection_type: open
   name: Infura (MetaMask Developer) JSON-RPC API
   slug: open-infura
@@ -126,7 +132,7 @@ plans:
 - name: Infura Plans Pricing
   plan_count: 4
   slug: infura-plans-pricing
-random_paper: 45
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Infura Rate Limits
@@ -160,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infura/refs/heads/main/screenshots/infura-2026-06-20T183349.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: RESTful API that returns neutralized container and shipment milestones across Maersk's ocean network, enabling supply-chain visibility for shippers, BCOs, and downstream visibility platforms.
@@ -124,7 +124,7 @@ plans:
 - name: Maersk Plans Pricing
   plan_count: 1
   slug: maersk-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Maersk Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maersk/refs/heads/main/screenshots/maersk-2026-06-20T184831.png
 security:

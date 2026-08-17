@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -86,8 +86,59 @@ apis:
 - description: The Utilities API from National Archives and Records Administration — 1 operation(s) for utilities.
   name: National Archives and Records Administration Utilities API
   slug: national-archives-and-records-administration-utilities-api
-artifact_total: 22
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NextGen Catalog Accounts API
+  slug: open-national-archives-and-records-administration-accounts-api
+- collection_type: open
+  name: NextGen Catalog Accounts Announcements API
+  slug: open-national-archives-and-records-administration-announcements-api
+- collection_type: open
+  name: NextGen Catalog Accounts Comments API
+  slug: open-national-archives-and-records-administration-comments-api
+- collection_type: open
+  name: NextGen Catalog Accounts Contributions API
+  slug: open-national-archives-and-records-administration-contributions-api
+- collection_type: open
+  name: NextGen Catalog Accounts Extracted Text API
+  slug: open-national-archives-and-records-administration-extracted-text-api
+- collection_type: open
+  name: NextGen Catalog Accounts Justifications API
+  slug: open-national-archives-and-records-administration-justifications-api
+- collection_type: open
+  name: NextGen Catalog Accounts Metadata API
+  slug: open-national-archives-and-records-administration-metadata-api
+- collection_type: open
+  name: NextGen Catalog Accounts Online Availability API
+  slug: open-national-archives-and-records-administration-online-availability-api
+- collection_type: open
+  name: NextGen Catalog Accounts Other Extracted Text API
+  slug: open-national-archives-and-records-administration-other-extracted-text-api
+- collection_type: open
+  name: NextGen Catalog Accounts Partner API
+  slug: open-national-archives-and-records-administration-partner-api
+- collection_type: open
+  name: NextGen Catalog Accounts Records API
+  slug: open-national-archives-and-records-administration-records-api
+- collection_type: open
+  name: NextGen Catalog Accounts Statistics API
+  slug: open-national-archives-and-records-administration-statistics-api
+- collection_type: open
+  name: NextGen Catalog Accounts Tags API
+  slug: open-national-archives-and-records-administration-tags-api
+- collection_type: open
+  name: NextGen Catalog Accounts Transcriptions API
+  slug: open-national-archives-and-records-administration-transcriptions-api
+- collection_type: open
+  name: NextGen Catalog Accounts Users API
+  slug: open-national-archives-and-records-administration-users-api
+- collection_type: open
+  name: NextGen Catalog Accounts Utilities API
+  slug: open-national-archives-and-records-administration-utilities-api
 - collection_type: open
   name: NextGen Catalog API
   slug: open-national-archives-and-records-administration
@@ -136,7 +187,7 @@ plans:
 - name: National Archives And Records Administration Plans Pricing
   plan_count: 3
   slug: national-archives-and-records-administration-plans-pricing
-random_paper: 18
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: National Archives And Records Administration Rate Limits
@@ -167,7 +218,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/screenshots/national-archives-and-records-administration-2026-06-20T185959.png
 security:

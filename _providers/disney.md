@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,8 +46,17 @@ apis:
 - description: Service discovery endpoint that enumerates available REST routes.
   name: Disney API Index API
   slug: disney-index-api
-artifact_total: 22
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Disney Characters API
+  slug: open-disney-characters-api
+- collection_type: open
+  name: Disney Characters Index API
+  slug: open-disney-index-api
 - collection_type: open
   name: Disney API
   slug: open-disney
@@ -228,7 +237,7 @@ overview: 'Disney API publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Disney API''s developer surface includes documentation, signup flow, code examples, and 26 more developer resources.'
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Disney Rate Limits
@@ -270,7 +279,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png
 security:

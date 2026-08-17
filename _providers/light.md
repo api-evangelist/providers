@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 5
@@ -122,7 +122,95 @@ apis:
 - description: The v1 - Vendors API from Light — 2 operation(s) for v1 - vendors.
   name: Light v1 - Vendors API
   slug: light-v1-vendors-api
-artifact_total: 34
+artifact_total: 63
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Light Authorization API
+  slug: open-light-authorization-api
+- collection_type: open
+  name: Light Authorization v1 - Accounting Documents API
+  slug: open-light-v1-accounting-documents-api
+- collection_type: open
+  name: Light Authorization v1 - Attachments API
+  slug: open-light-v1-attachments-api
+- collection_type: open
+  name: Light Authorization v1 - Bank Accounts API
+  slug: open-light-v1-bank-accounts-api
+- collection_type: open
+  name: Light Authorization v1 - Card Balance Accounts API
+  slug: open-light-v1-card-balance-accounts-api
+- collection_type: open
+  name: Light Authorization v1 - Card Customers API
+  slug: open-light-v1-card-customers-api
+- collection_type: open
+  name: Light Authorization v1 - Card Transactions API
+  slug: open-light-v1-card-transactions-api
+- collection_type: open
+  name: Light Authorization v1 - Cards API
+  slug: open-light-v1-cards-api
+- collection_type: open
+  name: Light Authorization v1 - Companies API
+  slug: open-light-v1-companies-api
+- collection_type: open
+  name: Light Authorization v1 - Contracts API
+  slug: open-light-v1-contracts-api
+- collection_type: open
+  name: Light Authorization v1 - Credit Notes API
+  slug: open-light-v1-credit-notes-api
+- collection_type: open
+  name: Light Authorization v1 - Custom Properties API
+  slug: open-light-v1-custom-properties-api
+- collection_type: open
+  name: Light Authorization v1 - Customer Credits API
+  slug: open-light-v1-customer-credits-api
+- collection_type: open
+  name: Light Authorization v1 - Customers API
+  slug: open-light-v1-customers-api
+- collection_type: open
+  name: Light Authorization v1 - Entities API
+  slug: open-light-v1-entities-api
+- collection_type: open
+  name: Light Authorization v1 - Exchange API
+  slug: open-light-v1-exchange-api
+- collection_type: open
+  name: Light Authorization v1 - Expenses API
+  slug: open-light-v1-expenses-api
+- collection_type: open
+  name: Light Authorization v1 - Invoice Approvals API
+  slug: open-light-v1-invoice-approvals-api
+- collection_type: open
+  name: Light Authorization v1 - Invoice Payables API
+  slug: open-light-v1-invoice-payables-api
+- collection_type: open
+  name: Light Authorization v1 - Invoice Receivables API
+  slug: open-light-v1-invoice-receivables-api
+- collection_type: open
+  name: Light Authorization v1 - Journal Entries API
+  slug: open-light-v1-journal-entries-api
+- collection_type: open
+  name: Light Authorization v1 - Ledger accounts API
+  slug: open-light-v1-ledger-accounts-api
+- collection_type: open
+  name: Light Authorization v1 - Ledger Transactions API
+  slug: open-light-v1-ledger-transactions-api
+- collection_type: open
+  name: Light Authorization v1 - Products API
+  slug: open-light-v1-products-api
+- collection_type: open
+  name: Light Authorization v1 - Purchase Orders API
+  slug: open-light-v1-purchase-orders-api
+- collection_type: open
+  name: Light Authorization v1 - User Comments API
+  slug: open-light-v1-user-comments-api
+- collection_type: open
+  name: Light Authorization v1 - Users API
+  slug: open-light-v1-users-api
+- collection_type: open
+  name: Light Authorization v1 - Vendors API
+  slug: open-light-v1-vendors-api
 common:
 - group: other
   title: ''
@@ -249,7 +337,7 @@ overview: 'Light publishes 28 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Light''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Light Rate Limits
@@ -283,7 +371,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/screenshots/light-2026-07-25T225058.png
 security:

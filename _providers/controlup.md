@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 61
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
@@ -205,11 +205,195 @@ apis:
 - description: Windows Event Log Monitoring history
   name: ControlUp Windows Events API
   slug: controlup-windowsevents-api
-artifact_total: 68
+artifact_total: 129
 asyncapis:
 - description: ''
   name: Controlup Webhooks
   slug: controlup-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Controlup Alerts API
+  slug: open-controlup-alerts-api
+- collection_type: open
+  name: Dex Alerts Alerts - Devices API
+  slug: open-controlup-alerts-devices-api
+- collection_type: open
+  name: VDI & DAAS Applications API
+  slug: open-controlup-applications-api
+- collection_type: open
+  name: Dex Audit Log API
+  slug: open-controlup-audit-log-api
+- collection_type: open
+  name: DaaS IQ Cloud providers API
+  slug: open-controlup-cloud-providers-api
+- collection_type: open
+  name: ControlUp for Desktops Dal API
+  slug: open-controlup-dal-api
+- collection_type: open
+  name: ControlUp for Desktops Data API
+  slug: open-controlup-data-api
+- collection_type: open
+  name: Controlup Devices API
+  slug: open-controlup-devices-api
+- collection_type: open
+  name: VDI & DAAS Dynamic Query API API
+  slug: open-controlup-dynamic-query-api-api
+- collection_type: open
+  name: Controlup Events API
+  slug: open-controlup-events-api
+- collection_type: open
+  name: DaaS IQ Features API
+  slug: open-controlup-features-api
+- collection_type: open
+  name: DaaS IQ Health API
+  slug: open-controlup-health-api
+- collection_type: open
+  name: Synthetic Monitoring Hives API
+  slug: open-controlup-hives-api
+- collection_type: open
+  name: VDI & DAAS Host API
+  slug: open-controlup-host-api
+- collection_type: open
+  name: DaaS IQ Host pool cost API
+  slug: open-controlup-host-pool-cost-api
+- collection_type: open
+  name: DaaS IQ Host pool deployments API
+  slug: open-controlup-host-pool-deployments-api
+- collection_type: open
+  name: DaaS IQ Host pool scaling policies API
+  slug: open-controlup-host-pool-scaling-policies-api
+- collection_type: open
+  name: DaaS IQ Host pool session host deployments API
+  slug: open-controlup-host-pool-session-host-deployments-api
+- collection_type: open
+  name: DaaS IQ Host pool session hosts API
+  slug: open-controlup-host-pool-session-hosts-api
+- collection_type: open
+  name: DaaS IQ Host pool user sessions API
+  slug: open-controlup-host-pool-user-sessions-api
+- collection_type: open
+  name: DaaS IQ Host pool VM settings API
+  slug: open-controlup-host-pool-vm-settings-api
+- collection_type: open
+  name: DaaS IQ Host pools API
+  slug: open-controlup-host-pools-api
+- collection_type: open
+  name: Synthetic Monitoring Integrations API
+  slug: open-controlup-integrations-api
+- collection_type: open
+  name: Dex Invitations API
+  slug: open-controlup-invitations-api
+- collection_type: open
+  name: Dex IP Allowlist API
+  slug: open-controlup-ip-allowlist-api
+- collection_type: open
+  name: DaaS IQ Jobs API
+  slug: open-controlup-jobs-api
+- collection_type: open
+  name: DaaS IQ License API
+  slug: open-controlup-license-api
+- collection_type: open
+  name: Dex License Usage API
+  slug: open-controlup-license-usage-api
+- collection_type: open
+  name: VDI & DAAS Machine API
+  slug: open-controlup-machine-api
+- collection_type: open
+  name: VDI & DaaS Configuration Machines API
+  slug: open-controlup-machines-api
+- collection_type: open
+  name: DaaS IQ Master images API
+  slug: open-controlup-master-images-api
+- collection_type: open
+  name: VDI & DaaS Realtime Metrics API
+  slug: open-controlup-metrics-api
+- collection_type: open
+  name: Synthetic Monitoring MF As API
+  slug: open-controlup-mfas-api
+- collection_type: open
+  name: VDI & DAAS Net Scaler API
+  slug: open-controlup-netscaler-api
+- collection_type: open
+  name: DaaS IQ Onboarding API
+  slug: open-controlup-onboarding-api
+- collection_type: open
+  name: Dex Organization Settings API
+  slug: open-controlup-organization-settings-api
+- collection_type: open
+  name: Dex Organizations API
+  slug: open-controlup-organizations-api
+- collection_type: open
+  name: DaaS IQ Overview API
+  slug: open-controlup-overview-api
+- collection_type: open
+  name: VDI & DAAS Processes API
+  slug: open-controlup-processes-api
+- collection_type: open
+  name: Flow3 Public Public API API
+  slug: open-controlup-public-api-api
+- collection_type: open
+  name: Dex Roles API
+  slug: open-controlup-roles-api
+- collection_type: open
+  name: Dex SAML API
+  slug: open-controlup-saml-api
+- collection_type: open
+  name: DaaS IQ Scaling profiles API
+  slug: open-controlup-scaling-profiles-api
+- collection_type: open
+  name: Synthetic Monitoring Scouts API
+  slug: open-controlup-scouts-api
+- collection_type: open
+  name: ControlUp for Desktops Scripts API
+  slug: open-controlup-scripts-api
+- collection_type: open
+  name: VDI & DAAS Session API
+  slug: open-controlup-session-api
+- collection_type: open
+  name: DaaS IQ Session hosts API
+  slug: open-controlup-session-hosts-api
+- collection_type: open
+  name: Dex SSO Groups API
+  slug: open-controlup-sso-groups-api
+- collection_type: open
+  name: DaaS IQ Subscriptions API
+  slug: open-controlup-subscriptions-api
+- collection_type: open
+  name: VDI & DAAS Support endpoint API
+  slug: open-controlup-support-endpoint-api
+- collection_type: open
+  name: ControlUp for Desktops Surveys API
+  slug: open-controlup-surveys-api
+- collection_type: open
+  name: Dex Tags API
+  slug: open-controlup-tags-api
+- collection_type: open
+  name: DaaS IQ Tenants API
+  slug: open-controlup-tenants-api
+- collection_type: open
+  name: Synthetic Monitoring Tests API
+  slug: open-controlup-tests-api
+- collection_type: open
+  name: VDI & DaaS Configuration Triggers API
+  slug: open-controlup-triggers-api
+- collection_type: open
+  name: VDI & DaaS Configuration Trigger Schedules API
+  slug: open-controlup-triggerschedules-api
+- collection_type: open
+  name: VDI & DAAS User API
+  slug: open-controlup-user-api
+- collection_type: open
+  name: DaaS IQ User sessions API
+  slug: open-controlup-user-sessions-api
+- collection_type: open
+  name: Controlup Users API
+  slug: open-controlup-users-api
+- collection_type: open
+  name: VDI & DAAS Windows Events API
+  slug: open-controlup-windowsevents-api
 common:
 - group: auth
   title: ''
@@ -443,7 +627,7 @@ overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ControlUp''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 46 more developer resources.'
-random_paper: 38
+random_paper: 104
 rate_limits:
 - limit_count: 6
   name: Controlup Rate Limits
@@ -470,7 +654,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/screenshots/controlup-2026-08-07T163802.png
 security:

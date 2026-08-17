@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Manage translation strings across languages and namespaces
   name: SimpleLocalize Translations API
   slug: simplelocalize-translations-api
-artifact_total: 34
+artifact_total: 42
 collections:
 - collection_type: postman
   name: SimpleLocalize Customers API
@@ -92,6 +92,30 @@ collections:
 - collection_type: postman
   name: SimpleLocalize Customers Translations API
   slug: postman-simplelocalize-translations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SimpleLocalize Customers API
+  slug: open-simplelocalize-customers-api
+- collection_type: open
+  name: SimpleLocalize Customers Export API
+  slug: open-simplelocalize-export-api
+- collection_type: open
+  name: SimpleLocalize Customers Import API
+  slug: open-simplelocalize-import-api
+- collection_type: open
+  name: SimpleLocalize Customers Languages API
+  slug: open-simplelocalize-languages-api
+- collection_type: open
+  name: SimpleLocalize Customers Projects API
+  slug: open-simplelocalize-projects-api
+- collection_type: open
+  name: SimpleLocalize Customers Publication API
+  slug: open-simplelocalize-publication-api
+- collection_type: open
+  name: SimpleLocalize Customers Translations API
+  slug: open-simplelocalize-translations-api
 - collection_type: open
   name: SimpleLocalize API
   slug: open-simplelocalize
@@ -217,7 +241,7 @@ plans:
 - name: Simplelocalize Plans Pricing
   plan_count: 5
   slug: simplelocalize-plans-pricing
-random_paper: 61
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Simplelocalize Rate Limits
@@ -259,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/screenshots/simplelocalize-2026-06-20T193932.png
 security:

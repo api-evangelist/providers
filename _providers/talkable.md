@@ -15,7 +15,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -24,12 +24,19 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-12'
+  score: 64.6
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 36
+  human_in_the_loop: 0
+  name: Talkable Agentic Access
+  operation_count: 64
+  slug: talkable-agentic-access
+  summary_line: 64 operations · 36 acting
 api_count: 26
 apis:
 - description: The Advocate Offers API from Talkable — 4 operation(s) for advocate offers.
@@ -110,12 +117,98 @@ apis:
 - description: The Visitors API from Talkable — 1 operation(s) for visitors.
   name: Talkable Visitors API
   slug: talkable-visitors-api
-artifact_total: 31
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Talkable Webhooks
   slug: talkable-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Talkable Advocate Offers API
+  slug: open-talkable-advocate-offers-api
+- collection_type: open
+  name: Talkable Advocate Offers Advocate Signup API
+  slug: open-talkable-advocate-signup-api
+- collection_type: open
+  name: Talkable Advocate Offers Assets API
+  slug: open-talkable-assets-api
+- collection_type: open
+  name: Talkable Advocate Offers Campaigns API
+  slug: open-talkable-campaigns-api
+- collection_type: open
+  name: Talkable Advocate Offers Check Unsubscribe API
+  slug: open-talkable-check-unsubscribe-api
+- collection_type: open
+  name: Talkable Advocate Offers Claim Links API
+  slug: open-talkable-claim-links-api
+- collection_type: open
+  name: Talkable Advocate Offers Coupons API
+  slug: open-talkable-coupons-api
+- collection_type: open
+  name: Talkable Advocate Offers Create Coupon API
+  slug: open-talkable-create-coupon-api
+- collection_type: open
+  name: Talkable Advocate Offers Event API
+  slug: open-talkable-event-api
+- collection_type: open
+  name: Talkable Advocate Offers Friend Email Gating API
+  slug: open-talkable-friend-email-gating-api
+- collection_type: open
+  name: Talkable Advocate Offers Friend Offers API
+  slug: open-talkable-friend-offers-api
+- collection_type: open
+  name: Talkable Advocate Offers Loyalty API
+  slug: open-talkable-loyalty-api
+- collection_type: open
+  name: Talkable Advocate Offers Metrics API
+  slug: open-talkable-metrics-api
+- collection_type: open
+  name: Talkable Advocate Offers Offer Claims API
+  slug: open-talkable-offer-claims-api
+- collection_type: open
+  name: Talkable Advocate Offers Origins API
+  slug: open-talkable-origins-api
+- collection_type: open
+  name: Talkable Advocate Offers People API
+  slug: open-talkable-people-api
+- collection_type: open
+  name: Talkable Advocate Offers Post Share API
+  slug: open-talkable-post-share-api
+- collection_type: open
+  name: Talkable Advocate Offers Referral API
+  slug: open-talkable-referral-api
+- collection_type: open
+  name: Talkable Advocate Offers Referrals API
+  slug: open-talkable-referrals-api
+- collection_type: open
+  name: Talkable Advocate Offers Refunds API
+  slug: open-talkable-refunds-api
+- collection_type: open
+  name: Talkable Advocate Offers Reward API
+  slug: open-talkable-reward-api
+- collection_type: open
+  name: Talkable Advocate Offers Rewards API
+  slug: open-talkable-rewards-api
+- collection_type: open
+  name: Talkable Advocate Offers Shares API
+  slug: open-talkable-shares-api
+- collection_type: open
+  name: Talkable Advocate Offers Traffic Sources API
+  slug: open-talkable-traffic-sources-api
+- collection_type: open
+  name: Talkable Advocate Offers Unsubscribe API
+  slug: open-talkable-unsubscribe-api
+- collection_type: open
+  name: Talkable Advocate Offers Visitors API
+  slug: open-talkable-visitors-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/talkable-agentic-access.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -220,6 +313,46 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/talkable-tool-crosswalk.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/talkable-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/talkable-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/talkable-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/talkable-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/talkable-components.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.talkable.com/talkable-features
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.talkable.com/terms-conditions
+- group: start
+  title: ''
+  type: Login
+  url: https://www.talkable.com/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.talkable.com/contact
 created: '2026-07-17'
 description: Talkable is a referral marketing and loyalty platform that helps e-commerce and subscription brands acquire and retain customers through referral programs, loyalty campaigns, and advocacy incentives. It provides a RESTful JSON API (v2) for origins (off-site purchase and event ingestion), offers and shares, referrals, people, coupons, loyalty members, metrics, assets, and traffic sources; native iOS and Android SDKs plus an official Ruby gem; a nine-event webhook surface; and a customer-facing hosted MCP server that lets AI agents operate a Talkable program over the Model Context Protocol using OAuth 2.1 or API keys. Talkable is backed by 500 Global.
 image: https://www.talkable.com/favicon.ico
@@ -228,7 +361,7 @@ mcp_servers:
 - description: ''
   name: talkable-mcp.yml
   slug: talkable-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Talkable
 nav: Providers
 network: true
@@ -238,24 +371,32 @@ overview: 'Talkable publishes 26 APIs on the [APIs.io](https://apis.io/) network
   The Talkable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Talkable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 112
+  Talkable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, changelog, and 30 more developer resources.'
+plans:
+- name: Talkable Plans Pricing
+  plan_count: 4
+  slug: talkable-plans-pricing
+random_paper: 87
+rate_limits:
+- limit_count: 0
+  name: Talkable Rate Limits
+  slug: talkable-rate-limits
 scopes:
 - name: Talkable Scopes
   scope_count: 3
   slug: talkable-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 46.6
-  delta: 0.0
+  band: strong
+  composite: 63.4
+  delta: 16.8
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 84.2
     contract_quality: 64.6
-    developer_ergonomics: 64.7
+    developer_ergonomics: 75.5
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 28.9
+    operational_transparency: 44.7
   previous_composite: 46.6
   provenance:
     conformance: derived
@@ -267,8 +408,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Talkable Authentication

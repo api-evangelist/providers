@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: OPA policy modules loaded into the authorizer.
   name: Topaz Policies API
   slug: topaz-policies-api
-artifact_total: 10
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Topaz and Directory Authorizer API
+  slug: open-topaz-authorizer-api
+- collection_type: open
+  name: Topaz and Directory Authorizer Directory Checks API
+  slug: open-topaz-directory-checks-api
+- collection_type: open
+  name: Topaz and Directory Authorizer Directory Objects API
+  slug: open-topaz-directory-objects-api
+- collection_type: open
+  name: Topaz and Directory Authorizer Directory Relations API
+  slug: open-topaz-directory-relations-api
+- collection_type: open
+  name: Topaz and Directory Authorizer Policies API
+  slug: open-topaz-policies-api
 - collection_type: open
   name: Topaz Authorizer and Directory API
   slug: open-topaz
@@ -119,7 +137,7 @@ plans:
 - name: Topaz Plans Pricing
   plan_count: 2
   slug: topaz-plans-pricing
-random_paper: 78
+random_paper: 111
 rate_limits:
 - limit_count: 3
   name: Topaz Rate Limits
@@ -150,7 +168,7 @@ score:
     regime_id: insurance
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: topaz
 tags:

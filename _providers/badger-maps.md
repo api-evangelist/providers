@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +55,30 @@ apis:
 - description: Authentication, the authenticated user profile, and user search.
   name: Badger Maps Users API
   slug: badger-maps-users-api
-artifact_total: 12
+artifact_total: 20
+asyncapis:
+- description: ''
+  name: Badger Maps Webhooks
+  slug: badger-maps-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Badger Maps Accounts API
+  slug: open-badger-maps-accounts-api
+- collection_type: open
+  name: Badger Maps Accounts Check-Ins API
+  slug: open-badger-maps-check-ins-api
+- collection_type: open
+  name: Badger Maps Accounts Locations API
+  slug: open-badger-maps-locations-api
+- collection_type: open
+  name: Badger Maps Accounts Routes API
+  slug: open-badger-maps-routes-api
+- collection_type: open
+  name: Badger Maps Accounts Users API
+  slug: open-badger-maps-users-api
 - collection_type: open
   name: Badger Maps API
   slug: open-badger-maps
@@ -104,6 +127,94 @@ common:
   title: ''
   type: Blog
   url: https://www.badgermapping.com/blog/
+- group: other
+  title: ''
+  type: APIBlueprint
+  url: openapi/_original/badger-maps-apiary-blueprint.apib
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/badger-maps-webhooks.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/badger-maps-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/badger-maps-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/badger-maps-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/badger-maps-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.badgermapping.com/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/badger-maps-conformance.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/badger-maps-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/badger-maps-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/badger-maps-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/badger-maps-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://badgerupdatedapi.docs.apiary.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://badgerupdatedapi.docs.apiary.io/#reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://badgerupdatedapi.docs.apiary.io/#introduction/authorization
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.badgermapping.com/support/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.badgermapping.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.badgermapping.com/free-trial/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.badgermapping.com/login/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.badgermapping.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.badgermapping.com/privacy-policy/
 created: '2026-07-04'
 description: Badger Maps is field sales route planning, mapping, and CRM software for outside sales and field teams - it optimizes daily driving routes, maps and filters accounts on a territory, captures check-ins, and reports on rep activity. Badger Maps also exposes a token-authenticated REST API (base https://badgerapis.badgermapping.com/api/2) that lets teams programmatically manage accounts (customers), account locations, routes, check-ins, and users, and sync data with CRMs and other systems. API/Developer Key access is included with paid plans (max 25k requests per day, per team); the key must be enabled by contacting Badger Maps support.
 finops:
@@ -112,34 +223,41 @@ finops:
   slug: badger-maps-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/badger-maps.png
 layout: provider
-modified: '2026-07-04'
+mcp_servers:
+- description: ''
+  name: badger-maps-mcp.yml
+  slug: badger-maps-mcpyml
+modified: '2026-08-13'
 name: Badger Maps
 nav: Providers
 network: true
 overview: 'Badger Maps publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Check-Ins API, Locations API, and 2 more. Tagged areas include Field Sales, Route Planning, Mapping, CRM, and Sales Enablement.
 
 
-  Badger Maps'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  The Badger Maps catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Badger Maps'' developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 26 more developer resources.'
 plans:
 - name: Badger Maps Plans Pricing
   plan_count: 6
   slug: badger-maps-plans-pricing
-random_paper: 11
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Badger Maps Rate Limits
   slug: badger-maps-rate-limits
 score:
-  band: thin
-  composite: 39.7
-  delta: 0.0
+  band: exemplar
+  composite: 67.7
+  delta: 28.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 61.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 84.2
+    contract_quality: 70.1
+    developer_ergonomics: 73.9
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 60.5
   previous_composite: 39.7
   provenance:
     agentic_access: derived
@@ -149,8 +267,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png
 security:
 - kind: authentication

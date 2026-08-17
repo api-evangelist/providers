@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -37,7 +37,17 @@ apis:
 - description: The AppStore Caching Service API from Liberty Global Technology Services BV acts as a caching proxy in front of the AppStore Bundle Service, serving generated application bundles addressed by applicat
   name: AppStore Caching Service API
   slug: appstore-caching-service-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: AppStore Bundle Service API
+  slug: open-liberty-global-appstore-bundle-service
+- collection_type: open
+  name: AppStore Caching Service API
+  slug: open-liberty-global-appstore-caching-service
+- collection_type: open
+  name: ASMS API
+  slug: open-liberty-global-appstore-metadata-service
 common:
 - group: agent
   title: ''
@@ -160,7 +170,7 @@ overview: 'Liberty Global publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 113
+random_paper: 92
 score:
   band: thin
   composite: 35.2
@@ -190,7 +200,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/screenshots/liberty-global-2026-08-07T171613.png
 security:

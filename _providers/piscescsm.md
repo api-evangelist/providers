@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: The Predict API from piscesCSM — 1 operation(s) for predict.
   name: piscesCSM Predict API
   slug: piscescsm-predict-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: piscesCSM Predict API
+  slug: open-piscescsm-predict-api
 - collection_type: open
   name: piscesCSM API
   slug: open-piscescsm
@@ -72,7 +78,7 @@ plans:
 - name: Piscescsm Plans Pricing
   plan_count: 3
   slug: piscescsm-plans-pricing
-random_paper: 10
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Piscescsm Rate Limits
@@ -97,7 +103,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/piscescsm/refs/heads/main/screenshots/piscescsm-2026-06-20T191731.png
 security:

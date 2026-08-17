@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - description: Manage storage volumes
   name: Veritas InfoScale Volumes API
   slug: veritas-infoscale-volumes-api
-artifact_total: 71
+artifact_total: 82
 collections:
 - collection_type: postman
   name: Veritas InfoScale REST Alerts API
@@ -110,6 +110,39 @@ collections:
 - collection_type: postman
   name: Veritas InfoScale REST Alerts Volumes API
   slug: postman-veritas-infoscale-volumes-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veritas InfoScale REST Alerts API
+  slug: open-veritas-infoscale-alerts-api
+- collection_type: open
+  name: Veritas InfoScale REST Alerts Clusters API
+  slug: open-veritas-infoscale-clusters-api
+- collection_type: open
+  name: Veritas InfoScale REST Alerts Disk Groups API
+  slug: open-veritas-infoscale-disk-groups-api
+- collection_type: open
+  name: Veritas InfoScale REST Alerts Disks API
+  slug: open-veritas-infoscale-disks-api
+- collection_type: open
+  name: Veritas InfoScale REST Alerts Fencing API
+  slug: open-veritas-infoscale-fencing-api
+- collection_type: open
+  name: Veritas InfoScale REST Alerts Jobs API
+  slug: open-veritas-infoscale-jobs-api
+- collection_type: open
+  name: Veritas InfoScale REST Alerts Resources API
+  slug: open-veritas-infoscale-resources-api
+- collection_type: open
+  name: Veritas InfoScale REST Alerts Service Groups API
+  slug: open-veritas-infoscale-service-groups-api
+- collection_type: open
+  name: Veritas InfoScale REST Alerts Systems API
+  slug: open-veritas-infoscale-systems-api
+- collection_type: open
+  name: Veritas InfoScale REST Alerts Volumes API
+  slug: open-veritas-infoscale-volumes-api
 common:
 - group: commercial
   title: ''
@@ -312,7 +345,7 @@ plans:
 - name: Veritas Infoscale Plans Pricing
   plan_count: 1
   slug: veritas-infoscale-plans-pricing
-random_paper: 79
+random_paper: 120
 rate_limits:
 - limit_count: 1
   name: Veritas Infoscale Rate Limits
@@ -354,7 +387,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/screenshots/veritas-infoscale-2026-06-20T200933.png
 security:

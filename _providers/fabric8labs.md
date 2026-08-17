@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,29 @@ apis:
 - description: The Discovery API from Fabric8Labs — 6 anonymous read operations describing the registered post types, taxonomies and post statuses that define the rest of the surface.
   name: Fabric8Labs Discovery API
   slug: fabric8labs-discovery-api
-artifact_total: 15
+artifact_total: 22
+collections:
+- collection_type: open
+  name: Fabric8Labs Discovery API
+  slug: open-fabric8labs-discovery-api
+- collection_type: open
+  name: Fabric8Labs Media API
+  slug: open-fabric8labs-media-api
+- collection_type: open
+  name: Fabric8Labs Pages API
+  slug: open-fabric8labs-pages-api
+- collection_type: open
+  name: Fabric8Labs Posts API
+  slug: open-fabric8labs-posts-api
+- collection_type: open
+  name: Fabric8Labs Search API
+  slug: open-fabric8labs-search-api
+- collection_type: open
+  name: Fabric8Labs Taxonomy API
+  slug: open-fabric8labs-taxonomy-api
+- collection_type: open
+  name: Fabric8Labs Team API
+  slug: open-fabric8labs-team-api
 common:
 - group: agent
   title: ''
@@ -244,7 +266,7 @@ plans:
 - name: Fabric8Labs Plans Pricing
   plan_count: 0
   slug: fabric8labs-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Fabric8Labs Rate Limits
@@ -257,6 +279,7 @@ scopes:
 score:
   band: thin
   composite: 34.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 53.7
@@ -264,6 +287,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
+  previous_composite: 34.6
   regulatory:
     applies: true
     matched_via: tags
@@ -271,7 +295,8 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Fabric8Labs Authentication

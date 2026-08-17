@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: Product targeting operations
   name: Amazon Targets API
   slug: amazon-targets-api
-artifact_total: 250
+artifact_total: 266
 collections:
 - collection_type: postman
   name: Amazon Advertising Ad Groups API
@@ -141,14 +141,62 @@ collections:
   name: Amazon Advertising Ad Groups Targets API
   slug: postman-amazon-targets-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Advertising Ad Groups API
+  slug: open-amazon-ad-groups-api
+- collection_type: open
   name: Amazon Advertising API
   slug: open-amazon-advertising-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Campaigns API
+  slug: open-amazon-campaigns-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Catalog API
+  slug: open-amazon-catalog-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Charge Permissions API
+  slug: open-amazon-charge-permissions-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Charges API
+  slug: open-amazon-charges-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Checkout Sessions API
+  slug: open-amazon-checkout-sessions-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Finances API
+  slug: open-amazon-finances-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Inventory API
+  slug: open-amazon-inventory-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Keywords API
+  slug: open-amazon-keywords-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Listings API
+  slug: open-amazon-listings-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Orders API
+  slug: open-amazon-orders-api
 - collection_type: open
   name: Amazon Pay API
   slug: open-amazon-pay-api
 - collection_type: open
+  name: Amazon Advertising Ad Groups Profiles API
+  slug: open-amazon-profiles-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Refunds API
+  slug: open-amazon-refunds-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Reports API
+  slug: open-amazon-reports-api
+- collection_type: open
   name: Amazon Selling Partner API
   slug: open-amazon-selling-partner-api
+- collection_type: open
+  name: Amazon Advertising Ad Groups Targets API
+  slug: open-amazon-targets-api
 common:
 - group: build
   title: ''
@@ -798,7 +846,7 @@ press:
 - date: '2026-05-25'
   title: Press Center - US Press Center - Amazon's Press Releases
   url: https://press.aboutamazon.com/press-release-archive
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Amazon Rate Limits
@@ -846,7 +894,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png
 security:

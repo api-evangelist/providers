@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 72.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -49,11 +49,30 @@ apis:
 - description: The original XML Platform API for service providers and dealer systems, covering the lifecycle of a service case — assets, cases, estimates and line items, parts, VMRS, notes, attachments and estimate
   name: Decisiv Platform API
   slug: decisiv-platform-api
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Decisiv Srm Gateway Webhooks
   slug: decisiv-srm-gateway-webhooks
+collections:
+- collection_type: open
+  name: Account Management
+  slug: open-decisiv-account-management
+- collection_type: open
+  name: Asset Management
+  slug: open-decisiv-asset-management
+- collection_type: open
+  name: Global Assets API
+  slug: open-decisiv-global-assets
+- collection_type: open
+  name: Service Management
+  slug: open-decisiv-service-management
+- collection_type: open
+  name: Service Provider API
+  slug: open-decisiv-service-provider
+- collection_type: open
+  name: Telematics
+  slug: open-decisiv-telematics
 common:
 - group: agent
   title: ''
@@ -223,7 +242,7 @@ plans:
 - name: Decisiv Plans Pricing
   plan_count: 0
   slug: decisiv-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 0
   name: Decisiv Rate Limits
@@ -236,6 +255,7 @@ scopes:
 score:
   band: developing
   composite: 53.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.5
@@ -243,8 +263,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
+  previous_composite: 53.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Decisiv Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Register and manage webhook subscriptions for ABC Trainerize business events.
   name: ABC Trainerize Webhooks API
   slug: trainerize-webhooks-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ABC Trainerize Client Data API
+  slug: open-trainerize-client-data-api
+- collection_type: open
+  name: ABC Trainerize Client Data Clients API
+  slug: open-trainerize-clients-api
+- collection_type: open
+  name: ABC Trainerize Client Data Messaging API
+  slug: open-trainerize-messaging-api
+- collection_type: open
+  name: ABC Trainerize Client Data Training API
+  slug: open-trainerize-training-api
+- collection_type: open
+  name: ABC Trainerize Client Data Webhooks API
+  slug: open-trainerize-webhooks-api
 - collection_type: open
   name: ABC Trainerize API
   slug: open-trainerize
@@ -116,7 +134,7 @@ plans:
 - name: Trainerize Plans Pricing
   plan_count: 4
   slug: trainerize-plans-pricing
-random_paper: 5
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Trainerize Rate Limits
@@ -141,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

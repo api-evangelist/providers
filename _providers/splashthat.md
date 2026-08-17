@@ -10,31 +10,40 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
+  score: 48.2
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
-- description: REST API for the Splash event marketing platform. Enables programmatic management of events, guest (GroupContact) records, organization-level contacts, ticketing, check-in, and event analytics. Authen
+- description: REST API for the Splash event marketing platform. Enables programmatic management of events, guest (GroupContact) records, organization-level contacts, unsubscribes, event approval workflows, team man
   name: Splash API
   slug: splash-api
-artifact_total: 6
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Splashthat Webhooks
+  slug: splashthat-webhooks
+collections:
+- collection_type: postman
+  name: Splash API v2.2
+  slug: postman-splashthat-api
 common:
 - group: auth
   title: ''
@@ -80,6 +89,62 @@ common:
   title: ''
   type: RateLimits
   url: https://support.splashthat.com/hc/en-us/articles/13759878758541-What-is-API-rate-limiting-and-what-are-the-benefits-and-impacts
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-docs.splashthat.com/
+- group: build
+  title: ''
+  type: Postman
+  url: postman/splashthat-api.postman_collection.json
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/SplashThat
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/splashthat-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/splashthat-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/splashthat-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/splashthat-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/splashthat-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/splashthat-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/splashthat-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/splashthat-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/splashthat-mcp.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/splashthat-webhooks.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/splashthat-llms.txt
 created: '2026-06-13'
 description: Splash is an event marketing platform that helps companies market, manage, and measure their live, virtual, and hybrid event programs. The Splash REST API enables brands and agencies to programmatically manage events, handle guest registration, process check-in, and pull event analytics. API access uses OAuth 2.0 client credentials and covers resources such as events, group contacts (guests), contacts, and ticketing.
 finops:
@@ -93,43 +158,56 @@ jsonld:
   property_count: 15
   slug: splashthat-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: splashthat-mcp.yml
+  slug: splashthat-mcpyml
+modified: '2026-08-13'
 name: Splash
 nav: Providers
 network: true
 overview: 'Splash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Events, Event Marketing, Event Management, Guest Registration, and Ticketing.
 
 
-  The Splash catalog on APIs.io includes 1 JSON-LD context.
+  The Splash catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Splash''s developer surface includes documentation, support, engineering blog, pricing, status page, and 6 more developer resources.'
+  Splash''s developer surface includes documentation, support, engineering blog, pricing, status page, API reference, authentication, and 18 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 4
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
+scopes:
+- name: Splashthat Scopes
+  scope_count: 1
+  slug: splashthat-scopes
+  summary_line: 1 scope
 score:
-  band: thin
-  composite: 38.0
-  delta: 0.0
+  band: developing
+  composite: 52.9
+  delta: 14.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 50.0
-    developer_ergonomics: 15.2
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 10.5
+    contract_quality: 69.4
+    developer_ergonomics: 45.7
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 23.7
   previous_composite: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/screenshots/splashthat-2026-06-20T194323.png
 security:
+- kind: authentication
+  name: Splashthat Authentication
+  slug: splashthat-authentication
+  summary_line: oauth2/apiKey · 2 schemes
 - kind: domain-security
   name: Splashthat Domain Security
   slug: splashthat-domain-security

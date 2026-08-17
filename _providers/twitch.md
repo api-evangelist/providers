@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -168,30 +168,153 @@ apis:
 - description: Send whisper messages
   name: Twitch Whispers API
   slug: twitch-whispers-api
-artifact_total: 76
+artifact_total: 117
 asyncapis:
 - description: EventSub is Twitch's event-driven subscription service for receiving real-time notifications about events on Twitch. Supports webhook, WebSocket, and conduit transport methods. Subscribe to events suc
   name: Twitch EventSub
   slug: twitch-eventsub-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Twitch Drops Ads API
+  slug: open-twitch-ads-api
+- collection_type: open
+  name: Twitch Drops Ads Analytics API
+  slug: open-twitch-analytics-api
+- collection_type: open
+  name: Twitch Drops Ads Bits API
+  slug: open-twitch-bits-api
+- collection_type: open
+  name: Twitch Drops Ads Channel Points API
+  slug: open-twitch-channel-points-api
+- collection_type: open
+  name: Twitch Drops Ads Channels API
+  slug: open-twitch-channels-api
+- collection_type: open
+  name: Twitch Drops Ads Characters API
+  slug: open-twitch-characters-api
+- collection_type: open
+  name: Twitch Drops Ads Charity API
+  slug: open-twitch-charity-api
+- collection_type: open
+  name: Twitch Drops Ads Chat API
+  slug: open-twitch-chat-api
+- collection_type: open
+  name: Twitch Drops Ads Clips API
+  slug: open-twitch-clips-api
+- collection_type: open
+  name: Twitch Drops Ads Collections API
+  slug: open-twitch-collections-api
+- collection_type: open
+  name: Twitch Drops Ads Companies API
+  slug: open-twitch-companies-api
+- collection_type: open
+  name: Twitch Drops Ads Conduits API
+  slug: open-twitch-conduits-api
+- collection_type: open
+  name: Twitch Drops Ads Configuration API
+  slug: open-twitch-configuration-api
+- collection_type: open
   name: Twitch Drops API
   slug: open-twitch-drops
+- collection_type: open
+  name: Twitch Drops Ads Entitlements API
+  slug: open-twitch-entitlements-api
+- collection_type: open
+  name: Twitch Drops Ads EventSub API
+  slug: open-twitch-eventsub-api
+- collection_type: open
+  name: Twitch Drops Ads Extension Analytics API
+  slug: open-twitch-extension-analytics-api
+- collection_type: open
+  name: Twitch Drops Ads Extensions API
+  slug: open-twitch-extensions-api
 - collection_type: open
   name: Twitch Extensions API
   slug: open-twitch-extensions
 - collection_type: open
+  name: Twitch Drops Ads Game Analytics API
+  slug: open-twitch-game-analytics-api
+- collection_type: open
+  name: Twitch Drops Ads Games API
+  slug: open-twitch-games-api
+- collection_type: open
+  name: Twitch Drops Ads Genres API
+  slug: open-twitch-genres-api
+- collection_type: open
+  name: Twitch Drops Ads Goals API
+  slug: open-twitch-goals-api
+- collection_type: open
   name: Twitch Helix API
   slug: open-twitch-helix
+- collection_type: open
+  name: Twitch Drops Ads Hype Train API
+  slug: open-twitch-hype-train-api
 - collection_type: open
   name: Twitch IGDB API
   slug: open-twitch-igdb
 - collection_type: open
+  name: Twitch Drops Ads Ingest API
+  slug: open-twitch-ingest-api
+- collection_type: open
   name: Twitch Insights and Analytics API
   slug: open-twitch-insights-analytics
 - collection_type: open
+  name: Twitch Drops Ads Media API
+  slug: open-twitch-media-api
+- collection_type: open
+  name: Twitch Drops Ads Moderation API
+  slug: open-twitch-moderation-api
+- collection_type: open
+  name: Twitch Drops Ads Platforms API
+  slug: open-twitch-platforms-api
+- collection_type: open
+  name: Twitch Drops Ads Polls API
+  slug: open-twitch-polls-api
+- collection_type: open
+  name: Twitch Drops Ads Predictions API
+  slug: open-twitch-predictions-api
+- collection_type: open
+  name: Twitch Drops Ads Pubsub API
+  slug: open-twitch-pubsub-api
+- collection_type: open
+  name: Twitch Drops Ads Raids API
+  slug: open-twitch-raids-api
+- collection_type: open
+  name: Twitch Drops Ads Schedule API
+  slug: open-twitch-schedule-api
+- collection_type: open
+  name: Twitch Drops Ads Search API
+  slug: open-twitch-search-api
+- collection_type: open
+  name: Twitch Drops Ads Streams API
+  slug: open-twitch-streams-api
+- collection_type: open
+  name: Twitch Drops Ads Subscriptions API
+  slug: open-twitch-subscriptions-api
+- collection_type: open
+  name: Twitch Drops Ads Teams API
+  slug: open-twitch-teams-api
+- collection_type: open
+  name: Twitch Drops Ads Themes API
+  slug: open-twitch-themes-api
+- collection_type: open
+  name: Twitch Drops Ads Transactions API
+  slug: open-twitch-transactions-api
+- collection_type: open
+  name: Twitch Drops Ads Users API
+  slug: open-twitch-users-api
+- collection_type: open
   name: Twitch Video Broadcast API
   slug: open-twitch-video-broadcast
+- collection_type: open
+  name: Twitch Drops Ads Videos API
+  slug: open-twitch-videos-api
+- collection_type: open
+  name: Twitch Drops Ads Whispers API
+  slug: open-twitch-whispers-api
 common:
 - group: agent
   title: ''
@@ -410,7 +533,7 @@ plans:
 - name: Twitch Plans Pricing
   plan_count: 1
   slug: twitch-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Twitch Rate Limits
@@ -465,7 +588,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/screenshots/twitch-2026-06-20T195857.png
 security:

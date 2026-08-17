@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: GraphQL subgraphs providing endpoints for querying Toucan infrastructure and ecosystem data (projects, TCO2s, pools, retirements) on Base, Base Sepolia, Polygon, Amoy, Celo, and Celo Alfajores, served
@@ -136,7 +136,7 @@ overview: 'Toucan publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Toucan''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, sandbox, authentication, and 15 more developer resources.'
-random_paper: 50
+random_paper: 54
 score:
   band: thin
   composite: 31.6
@@ -158,7 +158,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

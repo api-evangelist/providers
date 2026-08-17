@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Vaults API from Gauntlet — 5 operation(s) for vaults.
   name: Gauntlet Vaults API
   slug: gauntlet-vaults-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gauntlet Prices API
+  slug: open-gauntlet-prices-api
+- collection_type: open
+  name: Gauntlet Prices System API
+  slug: open-gauntlet-system-api
+- collection_type: open
+  name: Gauntlet Prices TVL API
+  slug: open-gauntlet-tvl-api
+- collection_type: open
+  name: Gauntlet Prices Users API
+  slug: open-gauntlet-users-api
+- collection_type: open
+  name: Gauntlet Prices Vaults API
+  slug: open-gauntlet-vaults-api
 common:
 - group: other
   title: ''
@@ -191,7 +210,7 @@ overview: 'Gauntlet publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gauntlet''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 23 more developer resources.'
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 2
   name: Gauntlet Rate Limits
@@ -219,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/screenshots/gauntlet-2026-07-25T215504.png
 security:

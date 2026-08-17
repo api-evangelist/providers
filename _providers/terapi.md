@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Trigger and manage data synchronization between services
   name: Terapi Sync API
   slug: terapi-sync-api
-artifact_total: 19
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Terapi Actions API
+  slug: open-terapi-actions-api
+- collection_type: open
+  name: Terapi Actions Authentication API
+  slug: open-terapi-authentication-api
+- collection_type: open
+  name: Terapi Actions Connections API
+  slug: open-terapi-connections-api
+- collection_type: open
+  name: Terapi Actions Integrations API
+  slug: open-terapi-integrations-api
+- collection_type: open
+  name: Terapi Actions Sync API
+  slug: open-terapi-sync-api
 - collection_type: open
   name: Terapi API
   slug: open-terapi
@@ -135,7 +153,7 @@ plans:
 - name: Terapi Plans Pricing
   plan_count: 3
   slug: terapi-plans-pricing
-random_paper: 45
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Terapi Rate Limits
@@ -177,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

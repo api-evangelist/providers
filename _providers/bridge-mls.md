@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - description: The Webhooks API from Bridge — 3 operation(s) for webhooks.
   name: Bridge Webhooks API
   slug: bridge-mls-webhooks-api
-artifact_total: 55
+artifact_total: 67
 collections:
 - collection_type: postman
   name: Bridge RESO Web Agents API
@@ -113,6 +113,42 @@ collections:
 - collection_type: postman
   name: Bridge RESO Web Agents Webhooks API
   slug: postman-bridge-mls-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bridge RESO Web Agents API
+  slug: open-bridge-mls-agents-api
+- collection_type: open
+  name: Bridge RESO Web Agents Listings API
+  slug: open-bridge-mls-listings-api
+- collection_type: open
+  name: Bridge RESO Web Agents Media API
+  slug: open-bridge-mls-media-api
+- collection_type: open
+  name: Bridge RESO Web Agents Member API
+  slug: open-bridge-mls-member-api
+- collection_type: open
+  name: Bridge RESO Web Agents Metadata API
+  slug: open-bridge-mls-metadata-api
+- collection_type: open
+  name: Bridge RESO Web Agents Office API
+  slug: open-bridge-mls-office-api
+- collection_type: open
+  name: Bridge RESO Web Agents Offices API
+  slug: open-bridge-mls-offices-api
+- collection_type: open
+  name: Bridge RESO Web Agents OpenHouse API
+  slug: open-bridge-mls-openhouse-api
+- collection_type: open
+  name: Bridge RESO Web Agents OpenHouses API
+  slug: open-bridge-mls-openhouses-api
+- collection_type: open
+  name: Bridge RESO Web Agents Property API
+  slug: open-bridge-mls-property-api
+- collection_type: open
+  name: Bridge RESO Web Agents Webhooks API
+  slug: open-bridge-mls-webhooks-api
 - collection_type: open
   name: Bridge RESO Web API
   slug: open-bridge-reso-web-api
@@ -304,7 +340,7 @@ plans:
 - name: Bridge Mls Plans Pricing
   plan_count: 3
   slug: bridge-mls-plans-pricing
-random_paper: 38
+random_paper: 104
 rate_limits:
 - limit_count: 4
   name: Bridge Mls Rate Limits
@@ -344,7 +380,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/screenshots/bridge-mls-2026-06-20T173655.png
 security:

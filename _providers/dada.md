@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Dada
 nav: Providers
 network: true
 overview: Dada is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Delivery, Logistics, and Instant Retail.
-random_paper: 34
+random_paper: 96
 score:
   band: minimal
   composite: 6.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dada/refs/heads/main/screenshots/dada-2026-07-25T211134.png
 security:

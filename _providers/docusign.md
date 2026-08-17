@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 7
@@ -497,7 +497,7 @@ arazzos:
 - description: Check an envelope's status and void it only if signing has not yet completed.
   name: DocuSign Void Envelope If Not Completed
   slug: docusign-void-envelope-if-not-completed-workflow
-artifact_total: 333
+artifact_total: 458
 asyncapis:
 - description: DocuSign Connect is a webhook notification service that sends real-time updates about envelope and recipient events to your application. Connect pushes notifications to your listener endpoint when env
   name: DocuSign Connect Webhooks
@@ -525,8 +525,383 @@ collections:
   name: DocuSign Rooms API - v2
   slug: postman-docusign-rooms-openapi-original
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DocuSign Admin AccountBrands API
+  slug: open-docusign-accountbrands-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountConsumerDisclosures API
+  slug: open-docusign-accountconsumerdisclosures-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountCustomFields API
+  slug: open-docusign-accountcustomfields-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountPasswordRules API
+  slug: open-docusign-accountpasswordrules-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountPermissionProfiles API
+  slug: open-docusign-accountpermissionprofiles-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Accounts API
+  slug: open-docusign-accounts-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountSealProviders API
+  slug: open-docusign-accountsealproviders-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountSettingsExport API
+  slug: open-docusign-accountsettingsexport-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountSettingsImport API
+  slug: open-docusign-accountsettingsimport-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountSignatureProviders API
+  slug: open-docusign-accountsignatureproviders-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountTabSettings API
+  slug: open-docusign-accounttabsettings-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands AccountWatermarks API
+  slug: open-docusign-accountwatermarks-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Authentication API
+  slug: open-docusign-authentication-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands BillingPlans API
+  slug: open-docusign-billingplans-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ChunkedUploads API
+  slug: open-docusign-chunkeduploads-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ClickWraps API
+  slug: open-docusign-clickwraps-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ClosingStatuses API
+  slug: open-docusign-closingstatuses-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands CloudStorage API
+  slug: open-docusign-cloudstorage-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands CloudStorageProviders API
+  slug: open-docusign-cloudstorageproviders-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Comments API
+  slug: open-docusign-comments-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ConnectConfigurations API
+  slug: open-docusign-connectconfigurations-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ConnectEvents API
+  slug: open-docusign-connectevents-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ConnectSecret API
+  slug: open-docusign-connectsecret-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Contacts API
+  slug: open-docusign-contacts-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ContactSides API
+  slug: open-docusign-contactsides-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Countries API
+  slug: open-docusign-countries-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Currencies API
+  slug: open-docusign-currencies-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands CustomTabs API
+  slug: open-docusign-customtabs-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands DataSet API
+  slug: open-docusign-dataset-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Documents API
+  slug: open-docusign-documents-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ENoteConfigurations API
+  slug: open-docusign-enoteconfigurations-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeAttachments API
+  slug: open-docusign-envelopeattachments-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeConsumerDisclosures API
+  slug: open-docusign-envelopeconsumerdisclosures-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeCustomFields API
+  slug: open-docusign-envelopecustomfields-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeDocumentFields API
+  slug: open-docusign-envelopedocumentfields-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeDocumentHtmlDefinitions API
+  slug: open-docusign-envelopedocumenthtmldefinitions-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeDocuments API
+  slug: open-docusign-envelopedocuments-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeDocumentTabs API
+  slug: open-docusign-envelopedocumenttabs-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeDocumentVisibility API
+  slug: open-docusign-envelopedocumentvisibility-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeEmailSettings API
+  slug: open-docusign-envelopeemailsettings-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeFormData API
+  slug: open-docusign-envelopeformdata-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeHtmlDefinitions API
+  slug: open-docusign-envelopehtmldefinitions-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeLocks API
+  slug: open-docusign-envelopelocks-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeRecipients API
+  slug: open-docusign-enveloperecipients-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeRecipientTabs API
+  slug: open-docusign-enveloperecipienttabs-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Envelopes API
+  slug: open-docusign-envelopes-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeTemplates API
+  slug: open-docusign-envelopetemplates-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands EnvelopeViews API
+  slug: open-docusign-envelopeviews-api
+- collection_type: open
   name: DocuSign eSignature REST API
   slug: open-docusign-esignature
+- collection_type: open
+  name: DocuSign Admin AccountBrands ESignPermissionProfiles API
+  slug: open-docusign-esignpermissionprofiles-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands eSignUserManagement API
+  slug: open-docusign-esignusermanagement-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ExternalFormFillSessions API
+  slug: open-docusign-externalformfillsessions-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Fields API
+  slug: open-docusign-fields-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands FinancingTypes API
+  slug: open-docusign-financingtypes-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Folders API
+  slug: open-docusign-folders-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands FormDetails API
+  slug: open-docusign-formdetails-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands FormGroups API
+  slug: open-docusign-formgroups-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands FormLibraries API
+  slug: open-docusign-formlibraries-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands FormProviders API
+  slug: open-docusign-formproviders-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands GroupBrands API
+  slug: open-docusign-groupbrands-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Groups API
+  slug: open-docusign-groups-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands GroupUsers API
+  slug: open-docusign-groupusers-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands IdentityProviders API
+  slug: open-docusign-identityproviders-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands IdentityVerifications API
+  slug: open-docusign-identityverifications-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Invoices API
+  slug: open-docusign-invoices-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands MultiProductUserManagement API
+  slug: open-docusign-multiproductusermanagement-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands NotaryJournals API
+  slug: open-docusign-notaryjournals-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Offices API
+  slug: open-docusign-offices-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Organization API
+  slug: open-docusign-organization-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands OriginsOfLeads API
+  slug: open-docusign-originsofleads-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands PaymentGatewayAccounts API
+  slug: open-docusign-paymentgatewayaccounts-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Payments API
+  slug: open-docusign-payments-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands PowerFormData API
+  slug: open-docusign-powerformdata-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands PowerForms API
+  slug: open-docusign-powerforms-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands PropertyTypes API
+  slug: open-docusign-propertytypes-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Recipients API
+  slug: open-docusign-recipients-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Regions API
+  slug: open-docusign-regions-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands RequestLogs API
+  slug: open-docusign-requestlogs-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands ReservedDomains API
+  slug: open-docusign-reserveddomains-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Resources API
+  slug: open-docusign-resources-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Roles API
+  slug: open-docusign-roles-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands RoomContactTypes API
+  slug: open-docusign-roomcontacttypes-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands RoomFolders API
+  slug: open-docusign-roomfolders-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Rooms API
+  slug: open-docusign-rooms-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands RoomTemplates API
+  slug: open-docusign-roomtemplates-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands SellerDecisionTypes API
+  slug: open-docusign-sellerdecisiontypes-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Service Information API
+  slug: open-docusign-service-information-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands SigningGroups API
+  slug: open-docusign-signinggroups-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands SigningGroupUsers API
+  slug: open-docusign-signinggroupusers-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands SingleAccountUserImport API
+  slug: open-docusign-singleaccountuserimport-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands SpecialCircumstanceTypes API
+  slug: open-docusign-specialcircumstancetypes-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands States API
+  slug: open-docusign-states-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Tabs API
+  slug: open-docusign-tabs-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TaskDateTypes API
+  slug: open-docusign-taskdatetypes-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TaskLists API
+  slug: open-docusign-tasklists-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TaskListTemplates API
+  slug: open-docusign-tasklisttemplates-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TaskResponsibilityTypes API
+  slug: open-docusign-taskresponsibilitytypes-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TaskStatuses API
+  slug: open-docusign-taskstatuses-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateBulkRecipients API
+  slug: open-docusign-templatebulkrecipients-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateCustomFields API
+  slug: open-docusign-templatecustomfields-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateDocumentFields API
+  slug: open-docusign-templatedocumentfields-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateDocumentHtmlDefinitions API
+  slug: open-docusign-templatedocumenthtmldefinitions-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateDocuments API
+  slug: open-docusign-templatedocuments-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateDocumentTabs API
+  slug: open-docusign-templatedocumenttabs-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateDocumentVisibility API
+  slug: open-docusign-templatedocumentvisibility-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateHtmlDefinitions API
+  slug: open-docusign-templatehtmldefinitions-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateLocks API
+  slug: open-docusign-templatelocks-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateRecipients API
+  slug: open-docusign-templaterecipients-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateRecipientTabs API
+  slug: open-docusign-templaterecipienttabs-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Templates API
+  slug: open-docusign-templates-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TemplateViews API
+  slug: open-docusign-templateviews-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TimeZones API
+  slug: open-docusign-timezones-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands TransactionSides API
+  slug: open-docusign-transactionsides-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands UserCustomSettings API
+  slug: open-docusign-usercustomsettings-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands UserExport API
+  slug: open-docusign-userexport-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands UserImport API
+  slug: open-docusign-userimport-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands UserProfiles API
+  slug: open-docusign-userprofiles-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Users API
+  slug: open-docusign-users-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands UserSignatures API
+  slug: open-docusign-usersignatures-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands UserSocialAccountLogins API
+  slug: open-docusign-usersocialaccountlogins-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands WorkflowInstanceManagement API
+  slug: open-docusign-workflowinstancemanagement-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands WorkflowManagement API
+  slug: open-docusign-workflowmanagement-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands WorkflowTrigger API
+  slug: open-docusign-workflowtrigger-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands WorkspaceItems API
+  slug: open-docusign-workspaceitems-api
+- collection_type: open
+  name: DocuSign Admin AccountBrands Workspaces API
+  slug: open-docusign-workspaces-api
 common:
 - group: agent
   title: ''
@@ -1214,7 +1589,7 @@ plans:
 - name: Docusign Plans Pricing
   plan_count: 4
   slug: docusign-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 4
   name: Docusign Rate Limits
@@ -1269,7 +1644,7 @@ score:
       marker_coverage: 0.0
       total: 128
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png
 security:

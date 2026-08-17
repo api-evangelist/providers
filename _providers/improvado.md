@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,19 +22,25 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: derived
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 54.3
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
 - description: Workspace-scoped REST API for embedding Improvado's data extraction, transformation, and load pipeline into agency and platform products. Manages data sources, connections, accounts, extraction templa
   name: Improvado Embedded API v3
   slug: improvado-embedded-api-v3
-artifact_total: 7
+- description: Hosted, remote Model Context Protocol server exposing Improvado's marketing data platform to any MCP client (Claude, ChatGPT/Codex, Gemini CLI, Antigravity, Cursor) as 83 published tools across twelve
+  name: Improvado Customer MCP
+  slug: improvado-customer-mcp
+- description: Free, unauthenticated plain-text question endpoint for AI agents. POST a question and receive a cited plain-text answer about marketing data architecture, connectors, pipelines, attribution and MCP de
+  name: Improvado Public Agent Ask API
+  slug: improvado-public-agent-ask-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Improvado Webhooks
@@ -168,6 +174,50 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/improvado-agent-ask-openapi.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/improvado-agent-ask-overlay.yaml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/improvado-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/improvado-scopes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/improvado-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/improvado-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/improvado-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/improvado-rate-limits.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/improvado-components.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/improvado-site-llms.txt
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/tekliner/improvado-agentic-frameworks-and-skills
 created: '2026-07-17'
 description: Improvado is a marketing intelligence and AI-agent platform that connects, extracts, transforms, and loads data from 876+ marketing, advertising, sales, and analytics sources into governed data pipelines, warehouses, and BI tools. Its Embedded API v3 (base https://embedded.improvado.io, all paths under /api/v3/) gives agencies and platforms programmatic, workspace-scoped control over data sources, connections and accounts, extraction templates and extracts, destinations, data tables, loads, automated recipes, custom roles, and webhook endpoints for load, transformation, and extraction lifecycle events. Authentication is HTTP Basic for workspace management and short-lived Bearer tokens for workspace-scoped resources. The platform maintains a SOC 2 / HIPAA / GDPR trust center, a public status page, a dated API changelog, and a responsible-disclosure security program.
 image: https://improvado.io/-/astro/logo.png
@@ -176,28 +226,41 @@ mcp_servers:
 - description: ''
   name: improvado-mcp.yml
   slug: improvado-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Improvado
 nav: Providers
 network: true
-overview: 'Improvado publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Marketing Intelligence, Marketing Analytics, and Data Pipeline.
+overview: 'Improvado publishes 1 API on the [APIs.io](https://apis.io/) network: Public Agent Ask API. Tagged areas include Company, Marketing, Marketing Intelligence, Marketing Analytics, and Data Pipeline.
 
 
   The Improvado catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Improvado''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 17
+  Improvado''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 36 more developer resources.'
+plans:
+- name: Improvado Plans Pricing
+  plan_count: 4
+  slug: improvado-plans-pricing
+random_paper: 83
+rate_limits:
+- limit_count: 0
+  name: Improvado Rate Limits
+  slug: improvado-rate-limits
+scopes:
+- name: Improvado Scopes
+  scope_count: 3
+  slug: improvado-scopes
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.8
-  delta: 0.0
+  band: strong
+  composite: 63.0
+  delta: 11.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 56.0
-    discoverability: 75.9
-    governance: 12.5
+    commercial_clarity: 92.1
+    contract_quality: 55.2
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 50.0
   previous_composite: 51.8
   provenance:
@@ -205,14 +268,14 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/screenshots/improvado-2026-07-25T222205.png
 security:
 - kind: authentication
   name: Improvado Authentication
   slug: improvado-authentication
-  summary_line: http · 3 schemes
+  summary_line: http/oauth2/none · 5 schemes
 - kind: domain-security
   name: Improvado Domain Security
   slug: improvado-domain-security
@@ -237,5 +300,7 @@ tags:
 - Business Intelligence
 - Data Integration
 - AI Agents
+- MCP
+- Agent Readiness
 website: https://improvado.io
 ---

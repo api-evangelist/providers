@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Bookable session types, scheduling, and availability.
   name: Pixieset Sessions API
   slug: pixieset-sessions-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pixieset Studio & Gallery API (Modeled, Unofficial) Clients API
+  slug: open-pixieset-clients-api
+- collection_type: open
+  name: Pixieset Studio & Gallery API (Modeled, Unofficial) Clients Collections API
+  slug: open-pixieset-collections-api
+- collection_type: open
+  name: Pixieset Studio & Gallery API (Modeled, Unofficial) Clients Contracts API
+  slug: open-pixieset-contracts-api
+- collection_type: open
+  name: Pixieset Studio & Gallery API (Modeled, Unofficial) Clients Invoices API
+  slug: open-pixieset-invoices-api
+- collection_type: open
+  name: Pixieset Studio & Gallery API (Modeled, Unofficial) Clients Sessions API
+  slug: open-pixieset-sessions-api
 common:
 - group: agent
   title: ''
@@ -101,7 +120,7 @@ plans:
 - name: Pixieset Plans Pricing
   plan_count: 8
   slug: pixieset-plans-pricing
-random_paper: 35
+random_paper: 130
 score:
   band: thin
   composite: 31.1
@@ -122,7 +141,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

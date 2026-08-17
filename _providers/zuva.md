@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Optical character recognition.
   name: Zuva OCR API
   slug: zuva-ocr-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zuva DocAI Classification API
+  slug: open-zuva-classification-api
+- collection_type: open
+  name: Zuva DocAI Classification Field Extraction API
+  slug: open-zuva-field-extraction-api
+- collection_type: open
+  name: Zuva DocAI Classification Fields API
+  slug: open-zuva-fields-api
+- collection_type: open
+  name: Zuva DocAI Classification Files API
+  slug: open-zuva-files-api
+- collection_type: open
+  name: Zuva DocAI Classification OCR API
+  slug: open-zuva-ocr-api
 - collection_type: open
   name: Zuva DocAI API
   slug: open-zuva
@@ -124,7 +142,7 @@ plans:
 - name: Zuva Plans Pricing
   plan_count: 3
   slug: zuva-plans-pricing
-random_paper: 94
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Zuva Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

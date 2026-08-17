@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,11 @@ apis:
 - description: Retrieve PDF shipping documents associated with ODFL PRO numbers.
   name: Old Dominion Freight Line Documents API
   slug: old-dominion-freight-line-documents-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: ODFL Bill of Lading API
   slug: open-old-dominion-freight-line-bill-of-lading-api
@@ -60,10 +63,13 @@ collections:
   name: ODFL Document API
   slug: open-old-dominion-freight-line-document-api
 - collection_type: open
-  name: ODFL Pickup API
+  name: ODFL Bill of Lading Documents API
+  slug: open-old-dominion-freight-line-documents-api
+- collection_type: open
+  name: ODFL Bill of Lading Pickup API
   slug: open-old-dominion-freight-line-pickup-api
 - collection_type: open
-  name: ODFL Tracking API
+  name: ODFL Bill of Lading Tracking API
   slug: open-old-dominion-freight-line-tracking-api
 common:
 - group: agent
@@ -134,7 +140,7 @@ press:
 - date: '2026-05-25'
   title: Old Dominion Freight Line Meets Growing Demand in Six ...
   url: https://www.dcvelocity.com/articles/51838-old-dominion-freight-line-meets-growing-demand-in-six-markets-with-new-expanded-service-centers
-random_paper: 84
+random_paper: 100
 rate_limits:
 - limit_count: 1
   name: Old Dominion Freight Line Rate Limits
@@ -159,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/screenshots/old-dominion-freight-line-2026-06-20T190653.png
 security:

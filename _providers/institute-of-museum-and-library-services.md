@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The IMLS Data Catalog provides public access to IMLS grants data and museum information through an API, enabling researchers and developers to access grant information, museum locations, and program d
@@ -80,7 +80,7 @@ plans:
 - name: Institute Of Museum And Library Services Plans Pricing
   plan_count: 3
   slug: institute-of-museum-and-library-services-plans-pricing
-random_paper: 79
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Institute Of Museum And Library Services Rate Limits
@@ -104,7 +104,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

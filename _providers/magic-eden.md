@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -96,17 +96,92 @@ apis:
 - description: Get information of a wallet
   name: Magic Eden wallets API
   slug: magic-eden-wallets-api
-artifact_total: 55
+artifact_total: 80
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Magic Eden EVM Activity API
+  slug: open-magic-eden-activity-api
+- collection_type: open
+  name: Magic Eden EVM Activity Assets API
+  slug: open-magic-eden-assets-api
+- collection_type: open
+  name: NFTTOOLS API DOCS FOR MAGIC EDEN Bitcoin API
+  slug: open-magic-eden-bitcoin-api
+- collection_type: open
+  name: Magic Eden EVM Activity Blocks API
+  slug: open-magic-eden-blocks-api
+- collection_type: open
+  name: Magic Eden EVM Activity Collections API
+  slug: open-magic-eden-collections-api
+- collection_type: open
+  name: NFTTOOLS API DOCS FOR MAGIC EDEN Bitcoin EVM API
+  slug: open-magic-eden-evm-api
 - collection_type: open
   name: Magic Eden EVM API
   slug: open-magic-eden-evm
 - collection_type: open
+  name: NFTTOOLS API DOCS FOR MAGIC EDEN Bitcoin General API
+  slug: open-magic-eden-general-api
+- collection_type: open
+  name: Magic Eden EVM Activity instructions API
+  slug: open-magic-eden-instructions-api
+- collection_type: open
+  name: Magic Eden EVM Activity Ixs API
+  slug: open-magic-eden-ixs-api
+- collection_type: open
+  name: Magic Eden EVM Activity launchpad API
+  slug: open-magic-eden-launchpad-api
+- collection_type: open
+  name: Magic Eden EVM Activity magic-ticket API
+  slug: open-magic-eden-magic-ticket-api
+- collection_type: open
+  name: Magic Eden EVM Activity marketplace API
+  slug: open-magic-eden-marketplace-api
+- collection_type: open
+  name: Magic Eden EVM Activity mmm API
+  slug: open-magic-eden-mmm-api
+- collection_type: open
+  name: Magic Eden EVM Activity Orders API
+  slug: open-magic-eden-orders-api
+- collection_type: open
   name: Magic Eden Bitcoin Ordinals API
   slug: open-magic-eden-ordinals
 - collection_type: open
+  name: Magic Eden EVM Activity Rare Sats API
+  slug: open-magic-eden-rare-sats-api
+- collection_type: open
+  name: NFTTOOLS API DOCS FOR MAGIC EDEN Bitcoin Rewards API
+  slug: open-magic-eden-rewards-api
+- collection_type: open
+  name: Magic Eden EVM Activity Runes Info API
+  slug: open-magic-eden-runes-info-api
+- collection_type: open
+  name: Magic Eden EVM Activity Runes Listing API
+  slug: open-magic-eden-runes-listing-api
+- collection_type: open
+  name: Magic Eden EVM Activity Runes Market Sell API
+  slug: open-magic-eden-runes-market-sell-api
+- collection_type: open
+  name: Magic Eden EVM Activity Runes Swap API
+  slug: open-magic-eden-runes-swap-api
+- collection_type: open
+  name: Magic Eden EVM Activity Runes Sweeping API
+  slug: open-magic-eden-runes-sweeping-api
+- collection_type: open
+  name: NFTTOOLS API DOCS FOR MAGIC EDEN Bitcoin Solana API
+  slug: open-magic-eden-solana-api
+- collection_type: open
   name: Magic Eden Solana API
   slug: open-magic-eden-solana
+- collection_type: open
+  name: Magic Eden EVM Activity Tokens API
+  slug: open-magic-eden-tokens-api
+- collection_type: open
+  name: Magic Eden EVM Activity wallets API
+  slug: open-magic-eden-wallets-api
 common:
 - group: operate
   title: ''
@@ -300,7 +375,7 @@ plans:
 - name: Magic Eden Plans
   plan_count: 2
   slug: magic-eden-plans
-random_paper: 10
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Magic Eden Rate Limits
@@ -334,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/screenshots/magic-eden-2026-06-20T184844.png
 security:

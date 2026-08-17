@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Tiles API from Jawg Maps — 2 operation(s) for tiles.
   name: Jawg Maps Tiles API
   slug: jawg-maps-tiles-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jawg Maps Isochrone API
+  slug: open-jawg-maps-isochrone-api
+- collection_type: open
+  name: Jawg Maps Isochrone Matrix API
+  slug: open-jawg-maps-matrix-api
+- collection_type: open
+  name: Jawg Maps Isochrone Places API
+  slug: open-jawg-maps-places-api
+- collection_type: open
+  name: Jawg Maps Isochrone Routing API
+  slug: open-jawg-maps-routing-api
+- collection_type: open
+  name: Jawg Maps Isochrone Static Maps API
+  slug: open-jawg-maps-static-maps-api
+- collection_type: open
+  name: Jawg Maps Isochrone Styles API
+  slug: open-jawg-maps-styles-api
+- collection_type: open
+  name: Jawg Maps Isochrone Tiles API
+  slug: open-jawg-maps-tiles-api
 - collection_type: open
   name: Jawg Maps API
   slug: open-jawg-maps
@@ -130,7 +154,7 @@ plans:
 - name: Jawg Maps Plans Pricing
   plan_count: 4
   slug: jawg-maps-plans-pricing
-random_paper: 63
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Jawg Maps Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/screenshots/jawg-maps-2026-07-25T223104.png
 security:

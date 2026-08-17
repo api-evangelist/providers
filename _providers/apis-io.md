@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ arazzos:
 - description: Submit a valid APIs.json to the APIs.io index, then search the registry to confirm the submitted API appears.
   name: APIs.io Submit and Verify API
   slug: apis-io-submit-and-verify-api-workflow
-artifact_total: 93
+artifact_total: 105
 collections:
 - collection_type: postman
   name: .io Search APIs API
@@ -121,6 +121,42 @@ collections:
 - collection_type: postman
   name: .io Search APIs Tags API
   slug: postman-apis-io-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: .io Search APIs API
+  slug: open-apis-io-apis-api
+- collection_type: open
+  name: .io Search APIs Areas API
+  slug: open-apis-io-areas-api
+- collection_type: open
+  name: .io Search APIs Artifact Types API
+  slug: open-apis-io-artifact-types-api
+- collection_type: open
+  name: .io Search APIs Industries API
+  slug: open-apis-io-industries-api
+- collection_type: open
+  name: .io Search APIs Insights API
+  slug: open-apis-io-insights-api
+- collection_type: open
+  name: .io Search APIs Providers API
+  slug: open-apis-io-providers-api
+- collection_type: open
+  name: .io Search APIs Ratings API
+  slug: open-apis-io-ratings-api
+- collection_type: open
+  name: .io Search APIs Regions API
+  slug: open-apis-io-regions-api
+- collection_type: open
+  name: .io APIs Search API
+  slug: open-apis-io-search-api
+- collection_type: open
+  name: .io Search APIs Synthesis API
+  slug: open-apis-io-synthesis-api
+- collection_type: open
+  name: .io Search APIs Tags API
+  slug: open-apis-io-tags-api
 common:
 - group: operate
   title: ''
@@ -515,7 +551,7 @@ plans:
 - name: Apis Io Plans Pricing
   plan_count: 3
   slug: apis-io-plans-pricing
-random_paper: 90
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Apis Io Rate Limits
@@ -560,7 +596,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-06-20T172253.png
 security:

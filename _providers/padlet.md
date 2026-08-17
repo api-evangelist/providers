@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: The Users API from Padlet — 1 operation(s) for users.
   name: Padlet Users API
   slug: padlet-users-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Padlet AI Recipe Boards API
+  slug: open-padlet-ai-recipe-boards-api
+- collection_type: open
+  name: Padlet AI Recipe Boards API
+  slug: open-padlet-boards-api
+- collection_type: open
+  name: Padlet AI Recipe Boards Comments API
+  slug: open-padlet-comments-api
+- collection_type: open
+  name: Padlet AI Recipe Boards Organizations API
+  slug: open-padlet-organizations-api
+- collection_type: open
+  name: Padlet AI Recipe Boards Posts API
+  slug: open-padlet-posts-api
+- collection_type: open
+  name: Padlet AI Recipe Boards Reactions API
+  slug: open-padlet-reactions-api
+- collection_type: open
+  name: Padlet AI Recipe Boards Users API
+  slug: open-padlet-users-api
 common:
 - group: auth
   title: ''
@@ -190,7 +215,7 @@ overview: 'Padlet publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Padlet''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 34
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Padlet Rate Limits
@@ -218,7 +243,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/screenshots/padlet-2026-08-07T191252.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: The Transactions API from Basescan — 2 operation(s) for transactions.
   name: Basescan Transactions API
   slug: basescan-transactions-api
-artifact_total: 17
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Basescan Accounts API
+  slug: open-basescan-accounts-api
+- collection_type: open
+  name: Basescan Accounts API PRO Endpoints API
+  slug: open-basescan-api-pro-endpoints-api
+- collection_type: open
+  name: Basescan Accounts Blocks API
+  slug: open-basescan-blocks-api
+- collection_type: open
+  name: Basescan Accounts Contracts API
+  slug: open-basescan-contracts-api
+- collection_type: open
+  name: Basescan Accounts Gas Tracker API
+  slug: open-basescan-gas-tracker-api
+- collection_type: open
+  name: Basescan Accounts Geth/Parity Proxy API
+  slug: open-basescan-geth-parity-proxy-api
+- collection_type: open
+  name: Basescan Accounts Logs API
+  slug: open-basescan-logs-api
+- collection_type: open
+  name: Basescan Accounts Stats API
+  slug: open-basescan-stats-api
+- collection_type: open
+  name: Basescan Accounts Tokens API
+  slug: open-basescan-tokens-api
+- collection_type: open
+  name: Basescan Accounts Transactions API
+  slug: open-basescan-transactions-api
 common:
 - group: agent
   title: ''
@@ -135,7 +169,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 112
+random_paper: 87
 rate_limits:
 - limit_count: 7
   name: Rate Limits
@@ -160,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -52,7 +52,7 @@ name: Clearstep
 nav: Providers
 network: true
 overview: Clearstep is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Clinical Triage, and Symptom Checker.
-random_paper: 3
+random_paper: 69
 score:
   band: minimal
   composite: 7.7
@@ -72,7 +72,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearstep/refs/heads/main/screenshots/clearstep-2026-07-25T205549.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -72,7 +72,44 @@ apis:
 - description: Workflow management
   name: Semaphore Workflows API
   slug: semaphore-workflows-api
-artifact_total: 20
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Semaphore Public Dashboards API
+  slug: open-semaphore-dashboards-api
+- collection_type: open
+  name: Semaphore Public Dashboards DeploymentTargets API
+  slug: open-semaphore-deploymenttargets-api
+- collection_type: open
+  name: Semaphore Public Dashboards Notifications API
+  slug: open-semaphore-notifications-api
+- collection_type: open
+  name: Semaphore Public Dashboards Pipelines API
+  slug: open-semaphore-pipelines-api
+- collection_type: open
+  name: Semaphore Public Dashboards Projects API
+  slug: open-semaphore-projects-api
+- collection_type: open
+  name: Semaphore Public Dashboards ProjectSecrets API
+  slug: open-semaphore-projectsecrets-api
+- collection_type: open
+  name: Semaphore Public Dashboards Secrets API
+  slug: open-semaphore-secrets-api
+- collection_type: open
+  name: Semaphore Public Dashboards SelfHostedAgents API
+  slug: open-semaphore-selfhostedagents-api
+- collection_type: open
+  name: Semaphore Public Dashboards SelfHostedAgentTypes API
+  slug: open-semaphore-selfhostedagenttypes-api
+- collection_type: open
+  name: Semaphore Public Dashboards Tasks API
+  slug: open-semaphore-tasks-api
+- collection_type: open
+  name: Semaphore Public Dashboards Workflows API
+  slug: open-semaphore-workflows-api
 common:
 - group: agent
   title: ''
@@ -166,7 +203,7 @@ plans:
 - name: Semaphore Plans Pricing
   plan_count: 4
   slug: semaphore-plans-pricing
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 6
   name: Semaphore Rate Limits
@@ -191,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/screenshots/semaphore-2026-06-20T193644.png
 security:

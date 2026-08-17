@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Search live routes, schedules, capacity, availability and rates across CargoAi's airline network from a single POST /search call, returning quotable flight options with rate types, transit times and C
@@ -45,7 +45,29 @@ apis:
 - description: A hosted Model Context Protocol server that wraps the CargoCONNECT endpoints as tools for AI assistants - track a shipment by AWB, search flight rates, look up airline contacts and ground handling age
   name: CargoAi MCP Connector
   slug: cargoai-mcp-connector
-artifact_total: 8
+artifact_total: 15
+collections:
+- collection_type: open
+  name: Solutions
+  slug: open-cargoai-booking-api
+- collection_type: open
+  name: Solutions
+  slug: open-cargoai-cargo2zero-api
+- collection_type: open
+  name: Solutions
+  slug: open-cargoai-cargocopilot-api
+- collection_type: open
+  name: Solutions
+  slug: open-cargoai-fwb-fhl-api
+- collection_type: open
+  name: Solutions
+  slug: open-cargoai-routes-schedules-and-rates-api
+- collection_type: open
+  name: Solutions
+  slug: open-cargoai-track-and-trace-api
+- collection_type: open
+  name: Solutions
+  slug: open-cargoai-user-provisioning-api
 common:
 - group: company
   title: ''
@@ -116,7 +138,7 @@ overview: 'CargoAi publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   CargoAi''s developer surface includes documentation, API reference, changelog, engineering blog, developer portal, signup flow, and 8 more developer resources.'
-random_paper: 6
+random_paper: 130
 score:
   band: emerging
   composite: 22.4
@@ -136,7 +158,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargoai/refs/heads/main/screenshots/cargoai-2026-08-07T163015.png
 slug: cargoai

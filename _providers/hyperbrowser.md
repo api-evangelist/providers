@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 12
@@ -109,7 +109,7 @@ arazzos:
 - description: Search the web, confirm results, then fetch the top result page as markdown.
   name: Hyperbrowser Web Search then Fetch
   slug: hyperbrowser-web-search-then-fetch-workflow
-artifact_total: 60
+artifact_total: 65
 collections:
 - collection_type: postman
   name: Hyperbrowser Agents API
@@ -136,29 +136,44 @@ collections:
   name: Hyperbrowser Web API
   slug: postman-hyperbrowser-web-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Hyperbrowser Agents API
   slug: open-hyperbrowser-agents-api
 - collection_type: open
-  name: Hyperbrowser Crawl API
+  name: Hyperbrowser Agents Crawl API
   slug: open-hyperbrowser-crawl-api
 - collection_type: open
-  name: Hyperbrowser Extensions API
+  name: Hyperbrowser Agents Extensions API
   slug: open-hyperbrowser-extensions-api
 - collection_type: open
-  name: Hyperbrowser Extract API
+  name: Hyperbrowser Agents Extract API
   slug: open-hyperbrowser-extract-api
 - collection_type: open
-  name: Hyperbrowser Profiles API
+  name: Hyperbrowser Agents Profile API
+  slug: open-hyperbrowser-profile-api
+- collection_type: open
+  name: Hyperbrowser Agents Profiles API
   slug: open-hyperbrowser-profiles-api
 - collection_type: open
-  name: Hyperbrowser Scrape API
+  name: Hyperbrowser Agents Scrape API
   slug: open-hyperbrowser-scrape-api
 - collection_type: open
-  name: Hyperbrowser Sessions API
+  name: Hyperbrowser Agents Session API
+  slug: open-hyperbrowser-session-api
+- collection_type: open
+  name: Hyperbrowser Agents Sessions API
   slug: open-hyperbrowser-sessions-api
 - collection_type: open
-  name: Hyperbrowser Web API
+  name: Hyperbrowser Agents Task API
+  slug: open-hyperbrowser-task-api
+- collection_type: open
+  name: Hyperbrowser Agents Web API
   slug: open-hyperbrowser-web-api
+- collection_type: open
+  name: Hyperbrowser Agents X402 API
+  slug: open-hyperbrowser-x402-api
 - collection_type: open
   name: Hyperbrowser API
   slug: open-hyperbrowser
@@ -395,7 +410,7 @@ plans:
 - name: Hyperbrowser Plans Pricing
   plan_count: 1
   slug: hyperbrowser-plans-pricing
-random_paper: 4
+random_paper: 132
 rate_limits:
 - limit_count: 2
   name: Hyperbrowser Rate Limits
@@ -437,7 +452,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/screenshots/hyperbrowser-2026-06-20T183036.png
 security:

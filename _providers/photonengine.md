@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -65,11 +65,21 @@ apis:
 - description: Endpoints Photon's Game Server calls (HTTP POST) at points in a room's lifecycle. You implement these; Photon is the caller.
   name: Photon Engine Room Lifecycle WebHooks API
   slug: photonengine-room-lifecycle-webhooks-api
-artifact_total: 17
+artifact_total: 20
 asyncapis:
 - description: AsyncAPI 2.6 description of Photon's **WebSocket transport** for the Photon Realtime binary protocol. Photon Realtime (and everything built on it - PUN, Fusion, Quantum, Voice, Chat) is **not** a JSON
   name: Photon Realtime Transport Protocol over WebSocket
   slug: photonengine-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Photon WebHooks and Webservice Contract Custom Authentication API
+  slug: open-photonengine-custom-authentication-api
+- collection_type: open
+  name: Photon WebHooks and Webservice Contract Custom Authentication Room Lifecycle WebHooks API
+  slug: open-photonengine-room-lifecycle-webhooks-api
 common:
 - group: agent
   title: ''
@@ -135,7 +145,7 @@ plans:
 - name: Photonengine Plans Pricing
   plan_count: 6
   slug: photonengine-plans-pricing
-random_paper: 94
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Photonengine Rate Limits
@@ -169,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

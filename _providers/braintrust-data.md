@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -75,12 +75,51 @@ apis:
 - description: The Prompts API from Braintrust — 2 operation(s) for prompts.
   name: Braintrust Prompts API
   slug: braintrust-data-prompts-api
-artifact_total: 21
+artifact_total: 34
 asyncapis:
 - description: AsyncAPI description of Braintrust's documented HTTP Server-Sent Events (SSE) streams. Braintrust does NOT expose a WebSocket API. Streaming is delivered as one-way HTTP SSE over the same REST endpoin
   name: Braintrust Streaming (SSE) API
   slug: braintrust-data-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Braintrust REST ACL API
+  slug: open-braintrust-data-acl-api
+- collection_type: open
+  name: Braintrust REST ACL AI Proxy API
+  slug: open-braintrust-data-ai-proxy-api
+- collection_type: open
+  name: Braintrust REST ACL Credentials API
+  slug: open-braintrust-data-credentials-api
+- collection_type: open
+  name: Braintrust REST ACL Datasets API
+  slug: open-braintrust-data-datasets-api
+- collection_type: open
+  name: Braintrust REST ACL Evals API
+  slug: open-braintrust-data-evals-api
+- collection_type: open
+  name: Braintrust REST ACL Experiments API
+  slug: open-braintrust-data-experiments-api
+- collection_type: open
+  name: Braintrust REST ACL Functions API
+  slug: open-braintrust-data-functions-api
+- collection_type: open
+  name: Braintrust REST ACL Logs API
+  slug: open-braintrust-data-logs-api
+- collection_type: open
+  name: Braintrust REST ACL Organization API
+  slug: open-braintrust-data-organization-api
+- collection_type: open
+  name: Braintrust REST ACL Project Configuration API
+  slug: open-braintrust-data-project-configuration-api
+- collection_type: open
+  name: Braintrust REST ACL Projects API
+  slug: open-braintrust-data-projects-api
+- collection_type: open
+  name: Braintrust REST ACL Prompts API
+  slug: open-braintrust-data-prompts-api
 - collection_type: open
   name: Braintrust REST API
   slug: open-braintrust-data
@@ -152,7 +191,7 @@ plans:
 - name: Braintrust Data Plans Pricing
   plan_count: 3
   slug: braintrust-data-plans-pricing
-random_paper: 117
+random_paper: 67
 rate_limits:
 - limit_count: 7
   name: Braintrust Data Rate Limits
@@ -186,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintrust-data/refs/heads/main/screenshots/braintrust-data-2026-06-20T173631.png
 security:

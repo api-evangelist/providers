@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: Presigned file-upload lifecycle for local-file ingestion.
   name: Adaption Labs Upload API
   slug: adaption-labs-upload-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adaption Adaptive Data Datasets API
+  slug: open-adaption-labs-datasets-api
+- collection_type: open
+  name: Adaption Adaptive Data Datasets Upload API
+  slug: open-adaption-labs-upload-api
 common:
 - group: other
   title: ''
@@ -166,7 +176,7 @@ overview: 'Adaption Labs publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Adaption Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 111
+random_paper: 119
 score:
   band: thin
   composite: 35.0
@@ -190,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/screenshots/adaption-labs-2026-07-25T181552.png
 security:

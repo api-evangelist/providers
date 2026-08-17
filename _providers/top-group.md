@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 23
 apis:
 - description: The Accounts API from TOP Group (The Open Platform) — 22 operation(s) for accounts.
@@ -100,11 +100,84 @@ apis:
 - description: The Webhooks API from TOP Group (The Open Platform) — 15 operation(s) for webhooks.
   name: TOP Group (The Open Platform) Webhooks API
   slug: top-group-webhooks-api
-artifact_total: 29
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Top Group Tonapi Webhooks
   slug: top-group-tonapi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts API
+  slug: open-top-group-accounts-api
+- collection_type: open
+  name: REST api to TON explorer Accounts Blockchain API
+  slug: open-top-group-blockchain-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Connect API
+  slug: open-top-group-connect-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts DNS API
+  slug: open-top-group-dns-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Emulation API
+  slug: open-top-group-emulation-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Events API
+  slug: open-top-group-events-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts ExtraCurrency API
+  slug: open-top-group-extracurrency-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Gasless API
+  slug: open-top-group-gasless-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Jettons API
+  slug: open-top-group-jettons-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Lite Server API
+  slug: open-top-group-lite-server-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Migration API
+  slug: open-top-group-migration-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Multisig API
+  slug: open-top-group-multisig-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts NFT API
+  slug: open-top-group-nft-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Purchases API
+  slug: open-top-group-purchases-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Rates API
+  slug: open-top-group-rates-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Rewards API
+  slug: open-top-group-rewards-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Staking API
+  slug: open-top-group-staking-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Storage API
+  slug: open-top-group-storage-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Traces API
+  slug: open-top-group-traces-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Usage Stats API
+  slug: open-top-group-usage-stats-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Utilities API
+  slug: open-top-group-utilities-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Wallet API
+  slug: open-top-group-wallet-api
+- collection_type: open
+  name: REST api to TON blockchain explorer Accounts Webhooks API
+  slug: open-top-group-webhooks-api
 common:
 - group: other
   title: ''
@@ -257,7 +330,7 @@ overview: 'TOP Group (The Open Platform) publishes 23 APIs on the [APIs.io](http
 
 
   TOP Group (The Open Platform)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 101
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Top Group Rate Limits
@@ -290,7 +363,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

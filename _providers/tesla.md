@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -50,7 +50,23 @@ apis:
 - description: The Vehicles API from Tesla — 11 operation(s) for vehicles.
   name: Tesla Vehicles API
   slug: tesla-vehicles-api
-artifact_total: 17
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tesla Authentication API
+  slug: open-tesla-authentication-api
+- collection_type: open
+  name: Tesla Authentication Media Control API
+  slug: open-tesla-media-control-api
+- collection_type: open
+  name: Tesla Authentication Vehicle Commands API
+  slug: open-tesla-vehicle-commands-api
+- collection_type: open
+  name: Tesla Authentication Vehicles API
+  slug: open-tesla-vehicles-api
 common:
 - group: commercial
   title: ''
@@ -156,7 +172,7 @@ plans:
 - name: Tesla Plans Pricing
   plan_count: 3
   slug: tesla-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Tesla Rate Limits
@@ -204,7 +220,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

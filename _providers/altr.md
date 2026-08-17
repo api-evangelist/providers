@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 10
@@ -236,11 +236,213 @@ apis:
 - description: Access DIS job and third party import information.
   name: ALTR Utility API
   slug: altr-utility-api
-artifact_total: 76
+artifact_total: 143
 asyncapis:
 - description: ''
   name: Altr Events Webhooks
   slug: altr-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unified Policy Access Request API
+  slug: open-altr-access-request-api
+- collection_type: open
+  name: ALTR Management Administrators API
+  slug: open-altr-administrators-api
+- collection_type: open
+  name: ALTR Telemetry Agent API
+  slug: open-altr-agent-api
+- collection_type: open
+  name: ALTR Sidecar/Agent Configuration Agent Tasks API
+  slug: open-altr-agent-tasks-api
+- collection_type: open
+  name: ALTR Sidecar/Agent Configuration Agents API
+  slug: open-altr-agents-api
+- collection_type: open
+  name: ALTR DAM Alerting Alerts API
+  slug: open-altr-alerts-api
+- collection_type: open
+  name: ALTR Classification Engine ALTR Managed Collections API
+  slug: open-altr-altr-managed-collections-api
+- collection_type: open
+  name: ALTR Management Anomalies API
+  slug: open-altr-anomalies-api
+- collection_type: open
+  name: ALTR Management Apikeys API
+  slug: open-altr-apikeys-api
+- collection_type: open
+  name: ALTR Management Applications API
+  slug: open-altr-applications-api
+- collection_type: open
+  name: Service User Service Auth API
+  slug: open-altr-auth-api
+- collection_type: open
+  name: Auto Tagging Auto Tagging API API
+  slug: open-altr-auto-tagging-api-api
+- collection_type: open
+  name: Critical Tokenization V2 Batch API
+  slug: open-altr-batch-api
+- collection_type: open
+  name: ALTR Management Classification API
+  slug: open-altr-classification-api
+- collection_type: open
+  name: ALTR Classification Engine Classification Jobs API
+  slug: open-altr-classification-jobs-api
+- collection_type: open
+  name: ALTR Classification Engine Classifiers API
+  slug: open-altr-classifiers-api
+- collection_type: open
+  name: ALTR Classification Engine Collections API
+  slug: open-altr-collections-api
+- collection_type: open
+  name: ALTR Audit Report Comments API
+  slug: open-altr-comments-api
+- collection_type: open
+  name: ALTR Management Configuration API
+  slug: open-altr-configuration-api
+- collection_type: open
+  name: Access Tokens Control Plane API
+  slug: open-altr-control-plane-api
+- collection_type: open
+  name: ALTR Management Data API
+  slug: open-altr-data-api
+- collection_type: open
+  name: ALTR Datastore Information Service Data Discovery API
+  slug: open-altr-data-discovery-api
+- collection_type: open
+  name: ALTR Datastore Information Service Data Masking API
+  slug: open-altr-data-masking-api
+- collection_type: open
+  name: ALTR Datastore Information Service Data Tagging API
+  slug: open-altr-data-tagging-api
+- collection_type: open
+  name: ALTR Management Databases API
+  slug: open-altr-databases-api
+- collection_type: open
+  name: ALTR — Tag-based governance policy on Databricks Databricks Tag Policy API
+  slug: open-altr-databricks-tag-policy-api
+- collection_type: open
+  name: ALTR Audit Report Definitions API
+  slug: open-altr-definitions-api
+- collection_type: open
+  name: ALTR Audit Report Instances API
+  slug: open-altr-instances-api
+- collection_type: open
+  name: ALTR Notification Integration Integrations API
+  slug: open-altr-integrations-api
+- collection_type: open
+  name: ALTR Management Maskingpolicies API
+  slug: open-altr-maskingpolicies-api
+- collection_type: open
+  name: ALTR Management Me API
+  slug: open-altr-me-api
+- collection_type: open
+  name: ALTR Management Metadata API
+  slug: open-altr-metadata-api
+- collection_type: open
+  name: ALTR Management Organization API
+  slug: open-altr-organization-api
+- collection_type: open
+  name: ALTR Management Plan API
+  slug: open-altr-plan-api
+- collection_type: open
+  name: Unified Policy API
+  slug: open-altr-policy-api
+- collection_type: open
+  name: Query Audits Query Audits API API
+  slug: open-altr-query-audits-api-api
+- collection_type: open
+  name: Query Dashboard Query Dashboard API API
+  slug: open-altr-query-dashboard-api-api
+- collection_type: open
+  name: RBAC RBAC API API
+  slug: open-altr-rbac-api-api
+- collection_type: open
+  name: Snowflake Tag Value Refresh Refresh Tag Value Job API
+  slug: open-altr-refresh-tag-value-job-api
+- collection_type: open
+  name: ALTR Sidecar/Agent Configuration Repo Users API
+  slug: open-altr-repo-users-api
+- collection_type: open
+  name: ALTR Sidecar/Agent Configuration Repos API
+  slug: open-altr-repos-api
+- collection_type: open
+  name: ALTR Management Rowaccess API
+  slug: open-altr-rowaccess-api
+- collection_type: open
+  name: Altr Rules API
+  slug: open-altr-rules-api
+- collection_type: open
+  name: ALTR Management SCIM API
+  slug: open-altr-scim-api
+- collection_type: open
+  name: ALTR Sidecar/Agent Configuration Service Users API
+  slug: open-altr-service-users-api
+- collection_type: open
+  name: ALTR Management Setup Guide API
+  slug: open-altr-setup-guide-api
+- collection_type: open
+  name: ALTR Telemetry Sidecar API
+  slug: open-altr-sidecar-api
+- collection_type: open
+  name: Sidecar Audit Sidecar Audit API API
+  slug: open-altr-sidecar-audit-api-api
+- collection_type: open
+  name: ALTR Sidecar/Agent Configuration Sidecar Listener Port and Repo bindings API
+  slug: open-altr-sidecar-listener-port-and-repo-bindings-api
+- collection_type: open
+  name: ALTR Sidecar/Agent Configuration Sidecar Listeners API
+  slug: open-altr-sidecar-listeners-api
+- collection_type: open
+  name: ALTR Sidecar/Agent Configuration Sidecars API
+  slug: open-altr-sidecars-api
+- collection_type: open
+  name: ALTR Audit Report Sign Off API
+  slug: open-altr-sign-off-api
+- collection_type: open
+  name: Snowflake Metadata Snowflake Metadata API API
+  slug: open-altr-snowflake-metadata-api-api
+- collection_type: open
+  name: ALTR Management SSO API
+  slug: open-altr-sso-api
+- collection_type: open
+  name: ALTR Notification Integration Subscriptions API
+  slug: open-altr-subscriptions-api
+- collection_type: open
+  name: ALTR Management Systemaudits API
+  slug: open-altr-systemaudits-api
+- collection_type: open
+  name: ALTR Management Systemaudits/query API
+  slug: open-altr-systemaudits-query-api
+- collection_type: open
+  name: Tag Masking Tag Masking API API
+  slug: open-altr-tag-masking-api-api
+- collection_type: open
+  name: ALTR Management Tags API
+  slug: open-altr-tags-api
+- collection_type: open
+  name: ALTR Telemetry Task API
+  slug: open-altr-task-api
+- collection_type: open
+  name: Service User Service Tasks API
+  slug: open-altr-tasks-api
+- collection_type: open
+  name: ALTR Management Thresholds API
+  slug: open-altr-thresholds-api
+- collection_type: open
+  name: ALTR DAM Alerting Unsubscribe API
+  slug: open-altr-unsubscribe-api
+- collection_type: open
+  name: ALTR Management Usergroups API
+  slug: open-altr-usergroups-api
+- collection_type: open
+  name: Service User Service Users API
+  slug: open-altr-users-api
+- collection_type: open
+  name: ALTR Datastore Information Service Utility API
+  slug: open-altr-utility-api
 common:
 - group: other
   title: ''
@@ -417,7 +619,7 @@ overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ALTR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 75
+random_paper: 137
 score:
   band: strong
   composite: 59.1
@@ -441,7 +643,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/screenshots/altr-2026-08-07T161253.png
 security:

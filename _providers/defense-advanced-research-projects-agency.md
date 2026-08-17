@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The DARPA RSS feed publishes the latest news, program announcements, and opportunities posted by the agency. Unlike a developer API, the feed is consumed via standard RSS readers and HTTP clients.
@@ -84,7 +84,7 @@ plans:
 - name: Defense Advanced Research Projects Agency Plans Pricing
   plan_count: 3
   slug: defense-advanced-research-projects-agency-plans-pricing
-random_paper: 2
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Defense Advanced Research Projects Agency Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-advanced-research-projects-agency/refs/heads/main/screenshots/defense-advanced-research-projects-agency-2026-06-20T175818.png
 security:

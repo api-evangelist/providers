@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -69,8 +69,26 @@ apis:
 - description: The Utilization API from Traiana — 1 operation(s) for utilization.
   name: Traiana Utilization API
   slug: traiana-utilization-api
-artifact_total: 31
+artifact_total: 42
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations API
+  slug: open-traiana-allocations-api
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations Compression API
+  slug: open-traiana-compression-api
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations Credit Limits API
+  slug: open-traiana-credit-limits-api
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations Designation Notices API
+  slug: open-traiana-designation-notices-api
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations Give-Ups API
+  slug: open-traiana-give-ups-api
 - collection_type: open
   name: Traiana Harmony CreditLink API
   slug: open-traiana-harmony-creditlink
@@ -80,6 +98,21 @@ collections:
 - collection_type: open
   name: Traiana Harmony Trade Processing API
   slug: open-traiana-harmony-trade-processing
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations Matching API
+  slug: open-traiana-matching-api
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations Netting API
+  slug: open-traiana-netting-api
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations Settlement API
+  slug: open-traiana-settlement-api
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations Trades API
+  slug: open-traiana-trades-api
+- collection_type: open
+  name: Traiana Harmony CreditLink Allocations Utilization API
+  slug: open-traiana-utilization-api
 common:
 - group: agent
   title: ''
@@ -179,7 +212,7 @@ plans:
 - name: Traiana Plans Pricing
   plan_count: 1
   slug: traiana-plans-pricing
-random_paper: 16
+random_paper: 140
 rate_limits:
 - limit_count: 1
   name: Traiana Rate Limits
@@ -221,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/screenshots/traiana-2026-06-20T195541.png
 security:

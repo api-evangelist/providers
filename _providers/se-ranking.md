@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 55.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 86
   slug: se-ranking-agentic-access
   summary_line: 86 operations · 28 acting
-api_count: 9
+api_count: 10
 apis:
 - description: REST API providing access to SE Ranking's SEO datasets including keyword research, backlink analysis, domain analysis, SERP data, website audits, and AI search visibility tracking. Uses a credit-based
   name: SE Ranking Data API
@@ -66,8 +67,96 @@ apis:
 - description: 'This collection of endpoints provides a comprehensive suite of tools to programmatically manage the full lifecycle of your technical SEO audits. These requests allow you to launch new crawls, monitor '
   name: SE Ranking Website Audit API
   slug: se-ranking-website-audit-api
-artifact_total: 26
+- description: 'Hosted remote Model Context Protocol server exposing 217 tools and 5 prompts across three SE Ranking surfaces: the credit-billed Data API (66 DATA_* tools, backed 1:1 by the published OpenAPI), the Pr'
+  name: SE Ranking MCP Server
+  slug: mcp-server
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SE Ranking Data Account & system API
+  slug: open-se-ranking-account-system-api
+- collection_type: open
+  name: SE Ranking Data Account & system AI search API
+  slug: open-se-ranking-ai-search-api
+- collection_type: open
+  name: SE Ranking Data Account & system backlinks API
+  slug: open-se-ranking-backlinks-api
+- collection_type: open
+  name: SE Ranking Data Account & system Domain Analysis API
+  slug: open-se-ranking-domain-analysis-api
+- collection_type: open
+  name: SE Ranking Data Account & system Keyword Research API
+  slug: open-se-ranking-keyword-research-api
+- collection_type: open
+  name: SE Ranking Data Account & system SERP Results > classic API
+  slug: open-se-ranking-serp-results-classic-api
+- collection_type: open
+  name: SE Ranking Data Account & system Website Audit API
+  slug: open-se-ranking-website-audit-api
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/se-ranking-data-api-openapi.yml
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/seranking/openapi
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/se-ranking-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/se-ranking-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/se-ranking-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/se-ranking-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/se-ranking-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/se-ranking-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/se-ranking-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/se-ranking-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/se-ranking-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/se-ranking-packages.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/se-ranking-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/se-ranking-llms.txt
 - group: agent
   title: ''
   type: AgenticAccess
@@ -84,13 +173,37 @@ common:
   title: ''
   type: Website
   url: https://seranking.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://seranking.com/api.html
 - group: docs
   title: ''
   type: Documentation
   url: https://seranking.com/api.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://seranking.com/api/data/reference/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://seranking.com/api/data/getting-started/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/serankingdev/se-ranking-developers/overview
+- group: operate
+  title: ''
+  type: Support
+  url: https://seranking.com/contact.html
 - group: build
   title: ''
   type: GitHubOrg
+  url: https://github.com/seranking
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/seranking
 - group: company
   title: ''
@@ -108,6 +221,18 @@ common:
   title: ''
   type: Pricing
   url: https://seranking.com/api-pricing.html
+- group: start
+  title: ''
+  type: SignUp
+  url: https://seranking.com/sign-up.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://seranking.com/terms-of-use.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://seranking.com/privacy-policy.html
 - group: operate
   title: ''
   type: StatusPage
@@ -166,7 +291,11 @@ jsonld:
   property_count: 42
   slug: se-ranking-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: se-ranking-mcp.yml
+  slug: se-ranking-mcpyml
+modified: '2026-08-13'
 name: SE Ranking
 nav: Providers
 network: true
@@ -176,12 +305,12 @@ overview: 'SE Ranking publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The SE Ranking catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SE Ranking''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  SE Ranking''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 31 more developer resources.'
 plans:
 - name: Se Ranking Plans Pricing
   plan_count: 6
   slug: se-ranking-plans-pricing
-random_paper: 47
+random_paper: 113
 rate_limits:
 - limit_count: 6
   name: Se Ranking Rate Limits
@@ -195,17 +324,22 @@ rules:
     info: 1
     warn: 4
   slug: se-ranking-jsonschema-spectral-rules
+scopes:
+- name: Se Ranking Scopes
+  scope_count: 1
+  slug: se-ranking-scopes
+  summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 51.8
-  delta: 0.0
+  band: exemplar
+  composite: 74.0
+  delta: 22.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 84.2
     contract_quality: 64.9
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    developer_ergonomics: 71.7
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 68.4
   previous_composite: 51.8
   provenance:
     agentic_access: derived
@@ -215,14 +349,14 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/screenshots/se-ranking-2026-06-20T193611.png
 security:
 - kind: authentication
   name: Se Ranking Authentication
   slug: se-ranking-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 4 schemes
 - kind: domain-security
   name: Se Ranking Domain Security
   slug: se-ranking-domain-security
@@ -238,5 +372,8 @@ tags:
 - AI Search
 - GEO
 - Digital Marketing
+- MCP
+- AI Agents
+- Agent Skills
 website: https://seranking.com
 ---

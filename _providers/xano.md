@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: Workspace details, branches, import/export.
   name: Xano Workspace API
   slug: xano-workspace-api
-artifact_total: 16
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xano Metadata API Groups API
+  slug: open-xano-api-groups-api
+- collection_type: open
+  name: Xano Metadata API Groups Auth API
+  slug: open-xano-auth-api
+- collection_type: open
+  name: Xano Metadata API Groups Content API
+  slug: open-xano-content-api
+- collection_type: open
+  name: Xano Metadata API Groups Files API
+  slug: open-xano-files-api
+- collection_type: open
+  name: Xano Metadata API Groups Tables API
+  slug: open-xano-tables-api
+- collection_type: open
+  name: Xano Metadata API Groups Workspace API
+  slug: open-xano-workspace-api
 - collection_type: open
   name: Xano Metadata API
   slug: open-xano
@@ -134,7 +155,7 @@ plans:
 - name: Xano Plans Pricing
   plan_count: 4
   slug: xano-plans-pricing
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 4
   name: Xano Rate Limits
@@ -159,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/screenshots/xano-2026-06-20T201653.png
 security:

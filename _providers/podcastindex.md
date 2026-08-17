@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The podcast's "Value for Value" information
   name: PodcastIndex Value API
   slug: podcastindex-value-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PodcastIndex.org Add API
+  slug: open-podcastindex-add-api
+- collection_type: open
+  name: PodcastIndex.org Add Apple Replacement API
+  slug: open-podcastindex-apple-replacement-api
+- collection_type: open
+  name: PodcastIndex.org Add Categories API
+  slug: open-podcastindex-categories-api
+- collection_type: open
+  name: PodcastIndex.org Add Episodes API
+  slug: open-podcastindex-episodes-api
+- collection_type: open
+  name: PodcastIndex.org Add Hub API
+  slug: open-podcastindex-hub-api
+- collection_type: open
+  name: PodcastIndex.org Add Podcasts API
+  slug: open-podcastindex-podcasts-api
+- collection_type: open
+  name: PodcastIndex.org Add Recent API
+  slug: open-podcastindex-recent-api
+- collection_type: open
+  name: PodcastIndex.org Add Search API
+  slug: open-podcastindex-search-api
+- collection_type: open
+  name: PodcastIndex.org Add Static Data API
+  slug: open-podcastindex-static-data-api
+- collection_type: open
+  name: PodcastIndex.org Add Stats API
+  slug: open-podcastindex-stats-api
+- collection_type: open
+  name: PodcastIndex.org Add Value API
+  slug: open-podcastindex-value-api
 - collection_type: open
   name: PodcastIndex.org API
   slug: open-podcastindex
@@ -138,7 +174,7 @@ plans:
 - name: Podcastindex Plans Pricing
   plan_count: 3
   slug: podcastindex-plans-pricing
-random_paper: 86
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Podcastindex Rate Limits
@@ -169,7 +205,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

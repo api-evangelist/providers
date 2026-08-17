@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -182,11 +182,165 @@ apis:
 - description: 'Create, manage, and retrieve webhook definitions. Use webhooks to register your own HTTPS endpoints with Visier and listen for specific events. When these events occur, Visier sends an API request to '
   name: Visier Webhooks API
   slug: visier-webhooks-api
-artifact_total: 60
+artifact_total: 111
 asyncapis:
 - description: ''
   name: Visier Webhooks
   slug: visier-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Visier Analytic Model Analytic Objects V2 API
+  slug: open-visier-analyticobjectsv2-api
+- collection_type: open
+  name: Visier Authentication Basic Authentication API
+  slug: open-visier-basicauthentication-api
+- collection_type: open
+  name: Compensation Benchmarks API
+  slug: open-visier-benchmarks-api
+- collection_type: open
+  name: Visier Analytic Model Concepts V2 API
+  slug: open-visier-conceptsv2-api
+- collection_type: open
+  name: Visier Administration Consolidated Analytics API
+  slug: open-visier-consolidatedanalytics-api
+- collection_type: open
+  name: Visier Data In Data And Job Handling API
+  slug: open-visier-dataandjobhandling-api
+- collection_type: open
+  name: Visier Data Out Data Export Connectors API API
+  slug: open-visier-dataexportconnectorsapi-api
+- collection_type: open
+  name: Visier Data In Data Intake API
+  slug: open-visier-dataintake-api
+- collection_type: open
+  name: Visier Analytic Model Data Model API
+  slug: open-visier-datamodel-api
+- collection_type: open
+  name: Visier Data Out Data Query API
+  slug: open-visier-dataquery-api
+- collection_type: open
+  name: Visier Data In Data Upload API
+  slug: open-visier-dataupload-api
+- collection_type: open
+  name: Visier Data Out Data Version Export API
+  slug: open-visier-dataversionexport-api
+- collection_type: open
+  name: Compensation Benchmarks Dimensions API
+  slug: open-visier-dimensions-api
+- collection_type: open
+  name: Visier Analytic Model Dimensions V2 API
+  slug: open-visier-dimensionsv2-api
+- collection_type: open
+  name: Visier Data In Direct Data Intake API
+  slug: open-visier-directdataintake-api
+- collection_type: open
+  name: Visier Administration Email Domains API
+  slug: open-visier-emaildomains-api
+- collection_type: open
+  name: Visier Administration Encryption Keys API
+  slug: open-visier-encryptionkeys-api
+- collection_type: open
+  name: Skills Intelligence Engine Jobs Library API
+  slug: open-visier-jobs-library-api
+- collection_type: open
+  name: Visier Analytic Model Metrics V2 API
+  slug: open-visier-metricsv2-api
+- collection_type: open
+  name: Visier Administration Network Subnets API
+  slug: open-visier-networksubnets-api
+- collection_type: open
+  name: Visier Authentication O Auth2 API
+  slug: open-visier-oauth2-api
+- collection_type: open
+  name: Visier Analytic Model Object Configuration API
+  slug: open-visier-objectconfiguration-api
+- collection_type: open
+  name: Visier Administration Permissions API
+  slug: open-visier-permissions-api
+- collection_type: open
+  name: Visier Analytic Model Personalized Alerts API
+  slug: open-visier-personalizedalerts-api
+- collection_type: open
+  name: Visier Data In PGP Keys API
+  slug: open-visier-pgpkeys-api
+- collection_type: open
+  name: Visier Planning Public Plan Administration API
+  slug: open-visier-planadministration-api
+- collection_type: open
+  name: Visier Planning Public Plan Data Load API
+  slug: open-visier-plandataload-api
+- collection_type: open
+  name: Visier Planning Public Plan Events API
+  slug: open-visier-planevents-api
+- collection_type: open
+  name: Visier Administration Production Versions API
+  slug: open-visier-productionversions-api
+- collection_type: open
+  name: Visier Administration Profiles API
+  slug: open-visier-profiles-api
+- collection_type: open
+  name: Visier Administration Projects API
+  slug: open-visier-projects-api
+- collection_type: open
+  name: Visier Administration Release Version Configuration API
+  slug: open-visier-releaseversionconfiguration-api
+- collection_type: open
+  name: Visier Data Out Reporting API
+  slug: open-visier-reporting-api
+- collection_type: open
+  name: Visier Data Out Search API
+  slug: open-visier-search-api
+- collection_type: open
+  name: Visier Administration Sidecar Solutions API
+  slug: open-visier-sidecarsolutions-api
+- collection_type: open
+  name: Skills Intelligence Engine Skills Library API
+  slug: open-visier-skills-library-api
+- collection_type: open
+  name: Visier Data Out Source Files Download API
+  slug: open-visier-sourcefilesdownload-api
+- collection_type: open
+  name: Visier Administration Sources API
+  slug: open-visier-sources-api
+- collection_type: open
+  name: Visier Administration System Status API
+  slug: open-visier-systemstatus-api
+- collection_type: open
+  name: Visier Data In Table Source API
+  slug: open-visier-tablesource-api
+- collection_type: open
+  name: Visier Administration Tenants V1 API
+  slug: open-visier-tenantsv1-api
+- collection_type: open
+  name: Visier Administration Tenants V2 API
+  slug: open-visier-tenantsv2-api
+- collection_type: open
+  name: Visier Administration User Groups V2 API
+  slug: open-visier-usergroupsv2-api
+- collection_type: open
+  name: Visier Administration Users V1 API
+  slug: open-visier-usersv1-api
+- collection_type: open
+  name: Visier Administration Users V2 API
+  slug: open-visier-usersv2-api
+- collection_type: open
+  name: Visier Administration Users V3 API
+  slug: open-visier-usersv3-api
+- collection_type: open
+  name: Visier Administration Vee Configuration API
+  slug: open-visier-veeconfiguration-api
+- collection_type: open
+  name: Visier Data Out Vee V1 API
+  slug: open-visier-veev1-api
+- collection_type: open
+  name: Visier Data Out Vee V2 API
+  slug: open-visier-veev2-api
+- collection_type: open
+  name: Visier Webhooks API
+  slug: open-visier-webhooks-api
 common:
 - group: other
   title: ''
@@ -363,7 +517,7 @@ overview: 'Visier publishes 50 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Visier''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 32 more developer resources.'
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Visier Rate Limits
@@ -396,7 +550,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,8 +66,20 @@ apis:
 - description: The Tasks API from Scale AI — 5 operation(s) for tasks.
   name: Scale AI Tasks API
   slug: scale-ai-tasks-api
-artifact_total: 39
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scale AI REST Batches API
+  slug: open-scale-ai-batches-api
+- collection_type: open
+  name: Scale AI REST Batches Projects API
+  slug: open-scale-ai-projects-api
+- collection_type: open
+  name: Scale AI REST Batches Tasks API
+  slug: open-scale-ai-tasks-api
 - collection_type: open
   name: Scale AI REST API
   slug: open-scale-ai
@@ -200,7 +212,7 @@ plans:
 - name: Scale Ai Plans Pricing
   plan_count: 1
   slug: scale-ai-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Scale Ai Rate Limits
@@ -225,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scale-ai/refs/heads/main/screenshots/scale-ai-2026-06-20T193601.png
 security:

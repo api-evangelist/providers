@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Health API from Styra — 1 operation(s) for health.
   name: Styra Health API
   slug: styra-health-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Enterprise OPA REST Batch API
+  slug: open-styra-batch-api
+- collection_type: open
+  name: Enterprise OPA REST Batch Compile API
+  slug: open-styra-compile-api
+- collection_type: open
+  name: Enterprise OPA REST Batch Data API
+  slug: open-styra-data-api
+- collection_type: open
+  name: Enterprise OPA REST Batch Enterprise OPA REST API API
+  slug: open-styra-enterprise-opa-rest-api-api
+- collection_type: open
+  name: Enterprise OPA REST Batch Health API
+  slug: open-styra-health-api
 common:
 - group: other
   title: ''
@@ -163,7 +182,7 @@ overview: 'Styra publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Styra''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 18 more developer resources.'
-random_paper: 83
+random_paper: 116
 score:
   band: thin
   composite: 31.1
@@ -193,7 +212,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

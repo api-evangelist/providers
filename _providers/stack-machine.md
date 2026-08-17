@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint for deploying and managing StackMachine apps, custom domains and DNS, managed databases and volumes, cron jobs, secrets, transactional email, cloud storage, package publishing,
@@ -160,7 +160,7 @@ overview: 'Stack Machine publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Stack Machine''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 104
+random_paper: 112
 score:
   band: developing
   composite: 45.0
@@ -178,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

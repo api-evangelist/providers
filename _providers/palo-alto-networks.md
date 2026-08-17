@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 5
@@ -2441,7 +2441,7 @@ arazzos:
 - description: Authenticate to Prisma Cloud, run an RQL config query, then run a matching RQL asset query.
   name: Prisma Cloud RQL Configuration and Asset Search
   slug: palo-alto-networks-prisma-cloud-rql-config-search-workflow
-artifact_total: 2196
+artifact_total: 2773
 asyncapis:
 - description: Cortex XDR Webhooks provide real-time incident and alert notifications for security events detected across endpoints, networks, and cloud workloads. Webhooks are configured in Cortex XDR Settings > No
   name: Cortex XDR Webhooks
@@ -2585,6 +2585,1737 @@ collections:
 - collection_type: postman
   name: Palo Alto Networks ZTNA Connector API
   slug: postman-palo-alto-ztna-connector-api-openapi-original
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Collection
+  slug: open-harvest-manifest
+- collection_type: open
+  name: SASE 5G Monitor Service 5G Deregistered Trend API
+  slug: open-palo-alto-networks-5g-deregistered-trend-api
+- collection_type: open
+  name: SASE 5G Monitor Service 5G Network Interconnects and Bandwidth API
+  slug: open-palo-alto-networks-5g-network-interconnects-and-bandwidth-api
+- collection_type: open
+  name: SASE 5G Monitor Service 5G Registered Trend API
+  slug: open-palo-alto-networks-5g-registered-trend-api
+- collection_type: open
+  name: SASE 5G Monitor Service 5G Unknown IPs Trend API
+  slug: open-palo-alto-networks-5g-unknown-ips-trend-api
+- collection_type: open
+  name: Palo Alto Networks Access Keys API
+  slug: open-palo-alto-networks-access-keys-api
+- collection_type: open
+  name: Palo Alto Networks Access Policies API
+  slug: open-palo-alto-networks-accesspolicies-api
+- collection_type: open
+  name: Palo Alto Networks Account Groups API
+  slug: open-palo-alto-networks-account-groups-api
+- collection_type: open
+  name: Action Plan Management APIs API
+  slug: open-palo-alto-networks-action-plan-management-apis-api
+- collection_type: open
+  name: SASE 5G Monitor Service Active Mappings API
+  slug: open-palo-alto-networks-active-mappings-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Management Adapters API
+  slug: open-palo-alto-networks-adapters-api
+- collection_type: open
+  name: SASE 5G Monitor Service Added and Cleared Mappings API
+  slug: open-palo-alto-networks-added-and-cleared-mappings-api
+- collection_type: open
+  name: Objects Address Groups API
+  slug: open-palo-alto-networks-address-groups-api
+- collection_type: open
+  name: Palo Alto Networks Addresses API
+  slug: open-palo-alto-networks-addresses-api
+- collection_type: open
+  name: Address Group Management Address Groups API
+  slug: open-palo-alto-networks-addressgroups-api
+- collection_type: open
+  name: ADEM API
+  slug: open-palo-alto-networks-adem-api
+- collection_type: open
+  name: Palo Alto Networks Adoption Advisor API
+  slug: open-palo-alto-networks-adoption-advisor-api
+- collection_type: open
+  name: Objects Advanced Device Objects API
+  slug: open-palo-alto-networks-advanced-device-objects-api
+- collection_type: open
+  name: Advanced Threat Prevention API
+  slug: open-palo-alto-networks-advanced-threat-prevention-api
+- collection_type: open
+  name: GlobalProtect Agent Authentication Settings API
+  slug: open-palo-alto-networks-agent-authentication-settings-api
+- collection_type: open
+  name: Palo Alto Networks 3.0 Agent Users API API
+  slug: open-palo-alto-networks-agent-users-api-api
+- collection_type: open
+  name: GlobalProtect Agent Versions API
+  slug: open-palo-alto-networks-agent-versions-api
+- collection_type: open
+  name: ADEM data Agent Controller API
+  slug: open-palo-alto-networks-agentcontroller-api
+- collection_type: open
+  name: Palo Alto Networks 3.0 Agentless Users API API
+  slug: open-palo-alto-networks-agentless-users-api-api
+- collection_type: open
+  name: Network Services Aggregate Interfaces API
+  slug: open-palo-alto-networks-aggregate-interfaces-api
+- collection_type: open
+  name: Prisma AIRS API Management service AI Sec Profile API
+  slug: open-palo-alto-networks-ai-sec-profile-api
+- collection_type: open
+  name: Palo Alto Networks Alert Rules API
+  slug: open-palo-alto-networks-alert-rules-api
+- collection_type: open
+  name: Palo Alto Networks Anomalies API
+  slug: open-palo-alto-networks-anomalies-api
+- collection_type: open
+  name: Security Services Anti-Spyware Profiles API
+  slug: open-palo-alto-networks-anti-spyware-profiles-api
+- collection_type: open
+  name: Security Services Anti-Spyware Signatures API
+  slug: open-palo-alto-networks-anti-spyware-signatures-api
+- collection_type: open
+  name: Anti-Spyware Profiles Anti Spyware Profiles API
+  slug: open-palo-alto-networks-antispywareprofiles-api
+- collection_type: open
+  name: Anti-Spyware Signatures Anti Spyware Signatures API
+  slug: open-palo-alto-networks-antispywaresignatures-api
+- collection_type: open
+  name: Prisma AIRS API Management service API key API
+  slug: open-palo-alto-networks-api-key-api
+- collection_type: open
+  name: SASE 5G Monitor Service API Stats API
+  slug: open-palo-alto-networks-api-stats-api
+- collection_type: open
+  name: Palo Alto Networks 3.0 Application API API
+  slug: open-palo-alto-networks-application-api-api
+- collection_type: open
+  name: Network Deployment Application Defaults API
+  slug: open-palo-alto-networks-application-defaults-api
+- collection_type: open
+  name: Objects Application Filters API
+  slug: open-palo-alto-networks-application-filters-api
+- collection_type: open
+  name: Palo Alto Networks Application Groups API
+  slug: open-palo-alto-networks-application-groups-api
+- collection_type: open
+  name: Aggreagate Monitoring Application Monitor Resource API API
+  slug: open-palo-alto-networks-application-monitor-resource-api-api
+- collection_type: open
+  name: Security Services Application Override Rules API
+  slug: open-palo-alto-networks-application-override-rules-api
+- collection_type: open
+  name: GlobalProtect Application Settings API
+  slug: open-palo-alto-networks-application-settings-api
+- collection_type: open
+  name: ADEM data Application Controller API
+  slug: open-palo-alto-networks-applicationcontroller-api
+- collection_type: open
+  name: Application Filter Management Application Filters API
+  slug: open-palo-alto-networks-applicationfilters-api
+- collection_type: open
+  name: Application Group Management Application Groups API
+  slug: open-palo-alto-networks-applicationgroups-api
+- collection_type: open
+  name: Application Override Rules API
+  slug: open-palo-alto-networks-applicationoverriderules-api
+- collection_type: open
+  name: Palo Alto Networks Applications API
+  slug: open-palo-alto-networks-applications-api
+- collection_type: open
+  name: SSPM Management Apps API
+  slug: open-palo-alto-networks-apps-api
+- collection_type: open
+  name: Palo Alto Networks Archived Assets API
+  slug: open-palo-alto-networks-archived-assets-api
+- collection_type: open
+  name: Palo Alto Networks Asset Explorer API
+  slug: open-palo-alto-networks-asset-explorer-api
+- collection_type: open
+  name: Palo Alto Networks Asset Inventory API
+  slug: open-palo-alto-networks-asset-inventory-api
+- collection_type: open
+  name: Prisma Cloud Asset Relationship Type Manager Definition Overview Asset Relationship Definitions API
+  slug: open-palo-alto-networks-asset-relationship-definitions-api
+- collection_type: open
+  name: to NGFW Associate Rulestacks API
+  slug: open-palo-alto-networks-associaterulestacks-api
+- collection_type: open
+  name: Manage Association Rulestacks API
+  slug: open-palo-alto-networks-associationrulestacks-api
+- collection_type: open
+  name: Palo Alto Networks Audit Logs API
+  slug: open-palo-alto-networks-audit-logs-api
+- collection_type: open
+  name: Auditlogs API
+  slug: open-palo-alto-networks-auditlogs-api
+- collection_type: open
+  name: Identity Services Authentication Portals API
+  slug: open-palo-alto-networks-authentication-portals-api
+- collection_type: open
+  name: Identity Services Authentication Profiles API
+  slug: open-palo-alto-networks-authentication-profiles-api
+- collection_type: open
+  name: Identity Services Authentication Rules API
+  slug: open-palo-alto-networks-authentication-rules-api
+- collection_type: open
+  name: Identity Services Authentication Sequences API
+  slug: open-palo-alto-networks-authentication-sequences-api
+- collection_type: open
+  name: Device Settings Authentication Settings API
+  slug: open-palo-alto-networks-authentication-settings-api
+- collection_type: open
+  name: Authentication Portals API
+  slug: open-palo-alto-networks-authenticationportals-api
+- collection_type: open
+  name: Authentication Profiles API
+  slug: open-palo-alto-networks-authenticationprofiles-api
+- collection_type: open
+  name: Authentication Rules API
+  slug: open-palo-alto-networks-authenticationrules-api
+- collection_type: open
+  name: Authentication Sequences API
+  slug: open-palo-alto-networks-authenticationsequences-api
+- collection_type: open
+  name: SSPM Management Authorization API
+  slug: open-palo-alto-networks-authorization-api
+- collection_type: open
+  name: Palo Alto Networks Auth Service API
+  slug: open-palo-alto-networks-authservice-api
+- collection_type: open
+  name: Objects Auto-Tag Actions API
+  slug: open-palo-alto-networks-auto-tag-actions-api
+- collection_type: open
+  name: Network Services Auto VPN Clusters API
+  slug: open-palo-alto-networks-auto-vpn-clusters-api
+- collection_type: open
+  name: Network Services Auto VPN Config Push API
+  slug: open-palo-alto-networks-auto-vpn-config-push-api
+- collection_type: open
+  name: Network Services Auto VPN Monitor API
+  slug: open-palo-alto-networks-auto-vpn-monitor-api
+- collection_type: open
+  name: Network Services Auto VPN Settings API
+  slug: open-palo-alto-networks-auto-vpn-settings-api
+- collection_type: open
+  name: Device Settings Autoscale Settings API
+  slug: open-palo-alto-networks-autoscale-settings-api
+- collection_type: open
+  name: Auto Tag Actions API
+  slug: open-palo-alto-networks-autotagactions-api
+- collection_type: open
+  name: Prisma Cloud REST API Doc AWS Logging Accounts API
+  slug: open-palo-alto-networks-aws-logging-accounts-api
+- collection_type: open
+  name: 'Platform: Reporting Service Background Jobs API'
+  slug: open-palo-alto-networks-background-jobs-api
+- collection_type: open
+  name: Palo Alto Networks Bandwidth Allocations API
+  slug: open-palo-alto-networks-bandwidth-allocations-api
+- collection_type: open
+  name: SASE 5G Monitor Service Bandwidth Consumption API
+  slug: open-palo-alto-networks-bandwidth-consumption-api
+- collection_type: open
+  name: Bandwidth Allocations API
+  slug: open-palo-alto-networks-bandwidthallocations-api
+- collection_type: open
+  name: Palo Alto Networks Benchmark Monitoring API
+  slug: open-palo-alto-networks-benchmark-monitoring-api
+- collection_type: open
+  name: Network Services BGP Address Family Profiles API
+  slug: open-palo-alto-networks-bgp-address-family-profiles-api
+- collection_type: open
+  name: Network Services BGP Authentication Profiles API
+  slug: open-palo-alto-networks-bgp-authentication-profiles-api
+- collection_type: open
+  name: Network Services BGP Filtering Profiles API
+  slug: open-palo-alto-networks-bgp-filtering-profiles-api
+- collection_type: open
+  name: Network Services BGP Redistribution Profiles API
+  slug: open-palo-alto-networks-bgp-redistribution-profiles-api
+- collection_type: open
+  name: Network Services BGP Route Map Redistributions API
+  slug: open-palo-alto-networks-bgp-route-map-redistributions-api
+- collection_type: open
+  name: Network Services BGP Route Maps API
+  slug: open-palo-alto-networks-bgp-route-maps-api
+- collection_type: open
+  name: Network Deployment BGP Routing API
+  slug: open-palo-alto-networks-bgp-routing-api
+- collection_type: open
+  name: Best Practice Assessment Report BPA Report API API
+  slug: open-palo-alto-networks-bpa-report-api-api
+- collection_type: open
+  name: Palo Alto Networks 3.0 Branch User API API
+  slug: open-palo-alto-networks-branch-user-api-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Built-In Accounts API
+  slug: open-palo-alto-networks-built-in-accounts-api
+- collection_type: open
+  name: Bulk Configurations API
+  slug: open-palo-alto-networks-bulk-configurations-api
+- collection_type: open
+  name: Bulk Operations API
+  slug: open-palo-alto-networks-bulk-operations-api
+- collection_type: open
+  name: Palo Alto Networks Catalog API
+  slug: open-palo-alto-networks-catalog-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Dataplane Categories API
+  slug: open-palo-alto-networks-categories-api
+- collection_type: open
+  name: Cellular API
+  slug: open-palo-alto-networks-cellular-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Certificate Approvals API
+  slug: open-palo-alto-networks-certificate-approvals-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Certificate Auto-renewal Monitoring API
+  slug: open-palo-alto-networks-certificate-auto-renewal-monitoring-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Certificate Discovery API
+  slug: open-palo-alto-networks-certificate-discovery-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Certificate Import API
+  slug: open-palo-alto-networks-certificate-import-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Certificate Inventory Monitoring API
+  slug: open-palo-alto-networks-certificate-inventory-monitoring-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Certificate Policy API
+  slug: open-palo-alto-networks-certificate-policy-api
+- collection_type: open
+  name: Identity Services Certificate Profiles API
+  slug: open-palo-alto-networks-certificate-profiles-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Certificate Request API
+  slug: open-palo-alto-networks-certificate-request-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Certificate Revocation Approvals API
+  slug: open-palo-alto-networks-certificate-revocation-approvals-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Certificate Tags API
+  slug: open-palo-alto-networks-certificate-tags-api
+- collection_type: open
+  name: Manage Certificate Objects API
+  slug: open-palo-alto-networks-certificateobjects-api
+- collection_type: open
+  name: Certificate Profiles API
+  slug: open-palo-alto-networks-certificateprofiles-api
+- collection_type: open
+  name: Palo Alto Networks Certificates API
+  slug: open-palo-alto-networks-certificates-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming - Network Channel Channels API
+  slug: open-palo-alto-networks-channels-api
+- collection_type: open
+  name: Prisma Cloud API Overview Checkov Version API
+  slug: open-palo-alto-networks-checkovversion-api
+- collection_type: open
+  name: Posture Management Checks API
+  slug: open-palo-alto-networks-checks-api
+- collection_type: open
+  name: Prisma Cloud CI/CD API Overview CI-CD Risks API
+  slug: open-palo-alto-networks-ci-cd-risks-api
+- collection_type: open
+  name: TSOA Cider Repository API
+  slug: open-palo-alto-networks-ciderrepository-api
+- collection_type: open
+  name: SASE 5G Manage Service Cie Token Resource API API
+  slug: open-palo-alto-networks-cie-token-resource-api-api
+- collection_type: open
+  name: Palo Alto Networks Cloud Accounts (All) Cloud Accounts (All) API
+  slug: open-palo-alto-networks-cloud-accounts-all-api
+- collection_type: open
+  name: Prisma Cloud Access Keys API Overview Cloud Accounts API
+  slug: open-palo-alto-networks-cloud-accounts-api
+- collection_type: open
+  name: Palo Alto Networks Cloud Accounts (AWS) Cloud Accounts (AWS) API
+  slug: open-palo-alto-networks-cloud-accounts-aws-api
+- collection_type: open
+  name: Palo Alto Networks Cloud Accounts (Azure) Cloud Accounts (Azure) API
+  slug: open-palo-alto-networks-cloud-accounts-azure-api
+- collection_type: open
+  name: Palo Alto Networks Cloud Accounts (GCP) Cloud Accounts (GCP) API
+  slug: open-palo-alto-networks-cloud-accounts-gcp-api
+- collection_type: open
+  name: Palo Alto Networks Cloud Accounts (OCI and Alibaba) Cloud Accounts (OCI and Alibaba) API
+  slug: open-palo-alto-networks-cloud-accounts-oci-and-alibaba-api
+- collection_type: open
+  name: CIE - Cloud Dynamic User Group CRUD Operations APIs Mounted on Strata Cloud Manager Cloud Dynamic User Groups API
+  slug: open-palo-alto-networks-cloud-dynamic-user-groups-api
+- collection_type: open
+  name: Palo Alto Networks Cloud Ingested Logs API
+  slug: open-palo-alto-networks-cloud-ingested-logs-api
+- collection_type: open
+  name: Cloud Blades API
+  slug: open-palo-alto-networks-cloudblades-api
+- collection_type: open
+  name: pcs-code-to-cloud Code to Cloud API
+  slug: open-palo-alto-networks-code-to-cloud-api
+- collection_type: open
+  name: Prisma Cloud API Overview Code Fixes API
+  slug: open-palo-alto-networks-codefixes-api
+- collection_type: open
+  name: pcs-command-center Command Center API
+  slug: open-palo-alto-networks-command-center-api
+- collection_type: open
+  name: Palo Alto Networks Compliance Analytics API
+  slug: open-palo-alto-networks-compliance-analytics-api
+- collection_type: open
+  name: Palo Alto Networks Compliance Frameworks API
+  slug: open-palo-alto-networks-compliance-frameworks-api
+- collection_type: open
+  name: Palo Alto Networks Compliance Posture API
+  slug: open-palo-alto-networks-compliance-posture-api
+- collection_type: open
+  name: Palo Alto Networks Compliance Standards API
+  slug: open-palo-alto-networks-compliance-standards-api
+- collection_type: open
+  name: Posture Management Config Cleanup API
+  slug: open-palo-alto-networks-config-cleanup-api
+- collection_type: open
+  name: Network Services Config Match List API
+  slug: open-palo-alto-networks-config-match-list-api
+- collection_type: open
+  name: Posture Management Config Upload API
+  slug: open-palo-alto-networks-config-upload-api
+- collection_type: open
+  name: Config Operations Config Versions API
+  slug: open-palo-alto-networks-config-versions-api
+- collection_type: open
+  name: Prisma Browser Management Console Public Configuration Management API
+  slug: open-palo-alto-networks-configuration-management-api
+- collection_type: open
+  name: Manage Prisma Access Configurations Configuration Management API
+  slug: open-palo-alto-networks-configurationmanagement-api
+- collection_type: open
+  name: SASE 5G Monitor Service Configured UE Mappings API
+  slug: open-palo-alto-networks-configured-ue-mappings-api
+- collection_type: open
+  name: Advanced DNS Security Resolver Configuration Connection Source API
+  slug: open-palo-alto-networks-connection-source-api
+- collection_type: open
+  name: ZTNA Restful Connector API
+  slug: open-palo-alto-networks-connector-api
+- collection_type: open
+  name: ZTNA Connector Restful Connector Group API
+  slug: open-palo-alto-networks-connector-group-api
+- collection_type: open
+  name: Device Settings Content Cloud Settings API
+  slug: open-palo-alto-networks-content-cloud-settings-api
+- collection_type: open
+  name: Device Settings Content-ID Settings API
+  slug: open-palo-alto-networks-content-id-settings-api
+- collection_type: open
+  name: SASE 5G Manage Service Control Plane Resource API API
+  slug: open-palo-alto-networks-control-plane-resource-api-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Credential Management API
+  slug: open-palo-alto-networks-credential-management-api
+- collection_type: open
+  name: Advanced DNS Security Resolver Configuration Custom FQDN API
+  slug: open-palo-alto-networks-custom-fqdn-api
+- collection_type: open
+  name: Prisma AIRS API Management service Custom Topic API
+  slug: open-palo-alto-networks-custom-topic-api
+- collection_type: open
+  name: Palo Alto Networks Custom Attack API
+  slug: open-palo-alto-networks-customattack-api
+- collection_type: open
+  name: Prisma AIRS API Management service Customer App API
+  slug: open-palo-alto-networks-customer-app-api
+- collection_type: open
+  name: Palo Alto Networks Custom Roles API
+  slug: open-palo-alto-networks-customroles-api
+- collection_type: open
+  name: Palo Alto Networks Dashboard API
+  slug: open-palo-alto-networks-dashboard-api
+- collection_type: open
+  name: v2 Data Patterns API
+  slug: open-palo-alto-networks-data-patterns-api
+- collection_type: open
+  name: v2 Data Profiles API
+  slug: open-palo-alto-networks-data-profiles-api
+- collection_type: open
+  name: Aggreagate Monitoring Data Resource API API
+  slug: open-palo-alto-networks-data-resource-api-api
+- collection_type: open
+  name: Palo Alto Networks Data Security Dashboard API
+  slug: open-palo-alto-networks-data-security-dashboard-api
+- collection_type: open
+  name: Palo Alto Networks Data Security Inventory API
+  slug: open-palo-alto-networks-data-security-inventory-api
+- collection_type: open
+  name: config-service Data Security Onboarding API
+  slug: open-palo-alto-networks-data-security-onboarding-api
+- collection_type: open
+  name: Palo Alto Networks Data Security Settings API
+  slug: open-palo-alto-networks-data-security-settings-api
+- collection_type: open
+  name: Security Services Data Filtering API
+  slug: open-palo-alto-networks-datafiltering-api
+- collection_type: open
+  name: Security Services Data Objects API
+  slug: open-palo-alto-networks-dataobjects-api
+- collection_type: open
+  name: Data Resource API
+  slug: open-palo-alto-networks-dataresource-api
+- collection_type: open
+  name: Data Resource - Custom Data Resource Custom API
+  slug: open-palo-alto-networks-dataresourcecustom-api
+- collection_type: open
+  name: Data Resource Export API
+  slug: open-palo-alto-networks-dataresourceexport-api
+- collection_type: open
+  name: Security Services Decryption Exclusions API
+  slug: open-palo-alto-networks-decryption-exclusions-api
+- collection_type: open
+  name: Security Services Decryption Profiles API
+  slug: open-palo-alto-networks-decryption-profiles-api
+- collection_type: open
+  name: Security Services Decryption Rules API
+  slug: open-palo-alto-networks-decryption-rules-api
+- collection_type: open
+  name: Decryption Exclusion Management Decryption Exclusions API
+  slug: open-palo-alto-networks-decryptionexclusions-api
+- collection_type: open
+  name: Decryption Profile Management Decryption Profiles API
+  slug: open-palo-alto-networks-decryptionprofiles-api
+- collection_type: open
+  name: Decryption Rule Management Decryption Rules API
+  slug: open-palo-alto-networks-decryptionrules-api
+- collection_type: open
+  name: Prisma AIRS API Management service Deployment Profiles API
+  slug: open-palo-alto-networks-deployment-profiles-api
+- collection_type: open
+  name: GlobalProtect Destinations API
+  slug: open-palo-alto-networks-destinations-api
+- collection_type: open
+  name: Prisma Cloud API Overview Development Pipeline API
+  slug: open-palo-alto-networks-development-pipeline-api
+- collection_type: open
+  name: Device Configuration API
+  slug: open-palo-alto-networks-device-configuration-api
+- collection_type: open
+  name: Device Settings Device Context Segment Association API
+  slug: open-palo-alto-networks-device-context-segment-association-api
+- collection_type: open
+  name: Objects Device Context Segments API
+  slug: open-palo-alto-networks-device-context-segments-api
+- collection_type: open
+  name: Prisma Browser Management Console Public Device Groups API
+  slug: open-palo-alto-networks-device-groups-api
+- collection_type: open
+  name: Operations and Troubleshooting Device Operations API
+  slug: open-palo-alto-networks-device-operations-api
+- collection_type: open
+  name: Device Settings Device Redistribution Collector Settings API
+  slug: open-palo-alto-networks-device-redistribution-collector-settings-api
+- collection_type: open
+  name: Device Switch Config Device Switch Configuration API
+  slug: open-palo-alto-networks-device-switch-configuration-api
+- collection_type: open
+  name: Palo Alto Networks Devices API
+  slug: open-palo-alto-networks-devices-api
+- collection_type: open
+  name: DHCP API
+  slug: open-palo-alto-networks-dhcp-api
+- collection_type: open
+  name: Network Services DHCP Interfaces API
+  slug: open-palo-alto-networks-dhcp-interfaces-api
+- collection_type: open
+  name: v2 Dictionaries API
+  slug: open-palo-alto-networks-dictionaries-api
+- collection_type: open
+  name: CIE APIs Mounted on Strata Cloud Manager Directory Sync Service API
+  slug: open-palo-alto-networks-directory-sync-service-api
+- collection_type: open
+  name: ZTNA Connector Restful Discovered Application API
+  slug: open-palo-alto-networks-discovered-application-api
+- collection_type: open
+  name: OpenAPI definition Discovery and Exposure Management API
+  slug: open-palo-alto-networks-discovery-and-exposure-management-api
+- collection_type: open
+  name: public dlp DLP API API
+  slug: open-palo-alto-networks-dlp-api-api
+- collection_type: open
+  name: public dlp DLP API (Beta) DLP API (Beta) API
+  slug: open-palo-alto-networks-dlp-api-beta-api
+- collection_type: open
+  name: Prisma AIRS API Management service DLP Profiles API
+  slug: open-palo-alto-networks-dlp-profiles-api
+- collection_type: open
+  name: Network Services DNS Proxies API
+  slug: open-palo-alto-networks-dns-proxies-api
+- collection_type: open
+  name: dnssec.public_api DNS Security API API
+  slug: open-palo-alto-networks-dns-security-api-api
+- collection_type: open
+  name: Security Services DNS Security Profiles API
+  slug: open-palo-alto-networks-dns-security-profiles-api
+- collection_type: open
+  name: DNS Services API
+  slug: open-palo-alto-networks-dns-services-api
+- collection_type: open
+  name: DNS Security Profiles API
+  slug: open-palo-alto-networks-dnssecurityprofiles-api
+- collection_type: open
+  name: v2 Document Types API
+  slug: open-palo-alto-networks-document-types-api
+- collection_type: open
+  name: Security Services DoS Protection Profiles API
+  slug: open-palo-alto-networks-dos-protection-profiles-api
+- collection_type: open
+  name: Security Services DoS Protection Rules API
+  slug: open-palo-alto-networks-dos-protection-rules-api
+- collection_type: open
+  name: Objects Dynamic User Groups API
+  slug: open-palo-alto-networks-dynamic-user-groups-api
+- collection_type: open
+  name: Dynamic User Group Management Dynamic User Groups API
+  slug: open-palo-alto-networks-dynamicusergroups-api
+- collection_type: open
+  name: Advanced DNS Security Resolver Configuration EDL CA Certificates API
+  slug: open-palo-alto-networks-edl-ca-certificates-api
+- collection_type: open
+  name: Advanced DNS Security Resolver Configuration EDL Definitions API
+  slug: open-palo-alto-networks-edl-definitions-api
+- collection_type: open
+  name: v2 EDM Datasets API
+  slug: open-palo-alto-networks-edm-datasets-api
+- collection_type: open
+  name: Email DLP Email DLP API API
+  slug: open-palo-alto-networks-email-dlp-api-api
+- collection_type: open
+  name: Email Profiles API
+  slug: open-palo-alto-networks-emailprofiles-api
+- collection_type: open
+  name: SASE 5G Manage Service Enable 5 GAPI API
+  slug: open-palo-alto-networks-enable-5-gapi-api
+- collection_type: open
+  name: v2 Endpoint Policies API
+  slug: open-palo-alto-networks-endpoint-policies-api
+- collection_type: open
+  name: Palo Alto Networks 3.0 Enterprise Browser Users API API
+  slug: open-palo-alto-networks-enterprise-browser-users-api-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Dataplane Error Logs API
+  slug: open-palo-alto-networks-errorlogs-api
+- collection_type: open
+  name: Prisma Cloud Code API Overview Errors API
+  slug: open-palo-alto-networks-errors-api
+- collection_type: open
+  name: Network Services Ethernet Interfaces API
+  slug: open-palo-alto-networks-ethernet-interfaces-api
+- collection_type: open
+  name: Palo Alto Networks Evaluations API
+  slug: open-palo-alto-networks-evaluations-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Event Logs API
+  slug: open-palo-alto-networks-event-logs-api
+- collection_type: open
+  name: Event Policy API
+  slug: open-palo-alto-networks-event-policy-api
+- collection_type: open
+  name: Events API
+  slug: open-palo-alto-networks-events-api
+- collection_type: open
+  name: Objects External Dynamic Lists API
+  slug: open-palo-alto-networks-external-dynamic-lists-api
+- collection_type: open
+  name: External Dynamic List Management External Dynamic Lists API
+  slug: open-palo-alto-networks-externaldynamiclists-api
+- collection_type: open
+  name: Security Services File Blocking Profiles API
+  slug: open-palo-alto-networks-file-blocking-profiles-api
+- collection_type: open
+  name: Manage File Blocking Action API
+  slug: open-palo-alto-networks-fileblockingaction-api
+- collection_type: open
+  name: File Blocking Profiles API
+  slug: open-palo-alto-networks-fileblockingprofiles-api
+- collection_type: open
+  name: Configuration Setup Folders API
+  slug: open-palo-alto-networks-folders-api
+- collection_type: open
+  name: GlobalProtect Forwarding Profiles API
+  slug: open-palo-alto-networks-forwarding-profiles-api
+- collection_type: open
+  name: ZTNA Connector Restful FQDN API
+  slug: open-palo-alto-networks-fqdn-api
+- collection_type: open
+  name: Manage FQDN List API
+  slug: open-palo-alto-networks-fqdnlist-api
+- collection_type: open
+  name: Device Settings General Settings API
+  slug: open-palo-alto-networks-general-settings-api
+- collection_type: open
+  name: GlobalProtect Global Settings API
+  slug: open-palo-alto-networks-global-settings-api
+- collection_type: open
+  name: GlobalProtect GlobalProtect Enablement API
+  slug: open-palo-alto-networks-globalprotect-enablement-api
+- collection_type: open
+  name: Network Services Globalprotect Match List API
+  slug: open-palo-alto-networks-globalprotect-match-list-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Dataplane Goal Categories API
+  slug: open-palo-alto-networks-goalcategories-api
+- collection_type: open
+  name: SASE 5G Manage Service Group Resource API API
+  slug: open-palo-alto-networks-group-resource-api-api
+- collection_type: open
+  name: Device Settings High Availability Configurations API
+  slug: open-palo-alto-networks-high-availability-configurations-api
+- collection_type: open
+  name: Device Settings High Availability Devices API
+  slug: open-palo-alto-networks-high-availability-devices-api
+- collection_type: open
+  name: Objects HIP Objects API
+  slug: open-palo-alto-networks-hip-objects-api
+- collection_type: open
+  name: Objects HIP Profiles API
+  slug: open-palo-alto-networks-hip-profiles-api
+- collection_type: open
+  name: Network Services Hipmatch Match List API
+  slug: open-palo-alto-networks-hipmatch-match-list-api
+- collection_type: open
+  name: HIP Object Management HIP Objects API
+  slug: open-palo-alto-networks-hipobjects-api
+- collection_type: open
+  name: HIP Profile Management HIP Profiles API
+  slug: open-palo-alto-networks-hipprofiles-api
+- collection_type: open
+  name: Security Services HTTP Header Profiles API
+  slug: open-palo-alto-networks-http-header-profiles-api
+- collection_type: open
+  name: Objects HTTP Server Profiles API
+  slug: open-palo-alto-networks-http-server-profiles-api
+- collection_type: open
+  name: HTTP Header Profiles API
+  slug: open-palo-alto-networks-httpheaderprofiles-api
+- collection_type: open
+  name: HTTPS Profiles API
+  slug: open-palo-alto-networks-httpsprofiles-api
+- collection_type: open
+  name: Palo Alto Networks IAM API
+  slug: open-palo-alto-networks-iam-api
+- collection_type: open
+  name: Palo Alto Networks IAM IDP API
+  slug: open-palo-alto-networks-iam-idp-api
+- collection_type: open
+  name: Incident Security Service Posture Management IDP API
+  slug: open-palo-alto-networks-idp-api
+- collection_type: open
+  name: Palo Alto Networks IKE Crypto Profiles API
+  slug: open-palo-alto-networks-ike-crypto-profiles-api
+- collection_type: open
+  name: Configuration Orchestration IKE Gateway API
+  slug: open-palo-alto-networks-ike-gateway-api
+- collection_type: open
+  name: Network Services IKE Gateways API
+  slug: open-palo-alto-networks-ike-gateways-api
+- collection_type: open
+  name: IKE Crypto Profile Management IKE Crypto Profiles API
+  slug: open-palo-alto-networks-ikecryptoprofiles-api
+- collection_type: open
+  name: IKE Gateway Management IKE Gateways API
+  slug: open-palo-alto-networks-ikegateways-api
+- collection_type: open
+  name: Incidents Incidents API API
+  slug: open-palo-alto-networks-incidents-api-api
+- collection_type: open
+  name: Incidents API (Beta) Incidents API (Beta) Incidents API (Beta) API
+  slug: open-palo-alto-networks-incidents-api-beta-api
+- collection_type: open
+  name: Unified Incident Framework Incidents APIs API
+  slug: open-palo-alto-networks-incidents-apis-api
+- collection_type: open
+  name: SASE 5G Monitor Service Incidents by Severity API
+  slug: open-palo-alto-networks-incidents-by-severity-api
+- collection_type: open
+  name: GlobalProtect Infrastructure Settings API
+  slug: open-palo-alto-networks-infrastructure-settings-api
+- collection_type: open
+  name: Shared Infrastructure Settings API
+  slug: open-palo-alto-networks-infrastructuresettings-api
+- collection_type: open
+  name: Aggreagate Monitoring Insights Resources API API
+  slug: open-palo-alto-networks-insights-resources-api-api
+- collection_type: open
+  name: Palo Alto Networks Instance API
+  slug: open-palo-alto-networks-instance-api
+- collection_type: open
+  name: Palo Alto Networks Integrations API
+  slug: open-palo-alto-networks-integrations-api
+- collection_type: open
+  name: Palo Alto Networks Integrations Pull API
+  slug: open-palo-alto-networks-integrations-pull-api
+- collection_type: open
+  name: Manage Intelligent Feed API
+  slug: open-palo-alto-networks-intelligentfeed-api
+- collection_type: open
+  name: SASE 5G Manage Service Interconnect API API
+  slug: open-palo-alto-networks-interconnect-api-api
+- collection_type: open
+  name: SP Manage Interconnect API
+  slug: open-palo-alto-networks-interconnect-api
+- collection_type: open
+  name: SP Interconnect Monitor Interconnect Throughput API
+  slug: open-palo-alto-networks-interconnect-throughput-api
+- collection_type: open
+  name: SP Interconnect Monitor Interconnect Traffic API
+  slug: open-palo-alto-networks-interconnect-traffic-api
+- collection_type: open
+  name: Network Services Interface Management Profiles API
+  slug: open-palo-alto-networks-interface-management-profiles-api
+- collection_type: open
+  name: Network Deployment Internal DNS Servers API
+  slug: open-palo-alto-networks-internal-dns-servers-api
+- collection_type: open
+  name: Advanced DNS Security Resolver Configuration Internal Domains API
+  slug: open-palo-alto-networks-internal-domains-api
+- collection_type: open
+  name: Internal DNS Servers API
+  slug: open-palo-alto-networks-internaldnsservers-api
+- collection_type: open
+  name: ADEM data Internet Controller API
+  slug: open-palo-alto-networks-internetcontroller-api
+- collection_type: open
+  name: Io T API
+  slug: open-palo-alto-networks-iot-api
+- collection_type: open
+  name: Palo Alto Networks IP Allow List API
+  slug: open-palo-alto-networks-ip-allow-list-api
+- collection_type: open
+  name: SP Interconnect Manage IP Pool API
+  slug: open-palo-alto-networks-ip-pool-api
+- collection_type: open
+  name: SP Interconnect Monitor IP Pool Usage API
+  slug: open-palo-alto-networks-ip-pool-usage-api
+- collection_type: open
+  name: IPFIX API
+  slug: open-palo-alto-networks-ipfix-api
+- collection_type: open
+  name: Palo Alto Networks IPSec Crypto Profiles API
+  slug: open-palo-alto-networks-ipsec-crypto-profiles-api
+- collection_type: open
+  name: Network Services IPsec Tunnels API
+  slug: open-palo-alto-networks-ipsec-tunnels-api
+- collection_type: open
+  name: IPSec Crypto Profile Management IP Sec Crypto Profiles API
+  slug: open-palo-alto-networks-ipseccryptoprofiles-api
+- collection_type: open
+  name: IPSec Tunnel Management IP Sec Tunnels API
+  slug: open-palo-alto-networks-ipsectunnels-api
+- collection_type: open
+  name: Network Services Iptag Match List API
+  slug: open-palo-alto-networks-iptag-match-list-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Issuer Certificates API
+  slug: open-palo-alto-networks-issuer-certificates-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Issuer Configurations API
+  slug: open-palo-alto-networks-issuer-configurations-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Issuer Sub CA Providers API
+  slug: open-palo-alto-networks-issuer-sub-ca-providers-api
+- collection_type: open
+  name: SSPM Management JIRA API
+  slug: open-palo-alto-networks-jira-api
+- collection_type: open
+  name: Palo Alto Networks Jobs API
+  slug: open-palo-alto-networks-jobs-api
+- collection_type: open
+  name: Identity Services Kerberos Server Profiles API
+  slug: open-palo-alto-networks-kerberos-server-profiles-api
+- collection_type: open
+  name: Kerberos Server Profiles API
+  slug: open-palo-alto-networks-kerberosserverprofiles-api
+- collection_type: open
+  name: Palo Alto Networks Languages API
+  slug: open-palo-alto-networks-languages-api
+- collection_type: open
+  name: Network Services Layer 2 Subinterfaces API
+  slug: open-palo-alto-networks-layer-2-subinterfaces-api
+- collection_type: open
+  name: Network Services Layer 3 Subinterfaces API
+  slug: open-palo-alto-networks-layer-3-subinterfaces-api
+- collection_type: open
+  name: Identity Services LDAP Server Profiles API
+  slug: open-palo-alto-networks-ldap-server-profiles-api
+- collection_type: open
+  name: LDAP Server Profiles API
+  slug: open-palo-alto-networks-ldapserverprofiles-api
+- collection_type: open
+  name: Aggreagate Monitoring License Resources API API
+  slug: open-palo-alto-networks-license-resources-api-api
+- collection_type: open
+  name: Licenses API
+  slug: open-palo-alto-networks-licenses-api
+- collection_type: open
+  name: Manage licenses License Types API
+  slug: open-palo-alto-networks-licensetypes-api
+- collection_type: open
+  name: Palo Alto Networks Licensing API
+  slug: open-palo-alto-networks-licensing-api
+- collection_type: open
+  name: Network Services Link Tags API
+  slug: open-palo-alto-networks-link-tags-api
+- collection_type: open
+  name: Network Services LLDP Profiles API
+  slug: open-palo-alto-networks-lldp-profiles-api
+- collection_type: open
+  name: Identity Services Local User Groups API
+  slug: open-palo-alto-networks-local-user-groups-api
+- collection_type: open
+  name: Identity Services Local Users API
+  slug: open-palo-alto-networks-local-users-api
+- collection_type: open
+  name: Local User Groups API
+  slug: open-palo-alto-networks-localusergroups-api
+- collection_type: open
+  name: Local User Managment Local Users API
+  slug: open-palo-alto-networks-localusers-api
+- collection_type: open
+  name: Configuration Orchestration Location Information API
+  slug: open-palo-alto-networks-location-information-api
+- collection_type: open
+  name: Retrieve Prisma Access Locations API
+  slug: open-palo-alto-networks-locations-api
+- collection_type: open
+  name: Objects Log Forwarding Profiles API
+  slug: open-palo-alto-networks-log-forwarding-profiles-api
+- collection_type: open
+  name: Network Services Logical Routers API
+  slug: open-palo-alto-networks-logical-routers-api
+- collection_type: open
+  name: Palo Alto Networks Login API
+  slug: open-palo-alto-networks-login-api
+- collection_type: open
+  name: Device Settings Login Banner Settings API
+  slug: open-palo-alto-networks-login-banner-settings-api
+- collection_type: open
+  name: Manage Log Profiles Log Profile API
+  slug: open-palo-alto-networks-logprofile-api
+- collection_type: open
+  name: Network Services Loopback Interfaces API
+  slug: open-palo-alto-networks-loopback-interfaces-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Machine Installations API
+  slug: open-palo-alto-networks-machine-installations-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Machine Types API
+  slug: open-palo-alto-networks-machine-types-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Machines API
+  slug: open-palo-alto-networks-machines-api
+- collection_type: open
+  name: Manage API Tokens API
+  slug: open-palo-alto-networks-manageapitokens-api
+- collection_type: open
+  name: Manage Certificate Objects API
+  slug: open-palo-alto-networks-managecertificateobjects-api
+- collection_type: open
+  name: Manage Rulestack Commits Manage Commit Configuration API
+  slug: open-palo-alto-networks-managecommitconfiguration-api
+- collection_type: open
+  name: Manage Custom URL Categories API
+  slug: open-palo-alto-networks-managecustomurlcategories-api
+- collection_type: open
+  name: Manage File Blocking Actions API
+  slug: open-palo-alto-networks-managefileblockingactions-api
+- collection_type: open
+  name: Manage FQDN Lists API
+  slug: open-palo-alto-networks-managefqdnlists-api
+- collection_type: open
+  name: Manage Intelligent Feeds API
+  slug: open-palo-alto-networks-manageintelligentfeeds-api
+- collection_type: open
+  name: Manage Log Profiles API
+  slug: open-palo-alto-networks-managelogprofiles-api
+- collection_type: open
+  name: Device Settings Management Interface Settings API
+  slug: open-palo-alto-networks-management-interface-settings-api
+- collection_type: open
+  name: Manage Cloud NGFW Manage NGFW API
+  slug: open-palo-alto-networks-managengfw-api
+- collection_type: open
+  name: Manage Cloud NGFW (V2) Manage NGFW V2 API
+  slug: open-palo-alto-networks-managengfw-v2-api
+- collection_type: open
+  name: Manage Cloud NGFW Tags Manage NGFW Tags API
+  slug: open-palo-alto-networks-managengfwtags-api
+- collection_type: open
+  name: Manage Predefined URL Categories API
+  slug: open-palo-alto-networks-managepredefinedurlcategories-api
+- collection_type: open
+  name: Manage Prefix Lists API
+  slug: open-palo-alto-networks-manageprefixlists-api
+- collection_type: open
+  name: Manage Rulestacks API
+  slug: open-palo-alto-networks-managerulestacks-api
+- collection_type: open
+  name: Manage Rulestack Tags API
+  slug: open-palo-alto-networks-managerulestacktags-api
+- collection_type: open
+  name: Manage Security Rules API
+  slug: open-palo-alto-networks-managesecurityrules-api
+- collection_type: open
+  name: Manage Subscription API
+  slug: open-palo-alto-networks-managesubscription-api
+- collection_type: open
+  name: SASE 5G Monitor Service Mappings Region API
+  slug: open-palo-alto-networks-mappings-region-api
+- collection_type: open
+  name: Metrics API
+  slug: open-palo-alto-networks-metrics-api
+- collection_type: open
+  name: Identity Services MFA Servers API
+  slug: open-palo-alto-networks-mfa-servers-api
+- collection_type: open
+  name: Multi-Factor Authentication Servers MFA Servers API
+  slug: open-palo-alto-networks-mfaservers-api
+- collection_type: open
+  name: Advanced DNS Security Resolver Configuration Misconfigured Domains API
+  slug: open-palo-alto-networks-misconfigured-domains-api
+- collection_type: open
+  name: GlobalProtect Mobile User Locations API
+  slug: open-palo-alto-networks-mobile-user-locations-api
+- collection_type: open
+  name: Mobile Agent API
+  slug: open-palo-alto-networks-mobileagent-api
+- collection_type: open
+  name: Prisma AIRS AI Security Model Model Security Groups API
+  slug: open-palo-alto-networks-model-security-groups-api
+- collection_type: open
+  name: Prisma AIRS AI Security Model Model Security Rule Instances API
+  slug: open-palo-alto-networks-model-security-rule-instances-api
+- collection_type: open
+  name: Prisma AIRS AI Security Model Model Security Rules API
+  slug: open-palo-alto-networks-model-security-rules-api
+- collection_type: open
+  name: Prisma AIRS AI Model Security Model Versions API
+  slug: open-palo-alto-networks-model-versions-api
+- collection_type: open
+  name: Prisma AIRS AI Model Security Models API
+  slug: open-palo-alto-networks-models-api
+- collection_type: open
+  name: Palo Alto Networks 3.0 Monitored Users API API
+  slug: open-palo-alto-networks-monitored-users-api-api
+- collection_type: open
+  name: Monitoring API
+  slug: open-palo-alto-networks-monitoring-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) MSSP Account Management API'
+  slug: open-palo-alto-networks-mssp-account-management-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) Mssp License Endpoints API'
+  slug: open-palo-alto-networks-mssp-license-endpoints-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) MSSP Managed Tenant Lifecycle Endpoints API'
+  slug: open-palo-alto-networks-mssp-managed-tenant-lifecycle-endpoints-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) MSSP Operations Retry API'
+  slug: open-palo-alto-networks-mssp-operations-retry-api
+- collection_type: open
+  name: Multicast API
+  slug: open-palo-alto-networks-multicast-api
+- collection_type: open
+  name: NAT Policy API
+  slug: open-palo-alto-networks-nat-policy-api
+- collection_type: open
+  name: Network Services NAT Rules API
+  slug: open-palo-alto-networks-nat-rules-api
+- collection_type: open
+  name: ADEM data Nav Controller API
+  slug: open-palo-alto-networks-navcontroller-api
+- collection_type: open
+  name: Network Constructs API
+  slug: open-palo-alto-networks-network-constructs-api
+- collection_type: open
+  name: Network Deployment Network Locations API
+  slug: open-palo-alto-networks-network-locations-api
+- collection_type: open
+  name: Network Services Network Packet Broker Profiles API
+  slug: open-palo-alto-networks-network-packet-broker-profiles-api
+- collection_type: open
+  name: Network Services Network Packet Broker Rules API
+  slug: open-palo-alto-networks-network-packet-broker-rules-api
+- collection_type: open
+  name: Palo Alto Networks Notification Templates API
+  slug: open-palo-alto-networks-notification-templates-api
+- collection_type: open
+  name: Multi-Tenant Notifications Notification Profiles API
+  slug: open-palo-alto-networks-notificationprofiles-api
+- collection_type: open
+  name: Multi-Tenant Notifications API
+  slug: open-palo-alto-networks-notifications-api
+- collection_type: open
+  name: NTP API
+  slug: open-palo-alto-networks-ntp-api
+- collection_type: open
+  name: Prisma AIRS API Management service OAUTH API
+  slug: open-palo-alto-networks-oauth-api
+- collection_type: open
+  name: v2 OCR Enablement API
+  slug: open-palo-alto-networks-ocr-enablement-api
+- collection_type: open
+  name: Identity Services OCSP Responders API
+  slug: open-palo-alto-networks-ocsp-responders-api
+- collection_type: open
+  name: Management OCSP Responder API
+  slug: open-palo-alto-networks-ocspresponder-api
+- collection_type: open
+  name: Prisma Cloud Access Keys API Overview Onboarding AWS S3 Flow Logs API
+  slug: open-palo-alto-networks-onboarding-aws-s3-flow-logs-api
+- collection_type: open
+  name: Device Onboarding Onboarding Rules API
+  slug: open-palo-alto-networks-onboarding-rules-api
+- collection_type: open
+  name: OSPF API
+  slug: open-palo-alto-networks-ospf-api
+- collection_type: open
+  name: Network Services OSPF Authentication Profiles API
+  slug: open-palo-alto-networks-ospf-authentication-profiles-api
+- collection_type: open
+  name: Palo Alto Networks 3.0 Other Users API API
+  slug: open-palo-alto-networks-other-users-api-api
+- collection_type: open
+  name: Prisma Cloud API Overview Packages API
+  slug: open-palo-alto-networks-packages-api
+- collection_type: open
+  name: Prisma Cloud API Overview Packages Alerts API
+  slug: open-palo-alto-networks-packagesalerts-api
+- collection_type: open
+  name: Path Policy API
+  slug: open-palo-alto-networks-path-policy-api
+- collection_type: open
+  name: Path Policy Original API
+  slug: open-palo-alto-networks-path-policy-original-api
+- collection_type: open
+  name: Network Services PBF Rules API
+  slug: open-palo-alto-networks-pbf-rules-api
+- collection_type: open
+  name: Performance Management API
+  slug: open-palo-alto-networks-performance-management-api
+- collection_type: open
+  name: Performance Policy API
+  slug: open-palo-alto-networks-performance-policy-api
+- collection_type: open
+  name: v2 Peripherals API
+  slug: open-palo-alto-networks-peripherals-api
+- collection_type: open
+  name: Palo Alto Networks Permission Groups API
+  slug: open-palo-alto-networks-permission-groups-api
+- collection_type: open
+  name: Palo Alto Networks Permissions API
+  slug: open-palo-alto-networks-permissions-api
+- collection_type: open
+  name: Palo Alto Networks Permission Sets API
+  slug: open-palo-alto-networks-permissionsets-api
+- collection_type: open
+  name: SP Interconnect Manage Physical Connection API
+  slug: open-palo-alto-networks-physical-connection-api
+- collection_type: open
+  name: SSPM Management Plugin API
+  slug: open-palo-alto-networks-plugin-api
+- collection_type: open
+  name: Prisma Browser Management Console Public Plugins API
+  slug: open-palo-alto-networks-plugins-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Plugins (Connectors) Plugins (Connectors) API
+  slug: open-palo-alto-networks-plugins-connectors-api
+- collection_type: open
+  name: Palo Alto Networks Policy API
+  slug: open-palo-alto-networks-policy-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) Policy Group Lifecycle Endpoints API'
+  slug: open-palo-alto-networks-policy-group-lifecycle-endpoints-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) Policy Group to Tenant Group Management API'
+  slug: open-palo-alto-networks-policy-group-to-tenant-group-management-api
+- collection_type: open
+  name: Manage Predefined URL Categories API
+  slug: open-palo-alto-networks-predefinedurlcategories-api
+- collection_type: open
+  name: Manage Prefix List API
+  slug: open-palo-alto-networks-prefixlist-api
+- collection_type: open
+  name: Prisma Access Configs API
+  slug: open-palo-alto-networks-prisma-access-configs-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Private Key Import API
+  slug: open-palo-alto-networks-private-key-import-api
+- collection_type: open
+  name: Security Services Profile Groups API
+  slug: open-palo-alto-networks-profile-groups-api
+- collection_type: open
+  name: Profile Group Management Profile Groups API
+  slug: open-palo-alto-networks-profilegroups-api
+- collection_type: open
+  name: Device Onboarding Properties API
+  slug: open-palo-alto-networks-properties-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) Proxy Endpoint Provider API'
+  slug: open-palo-alto-networks-proxy-endpoint-provider-api
+- collection_type: open
+  name: Prisma AIRS AI Security Model PyPI Authentication API
+  slug: open-palo-alto-networks-pypi-authentication-api
+- collection_type: open
+  name: QOS Policy API
+  slug: open-palo-alto-networks-qos-policy-api
+- collection_type: open
+  name: Network Services QoS Profiles API
+  slug: open-palo-alto-networks-qos-profiles-api
+- collection_type: open
+  name: Network Services QoS Rules API
+  slug: open-palo-alto-networks-qos-rules-api
+- collection_type: open
+  name: Quality of Service Policy Rules Qo S Policy Rules API
+  slug: open-palo-alto-networks-qospolicyrules-api
+- collection_type: open
+  name: Quality of Service Profile Management Qo S Profiles API
+  slug: open-palo-alto-networks-qosprofiles-api
+- collection_type: open
+  name: Objects Quarantined Devices API
+  slug: open-palo-alto-networks-quarantined-devices-api
+- collection_type: open
+  name: Quarantined Device Management Quarantined Devices API
+  slug: open-palo-alto-networks-quarantineddevices-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Dataplane Quota API
+  slug: open-palo-alto-networks-quota-api
+- collection_type: open
+  name: Identity Services RADIUS Server Profiles API
+  slug: open-palo-alto-networks-radius-server-profiles-api
+- collection_type: open
+  name: Radius Server Profiles API
+  slug: open-palo-alto-networks-radiusserverprofiles-api
+- collection_type: open
+  name: GlobalProtect Regional and Custom Proxies API
+  slug: open-palo-alto-networks-regional-and-custom-proxies-api
+- collection_type: open
+  name: Palo Alto Networks Regions API
+  slug: open-palo-alto-networks-regions-api
+- collection_type: open
+  name: SASE 5G Monitor Service Registered UE Mappings API
+  slug: open-palo-alto-networks-registered-ue-mappings-api
+- collection_type: open
+  name: Prisma Cloud API Overview Remediations API
+  slug: open-palo-alto-networks-remediations-api
+- collection_type: open
+  name: Palo Alto Networks Remote Networks API
+  slug: open-palo-alto-networks-remote-networks-api
+- collection_type: open
+  name: Network Services Remote Networks License API
+  slug: open-palo-alto-networks-remote-networks-license-api
+- collection_type: open
+  name: Remote Network Management Remote Networks API
+  slug: open-palo-alto-networks-remotenetworks-api
+- collection_type: open
+  name: Prisma Browser for MSP Report API API
+  slug: open-palo-alto-networks-report-api-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Dataplane Report API
+  slug: open-palo-alto-networks-report-api
+- collection_type: open
+  name: Reports Reports API API
+  slug: open-palo-alto-networks-reports-api-api
+- collection_type: open
+  name: Palo Alto Networks Reports API
+  slug: open-palo-alto-networks-reports-api
+- collection_type: open
+  name: Palo Alto Networks Repositories API
+  slug: open-palo-alto-networks-repositories-api
+- collection_type: open
+  name: Prisma Cloud API Overview Repository API
+  slug: open-palo-alto-networks-repository-api
+- collection_type: open
+  name: TSOA Repository Importance Score API
+  slug: open-palo-alto-networks-repository-importance-score-api
+- collection_type: open
+  name: Advanced DNS Security Resolver Configuration Resolver Info API
+  slug: open-palo-alto-networks-resolver-info-api
+- collection_type: open
+  name: Palo Alto Networks Resource Explorer API
+  slug: open-palo-alto-networks-resource-explorer-api
+- collection_type: open
+  name: Palo Alto Networks Resource Lists API
+  slug: open-palo-alto-networks-resource-lists-api
+- collection_type: open
+  name: Palo Alto Networks Roles API
+  slug: open-palo-alto-networks-roles-api
+- collection_type: open
+  name: Network Services Route Access Lists API
+  slug: open-palo-alto-networks-route-access-lists-api
+- collection_type: open
+  name: Network Services Route Community Lists API
+  slug: open-palo-alto-networks-route-community-lists-api
+- collection_type: open
+  name: Network Services Route Path Access Lists API
+  slug: open-palo-alto-networks-route-path-access-lists-api
+- collection_type: open
+  name: Network Services Route Prefix Lists API
+  slug: open-palo-alto-networks-route-prefix-lists-api
+- collection_type: open
+  name: ADEM data Route Controller API
+  slug: open-palo-alto-networks-routecontroller-api
+- collection_type: open
+  name: Routing API
+  slug: open-palo-alto-networks-routing-api
+- collection_type: open
+  name: Prisma Cloud API Overview Rules API
+  slug: open-palo-alto-networks-rules-api
+- collection_type: open
+  name: ADEM data Rum Controller API
+  slug: open-palo-alto-networks-rumcontroller-api
+- collection_type: open
+  name: Incident Security Service Posture Management SaaS Instance API
+  slug: open-palo-alto-networks-saas-instance-api
+- collection_type: open
+  name: Security Services Saas Tenant Restrictions API
+  slug: open-palo-alto-networks-saas-tenant-restrictions-api
+- collection_type: open
+  name: Identity Services SAML Server Profiles API
+  slug: open-palo-alto-networks-saml-server-profiles-api
+- collection_type: open
+  name: SAML Server Profiles API
+  slug: open-palo-alto-networks-samlserverprofiles-api
+- collection_type: open
+  name: SASE Fabric API
+  slug: open-palo-alto-networks-sase-fabric-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Dataplane Scan API
+  slug: open-palo-alto-networks-scan-api
+- collection_type: open
+  name: Palo Alto Networks Scan Labels API
+  slug: open-palo-alto-networks-scan-labels-api
+- collection_type: open
+  name: Prisma AIRS AI Runtime API Intercept Scan Reports API
+  slug: open-palo-alto-networks-scan-reports-api
+- collection_type: open
+  name: Prisma AIRS AI Runtime API Intercept Scan Results API
+  slug: open-palo-alto-networks-scan-results-api
+- collection_type: open
+  name: Identity Services SCEP Profiles API
+  slug: open-palo-alto-networks-scep-profiles-api
+- collection_type: open
+  name: SCEP Management SCEP Profiles API
+  slug: open-palo-alto-networks-scepprofiles-api
+- collection_type: open
+  name: Palo Alto Networks Schedules API
+  slug: open-palo-alto-networks-schedules-api
+- collection_type: open
+  name: SD-WAN Applications API
+  slug: open-palo-alto-networks-sd-wan-applications-api
+- collection_type: open
+  name: Network Services SD-WAN Error Correction Profiles API
+  slug: open-palo-alto-networks-sd-wan-error-correction-profiles-api
+- collection_type: open
+  name: Network Services SD-WAN Path Quality Profiles API
+  slug: open-palo-alto-networks-sd-wan-path-quality-profiles-api
+- collection_type: open
+  name: Network Services SD-WAN Rules API
+  slug: open-palo-alto-networks-sd-wan-rules-api
+- collection_type: open
+  name: Network Services SD-WAN SaaS Quality Profiles API
+  slug: open-palo-alto-networks-sd-wan-saas-quality-profiles-api
+- collection_type: open
+  name: Network Services SD-WAN Traffic Distribution Profiles API
+  slug: open-palo-alto-networks-sd-wan-traffic-distribution-profiles-api
+- collection_type: open
+  name: Palo Alto Networks Search API
+  slug: open-palo-alto-networks-search-api
+- collection_type: open
+  name: Palo Alto Networks Search Manager API
+  slug: open-palo-alto-networks-search-manager-api
+- collection_type: open
+  name: Security Policy API
+  slug: open-palo-alto-networks-security-policy-api
+- collection_type: open
+  name: Security Services Security Rules API
+  slug: open-palo-alto-networks-security-rules-api
+- collection_type: open
+  name: Network Services Security Zones API
+  slug: open-palo-alto-networks-security-zones-api
+- collection_type: open
+  name: Palo Alto Networks Security Rules API
+  slug: open-palo-alto-networks-securityrules-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Dataplane Sentiment API
+  slug: open-palo-alto-networks-sentiment-api
+- collection_type: open
+  name: Network Deployment Service Connection Groups API
+  slug: open-palo-alto-networks-service-connection-groups-api
+- collection_type: open
+  name: Network Deployment Service Connections API
+  slug: open-palo-alto-networks-service-connections-api
+- collection_type: open
+  name: Service & DC Groups API
+  slug: open-palo-alto-networks-service-dc-groups-api
+- collection_type: open
+  name: Objects Service Groups API
+  slug: open-palo-alto-networks-service-groups-api
+- collection_type: open
+  name: Device Settings Service Route Settings API
+  slug: open-palo-alto-networks-service-route-settings-api
+- collection_type: open
+  name: Device Settings Service Settings API
+  slug: open-palo-alto-networks-service-settings-api
+- collection_type: open
+  name: Palo Alto Networks Service Accounts API
+  slug: open-palo-alto-networks-serviceaccounts-api
+- collection_type: open
+  name: Service Connection Groups API
+  slug: open-palo-alto-networks-serviceconnectiongroups-api
+- collection_type: open
+  name: Service Connections API
+  slug: open-palo-alto-networks-serviceconnections-api
+- collection_type: open
+  name: Management Service Groups API
+  slug: open-palo-alto-networks-servicegroups-api
+- collection_type: open
+  name: Palo Alto Networks Services API
+  slug: open-palo-alto-networks-services-api
+- collection_type: open
+  name: Device Settings Session Settings API
+  slug: open-palo-alto-networks-session-settings-api
+- collection_type: open
+  name: Device Settings Session Timeouts Settings API
+  slug: open-palo-alto-networks-session-timeouts-settings-api
+- collection_type: open
+  name: Network Deployment Shared Infrastructure Settings API
+  slug: open-palo-alto-networks-shared-infrastructure-settings-api
+- collection_type: open
+  name: Configuration Setup Shared Snippets API
+  slug: open-palo-alto-networks-shared-snippets-api
+- collection_type: open
+  name: Site Configuration API
+  slug: open-palo-alto-networks-site-configuration-api
+- collection_type: open
+  name: Device Onboarding Site Groups API
+  slug: open-palo-alto-networks-site-groups-api
+- collection_type: open
+  name: Site Snapshots API
+  slug: open-palo-alto-networks-site-snapshots-api
+- collection_type: open
+  name: Site Templates API
+  slug: open-palo-alto-networks-site-templates-api
+- collection_type: open
+  name: Palo Alto Networks 3.0 Sites API API
+  slug: open-palo-alto-networks-sites-api-api
+- collection_type: open
+  name: Palo Alto Networks Sites API
+  slug: open-palo-alto-networks-sites-api
+- collection_type: open
+  name: Configuration Setup Snippet Audit Logs API
+  slug: open-palo-alto-networks-snippet-audit-logs-api
+- collection_type: open
+  name: Configuration Setup Snippet Categories API
+  slug: open-palo-alto-networks-snippet-categories-api
+- collection_type: open
+  name: Configuration Setup Snippet Snapshots API
+  slug: open-palo-alto-networks-snippet-snapshots-api
+- collection_type: open
+  name: Configuration Setup Snippets API
+  slug: open-palo-alto-networks-snippets-api
+- collection_type: open
+  name: SNMP API
+  slug: open-palo-alto-networks-snmp-api
+- collection_type: open
+  name: Software Management API
+  slug: open-palo-alto-networks-software-management-api
+- collection_type: open
+  name: GlobalProtect Source Applications API
+  slug: open-palo-alto-networks-source-applications-api
+- collection_type: open
+  name: Security Services Ssl Decryption Settings API
+  slug: open-palo-alto-networks-ssl-decryption-settings-api
+- collection_type: open
+  name: Authentication and RBAC API's SSO API
+  slug: open-palo-alto-networks-sso-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) Stack Details Endpoint API'
+  slug: open-palo-alto-networks-stack-details-endpoint-api
+- collection_type: open
+  name: ZTNA Connector Restful Subnet API
+  slug: open-palo-alto-networks-subnet-api
+- collection_type: open
+  name: Configuration Setup Subscribed Tenants API
+  slug: open-palo-alto-networks-subscribed-tenants-api
+- collection_type: open
+  name: Prisma Browser for MSP Summary API API
+  slug: open-palo-alto-networks-summary-api-api
+- collection_type: open
+  name: Prisma Cloud API Overview Suppressions API
+  slug: open-palo-alto-networks-suppressions-api
+- collection_type: open
+  name: Objects Syslog Server Profiles API
+  slug: open-palo-alto-networks-syslog-server-profiles-api
+- collection_type: open
+  name: Syslog Profiles API
+  slug: open-palo-alto-networks-syslogprofiles-api
+- collection_type: open
+  name: System Administration API
+  slug: open-palo-alto-networks-system-administration-api
+- collection_type: open
+  name: Palo Alto Networks System API
+  slug: open-palo-alto-networks-system-api
+- collection_type: open
+  name: Network Services System Match List API
+  slug: open-palo-alto-networks-system-match-list-api
+- collection_type: open
+  name: Identity Services TACACS Server Profiles API
+  slug: open-palo-alto-networks-tacacs-server-profiles-api
+- collection_type: open
+  name: TACACS Server Profiles API
+  slug: open-palo-alto-networks-tacacsserverprofiles-api
+- collection_type: open
+  name: Prisma Cloud API Overview Tag Rules API
+  slug: open-palo-alto-networks-tag-rules-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Management Target API
+  slug: open-palo-alto-networks-target-api
+- collection_type: open
+  name: Device Settings TCP Settings API
+  slug: open-palo-alto-networks-tcp-settings-api
+- collection_type: open
+  name: Prisma Cloud API Overview Technologies API
+  slug: open-palo-alto-networks-technologies-api
+- collection_type: open
+  name: Prisma AIRS Red Teaming Dataplane Templates API
+  slug: open-palo-alto-networks-templates-api
+- collection_type: open
+  name: Prisma Browser for MSP Tenant API API
+  slug: open-palo-alto-networks-tenant-api-api
+- collection_type: open
+  name: ZTNA Connector Restful Tenant API
+  slug: open-palo-alto-networks-tenant-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) Tenant Group Lifecycle Endpoints API'
+  slug: open-palo-alto-networks-tenant-group-lifecycle-endpoints-api
+- collection_type: open
+  name: Aggreagate Monitoring Tenant Resources API API
+  slug: open-palo-alto-networks-tenant-resources-api-api
+- collection_type: open
+  name: Palo Alto Networks Tenant Service Group API
+  slug: open-palo-alto-networks-tenantservicegroup-api
+- collection_type: open
+  name: Threat Prevention API
+  slug: open-palo-alto-networks-threat-prevention-api
+- collection_type: open
+  name: SASE 5G Monitor Service Throughput Trend API
+  slug: open-palo-alto-networks-throughput-trend-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager TLS Server Endpoints API
+  slug: open-palo-alto-networks-tls-server-endpoints-api
+- collection_type: open
+  name: Identity Services TLS Service Profiles API
+  slug: open-palo-alto-networks-tls-service-profiles-api
+- collection_type: open
+  name: TLS Service Profile Management TLS Service Profiles API
+  slug: open-palo-alto-networks-tlsserviceprofiles-api
+- collection_type: open
+  name: Topology API
+  slug: open-palo-alto-networks-topology-api
+- collection_type: open
+  name: SASE 5G Monitor Service Total Number of Configured Users API
+  slug: open-palo-alto-networks-total-number-of-configured-users-api
+- collection_type: open
+  name: SASE 5G Monitor Service Total Proxies API
+  slug: open-palo-alto-networks-total-proxies-api
+- collection_type: open
+  name: SASE 5G Monitor Service Total Tenants API
+  slug: open-palo-alto-networks-total-tenants-api
+- collection_type: open
+  name: Network Deployment Traffic Steering Rules API
+  slug: open-palo-alto-networks-traffic-steering-rules-api
+- collection_type: open
+  name: Traffic Steering Rules API
+  slug: open-palo-alto-networks-trafficsteeringrules-api
+- collection_type: open
+  name: Configuration Setup Trust Information API
+  slug: open-palo-alto-networks-trust-information-api
+- collection_type: open
+  name: Configuration Setup Trust Validations API
+  slug: open-palo-alto-networks-trust-validations-api
+- collection_type: open
+  name: Identity Services Trusted Certificate Authorities API
+  slug: open-palo-alto-networks-trusted-certificate-authorities-api
+- collection_type: open
+  name: Configuration Setup Trusted Tenants Overview API
+  slug: open-palo-alto-networks-trusted-tenants-overview-api
+- collection_type: open
+  name: Trusted Certificate Authority Management Trusted Certificate Authorities API
+  slug: open-palo-alto-networks-trustedcertificateauthorities-api
+- collection_type: open
+  name: Configuration Setup Trusts API
+  slug: open-palo-alto-networks-trusts-api
+- collection_type: open
+  name: Network Services Tunnel Interfaces API
+  slug: open-palo-alto-networks-tunnel-interfaces-api
+- collection_type: open
+  name: GlobalProtect Tunnel Settings API
+  slug: open-palo-alto-networks-tunnel-settings-api
+- collection_type: open
+  name: SASE 5G Manage Service UE Enrichment API
+  slug: open-palo-alto-networks-ue-enrichment-api
+- collection_type: open
+  name: SASE 5G Manage Service UE Info Resource API API
+  slug: open-palo-alto-networks-ue-info-resource-api-api
+- collection_type: open
+  name: SASE 5G Monitor Service UE IP Region API
+  slug: open-palo-alto-networks-ue-ip-region-api
+- collection_type: open
+  name: SASE 5G Monitor Service UE Mappings API
+  slug: open-palo-alto-networks-ue-mappings-api
+- collection_type: open
+  name: SASE 5G Monitor Service Unknown IP  Regions API
+  slug: open-palo-alto-networks-unknown-ip-regions-api
+- collection_type: open
+  name: SASE 5G Monitor Service Unknown UE Mappings API
+  slug: open-palo-alto-networks-unknown-ue-mappings-api
+- collection_type: open
+  name: Device Settings Update Schedule Settings API
+  slug: open-palo-alto-networks-update-schedule-settings-api
+- collection_type: open
+  name: Security Services URL Access Profiles API
+  slug: open-palo-alto-networks-url-access-profiles-api
+- collection_type: open
+  name: Security Services URL Admin Override API
+  slug: open-palo-alto-networks-url-admin-override-api
+- collection_type: open
+  name: Security Services URL Categories API
+  slug: open-palo-alto-networks-url-categories-api
+- collection_type: open
+  name: Security Services URL Filtering Categories API
+  slug: open-palo-alto-networks-url-filtering-categories-api
+- collection_type: open
+  name: URL Access Profiles API
+  slug: open-palo-alto-networks-urlaccessprofiles-api
+- collection_type: open
+  name: URL Category Management URL Categories API
+  slug: open-palo-alto-networks-urlcategories-api
+- collection_type: open
+  name: URL Filtering Category Management URL Filtering Categories API
+  slug: open-palo-alto-networks-urlfilteringcategories-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) User Authentication API'
+  slug: open-palo-alto-networks-user-authentication-api
+- collection_type: open
+  name: Palo Alto Networks User Groups API
+  slug: open-palo-alto-networks-user-groups-api
+- collection_type: open
+  name: GlobalProtect User Locations API
+  slug: open-palo-alto-networks-user-locations-api
+- collection_type: open
+  name: 'Prisma Cloud: Managed Security Service Provider (MSSP) User Management API'
+  slug: open-palo-alto-networks-user-management-api
+- collection_type: open
+  name: Palo Alto Networks User Profile API
+  slug: open-palo-alto-networks-user-profile-api
+- collection_type: open
+  name: Prisma Browser Management Console Public User Requests API
+  slug: open-palo-alto-networks-user-requests-api
+- collection_type: open
+  name: Palo Alto Networks User Roles API
+  slug: open-palo-alto-networks-user-roles-api
+- collection_type: open
+  name: Palo Alto Networks User Accounts API
+  slug: open-palo-alto-networks-useraccounts-api
+- collection_type: open
+  name: Network Services Userid Match List API
+  slug: open-palo-alto-networks-userid-match-list-api
+- collection_type: open
+  name: User Onboarding using Link Account User Onboarding Link Account API
+  slug: open-palo-alto-networks-useronboarding-linkaccount-api
+- collection_type: open
+  name: User Onboarding using Link Account User Onboarding Link Accounts API
+  slug: open-palo-alto-networks-useronboarding-linkaccounts-api
+- collection_type: open
+  name: User Onboarding using Endpoint Role User Onboarding Member Accounts API
+  slug: open-palo-alto-networks-useronboarding-memberaccounts-api
+- collection_type: open
+  name: User Onboarding using Endpoint Role User Onboarding X Account Roles API
+  slug: open-palo-alto-networks-useronboarding-xaccountroles-api
+- collection_type: open
+  name: Palo Alto Networks 3.0 Users API API
+  slug: open-palo-alto-networks-users-api-api
+- collection_type: open
+  name: Configuration Setup Variables API
+  slug: open-palo-alto-networks-variables-api
+- collection_type: open
+  name: Palo Alto Networks Violations API
+  slug: open-palo-alto-networks-violations-api
+- collection_type: open
+  name: SP Interconnect Manage Vlan Attachment API
+  slug: open-palo-alto-networks-vlan-attachment-api
+- collection_type: open
+  name: SP Interconnect Monitor VLAN Attachment Latency API
+  slug: open-palo-alto-networks-vlan-attachment-latency-api
+- collection_type: open
+  name: SP Interconnect Monitor VLAN Attachment Statistics API
+  slug: open-palo-alto-networks-vlan-attachment-statistics-api
+- collection_type: open
+  name: SP Interconnect Monitor VLAN Attachment Throughput API
+  slug: open-palo-alto-networks-vlan-attachment-throughput-api
+- collection_type: open
+  name: SP Interconnect Monitor VLAN Attachment Traffic API
+  slug: open-palo-alto-networks-vlan-attachment-traffic-api
+- collection_type: open
+  name: Network Services VLAN Interfaces API
+  slug: open-palo-alto-networks-vlan-interfaces-api
+- collection_type: open
+  name: Device Settings VPN Settings API
+  slug: open-palo-alto-networks-vpn-settings-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager V Satellite API
+  slug: open-palo-alto-networks-vsatellite-api
+- collection_type: open
+  name: Palo Alto Networks Vulnerabilities Dashboard API
+  slug: open-palo-alto-networks-vulnerabilities-dashboard-api
+- collection_type: open
+  name: Security Services Vulnerability Protection Profiles API
+  slug: open-palo-alto-networks-vulnerability-protection-profiles-api
+- collection_type: open
+  name: Security Services Vulnerability Protection Signatures API
+  slug: open-palo-alto-networks-vulnerability-protection-signatures-api
+- collection_type: open
+  name: Vulnerability Protection Profiles API
+  slug: open-palo-alto-networks-vulnerabilityprotectionprofiles-api
+- collection_type: open
+  name: Vulnerability Protection Signatures API
+  slug: open-palo-alto-networks-vulnerabilityprotectionsignatures-api
+- collection_type: open
+  name: Palo Alto Networks Widgets API
+  slug: open-palo-alto-networks-widgets-api
+- collection_type: open
+  name: ZTNA Connector Restful Wildcard API
+  slug: open-palo-alto-networks-wildcard-api
+- collection_type: open
+  name: Security Services WildFire Anti-Virus Profiles API
+  slug: open-palo-alto-networks-wildfire-anti-virus-profiles-api
+- collection_type: open
+  name: WildFire Antivirus Profiles Wild Fire Antivirus Profiles API
+  slug: open-palo-alto-networks-wildfireantivirusprofiles-api
+- collection_type: open
+  name: TLS Protect Cloud API for Strata Cloud Manager Workload Issuance Policies API
+  slug: open-palo-alto-networks-workload-issuance-policies-api
+- collection_type: open
+  name: Network Services Zone Protection Profiles API
+  slug: open-palo-alto-networks-zone-protection-profiles-api
+- collection_type: open
+  name: ADEM data Zoom Participant Controller API
+  slug: open-palo-alto-networks-zoomparticipantcontroller-api
+- collection_type: open
+  name: ADEM data Zoom Qos Controller API
+  slug: open-palo-alto-networks-zoomqoscontroller-api
 - collection_type: open
   name: 'Prisma Cloud: Managed Security Service Provider (MSSP)'
   slug: open-palo-alto-prisma-cloud-mssp-api-openapi-original
@@ -6994,7 +8725,7 @@ score:
       marker_coverage: 81.0
       total: 621
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png
 security:

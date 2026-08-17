@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Schedule future satellite captures
   name: Arlula Tasking API
   slug: arlula-tasking-api
-artifact_total: 85
+artifact_total: 90
 collections:
 - collection_type: postman
   name: Arlula Archive API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Arlula Archive Tasking API
   slug: postman-arlula-tasking-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arlula Archive API
+  slug: open-arlula-archive-api
+- collection_type: open
+  name: Arlula Archive Connection API
+  slug: open-arlula-connection-api
+- collection_type: open
+  name: Arlula Archive Orders API
+  slug: open-arlula-orders-api
+- collection_type: open
+  name: Arlula Archive Tasking API
+  slug: open-arlula-tasking-api
 - collection_type: open
   name: API Collection
   slug: open-arlula
@@ -336,7 +351,7 @@ plans:
 - name: Arlula Plans Pricing
   plan_count: 3
   slug: arlula-plans-pricing
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Arlula Rate Limits
@@ -378,7 +393,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/screenshots/arlula-2026-06-20T172434.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -99,8 +99,71 @@ apis:
 - description: Webhook endpoint registration and delivery history.
   name: Truv Webhooks API
   slug: truv-webhooks-api
-artifact_total: 29
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Truv Admin API
+  slug: open-truv-admin-api
+- collection_type: open
+  name: Truv Admin Banking API
+  slug: open-truv-banking-api
+- collection_type: open
+  name: Truv Admin Bridge Tokens API
+  slug: open-truv-bridge-tokens-api
+- collection_type: open
+  name: Truv Admin Companies & Providers API
+  slug: open-truv-companies-providers-api
+- collection_type: open
+  name: Truv Admin Direct Deposit API
+  slug: open-truv-direct-deposit-api
+- collection_type: open
+  name: Truv Admin Employment API
+  slug: open-truv-employment-api
+- collection_type: open
+  name: Truv Admin Identity API
+  slug: open-truv-identity-api
+- collection_type: open
+  name: Truv Admin Income API
+  slug: open-truv-income-api
+- collection_type: open
+  name: Truv Admin Insurance API
+  slug: open-truv-insurance-api
+- collection_type: open
+  name: Truv Admin Links API
+  slug: open-truv-links-api
+- collection_type: open
+  name: Truv Admin Orders API
+  slug: open-truv-orders-api
+- collection_type: open
+  name: Truv Admin Pay Statements API
+  slug: open-truv-pay-statements-api
+- collection_type: open
+  name: Truv Admin Payroll & Shifts API
+  slug: open-truv-payroll-shifts-api
+- collection_type: open
+  name: Truv Admin PLL API
+  slug: open-truv-pll-api
+- collection_type: open
+  name: Truv Admin Scoring API
+  slug: open-truv-scoring-api
+- collection_type: open
+  name: Truv Admin Tasks API
+  slug: open-truv-tasks-api
+- collection_type: open
+  name: Truv Admin Tax API
+  slug: open-truv-tax-api
+- collection_type: open
+  name: Truv Admin Templates API
+  slug: open-truv-templates-api
+- collection_type: open
+  name: Truv Admin Users API
+  slug: open-truv-users-api
+- collection_type: open
+  name: Truv Admin Webhooks API
+  slug: open-truv-webhooks-api
 - collection_type: open
   name: Truv API
   slug: open-truv
@@ -177,7 +240,7 @@ plans:
 - name: Truv Plans Pricing
   plan_count: 3
   slug: truv-plans-pricing
-random_paper: 105
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Truv Rate Limits
@@ -202,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

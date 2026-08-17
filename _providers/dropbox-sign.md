@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -56,12 +56,30 @@ apis:
 - description: The Fax API from Dropbox Sign — 2 operation(s) for fax.
   name: Dropbox Sign Fax API
   slug: dropbox-sign-fax-api
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: 'AsyncAPI description of the Dropbox Sign (formerly HelloSign) outbound event / callback surface. Dropbox Sign delivers event notifications by issuing HTTP POST requests to a subscriber-configured URL '
   name: Dropbox Sign Events and Callbacks
   slug: dropbox-sign-events-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dropbox Sign Account API
+  slug: open-dropbox-sign-account-api
+- collection_type: open
+  name: Dropbox Sign Account API App API
+  slug: open-dropbox-sign-api-app-api
+- collection_type: open
+  name: Dropbox Sign Account Bulk Send Job API
+  slug: open-dropbox-sign-bulk-send-job-api
+- collection_type: open
+  name: Dropbox Sign Account Embedded API
+  slug: open-dropbox-sign-embedded-api
+- collection_type: open
+  name: Dropbox Sign Account Fax API
+  slug: open-dropbox-sign-fax-api
 - collection_type: open
   name: Dropbox Sign API
   slug: open-dropbox-sign
@@ -141,7 +159,7 @@ overview: 'Dropbox Sign publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Dropbox Sign''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 44
+random_paper: 52
 rules:
 - name: Dropbox Sign API Rules
   rule_count: 4
@@ -176,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/screenshots/dropbox-sign-2026-06-20T180245.png
 security:

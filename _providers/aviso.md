@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -67,33 +67,73 @@ common:
   title: ''
   type: Blog
   url: https://www.aviso.com/blog
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aviso-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/aviso-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aviso-plans-pricing.yml
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://dochelp.aviso.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://dochelp.aviso.com/contact-us
+coverage:
+  checked: '2026-08-13'
+  detail: Aviso ships only an end-user SaaS product — its help center at dochelp.aviso.com documents how to connect Aviso to other vendors' APIs (Google Workspace, Microsoft 365, Gong, Outreach) and contains no article about an Aviso API, token, or webhook, while aviso.com/developers and aviso.com/api both 404 and no api./developer./docs. subdomain resolves.
+  evidence:
+  - status: 404
+    url: https://www.aviso.com/developers
+  - status: 404
+    url: https://www.aviso.com/api
+  - status: 404
+    url: https://app.aviso.com/openapi.json
+  - status: 404
+    url: https://www.aviso.com/.well-known/agent-card.json
+  - status: 200
+    url: https://dochelp.aviso.com/search?query=API
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Aviso is an end-to-end AI revenue platform that combines agentic AI, revenue forecasting, conversation intelligence, relationship intelligence, pipeline inspection, and unified RevOps capabilities to help go-to-market teams predict, guide, and simplify every revenue action. It offers role-specific AI agents, a no-code GTM Agent Studio, sales engagement and coaching, and a mobile revenue command center, with vertical solutions for Pharma and Life Sciences, Financial Services, and Technology. Aviso is SOC 2 Type II audited and GDPR compliant, and is backed by Bloomberg Beta and Cowboy Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aviso.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Aviso
 nav: Providers
 network: true
 overview: 'Aviso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Revenue Intelligence, Sales, Artificial Intelligence, and Forecasting.
 
 
-  Aviso''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
-random_paper: 66
+  Aviso''s developer surface includes pricing, engineering blog, support, and 11 more developer resources.'
+plans:
+- name: Aviso Plans Pricing
+  plan_count: 0
+  slug: aviso-plans-pricing
+random_paper: 99
 score:
   band: emerging
-  composite: 17.5
-  delta: 0.0
+  composite: 20.6
+  delta: 3.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviso/refs/heads/main/screenshots/aviso-2026-07-25T201951.png
 security:

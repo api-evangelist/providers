@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,6 +75,18 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/egenesisbio/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/egenesis-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.egenesisbio.com/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/egenesis-domain-security.yml
 created: '2026-07-17'
 description: eGenesis is a biotechnology company working at the intersection of genome engineering and transplantation to make organ transplants accessible to all. Using a multiplex CRISPR gene-editing and genome-engineering platform, eGenesis engineers porcine (pig) donor organs that are immunologically and molecularly compatible with human recipients and free of porcine endogenous retroviruses, aiming to end waitlist mortality by removing donor-organ scarcity as a barrier to transplantation. Its pipeline spans kidney, liver, and heart xenotransplantation programs; the U.S. FDA has cleared its IND for EGEN-2784, a genetically engineered porcine kidney, to begin a Phase 1/2/3 trial in patients with end-stage kidney disease. eGenesis is a private, venture-backed company (investors include Lux Capital). This API Evangelist profile tracks the company for network discovery; eGenesis publishes a corporate and scientific web presence but does not currently expose a public developer API.
 image: https://egenesisbio.com/favicon.ico
@@ -86,8 +98,8 @@ network: true
 overview: 'eGenesis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Xenotransplantation, Gene Editing, and Genome Engineering.
 
 
-  eGenesis'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 11
+  eGenesis'' developer surface includes engineering blog, support, and 12 more developer resources.'
+random_paper: 106
 score:
   band: minimal
   composite: 11.6
@@ -107,9 +119,9 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/egenesis/refs/heads/main/screenshots/egenesis-2026-07-25T212951.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/egenesis/refs/heads/main/screenshots/egenesis-2026-07-25T212952.png
 security:
 - kind: domain-security
   name: Egenesis Domain Security

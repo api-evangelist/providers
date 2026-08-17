@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The modern Salesforce Commerce API (SCAPI) — Shopper APIs (products, search, baskets, orders, customers), Admin APIs, and the Shopper Login and API Access Service (SLAS). Published as OpenAPI, secured
@@ -183,7 +183,7 @@ overview: 'Demandware publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Demandware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 88
+random_paper: 5
 scopes:
 - name: Demandware Scopes
   scope_count: 0
@@ -206,7 +206,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/screenshots/demandware-2026-07-25T211712.png
 security:

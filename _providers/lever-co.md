@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
 - description: Outbound event subscriptions.
   name: Lever Webhooks API
   slug: lever-co-webhooks-api
-artifact_total: 54
+artifact_total: 73
 collections:
 - collection_type: postman
   name: Lever Data Applications API
@@ -155,6 +155,63 @@ collections:
 - collection_type: postman
   name: Lever Data Applications Webhooks API
   slug: postman-lever-co-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lever Data Applications API
+  slug: open-lever-co-applications-api
+- collection_type: open
+  name: Lever Data Applications Archive Reasons API
+  slug: open-lever-co-archive-reasons-api
+- collection_type: open
+  name: Lever Data Applications Audit Events API
+  slug: open-lever-co-audit-events-api
+- collection_type: open
+  name: Lever Data Applications EEO Responses API
+  slug: open-lever-co-eeo-responses-api
+- collection_type: open
+  name: Lever Data Applications Feedback API
+  slug: open-lever-co-feedback-api
+- collection_type: open
+  name: Lever Data Applications Files API
+  slug: open-lever-co-files-api
+- collection_type: open
+  name: Lever Data Applications Interviews API
+  slug: open-lever-co-interviews-api
+- collection_type: open
+  name: Lever Data Applications Notes API
+  slug: open-lever-co-notes-api
+- collection_type: open
+  name: Lever Data Applications Offers API
+  slug: open-lever-co-offers-api
+- collection_type: open
+  name: Lever Data Applications Opportunities API
+  slug: open-lever-co-opportunities-api
+- collection_type: open
+  name: Lever Data Applications Panels API
+  slug: open-lever-co-panels-api
+- collection_type: open
+  name: Lever Data Applications Postings API
+  slug: open-lever-co-postings-api
+- collection_type: open
+  name: Lever Data Applications Requisitions API
+  slug: open-lever-co-requisitions-api
+- collection_type: open
+  name: Lever Data Applications Sources API
+  slug: open-lever-co-sources-api
+- collection_type: open
+  name: Lever Data Applications Stages API
+  slug: open-lever-co-stages-api
+- collection_type: open
+  name: Lever Data Applications Tags API
+  slug: open-lever-co-tags-api
+- collection_type: open
+  name: Lever Data Applications Users API
+  slug: open-lever-co-users-api
+- collection_type: open
+  name: Lever Data Applications Webhooks API
+  slug: open-lever-co-webhooks-api
 - collection_type: open
   name: Lever Data API
   slug: open-lever-data-api
@@ -313,7 +370,7 @@ plans:
 - name: Lever Co Plans Pricing
   plan_count: 1
   slug: lever-co-plans-pricing
-random_paper: 77
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Lever Co Rate Limits
@@ -352,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/screenshots/lever-co-2026-06-20T184439.png
 security:

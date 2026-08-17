@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: The People API from Cisco Directory Connectors — 2 operation(s) for people.
   name: Cisco Directory Connectors People API
   slug: cisco-directory-connectors-people-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cisco Directory Connectors API (via Webex People & ) Groups API
+  slug: open-cisco-directory-connectors-groups-api
+- collection_type: open
+  name: Cisco Directory Connectors API (via Webex & ) Groups People API
+  slug: open-cisco-directory-connectors-people-api
 - collection_type: open
   name: Cisco Directory Connectors API (via Webex People & Groups)
   slug: open-cisco-directory-connectors
@@ -114,7 +123,7 @@ plans:
 - name: Cisco Directory Connectors Plans Pricing
   plan_count: 3
   slug: cisco-directory-connectors-plans-pricing
-random_paper: 46
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Cisco Directory Connectors Rate Limits
@@ -139,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connectors/refs/heads/main/screenshots/cisco-directory-connectors-2026-06-20T174356.png
 security:

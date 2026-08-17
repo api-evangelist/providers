@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -120,14 +120,83 @@ apis:
 - description: Per-user preference key/value store.
   name: CoreLogic (Cotality) UserRegistry API
   slug: corelogic-userregistry-api
-artifact_total: 52
+artifact_total: 75
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts API
+  slug: open-corelogic-contacts-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts CustomProperty API
+  slug: open-corelogic-customproperty-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts DashboardAPI API
+  slug: open-corelogic-dashboardapi-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts DataSystem API
+  slug: open-corelogic-datasystem-api
 - collection_type: open
   name: CoreLogic Trestle Direct Web API — CRM
   slug: open-corelogic-direct-webapi-crm
 - collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts EmailHistory API
+  slug: open-corelogic-emailhistory-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts Field API
+  slug: open-corelogic-field-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts HistoryTransactional API
+  slug: open-corelogic-historytransactional-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts Lists API
+  slug: open-corelogic-lists-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts Lookup API
+  slug: open-corelogic-lookup-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts Media API
+  slug: open-corelogic-media-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts Member API
+  slug: open-corelogic-member-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts Model API
+  slug: open-corelogic-model-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts Office API
+  slug: open-corelogic-office-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts OpenHouse API
+  slug: open-corelogic-openhouse-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts PortalContents API
+  slug: open-corelogic-portalcontents-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts Property API
+  slug: open-corelogic-property-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts PropertyRooms API
+  slug: open-corelogic-propertyrooms-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts PropertyUnitTypes API
+  slug: open-corelogic-propertyunittypes-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts SavedSearches API
+  slug: open-corelogic-savedsearches-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts TeamMembers API
+  slug: open-corelogic-teammembers-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts Teams API
+  slug: open-corelogic-teams-api
+- collection_type: open
   name: CoreLogic Trestle RESO Web API
   slug: open-corelogic-trestle-reso-web-api
+- collection_type: open
+  name: CoreLogic Trestle Direct Web API — CRM Contacts UserRegistry API
+  slug: open-corelogic-userregistry-api
 common:
 - group: agent
   title: ''
@@ -321,7 +390,7 @@ plans:
 - name: Corelogic Plans Pricing
   plan_count: 4
   slug: corelogic-plans-pricing
-random_paper: 111
+random_paper: 57
 rate_limits:
 - limit_count: 8
   name: Corelogic Rate Limits
@@ -382,7 +451,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/screenshots/corelogic-2026-06-20T175025.png
 security:

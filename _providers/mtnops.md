@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ overview: 'MTN OPS is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   MTN OPS''s developer surface includes support, signup flow, authentication, and 7 more developer resources.'
-random_paper: 73
+random_paper: 77
 score:
   band: emerging
   composite: 15.6
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mtnops/refs/heads/main/screenshots/mtnops-2026-08-07T184431.png
 security:

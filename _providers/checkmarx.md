@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: Manage teams and access control
   name: Checkmarx Teams API
   slug: checkmarx-teams-api
-artifact_total: 45
+artifact_total: 61
 collections:
 - collection_type: postman
   name: Checkmarx One Applications API
@@ -132,14 +132,62 @@ collections:
   name: Checkmarx One Applications Teams API
   slug: postman-checkmarx-teams-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Checkmarx One Applications API
+  slug: open-checkmarx-applications-api
+- collection_type: open
+  name: Checkmarx One Applications Authentication API
+  slug: open-checkmarx-authentication-api
+- collection_type: open
+  name: Checkmarx One Applications Configuration API
+  slug: open-checkmarx-configuration-api
+- collection_type: open
+  name: Checkmarx One Applications Engines API
+  slug: open-checkmarx-engines-api
+- collection_type: open
+  name: Checkmarx One Applications Groups API
+  slug: open-checkmarx-groups-api
+- collection_type: open
   name: Checkmarx One API
   slug: open-checkmarx-one
+- collection_type: open
+  name: Checkmarx One Applications Packages API
+  slug: open-checkmarx-packages-api
+- collection_type: open
+  name: Checkmarx One Applications Presets API
+  slug: open-checkmarx-presets-api
+- collection_type: open
+  name: Checkmarx One Applications Projects API
+  slug: open-checkmarx-projects-api
+- collection_type: open
+  name: Checkmarx One Applications Queries API
+  slug: open-checkmarx-queries-api
+- collection_type: open
+  name: Checkmarx One Applications Reports API
+  slug: open-checkmarx-reports-api
+- collection_type: open
+  name: Checkmarx One Applications Results API
+  slug: open-checkmarx-results-api
+- collection_type: open
+  name: Checkmarx One Applications Risk Reports API
+  slug: open-checkmarx-risk-reports-api
 - collection_type: open
   name: Checkmarx SAST API
   slug: open-checkmarx-sast
 - collection_type: open
   name: Checkmarx SCA API
   slug: open-checkmarx-sca
+- collection_type: open
+  name: Checkmarx One Applications Scans API
+  slug: open-checkmarx-scans-api
+- collection_type: open
+  name: Checkmarx One Applications Settings API
+  slug: open-checkmarx-settings-api
+- collection_type: open
+  name: Checkmarx One Applications Teams API
+  slug: open-checkmarx-teams-api
 common:
 - group: build
   title: ''
@@ -264,7 +312,7 @@ plans:
 - name: Checkmarx Plans Pricing
   plan_count: 5
   slug: checkmarx-plans-pricing
-random_paper: 110
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Checkmarx Rate Limits
@@ -298,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/screenshots/checkmarx-2026-06-20T174245.png
 security:

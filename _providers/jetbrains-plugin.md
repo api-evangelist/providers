@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: The Updates API from JetBrains Marketplace — 1 operation(s) for updates.
   name: JetBrains Marketplace Updates API
   slug: jetbrains-plugin-updates-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JetBrains Marketplace Plugins API
+  slug: open-jetbrains-plugin-plugins-api
+- collection_type: open
+  name: JetBrains Marketplace Plugins Updates API
+  slug: open-jetbrains-plugin-updates-api
 - collection_type: open
   name: JetBrains Marketplace API
   slug: open-jetbrains-plugin
@@ -109,7 +118,7 @@ overview: 'JetBrains Marketplace publishes 2 APIs on the [APIs.io](https://apis.
 
 
   JetBrains Marketplace''s developer surface includes authentication, documentation, signup flow, pricing, and 7 more developer resources.'
-random_paper: 102
+random_paper: 23
 score:
   band: thin
   composite: 32.8
@@ -130,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/screenshots/jetbrains-plugin-2026-06-20T183726.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,7 +115,7 @@ overview: 'Akto is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Akto''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 11 more developer resources.'
-random_paper: 71
+random_paper: 133
 score:
   band: thin
   composite: 29.6
@@ -129,7 +129,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akto/refs/heads/main/screenshots/akto-2026-07-25T195533.png
 security:

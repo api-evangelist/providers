@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: The Access API from Koin — 1 operation(s) for access.
@@ -79,11 +79,63 @@ apis:
 - description: The WireTransfer API from Koin — 1 operation(s) for wiretransfer.
   name: Koin WireTransfer API
   slug: koin-wiretransfer-api
-artifact_total: 20
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Koin Payments Webhooks
   slug: koin-payments-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Antifraud Access API
+  slug: open-koin-access-api
+- collection_type: open
+  name: Antifraud Access Account Take Over Services API
+  slug: open-koin-account-take-over-services-api
+- collection_type: open
+  name: Antifraud Access Availability Services API
+  slug: open-koin-availability-services-api
+- collection_type: open
+  name: Antifraud Access Communication Services API
+  slug: open-koin-communication-services-api
+- collection_type: open
+  name: Antifraud Access Ecommerce API
+  slug: open-koin-ecommerce-api
+- collection_type: open
+  name: Antifraud Access Notification Services Sales API
+  slug: open-koin-notification-services-sales-api
+- collection_type: open
+  name: Antifraud Access Onboarding Services API
+  slug: open-koin-onboarding-services-api
+- collection_type: open
+  name: Antifraud Access Payment Service Provider API
+  slug: open-koin-payment-service-provider-api
+- collection_type: open
+  name: Antifraud Access Payment Services API
+  slug: open-koin-payment-services-api
+- collection_type: open
+  name: Antifraud Access PaymentRequest API
+  slug: open-koin-paymentrequest-api
+- collection_type: open
+  name: Antifraud Access Payout Services API
+  slug: open-koin-payout-services-api
+- collection_type: open
+  name: Antifraud Access Recipient Services Account API
+  slug: open-koin-recipient-services-account-api
+- collection_type: open
+  name: Antifraud Access Refund Services API
+  slug: open-koin-refund-services-api
+- collection_type: open
+  name: Antifraud Access Support Services API
+  slug: open-koin-support-services-api
+- collection_type: open
+  name: Antifraud Access Tokenize Services API
+  slug: open-koin-tokenize-services-api
+- collection_type: open
+  name: Antifraud Access WireTransfer API
+  slug: open-koin-wiretransfer-api
 common:
 - group: other
   title: ''
@@ -236,7 +288,7 @@ overview: 'Koin publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Koin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 73
+random_paper: 135
 score:
   band: developing
   composite: 53.6
@@ -265,7 +317,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png
 security:

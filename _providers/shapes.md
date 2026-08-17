@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Chat API from Shapes — 1 operation(s) for chat.
@@ -40,7 +40,20 @@ apis:
 - description: The Shapes API from Shapes — 1 operation(s) for shapes.
   name: Shapes Shapes API
   slug: shapes-shapes-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shapes Chat API
+  slug: open-shapes-chat-api
+- collection_type: open
+  name: Shapes Chat Models API
+  slug: open-shapes-models-api
+- collection_type: open
+  name: Chat Shapes API
+  slug: open-shapes-shapes-api
 common:
 - group: other
   title: ''
@@ -154,7 +167,7 @@ overview: 'Shapes publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Shapes'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 44
+random_paper: 48
 score:
   band: developing
   composite: 45.8
@@ -177,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

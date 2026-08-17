@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -54,11 +54,29 @@ apis:
 - description: View balance amounts for account combinations or accounts defined as part of an account group
   name: Oracle Financials Ledger Balances API
   slug: oracle-financials-ledger-balances-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Financials General Ledger Budgetary Control API
+  slug: open-oracle-financials-budgetary-control-api
+- collection_type: open
+  name: Oracle Financials General Ledger Budgetary Control Chart of Accounts API
+  slug: open-oracle-financials-chart-of-accounts-api
+- collection_type: open
+  name: Oracle Financials General Ledger Budgetary Control Currency Rates API
+  slug: open-oracle-financials-currency-rates-api
 - collection_type: open
   name: Oracle Financials General Ledger API
   slug: open-oracle-financials-general-ledger
+- collection_type: open
+  name: Oracle Financials General Ledger Budgetary Control Journal Batches API
+  slug: open-oracle-financials-journal-batches-api
+- collection_type: open
+  name: Oracle Financials General Ledger Budgetary Control Ledger Balances API
+  slug: open-oracle-financials-ledger-balances-api
 common:
 - group: agent
   title: ''
@@ -153,7 +171,7 @@ plans:
 - name: Oracle Financials Plans Pricing
   plan_count: 2
   slug: oracle-financials-plans-pricing
-random_paper: 43
+random_paper: 84
 rate_limits:
 - limit_count: 3
   name: Oracle Financials Rate Limits
@@ -187,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/screenshots/oracle-financials-2026-06-20T191131.png
 security:

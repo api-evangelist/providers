@@ -1,35 +1,47 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Open Source
   onboarding: unknown
   pricing: unknown
-  public: false
-  source: []
+  public: true
+  source:
+  - https://github.com/newfold-labs
+  - https://newfold-labs.github.io/satis/
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 31.1
+  scored_at: '2026-08-17'
+api_count: 3
+apis:
+- description: The Newfold Labs WordPress MCP module (wp-module-mcp) registers an MCP server, id blu-mcp, on the WordPress REST route /wp-json/blu/mcp of every site running a Newfold brand plugin. It exposes WordPre
+  name: Newfold BLU MCP Server (WordPress)
+  slug: blu-mcp
+- description: Hiive is Newfold's site-connection platform API. The GPL-licensed Newfold data module (wp-module-data), installed on every site running a Newfold brand plugin, defines the base https://hiive.cloud/api
+  name: Hiive Platform API
+  slug: hiive
+- description: 'HUAPI is Newfold''s internal hosting control-plane API, versioned under /v1, covering account, hosting, sites, domains, addons (backup, CodeGuard, SiteLock, Xcitium, Cloudflare, SpamExperts, Jetpack), '
+  name: HUAPI (Hosting Unified API)
+  slug: huapi
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -39,37 +51,165 @@ common:
   title: ''
   type: Website
   url: https://newfold.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/newfold-labs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://newfold-labs.github.io/standards/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://github.com/newfold-labs/wp-module-mcp/blob/main/docs/api.md
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/newfold-labs/wp-module-mcp/blob/main/docs/getting-started.md
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/newfold-labs/wp-module-mcp/issues
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://newfold.com/privacy-center/privacy
+- group: auth
+  title: ''
+  type: Security
+  url: https://newfold.com/disclosure
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/newfold-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://newfold.com/privacy-center/information-security-policy
+- group: build
+  title: ''
+  type: Packages
+  url: packages/newfold-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/newfold-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/newfold-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/newfold-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/newfold-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/newfold-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/newfold-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/newfold-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/newfold-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/newfold-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/newfold-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/newfold-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/newfold-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/newfold-rate-limits.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/newfold-standards-frontmatter.schema.json
 created: '2026-07-17'
-description: Newfold Digital is a web presence and technology solutions company serving small and medium businesses worldwide with domain registration, web hosting, website building, e-commerce, security, and digital marketing. It was formed in 2021 from the merger of Web.com Group and Endurance International Group and operates a portfolio of consumer and reseller brands including Bluehost, HostGator, Network Solutions, Register.com, Web.com, and Domain.com. The corporate site newfold.com is an investor and company presence rather than a unified developer portal; public developer and API surfaces live within the individual operating brands, not at the holding-company level.
+description: Newfold Digital is a web presence and technology solutions company serving small and medium businesses worldwide with domain registration, web hosting, website building, e-commerce, security, and digital marketing. It was formed in 2021 from the merger of Web.com Group and Endurance International Group and operates a portfolio of consumer and reseller brands including Bluehost, HostGator, Network Solutions, Register.com, Web.com, and Domain.com. The corporate site newfold.com is an investor and company presence rather than a unified developer portal, and it sits behind a Cloudflare interactive challenge. The company's real public developer surface is Newfold Labs (github.com/newfold-labs), an 85-repository engineering org that ships the brand WordPress plugins, a Composer module fleet distributed from its own Satis registry, public npm packages under the @newfold scope, a published engineering standards site with an llms.txt, and an MCP server module that exposes WordPress abilities
+  to AI assistants from each customer site.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newfold.png
+json_schemas:
+- name: Newfold Labs standards document front matter
+  property_count: 11
+  slug: newfold-standards-frontmatter.schema
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: newfold-mcp.yml
+  slug: newfold-mcpyml
+modified: '2026-08-13'
 name: Newfold
 nav: Providers
 network: true
-overview: Newfold is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Hosting, Domains, Web Presence, and Website Builder.
-random_paper: 31
+overview: 'Newfold publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Hosting, Domains, Web Presence, and Website Builder.
+
+
+  Newfold''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, CLI, and 20 more developer resources.'
+plans:
+- name: Newfold Plans Pricing
+  plan_count: 0
+  slug: newfold-plans-pricing
+random_paper: 6
+rate_limits:
+- limit_count: 0
+  name: Newfold Rate Limits
+  slug: newfold-rate-limits
 score:
-  band: minimal
-  composite: 5.0
-  delta: 0.0
+  band: thin
+  composite: 30.4
+  delta: 25.4
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 18.4
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 69.6
+    discoverability: 72.2
+    governance: 12.5
+    operational_transparency: 31.6
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/screenshots/newfold-2026-08-07T185102.png
 security:
+- kind: authentication
+  name: Newfold Authentication
+  slug: newfold-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Newfold Domain Security
   slug: newfold-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Newfold Vulnerability Disclosure
+  slug: newfold-vulnerability-disclosure
+  summary_line: Hackerone
 slug: newfold
 tags:
 - Company
@@ -79,5 +219,9 @@ tags:
 - Website Builder
 - Digital Marketing
 - Small Business
+- WordPress
+- Open Source
+- Model Context Protocol
+- eCommerce
 website: https://newfold.com
 ---

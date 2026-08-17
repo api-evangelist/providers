@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Daily historical rates between two dates.
   name: Currencylayer Time Frame API
   slug: currencylayer-time-frame-api
-artifact_total: 66
+artifact_total: 72
 collections:
 - collection_type: postman
   name: Currencylayer Change API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Currencylayer Change Time Frame API
   slug: postman-currencylayer-time-frame-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Currencylayer Change API
+  slug: open-currencylayer-change-api
+- collection_type: open
+  name: Currencylayer Change Conversion API
+  slug: open-currencylayer-conversion-api
+- collection_type: open
+  name: Currencylayer Change Rates API
+  slug: open-currencylayer-rates-api
+- collection_type: open
+  name: Currencylayer Change Symbols API
+  slug: open-currencylayer-symbols-api
+- collection_type: open
+  name: Currencylayer Change Time Frame API
+  slug: open-currencylayer-time-frame-api
 - collection_type: open
   name: Currencylayer API
   slug: open-currencylayer
@@ -287,7 +305,7 @@ plans:
 - name: Currencylayer Plans Pricing
   plan_count: 6
   slug: currencylayer-plans-pricing
-random_paper: 96
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Currencylayer Rate Limits
@@ -329,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/screenshots/currencylayer-2026-06-20T175338.png
 security:

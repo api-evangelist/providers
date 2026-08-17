@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -57,7 +57,7 @@ apis:
 - description: Tokenization of payment instruments for one-click and recurring.
   name: HyperPay Registrations API
   slug: hyperpay-registrations-api
-artifact_total: 20
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Hyperpay Webhooks
@@ -75,6 +75,21 @@ collections:
 - collection_type: postman
   name: HyperPay Payment COPYandPAY Registrations API
   slug: postman-hyperpay-registrations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HyperPay Payment COPYandPAY API
+  slug: open-hyperpay-copyandpay-api
+- collection_type: open
+  name: HyperPay Payment COPYandPAY Payments API
+  slug: open-hyperpay-payments-api
+- collection_type: open
+  name: HyperPay Payment COPYandPAY Query API
+  slug: open-hyperpay-query-api
+- collection_type: open
+  name: HyperPay Payment COPYandPAY Registrations API
+  slug: open-hyperpay-registrations-api
 common:
 - group: build
   title: ''
@@ -243,7 +258,7 @@ plans:
 - name: Hyperpay Plans Pricing
   plan_count: 2
   slug: hyperpay-plans-pricing
-random_paper: 42
+random_paper: 137
 rate_limits:
 - limit_count: 2
   name: Hyperpay Rate Limits
@@ -277,7 +292,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/screenshots/hyperpay-2026-07-25T221905.png
 security:

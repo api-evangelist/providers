@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Jays is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jays'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 79
+random_paper: 141
 score:
   band: emerging
   composite: 13.0
@@ -99,7 +99,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jays/refs/heads/main/screenshots/jays-2026-08-07T170955.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: Cricket series list and search
   name: CricAPI Series API
   slug: cricapi-series-api
-artifact_total: 20
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CricAPI Cricket Data Fantasy API
+  slug: open-cricapi-fantasy-api
+- collection_type: open
+  name: CricAPI Cricket Data Fantasy Generic API
+  slug: open-cricapi-generic-api
+- collection_type: open
+  name: CricAPI Cricket Data Fantasy Info API
+  slug: open-cricapi-info-api
+- collection_type: open
+  name: CricAPI Cricket Data Fantasy Matches API
+  slug: open-cricapi-matches-api
+- collection_type: open
+  name: CricAPI Cricket Data Fantasy Players API
+  slug: open-cricapi-players-api
+- collection_type: open
+  name: CricAPI Cricket Data Fantasy Series API
+  slug: open-cricapi-series-api
 common:
 - group: agent
   title: ''
@@ -175,7 +197,7 @@ plans:
 - name: Cricapi Plans Pricing
   plan_count: 5
   slug: cricapi-plans-pricing
-random_paper: 11
+random_paper: 135
 rate_limits:
 - limit_count: 6
   name: Cricapi Rate Limits
@@ -209,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/screenshots/cricapi-2026-06-20T175236.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -57,7 +57,7 @@ apis:
 - description: LLM calls, spans, steps, and quality scores recorded against a run
   name: Waxell Telemetry API
   slug: waxell-telemetry-api
-artifact_total: 63
+artifact_total: 69
 collections:
 - collection_type: postman
   name: Waxell Observe Cost Management API
@@ -75,8 +75,26 @@ collections:
   name: Waxell Observe Cost Management Telemetry API
   slug: postman-waxell-telemetry-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Waxell Observe Cost Management API
+  slug: open-waxell-cost-management-api
+- collection_type: open
+  name: Waxell Observe Cost Management Governance API
+  slug: open-waxell-governance-api
+- collection_type: open
   name: Waxell Observe API
   slug: open-waxell-observe
+- collection_type: open
+  name: Waxell Observe Cost Management Prompts API
+  slug: open-waxell-prompts-api
+- collection_type: open
+  name: Waxell Observe Cost Management Runs API
+  slug: open-waxell-runs-api
+- collection_type: open
+  name: Waxell Observe Cost Management Telemetry API
+  slug: open-waxell-telemetry-api
 common:
 - group: build
   title: ''
@@ -307,7 +325,7 @@ plans:
 - name: Waxell Plans Pricing
   plan_count: 2
   slug: waxell-plans-pricing
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Waxell Rate Limits
@@ -355,7 +373,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/screenshots/waxell-2026-06-20T201300.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,12 +51,24 @@ apis:
 - description: Subscriber records and lifecycle
   name: Kit Subscribers API
   slug: kit-subscribers-api
-artifact_total: 16
+artifact_total: 20
 asyncapis:
 - description: AsyncAPI 2.6 description of the Kit (formerly ConvertKit) webhook surface. Kit delivers webhook notifications via HTTP `POST` requests with a JSON body to a `target_url` registered through the Kit API
   name: Kit Webhooks
   slug: kit-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kit API V4 Account API
+  slug: open-kit-account-api
+- collection_type: open
+  name: Kit API V4 Account Broadcasts API
+  slug: open-kit-broadcasts-api
+- collection_type: open
+  name: Kit API V4 Account Subscribers API
+  slug: open-kit-subscribers-api
 - collection_type: open
   name: Kit API V4
   slug: open-kit
@@ -144,7 +156,7 @@ plans:
 - name: Kit Plans Pricing
   plan_count: 3
   slug: kit-plans-pricing
-random_paper: 88
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Kit Rate Limits
@@ -189,7 +201,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kit/refs/heads/main/screenshots/kit-2026-06-20T184050.png
 security:

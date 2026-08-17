@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Programmatic access to the Tanaza Cloud dashboard data set across three documented API families — Network Management, Network Monitoring, and Application — plus Push Contact Notifications webhooks. Re
@@ -110,7 +110,7 @@ overview: 'Tanaza publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tanaza''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 39
+random_paper: 43
 score:
   band: thin
   composite: 33.8
@@ -130,7 +130,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

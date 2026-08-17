@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -72,28 +72,49 @@ apis:
 - description: Read access to time-off requests submitted by members
   name: Justworks Time Off Requests API
   slug: justworks-time-off-requests-api
-artifact_total: 52
+artifact_total: 59
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Justworks Company API
   slug: open-justworks-company-api
 - collection_type: open
-  name: Justworks Deductions API
+  name: Justworks Company Deduction Types API
+  slug: open-justworks-deduction-types-api
+- collection_type: open
+  name: Justworks Company Deductions API
   slug: open-justworks-deductions-api
 - collection_type: open
-  name: Justworks Members API
+  name: Justworks Company Members API
   slug: open-justworks-members-api
 - collection_type: open
-  name: Justworks OAuth API
+  name: Justworks Company OAuth API
   slug: open-justworks-oauth-api
 - collection_type: open
   name: Justworks Payroll API
   slug: open-justworks-payroll-api
 - collection_type: open
+  name: Justworks Company Payrolls API
+  slug: open-justworks-payrolls-api
+- collection_type: open
+  name: Justworks Company Paystubs API
+  slug: open-justworks-paystubs-api
+- collection_type: open
   name: Justworks Time Off API
   slug: open-justworks-time-off-api
 - collection_type: open
-  name: Justworks Webhooks API
+  name: Justworks Company Time Off Balances API
+  slug: open-justworks-time-off-balances-api
+- collection_type: open
+  name: Justworks Company Time Off Policies API
+  slug: open-justworks-time-off-policies-api
+- collection_type: open
+  name: Justworks Company Time Off Requests API
+  slug: open-justworks-time-off-requests-api
+- collection_type: open
+  name: Justworks Company Webhooks API
   slug: open-justworks-webhooks-api
 common:
 - group: agent
@@ -258,7 +279,7 @@ plans:
 - name: Justworks Plans Pricing
   plan_count: 5
   slug: justworks-plans-pricing
-random_paper: 60
+random_paper: 126
 rate_limits:
 - limit_count: 2
   name: Justworks Rate Limits
@@ -303,7 +324,7 @@ score:
     regime_id: insurance
     score: 68.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/screenshots/justworks-2026-06-20T183846.png
 security:

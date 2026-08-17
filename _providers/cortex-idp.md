@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Standards that measure catalog entities, with scores and exemptions.
   name: Cortex Scorecards API
   slug: cortex-idp-scorecards-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cortex REST Catalog API
+  slug: open-cortex-idp-catalog-api
+- collection_type: open
+  name: Cortex REST Catalog Custom Data API
+  slug: open-cortex-idp-custom-data-api
+- collection_type: open
+  name: Cortex REST Catalog Deploys API
+  slug: open-cortex-idp-deploys-api
+- collection_type: open
+  name: Cortex REST Catalog Initiatives API
+  slug: open-cortex-idp-initiatives-api
+- collection_type: open
+  name: Cortex REST Catalog Integrations API
+  slug: open-cortex-idp-integrations-api
+- collection_type: open
+  name: Cortex REST Catalog Scorecards API
+  slug: open-cortex-idp-scorecards-api
 - collection_type: open
   name: Cortex REST API
   slug: open-cortex-idp
@@ -119,7 +140,7 @@ plans:
 - name: Cortex Idp Plans Pricing
   plan_count: 3
   slug: cortex-idp-plans-pricing
-random_paper: 63
+random_paper: 129
 rate_limits:
 - limit_count: 2
   name: Cortex Idp Rate Limits
@@ -144,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/screenshots/cortex-idp-2026-07-25T210650.png
 security:

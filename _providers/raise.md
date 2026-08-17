@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Raise Commerce API (business/v2) — browse gift card brands and categories, purchase fixed- and variable-load gift cards, retrieve and act on individual cards (balance check, mark redeemed, update '
@@ -92,7 +92,7 @@ overview: 'Raise publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Raise''s developer surface includes documentation, API reference, getting-started guide, support, and 6 more developer resources.'
-random_paper: 52
+random_paper: 85
 score:
   band: emerging
   composite: 17.5
@@ -115,7 +115,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

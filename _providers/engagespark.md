@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -59,11 +59,36 @@ apis:
 - description: The WhatsApp API from engageSPARK — 3 operation(s) for whatsapp.
   name: engageSPARK WhatsApp API
   slug: engagespark-whatsapp-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Engagespark Webhooks
   slug: engagespark-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: engageSPARK Balance API
+  slug: open-engagespark-balance-api
+- collection_type: open
+  name: engageSPARK Balance Campaigns API
+  slug: open-engagespark-campaigns-api
+- collection_type: open
+  name: engageSPARK Balance Contacts API
+  slug: open-engagespark-contacts-api
+- collection_type: open
+  name: engageSPARK Balance Files API
+  slug: open-engagespark-files-api
+- collection_type: open
+  name: engageSPARK Balance SMS API
+  slug: open-engagespark-sms-api
+- collection_type: open
+  name: engageSPARK Balance Top-Up API
+  slug: open-engagespark-top-up-api
+- collection_type: open
+  name: engageSPARK Balance WhatsApp API
+  slug: open-engagespark-whatsapp-api
 common:
 - group: agent
   title: ''
@@ -160,7 +185,7 @@ overview: 'engageSPARK publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   engageSPARK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 80
+random_paper: 117
 score:
   band: thin
   composite: 41.9
@@ -190,7 +215,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/screenshots/engagespark-2026-07-25T213341.png
 security:

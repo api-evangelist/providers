@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The fhir-r4-formulary-api API from Clover Health — 5 operation(s) for fhir-r4-formulary-api.
@@ -37,7 +37,17 @@ apis:
 - description: The FHIR R4 ProviderDirectory API API from Clover Health — 17 operation(s) for fhir r4 providerdirectory api.
   name: Clover Health FHIR R4 ProviderDirectory API API
   slug: clover-health-fhir-r4-providerdirectory-api-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FHIR fhir-r4-formulary-api API
+  slug: open-clover-health-fhir-r4-formulary-api-api
+- collection_type: open
+  name: FHIR fhir-r4-formulary-api FHIR R4 ProviderDirectory API API
+  slug: open-clover-health-fhir-r4-providerdirectory-api-api
 common:
 - group: start
   title: ''
@@ -151,7 +161,7 @@ overview: 'Clover Health publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Clover Health''s developer surface includes documentation, API reference, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 6
+random_paper: 134
 score:
   band: thin
   composite: 40.3
@@ -180,7 +190,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/screenshots/clover-health-2026-07-25T205721.png
 security:

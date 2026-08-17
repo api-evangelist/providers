@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 78
 apis:
 - description: The ClientApi API from Automile — 1 operation(s) for clientapi.
@@ -265,11 +265,249 @@ apis:
 - description: The ResourceOwnerWorkOrder API from Automile — 12 operation(s) for resourceownerworkorder.
   name: Automile ResourceOwnerWorkOrder API
   slug: automile-resourceownerworkorder-api
-artifact_total: 83
+artifact_total: 162
 asyncapis:
 - description: ''
   name: Automile Webhooks
   slug: automile-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Automile ClientApi API
+  slug: open-automile-clientapi-api
+- collection_type: open
+  name: Automile ClientApi ClientApiAuthorizations API
+  slug: open-automile-clientapiauthorizations-api
+- collection_type: open
+  name: Automile ClientApi ClientContracts API
+  slug: open-automile-clientcontracts-api
+- collection_type: open
+  name: Automile ClientApi ClientCustom API
+  slug: open-automile-clientcustom-api
+- collection_type: open
+  name: Automile ClientApi ClientOnboarding API
+  slug: open-automile-clientonboarding-api
+- collection_type: open
+  name: Automile ClientApi ClientOrder API
+  slug: open-automile-clientorder-api
+- collection_type: open
+  name: Automile ClientApi ClientTextMessage API
+  slug: open-automile-clienttextmessage-api
+- collection_type: open
+  name: Automile ClientApi ClientUsers API
+  slug: open-automile-clientusers-api
+- collection_type: open
+  name: Automile ClientApi Echo API
+  slug: open-automile-echo-api
+- collection_type: open
+  name: Automile ClientApi Home API
+  slug: open-automile-home-api
+- collection_type: open
+  name: Automile ClientApi Login API
+  slug: open-automile-login-api
+- collection_type: open
+  name: Automile ClientApi OAuth API
+  slug: open-automile-oauth-api
+- collection_type: open
+  name: Automile ClientApi Order API
+  slug: open-automile-order-api
+- collection_type: open
+  name: Automile ClientApi Phone API
+  slug: open-automile-phone-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerCompany API
+  slug: open-automile-resourceownercompany-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerCompanyContacts API
+  slug: open-automile-resourceownercompanycontacts-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerCompanyVehicles API
+  slug: open-automile-resourceownercompanyvehicles-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerContact API
+  slug: open-automile-resourceownercontact-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerContact2 API
+  slug: open-automile-resourceownercontact2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerContact3 API
+  slug: open-automile-resourceownercontact3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerContactSetting API
+  slug: open-automile-resourceownercontactsetting-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerContactVehicle API
+  slug: open-automile-resourceownercontactvehicle-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerContent API
+  slug: open-automile-resourceownercontent-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerExpenseReport3V2 API
+  slug: open-automile-resourceownerexpensereport3v2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerExpenseReportRow3V2 API
+  slug: open-automile-resourceownerexpensereportrow3v2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerExpenseReportRowContent3V2 API
+  slug: open-automile-resourceownerexpensereportrowcontent3v2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerExpenseReportRowContentV2 API
+  slug: open-automile-resourceownerexpensereportrowcontentv2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerExpenseReportRowV2 API
+  slug: open-automile-resourceownerexpensereportrowv2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerExpenseReportV2 API
+  slug: open-automile-resourceownerexpensereportv2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerGeofence API
+  slug: open-automile-resourceownergeofence-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerGeofence2 API
+  slug: open-automile-resourceownergeofence2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerGeofence3 API
+  slug: open-automile-resourceownergeofence3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerHoursOfService API
+  slug: open-automile-resourceownerhoursofservice-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerHoursOfServiceViolations API
+  slug: open-automile-resourceownerhoursofserviceviolations-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerIMEIConfig API
+  slug: open-automile-resourceownerimeiconfig-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerIMEIConfig3 API
+  slug: open-automile-resourceownerimeiconfig3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerIMEIEvent API
+  slug: open-automile-resourceownerimeievent-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerIntegration API
+  slug: open-automile-resourceownerintegration-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerLead API
+  slug: open-automile-resourceownerlead-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerOrganization API
+  slug: open-automile-resourceownerorganization-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerPlace API
+  slug: open-automile-resourceownerplace-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerPlace2 API
+  slug: open-automile-resourceownerplace2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerPlace3 API
+  slug: open-automile-resourceownerplace3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerPublishSubscribe API
+  slug: open-automile-resourceownerpublishsubscribe-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerQuote API
+  slug: open-automile-resourceownerquote-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerRegisteredTollV2 API
+  slug: open-automile-resourceownerregisteredtollv2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerReports API
+  slug: open-automile-resourceownerreports-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerReports3 API
+  slug: open-automile-resourceownerreports3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerRoutePlanner API
+  slug: open-automile-resourceownerrouteplanner-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTask API
+  slug: open-automile-resourceownertask-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTask3 API
+  slug: open-automile-resourceownertask3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTaskMessage API
+  slug: open-automile-resourceownertaskmessage-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTaskMessage3 API
+  slug: open-automile-resourceownertaskmessage3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTrackedAsset API
+  slug: open-automile-resourceownertrackedasset-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTriggerMessages API
+  slug: open-automile-resourceownertriggermessages-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTriggers API
+  slug: open-automile-resourceownertriggers-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTriggers3 API
+  slug: open-automile-resourceownertriggers3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTrip3V2 API
+  slug: open-automile-resourceownertrip3v2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTripApprovalV2 API
+  slug: open-automile-resourceownertripapprovalv2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTripMergeV2 API
+  slug: open-automile-resourceownertripmergev2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTripScore API
+  slug: open-automile-resourceownertripscore-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerTripV2 API
+  slug: open-automile-resourceownertripv2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerUser API
+  slug: open-automile-resourceowneruser-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerUserDevice API
+  slug: open-automile-resourceowneruserdevice-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicle2V2 API
+  slug: open-automile-resourceownervehicle2v2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicle3V2 API
+  slug: open-automile-resourceownervehicle3v2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleDefectComments API
+  slug: open-automile-resourceownervehicledefectcomments-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleDefectComments3 API
+  slug: open-automile-resourceownervehicledefectcomments3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleDefectTypes API
+  slug: open-automile-resourceownervehicledefecttypes-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleGeofence API
+  slug: open-automile-resourceownervehiclegeofence-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleHealth API
+  slug: open-automile-resourceownervehiclehealth-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleHealth3 API
+  slug: open-automile-resourceownervehiclehealth3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleInspection API
+  slug: open-automile-resourceownervehicleinspection-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleInspection3 API
+  slug: open-automile-resourceownervehicleinspection3-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleOdometerV2 API
+  slug: open-automile-resourceownervehicleodometerv2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehiclePlace API
+  slug: open-automile-resourceownervehicleplace-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerVehicleV2 API
+  slug: open-automile-resourceownervehiclev2-api
+- collection_type: open
+  name: Automile ClientApi ResourceOwnerWorkOrder API
+  slug: open-automile-resourceownerworkorder-api
 common:
 - group: company
   title: ''
@@ -386,7 +624,7 @@ overview: 'Automile publishes 78 APIs on the [APIs.io](https://apis.io/) network
 
 
   Automile''s developer surface includes documentation, API reference, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 24
+random_paper: 119
 scopes:
 - name: Automile Scopes
   scope_count: 2
@@ -414,7 +652,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/screenshots/automile-2026-07-25T201834.png
 security:

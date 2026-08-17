@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Auto1
 nav: Providers
 network: true
 overview: Auto1 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, Used Cars, and Marketplace.
-random_paper: 10
+random_paper: 43
 score:
   band: minimal
   composite: 7.8
@@ -70,7 +70,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auto1/refs/heads/main/screenshots/auto1-2026-07-25T201815.png
 security:

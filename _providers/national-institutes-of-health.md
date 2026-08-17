@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: The Publications API from National Institutes of Health — 1 operation(s) for publications.
   name: National Institutes of Health Publications API
   slug: national-institutes-of-health-publications-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NIH RePORTER Projects API
+  slug: open-national-institutes-of-health-projects-api
+- collection_type: open
+  name: NIH RePORTER Projects Publications API
+  slug: open-national-institutes-of-health-publications-api
 - collection_type: open
   name: NIH RePORTER API
   slug: open-national-institutes-of-health
@@ -94,7 +103,7 @@ plans:
 - name: National Institutes Of Health Plans Pricing
   plan_count: 3
   slug: national-institutes-of-health-plans-pricing
-random_paper: 68
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: National Institutes Of Health Rate Limits
@@ -125,7 +134,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/screenshots/national-institutes-of-health-2026-06-20T190030.png
 security:

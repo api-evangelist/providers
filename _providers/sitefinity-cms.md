@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,11 +60,23 @@ apis:
 - description: CRUD operations for news content items
   name: Sitefinity CMS News Items API
   slug: sitefinity-cms-news-items-api
-artifact_total: 27
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sitefinity CMS Content Blog Posts API
+  slug: open-sitefinity-cms-blog-posts-api
 - collection_type: open
   name: Sitefinity CMS Content API
   slug: open-sitefinity-cms-content-api
+- collection_type: open
+  name: Sitefinity CMS Content Blog Posts Events API
+  slug: open-sitefinity-cms-events-api
+- collection_type: open
+  name: Sitefinity CMS Content Blog Posts News Items API
+  slug: open-sitefinity-cms-news-items-api
 common:
 - group: agent
   title: ''
@@ -181,7 +193,7 @@ plans:
 - name: Sitefinity Cms Plans Pricing
   plan_count: 1
   slug: sitefinity-cms-plans-pricing
-random_paper: 24
+random_paper: 123
 rate_limits:
 - limit_count: 1
   name: Sitefinity Cms Rate Limits
@@ -223,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/screenshots/sitefinity-cms-2026-06-20T194001.png
 security:

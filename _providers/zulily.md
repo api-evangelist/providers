@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Zulily's agent-facing commerce API implementing the Universal Commerce Protocol (UCP) over a JSON-RPC MCP endpoint — search the catalog, build a cart, and run a buyer-approved checkout.
@@ -103,7 +103,7 @@ overview: 'Zulily publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Zulily''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 81
+random_paper: 85
 scopes:
 - name: Zulily Scopes
   scope_count: 4
@@ -126,7 +126,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -60,8 +60,32 @@ apis:
 - description: Create and manage end users and their social logins and credentials.
   name: Corbado Users API
   slug: corbado-users-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Corbado Backend ConnectTokens API
+  slug: open-corbado-connecttokens-api
+- collection_type: open
+  name: Corbado Backend ConnectTokens Exports API
+  slug: open-corbado-exports-api
+- collection_type: open
+  name: Corbado Backend ConnectTokens Identifiers API
+  slug: open-corbado-identifiers-api
+- collection_type: open
+  name: Corbado Backend ConnectTokens PasskeyEvents API
+  slug: open-corbado-passkeyevents-api
+- collection_type: open
+  name: Corbado Backend ConnectTokens Passkeys API
+  slug: open-corbado-passkeys-api
+- collection_type: open
+  name: Corbado Backend ConnectTokens Sessions API
+  slug: open-corbado-sessions-api
+- collection_type: open
+  name: Corbado Backend ConnectTokens Users API
+  slug: open-corbado-users-api
 - collection_type: open
   name: Corbado Backend API
   slug: open-corbado
@@ -138,7 +162,7 @@ plans:
 - name: Corbado Plans Pricing
   plan_count: 4
   slug: corbado-plans-pricing
-random_paper: 10
+random_paper: 134
 rate_limits:
 - limit_count: 3
   name: Corbado Rate Limits
@@ -163,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/screenshots/corbado-2026-06-20T175018.png
 security:

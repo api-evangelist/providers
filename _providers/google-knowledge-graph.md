@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: The Entities:search API from Google Knowledge Graph Search — 1 operation(s) for entities:search.
   name: Google Knowledge Graph Search Entities:search API
   slug: google-knowledge-graph-entities-search-api
-artifact_total: 14
+artifact_total: 16
 collections:
 - collection_type: postman
   name: Google Knowledge Graph Search Entities:search API
   slug: postman-google-knowledge-graph-entities-search-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Knowledge Graph Search Entities:search API
+  slug: open-google-knowledge-graph-entities-search-api
 - collection_type: open
   name: Google Knowledge Graph Search API
   slug: open-openapi
@@ -139,7 +145,7 @@ plans:
 - name: Google Knowledge Graph Plans Pricing
   plan_count: 3
   slug: google-knowledge-graph-plans-pricing
-random_paper: 57
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Google Knowledge Graph Rate Limits
@@ -181,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-knowledge-graph/refs/heads/main/screenshots/google-knowledge-graph-2026-06-20T182208.png
 security:

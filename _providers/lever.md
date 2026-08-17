@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -162,8 +162,68 @@ apis:
 - description: The Users API from Lever — 2 operation(s) for users.
   name: Lever Users API
   slug: lever-users-api
-artifact_total: 60
+artifact_total: 80
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lever Applications API
+  slug: open-lever-applications-api
+- collection_type: open
+  name: Lever Applications ArchiveReasons API
+  slug: open-lever-archivereasons-api
+- collection_type: open
+  name: Lever Applications AuditEvents API
+  slug: open-lever-auditevents-api
+- collection_type: open
+  name: Lever Applications Contacts API
+  slug: open-lever-contacts-api
+- collection_type: open
+  name: Lever Applications EEO API
+  slug: open-lever-eeo-api
+- collection_type: open
+  name: Lever Applications Feedback API
+  slug: open-lever-feedback-api
+- collection_type: open
+  name: Lever Applications Files API
+  slug: open-lever-files-api
+- collection_type: open
+  name: Lever Applications Forms API
+  slug: open-lever-forms-api
+- collection_type: open
+  name: Lever Applications Interviews API
+  slug: open-lever-interviews-api
+- collection_type: open
+  name: Lever Applications Notes API
+  slug: open-lever-notes-api
+- collection_type: open
+  name: Lever Applications Offers API
+  slug: open-lever-offers-api
+- collection_type: open
+  name: Lever Applications Opportunities API
+  slug: open-lever-opportunities-api
+- collection_type: open
+  name: Lever Applications Postings API
+  slug: open-lever-postings-api
+- collection_type: open
+  name: Lever Applications Requisitions API
+  slug: open-lever-requisitions-api
+- collection_type: open
+  name: Lever Applications Resumes API
+  slug: open-lever-resumes-api
+- collection_type: open
+  name: Lever Applications Sources API
+  slug: open-lever-sources-api
+- collection_type: open
+  name: Lever Applications Stages API
+  slug: open-lever-stages-api
+- collection_type: open
+  name: Lever Applications Tags API
+  slug: open-lever-tags-api
+- collection_type: open
+  name: Lever Applications Users API
+  slug: open-lever-users-api
 - collection_type: open
   name: Lever API
   slug: open-lever
@@ -290,7 +350,7 @@ plans:
 - name: Lever Plans Pricing
   plan_count: 4
   slug: lever-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 4
   name: Lever Rate Limits
@@ -315,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/screenshots/lever-2026-06-20T184437.png
 security:

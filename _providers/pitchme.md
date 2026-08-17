@@ -22,14 +22,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 3.2
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: PitchMe advertises a "Custom Integration via API" for connecting any ATS or recruitment platform not covered by its native marketplace connectors. As of 2026-08-14 the company publishes no developer p
+  name: PitchMe API
+  slug: pitchme-api
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -51,34 +55,80 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://pitchme.co/Privacy%20policy.pdf
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.pitchme.co/feed
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pitchme-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pitchme-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://pitchme.co/integrations
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pitchme-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pitchme-rate-limits.yml
+coverage:
+  checked: '2026-08-14'
+  detail: PitchMe's only public mention of its API is an "API Access / Custom Integration via API" panel on pitchme.co/integrations whose sole call to action is "DISCUSS CUSTOM INTEGRATION" — there is no developer portal (docs./developers./developer. pitchme.co do not resolve), no API reference, no sign-up, and no pricing page, so the contract sits entirely behind a demo booking.
+  evidence:
+  - status: 200
+    url: https://pitchme.co/integrations
+  - status: 404
+    url: https://api.pitchme.co/openapi.json
+  - status: 404
+    url: https://pitchme.co/pricing
+  - status: 404
+    url: https://pitchme.co/.well-known/agent-card.json
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
 description: PitchMe is a recruitment data intelligence platform that enriches, verifies, and deduplicates candidate records to turn an existing ATS or CRM database into an activated talent pool. It cleans and appends verified contact details, employment history, and skills data, then surfaces career-intelligence signals that power AI-driven sourcing and outreach. PitchMe connects to applicant tracking systems such as Bullhorn, Greenhouse, Salesforce, Lever, JobDiva, Vincere, Avionte, Jobvite, and Ashby via native and certified integrations, plus a custom API for connecting any ATS or recruitment platform. Backed by Techstars.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pitchme.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: PitchMe
 nav: Providers
 network: true
-overview: 'PitchMe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Data Enrichment, Talent Intelligence, and HR Tech.
+overview: 'PitchMe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Data Enrichment, Talent Intelligence, and HR Tech.
 
 
-  PitchMe''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 26
+  PitchMe''s developer surface includes engineering blog, support, and 9 more developer resources.'
+plans:
+- name: Pitchme Plans Pricing
+  plan_count: 0
+  slug: pitchme-plans-pricing
+random_paper: 1
+rate_limits:
+- limit_count: 0
+  name: Pitchme Rate Limits
+  slug: pitchme-rate-limits
 score:
-  band: minimal
-  composite: 8.4
-  delta: 0.0
+  band: emerging
+  composite: 14.1
+  delta: 5.7
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Pitchme Domain Security

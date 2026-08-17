@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: Task records associated with CRM objects
   name: Twenty tasks API
   slug: twenty-tasks-api
-artifact_total: 25
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Twenty Core companies API
+  slug: open-twenty-companies-api
+- collection_type: open
+  name: Twenty Core companies fields API
+  slug: open-twenty-fields-api
+- collection_type: open
+  name: Twenty Core companies notes API
+  slug: open-twenty-notes-api
+- collection_type: open
+  name: Twenty Core companies objects API
+  slug: open-twenty-objects-api
+- collection_type: open
+  name: Twenty Core companies openapi API
+  slug: open-twenty-openapi-api
+- collection_type: open
+  name: Twenty Core companies opportunities API
+  slug: open-twenty-opportunities-api
+- collection_type: open
+  name: Twenty Core companies people API
+  slug: open-twenty-people-api
+- collection_type: open
+  name: Twenty Core companies relations API
+  slug: open-twenty-relations-api
+- collection_type: open
+  name: Twenty Core companies tasks API
+  slug: open-twenty-tasks-api
 common:
 - group: agent
   title: ''
@@ -192,7 +223,7 @@ plans:
 - name: Twenty Plans Pricing
   plan_count: 3
   slug: twenty-plans-pricing
-random_paper: 83
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Twenty Rate Limits
@@ -226,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/screenshots/twenty-2026-06-20T195948.png
 security:

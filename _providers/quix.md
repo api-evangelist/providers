@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -66,12 +66,36 @@ apis:
 - description: Manage Quix Cloud workspaces / environments (Portal API).
   name: Quix Workspaces API
   slug: quix-workspaces-api
-artifact_total: 18
+artifact_total: 26
 asyncapis:
 - description: AsyncAPI 2.6 description of the Quix **Streaming Reader API**, a real-time, bidirectional surface delivered over a **Microsoft SignalR hub**. SignalR negotiates the best available transport and, for t
   name: Quix Streaming Reader API (SignalR / WebSocket)
   slug: quix-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quix Cloud HTTP APIs Definitions API
+  slug: open-quix-definitions-api
+- collection_type: open
+  name: Quix Cloud HTTP APIs Definitions Deployments API
+  slug: open-quix-deployments-api
+- collection_type: open
+  name: Quix Cloud HTTP APIs Definitions Event Data API
+  slug: open-quix-event-data-api
+- collection_type: open
+  name: Quix Cloud HTTP APIs Definitions Parameter Data API
+  slug: open-quix-parameter-data-api
+- collection_type: open
+  name: Quix Cloud HTTP APIs Definitions Streams API
+  slug: open-quix-streams-api
+- collection_type: open
+  name: Quix Cloud HTTP APIs Definitions Topics API
+  slug: open-quix-topics-api
+- collection_type: open
+  name: Quix Cloud HTTP APIs Definitions Workspaces API
+  slug: open-quix-workspaces-api
 - collection_type: open
   name: Quix Cloud HTTP APIs
   slug: open-quix
@@ -143,7 +167,7 @@ plans:
 - name: Quix Plans Pricing
   plan_count: 4
   slug: quix-plans-pricing
-random_paper: 95
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Quix Rate Limits
@@ -177,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

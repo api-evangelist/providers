@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -140,8 +140,113 @@ apis:
 - description: The UpdatePolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for updatepolicytemplate.
   name: Amazon Verified Permissions UpdatePolicyTemplate API
   slug: amazon-verified-permissions-updatepolicytemplate-api
-artifact_total: 48
+artifact_total: 83
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy API
+  slug: open-amazon-verified-permissions-batchgetpolicy-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy BatchIsAuthorized API
+  slug: open-amazon-verified-permissions-batchisauthorized-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy BatchIsAuthorizedWithToken API
+  slug: open-amazon-verified-permissions-batchisauthorizedwithtoken-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy CreateIdentitySource API
+  slug: open-amazon-verified-permissions-createidentitysource-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy CreatePolicy API
+  slug: open-amazon-verified-permissions-createpolicy-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy CreatePolicyStore API
+  slug: open-amazon-verified-permissions-createpolicystore-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy CreatePolicyStoreAlias API
+  slug: open-amazon-verified-permissions-createpolicystorealias-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy CreatePolicyTemplate API
+  slug: open-amazon-verified-permissions-createpolicytemplate-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy DeleteIdentitySource API
+  slug: open-amazon-verified-permissions-deleteidentitysource-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy DeletePolicy API
+  slug: open-amazon-verified-permissions-deletepolicy-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy DeletePolicyStore API
+  slug: open-amazon-verified-permissions-deletepolicystore-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy DeletePolicyStoreAlias API
+  slug: open-amazon-verified-permissions-deletepolicystorealias-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy DeletePolicyTemplate API
+  slug: open-amazon-verified-permissions-deletepolicytemplate-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy GetIdentitySource API
+  slug: open-amazon-verified-permissions-getidentitysource-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy GetPolicy API
+  slug: open-amazon-verified-permissions-getpolicy-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy GetPolicyStore API
+  slug: open-amazon-verified-permissions-getpolicystore-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy GetPolicyStoreAlias API
+  slug: open-amazon-verified-permissions-getpolicystorealias-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy GetPolicyTemplate API
+  slug: open-amazon-verified-permissions-getpolicytemplate-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy GetSchema API
+  slug: open-amazon-verified-permissions-getschema-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy IsAuthorized API
+  slug: open-amazon-verified-permissions-isauthorized-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy IsAuthorizedWithToken API
+  slug: open-amazon-verified-permissions-isauthorizedwithtoken-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy ListIdentitySources API
+  slug: open-amazon-verified-permissions-listidentitysources-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy ListPolicies API
+  slug: open-amazon-verified-permissions-listpolicies-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy ListPolicyStoreAliases API
+  slug: open-amazon-verified-permissions-listpolicystorealiases-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy ListPolicyStores API
+  slug: open-amazon-verified-permissions-listpolicystores-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy ListPolicyTemplates API
+  slug: open-amazon-verified-permissions-listpolicytemplates-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy ListTagsForResource API
+  slug: open-amazon-verified-permissions-listtagsforresource-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy PutSchema API
+  slug: open-amazon-verified-permissions-putschema-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy TagResource API
+  slug: open-amazon-verified-permissions-tagresource-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy UntagResource API
+  slug: open-amazon-verified-permissions-untagresource-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy UpdateIdentitySource API
+  slug: open-amazon-verified-permissions-updateidentitysource-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy UpdatePolicy API
+  slug: open-amazon-verified-permissions-updatepolicy-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy UpdatePolicyStore API
+  slug: open-amazon-verified-permissions-updatepolicystore-api
+- collection_type: open
+  name: Amazon Verified Permissions BatchGetPolicy UpdatePolicyTemplate API
+  slug: open-amazon-verified-permissions-updatepolicytemplate-api
 - collection_type: open
   name: Amazon Verified Permissions
   slug: open-amazon-verified-permissions
@@ -251,7 +356,7 @@ plans:
 - name: Amazon Verified Permissions Plans Pricing
   plan_count: 3
   slug: amazon-verified-permissions-plans-pricing
-random_paper: 34
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Amazon Verified Permissions Rate Limits
@@ -285,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/screenshots/amazon-verified-permissions-2026-06-20T171845.png
 security:

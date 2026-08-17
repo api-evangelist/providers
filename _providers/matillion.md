@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Legacy Matillion ETL task monitoring and control.
   name: Matillion ETL Tasks API
   slug: matillion-etl-tasks-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Matillion DPC Agents API
+  slug: open-matillion-dpc-agents-api
+- collection_type: open
+  name: Matillion DPC Agents DPC Environments API
+  slug: open-matillion-dpc-environments-api
+- collection_type: open
+  name: Matillion DPC Agents DPC Pipeline Executions API
+  slug: open-matillion-dpc-pipeline-executions-api
+- collection_type: open
+  name: Matillion DPC Agents DPC Projects API
+  slug: open-matillion-dpc-projects-api
+- collection_type: open
+  name: Matillion DPC Agents DPC Schedules API
+  slug: open-matillion-dpc-schedules-api
+- collection_type: open
+  name: Matillion DPC Agents ETL Groups & Projects API
+  slug: open-matillion-etl-groups-projects-api
+- collection_type: open
+  name: Matillion DPC Agents ETL Jobs & Runs API
+  slug: open-matillion-etl-jobs-runs-api
+- collection_type: open
+  name: Matillion DPC Agents ETL Schedules API
+  slug: open-matillion-etl-schedules-api
+- collection_type: open
+  name: Matillion DPC Agents ETL Tasks API
+  slug: open-matillion-etl-tasks-api
 - collection_type: open
   name: Matillion API
   slug: open-matillion
@@ -140,7 +170,7 @@ plans:
 - name: Matillion Plans Pricing
   plan_count: 5
   slug: matillion-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Matillion Rate Limits
@@ -170,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/screenshots/matillion-2026-07-25T230414.png
 security:

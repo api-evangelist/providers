@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -104,7 +104,62 @@ apis:
 - description: The Sub-Hourly Historical Weather Data API from Weatherbit — 1 operation(s) for sub-hourly historical weather data.
   name: Weatherbit Sub-Hourly Historical Weather Data API
   slug: weatherbit-sub-hourly-historical-weather-data-api
-artifact_total: 173
+artifact_total: 191
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast API
+  slug: open-weatherbit-16-day-daily-forecast-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast 240 Hour / Hourly Forecast API
+  slug: open-weatherbit-240-hour-hourly-forecast-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast 60 Minute Rain/Snow Nowcast API
+  slug: open-weatherbit-60-minute-rain-snow-nowcast-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast AgWeather Forecast API
+  slug: open-weatherbit-agweather-forecast-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Air Quality Forecast API
+  slug: open-weatherbit-air-quality-forecast-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Alerts API
+  slug: open-weatherbit-alerts-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Bulk Downloads API
+  slug: open-weatherbit-bulk-downloads-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Climate Normals (Averages) API
+  slug: open-weatherbit-climate-normals-averages-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Current Air Quality API
+  slug: open-weatherbit-current-air-quality-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Current Weather Data API
+  slug: open-weatherbit-current-weather-data-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Daily Historical Weather Data API
+  slug: open-weatherbit-daily-historical-weather-data-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Forecast Degree Day API API
+  slug: open-weatherbit-forecast-degree-day-api-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Historical AgWeather Data API
+  slug: open-weatherbit-historical-agweather-data-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Historical Air Quality API
+  slug: open-weatherbit-historical-air-quality-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Historical Degree Day API API
+  slug: open-weatherbit-historical-degree-day-api-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Hourly Historical Weather Data API
+  slug: open-weatherbit-hourly-historical-weather-data-api
+- collection_type: open
+  name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Sub-Hourly Historical Weather Data API
+  slug: open-weatherbit-sub-hourly-historical-weather-data-api
 common:
 - group: agent
   title: ''
@@ -602,7 +657,7 @@ plans:
 - name: Weatherbit Plans Pricing
   plan_count: 6
   slug: weatherbit-plans-pricing
-random_paper: 111
+random_paper: 28
 rate_limits:
 - limit_count: 10
   name: Weatherbit Rate Limits
@@ -644,7 +699,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/screenshots/weatherbit-2026-06-20T201311.png
 security:

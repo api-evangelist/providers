@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,11 @@ apis:
 - description: REST file-upload endpoint used to push a CSV or Excel file into a Datarails Filebox. Authenticated with HTTP Basic using a base64-encoded Datarails sync user (which must not have MFA enabled). The tar
   name: Datarails Data Gateway Service (DGS)
   slug: data-gateway-service
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Datarails Finance OS MCP Server
+  slug: open-datarails-financeos-mcp
 common:
 - group: operate
   title: ''
@@ -205,7 +209,7 @@ plans:
 - name: Datarails Plans
   plan_count: 3
   slug: datarails-plans
-random_paper: 109
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Datarails Rate Limits
@@ -233,7 +237,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/screenshots/datarails-2026-08-07T164205.png
 security:

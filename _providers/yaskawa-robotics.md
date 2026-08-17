@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -176,7 +176,7 @@ overview: 'Yaskawa / Motoman is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Yaskawa / Motoman''s developer surface includes developer portal, documentation, GitHub presence, tooling, support, product news, YouTube channel, and 24 more developer resources.'
-random_paper: 107
+random_paper: 28
 score:
   band: emerging
   composite: 17.5
@@ -190,7 +190,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yaskawa-robotics/refs/heads/main/screenshots/yaskawa-robotics-2026-06-20T201733.png
 security:

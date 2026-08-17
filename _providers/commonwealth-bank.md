@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -113,7 +113,53 @@ apis:
 - description: Obtain the list of transactions for a CommBank account and details for each transaction. Transaction API is a consumer API. To access data you'll need the customer's consent. Seven years’ worth of tra
   name: Commonwealth Bank Transaction API API
   slug: commonwealth-bank-transaction-api-api
-artifact_total: 51
+artifact_total: 66
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CommBank Accounts Accounts API API
+  slug: open-commonwealth-bank-accounts-api-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Balances API API
+  slug: open-commonwealth-bank-balances-api-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Banking Account Balances API
+  slug: open-commonwealth-bank-banking-account-balances-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Banking Account Direct Debits API
+  slug: open-commonwealth-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Banking Account Scheduled Payments API
+  slug: open-commonwealth-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Banking Account Transactions API
+  slug: open-commonwealth-bank-banking-account-transactions-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Banking Accounts API
+  slug: open-commonwealth-bank-banking-accounts-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Banking Payees API
+  slug: open-commonwealth-bank-banking-payees-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Banking Products API
+  slug: open-commonwealth-bank-banking-products-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Customer API API
+  slug: open-commonwealth-bank-customer-api-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Payees API API
+  slug: open-commonwealth-bank-payees-api-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Products API API
+  slug: open-commonwealth-bank-products-api-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Regular Payments API API
+  slug: open-commonwealth-bank-regular-payments-api-api
+- collection_type: open
+  name: CommBank Accounts Accounts API Transaction API API
+  slug: open-commonwealth-bank-transaction-api-api
 common:
 - group: other
   title: ''
@@ -300,7 +346,7 @@ overview: 'Commonwealth Bank publishes 14 APIs on the [APIs.io](https://apis.io/
 
 
   Commonwealth Bank''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
-random_paper: 71
+random_paper: 112
 scopes:
 - name: Commonwealth Bank Scopes
   scope_count: 10
@@ -335,7 +381,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png
 security:

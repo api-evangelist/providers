@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Endpoints requiring a premium Imgflip account
   name: Imgflip Premium API
   slug: imgflip-premium-api
-artifact_total: 18
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Imgflip Meme Generator AI API
+  slug: open-imgflip-ai-api
+- collection_type: open
+  name: Imgflip Meme Generator AI Memes API
+  slug: open-imgflip-memes-api
+- collection_type: open
+  name: Imgflip Meme Generator AI Premium API
+  slug: open-imgflip-premium-api
 common:
 - group: agent
   title: ''
@@ -129,7 +142,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -163,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgflip/refs/heads/main/screenshots/imgflip-2026-06-20T183250.png
 security:

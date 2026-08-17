@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for ODIN, Cyble's internet-scanning search engine. Twenty-seven operations across five datasets — Hosts (IPv4 scan results, services, ASN/geo enrichment, CVEs and exploits), Exposed Buckets (
   name: ODIN API
   slug: odin-api
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Odin
+  slug: open-cyble-odin
 common:
 - group: auth
   title: ''
@@ -190,7 +194,7 @@ plans:
 - name: Cyble Plans Pricing
   plan_count: 0
   slug: cyble-plans-pricing
-random_paper: 47
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Cyble Rate Limits
@@ -198,6 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.5
@@ -205,8 +210,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 31.6
+  previous_composite: 55.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Cyble Authentication

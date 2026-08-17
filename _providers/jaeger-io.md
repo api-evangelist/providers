@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,11 +46,23 @@ apis:
 - description: The SamplingManager API from Jaeger — 2 operation(s) for samplingmanager.
   name: Jaeger SamplingManager API
   slug: jaeger-io-samplingmanager-api
-artifact_total: 26
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Jaeger Collector API (api_v2)
   slug: open-jaeger-collector-api
+- collection_type: open
+  name: Jaeger Collector API (api_v2) CollectorService API
+  slug: open-jaeger-io-collectorservice-api
+- collection_type: open
+  name: Jaeger Collector API (api_v2) CollectorService QueryService API
+  slug: open-jaeger-io-queryservice-api
+- collection_type: open
+  name: Jaeger Collector API (api_v2) CollectorService SamplingManager API
+  slug: open-jaeger-io-samplingmanager-api
 - collection_type: open
   name: Jaeger Query API (v3)
   slug: open-jaeger-query-api
@@ -268,7 +280,7 @@ overview: 'Jaeger publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Jaeger''s developer surface includes developer portal, documentation, getting-started guide, tooling, engineering blog, signup flow, changelog, and 35 more developer resources.'
-random_paper: 43
+random_paper: 138
 rules:
 - name: Jaeger API Rules
   rule_count: 6
@@ -298,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/screenshots/jaeger-io-2026-06-20T183651.png
 security:

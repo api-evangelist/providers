@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Event notification subscriptions.
   name: Aurora Solar Webhooks API
   slug: aurora-solar-webhooks-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aurora Solar Agreements API
+  slug: open-aurora-solar-agreements-api
+- collection_type: open
+  name: Aurora Solar Agreements Consumption Profiles API
+  slug: open-aurora-solar-consumption-profiles-api
+- collection_type: open
+  name: Aurora Solar Agreements Designs API
+  slug: open-aurora-solar-designs-api
+- collection_type: open
+  name: Aurora Solar Agreements Financings API
+  slug: open-aurora-solar-financings-api
+- collection_type: open
+  name: Aurora Solar Agreements Projects API
+  slug: open-aurora-solar-projects-api
+- collection_type: open
+  name: Aurora Solar Agreements Proposals API
+  slug: open-aurora-solar-proposals-api
+- collection_type: open
+  name: Aurora Solar Agreements Users & Tenants API
+  slug: open-aurora-solar-users-tenants-api
+- collection_type: open
+  name: Aurora Solar Agreements Webhooks API
+  slug: open-aurora-solar-webhooks-api
 - collection_type: open
   name: Aurora Solar API
   slug: open-aurora-solar
@@ -133,7 +160,7 @@ plans:
 - name: Aurora Solar Plans Pricing
   plan_count: 5
   slug: aurora-solar-plans-pricing
-random_paper: 40
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Aurora Solar Rate Limits
@@ -164,7 +191,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/screenshots/aurora-solar-2026-07-25T201754.png
 security:

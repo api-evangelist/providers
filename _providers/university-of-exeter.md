@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Open Research Exeter (ORE) is the University of Exeter's institutional repository, built on DSpace, holding research papers, theses, and research data. As a DSpace repository it provides a standard OA
@@ -117,7 +117,7 @@ plans:
 - name: University Of Exeter Plans Pricing
   plan_count: 2
   slug: university-of-exeter-plans-pricing
-random_paper: 38
+random_paper: 141
 rate_limits:
 - limit_count: 1
   name: University Of Exeter Rate Limits
@@ -141,7 +141,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-exeter/refs/heads/main/screenshots/university-of-exeter-2026-06-20T200146.png
 security:

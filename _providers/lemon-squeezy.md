@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -132,14 +132,131 @@ apis:
 - description: The Webhooks API from Lemon Squeezy — 2 operation(s) for webhooks.
   name: Lemon Squeezy Webhooks API
   slug: lemon-squeezy-webhooks-api
-artifact_total: 56
+artifact_total: 95
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lemon Squeezy 7c41 API
+  slug: open-lemon-squeezy-7c41-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Affiliates API
+  slug: open-lemon-squeezy-affiliates-api
 - collection_type: open
   name: Lemon Squeezy API
   slug: open-lemon-squeezy-api
 - collection_type: open
-  name: Lemon Squeezy License API
+  name: Lemon Squeezy 7c41 B6cd API
+  slug: open-lemon-squeezy-b6cd-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Checkouts API
+  slug: open-lemon-squeezy-checkouts-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Current API
+  slug: open-lemon-squeezy-current-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Customers API
+  slug: open-lemon-squeezy-customers-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Discount API
+  slug: open-lemon-squeezy-discount-api
+- collection_type: open
+  name: Lemon Squeezy Checkouts Discount Redemptions API
+  slug: open-lemon-squeezy-discount-redemptions-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Discounts API
+  slug: open-lemon-squeezy-discounts-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Files API
+  slug: open-lemon-squeezy-files-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Health API
+  slug: open-lemon-squeezy-health-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Instances API
+  slug: open-lemon-squeezy-instances-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Invoices API
+  slug: open-lemon-squeezy-invoices-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Items API
+  slug: open-lemon-squeezy-items-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Keys API
+  slug: open-lemon-squeezy-keys-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Lemon Squeezy API API
+  slug: open-lemon-squeezy-lemon-squeezy-api-api
+- collection_type: open
+  name: Lemon Squeezy Checkouts License API API
+  slug: open-lemon-squeezy-license-api-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 License API
   slug: open-lemon-squeezy-license-api
+- collection_type: open
+  name: Lemon Squeezy Checkouts License Key Instances API
+  slug: open-lemon-squeezy-license-key-instances-api
+- collection_type: open
+  name: Lemon Squeezy Checkouts License Keys API
+  slug: open-lemon-squeezy-license-keys-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Licenses API
+  slug: open-lemon-squeezy-licenses-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Me API
+  slug: open-lemon-squeezy-me-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Order API
+  slug: open-lemon-squeezy-order-api
+- collection_type: open
+  name: Lemon Squeezy Checkouts Order Items API
+  slug: open-lemon-squeezy-order-items-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Orders API
+  slug: open-lemon-squeezy-orders-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Prices API
+  slug: open-lemon-squeezy-prices-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Products API
+  slug: open-lemon-squeezy-products-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Records API
+  slug: open-lemon-squeezy-records-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Redemptions API
+  slug: open-lemon-squeezy-redemptions-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Stores API
+  slug: open-lemon-squeezy-stores-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Subscription API
+  slug: open-lemon-squeezy-subscription-api
+- collection_type: open
+  name: Lemon Squeezy Checkouts Subscription Invoices API
+  slug: open-lemon-squeezy-subscription-invoices-api
+- collection_type: open
+  name: Lemon Squeezy Checkouts Subscription Items API
+  slug: open-lemon-squeezy-subscription-items-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Subscriptions API
+  slug: open-lemon-squeezy-subscriptions-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Usage API
+  slug: open-lemon-squeezy-usage-api
+- collection_type: open
+  name: Lemon Squeezy Checkouts Usage Records API
+  slug: open-lemon-squeezy-usage-records-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Users API
+  slug: open-lemon-squeezy-users-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Variants API
+  slug: open-lemon-squeezy-variants-api
+- collection_type: open
+  name: Lemon Squeezy 7c41 Webhooks API
+  slug: open-lemon-squeezy-webhooks-api
 - collection_type: open
   name: Lemon Squeezy API
   slug: open-lemonsqueezy
@@ -253,7 +370,7 @@ plans:
 - name: Lemon Squeezy Plans Pricing
   plan_count: 2
   slug: lemon-squeezy-plans-pricing
-random_paper: 54
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Lemon Squeezy Rate Limits
@@ -278,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/screenshots/lemon-squeezy-2026-07-25T224849.png
 security:

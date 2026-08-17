@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Operations for managing detection rules
   name: Google Cloud Chronicle Rules API
   slug: google-cloud-chronicle-rules-api
-artifact_total: 20
+artifact_total: 25
 collections:
 - collection_type: postman
   name: Google Cloud Chronicle Alerts API
@@ -66,8 +66,23 @@ collections:
   name: Google Cloud Chronicle Alerts Rules API
   slug: postman-google-cloud-chronicle-rules-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Chronicle API
   slug: open-chronicle-api
+- collection_type: open
+  name: Google Cloud Chronicle Alerts API
+  slug: open-google-cloud-chronicle-alerts-api
+- collection_type: open
+  name: Google Cloud Chronicle Alerts Feeds API
+  slug: open-google-cloud-chronicle-feeds-api
+- collection_type: open
+  name: Google Cloud Chronicle Alerts ReferenceLists API
+  slug: open-google-cloud-chronicle-referencelists-api
+- collection_type: open
+  name: Google Cloud Chronicle Alerts Rules API
+  slug: open-google-cloud-chronicle-rules-api
 common:
 - group: build
   title: ''
@@ -173,7 +188,7 @@ plans:
 - name: Google Cloud Chronicle Plans Pricing
   plan_count: 3
   slug: google-cloud-chronicle-plans-pricing
-random_paper: 53
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Google Cloud Chronicle Rate Limits
@@ -212,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/screenshots/google-cloud-chronicle-2026-06-20T182100.png
 security:

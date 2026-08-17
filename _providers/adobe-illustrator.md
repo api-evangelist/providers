@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
 - description: Create and manipulate text frames, including point text, area text, and text on a path, with full typography control.
   name: Adobe Illustrator Text Frames API
   slug: adobe-illustrator-text-frames-api
-artifact_total: 93
+artifact_total: 103
 collections:
 - collection_type: postman
   name: Adobe Illustrator Scripting Application API
@@ -100,6 +100,36 @@ collections:
 - collection_type: postman
   name: Adobe Illustrator Scripting Application Text Frames API
   slug: postman-adobe-illustrator-text-frames-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Illustrator Scripting Application API
+  slug: open-adobe-illustrator-application-api
+- collection_type: open
+  name: Adobe Illustrator Scripting Application Artboards API
+  slug: open-adobe-illustrator-artboards-api
+- collection_type: open
+  name: Adobe Illustrator Scripting Application Documents API
+  slug: open-adobe-illustrator-documents-api
+- collection_type: open
+  name: Adobe Illustrator Scripting Application Graphic Styles API
+  slug: open-adobe-illustrator-graphic-styles-api
+- collection_type: open
+  name: Adobe Illustrator Scripting Application Layers API
+  slug: open-adobe-illustrator-layers-api
+- collection_type: open
+  name: Adobe Illustrator Scripting Application Path Items API
+  slug: open-adobe-illustrator-path-items-api
+- collection_type: open
+  name: Adobe Illustrator Scripting Application Swatches API
+  slug: open-adobe-illustrator-swatches-api
+- collection_type: open
+  name: Adobe Illustrator Scripting Application Symbols API
+  slug: open-adobe-illustrator-symbols-api
+- collection_type: open
+  name: Adobe Illustrator Scripting Application Text Frames API
+  slug: open-adobe-illustrator-text-frames-api
 common:
 - group: build
   title: ''
@@ -396,7 +426,7 @@ plans:
 - name: Adobe Illustrator Plans Pricing
   plan_count: 3
   slug: adobe-illustrator-plans-pricing
-random_paper: 93
+random_paper: 134
 rate_limits:
 - limit_count: 3
   name: Adobe Illustrator Rate Limits
@@ -438,7 +468,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/screenshots/adobe-illustrator-2026-06-20T164935.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -63,7 +63,7 @@ apis:
 - description: The Tags API from Amazon MediaConvert — 2 operation(s) for tags.
   name: Amazon MediaConvert Tags API
   slug: amazon-mediaconvert-tags-api
-artifact_total: 1936
+artifact_total: 1945
 collections:
 - collection_type: postman
   name: AWS Elemental MediaConvert Certificates API
@@ -89,6 +89,33 @@ collections:
 - collection_type: postman
   name: AWS Elemental MediaConvert Certificates Tags API
   slug: postman-amazon-mediaconvert-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Elemental MediaConvert Certificates API
+  slug: open-amazon-mediaconvert-certificates-api
+- collection_type: open
+  name: AWS Elemental MediaConvert Certificates Endpoints API
+  slug: open-amazon-mediaconvert-endpoints-api
+- collection_type: open
+  name: AWS Elemental MediaConvert Certificates Jobs API
+  slug: open-amazon-mediaconvert-jobs-api
+- collection_type: open
+  name: AWS Elemental MediaConvert Certificates JobTemplates API
+  slug: open-amazon-mediaconvert-jobtemplates-api
+- collection_type: open
+  name: AWS Elemental MediaConvert Certificates Policy API
+  slug: open-amazon-mediaconvert-policy-api
+- collection_type: open
+  name: AWS Elemental MediaConvert Certificates Presets API
+  slug: open-amazon-mediaconvert-presets-api
+- collection_type: open
+  name: AWS Elemental MediaConvert Certificates Queues API
+  slug: open-amazon-mediaconvert-queues-api
+- collection_type: open
+  name: AWS Elemental MediaConvert Certificates Tags API
+  slug: open-amazon-mediaconvert-tags-api
 common:
 - group: build
   title: ''
@@ -5907,7 +5934,7 @@ plans:
 - name: Amazon Mediaconvert Plans Pricing
   plan_count: 3
   slug: amazon-mediaconvert-plans-pricing
-random_paper: 52
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Amazon Mediaconvert Rate Limits
@@ -5949,7 +5976,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/screenshots/amazon-mediaconvert-2026-06-20T171740.png
 security:

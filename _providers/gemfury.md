@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Manage package versions
   name: Gemfury Versions API
   slug: gemfury-versions-api
-artifact_total: 23
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gemfury Developer Accounts API
+  slug: open-gemfury-accounts-api
+- collection_type: open
+  name: Gemfury Developer Accounts Members API
+  slug: open-gemfury-members-api
+- collection_type: open
+  name: Gemfury Developer Accounts Packages API
+  slug: open-gemfury-packages-api
+- collection_type: open
+  name: Gemfury Developer Accounts Tokens API
+  slug: open-gemfury-tokens-api
+- collection_type: open
+  name: Gemfury Developer Accounts Versions API
+  slug: open-gemfury-versions-api
 common:
 - group: operate
   title: ''
@@ -196,7 +215,7 @@ plans:
 - name: Gemfury Plans Pricing
   plan_count: 14
   slug: gemfury-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Gemfury Rate Limits
@@ -230,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/screenshots/gemfury-2026-06-20T181711.png
 security:

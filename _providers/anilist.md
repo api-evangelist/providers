@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: OAuth2 authorization code and implicit grant endpoints
   name: AniList OAuth2 API
   slug: anilist-oauth2-api
-artifact_total: 122
+artifact_total: 125
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AniList API v2 GraphQL API
+  slug: open-anilist-graphql-api
+- collection_type: open
+  name: AniList API v2 GraphQL OAuth2 API
+  slug: open-anilist-oauth2-api
 - collection_type: open
   name: AniList GraphQL API v2
   slug: open-anilist
@@ -483,7 +492,7 @@ overview: 'AniList publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   AniList''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, developer console, sandbox, and 22 more developer resources.'
-random_paper: 36
+random_paper: 11
 rules:
 - name: AniList API Rules
   rule_count: 5
@@ -526,7 +535,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/screenshots/anilist-2026-06-20T172003.png
 security:

@@ -15,21 +15,28 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-12'
+  score: 65.1
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 70
+  human_in_the_loop: 0
+  name: Harmonic Ai Agentic Access
+  operation_count: 113
+  slug: harmonic-ai-agentic-access
+  summary_line: 113 operations · 70 acting
 api_count: 2
 apis:
 - description: 'REST API for company search, enrichment, saved searches, list management, and bulk operations, plus a full GraphQL endpoint for flexible queries across companies, people, investors, lists, and custom '
@@ -38,8 +45,47 @@ apis:
 - description: Hosted, agent-native MCP server exposing 40+ tools for enrichment, search, saved searches, lists, investors, network mapping, batch lookup, custom fields, and team. Listed in the Claude Connector stor
   name: Harmonic MCP Server
   slug: harmonic-mcp-server
-artifact_total: 7
+artifact_total: 22
+asyncapis:
+- description: ''
+  name: Harmonic Ai Event Surface
+  slug: harmonic-ai-event-surface
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harmonic.ai Public attachments API
+  slug: open-harmonic-ai-attachments-api
+- collection_type: open
+  name: Harmonic.ai Public companies API
+  slug: open-harmonic-ai-companies-api
+- collection_type: open
+  name: Harmonic.ai Public email_enrichment API
+  slug: open-harmonic-ai-email-enrichment-api
+- collection_type: open
+  name: Harmonic.ai Public enrichment API
+  slug: open-harmonic-ai-enrichment-api
+- collection_type: open
+  name: Harmonic.ai Public investors API
+  slug: open-harmonic-ai-investors-api
+- collection_type: open
+  name: Harmonic.ai Public people API
+  slug: open-harmonic-ai-people-api
+- collection_type: open
+  name: Harmonic.ai Public persons API
+  slug: open-harmonic-ai-persons-api
+- collection_type: open
+  name: Harmonic.ai Public saved_searches API
+  slug: open-harmonic-ai-saved-searches-api
+- collection_type: open
+  name: Harmonic.ai Public search API
+  slug: open-harmonic-ai-search-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/harmonic-ai-agentic-access.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -64,10 +110,6 @@ common:
   title: ''
   type: Blog
   url: https://harmonic.ai/blog
-- group: build
-  title: ''
-  type: GitHubOrganization
-  url: https://github.com/harmonic-ai
 - group: commercial
   title: ''
   type: Pricing
@@ -140,6 +182,34 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/harmonic-ai-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/harmonic-ai-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/harmonic-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/harmonic-ai-changelog.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/harmonic-ai-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/harmonic-ai-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/harmonic-ai-conformance.yml
 created: '2026-07-22'
 description: Startup discovery and intelligence platform built on a proprietary database of 30M+ companies and 200M+ people, offering real-time funding data, headcount/traction metrics, team composition, and investor relationships via REST, GraphQL, and a hosted MCP server. Used by venture capital, growth equity, corporate development, and go-to-market teams to find, research, and qualify startups programmatically or through the console web app, Chrome extension, bulk data exports (BigQuery/Snowflake/S3), and CRM integrations (Salesforce/HubSpot/Affinity).
 image: https://cdn.prod.website-files.com/6107b1101d4d3e748743f234/65f31ad2b4ac6cf0cb8bd691_og-img.png
@@ -151,31 +221,42 @@ mcp_servers:
 - description: ''
   name: mcp.api.harmonic.ai
   slug: mcpapiharmonicai
-modified: '2026-07-22'
+modified: '2026-08-14'
 name: Harmonic.ai
 nav: Providers
 network: true
 overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Harmonic REST & GraphQL API. Tagged areas include startup-intelligence, venture-capital, company-data, people-data, and investor-data.
 
 
-  Harmonic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 16
+  The Harmonic.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Harmonic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Harmonic Ai Plans Pricing
+  plan_count: 3
+  slug: harmonic-ai-plans-pricing
+random_paper: 53
+rate_limits:
+- limit_count: 0
+  name: Harmonic Ai Rate Limits
+  slug: harmonic-ai-rate-limits
 scopes:
 - name: Harmonic Ai Scopes
   scope_count: 2
   slug: harmonic-ai-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.8
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: 11.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 44.1
+    commercial_clarity: 84.2
+    contract_quality: 53.1
     developer_ergonomics: 66.8
-    discoverability: 81.5
+    discoverability: 87.0
     governance: 20.8
-    operational_transparency: 36.8
+    operational_transparency: 42.1
   previous_composite: 48.8
   provenance:
     conformance: first-party
@@ -187,8 +268,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/screenshots/harmonic-ai-2026-07-25T220821.png
 security:
 - kind: authentication
@@ -199,6 +280,10 @@ security:
   name: Harmonic Ai Domain Security
   slug: harmonic-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Harmonic Ai Vulnerability Disclosure
+  slug: harmonic-ai-vulnerability-disclosure
+  summary_line: Hackerone
 slug: harmonic-ai
 tags:
 - startup-intelligence

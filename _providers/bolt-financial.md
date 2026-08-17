@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The core Bolt merchant API. Covers Bolt shopper accounts (profile, addresses, payment methods), merchant configuration and callbacks, order token creation, shipment tracking, transaction authorize/cap
@@ -36,11 +36,24 @@ apis:
 - description: 'Bolt exposes two Model Context Protocol surfaces: a hosted documentation MCP server advertised at help.boltapp.com/mcp with search_docs, get_doc_page and list_doc_sections tools, and a Speakeasy-gener'
   name: Bolt MCP Servers
   slug: mcp
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Bolt Financial Webhooks
   slug: bolt-financial-webhooks
+collections:
+- collection_type: open
+  name: Bolt API Reference
+  slug: open-bolt-financial-bolt-api
+- collection_type: open
+  name: Embedded API Reference
+  slug: open-bolt-financial-embeddable-checkout-v1
+- collection_type: open
+  name: Bolt API Reference
+  slug: open-bolt-financial-embeddable-checkout-v3
+- collection_type: open
+  name: Tokenizer Endpoint
+  slug: open-bolt-financial-tokenizer
 common:
 - group: auth
   title: ''
@@ -197,7 +210,7 @@ overview: 'Bolt Financial publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bolt Financial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 91
+random_paper: 70
 scopes:
 - name: Bolt Financial Scopes
   scope_count: 4
@@ -231,7 +244,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/screenshots/bolt-financial-2026-08-07T162709.png
 security:

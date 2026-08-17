@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 2
@@ -114,7 +114,7 @@ apis:
 - description: The Workflows API from Shortcut Software — 2 operation(s) for workflows.
   name: Shortcut Software Workflows API
   slug: shortcut-software-workflows-api
-artifact_total: 59
+artifact_total: 85
 asyncapis:
 - description: ''
   name: Shortcut Software Webhooks
@@ -195,6 +195,84 @@ collections:
 - collection_type: postman
   name: Shortcut Categories Workflows API
   slug: postman-shortcut-software-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shortcut Categories API
+  slug: open-shortcut-software-categories-api
+- collection_type: open
+  name: Shortcut Categories Custom Fields API
+  slug: open-shortcut-software-custom-fields-api
+- collection_type: open
+  name: Shortcut Categories Documents API
+  slug: open-shortcut-software-documents-api
+- collection_type: open
+  name: Shortcut Categories Entity Templates API
+  slug: open-shortcut-software-entity-templates-api
+- collection_type: open
+  name: Shortcut Categories Epic Workflow API
+  slug: open-shortcut-software-epic-workflow-api
+- collection_type: open
+  name: Shortcut Categories Epics API
+  slug: open-shortcut-software-epics-api
+- collection_type: open
+  name: Shortcut Categories External Link API
+  slug: open-shortcut-software-external-link-api
+- collection_type: open
+  name: Shortcut Categories Files API
+  slug: open-shortcut-software-files-api
+- collection_type: open
+  name: Shortcut Categories Groups API
+  slug: open-shortcut-software-groups-api
+- collection_type: open
+  name: Shortcut Categories Health API
+  slug: open-shortcut-software-health-api
+- collection_type: open
+  name: Shortcut Categories Integrations API
+  slug: open-shortcut-software-integrations-api
+- collection_type: open
+  name: Shortcut Categories Iterations API
+  slug: open-shortcut-software-iterations-api
+- collection_type: open
+  name: Shortcut Categories Key Results API
+  slug: open-shortcut-software-key-results-api
+- collection_type: open
+  name: Shortcut Categories Labels API
+  slug: open-shortcut-software-labels-api
+- collection_type: open
+  name: Shortcut Categories Linked Files API
+  slug: open-shortcut-software-linked-files-api
+- collection_type: open
+  name: Shortcut Categories Member API
+  slug: open-shortcut-software-member-api
+- collection_type: open
+  name: Shortcut Categories Members API
+  slug: open-shortcut-software-members-api
+- collection_type: open
+  name: Shortcut Categories Milestones API
+  slug: open-shortcut-software-milestones-api
+- collection_type: open
+  name: Shortcut Categories Objectives API
+  slug: open-shortcut-software-objectives-api
+- collection_type: open
+  name: Shortcut Categories Projects API
+  slug: open-shortcut-software-projects-api
+- collection_type: open
+  name: Shortcut Categories Repositories API
+  slug: open-shortcut-software-repositories-api
+- collection_type: open
+  name: Shortcut Categories Search API
+  slug: open-shortcut-software-search-api
+- collection_type: open
+  name: Shortcut Categories Stories API
+  slug: open-shortcut-software-stories-api
+- collection_type: open
+  name: Shortcut Categories Story Links API
+  slug: open-shortcut-software-story-links-api
+- collection_type: open
+  name: Shortcut Categories Workflows API
+  slug: open-shortcut-software-workflows-api
 common:
 - group: build
   title: ''
@@ -363,7 +441,7 @@ overview: 'Shortcut Software publishes 25 APIs on the [APIs.io](https://apis.io/
 
 
   Shortcut Software''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 12
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Shortcut Software Rate Limits
@@ -396,7 +474,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

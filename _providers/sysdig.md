@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ arazzos:
 - description: List vulnerability results, drill into one image, and pull its SBOM.
   name: Sysdig Triage Image Vulnerabilities
   slug: sysdig-triage-image-vulnerabilities-workflow
-artifact_total: 57
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Sysdig Monitor Activity Audit API
@@ -160,11 +160,53 @@ collections:
   name: Sysdig Monitor Activity Audit Vulnerabilities API
   slug: postman-sysdig-vulnerabilities-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sysdig Monitor Activity Audit API
+  slug: open-sysdig-activity-audit-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Alerts API
+  slug: open-sysdig-alerts-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Compliance API
+  slug: open-sysdig-compliance-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Dashboards API
+  slug: open-sysdig-dashboards-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Events API
+  slug: open-sysdig-events-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Image Scanning API
+  slug: open-sysdig-image-scanning-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Metrics API
+  slug: open-sysdig-metrics-api
+- collection_type: open
   name: Sysdig Monitor API
   slug: open-sysdig-monitor
 - collection_type: open
+  name: Sysdig Monitor Activity Audit Notification Channels API
+  slug: open-sysdig-notification-channels-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Policies API
+  slug: open-sysdig-policies-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Rules API
+  slug: open-sysdig-rules-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit SBOM API
+  slug: open-sysdig-sbom-api
+- collection_type: open
   name: Sysdig Secure API
   slug: open-sysdig-secure
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Teams API
+  slug: open-sysdig-teams-api
+- collection_type: open
+  name: Sysdig Monitor Activity Audit Vulnerabilities API
+  slug: open-sysdig-vulnerabilities-api
 common:
 - group: build
   title: ''
@@ -368,7 +410,7 @@ plans:
 - name: Sysdig Plans Pricing
   plan_count: 3
   slug: sysdig-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Sysdig Rate Limits
@@ -410,7 +452,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/screenshots/sysdig-2026-06-20T194836.png
 security:

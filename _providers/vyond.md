@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -62,11 +62,42 @@ arazzos:
 - description: Register a webhook subscription for Turbo events, submit a text prompt to Turbo, and poll the task as a fallback until it reaches a terminal status.
   name: Turbo text-to-video with a webhook subscription
   slug: vyond-turbo-with-webhook
-artifact_total: 17
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Vyond Webhooks
   slug: vyond-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vyond API Documentation Content Generation API
+  slug: open-vyond-content-generation-api
+- collection_type: open
+  name: Vyond API Documentation
+  slug: open-vyond-openapi-original
+- collection_type: open
+  name: Vyond API Documentation Parameter API
+  slug: open-vyond-parameter-api
+- collection_type: open
+  name: Vyond API Documentation SCIM API
+  slug: open-vyond-scim-api
+- collection_type: open
+  name: Vyond API Documentation Turbo API
+  slug: open-vyond-turbo-api
+- collection_type: open
+  name: Vyond API Documentation User API
+  slug: open-vyond-user-api
+- collection_type: open
+  name: Vyond API Documentation Video API
+  slug: open-vyond-video-api
+- collection_type: open
+  name: Vyond API Documentation Video Export API
+  slug: open-vyond-video-export-api
+- collection_type: open
+  name: Vyond API Documentation Webhook API
+  slug: open-vyond-webhook-api
 common:
 - group: agent
   title: ''
@@ -227,7 +258,7 @@ overview: 'Vyond publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vyond''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 80
+random_paper: 113
 scopes:
 - name: Vyond Scopes
   scope_count: 2
@@ -256,7 +287,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

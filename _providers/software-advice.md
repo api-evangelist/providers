@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Software Advice provides software review data, ratings, and recommendations through their platform. As a Gartner subsidiary, Software Advice aggregates user reviews and expert analysis across 300+ sof
@@ -144,7 +144,7 @@ plans:
 - name: Software Advice Plans Pricing
   plan_count: 3
   slug: software-advice-plans-pricing
-random_paper: 100
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Software Advice Rate Limits
@@ -171,7 +171,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 29.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

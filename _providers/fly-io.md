@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -66,18 +66,39 @@ apis:
 - description: Webhook endpoints for bidirectional event delivery between Fly.io and extension providers. Both sides sign their webhook payloads using HMAC-SHA256 for verification.
   name: fly-io Webhooks API
   slug: fly-io-webhooks-api
-artifact_total: 66
+artifact_total: 73
 asyncapis:
 - description: The Fly.io Extensions webhook system delivers real-time event notifications in both directions between Fly.io and extension providers. Fly.io sends CloudEvents-format payloads to the provider's regist
   name: Fly.io Extensions Webhook Events
   slug: fly-io-extensions-webhooks-asyncapi
 collections:
 - collection_type: open
-  name: Fly.io Extensions API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fly.io Extensions Apps API
+  slug: open-fly-io-apps-api
+- collection_type: open
+  name: Fly.io Apps Extensions API
   slug: open-fly-io-extensions-api
 - collection_type: open
-  name: Fly.io Machines API
+  name: Fly.io Extensions Apps Machines API
   slug: open-fly-io-machines-api
+- collection_type: open
+  name: Fly.io Extensions Apps OAuth API
+  slug: open-fly-io-oauth-api
+- collection_type: open
+  name: Fly.io Extensions Apps SSO API
+  slug: open-fly-io-sso-api
+- collection_type: open
+  name: Fly.io Extensions Apps Tokens API
+  slug: open-fly-io-tokens-api
+- collection_type: open
+  name: Fly.io Extensions Apps Volumes API
+  slug: open-fly-io-volumes-api
+- collection_type: open
+  name: Fly.io Extensions Apps Webhooks API
+  slug: open-fly-io-webhooks-api
 common:
 - group: agent
   title: ''
@@ -251,7 +272,7 @@ plans:
 - name: Fly Io Plans Pricing
   plan_count: 8
   slug: fly-io-plans-pricing
-random_paper: 112
+random_paper: 145
 rate_limits:
 - limit_count: 3
   name: Fly Io Rate Limits
@@ -293,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/screenshots/fly-io-2026-06-20T181357.png
 security:

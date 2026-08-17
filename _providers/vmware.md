@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -216,7 +216,7 @@ apis:
 - description: Virtual machine lifecycle management including creation, power operations, cloning, migration, and configuration
   name: VMware VMs API
   slug: vmware-vms-api
-artifact_total: 295
+artifact_total: 311
 collections:
 - collection_type: postman
   name: VMware vSphere Automation REST Clusters API
@@ -263,6 +263,54 @@ collections:
 - collection_type: postman
   name: VMware vSphere Automation REST Clusters VMs API
   slug: postman-vmware-vms-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters API
+  slug: open-vmware-clusters-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Content Library API
+  slug: open-vmware-content-library-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Datacenters API
+  slug: open-vmware-datacenters-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Datastores API
+  slug: open-vmware-datastores-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Folders API
+  slug: open-vmware-folders-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Hosts API
+  slug: open-vmware-hosts-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Networks API
+  slug: open-vmware-networks-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Resource Pools API
+  slug: open-vmware-resource-pools-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Session API
+  slug: open-vmware-session-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Storage Policies API
+  slug: open-vmware-storage-policies-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters Tagging API
+  slug: open-vmware-tagging-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters VM Guest API
+  slug: open-vmware-vm-guest-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters VM Hardware API
+  slug: open-vmware-vm-hardware-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters VM Power API
+  slug: open-vmware-vm-power-api
+- collection_type: open
+  name: VMware vSphere Automation REST Clusters VMs API
+  slug: open-vmware-vms-api
 - collection_type: open
   name: VMware vSphere Automation REST API
   slug: open-vmware-vsphere-api
@@ -993,7 +1041,7 @@ plans:
 - name: Vmware Plans Pricing
   plan_count: 1
   slug: vmware-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Vmware Rate Limits
@@ -1035,7 +1083,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/screenshots/vmware-2026-06-20T201116.png
 security:

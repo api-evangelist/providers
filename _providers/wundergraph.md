@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: The WunderGraph Cosmo GraphQL API provides full lifecycle management of federated GraphQL APIs, including schema registry operations, composition checks, analytics queries, subgraph management, and ro
   name: WunderGraph Cloud GraphQL API
   slug: graphql-api
-artifact_total: 72
+artifact_total: 83
 collections:
 - collection_type: postman
   name: WunderGraph Cosmo Platform Analytics API
@@ -105,8 +105,41 @@ collections:
   name: WunderGraph Cosmo Platform Analytics Subgraphs API
   slug: postman-wundergraph-subgraphs-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics API
+  slug: open-wundergraph-analytics-api
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics API Keys API
+  slug: open-wundergraph-api-keys-api
+- collection_type: open
   name: WunderGraph Cosmo Platform API
   slug: open-wundergraph-cosmo-platform
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics Feature Flags API
+  slug: open-wundergraph-feature-flags-api
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics Feature Subgraphs API
+  slug: open-wundergraph-feature-subgraphs-api
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics Federated Graphs API
+  slug: open-wundergraph-federated-graphs-api
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics Monographs API
+  slug: open-wundergraph-monographs-api
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics Namespaces API
+  slug: open-wundergraph-namespaces-api
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics Router API
+  slug: open-wundergraph-router-api
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics Schema Contracts API
+  slug: open-wundergraph-schema-contracts-api
+- collection_type: open
+  name: WunderGraph Cosmo Platform Analytics Subgraphs API
+  slug: open-wundergraph-subgraphs-api
 common:
 - group: build
   title: ''
@@ -323,7 +356,7 @@ plans:
 - name: Wundergraph Plans Pricing
   plan_count: 3
   slug: wundergraph-plans-pricing
-random_paper: 111
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Wundergraph Rate Limits
@@ -358,7 +391,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -34,7 +34,7 @@ apis:
 - description: Moneyhub's Open Banking Payments API initiates account-to-account payments (Payment Initiation Service) over the UK Faster Payments rails as a cheaper, near-instant alternative to cards, direct debits
   name: Moneyhub Open Banking Payments API
   slug: moneyhub-open-banking-payments-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Moneyhub Webhooks
@@ -43,6 +43,9 @@ collections:
 - collection_type: postman
   name: Moneyhub Data API
   slug: postman-moneyhub-data-api-swagger
+- collection_type: open
+  name: Moneyhub Data API
+  slug: open-moneyhub-data-api-swagger
 common:
 - group: build
   title: ''
@@ -216,7 +219,7 @@ overview: 'Moneyhub publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Moneyhub''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 31 more developer resources.'
-random_paper: 31
+random_paper: 126
 scopes:
 - name: Moneyhub Scopes
   scope_count: 108
@@ -245,7 +248,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png
 security:

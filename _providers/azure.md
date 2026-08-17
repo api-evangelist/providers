@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - description: Manage Azure subscriptions
   name: Microsoft Azure Subscriptions API
   slug: azure-subscriptions-api
-artifact_total: 45
+artifact_total: 49
 collections:
 - collection_type: postman
   name: Microsoft Azure Management Resource Groups API
@@ -60,6 +60,18 @@ collections:
 - collection_type: postman
   name: Microsoft Azure Management Resource Groups Subscriptions API
   slug: postman-azure-subscriptions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Azure Management Resource Groups API
+  slug: open-azure-resource-groups-api
+- collection_type: open
+  name: Microsoft Azure Management Resource Groups Resources API
+  slug: open-azure-resources-api
+- collection_type: open
+  name: Microsoft Azure Management Resource Groups Subscriptions API
+  slug: open-azure-subscriptions-api
 common:
 - group: build
   title: ''
@@ -230,7 +242,7 @@ plans:
 - name: Azure Plans Pricing
   plan_count: 5
   slug: azure-plans-pricing
-random_paper: 71
+random_paper: 104
 rate_limits:
 - limit_count: 4
   name: Azure Rate Limits
@@ -277,7 +289,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/screenshots/azure-2026-06-20T172833.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ overview: 'Morty is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Morty''s developer surface includes documentation, support, signup flow, pricing, engineering blog, authentication, changelog, and 7 more developer resources.'
-random_paper: 91
+random_paper: 124
 score:
   band: emerging
   composite: 23.7
@@ -114,7 +114,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 23.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morty/refs/heads/main/screenshots/morty-2026-08-07T184313.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: The batch/rooms API from Daily — 1 operation(s) for batch/rooms.
@@ -70,11 +70,54 @@ apis:
 - description: The webhooks API from Daily — 2 operation(s) for webhooks.
   name: Daily webhooks API
   slug: daily-webhooks-api
-artifact_total: 17
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Daily Webhooks
   slug: daily-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Daily batch/rooms API
+  slug: open-daily-batch-rooms-api
+- collection_type: open
+  name: Daily batch/rooms dialin API
+  slug: open-daily-dialin-api
+- collection_type: open
+  name: Daily batch/rooms domain API
+  slug: open-daily-domain-api
+- collection_type: open
+  name: Daily batch/rooms domain-dialin-config API
+  slug: open-daily-domain-dialin-config-api
+- collection_type: open
+  name: Daily batch/rooms logs API
+  slug: open-daily-logs-api
+- collection_type: open
+  name: Daily batch/rooms meeting-tokens API
+  slug: open-daily-meeting-tokens-api
+- collection_type: open
+  name: Daily batch/rooms meetings API
+  slug: open-daily-meetings-api
+- collection_type: open
+  name: Daily batch/rooms phone-numbers API
+  slug: open-daily-phone-numbers-api
+- collection_type: open
+  name: Daily batch/rooms presence API
+  slug: open-daily-presence-api
+- collection_type: open
+  name: Daily batch/rooms recordings API
+  slug: open-daily-recordings-api
+- collection_type: open
+  name: Daily batch/ rooms API
+  slug: open-daily-rooms-api
+- collection_type: open
+  name: Daily batch/rooms transcript API
+  slug: open-daily-transcript-api
+- collection_type: open
+  name: Daily batch/rooms webhooks API
+  slug: open-daily-webhooks-api
 common:
 - group: auth
   title: ''
@@ -219,7 +262,7 @@ overview: 'Daily publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Daily''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 51
+random_paper: 84
 score:
   band: strong
   composite: 57.1
@@ -242,7 +285,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/screenshots/daily-2026-07-25T211132.png
 security:

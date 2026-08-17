@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,11 @@ apis:
 - description: EPCOR's undocumented but fully public geospatial data surface. Its outage map at outages.epcor.com loads its endpoints from a configuration file that points at a publicly shared ArcGIS Online organiza
   name: EPCOR Public Outage and Service Area Feature Services (ArcGIS REST)
   slug: epcor-outages-arcgis
-artifact_total: 12
+artifact_total: 13
+collections:
+- collection_type: open
+  name: EPCOR Public Outage and Service Area Feature Services (ArcGIS REST)
+  slug: open-epcor-outages-arcgis
 common:
 - group: agent
   title: ''
@@ -173,7 +177,7 @@ overview: 'EPCOR publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   EPCOR''s developer surface includes authentication, developer portal, support, engineering blog, and 21 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: thin
   composite: 35.5
@@ -202,7 +206,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/screenshots/epcor-2026-08-07T164946.png
 security:

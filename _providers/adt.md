@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -69,14 +69,47 @@ apis:
 - description: Manage camera recordings and live video
   name: ADT Video API
   slug: adt-video-api
-artifact_total: 109
+artifact_total: 120
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ADT Business Access Codes API
+  slug: open-adt-access-codes-api
+- collection_type: open
+  name: ADT Business Access Codes Access Control API
+  slug: open-adt-access-control-api
+- collection_type: open
+  name: ADT Business Access Codes Automation API
+  slug: open-adt-automation-api
 - collection_type: open
   name: ADT Business API
   slug: open-adt-business-api
 - collection_type: open
+  name: ADT Business Access Codes Devices API
+  slug: open-adt-devices-api
+- collection_type: open
+  name: ADT Business Access Codes Events API
+  slug: open-adt-events-api
+- collection_type: open
   name: ADT+ Platform API
   slug: open-adt-platform-api
+- collection_type: open
+  name: ADT Business Access Codes Reports API
+  slug: open-adt-reports-api
+- collection_type: open
+  name: ADT Business Access Codes Security Systems API
+  slug: open-adt-security-systems-api
+- collection_type: open
+  name: ADT Business Access Codes Sites API
+  slug: open-adt-sites-api
+- collection_type: open
+  name: ADT Business Access Codes Users API
+  slug: open-adt-users-api
+- collection_type: open
+  name: ADT Business Access Codes Video API
+  slug: open-adt-video-api
 common:
 - group: agent
   title: ''
@@ -414,7 +447,7 @@ press:
 - date: '2026-05-25'
   title: How ADT embraces AI to make every second count.
   url: https://sierra.ai/customers/adt
-random_paper: 73
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Adt Rate Limits
@@ -461,7 +494,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/screenshots/adt-2026-06-20T165203.png
 security:

@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-12'
+  score: 51.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -138,7 +138,110 @@ apis:
 - description: View and manage your workflows across your account
   name: Frontline Workflows API
   slug: frontline-workflows-api
-artifact_total: 39
+artifact_total: 74
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Account API
+  slug: open-frontline-account-api
+- collection_type: open
+  name: Public Account Agent Builder API
+  slug: open-frontline-agent-builder-api
+- collection_type: open
+  name: Public Account Agents API
+  slug: open-frontline-agents-api
+- collection_type: open
+  name: Public Account AI Models API
+  slug: open-frontline-ai-models-api
+- collection_type: open
+  name: Public Account Billing API
+  slug: open-frontline-billing-api
+- collection_type: open
+  name: Public Account Flow Variables API
+  slug: open-frontline-flow-variables-api
+- collection_type: open
+  name: Public Account Flows API
+  slug: open-frontline-flows-api
+- collection_type: open
+  name: Public Account Incoming Webhooks API
+  slug: open-frontline-incoming-webhooks-api
+- collection_type: open
+  name: Public Account Intents API
+  slug: open-frontline-intents-api
+- collection_type: open
+  name: Public Account Object activities API
+  slug: open-frontline-object-activities-api
+- collection_type: open
+  name: Public Account Object aggregations API
+  slug: open-frontline-object-aggregations-api
+- collection_type: open
+  name: Public Account Object export API
+  slug: open-frontline-object-export-api
+- collection_type: open
+  name: Public Account Object fields API
+  slug: open-frontline-object-fields-api
+- collection_type: open
+  name: Public Account Object files API
+  slug: open-frontline-object-files-api
+- collection_type: open
+  name: Public Account Object options API
+  slug: open-frontline-object-options-api
+- collection_type: open
+  name: Public Account Object record types API
+  slug: open-frontline-object-record-types-api
+- collection_type: open
+  name: Public Account Object relations API
+  slug: open-frontline-object-relations-api
+- collection_type: open
+  name: Public Account Object rows API
+  slug: open-frontline-object-rows-api
+- collection_type: open
+  name: Public Account Object tasks API
+  slug: open-frontline-object-tasks-api
+- collection_type: open
+  name: Public Account Object views API
+  slug: open-frontline-object-views-api
+- collection_type: open
+  name: Public Account Objects API
+  slug: open-frontline-objects-api
+- collection_type: open
+  name: Public Account Table activities API
+  slug: open-frontline-table-activities-api
+- collection_type: open
+  name: Public Account Table aggregations API
+  slug: open-frontline-table-aggregations-api
+- collection_type: open
+  name: Public Account Table export API
+  slug: open-frontline-table-export-api
+- collection_type: open
+  name: Public Account Table fields API
+  slug: open-frontline-table-fields-api
+- collection_type: open
+  name: Public Account Table files API
+  slug: open-frontline-table-files-api
+- collection_type: open
+  name: Public Account Table options API
+  slug: open-frontline-table-options-api
+- collection_type: open
+  name: Public Account Table rows API
+  slug: open-frontline-table-rows-api
+- collection_type: open
+  name: Public Account Table tasks API
+  slug: open-frontline-table-tasks-api
+- collection_type: open
+  name: Public Account Tables API
+  slug: open-frontline-tables-api
+- collection_type: open
+  name: Public Account Tools API
+  slug: open-frontline-tools-api
+- collection_type: open
+  name: Public Account Workflow Variables API
+  slug: open-frontline-workflow-variables-api
+- collection_type: open
+  name: Public Account Workflows API
+  slug: open-frontline-workflows-api
 common:
 - group: auth
   title: ''
@@ -231,7 +334,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://www.getfrontline.ai/help
+  url: https://help.getfrontline.ai/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -240,6 +343,18 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.getfrontline.ai/privacy-policy
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/frontline-plans-pricing.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.getfrontline.ai/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.getfrontline.ai/blog
 - group: company
   title: ''
   type: Website
@@ -252,28 +367,32 @@ mcp_servers:
 - description: ''
   name: frontline-mcp.yml
   slug: frontline-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Frontline
 nav: Providers
 network: true
 overview: 'Frontline publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Builder API, Agents API, and 30 more. Tagged areas include Company, CRM, AI Agents, Sales Automation, and Customer Support.
 
 
-  Frontline''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, signup flow, and 19 more developer resources.'
-random_paper: 17
+  Frontline''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, signup flow, and 22 more developer resources.'
+plans:
+- name: Frontline Plans Pricing
+  plan_count: 0
+  slug: frontline-plans-pricing
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Frontline Rate Limits
   slug: frontline-rate-limits
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 52.9
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.7
-    developer_ergonomics: 51.6
-    discoverability: 81.5
+    developer_ergonomics: 62.5
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 49.6
@@ -288,7 +407,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/screenshots/frontline-2026-07-25T215237.png
 security:
@@ -299,11 +418,11 @@ security:
 - kind: domain-security
   name: Frontline Domain Security
   slug: frontline-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 - kind: trust-center
   name: Frontline Trust Center
   slug: frontline-trust-center
-  summary_line: SOC 2, ISO 27001
+  summary_line: SOC 2 Type 1
 slug: frontline
 tags:
 - Company

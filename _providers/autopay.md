@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 3
@@ -96,8 +96,41 @@ apis:
 - description: Vehicle permit and session lookups
   name: Autopay Vehicle API
   slug: autopay-vehicle-api
-artifact_total: 40
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Autopay Accounting API
+  slug: open-autopay-accounting-api
+- collection_type: open
+  name: Autopay Accounting Booking API
+  slug: open-autopay-booking-api
+- collection_type: open
+  name: Autopay Accounting Customer Club API
+  slug: open-autopay-customer-club-api
+- collection_type: open
+  name: Autopay Accounting Fleet API
+  slug: open-autopay-fleet-api
+- collection_type: open
+  name: Autopay Accounting Parking API
+  slug: open-autopay-parking-api
+- collection_type: open
+  name: Autopay Accounting Payment API
+  slug: open-autopay-payment-api
+- collection_type: open
+  name: Autopay Accounting Permit API
+  slug: open-autopay-permit-api
+- collection_type: open
+  name: Autopay Accounting Statistics API
+  slug: open-autopay-statistics-api
+- collection_type: open
+  name: Autopay Accounting Status API
+  slug: open-autopay-status-api
+- collection_type: open
+  name: Autopay Accounting Vehicle API
+  slug: open-autopay-vehicle-api
 - collection_type: open
   name: Autopay API
   slug: open-autopay
@@ -188,7 +221,7 @@ plans:
 - name: Autopay Plans Pricing
   plan_count: 3
   slug: autopay-plans-pricing
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Autopay Rate Limits
@@ -224,7 +257,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png
 security:

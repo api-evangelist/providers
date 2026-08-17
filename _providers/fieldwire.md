@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ apis:
 - description: Account-level user, role, and permission management.
   name: Fieldwire Users API
   slug: fieldwire-users-api
-artifact_total: 81
+artifact_total: 108
 asyncapis:
 - description: Outbound webhook events delivered by Fieldwire to subscriber `post_url` endpoints. Subscribers register through the Webhooks REST API; Fieldwire POSTs JSON payloads describing entity changes (created,
   name: Fieldwire Webhooks
@@ -220,29 +220,110 @@ collections:
   name: Fieldwire Account Actual Costs Users API
   slug: postman-fieldwire-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Fieldwire Account API
   slug: open-fieldwire-account-api
 - collection_type: open
-  name: Fieldwire Attachments and Media API
+  name: Fieldwire Account Actual Costs API
+  slug: open-fieldwire-actual-costs-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Attachments API
   slug: open-fieldwire-attachments-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Authentication API
+  slug: open-fieldwire-authentication-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Bubbles API
+  slug: open-fieldwire-bubbles-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Budget Line Items API
+  slug: open-fieldwire-budget-line-items-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Building Information Models API
+  slug: open-fieldwire-building-information-models-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Change Orders API
+  slug: open-fieldwire-change-orders-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Custom Stamps API
+  slug: open-fieldwire-custom-stamps-api
 - collection_type: open
   name: Fieldwire Project Financials API
   slug: open-fieldwire-financials-api
 - collection_type: open
+  name: Fieldwire Account Actual Costs Floorplans API
+  slug: open-fieldwire-floorplans-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Form Inputs API
+  slug: open-fieldwire-form-inputs-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Form Records API
+  slug: open-fieldwire-form-records-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Form Sections API
+  slug: open-fieldwire-form-sections-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Form Templates API
+  slug: open-fieldwire-form-templates-api
+- collection_type: open
   name: Fieldwire Forms API
   slug: open-fieldwire-forms-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Hyperlinks API
+  slug: open-fieldwire-hyperlinks-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Markups API
+  slug: open-fieldwire-markups-api
 - collection_type: open
   name: Fieldwire Plans and Sheets API
   slug: open-fieldwire-plans-api
 - collection_type: open
-  name: Fieldwire Projects API
+  name: Fieldwire Account Actual Costs Project Stats API
+  slug: open-fieldwire-project-stats-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Project Teams API
+  slug: open-fieldwire-project-teams-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Project Users API
+  slug: open-fieldwire-project-users-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Projects API
   slug: open-fieldwire-projects-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs RFIs API
+  slug: open-fieldwire-rfis-api
 - collection_type: open
   name: Fieldwire RFIs and Submittals API
   slug: open-fieldwire-rfis-submittals-api
 - collection_type: open
-  name: Fieldwire Tasks API
+  name: Fieldwire Account Actual Costs S3 Tokens API
+  slug: open-fieldwire-s3-tokens-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Sheets API
+  slug: open-fieldwire-sheets-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Spec Sections API
+  slug: open-fieldwire-spec-sections-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Submittals API
+  slug: open-fieldwire-submittals-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Subscriptions API
+  slug: open-fieldwire-subscriptions-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Task Check Items API
+  slug: open-fieldwire-task-check-items-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Task Relations API
+  slug: open-fieldwire-task-relations-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Tasks API
   slug: open-fieldwire-tasks-api
+- collection_type: open
+  name: Fieldwire Account Actual Costs Users API
+  slug: open-fieldwire-users-api
 - collection_type: open
   name: Fieldwire Webhooks API
   slug: open-fieldwire-webhooks-api
@@ -422,7 +503,7 @@ plans:
 - name: Fieldwire Plans Pricing
   plan_count: 5
   slug: fieldwire-plans-pricing
-random_paper: 115
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Fieldwire Rate Limits
@@ -472,7 +553,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/screenshots/fieldwire-2026-06-20T181155.png
 security:

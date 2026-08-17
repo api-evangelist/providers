@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The OTX DirectConnect API provides programmatic access to the LevelBlue Open Threat Exchange, an open community threat-intelligence platform. It exposes indicators (IPs, domains, hostnames, file hashe
@@ -44,11 +44,24 @@ apis:
 - description: Endpoint for OAuth 2.0 functionality.
   name: LevelBlue OAuth API
   slug: levelblue-oauth-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Levelblue Usm Anywhere Webhooks
   slug: levelblue-usm-anywhere-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USM Anywhere™ API Reference Alarms API
+  slug: open-levelblue-alarms-api
+- collection_type: open
+  name: USM Anywhere™ API Reference Alarms Events API
+  slug: open-levelblue-events-api
+- collection_type: open
+  name: USM Anywhere™ API Reference Alarms OAuth API
+  slug: open-levelblue-oauth-api
 common:
 - group: agent
   title: ''
@@ -197,7 +210,7 @@ overview: 'LevelBlue publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   LevelBlue''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 0
+random_paper: 66
 scopes:
 - name: Levelblue Scopes
   scope_count: 3
@@ -225,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/screenshots/levelblue-2026-07-25T224945.png
 security:

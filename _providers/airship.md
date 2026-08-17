@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -87,8 +87,41 @@ apis:
 - description: The Templates API from Airship — 2 operation(s) for templates.
   name: Airship Templates API
   slug: airship-templates-api
-artifact_total: 25
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airship REST Channels API
+  slug: open-airship-channels-api
+- collection_type: open
+  name: Airship REST Channels Custom Events API
+  slug: open-airship-custom-events-api
+- collection_type: open
+  name: Airship REST Channels Lists API
+  slug: open-airship-lists-api
+- collection_type: open
+  name: Airship REST Channels Message Center API
+  slug: open-airship-message-center-api
+- collection_type: open
+  name: Airship REST Channels Named Users API
+  slug: open-airship-named-users-api
+- collection_type: open
+  name: Airship REST Channels Push API
+  slug: open-airship-push-api
+- collection_type: open
+  name: Airship REST Channels Reports API
+  slug: open-airship-reports-api
+- collection_type: open
+  name: Airship REST Channels Schedules API
+  slug: open-airship-schedules-api
+- collection_type: open
+  name: Airship REST Channels Segments API
+  slug: open-airship-segments-api
+- collection_type: open
+  name: Airship REST Channels Templates API
+  slug: open-airship-templates-api
 - collection_type: open
   name: Airship REST API
   slug: open-airship
@@ -157,7 +190,7 @@ plans:
 - name: Airship Plans Pricing
   plan_count: 1
   slug: airship-plans-pricing
-random_paper: 32
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Airship Rate Limits
@@ -187,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/screenshots/airship-2026-06-20T171434.png
 security:

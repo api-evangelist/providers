@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The KeyRunner platform provides a local-first toolset for testing, monitoring, mocking, and running APIs with secrets kept on-device. Available as desktop apps, a VS Code extension, and a CLI distribu
@@ -72,7 +72,7 @@ plans:
 - name: Keyrunner Plans Pricing
   plan_count: 3
   slug: keyrunner-plans-pricing
-random_paper: 35
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Keyrunner Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyrunner/refs/heads/main/screenshots/keyrunner-2026-06-20T184014.png
 security:

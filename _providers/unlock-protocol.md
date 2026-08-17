@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 34
 apis:
 - description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
@@ -133,11 +133,114 @@ apis:
 - description: The Verifier API from Unlock Protocol — 3 operation(s) for verifier.
   name: Unlock Protocol Verifier API
   slug: unlock-protocol-verifier-api
-artifact_total: 38
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Unlock Protocol Websub Webhooks
   slug: unlock-protocol-websub-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unlock Locksmith Applications API
+  slug: open-unlock-protocol-applications-api
+- collection_type: open
+  name: Unlock Locksmith Applications Auth API
+  slug: open-unlock-protocol-auth-api
+- collection_type: open
+  name: Unlock Locksmith Applications Captcha API
+  slug: open-unlock-protocol-captcha-api
+- collection_type: open
+  name: Unlock Locksmith Applications Certificate API
+  slug: open-unlock-protocol-certificate-api
+- collection_type: open
+  name: Unlock Locksmith Applications Charges API
+  slug: open-unlock-protocol-charges-api
+- collection_type: open
+  name: Unlock Locksmith Applications Checkout API
+  slug: open-unlock-protocol-checkout-api
+- collection_type: open
+  name: Unlock Locksmith Applications Claim API
+  slug: open-unlock-protocol-claim-api
+- collection_type: open
+  name: Unlock Locksmith Applications Contracts API
+  slug: open-unlock-protocol-contracts-api
+- collection_type: open
+  name: Unlock Locksmith Applications Credit Card Details API
+  slug: open-unlock-protocol-credit-card-details-api
+- collection_type: open
+  name: Unlock Locksmith Applications Email API
+  slug: open-unlock-protocol-email-api
+- collection_type: open
+  name: Unlock Locksmith Applications Email Subscriptions API
+  slug: open-unlock-protocol-email-subscriptions-api
+- collection_type: open
+  name: Unlock Locksmith Applications Event Collection API
+  slug: open-unlock-protocol-event-collection-api
+- collection_type: open
+  name: Unlock Locksmith Applications Events API
+  slug: open-unlock-protocol-events-api
+- collection_type: open
+  name: Unlock Locksmith Applications Hooks API
+  slug: open-unlock-protocol-hooks-api
+- collection_type: open
+  name: Unlock Locksmith Applications Images API
+  slug: open-unlock-protocol-images-api
+- collection_type: open
+  name: Unlock Locksmith Applications Lock API
+  slug: open-unlock-protocol-lock-api
+- collection_type: open
+  name: Unlock Locksmith Applications Lock Settings API
+  slug: open-unlock-protocol-lock-settings-api
+- collection_type: open
+  name: Unlock Locksmith Applications Locks API
+  slug: open-unlock-protocol-locks-api
+- collection_type: open
+  name: Unlock Locksmith Applications Merkle Tree API
+  slug: open-unlock-protocol-merkle-tree-api
+- collection_type: open
+  name: Unlock Locksmith Applications Metadata API
+  slug: open-unlock-protocol-metadata-api
+- collection_type: open
+  name: Unlock Locksmith Applications Pass API
+  slug: open-unlock-protocol-pass-api
+- collection_type: open
+  name: Unlock Locksmith Applications Price API
+  slug: open-unlock-protocol-price-api
+- collection_type: open
+  name: Unlock Locksmith Applications Privy API
+  slug: open-unlock-protocol-privy-api
+- collection_type: open
+  name: Unlock Locksmith Applications Purchase API
+  slug: open-unlock-protocol-purchase-api
+- collection_type: open
+  name: Unlock Locksmith Applications Receipts API
+  slug: open-unlock-protocol-receipts-api
+- collection_type: open
+  name: Unlock Locksmith Applications Receipts Base API
+  slug: open-unlock-protocol-receipts-base-api
+- collection_type: open
+  name: Unlock Locksmith Applications Rsvp API
+  slug: open-unlock-protocol-rsvp-api
+- collection_type: open
+  name: Unlock Locksmith Applications Stripe API
+  slug: open-unlock-protocol-stripe-api
+- collection_type: open
+  name: Unlock Locksmith Applications Subscriptions API
+  slug: open-unlock-protocol-subscriptions-api
+- collection_type: open
+  name: Unlock Locksmith Applications Ticket API
+  slug: open-unlock-protocol-ticket-api
+- collection_type: open
+  name: Unlock Locksmith Applications Transfer API
+  slug: open-unlock-protocol-transfer-api
+- collection_type: open
+  name: Unlock Locksmith Applications Users API
+  slug: open-unlock-protocol-users-api
+- collection_type: open
+  name: Unlock Locksmith Applications Verifier API
+  slug: open-unlock-protocol-verifier-api
 common:
 - group: company
   title: ''
@@ -278,7 +381,7 @@ overview: 'Unlock Protocol publishes 33 APIs on the [APIs.io](https://apis.io/) 
 
 
   Unlock Protocol''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 19
+random_paper: 89
 score:
   band: developing
   composite: 48.8
@@ -307,7 +410,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

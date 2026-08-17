@@ -22,14 +22,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 3.2
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: Balto's Call Data API gives customers programmatic access to their historical call records so they can transfer, analyse and activate that data in a CRM, data warehouse or any system that accepts API-
+  name: Balto Call Data API
+  slug: balto-call-data-api
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -51,6 +55,10 @@ common:
   title: ''
   type: Blog
   url: https://www.balto.ai/blog/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/BaltoSoftware
 - group: start
   title: ''
   type: Login
@@ -91,33 +99,68 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/balto-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/balto-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/balto-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/balto-rate-limits.yml
+coverage:
+  checked: '2026-08-14'
+  detail: Balto's ReadMe-hosted Docs Hub at docs.balto.ai HTTP 302s every path — including /reference and /openapi.json — to https://login.balto.ai/?redirect=, and Balto's own Download & Support page states the hub holding its "Full API Documentation" is "available exclusively to current customers with Balto Cloud login credentials".
+  evidence:
+  - status: 302
+    url: https://docs.balto.ai/reference
+  - status: 302
+    url: https://docs.balto.ai/openapi.json
+  - status: 200
+    url: https://www.balto.ai/download-balto/
+  - status: 200
+    url: https://status.balto.ai/api/v2/components.json
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
-description: Balto is a contact center AI platform that pairs live human agents with real-time AI to improve conversation quality, compliance, efficiency, and revenue. Its unified system delivers real-time agent guidance (Agent Assist), automated quality assurance that auto-scores 100% of interactions, real-time compliance monitoring and risk alerting, AI coaching, call summarization (Real-Time Notetaker), omnichannel voice and digital support, and a Voice AI Agent (Togo) for high-volume repeatable calls. Balto integrates with 50+ contact center (CCaaS) platforms including Five9, Genesys, Amazon Connect, NICE inContact, RingCentral, and Convoso, and exposes a Call Data API for exporting historical call records into external systems and data warehouses. Founded in St. Louis, Balto is backed by Sierra Ventures. This profile was enriched from Balto's public web surface; the developer documentation at docs.balto.ai sits behind an authenticated login, so no public OpenAPI was available to harvest.
+description: Balto is a contact center AI platform that pairs live human agents with real-time AI to improve conversation quality, compliance, efficiency, and revenue. Its unified system delivers real-time agent guidance (Agent Assist), automated quality assurance that auto-scores 100% of interactions, real-time compliance monitoring and risk alerting, AI coaching, call summarization (Real-Time Notetaker), omnichannel voice and digital support, and a Voice AI Agent (Togo) for high-volume repeatable calls. Balto integrates with 50+ contact center (CCaaS) platforms including Five9, Genesys, Amazon Connect, NICE inContact, RingCentral, and Convoso, and exposes a Call Data API for exporting historical call records into external systems and data warehouses. Founded in St. Louis, Balto is backed by Sierra Ventures. This profile was enriched from Balto's public web surface; the Docs Hub at docs.balto.ai is a ReadMe-hosted site that redirects every path, including /reference and /openapi.json, to
+  login.balto.ai, and Balto states the hub — which holds its full API documentation — is available exclusively to current customers with Balto Cloud credentials, so no public OpenAPI, GraphQL, AsyncAPI or MCP contract was available to harvest.
 image: https://cdn.sanity.io/images/jnw43o37/production/b992c6f0d9016403311c1da51bd5bef4effc8988-1200x630.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Balto
 nav: Providers
 network: true
-overview: 'Balto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Contact Center, Conversation Intelligence, and Agent Assist.
+overview: 'Balto publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Contact Center, Conversation Intelligence, and Agent Assist.
 
 
-  Balto''s developer surface includes documentation, support, engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 50
+  Balto''s developer surface includes documentation, support, engineering blog, signup flow, and 15 more developer resources.'
+plans:
+- name: Balto Plans Pricing
+  plan_count: 0
+  slug: balto-plans-pricing
+random_paper: 83
+rate_limits:
+- limit_count: 0
+  name: Balto Rate Limits
+  slug: balto-rate-limits
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 25.7
+  delta: 3.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 15.8
+    discoverability: 66.7
+    governance: 12.5
+    operational_transparency: 21.1
   previous_composite: 22.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/screenshots/balto-2026-07-25T202318.png
 security:

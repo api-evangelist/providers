@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -429,7 +429,7 @@ apis:
 - description: 'The #X Amz Target=RedshiftData.ListTables API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.listtables.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.ListTables API'
   slug: aws-redshift-x-amz-target-redshiftdata-listtables-api
-artifact_total: 2073
+artifact_total: 2203
 collections:
 - collection_type: postman
   name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange API'
@@ -819,8 +819,398 @@ collections:
   name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ListTables API'
   slug: postman-aws-redshift-x-amz-target-redshiftdata-listtables-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange API'
+  slug: open-aws-redshift-action-acceptreservednodeexchange-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AddPartner API'
+  slug: open-aws-redshift-action-addpartner-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AssociateDataShareConsumer API'
+  slug: open-aws-redshift-action-associatedatashareconsumer-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AuthorizeClusterSecurityGroupIngress API'
+  slug: open-aws-redshift-action-authorizeclustersecuritygroupingress-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AuthorizeDataShare API'
+  slug: open-aws-redshift-action-authorizedatashare-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AuthorizeEndpointAccess API'
+  slug: open-aws-redshift-action-authorizeendpointaccess-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AuthorizeSnapshotAccess API'
+  slug: open-aws-redshift-action-authorizesnapshotaccess-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=BatchDeleteClusterSnapshots API'
+  slug: open-aws-redshift-action-batchdeleteclustersnapshots-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=BatchModifyClusterSnapshots API'
+  slug: open-aws-redshift-action-batchmodifyclustersnapshots-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CancelResize API'
+  slug: open-aws-redshift-action-cancelresize-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CopyClusterSnapshot API'
+  slug: open-aws-redshift-action-copyclustersnapshot-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateAuthenticationProfile API'
+  slug: open-aws-redshift-action-createauthenticationprofile-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateCluster API'
+  slug: open-aws-redshift-action-createcluster-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateClusterParameterGroup API'
+  slug: open-aws-redshift-action-createclusterparametergroup-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateClusterSecurityGroup API'
+  slug: open-aws-redshift-action-createclustersecuritygroup-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateClusterSnapshot API'
+  slug: open-aws-redshift-action-createclustersnapshot-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateClusterSubnetGroup API'
+  slug: open-aws-redshift-action-createclustersubnetgroup-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateEndpointAccess API'
+  slug: open-aws-redshift-action-createendpointaccess-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateEventSubscription API'
+  slug: open-aws-redshift-action-createeventsubscription-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateHsmClientCertificate API'
+  slug: open-aws-redshift-action-createhsmclientcertificate-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateHsmConfiguration API'
+  slug: open-aws-redshift-action-createhsmconfiguration-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateScheduledAction API'
+  slug: open-aws-redshift-action-createscheduledaction-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateSnapshotCopyGrant API'
+  slug: open-aws-redshift-action-createsnapshotcopygrant-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateSnapshotSchedule API'
+  slug: open-aws-redshift-action-createsnapshotschedule-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateTags API'
+  slug: open-aws-redshift-action-createtags-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateUsageLimit API'
+  slug: open-aws-redshift-action-createusagelimit-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeauthorizeDataShare API'
+  slug: open-aws-redshift-action-deauthorizedatashare-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteAuthenticationProfile API'
+  slug: open-aws-redshift-action-deleteauthenticationprofile-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteCluster API'
+  slug: open-aws-redshift-action-deletecluster-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteClusterParameterGroup API'
+  slug: open-aws-redshift-action-deleteclusterparametergroup-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteClusterSecurityGroup API'
+  slug: open-aws-redshift-action-deleteclustersecuritygroup-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteClusterSnapshot API'
+  slug: open-aws-redshift-action-deleteclustersnapshot-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteClusterSubnetGroup API'
+  slug: open-aws-redshift-action-deleteclustersubnetgroup-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteEndpointAccess API'
+  slug: open-aws-redshift-action-deleteendpointaccess-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteEventSubscription API'
+  slug: open-aws-redshift-action-deleteeventsubscription-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteHsmClientCertificate API'
+  slug: open-aws-redshift-action-deletehsmclientcertificate-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteHsmConfiguration API'
+  slug: open-aws-redshift-action-deletehsmconfiguration-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeletePartner API'
+  slug: open-aws-redshift-action-deletepartner-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteScheduledAction API'
+  slug: open-aws-redshift-action-deletescheduledaction-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteSnapshotCopyGrant API'
+  slug: open-aws-redshift-action-deletesnapshotcopygrant-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteSnapshotSchedule API'
+  slug: open-aws-redshift-action-deletesnapshotschedule-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteTags API'
+  slug: open-aws-redshift-action-deletetags-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteUsageLimit API'
+  slug: open-aws-redshift-action-deleteusagelimit-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeAccountAttributes API'
+  slug: open-aws-redshift-action-describeaccountattributes-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeAuthenticationProfiles API'
+  slug: open-aws-redshift-action-describeauthenticationprofiles-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterDbRevisions API'
+  slug: open-aws-redshift-action-describeclusterdbrevisions-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterParameterGroups API'
+  slug: open-aws-redshift-action-describeclusterparametergroups-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterParameters API'
+  slug: open-aws-redshift-action-describeclusterparameters-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusters API'
+  slug: open-aws-redshift-action-describeclusters-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterSecurityGroups API'
+  slug: open-aws-redshift-action-describeclustersecuritygroups-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterSnapshots API'
+  slug: open-aws-redshift-action-describeclustersnapshots-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterSubnetGroups API'
+  slug: open-aws-redshift-action-describeclustersubnetgroups-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterTracks API'
+  slug: open-aws-redshift-action-describeclustertracks-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterVersions API'
+  slug: open-aws-redshift-action-describeclusterversions-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeDataShares API'
+  slug: open-aws-redshift-action-describedatashares-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeDataSharesForConsumer API'
+  slug: open-aws-redshift-action-describedatasharesforconsumer-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeDataSharesForProducer API'
+  slug: open-aws-redshift-action-describedatasharesforproducer-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeDefaultClusterParameters API'
+  slug: open-aws-redshift-action-describedefaultclusterparameters-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEndpointAccess API'
+  slug: open-aws-redshift-action-describeendpointaccess-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEndpointAuthorization API'
+  slug: open-aws-redshift-action-describeendpointauthorization-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEventCategories API'
+  slug: open-aws-redshift-action-describeeventcategories-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEvents API'
+  slug: open-aws-redshift-action-describeevents-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEventSubscriptions API'
+  slug: open-aws-redshift-action-describeeventsubscriptions-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeHsmClientCertificates API'
+  slug: open-aws-redshift-action-describehsmclientcertificates-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeHsmConfigurations API'
+  slug: open-aws-redshift-action-describehsmconfigurations-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeLoggingStatus API'
+  slug: open-aws-redshift-action-describeloggingstatus-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeNodeConfigurationOptions API'
+  slug: open-aws-redshift-action-describenodeconfigurationoptions-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeOrderableClusterOptions API'
+  slug: open-aws-redshift-action-describeorderableclusteroptions-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribePartners API'
+  slug: open-aws-redshift-action-describepartners-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeReservedNodeExchangeStatus API'
+  slug: open-aws-redshift-action-describereservednodeexchangestatus-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeReservedNodeOfferings API'
+  slug: open-aws-redshift-action-describereservednodeofferings-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeReservedNodes API'
+  slug: open-aws-redshift-action-describereservednodes-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeResize API'
+  slug: open-aws-redshift-action-describeresize-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeScheduledActions API'
+  slug: open-aws-redshift-action-describescheduledactions-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeSnapshotCopyGrants API'
+  slug: open-aws-redshift-action-describesnapshotcopygrants-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeSnapshotSchedules API'
+  slug: open-aws-redshift-action-describesnapshotschedules-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeStorage API'
+  slug: open-aws-redshift-action-describestorage-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeTableRestoreStatus API'
+  slug: open-aws-redshift-action-describetablerestorestatus-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeTags API'
+  slug: open-aws-redshift-action-describetags-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeUsageLimits API'
+  slug: open-aws-redshift-action-describeusagelimits-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DisableLogging API'
+  slug: open-aws-redshift-action-disablelogging-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DisableSnapshotCopy API'
+  slug: open-aws-redshift-action-disablesnapshotcopy-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DisassociateDataShareConsumer API'
+  slug: open-aws-redshift-action-disassociatedatashareconsumer-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=EnableLogging API'
+  slug: open-aws-redshift-action-enablelogging-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=EnableSnapshotCopy API'
+  slug: open-aws-redshift-action-enablesnapshotcopy-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=GetClusterCredentials API'
+  slug: open-aws-redshift-action-getclustercredentials-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=GetClusterCredentialsWithIAM API'
+  slug: open-aws-redshift-action-getclustercredentialswithiam-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=GetReservedNodeExchangeConfigurationOptions API'
+  slug: open-aws-redshift-action-getreservednodeexchangeconfigurationoptions-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=GetReservedNodeExchangeOfferings API'
+  slug: open-aws-redshift-action-getreservednodeexchangeofferings-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyAquaConfiguration API'
+  slug: open-aws-redshift-action-modifyaquaconfiguration-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyAuthenticationProfile API'
+  slug: open-aws-redshift-action-modifyauthenticationprofile-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyCluster API'
+  slug: open-aws-redshift-action-modifycluster-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterDbRevision API'
+  slug: open-aws-redshift-action-modifyclusterdbrevision-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterIamRoles API'
+  slug: open-aws-redshift-action-modifyclusteriamroles-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterMaintenance API'
+  slug: open-aws-redshift-action-modifyclustermaintenance-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterParameterGroup API'
+  slug: open-aws-redshift-action-modifyclusterparametergroup-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterSnapshot API'
+  slug: open-aws-redshift-action-modifyclustersnapshot-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterSnapshotSchedule API'
+  slug: open-aws-redshift-action-modifyclustersnapshotschedule-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterSubnetGroup API'
+  slug: open-aws-redshift-action-modifyclustersubnetgroup-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyEndpointAccess API'
+  slug: open-aws-redshift-action-modifyendpointaccess-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyEventSubscription API'
+  slug: open-aws-redshift-action-modifyeventsubscription-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyScheduledAction API'
+  slug: open-aws-redshift-action-modifyscheduledaction-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifySnapshotCopyRetentionPeriod API'
+  slug: open-aws-redshift-action-modifysnapshotcopyretentionperiod-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifySnapshotSchedule API'
+  slug: open-aws-redshift-action-modifysnapshotschedule-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyUsageLimit API'
+  slug: open-aws-redshift-action-modifyusagelimit-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=PauseCluster API'
+  slug: open-aws-redshift-action-pausecluster-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=PurchaseReservedNodeOffering API'
+  slug: open-aws-redshift-action-purchasereservednodeoffering-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RebootCluster API'
+  slug: open-aws-redshift-action-rebootcluster-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RejectDataShare API'
+  slug: open-aws-redshift-action-rejectdatashare-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ResetClusterParameterGroup API'
+  slug: open-aws-redshift-action-resetclusterparametergroup-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ResizeCluster API'
+  slug: open-aws-redshift-action-resizecluster-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RestoreFromClusterSnapshot API'
+  slug: open-aws-redshift-action-restorefromclustersnapshot-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RestoreTableFromClusterSnapshot API'
+  slug: open-aws-redshift-action-restoretablefromclustersnapshot-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ResumeCluster API'
+  slug: open-aws-redshift-action-resumecluster-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RevokeClusterSecurityGroupIngress API'
+  slug: open-aws-redshift-action-revokeclustersecuritygroupingress-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RevokeEndpointAccess API'
+  slug: open-aws-redshift-action-revokeendpointaccess-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RevokeSnapshotAccess API'
+  slug: open-aws-redshift-action-revokesnapshotaccess-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RotateEncryptionKey API'
+  slug: open-aws-redshift-action-rotateencryptionkey-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=UpdatePartnerStatus API'
+  slug: open-aws-redshift-action-updatepartnerstatus-api
+- collection_type: open
   name: Redshift Data API Service
   slug: open-aws-redshift-data
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.BatchExecuteStatement API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-batchexecutestatement-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.CancelStatement API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-cancelstatement-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.DescribeStatement API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-describestatement-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.DescribeTable API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-describetable-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ExecuteStatement API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-executestatement-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.GetStatementResult API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-getstatementresult-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ListDatabases API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-listdatabases-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ListSchemas API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-listschemas-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ListStatements API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-liststatements-api
+- collection_type: open
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ListTables API'
+  slug: open-aws-redshift-x-amz-target-redshiftdata-listtables-api
 - collection_type: open
   name: Amazon Redshift
   slug: open-aws-redshift
@@ -6308,7 +6698,7 @@ plans:
 - name: Aws Redshift Plans Pricing
   plan_count: 7
   slug: aws-redshift-plans-pricing
-random_paper: 33
+random_paper: 41
 rate_limits:
 - limit_count: 23
   name: Aws Redshift Rate Limits
@@ -6350,7 +6740,7 @@ score:
       marker_coverage: 0.0
       total: 129
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/screenshots/aws-redshift-2026-06-20T172800.png
 security:

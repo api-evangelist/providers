@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,12 +45,21 @@ apis:
 - description: The Models API from glhf — 1 operation(s) for models.
   name: glhf Models API
   slug: glhf-chat-models-api
-artifact_total: 11
+artifact_total: 14
 asyncapis:
 - description: AsyncAPI 2.6 description of glhf's (glhf.chat) **chat completion streaming** surface. glhf does not publish a WebSocket API. Its OpenAI-compatible REST API exposes chat completions at `POST /chat/comp
   name: glhf Chat Completions Streaming (HTTP + SSE)
   slug: glhf-chat-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: glhf Chat API
+  slug: open-glhf-chat-chat-api
+- collection_type: open
+  name: glhf Chat Models API
+  slug: open-glhf-chat-models-api
 - collection_type: open
   name: glhf API
   slug: open-glhf-chat
@@ -114,7 +123,7 @@ plans:
 - name: Glhf Chat Plans Pricing
   plan_count: 2
   slug: glhf-chat-plans-pricing
-random_paper: 38
+random_paper: 133
 rate_limits:
 - limit_count: 3
   name: Glhf Chat Rate Limits
@@ -148,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

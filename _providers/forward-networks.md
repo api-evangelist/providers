@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 2
@@ -99,7 +99,71 @@ apis:
 - description: Identify network devices potentially impacted by CVEs
   name: Forward Networks Vulnerability Analysis API
   slug: forward-networks-vulnerability-analysis-api
-artifact_total: 26
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases API'
+  slug: open-forward-networks-aliases-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Checks API'
+  slug: open-forward-networks-checks-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Classic Devices API'
+  slug: open-forward-networks-classic-devices-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Credentials API'
+  slug: open-forward-networks-credentials-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Current Version API'
+  slug: open-forward-networks-current-version-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Device Tags API'
+  slug: open-forward-networks-device-tags-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Jump Servers API'
+  slug: open-forward-networks-jump-servers-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Network Collection API'
+  slug: open-forward-networks-network-collection-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Network Devices API'
+  slug: open-forward-networks-network-devices-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Network Endpoints API'
+  slug: open-forward-networks-network-endpoints-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Network Locations API'
+  slug: open-forward-networks-network-locations-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Network Snapshots API'
+  slug: open-forward-networks-network-snapshots-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Network Topology API'
+  slug: open-forward-networks-network-topology-api
+- collection_type: open
+  name: 'Forward : Complete Aliases Networks API'
+  slug: open-forward-networks-networks-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases NQE API'
+  slug: open-forward-networks-nqe-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Path Search API'
+  slug: open-forward-networks-path-search-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Synthetic Devices API'
+  slug: open-forward-networks-synthetic-devices-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases System Administration API'
+  slug: open-forward-networks-system-administration-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases User Accounts API'
+  slug: open-forward-networks-user-accounts-api
+- collection_type: open
+  name: 'Forward Networks: Complete Aliases Vulnerability Analysis API'
+  slug: open-forward-networks-vulnerability-analysis-api
 common:
 - group: start
   title: ''
@@ -233,7 +297,7 @@ overview: 'Forward Networks publishes 20 APIs on the [APIs.io](https://apis.io/)
 
 
   Forward Networks'' developer surface includes documentation, authentication, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 15
+random_paper: 56
 score:
   band: developing
   composite: 45.7
@@ -257,7 +321,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/screenshots/forward-networks-2026-07-25T215024.png
 security:

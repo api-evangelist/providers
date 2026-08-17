@@ -11,30 +11,34 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 52.7
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
 - description: REST API for Warmly's agent-tools surface — discover available tools, execute read tools (warm visitors, warm accounts, third-party intent signals, credit balance) and async write tools (push contacts
   name: Warmly REST API
   slug: warmly-rest-api
-artifact_total: 7
+- description: Hosted, remote Model Context Protocol server exposing Warmly's agent-tools registry to MCP-capable agents (Claude Desktop, Claude Code, Cursor, Zed). Documented read tools cover identified website vis
+  name: Warmly MCP Server
+  slug: warmly-mcp-server
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Warmly Webhooks
@@ -132,6 +136,58 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/warmly-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/warmly-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/warmly-scopes.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/warmly-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/warmly-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/warmly-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/warmly-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/warmly-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/warmly-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/warmly-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.getwarmly.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/warmly-changelog.yml
+- group: operate
+  title: ''
+  type: Releases
+  url: https://www.warmly.ai/p/resources/launches
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-17'
 description: Warmly is a signal-based revenue orchestration and AI go-to-market platform that de-anonymizes website visitors down to the individual person, unifies first-, second-, and third-party intent signals in a unified Context Graph, and runs two autonomous agents — an Inbound Agent that converts on-site visitors through AI chat and an outbound TAM Agent that orchestrates prospecting across email, LinkedIn, and ads. Warmly exposes a REST API and a hosted, OAuth-authenticated MCP server (both live at opps-api.getwarmly.com) that let agents list warm visitors and accounts, look up third-party intent signals, check credit balances, and push identified contacts into HubSpot, Salesforce, and sequences — with outbound webhooks reporting agent-tool execution status and delivering intent signals to downstream automations.
 image: https://logo.clearbit.com/warmly.ai
@@ -140,36 +196,49 @@ mcp_servers:
 - description: ''
   name: warmly-mcp.yml
   slug: warmly-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Warmly
 nav: Providers
 network: true
-overview: 'Warmly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Marketing, Intent Data, and Revenue Orchestration.
+overview: 'Warmly publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Marketing, Intent Data, and Revenue Orchestration.
 
 
   The Warmly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Warmly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 68
+  Warmly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Warmly Plans Pricing
+  plan_count: 5
+  slug: warmly-plans-pricing
+random_paper: 72
+rate_limits:
+- limit_count: 2
+  name: Warmly Rate Limits
+  slug: warmly-rate-limits
+scopes:
+- name: Warmly Scopes
+  scope_count: 4
+  slug: warmly-scopes
+  summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken/clientCredentials
 score:
-  band: developing
-  composite: 48.7
-  delta: 0.0
+  band: strong
+  composite: 63.1
+  delta: 14.4
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 51.6
-    developer_ergonomics: 60.9
+    developer_ergonomics: 67.4
     discoverability: 75.9
     governance: 12.5
-    operational_transparency: 18.4
+    operational_transparency: 71.1
   previous_composite: 48.7
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Warmly Authentication

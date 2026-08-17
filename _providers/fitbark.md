@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Authenticated user profile and relationships
   name: FitBark User API
   slug: fitbark-user-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FitBark Activity API
+  slug: open-fitbark-activity-api
+- collection_type: open
+  name: FitBark Activity Dog API
+  slug: open-fitbark-dog-api
+- collection_type: open
+  name: FitBark Activity Goals API
+  slug: open-fitbark-goals-api
+- collection_type: open
+  name: FitBark Activity OAuth API
+  slug: open-fitbark-oauth-api
+- collection_type: open
+  name: FitBark Activity User API
+  slug: open-fitbark-user-api
 common:
 - group: agent
   title: ''
@@ -143,7 +162,7 @@ overview: 'FitBark publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   FitBark''s developer surface includes authentication, documentation, API reference, support, signup flow, and 13 more developer resources.'
-random_paper: 19
+random_paper: 143
 scopes:
 - name: Fitbark Scopes
   scope_count: 1
@@ -178,7 +197,7 @@ score:
     regime_id: health
     score: 41.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/screenshots/fitbark-2026-07-25T214628.png
 security:

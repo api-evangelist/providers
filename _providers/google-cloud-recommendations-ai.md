@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: The Projects API from Google Cloud Recommendations AI — 3 operation(s) for projects.
   name: Google Cloud Recommendations AI Projects API
   slug: google-cloud-recommendations-ai-projects-api
-artifact_total: 11
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Recommendations AI Projects API
+  slug: open-google-cloud-recommendations-ai-projects-api
 - collection_type: open
   name: Google Cloud Recommendations AI API
   slug: open-openapi
@@ -107,7 +113,7 @@ plans:
 - name: Google Cloud Recommendations Ai Plans Pricing
   plan_count: 3
   slug: google-cloud-recommendations-ai-plans-pricing
-random_paper: 117
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: Google Cloud Recommendations Ai Rate Limits
@@ -141,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-recommendations-ai/refs/heads/main/screenshots/google-cloud-recommendations-ai-2026-06-20T182129.png
 security:

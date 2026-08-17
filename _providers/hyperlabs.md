@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The ASP.NET Core backend that powers www.hyperlabs.com — product catalog, product classes, categories, tags and filtering, application notes, datasheets, software/DLL downloads, website content (banne
@@ -27,11 +27,15 @@ apis:
 - description: Public gRPC control and acquisition interface for the HYPERLABS TDR11100 Time Domain Reflectometer. The proto3 service radium.v1.Radium exposes 22 unary RPCs covering readiness and board state, reset,
   name: HYPERLABS Radium gRPC API (TDR11100)
   slug: hyperlabs-radium-grpc-api-tdr11100
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: 'Server-streaming surface of the radium.v1.Radium gRPC service running on a HYPERLABS TDR11100 Time Domain Reflectometer. A client opens a gRPC channel to the instrument on TCP 50052 and subscribes to '
   name: HYPERLABS Radium instrument event streams (TDR11100)
   slug: hyperlabs-radium-asyncapi
+collections:
+- collection_type: open
+  name: Hyperlabs.Web
+  slug: open-hyperlabs-web-openapi-original
 common:
 - group: agent
   title: ''
@@ -185,7 +189,7 @@ overview: 'HYPERLABS publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   HYPERLABS''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, code examples, and 26 more developer resources.'
-random_paper: 10
+random_paper: 76
 score:
   band: developing
   composite: 42.7
@@ -208,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/screenshots/hyperlabs-2026-08-07T170547.png
 security:

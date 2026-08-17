@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -81,7 +81,7 @@ apis:
 - description: Webhook APIs for non-notecard event ingestion
   name: Blues webhook API
   slug: blues-wireless-webhook-api
-artifact_total: 47
+artifact_total: 61
 collections:
 - collection_type: postman
   name: Notehub alert API
@@ -122,6 +122,48 @@ collections:
 - collection_type: postman
   name: Notehub alert webhook API
   slug: postman-blues-wireless-webhook-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Notehub alert API
+  slug: open-blues-wireless-alert-api
+- collection_type: open
+  name: Notehub alert authorization API
+  slug: open-blues-wireless-authorization-api
+- collection_type: open
+  name: Notehub alert billing_account API
+  slug: open-blues-wireless-billing-account-api
+- collection_type: open
+  name: Notehub alert device API
+  slug: open-blues-wireless-device-api
+- collection_type: open
+  name: Notehub alert event API
+  slug: open-blues-wireless-event-api
+- collection_type: open
+  name: Notehub alert external devices API
+  slug: open-blues-wireless-external-devices-api
+- collection_type: open
+  name: Notehub alert jobs API
+  slug: open-blues-wireless-jobs-api
+- collection_type: open
+  name: Notehub alert monitor API
+  slug: open-blues-wireless-monitor-api
+- collection_type: open
+  name: Notehub alert organization API
+  slug: open-blues-wireless-organization-api
+- collection_type: open
+  name: Notehub alert project API
+  slug: open-blues-wireless-project-api
+- collection_type: open
+  name: Notehub alert route API
+  slug: open-blues-wireless-route-api
+- collection_type: open
+  name: Notehub alert usage API
+  slug: open-blues-wireless-usage-api
+- collection_type: open
+  name: Notehub alert webhook API
+  slug: open-blues-wireless-webhook-api
 common:
 - group: build
   title: ''
@@ -269,7 +311,7 @@ plans:
 - name: Blues Wireless Plans Pricing
   plan_count: 2
   slug: blues-wireless-plans-pricing
-random_paper: 22
+random_paper: 121
 rate_limits:
 - limit_count: 3
   name: Blues Wireless Rate Limits
@@ -303,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/screenshots/blues-wireless-2026-06-20T173533.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,20 @@ apis:
 - description: OVAL XML definitions for vulnerability scanning
   name: Red Hat Enterprise Linux 8 OVAL API
   slug: red-hat-enterprise-linux-8-oval-api
-artifact_total: 26
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Red Hat Security Data Advisories API
+  slug: open-red-hat-enterprise-linux-8-advisories-api
+- collection_type: open
+  name: Red Hat Security Data Advisories CVEs API
+  slug: open-red-hat-enterprise-linux-8-cves-api
+- collection_type: open
+  name: Red Hat Security Data Advisories OVAL API
+  slug: open-red-hat-enterprise-linux-8-oval-api
 - collection_type: open
   name: Red Hat Security Data API
   slug: open-red-hat-enterprise-linux-8-security-data
@@ -221,7 +233,7 @@ plans:
 - name: Red Hat Enterprise Linux 8 Plans Pricing
   plan_count: 6
   slug: red-hat-enterprise-linux-8-plans-pricing
-random_paper: 117
+random_paper: 133
 rate_limits:
 - limit_count: 1
   name: Red Hat Enterprise Linux 8 Rate Limits
@@ -263,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/screenshots/red-hat-enterprise-linux-8-2026-06-20T192718.png
 security:

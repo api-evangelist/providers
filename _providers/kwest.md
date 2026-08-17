@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -57,7 +57,7 @@ name: Kwest
 nav: Providers
 network: true
 overview: Kwest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Climate Tech, Renewable Energy, and Solar.
-random_paper: 78
+random_paper: 111
 score:
   band: minimal
   composite: 4.9
@@ -77,7 +77,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kwest/refs/heads/main/screenshots/kwest-2026-07-25T224344.png
 slug: kwest

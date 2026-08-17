@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 0
@@ -71,7 +71,44 @@ apis:
 - description: The VersioningService API from Verta — 40 operation(s) for versioningservice.
   name: Verta VersioningService API
   slug: verta-versioningservice-api
-artifact_total: 14
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: deployment/APISync.proto AuthzService API
+  slug: open-verta-authzservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService DatasetService API
+  slug: open-verta-datasetservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService ExperimentRunService API
+  slug: open-verta-experimentrunservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService ExperimentService API
+  slug: open-verta-experimentservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService MonitoredEntityService API
+  slug: open-verta-monitoredentityservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService ProjectService API
+  slug: open-verta-projectservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService RegistryService API
+  slug: open-verta-registryservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService SCIMConfigurationService API
+  slug: open-verta-scimconfigurationservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService StageService API
+  slug: open-verta-stageservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService UACService API
+  slug: open-verta-uacservice-api
+- collection_type: open
+  name: deployment/APISync.proto AuthzService VersioningService API
+  slug: open-verta-versioningservice-api
 common:
 - group: other
   title: ''
@@ -161,7 +198,7 @@ overview: 'Verta publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Verta''s developer surface includes authentication, changelog, documentation, and 15 more developer resources.'
-random_paper: 66
+random_paper: 99
 score:
   band: emerging
   composite: 26.6
@@ -185,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

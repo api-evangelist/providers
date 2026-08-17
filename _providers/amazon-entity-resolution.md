@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ arazzos:
 - description: Update an existing matching workflow's configuration, then start a fresh job and poll it.
   name: Amazon Entity Resolution Update And Rerun Matching Workflow
   slug: amazon-entity-resolution-update-and-rerun-workflow
-artifact_total: 272
+artifact_total: 276
 collections:
 - collection_type: postman
   name: AWS EntityResolution Matchingworkflows API
@@ -81,6 +81,18 @@ collections:
 - collection_type: postman
   name: AWS EntityResolution
   slug: postman-amazon-entity-resolution
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS EntityResolution Matchingworkflows API
+  slug: open-amazon-entity-resolution-matchingworkflows-api
+- collection_type: open
+  name: AWS EntityResolution Matchingworkflows Schemas API
+  slug: open-amazon-entity-resolution-schemas-api
+- collection_type: open
+  name: AWS EntityResolution Matchingworkflows Tags API
+  slug: open-amazon-entity-resolution-tags-api
 - collection_type: open
   name: AWS EntityResolution
   slug: open-amazon-entity-resolution
@@ -973,7 +985,7 @@ plans:
 - name: Amazon Entity Resolution Plans Pricing
   plan_count: 3
   slug: amazon-entity-resolution-plans-pricing
-random_paper: 113
+random_paper: 129
 rate_limits:
 - limit_count: 5
   name: Amazon Entity Resolution Rate Limits
@@ -1015,7 +1027,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/screenshots/amazon-entity-resolution-2026-06-20T171643.png
 security:

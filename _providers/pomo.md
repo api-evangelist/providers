@@ -1,35 +1,45 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Paid self-serve subscription with a 7-day trial; API access requires an account
+  onboarding: self-serve
+  pricing: paid
   public: false
-  source: []
-  trial: false
+  source:
+  - https://api.usepomo.ai/api/payment/subscription/plans
+  - https://usepomo.ai/llms.txt
+  trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    dry_run_mode: true
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 43.2
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The FastAPI backend behind the Pomo application, published as an OpenAPI 3.1.0 contract at https://api.usepomo.ai/openapi.json with interactive Swagger UI and ReDoc renderings. 924 paths / 994 operati
+  name: Pomo Platform API
+  slug: pomo-platform-api
+artifact_total: 6
+asyncapis:
+- description: ''
+  name: Pomo Event Surface
+  slug: pomo-event-surface
 common:
 - group: auth
   title: ''
@@ -43,10 +53,18 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/pomo-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pomo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pomo-rate-limits.yml
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/pomo-well-known.yml
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Blog
@@ -66,11 +84,11 @@ common:
 - group: start
   title: ''
   type: SignUp
-  url: https://usepomo.ai/signup
+  url: https://usepomo.ai/sign-up
 - group: start
   title: ''
   type: Login
-  url: https://usepomo.ai/login
+  url: https://usepomo.ai/sign-in
 - group: commercial
   title: ''
   type: TermsOfService
@@ -84,34 +102,50 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/pomohq/
 created: '2026-07-17'
-description: Pomo is an AI marketing platform that runs an always-on AI marketing team, turning continuous market, competitor, brand, and trend intelligence into strategy, creative direction, ad-placement planning, and launch-ready campaign workflows for lean growth, brand, and performance teams. It monitors signals daily, surfaces opportunity and whitespace, drafts approval-ready campaigns, briefs, and creatives, and supports AEO/GEO AI-search visibility and Marketing Mix Modeling. Pomo is also offered as a managed service where in-house marketing experts operate the platform on a customer's behalf. Founded in 2025 and based in Palo Alto, California, Pomo raised a $4.5M seed round led by Kindred Ventures with Databricks Ventures, SV Angel, and angel investors. There is no public developer API; the site publishes a real /llms.txt AI-discovery document but no OpenAPI, docs, or developer surface.
+description: Pomo is an AI marketing platform that runs an always-on AI marketing team, turning continuous market, competitor, brand, and trend intelligence into strategy, creative direction, ad-placement planning, and launch-ready campaign workflows for lean growth, brand, and performance teams. It monitors signals daily, surfaces opportunity and whitespace, drafts approval-ready campaigns, briefs, and creatives, and supports AEO/GEO AI-search visibility and Marketing Mix Modeling. Pomo is also offered as a managed service where in-house marketing experts operate the platform on a customer's behalf. The platform runs on a public FastAPI backend at api.usepomo.ai that publishes an OpenAPI 3.1 contract covering 924 paths and 994 operations across campaigns, competitor tracking, market intelligence, earned media, influencer discovery, a unified data model, and connectors to Meta, Google, TikTok, LinkedIn, Shopify, Square, Stripe, QuickBooks, Klaviyo, HubSpot, and Slack, plus a bearer-gated
+  programmatic API with self-service API keys and an internal MCP tool broker. The legal entity is MachFlow, Inc. dba Pomo. Founded in 2025 and based in Palo Alto, California, Pomo raised a $4.5M seed round led by Kindred Ventures with Databricks Ventures, SV Angel, and angel investors.
 image: https://usepomo.ai/assets/landing-page/cta-demo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Pomo
 nav: Providers
 network: true
-overview: 'Pomo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, AI, Market Intelligence, and Competitive Intelligence.
+overview: 'Pomo publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Company, Marketing, AI, Market Intelligence, and Competitive Intelligence.
 
 
-  Pomo''s developer surface includes engineering blog, support, pricing, signup flow, and 9 more developer resources.'
-random_paper: 83
+  The Pomo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Pomo''s developer surface includes engineering blog, support, pricing, signup flow, and 11 more developer resources.'
+plans:
+- name: Pomo Plans Pricing
+  plan_count: 5
+  slug: pomo-plans-pricing
+random_paper: 145
+rate_limits:
+- limit_count: 1
+  name: Pomo Rate Limits
+  slug: pomo-rate-limits
 score:
-  band: emerging
-  composite: 16.0
-  delta: 0.0
+  band: developing
+  composite: 44.3
+  delta: 28.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 76.3
+    contract_quality: 54.5
+    developer_ergonomics: 13.0
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 21.1
   previous_composite: 16.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Pomo Authentication
+  slug: pomo-authentication
+  summary_line: http/apiKey · 2 schemes
 - kind: domain-security
   name: Pomo Domain Security
   slug: pomo-domain-security
@@ -127,5 +161,9 @@ tags:
 - Generative AI
 - SaaS
 - Answer Engine Optimization
+- Advertising
+- Social Media
+- Influencer Marketing
+- Campaign Management
 website: https://usepomo.ai/
 ---

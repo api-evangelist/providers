@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -132,14 +132,95 @@ apis:
 - description: The Venues API from Genius Sports — 3 operation(s) for venues.
   name: Genius Sports Venues API
   slug: genius-sports-venues-api
-artifact_total: 40
+artifact_total: 67
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fixtures-v2 Competitions API
+  slug: open-genius-sports-competitions-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Competitors API
+  slug: open-genius-sports-competitors-api
+- collection_type: open
+  name: Fixtures-v2 Competitions competitors/doubles API
+  slug: open-genius-sports-competitors-doubles-api
+- collection_type: open
+  name: Fixtures-v2 Competitions competitors/horses API
+  slug: open-genius-sports-competitors-horses-api
+- collection_type: open
+  name: Fixtures-v2 Competitions competitors/players API
+  slug: open-genius-sports-competitors-players-api
+- collection_type: open
+  name: Fixtures-v2 Competitions competitors/tbds API
+  slug: open-genius-sports-competitors-tbds-api
+- collection_type: open
+  name: Fixtures-v2 Competitions competitors/teams API
+  slug: open-genius-sports-competitors-teams-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Contracts API
+  slug: open-genius-sports-contracts-api
+- collection_type: open
+  name: v2 Competitions Fixtures API
+  slug: open-genius-sports-fixtures-api
 - collection_type: open
   name: Fixtures-v2
   slug: open-genius-sports-fixtures-v2
 - collection_type: open
+  name: Fixtures-v2 Competitions Groups API
+  slug: open-genius-sports-groups-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Ingestion API
+  slug: open-genius-sports-ingestion-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Localities API
+  slug: open-genius-sports-localities-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Matches API
+  slug: open-genius-sports-matches-api
+- collection_type: open
   name: fixtures-matching-v2
   slug: open-genius-sports-matching-v2
+- collection_type: open
+  name: Fixtures-v2 Competitions Organization API
+  slug: open-genius-sports-organization-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Organizations API
+  slug: open-genius-sports-organizations-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Pending requests API
+  slug: open-genius-sports-pending-requests-api
+- collection_type: open
+  name: Fixtures-v2 Competitions People API
+  slug: open-genius-sports-people-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Persons API
+  slug: open-genius-sports-persons-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Probabilistic matching API
+  slug: open-genius-sports-probabilistic-matching-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Rounds API
+  slug: open-genius-sports-rounds-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Seasons API
+  slug: open-genius-sports-seasons-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Sourcerequests API
+  slug: open-genius-sports-sourcerequests-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Sports API
+  slug: open-genius-sports-sports-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Standings API
+  slug: open-genius-sports-standings-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Statistics API
+  slug: open-genius-sports-statistics-api
+- collection_type: open
+  name: Fixtures-v2 Competitions Venues API
+  slug: open-genius-sports-venues-api
 - collection_type: open
   name: Genius Sports Data Warehouse REST API
   slug: open-genius-sports
@@ -192,7 +273,7 @@ plans:
 - name: Genius Sports Plans Pricing
   plan_count: 3
   slug: genius-sports-plans-pricing
-random_paper: 59
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Genius Sports Rate Limits
@@ -217,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/screenshots/genius-sports-2026-06-20T181734.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Composite a garment onto a person image.
   name: Kling AI Virtual Try-On API
   slug: kling-ai-virtual-try-on-api
-artifact_total: 14
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kling AI Open Platform Account API
+  slug: open-kling-ai-account-api
+- collection_type: open
+  name: Kling AI Open Platform Account Image Generation API
+  slug: open-kling-ai-image-generation-api
+- collection_type: open
+  name: Kling AI Open Platform Account Image-to-Video API
+  slug: open-kling-ai-image-to-video-api
+- collection_type: open
+  name: Kling AI Open Platform Account Lip-Sync API
+  slug: open-kling-ai-lip-sync-api
+- collection_type: open
+  name: Kling AI Open Platform Account Text-to-Video API
+  slug: open-kling-ai-text-to-video-api
+- collection_type: open
+  name: Kling AI Open Platform Account Video Effects API
+  slug: open-kling-ai-video-effects-api
+- collection_type: open
+  name: Kling AI Open Platform Account Video Extension API
+  slug: open-kling-ai-video-extension-api
+- collection_type: open
+  name: Kling AI Open Platform Account Virtual Try-On API
+  slug: open-kling-ai-virtual-try-on-api
 - collection_type: open
   name: Kling AI Open Platform API
   slug: open-kling-ai
@@ -121,7 +148,7 @@ plans:
 - name: Kling Ai Plans Pricing
   plan_count: 3
   slug: kling-ai-plans-pricing
-random_paper: 60
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Kling Ai Rate Limits
@@ -146,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/screenshots/kling-ai-2026-07-25T223947.png
 security:

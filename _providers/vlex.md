@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,14 +57,32 @@ apis:
 - description: Search the vLex legal document corpus
   name: vLex Search API
   slug: vlex-search-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: vLex Iceberg Anonymization API
+  slug: open-vlex-anonymization-api
+- collection_type: open
+  name: vLex Iceberg Anonymization Citations API
+  slug: open-vlex-citations-api
+- collection_type: open
+  name: vLex Iceberg Anonymization Classification API
+  slug: open-vlex-classification-api
+- collection_type: open
+  name: vLex Iceberg Anonymization Documents API
+  slug: open-vlex-documents-api
 - collection_type: open
   name: vLex Iceberg Anonymization API
   slug: open-vlex-iceberg-anonymization
 - collection_type: open
   name: vLex Iceberg Legal Research API
   slug: open-vlex-iceberg-legal-research
+- collection_type: open
+  name: vLex Iceberg Anonymization Search API
+  slug: open-vlex-search-api
 common:
 - group: agent
   title: ''
@@ -158,7 +176,7 @@ plans:
 - name: Vlex Plans Pricing
   plan_count: 1
   slug: vlex-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Vlex Rate Limits
@@ -200,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/screenshots/vlex-2026-06-20T201112.png
 security:

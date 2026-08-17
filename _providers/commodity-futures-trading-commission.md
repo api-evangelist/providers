@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,11 +59,29 @@ apis:
 - description: Traders in Financial Futures format
   name: Commodity Futures Trading Commission TFF API
   slug: commodity-futures-trading-commission-tff-api
-artifact_total: 17
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: CFTC Commitments of Traders (COT) SODA API
   slug: open-cftc-cot
+- collection_type: open
+  name: CFTC Commitments of Traders () SODA COT API
+  slug: open-commodity-futures-trading-commission-cot-api
+- collection_type: open
+  name: CFTC Commitments of Traders () SODA COT Disaggregated API
+  slug: open-commodity-futures-trading-commission-disaggregated-api
+- collection_type: open
+  name: CFTC Commitments of Traders () SODA COT Legacy API
+  slug: open-commodity-futures-trading-commission-legacy-api
+- collection_type: open
+  name: CFTC Commitments of Traders () SODA COT Supplemental API
+  slug: open-commodity-futures-trading-commission-supplemental-api
+- collection_type: open
+  name: CFTC Commitments of Traders () SODA COT TFF API
+  slug: open-commodity-futures-trading-commission-tff-api
 common:
 - group: agent
   title: ''
@@ -141,7 +159,7 @@ plans:
 - name: Commodity Futures Trading Commission Plans Pricing
   plan_count: 3
   slug: commodity-futures-trading-commission-plans-pricing
-random_paper: 12
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Commodity Futures Trading Commission Rate Limits
@@ -189,7 +207,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/screenshots/commodity-futures-trading-commission-2026-06-20T174817.png
 security:

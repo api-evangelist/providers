@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -63,14 +63,41 @@ apis:
 - description: UserInfo endpoint for retrieving authenticated user profile claims.
   name: SSO User Info API
   slug: sso-user-info-api
-artifact_total: 23
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenID Connect (OIDC) SSO Authentication API
+  slug: open-sso-authentication-api
+- collection_type: open
+  name: OpenID Connect (OIDC) SSO Authentication Authorization API
+  slug: open-sso-authorization-api
+- collection_type: open
+  name: OpenID Connect (OIDC) SSO Authentication Discovery API
+  slug: open-sso-discovery-api
+- collection_type: open
+  name: OpenID Connect (OIDC) SSO Authentication Keys API
+  slug: open-sso-keys-api
+- collection_type: open
+  name: OpenID Connect (OIDC) SSO Authentication Logout API
+  slug: open-sso-logout-api
+- collection_type: open
+  name: OpenID Connect (OIDC) SSO Authentication Metadata API
+  slug: open-sso-metadata-api
 - collection_type: open
   name: OpenID Connect (OIDC) SSO API
   slug: open-sso-oidc
 - collection_type: open
   name: SAML 2.0 SSO API
   slug: open-sso-saml
+- collection_type: open
+  name: OpenID Connect (OIDC) SSO Authentication Token API
+  slug: open-sso-token-api
+- collection_type: open
+  name: OpenID Connect (OIDC) SSO Authentication User Info API
+  slug: open-sso-user-info-api
 common:
 - group: agent
   title: ''
@@ -167,7 +194,7 @@ plans:
 - name: Sso Plans Pricing
   plan_count: 3
   slug: sso-plans-pricing
-random_paper: 101
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Sso Rate Limits
@@ -209,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/screenshots/sso-2026-06-20T194436.png
 security:

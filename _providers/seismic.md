@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ arazzos:
 - description: Rank user activity, resolve the top user's profile, and pull their detailed analytics.
   name: Seismic User Adoption Review
   slug: seismic-user-adoption-review-workflow
-artifact_total: 55
+artifact_total: 73
 collections:
 - collection_type: postman
   name: Seismic Analytics API
@@ -146,17 +146,71 @@ collections:
   name: Seismic User Management API
   slug: postman-seismic-user-management
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Seismic Analytics API
   slug: open-seismic-analytics
+- collection_type: open
+  name: Seismic Analytics Content Analytics API
+  slug: open-seismic-content-analytics-api
+- collection_type: open
+  name: Seismic Analytics Analytics Content API
+  slug: open-seismic-content-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Content Profiles API
+  slug: open-seismic-content-profiles-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Content Properties API
+  slug: open-seismic-content-properties-api
 - collection_type: open
   name: Seismic Content API
   slug: open-seismic-content
 - collection_type: open
+  name: Seismic Analytics Content Analytics Data Sources API
+  slug: open-seismic-data-sources-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Delivery Analytics API
+  slug: open-seismic-delivery-analytics-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Delivery API
+  slug: open-seismic-delivery-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Folders API
+  slug: open-seismic-folders-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Generation Jobs API
+  slug: open-seismic-generation-jobs-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Groups API
+  slug: open-seismic-groups-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics LiveDocs API
+  slug: open-seismic-livedocs-api
+- collection_type: open
   name: Seismic LiveDocs API
   slug: open-seismic-livedocs
 - collection_type: open
+  name: Seismic Analytics Content Analytics Reports API
+  slug: open-seismic-reports-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Roles API
+  slug: open-seismic-roles-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Teams API
+  slug: open-seismic-teams-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics Templates API
+  slug: open-seismic-templates-api
+- collection_type: open
+  name: Seismic Analytics Content Analytics User Analytics API
+  slug: open-seismic-user-analytics-api
+- collection_type: open
   name: Seismic User Management API
   slug: open-seismic-user-management
+- collection_type: open
+  name: Seismic Analytics Content Analytics Users API
+  slug: open-seismic-users-api
 common:
 - group: agent
   title: ''
@@ -357,7 +411,7 @@ plans:
 - name: Seismic Plans Pricing
   plan_count: 1
   slug: seismic-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Seismic Rate Limits
@@ -399,7 +453,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/screenshots/seismic-2026-06-20T193646.png
 security:

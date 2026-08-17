@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,8 +66,17 @@ apis:
 - description: The Folders API from Lucidchart — 2 operation(s) for folders.
   name: Lucidchart Folders API
   slug: lucidchart-folders-api
-artifact_total: 16
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lucid REST Documents API
+  slug: open-lucidchart-documents-api
+- collection_type: open
+  name: Lucid REST Documents Folders API
+  slug: open-lucidchart-folders-api
 - collection_type: open
   name: Lucid REST API
   slug: open-lucidchart
@@ -144,7 +153,7 @@ plans:
 - name: Lucidchart Plans Pricing
   plan_count: 4
   slug: lucidchart-plans-pricing
-random_paper: 99
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Lucidchart Rate Limits
@@ -169,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/screenshots/lucidchart-2026-06-20T184747.png
 security:

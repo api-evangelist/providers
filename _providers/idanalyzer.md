@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -78,7 +78,38 @@ apis:
 - description: Webhook delivery log management
   name: ID Analyzer Webhook API
   slug: idanalyzer-webhook-api
-artifact_total: 28
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ID Analyzer Scanner Account API
+  slug: open-idanalyzer-account-api
+- collection_type: open
+  name: ID Analyzer Scanner Account AML API
+  slug: open-idanalyzer-aml-api
+- collection_type: open
+  name: ID Analyzer Scanner Account Biometric API
+  slug: open-idanalyzer-biometric-api
+- collection_type: open
+  name: ID Analyzer Scanner Account Contract API
+  slug: open-idanalyzer-contract-api
+- collection_type: open
+  name: ID Analyzer Scanner Account Docupass API
+  slug: open-idanalyzer-docupass-api
+- collection_type: open
+  name: ID Analyzer Scanner Account Profile API
+  slug: open-idanalyzer-profile-api
+- collection_type: open
+  name: ID Analyzer Account Scanner API
+  slug: open-idanalyzer-scanner-api
+- collection_type: open
+  name: ID Analyzer Scanner Account Transaction API
+  slug: open-idanalyzer-transaction-api
+- collection_type: open
+  name: ID Analyzer Scanner Account Webhook API
+  slug: open-idanalyzer-webhook-api
 common:
 - group: agent
   title: ''
@@ -188,7 +219,7 @@ plans:
 - name: Idanalyzer Plans Pricing
   plan_count: 5
   slug: idanalyzer-plans-pricing
-random_paper: 115
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Idanalyzer Rate Limits
@@ -222,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/screenshots/idanalyzer-2026-06-20T183201.png
 security:

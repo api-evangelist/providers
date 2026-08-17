@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface of the Walabot DIY storefront (walabot.com, a Shopify store operated by Vayyar): unauthenticated read-only product JSON endpoints (/products/{handle}.json, /collections/{'
@@ -116,7 +116,7 @@ overview: 'Vayyar Imaging publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Vayyar Imaging''s developer surface includes engineering blog, documentation, API reference, support, authentication, and 11 more developer resources.'
-random_paper: 5
+random_paper: 104
 scopes:
 - name: Vayyar Imaging Scopes
   scope_count: 4
@@ -144,7 +144,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

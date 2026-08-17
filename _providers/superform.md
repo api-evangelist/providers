@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -83,7 +83,56 @@ apis:
 - description: The Vault API from Superform — 3 operation(s) for vault.
   name: Superform Vault API
   slug: superform-vault-api
-artifact_total: 19
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Superform Auxiliary API
+  slug: open-superform-auxiliary-api
+- collection_type: open
+  name: Superform Auxiliary Balances API
+  slug: open-superform-balances-api
+- collection_type: open
+  name: Superform Auxiliary Contract Checker API
+  slug: open-superform-contract-checker-api
+- collection_type: open
+  name: Superform Auxiliary Data API
+  slug: open-superform-data-api
+- collection_type: open
+  name: Superform Auxiliary Execution API
+  slug: open-superform-execution-api
+- collection_type: open
+  name: Superform Auxiliary Explorer API
+  slug: open-superform-explorer-api
+- collection_type: open
+  name: Superform Auxiliary Health API
+  slug: open-superform-health-api
+- collection_type: open
+  name: Superform Auxiliary Migrate API
+  slug: open-superform-migrate-api
+- collection_type: open
+  name: Superform Auxiliary Protocol API
+  slug: open-superform-protocol-api
+- collection_type: open
+  name: Superform Auxiliary Protocol Rewards API
+  slug: open-superform-protocol-rewards-api
+- collection_type: open
+  name: Superform Auxiliary Simulator API
+  slug: open-superform-simulator-api
+- collection_type: open
+  name: Superform Auxiliary Stats API
+  slug: open-superform-stats-api
+- collection_type: open
+  name: Superform Auxiliary SuperRewardsAPI API
+  slug: open-superform-superrewardsapi-api
+- collection_type: open
+  name: Superform Auxiliary Token Distribution API
+  slug: open-superform-token-distribution-api
+- collection_type: open
+  name: Superform Auxiliary Vault API
+  slug: open-superform-vault-api
 common:
 - group: other
   title: ''
@@ -177,7 +226,7 @@ overview: 'Superform publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Superform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 35
+random_paper: 101
 score:
   band: thin
   composite: 35.9
@@ -201,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

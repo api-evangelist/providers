@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: Create and manage runs within an experiment.
   name: MLflow Runs API
   slug: mlflow-runs-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MLflow Tracking REST Artifacts API
+  slug: open-mlflow-artifacts-api
+- collection_type: open
+  name: MLflow Tracking REST Artifacts Experiments API
+  slug: open-mlflow-experiments-api
+- collection_type: open
+  name: MLflow Tracking REST Artifacts Metrics API
+  slug: open-mlflow-metrics-api
+- collection_type: open
+  name: MLflow Tracking REST Artifacts Model Versions API
+  slug: open-mlflow-model-versions-api
+- collection_type: open
+  name: MLflow Tracking REST Artifacts Registered Models API
+  slug: open-mlflow-registered-models-api
+- collection_type: open
+  name: MLflow Tracking REST Artifacts Runs API
+  slug: open-mlflow-runs-api
 - collection_type: open
   name: MLflow Tracking REST API
   slug: open-mlflow
@@ -161,7 +182,7 @@ plans:
 - name: Mlflow Plans Pricing
   plan_count: 1
   slug: mlflow-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Mlflow Rate Limits
@@ -186,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/screenshots/mlflow-2026-06-20T185626.png
 security:

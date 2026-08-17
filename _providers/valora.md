@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Divvi Hooks API (positions and shortcuts), served under /hooks-api
@@ -46,7 +46,26 @@ apis:
 - description: Transaction simulation
   name: Valora transactions API
   slug: valora-transactions-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Valora hooks API
+  slug: open-valora-hooks-api
+- collection_type: open
+  name: Valora hooks nfts API
+  slug: open-valora-nfts-api
+- collection_type: open
+  name: Valora hooks swaps API
+  slug: open-valora-swaps-api
+- collection_type: open
+  name: Valora hooks tokens API
+  slug: open-valora-tokens-api
+- collection_type: open
+  name: Valora hooks transactions API
+  slug: open-valora-transactions-api
 common:
 - group: auth
   title: ''
@@ -156,7 +175,7 @@ overview: 'Valora publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Valora''s developer surface includes engineering blog, support, documentation, sandbox, changelog, authentication, and 17 more developer resources.'
-random_paper: 45
+random_paper: 49
 score:
   band: thin
   composite: 30.1
@@ -185,7 +204,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

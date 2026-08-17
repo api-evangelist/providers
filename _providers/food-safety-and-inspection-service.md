@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: FSIS recall and public health alert records.
   name: Food Safety and Inspection Service Recalls API
   slug: food-safety-and-inspection-service-recalls-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FSIS Recall Recalls API
+  slug: open-food-safety-and-inspection-service-recalls-api
 - collection_type: open
   name: FSIS Recall API
   slug: open-fsis-recall
@@ -94,7 +100,7 @@ plans:
 - name: Food Safety And Inspection Service Plans Pricing
   plan_count: 3
   slug: food-safety-and-inspection-service-plans-pricing
-random_paper: 40
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Food Safety And Inspection Service Rate Limits
@@ -134,7 +140,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/food-safety-and-inspection-service/refs/heads/main/screenshots/food-safety-and-inspection-service-2026-06-20T181357.png
 security:

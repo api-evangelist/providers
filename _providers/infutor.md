@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Contact sales
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - authentication
+  - plans/infutor-plans-pricing.yml
+  - authentication/infutor-authentication.yml
   trial: false
   try_now: false
 agent_readiness:
@@ -18,18 +19,18 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-12'
-api_count: 2
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 5
 apis:
 - description: Real-time GET query to authenticate a LeadiD token against an account code, confirming lead capture provenance. Credentials are passed as query parameters (lac account code, id LeadiD token).
   name: InfutorData Authentication API
@@ -37,7 +38,16 @@ apis:
 - description: 'Real-time GET query (SingleQuery) returning a lead audit object with authentication status, data-integrity checks, device/IP/frequency metrics, TCPA compliance data, consumer scoring, and demographic '
   name: InfutorData Intelligence / Lead Audit API
   slug: infutordata-intelligence-lead-audit-api
-artifact_total: 4
+- description: 'The TCPA Guardian projection of the SingleQuery lead audit: given a LeadiD token minted by the Create campaign script, it returns whether a matching TCPA consent disclosure was present on the original'
+  name: InfutorData TCPA Guardian (3rd Party) API
+  slug: infutordata-tcpa-guardian-3rd-party-api
+- description: Real-time GET query (SinglePreAudit) that lets a publisher or lead seller test a lead against a named advertiser's default audit profile BEFORE selling it, returning the yellow and red flags that adve
+  name: InfutorData Pre-Audit API
+  slug: infutordata-pre-audit-api
+- description: 'The batch counterpart to the real-time LeadiD queries — a versioned REST surface on myJornaya for driving Activate audience instances: list the Activate instances on an account, retrieve a presigned u'
+  name: InfutorData Activate API
+  slug: infutordata-activate-api
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -95,40 +105,96 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/infutor-llms.txt
+- group: start
+  title: ''
+  type: Login
+  url: https://app.jornaya.com/login
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.infutor.com
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/infutor-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/infutor-error-codes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/infutor-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/infutor-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/infutor-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/infutor-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/infutor-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/infutor-conformance.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/infutor-mcp.yml
 created: '2026-07-17'
 description: InfutorData (part of ActiveProspect, formerly Infutor / Jornaya / LeadiD) is a consumer identity and data-solutions provider that helps marketers identify, understand, and reach consumers while maintaining privacy and compliance. Its platform delivers identity resolution and completion, identity scoring, consumer data enrichment and attributes, audience activation, and lead-quality and TCPA compliance tooling (TCPA Guardian, LeadiD tokens). Real-time query APIs on api.leadid.com support authentication, lead audit, intelligence, and privacy-guardian lookups, documented in the InfutorData help center. Backed by Norwest Venture Partners.
 image: https://infutor.com/wp-content/uploads/2026/04/ID_primary_logo.png
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: infutor-mcp.yml
+  slug: infutor-mcpyml
+modified: '2026-08-13'
 name: Infutor
 nav: Providers
 network: true
-overview: 'Infutor publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity Resolution, Consumer Data, Data Enrichment, and Lead Verification.
+overview: 'Infutor publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity Resolution, Consumer Data, Data Enrichment, and Lead Verification.
 
 
-  Infutor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 7 more developer resources.'
-random_paper: 55
+  Infutor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
+plans:
+- name: Infutor Plans Pricing
+  plan_count: 0
+  slug: infutor-plans-pricing
+random_paper: 30
+rate_limits:
+- limit_count: 1
+  name: Infutor Rate Limits
+  slug: infutor-rate-limits
 score:
-  band: emerging
-  composite: 23.6
-  delta: 0.0
+  band: thin
+  composite: 34.8
+  delta: 11.2
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
-    discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 67.4
+    discoverability: 81.5
+    governance: 12.5
+    operational_transparency: 36.8
   previous_composite: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/screenshots/infutor-2026-07-25T222430.png
 security:
 - kind: authentication
   name: Infutor Authentication
   slug: infutor-authentication
-  summary_line: apiKey/http · 3 schemes
+  summary_line: apiKey/http · 5 schemes
 - kind: domain-security
   name: Infutor Domain Security
   slug: infutor-domain-security

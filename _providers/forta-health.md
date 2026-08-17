@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 34
 apis:
 - description: The assessment_surveys API from Forta Health — 1 operation(s) for assessment_surveys.
@@ -123,7 +123,116 @@ apis:
 - description: The treatment_plan_statuses API from Forta Health — 1 operation(s) for treatment_plan_statuses.
   name: Forta Health Treatment Plan Statuses API
   slug: forta-health-treatment-plan-statuses-api
-artifact_total: 36
+artifact_total: 72
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast Assessment Surveys API
+  slug: open-forta-health-assessment-surveys-api
+- collection_type: open
+  name: Fast Behavior API
+  slug: open-forta-health-behavior-api
+- collection_type: open
+  name: Fast Bt Supervisions API
+  slug: open-forta-health-bt-supervisions-api
+- collection_type: open
+  name: Fast Claim Invoices API
+  slug: open-forta-health-claim-invoices-api
+- collection_type: open
+  name: Fast Claims API
+  slug: open-forta-health-claims-api
+- collection_type: open
+  name: Fast Client Assessments API
+  slug: open-forta-health-client-assessments-api
+- collection_type: open
+  name: Fast Client Cohort Assignments API
+  slug: open-forta-health-client-cohort-assignments-api
+- collection_type: open
+  name: Fast Client Facility Assignments API
+  slug: open-forta-health-client-facility-assignments-api
+- collection_type: open
+  name: Fast Client Supervisions API
+  slug: open-forta-health-client-supervisions-api
+- collection_type: open
+  name: Fast Clients API
+  slug: open-forta-health-clients-api
+- collection_type: open
+  name: Fast Cohorts API
+  slug: open-forta-health-cohorts-api
+- collection_type: open
+  name: Fast Email Cron Configs API
+  slug: open-forta-health-email-cron-configs-api
+- collection_type: open
+  name: Fast Evv API
+  slug: open-forta-health-evv-api
+- collection_type: open
+  name: Fast Facilities API
+  slug: open-forta-health-facilities-api
+- collection_type: open
+  name: Fast Feature Flags API
+  slug: open-forta-health-feature-flags-api
+- collection_type: open
+  name: Fast Field Templates API
+  slug: open-forta-health-field-templates-api
+- collection_type: open
+  name: Fast Group Parent Supervisions API
+  slug: open-forta-health-group-parent-supervisions-api
+- collection_type: open
+  name: Fast Health API
+  slug: open-forta-health-health-api
+- collection_type: open
+  name: Fast Intake Questionnaires API
+  slug: open-forta-health-intake-questionnaires-api
+- collection_type: open
+  name: Fast Metrics API
+  slug: open-forta-health-metrics-api
+- collection_type: open
+  name: Fast Onboarding Questionnaires API
+  slug: open-forta-health-onboarding-questionnaires-api
+- collection_type: open
+  name: Fast Parent Supervisions API
+  slug: open-forta-health-parent-supervisions-api
+- collection_type: open
+  name: Fast Payor API
+  slug: open-forta-health-payor-api
+- collection_type: open
+  name: Fast Payor Provider Credentials API
+  slug: open-forta-health-payor-provider-credentials-api
+- collection_type: open
+  name: FastAPI
+  slug: open-forta-health-platform
+- collection_type: open
+  name: Fast Policies API
+  slug: open-forta-health-policies-api
+- collection_type: open
+  name: Fast Provider Assignments API
+  slug: open-forta-health-provider-assignments-api
+- collection_type: open
+  name: Fast Provider Availability Records API
+  slug: open-forta-health-provider-availability-records-api
+- collection_type: open
+  name: Fast Providers API
+  slug: open-forta-health-providers-api
+- collection_type: open
+  name: Fast Service Codes API
+  slug: open-forta-health-service-codes-api
+- collection_type: open
+  name: Fast Sessions API
+  slug: open-forta-health-sessions-api
+- collection_type: open
+  name: Fast Stripe API
+  slug: open-forta-health-stripe-api
+- collection_type: open
+  name: Fast Timesheets API
+  slug: open-forta-health-timesheets-api
+- collection_type: open
+  name: Fast Treatment Plan API
+  slug: open-forta-health-treatment-plan-api
+- collection_type: open
+  name: Fast Treatment Plan Statuses API
+  slug: open-forta-health-treatment-plan-statuses-api
 common:
 - group: other
   title: ''
@@ -214,7 +323,7 @@ overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) net
 
 
   Forta Health''s developer surface includes signup flow, support, engineering blog, and 16 more developer resources.'
-random_paper: 15
+random_paper: 23
 score:
   band: thin
   composite: 32.9
@@ -242,7 +351,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png
 security:

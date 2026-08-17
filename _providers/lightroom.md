@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -75,7 +75,7 @@ apis:
 - description: Read and write external develop XMP sidecar files
   name: Adobe Lightroom XMP API
   slug: lightroom-xmp-api
-artifact_total: 166
+artifact_total: 179
 collections:
 - collection_type: postman
   name: Adobe Lightroom Lightroom Albums Album Assets API
@@ -114,20 +114,59 @@ collections:
   name: Adobe Lightroom Lightroom Albums Album Assets XMP API
   slug: postman-lightroom-xmp-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets API
+  slug: open-lightroom-album-assets-api
+- collection_type: open
+  name: Adobe Lightroom Lightroom Album Assets Albums API
+  slug: open-lightroom-albums-api
+- collection_type: open
   name: Adobe Lightroom Lightroom Albums API
   slug: open-lightroom-albums
+- collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets API
+  slug: open-lightroom-assets-api
 - collection_type: open
   name: Adobe Lightroom Lightroom Assets API
   slug: open-lightroom-assets
 - collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets Auto Straighten API
+  slug: open-lightroom-auto-straighten-api
+- collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets Auto Tone API
+  slug: open-lightroom-auto-tone-api
+- collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets Catalog API
+  slug: open-lightroom-catalog-api
+- collection_type: open
   name: Adobe Lightroom Lightroom Catalog API
   slug: open-lightroom-catalog
+- collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets Edit Image API
+  slug: open-lightroom-edit-image-api
 - collection_type: open
   name: Adobe Lightroom API (Firefly Services)
   slug: open-lightroom-firefly-services
 - collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets Health API
+  slug: open-lightroom-health-api
+- collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets Master API
+  slug: open-lightroom-master-api
+- collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets Presets API
+  slug: open-lightroom-presets-api
+- collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets Renditions API
+  slug: open-lightroom-renditions-api
+- collection_type: open
   name: Adobe Lightroom Lightroom Services API
   slug: open-lightroom-services
+- collection_type: open
+  name: Adobe Lightroom Lightroom Albums Album Assets XMP API
+  slug: open-lightroom-xmp-api
 common:
 - group: build
   title: ''
@@ -615,7 +654,7 @@ plans:
 - name: Lightroom Plans Pricing
   plan_count: 3
   slug: lightroom-plans-pricing
-random_paper: 21
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Lightroom Rate Limits
@@ -662,7 +701,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/screenshots/lightroom-2026-06-20T184522.png
 security:

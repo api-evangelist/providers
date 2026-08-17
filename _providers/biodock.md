@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Submitting, tracking, and downloading analysis jobs
@@ -43,7 +43,23 @@ apis:
 - description: Listing published analysis pipelines
   name: Biodock Pipelines API
   slug: biodock-pipelines-api
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Biodock Public Analysis Jobs API
+  slug: open-biodock-analysis-jobs-api
+- collection_type: open
+  name: Biodock Public Analysis Jobs Auth API
+  slug: open-biodock-auth-api
+- collection_type: open
+  name: Biodock Public Analysis Jobs Files API
+  slug: open-biodock-files-api
+- collection_type: open
+  name: Biodock Public Analysis Jobs Pipelines API
+  slug: open-biodock-pipelines-api
 common:
 - group: agent
   title: ''
@@ -141,7 +157,7 @@ overview: 'Biodock publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 16 more developer resources.'
-random_paper: 11
+random_paper: 135
 score:
   band: developing
   composite: 43.3
@@ -170,7 +186,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/screenshots/biodock-2026-07-25T203036.png
 security:

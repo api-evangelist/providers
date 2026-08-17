@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,11 +45,21 @@ apis:
 - description: The Integration API from Atrato — 6 operation(s) for integration.
   name: Atrato Integration API
   slug: atrato-integration-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Atrato Webhooks
   slug: atrato-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Atrato Partners Ecommerce API
+  slug: open-atrato-ecommerce-api
+- collection_type: open
+  name: Atrato Partners Ecommerce Integration API
+  slug: open-atrato-integration-api
 common:
 - group: company
   title: ''
@@ -182,7 +192,7 @@ overview: 'Atrato publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Atrato''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 21 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: developing
   composite: 44.6
@@ -212,7 +222,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/screenshots/atrato-2026-07-25T201622.png
 security:

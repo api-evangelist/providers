@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'A live, first-party, anonymously discoverable Model Context Protocol server implementing the Shopify Universal Commerce Protocol shopping service for the CURE storefront. Thirteen tools cover catalog '
@@ -186,7 +186,7 @@ plans:
 - name: Cure Hydration Plans Pricing
   plan_count: 0
   slug: cure-hydration-plans-pricing
-random_paper: 14
+random_paper: 113
 rate_limits:
 - limit_count: 0
   name: Cure Hydration Rate Limits
@@ -199,6 +199,7 @@ scopes:
 score:
   band: developing
   composite: 43.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 48.1
@@ -206,6 +207,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 43.9
   regulatory:
     applies: true
     matched_via: tags
@@ -213,7 +215,8 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Cure Hydration Authentication

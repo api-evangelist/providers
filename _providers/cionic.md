@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The collections service of the CIONIC research platform. Path-versioned REST endpoints under /c/v{version}/{org}/ covering studies, protocols and protocol versions, collections and their files, stream
@@ -141,7 +141,7 @@ overview: 'CIONIC publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   CIONIC''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, authentication, and 18 more developer resources.'
-random_paper: 29
+random_paper: 33
 score:
   band: thin
   composite: 32.0
@@ -163,7 +163,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

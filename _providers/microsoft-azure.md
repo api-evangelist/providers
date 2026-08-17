@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -5084,7 +5084,7 @@ arazzos:
 - description: Read a resource group, apply new tags with a patch, and confirm the tags were written.
   name: Microsoft Azure Tag an Existing Resource Group
   slug: microsoft-azure-tag-resource-group-workflow
-artifact_total: 2941
+artifact_total: 4562
 collections:
 - collection_type: postman
   name: Microsoft Azure AccessControlClient
@@ -6296,6 +6296,9 @@ collections:
   name: Microsoft Azure Workloads Client
   slug: postman-workloads-client-openapi-original
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Microsoft Azure Azure Blob Storage API
   slug: open-azure-blob-storage
 - collection_type: open
@@ -6319,6 +6322,4866 @@ collections:
 - collection_type: open
   name: Microsoft Azure Azure Resource Manager API
   slug: open-azure-resource-manager
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector API
+  slug: open-microsoft-azure-accessconnector-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AccessControlRecords API
+  slug: open-microsoft-azure-accesscontrolrecords-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AccessPolicies API
+  slug: open-microsoft-azure-accesspolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AccessToken API
+  slug: open-microsoft-azure-accesstoken-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Account API
+  slug: open-microsoft-azure-account-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Account Operations API
+  slug: open-microsoft-azure-account-operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AccountQuotas API
+  slug: open-microsoft-azure-accountquotas-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Accounts API
+  slug: open-microsoft-azure-accounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Acr API
+  slug: open-microsoft-azure-acr-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AcrManifest API
+  slug: open-microsoft-azure-acrmanifest-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AcrMetadata API
+  slug: open-microsoft-azure-acrmetadata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AcrRepository API
+  slug: open-microsoft-azure-acrrepository-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AcrTag API
+  slug: open-microsoft-azure-acrtag-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AcrToken API
+  slug: open-microsoft-azure-acrtoken-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Actions API
+  slug: open-microsoft-azure-actions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ActiveSessionHostConfiguration API
+  slug: open-microsoft-azure-activesessionhostconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AddonDetails API
+  slug: open-microsoft-azure-addondetails-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Addons API
+  slug: open-microsoft-azure-addons-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AddonStatus API
+  slug: open-microsoft-azure-addonstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Addresses API
+  slug: open-microsoft-azure-addresses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Adds API
+  slug: open-microsoft-azure-adds-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Admin API
+  slug: open-microsoft-azure-admin-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AdminKeys API
+  slug: open-microsoft-azure-adminkeys-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AdminRuleCollections API
+  slug: open-microsoft-azure-adminrulecollections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AdminRules API
+  slug: open-microsoft-azure-adminrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Advisors API
+  slug: open-microsoft-azure-advisors-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Agent Pools API
+  slug: open-microsoft-azure-agent-pools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Agents API
+  slug: open-microsoft-azure-agents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AggregatedCost API
+  slug: open-microsoft-azure-aggregatedcost-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Agreements API
+  slug: open-microsoft-azure-agreements-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AKSAssessmentOperations API
+  slug: open-microsoft-azure-aksassessmentoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AKSClusterOperations API
+  slug: open-microsoft-azure-aksclusteroperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AKSCostDetailOperations API
+  slug: open-microsoft-azure-akscostdetailoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AKSOptionsOperations API
+  slug: open-microsoft-azure-aksoptionsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AKSSummaryOperations API
+  slug: open-microsoft-azure-akssummaryoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Alerts API
+  slug: open-microsoft-azure-alerts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Aliases API
+  slug: open-microsoft-azure-aliases-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Alterations API
+  slug: open-microsoft-azure-alterations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AmfDeployments API
+  slug: open-microsoft-azure-amfdeployments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector amlFilesystems API
+  slug: open-microsoft-azure-amlfilesystems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Analyze API
+  slug: open-microsoft-azure-analyze-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector :Analyze Conversations API
+  slug: open-microsoft-azure-analyze-conversations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector :Analyze Text API
+  slug: open-microsoft-azure-analyze-text-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AnomalyAlerting API
+  slug: open-microsoft-azure-anomalyalerting-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AnomalyDetection API
+  slug: open-microsoft-azure-anomalydetection-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApiKey API
+  slug: open-microsoft-azure-apikey-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApiOperation API
+  slug: open-microsoft-azure-apioperation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApiOperationPolicy API
+  slug: open-microsoft-azure-apioperationpolicy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApiPolicy API
+  slug: open-microsoft-azure-apipolicy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApiRelease API
+  slug: open-microsoft-azure-apirelease-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApiRevision API
+  slug: open-microsoft-azure-apirevision-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Apis API
+  slug: open-microsoft-azure-apis-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApiSchema API
+  slug: open-microsoft-azure-apischema-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector apiTokens API
+  slug: open-microsoft-azure-apitokens-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApiVersionSet API
+  slug: open-microsoft-azure-apiversionset-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApiVersionSets API
+  slug: open-microsoft-azure-apiversionsets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector App API
+  slug: open-microsoft-azure-app-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AppAttachPackage API
+  slug: open-microsoft-azure-appattachpackage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AppAttachPackageInfo API
+  slug: open-microsoft-azure-appattachpackageinfo-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AppComplianceAutomation API
+  slug: open-microsoft-azure-appcomplianceautomation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AppComponent API
+  slug: open-microsoft-azure-appcomponent-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplianceDefinitions API
+  slug: open-microsoft-azure-appliancedefinitions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Appliances API
+  slug: open-microsoft-azure-appliances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Application API
+  slug: open-microsoft-azure-application-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationData API
+  slug: open-microsoft-azure-applicationdata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationDefinitions API
+  slug: open-microsoft-azure-applicationdefinitions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationGateways API
+  slug: open-microsoft-azure-applicationgateways-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationGroup API
+  slug: open-microsoft-azure-applicationgroup-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationKeyCredentials API
+  slug: open-microsoft-azure-applicationkeycredentials-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationOwners API
+  slug: open-microsoft-azure-applicationowners-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationPackage API
+  slug: open-microsoft-azure-applicationpackage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationPasswordCredentials API
+  slug: open-microsoft-azure-applicationpasswordcredentials-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationResources API
+  slug: open-microsoft-azure-applicationresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Applications API
+  slug: open-microsoft-azure-applications-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplicationType API
+  slug: open-microsoft-azure-applicationtype-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplyUpdate API
+  slug: open-microsoft-azure-applyupdate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ApplyUpdates API
+  slug: open-microsoft-azure-applyupdates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AppPlatform API
+  slug: open-microsoft-azure-appplatform-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Apps API
+  slug: open-microsoft-azure-apps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AppServiceCertificateOrders API
+  slug: open-microsoft-azure-appservicecertificateorders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AppServiceEnvironments API
+  slug: open-microsoft-azure-appserviceenvironments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AppServicePlans API
+  slug: open-microsoft-azure-appserviceplans-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ArmTemplates API
+  slug: open-microsoft-azure-armtemplates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Artifact API
+  slug: open-microsoft-azure-artifact-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Artifacts API
+  slug: open-microsoft-azure-artifacts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ArtifactSources API
+  slug: open-microsoft-azure-artifactsources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AscOperations API
+  slug: open-microsoft-azure-ascoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AscUsages API
+  slug: open-microsoft-azure-ascusages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessedMachinesOperations API
+  slug: open-microsoft-azure-assessedmachinesoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessedSqlDatabaseV2Operations API
+  slug: open-microsoft-azure-assessedsqldatabasev2operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessedSqlInstanceV2Operations API
+  slug: open-microsoft-azure-assessedsqlinstancev2operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessedSqlMachinesOperations API
+  slug: open-microsoft-azure-assessedsqlmachinesoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessedSqlRecommendedEntityOperations API
+  slug: open-microsoft-azure-assessedsqlrecommendedentityoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessedWebApplicationOperations API
+  slug: open-microsoft-azure-assessedwebapplicationoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessedWebAppV2Operations API
+  slug: open-microsoft-azure-assessedwebappv2operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessmentOptionsOperations API
+  slug: open-microsoft-azure-assessmentoptionsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessmentProjectsOperations API
+  slug: open-microsoft-azure-assessmentprojectsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessmentProjectSummaryOperations API
+  slug: open-microsoft-azure-assessmentprojectsummaryoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssessmentsOperations API
+  slug: open-microsoft-azure-assessmentsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Asset API
+  slug: open-microsoft-azure-asset-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssetEndpointProfiles API
+  slug: open-microsoft-azure-assetendpointprofiles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Assets API
+  slug: open-microsoft-azure-assets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Assistant API
+  slug: open-microsoft-azure-assistant-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Assistants API
+  slug: open-microsoft-azure-assistants-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Associations API
+  slug: open-microsoft-azure-associations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AssociationsInterface API
+  slug: open-microsoft-azure-associationsinterface-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector asyncOperations API
+  slug: open-microsoft-azure-asyncoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Atlas API
+  slug: open-microsoft-azure-atlas-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Attachments API
+  slug: open-microsoft-azure-attachments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Attestation API
+  slug: open-microsoft-azure-attestation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AttestationProviders API
+  slug: open-microsoft-azure-attestationproviders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Attested API
+  slug: open-microsoft-azure-attested-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Audio API
+  slug: open-microsoft-azure-audio-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Audit API
+  slug: open-microsoft-azure-audit-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Authoring API
+  slug: open-microsoft-azure-authoring-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AuthorizationPolicies API
+  slug: open-microsoft-azure-authorizationpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Authorizations API
+  slug: open-microsoft-azure-authorizations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AutoQuotaIncrease API
+  slug: open-microsoft-azure-autoquotaincrease-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AutoSuggest API
+  slug: open-microsoft-azure-autosuggest-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AvailabilityGroupListeners API
+  slug: open-microsoft-azure-availabilitygrouplisteners-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AvailabilitySets API
+  slug: open-microsoft-azure-availabilitysets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AvailabilityStatuses API
+  slug: open-microsoft-azure-availabilitystatuses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AvailabilityUsages API
+  slug: open-microsoft-azure-availabilityusages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AvailableProviderOperations API
+  slug: open-microsoft-azure-availableprovideroperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AvailableSkus API
+  slug: open-microsoft-azure-availableskus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AvsAssessedMachinesOperations API
+  slug: open-microsoft-azure-avsassessedmachinesoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AvsAssessmentOptionsOperations API
+  slug: open-microsoft-azure-avsassessmentoptionsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AvsAssessmentsOperations API
+  slug: open-microsoft-azure-avsassessmentsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Azureaccounts API
+  slug: open-microsoft-azure-azureaccounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AzureBackupJob API
+  slug: open-microsoft-azure-azurebackupjob-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AzureBackupJobs API
+  slug: open-microsoft-azure-azurebackupjobs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AzureBareMetal API
+  slug: open-microsoft-azure-azurebaremetal-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AzureDataCatalog API
+  slug: open-microsoft-azure-azuredatacatalog-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AzureKeyVaults API
+  slug: open-microsoft-azure-azurekeyvaults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AzureLargeInstances API
+  slug: open-microsoft-azure-azurelargeinstances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AzureLargeStorageInstances API
+  slug: open-microsoft-azure-azurelargestorageinstances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector AzureTrafficCollectors API
+  slug: open-microsoft-azure-azuretrafficcollectors-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector B2CTenants API
+  slug: open-microsoft-azure-b2ctenants-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Backup Policy API
+  slug: open-microsoft-azure-backup-policy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Backup Restore API
+  slug: open-microsoft-azure-backup-restore-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Backup Vaults API
+  slug: open-microsoft-azure-backup-vaults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupEngines API
+  slug: open-microsoft-azure-backupengines-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupInstances API
+  slug: open-microsoft-azure-backupinstances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupInstancesExtensionRouting API
+  slug: open-microsoft-azure-backupinstancesextensionrouting-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupJobs API
+  slug: open-microsoft-azure-backupjobs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupOperationResults API
+  slug: open-microsoft-azure-backupoperationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupOperationStatuses API
+  slug: open-microsoft-azure-backupoperationstatuses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupPolicies API
+  slug: open-microsoft-azure-backuppolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupProtectableItems API
+  slug: open-microsoft-azure-backupprotectableitems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupProtectedItems API
+  slug: open-microsoft-azure-backupprotecteditems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupProtectionContainers API
+  slug: open-microsoft-azure-backupprotectioncontainers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupProtectionIntent API
+  slug: open-microsoft-azure-backupprotectionintent-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupResourceEncryptionConfigs API
+  slug: open-microsoft-azure-backupresourceencryptionconfigs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupResourceStorageConfigsNonCRR API
+  slug: open-microsoft-azure-backupresourcestorageconfigsnoncrr-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupResourceVaultConfigs API
+  slug: open-microsoft-azure-backupresourcevaultconfigs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupRestore API
+  slug: open-microsoft-azure-backuprestore-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Backups API
+  slug: open-microsoft-azure-backups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupScheduleGroups API
+  slug: open-microsoft-azure-backupschedulegroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupSchedules API
+  slug: open-microsoft-azure-backupschedules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupStatus API
+  slug: open-microsoft-azure-backupstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupUsageSummaries API
+  slug: open-microsoft-azure-backupusagesummaries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupVaults API
+  slug: open-microsoft-azure-backupvaults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BackupWorkloadItems API
+  slug: open-microsoft-azure-backupworkloaditems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Balances API
+  slug: open-microsoft-azure-balances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BandwidthSchedules API
+  slug: open-microsoft-azure-bandwidthschedules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BandwidthSettings API
+  slug: open-microsoft-azure-bandwidthsettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BareMetalInfrastructure API
+  slug: open-microsoft-azure-baremetalinfrastructure-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BaseModel API
+  slug: open-microsoft-azure-basemodel-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector $Batch API
+  slug: open-microsoft-azure-batch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BatchAccount API
+  slug: open-microsoft-azure-batchaccount-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BatchNumbers API
+  slug: open-microsoft-azure-batchnumbers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BatchSynthesis API
+  slug: open-microsoft-azure-batchsynthesis-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Benefits Operations API
+  slug: open-microsoft-azure-benefits-operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BestPractices API
+  slug: open-microsoft-azure-bestpractices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BestPracticesVersions API
+  slug: open-microsoft-azure-bestpracticesversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BgpPeers API
+  slug: open-microsoft-azure-bgppeers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BicepClient API
+  slug: open-microsoft-azure-bicepclient-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BillingPeriods API
+  slug: open-microsoft-azure-billingperiods-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Blobs API
+  slug: open-microsoft-azure-blobs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BlockchainMember API
+  slug: open-microsoft-azure-blockchainmember-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BlockchainMemberOperationResult API
+  slug: open-microsoft-azure-blockchainmemberoperationresult-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Blueprint API
+  slug: open-microsoft-azure-blueprint-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BMSPrepareDataMoveOperationResult API
+  slug: open-microsoft-azure-bmspreparedatamoveoperationresult-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Bot API
+  slug: open-microsoft-azure-bot-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BotConnection API
+  slug: open-microsoft-azure-botconnection-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BotHostSettings API
+  slug: open-microsoft-azure-bothostsettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Boundaries API
+  slug: open-microsoft-azure-boundaries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Breaksentence API
+  slug: open-microsoft-azure-breaksentence-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Broker API
+  slug: open-microsoft-azure-broker-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BrokerAuthentication API
+  slug: open-microsoft-azure-brokerauthentication-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BrokerAuthorization API
+  slug: open-microsoft-azure-brokerauthorization-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BrokerListener API
+  slug: open-microsoft-azure-brokerlistener-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Budgets API
+  slug: open-microsoft-azure-budgets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BusinessCaseAvsSummaryOperations API
+  slug: open-microsoft-azure-businesscaseavssummaryoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BusinessCaseIaasSummaryOperations API
+  slug: open-microsoft-azure-businesscaseiaassummaryoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BusinessCaseOperations API
+  slug: open-microsoft-azure-businesscaseoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BusinessCaseOverviewSummaryOperations API
+  slug: open-microsoft-azure-businesscaseoverviewsummaryoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BusinessCasePaasSummaryOperations API
+  slug: open-microsoft-azure-businesscasepaassummaryoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BusinessProcesses API
+  slug: open-microsoft-azure-businessprocesses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector BusinessProcessVersions API
+  slug: open-microsoft-azure-businessprocessversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Caches API
+  slug: open-microsoft-azure-caches-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CallConnection API
+  slug: open-microsoft-azure-callconnection-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Capabilities API
+  slug: open-microsoft-azure-capabilities-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Capacities API
+  slug: open-microsoft-azure-capacities-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Capacity Pools API
+  slug: open-microsoft-azure-capacity-pools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Catalog API
+  slug: open-microsoft-azure-catalog-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Catalogs API
+  slug: open-microsoft-azure-catalogs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Certificate API
+  slug: open-microsoft-azure-certificate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CertificateObjectGlobalRulestack API
+  slug: open-microsoft-azure-certificateobjectglobalrulestack-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CertificateObjectLocalRulestack API
+  slug: open-microsoft-azure-certificateobjectlocalrulestack-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CertificateOrders API
+  slug: open-microsoft-azure-certificateorders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CertificateOrdersDiagnostics API
+  slug: open-microsoft-azure-certificateordersdiagnostics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CertificateProfiles API
+  slug: open-microsoft-azure-certificateprofiles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CertificateRegistrationProvider API
+  slug: open-microsoft-azure-certificateregistrationprovider-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Certificates API
+  slug: open-microsoft-azure-certificates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector certificates(thumbprintAlgorithm={thumbprintAlgorithm},thumbprint={thumbprint}) API
+  slug: open-microsoft-azure-certificates-thumbprintalgorithm-thumbprintalgorithm-thumbprint-thumbprint-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Change Detection API
+  slug: open-microsoft-azure-change-detection-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Changes API
+  slug: open-microsoft-azure-changes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ChangeSnapshots API
+  slug: open-microsoft-azure-changesnapshots-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Channel API
+  slug: open-microsoft-azure-channel-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Channels API
+  slug: open-microsoft-azure-channels-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Chaos API
+  slug: open-microsoft-azure-chaos-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ChapSettings API
+  slug: open-microsoft-azure-chapsettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Charges API
+  slug: open-microsoft-azure-charges-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Chat Completions API
+  slug: open-microsoft-azure-chat-completions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ChatTranscripts API
+  slug: open-microsoft-azure-chattranscripts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CheckDeviceServiceNameAvailability API
+  slug: open-microsoft-azure-checkdeviceservicenameavailability-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CheckFrontDoorNameAvailability API
+  slug: open-microsoft-azure-checkfrontdoornameavailability-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CheckFrontDoorNameAvailabilityWithSubscription API
+  slug: open-microsoft-azure-checkfrontdoornameavailabilitywithsubscription-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CheckNameAvailability API
+  slug: open-microsoft-azure-checknameavailability-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CheckNameAvailabilityWithSubscription API
+  slug: open-microsoft-azure-checknameavailabilitywithsubscription-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CheckResourceUsage API
+  slug: open-microsoft-azure-checkresourceusage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CheckServiceProviderAvailability API
+  slug: open-microsoft-azure-checkserviceprovideravailability-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CheckVirtualNetworkSubnetUsage API
+  slug: open-microsoft-azure-checkvirtualnetworksubnetusage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ChemicalProducts API
+  slug: open-microsoft-azure-chemicalproducts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ChildAvailabilityStatuses API
+  slug: open-microsoft-azure-childavailabilitystatuses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ChildResources API
+  slug: open-microsoft-azure-childresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CIAMTenants API
+  slug: open-microsoft-azure-ciamtenants-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ClassicMobileServices API
+  slug: open-microsoft-azure-classicmobileservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ClassificationRules API
+  slug: open-microsoft-azure-classificationrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Client Groups API
+  slug: open-microsoft-azure-client-groups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CloudAppliances API
+  slug: open-microsoft-azure-cloudappliances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CloudConnections API
+  slug: open-microsoft-azure-cloudconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CloudConnectors API
+  slug: open-microsoft-azure-cloudconnectors-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CloudEndpoint Resource API
+  slug: open-microsoft-azure-cloudendpoint-resource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Clouds API
+  slug: open-microsoft-azure-clouds-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CloudServiceOperatingSystems API
+  slug: open-microsoft-azure-cloudserviceoperatingsystems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CloudServiceRoleInstances API
+  slug: open-microsoft-azure-cloudserviceroleinstances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CloudServiceRoles API
+  slug: open-microsoft-azure-cloudserviceroles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CloudServices API
+  slug: open-microsoft-azure-cloudservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CloudServicesUpdateDomain API
+  slug: open-microsoft-azure-cloudservicesupdatedomain-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Cluster API
+  slug: open-microsoft-azure-cluster-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ClusterExtensions API
+  slug: open-microsoft-azure-clusterextensions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ClusterExtensionTypes API
+  slug: open-microsoft-azure-clusterextensiontypes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ClusterOperations API
+  slug: open-microsoft-azure-clusteroperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Clusters API
+  slug: open-microsoft-azure-clusters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ClusterServices API
+  slug: open-microsoft-azure-clusterservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Code Package API
+  slug: open-microsoft-azure-code-package-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Codesigningaccounts API
+  slug: open-microsoft-azure-codesigningaccounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CognitiveServicesAccounts API
+  slug: open-microsoft-azure-cognitiveservicesaccounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Collection API
+  slug: open-microsoft-azure-collection-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CollectorPolicies API
+  slug: open-microsoft-azure-collectorpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Commerce API
+  slug: open-microsoft-azure-commerce-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CommitmentAssociations API
+  slug: open-microsoft-azure-commitmentassociations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CommitmentPlans API
+  slug: open-microsoft-azure-commitmentplans-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Communications API
+  slug: open-microsoft-azure-communications-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CommunicationsGateways API
+  slug: open-microsoft-azure-communicationsgateways-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CommunityGalleries API
+  slug: open-microsoft-azure-communitygalleries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CommunityGalleryImages API
+  slug: open-microsoft-azure-communitygalleryimages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CommunityGalleryImageVersions API
+  slug: open-microsoft-azure-communitygalleryimageversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CommunityTrainings API
+  slug: open-microsoft-azure-communitytrainings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Completions API
+  slug: open-microsoft-azure-completions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Compose Deployment API
+  slug: open-microsoft-azure-compose-deployment-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ComputeNodes API
+  slug: open-microsoft-azure-computenodes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ComputePolicies API
+  slug: open-microsoft-azure-computepolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Configuration API
+  slug: open-microsoft-azure-configuration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConfigurationAssignments API
+  slug: open-microsoft-azure-configurationassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConfigurationNames API
+  slug: open-microsoft-azure-configurationnames-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConfigurationProfileAssignments API
+  slug: open-microsoft-azure-configurationprofileassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConfigurationProfileHCIAssignments API
+  slug: open-microsoft-azure-configurationprofilehciassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConfigurationProfileHCRPAssignments API
+  slug: open-microsoft-azure-configurationprofilehcrpassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConfigurationProfiles API
+  slug: open-microsoft-azure-configurationprofiles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConfigurationProfilesVersions API
+  slug: open-microsoft-azure-configurationprofilesversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Configurations API
+  slug: open-microsoft-azure-configurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConfigurationStores API
+  slug: open-microsoft-azure-configurationstores-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConnectedResources API
+  slug: open-microsoft-azure-connectedresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Connection Gateways API
+  slug: open-microsoft-azure-connection-gateways-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConnectionPolicies API
+  slug: open-microsoft-azure-connectionpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Connections API
+  slug: open-microsoft-azure-connections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConnectivityConfigurations API
+  slug: open-microsoft-azure-connectivityconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Connector API
+  slug: open-microsoft-azure-connector-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConnectorMappings API
+  slug: open-microsoft-azure-connectormappings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Connectors API
+  slug: open-microsoft-azure-connectors-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Consent API
+  slug: open-microsoft-azure-consent-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ConsumerInvitation API
+  slug: open-microsoft-azure-consumerinvitation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ContactAssignment API
+  slug: open-microsoft-azure-contactassignment-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ContactGroupDefinition API
+  slug: open-microsoft-azure-contactgroupdefinition-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Contacts API
+  slug: open-microsoft-azure-contacts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ContainerApps API
+  slug: open-microsoft-azure-containerapps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ContainerAppsRevisions API
+  slug: open-microsoft-azure-containerappsrevisions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ContainerHostMappings API
+  slug: open-microsoft-azure-containerhostmappings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ContainerLogs API
+  slug: open-microsoft-azure-containerlogs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ContainerRegistrySetupStart API
+  slug: open-microsoft-azure-containerregistrysetupstart-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ContainerRegistrySetupStatus API
+  slug: open-microsoft-azure-containerregistrysetupstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Containers API
+  slug: open-microsoft-azure-containers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ContainerServiceQuotas API
+  slug: open-microsoft-azure-containerservicequotas-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Content_Recording API
+  slug: open-microsoft-azure-content-recording-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Controllers API
+  slug: open-microsoft-azure-controllers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Conversion API
+  slug: open-microsoft-azure-conversion-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Conversions API
+  slug: open-microsoft-azure-conversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Costs API
+  slug: open-microsoft-azure-costs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CreateApiKey API
+  slug: open-microsoft-azure-createapikey-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Creators API
+  slug: open-microsoft-azure-creators-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Credential API
+  slug: open-microsoft-azure-credential-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CropProducts API
+  slug: open-microsoft-azure-cropproducts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Crops API
+  slug: open-microsoft-azure-crops-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Custom API
+  slug: open-microsoft-azure-custom-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Custom APIs API
+  slug: open-microsoft-azure-custom-apis-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Custom Speech Accuracy Tests: API'
+  slug: open-microsoft-azure-custom-speech-accuracy-tests-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Custom Speech Datasets for Model Adaptation: API'
+  slug: open-microsoft-azure-custom-speech-datasets-for-model-adaptation-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Custom Speech Endpoints: API'
+  slug: open-microsoft-azure-custom-speech-endpoints-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Custom Speech Model Evaluations: API'
+  slug: open-microsoft-azure-custom-speech-model-evaluations-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Custom Speech Models: API'
+  slug: open-microsoft-azure-custom-speech-models-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Custom Speech Operations: API'
+  slug: open-microsoft-azure-custom-speech-operations-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Custom Speech Projects: API'
+  slug: open-microsoft-azure-custom-speech-projects-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Custom Speech Transcriptions: API'
+  slug: open-microsoft-azure-custom-speech-transcriptions-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Custom Speech Web Hooks: API'
+  slug: open-microsoft-azure-custom-speech-web-hooks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CustomDomains API
+  slug: open-microsoft-azure-customdomains-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CustomImages API
+  slug: open-microsoft-azure-customimages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CustomImageSearch API
+  slug: open-microsoft-azure-customimagesearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector customizationPolicies API
+  slug: open-microsoft-azure-customizationpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector customLocations API
+  slug: open-microsoft-azure-customlocations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CustomResourceProvider API
+  slug: open-microsoft-azure-customresourceprovider-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CustomRollouts API
+  slug: open-microsoft-azure-customrollouts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector CustomSearch API
+  slug: open-microsoft-azure-customsearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Dashboards API
+  slug: open-microsoft-azure-dashboards-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Data Collection Rules API
+  slug: open-microsoft-azure-data-collection-rules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Data Connections API
+  slug: open-microsoft-azure-data-connections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DatabaseBackup API
+  slug: open-microsoft-azure-databasebackup-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DatabaseInstances API
+  slug: open-microsoft-azure-databaseinstances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DatabaseInstancesController API
+  slug: open-microsoft-azure-databaseinstancescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DatabaseMigrations API
+  slug: open-microsoft-azure-databasemigrations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DatabaseReplicationLinks API
+  slug: open-microsoft-azure-databasereplicationlinks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Databases API
+  slug: open-microsoft-azure-databases-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DatabasesController API
+  slug: open-microsoft-azure-databasescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataCollectionEndpoints API
+  slug: open-microsoft-azure-datacollectionendpoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataCollectionRuleAssociations API
+  slug: open-microsoft-azure-datacollectionruleassociations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataCollectionRules API
+  slug: open-microsoft-azure-datacollectionrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataConnectors API
+  slug: open-microsoft-azure-dataconnectors-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector dataExport API
+  slug: open-microsoft-azure-dataexport-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataFeed API
+  slug: open-microsoft-azure-datafeed-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataLakeConnector API
+  slug: open-microsoft-azure-datalakeconnector-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataLakeConnectorTopicMap API
+  slug: open-microsoft-azure-datalakeconnectortopicmap-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataLakeStoreAccounts API
+  slug: open-microsoft-azure-datalakestoreaccounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataManagerForAgricultureExtensions API
+  slug: open-microsoft-azure-datamanagerforagricultureextensions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataManagerForAgricultureResources API
+  slug: open-microsoft-azure-datamanagerforagricultureresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataManagers API
+  slug: open-microsoft-azure-datamanagers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataMaskingPolicies API
+  slug: open-microsoft-azure-datamaskingpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataMaskingRules API
+  slug: open-microsoft-azure-datamaskingrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataMove API
+  slug: open-microsoft-azure-datamove-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataPools API
+  slug: open-microsoft-azure-datapools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataProducts API
+  slug: open-microsoft-azure-dataproducts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataProductsCatalogs API
+  slug: open-microsoft-azure-dataproductscatalogs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector dataRegistries API
+  slug: open-microsoft-azure-dataregistries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataServices API
+  slug: open-microsoft-azure-dataservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataSet API
+  slug: open-microsoft-azure-dataset-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataSetMapping API
+  slug: open-microsoft-azure-datasetmapping-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DatasetRecords API
+  slug: open-microsoft-azure-datasetrecords-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Datasets API
+  slug: open-microsoft-azure-datasets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DatasourcePreferences API
+  slug: open-microsoft-azure-datasourcepreferences-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataSources API
+  slug: open-microsoft-azure-datasources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataStore API
+  slug: open-microsoft-azure-datastore-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataStoreDefault API
+  slug: open-microsoft-azure-datastoredefault-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Datastores API
+  slug: open-microsoft-azure-datastores-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataStoreTypes API
+  slug: open-microsoft-azure-datastoretypes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DataTypes API
+  slug: open-microsoft-azure-datatypes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DedicatedCloudNodes API
+  slug: open-microsoft-azure-dedicatedcloudnodes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DedicatedCloudServices API
+  slug: open-microsoft-azure-dedicatedcloudservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DedicatedHsmOperations API
+  slug: open-microsoft-azure-dedicatedhsmoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DedicatedHsms API
+  slug: open-microsoft-azure-dedicatedhsms-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DefaultAccount API
+  slug: open-microsoft-azure-defaultaccount-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DefaultRollouts API
+  slug: open-microsoft-azure-defaultrollouts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DELETE API
+  slug: open-microsoft-azure-delete-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector deletedApplications API
+  slug: open-microsoft-azure-deletedapplications-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeletedBackupInstances API
+  slug: open-microsoft-azure-deletedbackupinstances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeletedConfigurationStores API
+  slug: open-microsoft-azure-deletedconfigurationstores-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeletedStorage API
+  slug: open-microsoft-azure-deletedstorage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeletedWebApps API
+  slug: open-microsoft-azure-deletedwebapps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DependencyMapController API
+  slug: open-microsoft-azure-dependencymapcontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeployedResource API
+  slug: open-microsoft-azure-deployedresource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Deployment Management API
+  slug: open-microsoft-azure-deployment-management-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeploymentInfo API
+  slug: open-microsoft-azure-deploymentinfo-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector deploymentManifests API
+  slug: open-microsoft-azure-deploymentmanifests-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeploymentOperations API
+  slug: open-microsoft-azure-deploymentoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Deployments API
+  slug: open-microsoft-azure-deployments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeploymentScripts API
+  slug: open-microsoft-azure-deploymentscripts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeploymentSettings API
+  slug: open-microsoft-azure-deploymentsettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeploymentStacks API
+  slug: open-microsoft-azure-deploymentstacks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeploymentUpdate API
+  slug: open-microsoft-azure-deploymentupdate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Describe API
+  slug: open-microsoft-azure-describe-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Desktop API
+  slug: open-microsoft-azure-desktop-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Detect API
+  slug: open-microsoft-azure-detect-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Device and Deployment Management API
+  slug: open-microsoft-azure-device-and-deployment-management-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Device Location API
+  slug: open-microsoft-azure-device-location-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Device Network API
+  slug: open-microsoft-azure-device-network-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeviceCapacityCheck API
+  slug: open-microsoft-azure-devicecapacitycheck-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeviceCapacityInfo API
+  slug: open-microsoft-azure-devicecapacityinfo-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeviceDataModels API
+  slug: open-microsoft-azure-devicedatamodels-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector deviceGroups API
+  slug: open-microsoft-azure-devicegroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeviceRegistrationState API
+  slug: open-microsoft-azure-deviceregistrationstate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Devices API
+  slug: open-microsoft-azure-devices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeviceServices API
+  slug: open-microsoft-azure-deviceservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DeviceSettings API
+  slug: open-microsoft-azure-devicesettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector deviceTemplates API
+  slug: open-microsoft-azure-devicetemplates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DevOps API
+  slug: open-microsoft-azure-devops-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DevopsPolicy API
+  slug: open-microsoft-azure-devopspolicy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector diagnosticOperations API
+  slug: open-microsoft-azure-diagnosticoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Diagnostics API
+  slug: open-microsoft-azure-diagnostics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector diagnostics_DiskInspection API
+  slug: open-microsoft-azure-diagnostics-diskinspection-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector diagnostics_SpotPlacementRecommender API
+  slug: open-microsoft-azure-diagnostics-spotplacementrecommender-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DiagnosticService API
+  slug: open-microsoft-azure-diagnosticservice-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DiagnosticSettings API
+  slug: open-microsoft-azure-diagnosticsettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Dictionary API
+  slug: open-microsoft-azure-dictionary-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Dictionary/Lookup API
+  slug: open-microsoft-azure-dictionary-lookup-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DictionaryExamples API
+  slug: open-microsoft-azure-dictionaryexamples-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DigitalTwinsInstance API
+  slug: open-microsoft-azure-digitaltwinsinstance-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DisasterRecoveryConfigurations API
+  slug: open-microsoft-azure-disasterrecoveryconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Disco Groups API
+  slug: open-microsoft-azure-disco-groups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Disco Templates API
+  slug: open-microsoft-azure-disco-templates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector discoverSolutions API
+  slug: open-microsoft-azure-discoversolutions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Discovery API
+  slug: open-microsoft-azure-discovery-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Discovery Groups API
+  slug: open-microsoft-azure-discovery-groups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Discovery Templates API
+  slug: open-microsoft-azure-discovery-templates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector discoverySolutions API
+  slug: open-microsoft-azure-discoverysolutions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DiskPools API
+  slug: open-microsoft-azure-diskpools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DiskPoolZones API
+  slug: open-microsoft-azure-diskpoolzones-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Disks API
+  slug: open-microsoft-azure-disks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DnsForwardingRulesets API
+  slug: open-microsoft-azure-dnsforwardingrulesets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DnsResolvers API
+  slug: open-microsoft-azure-dnsresolvers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DnssecConfigs API
+  slug: open-microsoft-azure-dnssecconfigs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Document:translate API
+  slug: open-microsoft-azure-document-translate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Document Translation API
+  slug: open-microsoft-azure-document-translation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector documentClassifiers API
+  slug: open-microsoft-azure-documentclassifiers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector documentClassifiers:build API
+  slug: open-microsoft-azure-documentclassifiers-build-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector documentModels API
+  slug: open-microsoft-azure-documentmodels-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector documentModels:authorizeCopy API
+  slug: open-microsoft-azure-documentmodels-authorizecopy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector documentModels:build API
+  slug: open-microsoft-azure-documentmodels-build-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector documentModels:compose API
+  slug: open-microsoft-azure-documentmodels-compose-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Documents API
+  slug: open-microsoft-azure-documents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Domain API
+  slug: open-microsoft-azure-domain-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DomainRegistrationProvider API
+  slug: open-microsoft-azure-domainregistrationprovider-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Domains API
+  slug: open-microsoft-azure-domains-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DomainsApi API
+  slug: open-microsoft-azure-domainsapi-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DomainTopics API
+  slug: open-microsoft-azure-domaintopics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DppFeatureSupport API
+  slug: open-microsoft-azure-dppfeaturesupport-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DppJob API
+  slug: open-microsoft-azure-dppjob-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DppResourceGuardProxies API
+  slug: open-microsoft-azure-dppresourceguardproxies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector DpsCertificate API
+  slug: open-microsoft-azure-dpscertificate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Dra API
+  slug: open-microsoft-azure-dra-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Edge Site API
+  slug: open-microsoft-azure-edge-site-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EdgeDevices API
+  slug: open-microsoft-azure-edgedevices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Edgenodes API
+  slug: open-microsoft-azure-edgenodes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Elastic San Operations API
+  slug: open-microsoft-azure-elastic-san-operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Elastic San Skus API
+  slug: open-microsoft-azure-elastic-san-skus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ElasticSan API
+  slug: open-microsoft-azure-elasticsan-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ElasticSans API
+  slug: open-microsoft-azure-elasticsans-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ElasticVersions API
+  slug: open-microsoft-azure-elasticversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Elevation API
+  slug: open-microsoft-azure-elevation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EmailConfiguration API
+  slug: open-microsoft-azure-emailconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EmailGetSendResult API
+  slug: open-microsoft-azure-emailgetsendresult-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EmailGetSendStatus API
+  slug: open-microsoft-azure-emailgetsendstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EmailSend API
+  slug: open-microsoft-azure-emailsend-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Embeddings API
+  slug: open-microsoft-azure-embeddings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EmergingIssues API
+  slug: open-microsoft-azure-emergingissues-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Endpoint API
+  slug: open-microsoft-azure-endpoint-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EndpointKeys API
+  slug: open-microsoft-azure-endpointkeys-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Endpoints API
+  slug: open-microsoft-azure-endpoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector endpointSettings API
+  slug: open-microsoft-azure-endpointsettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EnrollmentAccounts API
+  slug: open-microsoft-azure-enrollmentaccounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EnrollmentGroup API
+  slug: open-microsoft-azure-enrollmentgroup-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector enrollmentGroups API
+  slug: open-microsoft-azure-enrollmentgroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EnterpriseKnowledgeGraph API
+  slug: open-microsoft-azure-enterpriseknowledgegraph-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Entities API
+  slug: open-microsoft-azure-entities-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Entity API
+  slug: open-microsoft-azure-entity-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EntitySearch API
+  slug: open-microsoft-azure-entitysearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Entries API
+  slug: open-microsoft-azure-entries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Environment Definitions API
+  slug: open-microsoft-azure-environment-definitions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Environment Types API
+  slug: open-microsoft-azure-environment-types-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EnvironmentOperations API
+  slug: open-microsoft-azure-environmentoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Environments API
+  slug: open-microsoft-azure-environments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EnvironmentSettings API
+  slug: open-microsoft-azure-environmentsettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ErrorSummaries API
+  slug: open-microsoft-azure-errorsummaries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EvaluatedAvsMachinesOperations API
+  slug: open-microsoft-azure-evaluatedavsmachinesoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EvaluatedMachinesOperations API
+  slug: open-microsoft-azure-evaluatedmachinesoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EvaluatedSqlEntitiesOperations API
+  slug: open-microsoft-azure-evaluatedsqlentitiesoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EvaluatedWebAppsOperations API
+  slug: open-microsoft-azure-evaluatedwebappsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Event API
+  slug: open-microsoft-azure-event-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Event Hubs Clusters Configuration API
+  slug: open-microsoft-azure-event-hubs-clusters-configuration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EventChannels API
+  slug: open-microsoft-azure-eventchannels-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EventHubConnections API
+  slug: open-microsoft-azure-eventhubconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EventImpactedResources API
+  slug: open-microsoft-azure-eventimpactedresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EventRoutes API
+  slug: open-microsoft-azure-eventroutes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Events API
+  slug: open-microsoft-azure-events-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EventsController API
+  slug: open-microsoft-azure-eventscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EventSources API
+  slug: open-microsoft-azure-eventsources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EventsStore API
+  slug: open-microsoft-azure-eventsstore-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector EventSubscriptions API
+  slug: open-microsoft-azure-eventsubscriptions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Execution API
+  slug: open-microsoft-azure-execution-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Experiments API
+  slug: open-microsoft-azure-experiments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExportJobsOperationResults API
+  slug: open-microsoft-azure-exportjobsoperationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExposureControl API
+  slug: open-microsoft-azure-exposurecontrol-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteCircuitAuthorizations API
+  slug: open-microsoft-azure-expressroutecircuitauthorizations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteCircuitPeerings API
+  slug: open-microsoft-azure-expressroutecircuitpeerings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteCircuits API
+  slug: open-microsoft-azure-expressroutecircuits-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteConnections API
+  slug: open-microsoft-azure-expressrouteconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteCrossConnectionArpTable API
+  slug: open-microsoft-azure-expressroutecrossconnectionarptable-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteCrossConnectionPeerings API
+  slug: open-microsoft-azure-expressroutecrossconnectionpeerings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteCrossConnectionRouteTable API
+  slug: open-microsoft-azure-expressroutecrossconnectionroutetable-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteCrossConnectionRouteTableSummary API
+  slug: open-microsoft-azure-expressroutecrossconnectionroutetablesummary-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteCrossConnections API
+  slug: open-microsoft-azure-expressroutecrossconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteGateways API
+  slug: open-microsoft-azure-expressroutegateways-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExpressRouteServiceProviders API
+  slug: open-microsoft-azure-expressrouteserviceproviders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExtendedZones API
+  slug: open-microsoft-azure-extendedzones-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Extension Operation Status API
+  slug: open-microsoft-azure-extension-operation-status-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Extensions API
+  slug: open-microsoft-azure-extensions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExtensionType API
+  slug: open-microsoft-azure-extensiontype-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ExtensionTypes API
+  slug: open-microsoft-azure-extensiontypes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Fabric API
+  slug: open-microsoft-azure-fabric-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Facelists API
+  slug: open-microsoft-azure-facelists-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FarmBeatsExtensions API
+  slug: open-microsoft-azure-farmbeatsextensions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FarmBeatsModels API
+  slug: open-microsoft-azure-farmbeatsmodels-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FarmEquipments API
+  slug: open-microsoft-azure-farmequipments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FarmOperations API
+  slug: open-microsoft-azure-farmoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Farms API
+  slug: open-microsoft-azure-farms-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Faults API
+  slug: open-microsoft-azure-faults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Features API
+  slug: open-microsoft-azure-features-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector featureStateSets API
+  slug: open-microsoft-azure-featurestatesets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FeatureSupport API
+  slug: open-microsoft-azure-featuresupport-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Feedback API
+  slug: open-microsoft-azure-feedback-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FetchSecondaryRecoveryPoints API
+  slug: open-microsoft-azure-fetchsecondaryrecoverypoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Fields API
+  slug: open-microsoft-azure-fields-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector File and Directory Operations API
+  slug: open-microsoft-azure-file-and-directory-operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector File API
+  slug: open-microsoft-azure-file-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector File Locks API
+  slug: open-microsoft-azure-file-locks-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Files: API'
+  slug: open-microsoft-azure-files-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FileServers API
+  slug: open-microsoft-azure-fileservers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FileShares API
+  slug: open-microsoft-azure-fileshares-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FileSystem API
+  slug: open-microsoft-azure-filesystem-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Filesystem Operations API
+  slug: open-microsoft-azure-filesystem-operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FileSystems API
+  slug: open-microsoft-azure-filesystems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector fileUploads API
+  slug: open-microsoft-azure-fileuploads-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FileWorkspaces API
+  slug: open-microsoft-azure-fileworkspaces-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Filters API
+  slug: open-microsoft-azure-filters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Find and Purchase Available Phone Numbers API
+  slug: open-microsoft-azure-find-and-purchase-available-phone-numbers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FindRestorableTimeRanges API
+  slug: open-microsoft-azure-findrestorabletimeranges-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Findsimilars API
+  slug: open-microsoft-azure-findsimilars-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Fine-Tunes: API'
+  slug: open-microsoft-azure-fine-tunes-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Fine-Tuning: API'
+  slug: open-microsoft-azure-fine-tuning-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FirewallRules API
+  slug: open-microsoft-azure-firewallrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Firewalls API
+  slug: open-microsoft-azure-firewalls-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FirewallStatus API
+  slug: open-microsoft-azure-firewallstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FleetMembers API
+  slug: open-microsoft-azure-fleetmembers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Fleets API
+  slug: open-microsoft-azure-fleets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FleetUpdateStrategies API
+  slug: open-microsoft-azure-fleetupdatestrategies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FluidRelayContainers API
+  slug: open-microsoft-azure-fluidrelaycontainers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FluidRelayOperations API
+  slug: open-microsoft-azure-fluidrelayoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FluidRelayServers API
+  slug: open-microsoft-azure-fluidrelayservers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Flux API
+  slug: open-microsoft-azure-flux-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FluxConfiguration API
+  slug: open-microsoft-azure-fluxconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FluxConfiguration Operation Status API
+  slug: open-microsoft-azure-fluxconfiguration-operation-status-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Forecasts API
+  slug: open-microsoft-azure-forecasts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Form API
+  slug: open-microsoft-azure-form-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Formulas API
+  slug: open-microsoft-azure-formulas-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ForwardingRules API
+  slug: open-microsoft-azure-forwardingrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FqdnListGlobalRulestack API
+  slug: open-microsoft-azure-fqdnlistglobalrulestack-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FqdnListLocalRulestack API
+  slug: open-microsoft-azure-fqdnlistlocalrulestack-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FrontDoors API
+  slug: open-microsoft-azure-frontdoors-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector FrontendsInterface API
+  slug: open-microsoft-azure-frontendsinterface-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Galleries API
+  slug: open-microsoft-azure-galleries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GalleryApplications API
+  slug: open-microsoft-azure-galleryapplications-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GalleryApplicationVersions API
+  slug: open-microsoft-azure-galleryapplicationversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GalleryImages API
+  slug: open-microsoft-azure-galleryimages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GalleryImageVersions API
+  slug: open-microsoft-azure-galleryimageversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GalleryItems API
+  slug: open-microsoft-azure-galleryitems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GallerySharingUpdate API
+  slug: open-microsoft-azure-gallerysharingupdate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector General API
+  slug: open-microsoft-azure-general-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector generateThumbnail API
+  slug: open-microsoft-azure-generatethumbnail-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Geocode API
+  slug: open-microsoft-azure-geocode-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Geolocation API
+  slug: open-microsoft-azure-geolocation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GET API
+  slug: open-microsoft-azure-get-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Get Metadata Information API
+  slug: open-microsoft-azure-get-metadata-information-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Get Token API
+  slug: open-microsoft-azure-get-token-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GetApiKeys API
+  slug: open-microsoft-azure-getapikeys-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GetChange API
+  slug: open-microsoft-azure-getchange-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GetOperationResult API
+  slug: open-microsoft-azure-getoperationresult-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GetPrivateDnsZoneSuffix API
+  slug: open-microsoft-azure-getprivatednszonesuffix-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GetSnapshot API
+  slug: open-microsoft-azure-getsnapshot-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GitHubOAuth API
+  slug: open-microsoft-azure-githuboauth-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Global API
+  slug: open-microsoft-azure-global-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Global Communications Site API
+  slug: open-microsoft-azure-global-communications-site-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GlobalCertificateOrder API
+  slug: open-microsoft-azure-globalcertificateorder-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GlobalDomainRegistration API
+  slug: open-microsoft-azure-globaldomainregistration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GlobalReachConnections API
+  slug: open-microsoft-azure-globalreachconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GlobalResourceGroups API
+  slug: open-microsoft-azure-globalresourcegroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GlobalRulestack API
+  slug: open-microsoft-azure-globalrulestack-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GlobalSchedules API
+  slug: open-microsoft-azure-globalschedules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GlobalUsers API
+  slug: open-microsoft-azure-globalusers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Glossary API
+  slug: open-microsoft-azure-glossary-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Gov API
+  slug: open-microsoft-azure-gov-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GrafanaResource API
+  slug: open-microsoft-azure-grafanaresource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Grants API
+  slug: open-microsoft-azure-grants-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GraphQuery API
+  slug: open-microsoft-azure-graphquery-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Ground Station API
+  slug: open-microsoft-azure-ground-station-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Group API
+  slug: open-microsoft-azure-group-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Group ID List for LDAP User API
+  slug: open-microsoft-azure-group-id-list-for-ldap-user-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GroupOwners API
+  slug: open-microsoft-azure-groupowners-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GroupsOperations API
+  slug: open-microsoft-azure-groupsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GroupsOwners API
+  slug: open-microsoft-azure-groupsowners-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GroupUser API
+  slug: open-microsoft-azure-groupuser-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestAgents API
+  slug: open-microsoft-azure-guestagents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestConfigurationAssignmentHCRPReports API
+  slug: open-microsoft-azure-guestconfigurationassignmenthcrpreports-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestConfigurationAssignmentReports API
+  slug: open-microsoft-azure-guestconfigurationassignmentreports-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestConfigurationAssignments API
+  slug: open-microsoft-azure-guestconfigurationassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestConfigurationConnectedVMwarevSphereAssignments API
+  slug: open-microsoft-azure-guestconfigurationconnectedvmwarevsphereassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestConfigurationConnectedVMwarevSphereAssignmentsReports API
+  slug: open-microsoft-azure-guestconfigurationconnectedvmwarevsphereassignmentsreports-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestConfigurationHCRPAssignments API
+  slug: open-microsoft-azure-guestconfigurationhcrpassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestDiagnosticsSettings API
+  slug: open-microsoft-azure-guestdiagnosticssettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestDiagnosticsSettingsAssociation API
+  slug: open-microsoft-azure-guestdiagnosticssettingsassociation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector GuestUsages API
+  slug: open-microsoft-azure-guestusages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HanaOnAzure API
+  slug: open-microsoft-azure-hanaonazure-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HardwareComponentGroups API
+  slug: open-microsoft-azure-hardwarecomponentgroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HarvestData API
+  slug: open-microsoft-azure-harvestdata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HCIReports API
+  slug: open-microsoft-azure-hcireports-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HCRPReports API
+  slug: open-microsoft-azure-hcrpreports-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HcxEnterpriseSites API
+  slug: open-microsoft-azure-hcxenterprisesites-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HeatMaps API
+  slug: open-microsoft-azure-heatmaps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Hook API
+  slug: open-microsoft-azure-hook-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HostingEnvironments API
+  slug: open-microsoft-azure-hostingenvironments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HostPool API
+  slug: open-microsoft-azure-hostpool-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Hosts API
+  slug: open-microsoft-azure-hosts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Hubs API
+  slug: open-microsoft-azure-hubs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Hybrid Use Benefit API
+  slug: open-microsoft-azure-hybrid-use-benefit-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Hybrid Use Benefit Revisions API
+  slug: open-microsoft-azure-hybrid-use-benefit-revisions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Hybrid Use Benefits API
+  slug: open-microsoft-azure-hybrid-use-benefits-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HybridIdentityMetadata API
+  slug: open-microsoft-azure-hybrididentitymetadata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HyperDriveExperiment API
+  slug: open-microsoft-azure-hyperdriveexperiment-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervClusterController API
+  slug: open-microsoft-azure-hypervclustercontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervCollectorsOperations API
+  slug: open-microsoft-azure-hypervcollectorsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervDependencyMapController API
+  slug: open-microsoft-azure-hypervdependencymapcontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervHostController API
+  slug: open-microsoft-azure-hypervhostcontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervJobs API
+  slug: open-microsoft-azure-hypervjobs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervJobsController API
+  slug: open-microsoft-azure-hypervjobscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervMachinesController API
+  slug: open-microsoft-azure-hypervmachinescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervOperationsStatusController API
+  slug: open-microsoft-azure-hypervoperationsstatuscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervRunAsAccountsController API
+  slug: open-microsoft-azure-hypervrunasaccountscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervSites API
+  slug: open-microsoft-azure-hypervsites-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervSitesController API
+  slug: open-microsoft-azure-hypervsitescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector HypervSoftwareInventoriesController API
+  slug: open-microsoft-azure-hypervsoftwareinventoriescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Identify API
+  slug: open-microsoft-azure-identify-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Identity API
+  slug: open-microsoft-azure-identity-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IisWebApplicationsController API
+  slug: open-microsoft-azure-iiswebapplicationscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IisWebServersController API
+  slug: open-microsoft-azure-iiswebserverscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Image:analyze API
+  slug: open-microsoft-azure-image-analyze-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Imageanalysis:analyze API
+  slug: open-microsoft-azure-imageanalysis-analyze-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageApi API
+  slug: open-microsoft-azure-imageapi-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageDetailSearch API
+  slug: open-microsoft-azure-imagedetailsearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageModeration API
+  slug: open-microsoft-azure-imagemoderation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImagePredictionApi API
+  slug: open-microsoft-azure-imagepredictionapi-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageProcessing API
+  slug: open-microsoft-azure-imageprocessing-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageRegionProposalApi API
+  slug: open-microsoft-azure-imageregionproposalapi-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageRetrieval API
+  slug: open-microsoft-azure-imageretrieval-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Images API
+  slug: open-microsoft-azure-images-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageSearch API
+  slug: open-microsoft-azure-imagesearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageStore API
+  slug: open-microsoft-azure-imagestore-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageTrendingSearch API
+  slug: open-microsoft-azure-imagetrendingsearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImageVisualSearch API
+  slug: open-microsoft-azure-imagevisualsearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImportCollectorsOperations API
+  slug: open-microsoft-azure-importcollectorsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImportExport API
+  slug: open-microsoft-azure-importexport-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImportJobs API
+  slug: open-microsoft-azure-importjobs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImportJobsController API
+  slug: open-microsoft-azure-importjobscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImportMachinesController API
+  slug: open-microsoft-azure-importmachinescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ImportSitesController API
+  slug: open-microsoft-azure-importsitescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector InboundEndpoints API
+  slug: open-microsoft-azure-inboundendpoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Indexers API
+  slug: open-microsoft-azure-indexers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Indexes API
+  slug: open-microsoft-azure-indexes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IndividualEnrollment API
+  slug: open-microsoft-azure-individualenrollment-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Info API
+  slug: open-microsoft-azure-info-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Infrastructure API
+  slug: open-microsoft-azure-infrastructure-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector InfrastructureResources API
+  slug: open-microsoft-azure-infrastructureresources-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Ingestion: API'
+  slug: open-microsoft-azure-ingestion-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IngestionJob API
+  slug: open-microsoft-azure-ingestionjob-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IngestionStatus API
+  slug: open-microsoft-azure-ingestionstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector InsightAttachments API
+  slug: open-microsoft-azure-insightattachments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Insights API
+  slug: open-microsoft-azure-insights-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Instance API
+  slug: open-microsoft-azure-instance-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Instances API
+  slug: open-microsoft-azure-instances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationAccountAgreements API
+  slug: open-microsoft-azure-integrationaccountagreements-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationAccountAssemblies API
+  slug: open-microsoft-azure-integrationaccountassemblies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationAccountBatchConfigurations API
+  slug: open-microsoft-azure-integrationaccountbatchconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationAccountCertificates API
+  slug: open-microsoft-azure-integrationaccountcertificates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationAccountMaps API
+  slug: open-microsoft-azure-integrationaccountmaps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationAccountPartners API
+  slug: open-microsoft-azure-integrationaccountpartners-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationAccounts API
+  slug: open-microsoft-azure-integrationaccounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationAccountSchemas API
+  slug: open-microsoft-azure-integrationaccountschemas-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationAccountSessions API
+  slug: open-microsoft-azure-integrationaccountsessions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IntegrationRuntimes API
+  slug: open-microsoft-azure-integrationruntimes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Interactions API
+  slug: open-microsoft-azure-interactions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector InventoryItems API
+  slug: open-microsoft-azure-inventoryitems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Invitation API
+  slug: open-microsoft-azure-invitation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Invoices API
+  slug: open-microsoft-azure-invoices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IotDpsResource API
+  slug: open-microsoft-azure-iotdpsresource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IscsiDisks API
+  slug: open-microsoft-azure-iscsidisks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IscsiServers API
+  slug: open-microsoft-azure-iscsiservers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector IscsiTargets API
+  slug: open-microsoft-azure-iscsitargets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ItemLevelRecoveryConnections API
+  slug: open-microsoft-azure-itemlevelrecoveryconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Items API
+  slug: open-microsoft-azure-items-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector JitRequests API
+  slug: open-microsoft-azure-jitrequests-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Job API
+  slug: open-microsoft-azure-job-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector JobCancellations API
+  slug: open-microsoft-azure-jobcancellations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector JobCollections API
+  slug: open-microsoft-azure-jobcollections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector JobDefinitions API
+  slug: open-microsoft-azure-jobdefinitions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector JobDetails API
+  slug: open-microsoft-azure-jobdetails-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector JobOperationResults API
+  slug: open-microsoft-azure-joboperationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector JobRuns API
+  slug: open-microsoft-azure-jobruns-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Jobs API
+  slug: open-microsoft-azure-jobs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Jobschedules API
+  slug: open-microsoft-azure-jobschedules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector JoinRequest API
+  slug: open-microsoft-azure-joinrequest-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector KafkaConnector API
+  slug: open-microsoft-azure-kafkaconnector-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector KafkaConnectorTopicMap API
+  slug: open-microsoft-azure-kafkaconnectortopicmap-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Key API
+  slug: open-microsoft-azure-key-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector keyPhrases API
+  slug: open-microsoft-azure-keyphrases-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Keys API
+  slug: open-microsoft-azure-keys-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector KeyValues API
+  slug: open-microsoft-azure-keyvalues-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector KeyVault API
+  slug: open-microsoft-azure-keyvault-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Knowledgebases API
+  slug: open-microsoft-azure-knowledgebases-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Kpi API
+  slug: open-microsoft-azure-kpi-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector KubeEnvironments API
+  slug: open-microsoft-azure-kubeenvironments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector L2 Connection API
+  slug: open-microsoft-azure-l2-connection-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LabAccounts API
+  slug: open-microsoft-azure-labaccounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Labels API
+  slug: open-microsoft-azure-labels-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Labs API
+  slug: open-microsoft-azure-labs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Languages API
+  slug: open-microsoft-azure-languages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Largefacelists API
+  slug: open-microsoft-azure-largefacelists-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Largepersongroups API
+  slug: open-microsoft-azure-largepersongroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Layout API
+  slug: open-microsoft-azure-layout-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ledgerIdentity API
+  slug: open-microsoft-azure-ledgeridentity-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LegacyPeerings API
+  slug: open-microsoft-azure-legacypeerings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Lineage API
+  slug: open-microsoft-azure-lineage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LinkedResources API
+  slug: open-microsoft-azure-linkedresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Linkers API
+  slug: open-microsoft-azure-linkers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Links API
+  slug: open-microsoft-azure-links-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ListChanges API
+  slug: open-microsoft-azure-listchanges-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ListManagementImage API
+  slug: open-microsoft-azure-listmanagementimage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ListManagementImageLists API
+  slug: open-microsoft-azure-listmanagementimagelists-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ListManagementTerm API
+  slug: open-microsoft-azure-listmanagementterm-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ListManagementTermLists API
+  slug: open-microsoft-azure-listmanagementtermlists-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ListQnAMakerEndpointKeys API
+  slug: open-microsoft-azure-listqnamakerendpointkeys-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ListServiceProviders API
+  slug: open-microsoft-azure-listserviceproviders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ListSnapshots API
+  slug: open-microsoft-azure-listsnapshots-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LoadBalancers API
+  slug: open-microsoft-azure-loadbalancers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LoadTests API
+  slug: open-microsoft-azure-loadtests-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocalNetworkGateways API
+  slug: open-microsoft-azure-localnetworkgateways-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocalRules API
+  slug: open-microsoft-azure-localrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocalRulestacks API
+  slug: open-microsoft-azure-localrulestacks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocalSearch API
+  slug: open-microsoft-azure-localsearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Location API
+  slug: open-microsoft-azure-location-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocationBasedCapabilities API
+  slug: open-microsoft-azure-locationbasedcapabilities-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocationBasedCapability API
+  slug: open-microsoft-azure-locationbasedcapability-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocationBasedPerformanceTier API
+  slug: open-microsoft-azure-locationbasedperformancetier-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocationBasedRecommendedActionSessionsOperationStatus API
+  slug: open-microsoft-azure-locationbasedrecommendedactionsessionsoperationstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocationBasedRecommendedActionSessionsResult API
+  slug: open-microsoft-azure-locationbasedrecommendedactionsessionsresult-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Locations API
+  slug: open-microsoft-azure-locations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LocationUsage API
+  slug: open-microsoft-azure-locationusage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Locks API
+  slug: open-microsoft-azure-locks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector LogFiles API
+  slug: open-microsoft-azure-logfiles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Long Running Operations API
+  slug: open-microsoft-azure-long-running-operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MachineExtensions API
+  slug: open-microsoft-azure-machineextensions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MachineExtensions Upgrade API
+  slug: open-microsoft-azure-machineextensions-upgrade-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MachineGroups API
+  slug: open-microsoft-azure-machinegroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MachineLearningComputeOperations API
+  slug: open-microsoft-azure-machinelearningcomputeoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Machines API
+  slug: open-microsoft-azure-machines-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MachinesController API
+  slug: open-microsoft-azure-machinescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MachinesOperations API
+  slug: open-microsoft-azure-machinesoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MaintenanceConfigurations API
+  slug: open-microsoft-azure-maintenanceconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Manage Purchased Phone Numbers API
+  slug: open-microsoft-azure-manage-purchased-phone-numbers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Managed APIs API
+  slug: open-microsoft-azure-managed-apis-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Managed CCF API
+  slug: open-microsoft-azure-managed-ccf-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Managed Clusters API
+  slug: open-microsoft-azure-managed-clusters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagedHostingEnvironments API
+  slug: open-microsoft-azure-managedhostingenvironments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagedNetwork API
+  slug: open-microsoft-azure-managednetwork-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagedNetworkGroups API
+  slug: open-microsoft-azure-managednetworkgroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagedNetworkPeeringPolicies API
+  slug: open-microsoft-azure-managednetworkpeeringpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagedNetworks API
+  slug: open-microsoft-azure-managednetworks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagedPrivateEndpoints API
+  slug: open-microsoft-azure-managedprivateendpoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagedVirtualNetworks API
+  slug: open-microsoft-azure-managedvirtualnetworks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagementAssociation API
+  slug: open-microsoft-azure-managementassociation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagementConfiguration API
+  slug: open-microsoft-azure-managementconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagementGroups API
+  slug: open-microsoft-azure-managementgroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagementLocks API
+  slug: open-microsoft-azure-managementlocks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ManagementZones API
+  slug: open-microsoft-azure-managementzones-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Managers API
+  slug: open-microsoft-azure-managers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Manifest API
+  slug: open-microsoft-azure-manifest-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Manifests API
+  slug: open-microsoft-azure-manifests-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Map API
+  slug: open-microsoft-azure-map-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector mapData API
+  slug: open-microsoft-azure-mapdata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Maps API
+  slug: open-microsoft-azure-maps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MarketplaceImageOffer API
+  slug: open-microsoft-azure-marketplaceimageoffer-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MarketplaceImagePublisher API
+  slug: open-microsoft-azure-marketplaceimagepublisher-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MarketplaceImageSasToken API
+  slug: open-microsoft-azure-marketplaceimagesastoken-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MarketplaceImageSku API
+  slug: open-microsoft-azure-marketplaceimagesku-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MarketplaceImageVersion API
+  slug: open-microsoft-azure-marketplaceimageversion-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Marketplaces API
+  slug: open-microsoft-azure-marketplaces-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MasterSitesController API
+  slug: open-microsoft-azure-mastersitescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MasterSitesOperationsStatusController API
+  slug: open-microsoft-azure-mastersitesoperationsstatuscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MediaComposition API
+  slug: open-microsoft-azure-mediacomposition-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MeshApplications API
+  slug: open-microsoft-azure-meshapplications-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MeshCodePackages API
+  slug: open-microsoft-azure-meshcodepackages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MeshGateways API
+  slug: open-microsoft-azure-meshgateways-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MeshNetworks API
+  slug: open-microsoft-azure-meshnetworks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MeshSecrets API
+  slug: open-microsoft-azure-meshsecrets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MeshSecretValues API
+  slug: open-microsoft-azure-meshsecretvalues-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MeshServiceReplicas API
+  slug: open-microsoft-azure-meshservicereplicas-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MeshServices API
+  slug: open-microsoft-azure-meshservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MeshVolumes API
+  slug: open-microsoft-azure-meshvolumes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Messages API
+  slug: open-microsoft-azure-messages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Metadata API
+  slug: open-microsoft-azure-metadata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MetadataPolicy API
+  slug: open-microsoft-azure-metadatapolicy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MetadataRoles API
+  slug: open-microsoft-azure-metadataroles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Metric API
+  slug: open-microsoft-azure-metric-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MetricDefinitions API
+  slug: open-microsoft-azure-metricdefinitions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Metrics API
+  slug: open-microsoft-azure-metrics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Microsoft Azure Azure Blob Storage API API
+  slug: open-microsoft-azure-microsoft-azure-azure-blob-storage-api-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Microsoft Azure Azure ML Chat API
+  slug: open-microsoft-azure-microsoft-azure-azure-ml-chat-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MidConnections API
+  slug: open-microsoft-azure-midconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MigrateAgent API
+  slug: open-microsoft-azure-migrateagent-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MigrateProjects API
+  slug: open-microsoft-azure-migrateprojects-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MigrateProjectsController API
+  slug: open-microsoft-azure-migrateprojectscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MigrationRecoveryPoints API
+  slug: open-microsoft-azure-migrationrecoverypoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MigrationServices API
+  slug: open-microsoft-azure-migrationservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Model API
+  slug: open-microsoft-azure-model-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ModelInference API
+  slug: open-microsoft-azure-modelinference-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Modelmanagement API
+  slug: open-microsoft-azure-modelmanagement-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Models API
+  slug: open-microsoft-azure-models-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ModernizeProject API
+  slug: open-microsoft-azure-modernizeproject-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MongoClusterOperations API
+  slug: open-microsoft-azure-mongoclusteroperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MongoClusters API
+  slug: open-microsoft-azure-mongoclusters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MonitoredResources API
+  slug: open-microsoft-azure-monitoredresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MonitoredSubscriptions API
+  slug: open-microsoft-azure-monitoredsubscriptions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Monitoring API
+  slug: open-microsoft-azure-monitoring-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MonitoringConfig API
+  slug: open-microsoft-azure-monitoringconfig-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Monitors API
+  slug: open-microsoft-azure-monitors-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MonitorsResource API
+  slug: open-microsoft-azure-monitorsresource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MonitorUpgradableVersions API
+  slug: open-microsoft-azure-monitorupgradableversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MoveCollections API
+  slug: open-microsoft-azure-movecollections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MoveResources API
+  slug: open-microsoft-azure-moveresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Mq API
+  slug: open-microsoft-azure-mq-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MqttBridgeConnector API
+  slug: open-microsoft-azure-mqttbridgeconnector-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MqttBridgeTopicMap API
+  slug: open-microsoft-azure-mqttbridgetopicmap-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MsixImage API
+  slug: open-microsoft-azure-msiximage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MSIXPackage API
+  slug: open-microsoft-azure-msixpackage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MultipleActivationKeys API
+  slug: open-microsoft-azure-multipleactivationkeys-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MultiSlotEvents API
+  slug: open-microsoft-azure-multislotevents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector MultiSlotRank API
+  slug: open-microsoft-azure-multislotrank-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Multivariate API
+  slug: open-microsoft-azure-multivariate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NameAvailability API
+  slug: open-microsoft-azure-nameavailability-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NamedValue API
+  slug: open-microsoft-azure-namedvalue-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Namespaces API
+  slug: open-microsoft-azure-namespaces-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetApp Accounts API
+  slug: open-microsoft-azure-netapp-accounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetApp Resource API
+  slug: open-microsoft-azure-netapp-resource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Network Connections API
+  slug: open-microsoft-azure-network-connections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Network Settings API
+  slug: open-microsoft-azure-network-settings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkExperimentProfiles API
+  slug: open-microsoft-azure-networkexperimentprofiles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkFunctions API
+  slug: open-microsoft-azure-networkfunctions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkGroupMemberships_List API
+  slug: open-microsoft-azure-networkgroupmemberships-list-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkGroups API
+  slug: open-microsoft-azure-networkgroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkInterfaces API
+  slug: open-microsoft-azure-networkinterfaces-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkManagerActiveConfigurations API
+  slug: open-microsoft-azure-networkmanageractiveconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkManagerActiveConnectivityConfigurations API
+  slug: open-microsoft-azure-networkmanageractiveconnectivityconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkManagerActiveSecurityUserRules API
+  slug: open-microsoft-azure-networkmanageractivesecurityuserrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkManagerEffectiveConnectivityConfiguration API
+  slug: open-microsoft-azure-networkmanagereffectiveconnectivityconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkManagerEffectiveSecurityAdminRules API
+  slug: open-microsoft-azure-networkmanagereffectivesecurityadminrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkManagers API
+  slug: open-microsoft-azure-networkmanagers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Networks API
+  slug: open-microsoft-azure-networks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkSecurityGroups API
+  slug: open-microsoft-azure-networksecuritygroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkSecurityPerimeterConfigurations API
+  slug: open-microsoft-azure-networksecurityperimeterconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NetworkSecurityPerimeters API
+  slug: open-microsoft-azure-networksecurityperimeters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NewsCategory API
+  slug: open-microsoft-azure-newscategory-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NewsSearch API
+  slug: open-microsoft-azure-newssearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NewsTrendingTopics API
+  slug: open-microsoft-azure-newstrendingtopics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NginxCertificate API
+  slug: open-microsoft-azure-nginxcertificate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NginxConfiguration API
+  slug: open-microsoft-azure-nginxconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NginxDeployment API
+  slug: open-microsoft-azure-nginxdeployment-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Node API
+  slug: open-microsoft-azure-node-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Nodecounts API
+  slug: open-microsoft-azure-nodecounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Nodes API
+  slug: open-microsoft-azure-nodes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NodeType API
+  slug: open-microsoft-azure-nodetype-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Notification API
+  slug: open-microsoft-azure-notification-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NotificationChannels API
+  slug: open-microsoft-azure-notificationchannels-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NotificationHubs API
+  slug: open-microsoft-azure-notificationhubs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NotificationRecipientEmail API
+  slug: open-microsoft-azure-notificationrecipientemail-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NotificationRecipientUser API
+  slug: open-microsoft-azure-notificationrecipientuser-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NotificationRegistration API
+  slug: open-microsoft-azure-notificationregistration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Notifications API
+  slug: open-microsoft-azure-notifications-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NrfDeployments API
+  slug: open-microsoft-azure-nrfdeployments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NspAccessRules API
+  slug: open-microsoft-azure-nspaccessrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NspAccessRulesReconcile API
+  slug: open-microsoft-azure-nspaccessrulesreconcile-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NspAssociationReconcile API
+  slug: open-microsoft-azure-nspassociationreconcile-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NspAssociations API
+  slug: open-microsoft-azure-nspassociations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NspLinkReferences API
+  slug: open-microsoft-azure-nsplinkreferences-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NspLinks API
+  slug: open-microsoft-azure-nsplinks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NspProfiles API
+  slug: open-microsoft-azure-nspprofiles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NssfDeployments API
+  slug: open-microsoft-azure-nssfdeployments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Number API
+  slug: open-microsoft-azure-number-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Number Verification API
+  slug: open-microsoft-azure-number-verification-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NumberRoutingValidation API
+  slug: open-microsoft-azure-numberroutingvalidation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Numbers API
+  slug: open-microsoft-azure-numbers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector NutrientAnalyses API
+  slug: open-microsoft-azure-nutrientanalyses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OAuth2PermissionGrant_Create API
+  slug: open-microsoft-azure-oauth2permissiongrant-create-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OAuth2PermissionGrant_delete API
+  slug: open-microsoft-azure-oauth2permissiongrant-delete-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OAuth2PermissionGrant_List API
+  slug: open-microsoft-azure-oauth2permissiongrant-list-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OAuthProviders API
+  slug: open-microsoft-azure-oauthproviders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OAuthTokens API
+  slug: open-microsoft-azure-oauthtokens-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Objects API
+  slug: open-microsoft-azure-objects-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ObservabilityServices API
+  slug: open-microsoft-azure-observabilityservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Ocr API
+  slug: open-microsoft-azure-ocr-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OEPResourcePartition API
+  slug: open-microsoft-azure-oepresourcepartition-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OncoPhenotype API
+  slug: open-microsoft-azure-oncophenotype-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OpenAIIntegration API
+  slug: open-microsoft-azure-openaiintegration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OpenID Metadata Discovery API
+  slug: open-microsoft-azure-openid-metadata-discovery-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OpenShiftClusters API
+  slug: open-microsoft-azure-openshiftclusters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Operation API
+  slug: open-microsoft-azure-operation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Operation Status API
+  slug: open-microsoft-azure-operation-status-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OperationalizationClusters API
+  slug: open-microsoft-azure-operationalizationclusters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OperationResults API
+  slug: open-microsoft-azure-operationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Operations API
+  slug: open-microsoft-azure-operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Operations in a Cluster API
+  slug: open-microsoft-azure-operations-in-a-cluster-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OperationsDiscovery API
+  slug: open-microsoft-azure-operationsdiscovery-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OperationsStatus API
+  slug: open-microsoft-azure-operationsstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OperationStatus API
+  slug: open-microsoft-azure-operationstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Operator API
+  slug: open-microsoft-azure-operator-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OrchestratorInstance API
+  slug: open-microsoft-azure-orchestratorinstance-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OrchestratorInstanceList API
+  slug: open-microsoft-azure-orchestratorinstancelist-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Order API
+  slug: open-microsoft-azure-order-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OrderItems API
+  slug: open-microsoft-azure-orderitems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Orders API
+  slug: open-microsoft-azure-orders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Organization API
+  slug: open-microsoft-azure-organization-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Organizations API
+  slug: open-microsoft-azure-organizations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OriginGroups API
+  slug: open-microsoft-azure-origingroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Origins API
+  slug: open-microsoft-azure-origins-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OuContainer API
+  slug: open-microsoft-azure-oucontainer-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OutboundEndpoints API
+  slug: open-microsoft-azure-outboundendpoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector OutboundNetworkDependenciesEndpoints API
+  slug: open-microsoft-azure-outboundnetworkdependenciesendpoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector P2SVpnGateways API
+  slug: open-microsoft-azure-p2svpngateways-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Package API
+  slug: open-microsoft-azure-package-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Parameters API
+  slug: open-microsoft-azure-parameters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Participants API
+  slug: open-microsoft-azure-participants-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Parties API
+  slug: open-microsoft-azure-parties-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Partition API
+  slug: open-microsoft-azure-partition-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Partner API
+  slug: open-microsoft-azure-partner-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PartnerConfigurations API
+  slug: open-microsoft-azure-partnerconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PartnerDestinations API
+  slug: open-microsoft-azure-partnerdestinations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PartnerInventory API
+  slug: open-microsoft-azure-partnerinventory-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PartnerNamespaces API
+  slug: open-microsoft-azure-partnernamespaces-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PartnerRegistrations API
+  slug: open-microsoft-azure-partnerregistrations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Partners API
+  slug: open-microsoft-azure-partners-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PartnerTopics API
+  slug: open-microsoft-azure-partnertopics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PATCH API
+  slug: open-microsoft-azure-patch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PatchSchedules API
+  slug: open-microsoft-azure-patchschedules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PatientTimeline API
+  slug: open-microsoft-azure-patienttimeline-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PaymentMethods API
+  slug: open-microsoft-azure-paymentmethods-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PeerAsns API
+  slug: open-microsoft-azure-peerasns-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PeeringLocations API
+  slug: open-microsoft-azure-peeringlocations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Peerings API
+  slug: open-microsoft-azure-peerings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PeeringServiceLocations API
+  slug: open-microsoft-azure-peeringservicelocations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PeeringServicePrefixes API
+  slug: open-microsoft-azure-peeringserviceprefixes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PeeringServiceProviders API
+  slug: open-microsoft-azure-peeringserviceproviders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PeeringServices API
+  slug: open-microsoft-azure-peeringservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PersonalVoice API
+  slug: open-microsoft-azure-personalvoice-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PersonDirectory API
+  slug: open-microsoft-azure-persondirectory-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Persongroups API
+  slug: open-microsoft-azure-persongroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Pipeline API
+  slug: open-microsoft-azure-pipeline-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Pipelines API
+  slug: open-microsoft-azure-pipelines-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PipelineTemplateDefinitions API
+  slug: open-microsoft-azure-pipelinetemplatedefinitions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Plan API
+  slug: open-microsoft-azure-plan-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PlantingData API
+  slug: open-microsoft-azure-plantingdata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PlantTissueAnalyses API
+  slug: open-microsoft-azure-planttissueanalyses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Policies API
+  slug: open-microsoft-azure-policies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Policy API
+  slug: open-microsoft-azure-policy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Policy Management Certificates API
+  slug: open-microsoft-azure-policy-management-certificates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PolicyElements API
+  slug: open-microsoft-azure-policyelements-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PolicyEvents API
+  slug: open-microsoft-azure-policyevents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PolicyFragment API
+  slug: open-microsoft-azure-policyfragment-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PolicyListing API
+  slug: open-microsoft-azure-policylisting-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PolicySets API
+  slug: open-microsoft-azure-policysets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Pool API
+  slug: open-microsoft-azure-pool-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Pool Change API
+  slug: open-microsoft-azure-pool-change-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Pools API
+  slug: open-microsoft-azure-pools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Poolusagemetrics API
+  slug: open-microsoft-azure-poolusagemetrics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PortalRegistryPackage API
+  slug: open-microsoft-azure-portalregistrypackage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PortalTenant API
+  slug: open-microsoft-azure-portaltenant-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Ports API
+  slug: open-microsoft-azure-ports-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector POST API
+  slug: open-microsoft-azure-post-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PostRules API
+  slug: open-microsoft-azure-postrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PowerBIResources API
+  slug: open-microsoft-azure-powerbiresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Prebuilt API
+  slug: open-microsoft-azure-prebuilt-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PreconfiguredEndpoints API
+  slug: open-microsoft-azure-preconfiguredendpoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PreConnections API
+  slug: open-microsoft-azure-preconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Prediction API
+  slug: open-microsoft-azure-prediction-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Predictions API
+  slug: open-microsoft-azure-predictions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PredictionsApi API
+  slug: open-microsoft-azure-predictionsapi-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrefixListGlobalRulestack API
+  slug: open-microsoft-azure-prefixlistglobalrulestack-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrefixListLocalRulestack API
+  slug: open-microsoft-azure-prefixlistlocalrulestack-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PreRules API
+  slug: open-microsoft-azure-prerules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrescriptionMaps API
+  slug: open-microsoft-azure-prescriptionmaps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Prescriptions API
+  slug: open-microsoft-azure-prescriptions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PriceSheet API
+  slug: open-microsoft-azure-pricesheet-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateClouds API
+  slug: open-microsoft-azure-privateclouds-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateEndpoint API
+  slug: open-microsoft-azure-privateendpoint-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateEndpointConnection API
+  slug: open-microsoft-azure-privateendpointconnection-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateEndpointConnection Resource API
+  slug: open-microsoft-azure-privateendpointconnection-resource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateEndpointConnectionController API
+  slug: open-microsoft-azure-privateendpointconnectioncontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateEndpointConnectionOperations API
+  slug: open-microsoft-azure-privateendpointconnectionoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateEndpointConnectionProxies API
+  slug: open-microsoft-azure-privateendpointconnectionproxies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateEndpointConnectionProxyController API
+  slug: open-microsoft-azure-privateendpointconnectionproxycontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateEndpointConnections API
+  slug: open-microsoft-azure-privateendpointconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateEndpointConnectionsController API
+  slug: open-microsoft-azure-privateendpointconnectionscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLink API
+  slug: open-microsoft-azure-privatelink-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLinkAssociation API
+  slug: open-microsoft-azure-privatelinkassociation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLinkResource API
+  slug: open-microsoft-azure-privatelinkresource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLinkResourceController API
+  slug: open-microsoft-azure-privatelinkresourcecontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLinkResourceOperations API
+  slug: open-microsoft-azure-privatelinkresourceoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLinkResources API
+  slug: open-microsoft-azure-privatelinkresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLinkResourcesController API
+  slug: open-microsoft-azure-privatelinkresourcescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLinkScopedResources API
+  slug: open-microsoft-azure-privatelinkscopedresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLinkServiceResourceOperationResults API
+  slug: open-microsoft-azure-privatelinkserviceresourceoperationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateLinkServices API
+  slug: open-microsoft-azure-privatelinkservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PrivateZones API
+  slug: open-microsoft-azure-privatezones-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProblemClassifications API
+  slug: open-microsoft-azure-problemclassifications-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Processes API
+  slug: open-microsoft-azure-processes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Product API
+  slug: open-microsoft-azure-product-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProductApiLink API
+  slug: open-microsoft-azure-productapilink-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProductFamilyMetadata API
+  slug: open-microsoft-azure-productfamilymetadata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProductGroupLink API
+  slug: open-microsoft-azure-productgrouplink-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProductPolicy API
+  slug: open-microsoft-azure-productpolicy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Products API
+  slug: open-microsoft-azure-products-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProductsAndConfigurations API
+  slug: open-microsoft-azure-productsandconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProductSecrets API
+  slug: open-microsoft-azure-productsecrets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProfessionalServiceOperations API
+  slug: open-microsoft-azure-professionalserviceoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProfessionalServiceResources API
+  slug: open-microsoft-azure-professionalserviceresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Profile API
+  slug: open-microsoft-azure-profile-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Profiles API
+  slug: open-microsoft-azure-profiles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Project API
+  slug: open-microsoft-azure-project-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProjectApi API
+  slug: open-microsoft-azure-projectapi-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Projects API
+  slug: open-microsoft-azure-projects-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Property Management API
+  slug: open-microsoft-azure-property-management-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectableContainers API
+  slug: open-microsoft-azure-protectablecontainers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectedItem API
+  slug: open-microsoft-azure-protecteditem-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectedItemOperationResults API
+  slug: open-microsoft-azure-protecteditemoperationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectedItemOperationStatuses API
+  slug: open-microsoft-azure-protecteditemoperationstatuses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectedItems API
+  slug: open-microsoft-azure-protecteditems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectionContainerOperationResults API
+  slug: open-microsoft-azure-protectioncontaineroperationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectionContainerRefreshOperationResults API
+  slug: open-microsoft-azure-protectioncontainerrefreshoperationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectionContainers API
+  slug: open-microsoft-azure-protectioncontainers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectionIntent API
+  slug: open-microsoft-azure-protectionintent-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectionPolicies API
+  slug: open-microsoft-azure-protectionpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectionPolicyOperationResults API
+  slug: open-microsoft-azure-protectionpolicyoperationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProtectionPolicyOperationStatuses API
+  slug: open-microsoft-azure-protectionpolicyoperationstatuses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Provider API
+  slug: open-microsoft-azure-provider-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProviderOperations API
+  slug: open-microsoft-azure-provideroperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProviderRegistration API
+  slug: open-microsoft-azure-providerregistration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Providers API
+  slug: open-microsoft-azure-providers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Proxy API
+  slug: open-microsoft-azure-proxy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ProxyOperations API
+  slug: open-microsoft-azure-proxyoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Public-Offers-Listing API
+  slug: open-microsoft-azure-public-offers-listing-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Public-Offers-Single API
+  slug: open-microsoft-azure-public-offers-single-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Public-Search API
+  slug: open-microsoft-azure-public-search-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Public-Suggestions API
+  slug: open-microsoft-azure-public-suggestions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PublicIpAddresses API
+  slug: open-microsoft-azure-publicipaddresses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PublicKeys API
+  slug: open-microsoft-azure-publickeys-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PublicMaintenanceConfigurations API
+  slug: open-microsoft-azure-publicmaintenanceconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PublishedArtifact API
+  slug: open-microsoft-azure-publishedartifact-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PublishedBlueprint API
+  slug: open-microsoft-azure-publishedblueprint-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Publishers API
+  slug: open-microsoft-azure-publishers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PurviewPolicies API
+  slug: open-microsoft-azure-purviewpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector PUT API
+  slug: open-microsoft-azure-put-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Query API
+  slug: open-microsoft-azure-query-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector :Query Knowledgebases API
+  slug: open-microsoft-azure-query-knowledgebases-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector :Query Text API
+  slug: open-microsoft-azure-query-text-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector QueryGeneration API
+  slug: open-microsoft-azure-querygeneration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector QueryKeys API
+  slug: open-microsoft-azure-querykeys-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector QueryTexts API
+  slug: open-microsoft-azure-querytexts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector QuickPulseService API
+  slug: open-microsoft-azure-quickpulseservice-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector QuotaInformation API
+  slug: open-microsoft-azure-quotainformation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector QuotaRequests API
+  slug: open-microsoft-azure-quotarequests-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Quotas API
+  slug: open-microsoft-azure-quotas-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RadiologyInsights API
+  slug: open-microsoft-azure-radiologyinsights-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Rank API
+  slug: open-microsoft-azure-rank-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RateCard API
+  slug: open-microsoft-azure-ratecard-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RealUserMetrics API
+  slug: open-microsoft-azure-realusermetrics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReceivedShare API
+  slug: open-microsoft-azure-receivedshare-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector recognizeText API
+  slug: open-microsoft-azure-recognizetext-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Recommendations API
+  slug: open-microsoft-azure-recommendations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RecommendedActions API
+  slug: open-microsoft-azure-recommendedactions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RecommendedActionSessions API
+  slug: open-microsoft-azure-recommendedactionsessions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Recording API
+  slug: open-microsoft-azure-recording-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RecordSets API
+  slug: open-microsoft-azure-recordsets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RecoveryPoint API
+  slug: open-microsoft-azure-recoverypoint-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RecoveryPoints API
+  slug: open-microsoft-azure-recoverypoints-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RecoveryPointsRecommendedForMove API
+  slug: open-microsoft-azure-recoverypointsrecommendedformove-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Recurrence API
+  slug: open-microsoft-azure-recurrence-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Redis API
+  slug: open-microsoft-azure-redis-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RedisEnterprise API
+  slug: open-microsoft-azure-redisenterprise-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReferenceDataSets API
+  slug: open-microsoft-azure-referencedatasets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RefreshSetPasswordLink API
+  slug: open-microsoft-azure-refreshsetpasswordlink-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RefreshToken API
+  slug: open-microsoft-azure-refreshtoken-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RegisteredServer Resource API
+  slug: open-microsoft-azure-registeredserver-resource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector registerStorageConfiguration API
+  slug: open-microsoft-azure-registerstorageconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RegistrationAssignments API
+  slug: open-microsoft-azure-registrationassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RegistrationDefinitions API
+  slug: open-microsoft-azure-registrationdefinitions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Registrations API
+  slug: open-microsoft-azure-registrations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Relationship API
+  slug: open-microsoft-azure-relationship-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RelationshipLinks API
+  slug: open-microsoft-azure-relationshiplinks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Relationships API
+  slug: open-microsoft-azure-relationships-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Rendering Session API
+  slug: open-microsoft-azure-rendering-session-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RepairManagement API
+  slug: open-microsoft-azure-repairmanagement-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Replica API
+  slug: open-microsoft-azure-replica-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Replicas API
+  slug: open-microsoft-azure-replicas-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationAlertSettings API
+  slug: open-microsoft-azure-replicationalertsettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationAppliances API
+  slug: open-microsoft-azure-replicationappliances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationEligibilityResults API
+  slug: open-microsoft-azure-replicationeligibilityresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationEvents API
+  slug: open-microsoft-azure-replicationevents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationExtension API
+  slug: open-microsoft-azure-replicationextension-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationFabrics API
+  slug: open-microsoft-azure-replicationfabrics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationJobs API
+  slug: open-microsoft-azure-replicationjobs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationLogicalNetworks API
+  slug: open-microsoft-azure-replicationlogicalnetworks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationMigrationItems API
+  slug: open-microsoft-azure-replicationmigrationitems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationNetworkMappings API
+  slug: open-microsoft-azure-replicationnetworkmappings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationNetworks API
+  slug: open-microsoft-azure-replicationnetworks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationPolicies API
+  slug: open-microsoft-azure-replicationpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationProtectableItems API
+  slug: open-microsoft-azure-replicationprotectableitems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationProtectedItems API
+  slug: open-microsoft-azure-replicationprotecteditems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationProtectionContainerMappings API
+  slug: open-microsoft-azure-replicationprotectioncontainermappings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationProtectionContainers API
+  slug: open-microsoft-azure-replicationprotectioncontainers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationProtectionIntents API
+  slug: open-microsoft-azure-replicationprotectionintents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationRecoveryPlans API
+  slug: open-microsoft-azure-replicationrecoveryplans-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationRecoveryServicesProviders API
+  slug: open-microsoft-azure-replicationrecoveryservicesproviders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationStorageClassificationMappings API
+  slug: open-microsoft-azure-replicationstorageclassificationmappings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationStorageClassifications API
+  slug: open-microsoft-azure-replicationstorageclassifications-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationVaultHealth API
+  slug: open-microsoft-azure-replicationvaulthealth-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationVaultSetting API
+  slug: open-microsoft-azure-replicationvaultsetting-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReplicationvCenters API
+  slug: open-microsoft-azure-replicationvcenters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Reports API
+  slug: open-microsoft-azure-reports-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Repositories API
+  slug: open-microsoft-azure-repositories-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Repository API
+  slug: open-microsoft-azure-repository-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Requests API
+  slug: open-microsoft-azure-requests-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Reservation Order Aliases API
+  slug: open-microsoft-azure-reservation-order-aliases-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReservationRecommendations API
+  slug: open-microsoft-azure-reservationrecommendations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ReservedInstances API
+  slug: open-microsoft-azure-reservedinstances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Reset Cifs Password API
+  slug: open-microsoft-azure-reset-cifs-password-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Resource API
+  slug: open-microsoft-azure-resource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Resource Groups API
+  slug: open-microsoft-azure-resource-groups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceActions API
+  slug: open-microsoft-azure-resourceactions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceChanges API
+  slug: open-microsoft-azure-resourcechanges-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceDetails API
+  slug: open-microsoft-azure-resourcedetails-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceGroups API
+  slug: open-microsoft-azure-resourcegroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceGuardProxies API
+  slug: open-microsoft-azure-resourceguardproxies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceGuardProxy API
+  slug: open-microsoft-azure-resourceguardproxy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceGuards API
+  slug: open-microsoft-azure-resourceguards-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceHealthMetadata API
+  slug: open-microsoft-azure-resourcehealthmetadata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceLinks API
+  slug: open-microsoft-azure-resourcelinks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceManagementPrivateLink API
+  slug: open-microsoft-azure-resourcemanagementprivatelink-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourcePools API
+  slug: open-microsoft-azure-resourcepools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceProvider API
+  slug: open-microsoft-azure-resourceprovider-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Resources API
+  slug: open-microsoft-azure-resources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceSetRuleConfig API
+  slug: open-microsoft-azure-resourcesetruleconfig-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector resourceSyncRules API
+  slug: open-microsoft-azure-resourcesyncrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceTypeRegistration API
+  slug: open-microsoft-azure-resourcetyperegistration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ResourceTypeSku API
+  slug: open-microsoft-azure-resourcetypesku-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RestorableDroppedSqlPools API
+  slug: open-microsoft-azure-restorabledroppedsqlpools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Restore API
+  slug: open-microsoft-azure-restore-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Restores API
+  slug: open-microsoft-azure-restores-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Revisions API
+  slug: open-microsoft-azure-revisions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RevokeApiKey API
+  slug: open-microsoft-azure-revokeapikey-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RoleAssignments API
+  slug: open-microsoft-azure-roleassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RoleInstances API
+  slug: open-microsoft-azure-roleinstances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Roles API
+  slug: open-microsoft-azure-roles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Rooms API
+  slug: open-microsoft-azure-rooms-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RootCauseAnalysisDataSet API
+  slug: open-microsoft-azure-rootcauseanalysisdataset-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RootCauseAnalysisInstance API
+  slug: open-microsoft-azure-rootcauseanalysisinstance-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RootCauseAnalysisKind API
+  slug: open-microsoft-azure-rootcauseanalysiskind-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RootCauseAnalysisModel API
+  slug: open-microsoft-azure-rootcauseanalysismodel-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Route API
+  slug: open-microsoft-azure-route-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Routes API
+  slug: open-microsoft-azure-routes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Routesets API
+  slug: open-microsoft-azure-routesets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RouteTables API
+  slug: open-microsoft-azure-routetables-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Routing API
+  slug: open-microsoft-azure-routing-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RoutingConfigurations API
+  slug: open-microsoft-azure-routingconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RoutingRuleCollections API
+  slug: open-microsoft-azure-routingrulecollections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RoutingRules API
+  slug: open-microsoft-azure-routingrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RuleCollections API
+  slug: open-microsoft-azure-rulecollections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Rules API
+  slug: open-microsoft-azure-rules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Run API
+  slug: open-microsoft-azure-run-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RunArtifacts API
+  slug: open-microsoft-azure-runartifacts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RunAsAccountsController API
+  slug: open-microsoft-azure-runasaccountscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector RunMetrics API
+  slug: open-microsoft-azure-runmetrics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SaaSOperations API
+  slug: open-microsoft-azure-saasoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SaaSResources API
+  slug: open-microsoft-azure-saasresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Saved Filters API
+  slug: open-microsoft-azure-saved-filters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Savings Plan API
+  slug: open-microsoft-azure-savings-plan-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Savings Plan Order Aliases API
+  slug: open-microsoft-azure-savings-plan-order-aliases-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Savings Plan Order API
+  slug: open-microsoft-azure-savings-plan-order-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ScaleUnitNodes API
+  slug: open-microsoft-azure-scaleunitnodes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ScalingPlan API
+  slug: open-microsoft-azure-scalingplan-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ScalingPlanPersonalSchedule API
+  slug: open-microsoft-azure-scalingplanpersonalschedule-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ScalingPlanPooledSchedule API
+  slug: open-microsoft-azure-scalingplanpooledschedule-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Scan API
+  slug: open-microsoft-azure-scan-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ScanResult API
+  slug: open-microsoft-azure-scanresult-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ScanRulesets API
+  slug: open-microsoft-azure-scanrulesets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Scenes API
+  slug: open-microsoft-azure-scenes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ScheduledEvents API
+  slug: open-microsoft-azure-scheduledevents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector scheduledJobs API
+  slug: open-microsoft-azure-scheduledjobs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector scheduledQueryRules API
+  slug: open-microsoft-azure-scheduledqueryrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Schedules API
+  slug: open-microsoft-azure-schedules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Schema API
+  slug: open-microsoft-azure-schema-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector $schemaGroups API
+  slug: open-microsoft-azure-schemagroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SCOM Instance API
+  slug: open-microsoft-azure-scom-instance-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SCOM Instances API
+  slug: open-microsoft-azure-scom-instances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ScopeAssignments API
+  slug: open-microsoft-azure-scopeassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ScopeConnections API
+  slug: open-microsoft-azure-scopeconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Search API
+  slug: open-microsoft-azure-search-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SeasonalFields API
+  slug: open-microsoft-azure-seasonalfields-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Seasons API
+  slug: open-microsoft-azure-seasons-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Secrets API
+  slug: open-microsoft-azure-secrets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Security Contacts API
+  slug: open-microsoft-azure-security-contacts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SecurityAdminConfigurations API
+  slug: open-microsoft-azure-securityadminconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SecurityAdvisoryImpactedResources API
+  slug: open-microsoft-azure-securityadvisoryimpactedresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SecurityAlert API
+  slug: open-microsoft-azure-securityalert-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SecurityConnectors API
+  slug: open-microsoft-azure-securityconnectors-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SecurityPINs API
+  slug: open-microsoft-azure-securitypins-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SecurityRules API
+  slug: open-microsoft-azure-securityrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SecurityUserConfigurations API
+  slug: open-microsoft-azure-securityuserconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SelfServicePolicies API
+  slug: open-microsoft-azure-selfservicepolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector sensitivitySettings API
+  slug: open-microsoft-azure-sensitivitysettings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SensorDataModels API
+  slug: open-microsoft-azure-sensordatamodels-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SensorEvents API
+  slug: open-microsoft-azure-sensorevents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SensorMappings API
+  slug: open-microsoft-azure-sensormappings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SensorPartnerIntegrations API
+  slug: open-microsoft-azure-sensorpartnerintegrations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Sensors API
+  slug: open-microsoft-azure-sensors-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Sentiment API
+  slug: open-microsoft-azure-sentiment-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SentShare API
+  slug: open-microsoft-azure-sentshare-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SentShareInvitation API
+  slug: open-microsoft-azure-sentshareinvitation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SerialPorts API
+  slug: open-microsoft-azure-serialports-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerAdministrators API
+  slug: open-microsoft-azure-serveradministrators-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerCall API
+  slug: open-microsoft-azure-servercall-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerCollectorsOperations API
+  slug: open-microsoft-azure-servercollectorsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerDependencyMapController API
+  slug: open-microsoft-azure-serverdependencymapcontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerEndpoint Resource API
+  slug: open-microsoft-azure-serverendpoint-resource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerFarms API
+  slug: open-microsoft-azure-serverfarms-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerGroupOperations API
+  slug: open-microsoft-azure-servergroupoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerGroups API
+  slug: open-microsoft-azure-servergroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerJobsController API
+  slug: open-microsoft-azure-serverjobscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerMetrics API
+  slug: open-microsoft-azure-servermetrics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerOperationsStatusController API
+  slug: open-microsoft-azure-serveroperationsstatuscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerRestart API
+  slug: open-microsoft-azure-serverrestart-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerRunAsAccountsController API
+  slug: open-microsoft-azure-serverrunasaccountscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Servers API
+  slug: open-microsoft-azure-servers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServersController API
+  slug: open-microsoft-azure-serverscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerSecurityAlertPolicies API
+  slug: open-microsoft-azure-serversecurityalertpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerSitesController API
+  slug: open-microsoft-azure-serversitescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServerSoftwareInventoriesController API
+  slug: open-microsoft-azure-serversoftwareinventoriescontroller-api
+- collection_type: open
+  name: 'Microsoft Azure AccessControlClient AccessConnector Service Health: API'
+  slug: open-microsoft-azure-service-health-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Service Package API
+  slug: open-microsoft-azure-service-package-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServiceFabrics API
+  slug: open-microsoft-azure-servicefabrics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServiceFabricSchedules API
+  slug: open-microsoft-azure-servicefabricschedules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServiceHealths API
+  slug: open-microsoft-azure-servicehealths-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServiceMembers API
+  slug: open-microsoft-azure-servicemembers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServicePrincipal API
+  slug: open-microsoft-azure-serviceprincipal-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServicePrincipalAppRoleAssignedTo API
+  slug: open-microsoft-azure-serviceprincipalapproleassignedto-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServicePrincipalAppRoleAssignments API
+  slug: open-microsoft-azure-serviceprincipalapproleassignments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServicePrincipalKeyCredentials API
+  slug: open-microsoft-azure-serviceprincipalkeycredentials-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServicePrincipalOwners API
+  slug: open-microsoft-azure-serviceprincipalowners-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServicePrincipalPasswordCredentials API
+  slug: open-microsoft-azure-serviceprincipalpasswordcredentials-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector servicePrincipals API
+  slug: open-microsoft-azure-serviceprincipals-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServicePrincipalsByAppId API
+  slug: open-microsoft-azure-serviceprincipalsbyappid-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServiceRunners API
+  slug: open-microsoft-azure-servicerunners-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Services API
+  slug: open-microsoft-azure-services-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Servicestats API
+  slug: open-microsoft-azure-servicestats-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ServiceType API
+  slug: open-microsoft-azure-servicetype-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SessionHost API
+  slug: open-microsoft-azure-sessionhost-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SessionHostConfiguration API
+  slug: open-microsoft-azure-sessionhostconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SessionHostConfigurations API
+  slug: open-microsoft-azure-sessionhostconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SessionHostManagement API
+  slug: open-microsoft-azure-sessionhostmanagement-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SessionHostManagements API
+  slug: open-microsoft-azure-sessionhostmanagements-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Settings API
+  slug: open-microsoft-azure-settings-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Share API
+  slug: open-microsoft-azure-share-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SharedGalleries API
+  slug: open-microsoft-azure-sharedgalleries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SharedGalleryImages API
+  slug: open-microsoft-azure-sharedgalleryimages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SharedGalleryImageVersions API
+  slug: open-microsoft-azure-sharedgalleryimageversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SharedPrivateLinkResources API
+  slug: open-microsoft-azure-sharedprivatelinkresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ShareResource API
+  slug: open-microsoft-azure-shareresource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Shares API
+  slug: open-microsoft-azure-shares-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ShareSubscription API
+  slug: open-microsoft-azure-sharesubscription-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SignalR API
+  slug: open-microsoft-azure-signalr-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SignedInUser API
+  slug: open-microsoft-azure-signedinuser-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Sim Swap API
+  slug: open-microsoft-azure-sim-swap-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector simplifiedSolutions API
+  slug: open-microsoft-azure-simplifiedsolutions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SingleSignOn API
+  slug: open-microsoft-azure-singlesignon-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SipConfiguration API
+  slug: open-microsoft-azure-sipconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Sites API
+  slug: open-microsoft-azure-sites-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SitesController API
+  slug: open-microsoft-azure-sitescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Skillsets API
+  slug: open-microsoft-azure-skillsets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Sku API
+  slug: open-microsoft-azure-sku-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Skus API
+  slug: open-microsoft-azure-skus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SmfDeployments API
+  slug: open-microsoft-azure-smfdeployments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Sms API
+  slug: open-microsoft-azure-sms-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Snapshot Policy API
+  slug: open-microsoft-azure-snapshot-policy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Snapshot Policy List Volumes API
+  slug: open-microsoft-azure-snapshot-policy-list-volumes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Snapshots API
+  slug: open-microsoft-azure-snapshots-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SoftDeletedContainers API
+  slug: open-microsoft-azure-softdeletedcontainers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Software Plan API
+  slug: open-microsoft-azure-software-plan-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Software Plan Operations API
+  slug: open-microsoft-azure-software-plan-operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Software Update Configuration Run API
+  slug: open-microsoft-azure-software-update-configuration-run-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Solution API
+  slug: open-microsoft-azure-solution-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SolutionInference API
+  slug: open-microsoft-azure-solutioninference-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Solutions API
+  slug: open-microsoft-azure-solutions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SolutionsController API
+  slug: open-microsoft-azure-solutionscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SolutionsDiscoverability API
+  slug: open-microsoft-azure-solutionsdiscoverability-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SolutionSelfHelp API
+  slug: open-microsoft-azure-solutionselfhelp-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SourceControlConfiguration API
+  slug: open-microsoft-azure-sourcecontrolconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Spaces API
+  slug: open-microsoft-azure-spaces-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SparkBatch API
+  slug: open-microsoft-azure-sparkbatch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SparkSession API
+  slug: open-microsoft-azure-sparksession-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Spatial API
+  slug: open-microsoft-azure-spatial-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SpellCheck API
+  slug: open-microsoft-azure-spellcheck-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Split Clone Volume API
+  slug: open-microsoft-azure-split-clone-volume-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector spotPlacementRecommender API
+  slug: open-microsoft-azure-spotplacementrecommender-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Springbootapps API
+  slug: open-microsoft-azure-springbootapps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Springbootservers API
+  slug: open-microsoft-azure-springbootservers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Springbootsites API
+  slug: open-microsoft-azure-springbootsites-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlAssessmentOptionsOperations API
+  slug: open-microsoft-azure-sqlassessmentoptionsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlAssessmentV2Operations API
+  slug: open-microsoft-azure-sqlassessmentv2operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlAssessmentV2SummaryOperations API
+  slug: open-microsoft-azure-sqlassessmentv2summaryoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlAvailabilityGroupsController API
+  slug: open-microsoft-azure-sqlavailabilitygroupscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlCollectorOperations API
+  slug: open-microsoft-azure-sqlcollectoroperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlDatabasesController API
+  slug: open-microsoft-azure-sqldatabasescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlDiscoverySiteDataSourceController API
+  slug: open-microsoft-azure-sqldiscoverysitedatasourcecontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlJobsController API
+  slug: open-microsoft-azure-sqljobscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlMigrationServices API
+  slug: open-microsoft-azure-sqlmigrationservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlOperationsStatusController API
+  slug: open-microsoft-azure-sqloperationsstatuscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlPoolsV3 API
+  slug: open-microsoft-azure-sqlpoolsv3-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlRunAsAccountsController API
+  slug: open-microsoft-azure-sqlrunasaccountscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlServerRegistrations API
+  slug: open-microsoft-azure-sqlserverregistrations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlServers API
+  slug: open-microsoft-azure-sqlservers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlServersController API
+  slug: open-microsoft-azure-sqlserverscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlSitesController API
+  slug: open-microsoft-azure-sqlsitescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlVirtualMachineGroups API
+  slug: open-microsoft-azure-sqlvirtualmachinegroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlVirtualMachines API
+  slug: open-microsoft-azure-sqlvirtualmachines-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SqlVirtualMachineTroubleshoot API
+  slug: open-microsoft-azure-sqlvirtualmachinetroubleshoot-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StandbyContainerGroupPools API
+  slug: open-microsoft-azure-standbycontainergrouppools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StandbyVirtualMachinePools API
+  slug: open-microsoft-azure-standbyvirtualmachinepools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StandbyVirtualMachines API
+  slug: open-microsoft-azure-standbyvirtualmachines-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StartMenuItem API
+  slug: open-microsoft-azure-startmenuitem-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StaticMembers API
+  slug: open-microsoft-azure-staticmembers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StaticSites API
+  slug: open-microsoft-azure-staticsites-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Storage Actions Operations API
+  slug: open-microsoft-azure-storage-actions-operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Storage API
+  slug: open-microsoft-azure-storage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageAccountCredentials API
+  slug: open-microsoft-azure-storageaccountcredentials-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageAccounts API
+  slug: open-microsoft-azure-storageaccounts-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageClass API
+  slug: open-microsoft-azure-storageclass-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageDomains API
+  slug: open-microsoft-azure-storagedomains-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageImportExport API
+  slug: open-microsoft-azure-storageimportexport-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageMovers API
+  slug: open-microsoft-azure-storagemovers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StoragePoolOperations API
+  slug: open-microsoft-azure-storagepooloperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageSyncService API
+  slug: open-microsoft-azure-storagesyncservice-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageSyncServices Resource API
+  slug: open-microsoft-azure-storagesyncservices-resource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageTargets API
+  slug: open-microsoft-azure-storagetargets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StorageTasks API
+  slug: open-microsoft-azure-storagetasks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Stored Procedures API
+  slug: open-microsoft-azure-stored-procedures-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Stream API
+  slug: open-microsoft-azure-stream-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector StudentLabs API
+  slug: open-microsoft-azure-studentlabs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Students API
+  slug: open-microsoft-azure-students-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Styles API
+  slug: open-microsoft-azure-styles-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SubAccount API
+  slug: open-microsoft-azure-subaccount-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Subnets API
+  slug: open-microsoft-azure-subnets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Subscription API
+  slug: open-microsoft-azure-subscription-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SubscriptionDefinitions API
+  slug: open-microsoft-azure-subscriptiondefinitions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SubscriptionLevelProfessionalServiceResources API
+  slug: open-microsoft-azure-subscriptionlevelprofessionalserviceresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SubscriptionLevelSaaSResources API
+  slug: open-microsoft-azure-subscriptionlevelsaasresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Subscriptions API
+  slug: open-microsoft-azure-subscriptions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Subvolumes API
+  slug: open-microsoft-azure-subvolumes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SuggestTagsAndRegionsApi API
+  slug: open-microsoft-azure-suggesttagsandregionsapi-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Summaries API
+  slug: open-microsoft-azure-summaries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Supportedimages API
+  slug: open-microsoft-azure-supportedimages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SupportedOperatingSystems API
+  slug: open-microsoft-azure-supportedoperatingsystems-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SupportPackages API
+  slug: open-microsoft-azure-supportpackages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SupportTickets API
+  slug: open-microsoft-azure-supporttickets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SuppressionLists API
+  slug: open-microsoft-azure-suppressionlists-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SynapseRbacScopes API
+  slug: open-microsoft-azure-synapserbacscopes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SynapseRoleDefinitions API
+  slug: open-microsoft-azure-synapseroledefinitions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SyncGroup Resource API
+  slug: open-microsoft-azure-syncgroup-resource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SynchronizationSetting API
+  slug: open-microsoft-azure-synchronizationsetting-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SynonymMaps API
+  slug: open-microsoft-azure-synonymmaps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SystemScanRulesets API
+  slug: open-microsoft-azure-systemscanrulesets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector SystemTopics API
+  slug: open-microsoft-azure-systemtopics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Table API
+  slug: open-microsoft-azure-table-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Tag API
+  slug: open-microsoft-azure-tag-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TagApiLink API
+  slug: open-microsoft-azure-tagapilink-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TagOperationLink API
+  slug: open-microsoft-azure-tagoperationlink-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TagProductLink API
+  slug: open-microsoft-azure-tagproductlink-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TagRules API
+  slug: open-microsoft-azure-tagrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Tags API
+  slug: open-microsoft-azure-tags-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TagsApi API
+  slug: open-microsoft-azure-tagsapi-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TargetComputeSizes API
+  slug: open-microsoft-azure-targetcomputesizes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Targets API
+  slug: open-microsoft-azure-targets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Tasks API
+  slug: open-microsoft-azure-tasks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TcbBaseline API
+  slug: open-microsoft-azure-tcbbaseline-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TeamsAvailableCapabilities API
+  slug: open-microsoft-azure-teamsavailablecapabilities-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TeamsCapabilityPlans API
+  slug: open-microsoft-azure-teamscapabilityplans-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TeamsCivicAddress API
+  slug: open-microsoft-azure-teamscivicaddress-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TeamsCivicAddresses API
+  slug: open-microsoft-azure-teamscivicaddresses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TeamsRequestForInformation API
+  slug: open-microsoft-azure-teamsrequestforinformation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Template API
+  slug: open-microsoft-azure-template-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TemplateSpecs API
+  slug: open-microsoft-azure-templatespecs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TemplateSpecVersions API
+  slug: open-microsoft-azure-templatespecversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Tenant API
+  slug: open-microsoft-azure-tenant-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TenantEmailRegistration API
+  slug: open-microsoft-azure-tenantemailregistration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Test API
+  slug: open-microsoft-azure-test-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Test Base Account API
+  slug: open-microsoft-azure-test-base-account-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Test Base Customer Event API
+  slug: open-microsoft-azure-test-base-customer-event-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Test Base Customer Notification Events API
+  slug: open-microsoft-azure-test-base-customer-notification-events-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Test Base Email Event API
+  slug: open-microsoft-azure-test-base-email-event-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Test Base Package API
+  slug: open-microsoft-azure-test-base-package-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Test Result API
+  slug: open-microsoft-azure-test-result-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TestLines API
+  slug: open-microsoft-azure-testlines-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TestRun API
+  slug: open-microsoft-azure-testrun-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Text:analyze API
+  slug: open-microsoft-azure-text-analyze-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Text API
+  slug: open-microsoft-azure-text-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Text-Dependent API
+  slug: open-microsoft-azure-text-dependent-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector text:detectGroundedness API
+  slug: open-microsoft-azure-text-detectgroundedness-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector text:detectJailbreak API
+  slug: open-microsoft-azure-text-detectjailbreak-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector text:detectProtectedMaterial API
+  slug: open-microsoft-azure-text-detectprotectedmaterial-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Text-Independent API
+  slug: open-microsoft-azure-text-independent-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector text:shieldPrompt API
+  slug: open-microsoft-azure-text-shieldprompt-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TextModeration API
+  slug: open-microsoft-azure-textmoderation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector textOperations API
+  slug: open-microsoft-azure-textoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Threads API
+  slug: open-microsoft-azure-threads-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ThroughputPools API
+  slug: open-microsoft-azure-throughputpools-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Tilesets API
+  slug: open-microsoft-azure-tilesets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TillageData API
+  slug: open-microsoft-azure-tillagedata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Timeseries API
+  slug: open-microsoft-azure-timeseries-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Timezone API
+  slug: open-microsoft-azure-timezone-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Token API
+  slug: open-microsoft-azure-token-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TomcatWebApplicationsController API
+  slug: open-microsoft-azure-tomcatwebapplicationscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TomcatWebServersController API
+  slug: open-microsoft-azure-tomcatwebserverscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Topics API
+  slug: open-microsoft-azure-topics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TopicTypes API
+  slug: open-microsoft-azure-topictypes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TopLevelDomains API
+  slug: open-microsoft-azure-topleveldomains-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TopQueryStatistics API
+  slug: open-microsoft-azure-topquerystatistics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Track API
+  slug: open-microsoft-azure-track-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Traffic API
+  slug: open-microsoft-azure-traffic-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TrafficControllerInterface API
+  slug: open-microsoft-azure-trafficcontrollerinterface-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TrafficFilter API
+  slug: open-microsoft-azure-trafficfilter-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TrainingSet API
+  slug: open-microsoft-azure-trainingset-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TransactionNode API
+  slug: open-microsoft-azure-transactionnode-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Transformations API
+  slug: open-microsoft-azure-transformations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Translate API
+  slug: open-microsoft-azure-translate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Transliterate API
+  slug: open-microsoft-azure-transliterate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TrialMatcher API
+  slug: open-microsoft-azure-trialmatcher-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Trigger API
+  slug: open-microsoft-azure-trigger-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Triggers API
+  slug: open-microsoft-azure-triggers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Troubleshooter API
+  slug: open-microsoft-azure-troubleshooter-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TrustedIdProviders API
+  slug: open-microsoft-azure-trustedidproviders-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Turn API
+  slug: open-microsoft-azure-turn-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Twins API
+  slug: open-microsoft-azure-twins-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Type API
+  slug: open-microsoft-azure-type-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Types API
+  slug: open-microsoft-azure-types-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector TypingNotifications API
+  slug: open-microsoft-azure-typingnotifications-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Update Management API
+  slug: open-microsoft-azure-update-management-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UpdateRuns API
+  slug: open-microsoft-azure-updateruns-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Updates API
+  slug: open-microsoft-azure-updates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UpfDeployments API
+  slug: open-microsoft-azure-upfdeployments-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Usage API
+  slug: open-microsoft-azure-usage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UsageAggregates API
+  slug: open-microsoft-azure-usageaggregates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UsageDetails API
+  slug: open-microsoft-azure-usagedetails-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UsageModels API
+  slug: open-microsoft-azure-usagemodels-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Usages API
+  slug: open-microsoft-azure-usages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UsagesInformation API
+  slug: open-microsoft-azure-usagesinformation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector User API
+  slug: open-microsoft-azure-user-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector userLogin API
+  slug: open-microsoft-azure-userlogin-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UserOrganization API
+  slug: open-microsoft-azure-userorganization-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UserRequests API
+  slug: open-microsoft-azure-userrequests-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UserRPOepResource API
+  slug: open-microsoft-azure-userrpoepresource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UserRuleCollections API
+  slug: open-microsoft-azure-userrulecollections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UserRules API
+  slug: open-microsoft-azure-userrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Users API
+  slug: open-microsoft-azure-users-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UserSession API
+  slug: open-microsoft-azure-usersession-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector UserSolutions API
+  slug: open-microsoft-azure-usersolutions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector V1consumer API
+  slug: open-microsoft-azure-v1consumer-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector V1metadata API
+  slug: open-microsoft-azure-v1metadata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector V1producer API
+  slug: open-microsoft-azure-v1producer-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector V1status API
+  slug: open-microsoft-azure-v1status-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector V1topics API
+  slug: open-microsoft-azure-v1topics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector V2 API
+  slug: open-microsoft-azure-v2-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector V2WorkspaceConnectionResource API
+  slug: open-microsoft-azure-v2workspaceconnectionresource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ValidateOperation API
+  slug: open-microsoft-azure-validateoperation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ValidateOperationResults API
+  slug: open-microsoft-azure-validateoperationresults-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ValidateOperationStatuses API
+  slug: open-microsoft-azure-validateoperationstatuses-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector ValidateProbe API
+  slug: open-microsoft-azure-validateprobe-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector validateStorageConfiguration API
+  slug: open-microsoft-azure-validatestorageconfiguration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Validations API
+  slug: open-microsoft-azure-validations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Variables API
+  slug: open-microsoft-azure-variables-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Vault API
+  slug: open-microsoft-azure-vault-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VaultUsages API
+  slug: open-microsoft-azure-vaultusages-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VcenterController API
+  slug: open-microsoft-azure-vcentercontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VCenters API
+  slug: open-microsoft-azure-vcenters-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VendorNetworkFunctions API
+  slug: open-microsoft-azure-vendornetworkfunctions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VerifiedPartners API
+  slug: open-microsoft-azure-verifiedpartners-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Verify API
+  slug: open-microsoft-azure-verify-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Version API
+  slug: open-microsoft-azure-version-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VideoDetailSearch API
+  slug: open-microsoft-azure-videodetailsearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VideoSearch API
+  slug: open-microsoft-azure-videosearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VideoTrendingSearch API
+  slug: open-microsoft-azure-videotrendingsearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Views API
+  slug: open-microsoft-azure-views-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualDesktopUserController API
+  slug: open-microsoft-azure-virtualdesktopusercontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualMachine API
+  slug: open-microsoft-azure-virtualmachine-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualMachineImageTemplate API
+  slug: open-microsoft-azure-virtualmachineimagetemplate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualMachineInstances API
+  slug: open-microsoft-azure-virtualmachineinstances-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualMachineRunCommands API
+  slug: open-microsoft-azure-virtualmachineruncommands-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualMachines API
+  slug: open-microsoft-azure-virtualmachines-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualMachineScaleSetVMRunCommands API
+  slug: open-microsoft-azure-virtualmachinescalesetvmruncommands-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualMachineScaleSetVMs API
+  slug: open-microsoft-azure-virtualmachinescalesetvms-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualMachineSchedules API
+  slug: open-microsoft-azure-virtualmachineschedules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualMachineTemplates API
+  slug: open-microsoft-azure-virtualmachinetemplates-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualNetworkGatewayConnections API
+  slug: open-microsoft-azure-virtualnetworkgatewayconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualNetworkGateways API
+  slug: open-microsoft-azure-virtualnetworkgateways-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualNetworkLinks API
+  slug: open-microsoft-azure-virtualnetworklinks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualNetworkRules API
+  slug: open-microsoft-azure-virtualnetworkrules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualNetworks API
+  slug: open-microsoft-azure-virtualnetworks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualNetworkSubnetUsage API
+  slug: open-microsoft-azure-virtualnetworksubnetusage-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VirtualWANs API
+  slug: open-microsoft-azure-virtualwans-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VM_Host API
+  slug: open-microsoft-azure-vm-host-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VM Insights Onboarding API
+  slug: open-microsoft-azure-vm-insights-onboarding-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VMCollectionUpdate API
+  slug: open-microsoft-azure-vmcollectionupdate-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VMExtensions API
+  slug: open-microsoft-azure-vmextensions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VMHHostList API
+  slug: open-microsoft-azure-vmhhostlist-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VMIngestionDetails API
+  slug: open-microsoft-azure-vmingestiondetails-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VMInstanceGuestAgents API
+  slug: open-microsoft-azure-vminstanceguestagents-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VmInstanceHybridIdentityMetadata API
+  slug: open-microsoft-azure-vminstancehybrididentitymetadata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VmmServers API
+  slug: open-microsoft-azure-vmmservers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VmwareCollectorsOperations API
+  slug: open-microsoft-azure-vmwarecollectorsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VmwareHostController API
+  slug: open-microsoft-azure-vmwarehostcontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VmwareOperationsStatus API
+  slug: open-microsoft-azure-vmwareoperationsstatus-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VmwarePropertiesController API
+  slug: open-microsoft-azure-vmwarepropertiescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VmwareSoftwareInventoriesController API
+  slug: open-microsoft-azure-vmwaresoftwareinventoriescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector vNetPeering API
+  slug: open-microsoft-azure-vnetpeering-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Volume Groups API
+  slug: open-microsoft-azure-volume-groups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VolumeContainers API
+  slug: open-microsoft-azure-volumecontainers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VolumeGroups API
+  slug: open-microsoft-azure-volumegroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VolumeQuotaRules API
+  slug: open-microsoft-azure-volumequotarules-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Volumes API
+  slug: open-microsoft-azure-volumes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Volumes OnPrem Migration API
+  slug: open-microsoft-azure-volumes-onprem-migration-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Volumes OnPrem Migration Finalize API
+  slug: open-microsoft-azure-volumes-onprem-migration-finalize-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Volumes Relocation API
+  slug: open-microsoft-azure-volumes-relocation-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Volumes Replication API
+  slug: open-microsoft-azure-volumes-replication-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Volumes Revert API
+  slug: open-microsoft-azure-volumes-revert-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VpnGateways API
+  slug: open-microsoft-azure-vpngateways-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector vpnLinkConnections API
+  slug: open-microsoft-azure-vpnlinkconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VpnServerConfigurations API
+  slug: open-microsoft-azure-vpnserverconfigurations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector VpnSites API
+  slug: open-microsoft-azure-vpnsites-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WaitStatistics API
+  slug: open-microsoft-azure-waitstatistics-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Watcher API
+  slug: open-microsoft-azure-watcher-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Watchers API
+  slug: open-microsoft-azure-watchers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Wayfinding API
+  slug: open-microsoft-azure-wayfinding-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Weather API
+  slug: open-microsoft-azure-weather-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WeatherData API
+  slug: open-microsoft-azure-weatherdata-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppAssessmentOptionsOperations API
+  slug: open-microsoft-azure-webappassessmentoptionsoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppAssessmentV2Operations API
+  slug: open-microsoft-azure-webappassessmentv2operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppAssessmentV2SummaryOperations API
+  slug: open-microsoft-azure-webappassessmentv2summaryoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppCollectorOperations API
+  slug: open-microsoft-azure-webappcollectoroperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppDiscoverySiteDataSourcesController API
+  slug: open-microsoft-azure-webappdiscoverysitedatasourcescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppExtendedMachinesController API
+  slug: open-microsoft-azure-webappextendedmachinescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebApplicationFirewallManagedRuleSets API
+  slug: open-microsoft-azure-webapplicationfirewallmanagedrulesets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebApplicationFirewallPolicies API
+  slug: open-microsoft-azure-webapplicationfirewallpolicies-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebApplicationsController API
+  slug: open-microsoft-azure-webapplicationscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppPropertiesController API
+  slug: open-microsoft-azure-webapppropertiescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppRunAsAccountsController API
+  slug: open-microsoft-azure-webapprunasaccountscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebApps API
+  slug: open-microsoft-azure-webapps-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppServicePlanV2Operations API
+  slug: open-microsoft-azure-webappserviceplanv2operations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebAppSitesController API
+  slug: open-microsoft-azure-webappsitescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Webhook API
+  slug: open-microsoft-azure-webhook-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Webpubsub API
+  slug: open-microsoft-azure-webpubsub-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebSearch API
+  slug: open-microsoft-azure-websearch-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebServersController API
+  slug: open-microsoft-azure-webserverscontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebServices API
+  slug: open-microsoft-azure-webservices-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WebSitesController API
+  slug: open-microsoft-azure-websitescontroller-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector .Well Known API
+  slug: open-microsoft-azure-well-known-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Wfs API
+  slug: open-microsoft-azure-wfs-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Widgets API
+  slug: open-microsoft-azure-widgets-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WidgetTypes API
+  slug: open-microsoft-azure-widgettypes-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Workflow API
+  slug: open-microsoft-azure-workflow-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Workflow Resource API
+  slug: open-microsoft-azure-workflow-resource-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkflowRunActions API
+  slug: open-microsoft-azure-workflowrunactions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkflowRunOperations API
+  slug: open-microsoft-azure-workflowrunoperations-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkflowRuns API
+  slug: open-microsoft-azure-workflowruns-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Workflows API
+  slug: open-microsoft-azure-workflows-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkflowTasks API
+  slug: open-microsoft-azure-workflowtasks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkflowTriggerHistories API
+  slug: open-microsoft-azure-workflowtriggerhistories-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkflowTriggers API
+  slug: open-microsoft-azure-workflowtriggers-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkflowVersions API
+  slug: open-microsoft-azure-workflowversions-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkloadDeployment API
+  slug: open-microsoft-azure-workloaddeployment-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkloadGroups API
+  slug: open-microsoft-azure-workloadgroups-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkloadInstance API
+  slug: open-microsoft-azure-workloadinstance-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkloadNetworks API
+  slug: open-microsoft-azure-workloadnetworks-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Workspace API
+  slug: open-microsoft-azure-workspace-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkspaceCollections API
+  slug: open-microsoft-azure-workspacecollections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkspacePolicy API
+  slug: open-microsoft-azure-workspacepolicy-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkspacePrivateEndpointConnections API
+  slug: open-microsoft-azure-workspaceprivateendpointconnections-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector WorkspacePrivateLinkResources API
+  slug: open-microsoft-azure-workspaceprivatelinkresources-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Workspaces API
+  slug: open-microsoft-azure-workspaces-api
+- collection_type: open
+  name: Microsoft Azure AccessControlClient AccessConnector Zones API
+  slug: open-microsoft-azure-zones-api
 common:
 - group: agent
   title: ''
@@ -9007,7 +13870,7 @@ plans:
 - name: Microsoft Azure Plans Pricing
   plan_count: 3
   slug: microsoft-azure-plans-pricing
-random_paper: 18
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Microsoft Azure Rate Limits
@@ -9056,7 +13919,7 @@ score:
       total: 1659
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:

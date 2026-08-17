@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Managing bookings that are on the facility waitlist.
   name: Gingr Waitlist API
   slug: gingr-waitlist-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gingr Partner Invoices API
+  slug: open-gingr-invoices-api
+- collection_type: open
+  name: Gingr Partner Invoices Owners API
+  slug: open-gingr-owners-api
+- collection_type: open
+  name: Gingr Partner Invoices Payments API
+  slug: open-gingr-payments-api
+- collection_type: open
+  name: Gingr Partner Invoices Pets API
+  slug: open-gingr-pets-api
+- collection_type: open
+  name: Gingr Partner Invoices Report Cards API
+  slug: open-gingr-report-cards-api
+- collection_type: open
+  name: Gingr Partner Invoices Reservations API
+  slug: open-gingr-reservations-api
+- collection_type: open
+  name: Gingr Partner Invoices Services API
+  slug: open-gingr-services-api
+- collection_type: open
+  name: Gingr Partner Invoices Vaccinations API
+  slug: open-gingr-vaccinations-api
+- collection_type: open
+  name: Gingr Partner Invoices Waitlist API
+  slug: open-gingr-waitlist-api
 - collection_type: open
   name: Gingr Partner API
   slug: open-gingr
@@ -132,7 +162,7 @@ plans:
 - name: Gingr Plans Pricing
   plan_count: 4
   slug: gingr-plans-pricing
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 3
   name: Gingr Rate Limits
@@ -163,7 +193,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/screenshots/gingr-2026-07-25T215825.png
 security:

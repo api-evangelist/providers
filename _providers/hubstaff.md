@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -96,8 +96,68 @@ apis:
 - description: Webhook subscriptions delivering real-time event notifications (timer.start, timer.stop, task.create, shift.late, etc.).
   name: Hubstaff Webhooks API
   slug: hubstaff-webhooks-api
-artifact_total: 27
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hubstaff Activities API
+  slug: open-hubstaff-activities-api
+- collection_type: open
+  name: Hubstaff Activities App & URL Tracking API
+  slug: open-hubstaff-app-url-tracking-api
+- collection_type: open
+  name: Hubstaff Activities Attendance API
+  slug: open-hubstaff-attendance-api
+- collection_type: open
+  name: Hubstaff Activities Client Invoices API
+  slug: open-hubstaff-client-invoices-api
+- collection_type: open
+  name: Hubstaff Activities Clients API
+  slug: open-hubstaff-clients-api
+- collection_type: open
+  name: Hubstaff Activities Invites API
+  slug: open-hubstaff-invites-api
+- collection_type: open
+  name: Hubstaff Activities Members API
+  slug: open-hubstaff-members-api
+- collection_type: open
+  name: Hubstaff Activities Organizations API
+  slug: open-hubstaff-organizations-api
+- collection_type: open
+  name: Hubstaff Activities Projects API
+  slug: open-hubstaff-projects-api
+- collection_type: open
+  name: Hubstaff Activities Screenshots API
+  slug: open-hubstaff-screenshots-api
+- collection_type: open
+  name: Hubstaff Activities Tasks API
+  slug: open-hubstaff-tasks-api
+- collection_type: open
+  name: Hubstaff Activities Team Payments API
+  slug: open-hubstaff-team-payments-api
+- collection_type: open
+  name: Hubstaff Activities Teams API
+  slug: open-hubstaff-teams-api
+- collection_type: open
+  name: Hubstaff Activities Time Edit Logs API
+  slug: open-hubstaff-time-edit-logs-api
+- collection_type: open
+  name: Hubstaff Activities Time Entries API
+  slug: open-hubstaff-time-entries-api
+- collection_type: open
+  name: Hubstaff Activities Time Off API
+  slug: open-hubstaff-time-off-api
+- collection_type: open
+  name: Hubstaff Activities Timesheets API
+  slug: open-hubstaff-timesheets-api
+- collection_type: open
+  name: Hubstaff Activities Users API
+  slug: open-hubstaff-users-api
+- collection_type: open
+  name: Hubstaff Activities Webhooks API
+  slug: open-hubstaff-webhooks-api
 - collection_type: open
   name: Hubstaff API
   slug: open-hubstaff
@@ -178,7 +238,7 @@ plans:
 - name: Hubstaff Plans Pricing
   plan_count: 6
   slug: hubstaff-plans-pricing
-random_paper: 11
+random_paper: 106
 rate_limits:
 - limit_count: 4
   name: Hubstaff Rate Limits
@@ -203,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubstaff/refs/heads/main/screenshots/hubstaff-2026-07-25T221622.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: The Regions API from Apache Geode — 4 operation(s) for regions.
   name: Apache Geode Regions API
   slug: apache-geode-regions-api
-artifact_total: 64
+artifact_total: 69
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Geode REST Administration API
+  slug: open-apache-geode-administration-api
+- collection_type: open
+  name: Apache Geode REST Administration Functions API
+  slug: open-apache-geode-functions-api
+- collection_type: open
+  name: Apache Geode REST Administration Queries API
+  slug: open-apache-geode-queries-api
+- collection_type: open
+  name: Apache Geode REST Administration Regions API
+  slug: open-apache-geode-regions-api
 - collection_type: open
   name: Apache Geode REST API
   slug: open-apache-geode-rest
@@ -262,7 +277,7 @@ plans:
 - name: Apache Geode Plans Pricing
   plan_count: 3
   slug: apache-geode-plans-pricing
-random_paper: 91
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Apache Geode Rate Limits
@@ -310,7 +325,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/screenshots/apache-geode-2026-06-20T172059.png
 security:

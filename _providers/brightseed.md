@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -61,7 +61,41 @@ apis:
 - description: The statuses API from Brightseed — 2 operation(s) for statuses, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed statuses API
   slug: brightseed-statuses-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) categories API
+  slug: open-brightseed-categories-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) comments API
+  slug: open-brightseed-comments-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) media API
+  slug: open-brightseed-media-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) pages API
+  slug: open-brightseed-pages-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) posts API
+  slug: open-brightseed-posts-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) search API
+  slug: open-brightseed-search-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) statuses API
+  slug: open-brightseed-statuses-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) tags API
+  slug: open-brightseed-tags-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) taxonomies API
+  slug: open-brightseed-taxonomies-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) types API
+  slug: open-brightseed-types-api
+- collection_type: open
+  name: Brightseed Site Content API (WordPress REST API) users API
+  slug: open-brightseed-users-api
 common:
 - group: auth
   title: ''
@@ -188,7 +222,7 @@ overview: 'Brightseed publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Brightseed''s developer surface includes authentication, engineering blog, and 25 more developer resources.'
-random_paper: 97
+random_paper: 14
 score:
   band: thin
   composite: 32.0
@@ -218,7 +252,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightseed/refs/heads/main/screenshots/brightseed-2026-08-07T162813.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Structure queries API from BIS — 12 operation(s) for structure queries.
   name: BIS Structure queries API
   slug: bis-structure-queries-api
-artifact_total: 15
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SDMX RESTful Data availability queries API
+  slug: open-bis-data-availability-queries-api
+- collection_type: open
+  name: SDMX RESTful Data availability queries Data queries API
+  slug: open-bis-data-queries-api
+- collection_type: open
+  name: SDMX RESTful Data availability queries Item queries API
+  slug: open-bis-item-queries-api
+- collection_type: open
+  name: SDMX RESTful Data availability queries Structure queries API
+  slug: open-bis-structure-queries-api
 common:
 - group: agent
   title: ''
@@ -146,7 +162,7 @@ plans:
 - name: Bis Plans Pricing
   plan_count: 1
   slug: bis-plans-pricing
-random_paper: 78
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Bis Rate Limits
@@ -186,7 +202,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/screenshots/bis-2026-06-20T173300.png
 security:

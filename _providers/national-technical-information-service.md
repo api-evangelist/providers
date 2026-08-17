@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The NTIS National Technical Reports Library (NTRL) offers online, free and open access to authenticated government technical reports and documents.
@@ -72,7 +72,7 @@ plans:
 - name: National Technical Information Service Plans Pricing
   plan_count: 3
   slug: national-technical-information-service-plans-pricing
-random_paper: 31
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: National Technical Information Service Rate Limits
@@ -96,7 +96,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-technical-information-service/refs/heads/main/screenshots/national-technical-information-service-2026-06-20T190042.png
 security:

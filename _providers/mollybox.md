@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Resources API from MollyBox — 4 operation(s) for resources.
   name: MollyBox Resources API
   slug: mollybox-resources-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arcflow Admin API
+  slug: open-mollybox-admin-api
+- collection_type: open
+  name: Arcflow Admin Health API
+  slug: open-mollybox-health-api
+- collection_type: open
+  name: Arcflow Admin Me API
+  slug: open-mollybox-me-api
+- collection_type: open
+  name: Arcflow Admin Resources API
+  slug: open-mollybox-resources-api
 common:
 - group: other
   title: ''
@@ -116,7 +132,7 @@ overview: 'MollyBox publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   MollyBox''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 46
+random_paper: 141
 score:
   band: emerging
   composite: 25.4
@@ -140,7 +156,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

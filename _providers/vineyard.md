@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: Persist objects for cross-instance visibility
   name: Vineyard Persistence API
   slug: vineyard-persistence-api
-artifact_total: 25
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vineyard Python Client Blobs API
+  slug: open-vineyard-blobs-api
+- collection_type: open
+  name: Vineyard Python Client Blobs Connection API
+  slug: open-vineyard-connection-api
+- collection_type: open
+  name: Vineyard Python Client Blobs Metadata API
+  slug: open-vineyard-metadata-api
+- collection_type: open
+  name: Vineyard Python Client Blobs Names API
+  slug: open-vineyard-names-api
+- collection_type: open
+  name: Vineyard Python Client Blobs Objects API
+  slug: open-vineyard-objects-api
+- collection_type: open
+  name: Vineyard Python Client Blobs Persistence API
+  slug: open-vineyard-persistence-api
 - collection_type: open
   name: Vineyard Python Client API
   slug: open-vineyard-python-client
@@ -190,7 +211,7 @@ plans:
 - name: Vineyard Plans Pricing
   plan_count: 3
   slug: vineyard-plans-pricing
-random_paper: 26
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Vineyard Rate Limits
@@ -232,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/screenshots/vineyard-2026-06-20T201035.png
 security:

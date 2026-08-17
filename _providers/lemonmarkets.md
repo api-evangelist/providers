@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -89,11 +89,66 @@ apis:
 - description: Use workflows to perform repetitive tasks automatically.
   name: lemon.markets Workflows API
   slug: lemonmarkets-workflows-api
-artifact_total: 22
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Lemonmarkets Brokerage Webhooks
   slug: lemonmarkets-brokerage-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General API'
+  slug: open-lemonmarkets-accounts-general-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Accounts: ID+V API'
+  slug: open-lemonmarkets-accounts-id-v-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Batch Orders API'
+  slug: open-lemonmarkets-batch-orders-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Businesses API'
+  slug: open-lemonmarkets-businesses-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Cash Settlement API'
+  slug: open-lemonmarkets-cash-settlement-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Corporate Actions API'
+  slug: open-lemonmarkets-corporate-actions-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Documents API'
+  slug: open-lemonmarkets-documents-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Events + Webhooks API'
+  slug: open-lemonmarkets-events-webhooks-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Instruments API'
+  slug: open-lemonmarkets-instruments-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Money + Positions API'
+  slug: open-lemonmarkets-money-positions-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Orders API'
+  slug: open-lemonmarkets-orders-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Persons API'
+  slug: open-lemonmarkets-persons-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Securities Accounts API'
+  slug: open-lemonmarkets-securities-accounts-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Taxes API'
+  slug: open-lemonmarkets-taxes-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Trades API'
+  slug: open-lemonmarkets-trades-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Treasury Mandates API'
+  slug: open-lemonmarkets-treasury-mandates-api
+- collection_type: open
+  name: 'lemon.markets Brokerage API 🍋 Accounts: General Workflows API'
+  slug: open-lemonmarkets-workflows-api
 common:
 - group: agent
   title: ''
@@ -246,7 +301,7 @@ overview: 'lemon.markets publishes 17 APIs on the [APIs.io](https://apis.io/) ne
 
 
   lemon.markets'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, changelog, support, and 26 more developer resources.'
-random_paper: 98
+random_paper: 106
 score:
   band: developing
   composite: 48.1
@@ -276,7 +331,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonmarkets/refs/heads/main/screenshots/lemonmarkets-2026-07-25T224849.png
 security:

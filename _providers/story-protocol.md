@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -77,7 +77,50 @@ apis:
 - description: The Transactions API from Story Protocol — 3 operation(s) for transactions.
   name: Story Protocol Transactions API
   slug: story-protocol-transactions-api
-artifact_total: 17
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Story Protocol API Reference Collections API
+  slug: open-story-protocol-collections-api
+- collection_type: open
+  name: Story Protocol API Reference Collections Disputes API
+  slug: open-story-protocol-disputes-api
+- collection_type: open
+  name: Story Protocol API Reference Collections IPAssets API
+  slug: open-story-protocol-ipassets-api
+- collection_type: open
+  name: Story Protocol API Reference Collections IPGroup API
+  slug: open-story-protocol-ipgroup-api
+- collection_type: open
+  name: Story Protocol API Reference Collections IPLicenseTerms API
+  slug: open-story-protocol-iplicenseterms-api
+- collection_type: open
+  name: Story Protocol API Reference Collections Licenses API
+  slug: open-story-protocol-licenses-api
+- collection_type: open
+  name: Story Protocol API Reference Collections LicenseTemplates API
+  slug: open-story-protocol-licensetemplates-api
+- collection_type: open
+  name: Story Protocol API Reference Collections LicenseTerms API
+  slug: open-story-protocol-licenseterms-api
+- collection_type: open
+  name: Story Protocol API Reference Collections LicenseTokens API
+  slug: open-story-protocol-licensetokens-api
+- collection_type: open
+  name: Story Protocol API Reference Collections Modules API
+  slug: open-story-protocol-modules-api
+- collection_type: open
+  name: Story Protocol API Reference Collections Permissions API
+  slug: open-story-protocol-permissions-api
+- collection_type: open
+  name: Story Protocol API Reference Collections Royalties API
+  slug: open-story-protocol-royalties-api
+- collection_type: open
+  name: Story Protocol API Reference Collections Transactions API
+  slug: open-story-protocol-transactions-api
 common:
 - group: start
   title: ''
@@ -183,7 +226,7 @@ overview: 'Story Protocol publishes 13 APIs on the [APIs.io](https://apis.io/) n
 
 
   Story Protocol''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 64
+random_paper: 14
 score:
   band: thin
   composite: 38.2
@@ -207,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

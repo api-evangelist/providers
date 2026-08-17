@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 4
@@ -180,7 +180,152 @@ apis:
 - description: The xblock API from Al-Farabi Kazakh National University — 10 operation(s) for xblock.
   name: Al-Farabi Kazakh National University xblock API
   slug: al-farabi-kazakh-national-university-xblock-api
-artifact_total: 67
+artifact_total: 115
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open edX agreements API
+  slug: open-al-farabi-kazakh-national-university-agreements-api
+- collection_type: open
+  name: Open edX agreements bookmarks API
+  slug: open-al-farabi-kazakh-national-university-bookmarks-api
+- collection_type: open
+  name: Open edX agreements certificates API
+  slug: open-al-farabi-kazakh-national-university-certificates-api
+- collection_type: open
+  name: Open edX agreements change_email_settings API
+  slug: open-al-farabi-kazakh-national-university-change-email-settings-api
+- collection_type: open
+  name: Open edX agreements cohorts API
+  slug: open-al-farabi-kazakh-national-university-cohorts-api
+- collection_type: open
+  name: Open edX agreements commerce API
+  slug: open-al-farabi-kazakh-national-university-commerce-api
+- collection_type: open
+  name: Open edX agreements completion API
+  slug: open-al-farabi-kazakh-national-university-completion-api
+- collection_type: open
+  name: Open edX agreements course_experience API
+  slug: open-al-farabi-kazakh-national-university-course-experience-api
+- collection_type: open
+  name: Open edX agreements course_home API
+  slug: open-al-farabi-kazakh-national-university-course-home-api
+- collection_type: open
+  name: Open edX agreements course_live API
+  slug: open-al-farabi-kazakh-national-university-course-live-api
+- collection_type: open
+  name: Open edX agreements course_modes API
+  slug: open-al-farabi-kazakh-national-university-course-modes-api
+- collection_type: open
+  name: Open edX agreements courses API
+  slug: open-al-farabi-kazakh-national-university-courses-api
+- collection_type: open
+  name: Open edX agreements courseware API
+  slug: open-al-farabi-kazakh-national-university-courseware-api
+- collection_type: open
+  name: Open edX agreements credit API
+  slug: open-al-farabi-kazakh-national-university-credit-api
+- collection_type: open
+  name: Open edX agreements dashboard API
+  slug: open-al-farabi-kazakh-national-university-dashboard-api
+- collection_type: open
+  name: Open edX agreements discounts API
+  slug: open-al-farabi-kazakh-national-university-discounts-api
+- collection_type: open
+  name: Open edX agreements discussion API
+  slug: open-al-farabi-kazakh-national-university-discussion-api
+- collection_type: open
+  name: Open edX agreements edx_name_affirmation API
+  slug: open-al-farabi-kazakh-national-university-edx-name-affirmation-api
+- collection_type: open
+  name: Open edX agreements edx_proctoring API
+  slug: open-al-farabi-kazakh-national-university-edx-proctoring-api
+- collection_type: open
+  name: Open edX agreements edxnotes API
+  slug: open-al-farabi-kazakh-national-university-edxnotes-api
+- collection_type: open
+  name: Open edX agreements enrollment API
+  slug: open-al-farabi-kazakh-national-university-enrollment-api
+- collection_type: open
+  name: Open edX agreements entitlements API
+  slug: open-al-farabi-kazakh-national-university-entitlements-api
+- collection_type: open
+  name: Open edX agreements experiments API
+  slug: open-al-farabi-kazakh-national-university-experiments-api
+- collection_type: open
+  name: Open edX agreements grades API
+  slug: open-al-farabi-kazakh-national-university-grades-api
+- collection_type: open
+  name: Open edX agreements instructor API
+  slug: open-al-farabi-kazakh-national-university-instructor-api
+- collection_type: open
+  name: Open edX agreements instructor_task API
+  slug: open-al-farabi-kazakh-national-university-instructor-task-api
+- collection_type: open
+  name: Open edX agreements learner_home API
+  slug: open-al-farabi-kazakh-national-university-learner-home-api
+- collection_type: open
+  name: Open edX agreements learning_sequences API
+  slug: open-al-farabi-kazakh-national-university-learning-sequences-api
+- collection_type: open
+  name: Open edX agreements lti_consumer API
+  slug: open-al-farabi-kazakh-national-university-lti-consumer-api
+- collection_type: open
+  name: Open edX agreements mfe_config API
+  slug: open-al-farabi-kazakh-national-university-mfe-config-api
+- collection_type: open
+  name: Open edX agreements mfe_context API
+  slug: open-al-farabi-kazakh-national-university-mfe-context-api
+- collection_type: open
+  name: Open edX agreements mobile API
+  slug: open-al-farabi-kazakh-national-university-mobile-api
+- collection_type: open
+  name: Open edX agreements notifications API
+  slug: open-al-farabi-kazakh-national-university-notifications-api
+- collection_type: open
+  name: Open edX agreements ora_staff_grader API
+  slug: open-al-farabi-kazakh-national-university-ora-staff-grader-api
+- collection_type: open
+  name: Open edX agreements organizations API
+  slug: open-al-farabi-kazakh-national-university-organizations-api
+- collection_type: open
+  name: Open edX agreements profile_images API
+  slug: open-al-farabi-kazakh-national-university-profile-images-api
+- collection_type: open
+  name: Open edX agreements program_enrollments API
+  slug: open-al-farabi-kazakh-national-university-program-enrollments-api
+- collection_type: open
+  name: Open edX agreements send_account_activation_email API
+  slug: open-al-farabi-kazakh-national-university-send-account-activation-email-api
+- collection_type: open
+  name: Open edX agreements team API
+  slug: open-al-farabi-kazakh-national-university-team-api
+- collection_type: open
+  name: Open edX agreements third_party_auth API
+  slug: open-al-farabi-kazakh-national-university-third-party-auth-api
+- collection_type: open
+  name: Open edX agreements third_party_auth_context API
+  slug: open-al-farabi-kazakh-national-university-third-party-auth-context-api
+- collection_type: open
+  name: Open edX agreements toggles API
+  slug: open-al-farabi-kazakh-national-university-toggles-api
+- collection_type: open
+  name: Open edX agreements univertest API
+  slug: open-al-farabi-kazakh-national-university-univertest-api
+- collection_type: open
+  name: Open edX agreements user API
+  slug: open-al-farabi-kazakh-national-university-user-api
+- collection_type: open
+  name: Open edX agreements user_tours API
+  slug: open-al-farabi-kazakh-national-university-user-tours-api
+- collection_type: open
+  name: Open edX agreements val API
+  slug: open-al-farabi-kazakh-national-university-val-api
+- collection_type: open
+  name: Open edX agreements xblock API
+  slug: open-al-farabi-kazakh-national-university-xblock-api
 common:
 - group: agent
   title: ''
@@ -294,7 +439,7 @@ plans:
 - name: Al Farabi Kazakh National University Plans Pricing
   plan_count: 2
   slug: al-farabi-kazakh-national-university-plans-pricing
-random_paper: 8
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Al Farabi Kazakh National University Rate Limits
@@ -336,7 +481,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/screenshots/al-farabi-kazakh-national-university-2026-06-20T171458.png
 security:

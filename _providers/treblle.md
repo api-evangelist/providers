@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -109,14 +109,35 @@ arazzos:
 - description: Read a project, update its environment and metadata, and confirm the change took effect.
   name: Treblle Promote a Project's Environment
   slug: treblle-update-project-environment-workflow
-artifact_total: 53
+artifact_total: 60
 collections:
 - collection_type: postman
   name: Treblle API
   slug: postman-treblle-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Treblle Analytics API
+  slug: open-treblle-analytics-api
+- collection_type: open
   name: Treblle API
   slug: open-treblle-api
+- collection_type: open
+  name: Treblle Analytics Endpoints API
+  slug: open-treblle-endpoints-api
+- collection_type: open
+  name: Treblle Analytics Governance API
+  slug: open-treblle-governance-api
+- collection_type: open
+  name: Treblle Analytics Members API
+  slug: open-treblle-members-api
+- collection_type: open
+  name: Treblle Analytics Projects API
+  slug: open-treblle-projects-api
+- collection_type: open
+  name: Treblle Analytics Requests API
+  slug: open-treblle-requests-api
 common:
 - group: agent
   title: ''
@@ -323,7 +344,7 @@ plans:
 - name: Treblle Plans Pricing
   plan_count: 3
   slug: treblle-plans-pricing
-random_paper: 26
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Treblle Rate Limits
@@ -365,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/screenshots/treblle-2026-06-20T195643.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -75,8 +75,23 @@ apis:
 - description: Manage user accounts in Azure Active Directory. Users are the core identity objects representing people in an organization. Each user has a profile with attributes such as display name, email, job tit
   name: Microsoft Azure Active Directory Users API
   slug: microsoft-azure-active-directory-users-api
-artifact_total: 175
+artifact_total: 180
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Identity Applications API
+  slug: open-microsoft-azure-active-directory-applications-api
+- collection_type: open
+  name: Microsoft Graph Identity Applications Groups API
+  slug: open-microsoft-azure-active-directory-groups-api
+- collection_type: open
+  name: Microsoft Graph Identity Applications Service Principals API
+  slug: open-microsoft-azure-active-directory-service-principals-api
+- collection_type: open
+  name: Microsoft Graph Identity Applications Users API
+  slug: open-microsoft-azure-active-directory-users-api
 - collection_type: open
   name: Microsoft Graph Identity API
   slug: open-microsoft-graph-identity-api
@@ -646,7 +661,7 @@ plans:
 - name: Microsoft Azure Active Directory Plans Pricing
   plan_count: 9
   slug: microsoft-azure-active-directory-plans-pricing
-random_paper: 45
+random_paper: 7
 rate_limits:
 - limit_count: 10
   name: Azure Active Directory Rate Limits
@@ -704,7 +719,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/screenshots/microsoft-azure-active-directory-2026-06-20T185351.png
 security:

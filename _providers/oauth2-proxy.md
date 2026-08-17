@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: The Robots.txt API from Oauth2-Proxy — 1 operation(s) for robots.txt.
   name: Oauth2-Proxy Robots.txt API
   slug: oauth2-proxy-robots-txt-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OAuth2 Proxy Endpoints Metrics API
+  slug: open-oauth2-proxy-metrics-api
+- collection_type: open
+  name: Proxy Endpoints Metrics Oauth2 API
+  slug: open-oauth2-proxy-oauth2-api
+- collection_type: open
+  name: Metrics OAuth2 Proxy Endpoints API
+  slug: open-oauth2-proxy-oauth2-proxy-endpoints-api
+- collection_type: open
+  name: OAuth2 Proxy Endpoints Metrics Ping API
+  slug: open-oauth2-proxy-ping-api
+- collection_type: open
+  name: OAuth2 Proxy Endpoints Metrics Ready API
+  slug: open-oauth2-proxy-ready-api
+- collection_type: open
+  name: OAuth2 Proxy Endpoints Metrics Robots.txt API
+  slug: open-oauth2-proxy-robots-txt-api
 - collection_type: open
   name: OAuth2 Proxy Endpoints
   slug: open-oauth2-proxy
@@ -106,7 +127,7 @@ plans:
 - name: Oauth2 Proxy Plans Pricing
   plan_count: 3
   slug: oauth2-proxy-plans-pricing
-random_paper: 18
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Oauth2 Proxy Rate Limits
@@ -131,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/screenshots/oauth2-proxy-2026-06-20T190551.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Generate and retrieve intelligence reports.
   name: RTX Reports API
   slug: rtx-reports-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RTX EAGLE Analytics API
+  slug: open-rtx-analytics-api
+- collection_type: open
+  name: RTX EAGLE Analytics Data Sources API
+  slug: open-rtx-data-sources-api
 - collection_type: open
   name: RTX EAGLE API
   slug: open-rtx-eagle-api
+- collection_type: open
+  name: RTX EAGLE Analytics Reports API
+  slug: open-rtx-reports-api
 common:
 - group: agent
   title: ''
@@ -126,7 +138,7 @@ plans:
 - name: Rtx Plans Pricing
   plan_count: 1
   slug: rtx-plans-pricing
-random_paper: 110
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Rtx Rate Limits
@@ -174,7 +186,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/screenshots/rtx-2026-06-20T193244.png
 security:

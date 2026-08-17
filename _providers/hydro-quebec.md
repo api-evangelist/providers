@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,7 +37,14 @@ apis:
 - description: The legacy Opendatasoft Search API v1 still served on the Hydro-Québec open data portal. Verified live and anonymous on 2026-07-27 — GET /api/datasets/1.0/search/ returned HTTP 200 with all 26 dataset
   name: Hydro-Québec Open Data Search API v1
   slug: hydro-quebec-open-data-search-api-v1
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Explore API
+  slug: open-hydro-quebec-open-data-explore-api-v2-0
+- collection_type: open
+  name: Explore API
+  slug: open-hydro-quebec-open-data-explore-api-v2-1
 common:
 - group: agent
   title: ''
@@ -204,7 +211,7 @@ overview: 'Hydro-Québec publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Hydro-Québec''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 30 more developer resources.'
-random_paper: 24
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Hydro Quebec Rate Limits
@@ -238,7 +245,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/screenshots/hydro-quebec-2026-08-07T170514.png
 security:

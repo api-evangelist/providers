@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 58
 apis:
 - description: The Approvals API from ZenHR Inc — 2 operation(s) for approvals.
@@ -205,7 +205,188 @@ apis:
 - description: The Work Shifts API from ZenHR Inc — 2 operation(s) for work shifts.
   name: ZenHR Inc Work Shifts API
   slug: zenhr-inc-work-shifts-api
-artifact_total: 64
+artifact_total: 124
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZenHR Approvals API
+  slug: open-zenhr-inc-approvals-api
+- collection_type: open
+  name: ZenHR Approvals Attendance Details API
+  slug: open-zenhr-inc-attendance-details-api
+- collection_type: open
+  name: ZenHR Approvals Bank Account API
+  slug: open-zenhr-inc-bank-account-api
+- collection_type: open
+  name: ZenHR Approvals Bank Accounts API
+  slug: open-zenhr-inc-bank-accounts-api
+- collection_type: open
+  name: ZenHR Approvals Bank Branches API
+  slug: open-zenhr-inc-bank-branches-api
+- collection_type: open
+  name: ZenHR Approvals Banks API
+  slug: open-zenhr-inc-banks-api
+- collection_type: open
+  name: ZenHR Approvals Branch Employee Shifts API
+  slug: open-zenhr-inc-branch-employee-shifts-api
+- collection_type: open
+  name: ZenHR Approvals Branches API
+  slug: open-zenhr-inc-branches-api
+- collection_type: open
+  name: ZenHR Approvals Business Travel Policies API
+  slug: open-zenhr-inc-business-travel-policies-api
+- collection_type: open
+  name: ZenHR Approvals Business Travel Setup API
+  slug: open-zenhr-inc-business-travel-setup-api
+- collection_type: open
+  name: ZenHR Approvals Business Trips API
+  slug: open-zenhr-inc-business-trips-api
+- collection_type: open
+  name: ZenHR Approvals Business Units API
+  slug: open-zenhr-inc-business-units-api
+- collection_type: open
+  name: ZenHR Approvals Competencies API
+  slug: open-zenhr-inc-competencies-api
+- collection_type: open
+  name: ZenHR Approvals Competencies Categories API
+  slug: open-zenhr-inc-competencies-categories-api
+- collection_type: open
+  name: ZenHR Approvals Countries API
+  slug: open-zenhr-inc-countries-api
+- collection_type: open
+  name: ZenHR Approvals Departments API
+  slug: open-zenhr-inc-departments-api
+- collection_type: open
+  name: ZenHR Approvals Divisions API
+  slug: open-zenhr-inc-divisions-api
+- collection_type: open
+  name: ZenHR Approvals Document Types API
+  slug: open-zenhr-inc-document-types-api
+- collection_type: open
+  name: ZenHR Approvals Documents API
+  slug: open-zenhr-inc-documents-api
+- collection_type: open
+  name: ZenHR Approvals Employee Competencies API
+  slug: open-zenhr-inc-employee-competencies-api
+- collection_type: open
+  name: ZenHR Approvals Employee Financial Transactions API
+  slug: open-zenhr-inc-employee-financial-transactions-api
+- collection_type: open
+  name: ZenHR Approvals Employee Master Data API
+  slug: open-zenhr-inc-employee-master-data-api
+- collection_type: open
+  name: ZenHR Approvals Employee Shifts API
+  slug: open-zenhr-inc-employee-shifts-api
+- collection_type: open
+  name: ZenHR Approvals Employee Timeoff Transaction API
+  slug: open-zenhr-inc-employee-timeoff-transaction-api
+- collection_type: open
+  name: ZenHR Approvals Employees API
+  slug: open-zenhr-inc-employees-api
+- collection_type: open
+  name: ZenHR Approvals Employees HR Letters API
+  slug: open-zenhr-inc-employees-hr-letters-api
+- collection_type: open
+  name: ZenHR Approvals Employees Termination API
+  slug: open-zenhr-inc-employees-termination-api
+- collection_type: open
+  name: ZenHR Approvals Families API
+  slug: open-zenhr-inc-families-api
+- collection_type: open
+  name: ZenHR Approvals Financial Data API
+  slug: open-zenhr-inc-financial-data-api
+- collection_type: open
+  name: ZenHR Approvals Financial Transaction Types API
+  slug: open-zenhr-inc-financial-transaction-types-api
+- collection_type: open
+  name: ZenHR Approvals Financial Transactions API
+  slug: open-zenhr-inc-financial-transactions-api
+- collection_type: open
+  name: ZenHR Approvals General API
+  slug: open-zenhr-inc-general-api
+- collection_type: open
+  name: ZenHR Approvals Governmental Information API
+  slug: open-zenhr-inc-governmental-information-api
+- collection_type: open
+  name: ZenHR Approvals Hirearchy Groups API
+  slug: open-zenhr-inc-hirearchy-groups-api
+- collection_type: open
+  name: ZenHR Approvals HR Letter Templates API
+  slug: open-zenhr-inc-hr-letter-templates-api
+- collection_type: open
+  name: ZenHR Approvals HR Letter Types API
+  slug: open-zenhr-inc-hr-letter-types-api
+- collection_type: open
+  name: ZenHR Approvals Level Scales API
+  slug: open-zenhr-inc-level-scales-api
+- collection_type: open
+  name: ZenHR Approvals Loan Types API
+  slug: open-zenhr-inc-loan-types-api
+- collection_type: open
+  name: ZenHR Approvals Loans API
+  slug: open-zenhr-inc-loans-api
+- collection_type: open
+  name: ZenHR Approvals Main Projects API
+  slug: open-zenhr-inc-main-projects-api
+- collection_type: open
+  name: ZenHR Approvals Miscellaneous Requests API
+  slug: open-zenhr-inc-miscellaneous-requests-api
+- collection_type: open
+  name: ZenHR Approvals Miscellaneous Types API
+  slug: open-zenhr-inc-miscellaneous-types-api
+- collection_type: open
+  name: ZenHR Approvals Overtime Types API
+  slug: open-zenhr-inc-overtime-types-api
+- collection_type: open
+  name: ZenHR Approvals Overtimes API
+  slug: open-zenhr-inc-overtimes-api
+- collection_type: open
+  name: ZenHR Approvals Positions API
+  slug: open-zenhr-inc-positions-api
+- collection_type: open
+  name: API Collection
+  slug: open-zenhr-inc-postman-collection
+- collection_type: open
+  name: ZenHR Approvals Professional Data API
+  slug: open-zenhr-inc-professional-data-api
+- collection_type: open
+  name: ZenHR Approvals Recurring Transaction API
+  slug: open-zenhr-inc-recurring-transaction-api
+- collection_type: open
+  name: ZenHR Approvals Request Events API
+  slug: open-zenhr-inc-request-events-api
+- collection_type: open
+  name: ZenHR Approvals Salaries API
+  slug: open-zenhr-inc-salaries-api
+- collection_type: open
+  name: ZenHR Approvals Sections API
+  slug: open-zenhr-inc-sections-api
+- collection_type: open
+  name: ZenHR Approvals Segments API
+  slug: open-zenhr-inc-segments-api
+- collection_type: open
+  name: ZenHR Approvals Termination Setup API
+  slug: open-zenhr-inc-termination-setup-api
+- collection_type: open
+  name: ZenHR Approvals Terminations API
+  slug: open-zenhr-inc-terminations-api
+- collection_type: open
+  name: ZenHR Approvals Timeoff Transaction API
+  slug: open-zenhr-inc-timeoff-transaction-api
+- collection_type: open
+  name: ZenHR Approvals Timeoffs API
+  slug: open-zenhr-inc-timeoffs-api
+- collection_type: open
+  name: ZenHR Approvals Users API
+  slug: open-zenhr-inc-users-api
+- collection_type: open
+  name: ZenHR Approvals Work Location API
+  slug: open-zenhr-inc-work-location-api
+- collection_type: open
+  name: ZenHR Approvals Work Shifts API
+  slug: open-zenhr-inc-work-shifts-api
 common:
 - group: other
   title: ''
@@ -347,7 +528,7 @@ overview: 'ZenHR Inc publishes 58 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ZenHR Inc''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
-random_paper: 70
+random_paper: 16
 scopes:
 - name: Zenhr Inc Scopes
   scope_count: 9
@@ -375,7 +556,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

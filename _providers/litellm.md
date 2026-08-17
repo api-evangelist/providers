@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -137,8 +137,53 @@ apis:
 - description: The Vector Stores API from LiteLLM — 2 operation(s) for vector stores.
   name: LiteLLM Vector Stores API
   slug: litellm-vector-stores-api
-artifact_total: 39
+artifact_total: 54
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LiteLLM Proxy Assistants API
+  slug: open-litellm-assistants-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Audio API
+  slug: open-litellm-audio-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Batches API
+  slug: open-litellm-batches-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Chat API
+  slug: open-litellm-chat-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Completions API
+  slug: open-litellm-completions-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Embeddings API
+  slug: open-litellm-embeddings-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Fine Tuning API
+  slug: open-litellm-fine-tuning-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Images API
+  slug: open-litellm-images-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Messages API
+  slug: open-litellm-messages-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Moderations API
+  slug: open-litellm-moderations-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Ocr API
+  slug: open-litellm-ocr-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Rag API
+  slug: open-litellm-rag-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Rerank API
+  slug: open-litellm-rerank-api
+- collection_type: open
+  name: LiteLLM Proxy Assistants Vector Stores API
+  slug: open-litellm-vector-stores-api
 - collection_type: open
   name: LiteLLM Proxy API
   slug: open-litellm
@@ -263,7 +308,7 @@ plans:
 - name: Litellm Plans Pricing
   plan_count: 3
   slug: litellm-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Litellm Rate Limits
@@ -288,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/screenshots/litellm-2026-06-20T184603.png
 security:

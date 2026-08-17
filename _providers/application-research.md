@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -147,8 +147,119 @@ apis:
 - description: Score workload management operations
   name: Application Research Workloads API
   slug: application-research-workloads-api
-artifact_total: 379
+artifact_total: 416
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources API
+  slug: open-application-research-api-resources-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Applications API
+  slug: open-application-research-applications-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Bundles API
+  slug: open-application-research-bundles-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Capabilities API
+  slug: open-application-research-capabilities-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Claim Results API
+  slug: open-application-research-claim-results-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Claims API
+  slug: open-application-research-claims-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Components API
+  slug: open-application-research-components-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Configurations API
+  slug: open-application-research-configurations-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Consumption Bundles API
+  slug: open-application-research-consumption-bundles-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Containers API
+  slug: open-application-research-containers-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Credentials API
+  slug: open-application-research-credentials-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Dapr API
+  slug: open-application-research-dapr-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Data Products API
+  slug: open-application-research-data-products-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Datastores API
+  slug: open-application-research-datastores-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Entity Types API
+  slug: open-application-research-entity-types-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Environments API
+  slug: open-application-research-environments-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Event Resources API
+  slug: open-application-research-event-resources-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Extenders API
+  slug: open-application-research-extenders-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Gateways API
+  slug: open-application-research-gateways-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Groups API
+  slug: open-application-research-groups-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Integration Dependencies API
+  slug: open-application-research-integration-dependencies-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Messaging API
+  slug: open-application-research-messaging-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources ORD Documents API
+  slug: open-application-research-ord-documents-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Packages API
+  slug: open-application-research-packages-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Planes API
+  slug: open-application-research-planes-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Products API
+  slug: open-application-research-products-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources ResourceGroups API
+  slug: open-application-research-resourcegroups-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources API
+  slug: open-application-research-resources-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources SecretStores API
+  slug: open-application-research-secretstores-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Signatures API
+  slug: open-application-research-signatures-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Sources API
+  slug: open-application-research-sources-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Status API
+  slug: open-application-research-status-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Validation API
+  slug: open-application-research-validation-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Vendors API
+  slug: open-application-research-vendors-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Volumes API
+  slug: open-application-research-volumes-api
+- collection_type: open
+  name: Application Research CNAB Bundle API Resources Workloads API
+  slug: open-application-research-workloads-api
 - collection_type: open
   name: Application Research CNAB Bundle API
   slug: open-cloud-native-application-bundle
@@ -1187,7 +1298,7 @@ plans:
 - name: Application Research Plans Pricing
   plan_count: 1
   slug: application-research-plans-pricing
-random_paper: 22
+random_paper: 125
 rate_limits:
 - limit_count: 1
   name: Application Research Rate Limits
@@ -1234,7 +1345,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/screenshots/application-research-2026-06-20T172330.png
 security:

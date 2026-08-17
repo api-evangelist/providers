@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 4
@@ -147,8 +147,116 @@ apis:
 - description: The Vulns API from Nuclei — 2 operation(s) for vulns.
   name: Nuclei Vulns API
   slug: nuclei-vulns-api
-artifact_total: 45
+artifact_total: 81
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PDCP agents API
+  slug: open-nuclei-agents-api
+- collection_type: open
+  name: PDCP agents Asset API
+  slug: open-nuclei-asset-api
+- collection_type: open
+  name: PDCP agents assets API
+  slug: open-nuclei-assets-api
+- collection_type: open
+  name: PDCP agents automations API
+  slug: open-nuclei-automations-api
+- collection_type: open
+  name: PDCP agents billing API
+  slug: open-nuclei-billing-api
+- collection_type: open
+  name: PDCP agents chaos API
+  slug: open-nuclei-chaos-api
+- collection_type: open
+  name: PDCP agents configurations API
+  slug: open-nuclei-configurations-api
+- collection_type: open
+  name: PDCP agents deprecated API
+  slug: open-nuclei-deprecated-api
+- collection_type: open
+  name: PDCP agents domains API
+  slug: open-nuclei-domains-api
+- collection_type: open
+  name: PDCP agents elog API
+  slug: open-nuclei-elog-api
+- collection_type: open
+  name: PDCP agents enumeration API
+  slug: open-nuclei-enumeration-api
+- collection_type: open
+  name: PDCP agents enumerations API
+  slug: open-nuclei-enumerations-api
+- collection_type: open
+  name: PDCP agents export API
+  slug: open-nuclei-export-api
+- collection_type: open
+  name: PDCP agents history API
+  slug: open-nuclei-history-api
+- collection_type: open
+  name: PDCP agents internal API
+  slug: open-nuclei-internal-api
+- collection_type: open
+  name: PDCP agents Leaks API
+  slug: open-nuclei-leaks-api
+- collection_type: open
+  name: PDCP agents oauth API
+  slug: open-nuclei-oauth-api
+- collection_type: open
+  name: PDCP agents Payment API
+  slug: open-nuclei-payment-api
+- collection_type: open
+  name: PDCP agents results API
+  slug: open-nuclei-results-api
+- collection_type: open
+  name: PDCP agents retests API
+  slug: open-nuclei-retests-api
+- collection_type: open
+  name: PDCP agents scan API
+  slug: open-nuclei-scan-api
+- collection_type: open
+  name: PDCP agents scan_log API
+  slug: open-nuclei-scan-log-api
+- collection_type: open
+  name: PDCP agents Scans API
+  slug: open-nuclei-scans-api
+- collection_type: open
+  name: PDCP agents stats API
+  slug: open-nuclei-stats-api
+- collection_type: open
+  name: PDCP agents tasks API
+  slug: open-nuclei-tasks-api
+- collection_type: open
+  name: PDCP agents Team API
+  slug: open-nuclei-team-api
+- collection_type: open
+  name: PDCP agents Template API
+  slug: open-nuclei-template-api
+- collection_type: open
+  name: PDCP agents template/v2 API
+  slug: open-nuclei-template-v2-api
+- collection_type: open
+  name: PDCP agents templates API
+  slug: open-nuclei-templates-api
+- collection_type: open
+  name: PDCP agents usage API
+  slug: open-nuclei-usage-api
+- collection_type: open
+  name: PDCP agents User API
+  slug: open-nuclei-user-api
+- collection_type: open
+  name: PDCP agents users API
+  slug: open-nuclei-users-api
+- collection_type: open
+  name: PDCP agents vuln API
+  slug: open-nuclei-vuln-api
+- collection_type: open
+  name: PDCP agents Vulnerability API
+  slug: open-nuclei-vulnerability-api
+- collection_type: open
+  name: PDCP agents Vulns API
+  slug: open-nuclei-vulns-api
 - collection_type: open
   name: PDCP API
   slug: open-nuclei
@@ -237,7 +345,7 @@ plans:
 - name: Nuclei Plans Pricing
   plan_count: 3
   slug: nuclei-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Nuclei Rate Limits
@@ -262,7 +370,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/screenshots/nuclei-2026-06-20T190508.png
 security:

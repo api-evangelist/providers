@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,32 @@ apis:
 - description: An MCP (Model Context Protocol) server endpoint mounted on www.exentis-group.com by the WordPress MCP adapter, alongside the WordPress Abilities API. The endpoint is really served — GET /wp-json/mcp e
   name: Exentis Group MCP Server
   slug: exentis-group-mcp-server
-artifact_total: 15
+artifact_total: 23
+collections:
+- collection_type: open
+  name: Exentis Group Blog API
+  slug: open-exentis-group-blog-api
+- collection_type: open
+  name: Exentis Group Blog Categories API
+  slug: open-exentis-group-blog-categories-api
+- collection_type: open
+  name: Exentis Group Categories API
+  slug: open-exentis-group-categories-api
+- collection_type: open
+  name: Exentis Group Languages API
+  slug: open-exentis-group-languages-api
+- collection_type: open
+  name: Exentis Group Media API
+  slug: open-exentis-group-media-api
+- collection_type: open
+  name: Exentis Group Pages API
+  slug: open-exentis-group-pages-api
+- collection_type: open
+  name: Exentis Group Posts API
+  slug: open-exentis-group-posts-api
+- collection_type: open
+  name: Exentis Group Search API
+  slug: open-exentis-group-search-api
 common:
 - group: agent
   title: ''
@@ -215,7 +240,7 @@ plans:
 - name: Exentis Group Plans Pricing
   plan_count: 0
   slug: exentis-group-plans-pricing
-random_paper: 50
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Exentis Group Rate Limits
@@ -223,6 +248,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.0
@@ -230,6 +256,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 36.0
   regulatory:
     applies: true
     matched_via: tags
@@ -237,7 +264,8 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Exentis Group Authentication

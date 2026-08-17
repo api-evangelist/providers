@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The API Authentication API from Unitary AI — 1 operation(s) for api authentication.
@@ -46,11 +46,30 @@ apis:
 - description: The Policy Classification API from Unitary AI — 6 operation(s) for policy classification.
   name: Unitary AI Policy Classification API
   slug: unitary-ai-policy-classification-api
-artifact_total: 10
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Unitary Ai Webhooks
   slug: unitary-ai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unitary content classification API Authentication API
+  slug: open-unitary-ai-api-authentication-api
+- collection_type: open
+  name: Unitary content classification API Authentication Detoxify API
+  slug: open-unitary-ai-detoxify-api
+- collection_type: open
+  name: Unitary content classification API Authentication Items & Characteristics API
+  slug: open-unitary-ai-items-characteristics-api
+- collection_type: open
+  name: Unitary content classification API Authentication moderation API
+  slug: open-unitary-ai-moderation-api
+- collection_type: open
+  name: Unitary content classification API Authentication Policy Classification API
+  slug: open-unitary-ai-policy-classification-api
 common:
 - group: other
   title: ''
@@ -163,7 +182,7 @@ overview: 'Unitary AI publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Unitary AI''s developer surface includes documentation, getting-started guide, API reference, authentication, engineering blog, support, and 17 more developer resources.'
-random_paper: 67
+random_paper: 133
 score:
   band: thin
   composite: 39.5
@@ -186,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,17 +29,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Notams API from Skymerse — 9 operation(s) for notams.
   name: Skymerse Notams API
   slug: skymerse-notams-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Skymerse Watcher Webhooks
   slug: skymerse-watcher-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Notamify API V2 Notams API
+  slug: open-skymerse-notams-api
 common:
 - group: auth
   title: ''
@@ -172,7 +179,7 @@ overview: 'Skymerse publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Skymerse''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 21 more developer resources.'
-random_paper: 43
+random_paper: 138
 rate_limits:
 - limit_count: 2
   name: Skymerse Rate Limits
@@ -199,7 +206,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

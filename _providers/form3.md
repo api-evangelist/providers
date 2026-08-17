@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -49,7 +49,7 @@ apis:
 - description: 'Manage users, roles, access-control entries and public keys under a flexible security and approval model, and read full audit trails and platform metrics. Represented by the Users, Roles, ACE, Public '
   name: Form3 Security & Access API
   slug: form3-security-access-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Form3 Notifications Webhooks
@@ -58,6 +58,9 @@ collections:
 - collection_type: postman
   name: Form3 Public API
   slug: postman-form3-payments
+- collection_type: open
+  name: Form3 Public API
+  slug: open-form3-payments
 common:
 - group: build
   title: ''
@@ -231,7 +234,7 @@ overview: 'Form3 publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Form3''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, and 32 more developer resources.'
-random_paper: 7
+random_paper: 40
 scopes:
 - name: Form3 Scopes
   scope_count: 0
@@ -266,7 +269,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:

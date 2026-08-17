@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Survey lifecycle management operations
   name: Allianz Engagement Survey Surveys API
   slug: allianz-engagement-survey-surveys-api
-artifact_total: 71
+artifact_total: 77
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Allianz Engagement Survey Action Plans API
+  slug: open-allianz-engagement-survey-action-plans-api
+- collection_type: open
+  name: Allianz Engagement Survey Action Plans Analytics API
+  slug: open-allianz-engagement-survey-analytics-api
+- collection_type: open
+  name: Allianz Engagement Survey Action Plans Participants API
+  slug: open-allianz-engagement-survey-participants-api
+- collection_type: open
+  name: Allianz Engagement Survey Action Plans Responses API
+  slug: open-allianz-engagement-survey-responses-api
+- collection_type: open
+  name: Allianz Engagement Survey Action Plans Surveys API
+  slug: open-allianz-engagement-survey-surveys-api
 common:
 - group: agent
   title: ''
@@ -293,7 +312,7 @@ overview: 'Allianz Engagement Survey publishes 5 APIs on the [APIs.io](https://a
 
 
   Allianz Engagement Survey''s developer surface includes authentication, engineering blog, and 12 more developer resources.'
-random_paper: 54
+random_paper: 41
 rules:
 - name: Allianz Engagement Survey API Rules
   rule_count: 5
@@ -344,7 +363,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/screenshots/allianz-engagement-survey-2026-07-25T195701.png
 security:

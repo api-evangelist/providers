@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ arazzos:
 - description: Write a dataset's properties aspect into the metadata graph, then read the entity back to confirm the write landed.
   name: DataHub Upsert Dataset and Verify
   slug: datahub-upsert-dataset-workflow
-artifact_total: 47
+artifact_total: 53
 asyncapis:
 - description: Event-driven interface for responding to real-time changes in the DataHub metadata graph. The Actions Framework consumes Metadata Change Log events and Platform Events from Kafka topics, enabling seam
   name: DataHub Actions Framework Events
@@ -104,8 +104,26 @@ collections:
   name: DataHub OpenAPI
   slug: postman-datahub-openapi
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DataHub Open Batch API
+  slug: open-datahub-batch-api
+- collection_type: open
+  name: DataHub Open Batch Entities API
+  slug: open-datahub-entities-api
+- collection_type: open
   name: DataHub OpenAPI
   slug: open-datahub-openapi
+- collection_type: open
+  name: DataHub Open Batch Platform API
+  slug: open-datahub-platform-api
+- collection_type: open
+  name: DataHub Open Batch Relationships API
+  slug: open-datahub-relationships-api
+- collection_type: open
+  name: DataHub Open Batch Timeline API
+  slug: open-datahub-timeline-api
 common:
 - group: operate
   title: ''
@@ -326,7 +344,7 @@ plans:
 - name: Datahub Plans Pricing
   plan_count: 2
   slug: datahub-plans-pricing
-random_paper: 9
+random_paper: 133
 rate_limits:
 - limit_count: 2
   name: Datahub Rate Limits
@@ -376,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/screenshots/datahub-2026-06-20T175643.png
 security:

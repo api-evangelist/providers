@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Manage persistent storage volumes.
   name: Shadeform Volumes API
   slug: shadeform-volumes-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shadeform Instance Types API
+  slug: open-shadeform-instance-types-api
+- collection_type: open
+  name: Shadeform Instance Types Instances API
+  slug: open-shadeform-instances-api
+- collection_type: open
+  name: Shadeform Instance Types SSH Keys API
+  slug: open-shadeform-ssh-keys-api
+- collection_type: open
+  name: Shadeform Instance Types Templates API
+  slug: open-shadeform-templates-api
+- collection_type: open
+  name: Shadeform Instance Types Volumes API
+  slug: open-shadeform-volumes-api
 - collection_type: open
   name: Shadeform API
   slug: open-shadeform
@@ -124,7 +142,7 @@ plans:
 - name: Shadeform Plans Pricing
   plan_count: 2
   slug: shadeform-plans-pricing
-random_paper: 113
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Shadeform Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

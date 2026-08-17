@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -69,11 +69,41 @@ apis:
 - description: Methods for working with sticker sets
   name: Telegram Stickers API
   slug: telegram-stickers-api
-artifact_total: 27
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telegram Bot Bot Info API
+  slug: open-telegram-bot-info-api
 - collection_type: open
   name: Telegram Bot API
   slug: open-telegram-bot
+- collection_type: open
+  name: Telegram Bot Bot Info Chat Management API
+  slug: open-telegram-chat-management-api
+- collection_type: open
+  name: Telegram Bot Bot Info Getting Updates API
+  slug: open-telegram-getting-updates-api
+- collection_type: open
+  name: Telegram Bot Bot Info Invites API
+  slug: open-telegram-invites-api
+- collection_type: open
+  name: Telegram Bot Bot Info Member Management API
+  slug: open-telegram-member-management-api
+- collection_type: open
+  name: Telegram Bot Bot Info Message Editing API
+  slug: open-telegram-message-editing-api
+- collection_type: open
+  name: Telegram Bot Bot Info Messaging API
+  slug: open-telegram-messaging-api
+- collection_type: open
+  name: Telegram Bot Bot Info Payments API
+  slug: open-telegram-payments-api
+- collection_type: open
+  name: Telegram Bot Bot Info Stickers API
+  slug: open-telegram-stickers-api
 common:
 - group: commercial
   title: ''
@@ -176,7 +206,7 @@ plans:
 - name: Telegram Plans Pricing
   plan_count: 3
   slug: telegram-plans-pricing
-random_paper: 9
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Telegram Rate Limits
@@ -224,7 +254,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/screenshots/telegram-2026-06-20T195033.png
 security:

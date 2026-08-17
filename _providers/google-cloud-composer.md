@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Long-running operation management
   name: Google Cloud Composer Operations API
   slug: google-cloud-composer-operations-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud Composer Environments API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Google Cloud Composer Environments Operations API
   slug: postman-google-cloud-composer-operations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Composer Environments API
+  slug: open-google-cloud-composer-environments-api
+- collection_type: open
+  name: Google Cloud Composer Environments ImageVersions API
+  slug: open-google-cloud-composer-imageversions-api
+- collection_type: open
+  name: Google Cloud Composer Environments Operations API
+  slug: open-google-cloud-composer-operations-api
 - collection_type: open
   name: Google Cloud Composer API
   slug: open-google-cloud-composer
@@ -163,7 +175,7 @@ plans:
 - name: Google Cloud Composer Plans Pricing
   plan_count: 3
   slug: google-cloud-composer-plans-pricing
-random_paper: 94
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Google Cloud Composer Rate Limits
@@ -202,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/screenshots/google-cloud-composer-2026-06-20T182052.png
 security:

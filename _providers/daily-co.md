@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 4
@@ -84,12 +84,54 @@ apis:
 - description: The Webhooks API from Daily — 2 operation(s) for webhooks.
   name: Daily Webhooks API
   slug: daily-co-webhooks-api
-artifact_total: 25
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Review
   slug: review
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Daily REST CallTransfer API
+  slug: open-daily-co-calltransfer-api
+- collection_type: open
+  name: Daily REST CallTransfer DialIn API
+  slug: open-daily-co-dialin-api
+- collection_type: open
+  name: Daily REST CallTransfer DialOut API
+  slug: open-daily-co-dialout-api
+- collection_type: open
+  name: Daily REST CallTransfer Domain API
+  slug: open-daily-co-domain-api
+- collection_type: open
+  name: Daily REST CallTransfer LiveStreaming API
+  slug: open-daily-co-livestreaming-api
+- collection_type: open
+  name: Daily REST CallTransfer Meetings API
+  slug: open-daily-co-meetings-api
+- collection_type: open
+  name: Daily REST CallTransfer MeetingTokens API
+  slug: open-daily-co-meetingtokens-api
+- collection_type: open
+  name: Daily REST CallTransfer PhoneNumbers API
+  slug: open-daily-co-phonenumbers-api
+- collection_type: open
+  name: Daily REST CallTransfer Presence API
+  slug: open-daily-co-presence-api
+- collection_type: open
+  name: Daily REST CallTransfer Recordings API
+  slug: open-daily-co-recordings-api
+- collection_type: open
+  name: Daily REST CallTransfer Rooms API
+  slug: open-daily-co-rooms-api
+- collection_type: open
+  name: Daily REST CallTransfer Transcription API
+  slug: open-daily-co-transcription-api
+- collection_type: open
+  name: Daily REST CallTransfer Webhooks API
+  slug: open-daily-co-webhooks-api
 - collection_type: open
   name: Daily REST API
   slug: open-daily-co
@@ -197,7 +239,7 @@ plans:
 - name: Daily Co Plans Pricing
   plan_count: 5
   slug: daily-co-plans-pricing
-random_paper: 66
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Daily Co Rate Limits
@@ -222,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/screenshots/daily-co-2026-06-20T175440.png
 security:

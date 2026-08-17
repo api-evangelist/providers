@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Retrieve real-time financial account information with user consent from over 40 Asian banks. Returns key financial data including real-time account balances, transaction and balance history for up to '
@@ -95,7 +95,7 @@ plans:
 - name: Finverse Plans Pricing
   plan_count: 3
   slug: finverse-plans-pricing
-random_paper: 26
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Finverse Rate Limits
@@ -119,7 +119,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finverse/refs/heads/main/screenshots/finverse-2026-06-20T181225.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - description: The documents:classifyText API from Google Cloud Natural Language — 1 operation(s) for documents:classifytext.
   name: Google Cloud Natural Language documents:classifyText API
   slug: google-cloud-natural-language-documents-classifytext-api
-artifact_total: 20
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Google Cloud Natural Language documents:analyzeEntities API
@@ -70,6 +70,24 @@ collections:
 - collection_type: postman
   name: Google Cloud Natural Language documents:analyzeEntities documents:classifyText API
   slug: postman-google-cloud-natural-language-documents-classifytext-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Natural Language documents:analyzeEntities API
+  slug: open-google-cloud-natural-language-documents-analyzeentities-api
+- collection_type: open
+  name: Google Cloud Natural Language documents:analyzeEntities documents:analyzeSentiment API
+  slug: open-google-cloud-natural-language-documents-analyzesentiment-api
+- collection_type: open
+  name: Google Cloud Natural Language documents:analyzeEntities documents:analyzeSyntax API
+  slug: open-google-cloud-natural-language-documents-analyzesyntax-api
+- collection_type: open
+  name: Google Cloud Natural Language documents:analyzeEntities documents:annotateText API
+  slug: open-google-cloud-natural-language-documents-annotatetext-api
+- collection_type: open
+  name: Google Cloud Natural Language documents:analyzeEntities documents:classifyText API
+  slug: open-google-cloud-natural-language-documents-classifytext-api
 - collection_type: open
   name: Google Cloud Natural Language API
   slug: open-openapi
@@ -166,7 +184,7 @@ plans:
 - name: Google Cloud Natural Language Plans Pricing
   plan_count: 3
   slug: google-cloud-natural-language-plans-pricing
-random_paper: 22
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Google Cloud Natural Language Rate Limits
@@ -200,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/screenshots/google-cloud-natural-language-2026-06-20T182126.png
 security:

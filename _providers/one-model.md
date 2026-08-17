@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'One Model is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   One Model''s developer surface includes pricing, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 56
+random_paper: 2
 score:
   band: emerging
   composite: 19.1
@@ -103,7 +103,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-model/refs/heads/main/screenshots/one-model-2026-08-07T190249.png
 security:

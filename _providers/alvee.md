@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Alvee Health
 nav: Providers
 network: true
 overview: Alvee Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, SDOH, Social Determinants of Health, and Care Coordination.
-random_paper: 45
+random_paper: 78
 score:
   band: minimal
   composite: 9.9
@@ -82,7 +82,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alvee/refs/heads/main/screenshots/alvee-2026-07-25T195850.png
 security:

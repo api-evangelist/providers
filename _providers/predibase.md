@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,12 +60,36 @@ apis:
 - description: The Models API from Predibase — 1 operation(s) for models.
   name: Predibase Models API
   slug: predibase-models-api
-artifact_total: 16
+artifact_total: 24
 asyncapis:
 - description: AsyncAPI 2.6 description of Predibase's **inference streaming** surface. Predibase does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://docs.predibase.
   name: Predibase Inference Streaming (HTTP + SSE)
   slug: predibase-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Predibase Adapters API
+  slug: open-predibase-adapters-api
+- collection_type: open
+  name: Predibase Adapters Batch Inference API
+  slug: open-predibase-batch-inference-api
+- collection_type: open
+  name: Predibase Adapters Datasets API
+  slug: open-predibase-datasets-api
+- collection_type: open
+  name: Predibase Adapters Deployments API
+  slug: open-predibase-deployments-api
+- collection_type: open
+  name: Predibase Adapters Fine-Tuning API
+  slug: open-predibase-fine-tuning-api
+- collection_type: open
+  name: Predibase Adapters Inference API
+  slug: open-predibase-inference-api
+- collection_type: open
+  name: Predibase Adapters Models API
+  slug: open-predibase-models-api
 - collection_type: open
   name: Predibase API
   slug: open-predibase
@@ -133,7 +157,7 @@ plans:
 - name: Predibase Plans Pricing
   plan_count: 4
   slug: predibase-plans-pricing
-random_paper: 103
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Predibase Rate Limits
@@ -167,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/screenshots/predibase-2026-06-20T192044.png
 security:

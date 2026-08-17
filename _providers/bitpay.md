@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,7 +78,32 @@ apis:
 - description: Access transfer reports documenting payment profits settled from BitPay.
   name: BitPay Settlements API
   slug: bitpay-settlements-api
-artifact_total: 24
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BitPay Bills API
+  slug: open-bitpay-bills-api
+- collection_type: open
+  name: BitPay Bills Invoices API
+  slug: open-bitpay-invoices-api
+- collection_type: open
+  name: BitPay Bills Ledgers API
+  slug: open-bitpay-ledgers-api
+- collection_type: open
+  name: BitPay Bills Payouts API
+  slug: open-bitpay-payouts-api
+- collection_type: open
+  name: BitPay Bills Rates API
+  slug: open-bitpay-rates-api
+- collection_type: open
+  name: BitPay Bills Refunds API
+  slug: open-bitpay-refunds-api
+- collection_type: open
+  name: BitPay Bills Settlements API
+  slug: open-bitpay-settlements-api
 common:
 - group: agent
   title: ''
@@ -181,7 +206,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 49
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -221,7 +246,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/screenshots/bitpay-2026-06-20T173317.png
 security:

@@ -11,60 +11,168 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-12'
+  score: 60.8
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 15
-  human_in_the_loop: 0
+- acting_count: 25
+  human_in_the_loop: 3
   name: Planable Agentic Access
-  operation_count: 31
+  operation_count: 51
   slug: planable-agentic-access
-  summary_line: 31 operations · 15 acting
-api_count: 8
+  summary_line: 51 operations · 25 acting · 3 human-in-the-loop
+api_count: 12
 apis:
-- description: The Campaigns API from Planable — 2 operation(s) for campaigns.
+- description: The Campaigns API from Planable — 5 operation(s). Create, read, update and delete campaigns — named groupings of posts inside a workspace.
   name: Planable Campaigns API
   slug: planable-campaigns-api
-- description: The Labels API from Planable — 1 operation(s) for labels.
+- description: The Competitors API from Planable — 6 operation(s). Track up to five competitor social pages per page and pull comparison tables, follower/engagement trends and competitor top posts. Requires the Anal
+  name: Planable Competitors API
+  slug: planable-competitors-api
+- description: The Labels API from Planable — 2 operation(s). List and create the color-coded labels used to organize posts by topic, format or event within a workspace.
   name: Planable Labels API
   slug: planable-labels-api
-- description: The Media API from Planable — 2 operation(s) for media.
+- description: The Media API from Planable — 3 operation(s). List the workspace media library, upload assets from a public URL (up to 100MB per file) and read an asset’s type, dimensions and processing status.
   name: Planable Media API
   slug: planable-media-api
-- description: The Pages API from Planable — 4 operation(s) for pages.
+- description: The Members API from Planable — 1 operation(s). List workspace members with their roles and approval-level assignments.
+  name: Planable Members API
+  slug: planable-members-api
+- description: The Pages API from Planable — 4 operation(s). List the social channels connected to a workspace, pull per-page analytics, and trigger and poll a metrics sync from the source platforms.
   name: Planable Pages API
   slug: planable-pages-api
-- description: The Posts API from Planable — 8 operation(s) for posts.
+- description: 'The Posts API from Planable — 18 operation(s). The core content surface — list, create, read, update and delete posts, create synced cross-platform group posts, manage comments and reactions, request '
   name: Planable Posts API
   slug: planable-posts-api
-- description: The Stories API from Planable — 1 operation(s) for stories.
+- description: The Social Listening API from Planable — 7 operation(s). Track brand and topic keywords for a workspace, then read matched mentions, daily metrics, aggregated summaries and sync status.
+  name: Planable Social Listening API
+  slug: planable-social-listening-api
+- description: The Stories API from Planable — 1 operation(s). Create single-frame or multi-frame Instagram and Facebook stories.
   name: Planable Stories API
   slug: planable-stories-api
-- description: The System API from Planable — 1 operation(s) for system.
+- description: The System API from Planable — 1 operation(s). Health check for the Planable Public API.
   name: Planable System API
   slug: planable-system-api
-- description: The Workspaces API from Planable — 2 operation(s) for workspaces.
+- description: The Workspaces API from Planable — 3 operation(s). List, create and delete the workspaces that scope every other resource in the API.
   name: Planable Workspaces API
   slug: planable-workspaces-api
-artifact_total: 166
+- description: Planable’s official remote Model Context Protocol server at https://mcp.planable.io/mcp. An OAuth 2.0 protected resource (authorization code + PKCE, dynamic client registration, six scopes) that gives
+  name: Planable MCP Server
+  slug: planable-mcp
+artifact_total: 181
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Planable Public Campaigns API
+  slug: open-planable-campaigns-api
+- collection_type: open
+  name: Planable Public Campaigns Labels API
+  slug: open-planable-labels-api
+- collection_type: open
+  name: Planable Public Campaigns Media API
+  slug: open-planable-media-api
+- collection_type: open
+  name: Planable Public Campaigns Pages API
+  slug: open-planable-pages-api
+- collection_type: open
+  name: Planable Public Campaigns Posts API
+  slug: open-planable-posts-api
+- collection_type: open
+  name: Planable Public Campaigns Stories API
+  slug: open-planable-stories-api
+- collection_type: open
+  name: Planable Public Campaigns System API
+  slug: open-planable-system-api
+- collection_type: open
+  name: Planable Public Campaigns Workspaces API
+  slug: open-planable-workspaces-api
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/planable-openapi.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/planable-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/planable-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/planable-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/planable-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/planable-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/planable-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/planable-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/planable-rate-limits.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/planable-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/planable-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/planable-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/planable-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/planable-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/planable-llms.txt
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/planable-changelog.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -73,26 +181,58 @@ common:
   title: ''
   type: DomainSecurity
   url: security/planable-domain-security.yml
-- group: auth
+- group: design
   title: ''
-  type: Authentication
-  url: authentication/planable-authentication.yml
+  type: Vocabulary
+  url: vocabulary/planable-vocabulary.json
+- group: design
+  title: ''
+  type: Rules
+  url: rules/planable-jsonschema-spectral-rules.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/planable-jsonld.json
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/planable-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/planable-finops.yml
 - group: company
   title: ''
   type: Website
   url: https://planable.io/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://planable.io/guides/planable-public-api/
 - group: docs
   title: ''
   type: Documentation
   url: https://help.planable.io/hc/en-us/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.planable.io/api/v1/docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://planable.io/guides/planable-public-api/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.planable.io/hc/en-us/
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/Planable
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/planableapp/about/
 - group: company
   title: ''
   type: Blog
@@ -101,32 +241,40 @@ common:
   title: ''
   type: Pricing
   url: https://planable.io/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.planable.io/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.planable.io/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://planable.io/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://planable.io/privacy/
 - group: operate
   title: ''
   type: StatusPage
   url: https://status.planable.io/
 - group: other
   title: ''
+  type: AIInstructions
+  url: https://planable.io/ai-instructions/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/planableapp/about/
+- group: other
+  title: ''
   type: X
   url: https://x.com/planableapp
-- group: commercial
-  title: ''
-  type: Plans
-  url: plans/planable-plans-pricing.yml
-- group: operate
-  title: ''
-  type: RateLimits
-  url: rate-limits/planable-rate-limits.yml
-- group: commercial
-  title: ''
-  type: FinOps
-  url: finops/planable-finops.yml
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: https://changelog.planable.io/
 created: '2026-06-13'
-description: Planable is a social media collaboration platform trusted by agencies, freelancers, and marketing teams to plan, create, collaborate, approve, and publish content across multiple social media channels. It provides a REST API for managing workspaces, pages, posts, feedback, approval workflows, and publishing to Facebook, Instagram, LinkedIn, X (Twitter), YouTube, TikTok, Pinterest, Google Business Profile, and Threads.
+description: 'Planable is a collaboration-first social media management platform used by agencies, multi-location brands, multi-brand companies and in-house marketing teams to create, plan, collaborate on, approve, schedule, publish and analyze content across Facebook, Instagram, X (Twitter), LinkedIn, TikTok, YouTube, Pinterest, Threads and Google Business Profile. It exposes three programmable surfaces: a REST Public API v1 at https://api.planable.io/api/v1 with 51 operations over workspaces, pages, posts, comments, campaigns, labels, media, members, stories, competitor analytics and social listening; a remote OAuth-protected MCP server at https://mcp.planable.io/mcp for Claude, ChatGPT and Gemini; and twelve MIT-licensed Agent Skills published as a Claude Code plugin. Agent- and API-created content always lands as a draft and passes through Planable''s normal approval workflow.'
 finops:
 - name: Planable Finops
   service_category: ''
@@ -587,24 +735,28 @@ json_schemas:
   property_count: 0
   slug: post_workspaces-response-500
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: planable-mcp.yml
+  slug: planable-mcpyml
+modified: '2026-08-13'
 name: Planable
 nav: Providers
 network: true
-overview: 'Planable publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Labels API, Media API, and 5 more. Tagged areas include Social Media, Content Collaboration, Approval Workflows, Social Media Management, and Content Publishing.
+overview: 'Planable publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Competitors API, Labels API, and 8 more. Tagged areas include Social Media, Content Collaboration, Approval Workflows, Social Media Management, and Content Publishing.
 
 
   The Planable catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Planable''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 10 more developer resources.'
+  Planable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 35 more developer resources.'
 plans:
 - name: Planable Plans Pricing
   plan_count: 4
   slug: planable-plans-pricing
-random_paper: 111
+random_paper: 86
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Planable Rate Limits
   slug: planable-rate-limits
 rules:
@@ -616,17 +768,22 @@ rules:
     info: 2
     warn: 3
   slug: planable-jsonschema-spectral-rules
+scopes:
+- name: Planable Scopes
+  scope_count: 0
+  slug: planable-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.7
-  delta: 0.0
+  band: exemplar
+  composite: 72.0
+  delta: 24.3
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 84.2
     contract_quality: 56.7
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    developer_ergonomics: 67.4
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 57.9
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -636,14 +793,14 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/screenshots/planable-2026-06-20T191751.png
 security:
 - kind: authentication
   name: Planable Authentication
   slug: planable-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Planable Domain Security
   slug: planable-domain-security
@@ -656,5 +813,10 @@ tags:
 - Social Media Management
 - Content Publishing
 - Marketing
+- Social Media Analytics
+- Social Listening
+- MCP
+- AI Agents
+- Agent Skills
 website: https://planable.io/
 ---

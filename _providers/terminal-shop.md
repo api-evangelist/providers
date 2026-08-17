@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The View API from Terminal — 1 operation(s) for view.
   name: Terminal View API
   slug: terminal-shop-view-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Terminal Shop Address API
+  slug: open-terminal-shop-address-api
+- collection_type: open
+  name: Terminal Shop Address App API
+  slug: open-terminal-shop-app-api
+- collection_type: open
+  name: Terminal Shop Address Card API
+  slug: open-terminal-shop-card-api
+- collection_type: open
+  name: Terminal Shop Address Cart API
+  slug: open-terminal-shop-cart-api
+- collection_type: open
+  name: Terminal Shop Address Email API
+  slug: open-terminal-shop-email-api
+- collection_type: open
+  name: Terminal Shop Address Order API
+  slug: open-terminal-shop-order-api
+- collection_type: open
+  name: Terminal Shop Address Product API
+  slug: open-terminal-shop-product-api
+- collection_type: open
+  name: Terminal Shop Address Profile API
+  slug: open-terminal-shop-profile-api
+- collection_type: open
+  name: Terminal Shop Address Subscription API
+  slug: open-terminal-shop-subscription-api
+- collection_type: open
+  name: Terminal Shop Address Token API
+  slug: open-terminal-shop-token-api
+- collection_type: open
+  name: Terminal Shop Address View API
+  slug: open-terminal-shop-view-api
 - collection_type: open
   name: Terminal Shop API
   slug: open-terminal-shop
@@ -138,7 +174,7 @@ plans:
 - name: Terminal Shop Plans Pricing
   plan_count: 3
   slug: terminal-shop-plans-pricing
-random_paper: 27
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Terminal Shop Rate Limits
@@ -163,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/screenshots/terminal-shop-2026-06-20T195128.png
 security:

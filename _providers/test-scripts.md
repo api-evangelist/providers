@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,8 +72,23 @@ apis:
 - description: 'Cypress is a JavaScript end-to-end testing framework designed for modern web applications. Its test scripting API supports both API testing and browser automation, with real-time test runner feedback '
   name: Cypress
   slug: cypress
-artifact_total: 27
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Postman API (Test Scripts) Collections API
+  slug: open-test-scripts-collections-api
+- collection_type: open
+  name: Postman API (Test Scripts) Collections Environments API
+  slug: open-test-scripts-environments-api
+- collection_type: open
+  name: Postman API (Test Scripts) Collections Mocks API
+  slug: open-test-scripts-mocks-api
+- collection_type: open
+  name: Postman API (Test Scripts) Collections Monitors API
+  slug: open-test-scripts-monitors-api
 - collection_type: open
   name: Postman API (Test Scripts)
   slug: open-test-scripts
@@ -165,7 +180,7 @@ plans:
 - name: Test Scripts Plans Pricing
   plan_count: 3
   slug: test-scripts-plans-pricing
-random_paper: 69
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Test Scripts Rate Limits
@@ -199,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-scripts/refs/heads/main/screenshots/test-scripts-2026-06-20T195157.png
 security:

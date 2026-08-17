@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -93,11 +93,69 @@ apis:
 - description: The Webhooks API from MINE — 6 operation(s) for webhooks.
   name: MINE Webhooks API
   slug: mine-webhooks-api
-artifact_total: 26
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Mine Webhooks
   slug: mine-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MineOS Aispm API
+  slug: open-mine-aispm-api
+- collection_type: open
+  name: MineOS Aispm AispmDeviceFlags API
+  slug: open-mine-aispmdeviceflags-api
+- collection_type: open
+  name: MineOS Aispm AispmEnroll API
+  slug: open-mine-aispmenroll-api
+- collection_type: open
+  name: MineOS Aispm AispmEnrollmentTokens API
+  slug: open-mine-aispmenrollmenttokens-api
+- collection_type: open
+  name: MineOS Aispm AispmIngest API
+  slug: open-mine-aispmingest-api
+- collection_type: open
+  name: MineOS Aispm AispmInsights API
+  slug: open-mine-aispminsights-api
+- collection_type: open
+  name: MineOS Aispm AispmPublicAgents API
+  slug: open-mine-aispmpublicagents-api
+- collection_type: open
+  name: MineOS Aispm AispmPublicDevices API
+  slug: open-mine-aispmpublicdevices-api
+- collection_type: open
+  name: MineOS Aispm Assessment API
+  slug: open-mine-assessment-api
+- collection_type: open
+  name: MineOS Aispm AssessmentTemplate API
+  slug: open-mine-assessmenttemplate-api
+- collection_type: open
+  name: MineOS Aispm Employee API
+  slug: open-mine-employee-api
+- collection_type: open
+  name: MineOS Aispm EvidenceSearch API
+  slug: open-mine-evidencesearch-api
+- collection_type: open
+  name: MineOS Aispm Partners API
+  slug: open-mine-partners-api
+- collection_type: open
+  name: MineOS Aispm PrivacyRightsPublic API
+  slug: open-mine-privacyrightspublic-api
+- collection_type: open
+  name: MineOS Aispm System API
+  slug: open-mine-system-api
+- collection_type: open
+  name: MineOS Aispm Test API
+  slug: open-mine-test-api
+- collection_type: open
+  name: MineOS Aispm Tickets API
+  slug: open-mine-tickets-api
+- collection_type: open
+  name: MineOS Aispm Webhooks API
+  slug: open-mine-webhooks-api
 common:
 - group: other
   title: ''
@@ -238,7 +296,7 @@ overview: 'MINE publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   MINE''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 24 more developer resources.'
-random_paper: 65
+random_paper: 127
 rate_limits:
 - limit_count: 2
   name: Mine Rate Limits
@@ -266,7 +324,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/screenshots/mine-2026-08-07T172945.png
 security:

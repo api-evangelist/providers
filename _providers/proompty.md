@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: User related endpoints
   name: Proompty User API
   slug: proompty-user-api
-artifact_total: 14
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Proompty Chat API
+  slug: open-proompty-chat-api
+- collection_type: open
+  name: Proompty Chat Documents API
+  slug: open-proompty-documents-api
+- collection_type: open
+  name: Proompty Chat Me API
+  slug: open-proompty-me-api
+- collection_type: open
+  name: Proompty Chat Prompt API
+  slug: open-proompty-prompt-api
+- collection_type: open
+  name: Proompty Chat Prompts API
+  slug: open-proompty-prompts-api
+- collection_type: open
+  name: Proompty Chat Topic API
+  slug: open-proompty-topic-api
+- collection_type: open
+  name: Proompty Chat Topics API
+  slug: open-proompty-topics-api
+- collection_type: open
+  name: Proompty Chat Uploads API
+  slug: open-proompty-uploads-api
+- collection_type: open
+  name: Proompty Chat User API
+  slug: open-proompty-user-api
 common:
 - group: agent
   title: ''
@@ -99,7 +130,7 @@ plans:
 - name: Proompty Plans Pricing
   plan_count: 3
   slug: proompty-plans-pricing
-random_paper: 66
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Proompty Rate Limits
@@ -124,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/screenshots/proompty-2026-06-20T192204.png
 security:

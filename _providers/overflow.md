@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -78,11 +78,54 @@ apis:
 - description: The Webhooks API from Overflow — 3 operation(s) for webhooks.
   name: Overflow Webhooks API
   slug: overflow-webhooks-api
-artifact_total: 18
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Overflow Webhooks
   slug: overflow-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Overflow Open Campaigns API
+  slug: open-overflow-campaigns-api
+- collection_type: open
+  name: Overflow Open Campaigns Chargebacks API
+  slug: open-overflow-chargebacks-api
+- collection_type: open
+  name: Overflow Open Campaigns Contributions API
+  slug: open-overflow-contributions-api
+- collection_type: open
+  name: Overflow Open Campaigns Deposits API
+  slug: open-overflow-deposits-api
+- collection_type: open
+  name: Overflow Open Campaigns Donors API
+  slug: open-overflow-donors-api
+- collection_type: open
+  name: Overflow Open Campaigns Locations API
+  slug: open-overflow-locations-api
+- collection_type: open
+  name: Overflow Open Campaigns Payment Methods API
+  slug: open-overflow-payment-methods-api
+- collection_type: open
+  name: Overflow Open Campaigns Payments API
+  slug: open-overflow-payments-api
+- collection_type: open
+  name: Overflow Open Campaigns Refunds API
+  slug: open-overflow-refunds-api
+- collection_type: open
+  name: Overflow Open Campaigns Status API
+  slug: open-overflow-status-api
+- collection_type: open
+  name: Overflow Open Campaigns Subscriptions API
+  slug: open-overflow-subscriptions-api
+- collection_type: open
+  name: Overflow Open Campaigns Tap API
+  slug: open-overflow-tap-api
+- collection_type: open
+  name: Overflow Open Campaigns Webhooks API
+  slug: open-overflow-webhooks-api
 common:
 - group: start
   title: ''
@@ -207,7 +250,7 @@ overview: 'Overflow publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Overflow''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 19 more developer resources.'
-random_paper: 44
+random_paper: 139
 score:
   band: developing
   composite: 47.0
@@ -237,7 +280,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/screenshots/overflow-2026-08-07T191125.png
 security:

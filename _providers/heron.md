@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Book a demo; credentials issued by Heron
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
-  - authentication
-  trial: false
+  - plans/heron-plans-pricing.yml
+  - authentication/heron-authentication.yml
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -28,13 +29,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Heron's REST API for document intake, parsing, enrichment, cashflow underwriting, webhooks, and broker/funder submission flows.
   name: Heron API
   slug: heron-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: 'Heron sends webhook notifications about the progress of asynchronous processes (end-user processing/review and PDF document parsing) to a URL you configure in the Heron dashboard (Settings tab). Each '
   name: Heron Webhooks
@@ -104,6 +105,18 @@ common:
   title: ''
   type: DomainSecurity
   url: security/heron-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/heron-data
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/heron-openapi.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/heron-openapi-overlay.yaml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -116,6 +129,10 @@ common:
   title: ''
   type: ErrorCatalog
   url: errors/heron-error-codes.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/heron-problem-types.yml
 - group: operate
   title: ''
   type: RateLimits
@@ -140,10 +157,38 @@ common:
   title: ''
   type: Lifecycle
   url: lifecycle/heron-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/heron-changelog.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://docs.herondata.io/miscellaneous/release-notes
 - group: agent
   title: ''
   type: MCPServer
   url: mcp/heron-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/heron-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/heron-a2a.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/heron-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/heron-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/heron-plans-pricing.yml
 - group: start
   title: ''
   type: Sandbox
@@ -160,15 +205,19 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/heron-herondata-skill.md
 created: '2026-07-17'
-description: Heron (Heron Data) is a financial-services document-automation and cashflow-underwriting platform. Its API and AI platform handle document intake, classification, parsing and validation, enrichment, policy/rule evaluation, and CRM sync across 50+ document types (bank statements, tax returns, financial statements, ACORD forms). Lenders, MCA funders, brokers, and insurers upload documents for an "end user" (company), then read back parsed transactions, a Heron Score, scorecards, cashflow P&L, anomaly/fraud checks, and decline analytics. The REST API authenticates with an x-api-key header, signals rate limits via x-ratelimit-* headers, and pushes async progress through webhooks. Backed by Insight Partners.
+description: Heron (Heron Data) is a financial-services document-automation and cashflow-underwriting platform. Its API and AI platform handle document intake, classification, parsing and validation, enrichment, policy/rule evaluation, and CRM sync across 50+ document types (bank statements, tax returns, financial statements, ACORD forms). Lenders, MCA funders, brokers, and insurers upload documents for an "end user" (company), then read back parsed transactions, a Heron Score, scorecards, cashflow P&L, anomaly/fraud checks, and decline analytics. Heron publishes an OpenAPI 3.0 contract at app.herondata.io/swagger covering 226 paths and 272 operations, a conformant A2A agent card and a published Agent Skill on its documentation host, and a live unauthenticated MCP endpoint for documentation retrieval. The REST API authenticates with an x-api-key header, signals rate limits via x-ratelimit-* headers, and pushes async progress through webhooks. Backed by Insight Partners.
 image: https://cdn.prod.website-files.com/675862616b5e61c9450cfef0/677e4fc1e48ddcd5917c71ca_home-og-img.jpg
 layout: provider
 mcp_servers:
 - description: ''
   name: heron-mcp.yml
   slug: heron-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Heron
 nav: Providers
 network: true
@@ -178,23 +227,27 @@ overview: 'Heron publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Heron catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Heron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 60
+  Heron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 35 more developer resources.'
+plans:
+- name: Heron Plans Pricing
+  plan_count: 0
+  slug: heron-plans-pricing
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: Heron Rate Limits
   slug: heron-rate-limits
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 55.4
+  delta: 4.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.6
-    developer_ergonomics: 62.5
+    contract_quality: 51.6
+    developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 55.3
+    governance: 11.5
+    operational_transparency: 76.3
   previous_composite: 50.9
   provenance:
     conformance: derived
@@ -207,7 +260,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png
 security:
@@ -222,11 +275,11 @@ security:
 - kind: vulnerability-disclosure
   name: Heron Vulnerability Disclosure
   slug: heron-vulnerability-disclosure
-  summary_line: Hackerone · contact published
+  summary_line: disclosure policy published
 - kind: trust-center
   name: Heron Trust Center
   slug: heron-trust-center
-  summary_line: SOC 2 Type 1, SOC 2 Type 2, GDPR, CCPA
+  summary_line: SOC 2
 slug: heron
 tags:
 - Company
@@ -237,5 +290,8 @@ tags:
 - Cashflow Analytics
 - Fintech
 - Data Enrichment
+- Bank Statements
+- Transaction Enrichment
+- Agent Ready
 website: https://www.herondata.io/
 ---

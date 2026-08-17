@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ arazzos:
 - description: Read an endpoint's current state, then pause it if running or resume it if paused.
   name: Hugging Face Toggle Inference Endpoint State
   slug: hugging-face-toggle-endpoint-state-workflow
-artifact_total: 436
+artifact_total: 458
 collections:
 - collection_type: postman
   name: Hugging Face Dataset Viewer API
@@ -167,11 +167,47 @@ collections:
   name: Hugging Face Text Generation Inference API
   slug: postman-hugging-face-text-generation-inference-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio API
+  slug: open-hugging-face-audio-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Chat API
+  slug: open-hugging-face-chat-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Chat Completions API
+  slug: open-hugging-face-chat-completions-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Computer Vision API
+  slug: open-hugging-face-computer-vision-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Data Access API
+  slug: open-hugging-face-data-access-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Dataset Info API
+  slug: open-hugging-face-dataset-info-api
+- collection_type: open
   name: Hugging Face Dataset Viewer API
   slug: open-hugging-face-dataset-viewer-api
 - collection_type: open
+  name: Hugging Face Dataset Viewer Audio Datasets API
+  slug: open-hugging-face-datasets-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Embeddings API
+  slug: open-hugging-face-embeddings-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Endpoints API
+  slug: open-hugging-face-endpoints-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Files & Metadata API
+  slug: open-hugging-face-files-metadata-api
+- collection_type: open
   name: Hugging Face Hub API
   slug: open-hugging-face-hub-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Image Generation API
+  slug: open-hugging-face-image-generation-api
 - collection_type: open
   name: Hugging Face Inference API
   slug: open-hugging-face-inference-api
@@ -182,8 +218,38 @@ collections:
   name: Hugging Face Inference Providers API
   slug: open-hugging-face-inference-providers-api
 - collection_type: open
+  name: Hugging Face Dataset Viewer Audio Info API
+  slug: open-hugging-face-info-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Models API
+  slug: open-hugging-face-models-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Multimodal API
+  slug: open-hugging-face-multimodal-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Natural Language Processing API
+  slug: open-hugging-face-natural-language-processing-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Providers API
+  slug: open-hugging-face-providers-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Repos API
+  slug: open-hugging-face-repos-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Search & Filter API
+  slug: open-hugging-face-search-filter-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Spaces API
+  slug: open-hugging-face-spaces-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Text Generation API
+  slug: open-hugging-face-text-generation-api
+- collection_type: open
   name: Hugging Face Text Generation Inference API
   slug: open-hugging-face-text-generation-inference-api
+- collection_type: open
+  name: Hugging Face Dataset Viewer Audio Users API
+  slug: open-hugging-face-users-api
 common:
 - group: operate
   title: ''
@@ -1512,7 +1578,7 @@ plans:
 - name: Hugging Face Plans Pricing
   plan_count: 8
   slug: hugging-face-plans-pricing
-random_paper: 109
+random_paper: 146
 rate_limits:
 - limit_count: 6
   name: Hugging Face Rate Limits
@@ -1554,7 +1620,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/screenshots/hugging-face-2026-06-20T182926.png
 security:

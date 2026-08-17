@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,23 +19,23 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-12'
+  score: 49.3
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for automating content generation with Matik — manage templates, generate presentations/documents/spreadsheets, run dynamic content queries against connected data sources, manage da
   name: Matik External API
   slug: matik-external-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Matik Webhooks
@@ -92,10 +93,14 @@ common:
   title: ''
   type: StatusPage
   url: https://status.matik.io
-- group: auth
+- group: build
   title: ''
-  type: Security
-  url: https://www.matik.io/security
+  type: Postman
+  url: https://developer.matik.io/guides/oauth
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://gitlab.com/matik-io/api-example-app
 - group: auth
   title: ''
   type: Compliance
@@ -116,10 +121,30 @@ common:
   title: ''
   type: MCPServer
   url: mcp/matik-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/matik-tool-crosswalk.yml
 - group: design
   title: ''
   type: Webhooks
   url: asyncapi/matik-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/matik-packages.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/matik-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/matik-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/matik-plans-pricing.yml
 - group: design
   title: ''
   type: Lifecycle
@@ -156,18 +181,26 @@ mcp_servers:
 - description: ''
   name: matik-mcp.yml
   slug: matik-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Matik
 nav: Providers
 network: true
-overview: 'Matik publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Content Automation, Presentations, Documents, and Data-Driven Content.
+overview: 'Matik publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Company, Content Automation, Presentations, Documents, and Data-Driven Content.
 
 
   The Matik catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Matik''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 54
+  Matik''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
+plans:
+- name: Matik Plans Pricing
+  plan_count: 0
+  slug: matik-plans-pricing
+random_paper: 87
+rate_limits:
+- limit_count: 0
+  name: Matik Rate Limits
+  slug: matik-rate-limits
 scopes:
 - name: Matik Scopes
   scope_count: 2
@@ -175,22 +208,22 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 49.1
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
-    developer_ergonomics: 62.5
+    developer_ergonomics: 66.8
     discoverability: 75.9
     governance: 12.5
-    operational_transparency: 39.5
+    operational_transparency: 28.9
   previous_composite: 49.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/screenshots/matik-2026-07-25T230412.png
 security:

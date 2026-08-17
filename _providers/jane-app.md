@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -53,11 +53,15 @@ apis:
 - description: Jane JDP API from Jane — 31 path(s) described in OpenAPI.
   name: Jane JDP API
   slug: jane-app-jdp-openapi
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Jane App Webhooks
   slug: jane-app-webhooks
+collections:
+- collection_type: open
+  name: JDP API
+  slug: open-jane-app-jdp
 common:
 - group: agent
   title: ''
@@ -211,7 +215,7 @@ overview: 'Jane publishes 1 API on the [APIs.io](https://apis.io/) network: JDP 
 
 
   Jane''s developer surface includes authentication, sandbox, support, documentation, API reference, getting-started guide, pricing, and 26 more developer resources.'
-random_paper: 60
+random_paper: 35
 scopes:
 - name: Jane App Scopes
   scope_count: 30
@@ -246,7 +250,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png
 security:

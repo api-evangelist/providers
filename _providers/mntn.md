@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: OpenAPI 3.1 platform API for MNTN Performance TV. Covers advertisers and organizations, campaign and flight lifecycle (create, update, launch, pause, archive), creatives, audiences including geo lists
@@ -31,7 +31,59 @@ apis:
 - description: Asynchronous CSV export API under /batch on api3.mountain.com, for reporting queries too large or slow to run synchronously (a 413 on /apidata is the documented trigger). POST /batch enqueues a job an
   name: MNTN Async Batch Export API
   slug: mntn-async-batch-export-api
-artifact_total: 9
+artifact_total: 26
+collections:
+- collection_type: open
+  name: MNTN Async Batch Export API - Batch
+  slug: open-mntn-batch-export
+- collection_type: open
+  name: PTV API - advertisers
+  slug: open-mntn-ptv-advertisers
+- collection_type: open
+  name: PTV API - attribution
+  slug: open-mntn-ptv-attribution
+- collection_type: open
+  name: PTV API - audiences
+  slug: open-mntn-ptv-audiences
+- collection_type: open
+  name: PTV API - campaigns
+  slug: open-mntn-ptv-campaigns
+- collection_type: open
+  name: PTV API - creatives
+  slug: open-mntn-ptv-creatives
+- collection_type: open
+  name: PTV API - flights
+  slug: open-mntn-ptv-flights
+- collection_type: open
+  name: PTV API - organizations
+  slug: open-mntn-ptv-organizations
+- collection_type: open
+  name: PTV API - pixel
+  slug: open-mntn-ptv-pixel
+- collection_type: open
+  name: PTV API - pmp-campaign-deals
+  slug: open-mntn-ptv-pmp-campaign-deals
+- collection_type: open
+  name: PTV API - pmp-channels
+  slug: open-mntn-ptv-pmp-channels
+- collection_type: open
+  name: PTV API - pmp-deal-groups
+  slug: open-mntn-ptv-pmp-deal-groups
+- collection_type: open
+  name: PTV API - pmp-deals
+  slug: open-mntn-ptv-pmp-deals
+- collection_type: open
+  name: PTV API - pmp-partners
+  slug: open-mntn-ptv-pmp-partners
+- collection_type: open
+  name: PTV API - reference
+  slug: open-mntn-ptv-reference
+- collection_type: open
+  name: PTV API - reporting
+  slug: open-mntn-ptv-reporting
+- collection_type: open
+  name: MNTN Reporting API - API
+  slug: open-mntn-reporting-api
 common:
 - group: company
   title: ''
@@ -170,7 +222,7 @@ plans:
 - name: Mntn Plans Pricing
   plan_count: 0
   slug: mntn-plans-pricing
-random_paper: 85
+random_paper: 147
 rate_limits:
 - limit_count: 0
   name: Mntn Rate Limits
@@ -178,6 +230,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.0
@@ -185,8 +238,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 34.2
+  previous_composite: 50.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Mntn Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'Import/update master data: general ledger accounts, cost dimensions, additional delivery costs.'
@@ -49,7 +49,29 @@ apis:
 - description: The Reimbursements API from Candis — 1 operation(s) for reimbursements.
   name: Candis Reimbursements API
   slug: candis-reimbursements-api
-artifact_total: 11
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Candis Core Data API
+  slug: open-candis-core-data-api
+- collection_type: open
+  name: Candis Core Data Exports API
+  slug: open-candis-exports-api
+- collection_type: open
+  name: Candis Core Data Invoices API
+  slug: open-candis-invoices-api
+- collection_type: open
+  name: Candis Core Data Organizations API
+  slug: open-candis-organizations-api
+- collection_type: open
+  name: Candis Core Data Purchase Requests API
+  slug: open-candis-purchase-requests-api
+- collection_type: open
+  name: Candis Core Data Reimbursements API
+  slug: open-candis-reimbursements-api
 common:
 - group: company
   title: ''
@@ -187,7 +209,7 @@ overview: 'Candis publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Candis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 26
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Candis Rate Limits
@@ -219,7 +241,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/screenshots/candis-2026-07-25T204341.png
 security:

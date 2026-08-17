@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 19
 apis:
 - description: The Customers API from Fudo — 2 operation(s) for customers.
@@ -88,7 +88,68 @@ apis:
 - description: The Users API from Fudo — 2 operation(s) for users.
   name: Fudo Users API
   slug: fudo-users-api
-artifact_total: 22
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fudo Customers API
+  slug: open-fudo-customers-api
+- collection_type: open
+  name: Fudo Customers Discounts API
+  slug: open-fudo-discounts-api
+- collection_type: open
+  name: Fudo Customers Expense Categories API
+  slug: open-fudo-expense-categories-api
+- collection_type: open
+  name: Fudo Customers Expenses API
+  slug: open-fudo-expenses-api
+- collection_type: open
+  name: Fudo Customers Ingredients API
+  slug: open-fudo-ingredients-api
+- collection_type: open
+  name: Fudo Customers Items API
+  slug: open-fudo-items-api
+- collection_type: open
+  name: Fudo Customers Kitchens API
+  slug: open-fudo-kitchens-api
+- collection_type: open
+  name: Fudo Customers Payment Methods API
+  slug: open-fudo-payment-methods-api
+- collection_type: open
+  name: Fudo Customers Payments API
+  slug: open-fudo-payments-api
+- collection_type: open
+  name: Fudo Customers Product Categories API
+  slug: open-fudo-product-categories-api
+- collection_type: open
+  name: Fudo Customers Product Modifiers API
+  slug: open-fudo-product-modifiers-api
+- collection_type: open
+  name: Fudo Customers Products API
+  slug: open-fudo-products-api
+- collection_type: open
+  name: Fudo Customers Providers API
+  slug: open-fudo-providers-api
+- collection_type: open
+  name: Fudo Customers Roles API
+  slug: open-fudo-roles-api
+- collection_type: open
+  name: Fudo Customers Rooms API
+  slug: open-fudo-rooms-api
+- collection_type: open
+  name: Fudo Customers Sales API
+  slug: open-fudo-sales-api
+- collection_type: open
+  name: Fudo Customers Subitems API
+  slug: open-fudo-subitems-api
+- collection_type: open
+  name: Fudo Customers Tables API
+  slug: open-fudo-tables-api
+- collection_type: open
+  name: Fudo Customers Users API
+  slug: open-fudo-users-api
 common:
 - group: auth
   title: ''
@@ -190,7 +251,7 @@ overview: 'Fudo publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fudo''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 70
+random_paper: 132
 score:
   band: thin
   composite: 40.7
@@ -218,7 +279,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/screenshots/fudo-2026-07-25T215250.png
 security:

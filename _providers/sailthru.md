@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The core Sailthru HTTPS API. All requests are GET, POST or DELETE calls to https://api.sailthru.com/<endpointName>, authenticated with api_key, an MD5 sig over the sorted parameter values, and a forma
@@ -177,7 +177,7 @@ plans:
 - name: Sailthru Plans Pricing
   plan_count: 0
   slug: sailthru-plans-pricing
-random_paper: 36
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Sailthru Rate Limits
@@ -185,6 +185,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -192,6 +193,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 71.1
+  previous_composite: 53.6
   regulatory:
     applies: true
     matched_via: tags
@@ -199,7 +201,8 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Sailthru Authentication

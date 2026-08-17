@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -40,7 +40,11 @@ apis:
 - description: The OBIE Read/Write Confirmation of Funds (CBPII) API standard - FAPI-secured yes/no confirmation of available funds for a card-based payment instrument issuer. Captured here as the shared OBIE standa
   name: Paragon Bank Confirmation of Funds API (OBIE standard, unverified)
   slug: paragon-confirmation-of-funds-api
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-standard
 common:
 - group: agent
   title: ''
@@ -155,7 +159,7 @@ overview: 'Paragon Bank publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Paragon Bank''s developer surface includes authentication, support, pricing, and 21 more developer resources.'
-random_paper: 1
+random_paper: 9
 scopes:
 - name: Paragon Bank Scopes
   scope_count: 3
@@ -190,7 +194,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

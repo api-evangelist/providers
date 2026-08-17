@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: File storage management
   name: SimScale Storage API
   slug: simscale-storage-api
-artifact_total: 23
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SimScale REST Geometry API
+  slug: open-simscale-geometry-api
+- collection_type: open
+  name: SimScale REST Geometry Mesh Operations API
+  slug: open-simscale-mesh-operations-api
+- collection_type: open
+  name: SimScale REST Geometry Projects API
+  slug: open-simscale-projects-api
+- collection_type: open
+  name: SimScale REST Geometry Reports API
+  slug: open-simscale-reports-api
+- collection_type: open
+  name: SimScale REST Geometry Simulation Runs API
+  slug: open-simscale-simulation-runs-api
+- collection_type: open
+  name: SimScale REST Geometry Simulations API
+  slug: open-simscale-simulations-api
+- collection_type: open
+  name: SimScale REST Geometry Storage API
+  slug: open-simscale-storage-api
 - collection_type: open
   name: SimScale REST API
   slug: open-simscale
@@ -164,7 +188,7 @@ plans:
 - name: Simscale Plans Pricing
   plan_count: 3
   slug: simscale-plans-pricing
-random_paper: 9
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Simscale Rate Limits
@@ -206,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/screenshots/simscale-2026-06-20T193939.png
 security:

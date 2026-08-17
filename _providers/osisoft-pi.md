@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,8 +69,35 @@ apis:
 - description: Time-series data streams
   name: osisoft-pi Streams API
   slug: osisoft-pi-streams-api
-artifact_total: 23
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OSIsoft PI Web AssetServers API
+  slug: open-osisoft-pi-assetservers-api
+- collection_type: open
+  name: OSIsoft PI Web AssetServers Attributes API
+  slug: open-osisoft-pi-attributes-api
+- collection_type: open
+  name: OSIsoft PI Web AssetServers BatchRequests API
+  slug: open-osisoft-pi-batchrequests-api
+- collection_type: open
+  name: OSIsoft PI Web AssetServers DataServers API
+  slug: open-osisoft-pi-dataservers-api
+- collection_type: open
+  name: OSIsoft PI Web AssetServers Elements API
+  slug: open-osisoft-pi-elements-api
+- collection_type: open
+  name: OSIsoft PI Web AssetServers EventFrames API
+  slug: open-osisoft-pi-eventframes-api
+- collection_type: open
+  name: OSIsoft PI Web AssetServers PIPoints API
+  slug: open-osisoft-pi-pipoints-api
+- collection_type: open
+  name: OSIsoft PI Web AssetServers Streams API
+  slug: open-osisoft-pi-streams-api
 - collection_type: open
   name: OSIsoft PI Web API
   slug: open-osisoft-pi-web-api
@@ -185,7 +212,7 @@ plans:
 - name: Osisoft Pi Plans Pricing
   plan_count: 1
   slug: osisoft-pi-plans-pricing
-random_paper: 77
+random_paper: 143
 rate_limits:
 - limit_count: 2
   name: Osisoft Pi Rate Limits
@@ -219,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/screenshots/osisoft-pi-2026-06-20T191219.png
 security:

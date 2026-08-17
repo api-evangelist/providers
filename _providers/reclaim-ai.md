@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 348
   human_in_the_loop: 16
@@ -288,7 +288,260 @@ apis:
 - description: The .well Known API from Reclaim.ai — 13 operation(s) for .well known.
   name: Reclaim.ai .well Known API
   slug: reclaim-ai-well-known-api
-artifact_total: 115
+artifact_total: 199
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reclaim account-time-schemes API
+  slug: open-reclaim-ai-account-time-schemes-api
+- collection_type: open
+  name: Reclaim account-time-schemes accounts API
+  slug: open-reclaim-ai-accounts-api
+- collection_type: open
+  name: Reclaim account-time-schemes action-items API
+  slug: open-reclaim-ai-action-items-api
+- collection_type: open
+  name: Reclaim account-time-schemes actions API
+  slug: open-reclaim-ai-actions-api
+- collection_type: open
+  name: Reclaim account-time-schemes Admin API
+  slug: open-reclaim-ai-admin-api
+- collection_type: open
+  name: Reclaim account-time-schemes analytics API
+  slug: open-reclaim-ai-analytics-api
+- collection_type: open
+  name: Reclaim account-time-schemes Anonymous API
+  slug: open-reclaim-ai-anonymous-api
+- collection_type: open
+  name: Reclaim account-time-schemes api-management API
+  slug: open-reclaim-ai-api-management-api
+- collection_type: open
+  name: Reclaim account-time-schemes asana API
+  slug: open-reclaim-ai-asana-api
+- collection_type: open
+  name: Reclaim account-time-schemes assist API
+  slug: open-reclaim-ai-assist-api
+- collection_type: open
+  name: Reclaim account-time-schemes Assistant API
+  slug: open-reclaim-ai-assistant-api
+- collection_type: open
+  name: Reclaim account-time-schemes Avatar API
+  slug: open-reclaim-ai-avatar-api
+- collection_type: open
+  name: Reclaim account-time-schemes aws-ses API
+  slug: open-reclaim-ai-aws-ses-api
+- collection_type: open
+  name: Reclaim account-time-schemes buildings API
+  slug: open-reclaim-ai-buildings-api
+- collection_type: open
+  name: Reclaim account-time-schemes calendars API
+  slug: open-reclaim-ai-calendars-api
+- collection_type: open
+  name: Reclaim account-time-schemes calendarSyncPolicy API
+  slug: open-reclaim-ai-calendarsyncpolicy-api
+- collection_type: open
+  name: Reclaim account-time-schemes changelog API
+  slug: open-reclaim-ai-changelog-api
+- collection_type: open
+  name: Reclaim account-time-schemes clickup API
+  slug: open-reclaim-ai-clickup-api
+- collection_type: open
+  name: Reclaim account-time-schemes clockwise API
+  slug: open-reclaim-ai-clockwise-api
+- collection_type: open
+  name: Reclaim account-time-schemes contacts API
+  slug: open-reclaim-ai-contacts-api
+- collection_type: open
+  name: Reclaim account-time-schemes credentials API
+  slug: open-reclaim-ai-credentials-api
+- collection_type: open
+  name: Reclaim account-time-schemes delegated-access API
+  slug: open-reclaim-ai-delegated-access-api
+- collection_type: open
+  name: Reclaim account-time-schemes effective-time-policy API
+  slug: open-reclaim-ai-effective-time-policy-api
+- collection_type: open
+  name: Reclaim account-time-schemes Embed API
+  slug: open-reclaim-ai-embed-api
+- collection_type: open
+  name: Reclaim account-time-schemes Enum Registry API
+  slug: open-reclaim-ai-enum-registry-api
+- collection_type: open
+  name: Reclaim account-time-schemes events API
+  slug: open-reclaim-ai-events-api
+- collection_type: open
+  name: Reclaim account-time-schemes extra-types API
+  slug: open-reclaim-ai-extra-types-api
+- collection_type: open
+  name: Reclaim account-time-schemes focus-planner-actions API
+  slug: open-reclaim-ai-focus-planner-actions-api
+- collection_type: open
+  name: Reclaim account-time-schemes focus-settings API
+  slug: open-reclaim-ai-focus-settings-api
+- collection_type: open
+  name: Reclaim account-time-schemes google-add-on API
+  slug: open-reclaim-ai-google-add-on-api
+- collection_type: open
+  name: Reclaim account-time-schemes google-groups API
+  slug: open-reclaim-ai-google-groups-api
+- collection_type: open
+  name: Reclaim account-time-schemes integration API
+  slug: open-reclaim-ai-integration-api
+- collection_type: open
+  name: Reclaim account-time-schemes Integrations API
+  slug: open-reclaim-ai-integrations-api
+- collection_type: open
+  name: Reclaim account-time-schemes interactions API
+  slug: open-reclaim-ai-interactions-api
+- collection_type: open
+  name: Reclaim account-time-schemes Interpreter API
+  slug: open-reclaim-ai-interpreter-api
+- collection_type: open
+  name: Reclaim account-time-schemes invite API
+  slug: open-reclaim-ai-invite-api
+- collection_type: open
+  name: Reclaim account-time-schemes jira API
+  slug: open-reclaim-ai-jira-api
+- collection_type: open
+  name: Reclaim account-time-schemes jira-v2 API
+  slug: open-reclaim-ai-jira-v2-api
+- collection_type: open
+  name: Reclaim account-time-schemes linear API
+  slug: open-reclaim-ai-linear-api
+- collection_type: open
+  name: Reclaim account-time-schemes LLM Tool Approvals API
+  slug: open-reclaim-ai-llm-tool-approvals-api
+- collection_type: open
+  name: Reclaim account-time-schemes matcher API
+  slug: open-reclaim-ai-matcher-api
+- collection_type: open
+  name: Reclaim account-time-schemes Mcp API
+  slug: open-reclaim-ai-mcp-api
+- collection_type: open
+  name: Reclaim account-time-schemes memories API
+  slug: open-reclaim-ai-memories-api
+- collection_type: open
+  name: Reclaim account-time-schemes moment API
+  slug: open-reclaim-ai-moment-api
+- collection_type: open
+  name: Reclaim account-time-schemes notion API
+  slug: open-reclaim-ai-notion-api
+- collection_type: open
+  name: Reclaim account-time-schemes OAuth 2.0 API
+  slug: open-reclaim-ai-oauth-2-0-api
+- collection_type: open
+  name: Reclaim account-time-schemes OAuth 2.0 Client Management API
+  slug: open-reclaim-ai-oauth-2-0-client-management-api
+- collection_type: open
+  name: Reclaim account-time-schemes Oauth API
+  slug: open-reclaim-ai-oauth-api
+- collection_type: open
+  name: Reclaim account-time-schemes Oauth2 API
+  slug: open-reclaim-ai-oauth2-api
+- collection_type: open
+  name: Reclaim account-time-schemes Ok API
+  slug: open-reclaim-ai-ok-api
+- collection_type: open
+  name: Reclaim account-time-schemes oneOnOnes API
+  slug: open-reclaim-ai-oneonones-api
+- collection_type: open
+  name: Reclaim account-time-schemes ooo-calendars API
+  slug: open-reclaim-ai-ooo-calendars-api
+- collection_type: open
+  name: Reclaim account-time-schemes participant-resolution API
+  slug: open-reclaim-ai-participant-resolution-api
+- collection_type: open
+  name: Reclaim account-time-schemes partnerstack API
+  slug: open-reclaim-ai-partnerstack-api
+- collection_type: open
+  name: Reclaim account-time-schemes people API
+  slug: open-reclaim-ai-people-api
+- collection_type: open
+  name: Reclaim account-time-schemes private API
+  slug: open-reclaim-ai-private-api
+- collection_type: open
+  name: Reclaim account-time-schemes quest API
+  slug: open-reclaim-ai-quest-api
+- collection_type: open
+  name: Reclaim account-time-schemes reclaim-tasks API
+  slug: open-reclaim-ai-reclaim-tasks-api
+- collection_type: open
+  name: Reclaim account-time-schemes recommended-tasks API
+  slug: open-reclaim-ai-recommended-tasks-api
+- collection_type: open
+  name: Reclaim account-time-schemes resources API
+  slug: open-reclaim-ai-resources-api
+- collection_type: open
+  name: Reclaim account-time-schemes schedule-actions API
+  slug: open-reclaim-ai-schedule-actions-api
+- collection_type: open
+  name: Reclaim account-time-schemes schedule-availability API
+  slug: open-reclaim-ai-schedule-availability-api
+- collection_type: open
+  name: Reclaim account-time-schemes schedule-policy API
+  slug: open-reclaim-ai-schedule-policy-api
+- collection_type: open
+  name: Reclaim account-time-schemes Scim API
+  slug: open-reclaim-ai-scim-api
+- collection_type: open
+  name: Reclaim account-time-schemes scoring API
+  slug: open-reclaim-ai-scoring-api
+- collection_type: open
+  name: Reclaim account-time-schemes slack API
+  slug: open-reclaim-ai-slack-api
+- collection_type: open
+  name: Reclaim account-time-schemes smart-habit-custom-templates API
+  slug: open-reclaim-ai-smart-habit-custom-templates-api
+- collection_type: open
+  name: Reclaim account-time-schemes smart-habits API
+  slug: open-reclaim-ai-smart-habits-api
+- collection_type: open
+  name: Reclaim account-time-schemes smart-meetings API
+  slug: open-reclaim-ai-smart-meetings-api
+- collection_type: open
+  name: Reclaim account-time-schemes SmartSeriesMigration API
+  slug: open-reclaim-ai-smartseriesmigration-api
+- collection_type: open
+  name: Reclaim account-time-schemes tasks API
+  slug: open-reclaim-ai-tasks-api
+- collection_type: open
+  name: Reclaim account-time-schemes time-scheme API
+  slug: open-reclaim-ai-time-scheme-api
+- collection_type: open
+  name: Reclaim account-time-schemes time-scheme-rules API
+  slug: open-reclaim-ai-time-scheme-rules-api
+- collection_type: open
+  name: Reclaim account-time-schemes Time Window Overrides API
+  slug: open-reclaim-ai-time-window-overrides-api
+- collection_type: open
+  name: Reclaim account-time-schemes timePolicies API
+  slug: open-reclaim-ai-timepolicies-api
+- collection_type: open
+  name: Reclaim account-time-schemes todoist API
+  slug: open-reclaim-ai-todoist-api
+- collection_type: open
+  name: Reclaim account-time-schemes user-notification-settings API
+  slug: open-reclaim-ai-user-notification-settings-api
+- collection_type: open
+  name: Reclaim account-time-schemes user-notifications API
+  slug: open-reclaim-ai-user-notifications-api
+- collection_type: open
+  name: Reclaim account-time-schemes users API
+  slug: open-reclaim-ai-users-api
+- collection_type: open
+  name: Reclaim account-time-schemes webhooks API
+  slug: open-reclaim-ai-webhooks-api
+- collection_type: open
+  name: Reclaim account-time-schemes websocket API
+  slug: open-reclaim-ai-websocket-api
+- collection_type: open
+  name: Reclaim account-time-schemes weekly-report API
+  slug: open-reclaim-ai-weekly-report-api
+- collection_type: open
+  name: Reclaim account-time-schemes .well Known API
+  slug: open-reclaim-ai-well-known-api
 common:
 - group: agent
   title: ''
@@ -451,7 +704,7 @@ plans:
 - name: Reclaim Ai Plans Pricing
   plan_count: 4
   slug: reclaim-ai-plans-pricing
-random_paper: 20
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Reclaim Ai Rate Limits
@@ -490,7 +743,7 @@ score:
       marker_coverage: 0.0
       total: 83
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/screenshots/reclaim-ai-2026-06-20T192710.png
 security:

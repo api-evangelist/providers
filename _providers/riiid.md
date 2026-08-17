@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Riiid's adaptive learning engine analyzes learner interaction data in real time to recommend personalized study paths and content. It is delivered inside Riiid/Socra products (Santa) and to partners v
@@ -43,8 +43,11 @@ apis:
 - description: B2B / AI-as-a-Service (R.Inside) engagements that embed Riiid's adaptive learning and knowledge-tracing AI into partner education platforms. Access is sales-led and contract-based via partnership@socr
   name: Riiid Partner Solutions
   slug: partner-solutions
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Riiid API
   slug: open-riiid
@@ -101,7 +104,7 @@ plans:
 - name: Riiid Plans Pricing
   plan_count: 2
   slug: riiid-plans-pricing
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Riiid Rate Limits
@@ -119,7 +122,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 25.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

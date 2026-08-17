@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Organize projects into workspaces.
   name: API-Fiddle Workspaces API
   slug: api-fiddle-workspaces-api
-artifact_total: 28
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: API-Fiddle API Fiddle API
   slug: open-api-fiddle-api-fiddle
+- collection_type: open
+  name: API-Fiddle API Fiddle Export API
+  slug: open-api-fiddle-export-api
+- collection_type: open
+  name: API-Fiddle API Fiddle Export Projects API
+  slug: open-api-fiddle-projects-api
+- collection_type: open
+  name: API-Fiddle API Fiddle Export Sharing API
+  slug: open-api-fiddle-sharing-api
+- collection_type: open
+  name: API-Fiddle API Fiddle Export Specifications API
+  slug: open-api-fiddle-specifications-api
+- collection_type: open
+  name: API-Fiddle API Fiddle Export Workspaces API
+  slug: open-api-fiddle-workspaces-api
 common:
 - group: agent
   title: ''
@@ -144,7 +162,7 @@ plans:
 - name: Api Fiddle Plans Pricing
   plan_count: 3
   slug: api-fiddle-plans-pricing
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Api Fiddle Rate Limits
@@ -178,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/screenshots/api-fiddle-2026-06-20T172209.png
 security:

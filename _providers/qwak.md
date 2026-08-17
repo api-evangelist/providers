@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ overview: 'Qwak is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Qwak''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 8 more developer resources.'
-random_paper: 76
+random_paper: 138
 score:
   band: emerging
   composite: 21.2
@@ -114,7 +114,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

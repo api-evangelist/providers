@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,12 +60,24 @@ apis:
 - description: The Themes API from Typeform — 1 operation(s) for themes.
   name: Typeform Themes API
   slug: typeform-themes-api
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: AsyncAPI description of Typeform's webhook surface. Typeform delivers a single event type (`form_response`) via HTTP POST to a subscriber-configured HTTPS URL every time a respondent submits a typefor
   name: Typeform Webhooks
   slug: typeform-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Typeform Create Forms API
+  slug: open-typeform-forms-api
+- collection_type: open
+  name: Typeform Create Forms Images API
+  slug: open-typeform-images-api
+- collection_type: open
+  name: Typeform Create Forms Themes API
+  slug: open-typeform-themes-api
 - collection_type: open
   name: Typeform Create API
   slug: open-typeform
@@ -153,7 +165,7 @@ plans:
 - name: Typeform Plans Pricing
   plan_count: 7
   slug: typeform-plans-pricing
-random_paper: 46
+random_paper: 141
 rate_limits:
 - limit_count: 2
   name: Typeform Rate Limits
@@ -192,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/screenshots/typeform-2026-06-20T195905.png
 security:

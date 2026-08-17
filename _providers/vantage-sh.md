@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 0
@@ -171,8 +171,143 @@ apis:
 - description: Operations about Workspaces
   name: Vantage Workspaces API
   slug: vantage-sh-workspaces-api
-artifact_total: 51
+artifact_total: 96
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vantage AccessGrants API
+  slug: open-vantage-sh-accessgrants-api
+- collection_type: open
+  name: Vantage AccessGrants AnomalyAlerts API
+  slug: open-vantage-sh-anomalyalerts-api
+- collection_type: open
+  name: Vantage AccessGrants AnomalyNotifications API
+  slug: open-vantage-sh-anomalynotifications-api
+- collection_type: open
+  name: Vantage AccessGrants AuditLogs API
+  slug: open-vantage-sh-auditlogs-api
+- collection_type: open
+  name: Vantage AccessGrants BillingProfiles API
+  slug: open-vantage-sh-billingprofiles-api
+- collection_type: open
+  name: Vantage AccessGrants BillingRules API
+  slug: open-vantage-sh-billingrules-api
+- collection_type: open
+  name: Vantage AccessGrants BudgetAlerts API
+  slug: open-vantage-sh-budgetalerts-api
+- collection_type: open
+  name: Vantage AccessGrants Budgets API
+  slug: open-vantage-sh-budgets-api
+- collection_type: open
+  name: Vantage AccessGrants BusinessMetrics API
+  slug: open-vantage-sh-businessmetrics-api
+- collection_type: open
+  name: Vantage AccessGrants Canvases API
+  slug: open-vantage-sh-canvases-api
+- collection_type: open
+  name: Vantage AccessGrants CostAlertEvents API
+  slug: open-vantage-sh-costalertevents-api
+- collection_type: open
+  name: Vantage AccessGrants CostAlerts API
+  slug: open-vantage-sh-costalerts-api
+- collection_type: open
+  name: Vantage AccessGrants CostProvider API
+  slug: open-vantage-sh-costprovider-api
+- collection_type: open
+  name: Vantage AccessGrants CostProviderAccounts API
+  slug: open-vantage-sh-costprovideraccounts-api
+- collection_type: open
+  name: Vantage AccessGrants Costs API
+  slug: open-vantage-sh-costs-api
+- collection_type: open
+  name: Vantage AccessGrants CostService API
+  slug: open-vantage-sh-costservice-api
+- collection_type: open
+  name: Vantage AccessGrants Dashboards API
+  slug: open-vantage-sh-dashboards-api
+- collection_type: open
+  name: Vantage AccessGrants DataExports API
+  slug: open-vantage-sh-dataexports-api
+- collection_type: open
+  name: Vantage AccessGrants ExchangeRates API
+  slug: open-vantage-sh-exchangerates-api
+- collection_type: open
+  name: Vantage AccessGrants FinancialCommitmentReports API
+  slug: open-vantage-sh-financialcommitmentreports-api
+- collection_type: open
+  name: Vantage AccessGrants FinancialCommitments API
+  slug: open-vantage-sh-financialcommitments-api
+- collection_type: open
+  name: Vantage AccessGrants Folders API
+  slug: open-vantage-sh-folders-api
+- collection_type: open
+  name: Vantage AccessGrants Integrations API
+  slug: open-vantage-sh-integrations-api
+- collection_type: open
+  name: Vantage AccessGrants Invoices API
+  slug: open-vantage-sh-invoices-api
+- collection_type: open
+  name: Vantage AccessGrants KubernetesEfficiencyReports API
+  slug: open-vantage-sh-kubernetesefficiencyreports-api
+- collection_type: open
+  name: Vantage AccessGrants ManagedAccounts API
+  slug: open-vantage-sh-managedaccounts-api
+- collection_type: open
+  name: Vantage AccessGrants Me API
+  slug: open-vantage-sh-me-api
+- collection_type: open
+  name: Vantage AccessGrants NetworkFlowReports API
+  slug: open-vantage-sh-networkflowreports-api
+- collection_type: open
+  name: Vantage AccessGrants Ping API
+  slug: open-vantage-sh-ping-api
+- collection_type: open
+  name: Vantage AccessGrants Prices API
+  slug: open-vantage-sh-prices-api
+- collection_type: open
+  name: Vantage AccessGrants Recommendations API
+  slug: open-vantage-sh-recommendations-api
+- collection_type: open
+  name: Vantage AccessGrants RecommendationViews API
+  slug: open-vantage-sh-recommendationviews-api
+- collection_type: open
+  name: Vantage AccessGrants ReportNotifications API
+  slug: open-vantage-sh-reportnotifications-api
+- collection_type: open
+  name: Vantage AccessGrants ResourceReports API
+  slug: open-vantage-sh-resourcereports-api
+- collection_type: open
+  name: Vantage AccessGrants Resources API
+  slug: open-vantage-sh-resources-api
+- collection_type: open
+  name: Vantage AccessGrants SavedFilters API
+  slug: open-vantage-sh-savedfilters-api
+- collection_type: open
+  name: Vantage AccessGrants Segments API
+  slug: open-vantage-sh-segments-api
+- collection_type: open
+  name: Vantage AccessGrants Tags API
+  slug: open-vantage-sh-tags-api
+- collection_type: open
+  name: Vantage AccessGrants Teams API
+  slug: open-vantage-sh-teams-api
+- collection_type: open
+  name: Vantage AccessGrants UnitCosts API
+  slug: open-vantage-sh-unitcosts-api
+- collection_type: open
+  name: Vantage AccessGrants UserFeedback API
+  slug: open-vantage-sh-userfeedback-api
+- collection_type: open
+  name: Vantage AccessGrants Users API
+  slug: open-vantage-sh-users-api
+- collection_type: open
+  name: Vantage AccessGrants VirtualTags API
+  slug: open-vantage-sh-virtualtags-api
+- collection_type: open
+  name: Vantage AccessGrants Workspaces API
+  slug: open-vantage-sh-workspaces-api
 - collection_type: open
   name: Vantage API
   slug: open-vantage-sh
@@ -241,7 +376,7 @@ plans:
 - name: Vantage Sh Plans Pricing
   plan_count: 5
   slug: vantage-sh-plans-pricing
-random_paper: 46
+random_paper: 112
 rate_limits:
 - limit_count: 3
   name: Vantage Sh Rate Limits
@@ -266,7 +401,7 @@ score:
       marker_coverage: 0.0
       total: 44
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

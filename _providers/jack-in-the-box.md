@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -123,7 +123,7 @@ overview: 'Jack in the Box is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Jack in the Box''s developer surface includes YouTube channel, code examples, and 15 more developer resources.'
-random_paper: 89
+random_paper: 68
 score:
   band: minimal
   composite: 11.4
@@ -137,7 +137,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-in-the-box/refs/heads/main/screenshots/jack-in-the-box-2026-06-20T183649.png
 security:

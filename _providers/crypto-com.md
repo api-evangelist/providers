@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: 'REST API for the Crypto.com Exchange covering public reference and market data (instruments, order book, candlesticks, trades, tickers, valuations, settlement prices, insurance fund, risk parameters) '
@@ -36,11 +36,15 @@ apis:
 - description: On-chain developer platform service API for Cronos EVM and Cronos zkEVM, exposing native and ERC-20 token balances and transfers, smart contract ABI and bytecode lookup, transaction and block queries,
   name: Crypto.com Developer Platform API
   slug: cryptocom-developer-platform-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Crypto Com Event Surface
   slug: crypto-com-event-surface
+collections:
+- collection_type: open
+  name: Crypto.com Exchange API v1
+  slug: open-crypto-com-exchange
 common:
 - group: auth
   title: ''
@@ -241,7 +245,7 @@ plans:
 - name: Crypto Com Plans Pricing
   plan_count: 0
   slug: crypto-com-plans-pricing
-random_paper: 77
+random_paper: 143
 rate_limits:
 - limit_count: 11
   name: Crypto Com Rate Limits
@@ -249,6 +253,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 67.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.2
@@ -256,6 +261,7 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 94.7
+  previous_composite: 67.3
   regulatory:
     applies: true
     matched_via: tags
@@ -263,7 +269,8 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Crypto Com Authentication

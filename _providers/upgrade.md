@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Marketing Offers API
@@ -40,7 +40,20 @@ apis:
 - description: Transactions API (Direct Settle disbursement)
   name: Upgrade Transactions API
   slug: upgrade-transactions-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flex Pay API (Upgrade) Marketing Offers API
+  slug: open-upgrade-marketing-offers-api
+- collection_type: open
+  name: Flex Pay API (Upgrade) Marketing Offers Orders API
+  slug: open-upgrade-orders-api
+- collection_type: open
+  name: Flex Pay API (Upgrade) Marketing Offers Transactions API
+  slug: open-upgrade-transactions-api
 common:
 - group: other
   title: ''
@@ -178,7 +191,7 @@ overview: 'Upgrade publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Upgrade''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 24 more developer resources.'
-random_paper: 24
+random_paper: 148
 score:
   band: developing
   composite: 52.2
@@ -207,7 +220,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

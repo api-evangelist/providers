@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,12 +45,18 @@ apis:
 - description: The Monday.com Platform GraphQL API API from Monday.com — 1 operation(s) for monday.com platform graphql api.
   name: Monday.com Monday.com Platform GraphQL API API
   slug: monday-com-monday-com-platform-graphql-api-api
-artifact_total: 30
+artifact_total: 32
 asyncapis:
 - description: AsyncAPI 2.6 description of the monday.com webhook surface. monday.com webhooks deliver real-time board, item, subitem, column, and update events to a consumer-controlled HTTPS endpoint via HTTP POST.
   name: monday.com Webhooks
   slug: monday-com-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: monday.com Platform GraphQL Monday.com Platform GraphQL API API
+  slug: open-monday-com-monday-com-platform-graphql-api-api
 - collection_type: open
   name: monday.com Platform GraphQL API
   slug: open-monday-com
@@ -135,7 +141,7 @@ plans:
 - name: Monday Com Plans Pricing
   plan_count: 5
   slug: monday-com-plans-pricing
-random_paper: 52
+random_paper: 118
 rate_limits:
 - limit_count: 3
   name: Monday Com Rate Limits
@@ -174,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/screenshots/monday-com-2026-06-20T185722.png
 security:

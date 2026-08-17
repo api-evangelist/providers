@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -51,8 +51,23 @@ apis:
 - description: Enable, disable, and trigger Workflows and send App Events.
   name: Paragon Workflows API
   slug: paragon-api-workflows-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paragon ActionKit API
+  slug: open-paragon-api-actionkit-api
+- collection_type: open
+  name: Paragon ActionKit Connect API
+  slug: open-paragon-api-connect-api
+- collection_type: open
+  name: Paragon ActionKit Proxy API
+  slug: open-paragon-api-proxy-api
+- collection_type: open
+  name: Paragon ActionKit Workflows API
+  slug: open-paragon-api-workflows-api
 - collection_type: open
   name: Paragon API
   slug: open-paragon-api
@@ -113,7 +128,7 @@ plans:
 - name: Paragon Api Plans Pricing
   plan_count: 3
   slug: paragon-api-plans-pricing
-random_paper: 23
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Paragon Api Rate Limits
@@ -138,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/screenshots/paragon-api-2026-08-07T191416.png
 security:

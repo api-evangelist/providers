@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: Work tasks.
   name: Podio Tasks API
   slug: podio-tasks-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Podio Applications API
+  slug: open-podio-applications-api
+- collection_type: open
+  name: Podio Applications Hooks API
+  slug: open-podio-hooks-api
+- collection_type: open
+  name: Podio Applications Items API
+  slug: open-podio-items-api
+- collection_type: open
+  name: Podio Applications OAuth API
+  slug: open-podio-oauth-api
+- collection_type: open
+  name: Podio Applications Tasks API
+  slug: open-podio-tasks-api
 - collection_type: open
   name: Podio API
   slug: open-podio
@@ -130,7 +148,7 @@ overview: 'Podio publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Podio''s developer surface includes authentication, documentation, pricing, signup flow, and 10 more developer resources.'
-random_paper: 59
+random_paper: 92
 scopes:
 - name: Podio Scopes
   scope_count: 5
@@ -156,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/screenshots/podio-2026-06-20T191835.png
 security:

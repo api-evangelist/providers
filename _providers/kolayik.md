@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -78,7 +78,44 @@ arazzos:
 - description: Discover the tenant's custom person fields and org tree, create the person, verify the stored record, and assign onboarding training.
   name: Onboard an employee in Kolay İK
   slug: kolayik-onboard-employee
-artifact_total: 18
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kolay Public Approval Process API
+  slug: open-kolayik-approval-process-api
+- collection_type: open
+  name: Kolay Public Approval Process Calendar API
+  slug: open-kolayik-calendar-api
+- collection_type: open
+  name: Kolay Public Approval Process Expense API
+  slug: open-kolayik-expense-api
+- collection_type: open
+  name: Kolay Public Approval Process Leave API
+  slug: open-kolayik-leave-api
+- collection_type: open
+  name: Kolay Public Approval Process Payroll API
+  slug: open-kolayik-payroll-api
+- collection_type: open
+  name: Kolay Public Approval Process Person API
+  slug: open-kolayik-person-api
+- collection_type: open
+  name: Kolay Public Approval Process Profile API
+  slug: open-kolayik-profile-api
+- collection_type: open
+  name: Kolay Public Approval Process Timelog API
+  slug: open-kolayik-timelog-api
+- collection_type: open
+  name: Kolay Public Approval Process Training API
+  slug: open-kolayik-training-api
+- collection_type: open
+  name: Kolay Public Approval Process Transaction API
+  slug: open-kolayik-transaction-api
+- collection_type: open
+  name: Kolay Public Approval Process Unit API
+  slug: open-kolayik-unit-api
 common:
 - group: other
   title: ''
@@ -260,7 +297,7 @@ overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 34 more developer resources.'
-random_paper: 36
+random_paper: 11
 score:
   band: developing
   composite: 53.3
@@ -284,7 +321,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png
 security:

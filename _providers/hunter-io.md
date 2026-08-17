@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ arazzos:
 - description: Verify a known email and upsert it into Hunter as a lead with its verification status.
   name: Hunter Verify Existing Email
   slug: hunter-io-verify-existing-email-workflow
-artifact_total: 69
+artifact_total: 78
 collections:
 - collection_type: postman
   name: Hunter Account API
@@ -124,6 +124,9 @@ collections:
   name: Hunter Leads API
   slug: postman-hunter-leads-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Hunter Account API
   slug: open-hunter-account-api
 - collection_type: open
@@ -144,6 +147,30 @@ collections:
 - collection_type: open
   name: Hunter Enrichment API
   slug: open-hunter-enrichment-api
+- collection_type: open
+  name: Hunter Account API
+  slug: open-hunter-io-account-api
+- collection_type: open
+  name: Hunter Account Discover API
+  slug: open-hunter-io-discover-api
+- collection_type: open
+  name: Hunter Account Domain Search API
+  slug: open-hunter-io-domain-search-api
+- collection_type: open
+  name: Hunter Account Email Count API
+  slug: open-hunter-io-email-count-api
+- collection_type: open
+  name: Hunter Account Email Finder API
+  slug: open-hunter-io-email-finder-api
+- collection_type: open
+  name: Hunter Account Email Verifier API
+  slug: open-hunter-io-email-verifier-api
+- collection_type: open
+  name: Hunter Account Enrichment API
+  slug: open-hunter-io-enrichment-api
+- collection_type: open
+  name: Hunter Account Leads API
+  slug: open-hunter-io-leads-api
 - collection_type: open
   name: Hunter Leads API
   slug: open-hunter-leads-api
@@ -426,7 +453,7 @@ plans:
 - name: Hunter Io Plans Pricing
   plan_count: 5
   slug: hunter-io-plans-pricing
-random_paper: 83
+random_paper: 29
 rate_limits:
 - limit_count: 8
   name: Hunter Io Rate Limits
@@ -468,7 +495,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/screenshots/hunter-io-2026-06-20T182944.png
 security:

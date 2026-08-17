@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,7 +64,47 @@ apis:
 - description: Site author accounts.
   name: Abcuro Users API
   slug: abcuro-users-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Careers API
+  slug: open-abcuro-careers-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Comments API
+  slug: open-abcuro-comments-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Discovery API
+  slug: open-abcuro-discovery-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Investors API
+  slug: open-abcuro-investors-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Media API
+  slug: open-abcuro-media-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Pages API
+  slug: open-abcuro-pages-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) People API
+  slug: open-abcuro-people-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Press Releases API
+  slug: open-abcuro-press-releases-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Publications API
+  slug: open-abcuro-publications-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Search API
+  slug: open-abcuro-search-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Taxonomy API
+  slug: open-abcuro-taxonomy-api
+- collection_type: open
+  name: Abcuro Content API (WordPress REST) Users API
+  slug: open-abcuro-users-api
 common:
 - group: agent
   title: ''
@@ -186,7 +226,7 @@ overview: 'Abcuro publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Abcuro''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 21 more developer resources.'
-random_paper: 36
+random_paper: 40
 score:
   band: emerging
   composite: 25.9
@@ -216,7 +256,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/screenshots/abcuro-2026-08-07T160734.png
 security:

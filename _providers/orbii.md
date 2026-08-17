@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -83,7 +83,56 @@ apis:
 - description: The Transactions API from Orbii — 16 operation(s) for transactions.
   name: Orbii Transactions API
   slug: orbii-transactions-api
-artifact_total: 19
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orbii KSA Business Category Assignment API
+  slug: open-orbii-business-category-assignment-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Categories API
+  slug: open-orbii-categories-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Clients API
+  slug: open-orbii-clients-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Company Management API
+  slug: open-orbii-company-management-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Data Check API
+  slug: open-orbii-data-check-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment General API
+  slug: open-orbii-general-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment IBANs API
+  slug: open-orbii-ibans-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Invoices API
+  slug: open-orbii-invoices-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment KPIs API
+  slug: open-orbii-kpis-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Lending Actions API
+  slug: open-orbii-lending-actions-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Merchants API
+  slug: open-orbii-merchants-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment PDFs API
+  slug: open-orbii-pdfs-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Risk Assessment API
+  slug: open-orbii-risk-assessment-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Subcategories API
+  slug: open-orbii-subcategories-api
+- collection_type: open
+  name: Orbii KSA Business Category Assignment Transactions API
+  slug: open-orbii-transactions-api
 common:
 - group: company
   title: ''
@@ -185,7 +234,7 @@ overview: 'Orbii publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Orbii''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 53
+random_paper: 86
 score:
   band: thin
   composite: 30.0
@@ -215,7 +264,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/screenshots/orbii-2026-08-07T190850.png
 security:

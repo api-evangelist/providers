@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,12 +57,33 @@ apis:
 - description: Collaboration rooms and their participants.
   name: SuperViz Rooms API
   slug: superviz-rooms-api
-artifact_total: 15
+artifact_total: 22
 asyncapis:
 - description: 'AsyncAPI 2.6 description of SuperViz''s genuinely event/channel-based surfaces: 1. **Realtime channels** - SuperViz is a real-time synchronization platform. Clients using `@superviz/sdk` / `@superviz/r'
   name: SuperViz Realtime Channels & Webhooks
   slug: superviz-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SuperViz REST Channels API
+  slug: open-superviz-channels-api
+- collection_type: open
+  name: SuperViz REST Channels Comments API
+  slug: open-superviz-comments-api
+- collection_type: open
+  name: SuperViz REST Channels Meetings API
+  slug: open-superviz-meetings-api
+- collection_type: open
+  name: SuperViz REST Channels Presence API
+  slug: open-superviz-presence-api
+- collection_type: open
+  name: SuperViz REST Channels Realtime API
+  slug: open-superviz-realtime-api
+- collection_type: open
+  name: SuperViz REST Channels Rooms API
+  slug: open-superviz-rooms-api
 - collection_type: open
   name: SuperViz REST API
   slug: open-superviz
@@ -106,7 +127,7 @@ plans:
 - name: Superviz Plans Pricing
   plan_count: 3
   slug: superviz-plans-pricing
-random_paper: 64
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Superviz Rate Limits
@@ -140,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

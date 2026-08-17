@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 7
 common:
@@ -212,7 +212,7 @@ overview: 'Ausgrid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ausgrid''s developer surface includes engineering blog, support, authentication, code examples, documentation, developer portal, and 35 more developer resources.'
-random_paper: 31
+random_paper: 6
 score:
   band: emerging
   composite: 23.8
@@ -235,7 +235,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ausgrid/refs/heads/main/screenshots/ausgrid-2026-08-07T161937.png
 security:

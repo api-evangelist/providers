@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Real User Measurements (RUM) keys
   name: Azure Traffic Manager UserMetrics API
   slug: microsoft-azure-traffic-manager-usermetrics-api
-artifact_total: 23
+artifact_total: 29
 collections:
 - collection_type: postman
   name: Azure Traffic Manager REST Endpoints API
@@ -83,6 +83,24 @@ collections:
 - collection_type: postman
   name: Azure Traffic Manager REST Endpoints UserMetrics API
   slug: postman-microsoft-azure-traffic-manager-usermetrics-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Traffic Manager REST Endpoints API
+  slug: open-microsoft-azure-traffic-manager-endpoints-api
+- collection_type: open
+  name: Azure Traffic Manager REST Endpoints GeographicHierarchies API
+  slug: open-microsoft-azure-traffic-manager-geographichierarchies-api
+- collection_type: open
+  name: Azure Traffic Manager REST Endpoints HeatMap API
+  slug: open-microsoft-azure-traffic-manager-heatmap-api
+- collection_type: open
+  name: Azure Traffic Manager REST Endpoints Profiles API
+  slug: open-microsoft-azure-traffic-manager-profiles-api
+- collection_type: open
+  name: Azure Traffic Manager REST Endpoints UserMetrics API
+  slug: open-microsoft-azure-traffic-manager-usermetrics-api
 - collection_type: open
   name: Azure Traffic Manager REST API
   slug: open-microsoft-azure-traffic-manager
@@ -243,7 +261,7 @@ plans:
 - name: Microsoft Azure Traffic Manager Plans Pricing
   plan_count: 3
   slug: microsoft-azure-traffic-manager-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Traffic Manager Rate Limits
@@ -273,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/screenshots/microsoft-azure-traffic-manager-2026-06-20T185440.png
 security:

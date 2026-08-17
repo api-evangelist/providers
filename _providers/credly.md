@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -54,8 +54,26 @@ apis:
 - description: Organization details and employees directory.
   name: Credly Organizations API
   slug: credly-organizations-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Credly Web Service Badge Templates API
+  slug: open-credly-badge-templates-api
+- collection_type: open
+  name: Credly Web Service Badge Templates Events API
+  slug: open-credly-events-api
+- collection_type: open
+  name: Credly Web Service Badge Templates Issued Badges API
+  slug: open-credly-issued-badges-api
+- collection_type: open
+  name: Credly Web Service Badge Templates OBI Recipients API
+  slug: open-credly-obi-recipients-api
+- collection_type: open
+  name: Credly Web Service Badge Templates Organizations API
+  slug: open-credly-organizations-api
 - collection_type: open
   name: Credly Web Service API
   slug: open-credly
@@ -120,7 +138,7 @@ plans:
 - name: Credly Plans Pricing
   plan_count: 2
   slug: credly-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Credly Rate Limits
@@ -150,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/screenshots/credly-2026-07-25T210721.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: /dev/fast
 nav: Providers
 network: true
 overview: /dev/fast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Code Review, Code Hosting, and Deployment.
-random_paper: 29
+random_paper: 4
 score:
   band: minimal
   composite: 5.0
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devfast/refs/heads/main/screenshots/devfast-2026-07-25T211814.png
 security:

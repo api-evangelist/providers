@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The FlashExpress Open API is the merchant-facing integration surface for Flash Express parcel logistics in Thailand. All calls are HTTPS POST with an application/x-www-form-urlencoded body and a JSON '
@@ -157,7 +157,7 @@ plans:
 - name: Flash Express Plans Pricing
   plan_count: 0
   slug: flash-express-plans-pricing
-random_paper: 29
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Flash Express Rate Limits
@@ -165,6 +165,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -172,8 +173,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 7.9
+  previous_composite: 46.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Flash Express Authentication

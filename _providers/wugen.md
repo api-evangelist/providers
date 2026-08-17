@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,32 @@ apis:
 - description: The Taxonomy API from Wugen — 4 operation(s) for taxonomy.
   name: Wugen Taxonomy API
   slug: wugen-taxonomy-api
-artifact_total: 10
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Allotera (formerly Wugen) Content API (WordPress REST wp/v2) Comments API
+  slug: open-wugen-comments-api
+- collection_type: open
+  name: Wugen Discovery API
+  slug: open-wugen-discovery-api
+- collection_type: open
+  name: Wugen Media API
+  slug: open-wugen-media-api
+- collection_type: open
+  name: Wugen Pages API
+  slug: open-wugen-pages-api
+- collection_type: open
+  name: Wugen Posts API
+  slug: open-wugen-posts-api
+- collection_type: open
+  name: Wugen Search API
+  slug: open-wugen-search-api
+- collection_type: open
+  name: Wugen Taxonomy API
+  slug: open-wugen-taxonomy-api
 common:
 - group: other
   title: ''
@@ -188,7 +213,7 @@ overview: 'Wugen publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wugen''s developer surface includes authentication, code examples, product news, support, and 27 more developer resources.'
-random_paper: 70
+random_paper: 103
 score:
   band: emerging
   composite: 27.2
@@ -217,7 +242,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

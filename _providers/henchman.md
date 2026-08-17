@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Searches a firm's extracted clauses and definitions across its connected contract database, with intelligent ranking by frequency, document type, and metadata, surfaced inside Microsoft Word and Outlo
@@ -40,8 +40,11 @@ apis:
 - description: Connects Henchman to document management and storage systems - iManage Cloud and On-Prem, NetDocuments, SharePoint, Microsoft OneDrive, Google Drive, and OpenText eDocs - to extract precedent contract
   name: Henchman Integrations
   slug: integrations
-artifact_total: 8
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Henchman API
   slug: open-henchman
@@ -94,7 +97,7 @@ plans:
 - name: Henchman Plans Pricing
   plan_count: 3
   slug: henchman-plans-pricing
-random_paper: 114
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Henchman Rate Limits
@@ -112,7 +115,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/screenshots/henchman-2026-07-25T220957.png
 security:

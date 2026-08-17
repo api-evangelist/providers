@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: The research-output API from University of Bristol — 2 operation(s) for research-output.
   name: University of Bristol research-output API
   slug: university-of-bristol-research-output-api
-artifact_total: 22
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure data-set API
+  slug: open-university-of-bristol-data-set-api
+- collection_type: open
+  name: Pure data-set person API
+  slug: open-university-of-bristol-person-api
+- collection_type: open
+  name: Pure data-set project API
+  slug: open-university-of-bristol-project-api
+- collection_type: open
+  name: Pure data-set research-output API
+  slug: open-university-of-bristol-research-output-api
 common:
 - group: agent
   title: ''
@@ -163,7 +179,7 @@ plans:
 - name: University Of Bristol Plans Pricing
   plan_count: 2
   slug: university-of-bristol-plans-pricing
-random_paper: 32
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: University Of Bristol Rate Limits
@@ -211,7 +227,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/screenshots/university-of-bristol-2026-06-20T200140.png
 security:

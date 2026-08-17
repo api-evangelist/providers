@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: The Status API from Weave Net — 1 operation(s) for status.
   name: Weave Net Status API
   slug: weave-net-status-api
-artifact_total: 45
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Weave Net HTTP DNS API
+  slug: open-weave-net-dns-api
+- collection_type: open
+  name: Weave Net HTTP DNS IPAM API
+  slug: open-weave-net-ipam-api
+- collection_type: open
+  name: Weave Net HTTP DNS Network API
+  slug: open-weave-net-network-api
+- collection_type: open
+  name: Weave Net HTTP DNS Peers API
+  slug: open-weave-net-peers-api
+- collection_type: open
+  name: Weave Net HTTP DNS Status API
+  slug: open-weave-net-status-api
 - collection_type: open
   name: Weave Net HTTP API
   slug: open-weave-net
@@ -208,7 +226,7 @@ plans:
 - name: Weave Net Plans Pricing
   plan_count: 3
   slug: weave-net-plans-pricing
-random_paper: 68
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Weave Net Rate Limits
@@ -250,7 +268,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/screenshots/weave-net-2026-06-20T201316.png
 slug: weave-net

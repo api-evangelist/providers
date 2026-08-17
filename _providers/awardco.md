@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Provision and manage employees in an Awardco instance. Awardco's public documentation names Create User, Import Users (bulk), and Reset User Password endpoints, all flagged as sensitive and permission
@@ -102,7 +102,7 @@ plans:
 - name: Awardco Plans Pricing
   plan_count: 6
   slug: awardco-plans-pricing
-random_paper: 17
+random_paper: 141
 rate_limits:
 - limit_count: 0
   name: Awardco Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/awardco/refs/heads/main/screenshots/awardco-2026-07-25T202020.png
 security:

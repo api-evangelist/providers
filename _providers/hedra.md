@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,11 +54,18 @@ arazzos:
 - description: Upload a start keyframe image, submit a video generation, and poll for the result.
   name: Hedra — Generate a video from a start image
   slug: hedra-generate-video
-artifact_total: 10
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Hedra Webhooks
   slug: hedra-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hedra Web Public API
+  slug: open-hedra-public-api
 common:
 - group: other
   title: ''
@@ -211,7 +218,7 @@ overview: 'Hedra publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   Hedra''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 36
+random_paper: 69
 score:
   band: developing
   composite: 50.6
@@ -235,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/screenshots/hedra-2026-07-25T220905.png
 security:

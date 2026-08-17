@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Daily peak reports (paid plans).
   name: Grid Status Reports API
   slug: gridstatus-reports-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Grid Status API Info API
+  slug: open-gridstatus-api-info-api
+- collection_type: open
+  name: Grid Status API Info API Usage API
+  slug: open-gridstatus-api-usage-api
+- collection_type: open
+  name: Grid Status API Info Block Pricing Data API
+  slug: open-gridstatus-block-pricing-data-api
+- collection_type: open
+  name: Grid Status API Info Constraints API
+  slug: open-gridstatus-constraints-api
+- collection_type: open
+  name: Grid Status API Info CSV Exports API
+  slug: open-gridstatus-csv-exports-api
+- collection_type: open
+  name: Grid Status API Info Dataset Audit API
+  slug: open-gridstatus-dataset-audit-api
+- collection_type: open
+  name: Grid Status API Info Dataset Metadata API
+  slug: open-gridstatus-dataset-metadata-api
+- collection_type: open
+  name: Grid Status API Info Dataset Updates API
+  slug: open-gridstatus-dataset-updates-api
+- collection_type: open
+  name: Grid Status API Info Pricing Locations API
+  slug: open-gridstatus-pricing-locations-api
+- collection_type: open
+  name: Grid Status API Info Query Data API
+  slug: open-gridstatus-query-data-api
+- collection_type: open
+  name: Grid Status API Info Reports API
+  slug: open-gridstatus-reports-api
 - collection_type: open
   name: Grid Status API
   slug: open-gridstatus
@@ -142,7 +178,7 @@ plans:
 - name: Gridstatus Plans Pricing
   plan_count: 4
   slug: gridstatus-plans-pricing
-random_paper: 18
+random_paper: 55
 rate_limits:
 - limit_count: 7
   name: Gridstatus Rate Limits
@@ -173,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/screenshots/gridstatus-2026-07-25T220330.png
 security:

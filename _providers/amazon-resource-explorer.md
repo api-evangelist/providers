@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: The Views API from Amazon Resource Explorer — 5 operation(s) for views.
   name: Amazon Resource Explorer Views API
   slug: amazon-resource-explorer-views-api
-artifact_total: 41
+artifact_total: 47
 collections:
 - collection_type: postman
   name: Amazon Resource Explorer Index API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Amazon Resource Explorer Index Views API
   slug: postman-amazon-resource-explorer-views-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Resource Explorer Index API
+  slug: open-amazon-resource-explorer-index-api
+- collection_type: open
+  name: Amazon Resource Explorer Index Resources API
+  slug: open-amazon-resource-explorer-resources-api
+- collection_type: open
+  name: Amazon Resource Explorer Index Search API
+  slug: open-amazon-resource-explorer-search-api
+- collection_type: open
+  name: Amazon Resource Explorer Index Tags API
+  slug: open-amazon-resource-explorer-tags-api
+- collection_type: open
+  name: Amazon Resource Explorer Index Views API
+  slug: open-amazon-resource-explorer-views-api
 - collection_type: open
   name: Amazon Resource Explorer API
   slug: open-amazon-resource-explorer
@@ -335,7 +353,7 @@ plans:
 - name: Amazon Resource Explorer Plans Pricing
   plan_count: 3
   slug: amazon-resource-explorer-plans-pricing
-random_paper: 89
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Amazon Resource Explorer Rate Limits
@@ -377,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/screenshots/amazon-resource-explorer-2026-06-20T171809.png
 security:

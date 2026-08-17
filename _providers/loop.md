@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -80,11 +80,54 @@ apis:
 - description: The shipment-jobs API from Loop — 2 operation(s) for shipment-jobs.
   name: Loop shipment-jobs API
   slug: loop-shipment-jobs-api
-artifact_total: 19
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Loop Webhooks
   slug: loop-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Loop Onboarding artifacts API
+  slug: open-loop-artifacts-api
+- collection_type: open
+  name: Loop Onboarding artifacts artifacts-schema-validated API
+  slug: open-loop-artifacts-schema-validated-api
+- collection_type: open
+  name: Loop Onboarding artifacts business-exceptions API
+  slug: open-loop-business-exceptions-api
+- collection_type: open
+  name: Loop Onboarding artifacts factoring-relationships API
+  slug: open-loop-factoring-relationships-api
+- collection_type: open
+  name: Loop Onboarding artifacts invoicing-relationships API
+  slug: open-loop-invoicing-relationships-api
+- collection_type: open
+  name: Loop Onboarding artifacts onboarding.api.loop.com API
+  slug: open-loop-onboarding-api-loop-com-api
+- collection_type: open
+  name: Loop Onboarding artifacts organizations API
+  slug: open-loop-organizations-api
+- collection_type: open
+  name: Loop Onboarding artifacts payable-allocations API
+  slug: open-loop-payable-allocations-api
+- collection_type: open
+  name: Loop Onboarding artifacts payable-invoices API
+  slug: open-loop-payable-invoices-api
+- collection_type: open
+  name: Loop Onboarding artifacts payments API
+  slug: open-loop-payments-api
+- collection_type: open
+  name: Loop Onboarding artifacts ping API
+  slug: open-loop-ping-api
+- collection_type: open
+  name: Loop Onboarding artifacts receivable-invoices API
+  slug: open-loop-receivable-invoices-api
+- collection_type: open
+  name: Loop Onboarding artifacts shipment-jobs API
+  slug: open-loop-shipment-jobs-api
 common:
 - group: auth
   title: ''
@@ -210,7 +253,7 @@ overview: 'Loop publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Loop''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 82
+random_paper: 144
 score:
   band: developing
   composite: 47.6
@@ -240,7 +283,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/screenshots/loop-2026-07-25T225523.png
 security:

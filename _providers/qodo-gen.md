@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Agentic pull request review Git app (built on open-source PR-Agent).
   name: Qodo Qodo Merge API
   slug: qodo-gen-qodo-merge-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qodo Platform (Modeled Capability Surfaces) Qodo Command API
+  slug: open-qodo-gen-qodo-command-api
+- collection_type: open
+  name: Qodo Platform (Modeled Capability Surfaces) Qodo Command Qodo Gen API
+  slug: open-qodo-gen-qodo-gen-api
+- collection_type: open
+  name: Qodo Platform (Modeled Capability Surfaces) Qodo Command Qodo Merge API
+  slug: open-qodo-gen-qodo-merge-api
 - collection_type: open
   name: Qodo Platform (Modeled Capability Surfaces)
   slug: open-qodo-gen
@@ -122,7 +134,7 @@ plans:
 - name: Qodo Gen Plans Pricing
   plan_count: 4
   slug: qodo-gen-plans-pricing
-random_paper: 74
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Qodo Gen Rate Limits
@@ -147,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

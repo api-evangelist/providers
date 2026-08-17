@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Metal3 extends Kubernetes with the BareMetalHost custom resource for managing physical servers. The API supports hardware inventory discovery, firmware configuration, BIOS settings, RAID configuration
@@ -72,7 +72,7 @@ plans:
 - name: Metal3 Io Plans Pricing
   plan_count: 3
   slug: metal3-io-plans-pricing
-random_paper: 3
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Metal3 Io Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metal3-io/refs/heads/main/screenshots/metal3-io-2026-06-20T185242.png
 security:

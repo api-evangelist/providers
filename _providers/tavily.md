@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,8 +46,26 @@ apis:
 - description: The Search API from Tavily — 1 operation(s) for search.
   name: Tavily Search API
   slug: tavily-search-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tavily Web Crawl API
+  slug: open-tavily-crawl-api
+- collection_type: open
+  name: Tavily Web Crawl Extract API
+  slug: open-tavily-extract-api
+- collection_type: open
+  name: Tavily Web Crawl Map API
+  slug: open-tavily-map-api
+- collection_type: open
+  name: Tavily Web Crawl Research API
+  slug: open-tavily-research-api
+- collection_type: open
+  name: Tavily Web Crawl Search API
+  slug: open-tavily-search-api
 - collection_type: open
   name: Tavily Web API
   slug: open-tavily
@@ -140,7 +158,7 @@ plans:
 - name: Tavily Plans Pricing
   plan_count: 1
   slug: tavily-plans-pricing
-random_paper: 65
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Tavily Rate Limits
@@ -165,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/screenshots/tavily-2026-06-20T194930.png
 security:

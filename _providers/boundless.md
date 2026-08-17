@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Boundless is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Boundless'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 15
+random_paper: 81
 score:
   band: emerging
   composite: 18.3
@@ -99,7 +99,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boundless/refs/heads/main/screenshots/boundless-2026-07-25T203646.png
 security:

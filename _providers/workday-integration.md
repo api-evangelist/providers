@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -300,7 +300,7 @@ apis:
 - description: The WQL API from Workday Integration — 1 operation(s) for wql.
   name: Workday Integration WQL API
   slug: workday-integration-wql-api
-artifact_total: 364
+artifact_total: 449
 collections:
 - collection_type: postman
   name: Workday Integration Workday Absence Management Absence Types API
@@ -564,23 +564,65 @@ collections:
   name: Workday Integration Workday Absence Management Absence Types WQL API
   slug: postman-workday-integration-wql-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Workday Integration Workday Absence Management API
   slug: open-workday-integration-absence-management
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types API
+  slug: open-workday-integration-absence-types-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types ACA Compliance API
+  slug: open-workday-integration-aca-compliance-api
 - collection_type: open
   name: Workday Integration Workday ACA Partner Integrations API
   slug: open-workday-integration-aca-partner-integrations
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Academic Advising API
+  slug: open-workday-integration-academic-advising-api
+- collection_type: open
   name: Workday Integration Workday Academic Advising API
   slug: open-workday-integration-academic-advising
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Academic Foundation API
+  slug: open-workday-integration-academic-foundation-api
 - collection_type: open
   name: Workday Integration Workday Academic Foundation API
   slug: open-workday-integration-academic-foundation
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Admissions API
+  slug: open-workday-integration-admissions-api
+- collection_type: open
   name: Workday Integration Workday Admissions API
   slug: open-workday-integration-admissions
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Adoption API
+  slug: open-workday-integration-adoption-api
+- collection_type: open
   name: Workday Integration Workday Adoption API
   slug: open-workday-integration-adoption
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Assignments API
+  slug: open-workday-integration-assignments-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Audit API
+  slug: open-workday-integration-audit-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Balances API
+  slug: open-workday-integration-balances-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Bank Accounts API
+  slug: open-workday-integration-bank-accounts-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Bank Statements API
+  slug: open-workday-integration-bank-statements-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Benefit Elections API
+  slug: open-workday-integration-benefit-elections-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Benefit Plans API
+  slug: open-workday-integration-benefit-plans-api
 - collection_type: open
   name: Workday Integration Workday Benefits Administration API
   slug: open-workday-integration-benefits-administration
@@ -588,17 +630,56 @@ collections:
   name: Workday Integration Workday Benefits Partner Program Integrations API
   slug: open-workday-integration-benefits-partner-program-integrations
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Benefits Partners API
+  slug: open-workday-integration-benefits-partners-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Campus Engagement API
+  slug: open-workday-integration-campus-engagement-api
+- collection_type: open
   name: Workday Integration Workday Campus Engagement API
   slug: open-workday-integration-campus-engagement
 - collection_type: open
   name: Workday Integration Workday Cash Management API
   slug: open-workday-integration-cash-management
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Cash Positions API
+  slug: open-workday-integration-cash-positions-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Clock Events API
+  slug: open-workday-integration-clock-events-api
+- collection_type: open
   name: Workday Integration Workday Compensation API
   slug: open-workday-integration-compensation
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Completions API
+  slug: open-workday-integration-completions-api
+- collection_type: open
   name: Workday Integration Workday Connect API
   slug: open-workday-integration-connect
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Contracts API
+  slug: open-workday-integration-contracts-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Courses API
+  slug: open-workday-integration-courses-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Customers API
+  slug: open-workday-integration-customers-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Data Change Tasks API
+  slug: open-workday-integration-data-change-tasks-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Data Translation API
+  slug: open-workday-integration-data-translation-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Dependents API
+  slug: open-workday-integration-dependents-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Document Generation API
+  slug: open-workday-integration-document-generation-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Drive API
+  slug: open-workday-integration-drive-api
 - collection_type: open
   name: Workday Integration Workday Drive API
   slug: open-workday-integration-drive
@@ -606,11 +687,26 @@ collections:
   name: Workday Integration Workday Dynamic Document Generation API
   slug: open-workday-integration-dynamic-document-generation
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Extensibility API
+  slug: open-workday-integration-extensibility-api
+- collection_type: open
   name: Workday Integration Workday Extensibility API
   slug: open-workday-integration-extensibility
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types External Integrations API
+  slug: open-workday-integration-external-integrations-api
+- collection_type: open
   name: Workday Integration Workday External Integrations API
   slug: open-workday-integration-external-integrations
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Feedback API
+  slug: open-workday-integration-feedback-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types File Containers API
+  slug: open-workday-integration-file-containers-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Financial Aid API
+  slug: open-workday-integration-financial-aid-api
 - collection_type: open
   name: Workday Integration Workday Financial Aid API
   slug: open-workday-integration-financial-aid
@@ -621,23 +717,68 @@ collections:
   name: Workday Integration Workday Flex Team API
   slug: open-workday-integration-flex-team
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Flex Teams API
+  slug: open-workday-integration-flex-teams-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Goals API
+  slug: open-workday-integration-goals-api
+- collection_type: open
   name: Workday Integration Workday Human Capital Management API
   slug: open-workday-integration-human-capital-management
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Identity Management API
+  slug: open-workday-integration-identity-management-api
 - collection_type: open
   name: Workday Integration Workday Identity Management API
   slug: open-workday-integration-identity-management
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Integration Events API
+  slug: open-workday-integration-integration-events-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Integration Systems API
+  slug: open-workday-integration-integration-systems-api
+- collection_type: open
   name: Workday Integration Workday Integrations API
   slug: open-workday-integration-integrations
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Interviews API
+  slug: open-workday-integration-interviews-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Inventory API
+  slug: open-workday-integration-inventory-api
 - collection_type: open
   name: Workday Integration Workday Inventory API
   slug: open-workday-integration-inventory
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Job Postings API
+  slug: open-workday-integration-job-postings-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Job Profiles API
+  slug: open-workday-integration-job-profiles-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Jobs API
+  slug: open-workday-integration-jobs-api
+- collection_type: open
   name: Workday Integration Workday Learning API
   slug: open-workday-integration-learning
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Leave of Absence API
+  slug: open-workday-integration-leave-of-absence-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Mentorships API
+  slug: open-workday-integration-mentorships-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Messaging API
+  slug: open-workday-integration-messaging-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Metadata Translations API
+  slug: open-workday-integration-metadata-translations-api
+- collection_type: open
   name: Workday Integration Workday Metadata Translations API
   slug: open-workday-integration-metadata-translations
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Moments API
+  slug: open-workday-integration-moments-api
 - collection_type: open
   name: Workday Integration Workday Moments API
   slug: open-workday-integration-moments
@@ -645,23 +786,59 @@ collections:
   name: Workday Integration Workday Notification API
   slug: open-workday-integration-notification
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Notifications API
+  slug: open-workday-integration-notifications-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Org Studio API
+  slug: open-workday-integration-org-studio-api
+- collection_type: open
   name: Workday Integration Workday Org Studio API
   slug: open-workday-integration-org-studio
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Organizations API
+  slug: open-workday-integration-organizations-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Pay Groups API
+  slug: open-workday-integration-pay-groups-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Payments API
+  slug: open-workday-integration-payments-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Payroll API
+  slug: open-workday-integration-payroll-api
 - collection_type: open
   name: Workday Integration Workday Payroll AUS API
   slug: open-workday-integration-payroll-aus
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Payroll Australia API
+  slug: open-workday-integration-payroll-australia-api
+- collection_type: open
   name: Workday Integration Workday Payroll CAN API
   slug: open-workday-integration-payroll-can
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Payroll Canada API
+  slug: open-workday-integration-payroll-canada-api
 - collection_type: open
   name: Workday Integration Workday Payroll FRA API
   slug: open-workday-integration-payroll-fra
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Payroll France API
+  slug: open-workday-integration-payroll-france-api
+- collection_type: open
   name: Workday Integration Workday Payroll GBR API
   slug: open-workday-integration-payroll-gbr
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Payroll Inputs API
+  slug: open-workday-integration-payroll-inputs-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Payroll Interface API
+  slug: open-workday-integration-payroll-interface-api
+- collection_type: open
   name: Workday Integration Workday Payroll Interface API
   slug: open-workday-integration-payroll-interface
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Payroll UK API
+  slug: open-workday-integration-payroll-uk-api
 - collection_type: open
   name: Workday Integration Workday Payroll API
   slug: open-workday-integration-payroll
@@ -669,17 +846,35 @@ collections:
   name: Workday Integration Workday Performance Management API
   slug: open-workday-integration-performance-management
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Positions API
+  slug: open-workday-integration-positions-api
+- collection_type: open
   name: Workday Integration Workday Prism Analytics API
   slug: open-workday-integration-prism-analytics
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Professional Services API
+  slug: open-workday-integration-professional-services-api
 - collection_type: open
   name: Workday Integration Workday Professional Services Automation API
   slug: open-workday-integration-professional-services-automation
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Prospects API
+  slug: open-workday-integration-prospects-api
+- collection_type: open
   name: Workday Integration Workday Recruiting API
   slug: open-workday-integration-recruiting
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Reference Data API
+  slug: open-workday-integration-reference-data-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Requests API
+  slug: open-workday-integration-requests-api
+- collection_type: open
   name: Workday Integration Workday Requests API
   slug: open-workday-integration-requests
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Resource Management API
+  slug: open-workday-integration-resource-management-api
 - collection_type: open
   name: Workday Integration Workday Resource Management API
   slug: open-workday-integration-resource-management
@@ -687,8 +882,20 @@ collections:
   name: Workday Integration Workday Revenue Management API
   slug: open-workday-integration-revenue-management
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Revenue Schedules API
+  slug: open-workday-integration-revenue-schedules-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Scheduling API
+  slug: open-workday-integration-scheduling-api
+- collection_type: open
   name: Workday Integration Workday Scheduling API
   slug: open-workday-integration-scheduling
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Scorecards API
+  slug: open-workday-integration-scorecards-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Settlement Services API
+  slug: open-workday-integration-settlement-services-api
 - collection_type: open
   name: Workday Integration Workday Settlement Services API
   slug: open-workday-integration-settlement-services
@@ -696,14 +903,26 @@ collections:
   name: Workday Integration Workday Staffing API
   slug: open-workday-integration-staffing
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Student Core API
+  slug: open-workday-integration-student-core-api
+- collection_type: open
   name: Workday Integration Workday Student Core API
   slug: open-workday-integration-student-core
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Student Finance API
+  slug: open-workday-integration-student-finance-api
 - collection_type: open
   name: Workday Integration Workday Student Finance API
   slug: open-workday-integration-student-finance
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Student Records API
+  slug: open-workday-integration-student-records-api
+- collection_type: open
   name: Workday Integration Workday Student Records API
   slug: open-workday-integration-student-records
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Student Recruiting API
+  slug: open-workday-integration-student-recruiting-api
 - collection_type: open
   name: Workday Integration Workday Student Recruiting API
   slug: open-workday-integration-student-recruiting
@@ -711,17 +930,53 @@ collections:
   name: Workday Integration Workday Student Transfer Credit API
   slug: open-workday-integration-student-transfer-credit
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Suppliers API
+  slug: open-workday-integration-suppliers-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Tables API
+  slug: open-workday-integration-tables-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Talent Pools API
+  slug: open-workday-integration-talent-pools-api
+- collection_type: open
   name: Workday Integration Workday Talent API
   slug: open-workday-integration-talent
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Tax Rates API
+  slug: open-workday-integration-tax-rates-api
 - collection_type: open
   name: Workday Integration Workday Tenant Data Translation API
   slug: open-workday-integration-tenant-data-translation
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Time Blocks API
+  slug: open-workday-integration-time-blocks-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Time Off API
+  slug: open-workday-integration-time-off-api
+- collection_type: open
   name: Workday Integration Workday Time Tracking API
   slug: open-workday-integration-time-tracking
 - collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Transfer Credit API
+  slug: open-workday-integration-transfer-credit-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Validations API
+  slug: open-workday-integration-validations-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Workers API
+  slug: open-workday-integration-workers-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Workforce Planning API
+  slug: open-workday-integration-workforce-planning-api
+- collection_type: open
   name: Workday Integration Workday Workforce Planning API
   slug: open-workday-integration-workforce-planning
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types Worktags API
+  slug: open-workday-integration-worktags-api
+- collection_type: open
+  name: Workday Integration Workday Absence Management Absence Types WQL API
+  slug: open-workday-integration-wql-api
 common:
 - group: build
   title: ''
@@ -1300,7 +1555,7 @@ plans:
 - name: Workday Integration Plans Pricing
   plan_count: 1
   slug: workday-integration-plans-pricing
-random_paper: 82
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Workday Integration Rate Limits
@@ -1347,7 +1602,7 @@ score:
       marker_coverage: 0.0
       total: 87
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/screenshots/workday-integration-2026-06-20T201602.png
 security:

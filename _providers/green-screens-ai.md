@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -68,8 +68,38 @@ apis:
 - description: TmsConnector service v2 <a href="/tmsconnector/v2/redoc/" target="_blank">View separately</a> <a href="/tmsconnector/v2/swagger/index.html" target="_blank">Try it in swagger</a>
   name: Green Screens AI TMS API
   slug: green-screens-ai-tms-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Triumph Intelligence Connect Analytics API
+  slug: open-green-screens-ai-analytics-api
+- collection_type: open
+  name: Triumph Intelligence Connect Analytics Auth API
+  slug: open-green-screens-ai-auth-api
+- collection_type: open
+  name: Triumph Intelligence Connect Analytics Bids API
+  slug: open-green-screens-ai-bids-api
+- collection_type: open
+  name: Triumph Intelligence Connect Analytics History API
+  slug: open-green-screens-ai-history-api
+- collection_type: open
+  name: Triumph Intelligence Connect Analytics MarketIntelligence API
+  slug: open-green-screens-ai-marketintelligence-api
+- collection_type: open
+  name: Triumph Intelligence Connect Analytics Prediction API
+  slug: open-green-screens-ai-prediction-api
+- collection_type: open
+  name: Triumph Intelligence Connect Analytics Pricing API
+  slug: open-green-screens-ai-pricing-api
+- collection_type: open
+  name: Triumph Intelligence Connect Analytics Quotes API
+  slug: open-green-screens-ai-quotes-api
+- collection_type: open
+  name: Triumph Intelligence Connect Analytics TMS API
+  slug: open-green-screens-ai-tms-api
 - collection_type: open
   name: Triumph Intelligence Connect
   slug: open-green-screens-ai
@@ -118,7 +148,7 @@ plans:
 - name: Green Screens Ai Plans Pricing
   plan_count: 3
   slug: green-screens-ai-plans-pricing
-random_paper: 16
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Green Screens Ai Rate Limits
@@ -143,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/screenshots/green-screens-ai-2026-06-20T182355.png
 security:

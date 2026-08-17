@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -80,11 +80,57 @@ apis:
 - description: The withdraw API from Coinflow — 30 operation(s) for withdraw.
   name: Coinflow withdraw API
   slug: coinflow-withdraw-api
-artifact_total: 20
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Coinflow Webhooks
   slug: coinflow-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference authentication API
+  slug: open-coinflow-authentication-api
+- collection_type: open
+  name: API Reference authentication cardTokenization API
+  slug: open-coinflow-cardtokenization-api
+- collection_type: open
+  name: API Reference authentication checkout API
+  slug: open-coinflow-checkout-api
+- collection_type: open
+  name: API Reference authentication customers API
+  slug: open-coinflow-customers-api
+- collection_type: open
+  name: API Reference authentication events API
+  slug: open-coinflow-events-api
+- collection_type: open
+  name: API Reference authentication marketplace API
+  slug: open-coinflow-marketplace-api
+- collection_type: open
+  name: API Reference authentication merchant API
+  slug: open-coinflow-merchant-api
+- collection_type: open
+  name: API Reference authentication merchantSubscription API
+  slug: open-coinflow-merchantsubscription-api
+- collection_type: open
+  name: API Reference authentication redeem API
+  slug: open-coinflow-redeem-api
+- collection_type: open
+  name: API Reference authentication refund API
+  slug: open-coinflow-refund-api
+- collection_type: open
+  name: API Reference authentication subMerchant API
+  slug: open-coinflow-submerchant-api
+- collection_type: open
+  name: API Reference authentication subscription API
+  slug: open-coinflow-subscription-api
+- collection_type: open
+  name: API Reference authentication utilities API
+  slug: open-coinflow-utilities-api
+- collection_type: open
+  name: API Reference authentication withdraw API
+  slug: open-coinflow-withdraw-api
 common:
 - group: company
   title: ''
@@ -249,7 +295,7 @@ overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coinflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, sandbox, and 29 more developer resources.'
-random_paper: 25
+random_paper: 120
 score:
   band: developing
   composite: 55.6
@@ -279,7 +325,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/screenshots/coinflow-2026-07-25T210028.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -57,8 +57,26 @@ apis:
 - description: Set transactions and validate store/Stripe purchases.
   name: Adapty Purchases API
   slug: adapty-purchases-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adapty Server-Side Access Levels API
+  slug: open-adapty-access-levels-api
+- collection_type: open
+  name: Adapty Server-Side Access Levels Integrations API
+  slug: open-adapty-integrations-api
+- collection_type: open
+  name: Adapty Server-Side Access Levels Paywalls API
+  slug: open-adapty-paywalls-api
+- collection_type: open
+  name: Adapty Server-Side Access Levels Profiles API
+  slug: open-adapty-profiles-api
+- collection_type: open
+  name: Adapty Server-Side Access Levels Purchases API
+  slug: open-adapty-purchases-api
 - collection_type: open
   name: Adapty Server-Side API
   slug: open-adapty
@@ -127,7 +145,7 @@ plans:
 - name: Adapty Plans Pricing
   plan_count: 3
   slug: adapty-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Adapty Rate Limits
@@ -152,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapty/refs/heads/main/screenshots/adapty-2026-07-25T181605.png
 security:

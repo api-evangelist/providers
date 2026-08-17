@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 0
@@ -476,7 +476,449 @@ apis:
 - description: The VerificationChecks API from Smart Pension — 3 operation(s) for verificationchecks.
   name: Smart Pension Verification Checks API
   slug: smart-pension-verificationchecks-api
-artifact_total: 157
+artifact_total: 304
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Keystone Account Claiming API
+  slug: open-smart-pension-account-claiming-api
+- collection_type: open
+  name: Keystone Accounts API
+  slug: open-smart-pension-accounts-api
+- collection_type: open
+  name: Keystone Account Subaccounts Switch Plans API
+  slug: open-smart-pension-accountsubaccountsswitchplans-api
+- collection_type: open
+  name: Keystone Additional Tax Residences API
+  slug: open-smart-pension-additionaltaxresidences-api
+- collection_type: open
+  name: Keystone Add Money Forms API
+  slug: open-smart-pension-addmoneyforms-api
+- collection_type: open
+  name: Keystone Adviser API
+  slug: open-smart-pension-adviser-api
+- collection_type: open
+  name: Keystone Adviser Companies API
+  slug: open-smart-pension-advisercompanies-api
+- collection_type: open
+  name: Keystone Adviser Exports API
+  slug: open-smart-pension-adviserexports-api
+- collection_type: open
+  name: Keystone Adviser Invitations API
+  slug: open-smart-pension-adviserinvitations-api
+- collection_type: open
+  name: Keystone Advisers API
+  slug: open-smart-pension-advisers-api
+- collection_type: open
+  name: Keystone Assessments API
+  slug: open-smart-pension-assessments-api
+- collection_type: open
+  name: Keystone Available Funds API
+  slug: open-smart-pension-availablefunds-api
+- collection_type: open
+  name: Keystone Available Glidepath API
+  slug: open-smart-pension-availableglidepath-api
+- collection_type: open
+  name: Keystone Available Withdrawal Options API
+  slug: open-smart-pension-availablewithdrawaloptions-api
+- collection_type: open
+  name: Keystone Bank Account Detail API
+  slug: open-smart-pension-bankaccountdetail-api
+- collection_type: open
+  name: Keystone Bank Account Details API
+  slug: open-smart-pension-bankaccountdetails-api
+- collection_type: open
+  name: Keystone Batch API
+  slug: open-smart-pension-batch-api
+- collection_type: open
+  name: Keystone Benefit API
+  slug: open-smart-pension-benefit-api
+- collection_type: open
+  name: Keystone Benefit Categories API
+  slug: open-smart-pension-benefitcategories-api
+- collection_type: open
+  name: Keystone Benefit Check Results API
+  slug: open-smart-pension-benefitcheckresults-api
+- collection_type: open
+  name: Keystone Benefit Evidence Types API
+  slug: open-smart-pension-benefitevidencetypes-api
+- collection_type: open
+  name: Keystone Benefit Form API
+  slug: open-smart-pension-benefitform-api
+- collection_type: open
+  name: Keystone Benefit Group Auto Allocator Results API
+  slug: open-smart-pension-benefitgroupautoallocatorresults-api
+- collection_type: open
+  name: Keystone Benefit Groups API
+  slug: open-smart-pension-benefitgroups-api
+- collection_type: open
+  name: Keystone Benefit Money Out State API
+  slug: open-smart-pension-benefitmoneyoutstate-api
+- collection_type: open
+  name: Keystone Benefits API
+  slug: open-smart-pension-benefits-api
+- collection_type: open
+  name: Keystone Benefit Schedule API
+  slug: open-smart-pension-benefitschedule-api
+- collection_type: open
+  name: Keystone Benefit Statements API
+  slug: open-smart-pension-benefitstatements-api
+- collection_type: open
+  name: Keystone Cities API
+  slug: open-smart-pension-cities-api
+- collection_type: open
+  name: Keystone Companies API
+  slug: open-smart-pension-companies-api
+- collection_type: open
+  name: Keystone Company API
+  slug: open-smart-pension-company-api
+- collection_type: open
+  name: Keystone Company Automations API
+  slug: open-smart-pension-companyautomations-api
+- collection_type: open
+  name: Keystone Company Branding API
+  slug: open-smart-pension-companybranding-api
+- collection_type: open
+  name: Keystone Company Branding Stocks API
+  slug: open-smart-pension-companybrandingstocks-api
+- collection_type: open
+  name: Keystone Company Exports API
+  slug: open-smart-pension-companyexports-api
+- collection_type: open
+  name: Keystone Company Fees API
+  slug: open-smart-pension-companyfees-api
+- collection_type: open
+  name: Keystone Company Lookup API
+  slug: open-smart-pension-companylookup-api
+- collection_type: open
+  name: Keystone Company Lookups API
+  slug: open-smart-pension-companylookups-api
+- collection_type: open
+  name: Keystone Company Rules API
+  slug: open-smart-pension-companyrules-api
+- collection_type: open
+  name: Keystone Company Scheme Details API
+  slug: open-smart-pension-companyschemedetails-api
+- collection_type: open
+  name: Keystone Constants API
+  slug: open-smart-pension-constants-api
+- collection_type: open
+  name: Keystone Contribution API
+  slug: open-smart-pension-contribution-api
+- collection_type: open
+  name: Keystone Contributions API
+  slug: open-smart-pension-contributions-api
+- collection_type: open
+  name: Keystone Countries API
+  slug: open-smart-pension-countries-api
+- collection_type: open
+  name: Keystone Currency API
+  slug: open-smart-pension-currency-api
+- collection_type: open
+  name: Keystone Custom App Styling API
+  slug: open-smart-pension-customappstyling-api
+- collection_type: open
+  name: Keystone Customer API
+  slug: open-smart-pension-customer-api
+- collection_type: open
+  name: Keystone Customer Lead API
+  slug: open-smart-pension-customerlead-api
+- collection_type: open
+  name: Keystone Declaration Of Compliance Employee Totals API
+  slug: open-smart-pension-declarationofcomplianceemployeetotals-api
+- collection_type: open
+  name: Keystone Discounted Valuation API
+  slug: open-smart-pension-discountedvaluation-api
+- collection_type: open
+  name: Keystone Discovery API
+  slug: open-smart-pension-discovery-api
+- collection_type: open
+  name: Keystone Documents API
+  slug: open-smart-pension-documents-api
+- collection_type: open
+  name: Keystone Economic Zone API
+  slug: open-smart-pension-economiczone-api
+- collection_type: open
+  name: Keystone Employee API
+  slug: open-smart-pension-employee-api
+- collection_type: open
+  name: Keystone Employee Configuration API
+  slug: open-smart-pension-employeeconfiguration-api
+- collection_type: open
+  name: Keystone Employee External Pensions API
+  slug: open-smart-pension-employeeexternalpensions-api
+- collection_type: open
+  name: Keystone Employee Fund Holdings API
+  slug: open-smart-pension-employeefundholdings-api
+- collection_type: open
+  name: Keystone Employee Rate Recommendation API
+  slug: open-smart-pension-employeeraterecommendation-api
+- collection_type: open
+  name: Keystone Employee Verification Checks API
+  slug: open-smart-pension-employeeverificationchecks-api
+- collection_type: open
+  name: Keystone Employment Category API
+  slug: open-smart-pension-employmentcategory-api
+- collection_type: open
+  name: Keystone Employment Periods API
+  slug: open-smart-pension-employmentperiods-api
+- collection_type: open
+  name: Keystone Enrolment API
+  slug: open-smart-pension-enrolment-api
+- collection_type: open
+  name: Keystone Enrolment Employees API
+  slug: open-smart-pension-enrolmentemployees-api
+- collection_type: open
+  name: Keystone Envelopes API
+  slug: open-smart-pension-envelopes-api
+- collection_type: open
+  name: Keystone Envelope Signing API
+  slug: open-smart-pension-envelopesigning-api
+- collection_type: open
+  name: Keystone Estimate Benefit Valuations API
+  slug: open-smart-pension-estimatebenefitvaluations-api
+- collection_type: open
+  name: Keystone Exports API
+  slug: open-smart-pension-exports-api
+- collection_type: open
+  name: Keystone Expression Of Wish API
+  slug: open-smart-pension-expressionofwish-api
+- collection_type: open
+  name: Keystone External Employee Data Availability API
+  slug: open-smart-pension-externalemployeedataavailability-api
+- collection_type: open
+  name: Keystone Feature Flags API
+  slug: open-smart-pension-featureflags-api
+- collection_type: open
+  name: Keystone Funds API
+  slug: open-smart-pension-funds-api
+- collection_type: open
+  name: Keystone Fund Splits API
+  slug: open-smart-pension-fundsplits-api
+- collection_type: open
+  name: Keystone Glidepaths API
+  slug: open-smart-pension-glidepaths-api
+- collection_type: open
+  name: Keystone Group API
+  slug: open-smart-pension-group-api
+- collection_type: open
+  name: Keystone Historical Contribution API
+  slug: open-smart-pension-historicalcontribution-api
+- collection_type: open
+  name: Keystone Historical Contributions API
+  slug: open-smart-pension-historicalcontributions-api
+- collection_type: open
+  name: Keystone Historical Transfer In API
+  slug: open-smart-pension-historicaltransferin-api
+- collection_type: open
+  name: Keystone Historical Transfer Ins API
+  slug: open-smart-pension-historicaltransferins-api
+- collection_type: open
+  name: Keystone Identity API
+  slug: open-smart-pension-identity-api
+- collection_type: open
+  name: Keystone Import API
+  slug: open-smart-pension-import-api
+- collection_type: open
+  name: Keystone Income Adequacy Projection API
+  slug: open-smart-pension-incomeadequacyprojection-api
+- collection_type: open
+  name: Keystone Individual API
+  slug: open-smart-pension-individual-api
+- collection_type: open
+  name: Keystone Investments Performance API
+  slug: open-smart-pension-investmentsperformance-api
+- collection_type: open
+  name: Keystone Jwks API
+  slug: open-smart-pension-jwks-api
+- collection_type: open
+  name: Keystone Later Life Projection API
+  slug: open-smart-pension-laterlifeprojection-api
+- collection_type: open
+  name: Keystone Legal Bank Location API
+  slug: open-smart-pension-legalbanklocation-api
+- collection_type: open
+  name: Keystone Letter API
+  slug: open-smart-pension-letter-api
+- collection_type: open
+  name: Keystone Letters API
+  slug: open-smart-pension-letters-api
+- collection_type: open
+  name: Keystone Mandate Charge Schedule API
+  slug: open-smart-pension-mandatechargeschedule-api
+- collection_type: open
+  name: Keystone Mandates API
+  slug: open-smart-pension-mandates-api
+- collection_type: open
+  name: Keystone Marketing Preference API
+  slug: open-smart-pension-marketingpreference-api
+- collection_type: open
+  name: Keystone Membership Fees API
+  slug: open-smart-pension-membershipfees-api
+- collection_type: open
+  name: Keystone Mobile App Versions API
+  slug: open-smart-pension-mobileappversions-api
+- collection_type: open
+  name: Keystone Modeller Projections API
+  slug: open-smart-pension-modellerprojections-api
+- collection_type: open
+  name: Keystone Money Summary API
+  slug: open-smart-pension-moneysummary-api
+- collection_type: open
+  name: Keystone Nationalities API
+  slug: open-smart-pension-nationalities-api
+- collection_type: open
+  name: Keystone Next Pay Period Date API
+  slug: open-smart-pension-nextpayperioddate-api
+- collection_type: open
+  name: Keystone Notifications API
+  slug: open-smart-pension-notifications-api
+- collection_type: open
+  name: Keystone Notifications Accounts API
+  slug: open-smart-pension-notificationsaccounts-api
+- collection_type: open
+  name: Keystone Onboarding API
+  slug: open-smart-pension-onboarding-api
+- collection_type: open
+  name: Keystone Opt In Request API
+  slug: open-smart-pension-optinrequest-api
+- collection_type: open
+  name: Keystone Overfunding Thresholds API
+  slug: open-smart-pension-overfundingthresholds-api
+- collection_type: open
+  name: Keystone Page Visit API
+  slug: open-smart-pension-pagevisit-api
+- collection_type: open
+  name: Keystone Paid In Amounts API
+  slug: open-smart-pension-paidinamounts-api
+- collection_type: open
+  name: Keystone Password API
+  slug: open-smart-pension-password-api
+- collection_type: open
+  name: Keystone Payment API
+  slug: open-smart-pension-payment-api
+- collection_type: open
+  name: Keystone Payment Approvals API
+  slug: open-smart-pension-paymentapprovals-api
+- collection_type: open
+  name: Keystone Payroll configuration details API
+  slug: open-smart-pension-payroll-configuration-details-api
+- collection_type: open
+  name: Keystone Payroll configurations API
+  slug: open-smart-pension-payroll-configurations-api
+- collection_type: open
+  name: Keystone Payroll Configuration API
+  slug: open-smart-pension-payrollconfiguration-api
+- collection_type: open
+  name: Keystone Payroll Configuration Detail API
+  slug: open-smart-pension-payrollconfigurationdetail-api
+- collection_type: open
+  name: Keystone Pension Forecast API
+  slug: open-smart-pension-pensionforecast-api
+- collection_type: open
+  name: Keystone Pension Forecast Inputs API
+  slug: open-smart-pension-pensionforecastinputs-api
+- collection_type: open
+  name: Keystone Pensionlab Consent API
+  slug: open-smart-pension-pensionlabconsent-api
+- collection_type: open
+  name: Keystone Portfolios API
+  slug: open-smart-pension-portfolios-api
+- collection_type: open
+  name: Keystone Postponement API
+  slug: open-smart-pension-postponement-api
+- collection_type: open
+  name: Keystone Projection API
+  slug: open-smart-pension-projection-api
+- collection_type: open
+  name: Keystone Referrals API
+  slug: open-smart-pension-referrals-api
+- collection_type: open
+  name: Keystone Regular Income Projection API
+  slug: open-smart-pension-regularincomeprojection-api
+- collection_type: open
+  name: Keystone Role API
+  slug: open-smart-pension-role-api
+- collection_type: open
+  name: Keystone Scheme API
+  slug: open-smart-pension-scheme-api
+- collection_type: open
+  name: Keystone Schemes Available Currencies API
+  slug: open-smart-pension-schemesavailablecurrencies-api
+- collection_type: open
+  name: Keystone SSIF Import API
+  slug: open-smart-pension-ssif-import-api
+- collection_type: open
+  name: Keystone SSIF Headers Mappings API
+  slug: open-smart-pension-ssifheadersmappings-api
+- collection_type: open
+  name: Keystone SSIF Imports API
+  slug: open-smart-pension-ssifimports-api
+- collection_type: open
+  name: Keystone Staging Date API
+  slug: open-smart-pension-stagingdate-api
+- collection_type: open
+  name: Keystone Subaccount Groups Valuations API
+  slug: open-smart-pension-subaccount-groups-valuations-api
+- collection_type: open
+  name: Keystone Subaccounts API
+  slug: open-smart-pension-subaccounts-api
+- collection_type: open
+  name: Keystone Summaries API
+  slug: open-smart-pension-summaries-api
+- collection_type: open
+  name: Keystone Switches API
+  slug: open-smart-pension-switches-api
+- collection_type: open
+  name: Keystone Tasks API
+  slug: open-smart-pension-tasks-api
+- collection_type: open
+  name: Keystone Tax Information Change API
+  slug: open-smart-pension-taxinformationchange-api
+- collection_type: open
+  name: Keystone Tax Residence API
+  slug: open-smart-pension-taxresidence-api
+- collection_type: open
+  name: Keystone Third Party Payment Provider API
+  slug: open-smart-pension-thirdpartypaymentprovider-api
+- collection_type: open
+  name: Keystone Third Party Payment Providers API
+  slug: open-smart-pension-thirdpartypaymentproviders-api
+- collection_type: open
+  name: Keystone Todo Items API
+  slug: open-smart-pension-todoitems-api
+- collection_type: open
+  name: Keystone Tokens API
+  slug: open-smart-pension-tokens-api
+- collection_type: open
+  name: Keystone Total Funds AM Cs API
+  slug: open-smart-pension-totalfundsamcs-api
+- collection_type: open
+  name: Keystone Transactions API
+  slug: open-smart-pension-transactions-api
+- collection_type: open
+  name: Keystone Transfer In API
+  slug: open-smart-pension-transferin-api
+- collection_type: open
+  name: Keystone Ultimate Beneficial Owner And Configuration API
+  slug: open-smart-pension-ultimatebeneficialownerandconfiguration-api
+- collection_type: open
+  name: Keystone Ultimate Beneficial Owners API
+  slug: open-smart-pension-ultimatebeneficialowners-api
+- collection_type: open
+  name: Keystone URLS API
+  slug: open-smart-pension-urls-api
+- collection_type: open
+  name: Keystone User API
+  slug: open-smart-pension-user-api
+- collection_type: open
+  name: Keystone Valuations API
+  slug: open-smart-pension-valuations-api
+- collection_type: open
+  name: Keystone Verification Checks API
+  slug: open-smart-pension-verificationchecks-api
 common:
 - group: agent
   title: ''
@@ -635,7 +1077,7 @@ overview: 'Smart Pension publishes 149 APIs on the [APIs.io](https://apis.io/) n
 
 
   Smart Pension''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 40
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Smart Pension Rate Limits
@@ -668,7 +1110,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

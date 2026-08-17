@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -81,14 +81,56 @@ apis:
 - description: Vehicle registration and management
   name: Toyota Vehicles API
   slug: toyota-vehicles-api
-artifact_total: 32
+artifact_total: 46
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toyota Connected Services Climate API
+  slug: open-toyota-climate-api
 - collection_type: open
   name: Toyota Connected Services API
   slug: open-toyota-connected-services
 - collection_type: open
+  name: Toyota Connected Services Climate Electric API
+  slug: open-toyota-electric-api
+- collection_type: open
+  name: Toyota Connected Services Climate Fleet API
+  slug: open-toyota-fleet-api
+- collection_type: open
+  name: Toyota Connected Services Climate Health API
+  slug: open-toyota-health-api
+- collection_type: open
+  name: Toyota Connected Services Climate History API
+  slug: open-toyota-history-api
+- collection_type: open
+  name: Toyota Connected Services Climate Location API
+  slug: open-toyota-location-api
+- collection_type: open
+  name: Toyota Connected Services Climate Notifications API
+  slug: open-toyota-notifications-api
+- collection_type: open
+  name: Toyota Connected Services Climate Remote API
+  slug: open-toyota-remote-api
+- collection_type: open
+  name: Toyota Connected Services Climate Status API
+  slug: open-toyota-status-api
+- collection_type: open
+  name: Toyota Connected Services Climate Subscriptions API
+  slug: open-toyota-subscriptions-api
+- collection_type: open
   name: Toyota Telematics API
   slug: open-toyota-telematics
+- collection_type: open
+  name: Toyota Connected Services Climate Telemetry API
+  slug: open-toyota-telemetry-api
+- collection_type: open
+  name: Toyota Connected Services Climate Trips API
+  slug: open-toyota-trips-api
+- collection_type: open
+  name: Toyota Connected Services Climate Vehicles API
+  slug: open-toyota-vehicles-api
 common:
 - group: agent
   title: ''
@@ -192,7 +234,7 @@ plans:
 - name: Toyota Plans Pricing
   plan_count: 1
   slug: toyota-plans-pricing
-random_paper: 72
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Toyota Rate Limits
@@ -234,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

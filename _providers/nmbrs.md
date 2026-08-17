@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,8 +69,32 @@ apis:
 - description: Fixed and variable wage components used in payroll.
   name: Nmbrs Wage Components API
   slug: nmbrs-wage-components-api
-artifact_total: 17
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nmbrs Public REST API (HR & Payroll) Absences API
+  slug: open-nmbrs-absences-api
+- collection_type: open
+  name: Nmbrs Public REST API (HR & Payroll) Absences Companies API
+  slug: open-nmbrs-companies-api
+- collection_type: open
+  name: Nmbrs Public REST API (HR & Payroll) Absences Employees API
+  slug: open-nmbrs-employees-api
+- collection_type: open
+  name: Nmbrs Public REST API (HR & Payroll) Absences Employments API
+  slug: open-nmbrs-employments-api
+- collection_type: open
+  name: Nmbrs Public REST API (HR & Payroll) Absences Payruns API
+  slug: open-nmbrs-payruns-api
+- collection_type: open
+  name: Nmbrs Public REST API (HR & Payroll) Absences Salaries API
+  slug: open-nmbrs-salaries-api
+- collection_type: open
+  name: Nmbrs Public REST API (HR & Payroll) Absences Wage Components API
+  slug: open-nmbrs-wage-components-api
 - collection_type: open
   name: Nmbrs Public REST API (HR & Payroll)
   slug: open-nmbrs
@@ -143,7 +167,7 @@ plans:
 - name: Nmbrs Plans Pricing
   plan_count: 4
   slug: nmbrs-plans-pricing
-random_paper: 66
+random_paper: 99
 rate_limits:
 - limit_count: 2
   name: Nmbrs Rate Limits
@@ -168,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/screenshots/nmbrs-2026-08-07T185352.png
 security:

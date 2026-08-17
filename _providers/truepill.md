@@ -11,33 +11,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 50.9
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 69
   human_in_the_loop: 0
   name: Truepill Agentic Access
-  operation_count: 15
+  operation_count: 158
   slug: truepill-agentic-access
-  summary_line: 15 operations · 7 acting
-api_count: 5
+  summary_line: 158 operations · 69 acting
+api_count: 9
 apis:
 - description: Insurance objects, copay requests, and claim adjudication.
   name: Truepill Insurance API
@@ -54,8 +55,42 @@ apis:
 - description: Asynchronous event retrieval.
   name: Truepill Webhooks API
   slug: truepill-webhooks-api
-artifact_total: 12
+- description: Fill requests, orders, NDC availability, prescribers, same-day delivery and specialty-pharmacy routing — the dispensing core of the FuzeRx platform. 42 operations. Submissions are accepted asynchronou
+  name: Truepill Fulfillment API
+  slug: truepill-fulfillment-api
+- description: Telehealth consult creation, retrieval, media attachment and status simulation. Published at v0 under /consults/v0 — pre-1.0 by the provider's own numbering, with no stability statement.
+  name: Truepill Consults API
+  slug: truepill-consults-api
+- description: At-home diagnostics — test catalogue, kit serial validation, order creation and registration, rejection detail and results retrieval. Published at v0, with a v2 results endpoint alongside it.
+  name: Truepill Diagnostics API
+  slug: truepill-diagnostics-api
+- description: File records for patient identification photos and selfies, backed by Google Cloud Storage signed URLs — the API mints a read or write signed URL and the client transfers the bytes directly, so no ima
+  name: Truepill Media API
+  slug: truepill-media-api
+artifact_total: 23
+asyncapis:
+- description: ''
+  name: Truepill Webhooks
+  slug: truepill-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Truepill (FuzeRx) Insurance API
+  slug: open-truepill-insurance-api
+- collection_type: open
+  name: Truepill (FuzeRx) Insurance Patients API
+  slug: open-truepill-patients-api
+- collection_type: open
+  name: Truepill (FuzeRx) Insurance Prescriptions API
+  slug: open-truepill-prescriptions-api
+- collection_type: open
+  name: Truepill (FuzeRx) Insurance Transfers API
+  slug: open-truepill-transfers-api
+- collection_type: open
+  name: Truepill (FuzeRx) Insurance Webhooks API
+  slug: open-truepill-webhooks-api
 - collection_type: open
   name: Truepill (FuzeRx) API
   slug: open-truepill
@@ -96,6 +131,90 @@ common:
   title: ''
   type: FinOps
   url: finops/truepill-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://rx.fuzehealth.com/api-docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://rxdocs.fuzehealth.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://rx.fuzehealth.com/api-docs/introduction
+- group: operate
+  title: ''
+  type: Support
+  url: https://rx.fuzehealth.com/contact
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/truepill
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://rx.fuzehealth.com/legal/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://rx.fuzehealth.com/legal/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.rx.fuzehealth.com
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://rxdocs.fuzehealth.com/#hipaa-amp-security
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/truepill-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/truepill-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/truepill-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/truepill-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/truepill-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/truepill-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/truepill-webhooks.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/truepill-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/truepill-error-codes.yml
+- group: build
+  title: ''
+  type: DeclineCodes
+  url: errors/truepill-decline-codes.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/truepill-llms.txt
 created: '2026-06-21'
 description: Truepill is a pharmacy and healthcare-infrastructure company providing API-driven prescription fulfillment, pharmacy dispensing, insurance/copay adjudication, telehealth, and at-home diagnostics. Following LetsGetChecked's 2024 acquisition of Truepill, the combined company rebranded as Fuze Health in May 2025, and the developer platform now ships as FuzeRx. The REST API exposes JSON endpoints for patients, prescriptions, transfers, insurance/copay, and webhook events under https://rxapi.fuzehealth.com/v1.
 finops:
@@ -104,34 +223,37 @@ finops:
   slug: truepill-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truepill.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-08-15'
 name: Truepill
 nav: Providers
 network: true
-overview: 'Truepill publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Insurance API, Patients API, Prescriptions API, and 2 more. Tagged areas include Pharmacy, Healthcare, Prescription Fulfillment, Telehealth, and Diagnostics.
+overview: 'Truepill publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Insurance API, Patients API, Prescriptions API, and 6 more. Tagged areas include Pharmacy, Healthcare, Prescription Fulfillment, Telehealth, and Diagnostics.
 
 
-  Truepill''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  The Truepill catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Truepill''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 24 more developer resources.'
 plans:
 - name: Truepill Plans Pricing
   plan_count: 1
   slug: truepill-plans-pricing
-random_paper: 41
+random_paper: 136
 rate_limits:
 - limit_count: 3
   name: Truepill Rate Limits
   slug: truepill-rate-limits
 score:
-  band: thin
-  composite: 31.9
-  delta: 0.0
+  band: developing
+  composite: 55.4
+  delta: 23.5
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 54.6
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 31.6
+    commercial_clarity: 57.9
+    contract_quality: 63.5
+    developer_ergonomics: 63.0
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 60.5
   previous_composite: 31.9
   provenance:
     agentic_access: derived
@@ -145,10 +267,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 15.0
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Truepill Authentication
@@ -166,5 +288,11 @@ tags:
 - Telehealth
 - Diagnostics
 - Insurance
+- Copay Adjudication
+- Prior Authorization
+- Electronic Prescribing
+- Pharmacy Transfers
+- Webhooks
+- HIPAA
 website: https://www.truepill.com
 ---

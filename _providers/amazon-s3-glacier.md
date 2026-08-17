@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,14 +42,20 @@ apis:
 - description: The Vaults API from Amazon S3 Glacier — 4 operation(s) for vaults.
   name: Amazon S3 Glacier Vaults API
   slug: amazon-s3-glacier-vaults-api
-artifact_total: 30
+artifact_total: 32
 collections:
 - collection_type: postman
   name: Amazon S3 Glacier REST Vaults API
   slug: postman-amazon-s3-glacier-vaults-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Amazon S3 Glacier REST API
   slug: open-amazon-s3-glacier-api
+- collection_type: open
+  name: Amazon S3 Glacier REST Vaults API
+  slug: open-amazon-s3-glacier-vaults-api
 common:
 - group: build
   title: ''
@@ -286,7 +292,7 @@ plans:
 - name: Amazon S3 Glacier Plans Pricing
   plan_count: 3
   slug: amazon-s3-glacier-plans-pricing
-random_paper: 69
+random_paper: 139
 rate_limits:
 - limit_count: 5
   name: Amazon S3 Glacier Rate Limits
@@ -328,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/screenshots/amazon-s3-glacier-2026-06-20T171814.png
 security:

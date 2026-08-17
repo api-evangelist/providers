@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The access-management API from Upwind — 10 operation(s) for access-management.
@@ -68,7 +68,7 @@ apis:
 - description: The workflows API from Upwind — 2 operation(s) for workflows.
   name: Upwind workflows API
   slug: upwind-workflows-api
-artifact_total: 31
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Upwind Webhooks
@@ -110,6 +110,45 @@ collections:
 - collection_type: postman
   name: Upwind Management REST API v1 access-management workflows API
   slug: postman-upwind-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Upwind Management REST API v1 access-management API
+  slug: open-upwind-access-management-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management api-security API
+  slug: open-upwind-api-security-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management cloud-accounts API
+  slug: open-upwind-cloud-accounts-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management configurations API
+  slug: open-upwind-configurations-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management events API
+  slug: open-upwind-events-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management integrations API
+  slug: open-upwind-integrations-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management Inventory API
+  slug: open-upwind-inventory-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management packages API
+  slug: open-upwind-packages-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management shiftleft API
+  slug: open-upwind-shiftleft-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management threats API
+  slug: open-upwind-threats-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management vulnerabilities API
+  slug: open-upwind-vulnerabilities-api
+- collection_type: open
+  name: Upwind Management REST API v1 access-management workflows API
+  slug: open-upwind-workflows-api
 common:
 - group: other
   title: ''
@@ -270,7 +309,7 @@ overview: 'Upwind publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Upwind''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 28 more developer resources.'
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Upwind Rate Limits
@@ -302,7 +341,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

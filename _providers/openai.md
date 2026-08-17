@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -245,7 +245,7 @@ arazzos:
 - description: Attach a file to a vector store, wait until it is indexed, then run a semantic search.
   name: OpenAI Vector Store Search
   slug: openai-vector-store-search-workflow
-artifact_total: 228
+artifact_total: 265
 asyncapis:
 - description: The OpenAI Realtime API provides low-latency, bidirectional, event-driven communication with multimodal models that natively support speech-to-speech, text, and audio in a single conversation. This As
   name: OpenAI Realtime API
@@ -294,23 +294,134 @@ collections:
   name: OpenAI threads
   slug: postman-threads-openapi-original
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenAI Assistants API
+  slug: open-openai-assistants-api
+- collection_type: open
+  name: OpenAI Assistants Audio API
+  slug: open-openai-audio-api
+- collection_type: open
   name: OpenAI Audio API
   slug: open-openai-audio
+- collection_type: open
+  name: OpenAI Assistants Audit Logs API
+  slug: open-openai-audit-logs-api
+- collection_type: open
+  name: OpenAI Assistants Batch API
+  slug: open-openai-batch-api
+- collection_type: open
+  name: OpenAI Assistants Certificates API
+  slug: open-openai-certificates-api
+- collection_type: open
+  name: OpenAI Assistants Chat API
+  slug: open-openai-chat-api
 - collection_type: open
   name: OpenAI Chat Completions API
   slug: open-openai-chat-completions
 - collection_type: open
+  name: OpenAI Assistants Chatkit API
+  slug: open-openai-chatkit-api
+- collection_type: open
+  name: OpenAI Assistants Completions API
+  slug: open-openai-completions-api
+- collection_type: open
+  name: OpenAI Assistants Containers API
+  slug: open-openai-containers-api
+- collection_type: open
+  name: OpenAI Assistants Conversations API
+  slug: open-openai-conversations-api
+- collection_type: open
+  name: OpenAI Assistants Embeddings API
+  slug: open-openai-embeddings-api
+- collection_type: open
   name: OpenAI Embeddings API
   slug: open-openai-embeddings
 - collection_type: open
-  name: API Collection
+  name: OpenAI Assistants Evals API
+  slug: open-openai-evals-api
+- collection_type: open
+  name: OpenAI Assistants Files API
   slug: open-openai-files-api
+- collection_type: open
+  name: OpenAI Assistants Fine Tuning API
+  slug: open-openai-fine-tuning-api
+- collection_type: open
+  name: OpenAI Assistants Group organization role assignments API
+  slug: open-openai-group-organization-role-assignments-api
+- collection_type: open
+  name: OpenAI Assistants Group users API
+  slug: open-openai-group-users-api
+- collection_type: open
+  name: OpenAI Assistants Groups API
+  slug: open-openai-groups-api
+- collection_type: open
+  name: OpenAI Assistants Images API
+  slug: open-openai-images-api
 - collection_type: open
   name: OpenAI Images API
   slug: open-openai-images
 - collection_type: open
+  name: OpenAI Assistants Invites API
+  slug: open-openai-invites-api
+- collection_type: open
+  name: OpenAI Assistants Models API
+  slug: open-openai-models-api
+- collection_type: open
+  name: OpenAI Assistants Moderations API
+  slug: open-openai-moderations-api
+- collection_type: open
   name: OpenAI API
   slug: open-openai-openapi-master
+- collection_type: open
+  name: OpenAI Assistants Organization API
+  slug: open-openai-organization-api
+- collection_type: open
+  name: OpenAI Assistants Project group role assignments API
+  slug: open-openai-project-group-role-assignments-api
+- collection_type: open
+  name: OpenAI Assistants Project groups API
+  slug: open-openai-project-groups-api
+- collection_type: open
+  name: OpenAI Assistants Project user role assignments API
+  slug: open-openai-project-user-role-assignments-api
+- collection_type: open
+  name: OpenAI Assistants Projects API
+  slug: open-openai-projects-api
+- collection_type: open
+  name: OpenAI Assistants Realtime API
+  slug: open-openai-realtime-api
+- collection_type: open
+  name: OpenAI Assistants Responses API
+  slug: open-openai-responses-api
+- collection_type: open
+  name: OpenAI Assistants Roles API
+  slug: open-openai-roles-api
+- collection_type: open
+  name: OpenAI Assistants Skills API
+  slug: open-openai-skills-api
+- collection_type: open
+  name: OpenAI Assistants Threads API
+  slug: open-openai-threads-api
+- collection_type: open
+  name: OpenAI Assistants Uploads API
+  slug: open-openai-uploads-api
+- collection_type: open
+  name: OpenAI Assistants Usage API
+  slug: open-openai-usage-api
+- collection_type: open
+  name: OpenAI Assistants User organization role assignments API
+  slug: open-openai-user-organization-role-assignments-api
+- collection_type: open
+  name: OpenAI Assistants Users API
+  slug: open-openai-users-api
+- collection_type: open
+  name: OpenAI Assistants Vector stores API
+  slug: open-openai-vector-stores-api
+- collection_type: open
+  name: OpenAI Assistants Videos API
+  slug: open-openai-videos-api
 common:
 - group: agent
   title: ''
@@ -993,7 +1104,7 @@ plans:
 - name: Openai Plans Pricing
   plan_count: 6
   slug: openai-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Openai Rate Limits
@@ -1043,7 +1154,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-06-20T190903.png
 security:

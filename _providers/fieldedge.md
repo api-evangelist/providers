@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Manage customers, their service locations, and installed equipment records (make, model, age, and service history). Endpoint paths are modeled from FieldEdge's documented Customers & Locations module;
@@ -95,7 +95,7 @@ plans:
 - name: Fieldedge Plans Pricing
   plan_count: 2
   slug: fieldedge-plans-pricing
-random_paper: 81
+random_paper: 27
 score:
   band: emerging
   composite: 15.9
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldedge/refs/heads/main/screenshots/fieldedge-2026-07-25T214426.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,7 +134,107 @@ apis:
 - description: Daily average & reference temperatures.
   name: Elexon Temperature API
   slug: elexon-temperature-api
-artifact_total: 355
+artifact_total: 388
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic API
+  slug: open-elexon-balancing-mechanism-dynamic-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Balancing Mechanism Physical API
+  slug: open-elexon-balancing-mechanism-physical-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Balancing Services Adjustment - Disaggregated API
+  slug: open-elexon-balancing-services-adjustment-disaggregated-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Balancing Services Adjustment - Net API
+  slug: open-elexon-balancing-services-adjustment-net-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Bid-Offer Acceptances API
+  slug: open-elexon-bid-offer-acceptances-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Bid-Offer API
+  slug: open-elexon-bid-offer-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic BMRS Datasets API
+  slug: open-elexon-bmrs-datasets-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Credit Default Notice API
+  slug: open-elexon-credit-default-notice-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Data Status API
+  slug: open-elexon-data-status-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Demand API
+  slug: open-elexon-demand-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Demand Forecast API
+  slug: open-elexon-demand-forecast-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Generation API
+  slug: open-elexon-generation-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Generation Forecast API
+  slug: open-elexon-generation-forecast-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Health Check API
+  slug: open-elexon-health-check-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Indicated Forecast API
+  slug: open-elexon-indicated-forecast-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Indicative Imbalance Settlement API
+  slug: open-elexon-indicative-imbalance-settlement-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Legacy API
+  slug: open-elexon-legacy-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Load Shape API
+  slug: open-elexon-load-shape-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Loss of Load Probability and De-rated Margin API
+  slug: open-elexon-loss-of-load-probability-and-de-rated-margin-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Margin Forecast API
+  slug: open-elexon-margin-forecast-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Market Index API
+  slug: open-elexon-market-index-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Non-BM STOR API
+  slug: open-elexon-non-bm-stor-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Non-BM Volumes API
+  slug: open-elexon-non-bm-volumes-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Reference API
+  slug: open-elexon-reference-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic REMIT API
+  slug: open-elexon-remit-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Rolling System Demand API
+  slug: open-elexon-rolling-system-demand-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic SAA Datasets API
+  slug: open-elexon-saa-datasets-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic SO-SO Prices API
+  slug: open-elexon-so-so-prices-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Surplus Forecast API
+  slug: open-elexon-surplus-forecast-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic System API
+  slug: open-elexon-system-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic System forecast API
+  slug: open-elexon-system-forecast-api
+- collection_type: open
+  name: Insights.Api Balancing Mechanism Dynamic Temperature API
+  slug: open-elexon-temperature-api
 common:
 - group: agent
   title: ''
@@ -1180,7 +1280,7 @@ plans:
 - name: Elexon Plans Pricing
   plan_count: 1
   slug: elexon-plans-pricing
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Elexon Rate Limits
@@ -1220,7 +1320,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elexon/refs/heads/main/screenshots/elexon-2026-06-20T180600.png
 security:

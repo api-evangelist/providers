@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 1
@@ -101,7 +101,74 @@ apis:
 - description: For interacting with wallets when the type of wallet (user or system) is unknown
   name: BurstIQ Wallet APIs API
   slug: burstiq-wallet-apis-api
-artifact_total: 25
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs API
+  slug: open-burstiq-blastai-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Customer Directory APIs API
+  slug: open-burstiq-customer-directory-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Data Pipeline APIs API
+  slug: open-burstiq-data-pipeline-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Data Pipeline Field Mapping Step APIs API
+  slug: open-burstiq-data-pipeline-field-mapping-step-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Data Pipeline JS Transform Step APIs API
+  slug: open-burstiq-data-pipeline-js-transform-step-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Data Pipeline Rule APIs API
+  slug: open-burstiq-data-pipeline-rule-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Data Pipeline RuleSet Step APIs API
+  slug: open-burstiq-data-pipeline-ruleset-step-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs DbSchema APIs API
+  slug: open-burstiq-dbschema-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Dictionary Metadata APIs API
+  slug: open-burstiq-dictionary-metadata-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Edge Definition Metadata APIs API
+  slug: open-burstiq-edge-definition-metadata-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Glossary Metadata APIs API
+  slug: open-burstiq-glossary-metadata-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Graph Chain APIs API
+  slug: open-burstiq-graph-chain-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Job Manager APIs API
+  slug: open-burstiq-job-manager-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Metadata Util APIs API
+  slug: open-burstiq-metadata-util-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Metrics APIs API
+  slug: open-burstiq-metrics-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs OData v4 APIs API
+  slug: open-burstiq-odata-v4-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs SDZ Specific Term APIs API
+  slug: open-burstiq-sdz-specific-term-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs System Wallet APIs API
+  slug: open-burstiq-system-wallet-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs User Group APIs API
+  slug: open-burstiq-user-group-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs User Wallet APIs API
+  slug: open-burstiq-user-wallet-apis-api
+- collection_type: open
+  name: LifeGraph APIs BlastAI APIs Wallet APIs API
+  slug: open-burstiq-wallet-apis-api
 common:
 - group: agent
   title: ''
@@ -199,7 +266,7 @@ overview: 'BurstIQ publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BurstIQ''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 15 more developer resources.'
-random_paper: 58
+random_paper: 33
 score:
   band: thin
   composite: 32.1
@@ -229,7 +296,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/screenshots/burstiq-2026-07-25T204112.png
 security:

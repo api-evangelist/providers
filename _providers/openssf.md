@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,14 +59,32 @@ apis:
 - description: The Vulns API from OpenSSF — 1 operation(s) for vulns.
   name: OpenSSF Vulns API
   slug: openssf-vulns-api
-artifact_total: 18
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: OSV (Open Source Vulnerabilities) API
   slug: open-openssf-osv
 - collection_type: open
+  name: OSV (Open Source Vulnerabilities) Projects API
+  slug: open-openssf-projects-api
+- collection_type: open
+  name: OSV (Open Source Vulnerabilities) Projects Query API
+  slug: open-openssf-query-api
+- collection_type: open
+  name: OSV (Open Source Vulnerabilities) Projects Querybatch API
+  slug: open-openssf-querybatch-api
+- collection_type: open
   name: OpenSSF Scorecard API
   slug: open-openssf-scorecard
+- collection_type: open
+  name: OSV (Open Source Vulnerabilities) Projects V1experimental API
+  slug: open-openssf-v1experimental-api
+- collection_type: open
+  name: OSV (Open Source Vulnerabilities) Projects Vulns API
+  slug: open-openssf-vulns-api
 common:
 - group: agent
   title: ''
@@ -160,7 +178,7 @@ plans:
 - name: Openssf Plans Pricing
   plan_count: 3
   slug: openssf-plans-pricing
-random_paper: 46
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Openssf Rate Limits
@@ -194,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/screenshots/openssf-2026-06-20T191036.png
 security:

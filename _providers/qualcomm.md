@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: Semiconductors operations
   name: qualcomm Semiconductors API
   slug: qualcomm-semiconductors-api
-artifact_total: 10
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Qualcomm Developer API
   slug: open-qualcomm-qualcomm-api
+- collection_type: open
+  name: Qualcomm Developer Semiconductors API
+  slug: open-qualcomm-semiconductors-api
 common:
 - group: agent
   title: ''
@@ -115,7 +121,7 @@ press:
 - date: '2026-05-25'
   title: Qualcomm Technologies, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/qualcomm-technologies%2C-inc./
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 1
   name: Qualcomm Rate Limits
@@ -140,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/screenshots/qualcomm-2026-06-20T192405.png
 security:

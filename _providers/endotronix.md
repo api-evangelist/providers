@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -108,7 +108,7 @@ plans:
 - name: Endotronix Plans Pricing
   plan_count: 0
   slug: endotronix-plans-pricing
-random_paper: 18
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Endotronix Rate Limits
@@ -116,6 +116,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -123,6 +124,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: tags
@@ -130,7 +132,8 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Endotronix Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 195
   human_in_the_loop: 8
@@ -191,7 +191,164 @@ apis:
 - description: The You API from Quadrillion — 1 operation(s) for you.
   name: Quadrillion You API
   slug: quadrillion-you-api
-artifact_total: 56
+artifact_total: 108
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quadrillion Cloud account API
+  slug: open-quadrillion-account-api
+- collection_type: open
+  name: Quadrillion Cloud account admin API
+  slug: open-quadrillion-admin-api
+- collection_type: open
+  name: Quadrillion Cloud account api-keys API
+  slug: open-quadrillion-api-keys-api
+- collection_type: open
+  name: Quadrillion Cloud account auth API
+  slug: open-quadrillion-auth-api
+- collection_type: open
+  name: Quadrillion Cloud account autocomplete API
+  slug: open-quadrillion-autocomplete-api
+- collection_type: open
+  name: Quadrillion Cloud account blobs API
+  slug: open-quadrillion-blobs-api
+- collection_type: open
+  name: Quadrillion Cloud account Cerebras API
+  slug: open-quadrillion-cerebras-api
+- collection_type: open
+  name: Quadrillion Cloud account ckg API
+  slug: open-quadrillion-ckg-api
+- collection_type: open
+  name: Quadrillion Cloud account compute API
+  slug: open-quadrillion-compute-api
+- collection_type: open
+  name: Quadrillion Cloud account credentials API
+  slug: open-quadrillion-credentials-api
+- collection_type: open
+  name: Quadrillion Cloud account execution API
+  slug: open-quadrillion-execution-api
+- collection_type: open
+  name: Quadrillion Cloud account files API
+  slug: open-quadrillion-files-api
+- collection_type: open
+  name: Quadrillion Cloud account filesystems API
+  slug: open-quadrillion-filesystems-api
+- collection_type: open
+  name: Quadrillion Cloud account Fireworks API
+  slug: open-quadrillion-fireworks-api
+- collection_type: open
+  name: Quadrillion Cloud account Health API
+  slug: open-quadrillion-health-api
+- collection_type: open
+  name: Quadrillion Cloud account integration-relay API
+  slug: open-quadrillion-integration-relay-api
+- collection_type: open
+  name: Quadrillion Cloud account kernel API
+  slug: open-quadrillion-kernel-api
+- collection_type: open
+  name: Quadrillion Cloud account Latency Distribution API
+  slug: open-quadrillion-latency-distribution-api
+- collection_type: open
+  name: Quadrillion Cloud account linear API
+  slug: open-quadrillion-linear-api
+- collection_type: open
+  name: Quadrillion Cloud account Messages API
+  slug: open-quadrillion-messages-api
+- collection_type: open
+  name: Quadrillion Cloud account modal-files API
+  slug: open-quadrillion-modal-files-api
+- collection_type: open
+  name: Quadrillion Cloud account modal-filewatcher API
+  slug: open-quadrillion-modal-filewatcher-api
+- collection_type: open
+  name: Quadrillion Cloud account modal-terminal API
+  slug: open-quadrillion-modal-terminal-api
+- collection_type: open
+  name: Quadrillion Cloud account notebook API
+  slug: open-quadrillion-notebook-api
+- collection_type: open
+  name: Quadrillion Cloud account onboarding API
+  slug: open-quadrillion-onboarding-api
+- collection_type: open
+  name: Quadrillion Cloud account Openrouter API
+  slug: open-quadrillion-openrouter-api
+- collection_type: open
+  name: Quadrillion Cloud account org API
+  slug: open-quadrillion-org-api
+- collection_type: open
+  name: Quadrillion Cloud account project API
+  slug: open-quadrillion-project-api
+- collection_type: open
+  name: Quadrillion Cloud account Quadrillion Cloud API API
+  slug: open-quadrillion-quadrillion-cloud-api-api
+- collection_type: open
+  name: Quadrillion Cloud account releases API
+  slug: open-quadrillion-releases-api
+- collection_type: open
+  name: Quadrillion Cloud account Responses API
+  slug: open-quadrillion-responses-api
+- collection_type: open
+  name: Quadrillion Cloud account rules API
+  slug: open-quadrillion-rules-api
+- collection_type: open
+  name: Quadrillion Cloud account runtime_mutations API
+  slug: open-quadrillion-runtime-mutations-api
+- collection_type: open
+  name: Quadrillion Cloud account runtime-session API
+  slug: open-quadrillion-runtime-session-api
+- collection_type: open
+  name: Quadrillion Cloud account settings API
+  slug: open-quadrillion-settings-api
+- collection_type: open
+  name: Quadrillion Cloud account slack API
+  slug: open-quadrillion-slack-api
+- collection_type: open
+  name: Quadrillion Cloud account slack-webhooks API
+  slug: open-quadrillion-slack-webhooks-api
+- collection_type: open
+  name: Quadrillion Cloud account store API
+  slug: open-quadrillion-store-api
+- collection_type: open
+  name: Quadrillion Cloud account stripe API
+  slug: open-quadrillion-stripe-api
+- collection_type: open
+  name: Quadrillion Cloud account tags API
+  slug: open-quadrillion-tags-api
+- collection_type: open
+  name: Quadrillion Cloud account task_dag_mutations API
+  slug: open-quadrillion-task-dag-mutations-api
+- collection_type: open
+  name: Quadrillion Cloud account task_dag_reads API
+  slug: open-quadrillion-task-dag-reads-api
+- collection_type: open
+  name: Quadrillion Cloud account terminal API
+  slug: open-quadrillion-terminal-api
+- collection_type: open
+  name: Quadrillion Cloud account Token Usage API
+  slug: open-quadrillion-token-usage-api
+- collection_type: open
+  name: Quadrillion Cloud account tool_results API
+  slug: open-quadrillion-tool-results-api
+- collection_type: open
+  name: Quadrillion Cloud account user API
+  slug: open-quadrillion-user-api
+- collection_type: open
+  name: Quadrillion Cloud account V1beta API
+  slug: open-quadrillion-v1beta-api
+- collection_type: open
+  name: Quadrillion Cloud account workos API
+  slug: open-quadrillion-workos-api
+- collection_type: open
+  name: Quadrillion Cloud account workspace-credentials API
+  slug: open-quadrillion-workspace-credentials-api
+- collection_type: open
+  name: Quadrillion Cloud account writeup API
+  slug: open-quadrillion-writeup-api
+- collection_type: open
+  name: Quadrillion Cloud account You API
+  slug: open-quadrillion-you-api
 common:
 - group: auth
   title: ''
@@ -313,7 +470,7 @@ overview: 'Quadrillion publishes 51 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quadrillion''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, support, authentication, and 19 more developer resources.'
-random_paper: 108
+random_paper: 145
 score:
   band: developing
   composite: 48.0
@@ -337,7 +494,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

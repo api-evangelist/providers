@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ arazzos:
 - description: List a team's channels and read the recent messages in a chosen channel.
   name: Microsoft Teams Review Channel Conversation
   slug: microsoft-teams-review-channel-conversation-workflow
-artifact_total: 106
+artifact_total: 115
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous event surface for Microsoft Teams. Two distinct delivery channels are modeled: 1. Microsoft Graph change notifications - HTTPS webhook deliveries that Micr'
   name: Microsoft Teams Event Surface
@@ -124,6 +124,33 @@ collections:
 - collection_type: postman
   name: Microsoft Graph Teams API
   slug: postman-microsoft-teams-graph-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Teams Apps API
+  slug: open-microsoft-teams-apps-api
+- collection_type: open
+  name: Microsoft Graph Teams Apps Calls API
+  slug: open-microsoft-teams-calls-api
+- collection_type: open
+  name: Microsoft Graph Teams Apps Channels API
+  slug: open-microsoft-teams-channels-api
+- collection_type: open
+  name: Microsoft Graph Teams Apps Members API
+  slug: open-microsoft-teams-members-api
+- collection_type: open
+  name: Microsoft Graph Teams Apps Messages API
+  slug: open-microsoft-teams-messages-api
+- collection_type: open
+  name: Microsoft Graph Teams Apps Online Meetings API
+  slug: open-microsoft-teams-online-meetings-api
+- collection_type: open
+  name: Microsoft Graph Teams Apps Tabs API
+  slug: open-microsoft-teams-tabs-api
+- collection_type: open
+  name: Microsoft Graph Apps Teams API
+  slug: open-microsoft-teams-teams-api
 common:
 - group: agent
   title: ''
@@ -504,7 +531,7 @@ plans:
 - name: Microsoft Teams Plans Pricing
   plan_count: 3
   slug: microsoft-teams-plans-pricing
-random_paper: 5
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Microsoft Teams Rate Limits
@@ -561,7 +588,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:

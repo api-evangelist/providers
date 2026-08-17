@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Digital Shadows SearchLight Portal API — the REST surface behind the SearchLight / GreyMatter DRP portal. Exposes incidents, intelligence incidents, intelligence threats, data breaches and breach '
@@ -122,7 +122,7 @@ plans:
 - name: Digital Shadows Plans Pricing
   plan_count: 0
   slug: digital-shadows-plans-pricing
-random_paper: 100
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Digital Shadows Rate Limits
@@ -130,6 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -137,8 +138,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
+  previous_composite: 20.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Digital Shadows Authentication

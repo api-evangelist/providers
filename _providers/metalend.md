@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: Withdrawal operations from pools
   name: MetaLend Withdrawals API
   slug: metalend-withdrawals-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide API
+  slug: open-metalend-ai-agent-guide-api
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide Auth API
+  slug: open-metalend-auth-api
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide Balances API
+  slug: open-metalend-balances-api
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide Deposits API
+  slug: open-metalend-deposits-api
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide Pools API
+  slug: open-metalend-pools-api
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide Rewards API
+  slug: open-metalend-rewards-api
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide Services API
+  slug: open-metalend-services-api
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide Transaction Costs API
+  slug: open-metalend-transaction-costs-api
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide User Configuration API
+  slug: open-metalend-user-configuration-api
+- collection_type: open
+  name: MetaLend Rebalancing AI Agent Guide Withdrawals API
+  slug: open-metalend-withdrawals-api
 common:
 - group: agent
   title: ''
@@ -195,7 +229,7 @@ overview: 'MetaLend publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   MetaLend''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, pricing, support, and 20 more developer resources.'
-random_paper: 2
+random_paper: 97
 score:
   band: developing
   composite: 50.5
@@ -225,7 +259,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/screenshots/metalend-2026-08-07T172645.png
 security:

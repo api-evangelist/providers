@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,7 +77,50 @@ apis:
 - description: The PractitionerRole API from Clever Care — 2 operation(s) for practitionerrole.
   name: Clever Care PractitionerRole API
   slug: clever-care-practitionerrole-api
-artifact_total: 18
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coverage API
+  slug: open-clever-care-coverage-api
+- collection_type: open
+  name: Coverage Endpoint API
+  slug: open-clever-care-endpoint-api
+- collection_type: open
+  name: Coverage ExplanationOfBenefit API
+  slug: open-clever-care-explanationofbenefit-api
+- collection_type: open
+  name: Coverage HealthcareService API
+  slug: open-clever-care-healthcareservice-api
+- collection_type: open
+  name: Coverage InsurancePlan API
+  slug: open-clever-care-insuranceplan-api
+- collection_type: open
+  name: Coverage List API
+  slug: open-clever-care-list-api
+- collection_type: open
+  name: Coverage Location API
+  slug: open-clever-care-location-api
+- collection_type: open
+  name: Coverage MedicationKnowledge API
+  slug: open-clever-care-medicationknowledge-api
+- collection_type: open
+  name: Coverage Organization API
+  slug: open-clever-care-organization-api
+- collection_type: open
+  name: Coverage OrganizationAffiliation API
+  slug: open-clever-care-organizationaffiliation-api
+- collection_type: open
+  name: Coverage Patient API
+  slug: open-clever-care-patient-api
+- collection_type: open
+  name: Coverage Practitioner API
+  slug: open-clever-care-practitioner-api
+- collection_type: open
+  name: Coverage PractitionerRole API
+  slug: open-clever-care-practitionerrole-api
 common:
 - group: company
   title: ''
@@ -191,7 +234,7 @@ overview: 'Clever Care publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Clever Care''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 19 more developer resources.'
-random_paper: 17
+random_paper: 54
 scopes:
 - name: Clever Care Scopes
   scope_count: 4
@@ -226,7 +269,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/screenshots/clever-care-2026-07-25T205602.png
 security:

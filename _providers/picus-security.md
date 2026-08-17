@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -70,7 +70,53 @@ apis:
 - description: The Users API from Picus Security — 5 operation(s) for users.
   name: Picus Security Users API
   slug: picus-security-users-api
-artifact_total: 21
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Picus Customer Activity Logs API
+  slug: open-picus-security-activity-logs-api
+- collection_type: open
+  name: Picus Customer Agents API
+  slug: open-picus-security-agents-api
+- collection_type: open
+  name: Picus Customer Authentication API
+  slug: open-picus-security-authentication-api
+- collection_type: open
+  name: Picus Customer Instances API
+  slug: open-picus-security-instances-api
+- collection_type: open
+  name: Picus Customer Integrations API
+  slug: open-picus-security-integrations-api
+- collection_type: open
+  name: Picus Customer Mitigation API
+  slug: open-picus-security-mitigation-api
+- collection_type: open
+  name: Picus Customer Simulation Latest Result API
+  slug: open-picus-security-simulation-latest-result-api
+- collection_type: open
+  name: Picus Customer Simulation Result API
+  slug: open-picus-security-simulation-result-api
+- collection_type: open
+  name: Picus Customer Simulation Result Reports API
+  slug: open-picus-security-simulation-result-reports-api
+- collection_type: open
+  name: Picus Customer Simulations API
+  slug: open-picus-security-simulations-api
+- collection_type: open
+  name: Picus Customer Summary API
+  slug: open-picus-security-summary-api
+- collection_type: open
+  name: Picus Customer Templates API
+  slug: open-picus-security-templates-api
+- collection_type: open
+  name: Picus Customer Threats API
+  slug: open-picus-security-threats-api
+- collection_type: open
+  name: Picus Customer Users API
+  slug: open-picus-security-users-api
 common:
 - group: agent
   title: ''
@@ -224,7 +270,7 @@ overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Picus Security''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 27 more developer resources.'
-random_paper: 41
+random_paper: 140
 rate_limits:
 - limit_count: 2
   name: Picus Security Rate Limits
@@ -252,7 +298,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

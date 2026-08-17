@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 3
@@ -86,7 +86,59 @@ apis:
 - description: The Workshifts API from Deliverart — 5 operation(s) for workshifts.
   name: Deliverart Workshifts API
   slug: deliverart-workshifts-api
-artifact_total: 21
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deliverart Addresses API
+  slug: open-deliverart-addresses-api
+- collection_type: open
+  name: Deliverart Addresses Companies API
+  slug: open-deliverart-companies-api
+- collection_type: open
+  name: Deliverart Addresses Customer addresses API
+  slug: open-deliverart-customer-addresses-api
+- collection_type: open
+  name: Deliverart Addresses Customer business profiles API
+  slug: open-deliverart-customer-business-profiles-api
+- collection_type: open
+  name: Deliverart Addresses Customers API
+  slug: open-deliverart-customers-api
+- collection_type: open
+  name: Deliverart Addresses Deliveries API
+  slug: open-deliverart-deliveries-api
+- collection_type: open
+  name: Deliverart Addresses Delivery fee API
+  slug: open-deliverart-delivery-fee-api
+- collection_type: open
+  name: Deliverart Addresses Me API
+  slug: open-deliverart-me-api
+- collection_type: open
+  name: Deliverart Addresses Menu API
+  slug: open-deliverart-menu-api
+- collection_type: open
+  name: Deliverart Addresses Orders API
+  slug: open-deliverart-orders-api
+- collection_type: open
+  name: Deliverart Addresses Password reset API
+  slug: open-deliverart-password-reset-api
+- collection_type: open
+  name: Deliverart Addresses Points of sale API
+  slug: open-deliverart-points-of-sale-api
+- collection_type: open
+  name: Deliverart Addresses Registration API
+  slug: open-deliverart-registration-api
+- collection_type: open
+  name: Deliverart Addresses Reservation API
+  slug: open-deliverart-reservation-api
+- collection_type: open
+  name: Deliverart Addresses Take away API
+  slug: open-deliverart-take-away-api
+- collection_type: open
+  name: Deliverart Addresses Workshifts API
+  slug: open-deliverart-workshifts-api
 common:
 - group: agent
   title: ''
@@ -208,7 +260,7 @@ overview: 'Deliverart publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Deliverart''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, signup flow, and 19 more developer resources.'
-random_paper: 114
+random_paper: 31
 scopes:
 - name: Deliverart Scopes
   scope_count: 44
@@ -237,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/screenshots/deliverart-2026-07-25T211654.png
 security:

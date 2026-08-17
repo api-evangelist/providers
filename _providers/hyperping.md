@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Public machine-readable status feed for a status page.
   name: Hyperping Status Pages API
   slug: hyperping-status-pages-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hyperping Healthchecks API
+  slug: open-hyperping-healthchecks-api
+- collection_type: open
+  name: Hyperping Healthchecks Incidents API
+  slug: open-hyperping-incidents-api
+- collection_type: open
+  name: Hyperping Healthchecks Maintenance API
+  slug: open-hyperping-maintenance-api
+- collection_type: open
+  name: Hyperping Healthchecks Monitors API
+  slug: open-hyperping-monitors-api
+- collection_type: open
+  name: Hyperping Healthchecks Outages API
+  slug: open-hyperping-outages-api
+- collection_type: open
+  name: Hyperping Healthchecks Reports API
+  slug: open-hyperping-reports-api
+- collection_type: open
+  name: Hyperping Healthchecks Status Pages API
+  slug: open-hyperping-status-pages-api
 - collection_type: open
   name: Hyperping API
   slug: open-hyperping
@@ -130,7 +154,7 @@ plans:
 - name: Hyperping Plans Pricing
   plan_count: 5
   slug: hyperping-plans-pricing
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 4
   name: Hyperping Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/screenshots/hyperping-2026-07-25T221925.png
 security:

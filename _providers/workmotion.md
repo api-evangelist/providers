@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Event subscription management.
   name: WorkMotion Webhooks API
   slug: workmotion-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WorkMotion Partner Absences API
+  slug: open-workmotion-absences-api
+- collection_type: open
+  name: WorkMotion Partner Absences Contracts API
+  slug: open-workmotion-contracts-api
+- collection_type: open
+  name: WorkMotion Partner Absences Cost Calculator API
+  slug: open-workmotion-cost-calculator-api
+- collection_type: open
+  name: WorkMotion Partner Absences Documents API
+  slug: open-workmotion-documents-api
+- collection_type: open
+  name: WorkMotion Partner Absences Employees API
+  slug: open-workmotion-employees-api
+- collection_type: open
+  name: WorkMotion Partner Absences Onboarding API
+  slug: open-workmotion-onboarding-api
+- collection_type: open
+  name: WorkMotion Partner Absences Webhooks API
+  slug: open-workmotion-webhooks-api
 - collection_type: open
   name: WorkMotion Partner API
   slug: open-workmotion
@@ -126,7 +150,7 @@ plans:
 - name: Workmotion Plans Pricing
   plan_count: 4
   slug: workmotion-plans-pricing
-random_paper: 33
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Workmotion Rate Limits
@@ -151,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

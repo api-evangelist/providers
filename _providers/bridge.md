@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -110,11 +110,87 @@ apis:
 - description: The Webhooks API from Bridge — 6 operation(s) for webhooks.
   name: Bridge Webhooks API
   slug: bridge-webhooks-api
-artifact_total: 30
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Bridge Webhooks
   slug: bridge-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bridge API Keys API
+  slug: open-bridge-api-keys-api
+- collection_type: open
+  name: Bridge API Keys Associated Persons API
+  slug: open-bridge-associated-persons-api
+- collection_type: open
+  name: Bridge API Keys Batch Settlements API
+  slug: open-bridge-batch-settlements-api
+- collection_type: open
+  name: Bridge API Keys Bridge Wallets API
+  slug: open-bridge-bridge-wallets-api
+- collection_type: open
+  name: Bridge API Keys Cards API
+  slug: open-bridge-cards-api
+- collection_type: open
+  name: Bridge API Keys Crypto Return Policies API
+  slug: open-bridge-crypto-return-policies-api
+- collection_type: open
+  name: Bridge API Keys Customers API
+  slug: open-bridge-customers-api
+- collection_type: open
+  name: Bridge API Keys Developers API
+  slug: open-bridge-developers-api
+- collection_type: open
+  name: Bridge API Keys Exchange Rates API
+  slug: open-bridge-exchange-rates-api
+- collection_type: open
+  name: Bridge API Keys External Accounts API
+  slug: open-bridge-external-accounts-api
+- collection_type: open
+  name: Bridge API Keys Fiat Payout Configuration API
+  slug: open-bridge-fiat-payout-configuration-api
+- collection_type: open
+  name: Bridge API Keys Funds Requests API
+  slug: open-bridge-funds-requests-api
+- collection_type: open
+  name: Bridge API Keys KYC Links API
+  slug: open-bridge-kyc-links-api
+- collection_type: open
+  name: Bridge API Keys Liquidation Addresses API
+  slug: open-bridge-liquidation-addresses-api
+- collection_type: open
+  name: Bridge API Keys Lists API
+  slug: open-bridge-lists-api
+- collection_type: open
+  name: Bridge API Keys Plaid API
+  slug: open-bridge-plaid-api
+- collection_type: open
+  name: Bridge API Keys Prefunded Accounts API
+  slug: open-bridge-prefunded-accounts-api
+- collection_type: open
+  name: Bridge API Keys Rewards API
+  slug: open-bridge-rewards-api
+- collection_type: open
+  name: Bridge API Keys Sandbox API
+  slug: open-bridge-sandbox-api
+- collection_type: open
+  name: Bridge API Keys Static Memos API
+  slug: open-bridge-static-memos-api
+- collection_type: open
+  name: Bridge API Keys Transfers API
+  slug: open-bridge-transfers-api
+- collection_type: open
+  name: Bridge API Keys Travel Rule API
+  slug: open-bridge-travel-rule-api
+- collection_type: open
+  name: Bridge API Keys Virtual Accounts API
+  slug: open-bridge-virtual-accounts-api
+- collection_type: open
+  name: Bridge API Keys Webhooks API
+  slug: open-bridge-webhooks-api
 common:
 - group: company
   title: ''
@@ -263,7 +339,7 @@ overview: 'Bridge publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Bridge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 21
+random_paper: 25
 scopes:
 - name: Bridge Scopes
   scope_count: 0
@@ -298,7 +374,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png
 security:

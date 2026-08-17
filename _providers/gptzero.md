@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Document analysis
   name: GPTZero Documents API
   slug: gptzero-documents-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GPTZero Batch API
+  slug: open-gptzero-batch-api
+- collection_type: open
+  name: GPTZero Batch Detection API
+  slug: open-gptzero-detection-api
+- collection_type: open
+  name: GPTZero Batch Documents API
+  slug: open-gptzero-documents-api
 common:
 - group: company
   title: ''
@@ -190,7 +203,7 @@ plans:
 - name: Gptzero Plans
   plan_count: 4
   slug: gptzero-plans
-random_paper: 59
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Gptzero Rate Limits
@@ -218,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/screenshots/gptzero-2026-07-25T220147.png
 security:

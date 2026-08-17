@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Workouts (WODs) and skill progressions.
   name: Wodify Workouts API
   slug: wodify-workouts-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wodify Classes API
+  slug: open-wodify-classes-api
+- collection_type: open
+  name: Wodify Classes Clients API
+  slug: open-wodify-clients-api
+- collection_type: open
+  name: Wodify Classes Communications API
+  slug: open-wodify-communications-api
+- collection_type: open
+  name: Wodify Classes Financials API
+  slug: open-wodify-financials-api
+- collection_type: open
+  name: Wodify Classes Leads API
+  slug: open-wodify-leads-api
+- collection_type: open
+  name: Wodify Classes Memberships API
+  slug: open-wodify-memberships-api
+- collection_type: open
+  name: Wodify Classes Programs API
+  slug: open-wodify-programs-api
+- collection_type: open
+  name: Wodify Classes Reference API
+  slug: open-wodify-reference-api
+- collection_type: open
+  name: Wodify Classes Services API
+  slug: open-wodify-services-api
+- collection_type: open
+  name: Wodify Classes Workouts API
+  slug: open-wodify-workouts-api
 - collection_type: open
   name: Wodify API
   slug: open-wodify
@@ -135,7 +168,7 @@ plans:
 - name: Wodify Plans Pricing
   plan_count: 5
   slug: wodify-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Wodify Rate Limits
@@ -160,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

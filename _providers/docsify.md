@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Docsify is a lightweight, no-build documentation site generator that turns Markdown files into a website on the fly using client-side JavaScript rendering.
@@ -80,7 +80,7 @@ plans:
 - name: Docsify Plans Pricing
   plan_count: 3
   slug: docsify-plans-pricing
-random_paper: 33
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Docsify Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docsify/refs/heads/main/screenshots/docsify-2026-06-20T180111.png
 security:

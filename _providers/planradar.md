@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 36
 apis:
 - description: Create and manage approval requests for documents, plans, and tickets
@@ -139,11 +139,123 @@ apis:
 - description: The videos API from PlanRadar — 3 operation(s) for videos.
   name: PlanRadar videos API
   slug: planradar-videos-api
-artifact_total: 41
+artifact_total: 78
 asyncapis:
 - description: ''
   name: Planradar Webhooks
   slug: planradar-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 API
+  slug: open-planradar-approval-requests-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Approval Workflows V2 API
+  slug: open-planradar-approval-workflows-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Components-Plans API
+  slug: open-planradar-components-plans-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Components V2 API
+  slug: open-planradar-components-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 DMS API
+  slug: open-planradar-dms-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Documents API
+  slug: open-planradar-documents-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Export API
+  slug: open-planradar-export-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Filters V2 API
+  slug: open-planradar-filters-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Forms API
+  slug: open-planradar-forms-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Forms / Project API
+  slug: open-planradar-forms-project-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Forms V2 API
+  slug: open-planradar-forms-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Gantt V2 API
+  slug: open-planradar-gantt-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Groups V2 API
+  slug: open-planradar-groups-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Images API
+  slug: open-planradar-images-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Invitation V1 API
+  slug: open-planradar-invitation-v1-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Invitations API
+  slug: open-planradar-invitations-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 List API
+  slug: open-planradar-list-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 List V2 API
+  slug: open-planradar-list-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Login API
+  slug: open-planradar-login-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Notifications API
+  slug: open-planradar-notifications-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Plans V2 API
+  slug: open-planradar-plans-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Project Reports API
+  slug: open-planradar-project-reports-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Project Reports Templates API
+  slug: open-planradar-project-reports-templates-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Projects API
+  slug: open-planradar-projects-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Projects V2 API
+  slug: open-planradar-projects-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Report Templates V2 API
+  slug: open-planradar-report-templates-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Roles API
+  slug: open-planradar-roles-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Roles V2 API
+  slug: open-planradar-roles-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Site View API
+  slug: open-planradar-site-view-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Steps V2 API
+  slug: open-planradar-steps-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Ticket Attachments API
+  slug: open-planradar-ticket-attachments-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Ticket Imports API
+  slug: open-planradar-ticket-imports-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Tickets API
+  slug: open-planradar-tickets-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Tickets V2 API
+  slug: open-planradar-tickets-v2-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 Users V1 API
+  slug: open-planradar-users-v1-api
+- collection_type: open
+  name: PlanRadar's API Documentation Approval Requests V2 videos API
+  slug: open-planradar-videos-api
 common:
 - group: auth
   title: ''
@@ -276,7 +388,7 @@ overview: 'PlanRadar publishes 36 APIs on the [APIs.io](https://apis.io/) networ
 
 
   PlanRadar''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 109
+random_paper: 55
 score:
   band: developing
   composite: 48.5
@@ -299,7 +411,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

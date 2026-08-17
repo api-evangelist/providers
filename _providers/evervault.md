@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: 3D Secure is a security protocol designed to prevent fraud in online card transactions. It adds an additional layer of authentication during the payment process.
@@ -68,7 +68,7 @@ apis:
 - description: The Webhooks API from Evervault — 2 operation(s) for webhooks.
   name: Evervault Webhooks API
   slug: evervault-webhooks-api
-artifact_total: 29
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Evervault Webhooks
@@ -110,6 +110,45 @@ collections:
 - collection_type: postman
   name: Evervault Webhooks API
   slug: postman-evervault-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Evervault 3D Secure API
+  slug: open-evervault-3d-secure-api
+- collection_type: open
+  name: Evervault Acquirers API
+  slug: open-evervault-acquirers-api
+- collection_type: open
+  name: Evervault Card Account Updates API
+  slug: open-evervault-card-account-updates-api
+- collection_type: open
+  name: Evervault Client Tokens API
+  slug: open-evervault-client-tokens-api
+- collection_type: open
+  name: Evervault Core API
+  slug: open-evervault-core-api
+- collection_type: open
+  name: Evervault Functions API
+  slug: open-evervault-functions-api
+- collection_type: open
+  name: Evervault Insights API
+  slug: open-evervault-insights-api
+- collection_type: open
+  name: Evervault Merchants API
+  slug: open-evervault-merchants-api
+- collection_type: open
+  name: Evervault Network Tokens API
+  slug: open-evervault-network-tokens-api
+- collection_type: open
+  name: Evervault Payments API
+  slug: open-evervault-payments-api
+- collection_type: open
+  name: Evervault Relays API
+  slug: open-evervault-relays-api
+- collection_type: open
+  name: Evervault Webhooks API
+  slug: open-evervault-webhooks-api
 common:
 - group: other
   title: ''
@@ -274,7 +313,7 @@ overview: 'Evervault publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 29 more developer resources.'
-random_paper: 30
+random_paper: 96
 score:
   band: strong
   composite: 61.6
@@ -303,7 +342,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/screenshots/evervault-2026-08-07T165228.png
 security:

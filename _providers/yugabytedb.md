@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -284,7 +284,7 @@ arazzos:
 - description: Read a cluster, submit an updated specification, and poll until it returns to ACTIVE.
   name: YugabyteDB Aeon Scale Cluster
   slug: yugabytedb-scale-cluster-workflow
-artifact_total: 200
+artifact_total: 273
 collections:
 - collection_type: postman
   name: YugabyteDB Aeon REST Access Keys API
@@ -506,8 +506,227 @@ collections:
   name: YugabyteDB Aeon REST Access Keys Ybc Management API
   slug: postman-yugabytedb-ybc-management-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys API
+  slug: open-yugabytedb-access-keys-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Accounts API
+  slug: open-yugabytedb-accounts-api
+- collection_type: open
   name: YugabyteDB Aeon REST API
   slug: open-yugabytedb-aeon
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Alerts API
+  slug: open-yugabytedb-alerts-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys AllowLists API
+  slug: open-yugabytedb-allowlists-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Asynchronous Replication API
+  slug: open-yugabytedb-asynchronous-replication-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Audit API
+  slug: open-yugabytedb-audit-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Authentication API
+  slug: open-yugabytedb-authentication-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Availability Zones API
+  slug: open-yugabytedb-availability-zones-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Backup and Restore API
+  slug: open-yugabytedb-backup-and-restore-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Backups API
+  slug: open-yugabytedb-backups-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Certificate Info API
+  slug: open-yugabytedb-certificate-info-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Cloud providers API
+  slug: open-yugabytedb-cloud-providers-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Clusters API
+  slug: open-yugabytedb-clusters-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Continuous Backup API
+  slug: open-yugabytedb-continuous-backup-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Custom CA Certificates API
+  slug: open-yugabytedb-custom-ca-certificates-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Customer Configuration API
+  slug: open-yugabytedb-customer-configuration-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Customer management API
+  slug: open-yugabytedb-customer-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Customer Tasks API
+  slug: open-yugabytedb-customer-tasks-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Disaster Recovery API
+  slug: open-yugabytedb-disaster-recovery-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Encryption at rest API
+  slug: open-yugabytedb-encryption-at-rest-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Extract metadata from remote tarball API
+  slug: open-yugabytedb-extract-metadata-from-remote-tarball-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys GFlags Validation APIs API
+  slug: open-yugabytedb-gflags-validation-apis-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Grafana Dashboard API
+  slug: open-yugabytedb-grafana-dashboard-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys HA API
+  slug: open-yugabytedb-ha-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Instance types API
+  slug: open-yugabytedb-instance-types-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Internal HA API
+  slug: open-yugabytedb-internal-ha-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Isolated Backup API
+  slug: open-yugabytedb-isolated-backup-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Job Scheduler API
+  slug: open-yugabytedb-job-scheduler-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys KubernetesOverridesController API
+  slug: open-yugabytedb-kubernetesoverridescontroller-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys LDAP Role management API
+  slug: open-yugabytedb-ldap-role-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys LDAPOIDC Role management API
+  slug: open-yugabytedb-ldapoidc-role-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys License management API
+  slug: open-yugabytedb-license-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys LoggingConfig API
+  slug: open-yugabytedb-loggingconfig-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Maintenance windows API
+  slug: open-yugabytedb-maintenance-windows-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys MaintenanceWindows API
+  slug: open-yugabytedb-maintenancewindows-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Metrics API
+  slug: open-yugabytedb-metrics-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys New Release management API
+  slug: open-yugabytedb-new-release-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Node Agents API
+  slug: open-yugabytedb-node-agents-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Node instances API
+  slug: open-yugabytedb-node-instances-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys PA Collector API
+  slug: open-yugabytedb-pa-collector-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys PackagesController API
+  slug: open-yugabytedb-packagescontroller-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Performance Advisor API
+  slug: open-yugabytedb-performance-advisor-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys PITR management API
+  slug: open-yugabytedb-pitr-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Platform Instance API
+  slug: open-yugabytedb-platform-instance-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Platform Replication API
+  slug: open-yugabytedb-platform-replication-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Projects API
+  slug: open-yugabytedb-projects-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys RBAC management API
+  slug: open-yugabytedb-rbac-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys ReadReplicas API
+  slug: open-yugabytedb-readreplicas-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Region management API
+  slug: open-yugabytedb-region-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Release management API
+  slug: open-yugabytedb-release-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Restores API
+  slug: open-yugabytedb-restores-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Runtime configuration API
+  slug: open-yugabytedb-runtime-configuration-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Schedule management API
+  slug: open-yugabytedb-schedule-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Session management API
+  slug: open-yugabytedb-session-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Support Bundle management API
+  slug: open-yugabytedb-support-bundle-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Table management API
+  slug: open-yugabytedb-table-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Tablet server management API
+  slug: open-yugabytedb-tablet-server-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Telemetry Provider API
+  slug: open-yugabytedb-telemetry-provider-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Universe actions API
+  slug: open-yugabytedb-universe-actions-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Universe API
+  slug: open-yugabytedb-universe-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Universe CDC Management API
+  slug: open-yugabytedb-universe-cdc-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Universe database management API
+  slug: open-yugabytedb-universe-database-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Universe information API
+  slug: open-yugabytedb-universe-information-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Universe management API
+  slug: open-yugabytedb-universe-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Universe node metadata (metamaster) API
+  slug: open-yugabytedb-universe-node-metadata-metamaster-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Universe performance suggestions API
+  slug: open-yugabytedb-universe-performance-suggestions-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Universe Upgrades Management API
+  slug: open-yugabytedb-universe-upgrades-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys UniverseClusterMutations API
+  slug: open-yugabytedb-universeclustermutations-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Upload Release packages API
+  slug: open-yugabytedb-upload-release-packages-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys User management API
+  slug: open-yugabytedb-user-management-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys YBA Instance API
+  slug: open-yugabytedb-yba-instance-api
+- collection_type: open
+  name: YugabyteDB Aeon REST Access Keys Ybc Management API
+  slug: open-yugabytedb-ybc-management-api
 common:
 - group: build
   title: ''
@@ -960,7 +1179,7 @@ plans:
 - name: Yugabytedb Plans Pricing
   plan_count: 3
   slug: yugabytedb-plans-pricing
-random_paper: 112
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Yugabytedb Rate Limits
@@ -1002,7 +1221,7 @@ score:
       marker_coverage: 100.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:

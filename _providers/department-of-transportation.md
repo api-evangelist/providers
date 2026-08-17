@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -93,8 +93,53 @@ apis:
 - description: World Manufacturer Identifier (WMI) decoding
   name: Department of Transportation WMI API
   slug: department-of-transportation-wmi-api
-artifact_total: 36
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FAA Airport Status API
+  slug: open-department-of-transportation-airport-status-api
+- collection_type: open
+  name: FAA Airport Status Authority API
+  slug: open-department-of-transportation-authority-api
+- collection_type: open
+  name: FAA Airport Status Carriers API
+  slug: open-department-of-transportation-carriers-api
+- collection_type: open
+  name: FAA Airport Status Complaints API
+  slug: open-department-of-transportation-complaints-api
+- collection_type: open
+  name: FAA Airport Status Crashes API
+  slug: open-department-of-transportation-crashes-api
+- collection_type: open
+  name: FAA Airport Status Inspections API
+  slug: open-department-of-transportation-inspections-api
+- collection_type: open
+  name: FAA Airport Status Makes API
+  slug: open-department-of-transportation-makes-api
+- collection_type: open
+  name: FAA Airport Status Manufacturers API
+  slug: open-department-of-transportation-manufacturers-api
+- collection_type: open
+  name: FAA Airport Status Models API
+  slug: open-department-of-transportation-models-api
+- collection_type: open
+  name: FAA Airport Status Ratings API
+  slug: open-department-of-transportation-ratings-api
+- collection_type: open
+  name: FAA Airport Status Recalls API
+  slug: open-department-of-transportation-recalls-api
+- collection_type: open
+  name: FAA Airport Status Vehicle Variables API
+  slug: open-department-of-transportation-vehicle-variables-api
+- collection_type: open
+  name: FAA Airport Status VIN Decode API
+  slug: open-department-of-transportation-vin-decode-api
+- collection_type: open
+  name: FAA Airport Status WMI API
+  slug: open-department-of-transportation-wmi-api
 - collection_type: open
   name: FAA Airport Status API
   slug: open-faa-system-status-api
@@ -177,7 +222,7 @@ plans:
 - name: Department Of Transportation Plans Pricing
   plan_count: 1
   slug: department-of-transportation-plans-pricing
-random_paper: 43
+random_paper: 92
 rate_limits:
 - limit_count: 3
   name: Department Of Transportation Rate Limits
@@ -225,7 +270,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/screenshots/department-of-transportation-2026-06-20T175923.png
 security:

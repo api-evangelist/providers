@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Public-facing presence of the Defense Intelligence Agency, providing organizational information, leadership, careers, news, and links to mission-specific programs. The website is the primary public su
@@ -98,7 +98,7 @@ plans:
 - name: Defense Intelligence Agency Plans Pricing
   plan_count: 3
   slug: defense-intelligence-agency-plans-pricing
-random_paper: 78
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Defense Intelligence Agency Rate Limits
@@ -122,7 +122,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-intelligence-agency/refs/heads/main/screenshots/defense-intelligence-agency-2026-06-20T175838.png
 security:

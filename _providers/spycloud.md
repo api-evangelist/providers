@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,7 +50,32 @@ apis:
 - description: The Watchlist API from SpyCloud — 5 operation(s) for watchlist.
   name: SpyCloud Watchlist API
   slug: spycloud-watchlist-api
-artifact_total: 14
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spycloud Breach API
+  slug: open-spycloud-breach-api
+- collection_type: open
+  name: Spycloud Check API
+  slug: open-spycloud-check-api
+- collection_type: open
+  name: enterprise-ato-prevention-api Compass API
+  slug: open-spycloud-compass-api
+- collection_type: open
+  name: compromised-credit-card-api Data API
+  slug: open-spycloud-data-api
+- collection_type: open
+  name: idlink-api Query API
+  slug: open-spycloud-query-api
+- collection_type: open
+  name: prospecting-api Stats API
+  slug: open-spycloud-stats-api
+- collection_type: open
+  name: enterprise-ato-prevention-api Watchlist API
+  slug: open-spycloud-watchlist-api
 common:
 - group: agent
   title: ''
@@ -212,7 +237,7 @@ overview: 'SpyCloud publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SpyCloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 43
+random_paper: 138
 rate_limits:
 - limit_count: 0
   name: Spycloud Rate Limits
@@ -240,7 +265,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

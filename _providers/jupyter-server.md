@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -63,11 +63,38 @@ apis:
 - description: Terminal session management.
   name: Jupyter Server Terminals API
   slug: jupyter-server-terminals-api
-artifact_total: 20
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jupyter Server REST Checkpoints API
+  slug: open-jupyter-server-checkpoints-api
+- collection_type: open
+  name: Jupyter Server REST Checkpoints Config API
+  slug: open-jupyter-server-config-api
+- collection_type: open
+  name: Jupyter Server REST Checkpoints Contents API
+  slug: open-jupyter-server-contents-api
+- collection_type: open
+  name: Jupyter Server REST Checkpoints General API
+  slug: open-jupyter-server-general-api
+- collection_type: open
+  name: Jupyter Server REST Checkpoints Kernels API
+  slug: open-jupyter-server-kernels-api
+- collection_type: open
+  name: Jupyter Server REST Checkpoints Kernelspecs API
+  slug: open-jupyter-server-kernelspecs-api
 - collection_type: open
   name: Jupyter Server REST API
   slug: open-jupyter-server-rest-api
+- collection_type: open
+  name: Jupyter Server REST Checkpoints Sessions API
+  slug: open-jupyter-server-sessions-api
+- collection_type: open
+  name: Jupyter Server REST Checkpoints Terminals API
+  slug: open-jupyter-server-terminals-api
 common:
 - group: operate
   title: ''
@@ -175,7 +202,7 @@ plans:
 - name: Jupyter Server Plans Pricing
   plan_count: 3
   slug: jupyter-server-plans-pricing
-random_paper: 55
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Jupyter Server Rate Limits
@@ -209,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/screenshots/jupyter-server-2026-06-20T183848.png
 security:

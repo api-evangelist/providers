@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -69,11 +69,44 @@ apis:
 - description: The User Tasks API from Camunda — 3 operation(s) for user tasks.
   name: Camunda User Tasks API
   slug: camunda-user-tasks-api
-artifact_total: 19
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Camunda 8 REST API
   slug: open-camunda-8-api
+- collection_type: open
+  name: Camunda 8 REST Cluster API
+  slug: open-camunda-cluster-api
+- collection_type: open
+  name: Camunda 8 REST Cluster Decisions API
+  slug: open-camunda-decisions-api
+- collection_type: open
+  name: Camunda 8 REST Cluster Deployments API
+  slug: open-camunda-deployments-api
+- collection_type: open
+  name: Camunda 8 REST Cluster Incidents API
+  slug: open-camunda-incidents-api
+- collection_type: open
+  name: Camunda 8 REST Cluster Jobs API
+  slug: open-camunda-jobs-api
+- collection_type: open
+  name: Camunda 8 REST Cluster Messages API
+  slug: open-camunda-messages-api
+- collection_type: open
+  name: Camunda 8 REST Cluster Process Definitions API
+  slug: open-camunda-process-definitions-api
+- collection_type: open
+  name: Camunda 8 REST Cluster Process Instances API
+  slug: open-camunda-process-instances-api
+- collection_type: open
+  name: Camunda 8 REST Cluster Signals API
+  slug: open-camunda-signals-api
+- collection_type: open
+  name: Camunda 8 REST Cluster User Tasks API
+  slug: open-camunda-user-tasks-api
 common:
 - group: agent
   title: ''
@@ -159,7 +192,7 @@ plans:
 - name: Camunda Plans Pricing
   plan_count: 3
   slug: camunda-plans-pricing
-random_paper: 9
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Camunda Rate Limits
@@ -184,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/screenshots/camunda-2026-06-20T173920.png
 security:

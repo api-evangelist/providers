@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Emissions from passenger travel and accommodation.
   name: Climatiq Travel API
   slug: climatiq-travel-api
-artifact_total: 33
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Climatiq Autopilot API
@@ -107,6 +107,42 @@ collections:
 - collection_type: postman
   name: Climatiq Autopilot Travel API
   slug: postman-climatiq-travel-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Climatiq Autopilot API
+  slug: open-climatiq-autopilot-api
+- collection_type: open
+  name: Climatiq Autopilot CBAM API
+  slug: open-climatiq-cbam-api
+- collection_type: open
+  name: Climatiq Autopilot Classifications API
+  slug: open-climatiq-classifications-api
+- collection_type: open
+  name: Climatiq Autopilot Computing API
+  slug: open-climatiq-computing-api
+- collection_type: open
+  name: Climatiq Autopilot Energy API
+  slug: open-climatiq-energy-api
+- collection_type: open
+  name: Climatiq Autopilot Estimate API
+  slug: open-climatiq-estimate-api
+- collection_type: open
+  name: Climatiq Autopilot Freight API
+  slug: open-climatiq-freight-api
+- collection_type: open
+  name: Climatiq Autopilot Procurement API
+  slug: open-climatiq-procurement-api
+- collection_type: open
+  name: Climatiq Autopilot Reference API
+  slug: open-climatiq-reference-api
+- collection_type: open
+  name: Climatiq Autopilot Search API
+  slug: open-climatiq-search-api
+- collection_type: open
+  name: Climatiq Autopilot Travel API
+  slug: open-climatiq-travel-api
 - collection_type: open
   name: Climatiq API
   slug: open-climatiq
@@ -239,7 +275,7 @@ plans:
 - name: Climatiq Plans Pricing
   plan_count: 3
   slug: climatiq-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Climatiq Rate Limits
@@ -287,7 +323,7 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/screenshots/climatiq-2026-06-20T174523.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 37
 apis:
 - description: Administrative reporting routes.
@@ -142,11 +142,126 @@ apis:
 - description: Worker lifecycle, billing, and runtime routes.
   name: Openwork Workers API
   slug: openwork-workers-api
-artifact_total: 43
+artifact_total: 81
 asyncapis:
 - description: ''
   name: Openwork Webhooks
   slug: openwork-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Den Admin API
+  slug: open-openwork-admin-api
+- collection_type: open
+  name: Den Admin API Keys API
+  slug: open-openwork-api-keys-api
+- collection_type: open
+  name: Den Admin Auth API
+  slug: open-openwork-auth-api
+- collection_type: open
+  name: Den Admin Authentication API
+  slug: open-openwork-authentication-api
+- collection_type: open
+  name: Den Admin Bootstrap API
+  slug: open-openwork-bootstrap-api
+- collection_type: open
+  name: Den Admin Capability Sources API
+  slug: open-openwork-capability-sources-api
+- collection_type: open
+  name: Den Admin Config Objects API
+  slug: open-openwork-config-objects-api
+- collection_type: open
+  name: Den Admin Connectors API
+  slug: open-openwork-connectors-api
+- collection_type: open
+  name: Den Admin Desktop Policies API
+  slug: open-openwork-desktop-policies-api
+- collection_type: open
+  name: Den Admin Dev API
+  slug: open-openwork-dev-api
+- collection_type: open
+  name: Den Admin Diagnostics API
+  slug: open-openwork-diagnostics-api
+- collection_type: open
+  name: Den Admin GitHub API
+  slug: open-openwork-github-api
+- collection_type: open
+  name: Den Admin Inference API
+  slug: open-openwork-inference-api
+- collection_type: open
+  name: Den Admin Invitations API
+  slug: open-openwork-invitations-api
+- collection_type: open
+  name: Den Admin LLM Providers API
+  slug: open-openwork-llm-providers-api
+- collection_type: open
+  name: Den Admin Marketplaces API
+  slug: open-openwork-marketplaces-api
+- collection_type: open
+  name: Den Admin Mcp API
+  slug: open-openwork-mcp-api
+- collection_type: open
+  name: Den Admin Members API
+  slug: open-openwork-members-api
+- collection_type: open
+  name: Den Admin Memory API
+  slug: open-openwork-memory-api
+- collection_type: open
+  name: Den Admin Organizations API
+  slug: open-openwork-organizations-api
+- collection_type: open
+  name: Den Admin Plugins API
+  slug: open-openwork-plugins-api
+- collection_type: open
+  name: Den Admin Register API
+  slug: open-openwork-register-api
+- collection_type: open
+  name: Den Admin Resources API
+  slug: open-openwork-resources-api
+- collection_type: open
+  name: Den Admin Roles API
+  slug: open-openwork-roles-api
+- collection_type: open
+  name: Den Admin SCIM API
+  slug: open-openwork-scim-api
+- collection_type: open
+  name: Den Admin Skill Hubs API
+  slug: open-openwork-skill-hubs-api
+- collection_type: open
+  name: Den Admin Skills API
+  slug: open-openwork-skills-api
+- collection_type: open
+  name: Den Admin SSO API
+  slug: open-openwork-sso-api
+- collection_type: open
+  name: Den Admin System API
+  slug: open-openwork-system-api
+- collection_type: open
+  name: Den Admin Teams API
+  slug: open-openwork-teams-api
+- collection_type: open
+  name: Den Admin Telemetry API
+  slug: open-openwork-telemetry-api
+- collection_type: open
+  name: Den Admin Users API
+  slug: open-openwork-users-api
+- collection_type: open
+  name: Den Admin Webhooks API
+  slug: open-openwork-webhooks-api
+- collection_type: open
+  name: Den Admin .well Known API
+  slug: open-openwork-well-known-api
+- collection_type: open
+  name: Den Admin Worker Activity API
+  slug: open-openwork-worker-activity-api
+- collection_type: open
+  name: Den Admin Worker Runtime API
+  slug: open-openwork-worker-runtime-api
+- collection_type: open
+  name: Den Admin Workers API
+  slug: open-openwork-workers-api
 common:
 - group: other
   title: ''
@@ -291,7 +406,7 @@ overview: 'Openwork publishes 37 APIs on the [APIs.io](https://apis.io/) network
 
 
   Openwork''s developer surface includes authentication, documentation, API reference, signup flow, pricing, changelog, and 25 more developer resources.'
-random_paper: 45
+random_paper: 140
 scopes:
 - name: Openwork Scopes
   scope_count: 0
@@ -319,7 +434,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

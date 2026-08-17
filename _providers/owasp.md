@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Open Worldwide Application Security Project providing resources, tools, projects, and standards for application and web security.
@@ -96,7 +96,7 @@ plans:
 - name: Owasp Plans Pricing
   plan_count: 3
   slug: owasp-plans-pricing
-random_paper: 74
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Owasp Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owasp/refs/heads/main/screenshots/owasp-2026-06-20T191244.png
 security:

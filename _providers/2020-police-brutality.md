@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Police brutality incident records from the 2020 George Floyd protests
   name: 2020 Police Brutality Incidents API
   slug: 2020-police-brutality-incidents-api
-artifact_total: 27
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 2020 Police Brutality Incidents API
+  slug: open-2020-police-brutality-incidents-api
 - collection_type: open
   name: 2020 Police Brutality API
   slug: open-2020-police-brutality
@@ -149,7 +155,7 @@ plans:
 - name: 2020 Police Brutality Plans Pricing
   plan_count: 3
   slug: 2020-police-brutality-plans-pricing
-random_paper: 114
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: 2020 Police Brutality Rate Limits
@@ -197,7 +203,7 @@ score:
     regime_id: government
     score: 9.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/screenshots/2020-police-brutality-2026-06-20T162626.png
 slug: 2020-police-brutality

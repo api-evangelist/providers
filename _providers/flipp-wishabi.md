@@ -28,13 +28,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Public HTTPS/JSON API that gives retailers programmatic access to the structured circular ("publication") data that powers the Flipp platform - publications by merchant and store/postal code, publicat
   name: Flipp FlyerKit API
   slug: flipp-flyerkit-api
-artifact_total: 5
+artifact_total: 6
+collections:
+- collection_type: open
+  name: FlyerKit
+  slug: open-flipp-wishabi-flyerkit
 common:
 - group: company
   title: ''
@@ -157,7 +161,7 @@ plans:
 - name: Flipp Wishabi Plans Pricing
   plan_count: 0
   slug: flipp-wishabi-plans-pricing
-random_paper: 7
+random_paper: 135
 rate_limits:
 - limit_count: 0
   name: Flipp Wishabi Rate Limits
@@ -165,7 +169,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.2
-  delta: 26.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 44.0
@@ -173,10 +177,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 11.2
+  previous_composite: 37.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/screenshots/flipp-wishabi-2026-07-25T214802.png
 security:
 - kind: authentication

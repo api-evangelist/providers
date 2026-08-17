@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Coherent
 nav: Providers
 network: true
 overview: Coherent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Photonics, Lasers, Optical Networking, and Materials.
-random_paper: 16
+random_paper: 111
 score:
   band: minimal
   composite: 4.4
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coherent/refs/heads/main/screenshots/coherent-2026-06-20T174719.png
 security:

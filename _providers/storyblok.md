@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ arazzos:
 - description: Discover tags, list the stories carrying a chosen tag, then fetch the full content of the first match.
   name: Storyblok Tag-Driven Content Sync
   slug: storyblok-tag-driven-content-sync-workflow
-artifact_total: 56
+artifact_total: 67
 asyncapis:
 - description: The Storyblok Webhook system delivers real-time event notifications to registered HTTP endpoints when content events occur in a Storyblok space. Events are triggered by actions such as story publicati
   name: Storyblok Webhooks
@@ -144,14 +144,47 @@ collections:
   name: Storyblok Content Delivery API v2 Assets Webhooks API
   slug: postman-storyblok-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Storyblok Content Delivery API v2 Assets API
+  slug: open-storyblok-assets-api
+- collection_type: open
+  name: Storyblok Content Delivery API v2 Assets Collaborators API
+  slug: open-storyblok-collaborators-api
+- collection_type: open
+  name: Storyblok Content Delivery API v2 Assets Components API
+  slug: open-storyblok-components-api
+- collection_type: open
   name: Storyblok Content Delivery API v2
   slug: open-storyblok-content-delivery-api-v2
+- collection_type: open
+  name: Storyblok Content Delivery API v2 Assets Datasources API
+  slug: open-storyblok-datasources-api
 - collection_type: open
   name: Storyblok Image Service
   slug: open-storyblok-image-service
 - collection_type: open
+  name: Storyblok Content Delivery API v2 Assets Image Transformation API
+  slug: open-storyblok-image-transformation-api
+- collection_type: open
+  name: Storyblok Content Delivery API v2 Assets Links API
+  slug: open-storyblok-links-api
+- collection_type: open
   name: Storyblok Management API
   slug: open-storyblok-management-api
+- collection_type: open
+  name: Storyblok Content Delivery API v2 Assets Spaces API
+  slug: open-storyblok-spaces-api
+- collection_type: open
+  name: Storyblok Content Delivery API v2 Assets Stories API
+  slug: open-storyblok-stories-api
+- collection_type: open
+  name: Storyblok Content Delivery API v2 Assets Tags API
+  slug: open-storyblok-tags-api
+- collection_type: open
+  name: Storyblok Content Delivery API v2 Assets Webhooks API
+  slug: open-storyblok-webhooks-api
 common:
 - group: agent
   title: ''
@@ -397,7 +430,7 @@ plans:
 - name: Storyblok Plans Pricing
   plan_count: 5
   slug: storyblok-plans-pricing
-random_paper: 41
+random_paper: 107
 rate_limits:
 - limit_count: 6
   name: Storyblok Rate Limits
@@ -449,7 +482,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/screenshots/storyblok-2026-06-20T194608.png
 security:

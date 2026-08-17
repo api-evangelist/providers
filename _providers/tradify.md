@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: (Modeled) Time entries captured against jobs.
   name: Tradify Timesheets API
   slug: tradify-timesheets-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tradify API (Modeled - Not an Official Public API) Customers API
+  slug: open-tradify-customers-api
+- collection_type: open
+  name: Tradify API (Modeled - Not an Official Public API) Customers Invoices API
+  slug: open-tradify-invoices-api
+- collection_type: open
+  name: Tradify API (Modeled - Not an Official Public API) Customers Jobs API
+  slug: open-tradify-jobs-api
+- collection_type: open
+  name: Tradify API (Modeled - Not an Official Public API) Customers Quotes API
+  slug: open-tradify-quotes-api
+- collection_type: open
+  name: Tradify API (Modeled - Not an Official Public API) Customers Timesheets API
+  slug: open-tradify-timesheets-api
 - collection_type: open
   name: Tradify API (Modeled - Not an Official Public API)
   slug: open-tradify
@@ -121,7 +139,7 @@ plans:
 - name: Tradify Plans Pricing
   plan_count: 5
   slug: tradify-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Tradify Rate Limits
@@ -146,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

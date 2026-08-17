@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Asynchronous operation tracking
   name: Oracle Container Engine for Kubernetes Work Requests API
   slug: oracle-container-engine-work-requests-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Container Engine for Kubernetes (OKE) Add-ons API
+  slug: open-oracle-container-engine-add-ons-api
+- collection_type: open
+  name: Oracle Container Engine for Kubernetes (OKE) Add-ons Clusters API
+  slug: open-oracle-container-engine-clusters-api
+- collection_type: open
+  name: Oracle Container Engine for Kubernetes (OKE) Add-ons Credentials API
+  slug: open-oracle-container-engine-credentials-api
+- collection_type: open
+  name: Oracle Container Engine for Kubernetes (OKE) Add-ons Node Pools API
+  slug: open-oracle-container-engine-node-pools-api
+- collection_type: open
+  name: Oracle Container Engine for Kubernetes (OKE) Add-ons Virtual Node Pools API
+  slug: open-oracle-container-engine-virtual-node-pools-api
+- collection_type: open
+  name: Oracle Container Engine for Kubernetes (OKE) Add-ons Work Requests API
+  slug: open-oracle-container-engine-work-requests-api
 - collection_type: open
   name: Oracle Container Engine for Kubernetes (OKE) API
   slug: open-oracle-container-engine
@@ -127,7 +148,7 @@ plans:
 - name: Oracle Container Engine Plans Pricing
   plan_count: 3
   slug: oracle-container-engine-plans-pricing
-random_paper: 33
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Oracle Container Engine Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/screenshots/oracle-container-engine-2026-06-20T191124.png
 security:

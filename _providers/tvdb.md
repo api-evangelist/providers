@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -126,8 +126,98 @@ apis:
 - description: The User info API from TheTVDB — 2 operation(s) for user info.
   name: TheTVDB User info API
   slug: tvdb-user-info-api
-artifact_total: 240
+artifact_total: 270
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TVDB API V4 Artwork API
+  slug: open-tvdb-artwork-api
+- collection_type: open
+  name: TVDB API V4 Artwork Artwork Statuses API
+  slug: open-tvdb-artwork-statuses-api
+- collection_type: open
+  name: TVDB API V4 Artwork Artwork Types API
+  slug: open-tvdb-artwork-types-api
+- collection_type: open
+  name: TVDB API V4 Artwork Award Categories API
+  slug: open-tvdb-award-categories-api
+- collection_type: open
+  name: TVDB API V4 Artwork Awards API
+  slug: open-tvdb-awards-api
+- collection_type: open
+  name: TVDB API V4 Artwork Characters API
+  slug: open-tvdb-characters-api
+- collection_type: open
+  name: TVDB API V4 Artwork Companies API
+  slug: open-tvdb-companies-api
+- collection_type: open
+  name: TVDB API V4 Artwork Content Ratings API
+  slug: open-tvdb-content-ratings-api
+- collection_type: open
+  name: TVDB API V4 Artwork Countries API
+  slug: open-tvdb-countries-api
+- collection_type: open
+  name: TVDB API V4 Artwork Entity Types API
+  slug: open-tvdb-entity-types-api
+- collection_type: open
+  name: TVDB API V4 Artwork Episodes API
+  slug: open-tvdb-episodes-api
+- collection_type: open
+  name: TVDB API V4 Artwork Favorites API
+  slug: open-tvdb-favorites-api
+- collection_type: open
+  name: TVDB API V4 Artwork Genders API
+  slug: open-tvdb-genders-api
+- collection_type: open
+  name: TVDB API V4 Artwork Genres API
+  slug: open-tvdb-genres-api
+- collection_type: open
+  name: TVDB API V4 Artwork InspirationTypes API
+  slug: open-tvdb-inspirationtypes-api
+- collection_type: open
+  name: TVDB API V4 Artwork Languages API
+  slug: open-tvdb-languages-api
+- collection_type: open
+  name: TVDB API V4 Artwork Lists API
+  slug: open-tvdb-lists-api
+- collection_type: open
+  name: TVDB API V4 Artwork Login API
+  slug: open-tvdb-login-api
+- collection_type: open
+  name: TVDB API V4 Artwork Movie Statuses API
+  slug: open-tvdb-movie-statuses-api
+- collection_type: open
+  name: TVDB API V4 Artwork Movies API
+  slug: open-tvdb-movies-api
+- collection_type: open
+  name: TVDB API V4 Artwork People API
+  slug: open-tvdb-people-api
+- collection_type: open
+  name: TVDB API V4 Artwork People Types API
+  slug: open-tvdb-people-types-api
+- collection_type: open
+  name: TVDB API V4 Artwork Search API
+  slug: open-tvdb-search-api
+- collection_type: open
+  name: TVDB API V4 Artwork Seasons API
+  slug: open-tvdb-seasons-api
+- collection_type: open
+  name: TVDB API V4 Artwork Series API
+  slug: open-tvdb-series-api
+- collection_type: open
+  name: TVDB API V4 Artwork Series Statuses API
+  slug: open-tvdb-series-statuses-api
+- collection_type: open
+  name: TVDB API V4 Artwork Source Types API
+  slug: open-tvdb-source-types-api
+- collection_type: open
+  name: TVDB API V4 Artwork Updates API
+  slug: open-tvdb-updates-api
+- collection_type: open
+  name: TVDB API V4 Artwork User info API
+  slug: open-tvdb-user-info-api
 - collection_type: open
   name: TVDB API V4
   slug: open-tvdb
@@ -803,7 +893,7 @@ plans:
 - name: Tvdb Plans Pricing
   plan_count: 5
   slug: tvdb-plans-pricing
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 3
   name: Tvdb Rate Limits
@@ -845,7 +935,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvdb/refs/heads/main/screenshots/tvdb-2026-06-20T195840.png
 security:

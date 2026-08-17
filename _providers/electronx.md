@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The ElectronX FIX API provides programmatic access to the exchange through three session types: Order Entry (submit, modify, cancel orders and receive execution reports), Market Data (real-time prices'
@@ -116,7 +116,7 @@ overview: 'Electronx publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Electronx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 10 more developer resources.'
-random_paper: 20
+random_paper: 86
 score:
   band: thin
   composite: 28.6
@@ -138,7 +138,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/screenshots/electronx-2026-07-25T213109.png
 security:

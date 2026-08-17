@@ -9,25 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.0
-  scored_at: '2026-08-12'
+  score: 38.5
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Llms Full.txt API from Bounti — 1 operation(s) for llms full.txt.
@@ -36,7 +36,17 @@ apis:
 - description: The Llms.txt API from Bounti — 1 operation(s) for llms.txt.
   name: Bounti Llms.txt API
   slug: bounti-llms-txt-api
-artifact_total: 4
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bounti.ai Content Llms Full.txt API
+  slug: open-bounti-llms-full-txt-api
+- collection_type: open
+  name: Bounti.ai Content Llms Full.txt Llms.txt API
+  slug: open-bounti-llms-txt-api
 common:
 - group: other
   title: ''
@@ -102,34 +112,91 @@ common:
   title: ''
   type: DomainSecurity
   url: security/bounti-domain-security.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/bounti-security.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/bounti-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/bounti-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/bounti-packages.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/bounti-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/bounti-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/bounti-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/bounti-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bounti-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bounti-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bounti-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bounti-rate-limits.yml
 created: '2026-07-17'
-description: Bounti (Bounti Labs, bounti.ai) is an AI-powered real estate visualization and automation platform founded in 2023 by Ashar Rizqi and Matt Cooley and backed by GV (Google Ventures), Bloomberg Beta, Floodgate, Haystack, Octave Ventures and MS&AD. Its products include AI virtual staging and photo enhancement, cinematic listing-photo animation, automated marketing-video creation, before/after reveal videos, collaborative client studios, and B.Claw — an AI operating system that consolidates 13+ real estate tools (Gmail, calendar, CRM, WhatsApp, website builder) into one conversational interface. Bounti does not publish a general integration API, but it does expose an agent-facing, unauthenticated Content API (advertised via an AI-plugin manifest at /.well-known/ai-plugin.json) plus /llms.txt and /llms-full.txt so AI assistants can accurately answer questions about its products, pricing, and content.
+description: Bounti (Bounti Labs, bounti.ai) is an AI-powered real estate visualization and automation platform founded in 2023 by Ashar Rizqi and Matt Cooley and backed by GV (Google Ventures), Bloomberg Beta, Floodgate, Haystack, Octave Ventures and MS&AD. Its products include AI virtual staging and photo enhancement, cinematic listing-photo animation, automated marketing-video creation, before/after reveal videos, collaborative client studios, and B.Claw — an AI operating system that consolidates 13+ real estate tools (Gmail, calendar, CRM, WhatsApp, website builder) into one conversational interface. Bounti does not publish a general integration API, but it does expose an agent-facing, unauthenticated Content API (advertised via an AI-plugin manifest at /.well-known/ai-plugin.json, alongside an MCP discovery manifest at /.well-known/mcp.json) plus /llms.txt and /llms-full.txt so AI assistants can accurately answer questions about its products, pricing, and content. Bounti also publishes
+  a catalog of 303 named B.Claw skills as machine-readable schema.org SoftwareApplication definitions at bounti.ai/skills, and 34 connector listings at bounti.ai/integrations — but those skills execute only inside the authenticated B.Claw product, whose API at claw.bounti.ai/api has no published contract.
 image: https://bounti.ai/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
   name: bounti-mcp.yml
   slug: bounti-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Bounti
 nav: Providers
 network: true
 overview: 'Bounti publishes 2 APIs on the [APIs.io](https://apis.io/) network: Llms Full.txt API and Llms.txt API. Tagged areas include Company, Real Estate, Artificial Intelligence, Marketing, and Sales Enablement.
 
 
-  Bounti''s developer surface includes engineering blog, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 57
+  Bounti''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 23 more developer resources.'
+plans:
+- name: Bounti Plans Pricing
+  plan_count: 5
+  slug: bounti-plans-pricing
+random_paper: 61
+rate_limits:
+- limit_count: 0
+  name: Bounti Rate Limits
+  slug: bounti-rate-limits
 score:
-  band: thin
-  composite: 32.5
-  delta: 0.0
+  band: developing
+  composite: 44.9
+  delta: 12.4
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 51.5
-    developer_ergonomics: 10.3
-    discoverability: 75.9
-    governance: 8.3
-    operational_transparency: 0.0
+    developer_ergonomics: 21.2
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 10.5
   previous_composite: 32.5
   provenance:
     contracts:
@@ -140,14 +207,22 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/screenshots/bounti-2026-07-25T203646.png
 security:
+- kind: authentication
+  name: Bounti Authentication
+  slug: bounti-authentication
+  summary_line: none · 1 scheme
 - kind: domain-security
   name: Bounti Domain Security
   slug: bounti-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Bounti Vulnerability Disclosure
+  slug: bounti-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: bounti
 tags:
 - Company

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 71.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ arazzos:
 - description: Verify a user's phone, create an Apple/Google Pay funding session, and poll it to completion.
   name: Agentcard — verify phone and fund wallet
   slug: agentcard-fund-wallet.arazzo
-artifact_total: 13
+artifact_total: 19
 asyncapis:
 - description: Event notifications Agentcard delivers to destinations you register in the dashboard. Every delivery is a POST with a signed envelope { id, type, created, livemode, data }. Verify the AgentCard-Signat
   name: Agentcard Webhooks
@@ -68,6 +68,25 @@ asyncapis:
 - description: ''
   name: Agentcard Webhooks
   slug: agentcard-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agentcard Authentication API
+  slug: open-agentcard-authentication-api
+- collection_type: open
+  name: Agentcard Authentication Connect API
+  slug: open-agentcard-connect-api
+- collection_type: open
+  name: Agentcard Authentication Identity verification API
+  slug: open-agentcard-identity-verification-api
+- collection_type: open
+  name: Agentcard Authentication Wallet funding API
+  slug: open-agentcard-wallet-funding-api
+- collection_type: open
+  name: Agentcard Authentication Withdrawals API
+  slug: open-agentcard-withdrawals-api
 common:
 - group: other
   title: ''
@@ -244,7 +263,7 @@ overview: 'Agentcard publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Agentcard''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 97
+random_paper: 43
 score:
   band: strong
   composite: 56.4
@@ -274,7 +293,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/screenshots/agentcard-2026-07-25T181800.png
 security:

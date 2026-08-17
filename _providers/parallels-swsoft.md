@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for automating Parallels Remote Application Server (RAS) — infrastructure, sites, secure gateways, RD session hosts, cloud providers, publishing, policies and licensing. Served by the self-ho
@@ -144,7 +144,7 @@ overview: 'Parallels (SWSoft) publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Parallels (SWSoft)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 3
+random_paper: 44
 score:
   band: thin
   composite: 29.8
@@ -161,7 +161,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/screenshots/parallels-swsoft-2026-08-07T191426.png
 security:

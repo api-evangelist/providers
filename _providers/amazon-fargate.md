@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -85,11 +85,32 @@ arazzos:
 - description: Scale a service to zero, wait for it to drain, then delete it.
   name: Amazon Fargate Tear Down a Service
   slug: amazon-fargate-teardown-service-workflow
-artifact_total: 90
+artifact_total: 97
 collections:
 - collection_type: postman
   name: Amazon Fargate API
   slug: postman-amazon-fargate
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Fargate Account Settings API
+  slug: open-amazon-fargate-account-settings-api
+- collection_type: open
+  name: Amazon Fargate Account Settings Clusters API
+  slug: open-amazon-fargate-clusters-api
+- collection_type: open
+  name: Amazon Fargate Account Settings Services API
+  slug: open-amazon-fargate-services-api
+- collection_type: open
+  name: Amazon Fargate Account Settings Tagging API
+  slug: open-amazon-fargate-tagging-api
+- collection_type: open
+  name: Amazon Fargate Account Settings Task Definitions API
+  slug: open-amazon-fargate-task-definitions-api
+- collection_type: open
+  name: Amazon Fargate Account Settings Tasks API
+  slug: open-amazon-fargate-tasks-api
 - collection_type: open
   name: Amazon Fargate API
   slug: open-amazon-fargate
@@ -407,7 +428,7 @@ plans:
 - name: Amazon Fargate Plans Pricing
   plan_count: 3
   slug: amazon-fargate-plans-pricing
-random_paper: 101
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Amazon Fargate Rate Limits
@@ -449,7 +470,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/screenshots/amazon-fargate-2026-06-20T171646.png
 security:

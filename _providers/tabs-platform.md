@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: Consumption records that feed usage-based and metered billing.
   name: Tabs Usage Events API
   slug: tabs-platform-usage-events-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tabs Platform Catalog API
+  slug: open-tabs-platform-catalog-api
+- collection_type: open
+  name: Tabs Platform Catalog Contracts API
+  slug: open-tabs-platform-contracts-api
+- collection_type: open
+  name: Tabs Platform Catalog Customers API
+  slug: open-tabs-platform-customers-api
+- collection_type: open
+  name: Tabs Platform Catalog Invoices API
+  slug: open-tabs-platform-invoices-api
+- collection_type: open
+  name: Tabs Platform Catalog Obligations API
+  slug: open-tabs-platform-obligations-api
+- collection_type: open
+  name: Tabs Platform Catalog Payments API
+  slug: open-tabs-platform-payments-api
+- collection_type: open
+  name: Tabs Platform Catalog Revenue Recognition API
+  slug: open-tabs-platform-revenue-recognition-api
+- collection_type: open
+  name: Tabs Platform Catalog Usage Events API
+  slug: open-tabs-platform-usage-events-api
 common:
 - group: agent
   title: ''
@@ -121,7 +149,7 @@ plans:
 - name: Tabs Platform Plans Pricing
   plan_count: 3
   slug: tabs-platform-plans-pricing
-random_paper: 20
+random_paper: 148
 rate_limits:
 - limit_count: 1
   name: Tabs Platform Rate Limits
@@ -152,7 +180,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

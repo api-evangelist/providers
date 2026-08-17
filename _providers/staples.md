@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,11 +57,29 @@ apis:
 - description: Order management operations
   name: Staples Orders API
   slug: staples-orders-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Staples Advantage eProcurement Account API
+  slug: open-staples-account-api
 - collection_type: open
   name: Staples Advantage eProcurement API
   slug: open-staples-advantage-eprocurement-api
+- collection_type: open
+  name: Staples Advantage eProcurement Account Catalog API
+  slug: open-staples-catalog-api
+- collection_type: open
+  name: Staples Advantage eProcurement Account Delivery API
+  slug: open-staples-delivery-api
+- collection_type: open
+  name: Staples Advantage eProcurement Account Invoices API
+  slug: open-staples-invoices-api
+- collection_type: open
+  name: Staples Advantage eProcurement Account Orders API
+  slug: open-staples-orders-api
 common:
 - group: agent
   title: ''
@@ -177,7 +195,7 @@ press:
 - date: '2026-05-25'
   title: Staples Canada ULC Press Releases | Cision
   url: https://www.newswire.ca/news/staples-canada-ulc/
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Staples Rate Limits
@@ -219,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/screenshots/staples-2026-06-20T194507.png
 security:

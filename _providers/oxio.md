@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'OXIO is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   OXIO''s developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 87
+random_paper: 0
 score:
   band: emerging
   composite: 20.2
@@ -115,7 +115,7 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxio/refs/heads/main/screenshots/oxio-2026-08-07T191209.png
 security:

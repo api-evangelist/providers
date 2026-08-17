@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Developer APIs for the KGeN Esports and Loyalty protocols — sessions, tournaments, leaderboards, wallets (KCash), rewards, and rewardable events for game developers.
@@ -116,7 +116,7 @@ overview: 'KGeN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   KGeN''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 9 more developer resources.'
-random_paper: 61
+random_paper: 123
 score:
   band: emerging
   composite: 19.8
@@ -132,7 +132,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kgen/refs/heads/main/screenshots/kgen-2026-07-25T223702.png
 security:

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -37,8 +38,11 @@ agentic_access:
   operation_count: 14
   slug: dun-and-bradstreet-agentic-access
   summary_line: 14 operations · 6 acting
-api_count: 15
+api_count: 16
 apis:
+- description: Dun & Bradstreet's remote Model Context Protocol server for D&B Risk Analytics, exposing KYC/KYB onboarding, entity resolution, sanctions and adverse-media screening, alert triage and risk decision do
+  name: D&B Risk Analytics MCP Server
+  slug: db-risk-analytics-mcp-server
 - description: The Identity Resolution surface of D&B Direct+ matches an input business record — name, address, phone, email, registration number — to a single authoritative D-U-N-S Number. The API returns ranked ca
   name: D&B Direct+ Identity Resolution API
   slug: direct-plus-identity-resolution
@@ -115,12 +119,167 @@ arazzos:
 - description: Create a monitoring registration, enroll a portfolio of D-U-N-S Numbers, and pull pending change notifications.
   name: D&B Register And Pull Notifications
   slug: dun-and-bradstreet-register-and-pull-notifications-workflow
-artifact_total: 80
+artifact_total: 95
+asyncapis:
+- description: ''
+  name: Dun And Bradstreet Status Webhooks
+  slug: dun-and-bradstreet-status-webhooks
 collections:
 - collection_type: postman
   name: D&B Direct+ API
   slug: postman-dnb-direct-plus-openapi-original
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: D&B Direct+ Authentication API
+  slug: open-dun-and-bradstreet-authentication-api
+- collection_type: open
+  name: D&B Direct+ Authentication Data File API
+  slug: open-dun-and-bradstreet-data-file-api
+- collection_type: open
+  name: D&B Direct+ Authentication Enrich API
+  slug: open-dun-and-bradstreet-enrich-api
+- collection_type: open
+  name: D&B Direct+ Authentication Identity Resolution API
+  slug: open-dun-and-bradstreet-identity-resolution-api
+- collection_type: open
+  name: D&B Direct+ Authentication Monitoring API
+  slug: open-dun-and-bradstreet-monitoring-api
+- collection_type: open
+  name: D&B Direct+ Authentication Multi-Process API
+  slug: open-dun-and-bradstreet-multi-process-api
+- collection_type: open
+  name: D&B Direct+ Authentication Research API
+  slug: open-dun-and-bradstreet-research-api
+- collection_type: open
+  name: D&B Direct+ Authentication Search API
+  slug: open-dun-and-bradstreet-search-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/dun-and-bradstreet-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/dun-and-bradstreet-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/dun-and-bradstreet-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dun-and-bradstreet-llms.txt
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/dun-and-bradstreet-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/dun-and-bradstreet-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/dun-and-bradstreet-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/dun-and-bradstreet-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dun-and-bradstreet-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.dnb.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/dun-and-bradstreet-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/dun-and-bradstreet-status-webhooks.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dun-and-bradstreet-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.dnb.com/en-us/utilities/our-security.html
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.dnb.com/en-us/utilities/our-security.html
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/dun-and-bradstreet-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dun-and-bradstreet-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/dun-and-bradstreet-resolve-and-enrich-company.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/dun-and-bradstreet-monitor-a-portfolio.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/dun-and-bradstreet-batch-match-and-enrich.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/dun-and-bradstreet-search-and-audit.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dun-and-bradstreet-authentication-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dun-and-bradstreet-data-file-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dun-and-bradstreet-enrich-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dun-and-bradstreet-identity-resolution-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dun-and-bradstreet-monitoring-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dun-and-bradstreet-multi-process-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dun-and-bradstreet-research-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dun-and-bradstreet-search-api-overlay.yaml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/dun-and-bradstreet-trust-center.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,7 +366,7 @@ common:
   url: https://directplus.documentation.dnb.com/html/resources/ChangeHistory.html
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://directplus.documentation.dnb.com/registration/register
 - group: start
   title: ''
@@ -220,15 +379,15 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.dnb.com/utility-pages/terms-of-use.html
+  url: https://www.dnb.com/en-us/utilities/terms-of-use.html
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.dnb.com/utility-pages/privacy-policy.html
+  url: https://www.dnb.com/en-us/why-dnb/data-transparency/personal-data.html
 - group: auth
   title: ''
   type: TrustCenter
-  url: https://www.dnb.com/utility-pages/privacy-policy.html
+  url: https://www.dnb.com/en-us/utilities/our-security.html
 - group: company
   title: ''
   type: LinkedIn
@@ -375,22 +534,26 @@ jsonld:
   property_count: 23
   slug: dun-and-bradstreet-context
 layout: provider
-modified: '2026-05-23'
+mcp_servers:
+- description: ''
+  name: dun-and-bradstreet-mcp.yml
+  slug: dun-and-bradstreet-mcpyml
+modified: '2026-08-13'
 name: Dun & Bradstreet
 nav: Providers
 network: true
 overview: 'Dun & Bradstreet publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Data File API, Enrich API, and 5 more. Tagged areas include Business Data, Company Data, D-U-N-S Number, Credit, and Risk.
 
 
-  The Dun & Bradstreet catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Dun & Bradstreet catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Dun & Bradstreet''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, support, and 31 more developer resources.'
+  Dun & Bradstreet''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, signup flow, support, and 62 more developer resources.'
 plans:
 - name: Dun And Bradstreet Plans Pricing
   plan_count: 2
   slug: dun-and-bradstreet-plans-pricing
-random_paper: 116
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Dun And Bradstreet Rate Limits
@@ -412,17 +575,22 @@ rules:
     info: 2
     warn: 3
   slug: dun-and-bradstreet-jsonschema-spectral-rules
+scopes:
+- name: Dun And Bradstreet Scopes
+  scope_count: 6
+  slug: dun-and-bradstreet-scopes
+  summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 59.6
-  delta: 0.0
+  band: exemplar
+  composite: 75.2
+  delta: 15.6
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 74.3
-    developer_ergonomics: 56.5
-    discoverability: 68.5
-    governance: 37.5
-    operational_transparency: 15.8
+    commercial_clarity: 89.5
+    contract_quality: 83.2
+    developer_ergonomics: 71.7
+    discoverability: 87.0
+    governance: 58.3
+    operational_transparency: 50.0
   previous_composite: 59.6
   provenance:
     agentic_access: derived
@@ -432,18 +600,26 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/screenshots/dun-and-bradstreet-2026-06-20T180319.png
 security:
 - kind: authentication
   name: Dun And Bradstreet Authentication
   slug: dun-and-bradstreet-authentication
-  summary_line: http · 2 schemes
+  summary_line: http/oauth2/apiKey · 4 schemes
 - kind: domain-security
   name: Dun And Bradstreet Domain Security
   slug: dun-and-bradstreet-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Dun And Bradstreet Vulnerability Disclosure
+  slug: dun-and-bradstreet-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Dun And Bradstreet Trust Center
+  slug: dun-and-bradstreet-trust-center
+  summary_line: SOC 2 Type 2, SOC 3, ISO/IEC 27001:2022, ISO/IEC 27701, ISO 22301, PCI DSS, SIG, HIPAA, GDPR
 slug: dun-and-bradstreet
 solutions:
 - description: Credit risk, accounts-receivable, trade payment, and collections solutions powered by Direct+ financial and risk blocks.

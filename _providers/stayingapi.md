@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,7 +51,20 @@ arazzos:
 - description: Find a property, compare its price across OTAs, and read the cheapest offer.
   name: StayingAPI — cross-OTA price comparison
   slug: stayingapi-cross-ota-price-comparison
-artifact_total: 14
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Staying Account API
+  slug: open-stayingapi-account-api
+- collection_type: open
+  name: Staying Data API
+  slug: open-stayingapi-data-api
+- collection_type: open
+  name: Staying Jobs API
+  slug: open-stayingapi-jobs-api
 common:
 - group: auth
   title: ''
@@ -233,7 +246,7 @@ plans:
 - name: Stayingapi Plans
   plan_count: 5
   slug: stayingapi-plans
-random_paper: 1
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Stayingapi Rate Limits
@@ -266,7 +279,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

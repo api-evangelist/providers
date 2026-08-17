@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: 'SCIM 2.0 surface for provisioning Venminder platform users — list, get, search, create and patch Users using urn:ietf:params:scim:schemas:core:2.0:User plus the urn:ietf:params:scim:schemas:extension:'
@@ -79,7 +79,56 @@ apis:
 - description: The Venmonitor API from Venminder (Digital Comply) — 1 operation(s) for venmonitor.
   name: Venminder (Digital Comply) Venmonitor API
   slug: venminder-digital-comply-venmonitor-api
-artifact_total: 20
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit API
+  slug: open-venminder-digital-comply-businessunit-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit ClientInformation API
+  slug: open-venminder-digital-comply-clientinformation-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit Contact API
+  slug: open-venminder-digital-comply-contact-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit Contracts API
+  slug: open-venminder-digital-comply-contracts-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit Data API
+  slug: open-venminder-digital-comply-data-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit Documents API
+  slug: open-venminder-digital-comply-documents-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit Issues API
+  slug: open-venminder-digital-comply-issues-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit OversightRequirement API
+  slug: open-venminder-digital-comply-oversightrequirement-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit OversightTask API
+  slug: open-venminder-digital-comply-oversighttask-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit Questionnaire API
+  slug: open-venminder-digital-comply-questionnaire-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit Services API
+  slug: open-venminder-digital-comply-services-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit VendorOnboarding API
+  slug: open-venminder-digital-comply-vendoronboarding-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit Vendors API
+  slug: open-venminder-digital-comply-vendors-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit VendorSpend API
+  slug: open-venminder-digital-comply-vendorspend-api
+- collection_type: open
+  name: Venminder OpenApi BusinessUnit Venmonitor API
+  slug: open-venminder-digital-comply-venmonitor-api
 common:
 - group: company
   title: ''
@@ -209,7 +258,7 @@ overview: 'Venminder (Digital Comply) publishes 15 APIs on the [APIs.io](https:/
 
 
   Venminder (Digital Comply)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 52
+random_paper: 68
 scopes:
 - name: Venminder Digital Comply Scopes
   scope_count: 1
@@ -237,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

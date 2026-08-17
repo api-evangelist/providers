@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -55,29 +55,61 @@ common:
   title: ''
   type: DomainSecurity
   url: security/regard-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/regard-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/regard-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/regard-plans-pricing.yml
+coverage:
+  checked: '2026-08-15'
+  detail: Regard sells an EHR-embedded clinical AI platform that CALLS hospital Epic, Cerner and generic FHIR servers as a client; it ships no developer API of its own — regard.com/openapi.json, /swagger.json, /api-docs and /docs all 404, api.regard.com and docs.regard.com do not resolve in DNS, and its ONC Health IT Module certification omits the sec. 170.315(g)(10) standardized-API criterion.
+  evidence:
+  - status: 404
+    url: https://regard.com/openapi.json
+  - status: 404
+    url: https://regard.com/api-docs
+  - status: 404
+    url: https://regard.com/.well-known/agent-card.json
+  - status: 200
+    url: https://regard.com/llms.txt
+  - status: 200
+    url: https://regard.com/technology
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Regard is an AI-powered clinical diagnosis and documentation platform for hospitals and health systems. It reviews 100% of a patient's electronic health record (EHR) to surface and recommend evidence-supported diagnoses, then generates clinical documentation at the point of care. Regard positions itself around "earning revenue through better care, not queries," spanning clinical notes, mid-revenue-cycle denial prevention and revenue capture, HCC risk-adjustment capture, and screening for care gaps. The company reports 12.9M+ recommended diagnoses accepted by clinicians and $50M+ in revenue generated for health systems. Regard integrates directly with EHRs rather than exposing a public developer API; its Health IT Module is ONC 2015 Cures Update certified. Backed by Foundry Group and Techstars. This profile is maintained in the API Evangelist network.
 image: https://cdn.prod.website-files.com/6a0437304c683d2c1726ea92/6a5561f29575eedbb1a4052e_regard_open_graph_1200_630.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-15'
 name: Regard
 nav: Providers
 network: true
 overview: 'Regard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare AI, Clinical Documentation, Clinical Decision Support, and Electronic Health Records.
 
 
-  Regard''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 29
+  Regard''s developer surface includes engineering blog and 8 more developer resources.'
+plans:
+- name: Regard Plans Pricing
+  plan_count: 0
+  slug: regard-plans-pricing
+random_paper: 33
 score:
-  band: minimal
-  composite: 11.9
-  delta: 0.0
+  band: emerging
+  composite: 15.7
+  delta: 3.8
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 11.9
   regulatory:
@@ -85,9 +117,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 18.8
+    score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

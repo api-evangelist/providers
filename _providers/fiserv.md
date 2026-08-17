@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -120,15 +120,42 @@ apis:
 - description: Void previously authorized transactions before settlement.
   name: Fiserv Void API
   slug: fiserv-void-api
-artifact_total: 46
+artifact_total: 73
 asyncapis:
 - description: Fiserv provides webhook-based event notifications across the payments lifecycle. Merchants can subscribe to webhooks to receive real-time notifications for key events including transaction status chan
   name: Fiserv Payment Events
   slug: fiserv-payment-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure API
+  slug: open-fiserv-3-d-secure-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Accounts API
+  slug: open-fiserv-accounts-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Authorization API
+  slug: open-fiserv-authorization-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Authorizations API
+  slug: open-fiserv-authorizations-api
+- collection_type: open
   name: Fiserv BankingHub API
   slug: open-fiserv-bankinghub
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure BIN API
+  slug: open-fiserv-bin-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Cancels API
+  slug: open-fiserv-cancels-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Capture API
+  slug: open-fiserv-capture-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Captures API
+  slug: open-fiserv-captures-api
 - collection_type: open
   name: Fiserv CardDeveloper API
   slug: open-fiserv-carddeveloper
@@ -136,8 +163,62 @@ collections:
   name: Fiserv CardPointe Gateway API
   slug: open-fiserv-cardpointe-gateway
 - collection_type: open
+  name: Fiserv BankingHub 3-D Secure Cards API
+  slug: open-fiserv-cards-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Charges API
+  slug: open-fiserv-charges-api
+- collection_type: open
   name: Fiserv CommerceHub API
   slug: open-fiserv-commercehub
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Funding API
+  slug: open-fiserv-funding-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Inquire API
+  slug: open-fiserv-inquire-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Limits API
+  slug: open-fiserv-limits-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Parties API
+  slug: open-fiserv-parties-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Payments API
+  slug: open-fiserv-payments-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Profile API
+  slug: open-fiserv-profile-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Refund API
+  slug: open-fiserv-refund-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Refunds API
+  slug: open-fiserv-refunds-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Settlement API
+  slug: open-fiserv-settlement-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Signature Capture API
+  slug: open-fiserv-signature-capture-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Statements API
+  slug: open-fiserv-statements-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Tokens API
+  slug: open-fiserv-tokens-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Transactions API
+  slug: open-fiserv-transactions-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Transfers API
+  slug: open-fiserv-transfers-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Verifications API
+  slug: open-fiserv-verifications-api
+- collection_type: open
+  name: Fiserv BankingHub 3-D Secure Void API
+  slug: open-fiserv-void-api
 common:
 - group: operate
   title: ''
@@ -254,7 +335,7 @@ press:
 - date: '2026-05-25'
   title: Fiserv
   url: https://en.wikipedia.org/wiki/Fiserv
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Fiserv Rate Limits
@@ -302,7 +383,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-06-20T181247.png
 security:

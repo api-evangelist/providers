@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -296,7 +296,7 @@ arazzos:
 - description: Look up an existing transaction, void it, then recreate a corrected version.
   name: Avalara Void and Recreate a Transaction
   slug: avalara-void-and-recreate-transaction-workflow
-artifact_total: 698
+artifact_total: 767
 asyncapis:
 - description: AsyncAPI description of the Avalara CertCapture event surface. CertCapture does not publish HTTP webhooks; instead, Avalara provisions a unique per-client AWS SQS queue and publishes change-notificati
   name: Avalara CertCapture AWS SQS Notifications
@@ -348,11 +348,38 @@ collections:
   name: Avalara VAT Reporting API
   slug: postman-avalara-vat-reporting
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Avalara 1099 & W-9 1099 Forms API
+  slug: open-avalara-1099-forms-api
+- collection_type: open
   name: Avalara 1099 & W-9 API
   slug: open-avalara-1099-w9
 - collection_type: open
+  name: Avalara Accounts API
+  slug: open-avalara-accounts-api
+- collection_type: open
   name: Avalara Activation Service API
   slug: open-avalara-activation-service
+- collection_type: open
+  name: Avalara Addresses API
+  slug: open-avalara-addresses-api
+- collection_type: open
+  name: Avalara AvaTax AdvancedRules API
+  slug: open-avalara-advancedrules-api
+- collection_type: open
+  name: Avalara Shipping Verification Age Verification API
+  slug: open-avalara-age-verification-api
+- collection_type: open
+  name: Avalara CertCapture Attributes API
+  slug: open-avalara-attributes-api
+- collection_type: open
+  name: Avalara Authentication API
+  slug: open-avalara-authentication-api
+- collection_type: open
+  name: Avalara AvaTax AvaFileForms API
+  slug: open-avalara-avafileforms-api
 - collection_type: open
   name: Avalara AvaTax Brazil API
   slug: open-avalara-avatax-brazil
@@ -360,38 +387,218 @@ collections:
   name: Avalara AvaTax REST API
   slug: open-avalara-avatax-rest
 - collection_type: open
+  name: Avalara Batches API
+  slug: open-avalara-batches-api
+- collection_type: open
+  name: Avalara Excise Platform Business Entities API
+  slug: open-avalara-business-entities-api
+- collection_type: open
   name: Avalara Business API
   slug: open-avalara-business
 - collection_type: open
   name: Avalara CertCapture API
   slug: open-avalara-certcapture
 - collection_type: open
+  name: Avalara AvaTax CertExpressInvites API
+  slug: open-avalara-certexpressinvites-api
+- collection_type: open
+  name: Avalara Certificates API
+  slug: open-avalara-certificates-api
+- collection_type: open
+  name: Avalara Automated Tariff Code Classification API
+  slug: open-avalara-classification-api
+- collection_type: open
+  name: Avalara Item Classification Classification Requests API
+  slug: open-avalara-classification-requests-api
+- collection_type: open
   name: Avalara Communications Tax API
   slug: open-avalara-communications
+- collection_type: open
+  name: Avalara Companies API
+  slug: open-avalara-companies-api
+- collection_type: open
+  name: Avalara Contacts API
+  slug: open-avalara-contacts-api
+- collection_type: open
+  name: Avalara Customers API
+  slug: open-avalara-customers-api
+- collection_type: open
+  name: Avalara Communications Tax Customization API
+  slug: open-avalara-customization-api
+- collection_type: open
+  name: Avalara AvaTax DataSources API
+  slug: open-avalara-datasources-api
+- collection_type: open
+  name: Avalara Definitions API
+  slug: open-avalara-definitions-api
+- collection_type: open
+  name: Avalara AvaTax DistanceThresholds API
+  slug: open-avalara-distancethresholds-api
+- collection_type: open
+  name: Avalara E-Invoicing REST Documents API
+  slug: open-avalara-documents-api
 - collection_type: open
   name: Avalara E-Invoicing REST API
   slug: open-avalara-e-invoicing
 - collection_type: open
+  name: Avalara CertCapture eCommerce API
+  slug: open-avalara-ecommerce-api
+- collection_type: open
+  name: Avalara AvaTax ECommerceToken API
+  slug: open-avalara-ecommercetoken-api
+- collection_type: open
+  name: Avalara AvaTax Brazil Electronic Invoices API
+  slug: open-avalara-electronic-invoices-api
+- collection_type: open
   name: Avalara Excise Platform API
   slug: open-avalara-excise
+- collection_type: open
+  name: Avalara 1099 & W-9 Filing API
+  slug: open-avalara-filing-api
+- collection_type: open
+  name: Avalara VAT Reporting Filing Calendar API
+  slug: open-avalara-filing-calendar-api
+- collection_type: open
+  name: Avalara AvaTax FirmClientLinkages API
+  slug: open-avalara-firmclientlinkages-api
+- collection_type: open
+  name: Avalara Free API
+  slug: open-avalara-free-api
+- collection_type: open
+  name: Avalara AvaTax FundingRequests API
+  slug: open-avalara-fundingrequests-api
+- collection_type: open
+  name: Avalara Communications Tax Geocoding API
+  slug: open-avalara-geocoding-api
 - collection_type: open
   name: Avalara Automated Tariff Code Classification API
   slug: open-avalara-hs-code-classification
 - collection_type: open
+  name: Avalara Item Classification HS Codes API
+  slug: open-avalara-hs-codes-api
+- collection_type: open
+  name: Avalara E-Invoicing REST Interop API
+  slug: open-avalara-interop-api
+- collection_type: open
   name: Avalara Item Classification API
   slug: open-avalara-item-classification
+- collection_type: open
+  name: Avalara Items API
+  slug: open-avalara-items-api
+- collection_type: open
+  name: Avalara AvaTax JurisdictionOverrides API
+  slug: open-avalara-jurisdictionoverrides-api
+- collection_type: open
+  name: Avalara Excise Platform Licenses API
+  slug: open-avalara-licenses-api
+- collection_type: open
+  name: Avalara Locations API
+  slug: open-avalara-locations-api
+- collection_type: open
+  name: Avalara Communications Tax Lookup API
+  slug: open-avalara-lookup-api
+- collection_type: open
+  name: Avalara E-Invoicing REST Mandates API
+  slug: open-avalara-mandates-api
+- collection_type: open
+  name: Avalara MultiDocument API
+  slug: open-avalara-multidocument-api
 - collection_type: open
   name: Avalara MyLodgeTax API
   slug: open-avalara-mylodgetax
 - collection_type: open
+  name: Avalara Nexus API
+  slug: open-avalara-nexus-api
+- collection_type: open
+  name: Avalara AvaTax Notices API
+  slug: open-avalara-notices-api
+- collection_type: open
+  name: Avalara AvaTax Notifications API
+  slug: open-avalara-notifications-api
+- collection_type: open
+  name: Avalara MyLodgeTax Obligations API
+  slug: open-avalara-obligations-api
+- collection_type: open
+  name: Avalara VAT Reporting Onboarding API
+  slug: open-avalara-onboarding-api
+- collection_type: open
+  name: Avalara Business Orders API
+  slug: open-avalara-orders-api
+- collection_type: open
   name: Avalara Portal OAuth API
   slug: open-avalara-portal-oauth
+- collection_type: open
+  name: Avalara Excise Platform Products API
+  slug: open-avalara-products-api
+- collection_type: open
+  name: Avalara MyLodgeTax Properties API
+  slug: open-avalara-properties-api
+- collection_type: open
+  name: Avalara AvaTax Provisioning API
+  slug: open-avalara-provisioning-api
+- collection_type: open
+  name: Avalara AvaTax Registrar API
+  slug: open-avalara-registrar-api
+- collection_type: open
+  name: Avalara Activation Service Registrations API
+  slug: open-avalara-registrations-api
+- collection_type: open
+  name: Avalara Reports API
+  slug: open-avalara-reports-api
+- collection_type: open
+  name: Avalara VAT Reporting Returns API
+  slug: open-avalara-returns-api
+- collection_type: open
+  name: Avalara Settings API
+  slug: open-avalara-settings-api
 - collection_type: open
   name: Avalara Shared Company Service API
   slug: open-avalara-shared-company-service
 - collection_type: open
+  name: Avalara Shipping Verification API
+  slug: open-avalara-shipping-verification-api
+- collection_type: open
+  name: Avalara Subscriptions API
+  slug: open-avalara-subscriptions-api
+- collection_type: open
+  name: Avalara Tax Calculation API
+  slug: open-avalara-tax-calculation-api
+- collection_type: open
+  name: Avalara Excise Platform Tax Determination API
+  slug: open-avalara-tax-determination-api
+- collection_type: open
+  name: Avalara MyLodgeTax Tax Rates API
+  slug: open-avalara-tax-rates-api
+- collection_type: open
+  name: Avalara AvaTax TaxCodes API
+  slug: open-avalara-taxcodes-api
+- collection_type: open
+  name: Avalara AvaTax TaxContent API
+  slug: open-avalara-taxcontent-api
+- collection_type: open
+  name: Avalara TaxRules API
+  slug: open-avalara-taxrules-api
+- collection_type: open
+  name: Avalara Transactions API
+  slug: open-avalara-transactions-api
+- collection_type: open
+  name: Avalara AvaTax Upcs API
+  slug: open-avalara-upcs-api
+- collection_type: open
+  name: Avalara AvaTax UserDefinedFields API
+  slug: open-avalara-userdefinedfields-api
+- collection_type: open
+  name: Avalara AvaTax Users API
+  slug: open-avalara-users-api
+- collection_type: open
+  name: Avalara Utilities API
+  slug: open-avalara-utilities-api
+- collection_type: open
   name: Avalara VAT Reporting API
   slug: open-avalara-vat-reporting
+- collection_type: open
+  name: Avalara 1099 & W-9 W-9 Forms API
+  slug: open-avalara-w-9-forms-api
 - collection_type: open
   name: Avalara AvaTax APIs
   slug: open-avatax-apis
@@ -2532,7 +2739,7 @@ score:
       total: 68
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:

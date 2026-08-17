@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Transactions and bank statements for a linked account.
   name: Mono Transactions and Statements API
   slug: mono-co-transactions-and-statements-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mono Account Information API
+  slug: open-mono-co-account-information-api
+- collection_type: open
+  name: Mono Account Information Account Linking API
+  slug: open-mono-co-account-linking-api
+- collection_type: open
+  name: Mono Account Information Direct Debit API
+  slug: open-mono-co-direct-debit-api
+- collection_type: open
+  name: Mono Account Information DirectPay API
+  slug: open-mono-co-directpay-api
+- collection_type: open
+  name: Mono Account Information Identity and Income API
+  slug: open-mono-co-identity-and-income-api
+- collection_type: open
+  name: Mono Account Information Transactions and Statements API
+  slug: open-mono-co-transactions-and-statements-api
 - collection_type: open
   name: Mono API
   slug: open-mono-co
@@ -127,7 +148,7 @@ plans:
 - name: Mono Co Plans Pricing
   plan_count: 4
   slug: mono-co-plans-pricing
-random_paper: 96
+random_paper: 100
 rate_limits:
 - limit_count: 3
   name: Mono Co Rate Limits
@@ -158,7 +179,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/screenshots/mono-co-2026-08-07T184212.png
 security:

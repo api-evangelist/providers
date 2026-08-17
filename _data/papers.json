@@ -754,7 +754,7 @@
     "kind": "report",
     "url": "https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/",
     "title": "The State of Cybersecurity APIs",
-    "tagline": "The second-best-scoring market in the catalog — and 72% of it will not tell you how to report a vulnerability, now that the EU Cyber Resilience Act requires exactly that.",
+    "tagline": "Five companies in this report will tell you about your exposed infrastructure. None of them publishes a findable way to tell them about theirs.",
     "area": "Trend Report",
     "price": "500",
     "cover": "https://reports.apievangelist.com/assets/covers/state-of-cybersecurity-apis.png"
@@ -763,8 +763,8 @@
     "slug": "state-of-data-analytics-apis",
     "kind": "report",
     "url": "https://reports.apievangelist.com/reports/state-of-data-analytics-apis/",
-    "title": "The State of Data & Analytics APIs",
-    "tagline": "One of the best-scoring markets in the catalog — and the segment selling \"know your data\" is the worst-scoring segment inside it, publishing a contract 16.5% of the time against the warehouses' 49.0%.",
+    "title": "The State of Data and Analytics APIs",
+    "tagline": "The highest-scoring market in this research is partly the most recently measured one. A score is a reading of what the catalog last looked for, and how recently it looked is worth about four and a half points.",
     "area": "Trend Report",
     "price": "500",
     "cover": "https://reports.apievangelist.com/assets/covers/state-of-data-analytics-apis.png"
@@ -794,7 +794,7 @@
     "kind": "report",
     "url": "https://reports.apievangelist.com/reports/state-of-developer-tools-apis/",
     "title": "The State of Developer Tools APIs",
-    "tagline": "The best-scoring industry in the catalog — first of twenty-five — and it publishes idempotency at the same 2.8% rate as the worst. The gap was never competence.",
+    "tagline": "The industry that sells you the tools to build a good API writes mid-table contracts, and 92% of it cannot tell an agent whether retrying is safe. Competence at depth is not the same as excellence at the edge.",
     "area": "Trend Report",
     "price": "500",
     "cover": "https://reports.apievangelist.com/assets/covers/state-of-developer-tools-apis.png"

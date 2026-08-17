@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Investment strategy catalog and configuration
   name: Veli Strategies API
   slug: veli-strategies-api
-artifact_total: 47
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veli Orders API
+  slug: open-veli-orders-api
+- collection_type: open
+  name: Veli Orders Performance API
+  slug: open-veli-performance-api
+- collection_type: open
+  name: Veli Orders Portfolios API
+  slug: open-veli-portfolios-api
+- collection_type: open
+  name: Veli Orders Positions API
+  slug: open-veli-positions-api
+- collection_type: open
+  name: Veli Orders Strategies API
+  slug: open-veli-strategies-api
 - collection_type: open
   name: Veli API
   slug: open-veli
@@ -203,7 +221,7 @@ plans:
 - name: Veli Plans Pricing
   plan_count: 3
   slug: veli-plans-pricing
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Veli Rate Limits
@@ -245,7 +263,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/screenshots/veli-2026-06-20T200905.png
 security:

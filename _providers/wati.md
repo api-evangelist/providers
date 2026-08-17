@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,8 +50,20 @@ apis:
 - description: Send WhatsApp template messages.
   name: WATI Templates API
   slug: wati-templates-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WATI WhatsApp Business Contacts API
+  slug: open-wati-contacts-api
+- collection_type: open
+  name: WATI WhatsApp Business Contacts Messages API
+  slug: open-wati-messages-api
+- collection_type: open
+  name: WATI WhatsApp Business Contacts Templates API
+  slug: open-wati-templates-api
 - collection_type: open
   name: WATI WhatsApp Business API
   slug: open-wati
@@ -128,7 +140,7 @@ overview: 'WATI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Con
 
 
   WATI''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 77
+random_paper: 139
 score:
   band: thin
   composite: 37.0
@@ -149,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/screenshots/wati-2026-06-20T201254.png
 security:

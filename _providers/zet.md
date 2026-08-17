@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Zet
 nav: Providers
 network: true
 overview: Zet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Credit, Credit Cards, and Payments.
-random_paper: 99
+random_paper: 41
 score:
   band: minimal
   composite: 7.0
@@ -68,7 +68,7 @@ score:
     regime_id: payments
     score: 6.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: zet
 tags:

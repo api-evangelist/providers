@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -62,7 +62,7 @@ apis:
 - description: Utility endpoints
   name: ZeroTier util API
   slug: zerotier-util-api
-artifact_total: 23
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Zerotier Webhooks
@@ -92,6 +92,33 @@ collections:
 - collection_type: postman
   name: ZeroTier Central controller util API
   slug: postman-zerotier-util-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZeroTier Central controller API
+  slug: open-zerotier-controller-api
+- collection_type: open
+  name: ZeroTier Central controller network API
+  slug: open-zerotier-network-api
+- collection_type: open
+  name: ZeroTier Central controller network-member API
+  slug: open-zerotier-network-member-api
+- collection_type: open
+  name: ZeroTier Central controller organizations API
+  slug: open-zerotier-organizations-api
+- collection_type: open
+  name: ZeroTier Central controller peer API
+  slug: open-zerotier-peer-api
+- collection_type: open
+  name: ZeroTier Central controller status API
+  slug: open-zerotier-status-api
+- collection_type: open
+  name: ZeroTier Central controller user API
+  slug: open-zerotier-user-api
+- collection_type: open
+  name: ZeroTier Central controller util API
+  slug: open-zerotier-util-api
 common:
 - group: other
   title: ''
@@ -280,7 +307,7 @@ overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZeroTier''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 35 more developer resources.'
-random_paper: 44
+random_paper: 139
 score:
   band: strong
   composite: 60.9
@@ -304,7 +331,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

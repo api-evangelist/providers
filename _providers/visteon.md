@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,11 +60,32 @@ apis:
 - description: Vehicle data including speed, fuel, HVAC, and door status
   name: Visteon Vehicle API
   slug: visteon-vehicle-api
-artifact_total: 22
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Visteon Phoenix Audio API
+  slug: open-visteon-audio-api
+- collection_type: open
+  name: Visteon Phoenix Audio Media API
+  slug: open-visteon-media-api
+- collection_type: open
+  name: Visteon Phoenix Audio Navigation API
+  slug: open-visteon-navigation-api
 - collection_type: open
   name: Visteon Phoenix API
   slug: open-visteon-phoenix
+- collection_type: open
+  name: Visteon Phoenix Audio Phone API
+  slug: open-visteon-phone-api
+- collection_type: open
+  name: Visteon Phoenix Audio Screen Management API
+  slug: open-visteon-screen-management-api
+- collection_type: open
+  name: Visteon Phoenix Audio Vehicle API
+  slug: open-visteon-vehicle-api
 common:
 - group: agent
   title: ''
@@ -180,7 +201,7 @@ press:
 - date: '2026-05-25'
   title: Technology
   url: https://www.visteon.com/products-technology/technology/default.aspx
-random_paper: 56
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Visteon Rate Limits
@@ -222,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

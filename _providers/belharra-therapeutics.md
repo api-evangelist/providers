@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Belharra's three custom post types — press-release (4 items), company-news (21 items) and multimedia-file (10 items).
@@ -45,7 +45,35 @@ apis:
 - description: Categories and tags. Two categories are registered (Company News, Press Releases); the post_tag taxonomy is registered but empty.
   name: Belharra Therapeutics Taxonomy API
   slug: belharra-therapeutics-taxonomy-api
-artifact_total: 10
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Belharra Therapeutics Content Custom Types API
+  slug: open-belharra-therapeutics-custom-types-api
+- collection_type: open
+  name: Belharra Therapeutics Content Discovery API
+  slug: open-belharra-therapeutics-discovery-api
+- collection_type: open
+  name: Belharra Therapeutics Content Media API
+  slug: open-belharra-therapeutics-media-api
+- collection_type: open
+  name: Belharra Therapeutics Content Oembed API
+  slug: open-belharra-therapeutics-oembed-api
+- collection_type: open
+  name: Belharra Therapeutics Content Pages API
+  slug: open-belharra-therapeutics-pages-api
+- collection_type: open
+  name: Belharra Therapeutics Content Posts API
+  slug: open-belharra-therapeutics-posts-api
+- collection_type: open
+  name: Belharra Therapeutics Content Search API
+  slug: open-belharra-therapeutics-search-api
+- collection_type: open
+  name: Belharra Therapeutics Content Taxonomy API
+  slug: open-belharra-therapeutics-taxonomy-api
 common:
 - group: other
   title: ''
@@ -176,7 +204,7 @@ overview: 'Belharra Therapeutics publishes 8 APIs on the [APIs.io](https://apis.
 
 
   Belharra Therapeutics'' developer surface includes product news, authentication, and 27 more developer resources.'
-random_paper: 15
+random_paper: 89
 score:
   band: thin
   composite: 31.5
@@ -204,7 +232,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/screenshots/belharra-therapeutics-2026-08-07T162258.png
 security:

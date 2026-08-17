@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -130,7 +130,7 @@ plans:
 - name: Dazn Plans Pricing
   plan_count: 0
   slug: dazn-plans-pricing
-random_paper: 69
+random_paper: 131
 rate_limits:
 - limit_count: 0
   name: Dazn Rate Limits
@@ -138,6 +138,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -145,8 +146,10 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 31.6
+  previous_composite: 16.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Dazn Domain Security

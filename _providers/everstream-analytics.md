@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Everstream Analytics platform API surface (marketed as the Reveal API for real-time incident risk on entities, locations and lanes, and the Explore API for long-range planning data). It powers the
@@ -142,7 +142,7 @@ overview: 'Everstream Analytics publishes 1 API on the [APIs.io](https://apis.io
 
 
   Everstream Analytics'' developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 59
+random_paper: 13
 score:
   band: thin
   composite: 37.3
@@ -159,7 +159,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everstream-analytics/refs/heads/main/screenshots/everstream-analytics-2026-08-07T165038.png
 security:

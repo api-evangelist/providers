@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: RocksDB C++ library API providing key-value storage operations including Get, Put, Delete, Merge, iterators, snapshots, column families, transactions, compaction, and backup. The primary interface for
@@ -137,7 +137,7 @@ plans:
 - name: Rocksdb Plans Pricing
   plan_count: 3
   slug: rocksdb-plans-pricing
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Rocksdb Rate Limits
@@ -164,7 +164,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocksdb/refs/heads/main/screenshots/rocksdb-2026-06-20T193155.png
 security:

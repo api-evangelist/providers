@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -54,11 +54,30 @@ apis:
 - description: The Token Gating API from Bitski — 3 operation(s) for token gating.
   name: Bitski Token Gating API
   slug: bitski-token-gating-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Bitski Activity Webhooks
   slug: bitski-activity-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NFT Service APIs activity API
+  slug: open-bitski-activity-api
+- collection_type: open
+  name: NFT Service APIs activity Commerce API
+  slug: open-bitski-commerce-api
+- collection_type: open
+  name: NFT Service APIs activity Droplinks API
+  slug: open-bitski-droplinks-api
+- collection_type: open
+  name: NFT Service APIs activity Minting API
+  slug: open-bitski-minting-api
+- collection_type: open
+  name: NFT Service APIs activity Token Gating API
+  slug: open-bitski-token-gating-api
 common:
 - group: other
   title: ''
@@ -203,7 +222,7 @@ overview: 'Bitski publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bitski''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 24 more developer resources.'
-random_paper: 46
+random_paper: 50
 scopes:
 - name: Bitski Scopes
   scope_count: 2
@@ -238,7 +257,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

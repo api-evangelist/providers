@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -80,12 +80,54 @@ apis:
 - description: The Widgets API from Gorgias — 2 operation(s) for widgets.
   name: Gorgias Widgets API
   slug: gorgias-widgets-api
-artifact_total: 22
+artifact_total: 36
 asyncapis:
 - description: Best-effort AsyncAPI 2.6 description of the Gorgias webhook surface, delivered through Gorgias HTTP Integrations. When the configured triggers fire inside a Gorgias account, Gorgias performs an HTTP r
   name: Gorgias Webhooks (HTTP Integrations)
   slug: gorgias-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gorgias REST Account API
+  slug: open-gorgias-account-api
+- collection_type: open
+  name: Gorgias REST Account Customers API
+  slug: open-gorgias-customers-api
+- collection_type: open
+  name: Gorgias REST Account Integrations API
+  slug: open-gorgias-integrations-api
+- collection_type: open
+  name: Gorgias REST Account Macros API
+  slug: open-gorgias-macros-api
+- collection_type: open
+  name: Gorgias REST Account Messages API
+  slug: open-gorgias-messages-api
+- collection_type: open
+  name: Gorgias REST Account Rules API
+  slug: open-gorgias-rules-api
+- collection_type: open
+  name: Gorgias REST Account Surveys API
+  slug: open-gorgias-surveys-api
+- collection_type: open
+  name: Gorgias REST Account Tags API
+  slug: open-gorgias-tags-api
+- collection_type: open
+  name: Gorgias REST Account Teams API
+  slug: open-gorgias-teams-api
+- collection_type: open
+  name: Gorgias REST Account Tickets API
+  slug: open-gorgias-tickets-api
+- collection_type: open
+  name: Gorgias REST Account Users API
+  slug: open-gorgias-users-api
+- collection_type: open
+  name: Gorgias REST Account Views API
+  slug: open-gorgias-views-api
+- collection_type: open
+  name: Gorgias REST Account Widgets API
+  slug: open-gorgias-widgets-api
 - collection_type: open
   name: Gorgias REST API
   slug: open-gorgias
@@ -169,7 +211,7 @@ overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gorgias'' developer surface includes authentication, engineering blog, documentation, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 28
+random_paper: 3
 rules:
 - name: Gorgias API Rules
   rule_count: 5
@@ -204,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/screenshots/gorgias-2026-06-20T182307.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Spark API from Benevity — 2 operation(s) for spark.
   name: Benevity Spark API
   slug: benevity-spark-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Benevity Authorization API
+  slug: open-benevity-authorization-api
+- collection_type: open
+  name: Benevity Authorization Causes API
+  slug: open-benevity-causes-api
+- collection_type: open
+  name: Benevity Authorization Giving API
+  slug: open-benevity-giving-api
+- collection_type: open
+  name: Benevity Authorization Receipts API
+  slug: open-benevity-receipts-api
+- collection_type: open
+  name: Benevity Authorization Spark API
+  slug: open-benevity-spark-api
 - collection_type: open
   name: Benevity API
   slug: open-benevity
@@ -127,7 +145,7 @@ plans:
 - name: Benevity Plans Pricing
   plan_count: 1
   slug: benevity-plans-pricing
-random_paper: 30
+random_paper: 125
 rate_limits:
 - limit_count: 4
   name: Benevity Rate Limits
@@ -152,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benevity/refs/heads/main/screenshots/benevity-2026-07-25T202731.png
 security:

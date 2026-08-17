@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -34,7 +34,11 @@ apis:
 - description: The Real Time Data Feed (RTDF) is Rightmove's incremental HTTPS/JSON interface for UK sales, lettings and overseas sales listings, used by estate agency CRM and feed provider software rather than by e
   name: Rightmove Real Time Data Feed API
   slug: rightmove-real-time-data-feed-api
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Commercial Listings API
+  slug: open-rightmove-commercial-listings
 common:
 - group: agent
   title: ''
@@ -189,7 +193,7 @@ overview: 'Rightmove publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Rightmove''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 27 more developer resources.'
-random_paper: 21
+random_paper: 87
 rate_limits:
 - limit_count: 0
   name: Rightmove Rate Limits
@@ -222,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

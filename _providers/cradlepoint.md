@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,11 +75,41 @@ apis:
 - description: Router (edge device) management
   name: Cradlepoint Routers API
   slug: cradlepoint-routers-api
-artifact_total: 27
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cradlepoint NetCloud Manager API v2 Accounts API
+  slug: open-cradlepoint-accounts-api
+- collection_type: open
+  name: Cradlepoint NetCloud Manager API v2 Accounts ActivityLogs API
+  slug: open-cradlepoint-activitylogs-api
+- collection_type: open
+  name: Cradlepoint NetCloud Manager API v2 Accounts AlertPushDestinations API
+  slug: open-cradlepoint-alertpushdestinations-api
+- collection_type: open
+  name: Cradlepoint NetCloud Manager API v2 Accounts AlertRules API
+  slug: open-cradlepoint-alertrules-api
+- collection_type: open
+  name: Cradlepoint NetCloud Manager API v2 Accounts Alerts API
+  slug: open-cradlepoint-alerts-api
+- collection_type: open
+  name: Cradlepoint NetCloud Manager API v2 Accounts Groups API
+  slug: open-cradlepoint-groups-api
+- collection_type: open
+  name: Cradlepoint NetCloud Manager API v2 Accounts Locations API
+  slug: open-cradlepoint-locations-api
 - collection_type: open
   name: Cradlepoint NetCloud Manager API v2
   slug: open-cradlepoint-netcloud-manager-api-v2
+- collection_type: open
+  name: Cradlepoint NetCloud Manager API v2 Accounts NetDevices API
+  slug: open-cradlepoint-netdevices-api
+- collection_type: open
+  name: Cradlepoint NetCloud Manager API v2 Accounts Routers API
+  slug: open-cradlepoint-routers-api
 common:
 - group: agent
   title: ''
@@ -248,7 +278,7 @@ plans:
 - name: Cradlepoint Plans Pricing
   plan_count: 5
   slug: cradlepoint-plans-pricing
-random_paper: 93
+random_paper: 130
 rate_limits:
 - limit_count: 0
   name: Cradlepoint Rate Limits
@@ -290,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/screenshots/cradlepoint-2026-06-20T175202.png
 security:

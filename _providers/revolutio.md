@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Site-specific wind hazard analysis per AS/NZS 1170.2 and ASCE 7 standards
   name: Revolutio Wind API
   slug: revolutio-wind-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Revolutio Hazard Combined Hazard API
+  slug: open-revolutio-combined-hazard-api
 - collection_type: open
   name: Revolutio Hazard API
   slug: open-revolutio-hazard-api
+- collection_type: open
+  name: Revolutio Hazard Combined Hazard Seismic API
+  slug: open-revolutio-seismic-api
+- collection_type: open
+  name: Revolutio Hazard Combined Hazard Snow And Ice API
+  slug: open-revolutio-snow-and-ice-api
+- collection_type: open
+  name: Revolutio Hazard Combined Hazard Wind API
+  slug: open-revolutio-wind-api
 common:
 - group: agent
   title: ''
@@ -128,7 +143,7 @@ plans:
 - name: Revolutio Plans Pricing
   plan_count: 3
   slug: revolutio-plans-pricing
-random_paper: 41
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Revolutio Rate Limits
@@ -170,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/screenshots/revolutio-2026-06-20T193102.png
 security:

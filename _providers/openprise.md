@@ -1,24 +1,25 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Sales-gated
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
+  - https://www.openprisetech.com/pricing
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -27,15 +28,59 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
+  score: 15.8
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
-- description: Openprise's "API Factory" lets RevOps teams turn business processes into custom APIs on top of the RevOps Data Automation (RDA) Cloud. Public REST API endpoints are not openly documented; access is pr
-  name: Openprise API
+- description: API Factory turns any Openprise Job or Bot into a REST endpoint with a single "Enable API" action. The caller sends an HTTP POST carrying a JSON array of records and receives a JSON array of processed
+  name: Openprise API Factory
   slug: openprise-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.openprisetech.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://helpcenter.openprisetech.com/hc/en-us
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://helpcenter.openprisetech.com/hc/en-us/articles/24107925788180-API-Factory-Overview-and-Use-Guide
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://helpcenter.openprisetech.com/hc/en-us/articles/24107502554772-Quick-Start-Guide
+- group: operate
+  title: ''
+  type: Support
+  url: https://helpcenter.openprisetech.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.openprisetech.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/openprisetech
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.openprisetech.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://www.openprisecloud.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.openprisetech.com/legal/privacy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.openprisetech.com/security
 - group: auth
   title: ''
   type: TrustCenter
@@ -44,64 +89,108 @@ common:
   title: ''
   type: DomainSecurity
   url: security/openprise-domain-security.yml
-- group: company
+- group: design
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/openprise
-- group: company
+  type: Conformance
+  url: conformance/openprise-conformance.yml
+- group: auth
   title: ''
-  type: Website
-  url: https://www.openprisetech.com/
-- group: docs
+  type: Authentication
+  url: authentication/openprise-authentication.yml
+- group: design
   title: ''
-  type: Documentation
-  url: https://www.openprisetech.com/
+  type: Conventions
+  url: conventions/openprise-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/openprise-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/openprise-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/openprise-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://helpcenter.openprisetech.com/hc/en-us/categories/24103645602580-Release-Notes-Announcements
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/openprise-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/openprise-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/openprise-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/openprise-llms.txt
 - group: agent
   title: ''
   type: LlmsText
   url: https://openprisetech.com/llms.txt
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/openprise
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/channel/UCWd7PYa-TtRq7SdRkfnFcow
 created: '2025-02-08'
-description: Free your RevOps teams from the complexities of bad data and give them data they can trust, take action on, and make better decisions with. A simple way to achieve the highest data quality across your marketing, sales, and RevOps processes with the Openprise RevOps Data Automation (RDA) Cloud.
+description: Openprise is an AI and data orchestration platform built for enterprise go-to-market teams — RevOps, marketing operations and sales operations. It cleans, unifies and activates GTM data across CRM, marketing automation and data warehouse systems through no-code Jobs and Bots, with 400+ pre-built connectors, multi-vendor enrichment waterfalls, deduplication, lead-to-account matching, routing, scoring and segmentation. Its developer-facing surface is API Factory, a licensed feature that turns any configured Job or Bot into a per-tenant REST endpoint callable from Marketo webhooks, Salesforce triggers, web forms or any system that can issue an HTTP POST. Openprise coined the term "data orchestration" in 2017 and is headquartered in San Mateo, California.
 finops:
 - name: Openprise Finops
   service_category: API
   slug: openprise-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openprise.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-14'
 name: Openprise
 nav: Providers
 network: true
-overview: 'Openprise publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Automation, Data Quality, Marketing Operations, RevOps, and Sales Operations.
+overview: 'Openprise publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Automation, Data Quality, Data Orchestration, AI Orchestration, and Data Enrichment.
 
 
-  Openprise''s developer surface includes documentation and 5 more developer resources.'
+  Openprise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
 plans:
 - name: Openprise Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: openprise-plans-pricing
-random_paper: 21
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Openprise Rate Limits
   slug: openprise-rate-limits
 score:
-  band: emerging
-  composite: 14.2
-  delta: 0.0
+  band: thin
+  composite: 33.3
+  delta: 19.1
   facets:
-    commercial_clarity: 23.7
+    commercial_clarity: 63.2
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 43.5
     discoverability: 66.7
-    governance: 0.0
-    operational_transparency: 7.9
+    governance: 12.5
+    operational_transparency: 28.9
   previous_composite: 14.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprise/refs/heads/main/screenshots/openprise-2026-06-20T191021.png
 security:
+- kind: authentication
+  name: Openprise Authentication
+  slug: openprise-authentication
+  summary_line: apiKey/saml2 · 3 schemes
 - kind: domain-security
   name: Openprise Domain Security
   slug: openprise-domain-security
@@ -114,8 +203,13 @@ slug: openprise
 tags:
 - Data Automation
 - Data Quality
+- Data Orchestration
+- AI Orchestration
+- Data Enrichment
+- Deduplication
 - Marketing Operations
 - RevOps
 - Sales Operations
+- Go To Market
 website: https://www.openprisetech.com/
 ---

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Evercore's Post
   url: https://www.linkedin.com/posts/evercore-inc_conocophillips-to-acquire-marathon-oil-corporation-activity-7202023515192000512-EiVJ
-random_paper: 27
+random_paper: 35
 score:
   band: minimal
   composite: 6.1
@@ -96,7 +96,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marathon-oil/refs/heads/main/screenshots/marathon-oil-2026-06-20T184939.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 6
@@ -82,11 +82,69 @@ apis:
 - description: Routes related to server metadata/utility
   name: PassiveLogic Utility API
   slug: passivelogic-utility-api
-artifact_total: 23
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Passivelogic Quantum Events
   slug: passivelogic-quantum-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PassiveLogic REST Account API
+  slug: open-passivelogic-account-api
+- collection_type: open
+  name: PassiveLogic REST API
+  slug: open-passivelogic-api-api
+- collection_type: open
+  name: PassiveLogic REST App API
+  slug: open-passivelogic-app-api
+- collection_type: open
+  name: PassiveLogic REST Auth Groups API
+  slug: open-passivelogic-auth-groups-api
+- collection_type: open
+  name: PassiveLogic REST Authentication API
+  slug: open-passivelogic-authentication-api
+- collection_type: open
+  name: PassiveLogic REST Bindings API
+  slug: open-passivelogic-bindings-api
+- collection_type: open
+  name: PassiveLogic REST  API
+  slug: open-passivelogic-default-api
+- collection_type: open
+  name: PassiveLogic REST Export API
+  slug: open-passivelogic-export-api
+- collection_type: open
+  name: PassiveLogic REST Graph QL API
+  slug: open-passivelogic-graphql-api
+- collection_type: open
+  name: PassiveLogic REST Health API
+  slug: open-passivelogic-health-api
+- collection_type: open
+  name: PassiveLogic REST Images API
+  slug: open-passivelogic-images-api
+- collection_type: open
+  name: PassiveLogic REST Organization API
+  slug: open-passivelogic-organization-api
+- collection_type: open
+  name: PassiveLogic REST PassiveLogic Device API
+  slug: open-passivelogic-passivelogic-device-api
+- collection_type: open
+  name: PassiveLogic REST Quantum Sync API
+  slug: open-passivelogic-quantum-sync-api
+- collection_type: open
+  name: PassiveLogic REST API
+  slug: open-passivelogic-rest-api
+- collection_type: open
+  name: PassiveLogic REST Site API
+  slug: open-passivelogic-site-api
+- collection_type: open
+  name: PassiveLogic REST Tunnel API
+  slug: open-passivelogic-tunnel-api
+- collection_type: open
+  name: PassiveLogic REST Utility API
+  slug: open-passivelogic-utility-api
 common:
 - group: agent
   title: ''
@@ -211,7 +269,7 @@ overview: 'PassiveLogic publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   PassiveLogic''s developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, sandbox, and 20 more developer resources.'
-random_paper: 89
+random_paper: 97
 scopes:
 - name: Passivelogic Scopes
   scope_count: 13
@@ -245,7 +303,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/screenshots/passivelogic-2026-08-07T191536.png
 security:

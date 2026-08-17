@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,14 @@ apis:
 - description: The read-only Umbraco CMS Content Delivery API served anonymously from cycleplan.co.uk, the Ripe Insurance bike-insurance brand. Same platform infrastructure as the flagship site but running one CMS v
   name: Cycleplan Umbraco Content Delivery API
   slug: ripe-insurance-cycleplan-content-delivery-api
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Umbraco Delivery API
+  slug: open-ripe-insurance-cycleplan-content-delivery
+- collection_type: open
+  name: Umbraco Delivery API
+  slug: open-ripe-insurance-umbraco-content-delivery
 common:
 - group: agent
   title: ''
@@ -177,7 +184,7 @@ overview: 'Ripe Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Ripe Insurance''s developer surface includes authentication, support, product news, engineering blog, and 27 more developer resources.'
-random_paper: 5
+random_paper: 104
 scopes:
 - name: Ripe Insurance Scopes
   scope_count: 2
@@ -212,7 +219,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

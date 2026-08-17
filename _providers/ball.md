@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 12
 common:
@@ -109,7 +109,7 @@ press:
 - date: '2026-05-25'
   title: Reflecting its commitment to delivering advisor-first ...
   url: https://www.facebook.com/RaymondJames/posts/reflecting-its-commitment-to-delivering-advisor-first-technology-the-firm-has-an/1394319819394063/
-random_paper: 51
+random_paper: 113
 rules:
 - name: Ball Corporation API Rules
   rule_count: 7
@@ -132,7 +132,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ball/refs/heads/main/screenshots/ball-2026-06-20T172928.png
 security:

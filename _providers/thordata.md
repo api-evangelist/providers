@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'Real-time search engine results as parsed JSON or raw HTML across Google, Bing, Yandex and DuckDuckGo, with per-country and per-language targeting, vertical selection (images, news, shopping, video), '
@@ -40,11 +40,30 @@ apis:
 - description: Pull a batch of proxy endpoints as host:port pairs for the residential or unlimited product, filtered by country, state, city, protocol and session time, returned as plain text or JSON. Used to hand a
   name: Thordata Proxy IP Extract API
   slug: thordata-proxy-ip-extract-api
-artifact_total: 12
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Thordata Web Scraper Webhooks
   slug: thordata-web-scraper-webhooks
+collections:
+- collection_type: open
+  name: Thordata Locations API
+  slug: open-thordata-locations-api
+- collection_type: open
+  name: Thordata Proxy IP Extract API
+  slug: open-thordata-proxy-extract-api
+- collection_type: open
+  name: Thordata Public API
+  slug: open-thordata-public-api
+- collection_type: open
+  name: Thordata Scraper API
+  slug: open-thordata-scraper-api
+- collection_type: open
+  name: Thordata Universal Scraping API / Web Unlocker
+  slug: open-thordata-universal-api
+- collection_type: open
+  name: Thordata Web Scraper API - Tasks
+  slug: open-thordata-web-scraper-tasks
 common:
 - group: start
   title: ''
@@ -194,7 +213,7 @@ plans:
 - name: Thordata Plans Pricing
   plan_count: 0
   slug: thordata-plans-pricing
-random_paper: 15
+random_paper: 110
 rate_limits:
 - limit_count: 0
   name: Thordata Rate Limits
@@ -212,7 +231,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 54.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

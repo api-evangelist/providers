@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,26 @@ apis:
 - description: Cancel Flow session data and aggregations (Data API).
   name: Churnkey Sessions API
   slug: churnkey-sessions-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Churnkey Billing Contacts API
+  slug: open-churnkey-billing-contacts-api
+- collection_type: open
+  name: Churnkey Billing Contacts Customers API
+  slug: open-churnkey-customers-api
+- collection_type: open
+  name: Churnkey Billing Contacts Data Subject Requests API
+  slug: open-churnkey-data-subject-requests-api
+- collection_type: open
+  name: Churnkey Billing Contacts Events API
+  slug: open-churnkey-events-api
+- collection_type: open
+  name: Churnkey Billing Contacts Sessions API
+  slug: open-churnkey-sessions-api
 - collection_type: open
   name: Churnkey API
   slug: open-churnkey
@@ -134,7 +152,7 @@ plans:
 - name: Churnkey Plans Pricing
   plan_count: 4
   slug: churnkey-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 4
   name: Churnkey Rate Limits
@@ -165,7 +183,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/screenshots/churnkey-2026-07-25T205328.png
 security:

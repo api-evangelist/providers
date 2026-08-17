@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -130,7 +130,7 @@ overview: 'Tonkean is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tonkean''s developer surface includes documentation, engineering blog, pricing, signup flow, support, changelog, and 14 more developer resources.'
-random_paper: 32
+random_paper: 7
 score:
   band: thin
   composite: 41.1
@@ -146,7 +146,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

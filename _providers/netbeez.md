@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Administrator-facing API for integrating NetBeez network-performance telemetry with external tools. v2 is a JSON API (read-write: create targets, run ad-hoc tests) documented on Postman at api.netbeez'
@@ -104,7 +104,7 @@ overview: 'Netbeez publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Netbeez''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 5 more developer resources.'
-random_paper: 29
+random_paper: 4
 score:
   band: thin
   composite: 35.1
@@ -118,7 +118,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 35.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbeez/refs/heads/main/screenshots/netbeez-2026-08-07T184928.png
 security:

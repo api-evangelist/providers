@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: These endpoints support the typeahead boxes in the UI
   name: Consumer Financial Protection Bureau (CFPB) Typeahead API
   slug: cfpb-typeahead-api
-artifact_total: 23
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Consumer Complaint Database Aggregations API
+  slug: open-cfpb-aggregations-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations Complaints API
+  slug: open-cfpb-complaints-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations CSV API
+  slug: open-cfpb-csv-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations Edits API
+  slug: open-cfpb-edits-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations Filers API
+  slug: open-cfpb-filers-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations Filings API
+  slug: open-cfpb-filings-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations Health API
+  slug: open-cfpb-health-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations Institutions API
+  slug: open-cfpb-institutions-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations Submissions API
+  slug: open-cfpb-submissions-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations Trends API
+  slug: open-cfpb-trends-api
+- collection_type: open
+  name: Consumer Complaint Database Aggregations Typeahead API
+  slug: open-cfpb-typeahead-api
 common:
 - group: operate
   title: ''
@@ -188,7 +225,7 @@ plans:
 - name: Cfpb Plans Pricing
   plan_count: 2
   slug: cfpb-plans-pricing
-random_paper: 51
+random_paper: 113
 rate_limits:
 - limit_count: 0
   name: Cfpb Rate Limits
@@ -228,7 +265,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/screenshots/cfpb-2026-06-20T174148.png
 security:

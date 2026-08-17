@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,15 +54,33 @@ apis:
 - description: Vessel position and schedule
   name: CargoSmart Vessels API
   slug: cargosmart-vessels-api
-artifact_total: 19
+artifact_total: 25
 asyncapis:
 - description: 'The CargoSmart Shipment Events API delivers real-time event notifications for container movements, shipment milestones, and vessel arrivals/departures via webhooks or server-sent events. Subscribe to '
   name: CargoSmart Shipment Events API
   slug: cargosmart-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CargoSmart Shipment Tracking Bookings API
+  slug: open-cargosmart-bookings-api
+- collection_type: open
+  name: CargoSmart Shipment Tracking Bookings Containers API
+  slug: open-cargosmart-containers-api
+- collection_type: open
+  name: CargoSmart Shipment Tracking Bookings Documents API
+  slug: open-cargosmart-documents-api
+- collection_type: open
   name: CargoSmart Shipment Tracking API
   slug: open-cargosmart-shipment-tracking
+- collection_type: open
+  name: CargoSmart Shipment Tracking Bookings Shipments API
+  slug: open-cargosmart-shipments-api
+- collection_type: open
+  name: CargoSmart Shipment Tracking Bookings Vessels API
+  slug: open-cargosmart-vessels-api
 common:
 - group: agent
   title: ''
@@ -159,7 +177,7 @@ plans:
 - name: Cargosmart Plans Pricing
   plan_count: 1
   slug: cargosmart-plans-pricing
-random_paper: 115
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Cargosmart Rate Limits
@@ -206,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/screenshots/cargosmart-2026-06-20T174010.png
 security:

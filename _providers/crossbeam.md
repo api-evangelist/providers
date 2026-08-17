@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -18,27 +19,31 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-12'
+  score: 52.7
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Read (and timeline-write) access to Crossbeam Ecosystem Intelligence — partners, populations, reports/overlaps, and real-time signals — via a versioned REST API secured with OAuth 2.0. Requires an Aut
   name: Crossbeam Partner API
   slug: crossbeam-partner-api
-artifact_total: 7
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Crossbeam Signals Webhooks
   slug: crossbeam-signals-webhooks
+collections:
+- collection_type: postman
+  name: Crossbeam Partner API
+  slug: postman-crossbeam-partner-api
 common:
 - group: auth
   title: ''
@@ -160,6 +165,46 @@ common:
   title: ''
   type: ChangeLog
   url: changelog/crossbeam-changelog.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/crossbeam-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/crossbeam-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/crossbeam-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/crossbeam-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/crossbeam-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/crossbeam-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/crossbeam-problem-types.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/crossbeam-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.crossbeam.com/legal/responsible-disclosure
+- group: build
+  title: ''
+  type: Postman
+  url: https://developers.crossbeam.com/
 created: '2026-07-17'
 description: 'Crossbeam is the leading Ecosystem-Led Growth (ELG) platform: a secure data-collaboration network that lets companies compare CRM data with their partners to uncover shared customers, overlapping prospects, and co-selling opportunities without exposing sensitive records. It turns partner-sourced overlaps, populations, and real-time signals into "Ecosystem Intelligence" that flows into GTM tools and AI agents. Crossbeam exposes this data through a REST Partner API (OAuth 2.0), real-time Signals webhooks, a remote MCP server, and in-app AI Chat, backed by SOC 2 Type II, GDPR, CCPA, and PCI DSS compliance.'
 image: https://cdn.prod.website-files.com/66955639e4d4a6eebd7168b9/67659cb901d6d8f4eb2bd567_crossbeam_opengraph.avif
@@ -168,42 +213,50 @@ mcp_servers:
 - description: ''
   name: crossbeam-mcp.yml
   slug: crossbeam-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Crossbeam
 nav: Providers
 network: true
-overview: 'Crossbeam publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecosystem-Led Growth, Partnerships, Account Mapping, and Co-Selling.
+overview: 'Crossbeam publishes 1 API on the [APIs.io](https://apis.io/) network: Partner API. Tagged areas include Company, Ecosystem-Led Growth, Partnerships, Account Mapping, and Co-Selling.
 
 
   The Crossbeam catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Crossbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 23 more developer resources.'
-random_paper: 119
+  Crossbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 33 more developer resources.'
+plans:
+- name: Crossbeam Plans Pricing
+  plan_count: 4
+  slug: crossbeam-plans-pricing
+random_paper: 65
+rate_limits:
+- limit_count: 0
+  name: Crossbeam Rate Limits
+  slug: crossbeam-rate-limits
 scopes:
 - name: Crossbeam Scopes
   scope_count: 6
   slug: crossbeam-scopes
   summary_line: 6 scopes
 score:
-  band: developing
-  composite: 53.4
-  delta: 0.0
+  band: strong
+  composite: 64.4
+  delta: 11.0
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 51.6
-    developer_ergonomics: 67.4
-    discoverability: 75.9
+    developer_ergonomics: 78.3
+    discoverability: 87.0
     governance: 12.5
-    operational_transparency: 44.7
+    operational_transparency: 55.3
   previous_composite: 53.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossbeam/refs/heads/main/screenshots/crossbeam-2026-07-25T210753.png
 security:
 - kind: authentication
@@ -214,6 +267,10 @@ security:
   name: Crossbeam Domain Security
   slug: crossbeam-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Crossbeam Vulnerability Disclosure
+  slug: crossbeam-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: Crossbeam Trust Center
   slug: crossbeam-trust-center

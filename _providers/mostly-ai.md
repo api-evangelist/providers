@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -75,8 +75,41 @@ apis:
 - description: The Users API from MOSTLY AI — 4 operation(s) for users.
   name: MOSTLY AI Users API
   slug: mostly-ai-users-api
-artifact_total: 19
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MOSTLY AI Platform REST About API
+  slug: open-mostly-ai-about-api
+- collection_type: open
+  name: MOSTLY AI Platform REST About Computes API
+  slug: open-mostly-ai-computes-api
+- collection_type: open
+  name: MOSTLY AI Platform REST About Connectors API
+  slug: open-mostly-ai-connectors-api
+- collection_type: open
+  name: MOSTLY AI Platform REST About Datasets API
+  slug: open-mostly-ai-datasets-api
+- collection_type: open
+  name: MOSTLY AI Platform REST About Generators API
+  slug: open-mostly-ai-generators-api
+- collection_type: open
+  name: MOSTLY AI Platform REST About Models API
+  slug: open-mostly-ai-models-api
+- collection_type: open
+  name: MOSTLY AI Platform REST About Organizations API
+  slug: open-mostly-ai-organizations-api
+- collection_type: open
+  name: MOSTLY AI Platform REST About Synthetic Datasets API
+  slug: open-mostly-ai-synthetic-datasets-api
+- collection_type: open
+  name: MOSTLY AI Platform REST About Synthetic Probes API
+  slug: open-mostly-ai-synthetic-probes-api
+- collection_type: open
+  name: MOSTLY AI Platform REST About Users API
+  slug: open-mostly-ai-users-api
 - collection_type: open
   name: MOSTLY AI Platform REST API
   slug: open-mostly-ai
@@ -165,7 +198,7 @@ plans:
 - name: Mostly Ai Plans Pricing
   plan_count: 1
   slug: mostly-ai-plans-pricing
-random_paper: 87
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Mostly Ai Rate Limits
@@ -190,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/screenshots/mostly-ai-2026-06-20T185821.png
 security:

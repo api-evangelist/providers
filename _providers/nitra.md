@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Nitra is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nitra''s developer surface includes signup flow, support, and 7 more developer resources.'
-random_paper: 62
+random_paper: 95
 score:
   band: emerging
   composite: 17.1
@@ -99,7 +99,7 @@ score:
     regime_id: banking_open_finance
     score: 24.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nitra/refs/heads/main/screenshots/nitra-2026-08-07T185342.png
 security:

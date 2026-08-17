@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Moritz is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Moritz''s developer surface includes pricing and 8 more developer resources.'
-random_paper: 77
+random_paper: 81
 score:
   band: emerging
   composite: 17.1
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moritz/refs/heads/main/screenshots/moritz-2026-08-07T184304.png
 security:

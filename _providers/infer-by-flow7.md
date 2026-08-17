@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Responses-compatible inference REST API fronting many model families through opaque routing, with unauthenticated public catalog/status endpoints and authenticated model-list and Responses endpoints. '
   name: Infer Responses API
   slug: infer-responses-api
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Infer by Flow7 Public API
+  slug: open-infer-by-flow7-public-api
 common:
 - group: agent
   title: ''
@@ -134,7 +138,7 @@ plans:
 - name: Infer By Flow7 Plans Pricing
   plan_count: 4
   slug: infer-by-flow7-plans-pricing
-random_paper: 16
+random_paper: 144
 rate_limits:
 - limit_count: 0
   name: Infer By Flow7 Rate Limits
@@ -157,7 +161,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 49.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

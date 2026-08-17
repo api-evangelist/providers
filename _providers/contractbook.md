@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: The Templates API from Contractbook — 2 operation(s) for templates.
   name: Contractbook Templates API
   slug: contractbook-templates-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Contractbook Attachments API
+  slug: open-contractbook-attachments-api
+- collection_type: open
+  name: Contractbook Attachments Automations API
+  slug: open-contractbook-automations-api
+- collection_type: open
+  name: Contractbook Attachments Document sharing API
+  slug: open-contractbook-document-sharing-api
+- collection_type: open
+  name: Contractbook Attachments Documents API
+  slug: open-contractbook-documents-api
+- collection_type: open
+  name: Contractbook Attachments Spaces API
+  slug: open-contractbook-spaces-api
+- collection_type: open
+  name: Contractbook Attachments Templates API
+  slug: open-contractbook-templates-api
 - collection_type: open
   name: Contractbook API v3
   slug: open-contractbook
@@ -126,7 +147,7 @@ plans:
 - name: Contractbook Plans Pricing
   plan_count: 4
   slug: contractbook-plans-pricing
-random_paper: 89
+random_paper: 97
 rate_limits:
 - limit_count: 4
   name: Contractbook Rate Limits
@@ -151,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/screenshots/contractbook-2026-07-25T210337.png
 security:

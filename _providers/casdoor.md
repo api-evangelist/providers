@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -84,8 +84,32 @@ apis:
 - description: User CRUD and credential operations
   name: Casdoor Users API
   slug: casdoor-users-api
-artifact_total: 67
+artifact_total: 75
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Casdoor REST Applications API
+  slug: open-casdoor-applications-api
+- collection_type: open
+  name: Casdoor REST Applications Authentication API
+  slug: open-casdoor-authentication-api
+- collection_type: open
+  name: Casdoor REST Applications OIDC API
+  slug: open-casdoor-oidc-api
+- collection_type: open
+  name: Casdoor REST Applications Organizations API
+  slug: open-casdoor-organizations-api
+- collection_type: open
+  name: Casdoor REST Applications Permissions API
+  slug: open-casdoor-permissions-api
+- collection_type: open
+  name: Casdoor REST Applications Roles API
+  slug: open-casdoor-roles-api
+- collection_type: open
+  name: Casdoor REST Applications Users API
+  slug: open-casdoor-users-api
 - collection_type: open
   name: Casdoor REST API
   slug: open-casdoor
@@ -242,7 +266,7 @@ plans:
 - name: Casdoor Plans Pricing
   plan_count: 3
   slug: casdoor-plans-pricing
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Casdoor Rate Limits
@@ -267,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png
 security:

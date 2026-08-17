@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,8 +62,35 @@ apis:
 - description: The Suggested Searches API from Office of the Federal Register — 2 operation(s) for suggested searches.
   name: Office of the Federal Register Suggested Searches API
   slug: office-of-the-federal-register-suggested-searches-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Office of the Federal Register Agencies API
+  slug: open-office-of-the-federal-register-agencies-api
+- collection_type: open
+  name: Office of the Federal Register Agencies Documents API
+  slug: open-office-of-the-federal-register-documents-api
+- collection_type: open
+  name: Office of the Federal Register Agencies Documents.json API
+  slug: open-office-of-the-federal-register-documents-json-api
+- collection_type: open
+  name: Office of the Federal Register Agencies Images API
+  slug: open-office-of-the-federal-register-images-api
+- collection_type: open
+  name: Office of the Federal Register Agencies Issues API
+  slug: open-office-of-the-federal-register-issues-api
+- collection_type: open
+  name: Office of the Federal Register Agencies Public Inspection Documents API
+  slug: open-office-of-the-federal-register-public-inspection-documents-api
+- collection_type: open
+  name: Office of the Federal Register Agencies Public Inspection Documents.json API
+  slug: open-office-of-the-federal-register-public-inspection-documents-json-api
+- collection_type: open
+  name: Office of the Federal Register Agencies Suggested Searches API
+  slug: open-office-of-the-federal-register-suggested-searches-api
 - collection_type: open
   name: Office of the Federal Register API
   slug: open-office-of-the-federal-register
@@ -109,7 +136,7 @@ plans:
 - name: Office Of The Federal Register Plans Pricing
   plan_count: 3
   slug: office-of-the-federal-register-plans-pricing
-random_paper: 46
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Office Of The Federal Register Rate Limits
@@ -140,7 +167,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/screenshots/office-of-the-federal-register-2026-06-20T190639.png
 security:

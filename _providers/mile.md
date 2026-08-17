@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: The Aramex API from Mile — 3 operation(s) for aramex.
@@ -85,11 +85,69 @@ apis:
 - description: The Webhooks API from Mile — 5 operation(s) for webhooks.
   name: Mile Webhooks API
   slug: mile-webhooks-api
-artifact_total: 22
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Mile Webhooks
   slug: mile-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Api Documentation Aramex API
+  slug: open-mile-aramex-api
+- collection_type: open
+  name: Api Documentation Aramex Customers API
+  slug: open-mile-customers-api
+- collection_type: open
+  name: Api Documentation Aramex Debug API
+  slug: open-mile-debug-api
+- collection_type: open
+  name: Api Documentation Aramex Drivers API
+  slug: open-mile-drivers-api
+- collection_type: open
+  name: Api Documentation Aramex Export API
+  slug: open-mile-export-api
+- collection_type: open
+  name: Api Documentation Aramex Login API
+  slug: open-mile-login-api
+- collection_type: open
+  name: Api Documentation Aramex Order API
+  slug: open-mile-order-api
+- collection_type: open
+  name: Api Documentation Aramex Order Optimization API
+  slug: open-mile-order-optimization-api
+- collection_type: open
+  name: Api Documentation Aramex Order Webhook API
+  slug: open-mile-order-webhook-api
+- collection_type: open
+  name: Api Documentation Aramex Order With Dynamic Merchant API
+  slug: open-mile-order-with-dynamic-merchant-api
+- collection_type: open
+  name: Api Documentation Aramex Payment Terms API
+  slug: open-mile-payment-terms-api
+- collection_type: open
+  name: Api Documentation Aramex Products API
+  slug: open-mile-products-api
+- collection_type: open
+  name: Api Documentation Aramex Promotion Bundle API
+  slug: open-mile-promotion-bundle-api
+- collection_type: open
+  name: Api Documentation Aramex Routes API
+  slug: open-mile-routes-api
+- collection_type: open
+  name: Api Documentation Aramex Settlement Webhook API
+  slug: open-mile-settlement-webhook-api
+- collection_type: open
+  name: Api Documentation Aramex Vehicles API
+  slug: open-mile-vehicles-api
+- collection_type: open
+  name: Api Documentation Aramex Warehouse Inbound Orders API
+  slug: open-mile-warehouse-inbound-orders-api
+- collection_type: open
+  name: Api Documentation Aramex Webhooks API
+  slug: open-mile-webhooks-api
 common:
 - group: company
   title: ''
@@ -190,7 +248,7 @@ overview: 'Mile publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mile''s developer surface includes documentation, API reference, engineering blog, signup flow, support, pricing, authentication, and 13 more developer resources.'
-random_paper: 63
+random_paper: 125
 score:
   band: developing
   composite: 42.3
@@ -213,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/screenshots/mile-2026-08-07T172910.png
 security:

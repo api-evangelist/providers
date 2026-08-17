@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,8 +60,26 @@ apis:
 - description: The Uploads API from Rossum — 1 operation(s) for uploads.
   name: Rossum Uploads API
   slug: rossum-uploads-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rossum REST Annotations API
+  slug: open-rossum-annotations-api
+- collection_type: open
+  name: Rossum REST Annotations Authentication API
+  slug: open-rossum-authentication-api
+- collection_type: open
+  name: Rossum REST Annotations Queues API
+  slug: open-rossum-queues-api
+- collection_type: open
+  name: Rossum REST Annotations Schemas API
+  slug: open-rossum-schemas-api
+- collection_type: open
+  name: Rossum REST Annotations Uploads API
+  slug: open-rossum-uploads-api
 - collection_type: open
   name: Rossum REST API
   slug: open-rossum
@@ -142,7 +160,7 @@ plans:
 - name: Rossum Plans Pricing
   plan_count: 5
   slug: rossum-plans-pricing
-random_paper: 81
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Rossum Rate Limits
@@ -167,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/screenshots/rossum-2026-06-20T193224.png
 security:

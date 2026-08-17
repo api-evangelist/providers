@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Procurement - purchase orders and vendors.
   name: EZRentOut Purchase Orders API
   slug: ezrentout-purchase-orders-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EZRentOut Assets API
+  slug: open-ezrentout-assets-api
+- collection_type: open
+  name: EZRentOut Assets Availability API
+  slug: open-ezrentout-availability-api
+- collection_type: open
+  name: EZRentOut Assets Bundles API
+  slug: open-ezrentout-bundles-api
+- collection_type: open
+  name: EZRentOut Assets Customers API
+  slug: open-ezrentout-customers-api
+- collection_type: open
+  name: EZRentOut Assets Inventory API
+  slug: open-ezrentout-inventory-api
+- collection_type: open
+  name: EZRentOut Assets Locations API
+  slug: open-ezrentout-locations-api
+- collection_type: open
+  name: EZRentOut Assets Maintenance API
+  slug: open-ezrentout-maintenance-api
+- collection_type: open
+  name: EZRentOut Assets Members API
+  slug: open-ezrentout-members-api
+- collection_type: open
+  name: EZRentOut Assets Orders API
+  slug: open-ezrentout-orders-api
+- collection_type: open
+  name: EZRentOut Assets Payments API
+  slug: open-ezrentout-payments-api
+- collection_type: open
+  name: EZRentOut Assets Purchase Orders API
+  slug: open-ezrentout-purchase-orders-api
 - collection_type: open
   name: EZRentOut API
   slug: open-ezrentout
@@ -142,7 +178,7 @@ plans:
 - name: Ezrentout Plans Pricing
   plan_count: 5
   slug: ezrentout-plans-pricing
-random_paper: 48
+random_paper: 114
 rate_limits:
 - limit_count: 3
   name: Ezrentout Rate Limits
@@ -167,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/screenshots/ezrentout-2026-07-25T214101.png
 security:

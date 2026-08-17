@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -78,7 +78,50 @@ apis:
 - description: Reward order creation and management
   name: Tango Card Orders API
   slug: tango-card-orders-api
-artifact_total: 29
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tango RaaS Accounts API
+  slug: open-tango-card-accounts-api
+- collection_type: open
+  name: Tango RaaS Accounts Brand Categories API
+  slug: open-tango-card-brand-categories-api
+- collection_type: open
+  name: Tango RaaS Accounts Catalog API
+  slug: open-tango-card-catalog-api
+- collection_type: open
+  name: Tango RaaS Accounts Choice Products API
+  slug: open-tango-card-choice-products-api
+- collection_type: open
+  name: Tango RaaS Accounts Countries & Currencies API
+  slug: open-tango-card-countries-currencies-api
+- collection_type: open
+  name: Tango RaaS Accounts Credential Types API
+  slug: open-tango-card-credential-types-api
+- collection_type: open
+  name: Tango RaaS Accounts Customers API
+  slug: open-tango-card-customers-api
+- collection_type: open
+  name: Tango RaaS Accounts Digital Templates API
+  slug: open-tango-card-digital-templates-api
+- collection_type: open
+  name: Tango RaaS Accounts Exchange Rates API
+  slug: open-tango-card-exchange-rates-api
+- collection_type: open
+  name: Tango RaaS Accounts Fund Management API
+  slug: open-tango-card-fund-management-api
+- collection_type: open
+  name: Tango RaaS Accounts Line Items API
+  slug: open-tango-card-line-items-api
+- collection_type: open
+  name: Tango RaaS Accounts Low Balance Alerts API
+  slug: open-tango-card-low-balance-alerts-api
+- collection_type: open
+  name: Tango RaaS Accounts Orders API
+  slug: open-tango-card-orders-api
 common:
 - group: agent
   title: ''
@@ -191,7 +234,7 @@ plans:
 - name: Tango Card Plans Pricing
   plan_count: 1
   slug: tango-card-plans-pricing
-random_paper: 32
+random_paper: 98
 rate_limits:
 - limit_count: 2
   name: Tango Card Rate Limits
@@ -236,7 +279,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/screenshots/tango-card-2026-06-20T194915.png
 security:

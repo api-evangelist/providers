@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: API to manage AI Security Mailbox (formerly known as Abuse Mailbox)
@@ -72,11 +72,66 @@ apis:
 - description: API to manage Vendorbase and threats from Vendors
   name: Abnormal AI Vendors API
   slug: abnormal-vendors-api
-artifact_total: 23
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Abnormal Webhooks
   slug: abnormal-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Abnormal Security Client AI Security Mailbox (formerly known as Abuse Mailbox) AI Security Mailbox (formerly known as Abuse Mailbox) API
+  slug: open-abnormal-ai-security-mailbox-formerly-known-as-abuse-mailbox-api
+- collection_type: open
+  name: Abnormal Security Client Audit Logs API
+  slug: open-abnormal-audit-logs-api
+- collection_type: open
+  name: Abnormal Security Client Cases API
+  slug: open-abnormal-cases-api
+- collection_type: open
+  name: Abnormal Security Client Dashboard Aggregations API
+  slug: open-abnormal-dashboard-aggregations-api
+- collection_type: open
+  name: Abnormal Security Client Detection360 API
+  slug: open-abnormal-detection360-api
+- collection_type: open
+  name: Abnormal Security Client Employee Insights API
+  slug: open-abnormal-employee-insights-api
+- collection_type: open
+  name: Abnormal Security Client Messages API
+  slug: open-abnormal-messages-api
+- collection_type: open
+  name: Abnormal Security Client Resources API
+  slug: open-abnormal-resources-api
+- collection_type: open
+  name: Abnormal Security Client Roles API
+  slug: open-abnormal-roles-api
+- collection_type: open
+  name: Abnormal Security Client Search and Respond API
+  slug: open-abnormal-search-and-respond-api
+- collection_type: open
+  name: Abnormal Security Client Security Settings API
+  slug: open-abnormal-security-settings-api
+- collection_type: open
+  name: Abnormal Security Client SPM API
+  slug: open-abnormal-spm-api
+- collection_type: open
+  name: Abnormal Security Client Threats API
+  slug: open-abnormal-threats-api
+- collection_type: open
+  name: Abnormal Security Client Tokens API
+  slug: open-abnormal-tokens-api
+- collection_type: open
+  name: Abnormal Security Client URL Rewrite API
+  slug: open-abnormal-url-rewrite-api
+- collection_type: open
+  name: Abnormal Security Client Users API
+  slug: open-abnormal-users-api
+- collection_type: open
+  name: Abnormal Security Client Vendors API
+  slug: open-abnormal-vendors-api
 common:
 - group: agent
   title: ''
@@ -237,7 +292,7 @@ overview: 'Abnormal AI publishes 17 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Abnormal AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 4
+random_paper: 99
 score:
   band: strong
   composite: 57.6
@@ -260,7 +315,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/screenshots/abnormal-2026-08-07T160818.png
 security:

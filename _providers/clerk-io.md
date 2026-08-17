@@ -1,34 +1,37 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Usage-Based
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
-  trial: false
+  - https://www.clerk.io/pricing
+  - https://www.clerk.io/free-trial
+  - plans/clerk-io-plans-pricing.yml
+  trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
+  score: 53.6
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'The Clerk.io API provides REST endpoints for managing products, categories, orders, customers, recommendations, and search. The API uses a dual-key authentication model: a public key identifies the st'
@@ -37,8 +40,16 @@ apis:
 - description: Clerk.js is the browser-side JavaScript library for embedding Clerk.io recommendation slots, search, and email opens on a storefront, with Liquid templating support and event tracking.
   name: Clerk.js Client Library
   slug: clerkjs
-artifact_total: 9
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Clerk.io API
+  slug: open-clerk-io
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/clerk-io-authentication.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -107,6 +118,98 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.clerk.io/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/clerk-io-llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.clerk.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.clerk.io/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.clerk.io/docs/how-the-clerkio-platform-works
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.clerk.io/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.clerk.io/free-trial
+- group: start
+  title: ''
+  type: Login
+  url: https://my.clerk.io/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clerk-io-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/clerk-io-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/clerk-io-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/clerk-io-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clerk-io-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/clerk-io-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.clerk.io/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/clerk-io-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/clerk-io-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/clerk-io-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/clerk-io-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/clerk-io-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/clerk-io-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/clerk-io-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/clerk-io-finops.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2025-02-08'
 description: Clerk.io is an e-commerce personalization platform that uses artificial intelligence and machine learning to deliver tailored product recommendations, on-site search results, audience-segmented email campaigns, and merchandising controls for online retailers. The platform exposes a REST API for product, category, order, and customer data ingestion, plus client-side JavaScript and Liquid templating for recommendation slots and search experiences.
 finops:
@@ -120,7 +223,11 @@ jsonld:
   property_count: 5
   slug: clerk-io-context
 layout: provider
-modified: '2026-04-26'
+mcp_servers:
+- description: ''
+  name: clerk-io-mcp.yml
+  slug: clerk-io-mcpyml
+modified: '2026-08-13'
 name: Clerk.io
 nav: Providers
 network: true
@@ -130,14 +237,14 @@ overview: 'Clerk.io publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Clerk.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clerk.io''s developer surface includes documentation, engineering blog, pricing, and 14 more developer resources.'
+  Clerk.io''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 34 more developer resources.'
 plans:
 - name: Clerk Io Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: clerk-io-plans-pricing
-random_paper: 70
+random_paper: 45
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Clerk Io Rate Limits
   slug: clerk-io-rate-limits
 rules:
@@ -150,16 +257,16 @@ rules:
     warn: 4
   slug: clerk-io-rules
 score:
-  band: thin
-  composite: 38.3
-  delta: 0.0
+  band: strong
+  composite: 61.1
+  delta: 22.8
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 48.4
-    developer_ergonomics: 10.9
-    discoverability: 66.7
-    governance: 20.8
-    operational_transparency: 28.9
+    commercial_clarity: 76.3
+    contract_quality: 62.7
+    developer_ergonomics: 73.9
+    discoverability: 75.9
+    governance: 41.7
+    operational_transparency: 21.1
   previous_composite: 38.3
   provenance:
     contracts:
@@ -168,10 +275,14 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/screenshots/clerk-io-2026-06-20T174507.png
 security:
+- kind: authentication
+  name: Clerk Io Authentication
+  slug: clerk-io-authentication
+  summary_line: apiKey · 3 schemes
 - kind: domain-security
   name: Clerk Io Domain Security
   slug: clerk-io-domain-security

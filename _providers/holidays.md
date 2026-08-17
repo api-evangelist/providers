@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
 - description: Working / business day calculations honoring country workweeks and holidays.
   name: Holiday API Workdays API
   slug: holidays-workdays-api
-artifact_total: 52
+artifact_total: 57
 collections:
 - collection_type: postman
   name: Holiday Countries API
@@ -64,6 +64,21 @@ collections:
 - collection_type: postman
   name: Holiday Countries Workdays API
   slug: postman-holidays-workdays-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Holiday Countries API
+  slug: open-holidays-countries-api
+- collection_type: open
+  name: Holiday Countries Holidays API
+  slug: open-holidays-holidays-api
+- collection_type: open
+  name: Holiday Countries Languages API
+  slug: open-holidays-languages-api
+- collection_type: open
+  name: Holiday Countries Workdays API
+  slug: open-holidays-workdays-api
 common:
 - group: build
   title: ''
@@ -284,7 +299,7 @@ plans:
 - name: Holidays Plans Pricing
   plan_count: 3
   slug: holidays-plans-pricing
-random_paper: 21
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: Holidays Rate Limits
@@ -326,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/screenshots/holidays-2026-06-20T182809.png
 security:

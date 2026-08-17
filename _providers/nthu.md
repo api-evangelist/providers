@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: The Newsletters API from National Tsing Hua University — 2 operation(s) for newsletters.
   name: National Tsing Hua University Newsletters API
   slug: nthu-newsletters-api
-artifact_total: 32
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NTHU Data Announcements API
+  slug: open-nthu-announcements-api
+- collection_type: open
+  name: NTHU Data Announcements Buses API
+  slug: open-nthu-buses-api
+- collection_type: open
+  name: NTHU Data Announcements Courses API
+  slug: open-nthu-courses-api
+- collection_type: open
+  name: NTHU Data Announcements Departments API
+  slug: open-nthu-departments-api
+- collection_type: open
+  name: NTHU Data Announcements Dining API
+  slug: open-nthu-dining-api
+- collection_type: open
+  name: NTHU Data Announcements Energy API
+  slug: open-nthu-energy-api
+- collection_type: open
+  name: NTHU Data Announcements Libraries API
+  slug: open-nthu-libraries-api
+- collection_type: open
+  name: NTHU Data Announcements Locations API
+  slug: open-nthu-locations-api
+- collection_type: open
+  name: NTHU Data Announcements Newsletters API
+  slug: open-nthu-newsletters-api
 common:
 - group: commercial
   title: ''
@@ -183,7 +214,7 @@ plans:
 - name: Nthu Plans Pricing
   plan_count: 2
   slug: nthu-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Nthu Rate Limits
@@ -231,7 +262,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png
 security:

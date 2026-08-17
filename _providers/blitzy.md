@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -72,7 +72,7 @@ name: Blitzy
 nav: Providers
 network: true
 overview: Blitzy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Artificial Intelligence, Software Development, and Code Generation.
-random_paper: 70
+random_paper: 74
 score:
   band: minimal
   composite: 9.5
@@ -86,7 +86,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 9.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blitzy/refs/heads/main/screenshots/blitzy-2026-07-25T203329.png
 security:

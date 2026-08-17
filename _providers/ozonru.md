@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RPC-over-HTTP JSON API for OZON marketplace sellers to manage products, prices, stock, warehouses, orders (FBO/FBS), returns, analytics, and finances. POST-only endpoints under a per-operation version
@@ -92,7 +92,7 @@ overview: 'OZON.ru publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   OZON.ru''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 85
+random_paper: 89
 score:
   band: emerging
   composite: 13.8
@@ -108,7 +108,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

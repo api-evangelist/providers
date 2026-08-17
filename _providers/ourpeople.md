@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Inspect broadcasts, deliveries, and recipient engagement.
   name: OurPeople Broadcasts API
   slug: ourpeople-broadcasts-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OurPeople Authentication API
+  slug: open-ourpeople-authentication-api
+- collection_type: open
+  name: OurPeople Authentication Broadcasts API
+  slug: open-ourpeople-broadcasts-api
 - collection_type: open
   name: OurPeople API
   slug: open-ourpeople
@@ -107,7 +116,7 @@ plans:
 - name: Ourpeople Plans Pricing
   plan_count: 3
   slug: ourpeople-plans-pricing
-random_paper: 27
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Ourpeople Rate Limits
@@ -132,7 +141,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/screenshots/ourpeople-2026-06-20T191224.png
 security:

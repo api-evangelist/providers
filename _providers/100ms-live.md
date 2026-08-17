@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 8
@@ -75,7 +75,7 @@ apis:
 - description: Per-room RTMP ingest stream keys.
   name: 100ms Stream Keys API
   slug: 100ms-live-stream-keys-api
-artifact_total: 44
+artifact_total: 57
 collections:
 - collection_type: postman
   name: 100ms Server-Side Active Rooms API
@@ -114,8 +114,47 @@ collections:
   name: 100ms Server-Side Active Rooms Stream Keys API
   slug: postman-100ms-live-stream-keys-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 100ms Server-Side Active Rooms API
+  slug: open-100ms-live-active-rooms-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms Analytics API
+  slug: open-100ms-live-analytics-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms External Streams API
+  slug: open-100ms-live-external-streams-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms Live Streams API
+  slug: open-100ms-live-live-streams-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms Policy API
+  slug: open-100ms-live-policy-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms Polls API
+  slug: open-100ms-live-polls-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms Recording Assets API
+  slug: open-100ms-live-recording-assets-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms Recordings API
+  slug: open-100ms-live-recordings-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms Room Codes API
+  slug: open-100ms-live-room-codes-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms API
+  slug: open-100ms-live-rooms-api
+- collection_type: open
   name: 100ms Server-Side API
   slug: open-100ms-live-server-side-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms Sessions API
+  slug: open-100ms-live-sessions-api
+- collection_type: open
+  name: 100ms Server-Side Active Rooms Stream Keys API
+  slug: open-100ms-live-stream-keys-api
 common:
 - group: build
   title: ''
@@ -305,7 +344,7 @@ plans:
 - name: 100Ms Live Plans Pricing
   plan_count: 3
   slug: 100ms-live-plans-pricing
-random_paper: 6
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: 100Ms Live Rate Limits
@@ -347,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/screenshots/100ms-live-2026-06-20T162232.png
 security:

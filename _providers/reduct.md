@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'RESTful API (version 3) providing broad access across a Reduct workspace: projects, recordings, media, redactions and redaction motions, highlights, comments, and reels, plus transcript retrieval, tra'
@@ -140,7 +140,7 @@ overview: 'Reduct publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Reduct''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 47
+random_paper: 51
 score:
   band: thin
   composite: 34.4
@@ -156,7 +156,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

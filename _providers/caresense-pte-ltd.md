@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Caresense Pte. Ltd. is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Caresense Pte. Ltd.''s developer surface includes support, signup flow, and 10 more developer resources.'
-random_paper: 16
+random_paper: 57
 score:
   band: emerging
   composite: 13.8
@@ -111,7 +111,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caresense-pte-ltd/refs/heads/main/screenshots/caresense-pte-ltd-2026-07-25T204555.png
 security:

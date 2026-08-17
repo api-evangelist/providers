@@ -1,49 +1,48 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup, 14-day trial, API from the Pro plan up
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
   - authentication
-  trial: false
+  - plans
+  - rate-limits
+  trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 56.3
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
-- description: HTTP API to programmatically create custom and dynamic QR Codes (20+ types), manage landing pages and forms, retrieve real-time scan analytics (device, location, timing), and configure webhooks. Token
+- description: REST API (v2.0) to programmatically create static and dynamic QR Codes across 20+ campaign types, apply design templates, generate codes in bulk from CSV/XLSX, manage Digital Business Cards, leads and
   name: Uniqode QR Code API
   slug: uniqode-qr-code-api
-artifact_total: 5
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Beaconstac Webhooks
   slug: beaconstac-webhooks
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/beaconstac-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -60,6 +59,18 @@ common:
   title: ''
   type: APIReference
   url: https://apidocs.uniqode.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.uniqode.com/en/articles/6064771-getting-started-with-static-and-dynamic-qr-code-api
+- group: build
+  title: ''
+  type: Postman
+  url: https://apidocs.uniqode.com/
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/beaconstac-uniqode-api.postman_collection.json
 - group: company
   title: ''
   type: Blog
@@ -68,10 +79,18 @@ common:
   title: ''
   type: Support
   url: https://docs.uniqode.com/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://docs.uniqode.com/
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.uniqode.com/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/beaconstac-plans-pricing.yml
 - group: start
   title: ''
   type: SignUp
@@ -91,11 +110,15 @@ common:
 - group: build
   title: ''
   type: GitHubOrganization
-  url: https://github.com/beaconstac
+  url: https://github.com/mobstac
 - group: operate
   title: ''
   type: StatusPage
   url: https://status.uniqode.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/beaconstac-changelog.yml
 - group: auth
   title: ''
   type: Compliance
@@ -110,8 +133,28 @@ common:
   url: conformance/beaconstac-conformance.yml
 - group: auth
   title: ''
+  type: DomainSecurity
+  url: security/beaconstac-domain-security.yml
+- group: auth
+  title: ''
   type: Authentication
   url: authentication/beaconstac-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/beaconstac-scopes.yml
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: https://auth.uniqode.com/.well-known/openid-configuration
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/beaconstac-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: design
   title: ''
   type: Lifecycle
@@ -120,6 +163,18 @@ common:
   title: ''
   type: Conventions
   url: conventions/beaconstac-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/beaconstac-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/beaconstac-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/beaconstac-rate-limits.yml
 - group: design
   title: ''
   type: Webhooks
@@ -141,32 +196,49 @@ common:
   type: LLMsTxt
   url: llms/beaconstac-llms.txt
 created: '2026-07-17'
-description: Beaconstac (now Uniqode) is a B2B SaaS platform for creating, customizing, and tracking dynamic QR Codes and Digital Business Cards at scale, connecting physical touchpoints to measurable digital experiences for 50,000+ brands. Its HTTP API lets developers programmatically create 20+ QR Code types (static and dynamic), manage landing pages and forms, retrieve real-time scan analytics (device, location, timing), and configure webhooks. Authentication is a dashboard-issued API token sent in the Authorization header alongside an Organization ID. The company is SOC 2 Type II, ISO 27001:2022, HIPAA, and GDPR compliant. Formerly MobStac / Beaconstac; backed by Accel.
+description: Beaconstac (now Uniqode) is a B2B SaaS platform for creating, customizing, and tracking dynamic QR Codes and Digital Business Cards at scale, connecting physical touchpoints to measurable digital experiences for 50,000+ brands. Its REST API (v2.0) covers QR Codes and templates, bulk CSV generation, Digital Business Cards, leads, wallet passes, feedback forms, tags, places, media, organizations, users and webhooks, plus a separate RPC reporting endpoint for scan analytics; the contract is published as a 96-request Postman collection rather than an OpenAPI. REST auth is a dashboard-issued token in the Authorization header plus an Organization ID, gated to the Pro plan and above at 10-100 requests/second by tier. Uniqode also runs a hosted, OAuth-protected MCP server at mcp.uniqode.com for QR management and analytics from Claude. SOC 2 Type II, ISO 27001:2022, HIPAA and GDPR compliant. Formerly MobStac / Beaconstac; backed by Accel.
 image: https://cdn.prod.website-files.com/6669ecc72092c5122374cf32/6731094d55afbe708065f595_uniqode-opengraph.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: beaconstac-mcp.yml
+  slug: beaconstac-mcpyml
+modified: '2026-08-13'
 name: Beaconstac
 nav: Providers
 network: true
-overview: 'Beaconstac publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, QR Codes, Digital Business Cards, and Marketing.
+overview: 'Beaconstac publishes 1 API on the [APIs.io](https://apis.io/) network: Uniqode QR Code API. Tagged areas include Company, Big Data, QR Codes, Digital Business Cards, and Marketing.
 
 
   The Beaconstac catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beaconstac''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 83
+  Beaconstac''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Beaconstac Plans Pricing
+  plan_count: 0
+  slug: beaconstac-plans-pricing
+random_paper: 0
+rate_limits:
+- limit_count: 3
+  name: Beaconstac Rate Limits
+  slug: beaconstac-rate-limits
+scopes:
+- name: Beaconstac Scopes
+  scope_count: 6
+  slug: beaconstac-scopes
+  summary_line: 6 scopes
 score:
-  band: developing
-  composite: 46.2
-  delta: 0.0
+  band: strong
+  composite: 59.9
+  delta: 13.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
-    developer_ergonomics: 41.3
-    discoverability: 75.9
+    developer_ergonomics: 71.7
+    discoverability: 87.0
     governance: 12.5
-    operational_transparency: 28.9
+    operational_transparency: 76.3
   previous_composite: 46.2
   provenance:
     conformance: first-party
@@ -175,16 +247,16 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
+    score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/screenshots/beaconstac-2026-07-25T202531.png
 security:
 - kind: authentication
   name: Beaconstac Authentication
   slug: beaconstac-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey/oauth2/openIdConnect · 4 schemes
 - kind: domain-security
   name: Beaconstac Domain Security
   slug: beaconstac-domain-security
@@ -192,7 +264,7 @@ security:
 - kind: trust-center
   name: Beaconstac Trust Center
   slug: beaconstac-trust-center
-  summary_line: SOC 2 Type I, SOC 2 Type II, ISO 27001:2022, HIPAA, GDPR
+  summary_line: SOC 2 Type I, SOC 2 Type II, ISO 27001:2022, HIPAA, GDPR, UK GDPR
 slug: beaconstac
 tags:
 - Company
@@ -203,5 +275,7 @@ tags:
 - Analytics
 - SaaS
 - Proximity
+- Webhooks
+- MCP
 website: https://www.uniqode.com
 ---

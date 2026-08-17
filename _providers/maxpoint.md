@@ -27,36 +27,59 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
+coverage:
+  checked: '2026-08-13'
+  detail: MaxPoint Interactive was acquired by Valassis in August 2017 and the brand was retired inside Valassis Digital/Vericast; maxpoint.com and maxpointinteractive.com now resolve to a parked host at 209.59.188.22 that answers a bare Apache 403 Forbidden on every path including "/" and /robots.txt, and the github.com/maxpoint organization has 0 public repos and forwards to a handle since reclaimed by an unrelated company.
+  evidence:
+  - status: 403
+    url: https://maxpoint.com/
+  - status: 403
+    url: https://maxpoint.com/.well-known/security.txt
+  - status: 403
+    url: https://maxpoint.com/openapi.json
+  - status: 403
+    url: https://maxpointinteractive.com/
+  - status: 200
+    url: https://api.github.com/orgs/maxpoint
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: 'MaxPoint is a company surfaced as a portfolio company of trinity-ventures and added to the API Evangelist network as a stub for enrichment. Sector: marketing. This profile is a lead awaiting the enrichment pipeline.'
+description: 'MaxPoint (MaxPoint Interactive, Inc.) was a Morrisville, North Carolina marketing technology company that built a hyperlocal programmatic advertising platform, matching neighborhood-level ("Digital Zip") consumer intelligence to online media buys so brands and retailers could tie digital advertising to in-store sales. It was funded by Trinity Ventures among others, went public on the NYSE as MXPT in March 2015, and was acquired by Valassis Communications in August 2017 for roughly $95 million, where it was folded into Valassis Digital. Valassis was later unified under the Vericast brand, which divested its adtech business in 2024. MaxPoint no longer operates as an independent company or product line: maxpoint.com and maxpointinteractive.com are dead hosts returning HTTP 403 on every path with a mismatched TLS certificate, api./developer./docs.maxpoint.com do not resolve, the github.com/maxpoint organization is empty and forwards to a handle now owned by an unrelated company,
+  and valassisdigital.com is NXDOMAIN. There is no public API, developer program, or machine-readable contract to profile.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maxpoint.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-13'
 name: MaxPoint
 nav: Providers
 network: true
-overview: MaxPoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Marketing.
-random_paper: 40
+overview: MaxPoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Advertising, AdTech, and Programmatic Advertising.
+random_paper: 135
 score:
   band: minimal
-  composite: 4.1
-  delta: 0.0
+  composite: 5.0
+  delta: 0.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 40.7
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: maxpoint
 tags:
 - Company
 - Marketing
+- Advertising
+- AdTech
+- Programmatic Advertising
+- Retail Media
+- Acquired
+- Defunct
 ---

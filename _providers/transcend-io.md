@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: GraphQL API and Developer Tools wrapper for non-personal data tasks such as creating data silos, account management, and other configuration operations on the Transcend platform.
@@ -64,7 +64,35 @@ apis:
 - description: The Transcend API API from Transcend — 0 operation(s) for transcend api.
   name: Transcend Transcend API API
   slug: transcend-io-transcend-api-api
-artifact_total: 35
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Transcend Consent API
+  slug: open-transcend-io-consent-api
+- collection_type: open
+  name: Transcend Custom Integration API
+  slug: open-transcend-io-custom-integration-api
+- collection_type: open
+  name: Transcend Data Subject Request API
+  slug: open-transcend-io-data-subject-request-api
+- collection_type: open
+  name: Transcend LLM Classifier API
+  slug: open-transcend-io-llm-classifier-api
+- collection_type: open
+  name: Transcend Preferences API
+  slug: open-transcend-io-preferences-api
+- collection_type: open
+  name: Transcend Preflight API
+  slug: open-transcend-io-preflight-api
+- collection_type: open
+  name: Transcend Public Keys API
+  slug: open-transcend-io-public-keys-api
+- collection_type: open
+  name: Transcend Transcend API API
+  slug: open-transcend-io-transcend-api-api
 common:
 - group: auth
   title: ''
@@ -251,7 +279,7 @@ plans:
 - name: Transcend Io Plans Pricing
   plan_count: 5
   slug: transcend-io-plans-pricing
-random_paper: 23
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Transcend Io Rate Limits
@@ -292,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/screenshots/transcend-io-2026-06-20T195548.png
 security:

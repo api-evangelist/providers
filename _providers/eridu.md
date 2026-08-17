@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,29 @@ apis:
 - description: Public oEmbed 1.0 provider endpoint for eridu.ai URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any published post or page.
   name: Eridu oEmbed API
   slug: eridu-oembed-api
-artifact_total: 12
+artifact_total: 19
+collections:
+- collection_type: open
+  name: Eridu Content API
+  slug: open-eridu-content-api
+- collection_type: open
+  name: Eridu Discovery API
+  slug: open-eridu-discovery-api
+- collection_type: open
+  name: Eridu Media API
+  slug: open-eridu-media-api
+- collection_type: open
+  name: Eridu oEmbed API
+  slug: open-eridu-oembed-api
+- collection_type: open
+  name: Eridu Pages API
+  slug: open-eridu-pages-api
+- collection_type: open
+  name: Eridu Search API
+  slug: open-eridu-search-api
+- collection_type: open
+  name: Eridu Taxonomy API
+  slug: open-eridu-taxonomy-api
 common:
 - group: company
   title: ''
@@ -193,7 +215,7 @@ plans:
 - name: Eridu Plans Pricing
   plan_count: 0
   slug: eridu-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
 - limit_count: 0
   name: Eridu Rate Limits
@@ -201,6 +223,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 56.7
@@ -208,8 +231,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 33.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Eridu Authentication

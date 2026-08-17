@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,11 +56,29 @@ apis:
 - description: Service management within applications
   name: Service Fabric Services API
   slug: service-fabric-services-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Service Fabric Cluster Management Applications API
+  slug: open-service-fabric-applications-api
+- collection_type: open
+  name: Service Fabric Management Applications Cluster API
+  slug: open-service-fabric-cluster-api
 - collection_type: open
   name: Service Fabric Cluster Management API
   slug: open-service-fabric-cluster
+- collection_type: open
+  name: Service Fabric Cluster Management Applications Health API
+  slug: open-service-fabric-health-api
+- collection_type: open
+  name: Service Fabric Cluster Management Applications Nodes API
+  slug: open-service-fabric-nodes-api
+- collection_type: open
+  name: Service Fabric Cluster Management Applications Services API
+  slug: open-service-fabric-services-api
 common:
 - group: agent
   title: ''
@@ -173,7 +191,7 @@ plans:
 - name: Service Fabric Plans Pricing
   plan_count: 3
   slug: service-fabric-plans-pricing
-random_paper: 93
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Service Fabric Rate Limits
@@ -215,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/screenshots/service-fabric-2026-06-20T193724.png
 security:

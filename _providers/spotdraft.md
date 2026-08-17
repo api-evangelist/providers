@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -183,7 +183,7 @@ apis:
 - description: List users, list roles, manage role membership, invite users, and update user access across public API versions.
   name: SpotDraft V2 Users API
   slug: spotdraft-v2-users-api
-artifact_total: 116
+artifact_total: 165
 collections:
 - collection_type: postman
   name: SpotDraft V1 Contract APIs API
@@ -329,6 +329,153 @@ collections:
 - collection_type: postman
   name: SpotDraft V1 Contract APIs V2 Users API
   slug: postman-spotdraft-v2-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SpotDraft V1 Contract APIs API
+  slug: open-spotdraft-v1-contract-apis-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V1 Emails API
+  slug: open-spotdraft-v1-emails-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V1 Legal Intake API
+  slug: open-spotdraft-v1-legal-intake-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V1 Native Integrations API
+  slug: open-spotdraft-v1-native-integrations-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V1 Obligation Types API
+  slug: open-spotdraft-v1-obligation-types-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V1 Templates API
+  slug: open-spotdraft-v1-templates-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V1 Users API
+  slug: open-spotdraft-v1-users-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V1 Webhooks API
+  slug: open-spotdraft-v1-webhooks-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Analytics Query API
+  slug: open-spotdraft-v2-1-analytics-query-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Clickwrap API
+  slug: open-spotdraft-v2-1-clickwrap-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Activity API
+  slug: open-spotdraft-v2-1-contract-activity-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract APIs API
+  slug: open-spotdraft-v2-1-contract-apis-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Approvals API
+  slug: open-spotdraft-v2-1-contract-approvals-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract External Metadata API
+  slug: open-spotdraft-v2-1-contract-external-metadata-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Facets API
+  slug: open-spotdraft-v2-1-contract-facets-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Invitations API
+  slug: open-spotdraft-v2-1-contract-invitations-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Metadata Definitions API
+  slug: open-spotdraft-v2-1-contract-metadata-definitions-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Metadata Values API
+  slug: open-spotdraft-v2-1-contract-metadata-values-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Notes API
+  slug: open-spotdraft-v2-1-contract-notes-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Obligations API
+  slug: open-spotdraft-v2-1-contract-obligations-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Types API
+  slug: open-spotdraft-v2-1-contract-types-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Contract Versions API
+  slug: open-spotdraft-v2-1-contract-versions-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Counterparties API
+  slug: open-spotdraft-v2-1-counterparties-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Organizations API
+  slug: open-spotdraft-v2-1-organizations-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Recipients API
+  slug: open-spotdraft-v2-1-recipients-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Sidebar API
+  slug: open-spotdraft-v2-1-sidebar-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Tasks and Reminders API
+  slug: open-spotdraft-v2-1-tasks-and-reminders-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Templates API
+  slug: open-spotdraft-v2-1-templates-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Users API
+  slug: open-spotdraft-v2-1-users-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Webhooks API
+  slug: open-spotdraft-v2-1-webhooks-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Workspace Files API
+  slug: open-spotdraft-v2-1-workspace-files-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Workspace Tags API
+  slug: open-spotdraft-v2-1-workspace-tags-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2.1 Workspaces API
+  slug: open-spotdraft-v2-1-workspaces-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Contract Activity API
+  slug: open-spotdraft-v2-contract-activity-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Contract APIs API
+  slug: open-spotdraft-v2-contract-apis-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Contract Approvals API
+  slug: open-spotdraft-v2-contract-approvals-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Contract Invitations API
+  slug: open-spotdraft-v2-contract-invitations-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Contract Metadata Definitions API
+  slug: open-spotdraft-v2-contract-metadata-definitions-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Contract Metadata Values API
+  slug: open-spotdraft-v2-contract-metadata-values-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Contract Notes API
+  slug: open-spotdraft-v2-contract-notes-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Contract Types API
+  slug: open-spotdraft-v2-contract-types-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Contract Versions API
+  slug: open-spotdraft-v2-contract-versions-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Counterparties API
+  slug: open-spotdraft-v2-counterparties-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Organizations API
+  slug: open-spotdraft-v2-organizations-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Recipients API
+  slug: open-spotdraft-v2-recipients-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Tasks and Reminders API
+  slug: open-spotdraft-v2-tasks-and-reminders-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Templates API
+  slug: open-spotdraft-v2-templates-api
+- collection_type: open
+  name: SpotDraft V1 Contract APIs V2 Users API
+  slug: open-spotdraft-v2-users-api
 - collection_type: open
   name: SpotDraft API
   slug: open-spotdraft
@@ -483,7 +630,7 @@ plans:
 - name: Spotdraft Plans Pricing
   plan_count: 4
   slug: spotdraft-plans-pricing
-random_paper: 23
+random_paper: 89
 rate_limits:
 - limit_count: 0
   name: Spotdraft Rate Limits
@@ -525,7 +672,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/screenshots/spotdraft-2026-06-20T194352.png
 security:

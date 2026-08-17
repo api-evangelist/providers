@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 0
@@ -152,8 +152,119 @@ apis:
 - description: Operations for TroubleTicketSpecification Resource
   name: TM Forum troubleTicketSpecification API
   slug: tm-forum-troubleticketspecification-api
-artifact_total: 1563
+artifact_total: 1602
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Product Catalog Management agreement API
+  slug: open-tm-forum-agreement-api
+- collection_type: open
+  name: Product Catalog Management agreement agreementSpecification API
+  slug: open-tm-forum-agreementspecification-api
+- collection_type: open
+  name: Product Catalog Management agreement billFormat API
+  slug: open-tm-forum-billformat-api
+- collection_type: open
+  name: Product Catalog Management agreement billingAccount API
+  slug: open-tm-forum-billingaccount-api
+- collection_type: open
+  name: Product Catalog Management agreement billingCycleSpecification API
+  slug: open-tm-forum-billingcyclespecification-api
+- collection_type: open
+  name: Product Catalog Management agreement billPresentationMedia API
+  slug: open-tm-forum-billpresentationmedia-api
+- collection_type: open
+  name: Product Catalog Management agreement cancelProductOrder API
+  slug: open-tm-forum-cancelproductorder-api
+- collection_type: open
+  name: Product Catalog Management agreement cancelServiceOrder API
+  slug: open-tm-forum-cancelserviceorder-api
+- collection_type: open
+  name: Product Catalog Management agreement category API
+  slug: open-tm-forum-category-api
+- collection_type: open
+  name: Product Catalog Management agreement customer API
+  slug: open-tm-forum-customer-api
+- collection_type: open
+  name: Product Catalog Management agreement events subscription API
+  slug: open-tm-forum-events-subscription-api
+- collection_type: open
+  name: Product Catalog Management agreement exportJob API
+  slug: open-tm-forum-exportjob-api
+- collection_type: open
+  name: Product Catalog Management agreement financialAccount API
+  slug: open-tm-forum-financialaccount-api
+- collection_type: open
+  name: Product Catalog Management agreement importJob API
+  slug: open-tm-forum-importjob-api
+- collection_type: open
+  name: Product Catalog Management agreement individual API
+  slug: open-tm-forum-individual-api
+- collection_type: open
+  name: Product Catalog Management agreement notification listener API
+  slug: open-tm-forum-notification-listener-api
+- collection_type: open
+  name: Product Catalog Management agreement notification listeners (client side) API
+  slug: open-tm-forum-notification-listeners-client-side-api
+- collection_type: open
+  name: Product Catalog Management agreement organization API
+  slug: open-tm-forum-organization-api
+- collection_type: open
+  name: Product Catalog Management agreement partyAccount API
+  slug: open-tm-forum-partyaccount-api
+- collection_type: open
+  name: Catalog Management agreement product API
+  slug: open-tm-forum-product-api
+- collection_type: open
+  name: Product Catalog Management agreement productCatalog API
+  slug: open-tm-forum-productcatalog-api
+- collection_type: open
+  name: Product Catalog Management agreement productOffering API
+  slug: open-tm-forum-productoffering-api
+- collection_type: open
+  name: Product Catalog Management agreement productOfferingPrice API
+  slug: open-tm-forum-productofferingprice-api
+- collection_type: open
+  name: Product Catalog Management agreement productOrder API
+  slug: open-tm-forum-productorder-api
+- collection_type: open
+  name: Product Catalog Management agreement productSpecification API
+  slug: open-tm-forum-productspecification-api
+- collection_type: open
+  name: Product Catalog Management agreement quote API
+  slug: open-tm-forum-quote-api
+- collection_type: open
+  name: Product Catalog Management agreement resourceCandidate API
+  slug: open-tm-forum-resourcecandidate-api
+- collection_type: open
+  name: Product Catalog Management agreement resourceCatalog API
+  slug: open-tm-forum-resourcecatalog-api
+- collection_type: open
+  name: Product Catalog Management agreement resourceCategory API
+  slug: open-tm-forum-resourcecategory-api
+- collection_type: open
+  name: Product Catalog Management agreement resourceSpecification API
+  slug: open-tm-forum-resourcespecification-api
+- collection_type: open
+  name: Product Catalog Management agreement serviceCandidate API
+  slug: open-tm-forum-servicecandidate-api
+- collection_type: open
+  name: Product Catalog Management agreement serviceCatalog API
+  slug: open-tm-forum-servicecatalog-api
+- collection_type: open
+  name: Product Catalog Management agreement serviceCategory API
+  slug: open-tm-forum-servicecategory-api
+- collection_type: open
+  name: Product Catalog Management agreement serviceOrder API
+  slug: open-tm-forum-serviceorder-api
+- collection_type: open
+  name: Product Catalog Management agreement serviceSpecification API
+  slug: open-tm-forum-servicespecification-api
+- collection_type: open
+  name: Product Catalog Management agreement settlementAccount API
+  slug: open-tm-forum-settlementaccount-api
 - collection_type: open
   name: Service Catalog Management
   slug: open-tm-forum-tmf633-service-catalog
@@ -172,6 +283,12 @@ collections:
 - collection_type: open
   name: Account Management
   slug: open-tm-forum-tmf666-account-management
+- collection_type: open
+  name: Product Catalog Management agreement troubleTicket API
+  slug: open-tm-forum-troubleticket-api
+- collection_type: open
+  name: Product Catalog Management agreement troubleTicketSpecification API
+  slug: open-tm-forum-troubleticketspecification-api
 common:
 - group: agent
   title: ''
@@ -4758,7 +4875,7 @@ plans:
 - name: Tm Forum Plans Pricing
   plan_count: 1
   slug: tm-forum-plans-pricing
-random_paper: 103
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Tm Forum Rate Limits
@@ -4806,7 +4923,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/screenshots/tm-forum-2026-06-20T195425.png
 security:

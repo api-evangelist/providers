@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -66,11 +66,39 @@ apis:
 - description: The Send API from Dialect — 4 operation(s) for send.
   name: Dialect Send API
   slug: dialect-send-api
-artifact_total: 14
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Dialect Webhooks
   slug: dialect-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dialect Alerts V2 Blink API
+  slug: open-dialect-blink-api
+- collection_type: open
+  name: Dialect Alerts V2 Blink Blink Data Table API
+  slug: open-dialect-blink-data-table-api
+- collection_type: open
+  name: Dialect Alerts V2 Blink Blink Lists API
+  slug: open-dialect-blink-lists-api
+- collection_type: open
+  name: Dialect Alerts V2 Blink Channels API
+  slug: open-dialect-channels-api
+- collection_type: open
+  name: Dialect Alerts V2 Blink Inbox API
+  slug: open-dialect-inbox-api
+- collection_type: open
+  name: Dialect Alerts V2 Blink Markets API
+  slug: open-dialect-markets-api
+- collection_type: open
+  name: Dialect Alerts V2 Blink Positions API
+  slug: open-dialect-positions-api
+- collection_type: open
+  name: Dialect Alerts V2 Blink Send API
+  slug: open-dialect-send-api
 common:
 - group: build
   title: ''
@@ -219,7 +247,7 @@ overview: 'Dialect publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Dialect''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
-random_paper: 6
+random_paper: 130
 score:
   band: developing
   composite: 49.6
@@ -249,7 +277,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/screenshots/dialect-2026-07-25T211909.png
 security:

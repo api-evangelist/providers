@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Two Model Context Protocol servers exposed from the Tune Therapeutics corporate WordPress site via the WordPress MCP Adapter plugin, backed by the WordPress Abilities API. Both endpoints are live and '
@@ -94,7 +94,7 @@ overview: 'Tune Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Tune Therapeutics'' developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 106
+random_paper: 147
 scopes:
 - name: Tune Therapeutics Scopes
   scope_count: 0
@@ -122,7 +122,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

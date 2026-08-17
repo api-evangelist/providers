@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Core API from Neurable — 2 operation(s) for core.
@@ -36,7 +36,35 @@ apis:
 - description: The protected API from Neurable — 5 operation(s) for protected.
   name: Neurable Protected API
   slug: neurable-protected-api
-artifact_total: 9
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Analytics Service
+  slug: open-neurable-analytics-service
+- collection_type: open
+  name: Brain Health Service
+  slug: open-neurable-brain-health-service
+- collection_type: open
+  name: neu-pipe-service Core API
+  slug: open-neurable-core-api
+- collection_type: open
+  name: neu-pipe-service O Auth API
+  slug: open-neurable-oauth-api
+- collection_type: open
+  name: neu-pipe-service OIDC API
+  slug: open-neurable-oidc-api
+- collection_type: open
+  name: Analytics Service Open API
+  slug: open-neurable-open-api
+- collection_type: open
+  name: neu-pipe-service
+  slug: open-neurable-pipe-service
+- collection_type: open
+  name: Analytics Service Protected API
+  slug: open-neurable-protected-api
 common:
 - group: agent
   title: ''
@@ -139,7 +167,7 @@ overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Neurable''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 101
 scopes:
 - name: Neurable Scopes
   scope_count: 5
@@ -173,7 +201,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

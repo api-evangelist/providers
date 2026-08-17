@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: REST API behind Gist Answers. Creates chats against a publisher's licensed corpus, streams the answer back over Server-Sent Events, and returns the citations and the per-source attribution credit dist
@@ -42,7 +42,11 @@ apis:
 - description: Advertising delivery surface for Gist Ads. Publishers load the `adtag.js` bundle from tp-at.prorata.ai and call `window.prtag.defineSlot({id, api_key, url, geo}, slotId, sizes, adTypes)` to request co
   name: Gist Ads Ad Tag and Display Ad API
   slug: gist-ads-ad-tag-and-display-ad-api
-artifact_total: 11
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Prorata API Service
+  slug: open-gist-answers-api
 common:
 - group: company
   title: ''
@@ -195,7 +199,7 @@ plans:
 - name: Gist Plans Pricing
   plan_count: 0
   slug: gist-plans-pricing
-random_paper: 79
+random_paper: 141
 rate_limits:
 - limit_count: 1
   name: Gist Rate Limits
@@ -203,7 +207,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.6
-  delta: 39.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 54.1
@@ -211,10 +215,10 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 10.5
+  previous_composite: 49.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/screenshots/gist-2026-07-25T215832.png
 security:
 - kind: authentication

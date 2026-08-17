@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -87,8 +87,56 @@ apis:
 - description: The Tools API from Vapi — 2 operation(s) for tools.
   name: Vapi Tools API
   slug: vapi-tools-api
-artifact_total: 906
+artifact_total: 922
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vapi Analytics API
+  slug: open-vapi-analytics-api
+- collection_type: open
+  name: Vapi Analytics Assistants API
+  slug: open-vapi-assistants-api
+- collection_type: open
+  name: Vapi Analytics Calls API
+  slug: open-vapi-calls-api
+- collection_type: open
+  name: Vapi Analytics Campaigns API
+  slug: open-vapi-campaigns-api
+- collection_type: open
+  name: Vapi Analytics Chats API
+  slug: open-vapi-chats-api
+- collection_type: open
+  name: Vapi Analytics Eval API
+  slug: open-vapi-eval-api
+- collection_type: open
+  name: Vapi Analytics Files API
+  slug: open-vapi-files-api
+- collection_type: open
+  name: Vapi Analytics Insight API
+  slug: open-vapi-insight-api
+- collection_type: open
+  name: Vapi Analytics Observability/Scorecard API
+  slug: open-vapi-observability-scorecard-api
+- collection_type: open
+  name: Vapi Analytics Phone Numbers API
+  slug: open-vapi-phone-numbers-api
+- collection_type: open
+  name: Vapi Analytics Provider Resources API
+  slug: open-vapi-provider-resources-api
+- collection_type: open
+  name: Vapi Analytics Sessions API
+  slug: open-vapi-sessions-api
+- collection_type: open
+  name: Vapi Analytics Squads API
+  slug: open-vapi-squads-api
+- collection_type: open
+  name: Vapi Analytics Structured Outputs API
+  slug: open-vapi-structured-outputs-api
+- collection_type: open
+  name: Vapi Analytics Tools API
+  slug: open-vapi-tools-api
 - collection_type: open
   name: Vapi API
   slug: open-vapi
@@ -2813,7 +2861,7 @@ plans:
 - name: Vapi Plans Pricing
   plan_count: 2
   slug: vapi-plans-pricing
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 2
   name: Vapi Rate Limits
@@ -2853,7 +2901,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/screenshots/vapi-2026-06-20T200920.png
 security:

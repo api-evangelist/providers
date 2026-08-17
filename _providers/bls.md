@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: Retrieve single or multiple time series data
   name: Bureau of Labor Statistics Time Series API
   slug: bls-time-series-api
-artifact_total: 16
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BLS Public Data Surveys API
+  slug: open-bls-surveys-api
+- collection_type: open
+  name: BLS Public Data Surveys Time Series API
+  slug: open-bls-time-series-api
 common:
 - group: agent
   title: ''
@@ -163,7 +173,7 @@ plans:
 - name: Bls Plans Pricing
   plan_count: 2
   slug: bls-plans-pricing
-random_paper: 81
+random_paper: 23
 rate_limits:
 - limit_count: 6
   name: Bls Rate Limits
@@ -203,7 +213,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bls/refs/heads/main/screenshots/bls-2026-06-20T173523.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Asset supply and market-capitalization rankings.
   name: Kaiko Supply API
   slug: kaiko-supply-api
-artifact_total: 21
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Kaiko Market Data REST Canton Oracle API
@@ -77,6 +77,21 @@ collections:
 - collection_type: postman
   name: Kaiko Market Data REST Canton Oracle Supply API
   slug: postman-kaiko-supply-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kaiko Market Data REST Canton Oracle API
+  slug: open-kaiko-canton-oracle-api
+- collection_type: open
+  name: Kaiko Market Data REST Canton Oracle Index Reference Data API
+  slug: open-kaiko-index-reference-data-api
+- collection_type: open
+  name: Kaiko Market Data REST Canton Oracle Indices API
+  slug: open-kaiko-indices-api
+- collection_type: open
+  name: Kaiko Market Data REST Canton Oracle Supply API
+  slug: open-kaiko-supply-api
 - collection_type: open
   name: Kaiko Market Data REST API
   slug: open-kaiko
@@ -245,7 +260,7 @@ plans:
 - name: Kaiko Plans Pricing
   plan_count: 2
   slug: kaiko-plans-pricing
-random_paper: 47
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Kaiko Rate Limits
@@ -279,7 +294,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/screenshots/kaiko-2026-06-20T183855.png
 security:

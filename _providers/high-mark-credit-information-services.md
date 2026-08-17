@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'High Mark Credit Information Services is profiled on the [APIs.io](ht
 
 
   High Mark Credit Information Services'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 116
+random_paper: 140
 score:
   band: minimal
   composite: 11.0
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-mark-credit-information-services/refs/heads/main/screenshots/high-mark-credit-information-services-2026-07-25T221152.png
 security:

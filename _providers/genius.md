@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Web page lookup for the annotation network.
   name: Genius Web Pages API
   slug: genius-web-pages-api
-artifact_total: 35
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Genius Account API
+  slug: open-genius-account-api
+- collection_type: open
+  name: Genius Account Albums API
+  slug: open-genius-albums-api
+- collection_type: open
+  name: Genius Account Annotations API
+  slug: open-genius-annotations-api
+- collection_type: open
+  name: Genius Account Artists API
+  slug: open-genius-artists-api
+- collection_type: open
+  name: Genius Account Referents API
+  slug: open-genius-referents-api
+- collection_type: open
+  name: Genius Account Search API
+  slug: open-genius-search-api
+- collection_type: open
+  name: Genius Account Songs API
+  slug: open-genius-songs-api
+- collection_type: open
+  name: Genius Account Users API
+  slug: open-genius-users-api
+- collection_type: open
+  name: Genius Account Web Pages API
+  slug: open-genius-web-pages-api
 - collection_type: open
   name: Genius API
   slug: open-genius
@@ -215,7 +245,7 @@ plans:
 - name: Genius Plans Pricing
   plan_count: 1
   slug: genius-plans-pricing
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Genius Rate Limits
@@ -262,7 +292,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

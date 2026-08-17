@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The routes API from Walrus Protocol — 9 operation(s) for routes.
   name: Walrus Protocol routes API
   slug: walrus-protocol-routes-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Walrus Aggregator routes API
+  slug: open-walrus-protocol-routes-api
 common:
 - group: other
   title: ''
@@ -184,7 +191,7 @@ overview: 'Walrus Protocol publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Walrus Protocol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 26 more developer resources.'
-random_paper: 37
+random_paper: 107
 score:
   band: developing
   composite: 48.6
@@ -207,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

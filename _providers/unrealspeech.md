@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Asynchronous synthesis for long-form audio via submit-and-poll.
   name: Unreal Speech Synthesis Tasks API
   slug: unrealspeech-synthesis-tasks-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unreal Speech API
+  slug: open-unrealspeech-speech-api
+- collection_type: open
+  name: Unreal Speech Stream API
+  slug: open-unrealspeech-stream-api
+- collection_type: open
+  name: Unreal Speech Synthesis Tasks API
+  slug: open-unrealspeech-synthesis-tasks-api
 - collection_type: open
   name: Unreal Speech API
   slug: open-unrealspeech
@@ -114,7 +126,7 @@ plans:
 - name: Unrealspeech Plans Pricing
   plan_count: 6
   slug: unrealspeech-plans-pricing
-random_paper: 79
+random_paper: 87
 rate_limits:
 - limit_count: 7
   name: Unrealspeech Rate Limits
@@ -139,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

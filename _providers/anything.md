@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -80,7 +80,53 @@ apis:
 - description: The User API from Anything — 1 operation(s) for user.
   name: Anything User API
   slug: anything-user-api
-artifact_total: 18
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anything Assets API
+  slug: open-anything-assets-api
+- collection_type: open
+  name: Anything Assets Databases API
+  slug: open-anything-databases-api
+- collection_type: open
+  name: Anything Assets Deployments API
+  slug: open-anything-deployments-api
+- collection_type: open
+  name: Anything Assets Domains API
+  slug: open-anything-domains-api
+- collection_type: open
+  name: Anything Assets Files API
+  slug: open-anything-files-api
+- collection_type: open
+  name: Anything Assets Generation API
+  slug: open-anything-generation-api
+- collection_type: open
+  name: Anything Assets Logs API
+  slug: open-anything-logs-api
+- collection_type: open
+  name: Anything Assets Messages API
+  slug: open-anything-messages-api
+- collection_type: open
+  name: Anything Assets Mobile API
+  slug: open-anything-mobile-api
+- collection_type: open
+  name: Anything Assets Organizations API
+  slug: open-anything-organizations-api
+- collection_type: open
+  name: Anything Assets Projects API
+  slug: open-anything-projects-api
+- collection_type: open
+  name: Anything Assets Secrets API
+  slug: open-anything-secrets-api
+- collection_type: open
+  name: Anything Assets Settings API
+  slug: open-anything-settings-api
+- collection_type: open
+  name: Anything Assets User API
+  slug: open-anything-user-api
 common:
 - group: start
   title: ''
@@ -206,7 +252,7 @@ overview: 'Anything publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anything''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 26
+random_paper: 121
 score:
   band: developing
   composite: 44.1
@@ -230,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anything/refs/heads/main/screenshots/anything-2026-07-25T200512.png
 security:

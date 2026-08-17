@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: A first-party FFmpeg media-processing microservice Markerly runs on Google Cloud Run. It exposes two documented JSON/HTTP operations — a health check and a thumbnail generator that renders a JPEG fram
@@ -122,7 +122,7 @@ plans:
 - name: Markerly Plans Pricing
   plan_count: 0
   slug: markerly-plans-pricing
-random_paper: 31
+random_paper: 126
 rate_limits:
 - limit_count: 2
   name: Markerly Rate Limits
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.3
-  delta: 19.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -138,7 +138,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 7.0
+  previous_composite: 26.3
   regulatory:
     applies: true
     matched_via: tags
@@ -146,8 +146,8 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/markerly/refs/heads/main/screenshots/markerly-2026-07-25T230243.png
 security:
 - kind: authentication

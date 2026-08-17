@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: The Incidents API from TaskCall — 23 operation(s) for incidents.
   name: TaskCall Incidents API
   slug: taskcall-incidents-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TaskCall Incidents Components API
+  slug: open-taskcall-components-api
+- collection_type: open
+  name: TaskCall Components Incidents API
+  slug: open-taskcall-incidents-api
 - collection_type: open
   name: TaskCall Incidents API
   slug: open-taskcall
@@ -109,7 +118,7 @@ overview: 'TaskCall publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TaskCall''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 7
+random_paper: 102
 score:
   band: thin
   composite: 33.5
@@ -130,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/screenshots/taskcall-2026-06-20T194924.png
 security:

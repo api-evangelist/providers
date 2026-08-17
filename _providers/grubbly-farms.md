@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The machine-consumable surface of the Grubbly Farms Shopify storefront: a hosted Storefront MCP server for agentic product discovery and cart/checkout, plus a Customer Account OpenID Connect / OAuth 2'
@@ -108,7 +108,7 @@ overview: 'Grubbly Farms publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Grubbly Farms'' developer surface includes support, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 21
+random_paper: 0
 scopes:
 - name: Grubbly Farms Scopes
   scope_count: 4
@@ -130,7 +130,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/screenshots/grubbly-farms-2026-08-07T165848.png
 security:

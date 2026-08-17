@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The accounts API from Ceros — 1 operation(s) for accounts.
@@ -39,7 +39,29 @@ apis:
 - description: The oembed API from Ceros — 1 operation(s) for oembed.
   name: Ceros Oembed API
   slug: ceros-oembed-api
-artifact_total: 11
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ceros Accounts API
+  slug: open-ceros-accounts-api
+- collection_type: open
+  name: Ceros Embed Codes API
+  slug: open-ceros-embedcodes-api
+- collection_type: open
+  name: Ceros Experience API
+  slug: open-ceros-experience-api
+- collection_type: open
+  name: Ceros Public Experience Page API
+  slug: open-ceros-experiencepage-api
+- collection_type: open
+  name: Ceros Folders API
+  slug: open-ceros-folders-api
+- collection_type: open
+  name: Ceros Oembed API
+  slug: open-ceros-oembed-api
 common:
 - group: agent
   title: ''
@@ -194,7 +216,7 @@ overview: 'Ceros publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Ceros'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 60
+random_paper: 93
 score:
   band: developing
   composite: 52.7
@@ -217,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

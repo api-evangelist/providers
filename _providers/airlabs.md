@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,7 +108,47 @@ apis:
 - description: Autocomplete and search
   name: Airlabs Suggest API
   slug: airlabs-suggest-api
-artifact_total: 42
+artifact_total: 55
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AirLabs Aviation Data Airlines API
+  slug: open-airlabs-airlines-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Airports API
+  slug: open-airlabs-airports-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Alert API
+  slug: open-airlabs-alert-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Cities API
+  slug: open-airlabs-cities-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Delays API
+  slug: open-airlabs-delays-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Fleets API
+  slug: open-airlabs-fleets-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Flight API
+  slug: open-airlabs-flight-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Flights API
+  slug: open-airlabs-flights-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Nearby API
+  slug: open-airlabs-nearby-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Routes API
+  slug: open-airlabs-routes-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Schedules API
+  slug: open-airlabs-schedules-api
+- collection_type: open
+  name: AirLabs Aviation Data Airlines Suggest API
+  slug: open-airlabs-suggest-api
 common:
 - group: agent
   title: ''
@@ -209,7 +249,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 14
+random_paper: 138
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -243,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airlabs/refs/heads/main/screenshots/airlabs-2026-06-20T171424.png
 security:

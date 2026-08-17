@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 26
 apis:
 - description: Streamline your client onboarding process to create, update, and manage clients, parties, documents, and due diligence requirements in a fully digital workflow so you can automate Know Your Customer (
@@ -109,11 +109,90 @@ apis:
 - description: JPMorgan Chase Payment Initiation Service from JPMorgan Chase — 6 path(s) described in OpenAPI.
   name: JPMorgan Chase Payment Initiation Service
   slug: jp-morgan-chase-payment-initiation-service-openapi
-artifact_total: 32
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Jp Morgan Chase Webhooks
   slug: jp-morgan-chase-webhooks
+collections:
+- collection_type: open
+  name: 3-D Secure API
+  slug: open-jp-morgan-chase-3-d-secure-api
+- collection_type: open
+  name: Account Information Services
+  slug: open-jp-morgan-chase-account-information-services
+- collection_type: open
+  name: Account Updater API
+  slug: open-jp-morgan-chase-account-updater-api
+- collection_type: open
+  name: Accounts API
+  slug: open-jp-morgan-chase-accounts-api
+- collection_type: open
+  name: Alerts and Decisioning API
+  slug: open-jp-morgan-chase-alerts-and-decisioning-api
+- collection_type: open
+  name: Blockchain Deposit Account Balances API
+  slug: open-jp-morgan-chase-blockchain-deposit-account-balances-api
+- collection_type: open
+  name: Checkout API
+  slug: open-jp-morgan-chase-checkout-api
+- collection_type: open
+  name: Consumer Profile Management API
+  slug: open-jp-morgan-chase-consumer-profile-management-api
+- collection_type: open
+  name: Digital Onboarding API
+  slug: open-jp-morgan-chase-digital-onboarding-api
+- collection_type: open
+  name: Dispute Management API
+  slug: open-jp-morgan-chase-dispute-management-api
+- collection_type: open
+  name: Documents API
+  slug: open-jp-morgan-chase-documents-api
+- collection_type: open
+  name: Global Payments API
+  slug: open-jp-morgan-chase-global-payments-api
+- collection_type: open
+  name: Global Payments
+  slug: open-jp-morgan-chase-global-payments
+- collection_type: open
+  name: J.P. Morgan Business Direct Connect
+  slug: open-jp-morgan-chase-j-p-morgan-business-direct-connect
+- collection_type: open
+  name: Notifications API
+  slug: open-jp-morgan-chase-notifications-api
+- collection_type: open
+  name: Pay By Bank PIS
+  slug: open-jp-morgan-chase-pay-by-bank-pis
+- collection_type: open
+  name: Payment Initiation Service
+  slug: open-jp-morgan-chase-payment-initiation-service
+- collection_type: open
+  name: Product Configuration API
+  slug: open-jp-morgan-chase-product-configuration-api
+- collection_type: open
+  name: Recipients API
+  slug: open-jp-morgan-chase-recipients-api
+- collection_type: open
+  name: Reporting API
+  slug: open-jp-morgan-chase-reporting-api
+- collection_type: open
+  name: Request to Pay via QR Code API
+  slug: open-jp-morgan-chase-request-to-pay-via-qr-code-api
+- collection_type: open
+  name: Tokenization API
+  slug: open-jp-morgan-chase-tokenization-api
+- collection_type: open
+  name: Transactions API
+  slug: open-jp-morgan-chase-transactions-api
+- collection_type: open
+  name: Validation Services API
+  slug: open-jp-morgan-chase-validation-services-api
+- collection_type: open
+  name: Wallet Decryption API
+  slug: open-jp-morgan-chase-wallet-decryption-api
+- collection_type: open
+  name: Webhooks API
+  slug: open-jp-morgan-chase-webhooks-api
 common:
 - group: auth
   title: ''
@@ -314,7 +393,7 @@ score:
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:

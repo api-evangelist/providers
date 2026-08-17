@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,7 +102,7 @@ overview: 'ConnectRN is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ConnectRN''s developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 10
+random_paper: 76
 score:
   band: emerging
   composite: 17.0
@@ -122,7 +122,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

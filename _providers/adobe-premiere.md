@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -73,14 +73,26 @@ arazzos:
 - description: Read a library, update its name, then read it back to confirm the change.
   name: Adobe Premiere Rename and Verify Creative Cloud Library
   slug: adobe-premiere-rename-and-verify-library-workflow
-artifact_total: 67
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Adobe Creative Cloud Libraries API
   slug: postman-adobe-premiere-creative-cloud-libraries
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Adobe Creative Cloud Libraries API
   slug: open-adobe-premiere-creative-cloud-libraries
+- collection_type: open
+  name: Adobe Creative Cloud Libraries Elements API
+  slug: open-adobe-premiere-elements-api
+- collection_type: open
+  name: Adobe Creative Cloud Elements Libraries API
+  slug: open-adobe-premiere-libraries-api
+- collection_type: open
+  name: Adobe Creative Cloud Libraries Elements Representations API
+  slug: open-adobe-premiere-representations-api
 common:
 - group: agent
   title: ''
@@ -325,7 +337,7 @@ plans:
 - name: Adobe Premiere Plans Pricing
   plan_count: 3
   slug: adobe-premiere-plans-pricing
-random_paper: 89
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Adobe Premiere Rate Limits
@@ -372,7 +384,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/screenshots/adobe-premiere-2026-06-20T165010.png
 security:

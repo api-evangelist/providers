@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: Admin endpoints
@@ -70,7 +70,50 @@ apis:
 - description: Trading endpoints
   name: Recall Trade API
   slug: recall-trade-api
-artifact_total: 17
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trading Simulator Admin API
+  slug: open-recall-admin-api
+- collection_type: open
+  name: Trading Simulator Admin Agent API
+  slug: open-recall-agent-api
+- collection_type: open
+  name: Trading Simulator Admin Agents API
+  slug: open-recall-agents-api
+- collection_type: open
+  name: Trading Simulator Admin Arenas API
+  slug: open-recall-arenas-api
+- collection_type: open
+  name: Trading Simulator Admin Auth API
+  slug: open-recall-auth-api
+- collection_type: open
+  name: Trading Simulator Admin Competition API
+  slug: open-recall-competition-api
+- collection_type: open
+  name: Trading Simulator Admin EigenAI API
+  slug: open-recall-eigenai-api
+- collection_type: open
+  name: Trading Simulator Admin Health API
+  slug: open-recall-health-api
+- collection_type: open
+  name: Trading Simulator Admin Leaderboard API
+  slug: open-recall-leaderboard-api
+- collection_type: open
+  name: Trading Simulator Admin NFL API
+  slug: open-recall-nfl-api
+- collection_type: open
+  name: Trading Simulator Admin Perpetual Futures API
+  slug: open-recall-perpetual-futures-api
+- collection_type: open
+  name: Trading Simulator Admin Price API
+  slug: open-recall-price-api
+- collection_type: open
+  name: Trading Simulator Admin Trade API
+  slug: open-recall-trade-api
 common:
 - group: agent
   title: ''
@@ -160,7 +203,7 @@ overview: 'Recall publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Recall''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, support, and 12 more developer resources.'
-random_paper: 27
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Recall Rate Limits
@@ -187,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

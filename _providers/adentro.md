@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ overview: 'Adentro is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Adentro''s developer surface includes support, documentation, pricing, authentication, and 5 more developer resources.'
-random_paper: 29
+random_paper: 4
 score:
   band: emerging
   composite: 18.7
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adentro/refs/heads/main/screenshots/adentro-2026-07-25T181621.png
 security:

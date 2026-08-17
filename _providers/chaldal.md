@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Task API from Chaldal — 20 operation(s) for task.
   name: Chaldal Task API
   slug: chaldal-task-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: My Title Accounts API
+  slug: open-chaldal-accounts-api
+- collection_type: open
+  name: My Title Accounts Heartbeat API
+  slug: open-chaldal-heartbeat-api
+- collection_type: open
+  name: My Title Accounts Identity API
+  slug: open-chaldal-identity-api
+- collection_type: open
+  name: My Title Accounts Organization API
+  slug: open-chaldal-organization-api
+- collection_type: open
+  name: My Title Accounts Task API
+  slug: open-chaldal-task-api
 common:
 - group: agent
   title: ''
@@ -119,7 +138,7 @@ overview: 'Chaldal publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Chaldal''s developer surface includes authentication, engineering blog, support, documentation, API reference, and 7 more developer resources.'
-random_paper: 113
+random_paper: 117
 score:
   band: emerging
   composite: 27.6
@@ -143,7 +162,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/screenshots/chaldal-2026-07-25T205118.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 2
@@ -81,15 +81,54 @@ apis:
 - description: Operations for managing workflow executions
   name: Argo Workflows API
   slug: argo-workflows-api
-artifact_total: 200
+artifact_total: 213
 asyncapis:
 - description: Argo Events is a Kubernetes-native event-driven automation framework that listens to over 20 event sources and triggers Argo Workflows, Kubernetes objects, HTTP requests, and other actions in response
   name: Argo Events
   slug: argo-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Argo CD Applications API
+  slug: open-argo-applications-api
+- collection_type: open
   name: Argo CD API
   slug: open-argo-cd
+- collection_type: open
+  name: Argo CD Applications Clusters API
+  slug: open-argo-clusters-api
+- collection_type: open
+  name: Argo CD Applications Cron Workflows API
+  slug: open-argo-cron-workflows-api
+- collection_type: open
+  name: Argo CD Applications Info API
+  slug: open-argo-info-api
+- collection_type: open
+  name: Argo CD Applications Projects API
+  slug: open-argo-projects-api
+- collection_type: open
+  name: Argo CD Applications Repositories API
+  slug: open-argo-repositories-api
+- collection_type: open
+  name: Argo CD Applications Session API
+  slug: open-argo-session-api
+- collection_type: open
+  name: Argo CD Applications Settings API
+  slug: open-argo-settings-api
+- collection_type: open
+  name: Argo CD Applications Version API
+  slug: open-argo-version-api
+- collection_type: open
+  name: Argo CD Applications Workflow Archives API
+  slug: open-argo-workflow-archives-api
+- collection_type: open
+  name: Argo CD Applications Workflow Templates API
+  slug: open-argo-workflow-templates-api
+- collection_type: open
+  name: Argo CD Applications Workflows API
+  slug: open-argo-workflows-api
 - collection_type: open
   name: Argo Workflows API
   slug: open-argo-workflows
@@ -691,7 +730,7 @@ plans:
 - name: Argo Plans Pricing
   plan_count: 3
   slug: argo-plans-pricing
-random_paper: 65
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Argo Rate Limits
@@ -741,7 +780,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/screenshots/argo-2026-06-20T172416.png
 security:

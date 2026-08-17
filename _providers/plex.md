@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 9
@@ -122,11 +122,102 @@ apis:
 - description: This describes the API for searching and applying updates to the Plex Media Server. Updates to the status can be observed via the Event API.
   name: Plex Updater API
   slug: plex-updater-api
-artifact_total: 38
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Plex Webhooks
   slug: plex-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Plex Media Server Activities API
+  slug: open-plex-activities-api
+- collection_type: open
+  name: Plex Media Server Butler API
+  slug: open-plex-butler-api
+- collection_type: open
+  name: Plex Media Server Collections API
+  slug: open-plex-collections-api
+- collection_type: open
+  name: Plex Media Server Content API
+  slug: open-plex-content-api
+- collection_type: open
+  name: Plex Media Server Devices API
+  slug: open-plex-devices-api
+- collection_type: open
+  name: Plex Media Server Download Queue API
+  slug: open-plex-download-queue-api
+- collection_type: open
+  name: Plex Media Server DV Rs API
+  slug: open-plex-dvrs-api
+- collection_type: open
+  name: Plex Media Server EPG API
+  slug: open-plex-epg-api
+- collection_type: open
+  name: Plex Media Server Events API
+  slug: open-plex-events-api
+- collection_type: open
+  name: Plex Media Server General API
+  slug: open-plex-general-api
+- collection_type: open
+  name: Plex Media Server Hubs API
+  slug: open-plex-hubs-api
+- collection_type: open
+  name: Plex Media Server Library API
+  slug: open-plex-library-api
+- collection_type: open
+  name: Plex Media Server Library Collections API
+  slug: open-plex-library-collections-api
+- collection_type: open
+  name: Plex Media Server Library Playlists API
+  slug: open-plex-library-playlists-api
+- collection_type: open
+  name: Plex Media Server Live TV API
+  slug: open-plex-live-tv-api
+- collection_type: open
+  name: Plex Media Server Log API
+  slug: open-plex-log-api
+- collection_type: open
+  name: Plex Media Server Metadata Agents API
+  slug: open-plex-metadata-agents-api
+- collection_type: open
+  name: Plex Media Server Play Queue API
+  slug: open-plex-play-queue-api
+- collection_type: open
+  name: Plex Media Server Playlist API
+  slug: open-plex-playlist-api
+- collection_type: open
+  name: Plex Media Server Preferences API
+  slug: open-plex-preferences-api
+- collection_type: open
+  name: Plex Media Server Provider API
+  slug: open-plex-provider-api
+- collection_type: open
+  name: Plex Media Server Rate API
+  slug: open-plex-rate-api
+- collection_type: open
+  name: Plex Media Server Search API
+  slug: open-plex-search-api
+- collection_type: open
+  name: Plex Media Server Status API
+  slug: open-plex-status-api
+- collection_type: open
+  name: Plex Media Server Subscriptions API
+  slug: open-plex-subscriptions-api
+- collection_type: open
+  name: Plex Media Server Timeline API
+  slug: open-plex-timeline-api
+- collection_type: open
+  name: Plex Media Server Transcoder API
+  slug: open-plex-transcoder-api
+- collection_type: open
+  name: Plex Media Server Ultra Blur API
+  slug: open-plex-ultrablur-api
+- collection_type: open
+  name: Plex Media Server Updater API
+  slug: open-plex-updater-api
 common:
 - group: company
   title: ''
@@ -311,7 +402,7 @@ overview: 'Plex publishes 29 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Plex''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 81
+random_paper: 143
 scopes:
 - name: Plex Scopes
   scope_count: 7
@@ -340,7 +431,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: The Venues API from SeatGeek — 2 operation(s) for venues.
   name: SeatGeek Venues API
   slug: seatgeek-venues-api
-artifact_total: 24
+artifact_total: 30
 collections:
 - collection_type: postman
   name: SeatGeek Platform Events API
@@ -72,8 +72,26 @@ collections:
   name: SeatGeek Platform Events Venues API
   slug: postman-seatgeek-venues-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SeatGeek Platform Events API
+  slug: open-seatgeek-events-api
+- collection_type: open
+  name: SeatGeek Platform Events Performers API
+  slug: open-seatgeek-performers-api
+- collection_type: open
   name: SeatGeek Platform API
   slug: open-seatgeek-platform
+- collection_type: open
+  name: SeatGeek Platform Events Recommendations API
+  slug: open-seatgeek-recommendations-api
+- collection_type: open
+  name: SeatGeek Platform Events Taxonomies API
+  slug: open-seatgeek-taxonomies-api
+- collection_type: open
+  name: SeatGeek Platform Events Venues API
+  slug: open-seatgeek-venues-api
 common:
 - group: build
   title: ''
@@ -195,7 +213,7 @@ plans:
 - name: Seatgeek Plans Pricing
   plan_count: 3
   slug: seatgeek-plans-pricing
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 5
   name: Seatgeek Rate Limits
@@ -237,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/screenshots/seatgeek-2026-06-20T193620.png
 security:

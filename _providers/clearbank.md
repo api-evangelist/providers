@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -61,11 +61,45 @@ apis:
 - description: Embedded Banking APIs to create and manage retail customers, hub and payment accounts, savings, and ISAs on ClearBank's banking infrastructure.
   name: ClearBank Retail Embedded Banking Customers API
   slug: clearbank-retail-customers-api
-artifact_total: 17
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Clearbank Webhooks
   slug: clearbank-webhooks
+collections:
+- collection_type: open
+  name: ClearBank CHAPS RTGS FI API V6
+  slug: open-clearbank-chaps-v6
+- collection_type: open
+  name: ClearBank.CoP.Outbound.Api 1.0
+  slug: open-clearbank-cop-outbound-v1
+- collection_type: open
+  name: ClearBank Cross-Border Sterling FI API V4
+  slug: open-clearbank-cross-border-v4
+- collection_type: open
+  name: ClearBank Retail Customer V2 APIs
+  slug: open-clearbank-customers_v2_retail
+- collection_type: open
+  name: FI Initiation API 3.0
+  slug: open-clearbank-fps-initiate-payment-v3
+- collection_type: open
+  name: FX Orchestrator API
+  slug: open-clearbank-fx-orchestrator-rfq
+- collection_type: open
+  name: Customer Due Diligence API
+  slug: open-clearbank-know-your-customer-v1
+- collection_type: open
+  name: Accounts API
+  slug: open-clearbank-mccy-accounts-v2
+- collection_type: open
+  name: Mccy Payment Orchestrator External Api V1
+  slug: open-clearbank-mccy-payments-v1
+- collection_type: open
+  name: ClearBank.Sepa.Ct.Orchestrator.Api
+  slug: open-clearbank-sepa-ct-v1
+- collection_type: open
+  name: ClearBank Financial Institutions API
+  slug: open-clearbank-sterling-v4
 common:
 - group: agent
   title: ''
@@ -259,7 +293,7 @@ overview: 'ClearBank publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ClearBank''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, and 37 more developer resources.'
-random_paper: 91
+random_paper: 37
 score:
   band: developing
   composite: 46.1
@@ -289,7 +323,7 @@ score:
     regime_id: banking_open_finance
     score: 44.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:

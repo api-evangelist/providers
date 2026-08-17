@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Manage programmatic access keys for the authenticated user.
@@ -52,7 +52,7 @@ apis:
 - description: The Webhooks API from Totalis — 4 operation(s) for webhooks.
   name: Totalis Webhooks API
   slug: totalis-webhooks-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: Totalis pushes HMAC-signed webhook events when positions settle, get bought back, or funds move. Deliveries are at-least-once with exponential-backoff retries and dead-lettering, replayable via the AP
   name: Totalis Webhooks
@@ -60,6 +60,31 @@ asyncapis:
 - description: Post-trade events in real time — quote acceptances and confirmations, position creation and settlement. Authenticate after connecting with {"type":"auth","api_key":"<key>"}, then subscribe with {"type
   name: Totalis WebSocket
   slug: totalis-websocket-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Totalis RFQ API Keys API
+  slug: open-totalis-api-keys-api
+- collection_type: open
+  name: Totalis RFQ API Keys Markets API
+  slug: open-totalis-markets-api
+- collection_type: open
+  name: Totalis RFQ API Keys Portfolio API
+  slug: open-totalis-portfolio-api
+- collection_type: open
+  name: Totalis RFQ API Keys RFQs API
+  slug: open-totalis-rfqs-api
+- collection_type: open
+  name: Totalis RFQ API Keys User API
+  slug: open-totalis-user-api
+- collection_type: open
+  name: Totalis RFQ API Keys Vault API
+  slug: open-totalis-vault-api
+- collection_type: open
+  name: Totalis RFQ API Keys Webhooks API
+  slug: open-totalis-webhooks-api
 common:
 - group: other
   title: ''
@@ -180,7 +205,7 @@ overview: 'Totalis publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Totalis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, FAQ, authentication, and 18 more developer resources.'
-random_paper: 48
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Totalis Rate Limits
@@ -213,7 +238,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -10,7 +10,8 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,20 +22,33 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.0
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 47.5
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
-- description: The Export API from Dashbot — 1 operation(s) for export.
+- description: Read API for enriched conversational data. GET /export returns a zipFile handle for all dimension data across a set of bot IDs over a date range, optionally filtered to named prompts; GET /index is th
   name: Dashbot Export API
   slug: dashbot-export-api
-artifact_total: 3
+- description: Write/ingest API for unstructured customer conversations. POST one message object per call to /track (realtime, timestamp within 24 hours) or /trackhistorical (older data), with platform, version, dir
+  name: Dashbot Universal Tracker API
+  slug: dashbot-universal-tracker-api
+- description: Model Context Protocol endpoint served from the Dimension Labs documentation host. Answers JSON-RPC 2.0; tools/list is authorization-gated for anonymous clients, so the tool set is not publicly enumer
+  name: Dimension Labs Documentation MCP
+  slug: dashbot-mcp
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Export API
+  slug: open-dashbot-export-api
 common:
 - group: company
   title: ''
@@ -84,6 +98,46 @@ common:
   title: ''
   type: DomainSecurity
   url: security/dashbot-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/dashbot-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/dashbot-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/dashbot-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/dashbot-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dashbot-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dashbot-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.dimensionlabs.io/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dashbot-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dashbot-rate-limits.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dashbot-export-api-overlay.yaml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -98,35 +152,59 @@ common:
   url: https://www.dimensionlabs.io/pricing
 - group: commercial
   title: ''
+  type: TermsOfService
+  url: https://www.dimensionlabs.io/terms-of-service-policy
+- group: commercial
+  title: ''
   type: PrivacyPolicy
-  url: https://www.dimensionlabs.io/privacy-policy
+  url: https://www.dimensionlabs.io/privacy-policy-policy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://tally.so/r/pb5Zjb
 - group: start
   title: ''
   type: Login
   url: https://next.dimensionlabs.io/
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.dimensionlabs.io/docs/troubleshoting
 created: '2026-07-17'
 description: Dashbot is a conversational-data analytics platform (now operating as Dimension Labs) that ingests chatbot, voice-assistant, live-chat, call, survey and other unstructured customer conversations and enriches them into structured "dimensions" for causal intelligence and reporting. Data is sent in through a Universal REST tracker and dozens of one-click integrations (Twilio, Slack, Intercom, Zendesk, Salesforce, Amazon Lex/Connect, Google Dialogflow, Genesys, Cognigy, Kore.ai, Rasa, and more), then explored through dashboards, data explorer, flows and an analytics Agent. A REST Export API (api.dimensionlabs.io) and first-party JavaScript, Python and Ruby SDKs let teams pull enriched data back out programmatically. Dashbot was surfaced as a portfolio company of bessemer-venture-partners; the company rebranded to Dimension Labs while the API and SDKs retain the Dashbot name (api.dashbot.io still responds).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dashbot.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: dashbot-mcp.yml
+  slug: dashbot-mcpyml
+modified: '2026-08-14'
 name: Dashbot
 nav: Providers
 network: true
 overview: 'Dashbot publishes 1 API on the [APIs.io](https://apis.io/) network: Export API. Tagged areas include Company, Ai Ml, Conversational Analytics, Chatbots, and Voice Assistants.
 
 
-  Dashbot''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 21
+  Dashbot''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: Dashbot Plans Pricing
+  plan_count: 5
+  slug: dashbot-plans-pricing
+random_paper: 145
+rate_limits:
+- limit_count: 0
+  name: Dashbot Rate Limits
+  slug: dashbot-rate-limits
 score:
-  band: thin
-  composite: 37.3
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: 16.8
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 84.2
     contract_quality: 44.0
-    developer_ergonomics: 56.0
-    discoverability: 75.9
-    governance: 0.0
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 5.3
   previous_composite: 37.3
   provenance:
@@ -137,8 +215,8 @@ score:
       total: 1
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/screenshots/dashbot-2026-07-25T211226.png
 security:
 - kind: authentication

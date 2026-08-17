@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,11 +76,26 @@ arazzos:
 - description: Read an application, update its descriptive metadata, then read it back to confirm the changes.
   name: AWS SAR Update Application Metadata
   slug: amazon-serverless-application-repository-update-application-metadata-workflow
-artifact_total: 51
+artifact_total: 56
 collections:
 - collection_type: postman
   name: Amazon Serverless Application Repository API
   slug: postman-amazon-serverless-application-repository
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Serverless Application Repository Applications API
+  slug: open-amazon-serverless-application-repository-applications-api
+- collection_type: open
+  name: Amazon Serverless Application Repository Applications Changesets API
+  slug: open-amazon-serverless-application-repository-changesets-api
+- collection_type: open
+  name: Amazon Serverless Application Repository Applications Policies API
+  slug: open-amazon-serverless-application-repository-policies-api
+- collection_type: open
+  name: Amazon Serverless Application Repository Applications Versions API
+  slug: open-amazon-serverless-application-repository-versions-api
 - collection_type: open
   name: Amazon Serverless Application Repository API
   slug: open-amazon-serverless-application-repository
@@ -345,7 +360,7 @@ plans:
 - name: Amazon Serverless Application Repository Plans Pricing
   plan_count: 3
   slug: amazon-serverless-application-repository-plans-pricing
-random_paper: 95
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Serverless Application Repository Rate Limits
@@ -387,7 +402,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/screenshots/amazon-serverless-application-repository-2026-06-20T171819.png
 security:

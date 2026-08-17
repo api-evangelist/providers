@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ overview: 'Lori Systems is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Lori Systems'' developer surface includes GitHub presence and 6 more developer resources.'
-random_paper: 75
+random_paper: 83
 score:
   band: minimal
   composite: 5.7
@@ -86,7 +86,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lori-systems/refs/heads/main/screenshots/lori-systems-2026-06-20T184724.png
 security:

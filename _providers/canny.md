@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -86,8 +86,56 @@ apis:
 - description: The Votes API from Canny — 4 operation(s) for votes.
   name: Canny Votes API
   slug: canny-votes-api
-artifact_total: 20
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canny REST Autopilot API
+  slug: open-canny-autopilot-api
+- collection_type: open
+  name: Canny REST Autopilot Boards API
+  slug: open-canny-boards-api
+- collection_type: open
+  name: Canny REST Autopilot Categories API
+  slug: open-canny-categories-api
+- collection_type: open
+  name: Canny REST Autopilot ChangelogEntries API
+  slug: open-canny-changelogentries-api
+- collection_type: open
+  name: Canny REST Autopilot Comments API
+  slug: open-canny-comments-api
+- collection_type: open
+  name: Canny REST Autopilot Companies API
+  slug: open-canny-companies-api
+- collection_type: open
+  name: Canny REST Autopilot Groups API
+  slug: open-canny-groups-api
+- collection_type: open
+  name: Canny REST Autopilot Ideas API
+  slug: open-canny-ideas-api
+- collection_type: open
+  name: Canny REST Autopilot Insights API
+  slug: open-canny-insights-api
+- collection_type: open
+  name: Canny REST Autopilot Opportunities API
+  slug: open-canny-opportunities-api
+- collection_type: open
+  name: Canny REST Autopilot Posts API
+  slug: open-canny-posts-api
+- collection_type: open
+  name: Canny REST Autopilot StatusChanges API
+  slug: open-canny-statuschanges-api
+- collection_type: open
+  name: Canny REST Autopilot Tags API
+  slug: open-canny-tags-api
+- collection_type: open
+  name: Canny REST Autopilot Users API
+  slug: open-canny-users-api
+- collection_type: open
+  name: Canny REST Autopilot Votes API
+  slug: open-canny-votes-api
 - collection_type: open
   name: Canny REST API
   slug: open-canny
@@ -156,7 +204,7 @@ overview: 'Canny publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Canny''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: thin
   composite: 33.0
@@ -177,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/screenshots/canny-2026-06-20T173923.png
 security:

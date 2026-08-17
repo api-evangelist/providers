@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Check brand and capability eligibility for a vehicle.
   name: High Mobility Vehicle Eligibility API
   slug: high-mobility-vehicle-eligibility-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: High Mobility Vehicle Authentication API
+  slug: open-high-mobility-authentication-api
+- collection_type: open
+  name: High Mobility Vehicle Authentication Fleet Clearance API
+  slug: open-high-mobility-fleet-clearance-api
+- collection_type: open
+  name: High Mobility Vehicle Authentication Vehicle Data API
+  slug: open-high-mobility-vehicle-data-api
+- collection_type: open
+  name: High Mobility Vehicle Authentication Vehicle Eligibility API
+  slug: open-high-mobility-vehicle-eligibility-api
 - collection_type: open
   name: High Mobility Vehicle API
   slug: open-high-mobility
@@ -129,7 +144,7 @@ plans:
 - name: High Mobility Plans Pricing
   plan_count: 3
   slug: high-mobility-plans-pricing
-random_paper: 14
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: High Mobility Rate Limits
@@ -159,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/screenshots/high-mobility-2026-06-20T182732.png
 security:

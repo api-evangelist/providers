@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: Everything about [accounts](#model/account)
@@ -73,7 +73,53 @@ apis:
 - description: Everything about [users](#model/user)
   name: Slide Users API
   slug: slide-users-api
-artifact_total: 18
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Slide Accounts API
+  slug: open-slide-accounts-api
+- collection_type: open
+  name: Slide Accounts Agents API
+  slug: open-slide-agents-api
+- collection_type: open
+  name: Slide Accounts Alerts API
+  slug: open-slide-alerts-api
+- collection_type: open
+  name: Slide Accounts Audits API
+  slug: open-slide-audits-api
+- collection_type: open
+  name: Slide Accounts Backups API
+  slug: open-slide-backups-api
+- collection_type: open
+  name: Slide Accounts Clients API
+  slug: open-slide-clients-api
+- collection_type: open
+  name: Slide Accounts Devices API
+  slug: open-slide-devices-api
+- collection_type: open
+  name: Slide Accounts Networks API
+  slug: open-slide-networks-api
+- collection_type: open
+  name: Slide Accounts Restores (File) API
+  slug: open-slide-restores-file-api
+- collection_type: open
+  name: Slide Accounts Restores (Image) API
+  slug: open-slide-restores-image-api
+- collection_type: open
+  name: Slide Accounts Restores (Push) API
+  slug: open-slide-restores-push-api
+- collection_type: open
+  name: Slide Accounts Restores (Virtual Machine) API
+  slug: open-slide-restores-virtual-machine-api
+- collection_type: open
+  name: Slide Accounts Snapshots API
+  slug: open-slide-snapshots-api
+- collection_type: open
+  name: Slide Accounts Users API
+  slug: open-slide-users-api
 common:
 - group: auth
   title: ''
@@ -195,7 +241,7 @@ overview: 'Slide publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slide''s developer surface includes authentication, documentation, API reference, getting-started guide, support, changelog, and 20 more developer resources.'
-random_paper: 49
+random_paper: 82
 score:
   band: developing
   composite: 49.9
@@ -218,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

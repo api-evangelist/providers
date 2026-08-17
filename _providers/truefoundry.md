@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
 - description: Reranking for search relevance
   name: TrueFoundry Rerank API
   slug: truefoundry-rerank-api
-artifact_total: 57
+artifact_total: 67
 collections:
 - collection_type: postman
   name: TrueFoundry AI Gateway Audio API
@@ -98,8 +98,38 @@ collections:
   name: TrueFoundry AI Gateway Audio Rerank API
   slug: postman-truefoundry-rerank-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: TrueFoundry AI Gateway API
   slug: open-truefoundry-ai-gateway
+- collection_type: open
+  name: TrueFoundry AI Gateway Audio API
+  slug: open-truefoundry-audio-api
+- collection_type: open
+  name: TrueFoundry AI Gateway Audio Batches API
+  slug: open-truefoundry-batches-api
+- collection_type: open
+  name: TrueFoundry AI Gateway Audio Chat API
+  slug: open-truefoundry-chat-api
+- collection_type: open
+  name: TrueFoundry AI Gateway Audio Embeddings API
+  slug: open-truefoundry-embeddings-api
+- collection_type: open
+  name: TrueFoundry AI Gateway Audio Files API
+  slug: open-truefoundry-files-api
+- collection_type: open
+  name: TrueFoundry AI Gateway Audio Images API
+  slug: open-truefoundry-images-api
+- collection_type: open
+  name: TrueFoundry AI Gateway Audio Models API
+  slug: open-truefoundry-models-api
+- collection_type: open
+  name: TrueFoundry AI Gateway Audio Moderations API
+  slug: open-truefoundry-moderations-api
+- collection_type: open
+  name: TrueFoundry AI Gateway Audio Rerank API
+  slug: open-truefoundry-rerank-api
 common:
 - group: build
   title: ''
@@ -258,7 +288,7 @@ plans:
 - name: Truefoundry Plans Pricing
   plan_count: 4
   slug: truefoundry-plans-pricing
-random_paper: 23
+random_paper: 31
 rate_limits:
 - limit_count: 6
   name: Truefoundry Rate Limits
@@ -300,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/screenshots/truefoundry-2026-06-20T195805.png
 security:

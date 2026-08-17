@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -75,14 +75,41 @@ apis:
 - description: The Token API from Spring Security — 3 operation(s) for token.
   name: Spring Security Token API
   slug: spring-security-token-api
-artifact_total: 27
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Spring Authorization Server API
   slug: open-spring-authorization-server
 - collection_type: open
+  name: Spring Server Authorization API
+  slug: open-spring-security-authorization-api
+- collection_type: open
+  name: Spring Server Authorization Client Management API
+  slug: open-spring-security-client-management-api
+- collection_type: open
+  name: Spring Server Authorization Device API
+  slug: open-spring-security-device-api
+- collection_type: open
+  name: Spring Server Authorization Discovery API
+  slug: open-spring-security-discovery-api
+- collection_type: open
+  name: Spring Server Authorization Keys API
+  slug: open-spring-security-keys-api
+- collection_type: open
   name: Spring Security OAuth2 API
   slug: open-spring-security-oauth2
+- collection_type: open
+  name: Spring Server Authorization OpenID Connect API
+  slug: open-spring-security-openid-connect-api
+- collection_type: open
+  name: Spring Server Authorization Session API
+  slug: open-spring-security-session-api
+- collection_type: open
+  name: Spring Server Authorization Token API
+  slug: open-spring-security-token-api
 common:
 - group: agent
   title: ''
@@ -172,7 +199,7 @@ plans:
 - name: Spring Security Plans Pricing
   plan_count: 1
   slug: spring-security-plans-pricing
-random_paper: 32
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Spring Security Rate Limits
@@ -214,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/screenshots/spring-security-2026-06-20T194415.png
 security:

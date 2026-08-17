@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Credit-metered REST API over IMAI's creator database of 380M+ influencers across Instagram, TikTok and YouTube. Documented capabilities are keyword and filter search, AI search, influencer reports, au
@@ -183,7 +183,7 @@ plans:
 - name: Stagwell Plans Pricing
   plan_count: 8
   slug: stagwell-plans-pricing
-random_paper: 27
+random_paper: 122
 rate_limits:
 - limit_count: 3
   name: Stagwell Rate Limits
@@ -196,7 +196,7 @@ scopes:
 score:
   band: developing
   composite: 45.3
-  delta: 40.7
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 0.0
@@ -204,10 +204,10 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 4.6
+  previous_composite: 45.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/screenshots/stagwell-2026-06-20T194452.png
 security:
 - kind: authentication

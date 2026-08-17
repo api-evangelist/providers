@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -77,8 +77,50 @@ apis:
 - description: The Webhookroutes API from EmailEngine — 1 operation(s) for webhookroutes.
   name: EmailEngine Webhookroutes API
   slug: emailengine-webhookroutes-api
-artifact_total: 19
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EmailEngine Account API
+  slug: open-emailengine-account-api
+- collection_type: open
+  name: EmailEngine Account Accounts API
+  slug: open-emailengine-accounts-api
+- collection_type: open
+  name: EmailEngine Account Autoconfig API
+  slug: open-emailengine-autoconfig-api
+- collection_type: open
+  name: EmailEngine Account Deliverytest API
+  slug: open-emailengine-deliverytest-api
+- collection_type: open
+  name: EmailEngine Account Gateways API
+  slug: open-emailengine-gateways-api
+- collection_type: open
+  name: EmailEngine Account License API
+  slug: open-emailengine-license-api
+- collection_type: open
+  name: EmailEngine Account Logs API
+  slug: open-emailengine-logs-api
+- collection_type: open
+  name: EmailEngine Account Oauth2 API
+  slug: open-emailengine-oauth2-api
+- collection_type: open
+  name: EmailEngine Account Outbox API
+  slug: open-emailengine-outbox-api
+- collection_type: open
+  name: EmailEngine Account Stats API
+  slug: open-emailengine-stats-api
+- collection_type: open
+  name: EmailEngine Account Templates API
+  slug: open-emailengine-templates-api
+- collection_type: open
+  name: EmailEngine Account Tokens API
+  slug: open-emailengine-tokens-api
+- collection_type: open
+  name: EmailEngine Account Webhookroutes API
+  slug: open-emailengine-webhookroutes-api
 - collection_type: open
   name: EmailEngine API
   slug: open-emailengine
@@ -167,7 +209,7 @@ plans:
 - name: Emailengine Plans Pricing
   plan_count: 3
   slug: emailengine-plans-pricing
-random_paper: 70
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Emailengine Rate Limits
@@ -192,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/screenshots/emailengine-2026-06-20T180623.png
 security:

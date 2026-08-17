@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -109,11 +109,47 @@ arazzos:
 - description: Find a failed event delivery, retry it, and inspect the resulting delivery attempts.
   name: Convoy Retry a Failed Delivery
   slug: convoy-retry-failed-delivery-workflow
-artifact_total: 128
+artifact_total: 140
 collections:
 - collection_type: postman
   name: Convoy API Reference
   slug: postman-convoy
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts API
+  slug: open-convoy-delivery-attempts-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts Endpoints API
+  slug: open-convoy-endpoints-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts Event Deliveries API
+  slug: open-convoy-event-deliveries-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts Events API
+  slug: open-convoy-events-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts EventTypes API
+  slug: open-convoy-eventtypes-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts Filters API
+  slug: open-convoy-filters-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts Meta Events API
+  slug: open-convoy-meta-events-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts Onboard API
+  slug: open-convoy-onboard-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts Portal Links API
+  slug: open-convoy-portal-links-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts Sources API
+  slug: open-convoy-sources-api
+- collection_type: open
+  name: Convoy API Reference Delivery Attempts Subscriptions API
+  slug: open-convoy-subscriptions-api
 - collection_type: open
   name: Convoy API Reference
   slug: open-convoy
@@ -611,7 +647,7 @@ plans:
 - name: Convoy Plans Pricing
   plan_count: 3
   slug: convoy-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Convoy Rate Limits
@@ -653,7 +689,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png
 security:

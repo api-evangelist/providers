@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: The Survey Definitions API from Qualtrics — 2 operation(s) for survey definitions.
   name: Qualtrics Survey Definitions API
   slug: qualtrics-survey-definitions-api
-artifact_total: 26
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qualtrics automations API
+  slug: open-qualtrics-automations-api
+- collection_type: open
+  name: Qualtrics automations Directories API
+  slug: open-qualtrics-directories-api
+- collection_type: open
+  name: Qualtrics automations Distributions API
+  slug: open-qualtrics-distributions-api
+- collection_type: open
+  name: Qualtrics automations Eventsubscriptions API
+  slug: open-qualtrics-eventsubscriptions-api
+- collection_type: open
+  name: Qualtrics automations file API
+  slug: open-qualtrics-file-api
+- collection_type: open
+  name: Qualtrics automations files API
+  slug: open-qualtrics-files-api
+- collection_type: open
+  name: Qualtrics automations Survey Definitions API
+  slug: open-qualtrics-survey-definitions-api
 common:
 - group: agent
   title: ''
@@ -183,7 +208,7 @@ plans:
 - name: Qualtrics Plans Pricing
   plan_count: 5
   slug: qualtrics-plans-pricing
-random_paper: 24
+random_paper: 90
 rate_limits:
 - limit_count: 3
   name: Qualtrics Rate Limits
@@ -217,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/screenshots/qualtrics-2026-06-20T192401.png
 security:

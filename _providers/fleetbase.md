@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -69,8 +69,41 @@ apis:
 - description: Service-area geofences.
   name: Fleetbase Zones API
   slug: fleetbase-zones-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fleetbase Contacts API
+  slug: open-fleetbase-contacts-api
+- collection_type: open
+  name: Fleetbase Contacts Drivers API
+  slug: open-fleetbase-drivers-api
+- collection_type: open
+  name: Fleetbase Contacts Fleets API
+  slug: open-fleetbase-fleets-api
+- collection_type: open
+  name: Fleetbase Contacts Orders API
+  slug: open-fleetbase-orders-api
+- collection_type: open
+  name: Fleetbase Contacts Places API
+  slug: open-fleetbase-places-api
+- collection_type: open
+  name: Fleetbase Contacts Service Rates API
+  slug: open-fleetbase-service-rates-api
+- collection_type: open
+  name: Fleetbase Contacts Tracking API
+  slug: open-fleetbase-tracking-api
+- collection_type: open
+  name: Fleetbase Contacts Vehicles API
+  slug: open-fleetbase-vehicles-api
+- collection_type: open
+  name: Fleetbase Contacts Webhooks API
+  slug: open-fleetbase-webhooks-api
+- collection_type: open
+  name: Fleetbase Contacts Zones API
+  slug: open-fleetbase-zones-api
 - collection_type: open
   name: Fleetbase API
   slug: open-fleetbase
@@ -139,7 +172,7 @@ plans:
 - name: Fleetbase Plans Pricing
   plan_count: 4
   slug: fleetbase-plans-pricing
-random_paper: 99
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Fleetbase Rate Limits
@@ -164,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/screenshots/fleetbase-2026-07-25T214733.png
 security:

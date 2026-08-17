@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Subscribe to real-time notifications when events occur in Cobalt.
   name: Cobalt Webhooks API
   slug: cobalt-webhooks-api
-artifact_total: 1114
+artifact_total: 1125
 collections:
 - collection_type: postman
   name: Cobalt Applications API
@@ -102,8 +102,41 @@ collections:
   name: Cobalt Applications Webhooks API
   slug: postman-cobalt-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Cobalt API
   slug: open-cobalt-api
+- collection_type: open
+  name: Cobalt Applications API
+  slug: open-cobalt-applications-api
+- collection_type: open
+  name: Cobalt Applications Cobalt Hosted API
+  slug: open-cobalt-cobalt-hosted-api
+- collection_type: open
+  name: Cobalt Applications Config API
+  slug: open-cobalt-config-api
+- collection_type: open
+  name: Cobalt Applications Datastores API
+  slug: open-cobalt-datastores-api
+- collection_type: open
+  name: Cobalt Applications Events API
+  slug: open-cobalt-events-api
+- collection_type: open
+  name: Cobalt Applications Executions API
+  slug: open-cobalt-executions-api
+- collection_type: open
+  name: Cobalt Applications Linked Accounts API
+  slug: open-cobalt-linked-accounts-api
+- collection_type: open
+  name: Cobalt Applications Public Workflows API
+  slug: open-cobalt-public-workflows-api
+- collection_type: open
+  name: Cobalt Applications Session Token API
+  slug: open-cobalt-session-token-api
+- collection_type: open
+  name: Cobalt Applications Webhooks API
+  slug: open-cobalt-webhooks-api
 common:
 - group: build
   title: ''
@@ -1327,7 +1360,7 @@ plans:
 - name: Cobalt Plans Pricing
   plan_count: 3
   slug: cobalt-plans-pricing
-random_paper: 29
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Cobalt Rate Limits
@@ -1369,7 +1402,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/screenshots/cobalt-2026-06-20T174643.png
 security:

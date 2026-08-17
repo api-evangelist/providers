@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Published applications and self-hostable app downloads.
@@ -58,7 +58,38 @@ apis:
 - description: SuperSplat Gaussian-splat publishing.
   name: PlayCanvas Splats API
   slug: playcanvas-splats-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PlayCanvas REST Apps API
+  slug: open-playcanvas-apps-api
+- collection_type: open
+  name: PlayCanvas REST Apps Assets API
+  slug: open-playcanvas-assets-api
+- collection_type: open
+  name: PlayCanvas REST Apps Branches API
+  slug: open-playcanvas-branches-api
+- collection_type: open
+  name: PlayCanvas REST Apps Checkpoints API
+  slug: open-playcanvas-checkpoints-api
+- collection_type: open
+  name: PlayCanvas REST Apps Jobs API
+  slug: open-playcanvas-jobs-api
+- collection_type: open
+  name: PlayCanvas REST Apps Projects API
+  slug: open-playcanvas-projects-api
+- collection_type: open
+  name: PlayCanvas REST Apps RateLimits API
+  slug: open-playcanvas-ratelimits-api
+- collection_type: open
+  name: PlayCanvas REST Apps Scenes API
+  slug: open-playcanvas-scenes-api
+- collection_type: open
+  name: PlayCanvas REST Apps Splats API
+  slug: open-playcanvas-splats-api
 common:
 - group: other
   title: ''
@@ -192,7 +223,7 @@ overview: 'PlayCanvas publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   PlayCanvas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 114
+random_paper: 31
 rate_limits:
 - limit_count: 6
   name: Playcanvas Rate Limits
@@ -219,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

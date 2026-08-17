@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,17 @@ apis:
 - description: API to work on records
   name: Opendatasoft Dataset API
   slug: opendatasoft-dataset-api
-artifact_total: 27
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Explore Catalog API
+  slug: open-opendatasoft-catalog-api
+- collection_type: open
+  name: Explore Catalog Dataset API
+  slug: open-opendatasoft-dataset-api
 common:
 - group: agent
   title: ''
@@ -190,7 +200,7 @@ plans:
 - name: Opendatasoft Explore Api
   plan_count: 3
   slug: opendatasoft-explore-api
-random_paper: 88
+random_paper: 96
 rate_limits:
 - limit_count: 4
   name: Opendatasoft Explore Api
@@ -233,7 +243,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendatasoft/refs/heads/main/screenshots/opendatasoft-2026-06-20T190954.png
 security:

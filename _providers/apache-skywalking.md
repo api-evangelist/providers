@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The SkyWalking GraphQL Query API provides a comprehensive query interface for retrieving observability data including traces, metrics, logs, alarms, topology maps, and profiling results. It supports m
@@ -184,7 +184,7 @@ plans:
 - name: Apache Skywalking Plans Pricing
   plan_count: 3
   slug: apache-skywalking-plans-pricing
-random_paper: 67
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Apache Skywalking Rate Limits
@@ -202,7 +202,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 23.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-skywalking/refs/heads/main/screenshots/apache-skywalking-2026-06-20T172144.png
 security:

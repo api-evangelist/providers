@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'Instock is using the term `article` to describe unique product or SKU managed by Instock ASRS. Articles resource is mostly managed by you as a client of Instock API. Article data is shared across all '
@@ -49,7 +49,29 @@ apis:
 - description: Each Instock site (or just site) represents a single instance of Instock ASRS. Such instance can represent either physical installation of ASRS or a simulation in sandbox environment. Organization may
   name: Instock Sites API
   slug: instock-sites-api
-artifact_total: 9
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Instock API reference Articles API
+  slug: open-instock-articles-api
+- collection_type: open
+  name: Instock API reference Articles Inventory API
+  slug: open-instock-inventory-api
+- collection_type: open
+  name: Instock API reference Articles Moves API
+  slug: open-instock-moves-api
+- collection_type: open
+  name: Instock API reference Articles Orders API
+  slug: open-instock-orders-api
+- collection_type: open
+  name: Instock API reference Articles Ordertasks API
+  slug: open-instock-ordertasks-api
+- collection_type: open
+  name: Instock API reference Articles Sites API
+  slug: open-instock-sites-api
 common:
 - group: auth
   title: ''
@@ -159,7 +181,7 @@ overview: 'Instock publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Instock''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 16 more developer resources.'
-random_paper: 43
+random_paper: 18
 score:
   band: developing
   composite: 43.2
@@ -182,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/screenshots/instock-2026-07-25T222617.png
 security:

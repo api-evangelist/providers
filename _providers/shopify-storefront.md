@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,8 +48,14 @@ apis:
 - description: The GraphQL API from Shopify Storefront API — 1 operation(s) for graphql.
   name: Shopify Storefront API GraphQL API
   slug: shopify-storefront-graphql-api
-artifact_total: 19
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shopify Storefront GraphQL API
+  slug: open-shopify-storefront-graphql-api
 - collection_type: open
   name: Shopify Storefront API
   slug: open-shopify-storefront
@@ -124,7 +130,7 @@ plans:
 - name: Shopify Storefront Plans Pricing
   plan_count: 5
   slug: shopify-storefront-plans-pricing
-random_paper: 5
+random_paper: 137
 rate_limits:
 - limit_count: 3
   name: Shopify Storefront Rate Limits
@@ -172,7 +178,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/screenshots/shopify-storefront-2026-06-20T193831.png
 security:

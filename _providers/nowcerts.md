@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Tasks, task work groups, and to-do workflow.
   name: NowCerts Tasks API
   slug: nowcerts-tasks-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NowCerts Authentication API
+  slug: open-nowcerts-authentication-api
+- collection_type: open
+  name: NowCerts Authentication Carriers API
+  slug: open-nowcerts-carriers-api
+- collection_type: open
+  name: NowCerts Authentication Endorsements API
+  slug: open-nowcerts-endorsements-api
+- collection_type: open
+  name: NowCerts Authentication Insureds API
+  slug: open-nowcerts-insureds-api
+- collection_type: open
+  name: NowCerts Authentication Policies API
+  slug: open-nowcerts-policies-api
+- collection_type: open
+  name: NowCerts Authentication Tasks API
+  slug: open-nowcerts-tasks-api
 - collection_type: open
   name: NowCerts API
   slug: open-nowcerts
@@ -119,7 +140,7 @@ plans:
 - name: Nowcerts Plans Pricing
   plan_count: 4
   slug: nowcerts-plans-pricing
-random_paper: 45
+random_paper: 140
 rate_limits:
 - limit_count: 3
   name: Nowcerts Rate Limits
@@ -150,7 +171,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/screenshots/nowcerts-2026-08-07T185637.png
 security:

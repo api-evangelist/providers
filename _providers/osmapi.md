@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,11 +51,17 @@ apis:
 - description: The OsmAPI Health API API from osmAPI — 1 operation(s) for osmapi health api.
   name: osmAPI OsmAPI Health API API
   slug: osmapi-osmapi-health-api-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: osmAPI Anthropic Messages API
   slug: open-osmapi-anthropic-messages
+- collection_type: open
+  name: osmAPI Anthropic Messages Chat API
+  slug: open-osmapi-chat-api
 - collection_type: open
   name: osmAPI Chat Completions API
   slug: open-osmapi-chat-completions
@@ -63,8 +69,17 @@ collections:
   name: osmAPI Health API
   slug: open-osmapi-health
 - collection_type: open
+  name: osmAPI Anthropic Chat Messages API
+  slug: open-osmapi-messages-api
+- collection_type: open
+  name: osmAPI Anthropic Messages Chat Models API
+  slug: open-osmapi-models-api
+- collection_type: open
   name: osmAPI Models API
   slug: open-osmapi-models
+- collection_type: open
+  name: osmAPI Anthropic Messages Chat OsmAPI Health API API
+  slug: open-osmapi-osmapi-health-api-api
 common:
 - group: agent
   title: ''
@@ -165,7 +180,7 @@ plans:
 - name: Osmapi Plans Pricing
   plan_count: 3
   slug: osmapi-plans-pricing
-random_paper: 49
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Osmapi Rate Limits
@@ -199,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/screenshots/osmapi-2026-06-20T191217.png
 security:

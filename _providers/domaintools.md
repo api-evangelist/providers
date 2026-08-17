@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -75,7 +75,47 @@ apis:
 - description: The Siebatchd API from DomainTools — 4 operation(s) for siebatchd.
   name: DomainTools Siebatchd API
   slug: domaintools-siebatchd-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dnsdb Flex search API
+  slug: open-domaintools-flex-search-api
+- collection_type: open
+  name: dnsdb Flex search Information API
+  slug: open-domaintools-information-api
+- collection_type: open
+  name: dnsdb Flex search Iris Detect API
+  slug: open-domaintools-iris-detect-api
+- collection_type: open
+  name: dnsdb Flex search Iris Enrich API
+  slug: open-domaintools-iris-enrich-api
+- collection_type: open
+  name: dnsdb Flex search Iris Investigate API
+  slug: open-domaintools-iris-investigate-api
+- collection_type: open
+  name: dnsdb Flex search Lookups API
+  slug: open-domaintools-lookups-api
+- collection_type: open
+  name: dnsdb Flex search Monitors API
+  slug: open-domaintools-monitors-api
+- collection_type: open
+  name: dnsdb Flex search Ping API
+  slug: open-domaintools-ping-api
+- collection_type: open
+  name: dnsdb Flex search Rate Limit API
+  slug: open-domaintools-rate-limit-api
+- collection_type: open
+  name: dnsdb Flex search rdata Lookups API
+  slug: open-domaintools-rdata-lookups-api
+- collection_type: open
+  name: dnsdb Flex search rrset Lookups API
+  slug: open-domaintools-rrset-lookups-api
+- collection_type: open
+  name: dnsdb Flex search Siebatchd API
+  slug: open-domaintools-siebatchd-api
 common:
 - group: other
   title: ''
@@ -209,7 +249,7 @@ overview: 'DomainTools publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   DomainTools'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 22 more developer resources.'
-random_paper: 113
+random_paper: 1
 score:
   band: developing
   composite: 51.3
@@ -233,7 +273,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/screenshots/domaintools-2026-07-25T212242.png
 security:

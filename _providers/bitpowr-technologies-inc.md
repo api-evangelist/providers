@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -69,11 +69,45 @@ apis:
 - description: The Utils API from BitPowr Technologies, Inc. — 4 operation(s) for utils.
   name: BitPowr Technologies, Inc. Utils API
   slug: bitpowr-technologies-inc-utils-api
-artifact_total: 15
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Bitpowr Technologies Inc Webhooks
   slug: bitpowr-technologies-inc-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bitpowr Reference Account API
+  slug: open-bitpowr-technologies-inc-account-api
+- collection_type: open
+  name: Bitpowr Reference Account Address API
+  slug: open-bitpowr-technologies-inc-address-api
+- collection_type: open
+  name: Bitpowr Reference Account Assets API
+  slug: open-bitpowr-technologies-inc-assets-api
+- collection_type: open
+  name: Bitpowr Reference Account Customer API
+  slug: open-bitpowr-technologies-inc-customer-api
+- collection_type: open
+  name: Bitpowr Reference Account Market API
+  slug: open-bitpowr-technologies-inc-market-api
+- collection_type: open
+  name: Bitpowr Reference Account Others API
+  slug: open-bitpowr-technologies-inc-others-api
+- collection_type: open
+  name: Bitpowr Reference Account Staking API
+  slug: open-bitpowr-technologies-inc-staking-api
+- collection_type: open
+  name: Bitpowr Reference Account Swap API
+  slug: open-bitpowr-technologies-inc-swap-api
+- collection_type: open
+  name: Bitpowr Reference Account Transaction API
+  slug: open-bitpowr-technologies-inc-transaction-api
+- collection_type: open
+  name: Bitpowr Reference Account Utils API
+  slug: open-bitpowr-technologies-inc-utils-api
 common:
 - group: other
   title: ''
@@ -194,7 +228,7 @@ overview: 'BitPowr Technologies, Inc. publishes 10 APIs on the [APIs.io](https:/
 
 
   BitPowr Technologies, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 18 more developer resources.'
-random_paper: 63
+random_paper: 79
 score:
   band: developing
   composite: 47.9
@@ -224,7 +258,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/screenshots/bitpowr-technologies-inc-2026-07-25T203206.png
 security:

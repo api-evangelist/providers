@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -81,7 +81,53 @@ apis:
 - description: Ticket management
   name: RingCentral Events Tickets API
   slug: hopin-tickets-api
-artifact_total: 29
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RingCentral Events Bank Questions API
+  slug: open-hopin-bank-questions-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Booths API
+  slug: open-hopin-booths-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Data Subscriptions API
+  slug: open-hopin-data-subscriptions-api
+- collection_type: open
+  name: RingCentral Bank Questions Events API
+  slug: open-hopin-events-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Health API
+  slug: open-hopin-health-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Magic Links API
+  slug: open-hopin-magic-links-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Organizations API
+  slug: open-hopin-organizations-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Registrations API
+  slug: open-hopin-registrations-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Reports API
+  slug: open-hopin-reports-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Schedule Items API
+  slug: open-hopin-schedule-items-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Sessions API
+  slug: open-hopin-sessions-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Stages API
+  slug: open-hopin-stages-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Templates API
+  slug: open-hopin-templates-api
+- collection_type: open
+  name: RingCentral Events Bank Questions Tickets API
+  slug: open-hopin-tickets-api
 common:
 - group: agent
   title: ''
@@ -192,7 +238,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -231,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/screenshots/hopin-2026-06-20T182829.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 4
@@ -408,7 +408,380 @@ apis:
 - description: The WORKLOAD API from Altimate AI — 2 operation(s) for workload.
   name: Altimate AI WORKLOAD API
   slug: altimate-ai-workload-api
-artifact_total: 128
+artifact_total: 252
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast ACCOUNT_COSTS API
+  slug: open-altimate-ai-account-costs-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS ade-bench API
+  slug: open-altimate-ai-ade-bench-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS AGENTS API
+  slug: open-altimate-ai-agents-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS AI_PLAYGROUND API
+  slug: open-altimate-ai-ai-playground-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS AI_SERVICES API
+  slug: open-altimate-ai-ai-services-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS AI_STUDIO API
+  slug: open-altimate-ai-ai-studio-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS ALERTS_V1 API
+  slug: open-altimate-ai-alerts-v1-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS AUDIT_TRAIL API
+  slug: open-altimate-ai-audit-trail-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS AUTH API
+  slug: open-altimate-ai-auth-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Auth Health API
+  slug: open-altimate-ai-auth-health-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS AZURE_DATABRICKS_CONNECTIONS API
+  slug: open-altimate-ai-azure-databricks-connections-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Business Intelligence API
+  slug: open-altimate-ai-business-intelligence-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Chat API
+  slug: open-altimate-ai-chat-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS clickhouse-rbac API
+  slug: open-altimate-ai-clickhouse-rbac-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS COACH API
+  slug: open-altimate-ai-coach-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS COMPANY API
+  slug: open-altimate-ai-company-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS COMPUTE_POOLS API
+  slug: open-altimate-ai-compute-pools-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS connections API
+  slug: open-altimate-ai-connections-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS CONTRACT API
+  slug: open-altimate-ai-contract-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS CONTRACTS_DASHBOARDS API
+  slug: open-altimate-ai-contracts-dashboards-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Copilot API
+  slug: open-altimate-ai-copilot-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS CREDITS_USAGE API
+  slug: open-altimate-ai-credits-usage-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS CUSTOM_TAGS API
+  slug: open-altimate-ai-custom-tags-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Dashboards API
+  slug: open-altimate-ai-dashboards-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DATA_AVAILABILITY API
+  slug: open-altimate-ai-data-availability-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DATA_STORE API
+  slug: open-altimate-ai-data-store-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Access Rules API
+  slug: open-altimate-ai-databricks-access-rules-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks AI/ML Services API
+  slug: open-altimate-ai-databricks-ai-ml-services-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks AI Studio API
+  slug: open-altimate-ai-databricks-ai-studio-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DATABRICKS API
+  slug: open-altimate-ai-databricks-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Clusters API
+  slug: open-altimate-ai-databricks-clusters-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Connections API
+  slug: open-altimate-ai-databricks-connections-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Cost API
+  slug: open-altimate-ai-databricks-cost-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Insights API
+  slug: open-altimate-ai-databricks-insights-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Jobs API
+  slug: open-altimate-ai-databricks-jobs-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Opportunities API
+  slug: open-altimate-ai-databricks-opportunities-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Queries API
+  slug: open-altimate-ai-databricks-queries-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Savings API
+  slug: open-altimate-ai-databricks-savings-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Spark API
+  slug: open-altimate-ai-databricks-spark-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Users API
+  slug: open-altimate-ai-databricks-users-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Databricks Warehouses API
+  slug: open-altimate-ai-databricks-warehouses-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Datamate Integrations API
+  slug: open-altimate-ai-datamate-integrations-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Datamates API
+  slug: open-altimate-ai-datamates-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DBT API
+  slug: open-altimate-ai-dbt-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DBT_CLOUD API
+  slug: open-altimate-ai-dbt-cloud-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DBT_CONFIG API
+  slug: open-altimate-ai-dbt-config-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DBT_DOCS_SHARE API
+  slug: open-altimate-ai-dbt-docs-share-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DBT_HEALTH_CHECKS API
+  slug: open-altimate-ai-dbt-health-checks-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DBT_MODELS API
+  slug: open-altimate-ai-dbt-models-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DBT_V2 API
+  slug: open-altimate-ai-dbt-v2-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DBT_V3 API
+  slug: open-altimate-ai-dbt-v3-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DBT_V4 API
+  slug: open-altimate-ai-dbt-v4-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DEBUG_SQL API
+  slug: open-altimate-ai-debug-sql-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DEFINITIONS API
+  slug: open-altimate-ai-definitions-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS DEMO API
+  slug: open-altimate-ai-demo-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Embeddings API
+  slug: open-altimate-ai-embeddings-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS ENTITY_DETECTION API
+  slug: open-altimate-ai-entity-detection-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS EVALS API
+  slug: open-altimate-ai-evals-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS EVENTS API
+  slug: open-altimate-ai-events-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS EXPERIMENTATION API
+  slug: open-altimate-ai-experimentation-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS EXTERNAL API
+  slug: open-altimate-ai-external-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS FEEDBACKS API
+  slug: open-altimate-ai-feedbacks-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS GLOBAL_CONFIG API
+  slug: open-altimate-ai-global-config-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS GOVERNANCE API
+  slug: open-altimate-ai-governance-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Health API
+  slug: open-altimate-ai-health-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS IMPERSONATE API
+  slug: open-altimate-ai-impersonate-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS INGESTION API
+  slug: open-altimate-ai-ingestion-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Knowledge Bases API
+  slug: open-altimate-ai-knowledge-bases-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Knowledge Bases V2 API
+  slug: open-altimate-ai-knowledge-bases-v2-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS langfuse API
+  slug: open-altimate-ai-langfuse-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Lineage API
+  slug: open-altimate-ai-lineage-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS MASK API
+  slug: open-altimate-ai-mask-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS MEMORY API
+  slug: open-altimate-ai-memory-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS METABASE API
+  slug: open-altimate-ai-metabase-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS METRICS API
+  slug: open-altimate-ai-metrics-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Models API
+  slug: open-altimate-ai-models-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS NEWSLETTER API
+  slug: open-altimate-ai-newsletter-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS NOTEBOOK API
+  slug: open-altimate-ai-notebook-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS NOTIFICATION API
+  slug: open-altimate-ai-notification-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS OPPORTUNITIES API
+  slug: open-altimate-ai-opportunities-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS PAYMENT API
+  slug: open-altimate-ai-payment-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS PERMISSION API
+  slug: open-altimate-ai-permission-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS PREDICTION API
+  slug: open-altimate-ai-prediction-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS PRESET API
+  slug: open-altimate-ai-preset-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS PROJECT_GOVERNANCE API
+  slug: open-altimate-ai-project-governance-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS PROMPT_ENHANCER API
+  slug: open-altimate-ai-prompt-enhancer-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS PROMPT_LIBRARY API
+  slug: open-altimate-ai-prompt-library-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Public Knowledge Bases API
+  slug: open-altimate-ai-public-knowledge-bases-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS PUBLIC_PROMPT_LIBRARY API
+  slug: open-altimate-ai-public-prompt-library-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS PUBLIC_SNIPPETS API
+  slug: open-altimate-ai-public-snippets-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS QUERIES API
+  slug: open-altimate-ai-queries-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS QUERIES_V2 API
+  slug: open-altimate-ai-queries-v2-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS QUERY_BOOKMARK API
+  slug: open-altimate-ai-query-bookmark-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS RECOMMENDATIONS API
+  slug: open-altimate-ai-recommendations-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS REFERRAL API
+  slug: open-altimate-ai-referral-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS REGISTRY API
+  slug: open-altimate-ai-registry-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS RESOURCES API
+  slug: open-altimate-ai-resources-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SCHEDULER API
+  slug: open-altimate-ai-scheduler-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SCHEDULES API
+  slug: open-altimate-ai-schedules-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SDK API
+  slug: open-altimate-ai-sdk-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Semantic Metrics API
+  slug: open-altimate-ai-semantic-metrics-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SHARE API
+  slug: open-altimate-ai-share-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SMART_CONTRACTS API
+  slug: open-altimate-ai-smart-contracts-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SSO Group Mappings API
+  slug: open-altimate-ai-sso-group-mappings-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SUBSCRIPTIONS API
+  slug: open-altimate-ai-subscriptions-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SUMMARY API
+  slug: open-altimate-ai-summary-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SUMMARY_V2 API
+  slug: open-altimate-ai-summary-v2-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SUPERTOKENS API
+  slug: open-altimate-ai-supertokens-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS SYNC API
+  slug: open-altimate-ai-sync-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Tableau API
+  slug: open-altimate-ai-tableau-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS TABLES API
+  slug: open-altimate-ai-tables-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS TEAMS API
+  slug: open-altimate-ai-teams-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Test Email API
+  slug: open-altimate-ai-test-email-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS USER API
+  slug: open-altimate-ai-user-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS USER_GROUP API
+  slug: open-altimate-ai-user-group-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS user-group-rules API
+  slug: open-altimate-ai-user-group-rules-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS Users API
+  slug: open-altimate-ai-users-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS VIOLATIONS API
+  slug: open-altimate-ai-violations-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS WAREHOUSE API
+  slug: open-altimate-ai-warehouse-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS WAREHOUSE_SCHEDULE API
+  slug: open-altimate-ai-warehouse-schedule-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS WORKFLOW_AGENT API
+  slug: open-altimate-ai-workflow-agent-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS WORKFLOW_DASHBOARD API
+  slug: open-altimate-ai-workflow-dashboard-api
+- collection_type: open
+  name: Fast ACCOUNT_COSTS WORKLOAD API
+  slug: open-altimate-ai-workload-api
 common:
 - group: other
   title: ''
@@ -558,7 +931,7 @@ overview: 'Altimate AI publishes 123 APIs on the [APIs.io](https://apis.io/) net
 
 
   Altimate AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 16
+random_paper: 53
 score:
   band: developing
   composite: 51.9
@@ -582,7 +955,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/screenshots/altimate-ai-2026-07-25T195830.png
 security:

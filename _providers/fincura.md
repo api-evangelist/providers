@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -102,11 +102,75 @@ arazzos:
 - description: Creates a borrower, uploads a financial document for automated spreading, retrieves the normalized data view, then runs a DSCR analysis and downloads it.
   name: Spread a borrower financial statement and run DSCR analysis
   slug: fincura-spread-and-analyze
-artifact_total: 26
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Fincura Webhooks
   slug: fincura-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key API
+  slug: open-fincura-api-key-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key Borrowers API
+  slug: open-fincura-borrowers-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key CustomAttributes API
+  slug: open-fincura-customattributes-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key DataViews API
+  slug: open-fincura-dataviews-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key DscrAnalysis API
+  slug: open-fincura-dscranalysis-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key DscrTemplate API
+  slug: open-fincura-dscrtemplate-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key EmbeddedDocument API
+  slug: open-fincura-embeddeddocument-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key EmbeddedDscrAnalysis API
+  slug: open-fincura-embeddeddscranalysis-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key EmbeddedFinancials API
+  slug: open-fincura-embeddedfinancials-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key EmbeddedGlobalCashflowAnalysis API
+  slug: open-fincura-embeddedglobalcashflowanalysis-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key Files API
+  slug: open-fincura-files-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key FinancialStatementSubmission API
+  slug: open-fincura-financialstatementsubmission-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key GlobalCashflowAnalysis API
+  slug: open-fincura-globalcashflowanalysis-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key GlobalCashflowTemplate API
+  slug: open-fincura-globalcashflowtemplate-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key Loans API
+  slug: open-fincura-loans-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key Portfolios API
+  slug: open-fincura-portfolios-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key Requirements API
+  slug: open-fincura-requirements-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key SpreadingTemplate API
+  slug: open-fincura-spreadingtemplate-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key TenantSettings API
+  slug: open-fincura-tenantsettings-api
+- collection_type: open
+  name: Automated Spreading and Analysis Api-Key Webhooks API
+  slug: open-fincura-webhooks-api
 common:
 - group: other
   title: ''
@@ -207,7 +271,7 @@ overview: 'Fincura publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fincura''s developer surface includes authentication and 19 more developer resources.'
-random_paper: 24
+random_paper: 148
 score:
   band: thin
   composite: 31.9
@@ -237,7 +301,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/screenshots/fincura-2026-07-25T214509.png
 security:

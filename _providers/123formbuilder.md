@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -73,14 +73,32 @@ arazzos:
 - description: List a form's submissions and, when any exist, fetch the full detail of the first one.
   name: 123FormBuilder Review a Form Submission
   slug: 123formbuilder-review-submission-workflow
-artifact_total: 90
+artifact_total: 96
 collections:
 - collection_type: postman
   name: 123FormBuilder REST API v2
   slug: postman-123formbuilder-rest-api-v2
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 123FormBuilder REST API v2 Accounts API
+  slug: open-123formbuilder-accounts-api
+- collection_type: open
+  name: 123FormBuilder REST API v2 Accounts Forms API
+  slug: open-123formbuilder-forms-api
+- collection_type: open
+  name: 123FormBuilder REST API v2 Accounts Groups API
+  slug: open-123formbuilder-groups-api
+- collection_type: open
+  name: 123FormBuilder REST API v2 Accounts Login API
+  slug: open-123formbuilder-login-api
+- collection_type: open
   name: 123FormBuilder REST API v2
   slug: open-123formbuilder-rest-api-v2
+- collection_type: open
+  name: 123FormBuilder REST API v2 Accounts Users API
+  slug: open-123formbuilder-users-api
 common:
 - group: operate
   title: ''
@@ -376,7 +394,7 @@ plans:
 - name: 123Formbuilder Plans Pricing
   plan_count: 5
   slug: 123formbuilder-plans-pricing
-random_paper: 9
+random_paper: 137
 rate_limits:
 - limit_count: 7
   name: 123Formbuilder Rate Limits
@@ -424,7 +442,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/screenshots/123formbuilder-2026-06-20T162300.png
 security:

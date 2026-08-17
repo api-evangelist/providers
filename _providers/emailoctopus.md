@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 50.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -39,26 +40,51 @@ agentic_access:
   summary_line: 25 operations · 15 acting
 api_count: 6
 apis:
-- description: The Automation API from EmailOctopus — 1 operation(s) for automation.
+- description: Enqueue an existing contact into an EmailOctopus automation. Write-only — the v2 API exposes no operation to list or read automations, so the automation id must come from the dashboard. 1 operation(s)
   name: EmailOctopus Automation API
   slug: emailoctopus-automation-api
-- description: The Campaign API from EmailOctopus — 5 operation(s) for campaign.
+- description: 'Read campaigns and their three report projections — summary counters, per-link clicks, and per-contact engagement rows. Read-only: campaigns cannot be created, scheduled or sent through the v2 API. 5 '
   name: EmailOctopus Campaign API
   slug: emailoctopus-campaign-api
-- description: The Contact API from EmailOctopus — 3 operation(s) for contact.
+- description: 'Manage subscribers on a list: create, read, update, delete, upsert by email address, and update many at once through the batch endpoint. The upsert (PUT /lists/{list_id}/contacts) is the safe-retry pa'
   name: EmailOctopus Contact API
   slug: emailoctopus-contact-api
-- description: The Field API from EmailOctopus — 2 operation(s) for field.
+- description: 'Define the per-list custom fields contact records are written against. Fields are keyed by a stable tag slug and typed text, number or date, with optional choices and a fallback value. 3 operation(s) '
   name: EmailOctopus Field API
   slug: emailoctopus-field-api
-- description: The List API from EmailOctopus — 2 operation(s) for list.
+- description: 'Create and manage subscriber lists, the aggregate root of the EmailOctopus data model. Fields, tags and contacts are all owned by a list and addressed through list-scoped paths. 5 operation(s) in the '
   name: EmailOctopus List API
   slug: emailoctopus-list-api
-- description: The Tag API from EmailOctopus — 2 operation(s) for tag.
+- description: Create, rename, delete and list the tags used to segment contacts on a list. Tags are keyed by slug rather than an id. 4 operation(s) in the EmailOctopus v2 OpenAPI 3.1.0.
   name: EmailOctopus Tag API
   slug: emailoctopus-tag-api
-artifact_total: 13
+artifact_total: 21
+asyncapis:
+- description: ''
+  name: Emailoctopus Webhooks
+  slug: emailoctopus-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EmailOctopus v2 Automation API
+  slug: open-emailoctopus-automation-api
+- collection_type: open
+  name: EmailOctopus v2 Automation Campaign API
+  slug: open-emailoctopus-campaign-api
+- collection_type: open
+  name: EmailOctopus v2 Automation Contact API
+  slug: open-emailoctopus-contact-api
+- collection_type: open
+  name: EmailOctopus v2 Automation Field API
+  slug: open-emailoctopus-field-api
+- collection_type: open
+  name: EmailOctopus v2 Automation List API
+  slug: open-emailoctopus-list-api
+- collection_type: open
+  name: EmailOctopus v2 Automation Tag API
+  slug: open-emailoctopus-tag-api
 - collection_type: open
   name: EmailOctopus v2 API
   slug: open-emailoctopus
@@ -86,7 +112,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://emailoctopus.com/api-documentation
+  url: https://emailoctopus.com/api-documentation/v2
 - group: commercial
   title: ''
   type: Plans
@@ -99,42 +125,125 @@ common:
   title: ''
   type: FinOps
   url: finops/emailoctopus-finops.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/emailoctopus-v2-openapi.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/emailoctopus-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/emailoctopus-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/emailoctopus-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/emailoctopus-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/emailoctopus-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/emailoctopus-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/emailoctopus-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.emailoctopus.com
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/emailoctopus-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/emailoctopus-components.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://emailoctopus.com/api-documentation/v2
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://emailoctopus.com/api-documentation/v2#section/Authentication
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.emailoctopus.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://emailoctopus.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://emailoctopus.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://emailoctopus.com/account/sign-up
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://emailoctopus.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://emailoctopus.com/legal/privacy
 created: '2026-06-25'
-description: EmailOctopus is an affordable email-marketing platform for newsletters, campaigns, automations, and audience management. Its REST API (v2 at https://api.emailoctopus.com, Bearer authenticated) lets developers manage lists, contacts, custom fields, tags, campaigns, automations, and campaign reports programmatically.
+description: EmailOctopus is an affordable email-marketing platform for newsletters, campaigns, automations and audience management, built on a low-cost sending model that undercuts the incumbent ESPs. Its v2 REST API is served from a single host, https://api.emailoctopus.com, with no version segment in the path, and is authenticated with a Bearer API key. The API covers subscriber lists, contacts, per-list custom fields and tags, campaigns and three campaign report projections, plus an operation to enqueue a contact into an automation. EmailOctopus publishes a real OpenAPI 3.1.0 document (25 operations, 19 schemas) at its v2 reference URL, documents an RFC 7807 error envelope with dereferenceable type URIs, cursor pagination, a token-bucket rate limit of 10 requests per second with a burst of 100, and an HMAC-SHA256-signed webhook surface carrying eight contact event types. It ships no official client SDK, no CLI and no MCP server.
 finops:
 - name: Emailoctopus Finops
   service_category: Marketing and Communications
   slug: emailoctopus-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emailoctopus.png
 layout: provider
-modified: '2026-06-25'
+modified: '2026-08-13'
 name: EmailOctopus
 nav: Providers
 network: true
 overview: 'EmailOctopus publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Automation API, Campaign API, Contact API, and 3 more. Tagged areas include Email, Email Marketing, Newsletters, Campaigns, and Automation.
 
 
-  EmailOctopus'' developer surface includes authentication, documentation, and 7 more developer resources.'
+  The EmailOctopus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  EmailOctopus'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
 plans:
 - name: Emailoctopus Plans Pricing
   plan_count: 3
   slug: emailoctopus-plans-pricing
-random_paper: 101
+random_paper: 109
 rate_limits:
-- limit_count: 4
+- limit_count: 5
   name: Emailoctopus Rate Limits
   slug: emailoctopus-rate-limits
 score:
-  band: thin
-  composite: 37.0
-  delta: 0.0
+  band: strong
+  composite: 57.6
+  delta: 20.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 54.6
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 31.6
+    commercial_clarity: 84.2
+    contract_quality: 67.9
+    developer_ergonomics: 50.0
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 55.3
   previous_composite: 37.0
   provenance:
     agentic_access: derived
@@ -143,9 +252,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/screenshots/emailoctopus-2026-07-25T213222.png
 security:
 - kind: authentication
@@ -163,5 +278,12 @@ tags:
 - Newsletters
 - Campaigns
 - Automation
+- Contacts
+- Lists
+- Marketing
+- Webhooks
+- Transactional Email
+- Subscriber Management
+- Reporting
 website: https://emailoctopus.com
 ---

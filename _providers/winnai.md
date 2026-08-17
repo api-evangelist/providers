@@ -9,27 +9,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: 'A live remote Model Context Protocol endpoint serving WINN.AI conversation data to agents. It is published nowhere on the company''s website — it was found by probing RFC 9728 OAuth protected-resource '
+  name: WINN.AI MCP API
+  slug: mcp
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -63,35 +67,105 @@ common:
   title: ''
   type: DomainSecurity
   url: security/winnai-domain-security.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://winn.ai/support/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/winnai-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/winnai-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/winnai-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/winnai-scopes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/winnai-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/winnai-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/winnai-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/winnai-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/winnai-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/winnai-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/winnai-llms.txt
 created: '2026-07-17'
-description: Winn.ai is an AI-powered revenue execution platform for B2B sales teams that joins live sales calls to provide real-time playbook guidance, coach representatives on messaging and objection handling, and automate administrative work such as meeting note-taking, follow-up drafting, and CRM data entry. The product sits on top of a team's existing sales stack and reports outcomes including higher playbook adoption, dramatically higher CRM fill rates, and a large reduction in post-call admin work. Winn.ai is a privately held company backed by Insight Partners. As of this enrichment pass the company exposes a product web application and a Vanta-hosted trust center (SOC 2, ISO 27001, GDPR) but publishes no public developer API, SDKs, webhooks, or specification surface.
+description: Winn.ai is an AI-powered revenue execution platform for B2B sales teams that joins live sales calls to provide real-time playbook guidance, coach representatives on messaging and objection handling, and automate administrative work such as meeting note-taking, follow-up drafting, and CRM data entry. The product sits on top of a team's existing sales stack and reports outcomes including higher playbook adoption, dramatically higher CRM fill rates, and a large reduction in post-call admin work. Winn.ai is a privately held company backed by Insight Partners. WINN.AI sells API access as an Enterprise-plan feature ("Get conversation data and AI insights, in any tool") and runs a live, undocumented remote Model Context Protocol server at https://app.winn.ai/mcp, discovered through the RFC 9728 OAuth protected-resource metadata it publishes; the endpoint is gated by OAuth 2.0 authorization code with PKCE and advertises a single read-only scope, sessions:read. There is no developer
+  portal, API reference, OpenAPI document, SDK, CLI, webhook catalog, status page or changelog, and both pricing tiers are sales-gated. The company operates a Vanta-hosted trust center covering SOC 2, ISO 27001 and GDPR.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/winnai.png
 layout: provider
-modified: '2026-07-21'
+mcp_servers:
+- description: ''
+  name: winnai-mcp.yml
+  slug: winnai-mcpyml
+modified: '2026-08-13'
 name: Winn.ai
 nav: Providers
 network: true
-overview: 'Winn.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Artificial Intelligence, Revenue, and CRM.
+overview: 'Winn.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Artificial Intelligence, Revenue, and CRM.
 
 
-  Winn.ai''s developer surface includes pricing and 7 more developer resources.'
-random_paper: 46
+  Winn.ai''s developer surface includes pricing, support, authentication, and 17 more developer resources.'
+plans:
+- name: Winnai Plans Pricing
+  plan_count: 2
+  slug: winnai-plans-pricing
+random_paper: 50
+rate_limits:
+- limit_count: 2
+  name: Winnai Rate Limits
+  slug: winnai-rate-limits
+scopes:
+- name: Winnai Scopes
+  scope_count: 0
+  slug: winnai-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 17.1
-  delta: 0.0
+  band: thin
+  composite: 34.0
+  delta: 16.9
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 81.6
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 23.9
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 21.1
   previous_composite: 17.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Winnai Authentication
+  slug: winnai-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Winnai Domain Security
   slug: winnai-domain-security

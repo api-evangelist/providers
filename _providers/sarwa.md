@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Sarwa is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Sarwa''s developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 62
+random_paper: 95
 score:
   band: emerging
   composite: 16.3
@@ -111,7 +111,7 @@ score:
     regime_id: securities_market_data
     score: 26.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -13,40 +13,35 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
-api_count: 2
+  score: 31.1
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
-- description: The Reprise Data API allows teams to pull real-time, click-level demo engagement data directly from Reprise into data warehouses, data lakes, or downstream platforms. It supports analytics data includ
-  name: Reprise Data API
+- description: The Reprise MCP server is a remote Model Context Protocol endpoint that lets any MCP-compatible AI assistant — Claude, ChatGPT, Codex, Microsoft Copilot, Gemini, Cursor — drive the whole Reprise platf
+  name: Reprise MCP Server
+  slug: mcp
+- description: The Clone Environment Data API returns viewer session analytics for published Reprise Clone Environment demos as a single JSON pipe (api_replicate_analytics). The response carries a meta block of colu
+  name: Reprise Clone Environment Data API
   slug: data-api
-- description: The Reprise HTML Environment Data API enables dynamic data injection into HTML-based demo environments. It supports portal ID configuration, time period parameters for pulling demo data, and authentic
+- description: 'The HTML Environment Data API returns click-level viewer activity for published Reprise HTML Environment (Product Tour) demos through a single endpoint, replay_session_activity. Each record describes '
   name: Reprise HTML Environment Data API
   slug: html-environment-data-api
-artifact_total: 8
+artifact_total: 12
 common:
-- group: auth
-  title: ''
-  type: TrustCenter
-  url: security/reprise-trust-center.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/reprise-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -54,15 +49,31 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.reprise.com/
+  url: https://reprise.zendesk.com/hc/en-us
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://reprise.zendesk.com/hc/en-us/articles/18940321925659-HTML-Environment-Data-API
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://reprise.zendesk.com/hc/en-us/articles/12519794531099-New-to-Reprise-Get-Started-Here
+- group: operate
+  title: ''
+  type: Support
+  url: https://reprise.zendesk.com/hc/en-us
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/GetReprise
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/getreprise
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/getreprise
 - group: company
   title: ''
   type: Blog
@@ -70,15 +81,39 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.reprise.com/contact
+  url: https://www.reprise.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.reprise.com/get-started-reprise
+- group: start
+  title: ''
+  type: Login
+  url: https://app.getreprise.com/auth/login/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.reprise.com/tc
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.reprise.com/privacy
 - group: operate
   title: ''
   type: StatusPage
   url: https://status.reprise.com/
-- group: other
+- group: auth
   title: ''
-  type: X
-  url: https://x.com/getreprise
+  type: TrustCenter
+  url: security/reprise-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.reprise.com/platform/enterprise-scale-and-security
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/reprise-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -91,8 +126,60 @@ common:
   title: ''
   type: FinOps
   url: finops/reprise-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/reprise-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/reprise-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/reprise-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/reprise-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/reprise-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/reprise-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/reprise-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/reprise-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/reprise-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/reprise-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/reprise-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/reprise-packages.yml
 created: 2026-06-13
-description: Reprise is the leading enterprise demo automation platform that enables sales and marketing teams to create guided product tours, sandbox demos, and interactive leave-behind experiences without engineering involvement. The platform supports screen capture, data injection, and fully cloned environments to produce pixel-perfect, customizable product demonstrations at scale. Reprise offers a Data API for pulling real-time click-level engagement data into data warehouses and downstream platforms, along with pre-built integrations with Salesforce, HubSpot, Marketo, and Google Analytics. With over 20 million demos served, Reprise is trusted by enterprise customers including Databricks, ServiceNow, Cloudera, and iCIMS.
+description: Reprise is the enterprise demo creation platform sales, presales and marketing teams use to build no-code interactive product demos — guided Product Tours captured from a live front end, Data Injection that overlays prospect-specific data on a real application, and full Clone Environments that reproduce an application down to the code. Reprise ships a remote Model Context Protocol server at app.getreprise.com that exposes more than 100 atomic demo-authoring tools to any MCP client (Claude, ChatGPT, Copilot, Gemini, Codex) over OAuth 2.0 authorization code with PKCE, plus two token-authenticated analytics Data APIs (HTML Environment replay_session_activity and Clone Environment api_replicate_analytics) for pulling click-level demo engagement data into a warehouse. Reprise is SOC 2 Type 2 and ISO/IEC 27001:2022 certified, with SSO and RBAC in every package, and has served over 20 million demos for customers including Databricks, ServiceNow, Cloudera, 1Password, Commvault and iCIMS.
 finops:
 - name: Reprise Finops
   service_category: ''
@@ -104,43 +191,56 @@ jsonld:
   property_count: 0
   slug: reprise-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: reprise-mcp.yml
+  slug: reprise-mcpyml
+modified: 2026-08-13
 name: Reprise
 nav: Providers
 network: true
-overview: 'Reprise publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include Demo Automation, Product Tours, Sales Demos, Interactive Demos, and Sandbox Environments.
+overview: 'Reprise publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Demo Automation, Product Tours, Sales Demos, Interactive Demos, and Sandbox Environments.
 
 
   The Reprise catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Reprise''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Reprise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Reprise Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: reprise-plans-pricing
-random_paper: 42
+random_paper: 17
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Reprise Rate Limits
   slug: reprise-rate-limits
+scopes:
+- name: Reprise Scopes
+  scope_count: 1
+  slug: reprise-scopes
+  summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 33.4
-  delta: 0.0
+  band: developing
+  composite: 43.7
+  delta: 10.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 40.3
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 68.4
+    contract_quality: 8.1
+    developer_ergonomics: 58.7
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 42.1
   previous_composite: 33.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/screenshots/reprise-2026-06-20T192911.png
 security:
+- kind: authentication
+  name: Reprise Authentication
+  slug: reprise-authentication
+  summary_line: oauth2/apiKey · 2 schemes
 - kind: domain-security
   name: Reprise Domain Security
   slug: reprise-domain-security
@@ -148,7 +248,7 @@ security:
 - kind: trust-center
   name: Reprise Trust Center
   slug: reprise-trust-center
-  summary_line: SOC 2
+  summary_line: SOC 2 Type 2, ISO/IEC 27001:2022
 slug: reprise
 tags:
 - Demo Automation
@@ -159,5 +259,8 @@ tags:
 - Enterprise Sales
 - Marketing Technology
 - Sales Enablement
+- Model Context Protocol
+- Agent Tooling
+- Demo Analytics
 website: https://www.reprise.com/
 ---

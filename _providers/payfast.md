@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -78,7 +78,35 @@ apis:
 - description: Query merchant transaction history with date range and aggregations
   name: PayFast Transaction History API
   slug: payfast-transaction-history-api
-artifact_total: 30
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PayFast Credit Card Transactions API
+  slug: open-payfast-credit-card-transactions-api
+- collection_type: open
+  name: PayFast Credit Card Transactions Notifications API
+  slug: open-payfast-notifications-api
+- collection_type: open
+  name: PayFast Credit Card Transactions Onsite Checkout API
+  slug: open-payfast-onsite-checkout-api
+- collection_type: open
+  name: PayFast Credit Card Transactions Payment Form API
+  slug: open-payfast-payment-form-api
+- collection_type: open
+  name: PayFast Credit Card Transactions Refunds API
+  slug: open-payfast-refunds-api
+- collection_type: open
+  name: PayFast Credit Card Transactions Subscriptions API
+  slug: open-payfast-subscriptions-api
+- collection_type: open
+  name: PayFast Credit Card Transactions Tokenization API
+  slug: open-payfast-tokenization-api
+- collection_type: open
+  name: PayFast Credit Card Transactions Transaction History API
+  slug: open-payfast-transaction-history-api
 common:
 - group: agent
   title: ''
@@ -197,7 +225,7 @@ plans:
 - name: Payfast Plans Pricing
   plan_count: 2
   slug: payfast-plans-pricing
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Payfast Rate Limits
@@ -237,7 +265,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/screenshots/payfast-2026-06-20T191452.png
 security:
