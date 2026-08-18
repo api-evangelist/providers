@@ -2314,6 +2314,7 @@
      "name": "Buffer",
      "slug": "buffer",
      "description": "Buffer is a social media scheduling, publishing and analytics platform with a GraphQL API for scheduling posts, managing content queues and ideas, working with post templates, accessing normalized engagement metrics, and publishing across eleven social channels including Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, YouTube, Mastodon and Google Business Profiles. Access is by personal API key or OAuth 2.0 with PKCE, and Buffer also operates a hosted Model Context Protocol server plus a first-party CLI that ships installable agent skills. The legacy REST API is being retired on February 1, 2027.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/screenshots/buffer-2026-08-17T123104.png",
      "score": 65.9,
      "band": "strong",
      "band_label": "Strong",

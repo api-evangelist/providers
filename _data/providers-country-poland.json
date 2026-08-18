@@ -1,8 +1,57 @@
 {
- "total": 7,
- "shown": 7,
+ "total": 10,
+ "shown": 10,
  "limit": 1000,
  "bands": [
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "56 – 65.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Apstal",
+     "slug": "apstal",
+     "description": "AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, heatmaps, funnels, error tracking, Core Web Vitals and AI-agent traffic detection. Apstal is agent-native by design: its primary programmatic surface is a hosted MCP server at https://apstal.com/api/mcp (JSON-RPC 2.0 over Streamable HTTP, protocol 2025-06-18) whose tools/list is answerable anonymously, backed by a documented REST ingestion and stats API, a WebSocket real-time stream, an SSE natural-language query endpoint, an A2A agent card, two provider-authored Agent Skills, an llms.txt, OAuth 2.0 authorization-server and protected-resource metadata, and an MCP server card. The company is based in Poland and publishes a GDPR Data Processing Agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png",
+     "score": 58.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 43.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "flavored",
+      "dry_run_mode": false
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
   {
    "band": "developing",
    "label": "Developing",
@@ -47,7 +96,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1
+     "rank": 2
     },
     {
      "name": "Przelewy24",
@@ -92,7 +141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "University of Warsaw",
@@ -137,7 +186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -147,9 +196,54 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "Stooq",
+     "slug": "stooq",
+     "description": "Stooq is a Poland-based financial data platform offering free access to historical and current market data for global equities, indices, currencies, cryptocurrencies, commodities, bonds, and economic indicators. Data is delivered as CSV via a simple REST-style URL interface at https://stooq.com/q/d/l/ using query parameters for ticker symbol, date range, and interval. As of early 2026 an API key (obtained via CAPTCHA on the site) is required. A known daily request quota applies; exceeding it returns an \"Exceeded the daily hits limit\" message. Bulk point-in-time snapshots of the full database (12,000+ securities) are also available as ZIP-compressed CSVs from https://stooq.com/db/h/.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stooq/refs/heads/main/screenshots/stooq-2026-06-20T194600.png",
+     "score": 39.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 66.4,
+      "governance": 58.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 20.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
+    },
     {
      "name": "MODIVO",
      "slug": "modivo",
@@ -193,10 +287,53 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 6
+    },
+    {
+     "name": "SMSAPI",
+     "slug": "smsapi",
+     "description": "SMSAPI is a European bulk business-messaging provider headquartered in Poland and part of LINK Mobility. Its REST API delivers SMS, MMS, and voice (VMS) messaging, email marketing, two-factor authentication, contact and group management, sender field registration, subuser administration, and account/profile operations, authenticated with OAuth 2.0 bearer tokens over api.smsapi.com and api.smsapi.eu.",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 23.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "emerging",
@@ -241,7 +378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 8
     },
     {
      "name": "Oferteo",
@@ -278,7 +415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 9
     }
    ]
   },
@@ -333,7 +470,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 10
     }
    ]
   }

@@ -1,6 +1,6 @@
 {
- "total": 311,
- "shown": 311,
+ "total": 333,
+ "shown": 333,
  "limit": 1000,
  "bands": [
   {
@@ -3078,7 +3078,7 @@
      "name": "Offerpad",
      "slug": "offerpad",
      "description": "Offerpad Solutions Inc. (NYSE: OPAD), headquartered in Chandler, Arizona, is a United States iBuyer and licensed residential real estate brokerage that buys homes directly from sellers for cash, renovates them, and resells them, while also offering traditional listing services, a free local move, and a Renovate service. It sits in the middle of the US residential value chain as a principal-position buyer and MLS-participating brokerage in seventeen states, consuming licensed MLS listing data rather than publishing it. Offerpad's API posture is honestly minimal: there is no developer portal, no published API documentation, and no self-serve API access of any kind. The developer., developers., api. and docs. subdomains do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404. Offerpad is NOT listed in the RESO certification directory, holds no RESO Web API or Data Dictionary certification, and serves no OData service document, $metadata document, or Universal Property Identifier. Its partner surfaces — the Direct+ investor-buyer program, the Powered By Offerpad agent partner portal, the homebuilder program and the vendor network — are human web portals gated behind an intake form and a Mutual Non-Disclosure Agreement, with no programmatic interface described anywhere. The only publicly callable, self-describing API on the domain is the stock WordPress REST API of the marketing site. Offerpad does, however, run a real versioned transaction API privately: helix.offerpad.com serves the customer identity, cash-offer transaction, contract, document and form endpoints behind the Offerpad Connect portal and mobile apps, and it publishes a live RFC 8414 authorization-server metadata document delegating to Okta — so Offerpad's identity layer is machine discoverable while none of its business capability is documented, schema-backed or obtainable by a third party.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-07T190021.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png",
      "score": 43.6,
      "band": "developing",
      "band_label": "Developing",
@@ -3600,8 +3600,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 41,
-   "shown": 41,
+   "count": 42,
+   "shown": 42,
    "providers": [
     {
      "name": "Weather.gov",
@@ -5045,6 +5045,50 @@
      "rank": 114
     },
     {
+     "name": "River Financial",
+     "slug": "river-financial",
+     "description": "River Financial Inc. (river.com) is a regulated U.S.-based Bitcoin brokerage and bank for long-term investors, operating under NMLS ID #1906809. Customers can buy, sell, send, and receive bitcoin, get paid in bitcoin via direct deposit, and earn interest on cash balances paid in bitcoin. River holds 100% of customer bitcoin in full-reserve multisig cold storage, publishes monthly third-party Proof of Reserves attestations, and provides FDIC insurance on cash up to $250,000 through partner bank Lead Bank. River exposes a GraphQL data API at https://river.com/api secured by an OAuth 2.0 authorization-code + PKCE flow with OpenID Connect discovery (balances, transactions, identity, and payment network read scopes). Surfaced as a polychain portfolio company and enriched from River's public well-known, OIDC, and security surfaces.",
+     "score": 31.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 67.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 14.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 115
+    },
+    {
      "name": "Citigroup",
      "slug": "citigroup",
      "description": "Citigroup (Citi) is a global, diversified money-center financial services holding company headquartered in New York City, serving consumers, corporations, governments, and institutions across roughly 90 countries. Citi exposes public API access through two distinct, voluntary developer surfaces. The retail Citi Developer Hub (developer.citi.com, now consolidated into the Citi Partner Portal at partner.citi.com) was one of the earliest bank open-banking programs, launched in 2016, and documents seven core API product families: Accounts, Authorize, Customers, Money Movement, Utilities, Onboarding, and Pay with Points, secured with OAuth 2.0 authorization-code and consent flows against a developer sandbox. The corporate surface is CitiConnect, part of Treasury and Trade Solutions (TTS), which has processed more than one billion API calls since 2017 and exposes real-time payments, cross-border WorldLink FX, statements and reporting, request-to-pay, proof-of-payment, and account-balance APIs across the full TTS footprint, integrated through ERP and TMS systems with OAuth 2.0 and mutual TLS. As a US institution Citi participates in voluntary open finance rather than a single mandated contract: it is a co-owner of the Akoya data-access network and shares consumer-permissioned data under emerging FDX / CFPB Section 1033 norms. No public downloadable OpenAPI, Swagger, SDK, or Postman artifacts are published; documentation is HTML and partner-gated, so entries below are documented humanURL references without harvested machine-readable specs.",
@@ -5087,7 +5131,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Cohere Health",
@@ -5132,7 +5176,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Morgan Stanley",
@@ -5177,7 +5221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Resilience",
@@ -5221,7 +5265,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Bluevine",
@@ -5266,7 +5310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Navy Federal Credit Union",
@@ -5311,7 +5355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "New York Independent System Operator (NYISO)",
@@ -5356,7 +5400,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Rhapsody",
@@ -5400,7 +5444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     }
    ]
   },
@@ -5409,8 +5453,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 121,
-   "shown": 121,
+   "count": 126,
+   "shown": 126,
    "providers": [
     {
      "name": "Enterprise Mobility",
@@ -5455,7 +5499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Order.co",
@@ -5500,7 +5544,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Southern California Edison",
@@ -5544,7 +5588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "USAA",
@@ -5589,7 +5633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "BankUnited",
@@ -5634,7 +5678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "Homes.com",
@@ -5679,7 +5723,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "East West Bank",
@@ -5724,7 +5768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "NAIC",
@@ -5769,7 +5813,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Western Alliance Bank",
@@ -5813,7 +5857,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "GovTrack",
@@ -5858,7 +5902,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Landis+Gyr",
@@ -5903,7 +5947,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "NAESB",
@@ -5948,7 +5992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "RE/MAX",
@@ -5992,7 +6036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "NERC",
@@ -6037,7 +6081,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
+    },
+    {
+     "name": "Ambrook",
+     "slug": "ambrook",
+     "description": "Ambrook is financial management software for farms, ranches, and the trades — construction, trucking, manufacturing, and the interconnected businesses that produce, build, and move physical goods. Founded in 2020 and based in New York, it combines bookkeeping, invoicing, payments, and inventory in one platform, with Schedule F/C tax alignment, enterprise tagging for tracking profitability by business line, and cost-per-head livestock tracking. Positioned as a QuickBooks alternative for agriculture and margin-sensitive industries, Ambrook pairs a full-featured mobile app with U.S.-based, ag-centric support. It also operates an OAuth-gated Model Context Protocol (MCP) server that lets AI agents connect to a business's Ambrook data via a read-only GraphQL surface. Ambrook raised a $26.1M Series A and is backed by investors including Homebrew.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ambrook/refs/heads/main/screenshots/ambrook-2026-07-25T200036.png",
+     "score": 24.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 46.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 138
     },
     {
      "name": "Klara",
@@ -6082,7 +6171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 139
     },
     {
      "name": "University of Michigan-Ann Arbor",
@@ -6126,7 +6215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 140
     },
     {
      "name": "Arizona State University",
@@ -6171,7 +6260,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 141
     },
     {
      "name": "FinThrive",
@@ -6215,7 +6304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 142
     },
     {
      "name": "Amwell",
@@ -6260,7 +6349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 143
     },
     {
      "name": "Columbia University",
@@ -6305,7 +6394,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 144
     },
     {
      "name": "University of California, Berkeley",
@@ -6350,7 +6439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 145
     },
     {
      "name": "Brown University",
@@ -6388,7 +6477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 146
     },
     {
      "name": "EnergyHub",
@@ -6433,7 +6522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 147
     },
     {
      "name": "Wyndham Hotels & Resorts",
@@ -6470,7 +6559,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 148
+    },
+    {
+     "name": "Whirlpool Corporation",
+     "slug": "whirlpool",
+     "description": "Whirlpool Corporation is the world's only major U.S.-based manufacturer of kitchen and laundry appliances, with approximately $16 billion in annual net sales and 41,000 employees globally. Its brand portfolio includes Whirlpool, KitchenAid, JennAir, Maytag, Amana, Brastemp, Consul, and InSinkErator. Whirlpool offers connected smart appliances integrating with Amazon Alexa, Amazon Dash Replenishment, Google Assistant, and Matter for smart home automation, and provides a cloud-connected appliance API used by the Whirlpool mobile app and third-party integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/screenshots/whirlpool-2026-06-20T201441.png",
+     "score": 23.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 12.9,
+      "governance": 68.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 149
     },
     {
      "name": "Zonos",
@@ -6507,7 +6634,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 150
     },
     {
      "name": "Truist",
@@ -6551,7 +6678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 151
     },
     {
      "name": "Yes Energy",
@@ -6595,7 +6722,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 152
+    },
+    {
+     "name": "Scott Foresman",
+     "slug": "scott-foresman",
+     "description": "Scott Foresman was a leading elementary educational publisher for PreK through Grade 6 across all subject areas. Founded in 1896, the company became part of Pearson PLC in 1996. In 2019, Pearson spun off its U.S.-based K-12 courseware business, which was rebranded as Savvas Learning Company in 2020. Scott Foresman's iconic educational content — including the \"Dick and Jane\" reading series and basal reading programs — now lives under the Savvas Learning brand. No public developer API is currently available.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scott-foresman/refs/heads/main/screenshots/scott-foresman-2026-06-20T193546.png",
+     "score": 22.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 22.6,
+      "governance": 58.3,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 15.8
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 153
     },
     {
      "name": "University of Wisconsin-Madison",
@@ -6633,7 +6798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 154
     },
     {
      "name": "HealthVerity",
@@ -6678,7 +6843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 155
     },
     {
      "name": "Amtrak",
@@ -6723,7 +6888,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 156
     },
     {
      "name": "Axos Bank",
@@ -6768,7 +6933,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 157
     },
     {
      "name": "BNY Mellon",
@@ -6813,7 +6978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 158
     },
     {
      "name": "Discover Financial Services",
@@ -6858,7 +7023,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 159
     },
     {
      "name": "Novo",
@@ -6903,7 +7068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 160
     },
     {
      "name": "University of Texas at Austin",
@@ -6947,7 +7112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 161
     },
     {
      "name": "Kalepa",
@@ -6992,7 +7157,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 162
     },
     {
      "name": "Blink Charging",
@@ -7037,7 +7202,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 163
     },
     {
      "name": "Ohio State University",
@@ -7075,7 +7240,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 164
     },
     {
      "name": "Rice University",
@@ -7113,7 +7278,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 165
     },
     {
      "name": "University of California, Santa Barbara",
@@ -7151,7 +7316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 166
     },
     {
      "name": "Sana Benefits",
@@ -7195,7 +7360,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 167
     },
     {
      "name": "Alaffia",
@@ -7240,7 +7405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 168
     },
     {
      "name": "Princeton University",
@@ -7285,7 +7450,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 169
     },
     {
      "name": "University of California, Los Angeles",
@@ -7323,7 +7488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 170
     },
     {
      "name": "University of Minnesota",
@@ -7368,7 +7533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 171
     },
     {
      "name": "M&T Bank",
@@ -7413,7 +7578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 172
     },
     {
      "name": "University of California, San Francisco",
@@ -7457,7 +7622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 173
     },
     {
      "name": "Vanderbilt University",
@@ -7495,7 +7660,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 174
     },
     {
      "name": "Ally Financial",
@@ -7540,7 +7705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 175
     },
     {
      "name": "Texas A&M University",
@@ -7578,7 +7743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 176
     },
     {
      "name": "Washington University in St. Louis",
@@ -7616,7 +7781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 177
     },
     {
      "name": "Case Western Reserve University",
@@ -7654,7 +7819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 178
     },
     {
      "name": "California Institute of Technology",
@@ -7699,7 +7864,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 179
     },
     {
      "name": "Uplight",
@@ -7743,7 +7908,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 180
     },
     {
      "name": "EIS Group",
@@ -7788,7 +7953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 181
     },
     {
      "name": "PNC",
@@ -7833,7 +7998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 182
     },
     {
      "name": "HSBC USA",
@@ -7878,7 +8043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 183
     },
     {
      "name": "JetBlue",
@@ -7916,7 +8081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 184
     },
     {
      "name": "University of Florida",
@@ -7961,7 +8126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 185
     },
     {
      "name": "University of Pittsburgh",
@@ -8006,7 +8171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 186
     },
     {
      "name": "University of Southern California",
@@ -8044,7 +8209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 187
     },
     {
      "name": "Boston University",
@@ -8089,7 +8254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 188
     },
     {
      "name": "UMB Bank",
@@ -8133,7 +8298,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 189
     },
     {
      "name": "California Health and Human Services",
@@ -8178,7 +8343,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 190
     },
     {
      "name": "California Natural Resources Agency",
@@ -8223,7 +8388,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 191
     },
     {
      "name": "California Open Data",
@@ -8268,7 +8433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 192
     },
     {
      "name": "The Clearing House (RTP)",
@@ -8312,7 +8477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 193
     },
     {
      "name": "PSEG",
@@ -8356,7 +8521,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 194
     },
     {
      "name": "Apartments.com",
@@ -8394,7 +8559,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 195
     },
     {
      "name": "Invitae",
@@ -8439,7 +8604,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 196
+    },
+    {
+     "name": "LifeLock",
+     "slug": "lifelock",
+     "description": "LifeLock is a consumer identity-theft-protection brand founded in 2005 in Tempe, Arizona and owned by Gen Digital, Inc. (Nasdaq: GEN). It monitors members' personal information — Social Security numbers, names, addresses, credit applications and public records — for signs of misuse, alerts them through its proprietary Identity Alert System, and provides U.S.-based restoration specialists plus reimbursement coverage when identity theft occurs. Current plans (Core, Advanced, Total) layer on credit-bureau monitoring, dark-web monitoring, automatic data-broker removal, scam support and reimbursement, home-title and SIM-swap monitoring, and the Million Dollar Protection Package. LifeLock is also sold bundled with Norton device security as Norton 360 with LifeLock. It is a direct-to-consumer subscription service and publishes no public developer API, SDKs, or developer portal; its machine-readable surface is a first-party llms.txt at lifelock.norton.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lifelock/refs/heads/main/screenshots/lifelock-2026-07-25T225042.png",
+     "score": 17.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 197
     },
     {
      "name": "City National Bank",
@@ -8484,7 +8687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 198
     },
     {
      "name": "EverBank",
@@ -8529,7 +8732,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 199
     },
     {
      "name": "Commerce Bank",
@@ -8574,7 +8777,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 200
     },
     {
      "name": "Ebix",
@@ -8619,7 +8822,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 201
     },
     {
      "name": "Lockton",
@@ -8664,7 +8867,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 202
+    },
+    {
+     "name": "Clearview AI",
+     "slug": "clearview-ai",
+     "description": "Clearview AI is a U.S.-based facial recognition company providing identity verification, investigative search, and biometric matching services primarily to law enforcement, government agencies, and approved financial sector customers. The platform indexes publicly available images and exposes proprietary facial recognition technology through a controlled, customer-vetted developer surface. Public technical documentation of the API is intentionally limited; access is gated, and integrations are scoped through customer agreements with strict use-case, audit, and transparency requirements.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clearview-ai/refs/heads/main/screenshots/clearview-ai-2026-06-20T174501.png",
+     "score": 16.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 8.1,
+      "governance": 20.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 203
     },
     {
      "name": "SAP America",
@@ -8709,7 +8950,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 204
     },
     {
      "name": "AmeriGEOSS Community Platform",
@@ -8754,7 +8995,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 205
     },
     {
      "name": "Analyze Boston",
@@ -8799,7 +9040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 206
     },
     {
      "name": "City of San Jose",
@@ -8844,7 +9085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 207
     },
     {
      "name": "Data.gov Inventory",
@@ -8889,7 +9130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 208
     },
     {
      "name": "Dave",
@@ -8934,7 +9175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 209
     },
     {
      "name": "DOE NETL Energy Data Exchange",
@@ -8979,7 +9220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 210
     },
     {
      "name": "Hawaii Open Data Portal",
@@ -9024,7 +9265,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 211
     },
     {
      "name": "Medicaid Open Data",
@@ -9069,7 +9310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 212
     },
     {
      "name": "Milwaukee Open Data",
@@ -9114,7 +9355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 213
     },
     {
      "name": "NASA Open Data",
@@ -9159,7 +9400,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 214
     },
     {
      "name": "Oklahoma",
@@ -9204,7 +9445,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 215
     },
     {
      "name": "San Bernardino County ATC OpenData",
@@ -9249,7 +9490,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 216
     },
     {
      "name": "US Small Business Administration Open Data",
@@ -9294,7 +9535,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 217
     },
     {
      "name": "Virginia Open Data",
@@ -9339,7 +9580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 218
     },
     {
      "name": "Southern Company",
@@ -9383,7 +9624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 219
     },
     {
      "name": "Vistra Corp",
@@ -9427,7 +9668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 220
     },
     {
      "name": "UBS Bank USA",
@@ -9471,7 +9712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 221
     },
     {
      "name": "Douglas Elliman",
@@ -9516,7 +9757,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 222
     },
     {
      "name": "First Horizon",
@@ -9560,7 +9801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 223
     },
     {
      "name": "Bank of Hawaii",
@@ -9604,7 +9845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 224
     },
     {
      "name": "Wintrust Financial",
@@ -9649,7 +9890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 225
     },
     {
      "name": "Choice Hotels",
@@ -9686,7 +9927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 226
     },
     {
      "name": "America First Credit Union",
@@ -9731,7 +9972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 227
     },
     {
      "name": "Brown & Brown",
@@ -9776,7 +10017,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 228
     },
     {
      "name": "F.N.B. Corporation",
@@ -9821,7 +10062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 229
     },
     {
      "name": "Associated Bank",
@@ -9866,7 +10107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 230
     },
     {
      "name": "Raymond James Bank",
@@ -9910,7 +10151,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 231
     },
     {
      "name": "TOCA Football",
@@ -9947,7 +10188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 232
     },
     {
      "name": "Government Accountability Office",
@@ -9992,7 +10233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 233
     },
     {
      "name": "First Hawaiian Bank",
@@ -10037,7 +10278,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 234
     },
     {
      "name": "Chowbus",
@@ -10082,7 +10323,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 235
     },
     {
      "name": "Bank OZK",
@@ -10126,7 +10367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 236
     },
     {
      "name": "BECU",
@@ -10171,7 +10412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 237
     },
     {
      "name": "Popular (Banco Popular)",
@@ -10216,7 +10457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 238
     },
     {
      "name": "First Tech Federal Credit Union",
@@ -10261,7 +10502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 239
     },
     {
      "name": "Sallie Mae Bank",
@@ -10305,7 +10546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 240
     },
     {
      "name": "Cadence Bank",
@@ -10350,7 +10591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 241
     },
     {
      "name": "Security Service Federal Credit Union",
@@ -10394,7 +10635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 242
     },
     {
      "name": "Comerica",
@@ -10439,7 +10680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 243
     },
     {
      "name": "MidFirst Bank",
@@ -10484,7 +10725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 244
     },
     {
      "name": "Vedanta Biosciences",
@@ -10528,7 +10769,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 245
     },
     {
      "name": "Diagonal Therapeutics",
@@ -10573,7 +10814,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 246
     },
     {
      "name": "Webster Bank",
@@ -10617,7 +10858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 247
     },
     {
      "name": "Atlantic Union Bank",
@@ -10662,7 +10903,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 248
     },
     {
      "name": "HEDNA",
@@ -10700,7 +10941,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 249
     }
    ]
   },
@@ -10709,8 +10950,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 47,
-   "shown": 47,
+   "count": 62,
+   "shown": 62,
    "providers": [
     {
      "name": "Frost Bank",
@@ -10755,7 +10996,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 250
     },
     {
      "name": "Live Oak Bank",
@@ -10800,7 +11041,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 251
+    },
+    {
+     "name": "Core10",
+     "slug": "core10",
+     "description": "Core10, Inc. is a U.S.-based fintech software development and API integration firm founded in 2016 by Lee Farabaugh and Jeff Martin, headquartered in Franklin, Tennessee with delivery centers in Martin, Tennessee and Huntington, West Virginia, built on a domestic-outsourcing model it trademarked as Hereshore(R). Core10 wrote custom software, core-banking integrations and API layers for community banks, credit unions and fintechs, and acquired Accrue Technologies in 2021 to add a Salesforce-based digital lending, account opening and treasury onboarding platform. In January 2024 it spun its implementation practice out as Monarch, and the Core10 brand has since been retired: core10.io now 301-redirects to monarchfts.com, where Monarch operates as an Intapp DealCloud implementation, configuration and managed-services consultancy for private capital firms, while the Accrue platform trades independently at getaccrue.com under its own leadership. Core10 built API integrations for other companies for nearly a decade but never published a developer program, public API, SDK or machine-readable contract of its own, and as of 2026-08-11 neither successor brand does either.",
+     "score": 12.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 6.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 252
     },
     {
      "name": "Current",
@@ -10845,7 +11130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 253
     },
     {
      "name": "AutoGrid",
@@ -10890,7 +11175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 254
     },
     {
      "name": "Cowboy Space Corporation (formerly Aetherflux)",
@@ -10935,7 +11220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 255
     },
     {
      "name": "Tory Burch",
@@ -10972,7 +11257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 256
     },
     {
      "name": "DCU (Digital Federal Credit Union)",
@@ -11017,7 +11302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 257
     },
     {
      "name": "Old National Bank",
@@ -11061,7 +11346,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 258
     },
     {
      "name": "Valley National Bank",
@@ -11105,7 +11390,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 259
     },
     {
      "name": "Marcus by Goldman Sachs",
@@ -11149,7 +11434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 260
     },
     {
      "name": "State Employees' Credit Union",
@@ -11193,7 +11478,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 261
     },
     {
      "name": "Prosperity Bank",
@@ -11237,7 +11522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 262
     },
     {
      "name": "SouthState Bank",
@@ -11281,7 +11566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 263
     },
     {
      "name": "AST SpaceMobile",
@@ -11326,7 +11611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 264
     },
     {
      "name": "Flagstar",
@@ -11371,7 +11656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 265
     },
     {
      "name": "PenFed Credit Union",
@@ -11415,7 +11700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 266
     },
     {
      "name": "Barclays US",
@@ -11460,7 +11745,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 267
+    },
+    {
+     "name": "Hidden Level",
+     "slug": "hidden-level",
+     "description": "Hidden Level is a U.S.-based defense and aerospace technology company that turns radio-frequency (RF) activity into trusted airspace intelligence. Its passive RF sensing platform detects and tracks unmanned aerial systems (drones) and other activity across air, ground, sea, and space domains without requiring emitters or heavy on-site infrastructure. Hidden Level packages this as hardware sensor platforms, software platforms, and data platforms serving defense and military, critical infrastructure protection, homeland security, and public safety customers. The company hosts its platform on AWS with least-privilege access, MFA, and TLS 1.3 API communications, aligns corporate controls to NIST SP 800-171, and emphasizes U.S. design and manufacturing. Backed by Costanoa Ventures. This API Evangelist profile tracks Hidden Level's public web and security surface; the company does not currently publish a public developer portal, API reference, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hidden-level/refs/heads/main/screenshots/hidden-level-2026-07-25T221144.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 26.3
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 268
     },
     {
      "name": "Nuvig Therapeutics",
@@ -11505,7 +11828,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 269
     },
     {
      "name": "BlockFi",
@@ -11543,7 +11866,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 270
     },
     {
      "name": "Checkerspot",
@@ -11581,7 +11904,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 271
     },
     {
      "name": "Randolph-Brooks FCU",
@@ -11625,7 +11948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 272
     },
     {
      "name": "SchoolsFirst FCU",
@@ -11669,7 +11992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 273
     },
     {
      "name": "CIBC Bank USA",
@@ -11714,7 +12037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 274
     },
     {
      "name": "Santander US",
@@ -11758,7 +12081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 275
     },
     {
      "name": "Columbia Bank",
@@ -11803,7 +12126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 276
     },
     {
      "name": "Believer Meats",
@@ -11841,7 +12164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 277
     },
     {
      "name": "Chipper Cash",
@@ -11886,7 +12209,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 278
+    },
+    {
+     "name": "Re:Build",
+     "slug": "re-build",
+     "description": "Re:Build Manufacturing is a U.S.-based industrial engineering and manufacturing company that takes complex products from concept to full-rate production through integrated design, engineering, and scalable domestic manufacturing. Founded to rebuild American manufacturing capacity, the company operates a family of specialized engineering and production businesses across more than 14 U.S. locations, spanning aerospace and defense, electrification, energy and environment, medical devices, and robotics and automation. With 400+ engineers and roughly one million square feet of industrial footprint, Re:Build partners with startups and established manufacturers to develop, industrialize, and produce advanced physical products. It was surfaced as a portfolio company of General Catalyst and added to the API Evangelist network; enrichment confirms it is an industrial/manufacturing company with no public API, developer, or machine surface at this time.",
+     "score": 10.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 279
     },
     {
      "name": "Texas Capital Bank",
@@ -11930,7 +12290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 280
     },
     {
      "name": "BOK Financial",
@@ -11975,7 +12335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 281
     },
     {
      "name": "Pinnacle Financial",
@@ -12019,7 +12379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 282
     },
     {
      "name": "Alliant Credit Union",
@@ -12064,7 +12424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 283
     },
     {
      "name": "MISMO",
@@ -12102,7 +12462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 284
     },
     {
      "name": "Suncoast Credit Union",
@@ -12146,7 +12506,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 285
     },
     {
      "name": "Aqtual",
@@ -12191,7 +12551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 286
     },
     {
      "name": "Conception",
@@ -12235,7 +12595,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 278
+     "rank": 287
+    },
+    {
+     "name": "Carpenter Technology",
+     "slug": "carpenter-technology",
+     "description": "Carpenter Technology Corporation is a U.S.-based producer and distributor of premium specialty alloys — including titanium alloys, powder metals, high-temperature stainless steels, tool steels, and soft magnetic alloys — serving the aerospace, defense, medical, transportation, energy, and industrial end markets. The company supports customers through technical product resources such as its Alloy Finder, alloy technical data sheets, conversion tables, and a member-only Customer Portal for order and account self-service, but does not currently publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/screenshots/carpenter-technology-2026-06-20T174016.png",
+     "score": 8.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 288
     },
     {
      "name": "Civil Maps",
@@ -12272,7 +12677,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 279
+     "rank": 289
+    },
+    {
+     "name": "Hims",
+     "slug": "hims",
+     "description": "Hims is the men's brand of Hims & Hers Health, Inc. (NYSE: HIMS), a U.S.-based direct-to-consumer telehealth platform. Through forhims.com it connects patients with licensed medical providers and affiliated pharmacies to offer treatment for sexual health, hair loss, dermatology and skincare, mental health, and weight loss, including provider consultations, personalized prescriptions, and recurring subscription fulfillment shipped to the customer. Hims & Hers operates the sibling Hers brand for women and runs its own pharmacy and fulfillment operations. This API Evangelist profile tracks the company's public developer, security, and trust surface; Hims does not currently publish a public developer API, so this record is identity- and security-focused rather than spec-bearing.",
+     "score": 7.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 290
     },
     {
      "name": "Assurely",
@@ -12316,7 +12765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 291
     },
     {
      "name": "Finless Foods",
@@ -12354,7 +12803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 292
     },
     {
      "name": "Radia",
@@ -12398,7 +12847,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 293
     },
     {
      "name": "Retro Biosciences",
@@ -12442,7 +12891,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 294
     },
     {
      "name": "Callisto Media",
@@ -12480,7 +12929,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 295
     },
     {
      "name": "Zions Bancorporation",
@@ -12524,7 +12973,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 296
     },
     {
      "name": "VyStar Credit Union",
@@ -12568,7 +13017,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 297
+    },
+    {
+     "name": "Saul Ewing LLP",
+     "slug": "saul-ewing",
+     "description": "Saul Ewing LLP is a U.S.-based law firm founded in 1921 as Saul, Ewing, Remick & Saul, with more than 450 attorneys across 17 U.S. offices spanning the Mid-Atlantic, Northeast, Midwest, Florida, and California. The firm serves clients across 40+ industries with practice strengths in litigation, corporate and M&A, bankruptcy and restructuring, real estate, public finance, life sciences, financial services, intellectual property, labor and employment, and cybersecurity and privacy. Saul Ewing does not publish a public developer API, SDK, OpenAPI specification, or machine-readable data product; its public technology surface is limited to its corporate website, a HighQ-powered client portal, the SEquel Alumni Portal at alumni.saul.com, employee remote-access tooling, and a small set of practice-specific blogs (Construction Industry Counselor, OZ and EB-5 Investments, Legacy Matters, The Friday Five). Two empty GitHub organizations (Saul-Ewing and saulewing) exist with zero public repositories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saul-ewing/refs/heads/main/screenshots/saul-ewing-2026-06-20T193440.png",
+     "score": 5.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 298
     },
     {
      "name": "Luminous Computing",
@@ -12605,7 +13099,142 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 299
+    },
+    {
+     "name": "Pacific Life",
+     "slug": "pacific-life",
+     "description": "Pacific Life is a U.S.-based insurance company providing life insurance, annuities, mutual funds, and investment products and services to individuals, businesses, and pension plans. No public APIs have been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pacific-life/refs/heads/main/screenshots/pacific-life-2026-06-20T191309.png",
+     "score": 5.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 9.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 300
+    },
+    {
+     "name": "Protective Life",
+     "slug": "protective-life",
+     "description": "Protective Life Corporation is a U.S.-based financial services holding company offering life insurance, annuities, and asset protection products through its subsidiaries. This repository tracks any APIs, SDKs, and developer-facing resources associated with Protective Life and its product lines.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/protective-life/refs/heads/main/screenshots/protective-life-2026-06-20T192218.png",
+     "score": 5.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 9.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 301
+    },
+    {
+     "name": "Fla",
+     "slug": "fla",
+     "description": "FLA Orthopedics (FLA Holdings) is a United States-based manufacturer of orthopedic, sports medicine, and bracing products, including supports, braces, splints, and soft-goods for the medical, clinical, and consumer health markets. Canaan Partners invested in FLA Holdings at the Series D stage; the company was surfaced through that portfolio and added to the API Evangelist network as a lead. FLA Orthopedics is a physical medical-device maker and, as of this enrichment pass, publishes no public developer program, API, SDK, or documentation surface. This profile is identity-only and carries no API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fla/refs/heads/main/screenshots/fla-2026-07-25T214701.png",
+     "score": 5.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 302
     },
     {
      "name": "Golden 1 Credit Union",
@@ -12650,7 +13279,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 303
+    },
+    {
+     "name": "Momentus",
+     "slug": "momentus",
+     "description": "Momentus is a U.S.-based commercial space company providing in-space transportation and infrastructure services. Founded in 2017 and headquartered in San Jose, California, the publicly traded company (NASDAQ: MNTS) designs, manufactures, and operates Orbital Service Vehicles such as its Vigoride platform, using water plasma propulsion technology to move satellites and payloads between orbits, host payloads, and deliver last-mile satellite deployment. Momentus serves private satellite operators, government agencies, and research institutions. As of this profile it publishes no public developer API, developer portal, SDK, or technical integration surface; it was surfaced as a Y Combinator (S18) portfolio company and added to the API Evangelist network as a company profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/momentus/refs/heads/main/screenshots/momentus-2026-08-07T184147.png",
+     "score": 5.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 304
     },
     {
      "name": "Mountain America Credit Union",
@@ -12695,7 +13362,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 305
+    },
+    {
+     "name": "The Nuclear Company",
+     "slug": "the-nuclear-company",
+     "description": "The Nuclear Company (TNC) is a U.S.-based nuclear energy infrastructure firm deploying nuclear power at fleet scale with a \"design once, build many\" standardized construction approach. Through its Powerhouse Resources arm it provides maintenance, outage execution, turbine, electrical, and instrumentation services to nuclear plants nationwide, and its proprietary AI-driven Nuclear Operating System (NOS) manages deployment and operations across the nuclear lifecycle. The company publishes no public API, developer portal, or documentation surface; this profile tracks it as an API Evangelist network company and portfolio company of True Ventures.",
+     "score": 5.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 306
     },
     {
      "name": "CleanSlate",
@@ -12739,7 +13450,164 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 307
+    },
+    {
+     "name": "General Growth Properties",
+     "slug": "general-growth-properties",
+     "description": "General Growth Properties (GGP) was a major U.S.-based commercial real estate company and the second-largest shopping mall operator in the United States before being acquired by Brookfield Property Partners in 2018. The GGP portfolio is now operated under Brookfield Properties. No public developer APIs are documented for the legacy GGP entity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-growth-properties/refs/heads/main/screenshots/general-growth-properties-2026-06-20T181726.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 308
+    },
+    {
+     "name": "Tennis Channel",
+     "slug": "tennis-channel",
+     "description": "Tennis Channel is a United States-based cable television network and direct-to-consumer streaming service dedicated to tennis and racquet sports, including live coverage and highlights from the ATP Tour, WTA Tour, Grand Slam events, and related pickleball and padel programming. Alongside its linear TV channel it operates a subscription streaming product (Tennis Channel / formerly Tennis Channel Plus) delivering live matches, on-demand video, news, rankings, and instructional content across web, mobile, and connected-TV apps. It was surfaced as a portfolio-linked company and added to the API Evangelist network for enrichment; as of this pass Tennis Channel publishes a consumer streaming platform but no public developer API, SDK, or documentation surface.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 309
+    },
+    {
+     "name": "element 5 AG",
+     "slug": "element-5",
+     "description": "element 5 AG was a German e-commerce and digital-distribution company founded in 2000 and headquartered in Cologne, Germany. It operated a platform that let software developers and publishers sell their products and licenses directly to customers online, growing to more than 10,000 clients across 150 countries and becoming one of Europe's leading software e-commerce providers. element 5 was acquired by U.S.-based Digital River (its direct competitor) for roughly $120M and subsequently absorbed and renamed Digital River GmbH, ceasing to operate as an independent company. It was an early Earlybird Venture Capital portfolio company; this profile records its identity and exit. No live independent API or developer surface remains to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/element-5/refs/heads/main/screenshots/element-5-2026-07-25T213124.png",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 310
+    },
+    {
+     "name": "Hillshire Brands",
+     "slug": "hillshire-brands",
+     "description": "Hillshire Brands was a U.S.-based food company that produced and sold meat-centric food solutions including Jimmy Dean, Ball Park, Hillshire Farm, State Fair, and Sara Lee branded products. The company was acquired by Tyson Foods in 2014 and its operations have been integrated into the Tyson Foods organization. Hillshire Brands does not currently publish a public developer API or API documentation.",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 311
     }
    ]
   },
@@ -12748,147 +13616,154 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 21,
-   "shown": 21,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "Accel",
      "slug": "accel",
      "description": "Accel is one of the world's leading venture capital firms, founded in 1983 by Arthur Patterson and Jim Swartz and headquartered in Palo Alto, California, with additional offices in San Francisco, London, and Bangalore, India. Accel describes itself as \"the first partner to exceptional teams everywhere,\" backing founders from seed and early stage through growth worldwide. The firm invests across enterprise software and SaaS, consumer, artificial intelligence, fintech, cybersecurity, infrastructure and developer tools, security, media, and healthcare, and operates dedicated funds for the US, Europe/Israel, and India/Southeast Asia. Accel is known for its \"prepared mind\" investment philosophy and for backing category-defining companies including Facebook, Slack, Dropbox, Atlassian, CrowdStrike, UiPath, Qualtrics, Spotify, Flipkart, Swiggy, Freshworks, 1Password, Vercel, Scale AI, Anthropic, and Perplexity. Its portfolio spans more than 100 unicorns, dozens of IPOs, and hundreds of acquisitions. In 2024 Accel raised a $650M fund for European and Israeli startups, and in 2025 raised a fund for India and Southeast Asia. This profile tracks Accel's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/accel/refs/heads/main/screenshots/accel-2026-07-25T181425.png",
-     "rank": 291
+     "rank": 312
     },
     {
      "name": "Battery Ventures",
      "slug": "battery-ventures",
      "description": "Battery Ventures is a global, technology-focused investment firm founded in 1983 and headquartered in Boston, Massachusetts, with additional offices in San Francisco, Menlo Park, New York, London, and Tel Aviv. Battery invests across every stage of a company's life, from seed and early-stage venture through growth equity and private-equity buyouts, giving the firm a distinctive multi-stage perspective on technology markets. Its core areas of focus are application software, infrastructure software, consumer technology, and industrial tech plus life-science tools. As of 2025 the firm reports having invested in more than 530 companies over its 40-plus-year history, of which roughly 70 have gone public and another 185 have been merged or acquired. Battery is currently investing out of its 15th flagship fund, Battery Ventures XV, capitalized at $3.25 billion, and has raised more than $16 billion across all of its funds since inception. The firm describes itself as decisive, hard-working, and thesis-driven, backing category-defining companies including Affirm, Amplitude, AppDynamics, Avalara, Akamai, Coupa, Wonolo, and many others. This profile tracks Battery Ventures' identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/battery-ventures/refs/heads/main/screenshots/battery-ventures-2026-07-25T202436.png",
-     "rank": 292
+     "rank": 313
     },
     {
      "name": "Benchmark",
      "slug": "benchmark",
      "description": "Benchmark is an American early-stage venture capital firm founded in 1995 by Bob Kagle, Bruce Dunlevie, Andy Rachleff, Kevin Harvey, and Val Vaden, and headquartered at 140 New Montgomery Street in San Francisco, California (with a second office in Woodside). Benchmark is known for its distinctive equal partnership structure, where a small number of general partners share ownership and carry equally with no junior/senior hierarchy and no managing partner. The firm concentrates on leading first institutional rounds — typically Series A — and historically kept fund sizes small (around $425M) with a focus on consumer, marketplaces, social, open source, developer tools, infrastructure, enterprise software, fintech, crypto, and artificial intelligence. Benchmark has backed transformational companies including eBay, Uber, Twitter, Instagram, Snap, Dropbox, Discord, Docker, Zendesk, Confluent, Elastic, New Relic, Asana, Amplitude, Nextdoor, Stitch Fix, Yelp, OpenTable, Zillow, Red Hat, Airtable, Benchling, Cockroach Labs, Chainalysis, HackerOne, Contentful, Modern Treasury, Stytch, and, more recently, AI-native companies such as LangChain, Cerebras, MindsDB, Lovable, Legora, Gumloop, and Starcloud. In 2026 Benchmark broke with tradition to raise roughly $2B across two new vehicles, including its first-ever dedicated later-stage growth fund. This profile tracks Benchmark's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchmark/refs/heads/main/screenshots/benchmark-2026-07-25T202736.png",
-     "rank": 293
+     "rank": 314
     },
     {
      "name": "Bessemer Venture Partners",
      "slug": "bessemer-venture-partners",
      "description": "Bessemer Venture Partners (BVP) is one of the oldest and largest venture capital firms in the world, founded in 1911 out of the fortune of steel magnate Henry Phipps and headquartered in San Francisco, California. With more than $20 billion in assets under management and investment teams in San Francisco, Silicon Valley, New York, Boston, London, Bangalore, and Tel Aviv, Bessemer invests globally across seed, early, and growth stages, and runs a dedicated private equity buyout arm, BVP Forge. The firm invests across artificial intelligence and machine learning, cloud and infrastructure, developer tools, cybersecurity, fintech, healthcare and biotech, consumer, marketplaces, vertical software, data, deep tech and defense, and crypto/web3. Bessemer has backed transformative companies including Shopify, Twilio, Pinterest, LinkedIn, Yelp, DocuSign, Wix, Fiverr, Toast, ServiceTitan, PagerDuty, Auth0, Box, and Canva, and is known for publishing its \"Anti- Portfolio\" of missed opportunities, its Atlas research roadmaps, and its cloud/state-of-the-industry benchmark reports. Investing out of its 12th early-stage fund (a $3.85B vehicle), Bessemer was ranked among the largest venture firms by five-year fundraising. This profile tracks Bessemer's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bessemer-venture-partners/refs/heads/main/screenshots/bessemer-venture-partners-2026-07-25T202751.png",
-     "rank": 294
+     "rank": 315
     },
     {
      "name": "Cowboy Ventures",
      "slug": "cowboy-ventures",
      "description": "Cowboy Ventures is a seed-stage venture capital firm founded in 2012 by Aileen Lee (who coined the term \"unicorn\" for billion-dollar startups) and headquartered in Palo Alto, California. The firm backs pre-seed and seed-stage founders building \"life-changing\" products for large and growing markets, with roughly 70% of investments made pre-product and a strong seed-to-Series A graduation rate. Typical first checks run from about $100K up to $1M, with a sweet spot near $500K–$800K. Cowboy invests across enterprise software, fintech, software infrastructure and security, healthcare, consumer, future of work, and vertical software, primarily in the United States. The firm has made 100+ early-stage investments and cultivates a curated community of founders, operators, and tech leaders. Notable portfolio companies include Chime, Guild, Drata, Dollar Shave Club, Ironclad, Aura, Kiavi, Crunchbase, and Product Hunt.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cowboy-ventures/refs/heads/main/screenshots/cowboy-ventures-2026-07-25T210618.png",
-     "rank": 295
+     "rank": 316
     },
     {
      "name": "Craft Ventures",
      "slug": "craft-ventures",
      "description": "Craft Ventures is a San Francisco-based venture capital firm founded in late 2017 by repeat entrepreneurs David Sacks and Bill Lee, built \"by founders for founders\" and rooted in the operator playbook of the PayPal Mafia. The firm invests across early and growth stages, writing checks that range from micro-seed positions through double-digit millions, and specializes in B2B SaaS, marketplaces, and enterprise software prized for high-growth, high-margin, recurring-revenue economics. Craft is known for its rigorous, metrics-driven SaaS operating framework and hands-on support spanning talent, go-to-market, community, and finance. Beyond core SaaS, the portfolio spans artificial intelligence, developer tools, fintech and crypto, cybersecurity, digital health, defense, and frontier technology. The firm manages roughly $3.3 billion in assets across four early-stage funds and two growth funds, including Craft Ventures IV ($712M) and Craft Ventures Growth II ($608M). Notable investments include Airbnb, Affirm, Reddit, Uber, Lyft, Palantir, Slack, ElevenLabs, Supabase, Anduril, and Neuralink. Headquartered in San Francisco, with offices in New York City and Austin, Texas, and a primarily United States geographic focus.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/craft-ventures/refs/heads/main/screenshots/craft-ventures-2026-07-25T210634.png",
-     "rank": 296
+     "rank": 317
     },
     {
      "name": "DCM Ventures",
      "slug": "dcm-ventures",
      "description": "DCM Ventures (formerly Doll Capital Management, and commonly known as DCM) is an early-stage venture capital firm founded in 1996 by Dixon Doll, a former Accel partner, and David Chao, and headquartered at 2420 Sand Hill Road in Menlo Park, California with additional offices in Beijing and Tokyo. DCM was among the first Silicon Valley firms to build a cross-border, US-Asia investing practice, and typically leads early-stage rounds with checks in the roughly $1M-$5M range, deploying capital into a small group of category-defining companies each year rather than investing broadly. The firm's thesis has evolved from its original focus on communications and semiconductors toward consumer internet and SaaS, and today centers on vertical SaaS, fintech, cross-border innovation, and AI-native applications across the United States, China, Japan, and Southeast Asia. As of 2025 DCM manages approximately $4.5 billion in assets and reports 400+ portfolio companies, 35+ unicorns, and over $150 billion in aggregate market value, with notable investments including SoFi, Bill.com, Kuaishou, Matterport, 51job, Careem, and Sansan.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dcm-ventures/refs/heads/main/screenshots/dcm-ventures-2026-07-25T211459.png",
-     "rank": 297
+     "rank": 318
     },
     {
      "name": "Founders Fund",
      "slug": "founders-fund",
      "description": "Founders Fund is a San Francisco-based venture capital firm founded in 2005 by Peter Thiel, Ken Howery, and Luke Nosek, best known for the credo \"we wanted flying cars, instead we got 140 characters\" and a contrarian appetite for hard science and frontier technology over incremental consumer apps. The firm backs category-defining, often monopoly-scale companies across aerospace and defense, artificial intelligence, biotech, fintech and crypto, energy, semiconductors, robotics, and deep tech, investing from seed through late-stage growth with an increasingly concentrated, high-conviction style (its recent growth funds put hundreds of millions of dollars into a small number of companies). Founders Fund manages roughly $17 billion in assets as of 2025 and is headquartered at the Letterman Digital Arts Center in San Francisco's Presidio. Its portfolio includes many of the defining technology companies of the era, among them SpaceX, Palantir, Anduril, Stripe, Airbnb, Facebook, Neuralink, OpenAI, DeepMind, Ramp, Nubank, Spotify, and Figma.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/founders-fund/refs/heads/main/screenshots/founders-fund-2026-07-25T215039.png",
-     "rank": 298
+     "rank": 319
     },
     {
      "name": "GGV Capital",
      "slug": "ggv-capital",
      "description": "GGV Capital (Granite Global Ventures) was a global, multi-stage venture capital firm founded in 2000 and headquartered in Menlo Park, California, with offices in San Francisco, Shanghai, Beijing, and Singapore. GGV invested from seed through growth stage across Social/Internet and consumer, Enterprise Tech and SaaS, and Smart Tech (fintech, infrastructure, developer tools, cybersecurity, AI, and cross-border commerce), with a distinctive US–Asia bridge thesis. At its peak the firm managed roughly $9.2B in assets under management and backed more than 400 companies, including 44 unicorns and dozens of IPOs — among them Airbnb, Slack, Square, Affirm, HashiCorp, Coinbase, Peloton, Opendoor, Poshmark, StockX, BigCommerce, Grab, Alibaba, ByteDance, Zendesk, and Xpeng. On March 29, 2024 GGV Capital ceased using the GGV brand and split into two independent successor firms amid US–China tensions: Notable Capital (US/international, led by Hans Tung and Glenn Solomon, ~$4.2B AUM) and Granite Asia (Asia, led by Jenny Lee and Jixun Foo, ~$5B AUM). The former ggvc.com companies surface now redirects to Notable Capital, which carries the US/international portfolio graph. This profile tracks GGV Capital's identity and portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ggv-capital/refs/heads/main/screenshots/ggv-capital-2026-07-25T215753.png",
-     "rank": 299
+     "rank": 320
     },
     {
      "name": "Khosla Ventures",
      "slug": "khosla-ventures",
      "description": "Khosla Ventures is a Menlo Park, California venture capital firm founded in 2004 by Sun Microsystems co-founder Vinod Khosla. The firm backs bold, early, and impactful ventures, favoring contrarian deep-tech bets with world-class teams and a conviction-driven approach that deliberately accepts a high failure rate to capture transformative outcomes. Khosla invests across seed, early (Series A/B), and growth stages through its Seed Fund, Main Fund, and Opportunity (growth) Fund, writing checks that range from small seed positions to large growth rounds. Focus sectors span artificial intelligence, enterprise and consumer software, financial services and fintech, robotics and frontier/deep tech, aerospace and defense, climate and sustainability (clean energy, fusion, materials, agriculture), and digital health, medtech, diagnostics, and therapeutics. The firm manages roughly $16 billion in assets as of 2025 and is known for early investments in OpenAI, Stripe, Square/Block, DoorDash, Instacart, Affirm, Impossible Foods, GitLab, Okta, Rocket Lab, and QuantumScape. Headquarters are at 2128 Sand Hill Road, Menlo Park, CA, with a primarily United States geographic focus and select global investments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/khosla-ventures/refs/heads/main/screenshots/khosla-ventures-2026-07-25T223709.png",
-     "rank": 300
+     "rank": 321
     },
     {
      "name": "Metrobloks",
      "slug": "metrobloks",
      "description": "Metrobloks, LLC develops and operates multi-tenant colocation data centers in underserved metropolitan markets, positioning capacity at the metro edge so that AI inference, IoT, gaming, streaming, telecom and financial workloads run closer to the users and devices that generate them. Founded by Ernest Popescu (CEO), Scott Couzens (COO), Ryan Shea (SVP Real Estate) and Alejandro Maldonado (CMO), the company came out of stealth in June 2024 with an oversubscribed $5.2M seed round led by Current Equity Partners with participation from Serena Capital, and has since announced a Eurazeo commitment of up to EUR 100 million for European expansion, a financing round led by the Canopy Generations Fund, a Kansas City joint venture with Lincoln Property Company, and a partnership with Soluna. Sites are announced or under development in Miami FL, Phoenix AZ, Detroit MI, Kansas City MO, Indianapolis IN and McAllen TX in North America, plus Paris in Europe. The product is physical: modular standardized halls, scalable power, air and hybrid liquid cooling with near-zero water consumption, and carrier-neutral interconnection including a self-perform cross-connect option. Metrobloks sells infrastructure, not software. It publishes no API, no developer portal, no customer self-service platform and no machine-readable specification of any kind; its only published compliance claim is a SOC 2 and SOC 3 assertion on its ESG page.",
-     "rank": 301
+     "rank": 322
     },
     {
      "name": "Multicoin Capital",
      "slug": "multicoin-capital",
      "description": "Multicoin Capital is a thesis-driven crypto investment firm founded in 2017 by Kyle Samani and Tushar Jain, investing in cryptocurrencies, tokens, and blockchain companies and protocols believed to be reshaping trillion-dollar markets. The firm runs a hybrid structure of a hedge fund (its multi-billion dollar Master Fund, investing in public markets, direct positions, and strategic sales) alongside several venture funds that back early-stage companies, with venture checks ranging from roughly $1M to $50M. Its Venture Fund III closed at $422 million in January 2022. Multicoin invests across open and decentralized finance (DeFi), blockchain infrastructure and Layer 1/Layer 2 protocols, decentralized physical infrastructure networks (DePIN), stablecoins and payments, real-world asset tokenization, wallets, identity, gaming, and crypto-native consumer applications, with a well-known concentration around the Solana ecosystem. The firm's phoenix logo symbolizes a new financial system rising from the ashes of the old one, reflecting its long-term, high-conviction approach to absolute returns across market cycles. Headquartered in Austin, Texas, Multicoin manages capital on behalf of family offices, foundations, endowments, and institutional investors. In February 2026 co-founder Kyle Samani stepped back from day-to-day management, with operations continuing under co-founder Tushar Jain and partner Brian Smith.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/multicoin-capital/refs/heads/main/screenshots/multicoin-capital-2026-08-07T184437.png",
-     "rank": 302
+     "rank": 323
     },
     {
      "name": "New Enterprise Associates",
      "slug": "nea",
      "description": "New Enterprise Associates (NEA) is one of the world's largest and longest-running venture capital firms, founded in 1977 by Dick Kramlich, Chuck Newhall, and Frank Bonsal. Headquartered in Menlo Park, California, with offices in Timonium (Maryland), New York, and London, NEA invests across the full company lifecycle — \"from idea to IPO\" — spanning seed, Series A, and later growth rounds. The firm has raised over $27 billion in committed capital (as of December 31, 2024) and organizes into specialized practice groups across two core sectors: technology (enterprise software, consumer, fintech, AI, infrastructure) and healthcare (biopharma, life sciences, digital health, and medical devices). NEA is known for an active, hands-on partnership model and long-term support of category-defining companies, with a portfolio that has produced many notable IPOs and acquisitions including Cloudflare, MongoDB, Robinhood, Coursera, Databricks, Plaid, and Tempus.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nea/refs/heads/main/screenshots/nea-2026-08-07T184803.png",
-     "rank": 303
+     "rank": 324
+    },
+    {
+     "name": "Pantera Capital",
+     "slug": "pantera-capital",
+     "description": "Pantera Capital is a U.S.-based investment firm founded in 2003 by Dan Morehead (former Tiger Management head of macro trading and CFO) that pivoted in 2013 to become the first U.S. institutional asset manager focused exclusively on blockchain technology and digital assets. Headquartered in the San Francisco Bay Area with offices in New York and San Juan, Puerto Rico, the firm launched the first cryptocurrency fund in the United States in 2013 and now manages roughly $3.5B-$3.8B across multiple fund strategies: a Bitcoin Fund for pure BTC exposure, an Early-Stage Token Fund, a Liquid Token Fund, a Blockchain Fund, and a series of Venture Funds for equity investments. Pantera backs token projects, exchanges, DeFi and infrastructure teams, wallets, custodians, and ecosystem builders from pre-launch token stage through growth-stage equity, writing checks from roughly $500K to $50M+ and having led about half of its 200+ investments since 2013. Notable investments include Coinbase, Circle, Ripple, Uniswap, Bitstamp, Polkadot, Near, Filecoin, StarkWare, and Ondo Finance.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pantera-capital/refs/heads/main/screenshots/pantera-capital-2026-08-07T191336.png",
+     "rank": 325
     },
     {
      "name": "Redpoint Ventures",
      "slug": "redpoint-ventures",
      "description": "Redpoint Ventures is a Silicon Valley venture capital firm founded in 1999 and headquartered in Menlo Park, California, with additional offices in San Francisco and Los Angeles and a history of China-focused funds in Beijing and Shanghai. Redpoint is a multi-stage investor that backs founders from seed and early stage through growth, running dedicated early-stage and growth teams. The firm invests across enterprise software and SaaS, AI and AI infrastructure, cloud and data infrastructure, developer tools, cybersecurity, fintech, consumer internet, healthcare, crypto/web3, and marketplaces. Typical checks range from roughly $0.5M-$2M at seed and $2M-$8M at Series A up to $10M+ at growth stage. As of 2025 Redpoint managed about $4.5 billion in assets, and its partners have participated in 130+ IPOs and acquisitions including Netflix, Snowflake, Twilio, Pure Storage, Zendesk, Stripe, HashiCorp, and HomeAway. The firm launched its tenth flagship fund, a $650M vehicle, in 2025, and publishes the annual InfraRed report on the leading private cloud and infrastructure companies. This profile tracks Redpoint's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 304
+     "rank": 326
     },
     {
      "name": "Sequoia Capital",
      "slug": "sequoia-capital",
      "description": "Sequoia Capital is one of the world's leading venture capital firms, founded by Don Valentine in 1972 and headquartered at 2800 Sand Hill Road in Menlo Park, California. Sequoia partners with founders from idea to IPO and beyond, investing across seed, early, and growth stages, and has backed transformative companies including Apple, Google, Oracle, Cisco, NVIDIA, PayPal, YouTube, Airbnb, Stripe, WhatsApp, Instagram, DoorDash, Snowflake, and Reddit. Its stated mission is to \"help the daring build legendary companies,\" with a current focus on artificial intelligence and AI agents, autonomous systems, fintech, developer tools and infrastructure, healthcare, and consumer technology. Following its 2024 restructuring, Sequoia operates primarily across the US and Europe, while its former India/SEA and China arms became the independent firms Peak XV Partners and HongShan. This profile tracks Sequoia's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sequoia-capital/refs/heads/main/screenshots/sequoia-capital-2026-06-20T193717.png",
-     "rank": 305
+     "rank": 327
     },
     {
      "name": "Shasta Ventures",
      "slug": "shasta-ventures",
      "description": "Shasta Ventures is an early-stage venture capital firm founded in 2004 and based in Silicon Valley (Portola Valley / Menlo Park, on and around Sand Hill Road, California). Founded by Rob Coneybeer and Ravi Mohan (with Tod Francis and Jason Pressman among its long-tenured Managing Directors), the firm invests primarily at the Series A stage in United States technology startups, typically leading rounds and taking board seats. Shasta has roughly $1.3B under management across multiple funds (Fund II $250M, Fund III $265M, Fund IV $300M) and a 20-year track record. Its thesis centers on enterprise software / SaaS, cybersecurity, developer tools and infrastructure, data intelligence, camera / computer vision, and consumer subscription products, pairing capital with operational support (Shasta Elevate) for technical founders. Notable investments include Anaplan, Zuora, Nest, Nextdoor, Apptio, Eero, Sendbird, Tonal, Lattice, Highspot, SentinelOne and Turo, with 12 unicorns, multiple IPOs and dozens of acquisitions across its history.",
-     "rank": 306
+     "rank": 328
     },
     {
      "name": "Sierra Ventures",
      "slug": "sierra-ventures",
      "description": "Sierra Ventures is an early-stage venture capital firm founded by Peter Wendell in 1982 and headquartered in San Mateo, California, in the heart of Silicon Valley. The firm invests from inception through Series A in first-principles founders under the tagline \"Conviction Before Consensus,\" writing checks of up to $5M at seed and up to $10M at Series A. Sierra's current investment thesis centers on the next wave of enterprise technology: Vertical AI (purpose-built AI for specific industries), Infrastructure AI, Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding history in enterprise applications, digital health, SaaS, and security. Over its 40-plus-year history the firm has invested more than $2 billion across 13 early-stage funds, with its 13th fund closing in 2023 at $265 million, following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports 35 IPOs and hundreds of successful exits, having backed companies such as Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of Fortune 1000 enterprise leaders who help portfolio companies land early customers. This profile tracks Sierra Ventures' identity and its portfolio graph across the API Evangelist network.",
-     "rank": 307
+     "rank": 329
     },
     {
      "name": "SV Angel",
      "slug": "sv-angel",
      "description": "SV Angel is a San Francisco-based venture capital firm founded in 2009 by Ron Conway, one of Silicon Valley's most prolific angel investors. The firm runs two vehicles: an early-stage Seed Fund that writes roughly $200k checks into pre-seed and seed rounds, and a later-stage Growth Fund that invests at Series B and beyond. SV Angel is a founder-first, high-conviction investor that deliberately does not lead rounds, takes no board seats, and writes smaller checks as part of a larger syndicate so it can act as a neutral \"routing layer\" and advocate for founders. It is famous for its \"Inflection Point Approach\" — showing up at critical moments around fundraising, M&A, and business development. The firm invests almost entirely in US-based, software-driven companies across consumer and enterprise, and its portfolio has produced dozens of unicorns and landmark outcomes including Google, Airbnb, Coinbase, Stripe, Slack, Instacart, DoorDash, Reddit, Pinterest, GitHub, Databricks, Anthropic, and OpenAI.",
-     "rank": 308
+     "rank": 330
     },
     {
      "name": "Threshold Ventures",
      "slug": "threshold-ventures",
      "description": "Threshold Ventures is an early-stage venture capital firm based in Menlo Park, California that backs founder-led technology companies at the threshold of breakout growth. Threshold is the 2019 rebrand of Draper Fisher Jurvetson (DFJ), the storied Sand Hill Road firm founded in 1985; managing partners Emily Melton and Josh Stein spun the venture practice into an independent, focused fund. Threshold pursues a high-conviction strategy, concentrating on a small number of Series A and Series B investments and partnering hands-on with founders for the long term, frequently holding board seats through IPO and beyond. The firm invests across enterprise software and SaaS, developer tools and infrastructure, fintech, digital health and healthcare, and AI. Its portfolio has produced 10 unicorns, 3 IPOs, and 17 acquisitions, and includes Box, Twilio, Redfin, Remitly, Doximity, Rippling, LaunchDarkly, Livongo, and Talkdesk. Threshold has invested in roughly 87 companies and raised a ~$250M fund following the rebrand.",
-     "rank": 309
+     "rank": 331
     },
     {
      "name": "Trinity Ventures",
      "slug": "trinity-ventures",
      "description": "Trinity Ventures is an early-stage venture capital firm founded in 1986 and headquartered in Menlo Park, California, with more than three decades of history backing mission-driven entrepreneurs across technology and consumer markets. The firm takes a deliberately personal, low-capital-to-partner approach to early-stage investing, positioning itself as \"the call you want to make, not the call you have to make\" and emphasizing intellectual candor and lasting founder relationships. Trinity invests primarily at seed, Series A and Series B, with checks generally ranging from roughly $1 million to $15 million and averaging around $5 million. Its focus spans enterprise software and cloud infrastructure, developer tools, fintech, digital media and marketing technology, consumer products and services, healthcare, and artificial intelligence. Over nine funds the firm has managed on the order of $1.3 billion in assets and produced a track record that includes multiple unicorns, IPOs and roughly 130 acquisitions. Notable investments include Starbucks, New Relic, Auth0, Turo, Care.com, Zulily, Blue Nile, Aruba Networks, Infoblox, Cohesity, Outreach, InfluxData, Contentful and Docker. Trinity invests primarily in the United States.",
-     "rank": 310
+     "rank": 332
     },
     {
      "name": "Uncork Capital",
      "slug": "uncork-capital",
      "description": "Uncork Capital is a San Francisco-based seed-stage venture capital firm founded in 2004 by Jeff Clavier, who formalized his angel portfolio into one of Silicon Valley's earliest dedicated seed funds; it operated as SoftTech VC until rebranding to Uncork Capital in 2017. Led by managing partners Jeff Clavier and Andy McLoughlin, the firm invests at the seed stage with a \"first to believe\" conviction style, typically targeting 10-15% ownership and writing seed checks broadly in the $1.5M-$4M range across B2B applications and SaaS, developer tooling, infrastructure and security, consumer and marketplaces, frontier tech/hardware, and AI/ML. In May 2025 the firm closed $300M in fresh capital across Uncork VIII (a $225M seed fund) and Uncork Plus IV (a $75M growth fund), bringing it to roughly $1.2B in assets under management. Across 275+ investments and 100+ outcomes, its portfolio and exits include SendGrid, Fitbit, Poshmark, Postmates, Eventbrite, LaunchDarkly, Tailscale, Front, Shippo, ClassDojo, Groq, Human Interest, Carrot Fertility, and GPTZero.",
-     "rank": 311
+     "rank": 333
     }
    ]
   }

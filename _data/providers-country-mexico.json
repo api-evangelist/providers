@@ -1,6 +1,6 @@
 {
- "total": 112,
- "shown": 112,
+ "total": 118,
+ "shown": 118,
  "limit": 1000,
  "bands": [
   {
@@ -64,8 +64,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "99 Minutos",
@@ -189,6 +189,44 @@
      "rank": 4
     },
     {
+     "name": "Palenca (Vech)",
+     "slug": "palenca-vech",
+     "description": "Palenca is a Latin American income and employment verification API (headquartered in Mexico, backed by 500 Global). Through a single REST API and an embeddable Widget, workers securely connect their gig-economy platform (Uber, Rappi, DiDi, inDriver, iFood, PedidosYa) and formal-economy sources (IMSS, ISSSTE, CDT/Carteira de Trabalho) to share verified income, earnings, employment history, and account data with fintechs, banks, and lenders. Palenca serves Mexico and Brazil, exposes users, accounts, logins, earnings, consents, insights, and webhooks resources, and ships a JS/CDN/ES6 widget and mobile SDKs for end-user account linking.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png",
+     "score": 53.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 53.1,
+      "governance": 20.8,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 44.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
+    },
+    {
      "name": "América Móvil",
      "slug": "america-movil",
      "description": "América Móvil, S.A.B. de C.V. is the largest telecommunications group in Latin America, headquartered in Mexico City and controlled by the Slim family. It serves roughly 331 million wireless subscribers and 79 million fixed revenue-generating units across 23 countries (2025 Form 20-F), operating as Telcel and Telmex in its home market of Mexico, as Claro across most of Latin America and the Caribbean, and as the majority owner of A1 Telekom Austria Group in Central and Eastern Europe. In the value chain it is a mobile network operator and fixed-line carrier — it owns the spectrum, the radio access network, the SIM estate and the subscriber identity records that network APIs monetize, and it does not resell anyone else's connectivity. Its API posture is the classic carrier posture: there is no corporate developer portal at americamovil.com (the domain is an investor-relations site and returns 403 to non-browser clients; developer.*, developers.*, docs.*, api.* and opengateway.* subdomains do not resolve), and the only real API surface in the group sits inside one operating company — Claro Brasil's \"Claro Insight\" marketplace at claroinsight.com.br, a registration-gated catalog of 14 network and identity APIs including CAMARA-aligned SIM Swap, Number Verification and Device Location. In Mexico, Telcel launched GSMA Open Gateway on 28 May 2025 alongside Altán Redes, AT&T Mexico and Telefónica Mexico with three APIs — SIM Swap, Number Verification and Device Location — but publishes no portal, no specification and no sandbox, only a business sales contact form. América Móvil is a GSMA Open Gateway participant and was named in Ericsson's September 2024 launch of the Aduna network-API joint venture, but it is absent from the final twelve-CSP equity structure completed in July 2025; in Brazil its CAMARA APIs reach developers through the CPaaS aggregator Infobip. Outside the Brazilian marketplace, América Móvil is partner-gated and sales-led, and is reachable by most developers only through an aggregator rather than directly.",
@@ -231,7 +269,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Mercado Pago",
@@ -276,7 +314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Ualá",
@@ -321,7 +359,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Atrato",
@@ -366,7 +404,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Gigstack",
@@ -411,7 +449,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     }
    ],
    "open": true
@@ -467,7 +505,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Contalink",
@@ -505,7 +543,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Cuenca",
@@ -550,7 +588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "TAXO",
@@ -587,7 +625,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Cobre",
@@ -632,7 +670,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Aplazo",
@@ -677,7 +715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Tecnológico de Monterrey",
@@ -722,7 +760,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Super Seguros",
@@ -766,7 +804,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Skydropx",
@@ -810,7 +848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Facturama",
@@ -848,7 +886,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Kueski",
@@ -893,7 +931,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "BBVA",
@@ -938,7 +976,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     }
    ]
   },
@@ -947,8 +985,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 36,
-   "shown": 36,
+   "count": 37,
+   "shown": 37,
    "providers": [
     {
      "name": "AstroPay",
@@ -993,7 +1031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Worky",
@@ -1030,7 +1068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Clip",
@@ -1075,7 +1113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Mattilda",
@@ -1120,7 +1158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Sportwey",
@@ -1164,7 +1202,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Cicada",
@@ -1209,7 +1247,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Albo",
@@ -1254,7 +1292,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "datos.gob.mx - Sitio oficial de datos abiertos del Gobierno de la República",
@@ -1299,7 +1337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Fairplay",
@@ -1337,7 +1375,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Koltin",
@@ -1382,7 +1420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Minu",
@@ -1427,7 +1465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Sofia",
@@ -1471,7 +1509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "La Haus",
@@ -1515,7 +1553,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Mienvío",
@@ -1560,7 +1598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Nu (Nubank)",
@@ -1605,7 +1643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Terapify",
@@ -1649,7 +1687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Clivi",
@@ -1694,7 +1732,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Expansive",
@@ -1732,7 +1770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Cometa",
@@ -1777,7 +1815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Boletia",
@@ -1821,7 +1859,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Lamudi",
@@ -1859,7 +1897,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Klar",
@@ -1904,7 +1942,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Arq",
@@ -1949,7 +1987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Crabi",
@@ -1994,7 +2032,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Sofía",
@@ -2038,7 +2076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Mercanto",
@@ -2076,7 +2114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Uniko",
@@ -2120,7 +2158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Pacto",
@@ -2165,7 +2203,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Circulo de Belleza",
@@ -2203,7 +2241,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Covalto",
@@ -2248,7 +2286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Plenna",
@@ -2292,7 +2330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Baubap",
@@ -2330,7 +2368,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 54
+    },
+    {
+     "name": "Optimal",
+     "slug": "optimal",
+     "description": "Optimal is a preventive-health and longevity company based in Mexico City, backed by 500 Global, operating across Latin America (Mexico, Colombia, and Peru). Optimal offers a consumer blood test that analyzes more than 300 biomarkers and uses AI to surface problems before symptoms appear, positioning itself as a predictive health platform (branded \"health OS\") that integrates biological data, wearable metrics, behavioral patterns, and medical history into longitudinal health models to identify risk before it becomes disease. The company sells directly to consumers via a web app and subscriptions and does not currently publish a public developer API, developer portal, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optimal/refs/heads/main/screenshots/optimal-2026-08-07T190803.png",
+     "score": 13.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 55
     },
     {
      "name": "Mundi",
@@ -2375,7 +2458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "Tienda Pago",
@@ -2419,7 +2502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 57
     },
     {
      "name": "Mision Admision",
@@ -2457,7 +2540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 58
     },
     {
      "name": "Shuttle Central",
@@ -2494,7 +2577,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 59
     }
    ]
   },
@@ -2503,8 +2586,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 55,
-   "shown": 55,
+   "count": 59,
+   "shown": 59,
    "providers": [
     {
      "name": "Civica Digital",
@@ -2549,7 +2632,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 60
     },
     {
      "name": "Pixyalbum",
@@ -2586,7 +2669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 61
     },
     {
      "name": "Minu Holdings Limited",
@@ -2624,7 +2707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 62
     },
     {
      "name": "The Fit Body Co",
@@ -2668,7 +2751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 63
     },
     {
      "name": "Cuida Mi Mascota",
@@ -2706,7 +2789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Mubit",
@@ -2744,7 +2827,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "Net Worth",
@@ -2789,7 +2872,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Custodian",
@@ -2834,7 +2917,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 67
+    },
+    {
+     "name": "Nuevo Método",
+     "slug": "nuevo-m-todo",
+     "description": "Nuevo Método (NUME) is an international digital-health and corporate-wellness platform, headquartered in Mexico City and operating across 17 countries in Latin America and Europe. It helps insurers and enterprises deliver personalized wellbeing benefits to employees, customers, and their families across three pillars: mental health (psychology sessions, mindfulness, meditation, sleep tracking), physical health (24/7 virtual medical consultations, fertility guidance, menstrual-cycle tracking, health workshops), and lifestyle (personal-finance courses, financial advisory, and inspirational talks). The company runs a fully remote workforce and reports measurable client outcomes such as improved sleep, productivity, and employee retention. Founded and led by Dr. Ingrid Briggiler (CEO). No public API or developer portal is currently published; this profile captures the company's identity and probed domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuevo-m-todo/refs/heads/main/screenshots/nuevo-m-todo-2026-08-07T185720.png",
+     "score": 12.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 68
     },
     {
      "name": "Nelo",
@@ -2879,7 +3007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "MIDAS Technologies",
@@ -2924,7 +3052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 70
     },
     {
      "name": "EFEX (Ventu)",
@@ -2969,7 +3097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 71
     },
     {
      "name": "Scouter",
@@ -3006,7 +3134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 72
     },
     {
      "name": "Draftea",
@@ -3044,7 +3172,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 73
     },
     {
      "name": "Aora",
@@ -3081,7 +3209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 74
     },
     {
      "name": "Bright",
@@ -3126,7 +3254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 75
     },
     {
      "name": "Aviva",
@@ -3164,7 +3292,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 76
     },
     {
      "name": "Come Bien",
@@ -3202,7 +3330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 77
     },
     {
      "name": "Syscap",
@@ -3239,7 +3367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 78
     },
     {
      "name": "Clikalia",
@@ -3277,7 +3405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 79
     },
     {
      "name": "Flat",
@@ -3315,7 +3443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 80
     },
     {
      "name": "Habi",
@@ -3353,7 +3481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 81
     },
     {
      "name": "Shopeando",
@@ -3390,7 +3518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 82
     },
     {
      "name": "Laureate Education",
@@ -3428,7 +3556,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 83
     },
     {
      "name": "Yo Fio",
@@ -3465,7 +3593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 84
     },
     {
      "name": "DeporPrivé",
@@ -3503,7 +3631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 85
     },
     {
      "name": "Gloset",
@@ -3541,7 +3669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 86
     },
     {
      "name": "Mi Dulce Hogar",
@@ -3579,7 +3707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 87
     },
     {
      "name": "Vioo",
@@ -3616,7 +3744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 88
     },
     {
      "name": "Sonora Open Data",
@@ -3661,7 +3789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 89
     },
     {
      "name": "Calificadas",
@@ -3699,7 +3827,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 90
     },
     {
      "name": "Kayum",
@@ -3744,7 +3872,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 91
     },
     {
      "name": "Finaccess",
@@ -3782,7 +3910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 92
     },
     {
      "name": "Reliv",
@@ -3826,7 +3954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 93
     },
     {
      "name": "AutoChilango",
@@ -3864,7 +3992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 94
     },
     {
      "name": "Wishbird Experiences",
@@ -3901,7 +4029,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 95
+    },
+    {
+     "name": "Scorce",
+     "slug": "scorce",
+     "description": "Scorce is a Mexico-based API aggregation platform that gives businesses a single integration point to connect to multiple Latin American and global identity APIs for customer authentication, KYC (Know Your Customer), digital identity verification, and fraud prevention. The platform lets teams connect in under 24 hours, obtain provider trials, and monitor API performance across providers from one unified dashboard. Founded in 2019 and headquartered in Puebla, Mexico, Scorce is backed by 500 Global, Finnovista, and Tenity.",
+     "score": 7.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 96
     },
     {
      "name": "Ualá",
@@ -3946,7 +4111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 97
     },
     {
      "name": "Cornershop by Uber",
@@ -3984,7 +4149,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 98
     },
     {
      "name": "Healf",
@@ -4029,7 +4194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 99
     },
     {
      "name": "Konfio",
@@ -4074,7 +4239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 100
     },
     {
      "name": "Niko",
@@ -4119,7 +4284,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 101
     },
     {
      "name": "Kavak",
@@ -4156,7 +4321,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 102
     },
     {
      "name": "Stori",
@@ -4201,7 +4366,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 103
+    },
+    {
+     "name": "Atexto",
+     "slug": "atexto",
+     "description": "Atexto was a speech-recognition data company (self-described \"the accuracy platform for speech recognition\") based in Mexico City, founded around 2016 by Brenda Mana Pastrian and Esteban Gorupicz. It helped machine-learning and voice-assistant teams create, collect, annotate, transcribe, and benchmark audio/speech datasets, combining an enterprise data platform with a global paid crowdsourcing community that transcribed and labeled audio across roughly 24 languages and their regional accents. The company also offered a hybrid human-plus-machine audio-to-text transcription service and ASR training-data services. It was backed by 500 Global, Redwood Ventures, MC Capital, and a Start-Up Chile grant. The company now appears inactive: its former domain atexto.com has been repurposed to an unrelated third-party site, and no live developer portal, API documentation, or machine-readable API specification could be located. This profile captures verified historical identity only; no API artifacts were enriched because no live API surface exists.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 104
     },
     {
      "name": "Briko Robotics",
@@ -4238,7 +4440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 105
     },
     {
      "name": "Gurú de Viaje",
@@ -4276,7 +4478,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 106
     },
     {
      "name": "Jüsto",
@@ -4313,7 +4515,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 107
+    },
+    {
+     "name": "microTERRA",
+     "slug": "microterra",
+     "description": "microTERRA is a Mexico-based food-ingredient company that develops functional ingredients derived from Lemna (duckweed). Its MAS product line delivers natural flavor enhancers and texture modifiers for the food and beverage industry, positioned as sustainable, clean-label alternatives that support salt and sugar reduction in formulations. A Techstars-backed B2B startup, microTERRA sells to food formulators and manufacturers and does not currently expose any public developer API, SDK, CLI, or technical documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microterra/refs/heads/main/screenshots/microterra-2026-08-07T172849.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 108
     },
     {
      "name": "Okol",
@@ -4351,7 +4591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 109
     },
     {
      "name": "Plerk",
@@ -4388,7 +4628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 110
     },
     {
      "name": "Portal Terreno",
@@ -4425,7 +4665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 111
     },
     {
      "name": "Raw Apothecary",
@@ -4462,7 +4702,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 112
     },
     {
      "name": "RUUT",
@@ -4499,7 +4739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 113
     },
     {
      "name": "SeeMexico",
@@ -4536,7 +4776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 114
     },
     {
      "name": "Spider Fleet",
@@ -4573,7 +4813,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 115
     },
     {
      "name": "Yetcargo",
@@ -4610,7 +4850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 116
     },
     {
      "name": "Graviti",
@@ -4654,7 +4894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 117
     },
     {
      "name": "Kalto",
@@ -4698,7 +4938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 118
     }
    ]
   }

@@ -1713,11 +1713,35 @@ def main():
     )
 
     # --- Countries --------------------------------------------------------
+    # TWO signals, unioned. A top-level tag alone undercounts badly: of the 243
+    # all/* repos that mention Singapore anywhere, only 54 carried the tag, so
+    # Carousell, Carro, Coda Payments and Ahrefs — all explicitly described as
+    # Singapore-headquartered — were absent from the country page entirely.
+    #
+    # There is no structured country field to switch to (43 of 26,861 repos carry
+    # any x-location/x-hq/x-country at all), so the second signal is an explicit
+    # HQ STATEMENT in the description: "headquartered in <Country>" or
+    # "<Country>-headquartered". That is a claim about domicile, unlike a passing
+    # mention of a market served, and it is matched only against exact country
+    # aliases — "based in New York" or "based in London" produce NO hit rather
+    # than a guessed one. Missing a provider is recoverable; filing one under the
+    # wrong country is not.
     alias_to_country = {}
     for slug, name, flag, aliases in COUNTRIES:
         for a in aliases:
             alias_to_country[a] = slug
+
+    hq_patterns = []
+    for alias, cslug in alias_to_country.items():
+        esc_alias = re.escape(alias)
+        hq_patterns.append((re.compile(
+            r"(?:headquartered|head[- ]quartered|based|head office)\s+in\s+%s\b" % esc_alias,
+            re.I), cslug))
+        hq_patterns.append((re.compile(
+            r"\b%s[-\u2011](?:headquartered|based)\b" % esc_alias, re.I), cslug))
+
     country_entries = {slug: [] for slug, _, _, _ in COUNTRIES}
+    country_signal = {slug: {"tag": 0, "hq": 0} for slug, _, _, _ in COUNTRIES}
 
     for repo in sorted(os.listdir(ALL), key=str.lower):
         if not os.path.isdir(os.path.join(ALL, repo)):
@@ -1725,12 +1749,20 @@ def main():
         meta = meta_of(repo)
         if meta is None:
             continue
-        hit = set()
+        by_tag = set()
         for t in meta[2]:
             c = alias_to_country.get(t)
-            if c and c not in hit:
-                hit.add(c)
-                country_entries[c].append(rated_entry(repo, meta))
+            if c:
+                by_tag.add(c)
+        by_hq = set()
+        description = meta[1] or ""
+        if description:
+            for rx, cslug in hq_patterns:
+                if cslug not in by_hq and rx.search(description):
+                    by_hq.add(cslug)
+        for c in sorted(by_tag | by_hq):
+            country_entries[c].append(rated_entry(repo, meta))
+            country_signal[c]["tag" if c in by_tag else "hq"] += 1
 
     country_cards = []
     for slug, name, flag, _aliases in COUNTRIES:
@@ -1743,12 +1775,14 @@ def main():
             "name": name,
             "flag": flag,
             "count": len(entries),
+            "by_tag": country_signal[slug]["tag"],
+            "by_hq": country_signal[slug]["hq"],
         })
         write_page(
             os.path.join(SITE, "countries", slug, "index.html"),
             listing_page(
                 name,
-                esc("%s providers operating in %s, ranked by their Kin Score." % (len(entries), name)),
+                esc("%s providers headquartered in or tagged to %s, ranked by their Kin Score." % (len(entries), name)),
                 "providers-country-%s" % slug,
                 rated=True,
             ),
@@ -1764,7 +1798,7 @@ def main():
             "Browse API providers across the top industrial countries in the world.",
             "sections-countries",
             "/countries/",
-            "Providers across the API Evangelist network organized by the top industrial countries, matched using the country tags providers carry.",
+            "Providers across the API Evangelist network organized by the top industrial countries, matched on a country tag or an explicit headquarters statement. Coverage is a floor, not a census: a provider with neither signal is absent rather than counted elsewhere.",
         ),
     )
 

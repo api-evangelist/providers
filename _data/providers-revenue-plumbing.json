@@ -1077,6 +1077,7 @@
      "name": "Fundz",
      "slug": "fundz",
      "description": "Fundz is an event-first business intelligence platform, founded 2015, tracking 200,000+ companies and surfacing funding rounds, executive changes, M&A activity, SEC filings (8-K, 10-K, 10-Q, Form D) and website modifications in real time. Rather than storing millions of static records it focuses on companies showing active signals, and scores them against each user's criteria. The API exposes company profiles, fundings, SEC filings and fund formations from api.fundz.net with an API key in the Authorization header. It sits in the same category as Harmonic and Crunchbase, and competes explicitly on access: an API key is free and issued instantly with no card and no sales call, and pricing is published rather than quoted. Fundz also ships an MCP server listed on the official Model Context Protocol registry, and publishes an llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png",
      "score": 63.1,
      "band": "strong",
      "band_label": "Strong",

@@ -2107,6 +2107,7 @@
      "name": "Eligible",
      "slug": "eligible",
      "description": "Eligible provides insurance billing APIs for healthcare businesses, enabling the integration of insurance billing experiences into healthcare applications. The platform supports eligibility verification, coverage discovery, claims submission and tracking, payment estimation, enrollment, and remittance processing across a large network of US payers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/screenshots/eligible-2026-08-17T123412.png",
      "score": 50.4,
      "band": "developing",
      "band_label": "Developing",

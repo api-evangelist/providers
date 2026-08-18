@@ -1,6 +1,6 @@
 {
- "total": 18,
- "shown": 18,
+ "total": 21,
+ "shown": 21,
  "limit": 1000,
  "bands": [
   {
@@ -64,8 +64,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Autopass",
@@ -201,6 +201,43 @@
       "dry_run_mode": true
      },
      "rank": 4
+    },
+    {
+     "name": "TG3D Studio",
+     "slug": "tg3d-studio",
+     "description": "TG3D Studio Inc. is a 3D fashion technology company (founded 2016, headquartered in Taiwan) whose Scanatic platform digitizes the body, materials, and clothing for made-to-measure and custom fashion. Its products include the Scanatic 360 Body Scanner (roughly 250 body measurements captured in seconds), Scanatic Studio 3D product-visualization and digital-sampling software, the Cloudzet mobile body-scan app, and the BESPOKE-N virtual try-on app. For developers and partners, TG3D exposes two RESTful API libraries: ScanAPI — offered free to partners for integrating Cloudzet scan-user registration and building custom UI that controls the Scanatic 360 Body Scanner — and APIConnect, which manipulates data across the Scanatic Body, Nuno3D, and StyleBook services. API access is key-based and issued from the Scanatic for Fashion Developer Console; all HTTPS traffic is 256-bit encrypted and each Scanatic Body Service includes up to 1,500 free API requests per month.",
+     "score": 29.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 65.8
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
     }
    ],
    "open": true
@@ -249,7 +286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "National Cheng Kung University",
@@ -294,7 +331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "OEN",
@@ -339,7 +376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Sciket",
@@ -376,7 +413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     }
    ]
   },
@@ -385,9 +422,46 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 10,
-   "shown": 10,
+   "count": 12,
+   "shown": 12,
    "providers": [
+    {
+     "name": "TutorABC",
+     "slug": "tutorabc",
+     "description": "TutorABC (formerly iTutorGroup) is a Taiwan-headquartered online language-learning platform offering live one-on-one and small-group English and Chinese instruction to learners worldwide. Courses span conversational and business English, Mandarin Chinese, certification-exam prep, and study-abroad advising, delivered through a proprietary web and mobile classroom with matched tutors and partnerships with institutions such as Oxford and Cambridge. The company runs consumer learning sites alongside separate portals for tutor recruitment, learning consultants, and interviewer/onboarding workflows. TutorABC is a portfolio company of Qiming Venture Partners. It publishes no public developer API; this profile captures the company identity, its agent-facing llms.txt, and its domain-security posture surfaced by the enrichment pipeline.",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 10
+    },
     {
      "name": "ProLogium Technology",
      "slug": "prologium",
@@ -430,7 +504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 11
     },
     {
      "name": "XING Mobility",
@@ -474,7 +548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "Elixiron Immunotherapeutics",
@@ -518,7 +592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 13
     },
     {
      "name": "PopChill",
@@ -555,7 +629,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 14
     },
     {
      "name": "Tripplus",
@@ -599,7 +673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 15
     },
     {
      "name": "Fox-Tech",
@@ -637,7 +711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "Bounty Hunter",
@@ -675,7 +749,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 17
+    },
+    {
+     "name": "Mutto Optronics",
+     "slug": "muttoinc",
+     "description": "Mutto Optronics (Mutto Inc) is a Taipei, Taiwan-based provider of resistive and capacitive touch panels for the mobile phone and tablet market. Formerly a Qiming Venture Partners portfolio company, it is now publicly held. It is a hardware/optronics manufacturer with no public API, developer program, or documented software surface. The registered domain (muttoinc.com) has lapsed and now resolves to a domain-parking and ad-monetization landing page across all hosts, so there is no first-party developer, docs, or API infrastructure to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/muttoinc/refs/heads/main/screenshots/muttoinc-2026-08-07T184453.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 18
     },
     {
      "name": "TryTry (穿穿)",
@@ -712,7 +824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 19
     },
     {
      "name": "WeGrow asia CO., LTD.",
@@ -749,7 +861,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 20
     },
     {
      "name": "ypxfood",
@@ -786,7 +898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 21
     }
    ]
   }

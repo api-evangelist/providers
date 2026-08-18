@@ -1,5 +1,5 @@
 {
- "total": 5024,
+ "total": 5023,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -1064,7 +1064,7 @@
      "name": "Stripe",
      "slug": "stripe",
      "description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-08-17T083004.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-08-17T125440.png",
      "score": 75.6,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -1227,7 +1227,7 @@
      "name": "Parallel",
      "slug": "parallel",
      "description": "Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor API for scheduled web-change tracking, an OpenAI-compatible Responses and Chat Completions pair, and a Memory API that lets agents reuse past research. The platform is API-key authenticated over https://api.parallel.ai, ships official Python and TypeScript SDKs and a CLI, emits Standard Webhooks and SSE event streams, and is SOC 2 Type I/II certified. Its agent surface is unusually complete: an anonymous hosted MCP server whose tools are publicly introspectable, an OAuth-gated Task MCP server, a conformant A2A agent card backed by a live /a2a endpoint, provider-published Agent Skills with a discovery document, an llms.txt, and markdown twins of every documentation page. Pricing is pay-as-you-go per request per product. Originally surfaced as a Kleiner Perkins portfolio company and enriched from Parallel's public developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/screenshots/parallel-2026-08-07T191420.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/screenshots/parallel-2026-08-17T124455.png",
      "score": 73.9,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -4983,6 +4983,7 @@
      "name": "Buffer",
      "slug": "buffer",
      "description": "Buffer is a social media scheduling, publishing and analytics platform with a GraphQL API for scheduling posts, managing content queues and ideas, working with post templates, accessing normalized engagement metrics, and publishing across eleven social channels including Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, YouTube, Mastodon and Google Business Profiles. Access is by personal API key or OAuth 2.0 with PKCE, and Buffer also operates a hosted Model Context Protocol server plus a first-party CLI that ships installable agent skills. The legacy REST API is being retired on February 1, 2027.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/screenshots/buffer-2026-08-17T123104.png",
      "score": 65.9,
      "band": "strong",
      "band_label": "Strong",
@@ -10261,7 +10262,7 @@
      "name": "Prisma",
      "slug": "prisma",
      "description": "Prisma is a next-generation ORM that helps developers build applications faster and with fewer errors. It provides a type-safe database client, migrations system, and visual database browser.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/screenshots/prisma-2026-06-20T192111.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/screenshots/prisma-2026-08-17T124858.png",
      "score": 59.5,
      "band": "strong",
      "band_label": "Strong",
@@ -15986,6 +15987,7 @@
      "name": "Speakeasy",
      "slug": "speakeasy",
      "description": "The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/screenshots/speakeasy-2026-08-17T125418.png",
      "score": 56.0,
      "band": "strong",
      "band_label": "Strong",
@@ -16028,7 +16030,7 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 771,
+   "count": 770,
    "shown": 608,
    "providers": [
     {
@@ -17052,6 +17054,7 @@
      "name": "Resend",
      "slug": "resend",
      "description": "Resend is a developer-first email API platform that simplifies sending and managing transactional and marketing emails. It provides a clean REST API with bearer token authentication, supporting email sending, domain management, API key management, audience and contact management, and broadcast campaigns. Resend offers SDKs for Node.js, Python, Go, Ruby, PHP, Java, .NET, Rust, Elixir, and more, along with a React Email library and official MCP server.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/screenshots/resend-2026-08-17T125201.png",
      "score": 55.4,
      "band": "developing",
      "band_label": "Developing",
@@ -19210,45 +19213,6 @@
      "rank": 471
     },
     {
-     "name": "Spot",
-     "slug": "spot",
-     "description": "Spot AI is a physical-security video-AI platform that turns surveillance cameras into AI agents which monitor spaces 24/7, detect suspicious activity, and trigger automated responses across retail, manufacturing, construction, healthcare, and education. The Spot AI Developer API is a JSON REST API on https://dev-api.spot.ai/ (bearer API-key auth) with three surfaces: Devices (locations, appliances, cameras, live/VOD embeds, historical footage, zones, shared searches, audio playback), Intelligence (people/vehicle counting, idle/presence analytics, and License Plate Recognition interest lists), and Spot Connect (a beta integrations platform that links external business events to camera footage via integrations, devices, event types, and events, with signed RSA256 webhooks for real-time delivery).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/screenshots/spot-2026-08-17T082037.png",
-     "score": 54.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 68.9,
-      "governance": 20.8,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-17",
-     "schema_version": "0.11.0",
-     "agent_score": 50.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "3 venues",
-     "rank": 472
-    },
-    {
      "name": "7shifts",
      "slug": "7shifts",
      "description": "7shifts is a restaurant employee scheduling, time-tracking, and team management platform that helps restaurant operators forecast labor, build schedules, manage shift trades, run payroll integrations, and communicate with hourly staff. The platform integrates with major POS systems for sales data and labor forecasting and supports multi-location operations across quick-service, full-service, and franchise concepts. The 7shifts API v2 is a REST API authenticated via long-lived access tokens (Bearer) for internal use or OAuth 2.0 client credentials for technology partners, exposing employees, schedules, shifts, time punches, departments, locations, and wages.",
@@ -19285,7 +19249,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 473
+     "rank": 472
     },
     {
      "name": "Builder.io",
@@ -19324,7 +19288,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 474
+     "rank": 473
     },
     {
      "name": "ForgeRock",
@@ -19363,13 +19327,13 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 475
+     "rank": 474
     },
     {
      "name": "Jiko",
      "slug": "jiko",
      "description": "Jiko is a fintech infrastructure company that turns idle cash into US Treasury bills held in the customer's own name, combining a nationally chartered bank, a registered broker-dealer, and a real-time settlement network (JikoNet) behind a single API. Its \"Jiko as a Service\" platform lets partners embed T-bill-backed accounts, virtual and physical debit cards, pockets (paired bank + brokerage accounts), and multi-rail money movement (ACH, wire, SWIFT, cards, and 24/7 on-us JikoNet transfers) into their own applications. Jiko exposes two OAuth 2.0 / HMAC-secured REST APIs — a Customer API for direct integrators and a Partner API for embedding Jiko products on behalf of end customers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-07-25T223151.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-08-17T123926.png",
      "score": 54.2,
      "band": "developing",
      "band_label": "Developing",
@@ -19409,7 +19373,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 476
+     "rank": 475
     },
     {
      "name": "Kernel",
@@ -19448,7 +19412,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 477
+     "rank": 476
     },
     {
      "name": "OpenSea",
@@ -19494,7 +19458,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 478
+     "rank": 477
     },
     {
      "name": "Yapily",
@@ -19540,7 +19504,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 479
+     "rank": 478
     },
     {
      "name": "Bifrost",
@@ -19579,7 +19543,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 480
+     "rank": 479
     },
     {
      "name": "Flux",
@@ -19618,7 +19582,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 481
+     "rank": 480
     },
     {
      "name": "Zuper",
@@ -19657,7 +19621,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 482
+     "rank": 481
     },
     {
      "name": "Athelas",
@@ -19703,7 +19667,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 483
+     "rank": 482
     },
     {
      "name": "Ava Labs",
@@ -19742,7 +19706,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 484
+     "rank": 483
     },
     {
      "name": "Ava Labs",
@@ -19781,7 +19745,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 485
+     "rank": 484
     },
     {
      "name": "Ledger Investing",
@@ -19827,7 +19791,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 486
+     "rank": 485
     },
     {
      "name": "Sentio",
@@ -19866,7 +19830,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 487
+     "rank": 486
     },
     {
      "name": "Tabs",
@@ -19905,7 +19869,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 488
+     "rank": 487
     },
     {
      "name": "Tebra",
@@ -19951,7 +19915,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 489
+     "rank": 488
     },
     {
      "name": "Panther",
@@ -19990,7 +19954,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 490
+     "rank": 489
     },
     {
      "name": "Augment",
@@ -20029,7 +19993,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 491
+     "rank": 490
     },
     {
      "name": "Catchpoint",
@@ -20068,7 +20032,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 492
+     "rank": 491
     },
     {
      "name": "Check Technologies",
@@ -20114,7 +20078,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 493
+     "rank": 492
     },
     {
      "name": "DataHub",
@@ -20153,7 +20117,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 494
+     "rank": 493
     },
     {
      "name": "Devrev",
@@ -20192,7 +20156,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 495
+     "rank": 494
     },
     {
      "name": "Rox",
@@ -20231,7 +20195,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 496
+     "rank": 495
     },
     {
      "name": "SmartNews",
@@ -20270,7 +20234,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 497
+     "rank": 496
     },
     {
      "name": "Tabby",
@@ -20316,7 +20280,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 498
+     "rank": 497
     },
     {
      "name": "AB Tasty",
@@ -20355,7 +20319,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 499
+     "rank": 498
     },
     {
      "name": "Castle",
@@ -20394,7 +20358,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 500
+     "rank": 499
     },
     {
      "name": "Crunchbase",
@@ -20433,7 +20397,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 501
+     "rank": 500
     },
     {
      "name": "Hopae, Inc.",
@@ -20472,7 +20436,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 502
+     "rank": 501
     },
     {
      "name": "UpGuard",
@@ -20511,7 +20475,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 503
+     "rank": 502
     },
     {
      "name": "data.world",
@@ -20557,7 +20521,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 504
+     "rank": 503
     },
     {
      "name": "DeepL",
@@ -20596,7 +20560,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 505
+     "rank": 504
     },
     {
      "name": "Forage",
@@ -20642,7 +20606,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 506
+     "rank": 505
     },
     {
      "name": "Kard",
@@ -20688,7 +20652,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 507
+     "rank": 506
     },
     {
      "name": "Kushki",
@@ -20734,7 +20698,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 508
+     "rank": 507
     },
     {
      "name": "MINE",
@@ -20773,7 +20737,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 509
+     "rank": 508
     },
     {
      "name": "Sifflet",
@@ -20812,7 +20776,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 510
+     "rank": 509
     },
     {
      "name": "Circuit",
@@ -20851,7 +20815,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 511
+     "rank": 510
     },
     {
      "name": "Coin Metrics",
@@ -20897,7 +20861,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 512
+     "rank": 511
     },
     {
      "name": "Paxos",
@@ -20943,7 +20907,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 513
+     "rank": 512
     },
     {
      "name": "ProjectDiscovery",
@@ -20982,7 +20946,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 514
+     "rank": 513
     },
     {
      "name": "Copper",
@@ -21021,7 +20985,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 515
+     "rank": 514
     },
     {
      "name": "Fossa",
@@ -21060,7 +21024,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 516
+     "rank": 515
     },
     {
      "name": "Primer",
@@ -21106,7 +21070,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 517
+     "rank": 516
     },
     {
      "name": "Release",
@@ -21145,7 +21109,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 518
+     "rank": 517
     },
     {
      "name": "Tako",
@@ -21184,7 +21148,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 519
+     "rank": 518
     },
     {
      "name": "MarginEdge",
@@ -21223,12 +21187,13 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 520
+     "rank": 519
     },
     {
      "name": "Nimble",
      "slug": "nimble",
      "description": "Nimble is a relationship-focused CRM that unifies contacts, communications, social profiles, calendar and email into a single shared record for small businesses and whole-company teams. Founded in 2010 by GoldMine co-founder Jon Ferrara and headquartered in Santa Monica, California, the platform combines contact management, sales pipelines, email marketing, sequences, web forms, web chat and workflow automation, and enriches contact profiles automatically from email, calendar, social and web data. Nimble publishes a full OpenAPI 3.0.0 contract for its REST API — 89 operations over contacts, user-definable contact fields, contact and deal pipelines, deals, leads, activities, tasks and messages — authenticated with an account API key or OAuth 2.0 authorization_code.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/screenshots/nimble-2026-08-17T124228.png",
      "score": 53.3,
      "band": "developing",
      "band_label": "Developing",
@@ -21261,7 +21226,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 521
+     "rank": 520
     },
     {
      "name": "Rillet",
@@ -21300,7 +21265,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 522
+     "rank": 521
     },
     {
      "name": "Skedulo",
@@ -21339,7 +21304,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 523
+     "rank": 522
     },
     {
      "name": "Sovrn",
@@ -21378,7 +21343,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 524
+     "rank": 523
     },
     {
      "name": "Ansa",
@@ -21424,7 +21389,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 525
+     "rank": 524
     },
     {
      "name": "Cabify",
@@ -21463,7 +21428,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 526
+     "rank": 525
     },
     {
      "name": "DualEntry",
@@ -21502,7 +21467,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 527
+     "rank": 526
     },
     {
      "name": "June",
@@ -21541,12 +21506,13 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 528
+     "rank": 527
     },
     {
      "name": "Neo4j",
      "slug": "neo4j",
      "description": "Neo4j is the leading graph database platform, enabling developers to build applications powered by connected data. Their developer platform provides HTTP, Query, and Aura cloud APIs alongside official drivers for Python, Java, and JavaScript, as well as a GraphQL library for rapid API development backed by the Neo4j graph database.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/screenshots/neo4j-2026-08-17T124223.png",
      "score": 53.2,
      "band": "developing",
      "band_label": "Developing",
@@ -21579,7 +21545,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 529
+     "rank": 528
     },
     {
      "name": "PointClickCare",
@@ -21625,7 +21591,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 530
+     "rank": 529
     },
     {
      "name": "Standard Metrics",
@@ -21664,7 +21630,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 531
+     "rank": 530
     },
     {
      "name": "Akkio",
@@ -21703,7 +21669,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 532
+     "rank": 531
     },
     {
      "name": "Color",
@@ -21749,7 +21715,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 533
+     "rank": 532
     },
     {
      "name": "Halliday",
@@ -21795,7 +21761,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 534
+     "rank": 533
     },
     {
      "name": "OpenNode",
@@ -21841,7 +21807,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 535
+     "rank": 534
     },
     {
      "name": "Replicant",
@@ -21880,7 +21846,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 536
+     "rank": 535
     },
     {
      "name": "StackHawk",
@@ -21919,7 +21885,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 537
+     "rank": 536
     },
     {
      "name": "Flock Safety",
@@ -21958,7 +21924,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 538
+     "rank": 537
     },
     {
      "name": "Padlet",
@@ -21997,6 +21963,52 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
+     "rank": 538
+    },
+    {
+     "name": "Vic.ai",
+     "slug": "vicai",
+     "description": "Vic.ai builds AI-native software for enterprise Accounts Payable and finance teams, automating the end-to-end AP workflow: invoice capture from email/SFTP/API/mobile, AI extraction of header and line-level data, GL coding, purchase-order matching, approval routing, bill pay and vendor portals, corporate-card expense management, and analytics. It integrates with major ERPs (SAP, Oracle, Microsoft Dynamics, NetSuite, Workday, Coupa). The public Vic.ai API (docs.vic.ai) is an ERP-integration surface with 173 operations across invoices, purchase orders, payments, masterdata sync, and webhooks, authenticated with client-credentials Bearer JWTs. Vic.ai holds SOC 1/SOC 2 Type II and operates on an ISO 27001 framework. Backed by Cowboy Ventures, GGV Capital, and ICONIQ Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png",
+     "score": 53.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 68.5,
+      "governance": 11.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 46.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "2 venues",
      "rank": 539
     },
     {
@@ -22042,54 +22054,8 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "2 venues",
-     "rank": 540
-    },
-    {
-     "name": "Vic.ai",
-     "slug": "vicai",
-     "description": "Vic.ai builds AI-native software for enterprise Accounts Payable and finance teams, automating the end-to-end AP workflow: invoice capture from email/SFTP/API/mobile, AI extraction of header and line-level data, GL coding, purchase-order matching, approval routing, bill pay and vendor portals, corporate-card expense management, and analytics. It integrates with major ERPs (SAP, Oracle, Microsoft Dynamics, NetSuite, Workday, Coupa). The public Vic.ai API (docs.vic.ai) is an ERP-integration surface with 173 operations across invoices, purchase orders, payments, masterdata sync, and webhooks, authenticated with client-credentials Bearer JWTs. Vic.ai holds SOC 1/SOC 2 Type II and operates on an ISO 27001 framework. Backed by Cowboy Ventures, GGV Capital, and ICONIQ Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png",
-     "score": 53.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 68.5,
-      "governance": 11.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-17",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 46.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "tier": "1 venue",
-     "rank": 541
+     "rank": 540
     },
     {
      "name": "Amberflo",
@@ -22128,7 +22094,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 542
+     "rank": 541
     },
     {
      "name": "Pipedrive",
@@ -22167,7 +22133,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 543
+     "rank": 542
     },
     {
      "name": "Pixee",
@@ -22206,7 +22172,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 544
+     "rank": 543
     },
     {
      "name": "Render",
@@ -22245,7 +22211,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 545
+     "rank": 544
     },
     {
      "name": "Wefunder",
@@ -22291,7 +22257,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 546
+     "rank": 545
     },
     {
      "name": "Zoca",
@@ -22330,7 +22296,7 @@
       "dry_run_mode": true
      },
      "tier": "1 venue",
-     "rank": 547
+     "rank": 546
     },
     {
      "name": "Comet",
@@ -22369,7 +22335,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 548
+     "rank": 547
     },
     {
      "name": "Deepgram",
@@ -22408,7 +22374,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 549
+     "rank": 548
     },
     {
      "name": "Oura Ring",
@@ -22454,7 +22420,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 550
+     "rank": 549
     },
     {
      "name": "Scribe",
@@ -22493,7 +22459,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 551
+     "rank": 550
     },
     {
      "name": "Snappr",
@@ -22532,7 +22498,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 552
+     "rank": 551
     },
     {
      "name": "Gainsight",
@@ -22571,7 +22537,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 553
+     "rank": 552
     },
     {
      "name": "Gitpod",
@@ -22610,7 +22576,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 554
+     "rank": 553
     },
     {
      "name": "Govly",
@@ -22656,7 +22622,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 555
+     "rank": 554
     },
     {
      "name": "Phone Com",
@@ -22702,7 +22668,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 556
+     "rank": 555
     },
     {
      "name": "Shippo",
@@ -22741,7 +22707,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 557
+     "rank": 556
     },
     {
      "name": "Tinybird",
@@ -22780,7 +22746,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 558
+     "rank": 557
     },
     {
      "name": "Lunchbox",
@@ -22819,7 +22785,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 559
+     "rank": 558
     },
     {
      "name": "Seqera Labs",
@@ -22865,7 +22831,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 560
+     "rank": 559
     },
     {
      "name": "Narvar",
@@ -22911,7 +22877,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 561
+     "rank": 560
     },
     {
      "name": "PandaDoc",
@@ -22950,7 +22916,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 562
+     "rank": 561
     },
     {
      "name": "SingleStore",
@@ -22989,7 +22955,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 563
+     "rank": 562
     },
     {
      "name": "Tackle.io",
@@ -23028,7 +22994,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 564
+     "rank": 563
     },
     {
      "name": "Basis Theory",
@@ -23074,7 +23040,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 565
+     "rank": 564
     },
     {
      "name": "Chargebee",
@@ -23120,7 +23086,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 566
+     "rank": 565
     },
     {
      "name": "Cube",
@@ -23159,7 +23125,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 567
+     "rank": 566
     },
     {
      "name": "SigNoz",
@@ -23198,7 +23164,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 568
+     "rank": 567
     },
     {
      "name": "SingleFile",
@@ -23237,7 +23203,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 569
+     "rank": 568
     },
     {
      "name": "Tango",
@@ -23283,7 +23249,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 570
+     "rank": 569
     },
     {
      "name": "Wayflyer",
@@ -23322,7 +23288,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 571
+     "rank": 570
     },
     {
      "name": "Argyle",
@@ -23361,7 +23327,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 572
+     "rank": 571
     },
     {
      "name": "Higgsfield",
@@ -23400,7 +23366,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 573
+     "rank": 572
     },
     {
      "name": "Kadence",
@@ -23439,7 +23405,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 574
+     "rank": 573
     },
     {
      "name": "NetBox Labs",
@@ -23478,7 +23444,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 575
+     "rank": 574
     },
     {
      "name": "NetBox Labs",
@@ -23517,7 +23483,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 576
+     "rank": 575
     },
     {
      "name": "Parabol",
@@ -23556,7 +23522,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 577
+     "rank": 576
     },
     {
      "name": "Upgrade",
@@ -23602,7 +23568,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 578
+     "rank": 577
     },
     {
      "name": "Xata",
@@ -23641,7 +23607,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 579
+     "rank": 578
     },
     {
      "name": "DataStax",
@@ -23680,7 +23646,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 580
+     "rank": 579
     },
     {
      "name": "Discord",
@@ -23719,7 +23685,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 581
+     "rank": 580
     },
     {
      "name": "Freight Waves",
@@ -23765,7 +23731,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 582
+     "rank": 581
     },
     {
      "name": "InfluxData",
@@ -23804,7 +23770,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 583
+     "rank": 582
     },
     {
      "name": "Limitless",
@@ -23843,7 +23809,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 584
+     "rank": 583
     },
     {
      "name": "LMNT",
@@ -23882,7 +23848,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 585
+     "rank": 584
     },
     {
      "name": "Rainbow.AI",
@@ -23921,7 +23887,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 586
+     "rank": 585
     },
     {
      "name": "Serval",
@@ -23960,7 +23926,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 587
+     "rank": 586
     },
     {
      "name": "dbt",
@@ -23999,7 +23965,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 588
+     "rank": 587
     },
     {
      "name": "DuckDuckGo",
@@ -24038,7 +24004,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 589
+     "rank": 588
     },
     {
      "name": "Leena AI",
@@ -24077,6 +24043,45 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
+     "rank": 589
+    },
+    {
+     "name": "Airspace Technologies",
+     "slug": "airspace-technologies",
+     "description": "Airspace Technologies is a time-critical logistics provider that uses AI-driven routing to move urgent, high-value freight via Next Flight Out (NFO), on-demand ground, charter, and specialty services across 80+ countries. Its public REST API (current V3, prior V2) supports order creation, quote generation, and active shipment monitoring. The API is asynchronous, authenticates with a non-expiring bearer token, paginates lists with page/page_limit, and pushes milestone, delay, and cancellation updates over webhooks correlated by request_id.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/screenshots/airspace-technologies-2026-07-25T195443.png",
+     "score": 51.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 70.1,
+      "governance": 20.8,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 46.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "3 venues",
      "rank": 590
     },
     {
@@ -24115,47 +24120,8 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "3 venues",
-     "rank": 591
-    },
-    {
-     "name": "Airspace Technologies",
-     "slug": "airspace-technologies",
-     "description": "Airspace Technologies is a time-critical logistics provider that uses AI-driven routing to move urgent, high-value freight via Next Flight Out (NFO), on-demand ground, charter, and specialty services across 80+ countries. Its public REST API (current V3, prior V2) supports order creation, quote generation, and active shipment monitoring. The API is asynchronous, authenticates with a non-expiring bearer token, paginates lists with page/page_limit, and pushes milestone, delay, and cancellation updates over webhooks correlated by request_id.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/screenshots/airspace-technologies-2026-07-25T195443.png",
-     "score": 51.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 70.1,
-      "governance": 20.8,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 60.3,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-17",
-     "schema_version": "0.11.0",
-     "agent_score": 46.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "tier": "1 venue",
-     "rank": 592
+     "rank": 591
     },
     {
      "name": "Arctic Wolf",
@@ -24194,7 +24160,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 593
+     "rank": 592
     },
     {
      "name": "Fieldguide",
@@ -24233,7 +24199,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 594
+     "rank": 593
     },
     {
      "name": "Golden",
@@ -24272,7 +24238,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 595
+     "rank": 594
     },
     {
      "name": "Sigma360",
@@ -24311,7 +24277,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 596
+     "rank": 595
     },
     {
      "name": "Opus",
@@ -24350,7 +24316,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 597
+     "rank": 596
     },
     {
      "name": "RapidAPI",
@@ -24389,7 +24355,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 598
+     "rank": 597
     },
     {
      "name": "Rollbar",
@@ -24428,7 +24394,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 599
+     "rank": 598
     },
     {
      "name": "Soldo",
@@ -24474,7 +24440,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 600
+     "rank": 599
     },
     {
      "name": "SPAN",
@@ -24520,7 +24486,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 601
+     "rank": 600
     },
     {
      "name": "Virtana (Virtual Instruments)",
@@ -24559,7 +24525,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 602
+     "rank": 601
     },
     {
      "name": "Weavix",
@@ -24598,7 +24564,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 603
+     "rank": 602
     },
     {
      "name": "When I Work",
@@ -24637,7 +24603,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 604
+     "rank": 603
     },
     {
      "name": "Delphix",
@@ -24676,7 +24642,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 605
+     "rank": 604
     },
     {
      "name": "Jebbit",
@@ -24715,7 +24681,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 606
+     "rank": 605
     },
     {
      "name": "Ondo Finance",
@@ -24761,7 +24727,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 607
+     "rank": 606
     },
     {
      "name": "Opal",
@@ -24800,7 +24766,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 608
+     "rank": 607
     },
     {
      "name": "QuotaPath",
@@ -24839,7 +24805,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 609
+     "rank": 608
     },
     {
      "name": "Windfall",
@@ -24878,7 +24844,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 610
+     "rank": 609
     },
     {
      "name": "Windfall Data",
@@ -24917,7 +24883,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 611
+     "rank": 610
     },
     {
      "name": "Aiven",
@@ -24956,7 +24922,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 612
+     "rank": 611
     },
     {
      "name": "BigML",
@@ -24995,7 +24961,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 613
+     "rank": 612
     },
     {
      "name": "Datasaur",
@@ -25034,7 +25000,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 614
+     "rank": 613
     },
     {
      "name": "Forethought",
@@ -25073,7 +25039,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 615
+     "rank": 614
     },
     {
      "name": "NewsWhip",
@@ -25112,7 +25078,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 616
+     "rank": 615
     },
     {
      "name": "OpenPhone",
@@ -25158,7 +25124,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 617
+     "rank": 616
     },
     {
      "name": "PowerSchool",
@@ -25197,7 +25163,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 618
+     "rank": 617
     },
     {
      "name": "Sisense",
@@ -25236,7 +25202,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 619
+     "rank": 618
     },
     {
      "name": "Uthana",
@@ -25275,7 +25241,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 620
+     "rank": 619
     },
     {
      "name": "VISO Trust",
@@ -25314,7 +25280,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 621
+     "rank": 620
     },
     {
      "name": "Zylo",
@@ -25353,7 +25319,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 622
+     "rank": 621
     },
     {
      "name": "Codat",
@@ -25392,7 +25358,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 623
+     "rank": 622
     },
     {
      "name": "NALA",
@@ -25438,7 +25404,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 624
+     "rank": 623
     },
     {
      "name": "Plivo",
@@ -25484,7 +25450,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 625
+     "rank": 624
     },
     {
      "name": "SpecterOps",
@@ -25523,7 +25489,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 626
+     "rank": 625
     },
     {
      "name": "Kredivo",
@@ -25569,7 +25535,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 627
+     "rank": 626
     },
     {
      "name": "Smartcat",
@@ -25608,7 +25574,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 628
+     "rank": 627
     },
     {
      "name": "StreamElements",
@@ -25647,7 +25613,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 629
+     "rank": 628
     },
     {
      "name": "Vanta",
@@ -25686,7 +25652,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 630
+     "rank": 629
     },
     {
      "name": "Ascend",
@@ -25732,7 +25698,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 631
+     "rank": 630
     },
     {
      "name": "BCB Group",
@@ -25778,7 +25744,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 632
+     "rank": 631
     },
     {
      "name": "Meteomatics",
@@ -25817,7 +25783,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 633
+     "rank": 632
     },
     {
      "name": "MX Technologies",
@@ -25863,7 +25829,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 634
+     "rank": 633
     },
     {
      "name": "SecurityScorecard",
@@ -25902,7 +25868,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 635
+     "rank": 634
     },
     {
      "name": "Sofar Ocean",
@@ -25941,7 +25907,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 636
+     "rank": 635
     },
     {
      "name": "Split",
@@ -25980,12 +25946,13 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 637
+     "rank": 636
     },
     {
      "name": "Zluri",
      "slug": "zluri",
      "description": "Zluri is a SaaS management and operations platform that helps organizations discover, govern, and optimize all their cloud applications. By connecting to SSO, finance, HR systems, and app APIs, it builds a unified system of record for SaaS usage, users, licenses, and spend. IT, finance, and procurement teams use Zluri to surface shadow IT, eliminate redundant or underused tools, rightsize licenses, and manage renewals and vendor relationships.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/screenshots/zluri-2026-08-17T130446.png",
      "score": 51.3,
      "band": "developing",
      "band_label": "Developing",
@@ -26018,7 +25985,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 638
+     "rank": 637
     },
     {
      "name": "Cloudinary",
@@ -26057,7 +26024,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 639
+     "rank": 638
     },
     {
      "name": "Hedera",
@@ -26096,7 +26063,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 640
+     "rank": 639
     },
     {
      "name": "Kyber Network",
@@ -26142,7 +26109,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 641
+     "rank": 640
     },
     {
      "name": "ManyChat",
@@ -26188,7 +26155,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 642
+     "rank": 641
     },
     {
      "name": "Enigma",
@@ -26227,7 +26194,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 643
+     "rank": 642
     },
     {
      "name": "Fixie",
@@ -26266,7 +26233,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 644
+     "rank": 643
     },
     {
      "name": "Horizon Blockchain Games",
@@ -26312,7 +26279,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 645
+     "rank": 644
     },
     {
      "name": "Rewst",
@@ -26351,7 +26318,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 646
+     "rank": 645
     },
     {
      "name": "ShopMy",
@@ -26390,7 +26357,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 647
+     "rank": 646
     },
     {
      "name": "Verifiable",
@@ -26436,7 +26403,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 648
+     "rank": 647
     },
     {
      "name": "Balena",
@@ -26475,7 +26442,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 649
+     "rank": 648
     },
     {
      "name": "Mindtickle",
@@ -26514,7 +26481,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 650
+     "rank": 649
     },
     {
      "name": "Pinwheel",
@@ -26560,7 +26527,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 651
+     "rank": 650
     },
     {
      "name": "Catchpoint Systems",
@@ -26599,7 +26566,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 652
+     "rank": 651
     },
     {
      "name": "ClickHouse",
@@ -26638,7 +26605,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 653
+     "rank": 652
     },
     {
      "name": "Defined",
@@ -26684,7 +26651,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 654
+     "rank": 653
     },
     {
      "name": "Fountain",
@@ -26723,7 +26690,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 655
+     "rank": 654
     },
     {
      "name": "hubilo",
@@ -26762,7 +26729,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 656
+     "rank": 655
     },
     {
      "name": "Stability AI",
@@ -26801,7 +26768,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 657
+     "rank": 656
     },
     {
      "name": "Stability AI",
@@ -26840,7 +26807,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 658
+     "rank": 657
     },
     {
      "name": "Twenty",
@@ -26879,7 +26846,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 659
+     "rank": 658
     },
     {
      "name": "Anchorage Digital",
@@ -26925,7 +26892,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 660
+     "rank": 659
     },
     {
      "name": "Imprint",
@@ -26971,7 +26938,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 661
+     "rank": 660
     },
     {
      "name": "Paid",
@@ -27017,7 +26984,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 662
+     "rank": 661
     },
     {
      "name": "Pax8",
@@ -27056,7 +27023,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 663
+     "rank": 662
     },
     {
      "name": "Stark Bank",
@@ -27102,7 +27069,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 664
+     "rank": 663
     },
     {
      "name": "TRM Labs",
@@ -27141,7 +27108,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 665
+     "rank": 664
     },
     {
      "name": "TRM Labs",
@@ -27180,7 +27147,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 666
+     "rank": 665
     },
     {
      "name": "TrueLayer",
@@ -27226,7 +27193,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 667
+     "rank": 666
     },
     {
      "name": "Cofactr",
@@ -27265,7 +27232,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 668
+     "rank": 667
     },
     {
      "name": "Dashlane",
@@ -27304,7 +27271,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 669
+     "rank": 668
     },
     {
      "name": "FIDEL API",
@@ -27350,7 +27317,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 670
+     "rank": 669
     },
     {
      "name": "Placer",
@@ -27389,7 +27356,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 671
+     "rank": 670
     },
     {
      "name": "Wunderite",
@@ -27435,7 +27402,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 672
+     "rank": 671
     },
     {
      "name": "Avoca",
@@ -27474,7 +27441,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 673
+     "rank": 672
     },
     {
      "name": "Conta Azul",
@@ -27520,7 +27487,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 674
+     "rank": 673
     },
     {
      "name": "Hedra",
@@ -27559,7 +27526,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 675
+     "rank": 674
     },
     {
      "name": "Klutch",
@@ -27605,12 +27572,13 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 676
+     "rank": 675
     },
     {
      "name": "NationBuilder",
      "slug": "nationbuilder",
      "description": "NationBuilder is a community-engagement and organizing platform for political campaigns, advocacy groups, nonprofits, and membership organizations, pairing a supporter CRM with a website/page builder, email and text messaging, event and petition tools, and integrated fundraising. Its developer surface is a REST API offered in two flavors: the current v2 API, which follows the JSON:API specification and authenticates with OAuth 2.0 (authorization-code with optional PKCE and refresh tokens), and a legacy v1 API that uses per-nation API tokens. The API exposes people/signups, donations, events, petitions, memberships, lists, tags, and related resources so integrators can sync supporter data and automate outreach. NationBuilder is multi-tenant: each nation is reached at its own {nation-slug}.nationbuilder.com host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nationbuilder/refs/heads/main/screenshots/nationbuilder-2026-08-17T124218.png",
      "score": 50.6,
      "band": "developing",
      "band_label": "Developing",
@@ -27643,7 +27611,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 677
+     "rank": 676
     },
     {
      "name": "Perk",
@@ -27682,7 +27650,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 678
+     "rank": 677
     },
     {
      "name": "ActivTrak",
@@ -27721,7 +27689,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 679
+     "rank": 678
     },
     {
      "name": "Atomicwork",
@@ -27760,7 +27728,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 680
+     "rank": 679
     },
     {
      "name": "Brave",
@@ -27799,7 +27767,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 681
+     "rank": 680
     },
     {
      "name": "Hang",
@@ -27838,7 +27806,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 682
+     "rank": 681
     },
     {
      "name": "Newstore",
@@ -27877,7 +27845,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 683
+     "rank": 682
     },
     {
      "name": "Clever",
@@ -27916,7 +27884,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 684
+     "rank": 683
     },
     {
      "name": "Cloverly",
@@ -27962,7 +27930,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 685
+     "rank": 684
     },
     {
      "name": "Codesignal",
@@ -28001,12 +27969,13 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 686
+     "rank": 685
     },
     {
      "name": "Eligible",
      "slug": "eligible",
      "description": "Eligible provides insurance billing APIs for healthcare businesses, enabling the integration of insurance billing experiences into healthcare applications. The platform supports eligibility verification, coverage discovery, claims submission and tracking, payment estimation, enrollment, and remittance processing across a large network of US payers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/screenshots/eligible-2026-08-17T123412.png",
      "score": 50.4,
      "band": "developing",
      "band_label": "Developing",
@@ -28046,7 +28015,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 687
+     "rank": 686
     },
     {
      "name": "Esper",
@@ -28085,7 +28054,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 688
+     "rank": 687
     },
     {
      "name": "Ostium Labs",
@@ -28131,7 +28100,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 689
+     "rank": 688
     },
     {
      "name": "Restream",
@@ -28170,7 +28139,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 690
+     "rank": 689
     },
     {
      "name": "Riverside",
@@ -28209,7 +28178,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 691
+     "rank": 690
     },
     {
      "name": "Sanas",
@@ -28248,7 +28217,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 692
+     "rank": 691
     },
     {
      "name": "SumUp",
@@ -28294,7 +28263,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 693
+     "rank": 692
     },
     {
      "name": "WorkSpan",
@@ -28333,7 +28302,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 694
+     "rank": 693
     },
     {
      "name": "Xeneta",
@@ -28379,7 +28348,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 695
+     "rank": 694
     },
     {
      "name": "Artera",
@@ -28425,7 +28394,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 696
+     "rank": 695
     },
     {
      "name": "Bolt",
@@ -28471,7 +28440,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 697
+     "rank": 696
     },
     {
      "name": "Finout",
@@ -28510,12 +28479,13 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 698
+     "rank": 697
     },
     {
      "name": "ID.me",
      "slug": "idme",
      "description": "ID.me is a digital identity network that provides NIST 800-63-3 IAL2/AAL2 identity verification, single sign-on, and group affiliation (community) verification for government agencies, healthcare, and commercial partners. For developers, ID.me exposes an OpenID Connect and OAuth 2.0 identity provider (authorization code flow with PKCE, plus SAML 2.0 federation), a REST Services API for telecom and document verification, an Applications API, a Document Passback API, and a Shared Signals Framework (SSF) event stream for fraud and verification signals. Native iOS and Android SDKs, a button widget, conversion tracking, and multi-language sample code round out the developer surface, letting relying parties add strong identity proofing and attribute exchange to any application or IAM platform (Okta, Keycloak, Entra, PingOne, AWS Cognito).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/screenshots/idme-2026-08-17T123853.png",
      "score": 50.3,
      "band": "developing",
      "band_label": "Developing",
@@ -28555,7 +28525,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 699
+     "rank": 698
     },
     {
      "name": "Leap",
@@ -28601,7 +28571,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 700
+     "rank": 699
     },
     {
      "name": "LocoNav",
@@ -28640,7 +28610,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 701
+     "rank": 700
     },
     {
      "name": "Numerai",
@@ -28679,7 +28649,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 702
+     "rank": 701
     },
     {
      "name": "Rippling",
@@ -28718,7 +28688,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 703
+     "rank": 702
     },
     {
      "name": "Slope",
@@ -28764,7 +28734,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 704
+     "rank": 703
     },
     {
      "name": "Synack",
@@ -28803,7 +28773,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 705
+     "rank": 704
     },
     {
      "name": "Button",
@@ -28842,7 +28812,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 706
+     "rank": 705
     },
     {
      "name": "Foursquare",
@@ -28881,7 +28851,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 707
+     "rank": 706
     },
     {
      "name": "Greenspark",
@@ -28920,7 +28890,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 708
+     "rank": 707
     },
     {
      "name": "N8n",
@@ -28959,7 +28929,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 709
+     "rank": 708
     },
     {
      "name": "Sift Science",
@@ -29005,7 +28975,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 710
+     "rank": 709
     },
     {
      "name": "Anrok",
@@ -29044,7 +29014,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 711
+     "rank": 710
     },
     {
      "name": "Campfire",
@@ -29083,7 +29053,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 712
+     "rank": 711
     },
     {
      "name": "Mob.ly",
@@ -29122,7 +29092,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 713
+     "rank": 712
     },
     {
      "name": "Oso Cloud",
@@ -29168,7 +29138,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 714
+     "rank": 713
     },
     {
      "name": "Pigment",
@@ -29207,7 +29177,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 715
+     "rank": 714
     },
     {
      "name": "StockX",
@@ -29246,7 +29216,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 716
+     "rank": 715
     },
     {
      "name": "Bridge",
@@ -29292,7 +29262,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 717
+     "rank": 716
     },
     {
      "name": "Broadlume",
@@ -29331,7 +29301,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 718
+     "rank": 717
     },
     {
      "name": "Datafold",
@@ -29370,7 +29340,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 719
+     "rank": 718
     },
     {
      "name": "Spacelift",
@@ -29409,7 +29379,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 720
+     "rank": 719
     },
     {
      "name": "Aqua Security",
@@ -29448,7 +29418,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 721
+     "rank": 720
     },
     {
      "name": "Certifyos",
@@ -29494,7 +29464,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 722
+     "rank": 721
     },
     {
      "name": "Coalesce",
@@ -29533,7 +29503,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 723
+     "rank": 722
     },
     {
      "name": "Cognism",
@@ -29572,7 +29542,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 724
+     "rank": 723
     },
     {
      "name": "Forum",
@@ -29618,7 +29588,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 725
+     "rank": 724
     },
     {
      "name": "Lithium Technologies",
@@ -29657,7 +29627,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 726
+     "rank": 725
     },
     {
      "name": "Celona",
@@ -29703,7 +29673,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 727
+     "rank": 726
     },
     {
      "name": "Coder",
@@ -29742,7 +29712,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 728
+     "rank": 727
     },
     {
      "name": "Jito Labs",
@@ -29781,7 +29751,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 729
+     "rank": 728
     },
     {
      "name": "P0 Security",
@@ -29820,7 +29790,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 730
+     "rank": 729
     },
     {
      "name": "Procurify",
@@ -29859,7 +29829,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 731
+     "rank": 730
     },
     {
      "name": "AssemblyAI",
@@ -29898,7 +29868,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 732
+     "rank": 731
     },
     {
      "name": "Ensighten",
@@ -29937,7 +29907,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 733
+     "rank": 732
     },
     {
      "name": "Glean",
@@ -29976,7 +29946,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 734
+     "rank": 733
     },
     {
      "name": "Indico Data",
@@ -30022,7 +29992,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 735
+     "rank": 734
     },
     {
      "name": "NinjaOne",
@@ -30061,7 +30031,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 736
+     "rank": 735
     },
     {
      "name": "Revefi",
@@ -30100,7 +30070,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 737
+     "rank": 736
     },
     {
      "name": "Siro",
@@ -30139,7 +30109,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 738
+     "rank": 737
     },
     {
      "name": "Uniswap",
@@ -30185,7 +30155,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 739
+     "rank": 738
     },
     {
      "name": "Ask Sage",
@@ -30231,7 +30201,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 740
+     "rank": 739
     },
     {
      "name": "Spectro Cloud",
@@ -30270,7 +30240,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 741
+     "rank": 740
     },
     {
      "name": "Strava",
@@ -30309,7 +30279,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 742
+     "rank": 741
     },
     {
      "name": "Tines",
@@ -30348,7 +30318,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 743
+     "rank": 742
     },
     {
      "name": "Arcadia",
@@ -30394,7 +30364,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 744
+     "rank": 743
     },
     {
      "name": "Beyond Pricing",
@@ -30433,7 +30403,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 745
+     "rank": 744
     },
     {
      "name": "Carto",
@@ -30472,7 +30442,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 746
+     "rank": 745
     },
     {
      "name": "RingDNA",
@@ -30511,7 +30481,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 747
+     "rank": 746
     },
     {
      "name": "Select Star",
@@ -30550,7 +30520,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 748
+     "rank": 747
     },
     {
      "name": "SWIFT",
@@ -30596,7 +30566,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 749
+     "rank": 748
     },
     {
      "name": "Trunk",
@@ -30635,7 +30605,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 750
+     "rank": 749
     },
     {
      "name": "Ambassador",
@@ -30674,7 +30644,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 751
+     "rank": 750
     },
     {
      "name": "BentoML",
@@ -30713,7 +30683,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 752
+     "rank": 751
     },
     {
      "name": "Caliza",
@@ -30759,7 +30729,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 753
+     "rank": 752
     },
     {
      "name": "Filigran",
@@ -30798,7 +30768,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 754
+     "rank": 753
     },
     {
      "name": "Listen Labs",
@@ -30837,7 +30807,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 755
+     "rank": 754
     },
     {
      "name": "Notarize",
@@ -30876,7 +30846,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 756
+     "rank": 755
     },
     {
      "name": "Session AI",
@@ -30915,7 +30885,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 757
+     "rank": 756
     },
     {
      "name": "Soul Machines",
@@ -30954,7 +30924,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 758
+     "rank": 757
     },
     {
      "name": "Thrive Global",
@@ -31000,7 +30970,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 759
+     "rank": 758
     },
     {
      "name": "VTS",
@@ -31039,7 +31009,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 760
+     "rank": 759
     },
     {
      "name": "WP Engine",
@@ -31078,7 +31048,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 761
+     "rank": 760
     },
     {
      "name": "Charthop",
@@ -31117,13 +31087,13 @@
       "dry_run_mode": true
      },
      "tier": "3 venues",
-     "rank": 762
+     "rank": 761
     },
     {
      "name": "Eon",
      "slug": "eon",
      "description": "Eon is a next-generation cloud backup and data-protection platform that turns cloud backups into live, searchable, strategic assets across AWS, Google Cloud, and Azure. It provides agentless backup, cloud backup posture management, ransomware protection, global search over backups, live and granular file/resource restore, and a zero-ETL data-lake storage tier that makes old snapshots useful for analytics and AI. Eon exposes a REST API (OpenAPI 3.0, 99 operations) covering source/restore accounts, resources, vaults, snapshots, backup policies, restores, jobs, IAM, billing, and multi-party action approvals, with an official Go SDK and Terraform provider. Backed by BOND Capital and Lightspeed Venture Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/screenshots/eon-2026-07-25T213500.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/screenshots/eon-2026-08-17T123419.png",
      "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
@@ -31156,7 +31126,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 763
+     "rank": 762
     },
     {
      "name": "Gigs",
@@ -31202,7 +31172,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 764
+     "rank": 763
     },
     {
      "name": "HashiCorp Nomad",
@@ -31241,7 +31211,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 765
+     "rank": 764
     },
     {
      "name": "Spredfast",
@@ -31280,7 +31250,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 766
+     "rank": 765
     },
     {
      "name": "Collate",
@@ -31319,7 +31289,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 767
+     "rank": 766
     },
     {
      "name": "Couchbase",
@@ -31358,7 +31328,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 768
+     "rank": 767
     },
     {
      "name": "Epidemic Sound",
@@ -31397,7 +31367,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 769
+     "rank": 768
     },
     {
      "name": "Hatch",
@@ -31443,7 +31413,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 770
+     "rank": 769
     },
     {
      "name": "Luxury Presence",
@@ -31482,7 +31452,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 771
+     "rank": 770
     },
     {
      "name": "Schematic",
@@ -31521,7 +31491,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 772
+     "rank": 771
     },
     {
      "name": "Calendly",
@@ -31560,7 +31530,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 773
+     "rank": 772
     },
     {
      "name": "Coro",
@@ -31599,7 +31569,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 774
+     "rank": 773
     },
     {
      "name": "Fairmarkit",
@@ -31638,7 +31608,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 775
+     "rank": 774
     },
     {
      "name": "HappyCo",
@@ -31677,7 +31647,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 776
+     "rank": 775
     },
     {
      "name": "Matik",
@@ -31716,7 +31686,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 777
+     "rank": 776
     },
     {
      "name": "Weka",
@@ -31755,7 +31725,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 778
+     "rank": 777
     },
     {
      "name": "Harness",
@@ -31794,7 +31764,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 779
+     "rank": 778
     },
     {
      "name": "Qargo",
@@ -31833,7 +31803,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 780
+     "rank": 779
     },
     {
      "name": "SeatGeek",
@@ -31872,7 +31842,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 781
+     "rank": 780
     },
     {
      "name": "Teambridge",
@@ -31911,7 +31881,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 782
+     "rank": 781
     },
     {
      "name": "Acquia",
@@ -31950,7 +31920,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 783
+     "rank": 782
     },
     {
      "name": "Axiom",
@@ -31989,7 +31959,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 784
+     "rank": 783
     },
     {
      "name": "DeepSeek",
@@ -32028,7 +31998,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 785
+     "rank": 784
     },
     {
      "name": "Facilio",
@@ -32067,7 +32037,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 786
+     "rank": 785
     },
     {
      "name": "Fidel",
@@ -32113,7 +32083,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 787
+     "rank": 786
     },
     {
      "name": "Mammoth Media",
@@ -32159,7 +32129,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 788
+     "rank": 787
     },
     {
      "name": "Nexthink",
@@ -32198,7 +32168,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 789
+     "rank": 788
     },
     {
      "name": "Productiv",
@@ -32237,7 +32207,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 790
+     "rank": 789
     },
     {
      "name": "Scale AI",
@@ -32276,7 +32246,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 791
+     "rank": 790
     },
     {
      "name": "Sense",
@@ -32322,7 +32292,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 792
+     "rank": 791
     },
     {
      "name": "Vooma",
@@ -32368,7 +32338,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 793
+     "rank": 792
     },
     {
      "name": "Yieldmo",
@@ -32407,7 +32377,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 794
+     "rank": 793
     },
     {
      "name": "August Health",
@@ -32453,7 +32423,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 795
+     "rank": 794
     },
     {
      "name": "Clerk",
@@ -32492,7 +32462,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 796
+     "rank": 795
     },
     {
      "name": "Pleo",
@@ -32538,7 +32508,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 797
+     "rank": 796
     },
     {
      "name": "Prophecy.io",
@@ -32577,7 +32547,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 798
+     "rank": 797
     },
     {
      "name": "Tropic",
@@ -32616,7 +32586,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 799
+     "rank": 798
     },
     {
      "name": "LogicGate",
@@ -32655,7 +32625,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 800
+     "rank": 799
     },
     {
      "name": "Memfault",
@@ -32694,7 +32664,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 801
+     "rank": 800
     },
     {
      "name": "UniUni",
@@ -32733,7 +32703,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 802
+     "rank": 801
     },
     {
      "name": "Blockdaemon",
@@ -32779,7 +32749,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 803
+     "rank": 802
     },
     {
      "name": "Merkle Science",
@@ -32818,7 +32788,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 804
+     "rank": 803
     },
     {
      "name": "Optibus",
@@ -32857,12 +32827,13 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 805
+     "rank": 804
     },
     {
      "name": "Orbit",
      "slug": "orbit",
      "description": "Developer relations and community intelligence platform with a REST API for tracking member activities, measuring community growth, and managing developer advocates and contributors. Orbit was acquired by Postman in April 2024.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/screenshots/orbit-2026-08-17T124255.png",
      "score": 48.6,
      "band": "developing",
      "band_label": "Developing",
@@ -32895,7 +32866,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 806
+     "rank": 805
     },
     {
      "name": "Ordoro",
@@ -32934,7 +32905,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 807
+     "rank": 806
     },
     {
      "name": "Papaya Global",
@@ -32980,7 +32951,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 808
+     "rank": 807
     },
     {
      "name": "Revolut",
@@ -33026,7 +32997,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 809
+     "rank": 808
     },
     {
      "name": "Supabase",
@@ -33065,7 +33036,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 810
+     "rank": 809
     },
     {
      "name": "Tollbit",
@@ -33104,7 +33075,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 811
+     "rank": 810
     },
     {
      "name": "AI21 Labs",
@@ -33143,7 +33114,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 812
+     "rank": 811
     },
     {
      "name": "Firework",
@@ -33182,7 +33153,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 813
+     "rank": 812
     },
     {
      "name": "Lunar Energy",
@@ -33228,7 +33199,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 814
+     "rank": 813
     },
     {
      "name": "Runway",
@@ -33267,7 +33238,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 815
+     "rank": 814
     },
     {
      "name": "Socotra",
@@ -33313,7 +33284,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 816
+     "rank": 815
     },
     {
      "name": "Swap",
@@ -33359,7 +33330,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 817
+     "rank": 816
     },
     {
      "name": "Teya",
@@ -33405,7 +33376,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 818
+     "rank": 817
     },
     {
      "name": "Virtru",
@@ -33444,7 +33415,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 819
+     "rank": 818
     },
     {
      "name": "Wellhub",
@@ -33490,7 +33461,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 820
+     "rank": 819
     },
     {
      "name": "DexCare",
@@ -33536,7 +33507,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 821
+     "rank": 820
     },
     {
      "name": "Formant",
@@ -33575,7 +33546,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 822
+     "rank": 821
     },
     {
      "name": "Gauntlet",
@@ -33614,7 +33585,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 823
+     "rank": 822
     },
     {
      "name": "Lalamove",
@@ -33653,7 +33624,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 824
+     "rank": 823
     },
     {
      "name": "Stellar Cyber",
@@ -33692,12 +33663,13 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 825
+     "rank": 824
     },
     {
      "name": "CoinList",
      "slug": "coinlist",
      "description": "CoinList is a fintech platform for the token economy - it runs compliant token sales, tokenized equities, trading, staking, and wallet services for crypto projects and investors. Its developer surface is Passage (the \"Frontline API\"), a partner API that lets third parties embed CoinList-managed token sales and tokenized equities directly inside their own apps: OAuth 2.0 (PKCE) partner and user authentication, Sumsub KYC token issuance, tax-document signing, offers, eligibility requirements, participations, wallet ownership proof and allow-listing, and on-chain swap/token reads. Passage runs the regulated infrastructure and back office; the partner focuses on the product. Shipped with a React SDK (@coinlist-co/react) of UI components, hooks, and server helpers. Added to the API Evangelist network from the electric-capital and polychain portfolios and enriched from CoinList's public developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/screenshots/coinlist-2026-08-17T123123.png",
      "score": 48.3,
      "band": "developing",
      "band_label": "Developing",
@@ -33737,6 +33709,45 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
+     "rank": 825
+    },
+    {
+     "name": "Arthur AI",
+     "slug": "arthur-ai",
+     "description": "Arthur is an enterprise AI governance and observability platform for discovering, monitoring, evaluating, and governing AI and ML systems in production. The Arthur Platform API (internally \"Arthur Scope\", OpenAPI 3.1) exposes 213 operations across models, tasks, datasets, connectors, metrics, alerts, alert rules, policies, workspaces, projects, agents, and webhooks, secured with OAuth2 via Keycloak. Arthur also ships the open-source Arthur Engine (LLM guardrails plus ML evaluation), the arthur-bench LLM evaluation library, Python client SDKs, and an Agent Toolkit with a Claude Code integration for end-to-end tracing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png",
+     "score": 48.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 59.0,
+      "governance": 11.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 41.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "3 venues",
      "rank": 826
     },
     {
@@ -33775,47 +33786,8 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "3 venues",
-     "rank": 827
-    },
-    {
-     "name": "Arthur AI",
-     "slug": "arthur-ai",
-     "description": "Arthur is an enterprise AI governance and observability platform for discovering, monitoring, evaluating, and governing AI and ML systems in production. The Arthur Platform API (internally \"Arthur Scope\", OpenAPI 3.1) exposes 213 operations across models, tasks, datasets, connectors, metrics, alerts, alert rules, policies, workspaces, projects, agents, and webhooks, secured with OAuth2 via Keycloak. Arthur also ships the open-source Arthur Engine (LLM guardrails plus ML evaluation), the arthur-bench LLM evaluation library, Python client SDKs, and an Agent Toolkit with a Claude Code integration for end-to-end tracing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png",
-     "score": 48.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 59.0,
-      "governance": 11.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-17",
-     "schema_version": "0.11.0",
-     "agent_score": 41.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "tier": "1 venue",
-     "rank": 828
+     "rank": 827
     },
     {
      "name": "BrowserStack",
@@ -33854,7 +33826,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 829
+     "rank": 828
     },
     {
      "name": "Credit Benchmark",
@@ -33893,7 +33865,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 830
+     "rank": 829
     },
     {
      "name": "CyCognito",
@@ -33932,7 +33904,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 831
+     "rank": 830
     },
     {
      "name": "Phenom",
@@ -33971,7 +33943,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 832
+     "rank": 831
     },
     {
      "name": "ProcessMaker",
@@ -34010,7 +33982,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 833
+     "rank": 832
     },
     {
      "name": "Push Security",
@@ -34049,7 +34021,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 834
+     "rank": 833
     },
     {
      "name": "At-Bay",
@@ -34095,7 +34067,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 835
+     "rank": 834
     },
     {
      "name": "Figure",
@@ -34134,7 +34106,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 836
+     "rank": 835
     },
     {
      "name": "Gremlin",
@@ -34173,7 +34145,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 837
+     "rank": 836
     },
     {
      "name": "Inception Labs",
@@ -34212,7 +34184,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 838
+     "rank": 837
     },
     {
      "name": "Keka HR",
@@ -34251,7 +34223,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 839
+     "rank": 838
     },
     {
      "name": "Modern Treasury",
@@ -34297,7 +34269,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 840
+     "rank": 839
     },
     {
      "name": "Tango Card",
@@ -34343,7 +34315,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 841
+     "rank": 840
     },
     {
      "name": "Tetrate",
@@ -34382,7 +34354,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 842
+     "rank": 841
     },
     {
      "name": "Workflowy",
@@ -34421,7 +34393,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 843
+     "rank": 842
     },
     {
      "name": "Bird",
@@ -34467,7 +34439,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 844
+     "rank": 843
     },
     {
      "name": "BitPay",
@@ -34513,7 +34485,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 845
+     "rank": 844
     },
     {
      "name": "Datto",
@@ -34552,7 +34524,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 846
+     "rank": 845
     },
     {
      "name": "Golioth",
@@ -34591,7 +34563,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 847
+     "rank": 846
     },
     {
      "name": "Ostrom",
@@ -34637,7 +34609,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 848
+     "rank": 847
     },
     {
      "name": "Qualio",
@@ -34683,7 +34655,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 849
+     "rank": 848
     },
     {
      "name": "Ritten",
@@ -34729,7 +34701,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 850
+     "rank": 849
     },
     {
      "name": "WeTravel",
@@ -34775,7 +34747,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 851
+     "rank": 850
     },
     {
      "name": "SimScale",
@@ -34814,7 +34786,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 852
+     "rank": 851
     },
     {
      "name": "Arch Labs",
@@ -34853,7 +34825,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 853
+     "rank": 852
     },
     {
      "name": "Citcon",
@@ -34899,7 +34871,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 854
+     "rank": 853
     },
     {
      "name": "Gett",
@@ -34938,7 +34910,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 855
+     "rank": 854
     },
     {
      "name": "Palmetto",
@@ -34984,7 +34956,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 856
+     "rank": 855
     },
     {
      "name": "SpotHero",
@@ -35023,12 +34995,13 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 857
+     "rank": 856
     },
     {
      "name": "Klook",
      "slug": "klook",
      "description": "Klook is a Hong Kong-headquartered travel and experiences booking platform for the \"things to do\" sector — attractions, tours and activities, theme parks, food and beverage, WiFi and SIM cards, and transportation passes. Klook publishes an Open API specification for merchants, suppliers, reservation systems and channel managers who want to distribute their inventory through Klook's website, app and partner channels. The specification is an implementation of OCTO (Open Connectivity for Tours, Activities and Attractions), the open standard for the in-destination experiences industry: the supplier implements the OCTO core endpoints (Supplier, Products, Availability, Bookings) at their own host and Klook consumes them as the reseller, with optional Capabilities negotiated through the Octo-Capabilities header. Klook additionally runs an affiliate program and a merchant portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/screenshots/klook-2026-08-17T123946.png",
      "score": 47.7,
      "band": "developing",
      "band_label": "Developing",
@@ -35061,7 +35034,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 858
+     "rank": 857
     },
     {
      "name": "Metrobi",
@@ -35100,7 +35073,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 859
+     "rank": 858
     },
     {
      "name": "Mirage",
@@ -35139,7 +35112,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 860
+     "rank": 859
     },
     {
      "name": "Posit",
@@ -35178,7 +35151,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 861
+     "rank": 860
     },
     {
      "name": "Innago",
@@ -35224,7 +35197,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 862
+     "rank": 861
     },
     {
      "name": "Loop",
@@ -35270,7 +35243,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 863
+     "rank": 862
     },
     {
      "name": "Ready Player Me",
@@ -35307,7 +35280,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 864
+     "rank": 863
     },
     {
      "name": "commercetools",
@@ -35346,7 +35319,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 865
+     "rank": 864
     },
     {
      "name": "Tradeverifyd",
@@ -35385,7 +35358,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 866
+     "rank": 865
     },
     {
      "name": "Archera",
@@ -35424,7 +35397,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 867
+     "rank": 866
     },
     {
      "name": "DriveWealth",
@@ -35470,7 +35443,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 868
+     "rank": 867
     },
     {
      "name": "GoCardless",
@@ -35516,7 +35489,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 869
+     "rank": 868
     },
     {
      "name": "Nayya",
@@ -35562,7 +35535,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 870
+     "rank": 869
     },
     {
      "name": "Akeyless",
@@ -35601,7 +35574,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 871
+     "rank": 870
     },
     {
      "name": "Ashby",
@@ -35640,7 +35613,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 872
+     "rank": 871
     },
     {
      "name": "InfStones",
@@ -35679,7 +35652,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 873
+     "rank": 872
     },
     {
      "name": "Okendo",
@@ -35718,7 +35691,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 874
+     "rank": 873
     },
     {
      "name": "Recursal AI, Inc.",
@@ -35757,7 +35730,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 875
+     "rank": 874
     },
     {
      "name": "Saviynt",
@@ -35796,7 +35769,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 876
+     "rank": 875
     },
     {
      "name": "Stacks Ai",
@@ -35825,6 +35798,52 @@
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "1 venue",
+     "rank": 876
+    },
+    {
+     "name": "Verdigris Technologies",
+     "slug": "verdigris-technologies",
+     "description": "Verdigris Technologies builds AI-powered building energy intelligence, pairing proprietary current-sensor hardware clamped onto a building's electrical panels with cloud software that monitors every circuit in real time. The Verdigris API exposes that telemetry through OAuth2-secured REST endpoints (the Data API v4): energy, power, voltage, current, power factor, total harmonic distortion, weather, energy forecasts, building controls, and high-resolution Pro Capture waveforms, all queryable at building, panel, circuit, and breaker granularity with batch variants for pulling many entities in a single request. Developers use it to power enterprise data lakes, internal power-monitoring dashboards, and sustainability and energy-optimization applications for smart buildings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/screenshots/verdigris-technologies-2026-08-17T082727.png",
+     "score": 47.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 59.7,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 58.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
       "event_surface_described": false,
@@ -35884,52 +35903,6 @@
      "rank": 878
     },
     {
-     "name": "Verdigris Technologies",
-     "slug": "verdigris-technologies",
-     "description": "Verdigris Technologies builds AI-powered building energy intelligence, pairing proprietary current-sensor hardware clamped onto a building's electrical panels with cloud software that monitors every circuit in real time. The Verdigris API exposes that telemetry through OAuth2-secured REST endpoints (the Data API v4): energy, power, voltage, current, power factor, total harmonic distortion, weather, energy forecasts, building controls, and high-resolution Pro Capture waveforms, all queryable at building, panel, circuit, and breaker granularity with batch variants for pulling many entities in a single request. Developers use it to power enterprise data lakes, internal power-monitoring dashboards, and sustainability and energy-optimization applications for smart buildings.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/screenshots/verdigris-technologies-2026-08-17T082727.png",
-     "score": 47.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 59.7,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-17",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 58.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "1 venue",
-     "rank": 879
-    },
-    {
      "name": "Carry1st",
      "slug": "carry1st",
      "description": "Carry1st is Africa's leading mobile games publisher and digital commerce platform, headquartered in South Africa and operating across high-growth African markets including Nigeria, South Africa, Kenya, Ghana, Egypt, and Morocco. Beyond publishing and distributing mobile games from partners such as Riot Games, Activision, and Supercell, Carry1st operates Pay1st, a payment gateway that lets digital-content and game developers accept payments through 120+ local payment methods across six African geographies. Pay1st offers a single unified API, acts as Merchant of Record (handling compliance, taxation, FX, and risk so businesses collect in USD), and supports hosted-payment, game-client, and Carry1st Shop marketplace integration styles. Carry1st is backed by a16z. This profile was enriched by the API Evangelist pipeline from the public Pay1st developer documentation.",
@@ -35973,7 +35946,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 880
+     "rank": 879
     },
     {
      "name": "Edvisor.io",
@@ -36012,7 +35985,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 881
+     "rank": 880
     },
     {
      "name": "Epic Games",
@@ -36051,7 +36024,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 882
+     "rank": 881
     },
     {
      "name": "Light",
@@ -36097,7 +36070,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 883
+     "rank": 882
     },
     {
      "name": "PDFfiller",
@@ -36136,7 +36109,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 884
+     "rank": 883
     },
     {
      "name": "Qover",
@@ -36182,7 +36155,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 885
+     "rank": 884
     },
     {
      "name": "Razorpay",
@@ -36228,7 +36201,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 886
+     "rank": 885
     },
     {
      "name": "Logiless",
@@ -36267,7 +36240,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 887
+     "rank": 886
     },
     {
      "name": "Mode",
@@ -36306,7 +36279,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 888
+     "rank": 887
     },
     {
      "name": "Cashfree Payments",
@@ -36352,7 +36325,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 889
+     "rank": 888
     },
     {
      "name": "Celigo",
@@ -36391,7 +36364,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 890
+     "rank": 889
     },
     {
      "name": "Linktree",
@@ -36430,7 +36403,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 891
+     "rank": 890
     },
     {
      "name": "Sarvam AI",
@@ -36469,7 +36442,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 892
+     "rank": 891
     },
     {
      "name": "SpotOn",
@@ -36515,7 +36488,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 893
+     "rank": 892
     },
     {
      "name": "Swimlane",
@@ -36554,7 +36527,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 894
+     "rank": 893
     },
     {
      "name": "Tidelift",
@@ -36593,7 +36566,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 895
+     "rank": 894
     },
     {
      "name": "Dragos",
@@ -36632,7 +36605,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 896
+     "rank": 895
     },
     {
      "name": "Incognia",
@@ -36671,7 +36644,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 897
+     "rank": 896
     },
     {
      "name": "Injective",
@@ -36717,7 +36690,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 898
+     "rank": 897
     },
     {
      "name": "Palla",
@@ -36763,7 +36736,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 899
+     "rank": 898
     },
     {
      "name": "Yokoy",
@@ -36809,7 +36782,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 900
+     "rank": 899
     },
     {
      "name": "Middesk",
@@ -36848,7 +36821,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 901
+     "rank": 900
     },
     {
      "name": "Stacker",
@@ -36887,7 +36860,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 902
+     "rank": 901
     },
     {
      "name": "Tavus",
@@ -36926,7 +36899,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 903
+     "rank": 902
     },
     {
      "name": "TreasurySpring",
@@ -36972,7 +36945,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 904
+     "rank": 903
     },
     {
      "name": "Vendr",
@@ -37011,7 +36984,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 905
+     "rank": 904
     },
     {
      "name": "Verato",
@@ -37057,7 +37030,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 906
+     "rank": 905
     },
     {
      "name": "Kajabi",
@@ -37103,7 +37076,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 907
+     "rank": 906
     },
     {
      "name": "Rancher",
@@ -37142,7 +37115,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 908
+     "rank": 907
     },
     {
      "name": "Spotnana",
@@ -37188,7 +37161,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 909
+     "rank": 908
     },
     {
      "name": "TeamOhana",
@@ -37227,7 +37200,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 910
+     "rank": 909
     },
     {
      "name": "Arbitrum",
@@ -37266,7 +37239,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 911
+     "rank": 910
     },
     {
      "name": "Confident Cannabis",
@@ -37312,7 +37285,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 912
+     "rank": 911
     },
     {
      "name": "Egnyte",
@@ -37351,7 +37324,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 913
+     "rank": 912
     },
     {
      "name": "Extend",
@@ -37397,7 +37370,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 914
+     "rank": 913
     },
     {
      "name": "Kestra",
@@ -37436,7 +37409,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 915
+     "rank": 914
     },
     {
      "name": "Saildrone",
@@ -37475,7 +37448,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 916
+     "rank": 915
     },
     {
      "name": "SMS Assist",
@@ -37514,7 +37487,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 917
+     "rank": 916
     },
     {
      "name": "Wallarm",
@@ -37553,7 +37526,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 918
+     "rank": 917
     },
     {
      "name": "Chargetrip",
@@ -37592,7 +37565,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 919
+     "rank": 918
     },
     {
      "name": "LendKey",
@@ -37638,7 +37611,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 920
+     "rank": 919
     },
     {
      "name": "Patsnap",
@@ -37684,7 +37657,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 921
+     "rank": 920
     },
     {
      "name": "Vox Media",
@@ -37723,7 +37696,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 922
+     "rank": 921
     },
     {
      "name": "Kamino",
@@ -37762,7 +37735,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 923
+     "rank": 922
     },
     {
      "name": "Nagios",
@@ -37801,7 +37774,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 924
+     "rank": 923
     },
     {
      "name": "Camb.AI",
@@ -37840,7 +37813,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 925
+     "rank": 924
     },
     {
      "name": "Emburse",
@@ -37886,7 +37859,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 926
+     "rank": 925
     },
     {
      "name": "Fulcrumpro",
@@ -37925,7 +37898,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 927
+     "rank": 926
     },
     {
      "name": "Nscale",
@@ -37964,7 +37937,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 928
+     "rank": 927
     },
     {
      "name": "Orum",
@@ -38010,7 +37983,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 929
+     "rank": 928
     },
     {
      "name": "Traversal",
@@ -38049,7 +38022,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 930
+     "rank": 929
     },
     {
      "name": "Contentful",
@@ -38088,7 +38061,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 931
+     "rank": 930
     },
     {
      "name": "Coram Ai",
@@ -38127,7 +38100,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 932
+     "rank": 931
     },
     {
      "name": "Mysten Labs",
@@ -38166,7 +38139,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 933
+     "rank": 932
     },
     {
      "name": "Mysten Labs",
@@ -38205,7 +38178,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 934
+     "rank": 933
     },
     {
      "name": "Resistant AI",
@@ -38244,7 +38217,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 935
+     "rank": 934
     },
     {
      "name": "TaxBit",
@@ -38283,7 +38256,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 936
+     "rank": 935
     },
     {
      "name": "Clever Care Health Plan",
@@ -38329,7 +38302,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 937
+     "rank": 936
     },
     {
      "name": "Databook",
@@ -38368,7 +38341,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 938
+     "rank": 937
     },
     {
      "name": "Heap",
@@ -38407,7 +38380,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 939
+     "rank": 938
     },
     {
      "name": "HeyGen",
@@ -38446,7 +38419,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 940
+     "rank": 939
     },
     {
      "name": "Sfox",
@@ -38492,7 +38465,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 941
+     "rank": 940
     },
     {
      "name": "Solaris",
@@ -38538,7 +38511,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 942
+     "rank": 941
     },
     {
      "name": "Sinai Technologies",
@@ -38577,7 +38550,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 943
+     "rank": 942
     },
     {
      "name": "Thatch",
@@ -38623,7 +38596,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 944
+     "rank": 943
     },
     {
      "name": "UKG",
@@ -38662,7 +38635,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 945
+     "rank": 944
     },
     {
      "name": "Agora",
@@ -38708,7 +38681,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 946
+     "rank": 945
     },
     {
      "name": "Boostup",
@@ -38747,7 +38720,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 947
+     "rank": 946
     },
     {
      "name": "Clio",
@@ -38786,7 +38759,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 948
+     "rank": 947
     },
     {
      "name": "Kumospace",
@@ -38825,7 +38798,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 949
+     "rank": 948
     },
     {
      "name": "Mesa",
@@ -38871,7 +38844,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 950
+     "rank": 949
     },
     {
      "name": "Contextual AI",
@@ -38910,7 +38883,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 951
+     "rank": 950
     },
     {
      "name": "Contextual AI",
@@ -38949,7 +38922,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 952
+     "rank": 951
     },
     {
      "name": "Divvy",
@@ -38995,7 +38968,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 953
+     "rank": 952
     },
     {
      "name": "Tezos",
@@ -39034,7 +39007,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 954
+     "rank": 953
     },
     {
      "name": "Acceldata",
@@ -39073,7 +39046,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 955
+     "rank": 954
     },
     {
      "name": "Forward Networks",
@@ -39112,7 +39085,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 956
+     "rank": 955
     },
     {
      "name": "Smartcar",
@@ -39151,7 +39124,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 957
+     "rank": 956
     },
     {
      "name": "Adaptive Security",
@@ -39190,7 +39163,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 958
+     "rank": 957
     },
     {
      "name": "Capchase",
@@ -39236,7 +39209,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 959
+     "rank": 958
     },
     {
      "name": "Infisical",
@@ -39275,7 +39248,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 960
+     "rank": 959
     },
     {
      "name": "Shapeshift",
@@ -39321,7 +39294,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 961
+     "rank": 960
     },
     {
      "name": "Arize AI",
@@ -39360,7 +39333,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 962
+     "rank": 961
     },
     {
      "name": "Arize AI",
@@ -39399,7 +39372,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 963
+     "rank": 962
     },
     {
      "name": "Macrometa",
@@ -39438,7 +39411,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 964
+     "rank": 963
     },
     {
      "name": "PayJoy",
@@ -39484,7 +39457,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 965
+     "rank": 964
     },
     {
      "name": "Persona",
@@ -39523,7 +39496,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 966
+     "rank": 965
     },
     {
      "name": "Rasa",
@@ -39562,7 +39535,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 967
+     "rank": 966
     },
     {
      "name": "Sahara AI",
@@ -39601,7 +39574,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 968
+     "rank": 967
     },
     {
      "name": "SPIRE",
@@ -39640,7 +39613,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 969
+     "rank": 968
     },
     {
      "name": "Elementum",
@@ -39679,7 +39652,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 970
+     "rank": 969
     },
     {
      "name": "Fonoa",
@@ -39718,7 +39691,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 971
+     "rank": 970
     },
     {
      "name": "M0",
@@ -39764,7 +39737,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 972
+     "rank": 971
     },
     {
      "name": "Prefect",
@@ -39803,7 +39776,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 973
+     "rank": 972
     },
     {
      "name": "Ravelin",
@@ -39849,7 +39822,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 974
+     "rank": 973
     },
     {
      "name": "Rhizome Ai",
@@ -39895,7 +39868,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 975
+     "rank": 974
     },
     {
      "name": "zopa",
@@ -39941,7 +39914,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 976
+     "rank": 975
     },
     {
      "name": "Aleo",
@@ -39980,7 +39953,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 977
+     "rank": 976
     },
     {
      "name": "Argo",
@@ -40019,7 +39992,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 978
+     "rank": 977
     },
     {
      "name": "Momento",
@@ -40058,7 +40031,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 979
+     "rank": 978
     },
     {
      "name": "Slice",
@@ -40097,7 +40070,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 980
+     "rank": 979
     },
     {
      "name": "Capella Space",
@@ -40136,7 +40109,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 981
+     "rank": 980
     },
     {
      "name": "CoroNet",
@@ -40175,7 +40148,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 982
+     "rank": 981
     },
     {
      "name": "Kareo",
@@ -40221,7 +40194,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 983
+     "rank": 982
     },
     {
      "name": "Thriva",
@@ -40267,7 +40240,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 984
+     "rank": 983
     },
     {
      "name": "Astra",
@@ -40313,7 +40286,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 985
+     "rank": 984
     },
     {
      "name": "Billie",
@@ -40359,7 +40332,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 986
+     "rank": 985
     },
     {
      "name": "Daytona",
@@ -40398,7 +40371,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 987
+     "rank": 986
     },
     {
      "name": "HOVER",
@@ -40444,7 +40417,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 988
+     "rank": 987
     },
     {
      "name": "Lever",
@@ -40483,7 +40456,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 989
+     "rank": 988
     },
     {
      "name": "Sublime Security",
@@ -40522,7 +40495,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 990
+     "rank": 989
     },
     {
      "name": "Trellis Research",
@@ -40561,7 +40534,7 @@
       "dry_run_mode": false
      },
      "tier": "2 venues",
-     "rank": 991
+     "rank": 990
     },
     {
      "name": "TwelveLabs",
@@ -40600,7 +40573,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 992
+     "rank": 991
     },
     {
      "name": "Butlr Technologies",
@@ -40639,7 +40612,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 993
+     "rank": 992
     },
     {
      "name": "Chartbeat",
@@ -40678,7 +40651,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 994
+     "rank": 993
     },
     {
      "name": "Density",
@@ -40717,7 +40690,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 995
+     "rank": 994
     },
     {
      "name": "Devoted Health",
@@ -40763,7 +40736,7 @@
       "dry_run_mode": false
      },
      "tier": "5 venues",
-     "rank": 996
+     "rank": 995
     },
     {
      "name": "Eagle Eye Networks",
@@ -40802,7 +40775,7 @@
       "dry_run_mode": false
      },
      "tier": "3 venues",
-     "rank": 997
+     "rank": 996
     },
     {
      "name": "Fermat",
@@ -40841,7 +40814,7 @@
       "dry_run_mode": false
      },
      "tier": "1 venue",
-     "rank": 998
+     "rank": 997
     },
     {
      "name": "InMobi",
@@ -40880,7 +40853,7 @@
       "dry_run_mode": false
      },
      "tier": "4 venues",
-     "rank": 999
+     "rank": 998
     },
     {
      "name": "Nymcard",
@@ -40920,6 +40893,45 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "1 venue",
+     "rank": 999
+    },
+    {
+     "name": "Prometheus",
+     "slug": "prometheus",
+     "description": "An open-source systems monitoring and alerting toolkit originally built at SoundCloud. Prometheus collects and stores metrics as time series data and provides a powerful query language (PromQL) for analysis.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/screenshots/prometheus-2026-06-20T192155.png",
+     "score": 45.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 71.8,
+      "governance": 38.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 45.7,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 45.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,

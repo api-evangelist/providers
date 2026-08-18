@@ -1,6 +1,6 @@
 {
- "total": 22,
- "shown": 22,
+ "total": 23,
+ "shown": 23,
  "limit": 1000,
  "bands": [
   {
@@ -105,6 +105,7 @@
      "name": "University College Dublin",
      "slug": "ucd",
      "description": "University College Dublin (UCD) is Ireland's largest university and ranks #126 in the QS World University Rankings 2025. Its public, machine-readable footprint is concentrated in library and cultural-heritage systems rather than a central developer portal: the UCD Digital Library exposes IIIF Image and Presentation APIs plus a Geospatial Data API and unAPI endpoint, the DSpace-based Research Repository UCD offers OAI-PMH harvesting and a REST API, and the National Folklore Collection held at UCD is served via the Dúchas API. There is no unified, self-service institutional API program; most administrative and identity systems are gated behind institutional affiliation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/screenshots/ucd-2026-08-17T130228.png",
      "score": 42.7,
      "band": "developing",
      "band_label": "Developing",
@@ -137,6 +138,62 @@
       "dry_run_mode": false
      },
      "rank": 3
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "AMCS Group",
+     "slug": "amcs-group",
+     "description": "AMCS Group is an enterprise cloud software provider for the waste, recycling, resource and transport industries, headquartered in Ireland and backed by Insight Partners. Its flagship AMCS Platform exposes a REST API spanning Core, ERP Platform, Pay, Scale, TLV and Vision AI services, covering directory, accounting, transport, fleet, municipal and weighbridge operations. The API authenticates with a Personal Access Token exchanged for a session cookie, ships Swagger documentation, a hosted sandbox, a Node.js reference client, a Terraform provider, and an API Accelerator Program with pre-coded, MIT-licensed integration templates covering most of a typical integration project.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png",
+     "score": 39.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 40.9,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 4
     }
    ],
    "open": true
@@ -192,7 +249,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Ceartas",
@@ -230,7 +287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Open GI",
@@ -275,7 +332,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Trinity College Dublin",
@@ -313,7 +370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Offr",
@@ -351,7 +408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "data.gov.ie",
@@ -396,10 +453,9 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "minimal",
@@ -452,7 +508,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Companies Registration Office Open Data",
@@ -497,7 +553,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Irish Agriculture Open Data",
@@ -542,7 +598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Irish Housing Open Data",
@@ -587,7 +643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Kildare County Council Open Data",
@@ -632,7 +688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Limerick Open Data Catalogue",
@@ -677,7 +733,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "NBCO Open Data",
@@ -722,7 +778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "NCSE Open Data",
@@ -767,7 +823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Teagasc Open Data",
@@ -812,7 +868,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Tusla Child & Family Agency Open Data",
@@ -857,7 +913,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Cork City Open Data",
@@ -902,7 +958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "SmartDublin Open Data",
@@ -947,7 +1003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Genomics Medicine Ireland",
@@ -991,7 +1047,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     }
    ]
   }

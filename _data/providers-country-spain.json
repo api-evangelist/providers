@@ -1,6 +1,6 @@
 {
- "total": 32,
- "shown": 32,
+ "total": 34,
+ "shown": 34,
  "limit": 1000,
  "bands": [
   {
@@ -199,8 +199,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Koalaboox",
@@ -279,6 +279,44 @@
      "rank": 6
     },
     {
+     "name": "Factorial",
+     "slug": "factorial",
+     "description": "Factorial is a Spain-headquartered HRIS and human resources platform offering employee management, time tracking, attendance, time off, payroll, performance, recruitment, documents, and expenses for small and mid-sized businesses. The Factorial Developer API provides versioned REST endpoints (dated like 2026-04-01) for integrating with employees, leaves, contracts, attendance shifts, and other HR resources, with API key and OAuth 2.0 authentication and both production and demo environments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/factorial/refs/heads/main/screenshots/factorial-2026-06-20T181037.png",
+     "score": 30.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 57.4,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
+     "agent_score": 27.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
+    },
+    {
      "name": "BBVA",
      "slug": "bbva",
      "description": "BBVA is a multinational Spanish financial services group operating in over 30 countries. The BBVA API Market provides a comprehensive catalog of banking APIs covering accounts, payments, collections, financing, identity, and open data across Spain, Mexico, Latin America, and other global markets. BBVA is a recognized open banking leader offering PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.",
@@ -321,7 +359,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     }
    ]
   },
@@ -330,8 +368,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 18,
-   "shown": 18,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Novicap",
@@ -369,7 +407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Universitat Pompeu Fabra",
@@ -414,7 +452,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "University of Barcelona",
@@ -458,7 +496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Lingokids",
@@ -496,7 +534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Autonomous University of Madrid",
@@ -534,7 +572,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
+    },
+    {
+     "name": "IDOVEN",
+     "slug": "idoven",
+     "description": "Idoven builds artificial-intelligence solutions for cardiovascular care. Its flagship platform, Willem, is a CE-marked Class IIa medical device that analyzes electrocardiograms (ECGs) to detect, diagnose, and monitor cardiac disease, identifying 22 cardiac patterns and 4 intervals across ambulatory devices, diagnostic ECGs, and insertable cardiac monitors. Idoven serves MedTech companies, Life Sciences (cardiotoxicity monitoring and disease-risk scoring for pharma trials), and preventative remote-screening programs. The Willem API supports bi-directional data exchange in EDF, HL7, DICOM, JSON, XML, and PDF. The company is headquartered in Spain, holds an extensive ISO and IEC certification program, and is backed by Insight Partners and Northzone. Sector: healthcare / cardiology AI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/idoven/refs/heads/main/screenshots/idoven-2026-07-25T222035.png",
+     "score": 20.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 30.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
     },
     {
      "name": "Complutense University of Madrid",
@@ -579,7 +662,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 15
     },
     {
      "name": "Casavo",
@@ -616,7 +699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "University of Navarra",
@@ -654,7 +737,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 17
     },
     {
      "name": "Autonomous University of Barcelona",
@@ -692,7 +775,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "Aragón Open Data",
@@ -737,7 +820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "Bienvenido a OpenData UGR",
@@ -782,7 +865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "Datos abiertos",
@@ -827,7 +910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Madrid Region Open Data",
@@ -872,7 +955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Portal Datos Abiertos Ayuntamiento de Málaga",
@@ -917,7 +1000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Portal oficial Ayuntamiento de Rivas Vaciamadrid",
@@ -962,7 +1045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Magnific",
@@ -1000,7 +1083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "Goin",
@@ -1045,7 +1128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "Ontruck",
@@ -1083,7 +1166,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 27
     }
    ]
   },
@@ -1131,7 +1214,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "UPM YODA Open Data Portal",
@@ -1176,7 +1259,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "Groupalia",
@@ -1221,7 +1304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "Masmovil",
@@ -1266,7 +1349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "Blink Booking",
@@ -1304,7 +1387,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "Circular",
@@ -1341,7 +1424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 33
     }
    ]
   },
@@ -1357,7 +1440,7 @@
      "name": "Clevergy",
      "slug": "clevergy",
      "description": "Clevergy (The Clevergy Solution, SL) is a Madrid-based climate-tech SaaS company, founded in 2022, that sells white-label energy-management software to electricity and gas retailers, solar installers and energy advisors. Its platform ingests household consumption data — pulled directly from Spanish distributors and the Datadis smart-meter hub via the CUPS supply-point code, or from connected solar inverters and smart devices — and turns it into consumption analytics, invoice breakdowns, savings recommendations, appliance-level disaggregation, virtual battery and wallet balances, energy-community shares, and sales leads the retailer can act on. Integrators consume it two ways: the Connect API, a Swagger 2.0 REST API on connect.clever.gy with 83 operations spanning users, houses, contracts, invoices, tariffs, equipment, energy telemetry, tickets and sales opportunities; and a catalog of roughly thirty embeddable \"microfrontend\" web components that drop Clevergy's end-user experiences straight into the retailer's own app or webview, authenticated with a short-lived per-user JWT. Clevergy raised a €3.2M round in October 2025 co-led by Racine² (Serena and Makesense) and Axon Partners Group, with Satgana, Wayra and Angels participating.",
-     "rank": 32
+     "rank": 34
     }
    ]
   }

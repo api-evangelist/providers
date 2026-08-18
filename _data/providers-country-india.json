@@ -1,6 +1,6 @@
 {
- "total": 320,
- "shown": 320,
+ "total": 329,
+ "shown": 329,
  "limit": 1000,
  "bands": [
   {
@@ -1903,8 +1903,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 64,
-   "shown": 64,
+   "count": 67,
+   "shown": 67,
    "providers": [
     {
      "name": "Indian Institute of Technology Bombay",
@@ -2931,6 +2931,81 @@
      "rank": 69
     },
     {
+     "name": "Cuemath",
+     "slug": "cuemath",
+     "description": "Cuemath is an India-headquartered education technology company founded in 2013 by Manan Khurma that delivers live, one-to-one online math tutoring to students in grades K through 12 across more than 80 countries. Its MathFit framework and LEAP learning platform pair certified tutors with an interactive, gamified curriculum aligned to US Common Core standards, spanning arithmetic, algebra, geometry, pre-calculus, AP calculus and standardized test preparation. Cuemath sells directly to families as a subscription tutoring product; it operates a consumer web and mobile application rather than a developer platform, and publishes no public API, SDK or developer portal.",
+     "score": 17.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 6.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 70
+    },
+    {
+     "name": "Innovist",
+     "slug": "innovist",
+     "description": "Innovist is an Accel-backed, science-backed direct-to-consumer personal care house based in India, building and operating a portfolio of skincare, haircare and suncare brands including Chemist At Play, Bare Anatomy and Sunscoop. It sells direct to consumers through a Shopify-powered online store at innovist.com, offering free delivery and category-wide discounts across skin, hair and sun care. While Innovist does not publish a traditional developer API program, its storefront natively implements agent-facing commerce surfaces: a customer-account OpenID Connect identity layer, a published llms.txt / agents.md for AI shopping assistants, and a Universal Commerce Protocol (UCP) MCP endpoint that lets approved agents search the catalog, build carts and complete buyer-approved checkouts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/innovist/refs/heads/main/screenshots/innovist-2026-08-07T170712.png",
+     "score": 17.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 71
+    },
+    {
      "name": "Cult.fit",
      "slug": "cultfit",
      "description": "Cult.fit (Curefit / cure.fit, operated by Diverse Retails Private Limited) is an Indian health and fitness company offering a connected consumer experience across group fitness classes, gyms, at-home workouts, mental well-being and meditation, healthy food, and diagnostics. Its flagship products include CultPass gym and class memberships, sport and fitness centers, live and on-demand digital workouts, and the cult.fit and cure.fit mobile and web apps. Backed by Accel and other investors, the company operates a large consumer platform but does not publish a public developer API program; this API Evangelist profile captures its company identity, corporate web properties, and engineering surface (the curefit GitHub organization and engineering blog).",
@@ -2973,7 +3048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 72
     },
     {
      "name": "Jify",
@@ -3018,7 +3093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 73
     },
     {
      "name": "BestDoc",
@@ -3063,7 +3138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 74
     },
     {
      "name": "Indifi",
@@ -3101,7 +3176,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "Innoviti",
@@ -3146,7 +3221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Leap To Win Technologies Private",
@@ -3191,7 +3266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "Dezerv",
@@ -3228,7 +3303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "KreditBee",
@@ -3265,7 +3340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "EchoLeads",
@@ -3302,7 +3377,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 80
     },
     {
      "name": "Perfios",
@@ -3346,7 +3421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 81
     },
     {
      "name": "Uni",
@@ -3390,7 +3465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 82
     },
     {
      "name": "QwikCilver",
@@ -3434,7 +3509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 83
     },
     {
      "name": "Yubi",
@@ -3471,7 +3546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 84
     },
     {
      "name": "Duroflexworld",
@@ -3509,7 +3584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 85
     },
     {
      "name": "Scripbox",
@@ -3546,7 +3621,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "Games24x7",
@@ -3583,7 +3658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 87
     },
     {
      "name": "Motilal Oswal",
@@ -3628,7 +3703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "Sahi",
@@ -3672,7 +3747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "Game Theory",
@@ -3710,7 +3785,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 90
+    },
+    {
+     "name": "Cogoport",
+     "slug": "cogoport",
+     "description": "Cogoport is a global logistics and supply chain platform offering freight booking, customs, trade finance, and supply chain visibility for businesses across ocean, air, and inland transport. It provides ocean (FCL and LCL) and air freight booking with real-time rate discovery, customs clearance and compliance support, trade finance including invoice financing and pay-later solutions, end-to-end shipment tracking, and logistics tools such as an HS Code Finder, container trackers, and shipping cost calculators. Cogoport is backed by Accel and headquartered in India, serving importers and exporters worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cogoport/refs/heads/main/screenshots/cogoport-2026-07-25T210019.png",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 91
     },
     {
      "name": "Deep Rooted",
@@ -3748,7 +3861,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 92
     },
     {
      "name": "Nova Benefits",
@@ -3793,7 +3906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 93
     },
     {
      "name": "Knight Fintech",
@@ -3838,7 +3951,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 94
     },
     {
      "name": "NoBroker",
@@ -3876,7 +3989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 95
     },
     {
      "name": "Onecard",
@@ -3921,7 +4034,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 96
     },
     {
      "name": "GirnarSoft",
@@ -3959,7 +4072,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 97
     },
     {
      "name": "Pharmeasy",
@@ -4003,7 +4116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 98
     },
     {
      "name": "Truemeds",
@@ -4047,7 +4160,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 99
     },
     {
      "name": "Ferra",
@@ -4092,7 +4205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 100
     },
     {
      "name": "PB Health",
@@ -4137,7 +4250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 101
     },
     {
      "name": "Refyne",
@@ -4174,7 +4287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 102
     },
     {
      "name": "Drivio",
@@ -4212,7 +4325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 103
     },
     {
      "name": "APAC Financial Services",
@@ -4250,7 +4363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 104
     },
     {
      "name": "Slice",
@@ -4295,7 +4408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 105
     },
     {
      "name": "Jiraaf",
@@ -4333,7 +4446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 106
     },
     {
      "name": "Oxyzo",
@@ -4371,7 +4484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 107
     },
     {
      "name": "Thyrocare",
@@ -4415,7 +4528,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 108
     },
     {
      "name": "Udaan",
@@ -4452,7 +4565,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 109
     },
     {
      "name": "Vridhi Home Finance",
@@ -4489,7 +4602,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 110
     },
     {
      "name": "Apna",
@@ -4526,7 +4639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 111
     }
    ]
   },
@@ -4535,8 +4648,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 210,
-   "shown": 210,
+   "count": 216,
+   "shown": 216,
    "providers": [
     {
      "name": "Vastu Housing Finance Corporation",
@@ -4573,7 +4686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 112
     },
     {
      "name": "axiTrust",
@@ -4618,7 +4731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 113
     },
     {
      "name": "Zopper",
@@ -4662,7 +4775,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 114
     },
     {
      "name": "Cars24",
@@ -4699,7 +4812,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 115
     },
     {
      "name": "DeHaat",
@@ -4737,7 +4850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 116
     },
     {
      "name": "Fi Money",
@@ -4782,7 +4895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 117
     },
     {
      "name": "Ummeed Housing Finance",
@@ -4819,7 +4932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 118
     },
     {
      "name": "Battery Smart",
@@ -4864,7 +4977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 119
     },
     {
      "name": "Aspora",
@@ -4909,7 +5022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 120
     },
     {
      "name": "Fundly",
@@ -4954,7 +5067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 121
     },
     {
      "name": "Onco.com",
@@ -4999,7 +5112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 122
     },
     {
      "name": "Pluro",
@@ -5043,7 +5156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 123
     },
     {
      "name": "Upswing",
@@ -5087,7 +5200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 124
     },
     {
      "name": "BharatPe",
@@ -5132,7 +5245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 125
     },
     {
      "name": "Coverfox",
@@ -5176,7 +5289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 126
     },
     {
      "name": "Edme Insurance Brokers",
@@ -5221,7 +5334,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 127
     },
     {
      "name": "Khatabook",
@@ -5266,7 +5379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 128
     },
     {
      "name": "Policybazaar",
@@ -5310,7 +5423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 129
     },
     {
      "name": "Shriram Finance",
@@ -5354,7 +5467,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 130
     },
     {
      "name": "Clinikk",
@@ -5399,7 +5512,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 131
     },
     {
      "name": "Jupiter Money",
@@ -5444,7 +5557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 132
     },
     {
      "name": "TechProcess Payment Services",
@@ -5488,7 +5601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 133
     },
     {
      "name": "Vedantu",
@@ -5525,7 +5638,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 134
     },
     {
      "name": "Bolt.Earth",
@@ -5570,7 +5683,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 135
     },
     {
      "name": "FT Cash",
@@ -5615,7 +5728,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 136
     },
     {
      "name": "Stellapps",
@@ -5652,7 +5765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 137
     },
     {
      "name": "Jain Irrigation Systems Ltd",
@@ -5697,7 +5810,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 138
     },
     {
      "name": "Onsitego",
@@ -5742,7 +5855,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 139
     },
     {
      "name": "MediBuddy (fka DocsApp)",
@@ -5787,7 +5900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 140
     },
     {
      "name": "Sukino",
@@ -5831,7 +5944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 141
     },
     {
      "name": "BRND.ME",
@@ -5876,7 +5989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 142
     },
     {
      "name": "Pratilipi",
@@ -5913,7 +6026,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 143
     },
     {
      "name": "Tejas Networks India",
@@ -5957,7 +6070,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 144
     },
     {
      "name": "Unacademy",
@@ -5994,7 +6107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 145
     },
     {
      "name": "FirstCry",
@@ -6031,7 +6144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 146
     },
     {
      "name": "Loop Health",
@@ -6076,7 +6189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 147
     },
     {
      "name": "Aramya",
@@ -6114,7 +6227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 148
     },
     {
      "name": "Euler Motors",
@@ -6151,7 +6264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 149
     },
     {
      "name": "FreshToHome",
@@ -6188,7 +6301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 150
     },
     {
      "name": "HomeLane",
@@ -6226,7 +6339,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 151
     },
     {
      "name": "LVX (formerly LetsVenture)",
@@ -6264,7 +6377,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 152
     },
     {
      "name": "Spinny",
@@ -6301,7 +6414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 153
     },
     {
      "name": "Stanza Living",
@@ -6338,7 +6451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 154
     },
     {
      "name": "Vaya",
@@ -6375,7 +6488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 155
     },
     {
      "name": "Dream11",
@@ -6413,7 +6526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 156
     },
     {
      "name": "Rentomojo",
@@ -6450,7 +6563,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 157
     },
     {
      "name": "High Mark Credit Information Services",
@@ -6488,7 +6601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 158
     },
     {
      "name": "Jar",
@@ -6526,7 +6639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 159
     },
     {
      "name": "Venwiz",
@@ -6563,7 +6676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 160
     },
     {
      "name": "Book My Show",
@@ -6601,7 +6714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 161
     },
     {
      "name": "Physics Wallah",
@@ -6638,7 +6751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 162
     },
     {
      "name": "Portea",
@@ -6682,7 +6795,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 163
     },
     {
      "name": "Transbnk",
@@ -6726,7 +6839,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 164
     },
     {
      "name": "Vetic",
@@ -6770,7 +6883,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 165
+    },
+    {
+     "name": "Gut Wellness Club",
+     "slug": "gut-wellness-club",
+     "description": "Gut Wellness Club is an India-based consumer wellness brand offering a \"Gut Reset\" program that promises to resolve digestive issues in 15-20 days using natural traditional foods, yoga, Ayurveda, and Naturopathy as an alternative to medication. The site is Wix-hosted and, notably for a consumer brand, exposes agent-native surfaces: a published /llms.txt and a live, hosted Wix Site MCP endpoint that lets AI agents retrieve business details, search the site, and access Wix REST APIs without scraping. It has no first-party developer API, OpenAPI, or SDKs. Surfaced via Accel portfolio mining and enriched from its real public agent surfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gut-wellness-club/refs/heads/main/screenshots/gut-wellness-club-2026-07-25T220445.png",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 166
     },
     {
      "name": "Indian Energy Exchange",
@@ -6815,7 +6973,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 167
+    },
+    {
+     "name": "Tejas Networks",
+     "slug": "tejas-networks",
+     "description": "Tejas Networks is an India-based telecommunications networking products company (part of the Tata group) that designs and manufactures a wall-to-wall portfolio of wireline and wireless networking equipment for telecom carriers, internet service providers, utilities, defense, and governments. Its product lines span Radio Access Network (4G/5G RAN), fiber broadband access (FTTx/GPON), packet-optical and DWDM/OTN transport (TJ1600), converged broadband (TJ1400), switching and routing, mobile packet core, satcom, and Direct-to-Mobile broadcast, all managed through the TejNMS (TJ5500) network management system. Tejas exposes an EMS/NMS management API for its equipment, but that interface and its product documentation are delivered through a login-gated customer documentation library rather than a public developer program; there is no public REST API, OpenAPI specification, SDK, or open developer portal at this time. This profile was surfaced as a Mayfield portfolio company and enriched from public sources.",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 13.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 168
     },
     {
      "name": "Arivihan",
@@ -6853,7 +7055,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 169
     },
     {
      "name": "Brick&Bolt",
@@ -6891,7 +7093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 170
     },
     {
      "name": "Cashify",
@@ -6929,7 +7131,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 171
     },
     {
      "name": "CrownIT",
@@ -6967,7 +7169,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 172
     },
     {
      "name": "Curefoods",
@@ -7005,7 +7207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 173
     },
     {
      "name": "Finova Capital",
@@ -7043,7 +7245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 174
     },
     {
      "name": "HomeFirst",
@@ -7081,7 +7283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 175
     },
     {
      "name": "HouseEazy",
@@ -7119,7 +7321,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 176
     },
     {
      "name": "IKF Finance",
@@ -7157,7 +7359,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 177
     },
     {
      "name": "Livspace",
@@ -7195,7 +7397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 178
     },
     {
      "name": "Meragi",
@@ -7233,7 +7435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 179
     },
     {
      "name": "Oolka",
@@ -7271,7 +7473,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 180
+    },
+    {
+     "name": "PierSight Space",
+     "slug": "piersight-space",
+     "description": "PierSight Space is an India-based space technology company building a constellation of Synthetic Aperture Radar (SAR) and Automatic Identification System (AIS) satellites for persistent, all-weather maritime surveillance of the world's oceans. Founded by former ISRO engineer Gaurav Seth, PierSight delivers near-real-time ocean monitoring (targeting ~30-minute data latency and 100% ocean coverage) to detect illegal, unreported and unregulated (IUU) fishing, monitor oil spills, protect Exclusive Economic Zones, support maritime insurance risk assessment, and improve shipping operations. The company has raised roughly $8M from investors including Alpha Wave Ventures, Elevation Capital, and Techstars. As of this enrichment pass PierSight sells data solutions to enterprise and government clients and does not publish a public developer API, SDKs, or API documentation.",
+     "score": 10.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 181
     },
     {
      "name": "Rapido",
@@ -7308,7 +7547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 182
     },
     {
      "name": "Seekho",
@@ -7345,7 +7584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 183
     },
     {
      "name": "Sharechat",
@@ -7382,7 +7621,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 184
     },
     {
      "name": "OurHealthMate",
@@ -7427,7 +7666,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 185
     },
     {
      "name": "Pronto",
@@ -7464,7 +7703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 186
     },
     {
      "name": "RedWing Aerospace Laboratories",
@@ -7508,7 +7747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 187
     },
     {
      "name": "Jobvetta",
@@ -7546,7 +7785,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 188
     },
     {
      "name": "Data Sutram",
@@ -7584,7 +7823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 189
     },
     {
      "name": "Magicpin",
@@ -7622,7 +7861,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 190
     },
     {
      "name": "ApniBus",
@@ -7660,7 +7899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 191
     },
     {
      "name": "Bachatt",
@@ -7698,7 +7937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 192
     },
     {
      "name": "CRED",
@@ -7743,7 +7982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 193
     },
     {
      "name": "GrowXCD",
@@ -7781,7 +8020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 194
     },
     {
      "name": "Hotelogix",
@@ -7819,7 +8058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 195
     },
     {
      "name": "Junglee Games",
@@ -7857,7 +8096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 196
     },
     {
      "name": "Openhouse",
@@ -7895,7 +8134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 197
     },
     {
      "name": "Rupeek",
@@ -7932,7 +8171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 198
     },
     {
      "name": "Snowman",
@@ -7969,7 +8208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 199
     },
     {
      "name": "Sulekha",
@@ -8006,7 +8245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 200
     },
     {
      "name": "Swish",
@@ -8043,7 +8282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 201
     },
     {
      "name": "CarWale",
@@ -8081,7 +8320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 202
     },
     {
      "name": "FabHotels",
@@ -8119,7 +8358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 203
     },
     {
      "name": "First Club",
@@ -8157,7 +8396,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 204
+    },
+    {
+     "name": "Shiplyst",
+     "slug": "shiplyst",
+     "description": "Shiplyst is an India-based ocean freight procurement marketplace and supply-chain technology platform that lets exporters and importers search and compare container shipping rates from 50+ ocean carriers in real time, generate instant quotes, book containers with transparent pricing, and track cargo from pickup to delivery. The platform automates Bill of Lading and invoice generation and offers real-time tracking with exception alerts across its web and mobile apps. Shiplyst is backed by 500 Global. No public developer API or documentation surface was found during enrichment.",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 205
     },
     {
      "name": "Swiggy",
@@ -8194,7 +8470,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 206
     },
     {
      "name": "Agrostar",
@@ -8232,7 +8508,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 207
     },
     {
      "name": "Chai Shots",
@@ -8270,7 +8546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 208
     },
     {
      "name": "Oto Capital",
@@ -8308,7 +8584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 209
     },
     {
      "name": "Rigi",
@@ -8345,7 +8621,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 210
     },
     {
      "name": "Wheelocity",
@@ -8382,7 +8658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 211
     },
     {
      "name": "ANSR",
@@ -8420,7 +8696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 212
     },
     {
      "name": "One Assist",
@@ -8465,7 +8741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 213
     },
     {
      "name": "Powerup Money",
@@ -8502,7 +8778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 214
     },
     {
      "name": "Officebanao",
@@ -8540,7 +8816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 215
     },
     {
      "name": "Jeh Aerospace",
@@ -8578,7 +8854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 216
     },
     {
      "name": "Mirana Toys",
@@ -8616,7 +8892,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 217
     },
     {
      "name": "Bizongo",
@@ -8654,7 +8930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 218
     },
     {
      "name": "Cholamandalam",
@@ -8692,7 +8968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 219
     },
     {
      "name": "Fivestargroup",
@@ -8730,7 +9006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 220
     },
     {
      "name": "MemeChat",
@@ -8768,7 +9044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 221
     },
     {
      "name": "Ofbusiness",
@@ -8806,7 +9082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 222
     },
     {
      "name": "PropTiger",
@@ -8843,7 +9119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 223
     },
     {
      "name": "Veritasfin",
@@ -8880,7 +9156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 224
     },
     {
      "name": "Niyo Solutions",
@@ -8925,7 +9201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 225
     },
     {
      "name": "MediSage",
@@ -8970,7 +9246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 226
     },
     {
      "name": "Sadbhav Engineering Limited",
@@ -9007,7 +9283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 227
     },
     {
      "name": "Vegrow",
@@ -9044,7 +9320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 228
     },
     {
      "name": "Oyo Rooms",
@@ -9082,7 +9358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 229
     },
     {
      "name": "ApnaMart",
@@ -9120,7 +9396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 230
     },
     {
      "name": "ElasticRun",
@@ -9158,7 +9434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 231
     },
     {
      "name": "CityMall",
@@ -9196,7 +9472,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 232
     },
     {
      "name": "Trinkerr",
@@ -9240,7 +9516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 233
     },
     {
      "name": "Zet",
@@ -9284,7 +9560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 234
     },
     {
      "name": "Material Depot",
@@ -9322,7 +9598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 235
     },
     {
      "name": "Rcom",
@@ -9366,7 +9642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 236
     },
     {
      "name": "Nueclear",
@@ -9411,7 +9687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 237
     },
     {
      "name": "Drivezy",
@@ -9448,7 +9724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 238
     },
     {
      "name": "Infra.Market",
@@ -9486,7 +9762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 239
     },
     {
      "name": "BlackBuck",
@@ -9524,7 +9800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 240
     },
     {
      "name": "FairMoney",
@@ -9569,7 +9845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 241
     },
     {
      "name": "Matrimony Com",
@@ -9607,7 +9883,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 242
     },
     {
      "name": "Uni Cards",
@@ -9651,7 +9927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 243
     },
     {
      "name": "Captain Fresh",
@@ -9689,7 +9965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 244
     },
     {
      "name": "Matrimony.com",
@@ -9727,7 +10003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 245
     },
     {
      "name": "Koinex",
@@ -9772,7 +10048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 246
     },
     {
      "name": "Nabhdrishti Aerospace",
@@ -9817,7 +10093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 247
     },
     {
      "name": "Nse-india",
@@ -9862,7 +10138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 248
     },
     {
      "name": "bigbasket",
@@ -9900,7 +10176,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 249
     },
     {
      "name": "Fantasy Akhada",
@@ -9937,7 +10213,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 250
     },
     {
      "name": "Hungama",
@@ -9975,7 +10251,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 251
     },
     {
      "name": "InstaPaisa",
@@ -10020,7 +10296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 252
     },
     {
      "name": "Itzcash",
@@ -10065,7 +10341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 253
     },
     {
      "name": "Mintifi",
@@ -10110,7 +10386,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 254
     },
     {
      "name": "NAKAD",
@@ -10155,7 +10431,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 255
     },
     {
      "name": "Okcredit",
@@ -10200,7 +10476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 256
     },
     {
      "name": "Paytm Payments Bank",
@@ -10244,7 +10520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 257
     },
     {
      "name": "Travelguru",
@@ -10281,7 +10557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 258
     },
     {
      "name": "Tripoto Travel",
@@ -10318,7 +10594,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 259
+    },
+    {
+     "name": "Unmannd",
+     "slug": "unmannd",
+     "description": "Unmannd (Unmannd Autonomy Pvt Ltd) is an India-based defense technology company backed by Accel and Speciale Invest, engineering autonomous drones under the banner of aerial dominance. Its TITAN 30 is an autonomous defense-logistics drone with a 30 kg max payload, 60 km/h cruise speed, 20,000 ft operational ceiling, and 30 km max range; its FURY counter-UAS interceptor was announced as launching in Q1 2026. Unmannd is a hardware/defense company and publishes no public API, developer portal, or SDKs as of July 2026.",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 260
     },
     {
      "name": "Medi Assist",
@@ -10363,7 +10676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 261
     },
     {
      "name": "Ola Electric",
@@ -10408,7 +10721,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 262
     },
     {
      "name": "Wiom",
@@ -10452,7 +10765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 263
     },
     {
      "name": "Anar",
@@ -10490,7 +10803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 264
     },
     {
      "name": "Breathe Well-being",
@@ -10535,7 +10848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 265
     },
     {
      "name": "Frontrow",
@@ -10573,7 +10886,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 266
     },
     {
      "name": "NephroPlus",
@@ -10618,7 +10931,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 267
     },
     {
      "name": "Ninjacart",
@@ -10656,7 +10969,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 268
     },
     {
      "name": "OnlineTyari",
@@ -10693,7 +11006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 269
     },
     {
      "name": "Open",
@@ -10737,7 +11050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 270
     },
     {
      "name": "Quick Ride",
@@ -10774,7 +11087,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 271
     },
     {
      "name": "Regency Healthcare",
@@ -10818,7 +11131,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 272
     },
     {
      "name": "Sayre Therapeutics",
@@ -10862,7 +11175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 273
     },
     {
      "name": "Zepto",
@@ -10899,7 +11212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 274
     },
     {
      "name": "Aggra",
@@ -10937,7 +11250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 275
     },
     {
      "name": "Bharat Matrimony",
@@ -10975,7 +11288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 276
     },
     {
      "name": "Bluelearn",
@@ -11012,7 +11325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 277
     },
     {
      "name": "Bluestone",
@@ -11050,7 +11363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 278
     },
     {
      "name": "Byjus",
@@ -11088,7 +11401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 279
     },
     {
      "name": "Bzaar",
@@ -11126,7 +11439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 280
     },
     {
      "name": "CapriCoast",
@@ -11164,7 +11477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 281
     },
     {
      "name": "Craftsvilla",
@@ -11201,7 +11514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 282
     },
     {
      "name": "Culinarybrands",
@@ -11239,7 +11552,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 283
     },
     {
      "name": "Edukart",
@@ -11277,7 +11590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 284
     },
     {
      "name": "EduPristine",
@@ -11315,7 +11628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 285
     },
     {
      "name": "Ethereal Exploration Guild",
@@ -11353,7 +11666,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 278
+     "rank": 286
     },
     {
      "name": "Fashionara",
@@ -11390,7 +11703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 279
+     "rank": 287
     },
     {
      "name": "Fortigo",
@@ -11427,7 +11740,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 288
     },
     {
      "name": "Freshmenu",
@@ -11465,7 +11778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 289
     },
     {
      "name": "GlowRoad",
@@ -11502,7 +11815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 290
     },
     {
      "name": "Good Glamm Group",
@@ -11540,7 +11853,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 291
     },
     {
      "name": "Goyaz Silver Jewellery",
@@ -11577,7 +11890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 292
     },
     {
      "name": "HeartyyFresh",
@@ -11614,7 +11927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 293
     },
     {
      "name": "Incognito Technologies",
@@ -11651,7 +11964,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 294
     },
     {
      "name": "Kishlay Foods",
@@ -11689,7 +12002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 295
     },
     {
      "name": "Koo",
@@ -11726,7 +12039,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 296
+    },
+    {
+     "name": "Mensa Brands",
+     "slug": "mensa-brands",
+     "description": "Mensa Brands (rebranded BRND.ME) is an India-based, technology-led house of brands founded in 2021 by Ananth Narayanan (former Myntra CEO), building and scaling digital-first consumer brands across fashion, beauty, personal care, home and FMCG. Backed by Accel, Tiger Global and Prosus Ventures, it reached unicorn status and operates a portfolio of acquired D2C brands. This profile was surfaced as a portfolio company of prosus-ventures; a public developer API surface was searched for and none was found — the company exposes a corporate/consumer web presence rather than a developer platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mensa-brands/refs/heads/main/screenshots/mensa-brands-2026-08-07T172528.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 297
     },
     {
      "name": "Mensabrands",
@@ -11764,7 +12115,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 298
     },
     {
      "name": "Meolaa",
@@ -11802,7 +12153,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 299
     },
     {
      "name": "Moglix",
@@ -11840,7 +12191,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 291
+     "rank": 300
     },
     {
      "name": "MyGlamm",
@@ -11878,7 +12229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 292
+     "rank": 301
     },
     {
      "name": "Myntra",
@@ -11916,7 +12267,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 293
+     "rank": 302
     },
     {
      "name": "OYO",
@@ -11954,7 +12305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 294
+     "rank": 303
     },
     {
      "name": "Pepperfry",
@@ -11991,7 +12342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 304
     },
     {
      "name": "PriceBaba",
@@ -12028,7 +12379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 305
     },
     {
      "name": "QikPod",
@@ -12065,7 +12416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 306
     },
     {
      "name": "S4S Technologies",
@@ -12102,7 +12453,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 307
     },
     {
      "name": "Samunnati",
@@ -12139,7 +12490,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 308
     },
     {
      "name": "Sheroes",
@@ -12176,7 +12527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 300
+     "rank": 309
     },
     {
      "name": "Shriram City",
@@ -12213,7 +12564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 301
+     "rank": 310
     },
     {
      "name": "Silagroup",
@@ -12250,7 +12601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 302
+     "rank": 311
     },
     {
      "name": "simsim",
@@ -12287,7 +12638,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 303
+     "rank": 312
     },
     {
      "name": "SK Finance Ltd",
@@ -12324,7 +12675,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 304
+     "rank": 313
     },
     {
      "name": "SnapDeal",
@@ -12361,7 +12712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 305
+     "rank": 314
     },
     {
      "name": "Spenny",
@@ -12398,7 +12749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 306
+     "rank": 315
     },
     {
      "name": "StalkBuyLove",
@@ -12435,7 +12786,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 307
+     "rank": 316
     },
     {
      "name": "SwitchMe",
@@ -12472,7 +12823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 308
+     "rank": 317
     },
     {
      "name": "Taggle Internet Ventures",
@@ -12509,7 +12860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 309
+     "rank": 318
     },
     {
      "name": "Tapchief",
@@ -12546,7 +12897,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 310
+     "rank": 319
     },
     {
      "name": "Three Wheels United",
@@ -12583,7 +12934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 311
+     "rank": 320
     },
     {
      "name": "Toolsvilla",
@@ -12620,7 +12971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 312
+     "rank": 321
     },
     {
      "name": "Virgio",
@@ -12657,7 +13008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 313
+     "rank": 322
     },
     {
      "name": "ZipDial",
@@ -12694,7 +13045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 314
+     "rank": 323
     },
     {
      "name": "Dunzo",
@@ -12731,7 +13082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 315
+     "rank": 324
     },
     {
      "name": "Getsupp",
@@ -12775,7 +13126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 316
+     "rank": 325
     },
     {
      "name": "Mochatrade",
@@ -12820,7 +13171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 317
+     "rank": 326
     },
     {
      "name": "Redcarpetup",
@@ -12857,7 +13208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 318
+     "rank": 327
     }
    ]
   },
@@ -12874,13 +13225,13 @@
      "slug": "norwest-venture-partners",
      "description": "Norwest Venture Partners is a multi-stage venture capital and growth equity investment firm founded in 1961 and headquartered in Menlo Park, California, with additional presence in San Francisco and subsidiaries in Mumbai, India and Tel Aviv, Israel. As of its 2024 NVP XVII fund ($3B), the firm manages more than $15.5 billion in capital and has backed over 700 companies across its history. Norwest invests across the full lifecycle — from early-stage venture through late-stage growth equity — with sector focus spanning enterprise and B2B SaaS, cloud and infrastructure, AI, fintech, healthcare and life sciences (including biotech and digital health), and consumer and lifestyle brands. The firm is known for a hands-on but non-intrusive partnership model, backing its founders with Portfolio Success programs across talent, operations, leadership, and go-to-market. Notable investments include Plaid, Uber, Spotify, Opendoor, Gong, Vuori, Kendra Scott, Casper, Udemy, Avetta, Adaptive Insights, YipitData, Babylist, Workato, and Veza.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/norwest-venture-partners/refs/heads/main/screenshots/norwest-venture-partners-2026-08-07T185534.png",
-     "rank": 319
+     "rank": 328
     },
     {
      "name": "Prosus Ventures",
      "slug": "prosus-ventures",
      "description": "Prosus Ventures is the venture-capital arm of Prosus, the Amsterdam-headquartered global consumer-internet and technology group (part of the Naspers group), founded in 2015 to make early-stage and growth-stage technology investments in high-growth markets outside the United States and China. The firm invests to \"fuel the ecommerce flywheel,\" backing companies across food delivery, fintech, consumer services, logistics, e-commerce and marketplaces, plus a strong and growing focus on early-stage AI startups that reshape the e-commerce value chain (shopping and advertising tech, customer support, AI agents and operations) and frontier technologies such as quantum computing, robotics, space and biotech. Prosus Ventures typically invests from seed through Series B and into growth rounds, with a primary geographic focus on India, Latin America and Europe, plus activity in Southeast Asia, the Middle East and ANZ. In fiscal year 2025 the group committed and invested over $400 million across 40+ closed transactions, including roughly $88 million into AI. Its public portfolio spans 80+ companies including Meesho, Urban Company, PharmEasy, Klar, ElasticRun, BandLab, Ema, Corti and Oxford Ionics. The venture team is led by CEO Martin Tschopp with regional heads across India, Europe, Southeast Asia and the Middle East.",
-     "rank": 320
+     "rank": 329
     }
    ]
   }

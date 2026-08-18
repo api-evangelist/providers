@@ -4065,6 +4065,7 @@
      "name": "MailOptin",
      "slug": "mailoptin",
      "description": "MailOptin is a WordPress lead-generation and email-automation plugin that converts website visitors into subscribers with popups, slide-ins, notification bars and inline optin forms, then sends one-off newsletters and event-triggered automated emails. It connects WordPress to more than sixty email marketing platforms, CRMs, form plugins, e-commerce and membership systems — Mailchimp, ActiveCampaign, HubSpot, AWeber, Klaviyo, Brevo, Salesforce, WooCommerce and others — and can post optin submissions to an arbitrary endpoint through a generic webhook connection. MailOptin is self-hosted software rather than a hosted service: it publishes no product API, no OpenAPI and no client SDK, and all functionality runs inside the customer's own WordPress installation. Its own website, mailoptin.io, runs WordPress and does serve a public self-describing REST API together with an OAuth-protected Model Context Protocol server.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/screenshots/mailoptin-2026-08-17T124048.png",
      "score": 50.1,
      "band": "developing",
      "band_label": "Developing",

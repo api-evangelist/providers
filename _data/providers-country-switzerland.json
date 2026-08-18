@@ -1,6 +1,6 @@
 {
- "total": 25,
- "shown": 25,
+ "total": 26,
+ "shown": 26,
  "limit": 1000,
  "bands": [
   {
@@ -591,8 +591,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Kuehne+Nagel",
@@ -631,6 +631,51 @@
       "dry_run_mode": false
      },
      "rank": 14
+    },
+    {
+     "name": "Clicks",
+     "slug": "clicks",
+     "description": "Clicks (Clicks Health) is an AI-native operations company that deploys AI agents to run complete healthcare back-office workflows. Its agents handle revenue cycle management (eligibility and insurance verification, prior authorization, claim status checking, denials management, and patient refunds), patient access, and other repetitive tasks by working inside a customer's existing EHR, practice-management, and payer systems either through APIs or the same screens staff use. Clicks integrates with major health IT platforms including Epic, Cerner, athenahealth, eClinicalWorks, ModMed, NextGen Healthcare, and MEDITECH, and states it is SOC 2 Type II audited and HIPAA compliant with end-to-end encryption for PHI. Founded in 2025, headquartered in Switzerland, and backed by Y Combinator (F2025).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clicks/refs/heads/main/screenshots/clicks-2026-07-25T205614.png",
+     "score": 23.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 30.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
     },
     {
      "name": "MindMaze",
@@ -675,7 +720,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Climeworks",
@@ -720,7 +765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "University of Bern",
@@ -758,7 +803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Ecorobotix",
@@ -795,7 +840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "opendata.swiss",
@@ -840,7 +885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "KITRO",
@@ -878,7 +923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     }
    ]
   },
@@ -933,7 +978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Bright Peak Therapeutics",
@@ -977,7 +1022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Swiss Education Group",
@@ -1014,7 +1059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Myriad",
@@ -1058,7 +1103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     }
    ]
   },
@@ -1074,7 +1119,7 @@
      "name": "Selectron",
      "slug": "selectron",
      "description": "Selectron Systems AG is a Swiss rail-vehicle automation and safety supplier founded in 1956 in Lyss, Switzerland, and part of the Knorr-Bremse Group since 2015. Its core business is the Train Control and Management System (TCMS): freely programmable safety controllers and vehicle control units, centralised and decentralised remote I/O (Smartio RIOM), driver-cab displays and HMIs, wheel-slide protection, Ethernet switches, routers, converters and train-bus gateways, plus a rail cybersecurity line (Security Gateway, Threat Detection Solution with Irdeto, PKI and Cyber Resilience Act services). Engineering tooling ships as the Symphony Suite (Maestro Designer, CAP1131, SIM1131, POUtest1131, TOP1131, WDLD1131, SAND) distributed through the login-gated Cockpit portal. Products are certified to ISO/TS 22163 (IRIS), EN 61508 SIL 3, EN 50129 SIL 2, EN 50128 SIL 2 and IEC 62443 SL 2. Selectron publishes no public web API, developer portal or machine-readable contract.",
-     "rank": 25
+     "rank": 26
     }
    ]
   }

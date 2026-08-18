@@ -1,16 +1,204 @@
 {
- "total": 53,
- "shown": 53,
+ "total": 101,
+ "shown": 101,
  "limit": 1000,
  "bands": [
+  {
+   "band": "exemplar",
+   "label": "Exemplar",
+   "range": "66+",
+   "blurb": "Reference-quality API operations across every facet.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "HitPay",
+     "slug": "hitpay",
+     "description": "HitPay is a Singapore-headquartered all-in-one payments platform for small and medium businesses across Asia-Pacific, unifying online checkout, point of sale, and B2B billing. Its REST API creates hosted Payment Requests, runs Recurring Billing on saved cards, and issues Refunds, with first-class Southeast Asian local methods (PayNow, GrabPay, WeChat Pay, Alipay, ShopeePay, Atome) alongside cards. Requests authenticate with the X-BUSINESS-API-KEY header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/screenshots/hitpay-2026-07-25T221304.png",
+     "score": 66.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 65.8,
+      "governance": 20.8,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 100.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 56.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 57.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "56 – 65.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Ahrefs",
+     "slug": "ahrefs",
+     "description": "Ahrefs is a Singapore-based SEO and marketing intelligence platform built on its own web crawler and index, offering Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, SERP Overview, Brand Radar, Web Analytics and Social Media Management. The Ahrefs API v3 exposes that data set as a REST API at https://api.ahrefs.com/v3 with 148 operations across 13 tools, documented by a single OpenAPI 3.2.0 specification plus one machine-readable spec per tool. Access is metered in API units with a 50-unit request floor, authenticated with a bearer API key, and additionally reachable through a hosted MCP server and the OAuth-based Ahrefs Connect partner program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/screenshots/ahrefs-2026-08-17T080541.png",
+     "score": 58.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 32.3,
+      "governance": 20.8,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 32.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 2
+    }
+   ],
+   "open": true
+  },
   {
    "band": "developing",
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 9,
+   "shown": 9,
    "providers": [
+    {
+     "name": "ShipFinder AIS Data API",
+     "slug": "shipfinder-ais-data-api",
+     "description": "ShipFinder, operated by Singapore-based ELANE GLOBAL PTE. LTD., publishes a REST/HTTP maritime data API that turns the global AIS feed into queryable vessel intelligence. Forty documented operations are organised into seven datasets: AIS (single, multi and fleet vessel positions, vessel search, vessels nearby, vessels in a zone, flag information), Voyage (port information, currently berthed and anchored vessels, expected arrivals), History (position tracks, ship-to-ship rendezvous, port-call records by vessel and by port), Prediction (point-to-point and port-to-port route planning with deviation-node constraints, and ETA), Meteorology (global tropical cyclones, tide gauge stations, marine weather), China region coastline navigational warnings, and an Event dataset whose fleet, geofence and speed-alert operations drive seven documented webhook push streams. Authentication is a single API key carried as the \"key\" query parameter (or body property on writes); every response is JSON in a {status, msg, data} envelope where status 0 means success and errors arrive with HTTP 200. ShipFinder publishes per-endpoint OpenAPI 3.0.1 fragments on its documentation host plus an llms.txt index, and several controlled vocabularies (AIS vessel type, navigation status, sea areas, deviation nodes, AtoN types, service return codes).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/screenshots/shipfinder-ais-data-api-2026-08-17T081834.png",
+     "score": 55.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 66.0,
+      "governance": 21.9,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 49.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "Coda Payments",
+     "slug": "coda-payments",
+     "description": "Coda Payments (trading as Coda, coda.co) is a Singapore-headquartered global Merchant of Record and monetization platform for digital content publishers, game studios and app developers. Its Codapay API lets partners accept 300+ local and global payment methods — cards, e-wallets, direct carrier billing, bank transfer, over-the-counter and vouchers — across 65+ countries and 60 currencies through a single integration, with Coda taking on Merchant of Record responsibility for tax, regulatory compliance, fraud and chargebacks. The developer surface spans the Codapay Hosted Payment Page API (v1.0/v2.0), a Direct Card API for server-to-server card charges with 3DS, hosted client-side components (CodaCard and CodaComponent JS SDKs), a Unity in-app payments SDK, a Refund API, a Payout API for cross-border disbursement, and the Codashop / Coda Webstore fulfillment APIs (validation, top-up, user sync) that publishers implement so Coda can deliver purchased items into their games.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/screenshots/coda-payments-2026-08-07T163530.png",
+     "score": 53.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 56.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 4
+    },
     {
      "name": "ShopBack",
      "slug": "shopback",
@@ -54,7 +242,97 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1
+     "rank": 5
+    },
+    {
+     "name": "Cloverly",
+     "slug": "cloverly",
+     "description": "Cloverly is an Atlanta-headquartered climate technology company that operates a developer-first carbon-credit infrastructure platform. The Cloverly API estimates and purchases verified carbon offsets in real time across a curated portfolio of reforestation, biochar, direct air capture, renewable energy, and methane-abatement projects sourced from registries such as Verra, Gold Standard, ACR, Climate Action Reserve, and Puro.earth. The Catalyst product extends the same platform to project developers managing inventory, pricing, content, payments, and omnichannel distribution. In 2024 Cloverly was acquired by Climate Impact X (CIX), the Singapore-based carbon exchange, and has since operated as the technology arm powering CIX-aligned voluntary carbon market infrastructure.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/screenshots/cloverly-2026-06-20T174623.png",
+     "score": 50.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 67.9,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 43.5,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 23.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "Patsnap",
+     "slug": "patsnap",
+     "description": "Patsnap is an AI-native innovation intelligence platform for patent, R&D and life-sciences data, serving more than 18,000 innovators worldwide. Its Eureka Open Platform exposes 300+ REST API endpoints (patent search, patent legal and mining data, enterprise and drug intelligence, and Eureka AI/LLM capabilities) across 210M+ patents and 2B+ structured data points, plus hosted MCP servers, 140+ Agent Skills and embeddable UI widgets. Backed by SoftBank Vision Fund and Hongshan (Sequoia China), Patsnap is headquartered in Singapore with offices in London, Tokyo, Shanghai and Toronto.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/screenshots/patsnap-2026-08-07T191600.png",
+     "score": 46.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 59.5,
+      "governance": 20.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 58.2,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
     },
     {
      "name": "Eruditus",
@@ -92,7 +370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 8
     },
     {
      "name": "Aspire",
@@ -137,7 +415,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 9
+    },
+    {
+     "name": "Fave",
+     "slug": "fave",
+     "description": "Fave is a Malaysia- and Singapore-based lifestyle and payments app offering deals, cashback, rewards, eCards, and QR-code payments, operated by Fave Asia Technologies and owned by Pine Labs. For merchants and platforms, Fave exposes the FavePay Omni (FPO) partner API: create single-use QR codes or payment URLs, process customer-presented (merchant-scan) charges, look up, list, and acknowledge transactions, issue full or partial refunds, and receive signed webhook callbacks on every status change. Every request is signed with HMAC-SHA256 using a secret key Fave issues during partner onboarding. FavePay Omni operates across Malaysia (MY), Singapore (SG), and Indonesia (ID).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/screenshots/fave-2026-07-25T214253.png",
+     "score": 43.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 69.4,
+      "governance": 11.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 40.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 10
     },
     {
      "name": "National University of Singapore",
@@ -175,18 +498,17 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 11
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "thin",
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Advance Intelligence Group",
@@ -224,7 +546,83 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 12
+    },
+    {
+     "name": "Parseur",
+     "slug": "parseur",
+     "description": "Parseur is an AI-powered document and email parsing platform headquartered in Singapore that automatically extracts structured data from PDFs, emails, scanned documents, and arbitrary file uploads, then routes the resulting JSON, CSV, or Excel records into downstream systems via webhooks, native integrations, or its REST API. The platform combines Vision AI, Text AI, template-based extraction, OCR, normalization, and field validation behind a forwarding email address per mailbox, and connects to more than 1,000 applications including Zapier, Make, n8n, Power Automate, Google Sheets, Airtable, Salesforce, Excel, and Slack. Parseur exposes a public REST API at https://api.parseur.com with an OpenAPI 3.1 specification covering mailbox (parser) management, document upload and lifecycle, templates, custom export configurations, and webhook subscriptions, secured with a per-account Token-based Authorization header. Pricing is volume-based on pages processed, with a permanent free tier (20 pages/month) and Base, Scale, and Enterprise tiers that scale up to 10 million pages per month.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/screenshots/parseur-2026-06-20T191421.png",
+     "score": 40.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 54.7,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Parcel Perform",
+     "slug": "parcelperform",
+     "description": "Parcel Perform is a Singapore-headquartered Data & Delivery Experience Platform that aggregates real-time tracking data across hundreds of carriers worldwide into one standardized event model, then layers post-purchase tracking pages, proactive notifications, logistics performance analytics, and returns management on top. The Parcel Perform API (developer portal at developer.parcelperform.com) lets merchants and platforms create and retrieve shipments and their tracking events, manage returns, and receive outgoing webhooks for tracking-status changes, authenticated with OAuth2 client-credentials bearer tokens.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/screenshots/parcelperform-2026-08-07T191537.png",
+     "score": 37.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 61.2,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
     },
     {
      "name": "Nanyang Technological University",
@@ -269,7 +667,133 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 15
+    },
+    {
+     "name": "Wallex",
+     "slug": "wallex",
+     "description": "Wallex is a Singapore-headquartered cross-border payments and business banking platform for businesses across Southeast Asia and Greater China. Its Partner API is a JSON REST API that lets platforms embed multi-currency wallets, issue virtual collection accounts, run FX conversions, send cross-border payments to beneficiaries, and onboard and KYC their own members. The API is organised around a hierarchical account model (Standard and Partner accounts, Individual and Company entities, Regular and Lite KYC) and covers authentication, balances, beneficiaries, collections, collection requests, conversions, currencies, deductions, funding, internal transfers, payments, users, and webhooks. Wallex is a portfolio company of 500 Global.",
+     "score": 36.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 26.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 16
+    },
+    {
+     "name": "Seventh Sense",
+     "slug": "seventh-sense",
+     "description": "Seventh Sense AI is a Singapore-based deep-tech company building privacy-preserving, face-based identity and biometric verification technology. Its OpenCV Face Recognition (OpenCV FR) platform — ranked among the top 10 facial recognition algorithms globally by NIST — provides face detection, matching, liveness detection, search and person/collection management through a multi-region REST API and Python/C++ SDKs. Seventh Sense also develops the SenseCrypt suite (eID, PKI and self-sovereign identity built on distributed ledgers, \"0% biometrics, 100% privacy\") and SenseVantage multimodal video AI. The company is SOC, ISO 27001 certified and GDPR compliant, serving enterprise and government customers.",
+     "score": 34.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 49.3,
+      "governance": 20.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 38.6,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 36.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "Blue Square Group Limited",
+     "slug": "blue-square-group-limited",
+     "description": "Blue Square Group Limited is the corporate entity behind GRVT (pronounced \"gravity\"), a licensed hybrid crypto derivatives exchange headquartered in Singapore and engineered by Gravity Technologies. GRVT pairs a high-performance central limit order book with self-custody settlement on a zkSync-based Layer 2, and exposes a public Market Data API and an authenticated Trading API over both REST and WebSocket. The APIs cover perpetual futures and spot trading, order management (including bulk orders, TP/SL and trigger orders), positions and margin, sub-account and funding-account summaries, transfers, deposits and withdrawals, and on-chain vault investment and redemption. Authentication combines an API-key login with Ethereum-style ECDSA (secp256k1 / EIP-712) request signing and scoped session keys. First-party Python and JavaScript/TypeScript SDKs plus published agent skills round out the developer surface. Surfaced as a portfolio company of 500 Global and enriched into the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/screenshots/blue-square-group-limited-2026-07-25T203437.png",
+     "score": 34.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 38.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 18
     },
     {
      "name": "Vauld",
@@ -313,7 +837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 19
     },
     {
      "name": "2C2P",
@@ -358,7 +882,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 20
+    },
+    {
+     "name": "EDX Markets",
+     "slug": "edx-markets",
+     "description": "EDX Markets is an institutional cryptocurrency exchange that operates the world's only centrally cleared crypto trading venue, combining deep liquidity, transparent markets, low trading costs and ultra-low-latency matching-engine technology. It runs a spot exchange (EDX Markets), a perpetual-futures exchange (EDXM International, based in Singapore), a central clearinghouse with daily net settlement and bankruptcy-remote member accounts (EDXM Global), and a white-label crypto-as-a-service platform (EDX FlowConnect). Connectivity for members is delivered over the FIX protocol — FIX 5.0 SP2 order entry and drop copy plus FIX and binary (SBE) market data, transported over mutually authenticated TLS — rather than a public REST/OpenAPI. EDX is backed by institutional partners and was surfaced through the pantera-capital portfolio.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/screenshots/edx-markets-2026-07-25T212920.png",
+     "score": 33.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 15.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 21
     },
     {
      "name": "Xfers",
@@ -402,19 +971,175 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 22
+    },
+    {
+     "name": "Univers",
+     "slug": "univers",
+     "description": "Univers (formerly Envision Digital) is a Singapore-headquartered company building \"The Platform for Physical AI\" — its EnOS platform runs real-time, autonomous operations across energy grids, buildings, transportation, and industrial manufacturing, managing over 1,000 GW of energy assets and 400M+ connected sensors and devices for 800+ enterprise customers in 45 countries. EnOS exposes open APIs for device connection, models, assets, time-series data, alerts, and data subscription, consumed through the EnOS Application Portal and Developer Console with access-key/secret-key request signing, and ships first-party device and service SDKs for Java, Python, C, Node.js, .NET, and Go.",
+     "score": 31.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 40.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 23
+    },
+    {
+     "name": "Ematic Solutions",
+     "slug": "ematic-solutions",
+     "description": "Ematic Solutions is a digital marketing and marketing-technology consultancy headquartered in Singapore that helps B2C brands across Asia Pacific build integrated, high-ROI digital ecosystems. It combines strategy, implementation, and ongoing optimization across SEO, performance marketing, social media, CRM, conversion-rate optimization, analytics, and e-commerce (Shopify), and it implements and manages enterprise marketing clouds including Salesforce Marketing Cloud, Adobe Experience Cloud, and Braze. The firm also runs social-CRM channels such as WhatsApp, LINE, and Zalo and partners with 100+ martech platforms (Mailchimp, Klaviyo, Iterable, Segment, Mixpanel, and others). Backed by 500 Global, Ematic operates across Singapore, Malaysia, Indonesia, Vietnam, Thailand, the Philippines, Taiwan, Hong Kong, and beyond. Alongside the consultancy Ematic operates its own marketing platform (platform.ematicsolutions.com) with the Hi-iQ, Bye-iQ and Retry-iQ products, and it publishes a public developer surface at kb.ematicsolutions.com covering the Ematic.js browser tracker, e-commerce plugins for Magento, Shopify, Haravan and PrestaShop, and a RESTful Core API (beta) for product-event logging and ESP list subscription management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/screenshots/ematic-solutions-2026-07-25T213225.png",
+     "score": 28.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 31.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 24
+    },
+    {
+     "name": "Cosmose AI",
+     "slug": "cosmose-ai",
+     "description": "Cosmose AI (Cosmose Inc.) is a Singapore-headquartered, Polish-founded retail intelligence company that measures, predicts and influences offline shopping behaviour at scale, claiming reach across roughly one billion consumers through an SDK embedded in partner mobile applications. Founded in 2014 by Miron Mironiuk with offices in Singapore, Warsaw, Paris, Hong Kong, Shanghai and Tokyo, it sells offline footfall and purchase-intent analytics plus online-to-offline ad targeting to brands including LVMH, Richemont, L'Oreal and Estee Lauder, and operates two consumer-facing products — Cosmose Media (the advertising side) and KaiKai / KaiKaiNow, a gamified \"shoppertainment\" and lock-screen app built with the NEAR Foundation. Cosmose does not run a public developer program: there is no developer portal, no published API reference, no pricing page and no self-serve signup. Its API surface is nonetheless partly public — an unauthenticated springdoc OpenAPI 3.0.1 document for the KaiKai Deal Hunter registration service is served from the Singapore gateway, and its iOS SDKs are distributed through a first-party CocoaPods spec repository on GitHub.",
+     "score": 28.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 45.5,
+      "governance": 20.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 31.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 25
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "emerging",
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 14,
-   "shown": 14,
+   "count": 20,
+   "shown": 20,
    "providers": [
+    {
+     "name": "Glife",
+     "slug": "glife",
+     "description": "Glife Technologies Pte Ltd is a Singapore-based food-tech company on a mission to grow a better food future across Southeast Asia. Glife operates a farm-to-table commerce and supply-chain platform that connects farmers and suppliers with restaurants, retailers, and consumers — spanning sourcing, pricing, ordering, inventory, warehousing, and delivery. Its web and mobile applications are backed by a GraphQL API (api-sg.glifeware.com) exposing commerce, content, and supply-chain operations. Glife is backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/screenshots/glife-2026-07-25T215902.png",
+     "score": 25.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 43.2,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 26
+    },
     {
      "name": "Doctor Anywhere",
      "slug": "doctor-anywhere",
@@ -458,7 +1183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 27
     },
     {
      "name": "CargoAi",
@@ -496,7 +1221,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 28
+    },
+    {
+     "name": "Transcelestial",
+     "slug": "transcelestial",
+     "description": "Transcelestial is a Singapore-based wireless laser communications company building CENTAURI, a line of compact free-space optical (laser) devices that deliver high-speed, low-latency connectivity of up to 25 Gbps as a rapid-to-deploy alternative to fiber and RF backhaul. CENTAURI links buildings, cell towers, and street-level infrastructure, and the company is extending its optical network toward LEO satellites for global inter-continental connectivity. Each CENTAURI device exposes an on-device RESTful management API (over HTTPS with token-based authentication) alongside SNMP monitoring and a device CLI for configuration and deployment.",
+     "score": 20.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 27.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 29
     },
     {
      "name": "Singtel",
@@ -540,7 +1309,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 30
+    },
+    {
+     "name": "InvestaX",
+     "slug": "investax",
+     "description": "InvestaX is a Singapore-based, MAS-licensed tokenization platform for real-world assets (RWAs), operated by IC SG Pte. Ltd. under a Capital Markets Services license (CMS100635) and a Recognised Market Operator license from the Monetary Authority of Singapore. The platform provides end-to-end infrastructure for the issuance, distribution, secondary trading, and custody of security tokens and tokenized securities, plus a Tokenization SaaS product for institutional issuers and RWA investment products such as tokenized money market funds and private credit. It supports multiple blockchain protocols including Ethereum, Polygon, BASE, Algorand, Tezos, and Hedera. Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/investax/refs/heads/main/screenshots/investax-2026-07-25T222743.png",
+     "score": 17.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 31.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 31
     },
     {
      "name": "Docquity",
@@ -584,7 +1398,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 32
+    },
+    {
+     "name": "The Lafz",
+     "slug": "the-lafz",
+     "description": "Lafz is a halal-certified cosmetics and personal-care brand, founded in 2019 and headquartered in Singapore as part of the Believe PTE FMCG group. It sells hair care, skin care, makeup, a caffeine range, deodorants and fragrance made without alcohol, parabens or animal by-products. The direct-to-consumer storefront at lafz.com runs on Shopify and exposes real agent-facing surfaces: a Shopify customer-account OpenID Connect provider, an /llms.txt agent guide, and a Universal Commerce Protocol (UCP) shopping MCP server for buyer-approved agent-driven checkout. thelafz.com is the corporate \"halal compliant factories\" site. Added to the API Evangelist network as an Accel portfolio-graph lead and enriched from its live public surfaces.",
+     "score": 16.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 27.7,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 20.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 33
     },
     {
      "name": "Prudential plc",
@@ -628,7 +1479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 34
     },
     {
      "name": "Homage",
@@ -673,7 +1524,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 35
     },
     {
      "name": "Geniebook",
@@ -711,7 +1562,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 36
+    },
+    {
+     "name": "Hyperganic",
+     "slug": "hyperganic",
+     "description": "Hyperganic is a Munich- and Singapore-based deep-tech software company building algorithmic engineering technology for additive manufacturing (3D printing). Its flagship product, HyDesign, is a browser-based application for creating, customizing, and optimizing 3D-printed latticed parts, combining implicit (meshless) modeling with validated materials and cloud simulation. Capabilities include lattice grading, TPMS structures, shell/offset and emboss/skin editing, image modulation, meshless linear-elastic simulation, topology optimization, and Lattice Boltzmann CFD. It serves lightweighting, thermal management, metamaterials, mass customization, tooling, and bioengineering use cases across aerospace, automotive, and sports. Backed by HV Capital. Hyperganic does not publish a public developer API, SDK, or developer portal; this profile captures its public identity and web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperganic/refs/heads/main/screenshots/hyperganic-2026-07-25T221900.png",
+     "score": 15.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 37
     },
     {
      "name": "Chi Longevity",
@@ -756,7 +1645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 38
     },
     {
      "name": "Get",
@@ -801,7 +1690,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 39
     },
     {
      "name": "Youtrip",
@@ -845,7 +1734,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 40
     },
     {
      "name": "Propseller",
@@ -889,7 +1778,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 41
+    },
+    {
+     "name": "Clockster",
+     "slug": "clockster",
+     "description": "Clockster is a frontline staff-management super-app for food & beverage and retail businesses, consolidating attendance and time tracking, shift scheduling, automated payroll, earned wage access, business communication, tasks and checklists into a single mobile-first platform. Founded in 2018 and headquartered in Singapore with offices across Kazakhstan and Indonesia, Clockster serves more than 1,300 SMEs across Central and Southeast Asia — including brands such as KFC, Hardee's and Costa Coffee — and is backed by 500 Global, I2BF Global Ventures and Quest Ventures. It is delivered as iOS, Android and Huawei mobile apps plus a web console and currently exposes no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clockster/refs/heads/main/screenshots/clockster-2026-07-25T205643.png",
+     "score": 13.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 42
     },
     {
      "name": "Horizon Quantum Computing",
@@ -927,7 +1854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 43
     },
     {
      "name": "Caresense Pte. Ltd.",
@@ -972,7 +1899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 44
     },
     {
      "name": "BoxGreen",
@@ -1010,7 +1937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 45
     }
    ]
   },
@@ -1019,8 +1946,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 29,
-   "shown": 29,
+   "count": 55,
+   "shown": 55,
    "providers": [
     {
      "name": "Endowus",
@@ -1058,7 +1985,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 46
+    },
+    {
+     "name": "Datakrew",
+     "slug": "datakrew",
+     "description": "Datakrew is a Singapore-based deep-tech company, a spin-off from NTU Singapore supported by Enterprise Singapore, building EV battery intelligence, fleet management, and AI-driven telematics for logistics and delivery, public transport, vehicle OEMs, rental/leasing and shared mobility operators, and mining and construction fleets. Its integrated hardware, software, and AI stack spans the OxRed (MyFleet) fleet-management and intelligence platform, OxRed Lens camera-based visualization telematics, OxRed AutoCert automated certification and compliance, GuardianAI driver-safety and collision-warning analytics, the Ask OX natural-language fleet assistant, and the ITUS Max and ITUS AutoScan edge terminals for telemetry, CAN-bus integration, and vehicle diagnostics, all aimed at optimizing battery health, safety, and operational efficiency.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datakrew/refs/heads/main/screenshots/datakrew-2026-07-25T211338.png",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 47
     },
     {
      "name": "Finbots.AI",
@@ -1103,7 +2068,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 48
+    },
+    {
+     "name": "Healint",
+     "slug": "healint",
+     "description": "Healint is a Singapore-headquartered digital health company best known for Migraine Buddy, the world's largest migraine and headache tracking and research platform, used by more than three million people to log attacks, symptoms, triggers, medications, and treatment outcomes. The company applies machine learning, mobile sensor technologies, and analytics to help people manage migraine and other neurological conditions, and to generate real-world evidence for clinicians, researchers, and pharmaceutical partners. Healint and Migraine Buddy are now part of Aptar Digital Health, whose regulated companion apps, patient-support software, and drug-delivery platforms operate across more than 120 countries on HIPAA-compliant infrastructure. Healint does not currently publish a public developer API, SDK, or developer portal; this profile tracks its identity and public web surface in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/healint/refs/heads/main/screenshots/healint-2026-07-25T220833.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 49
     },
     {
      "name": "Zenyum",
@@ -1147,7 +2157,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 50
+    },
+    {
+     "name": "igloo",
+     "slug": "igloo",
+     "description": "Igloo is a full-stack insurtech firm headquartered in Singapore and operating across six Southeast Asian markets (Singapore, Indonesia, the Philippines, Thailand, Malaysia, and Vietnam). It makes insurance simple, accessible, and affordable by embedding coverage into the platforms consumers already use, working with 100+ partners across e-commerce, telecommunications, banking, logistics, and lifestyle (including Shopee, Foodpanda, GCash, AIS, and Siam Commercial Bank). Its product line spans motor, mobile phone, travel, pet, personal accident, cyber, loan protection, e-commerce purchase protection, and blockchain-powered weather-index insurance. Igloo also ships technology platforms for the insurance value chain: Igloo Agent (agency management), Igloo Consumer (direct-to-consumer marketplace), Igloo Partner (affinity distribution), Ignite (digital agent platform), and the Turbo Core insurance operations system. Integration is offered through a partner-facing API program rather than a public self-serve developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/igloo/refs/heads/main/screenshots/igloo-2026-07-25T222055.png",
+     "score": 11.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 51
     },
     {
      "name": "Apar Infotech Corporation",
@@ -1185,7 +2240,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 52
+    },
+    {
+     "name": "Circle Asia",
+     "slug": "circle-asia",
+     "description": "Circle Asia Technologies is a Singapore-headquartered consumer fintech (offices at 68 Circular Road, Singapore, and Ho Chi Minh City, Vietnam) behind the Circle app and the VPBank Circle PayLater credit card, a digital buy-now-pay-later card issued in partnership with Vietnam Prosperity Joint Stock Commercial Bank (VPBank). The product lets consumers onboard with only an ID and phone number, waives the lifetime annual fee, and pairs a physical and virtual card with AI-assisted expense management, spending limits, one-tap card lock, biometric (face/fingerprint) authentication, and real-time SMS/app transaction alerts. The company is PCI DSS v4.0.1 certified and Visa-compliant, ships native iOS and Android apps, and is backed by 500 Global. Circle Asia is a consumer application company with no public developer API; this profile captures its identity, security posture, and compliance claims for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/circle-asia/refs/heads/main/screenshots/circle-asia-2026-07-25T205403.png",
+     "score": 11.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 25.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 53
     },
     {
      "name": "Una Brands",
@@ -1222,7 +2322,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 54
+    },
+    {
+     "name": "TrustIQ",
+     "slug": "trustiq",
+     "description": "TrustIQ (operating as Trusting Social) is a Singapore-headquartered AI fintech that provides alternative-data credit scoring, fraud detection, and digital identity verification for lenders and consumer platforms across emerging Asian markets including India, Indonesia, Vietnam, and the Philippines. Its products — Trust Scores (AI credit and fraud scoring built from telco and alternative data), Trust Vision (facial-recognition digital onboarding and KYC), and Smart Customer Acquisition — help financial institutions extend credit to underbanked, new-to-credit consumers. Engagement is sales-led; the company publishes no public self-service API, SDK, or developer portal.",
+     "score": 10.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 55
     },
     {
      "name": "99.co",
@@ -1259,7 +2396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 56
     },
     {
      "name": "VaultDragon",
@@ -1303,7 +2440,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 57
+    },
+    {
+     "name": "EnerGaia",
+     "slug": "energaia",
+     "description": "EnerGaia is a spirulina producer, incorporated in Thailand in April 2009 and now headquartered in Singapore, that grows nutrient-dense microalgae in proprietary closed bioreactors rather than open ponds to deliver clean, consistent spirulina for food and beverage manufacturers. The company originated from research into using microalgae to capture industrial CO2 from power-plant flue gas and has since focused on making spirulina a mainstream, sustainable food ingredient. Its product line includes Fresh Spirulina Paste, Fresh-Frozen Spirulina, and Freeze-Dried Spirulina Powder, used in beverages, egg substitutes, noodles, meat replacements, pastas, and snacks. EnerGaia is a portfolio company of 500 Global. It publishes no public API, developer portal, or technical documentation; this profile is maintained as a company record in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energaia/refs/heads/main/screenshots/energaia-2026-07-25T213331.png",
+     "score": 10.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 58
     },
     {
      "name": "Grain",
@@ -1341,7 +2516,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 59
+    },
+    {
+     "name": "Tinvio",
+     "slug": "tinvio",
+     "description": "Tinvio is a Singapore-based B2B commerce and payments SaaS that helped merchants and their suppliers manage ordering, invoicing, and business payments across Southeast Asia. The company was backed by Partech. As of 2026 Tinvio has been integrated into Jaz (jaz.ai), an AI-powered accounting platform for modern businesses, and now operates as a feature within Jaz rather than as a standalone product; tinvio.com redirects to the Jaz landing page. Tinvio does not currently publish a public developer portal, API reference, SDK, CLI, or OpenAPI definition, so this profile captures the company identity and its live domain-security posture for the API Evangelist network rather than an API surface.",
+     "score": 10.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 60
     },
     {
      "name": "Terrascope",
@@ -1379,7 +2598,208 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 61
+    },
+    {
+     "name": "Pvx Partners",
+     "slug": "pvx-partners",
+     "description": "PvX Partners (PvX Partners Pte Ltd) is a Singapore-based fintech platform that provides non-dilutive, performance-based user-acquisition (UA) financing for mobile gaming and consumer app studios. Its PvX Capital product offers a flexible credit line covering up to 80% of monthly marketing spend with no equity dilution, term sheets within 24 hours, and funds within 30 days, secured by and repaid from funded user cohorts. PvX Lambda is a cohort intelligence engine offering cohort-based ROAS projections, benchmarking, and funding-eligibility analysis across 650+ apps and 14,500+ cohorts, and PvX Delta rounds out the analytics suite. The firm reports $1B+ in capital committed across 100+ client companies. Surfaced as a portfolio company of General Catalyst and profiled in the API Evangelist network; it publishes no public developer API at this time.",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 62
+    },
+    {
+     "name": "Abaxx",
+     "slug": "abaxx",
+     "description": "Abaxx Technologies is a financial software and market infrastructure company whose principal operating business, Abaxx Exchange, is a centrally-cleared commodity futures and derivatives exchange headquartered in Singapore and focused on energy-transition commodities across four markets: Energy (LNG), Environmental (carbon credits), Battery Materials (nickel, lithium), and Precious Metals. Abaxx Clearing (Abaxx Singapore Clearing Corporation) centrally clears the contracts, and the group also develops SMX (smart data / consensus-formation) technology. Trading runs on the markets.abaxx.exchange platform; market data is distributed to third parties including TradingView (ABAXX: symbol prefix), ipushpull (Microsoft Excel add-in) and LSEG/Refinitiv. Abaxx Technologies is publicly listed (Cboe Canada: ABXX; OTCQX: ABXXF). Abaxx does not currently publish a public developer portal, OpenAPI/FIX specification, SDKs or an MCP server; connectivity is arranged through member/broker onboarding. This profile originated as an earlybird portfolio lead in the API Evangelist network and has been enriched with verified public identity and security-posture signals.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/abaxx/refs/heads/main/screenshots/abaxx-2026-07-25T181337.png",
+     "score": 9.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 10.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 63
+    },
+    {
+     "name": "SuperGaming",
+     "slug": "supergaming",
+     "description": "SuperGaming is a Series B-funded game development studio building multiplayer games \"for the next billion players\" in emerging markets. Headquartered in Singapore with a studio in Pune, India, the company develops and operates titles including Indus (battle royale), Prime Rush, Prime Rush MENA, SHOWDOWN, MaskGun (110M+ installs), Tower Conquest, and Silly Royale. SuperGaming also runs SuperPlatform, a proprietary real-time multiplayer and live-ops engine that powers its own games and 15+ other titles, and offers publisher services such as co-development, LiveOps-as-a-service, localization, and user acquisition. As of this enrichment pass the company publishes no public developer API, SDK, or developer portal for external developers; SuperPlatform is an internal engine offered through partnerships rather than a self-serve API. This profile was surfaced as a portfolio company of a16z.",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 64
+    },
+    {
+     "name": "Sleek EV",
+     "slug": "sleek-ev",
+     "description": "Sleek EV (SLEEK EV) is a Thai-Singaporean electric motorcycle company founded in 2022, headquartered in Singapore with primary operations in Thailand. Under the mission \"Sustainability must be affordable,\" it builds accessible electric two-wheelers — the TYPE-S, TYPE-E and TYPE-X motorcycles and the SLEEK Play 1.0 urban scooter — powered by its S-DRIVE powertrain and IP67-rated lithium-ion batteries (via Ampace/CATL). It runs the S-Charge fast-charging network (100+ stations across Bangkok) and a SLEEK App for vehicle monitoring, route planning and station finding, sold through a nationwide dealer network. BOI-certified and backed by ORZON Ventures (OR + 500 TukTuks), January Capital, A2D Ventures and Krungsri Finnovate. This is a consumer product company with no public developer/API surface.",
+     "score": 9.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 13.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 65
+    },
+    {
+     "name": "Sea Group (Sea Limited)",
+     "slug": "sea-group",
+     "description": "Sea Limited is a Singapore-headquartered consumer internet holding company that operates three core businesses across Southeast Asia, Taiwan, and Latin America: Shopee (e-commerce), Garena (digital entertainment and game publishing), and SeaMoney / Monee (digital financial services including SeaBank, ShopeePay, and SPayLater). Sea Limited is publicly listed on the NYSE (ticker: SE). Sea does not publish a unified group-level developer API — each operating subsidiary maintains its own developer platform: Shopee Open Platform (open.shopee.com) for marketplace integrations, Garena for game-platform partners, and SeaMoney / ShopeePay for in-region payment integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sea-group/refs/heads/main/screenshots/sea-group-2026-06-20T193615.png",
+     "score": 8.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 66
     },
     {
      "name": "MyCash",
@@ -1423,7 +2843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 67
     },
     {
      "name": "SALARY HERO PTE. LTD",
@@ -1460,7 +2880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 68
     },
     {
      "name": "Ocean Network Express",
@@ -1498,7 +2918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 69
     },
     {
      "name": "Myhero",
@@ -1543,7 +2963,81 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 70
+    },
+    {
+     "name": "Novocall",
+     "slug": "novocall",
+     "description": "Novocall was a Singapore-based callback and lead-conversion SaaS (a click-to-call and callback-scheduling widget that turned website visitors into inbound phone calls and booked meetings), surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub for enrichment. It was acquired by Malaysian commerce platform EasyStore in March 2023, alongside sibling product NovoChat, and has been marketed since as \"Novocall, an EasyStore company\". As of the August 2026 enrichment pass every Novocall host is dead: the apex novocall.co keeps live email DNS (Google Workspace MX, SPF, DMARC quarantine, CAA) but has no A record at all, www.novocall.co, app.novocall.co and call.novocall.co — the widget/dashboard host hardcoded in Novocall's own WordPress plugin — all return a Cloudflare 530 (edge up, origin gone), help.novocall.co returns 429 with Cloudflare error 1027 (account daily request limit reached), getnovocall.com times out, and novocall.com is now an Afternic parked domain whose catch-all answers 200 with an HTML lander for every path including /openapi.json and /.well-known/agent-card.json. No API, specification, developer portal, .well-known document or documentation surface exists on any reachable host. The only first-party artifact Novocall ever published that survives is a WordPress callback-widget plugin, stuck at version 1.0.0 since 2019-04-08.",
+     "score": 6.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 6.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 71
+    },
+    {
+     "name": "Tradegecko",
+     "slug": "tradegecko",
+     "description": "TradeGecko was a Singapore-based cloud inventory and order management platform for SMEs, wholesalers, and online retailers, launched in 2013 with integrations into Shopify, WooCommerce, and Xero. Intuit acquired TradeGecko in August 2020 and rebranded it QuickBooks Commerce; the standalone platform and its public REST API were subsequently discontinued. Its API hosts no longer resolve and tradegecko.com is no longer operated by the company, though first-party Ruby client libraries remain published on RubyGems.",
+     "score": 6.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 72
     },
     {
      "name": "Hydroleap",
@@ -1581,7 +3075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 73
     },
     {
      "name": "PolicyPal",
@@ -1625,7 +3119,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 74
+    },
+    {
+     "name": "Ion Mobility",
+     "slug": "ion-mobility",
+     "description": "ION Mobility is a Singapore-headquartered technology and automotive company that designs and builds affordable, zero-emission smart electric motorcycles for riders across Southeast Asia, with its flagship M1-S model and a companion rider mobile app. The company combines advanced hardware and software with human-centred design, spanning electric two-wheelers and energy charging and storage solutions, with additional offices in Jakarta and Shenzhen and backing from investors including 500 Global. This API Evangelist profile tracks the company's public developer and identity surface; ION Mobility currently publishes no public developer API, SDKs, or OpenAPI specification, operating a consumer waitlist/test-ride site and an internal open-source tooling estate on GitHub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ion-mobility/refs/heads/main/screenshots/ion-mobility-2026-07-25T222820.png",
+     "score": 6.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 75
     },
     {
      "name": "Oddup",
@@ -1669,7 +3201,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 76
+    },
+    {
+     "name": "Volt14",
+     "slug": "volt14",
+     "description": "Volt14 Solutions Pte Ltd is a Singapore-based deep-tech startup developing silicon-majority anode materials for lithium-ion batteries. Its fully integrated, tunable, and ready-to-use anodes replace conventional graphite to deliver large gains in energy density and lower normalized cell cost, while remaining compatible with existing battery cell manufacturing infrastructure. Target application markets include electric vehicles, consumer electronics, appliances, and power tools. The company is a materials-science and battery-technology producer; it publishes a corporate and careers website but exposes no public developer or API product surface. Backed by 500 Global.",
+     "score": 5.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 77
     },
     {
      "name": "Krosslinker",
@@ -1707,7 +3283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 78
     },
     {
      "name": "Nugit",
@@ -1745,7 +3321,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 79
     },
     {
      "name": "Spenmo",
@@ -1789,7 +3365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 80
     },
     {
      "name": "Upcode Academy",
@@ -1826,7 +3402,127 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 81
+    },
+    {
+     "name": "Carro",
+     "slug": "carro",
+     "description": "Carro is a Singapore-headquartered used-car marketplace and automotive fintech platform, founded in 2015 and widely described as Southeast Asia's largest online used-car retailer. It operates a data-driven marketplace for buying and selling pre-owned vehicles across Singapore, Indonesia, Thailand, Malaysia and Japan, and pairs it with adjacent services: car financing (Genie Financial Services), motor insurance, aftersales servicing and workshops (Carro Care), and car subscription. Carro reached unicorn status in 2021 in a round led by SoftBank Vision Fund 2. It was added to the API Evangelist network as a portfolio company of SoftBank Vision Fund; as of this pass Carro publishes no public developer portal, API documentation, or machine-readable API definition, so this profile is company-identity only.",
+     "score": 5.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 9.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 82
+    },
+    {
+     "name": "Arcstone",
+     "slug": "arcstone",
+     "description": "Arcstone is a Singapore-based digital manufacturing technology company (founded 2013) that helps enterprises digitalize and gain real-time transparency across their shop floors and supply chains. Its product family spans arc.essentials (a lightweight Manufacturing Execution System for SMEs), arc.ops (a modular, next-generation MES for large enterprises), arc.net (multi-tier supply chain visibility), arc.studio (a low-code enterprise app and integration platform), arc.green (sustainability tracking), and arc.ai (an AI control tower for managed AI workforce deployment). Arcstone serves precision engineering, FMCG, mining, semiconductor, plastics, and biomedical manufacturers, and was named a Gartner Cool Vendor in Manufacturing Operations in 2022. The company is backed by 500 Global. No public API, developer portal, or SDKs are published at this time; this profile carries the identity and infrastructure signals harvested by the API Evangelist enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arcstone/refs/heads/main/screenshots/arcstone-2026-07-25T201100.png",
+     "score": 5.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 83
+    },
+    {
+     "name": "Atomionics",
+     "slug": "atomionics",
+     "description": "Atomionics is a Singapore-based deep-technology company, founded in 2018, that builds quantum sensors for mineral resource exploration and GPS-free navigation. Its Gravio quantum-grade gravity-sensing platform uses cold-atom interferometry to measure tiny gravitational changes and map the Earth's subsurface at high resolution, and its ORE-O AI geologist visualizes complex geologies and mineral deposits in 3D to accelerate exploration for energy-transition resources such as copper, lithium, nickel, graphite and rare earth elements. The company does not currently publish a public API or developer platform; this profile tracks its identity and public web surface within the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atomionics/refs/heads/main/screenshots/atomionics-2026-07-25T201614.png",
+     "score": 5.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 84
     },
     {
      "name": "DocDoc",
@@ -1871,7 +3567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 85
     },
     {
      "name": "Movel AI",
@@ -1909,7 +3605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 86
     },
     {
      "name": "Rawsome Pte. Ltd.",
@@ -1953,7 +3649,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 87
+    },
+    {
+     "name": "abillion",
+     "slug": "abillion",
+     "description": "abillion was a Singapore-based social platform and mobile app for discovering and reviewing vegan, sustainable, and cruelty-free products across food, beauty, and fashion, pairing a large consumer review community with a rewards model that converted member reviews into donations to non-profits and animal sanctuaries. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network as an enrichment lead. NOTE: as of July 2026 the abillion platform has officially shut down (\"abillion is closing its doors\"); the public site serves only a farewell notice and states member data is archived for six months before permanent deletion. No public developer program, API, or discovery surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/abillion/refs/heads/main/screenshots/abillion-2026-07-25T181346.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 88
     },
     {
      "name": "Aliena",
@@ -1991,7 +3725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 89
     },
     {
      "name": "Bilimber Pte. Ltd.",
@@ -2028,7 +3762,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 90
+    },
+    {
+     "name": "Carousell",
+     "slug": "carousell",
+     "description": "Carousell is a Singapore-headquartered classifieds and recommerce marketplace founded in 2012 that lets people buy and sell secondhand and new goods, cars, and property across Southeast Asia, Hong Kong, and Taiwan. The Carousell Group operates a family of consumer marketplace brands including Carousell, Cho Tot, Mudah, OneShift, Laku6, Refash, and Ox Street, spanning general classifieds, automotive, and recommerce verticals. Carousell was added to the API Evangelist network as a portfolio-company lead; it is a consumer marketplace with no publicly documented developer API surface at this time.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 91
     },
     {
      "name": "ESPL",
@@ -2065,7 +3836,81 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 92
+    },
+    {
+     "name": "FireVisor",
+     "slug": "firevisor",
+     "description": "FireVisor is an AI-based manufacturing analytics platform that helps manufacturers leverage their production data beyond traditional defect detection and process control methods. Founded in 2018 and headquartered in Singapore (with a secondary office in Toronto, Canada), FireVisor works toward \"self-aware factories powered by artificial intelligence,\" applying machine learning to manufacturing and industrial-automation data. It is a 500 Global portfolio company. As of this profile the public firevisor.com site returns a 404 from its load balancer and exposes no public API, developer portal, or documentation.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 93
+    },
+    {
+     "name": "Glints",
+     "slug": "glints",
+     "description": "Glints is a talent recruitment and career development platform headquartered in Singapore and operating across Southeast Asia, including Indonesia, Vietnam, Malaysia, Taiwan and the Philippines. Founded in 2013, it runs an online job marketplace connecting job seekers with employers, a curated headhunting service (TalentHunt), and a cross-border managed-talent / remote-hiring offering that lets companies build and employ distributed teams across the region. Glints also publishes career resources and expert classes. It is one of the largest talent ecosystems in Southeast Asia and is backed by investors including DCM Ventures, Monk's Hill Ventures and PERSOL. This API Evangelist profile was added as a portfolio-company lead; Glints exposes no public developer API at this time.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 94
     },
     {
      "name": "NodeFlair",
@@ -2103,7 +3948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 95
     },
     {
      "name": "WorkClass",
@@ -2140,7 +3985,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 96
+    },
+    {
+     "name": "Altonomy",
+     "slug": "altonomy",
+     "description": "Altonomy is a digital-asset trading, market-making, and OTC firm founded in 2018 and headquartered in Singapore, with additional offices in New York City and Shenzhen. The firm provides 24/7 over-the-counter transaction services for crypto-to-fiat and crypto-to-crypto trades, deep liquidity coverage for illiquid tokens, and institutional-grade advisory and asset-management solutions across proprietary trading, mining, and venture capital. Its proprietary Hybrid IQ methodology pairs discretionary crypto-market experience with market-making algorithms to deliver order-book depth and tight spreads. Altonomy is also a data provider to the Pyth Network. In 2022, Blockchain.com acquired Altonomy's OTC trading desk; Altonomy continues to operate its other lines of business. Altonomy publishes no public developer API or documentation surface; this profile is a company/provider identity record in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/altonomy/refs/heads/main/screenshots/altonomy-2026-07-25T195837.png",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 97
     },
     {
      "name": "Call Levels",
@@ -2185,7 +4075,95 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 98
+    },
+    {
+     "name": "Enya",
+     "slug": "enya",
+     "description": "Enya is a Singapore-based sustainable period-care consumer brand backed by 500 Global (500 Southeast Asia) and Crusade Partners. Founded by Christian Teo, Enya sells certified organic cotton sanitary pads, liners, tampons, menstrual cups, period underwear and heating patches direct-to-consumer and via subscription (15/30/45/90-day cadence) across Singapore, Asia and the Middle East, through its enya.sg storefront, Shopee and retail partners such as DKSH. It is a consumer packaged-goods / e-commerce business with no public API, developer portal, or programmatic surface.",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 99
+    },
+    {
+     "name": "Poko",
+     "slug": "poko",
+     "description": "Poko was a Singapore-based fintech that built a fiat-to-crypto on-ramp aggregator for Web3 businesses — wallets, wallet-as-a-service providers, marketplaces, dApps, and games. Its product connected 100+ local and international payment methods with local KYC and smart routing so global users could buy crypto or pay for NFTs with familiar local payment rails, exposed to developers via SDKs (including a React Native SDK) and a Dashboard API. Backed by 500 Global, ADB Ventures, Amasia, CE Innovation Capital, and CreditEase, Poko was acquired by Web3Auth (Torus Labs) in October 2023 and its on-ramp aggregator continues under the Web3Auth brand. The original Poko developer surface is no longer operational: the pokoapp.xyz domain is now parked/for sale and the docs.pokoapp.xyz documentation host has been deprovisioned.",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 100
     }
    ]
   },
@@ -2202,7 +4180,7 @@
      "slug": "hillhouse",
      "description": "Hillhouse Investment (formerly Hillhouse Capital) is a global investment firm founded in 2005 by Lei Zhang with seed capital from the Yale University endowment, and is one of Asia's largest private-market investors, managing an estimated US$100 billion in assets as of 2026. Headquartered in Singapore with offices in Hong Kong, Beijing, Shanghai, New York, London, and Abu Dhabi, the firm invests globally across all stages of a company's life cycle, spanning public equities, growth equity, private equity buyouts, venture capital (through its early-stage arm GL Ventures, launched in 2020), and real assets. Hillhouse describes itself as disciplined and pragmatic investors who prioritize business fundamentals and deep, bottom-up industry research, with sector focus on healthcare, industrials, energy transition, business services, and consumer. Its portfolio spans companies headquartered in more than 25 countries and has included category-defining businesses such as Tencent, JD.com, Baidu, Zoom, BeiGene, Miniso, Airbnb, Uber, and Didi. Backers have historically included major university endowments (Yale, Stanford, Princeton, MIT, University of Pennsylvania, University of Texas) and CPPIB.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hillhouse/refs/heads/main/screenshots/hillhouse-2026-07-25T221225.png",
-     "rank": 53
+     "rank": 101
     }
    ]
   }

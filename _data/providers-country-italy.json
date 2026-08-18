@@ -1,6 +1,6 @@
 {
- "total": 40,
- "shown": 40,
+ "total": 41,
+ "shown": 41,
  "limit": 1000,
  "bands": [
   {
@@ -1007,8 +1007,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 18,
-   "shown": 18,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Brumbrum",
@@ -1717,6 +1717,44 @@
      "rank": 38
     },
     {
+     "name": "Involve Space",
+     "slug": "involve-space",
+     "description": "Involve Space is an Italian stratospheric aerospace company building real-time Earth intelligence. It operates autonomous high-altitude balloon platforms (Stratostats) that loiter around 20 kilometers for hours, days, or weeks to deliver continuous, high-resolution Earth observation, bridging the gap between satellites, drones, and ground sensors. Its Neurostar AI flight software autonomously controls individual balloons and networks of them (LoonHive), while the CLEAR GeoAI platform turns captured imagery into geospatial insights for disaster response, infrastructure and environmental monitoring, security, and in-orbit-demonstration / payload validation. A certified B Corporation headquartered in Italy with U.S. operations at the Houston Spaceport, Involve Space is backed by Earlybird Venture Capital, CDP Venture Capital, and an EIC Accelerator grant.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/involve-space/refs/heads/main/screenshots/involve-space-2026-07-25T222804.png",
+     "score": 8.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 39
+    },
+    {
      "name": "Alba Robot",
      "slug": "alba-robot",
      "description": "ALBA Robot is a Turin, Italy based autonomous micro-mobility company building a fleet of self-driving robots for indoor and pedestrian spaces such as airports, hospitals, and large facilities. Its product line includes ALBA One, ALBA Ride, ALBA Ride +, and the ALBA Caddie autonomous baggage transport robot, and it layers digital services such as Digital Twins and Digital Out-of-Home (DOOH) advertising on top of the mobility platform. ALBA Robot runs pilots and deployments with airports including Cagliari, London Gatwick, Dallas, Milan, Turin, and Dubai (with dnata), and operates from Turin with a US presence in Detroit, Michigan. Surfaced as a Techstars portfolio company and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, developer portal, OpenAPI, SDKs, or GitHub organization; it is a hardware/robotics fleet operator rather than an API provider.",
@@ -1752,7 +1790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Tutornow",
@@ -1789,7 +1827,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     }
    ]
   }

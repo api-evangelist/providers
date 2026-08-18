@@ -1,6 +1,6 @@
 {
- "total": 38,
- "shown": 38,
+ "total": 40,
+ "shown": 40,
  "limit": 1000,
  "bands": [
   {
@@ -583,8 +583,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Juni",
@@ -929,6 +929,44 @@
       "dry_run_mode": false
      },
      "rank": 21
+    },
+    {
+     "name": "Jays",
+     "slug": "jays",
+     "description": "JAYS is a Swedish consumer audio brand founded in 2006 by Jens and Johan, headquartered in Sweden and owned by the Northbaze Group AB. It designs and sells wireless and wired headphones, true-wireless earbuds, Bluetooth and multiroom speakers, and audio accessories, sold direct-to-consumer through a Shopify storefront at jaysheadphones.com. JAYS publishes no first-party developer API; its only machine-accessible surface is the Shopify-provided agent-commerce layer: a Universal Commerce Protocol (UCP) merchant profile with a hosted MCP shopping endpoint, Customer Account OpenID Connect / OAuth discovery documents, and an llms.txt. This profile was surfaced as a Creandum portfolio/commitment lead and enriched by the API Evangelist pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jays/refs/heads/main/screenshots/jays-2026-08-07T170955.png",
+     "score": 13.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 22
     }
    ]
   },
@@ -937,8 +975,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 16,
-   "shown": 16,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Hedvig",
@@ -983,7 +1021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Matsmart",
@@ -1021,7 +1059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Essity",
@@ -1066,7 +1104,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "iControl",
@@ -1104,7 +1142,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Anyfin",
@@ -1142,7 +1180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Stockeld Dreamery",
@@ -1179,7 +1217,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
+    },
+    {
+     "name": "Normative",
+     "slug": "normative-io",
+     "description": "Normative is a Stockholm, Sweden-based carbon accounting and ESG reporting software company helping enterprises measure, report, and reduce their greenhouse gas emissions across scopes 1, 2, and 3. Its platform combines a library of more than 349,000 region- and sector-specific emission factors with workflows for product carbon footprint (PCF), supply chain engagement, Science Based Targets initiative (SBTi) target setting, Corporate Sustainability Reporting Directive (CSRD) disclosure, and Carbon Border Adjustment Mechanism (CBAM) reporting. Calculations are built to the GHG Protocol and independently verified by TÜV SÜD against ISO/IEC 25051. Customers include Vodafone, Hertz, Hitachi Rail, and Flying Tiger Copenhagen, and every account is paired with a named, GHG Protocol-certified Climate Strategy Advisor rather than a traditional support helpdesk. The company's revenue model is enterprise SaaS subscriptions plus advisory services; Normative does not publish a public developer API, SDK, or open-source release, and its GitHub organization (normative-io) currently exposes no public repositories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/normative-io/refs/heads/main/screenshots/normative-io-2026-06-20T190412.png",
+     "score": 9.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 29
     },
     {
      "name": "Buildcheck",
@@ -1217,7 +1293,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "Edgeware",
@@ -1255,7 +1331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "Ericsson",
@@ -1300,7 +1376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "Mathem",
@@ -1338,7 +1414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "Bluebook",
@@ -1375,7 +1451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "Acne Studios",
@@ -1413,7 +1489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 35
     },
     {
      "name": "Cult of the North",
@@ -1450,7 +1526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 36
     },
     {
      "name": "Na Kd",
@@ -1488,7 +1564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 37
     },
     {
      "name": "Tenet Industries",
@@ -1525,7 +1601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 38
     },
     {
      "name": "Norstel",
@@ -1569,7 +1645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 39
     }
    ]
   },
@@ -1586,7 +1662,7 @@
      "slug": "creandum",
      "description": "Creandum is a leading European early-stage venture capital firm founded in 2003 by Staffan Helgesson and headquartered in Stockholm, Sweden, with additional offices in Berlin, London, and San Francisco. The firm backs founders building global, category-defining technology companies from seed to IPO and beyond, with its tagline \"we back the companies of tomorrow before it's obvious.\" Creandum invests across software and SaaS, artificial intelligence, fintech, consumer, marketplaces, developer tools, and infrastructure, primarily across Europe with a growing US presence. Typical investment checks range from roughly $200K to $10M, and the firm manages around $2B in assets, having closed a €500M fund to back European early-stage startups. Its portfolio of 150+ companies includes some of Europe's most successful tech businesses such as Spotify, Klarna, Depop, Trade Republic, Pleo, Neo4j, iZettle, Bolt, Kry/Livi, Lovable, and Navan. This profile tracks Creandum's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/creandum/refs/heads/main/screenshots/creandum-2026-07-25T210703.png",
-     "rank": 38
+     "rank": 40
     }
    ]
   }

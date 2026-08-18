@@ -376,6 +376,7 @@
      "name": "ACORD",
      "slug": "acord",
      "description": "ACORD is a global standards-setting body for the insurance industry, providing data standards, reference architecture, and digital tools that enable insurers, brokers, and software providers to exchange information.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/screenshots/acord-2026-08-17T121359.png",
      "score": 47.8,
      "band": "developing",
      "band_label": "Developing",

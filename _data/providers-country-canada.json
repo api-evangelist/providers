@@ -1,6 +1,6 @@
 {
- "total": 165,
- "shown": 165,
+ "total": 169,
+ "shown": 169,
  "limit": 1000,
  "bands": [
   {
@@ -997,8 +997,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 32,
-   "shown": 32,
+   "count": 33,
+   "shown": 33,
    "providers": [
     {
      "name": "TMX Group",
@@ -1173,6 +1173,44 @@
      "rank": 26
     },
     {
+     "name": "Certn",
+     "slug": "certn",
+     "description": "Certn is a Canada-based, globally operating background check and identity verification platform. Its RESTful API lets HR, property management, gig, and marketplace platforms order and retrieve criminal record checks, identity verification, credit, employment, education, credential, and reference checks across 200+ countries, then receive results and adjudicated reports. The API authenticates with OAuth 2.0 client credentials (Client ID / Client Secret exchanged for a Bearer token) and pushes status updates via signed webhooks. The original api.certn.co v1 REST API is deprecated (discontinued 2026-08-05) in favor of the newer CertnCentric APIs; both are modeled here honestly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/screenshots/certn-2026-07-25T205011.png",
+     "score": 39.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 60.7,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 27
+    },
+    {
      "name": "WestJet",
      "slug": "westjet",
      "description": "WestJet Airlines Ltd. is Canada's second-largest air carrier, headquartered in Calgary, Alberta, operating scheduled passenger service to more than 100 destinations across Canada, the United States, Mexico, Central America, the Caribbean, Europe and Asia, alongside WestJet Encore, WestJet Vacations, WestJet Cargo and the Sunwing Vacations Group. In the distribution chain WestJet sits upstream of the agency channel: its inventory reaches travel sellers today through EDIFACT in the Amadeus, Sabre and Travelport GDSs, and it is standing up an IATA NDC surface (schema 17.2 and 21.3/24.1) built and hosted on Accelya's FLX/Farelogix platform, with a stated Q4 2026 rollout. Its API posture is honest but closed: there is no public developer portal, no self-serve signup, no OpenAPI or WSDL and no consumer API. The WestJet Direct Connect API is documented only as a public capability matrix at westjetndc.com, and access requires an IATA or ARC accreditation number (TIDS is explicitly not supported), a business-type and sales-volume qualification form, and WestJet approval. Agency booking through WestJet Agent Direct likewise requires an IATA/TIDS/ARC number and a five-to-ten business day review. There is no bulk export for agency or booking data; guest data comes out only via a verbally authenticated PIPEDA-style \"Guest information report\" request.",
@@ -1207,7 +1245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Scotiabank",
@@ -1252,7 +1290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Canada Health Infoway",
@@ -1297,7 +1335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "McGill University",
@@ -1342,7 +1380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "AESO",
@@ -1387,7 +1425,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "REALTOR.ca",
@@ -1424,7 +1462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Ontario Energy Board",
@@ -1469,7 +1507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Loon Finance",
@@ -1514,7 +1552,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "University of British Columbia",
@@ -1559,7 +1597,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Flinks",
@@ -1604,7 +1642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "EPCOR",
@@ -1649,7 +1687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Hydro Ottawa",
@@ -1694,7 +1732,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Toronto Hydro",
@@ -1738,7 +1776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "HouseSigma",
@@ -1776,7 +1814,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Queen's University at Kingston",
@@ -1821,7 +1859,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "ATCO",
@@ -1866,7 +1904,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "FLO",
@@ -1911,7 +1949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Teranet",
@@ -1955,7 +1993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Université de Montréal",
@@ -2000,7 +2038,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Wahi",
@@ -2044,7 +2082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "BMO Financial Group",
@@ -2089,7 +2127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Manitoba Hydro",
@@ -2134,7 +2172,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "humi.ca",
@@ -2172,7 +2210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "VRIFY",
@@ -2209,7 +2247,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Interac",
@@ -2254,7 +2292,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Wawanesa Insurance",
@@ -2298,7 +2336,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Hydro One",
@@ -2343,7 +2381,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Shakepay",
@@ -2387,7 +2425,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     }
    ]
   },
@@ -2442,7 +2480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Alectra Utilities",
@@ -2487,7 +2525,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Canada Energy Regulator",
@@ -2532,7 +2570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Nesto",
@@ -2577,7 +2615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "TELUS Health",
@@ -2621,7 +2659,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "SaskPower",
@@ -2665,7 +2703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "VIA Rail Canada",
@@ -2709,7 +2747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "RE/MAX Canada",
@@ -2753,7 +2791,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Blue Cross Canada",
@@ -2797,7 +2835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "ENMAX",
@@ -2842,7 +2880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Steinbach Credit Union",
@@ -2886,7 +2924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Definity Financial",
@@ -2931,7 +2969,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "NERC",
@@ -2976,7 +3014,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "CAA Insurance",
@@ -3021,7 +3059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Wealthsimple",
@@ -3065,7 +3103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "The Co-operators",
@@ -3110,7 +3148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "OSCAR EMR",
@@ -3155,7 +3193,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Maple",
@@ -3200,7 +3238,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Plooto",
@@ -3244,7 +3282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Transport Canada",
@@ -3288,7 +3326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "BC Hydro",
@@ -3333,7 +3371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Royal Bank of Canada",
@@ -3377,7 +3415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Transat",
@@ -3414,7 +3452,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Peoples Group",
@@ -3458,7 +3496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Trufla",
@@ -3502,7 +3540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Finaeo",
@@ -3546,7 +3584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Nova Scotia Power",
@@ -3591,7 +3629,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "McMaster University",
@@ -3629,7 +3667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Rentals.ca",
@@ -3673,7 +3711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "University of Ottawa",
@@ -3711,7 +3749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "WELL Health Technologies",
@@ -3755,7 +3793,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Western University",
@@ -3793,7 +3831,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "FortisBC",
@@ -3838,7 +3876,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "KOHO",
@@ -3882,7 +3920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Royal LePage",
@@ -3926,7 +3964,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "University of Toronto",
@@ -3971,7 +4009,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "Yukon Open Data",
@@ -4016,7 +4054,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Alterna Savings",
@@ -4061,7 +4099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Flight Network",
@@ -4099,7 +4137,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Dialogue",
@@ -4144,7 +4182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Canadian Tire Bank",
@@ -4189,7 +4227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Coast Capital Savings",
@@ -4234,7 +4272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Donnees Quebec",
@@ -4279,7 +4317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Intact Financial",
@@ -4323,7 +4361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "connectFirst Credit Union",
@@ -4368,7 +4406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Alberta",
@@ -4413,7 +4451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "BC Data Catalogue",
@@ -4458,7 +4496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "British Columbia (DataBC)",
@@ -4503,7 +4541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "City of Toronto Open Data",
@@ -4548,7 +4586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Donnees Ouvertes Montreal",
@@ -4593,7 +4631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Gouvernement ouvert Canada (FR)",
@@ -4638,7 +4676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Montréal, Québec",
@@ -4683,7 +4721,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Niagara Open Data",
@@ -4728,7 +4766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Ontario Data Catalogue",
@@ -4773,7 +4811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Open Government Canada",
@@ -4818,7 +4856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Tia Health",
@@ -4862,7 +4900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Vancity Community Investment Bank",
@@ -4906,7 +4944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Brim Financial",
@@ -4951,7 +4989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Zensurance",
@@ -4995,7 +5033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Sonnet Insurance",
@@ -5039,7 +5077,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Cortico",
@@ -5084,7 +5122,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Desjardins Group",
@@ -5129,7 +5167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Goose Insurance",
@@ -5174,7 +5212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Onlia",
@@ -5219,7 +5257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Porter Airlines",
@@ -5256,7 +5294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Tangerine",
@@ -5300,7 +5338,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Zolo",
@@ -5337,7 +5375,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Conexus Credit Union",
@@ -5382,7 +5420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "PC Financial",
@@ -5427,7 +5465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "CIBC",
@@ -5472,7 +5510,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Dominion Dynamics",
@@ -5517,7 +5555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Paperstack",
@@ -5555,7 +5593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Pine",
@@ -5592,7 +5630,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "Equitable Bank",
@@ -5637,7 +5675,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "General Fusion",
@@ -5682,7 +5720,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 130
     }
    ]
   },
@@ -5691,8 +5729,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 35,
-   "shown": 35,
+   "count": 38,
+   "shown": 38,
    "providers": [
     {
      "name": "Citibank Canada",
@@ -5737,7 +5775,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Remitbee",
@@ -5781,7 +5819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Affinity Credit Union",
@@ -5826,7 +5864,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Laurentian Bank of Canada",
@@ -5871,7 +5909,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Bridgewater Bank",
@@ -5916,7 +5954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Simplii Financial",
@@ -5960,7 +5998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Alexi",
@@ -5998,7 +6036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "BitAccess",
@@ -6043,7 +6081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Servus Credit Union",
@@ -6087,7 +6125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Century 21 Canada",
@@ -6132,7 +6170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Neo Financial",
@@ -6177,7 +6215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Meridian Credit Union",
@@ -6222,7 +6260,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "National Bank of Canada",
@@ -6267,7 +6305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "First Nations Bank of Canada",
@@ -6312,7 +6350,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Amex Bank of Canada",
@@ -6357,7 +6395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "B2B Bank",
@@ -6402,7 +6440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Clutch Canada",
@@ -6439,7 +6477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "1QBit",
@@ -6477,7 +6515,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Home Trust",
@@ -6522,7 +6560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "ATB Financial",
@@ -6567,7 +6605,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
+    },
+    {
+     "name": "Gandeeva",
+     "slug": "gandeeva",
+     "description": "Gandeeva Therapeutics is a Vancouver, Canada-based precision-medicine and drug-discovery company that combines cryogenic electron microscopy (cryo-EM) with artificial intelligence and machine learning to visualize druggable transient protein-protein interactions at atomic resolution and design first-in-class molecular glues and engineered antibodies. Its structure-guided platform spans target prediction and validation (SPOTLIGHT), hit identification across virtual and fragment libraries (HYPERFOCUS), and cryo-EM-driven lead optimization (CRYO-CADD), with an oncology-focused pipeline of proximity-inducing small molecules. The company raised a $40M Series A and has run cryo-EM research collaborations with partners including Moderna and Zymeworks. Gandeeva is a private biotechnology company and does not publish a public developer API; this profile is maintained in the API Evangelist network as a company/portfolio record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gandeeva/refs/heads/main/screenshots/gandeeva-2026-07-25T215436.png",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 151
     },
     {
      "name": "Resolute Forest Products",
@@ -6605,7 +6681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 152
     },
     {
      "name": "Pomelo Health",
@@ -6649,7 +6725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 153
     },
     {
      "name": "Breathe Life",
@@ -6694,7 +6770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 154
     },
     {
      "name": "Aspect Biosystems",
@@ -6739,7 +6815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 155
     },
     {
      "name": "TD Bank Group",
@@ -6783,7 +6859,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 156
     },
     {
      "name": "Prospera Credit Union",
@@ -6827,7 +6903,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 157
+    },
+    {
+     "name": "Rubric Labs",
+     "slug": "rubric-ai",
+     "description": "Rubric Labs is an applied AI lab based in Canada that helps companies build and ship intelligent, agent-powered applications. Rather than selling a public API product, Rubric Labs operates as an engineering partner and maintains open-source tooling for AI-first development, including create-rubric-app (a full-stack AI project scaffold inspired by create-next-app), maige (open-source infrastructure for running natural-language workflows on your codebase), and tokenmaxx (a local proxy that aggregates LLM token usage across Codex and Claude Code accounts). The team partners with companies such as Cal.com and Trigger.dev, works with Neon, Vercel, and LangChain, and publishes engineering writing on its blog. As of this profile there is no self-service developer API, hosted API reference, SDK, or pricing surface to score — this is a services and open-source lab, not an API provider.",
+     "score": 8.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 158
     },
     {
      "name": "Skipthedishes",
@@ -6864,7 +6977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 159
     },
     {
      "name": "Airborne Entertainment",
@@ -6902,7 +7015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 160
     },
     {
      "name": "Properly",
@@ -6939,7 +7052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 161
     },
     {
      "name": "Vancity",
@@ -6983,7 +7096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 162
     },
     {
      "name": "Canadian Western Bank",
@@ -7028,7 +7141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 163
     },
     {
      "name": "First West Credit Union",
@@ -7073,7 +7186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 164
     },
     {
      "name": "WayPay",
@@ -7117,7 +7230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 165
     },
     {
      "name": "Manulife Bank",
@@ -7162,7 +7275,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 166
+    },
+    {
+     "name": "Cmd *",
+     "slug": "cmd",
+     "description": "Cmd was a Vancouver, Canada-based cybersecurity startup founded in 2016 that built runtime security and observability purpose-built for Linux infrastructure, giving security and DevOps teams real-time visibility and policy-based control over user activity across cloud workloads. Backed by GV (Google Ventures), which led its $15M Series B in 2019, Cmd raised roughly $21.6M total before being acquired by Elastic in August 2021, where its technology was folded into the Elastic Security cloud workload protection and Limitless XDR offering. Co-founders Jake King (CSO) and Santosh Krishan joined Elastic through the acquisition. Cmd no longer operates as an independent company and publishes no live API, developer portal, or public API surface; this profile is retained as an acquired-company record in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cmd/refs/heads/main/screenshots/cmd-2026-07-25T205753.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 167
     },
     {
      "name": "Smart Reno",
@@ -7199,7 +7350,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 168
     }
    ]
   },
@@ -7215,7 +7366,7 @@
      "name": "Version One Ventures",
      "slug": "version-one-ventures",
      "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.",
-     "rank": 165
+     "rank": 169
     }
    ]
   }

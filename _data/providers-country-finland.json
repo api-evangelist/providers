@@ -1,6 +1,6 @@
 {
- "total": 15,
- "shown": 15,
+ "total": 18,
+ "shown": 18,
  "limit": 1000,
  "bands": [
   {
@@ -161,6 +161,54 @@
    "open": true
   },
   {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "DataCrunch",
+     "slug": "datacrunch",
+     "description": "DataCrunch is a European (Finland-based) GPU cloud offering on-demand and reserved NVIDIA GPU instances (H200, H100, B200, A100, L40S, V100) plus a serverless inference and container deployment platform. Its REST API at https://api.datacrunch.io/v1 uses OAuth2 client-credentials to issue Bearer tokens and exposes instances, instance types, availability, images, SSH keys, startup scripts, volumes, balance, and serverless containers, with an OpenAI-compatible inference endpoint for deployed models.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/screenshots/datacrunch-2026-07-25T211313.png",
+     "score": 38.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 55.0,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 4
+    }
+   ]
+  },
+  {
    "band": "emerging",
    "label": "Emerging",
    "range": "13 – 27.9",
@@ -211,7 +259,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "University of Helsinki",
@@ -256,7 +304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Avoindata.fi",
@@ -301,7 +349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "KNL",
@@ -339,7 +387,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     }
    ]
   },
@@ -348,8 +396,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 8,
-   "shown": 8,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "Playsome",
@@ -386,7 +434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Futureplay",
@@ -424,7 +472,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Rovio Entertainment",
@@ -461,7 +509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "BIT ODD",
@@ -498,7 +546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Huuva",
@@ -536,7 +584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Kuva Space",
@@ -574,7 +622,89 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
+    },
+    {
+     "name": "Cencorp",
+     "slug": "cencorp",
+     "description": "Cencorp (Zhuhai) Industrial Technology Co., Ltd. is a process-automation equipment manufacturer that designs and builds high-end laser processing, dispensing, automated optical inspection (AOI), and system-integration & automation systems for the consumer electronics, automotive electronics, semiconductor, and new-energy industries. Formed in 2020 and combining the acquired Finland-based Cencorp automation business with operations headquartered in Zhuhai, China, the company runs 12 offices worldwide with 400+ R&D engineers and 300+ patents, and is a portfolio company of Qiming Venture Partners. It exposes no public developer API, SDK, or developer portal — this is a physical automation-equipment business.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cencorp/refs/heads/main/screenshots/cencorp-2026-07-25T204928.png",
+     "score": 5.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "Curious Ai",
+     "slug": "curious-ai",
+     "description": "The Curious AI Company was a Helsinki, Finland-based artificial intelligence research company founded in 2015 by Harri Valpola (previously founder of ZenRobotics) along with Antti Rasmus, Mathias Berglund, Tapani Raiko, and Timo Haanpaa. The company pursued artificial general intelligence, real-world computer vision for robots, and interactive, autonomous, and semi-supervised machine learning, and is best known for foundational research on Ladder Networks for semi-supervised deep learning. It raised roughly 4.7M USD from investors including DCVC, Lifeline Ventures, and Invus, and was acquired by Apple in January 2021. The company no longer operates as an independent entity and publishes no public developer platform, API, documentation, or SDKs. This record is retained as a DCVC portfolio identity profile; there is no active API surface to enrich.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 16
     },
     {
      "name": "Kodit.io",
@@ -611,7 +741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 17
     },
     {
      "name": "Small Giant Games",
@@ -648,7 +778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 18
     }
    ]
   }

@@ -1,6 +1,6 @@
 {
- "total": 12,
- "shown": 12,
+ "total": 13,
+ "shown": 13,
  "limit": 1000,
  "bands": [
   {
@@ -8,9 +8,47 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "Opera",
+     "slug": "opera",
+     "description": "Opera is the Norway-based, Nasdaq-listed (OPRA) maker of the Opera, Opera GX, Opera Air, Opera Mini and Opera Neon web browsers, and the operator of the Opera Ads advertising and monetization platform. Opera Ads exposes six documented HTTP APIs: an advertiser Report API for daily campaign performance, a publisher Inventory Management API for apps and placements, a publisher OFP Report API for revenue and delivery, an ADX DSP Report API for exchange performance, a server-to-server Marketing API for conversion postbacks, and a TUS 1.0.0 resumable File Upload API. Around them sit Android and iOS ad SDKs with mediation adapters for AdMob, AppLovin MAX, TopOn, TradPlus and LevelPlay, an OpenRTB/ADX exchange with Prebid.js and Prebid Server adapters, a web JS ad tag, first-party Go OpenRTB and VAST libraries, and the self-serve Opera Ad Manager console. Authentication differs per API — bearer token, token query parameter, X-API-Key or HMAC signature — and every credential is issued by contacting Opera Ads.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png",
+     "score": 55.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 59.7,
+      "governance": 11.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 48.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
     {
      "name": "Yr",
      "slug": "yr-no",
@@ -54,7 +92,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1
+     "rank": 2
     }
    ],
    "open": true
@@ -110,7 +148,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "Aquabyte",
@@ -148,7 +186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "itslearning",
@@ -186,7 +224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Autopay",
@@ -231,7 +269,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     }
    ],
    "open": true
@@ -280,7 +318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Funcom",
@@ -318,7 +356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Villoid",
@@ -355,7 +393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Nextgentel",
@@ -400,7 +438,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Dimeq",
@@ -438,7 +476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Energy Micro",
@@ -476,7 +514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Mamut",
@@ -513,7 +551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     }
    ]
   }

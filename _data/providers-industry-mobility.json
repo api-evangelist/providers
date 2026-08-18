@@ -3275,6 +3275,7 @@
      "name": "Sheeva",
      "slug": "sheeva",
      "description": "Sheeva.AI (legally Parkofon Inc.) builds transaction infrastructure for connected vehicles. Its SheevaConnect platform lets a vehicle discover nearby Sheeva Pay outlets, authenticate the driver, and pay for real-world services - fueling, EV charging, parking, tolling, QSR and curbside pickup, and car wash - directly from the infotainment system, using patented location intelligence (SheevaLocate, SheevaFence) and tokenized in-vehicle payments (SheevaPay). The SheevaConnect partner API 2.0 exposes drivers, vehicles, sessions, service hubs, payments, wallets and cards, loyalty, feedback, and HMAC-signed status webhooks across US and India regions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/screenshots/sheeva-2026-08-17T125223.png",
      "score": 43.7,
      "band": "developing",
      "band_label": "Developing",

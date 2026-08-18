@@ -722,6 +722,7 @@
      "name": "DocSend",
      "slug": "docsend",
      "description": "DocSend is a secure document sharing and analytics platform, now part of Dropbox, used by sales, marketing, and fundraising teams to share pitch decks, sales collateral, and confidential documents through trackable links. It provides page-by-page viewer analytics, granular access controls (email verification, passcodes, expiration, watermarking), virtual data rooms, and e-signature. DocSend was surfaced as a portfolio company of Cowboy Ventures, DCM Ventures, and Uncork Capital and enriched by the API Evangelist pipeline. DocSend publishes no public REST API and no OpenAPI; its only programmatic surface is a live, OAuth-secured hosted Model Context Protocol (MCP) server at https://docsend.com/mcp, backed by RFC 8414 authorization-server discovery, RFC 9728 protected-resource metadata, dynamic client registration (RFC 7591), and mandatory PKCE. In August 2026 DocSend replaced the server's two coarse mcp:read / mcp:write scopes with five resource-scoped ones — documents:read, spaces:read, spaces:write, analytics:read, contacts:read.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/screenshots/docsend-2026-08-17T123407.png",
      "score": 50.8,
      "band": "developing",
      "band_label": "Developing",

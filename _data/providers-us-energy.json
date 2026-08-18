@@ -15,6 +15,7 @@
      "name": "Tesla Energy",
      "slug": "tesla-energy",
      "description": "Tesla Energy is Tesla's solar generation and battery storage business unit, encompassing residential Powerwall, utility-scale Megapack, retrofit solar panels, and the Solar Roof. The Fleet API exposes energy_sites endpoints that let partners and owners read live power, calendar history, and site info, and write backup reserve, operation mode (self_consumption, backup, autonomous), storm mode, time-of-use settings, and off-grid vehicle charging reserve — the same control surface that powers the Tesla app and integrators like Autobidder, Tesla Electric (virtual power plant), and third-party home energy dashboards.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/screenshots/tesla-energy-2026-08-17T125758.png",
      "score": 62.4,
      "band": "strong",
      "band_label": "Strong",

@@ -1,6 +1,6 @@
 {
- "total": 33,
- "shown": 33,
+ "total": 39,
+ "shown": 39,
  "limit": 1000,
  "bands": [
   {
@@ -375,8 +375,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
+   "count": 11,
+   "shown": 11,
    "providers": [
     {
      "name": "Utrecht University",
@@ -544,6 +544,51 @@
      "rank": 12
     },
     {
+     "name": "Rabobank Australia",
+     "slug": "rabobank-australia",
+     "description": "Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered cooperative bank and one of the world's leading food and agribusiness specialist lenders. In Australia it operates as an Authorised Deposit-taking Institution (ADI), offering rural and agribusiness finance alongside consumer online savings accounts and term deposits, including SMSF products. As a member-focused, cooperatively owned institution rather than a shareholder-driven bank, its Australian retail and business deposit products fall under the Consumer Data Right (CDR / Open Banking). Rabobank therefore exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards, while authenticated consumer data sharing follows the CDR accredited data recipient (ADR) model built on OAuth2 / OpenID Connect (FAPI).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png",
+     "score": 39.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 52.2,
+      "governance": 20.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 42.9,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 13
+    },
+    {
      "name": "Vrije Universiteit Amsterdam",
      "slug": "vrije-universiteit-amsterdam",
      "description": "Vrije Universiteit Amsterdam (VU Amsterdam) is a public research university in the Netherlands, ranked #221 in the QS World University Rankings 2025. Like most universities, VU Amsterdam does not operate a centralized public developer portal. Its programmatic footprint is concentrated in research-infrastructure systems: the VU Research Portal (research.vu.nl), an Elsevier Pure instance that exposes a live OAI-PMH harvesting endpoint and a Pure REST web service, and research data published through DataverseNL. The University Library maintains an active public GitHub organization (ubvu) of open-science tooling. Most teaching, student-information, and identity systems are internal and not publicly documented.",
@@ -586,7 +631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "bunq",
@@ -631,7 +676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "University of Groningen",
@@ -676,7 +721,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Maastricht University",
@@ -721,7 +766,51 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 16
+     "rank": 17
+    },
+    {
+     "name": "Virtuagym",
+     "slug": "virtuagym",
+     "description": "Virtuagym is a Netherlands-based fitness and health club management platform that combines member management, membership and billing administration, class and appointment scheduling, access control / check-ins, and digital coaching (workouts, nutrition, and a branded member app) into one SaaS suite for gyms, studios, personal trainers, and corporate wellness programs. Its Public API (v1) is club-scoped and lets partners and businesses read and write members, employees, membership definitions and instances, member credits, invoices, visits (check-ins), events (classes) and participants, and coaching workout assignments. v1 endpoints authenticate with an api_key plus a club_secret passed as query parameters over HTTPS. Authoritative reference documentation is access-gated (request via api@virtuagym.com); the endpoints modeled here are grounded in Virtuagym's publicly mirrored API wiki and live host probes.",
+     "score": 34.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 59.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 18
     },
     {
      "name": "GLS Group",
@@ -759,7 +848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 19
     }
    ]
   },
@@ -768,8 +857,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6,
-   "shown": 6,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Delft University of Technology",
@@ -813,7 +902,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "Leiden University",
@@ -851,7 +940,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "University of Twente",
@@ -889,7 +978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "data.overheid.nl",
@@ -934,7 +1023,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Insify",
@@ -979,7 +1068,89 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 24
+    },
+    {
+     "name": "TOPdesk",
+     "slug": "topdesk",
+     "description": "TOPdesk is a Netherlands-based service management vendor offering an ITSM and Enterprise Service Management platform used by IT, facilities, HR, and customer service teams for incident management, change management, asset management, self-service portals, and shared service workflows. The TOPdesk REST API uses application password authentication (basic auth) and exposes resources for incidents, changes, assets, persons, operators, and locations for building integrations against on-premises and SaaS TOPdesk environments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/topdesk/refs/heads/main/screenshots/topdesk-2026-06-20T195453.png",
+     "score": 15.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 25
+    },
+    {
+     "name": "ScreenPoint Medical",
+     "slug": "screenpoint-medical",
+     "description": "ScreenPoint Medical is a Netherlands-based healthcare AI company, founded in 2014 by Professor Nico Karssemeijer and Professor Sir Michael Brady, that develops Transpara Breast AI for earlier detection of breast cancer in 2D (FFDM) and 3D (DBT) mammography. Transpara is vendor-agnostic, integrates into PACS and reading workflows via medical-imaging (DICOM) pipelines rather than a public developer API, and is FDA cleared (K241831, K232096) and CE marked (0344). The product is used in over 200 clinics across 25+ countries and is backed by three randomized controlled trials (including MASAI in The Lancet). The company is backed by Insight Partners. This profile was enriched by the API Evangelist pipeline: no public developer/API surface exists, but real security-disclosure and compliance posture were captured.",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 32.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 26
     },
     {
      "name": "Smiler",
@@ -1016,7 +1187,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 27
     }
    ]
   },
@@ -1025,8 +1196,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 10,
-   "shown": 10,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "Plumery",
@@ -1070,7 +1241,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 28
+    },
+    {
+     "name": "Superscript",
+     "slug": "superscript",
+     "description": "Superscript is a UK- and Netherlands-based business insurance provider offering flexible, subscription-based cover for small and growing businesses, sole traders, landlords, and larger enterprises. Its product range spans public and employers' liability, professional indemnity, cyber insurance, landlord insurance, and industry-specific policies, sold direct and through a broker channel. Superscript was surfaced as a portfolio company of Seedcamp and added to the API Evangelist network. As of this enrichment pass it publishes no public API, developer portal, or programmatic integration surface; this profile captures its public web identity and probed domain-security posture.",
+     "score": 12.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 29
     },
     {
      "name": "Otrium",
@@ -1108,7 +1323,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 30
     },
     {
      "name": "Rabobank",
@@ -1153,7 +1368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 31
     },
     {
      "name": "Leyden Labs",
@@ -1198,7 +1413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 32
     },
     {
      "name": "aardaia",
@@ -1236,7 +1451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 33
     },
     {
      "name": "Tibo Energy",
@@ -1280,7 +1495,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 34
+    },
+    {
+     "name": "Qphox",
+     "slug": "qphox",
+     "description": "QphoX is a Delft, Netherlands-based quantum technology company founded in 2021 and spun out of Delft University of Technology (TU Delft). It develops quantum networking hardware to tackle the scaling challenges of quantum computing, centered on its Quantum Transducer, described as the first quantum interface between single optical and single microwave photons, enabling optical interconnects between superconducting quantum processors. Alongside the transducer, QphoX offers an Optical Control System for delivering RF signals into extreme cryogenic environments and a CryoSwitch Control Module for use with Radiall's cryogenic latching actuator. The company publishes open-source Python instrument-control libraries (QCoDeS drivers) on GitHub for operating its hardware. QphoX is backed by Speedinvest. QphoX exposes no public web API or developer portal.",
+     "score": 6.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-17",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 35
     },
     {
      "name": "Fraudio",
@@ -1325,7 +1577,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 36
     },
     {
      "name": "Baan",
@@ -1362,7 +1614,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 37
     },
     {
      "name": "Peerby",
@@ -1399,7 +1651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 38
     },
     {
      "name": "Greenchoice",
@@ -1444,7 +1696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 39
     }
    ]
   }

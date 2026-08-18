@@ -18,7 +18,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5228
+  "count": 5229
  },
  {
   "slug": "automotive",
@@ -109,14 +109,14 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2075
+  "count": 2077
  },
  {
   "slug": "data-analytics",
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2308
+  "count": 2309
  },
  {
   "slug": "defense",
@@ -130,7 +130,7 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 2969
+  "count": 2971
  },
  {
   "slug": "digital-health",
@@ -452,7 +452,7 @@
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1260
+  "count": 1262
  },
  {
   "slug": "transportation",
