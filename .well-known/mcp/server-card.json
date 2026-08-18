@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/schemas/server-card.schema.json",
+  "serverInfo": {
+    "name": "api-evangelist",
+    "title": "API Evangelist MCP",
+    "version": "2.0.0",
+    "description": "Sixteen years of API research as MCP tools. Concierge tools guide teams through the network — get_overview (what API Evangelist offers), guide_topic (curated bundle for any API topic), find_services (how Kin Lane can help your team) — alongside resource tools over 5,100+ stories, 77 topic areas, 2,400+ governance building blocks (guidance, rules, policies, standards, strategies), conversations, papers, and the API vocabulary.",
+    "publisher": {
+      "name": "API Evangelist",
+      "url": "https://apievangelist.com"
+    },
+    "license": "CC-BY-SA-4.0",
+    "source": "https://github.com/api-evangelist/apievangelist-aws"
+  },
+  "transport": {
+    "type": "streamable-http",
+    "url": "https://mcp.apievangelist.com/mcp"
+  },
+  "authentication": {
+    "type": "none",
+    "description": "Public read-only server on the keyless free tier (5 req/s, 1,000 req/day). Higher limits via x-api-key — email info@apievangelist.com."
+  },
+  "capabilities": {
+    "tools": {}
+  },
+  "links": [
+    {
+      "rel": "service-desc",
+      "href": "https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml",
+      "type": "application/vnd.oai.openapi"
+    },
+    {
+      "rel": "documentation",
+      "href": "https://developer.apievangelist.com/",
+      "type": "text/html"
+    },
+    {
+      "rel": "api-catalog",
+      "href": "https://developer.apievangelist.com/.well-known/api-catalog",
+      "type": "application/linkset+json"
+    },
+    {
+      "rel": "agent-skills",
+      "href": "https://apievangelist.com/.well-known/agent-skills/index.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "feeds",
+      "href": "https://developer.apievangelist.com/feeds",
+      "type": "text/html"
+    }
+  ]
+}

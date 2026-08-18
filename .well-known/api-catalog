@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "@context": "https://apievangelist.com/context.jsonld",
+      "anchor": "https://providers.apievangelist.com/",
+      "title": "api-evangelist/providers",
+      "service-doc": [
+        {
+          "href": "https://providers.apievangelist.com/",
+          "type": "text/html"
+        }
+      ],
+      "service-desc": [
+        {
+          "href": "https://providers.apievangelist.com/apis.json",
+          "type": "application/json"
+        },
+        {
+          "href": "https://providers.apievangelist.com/apis.yml",
+          "type": "application/yaml"
+        }
+      ]
+    }
+  ]
+}
